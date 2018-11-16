@@ -1,6 +1,0 @@
-type = "file-corpus"
-list = "cs-410"
-encoding = "utf-8"
-#num-docs = 93
-#metadata = [{name = "label", type = "string"},
-#			{name = "path", type = "string"}]    # metadata explained later
