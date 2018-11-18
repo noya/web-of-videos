@@ -106,7 +106,6 @@ def get_description(d):
         description - A short sentence describing the video
     """
     description = d['description']
-    print("old description",description)
     description = description.encode('ascii', errors='ignore').decode()
 
     # will only show no more than 200 characters
@@ -117,7 +116,9 @@ def get_description(d):
     # if there's new line than only capture current line
     description = re.sub(r'\n', r' ', description)
     description = re.sub(r'(\t)?', "", description)
-    print("mod description", description)
+
+    if description == "":
+        description = "None"
     
     return description
 
@@ -196,6 +197,9 @@ def test_metapy_files(dir_name, prefix):
     
     # check if test-idx exists
     print("testing", prefix)
+    if os.path.exists("idx_orig"):
+       shutil.rmtree("idx_orig")
+        
     if os.path.exists("idx"):
         os.rename("idx", "idx_orig")
         
@@ -214,6 +218,7 @@ def test_metapy_files(dir_name, prefix):
         os.rename("data/metadata.dat", "data/metadata.dat.orig")
     shutil.copy("data/" + dir_name + "/" + prefix + "-metadata.dat", "data/metadata.dat")
     
+    print("testing index")
     test_idx('test-config.toml')
 
     # restore to previous state
@@ -243,15 +248,14 @@ def write_metapy_files(path, prefix):
         None
     """
     curr_dir = os.getcwd()
-    os.chdir(path)
     
     # get youtube json files and subtitle files
-    jsons = glob.glob("*.json")
-    subtitles = glob.glob("*.en.vtt")
+    jsons = glob.glob(path + "/*.json")
+    subtitles = glob.glob(path + "/*.en.vtt")
      
     # open metapy files for writing
-    corpus = open(prefix + "-full-corpus.txt", "w")
-    metadata = open(prefix + "-metadata.dat", "w")
+    corpus = open(path + "/" + prefix + "-full-corpus.txt", "w")
+    metadata = open(path+ "/" + prefix + "-metadata.dat", "w")
     
     # loop through each video information file
     for j in jsons:
@@ -290,9 +294,6 @@ def write_metapy_files(path, prefix):
     corpus.close()
     metadata.close()
     
-    # move back to original directory
-    os.chdir(curr_dir)
-    
     
         
 def get_course_data(dir_name, playlist_name, skip_download=False):
@@ -316,16 +317,20 @@ def file_len(file_name):
         raise IOError(err)
     return int(result.strip().split()[0])
 
-def append_file(full_corpus, file_list, postfix):
+def append_file(full_corpus, file_list, postfix, overwrite):
     """ Append new file content to filename"""
     # open corpus file for writing
-    fullcorpus =  open(full_corpus, "w+")
+    opts = "w"
+    if not overwrite:
+        opts = "w+"
+        
+    fullcorpus =  open(full_corpus, opts)
     line_cnt = 0
 
     # open each file in file_list 
     for file in file_list:
-        print(file['dir_name'])
         filename = file['dir_name'] + "/" + file['dir_name'] + postfix
+        print(filename)
         corpus = open(filename)
         
         # write each line in corpus to fullcorpus
@@ -340,7 +345,7 @@ def append_file(full_corpus, file_list, postfix):
     # return total number of lines written
     return line_cnt
     
-def merge_course_data(full_prefix, dir_name, file_list):
+def merge_course_data(full_prefix, dir_name, file_list, overwrite=True):
     """ write contents from each file in corpus_list to corpus_name file
     write contents in each file in metadata_list to metadata_name
     Note the number of lines corpus and metadata must match
@@ -350,21 +355,19 @@ def merge_course_data(full_prefix, dir_name, file_list):
             dir_name - directory name which contains all the files specified in file_list. 
                     Usually dir_name is data
             file_list - files containing all the courses
+            overwrite - flag to choose if we want to keep the original content in full-corpus.txt and metadata.dat or append the original file
     """
     # store the current directory. Change to specified directory
     prev_dir = os.getcwd()
-    os.chdir(dir_name)
-    
-    # check before we start anything, the two input files have the same number of lines
-    assert(file_len(full_corpus) == file_len(full_metadata))
+    os.chdir(dir_name) 
     
     # open corpus file for writing
     corpus_postfix = "-full-corpus.txt"
-    corpus_cnt = append_file(full_prefix + corpus_postfix, file_list, corpus_postfix)
+    corpus_cnt = append_file(full_prefix + corpus_postfix, file_list, corpus_postfix, overwrite)
 
     # open metadata file for writing
     metadata_postfix = "-metadata.dat"
-    metadata_cnt = append_file(full_prefix + metadata_postfix, file_list, metadata_postfix)           
+    metadata_cnt = append_file(full_prefix + metadata_postfix, file_list, metadata_postfix, overwrite)           
     
     # move back to previous directory
     os.chdir(prev_dir)
@@ -374,7 +377,6 @@ def merge_course_data(full_prefix, dir_name, file_list):
 if __name__ == '__main__':  
     
     curr_dir = os.getcwd()
-    #os.chdir('..')
     
     playlists = [
         {
@@ -407,34 +409,21 @@ if __name__ == '__main__':
     ]
     
     # download you tube files 
-    #get_youtube_files(playlists[3]['dir_name'], playlists[3]['playlist_name'], skip_download=True)
-    test_metapy_files(playlists[2]['dir_name'], playlists[2]['dir_name'])
     for playlist in playlists:
-        #get_course_data(playlist['dir_name'], playlist['playlist_name'])
-        # todo: check corpus.txt and metadata.dat have the same length
-        # testing : try reading the files
-        test_metapy_files(playlist['dir_name'])
+        # download and create coursera data files
+        get_course_data(playlist['dir_name'], playlist['playlist_name'], skip_download=True)
+        # testing : try reading the created coursera data files
+        test_metapy_files(playlist['dir_name'], playlist['dir_name'])
     
-    
+    # merge all the course data into one file
     full_corpus = "dataset-full-corpus.txt"
     full_metadata = "metadata.dat"
-    
     full_prefix = "merge"
-    # merge all the course data into one file
+    
     merge_course_data(full_prefix, "data", playlists)
     
-    # need to test merge files, but in current directory
-    test_metapy_files(".", "merge")
-    
-    os.chdir(curr_dir)
-    
-    
-    dir_name = "data"
-    prefix = "uiuc-text-mining-analytics"
-    prev_dir = os.getcwd()
-    #os.chdir(dir_name)
+    # test merged file
+    test_metapy_files("", "merge")
     
 
-    
-    #os.chdir(prev_dir)
     
