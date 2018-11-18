@@ -1,0 +1,531 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.260 --> 00:00:02.510
+Today we're going to introduce
+the topic of language modeling,
+
+00:00:02.510 --> 00:00:06.370
+one of the most important topics
+in natural language processing.
+
+00:00:06.370 --> 00:00:09.780
+The goal of language modeling is to
+assign a probability to a sentence.
+
+00:00:09.780 --> 00:00:13.860
+Why would we want to assign
+a probability to a sentence?
+
+00:00:13.860 --> 00:00:15.940
+This comes up in all
+sorts of applications.
+
+00:00:15.940 --> 00:00:20.670
+In machine translation, for example, we'd
+like to be able to distinguish between
+
+00:00:20.670 --> 00:00:23.160
+good and
+bad translations by their probability.
+
+00:00:23.160 --> 00:00:27.950
+So, high winds tonight might be a better
+translation than large winds tonight,
+
+00:00:27.950 --> 00:00:30.130
+because high and winds go together well.
+
+00:00:30.130 --> 00:00:35.270
+In spelling correction, we see a phrase
+like fifteeen minuets from my house.
+
+00:00:35.270 --> 00:00:37.910
+That's more likely to be a mistake for
+minutes.
+
+00:00:37.910 --> 00:00:41.470
+And one piece of information that
+let's us decide that is that
+
+00:00:41.470 --> 00:00:46.520
+fifteen minutes from is a much more
+likely phrase than fifteen minuets from.
+
+00:00:46.520 --> 00:00:51.530
+And in speech recognition, a phrase like,
+I saw a van, is much more likely than
+
+00:00:51.530 --> 00:00:56.900
+a phrase that sounds phonetically similar,
+eyes awe of an.
+
+00:00:56.900 --> 00:00:59.710
+But it's much less likely to
+have that sequence of words.
+
+00:00:59.710 --> 00:01:02.718
+And it turns out language modelings
+play a role in summarization and
+
+00:01:02.718 --> 00:01:04.760
+question-answering, really everywhere.
+
+00:01:05.880 --> 00:01:09.750
+So, the goal of a language model is to
+compute the probability of a sentence or
+
+00:01:09.750 --> 00:01:11.430
+a sequence of words.
+
+00:01:11.430 --> 00:01:14.521
+So, given some sequence of words,
+w1 through wn,
+
+00:01:14.521 --> 00:01:17.626
+we're going to compute their probability,
+P(W).
+
+00:01:17.626 --> 00:01:22.698
+And we'll use capital W to
+mean a sequence from w1 to wn.
+
+00:01:22.698 --> 00:01:26.274
+Now this is related to the task
+of computing the probability of
+
+00:01:26.274 --> 00:01:27.388
+an upcoming word.
+
+00:01:27.388 --> 00:01:31.459
+So, P(w5), given w1 through w4,
+
+00:01:31.459 --> 00:01:39.020
+is very related to the task of
+computing P(w1, w2, w3, w4, w5).
+
+00:01:39.020 --> 00:01:45.700
+A model that computes either of these
+things, either P(W), meaning a string,
+
+00:01:45.700 --> 00:01:49.230
+the joint probability of the whole string,
+or the conditional probability of the last
+
+00:01:49.230 --> 00:01:52.490
+word given the previous words, either of
+those, we call that a language model.
+
+00:01:53.710 --> 00:01:56.130
+Now, it might have been better
+to call this the grammar.
+
+00:01:56.130 --> 00:01:59.820
+I mean technically what this is,
+is telling us something about how good
+
+00:01:59.820 --> 00:02:03.450
+these words fit together and we'd normally
+use the word grammar for that, but
+
+00:02:03.450 --> 00:02:06.560
+it turns out that the word language model,
+and often, we'll see the acronym LM,
+
+00:02:06.560 --> 00:02:09.650
+is more standard, so
+we're going to go with that.
+
+00:02:09.650 --> 00:02:12.110
+So, how are we going to compute
+this joint probability?
+
+00:02:12.110 --> 00:02:16.540
+We want to compute, let's say the
+probability of the phrase, its water is so
+
+00:02:16.540 --> 00:02:20.140
+transparent that,
+this little part of a sentence.
+
+00:02:20.140 --> 00:02:23.420
+And the intuition for how language
+modeling works is that we are going to
+
+00:02:23.420 --> 00:02:25.530
+rely on the chain rule of probability.
+
+00:02:25.530 --> 00:02:29.590
+And just to remind you about
+the chain rule of probability,
+
+00:02:29.590 --> 00:02:32.400
+let's think about the definition
+of conditional probability.
+
+00:02:32.400 --> 00:02:38.364
+So P of A given B,
+equals P(A,B), over P(B),
+
+00:02:38.364 --> 00:02:43.216
+and we can rewrite that,
+so P of A given B,
+
+00:02:43.216 --> 00:02:47.657
+times P(B), equals P(A,B), or
+
+00:02:47.657 --> 00:02:54.035
+turning it around, P of (A,
+B) equals P of A given B,
+
+00:02:54.035 --> 00:02:59.446
+make sure that's a given, times P(B), and
+
+00:02:59.446 --> 00:03:04.997
+then we can generalize
+this to more variables so
+
+00:03:04.997 --> 00:03:10.687
+that the joint probability
+of a whole sequence,
+
+00:03:10.687 --> 00:03:15.260
+A, B, C, D, is the probability of A,
+
+00:03:15.260 --> 00:03:20.114
+times B given A,
+times C condition on A and
+
+00:03:20.114 --> 00:03:24.400
+B, times D condition A, B, C.
+
+00:03:24.400 --> 00:03:27.720
+So this is the chain rule, and
+a more general form of the chain rule,
+
+00:03:27.720 --> 00:03:31.218
+we have here, the probability of any
+joint probability of any sequence
+
+00:03:31.218 --> 00:03:34.367
+of intervals is the first times
+the conditional, the second and
+
+00:03:34.367 --> 00:03:36.875
+the first times a third condition,
+the first two,
+
+00:03:36.875 --> 00:03:39.701
+up until the last condition on the first,
+and minus one.
+
+00:03:39.701 --> 00:03:41.680
+All right, the chain rule.
+
+00:03:41.680 --> 00:03:45.085
+So now the chain rule can be applied
+to compute the joint probability of
+
+00:03:45.085 --> 00:03:45.890
+words in a sentence.
+
+00:03:45.890 --> 00:03:49.440
+So let's suppose we have our phrase,
+its water is so transparent,
+
+00:03:50.440 --> 00:03:54.860
+by the chain rule, the probability of
+that sequence is the probability of its,
+
+00:03:54.860 --> 00:03:58.880
+times the probability of water given its,
+times the probability of is given its
+
+00:03:58.880 --> 00:04:02.970
+water, times the probability of so
+given its water is, and finally,
+
+00:04:02.970 --> 00:04:06.200
+times the probability of
+transparent given its water is so.
+
+00:04:06.200 --> 00:04:09.450
+Or, more formally, the probability of,
+
+00:04:09.450 --> 00:04:13.840
+the joint probability of a sequence
+of words is the product over all i,
+
+00:04:13.840 --> 00:04:17.810
+of the probability of each word,
+times the prefix up until that word.
+
+00:04:20.730 --> 00:04:23.060
+How are we going to estimate
+these probabilities?
+
+00:04:23.060 --> 00:04:24.286
+Could we just count and divide?
+
+00:04:24.286 --> 00:04:26.758
+We often compute probabilities
+by counting and dividing.
+
+00:04:26.758 --> 00:04:30.946
+So, the probability of the given
+its water is so transparent that,
+
+00:04:30.946 --> 00:04:35.794
+we could just count how many times its
+water is so transparent that the occurs,
+
+00:04:35.794 --> 00:04:40.130
+and divide by the number of times
+its water is so transparent occurs.
+
+00:04:40.130 --> 00:04:45.890
+So, we could divide this by this,
+and get a probability.
+
+00:04:45.890 --> 00:04:48.830
+We can't do that, and the reason
+we can't do that is there's just
+
+00:04:48.830 --> 00:04:52.750
+far too many possible sentences for
+us to ever estimate these.
+
+00:04:52.750 --> 00:04:56.480
+There's no way we could get enough
+data to see the counts of all possible
+
+00:04:56.480 --> 00:04:57.340
+sentences of English.
+
+00:04:58.450 --> 00:05:03.060
+So what we do instead is we apply
+a simplifying assumption called
+
+00:05:03.060 --> 00:05:08.380
+the Markov assumption, named for
+Andrei Markov, and the Markov assumption
+
+00:05:08.380 --> 00:05:13.330
+suggests that we estimate the probability
+of the given its water is so
+
+00:05:13.330 --> 00:05:17.780
+transparent that just by computing instead
+the probability the given the word that.
+
+00:05:18.800 --> 00:05:21.910
+Or, the very last, that meaning
+the last word in the sequence.
+
+00:05:21.910 --> 00:05:25.040
+Or maybe, we compute the probability
+of the given its water is so
+
+00:05:25.040 --> 00:05:27.800
+transparent that,
+given just the last two words.
+
+00:05:27.800 --> 00:05:29.900
+So, the given transparent that.
+
+00:05:29.900 --> 00:05:31.890
+So, that's the Markov assumption.
+
+00:05:31.890 --> 00:05:35.730
+Let's just look at the previous, or
+maybe the couple previous words,
+
+00:05:35.730 --> 00:05:37.090
+rather than the entire context.
+
+00:05:38.780 --> 00:05:43.290
+More formally, the Markov assumption says
+the probability of a sequence of words
+
+00:05:43.290 --> 00:05:48.200
+is the product for each word of
+the conditional probability of that word
+
+00:05:48.200 --> 00:05:51.249
+given some prefix of the last few words.
+
+00:05:53.160 --> 00:05:54.458
+So, in other words,
+
+00:05:54.458 --> 00:05:59.445
+in the chain rule product of all the
+probabilities we're multiplying together,
+
+00:05:59.445 --> 00:06:04.140
+we estimate the probability of wi,
+given the entire prefix from 1 to i-1,
+
+00:06:04.140 --> 00:06:08.648
+by a simpler to compute probability,
+wi, given just the last few words.
+
+00:06:11.808 --> 00:06:15.380
+The simplest case of a Markov
+model is called the Unigram model.
+
+00:06:15.380 --> 00:06:18.860
+In the Unigram model, we simply estimate
+the probability of a whole sequence of
+
+00:06:18.860 --> 00:06:23.840
+words by the product of probabilities
+of individual words, unigrams.
+
+00:06:23.840 --> 00:06:27.400
+And if we generated sentences
+by randomly picking words,
+
+00:06:27.400 --> 00:06:29.340
+you can see that it would
+look like word salad.
+
+00:06:29.340 --> 00:06:32.960
+So here's some automatically generated
+sentence, generated by Dan Kline,
+
+00:06:32.960 --> 00:06:35.890
+and you can see that, with the word fifth,
+the word an, the word of,
+
+00:06:35.890 --> 00:06:39.130
+this doesn't look like a sentence at,
+it's just a random sequencing of words.
+
+00:06:39.130 --> 00:06:41.200
+Thrift, did, eighty, said.
+
+00:06:41.200 --> 00:06:43.200
+That's the properties of a Unigram model.
+
+00:06:43.200 --> 00:06:46.070
+Words are independent, in this model.
+
+00:06:46.070 --> 00:06:49.240
+Slightly more intelligent
+is a Bigram model,
+
+00:06:49.240 --> 00:06:51.540
+where we condition on
+a single previous word.
+
+00:06:51.540 --> 00:06:55.870
+So again, we estimate the probability
+of a word, given the entire prefix
+
+00:06:55.870 --> 00:07:00.200
+from the beginning to the previous word,
+just by the previous word.
+
+00:07:00.200 --> 00:07:05.230
+So now if we use that and generate
+random sentences from a Bigram model,
+
+00:07:05.230 --> 00:07:07.500
+the sentences look a little
+bit more like English.
+
+00:07:07.500 --> 00:07:09.690
+Still, something's wrong with them,
+clearly.
+
+00:07:09.690 --> 00:07:12.870
+Outside, new car, well,
+new car looks pretty good.
+
+00:07:12.870 --> 00:07:16.130
+Car parking is pretty good,
+parking lot, but together,
+
+00:07:16.130 --> 00:07:20.340
+outside new car parking lot of
+the agreement reached, that's not English.
+
+00:07:20.340 --> 00:07:25.770
+So even the Bigram model, by giving up
+these conditioning that English has,
+
+00:07:25.770 --> 00:07:29.560
+we're simplifying the ability of the model
+to model what's going on in any language.
+
+00:07:31.410 --> 00:07:36.627
+Now we can extend the N-gram model further
+to trigrams, that's 3-grams, or 4-grams,
+
+00:07:36.627 --> 00:07:41.382
+or 5-grams, but in general, it's clear
+that N-gram modeling is an insufficient
+
+00:07:41.382 --> 00:07:46.520
+model of language, and the reason is that
+language has long distance dependencies.
+
+00:07:46.520 --> 00:07:51.040
+So if I want to say,
+predict, the computer,
+
+00:07:51.040 --> 00:07:54.750
+which I had just put into the machine room
+on the fifth floor, and I hadn't seen this
+
+00:07:54.750 --> 00:07:58.790
+next word, and I want to say,
+what's my likelihood of the next word?
+
+00:07:58.790 --> 00:08:01.635
+And I condition it just in
+the previous word, floor.
+
+00:08:01.635 --> 00:08:04.102
+I'd be very unlikely to guess crashed.
+
+00:08:04.102 --> 00:08:08.170
+But, really, crashed is the main
+verb of the sentence, and
+
+00:08:08.170 --> 00:08:11.320
+computer is the subject,
+the head of the subject noun phrase.
+
+00:08:11.320 --> 00:08:16.010
+So, if we knew computer was the subject,
+we're much more likely to guess crashed.
+
+00:08:16.010 --> 00:08:20.540
+So, these kind of long distance
+dependencies mean that in the limit,
+
+00:08:20.540 --> 00:08:23.215
+a really good model of
+predicting English words,
+
+00:08:23.215 --> 00:08:26.210
+we'll have to take into account
+lots of long distance information.
+
+00:08:26.210 --> 00:08:30.510
+But it turns out that in practice, we can
+often get away with these N-gram models,
+
+00:08:30.510 --> 00:08:34.680
+because the local information, especially
+as we get up to trigrams and 4-grams,
+
+00:08:34.680 --> 00:08:37.880
+will turn out to be just constraining
+enough that in most cases,
+
+00:08:37.880 --> 00:08:39.540
+it'll solve our problems for us.
+

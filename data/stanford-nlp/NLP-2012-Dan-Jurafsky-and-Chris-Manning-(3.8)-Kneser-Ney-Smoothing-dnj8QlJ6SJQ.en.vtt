@@ -1,0 +1,559 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.250 --> 00:00:03.100
+Let's talk about Kneser- Ney Smoothing.
+
+00:00:03.100 --> 00:00:05.440
+One of the most sophisticated
+forms of smoothing but
+
+00:00:05.440 --> 00:00:07.950
+also one with a beautiful and
+elegant intuition.
+
+00:00:10.000 --> 00:00:14.340
+Remember that from good turing,
+we talked about the C starts,
+
+00:00:14.340 --> 00:00:17.350
+the discounted counts you
+end up from good turing.
+
+00:00:17.350 --> 00:00:19.371
+And we discount it.
+
+00:00:19.371 --> 00:00:24.319
+Each of the counts, count of one
+which was discounted to 0.04 and
+
+00:00:24.319 --> 00:00:27.475
+the count of 2 discounted to 1.26 and so
+
+00:00:27.475 --> 00:00:32.934
+on in order to save mass to replace the
+zero counts with some lower numbers and
+
+00:00:32.934 --> 00:00:37.539
+if you look at the actual values
+of this counts 8.25 for 9 and
+
+00:00:37.539 --> 00:00:42.914
+7.24 for 8 you notice that in very
+large number of cases the discounted
+
+00:00:42.914 --> 00:00:47.410
+count has a very close relationship
+with the original count.
+
+00:00:47.410 --> 00:00:50.455
+It's really the original count minus 0.75.
+
+00:00:50.455 --> 00:00:52.600
+Or somewhat close to that.
+
+00:00:52.600 --> 00:00:56.980
+So, in practice,
+what good turing often does
+
+00:00:56.980 --> 00:01:01.500
+is produce a fixed small
+discount from the counts.
+
+00:01:01.500 --> 00:01:07.290
+In that intuition that of a fixed small
+discount can be applied directly.
+
+00:01:07.290 --> 00:01:09.780
+When we do this we call this
+absolute discounting and
+
+00:01:09.780 --> 00:01:13.270
+absolute discounting is
+a popular kind of smoothing.
+
+00:01:13.270 --> 00:01:17.380
+And here we're showing you absolute
+discounting interpolation.
+
+00:01:17.380 --> 00:01:20.290
+And again the intuition is just we'll
+save some time and have to compute
+
+00:01:20.290 --> 00:01:23.410
+all of those complicated and good touring
+numbers and we'll just subtract 0.75 or
+
+00:01:23.410 --> 00:01:26.780
+maybe it will be a different discount
+value for different corpora.
+
+00:01:27.780 --> 00:01:30.180
+And here's the equation for
+absolute discounting.
+
+00:01:30.180 --> 00:01:31.780
+So we're doing bigrams again.
+
+00:01:31.780 --> 00:01:37.420
+So the probability AbsoluteDiscounting
+of a word given the previous word will
+
+00:01:37.420 --> 00:01:42.580
+be some discounted bigram interpolated
+with some interpolation weight,
+
+00:01:42.580 --> 00:01:43.870
+with the unigram probability.
+
+00:01:43.870 --> 00:01:47.630
+So we have a unigram probability PFW and
+then the bigram probability.
+
+00:01:47.630 --> 00:01:52.560
+And we just subtract a fixed amount,
+let's say it's 0.75,
+
+00:01:52.560 --> 00:01:56.670
+from the count and otherwise compute
+the bigram probability in the normal way.
+
+00:01:56.670 --> 00:02:00.050
+So we have a discounted bigram
+probability, mixed with some weight,
+
+00:02:00.050 --> 00:02:03.170
+which I will talk later about how
+to set this weight, with a unigram.
+
+00:02:03.170 --> 00:02:07.410
+And maybe we might keep a couple of extra
+values of d for accounts one and two.
+
+00:02:07.410 --> 00:02:12.245
+Accounts one and two we saw on the
+previous slide weren't quite subtracting
+
+00:02:12.245 --> 00:02:18.230
+0.75 so we can model this more carefully
+by having separate counts for those.
+
+00:02:18.230 --> 00:02:22.710
+But the problem with absolute discounting
+is the unigram probability itself.
+
+00:02:22.710 --> 00:02:25.830
+And I want to talk about
+changing the unigram probability
+
+00:02:25.830 --> 00:02:28.238
+not the fundamental
+intuition of Kneser-Ney.
+
+00:02:28.238 --> 00:02:30.080
+So in Kneser-Ney Smoothing,
+
+00:02:30.080 --> 00:02:34.890
+the idea is keep that same interpolation
+that we saw an absolute discounting, but
+
+00:02:34.890 --> 00:02:38.810
+use a better estimate of
+probabilities of the lower unigrams.
+
+00:02:38.810 --> 00:02:42.280
+And the intuition for that, we can go back
+and look at the classic Shannon games.
+
+00:02:42.280 --> 00:02:45.350
+Remember the Shannon game we're
+predicting a word from previous words.
+
+00:02:45.350 --> 00:02:48.450
+So we see a sentence I can't
+see without my reading,
+
+00:02:49.650 --> 00:02:50.900
+what's the most likely next word?
+
+00:02:50.900 --> 00:02:52.560
+Well glasses seems pretty likely.
+
+00:02:52.560 --> 00:02:56.440
+Well how about instead,
+the word Francisco?
+
+00:02:56.440 --> 00:02:59.340
+Well that seems very
+unlikely in this situation.
+
+00:02:59.340 --> 00:03:04.350
+And yet Francisco as just a unigram,
+is more common than glasses.
+
+00:03:06.190 --> 00:03:10.370
+But the reason why Fransisco seems
+like a bad thing after reading,
+
+00:03:10.370 --> 00:03:14.510
+one intuition we might be able to get
+is that Fransisco always follows San,
+
+00:03:14.510 --> 00:03:16.260
+or very often follows San.
+
+00:03:16.260 --> 00:03:20.150
+So while Fransisco is very frequent, it's
+frequent in the context of the word San.
+
+00:03:21.970 --> 00:03:25.560
+Now, unigrams in an interpolation
+model where we're mixing a unigram and
+
+00:03:25.560 --> 00:03:28.100
+a bigram are specifically useful.
+
+00:03:28.100 --> 00:03:31.340
+They're very helpful just in case
+where we haven't seen the bigram.
+
+00:03:31.340 --> 00:03:35.440
+So it's unfortunate that just in the case
+where we haven't seen the bigram
+
+00:03:35.440 --> 00:03:39.430
+reading Francisco,
+we're trusting Francisco's unigram way,
+
+00:03:39.430 --> 00:03:40.820
+which is just where we shouldn't trust it.
+
+00:03:41.980 --> 00:03:45.810
+So instead of using the probability of W,
+how likely is a word,
+
+00:03:45.810 --> 00:03:48.390
+our intuition is going to be when
+we're backing off to something,
+
+00:03:48.390 --> 00:03:52.020
+we should instead use the continuation
+probability, we're going to call it P
+
+00:03:52.020 --> 00:03:56.790
+continuation of a word, how likely is the
+word to appear as a novel continuation?
+
+00:03:56.790 --> 00:03:59.770
+How do we measure novel continuation?
+
+00:03:59.770 --> 00:04:03.960
+For each word we will just count
+the number of bigrams types and completes.
+
+00:04:03.960 --> 00:04:08.780
+How many different bigrams does it
+create by appearing after another word?
+
+00:04:08.780 --> 00:04:13.070
+In other words each bigram type is a novel
+continuation the first time you see
+
+00:04:13.070 --> 00:04:14.760
+this new bigram.
+
+00:04:14.760 --> 00:04:17.850
+In other words,
+the continuation probability
+
+00:04:17.850 --> 00:04:21.220
+is going to be proportional to
+the cardinality of this set.
+
+00:04:21.220 --> 00:04:28.340
+The number of preceding words i
+minus one that occur with our word.
+
+00:04:28.340 --> 00:04:33.330
+How many words occur before
+this word in a bigram?
+
+00:04:33.330 --> 00:04:35.040
+How many preceding words are there?
+
+00:04:35.040 --> 00:04:38.880
+That will be, the cardinality of that set,
+that's the number we would like our
+
+00:04:38.880 --> 00:04:41.350
+continuation probability
+to be proportionate too.
+
+00:04:42.460 --> 00:04:45.500
+So, how many times does W
+appear as a novel continuation?
+
+00:04:45.500 --> 00:04:47.571
+We need to turn that into a probability,
+so
+
+00:04:47.571 --> 00:04:50.800
+we just divide by the total
+number of word bigram types.
+
+00:04:50.800 --> 00:04:53.099
+So, of all word bigrams
+
+00:04:54.920 --> 00:04:58.360
+that occur more than 0 times,
+what's the cardinality of that set?
+
+00:04:58.360 --> 00:05:00.760
+How many different word
+bigram types are there?
+
+00:05:00.760 --> 00:05:05.520
+And we're just going to divide the two
+to get a probability of continuation.
+
+00:05:05.520 --> 00:05:09.330
+Of all the number of word
+bigram types how many of those
+
+00:05:09.330 --> 00:05:10.899
+have w as a novel of continuation?
+
+00:05:12.330 --> 00:05:14.325
+Now it turns out to this
+an alternative metaphor for
+
+00:05:14.325 --> 00:05:16.530
+Kneser-Ney with the same equations.
+
+00:05:16.530 --> 00:05:20.650
+So again we can see
+the numerator as the number.
+
+00:05:20.650 --> 00:05:23.280
+The total number of word
+types that proceed w.
+
+00:05:23.280 --> 00:05:26.198
+How many word types can w follow?
+
+00:05:26.198 --> 00:05:29.238
+And we're going to normalize it by
+the number of words that could proceed
+
+00:05:29.238 --> 00:05:30.220
+all words.
+
+00:05:30.220 --> 00:05:36.340
+So the sum over all words of the number
+of word types that can proceed the word.
+
+00:05:37.460 --> 00:05:40.500
+And these two are the same.
+
+00:05:40.500 --> 00:05:45.136
+This denominator and the denominator we
+saw on the previous slide are the same
+
+00:05:45.136 --> 00:05:49.770
+because the number of possible bi-gram
+types is the same as the number of word
+
+00:05:49.770 --> 00:05:53.122
+types that can proceed all
+words summed over all words,
+
+00:05:53.122 --> 00:05:57.137
+if you think about that for
+a second you will realize that's true.
+
+00:05:57.137 --> 00:06:01.896
+So in other words with this kind of
+knewser-ney model a frequent word like
+
+00:06:01.896 --> 00:06:06.041
+Francisco that occurs only in one
+context like san will have a low
+
+00:06:06.041 --> 00:06:07.980
+continuation probability.
+
+00:06:07.980 --> 00:06:13.080
+So if we put together the intuition of
+absolute discounting with the Kneser-Ney
+
+00:06:13.080 --> 00:06:18.800
+probability for the lower order n-gram, we
+have the Kneser-Ney smoothing algorithm.
+
+00:06:18.800 --> 00:06:24.850
+So for the bigram itself,
+we just have absolute discounting.
+
+00:06:24.850 --> 00:06:28.160
+We take the bigram count,
+we subtract some d discount.
+
+00:06:28.160 --> 00:06:31.630
+And I've just shown here that we take
+the max of that in 0 because obviously
+
+00:06:31.630 --> 00:06:33.650
+if the discount happens to be
+higher than the probability,
+
+00:06:33.650 --> 00:06:34.900
+we don't want a negative probability.
+
+00:06:34.900 --> 00:06:38.580
+And then we're just going to interpolate
+that with the same continuation
+
+00:06:38.580 --> 00:06:44.050
+probability that we just saw,
+P continuation of W sub i.
+
+00:06:44.050 --> 00:06:47.190
+And the lambda, now let's talk
+about how to compute that lambda.
+
+00:06:47.190 --> 00:06:52.015
+The lambda is going to take all that
+probability mass from all those all those
+
+00:06:52.015 --> 00:06:57.160
+normalized discounts that we took out
+of these higher order probabilities and
+
+00:06:57.160 --> 00:07:02.340
+use those to weight how much probability
+we should assign to the unigram,
+
+00:07:02.340 --> 00:07:04.210
+we're going to combine those.
+
+00:07:04.210 --> 00:07:10.340
+So that lambda is the amount of
+the discount weight divided by
+
+00:07:10.340 --> 00:07:16.090
+the denominator there so
+it's the normalized discount.
+
+00:07:16.090 --> 00:07:19.880
+And then we're going to multiply that
+by the total number of word types
+
+00:07:19.880 --> 00:07:22.580
+that can follow this context,
+wi minus one.
+
+00:07:22.580 --> 00:07:26.890
+In other words, how many different
+word types did we discount?
+
+00:07:26.890 --> 00:07:30.240
+Or how many times did we apply
+this normalized discount and
+
+00:07:30.240 --> 00:07:34.760
+we multiply those together and we know how
+much probability mass total we can now
+
+00:07:34.760 --> 00:07:37.090
+assign to to the continuation of the word.
+
+00:07:37.090 --> 00:07:41.200
+Now, this is the bigram formulation for
+Kneser-Ney.
+
+00:07:41.200 --> 00:07:44.880
+Now, in this slide we're showing you
+the general recursive formulation for
+
+00:07:44.880 --> 00:07:45.880
+n grams in general.
+
+00:07:45.880 --> 00:07:50.980
+And here we have to make a slight change
+to deal with all the higher engrams.
+
+00:07:50.980 --> 00:07:54.800
+So here we're just showing the Kneser-Ney
+probability of a word given the prefix of
+
+00:07:54.800 --> 00:08:00.200
+a word and, just like Knese-Ney we saw
+before we're just interpolating a higher
+
+00:08:00.200 --> 00:08:05.030
+order engram which is discounted
+with a lambda weight and
+
+00:08:05.030 --> 00:08:06.340
+a lower order probability.
+
+00:08:06.340 --> 00:08:09.900
+But now we need to distinguish
+between the very first
+
+00:08:09.900 --> 00:08:14.720
+top level time that we use account and
+these lower order counts.
+
+00:08:14.720 --> 00:08:19.140
+We're going to use the actual count for
+the very highest order bigram and
+
+00:08:19.140 --> 00:08:23.260
+we're going to use the continuation
+value that we just defined earlier for
+
+00:08:23.260 --> 00:08:24.600
+all the lower order probabilities.
+
+00:08:25.690 --> 00:08:28.058
+So, we will define this new thing.
+
+00:08:28.058 --> 00:08:33.130
+Count Kneser-Ney which will
+mean the actual account,
+
+00:08:33.130 --> 00:08:34.280
+this will be actual account.
+
+00:08:34.280 --> 00:08:35.610
+Let's say we're doing trigrams.
+
+00:08:35.610 --> 00:08:39.830
+For the trigram, and then we will recurse
+and have the Kneser-Ney probability for
+
+00:08:39.830 --> 00:08:42.510
+the lower orders when we get down
+to the biograms and unigrams,
+
+00:08:42.510 --> 00:08:44.565
+we will be using the continuation account.
+
+00:08:44.565 --> 00:08:48.554
+That's again this single word
+context that we defined earlier.
+
+00:08:48.554 --> 00:08:51.490
+So Kneser-Ney smoothing,
+a very excellent algorithm,
+
+00:08:51.490 --> 00:08:54.730
+it's very commonly used in speech
+recognition and machine translation and
+
+00:08:56.190 --> 00:08:58.910
+yet it has a very beautiful and elegant
+intuition and I hope you appreciate it.
+

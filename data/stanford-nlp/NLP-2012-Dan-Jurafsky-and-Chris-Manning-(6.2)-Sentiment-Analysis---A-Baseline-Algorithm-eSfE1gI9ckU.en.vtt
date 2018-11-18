@@ -1,0 +1,811 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.760 --> 00:00:03.890
+Let's give A Baseline Algorithm for
+Sentiment Analysis.
+
+00:00:03.890 --> 00:00:08.560
+And the task we're going to use is
+sentiment classification of movie reviews.
+
+00:00:08.560 --> 00:00:14.300
+And I've drawn on the work of Pang and Lee
+and their collaborators in this lecture.
+
+00:00:14.300 --> 00:00:18.167
+So their task was what's often called
+Polarity detection, simple positive or
+
+00:00:18.167 --> 00:00:20.486
+negative, no complicated sentiment issues.
+
+00:00:20.486 --> 00:00:24.994
+And they're going to apply this to
+movie reviews from the IMDB website.
+
+00:00:24.994 --> 00:00:29.410
+And they've released some data
+that's often used in research
+
+00:00:29.410 --> 00:00:32.760
+called Polarity Data 2.0
+which is a set of IMDB movie
+
+00:00:32.760 --> 00:00:37.020
+reviews that have been text normalized and
+I pointed you here at the URL for that.
+
+00:00:39.690 --> 00:00:42.954
+Here's some examples of movies from
+their database and take a look and
+
+00:00:42.954 --> 00:00:49.462
+see if you can decide which ones positive
+and which ones negative Hopefully,
+
+00:00:49.462 --> 00:00:54.000
+you decide that the first one is
+positive and the second one is negative.
+
+00:00:54.000 --> 00:00:57.380
+And the way you'd decide that
+is words like aggravating and
+
+00:00:57.380 --> 00:01:00.840
+unbelievably disappointing for
+negative and cool for positive.
+
+00:01:00.840 --> 00:01:04.040
+So these are the words, they're going to
+help us in the classification task.
+
+00:01:05.110 --> 00:01:08.207
+In the baseline algorithm
+itself has a number of steps.
+
+00:01:08.207 --> 00:01:14.152
+We're going to start by tokenizing
+the words in the review itself.
+
+00:01:14.152 --> 00:01:15.690
+Then we're going to extract features and
+
+00:01:15.690 --> 00:01:18.215
+the features we're going to look
+at mostly are words themselves.
+
+00:01:18.215 --> 00:01:21.580
+And then we'll take these features and
+apply them in a classifier.
+
+00:01:21.580 --> 00:01:23.200
+And we've talked about Naive Bayes so
+
+00:01:23.200 --> 00:01:25.380
+we're going to use Naive Bayes
+in today's lecture.
+
+00:01:25.380 --> 00:01:29.640
+But in practice, we might just as often or
+even more often uses a MaxEnt
+
+00:01:29.640 --> 00:01:33.180
+classifier which we'll talk about
+in a future or SVM classifier.
+
+00:01:33.180 --> 00:01:35.130
+Any classifier works fine.
+
+00:01:39.250 --> 00:01:42.516
+Sentiment tokenization, a lot of the same
+issues come up as any kind of tokenization
+
+00:01:42.516 --> 00:01:43.810
+we've talked about earlier..
+
+00:01:43.810 --> 00:01:47.518
+In sentiment,
+your likely be dealing with websites, so
+
+00:01:47.518 --> 00:01:49.847
+you going to have HTML and XML mark up.
+
+00:01:49.847 --> 00:01:54.211
+You might be dealing with Twitter, so
+then you have to deal with hash tags and
+
+00:01:54.211 --> 00:01:55.450
+Twitter usernames.
+
+00:01:56.740 --> 00:02:00.820
+Capitalization, which in many other kinds
+of text normalization isn't so important,
+
+00:02:00.820 --> 00:02:03.150
+often it's just,
+we get rid of capitalization.
+
+00:02:03.150 --> 00:02:05.750
+We might in sentiment want to
+preserve at least some of it,
+
+00:02:05.750 --> 00:02:07.130
+perhaps words in all caps.
+
+00:02:07.130 --> 00:02:09.578
+People are often shouting
+by using capitalization.
+
+00:02:09.578 --> 00:02:13.150
+We're going to want to normalize
+phone numbers and dates and
+
+00:02:13.150 --> 00:02:19.630
+it's very important in sentiment
+tokenization to recognize emoticons.
+
+00:02:19.630 --> 00:02:23.823
+So I'll show you here a set
+of regular expressions for
+
+00:02:23.823 --> 00:02:27.000
+detecting emoticons from Chris Potts.
+
+00:02:27.000 --> 00:02:30.226
+So here,
+we have one long regular expression for
+
+00:02:30.226 --> 00:02:33.618
+recognizing an optional hat,
+followed by an eye.
+
+00:02:33.618 --> 00:02:38.792
+Followed by an optional nose and
+then a mouth, and so on, so
+
+00:02:38.792 --> 00:02:44.600
+you can see to that, either in
+a positive or reverse orientation.
+
+00:02:44.600 --> 00:02:48.324
+And this set of regular
+expressions comes from
+
+00:02:48.324 --> 00:02:52.820
+a whole sentiment tokenizer
+that I pointed you at here.
+
+00:02:52.820 --> 00:02:56.870
+And there's other kinds of tokenizers like
+Brendan O Connor's twitter tokenizer.
+
+00:02:56.870 --> 00:02:57.740
+You can also go look at.
+
+00:03:01.040 --> 00:03:04.670
+So, a number of issues come
+up in extracting features for
+
+00:03:04.670 --> 00:03:05.830
+sentiment classification.
+
+00:03:07.040 --> 00:03:08.303
+One is negation.
+
+00:03:08.303 --> 00:03:11.805
+It's very important to detect
+negation in a word like, didn't,
+
+00:03:11.805 --> 00:03:14.003
+so we know that I didn't like this movie.
+
+00:03:14.003 --> 00:03:16.049
+We should be able to detect
+that it's quite different than,
+
+00:03:16.049 --> 00:03:16.970
+I really like this movie.
+
+00:03:16.970 --> 00:03:19.500
+So we're going to need to
+deal with negation and
+
+00:03:19.500 --> 00:03:22.680
+we also have to deal with
+the question of which words to use.
+
+00:03:22.680 --> 00:03:24.770
+We might want to use just adjectives.
+
+00:03:24.770 --> 00:03:26.544
+We might want to use all
+the words in the text.
+
+00:03:26.544 --> 00:03:30.956
+In turns out that, at least on this
+IMDB data and maybe in general.
+
+00:03:30.956 --> 00:03:35.017
+That looking at all words is better than
+looking at just adjectives because often
+
+00:03:35.017 --> 00:03:38.790
+verbs or nouns or other words give us
+a lot of information about sentiment.
+
+00:03:40.870 --> 00:03:42.060
+So how do we deal with negation?
+
+00:03:43.970 --> 00:03:48.240
+Here is the simplest algorithm
+first proposed by Das and
+
+00:03:48.240 --> 00:03:50.710
+Chen and used very frequently after that.
+
+00:03:50.710 --> 00:03:55.610
+We simply take the four letters
+N-O-T under bar and we prepend
+
+00:03:55.610 --> 00:04:00.680
+them to every word between the negation
+word and then the following punctuation.
+
+00:04:00.680 --> 00:04:05.330
+So we have a phrase like,
+didn't like this movie comma but I and
+
+00:04:05.330 --> 00:04:09.950
+we turn that into didn't Not_like,
+NOT_this, NOT_movie.
+
+00:04:09.950 --> 00:04:13.326
+So, now we've essentially
+doubled our vocabulary size,
+
+00:04:13.326 --> 00:04:17.386
+every word could be itself or
+the core of the word with NOT_ prepended.
+
+00:04:17.386 --> 00:04:22.365
+And we're going to learn that these
+NOT_ words, we've created words for
+
+00:04:22.365 --> 00:04:25.967
+negative sentiment or for
+flipping the sentiment.
+
+00:04:28.506 --> 00:04:33.492
+To remind ourselves about Naive Bayes,
+the most likely class,
+
+00:04:33.492 --> 00:04:38.294
+according to Naive Bayes is that
+class out of all classes which
+
+00:04:38.294 --> 00:04:41.911
+maximized the product
+of two probabilities.
+
+00:04:41.911 --> 00:04:45.690
+The prior,
+the probability of the class and
+
+00:04:45.690 --> 00:04:49.879
+the product over all
+positions in the document of
+
+00:04:49.879 --> 00:04:55.111
+the likelihood of the word in
+that document given the class.
+
+00:04:55.111 --> 00:04:58.662
+So how likely are we to see
+a positive movie review times for
+
+00:04:58.662 --> 00:05:00.547
+every position the document,
+
+00:05:00.547 --> 00:05:05.060
+how likely is that word to have been
+expressed by a positive movie review.
+
+00:05:05.060 --> 00:05:07.820
+In the same for negative and
+we pick whichever one positive or
+
+00:05:07.820 --> 00:05:10.340
+negative has highest probability or
+if we are doing three,
+
+00:05:10.340 --> 00:05:12.549
+we are doing neutral as well,
+we could have three classes.
+
+00:05:13.770 --> 00:05:17.250
+And in practice, for
+sentiment analysis and
+
+00:05:17.250 --> 00:05:22.290
+lots of other text classification tasks,
+we use simple Laplace or
+
+00:05:22.290 --> 00:05:25.380
+add one smoothing with Naive Bayes.
+
+00:05:25.380 --> 00:05:29.780
+So the way we're computing this likelihood
+probability of a word given the class,
+
+00:05:29.780 --> 00:05:33.850
+is just by adding 1 to the count and
+then the vocabulary sized the denominator.
+
+00:05:36.470 --> 00:05:39.260
+For sentiment and
+other text classification tasks,
+
+00:05:39.260 --> 00:05:44.010
+we often use a slight variant of the
+Naive Bayes algorithm called Binarized or
+
+00:05:44.010 --> 00:05:45.880
+Boolean multinomial Naive Bayes.
+
+00:05:45.880 --> 00:05:50.380
+And the intuition of this algorithm
+is that for sentiment and for
+
+00:05:50.380 --> 00:05:54.240
+other text classification tasks we
+care more whether a word occurred or
+
+00:05:54.240 --> 00:05:57.150
+not Then exactly what its frequency is.
+
+00:05:57.150 --> 00:06:00.800
+So, for example,
+the occurrence of the word fantastic
+
+00:06:00.800 --> 00:06:03.990
+tells us maybe a lot that
+we have a positive review.
+
+00:06:03.990 --> 00:06:06.054
+But fantastic occurring three times or
+
+00:06:06.054 --> 00:06:09.316
+five times may not tell us a lot
+more then just occurring once.
+
+00:06:09.316 --> 00:06:14.043
+So in Boolean Multinomial Naive Bayes
+we simply clip all the word
+
+00:06:14.043 --> 00:06:17.118
+counts in each document had a count of 1.
+
+00:06:17.118 --> 00:06:21.455
+So, instead of using the four term
+frequency, we'll just use a count of 1 for
+
+00:06:21.455 --> 00:06:22.389
+each document.
+
+00:06:22.389 --> 00:06:24.976
+So, if we look at our original
+learning algorithm for
+
+00:06:24.976 --> 00:06:28.658
+Multinomial Naive Bayes, here,
+remember we extract our Vocabulary, and
+
+00:06:28.658 --> 00:06:31.724
+now we're going to calculate our priors,
+remember the priors.
+
+00:06:31.724 --> 00:06:36.062
+And by looking every, how many documents
+occur with a particular class over
+
+00:06:36.062 --> 00:06:39.270
+the total number of documents,
+so there's our prior.
+
+00:06:39.270 --> 00:06:44.125
+And for the likelihood terms for
+each word for each class,
+
+00:06:44.125 --> 00:06:48.386
+we roughly counted how many
+times this word counted
+
+00:06:48.386 --> 00:06:52.366
+this word over the count
+of all words in a class.
+
+00:06:52.366 --> 00:06:56.487
+Then it gives us the likelihood of a word
+in a class then we did some add one
+
+00:06:56.487 --> 00:06:57.312
+smoothing and
+
+00:06:57.312 --> 00:07:01.380
+we're going to do the exact same thing
+with Boolean with one extra step.
+
+00:07:03.370 --> 00:07:07.510
+Before we do our concatenating of all
+the documents into one big document and
+
+00:07:07.510 --> 00:07:10.800
+counting all the words in it,
+we are going to remove duplicates.
+
+00:07:10.800 --> 00:07:13.170
+So for each document for every word type,
+
+00:07:13.170 --> 00:07:15.975
+we're just going to retain
+a single instance of that word.
+
+00:07:15.975 --> 00:07:19.820
+So if a word is heard five times,
+we'll keep only one copy of that word.
+
+00:07:19.820 --> 00:07:23.240
+And then we can concatenate all of these
+documents and then we'll do our counting
+
+00:07:23.240 --> 00:07:27.180
+and our add one smoothing and everything
+as we did before for Naive Bayes.
+
+00:07:28.540 --> 00:07:32.160
+So that's our training algorithm for
+Naive Bayes in the Boolean form.
+
+00:07:33.390 --> 00:07:37.290
+The testing, when you're doing
+Boolean Multinomial Naive Bayes we do
+
+00:07:37.290 --> 00:07:42.180
+the exact same thing, we remove from the
+test document, all the duplicate words.
+
+00:07:42.180 --> 00:07:46.510
+So if a word occurs five times,
+we keep only one copy of it.
+
+00:07:46.510 --> 00:07:51.070
+And then we use the same Naive Bayes
+equation we've been using before on this
+
+00:07:51.070 --> 00:07:53.080
+slightly reduced test document.
+
+00:07:53.080 --> 00:07:56.570
+Let's look at an example of
+Boolean Multinomial Naive Bayes.
+
+00:07:56.570 --> 00:07:59.600
+And here we've put up the little document
+that we saw when we were talking about
+
+00:07:59.600 --> 00:08:00.760
+Naive Bayes originally.
+
+00:08:02.220 --> 00:08:07.413
+So we have here four Training
+documents and one Test document.
+
+00:08:07.413 --> 00:08:10.732
+And so,
+the word Chinese occurs in Class C,
+
+00:08:10.732 --> 00:08:15.052
+three documents are in Class C,
+so it occurs four times.
+
+00:08:15.052 --> 00:08:19.789
+One, two, three, four, five, sorry,
+
+00:08:19.789 --> 00:08:24.549
+five times, so
+the count of Chinese is five.
+
+00:08:24.549 --> 00:08:28.752
+And it occurs three times in our Test
+document, Chinese equals 3 and so on.
+
+00:08:28.752 --> 00:08:31.714
+So in our Naive Bayes equation,
+
+00:08:31.714 --> 00:08:37.093
+we're going to be using this
+count to compute the likelihood
+
+00:08:37.093 --> 00:08:42.266
+the probability of Chinese
+given the document Class C.
+
+00:08:42.266 --> 00:08:46.638
+But in the Boolean format we're simply
+going to pre-process the documents
+
+00:08:46.638 --> 00:08:49.447
+to remove all multiple copies of a word.
+
+00:08:49.447 --> 00:08:51.147
+Here's our Boolean version now.
+
+00:08:51.147 --> 00:08:54.628
+So you'll notice that there is only 1
+copy of the word Chinese in document 1,
+
+00:08:54.628 --> 00:08:56.752
+1 copy in document 2,
+1 copy in document 3.
+
+00:08:56.752 --> 00:09:01.116
+So now,
+our counts in the C class in training for
+
+00:09:01.116 --> 00:09:04.182
+Chinese, the count of Chinese.
+
+00:09:08.687 --> 00:09:13.770
+Now the count Chinese is
+going to be 3 instead of 5 and
+
+00:09:13.770 --> 00:09:18.509
+in the test set here count
+of Chinese is only 1.
+
+00:09:18.509 --> 00:09:23.715
+So it turns out that this version of
+Naive Bayes Binarized Boolean feature,
+
+00:09:23.715 --> 00:09:28.772
+Multinomial Naive Bayes, works better
+than using the full word counts.
+
+00:09:28.772 --> 00:09:32.335
+And I want to note that for those of you
+who know about that there's an alternative
+
+00:09:32.335 --> 00:09:35.437
+version of Naive Bayes called
+Multivariate Bernoulli Naive Bayes.
+
+00:09:35.437 --> 00:09:40.306
+Using binarized Boolean features in
+Multinomial Naive Bayes is not the same as
+
+00:09:40.306 --> 00:09:42.751
+Multivariate Bernoulli Naive Bayes.
+
+00:09:42.751 --> 00:09:46.033
+In fact, Multivariate Bernoulli Naive
+Bayes doesn't seem to work as well for
+
+00:09:46.033 --> 00:09:47.186
+sentiment or other tasks.
+
+00:09:47.186 --> 00:09:52.898
+So we generally use binarized words
+rather than the full word counts.
+
+00:09:52.898 --> 00:09:55.446
+Although, some researchers
+like Rennie et al.,
+
+00:09:55.446 --> 00:09:58.424
+suggested that maybe something
+in between the frequency.
+
+00:09:58.424 --> 00:10:01.748
+And just one word like looking
+at the log of the frequency
+
+00:10:01.748 --> 00:10:06.347
+which is smaller than the frequency but
+maybe different than just using one,
+
+00:10:06.347 --> 00:10:08.061
+maybe a useful thing to try.
+
+00:10:08.061 --> 00:10:11.487
+And if you're interested
+you can read the literature
+
+00:10:11.487 --> 00:10:15.839
+on this whole question of which
+version are your basis most useful.
+
+00:10:15.839 --> 00:10:18.805
+As we introduced the last time, Pang and
+
+00:10:18.805 --> 00:10:23.966
+Lee in our baseline classifier we're
+going to use cross-validation.
+
+00:10:23.966 --> 00:10:27.449
+So cross-validation remember we
+break up our data into 10 folds,
+
+00:10:27.449 --> 00:10:30.070
+I've shown only 5 folds here.
+
+00:10:30.070 --> 00:10:34.060
+And inside each fold,
+let's say we might have the same number.
+
+00:10:34.060 --> 00:10:37.920
+Let's say, we have half positive and
+half negative in our data.
+
+00:10:37.920 --> 00:10:44.680
+So we have, let's say, four positive and
+four negative in our test set.
+
+00:10:44.680 --> 00:10:49.640
+Then we're going to have also,
+let's say we have 500 positive and
+
+00:10:49.640 --> 00:10:51.590
+500 negative in our training.
+
+00:10:51.590 --> 00:10:54.991
+So we're going to make sure that our test
+set has the same distribution of positive
+
+00:10:54.991 --> 00:10:56.475
+and negative as our training set.
+
+00:10:56.475 --> 00:11:00.928
+And then we're going to rotate our test
+set through our data and each time,
+
+00:11:00.928 --> 00:11:03.047
+we're going to train a classifier.
+
+00:11:03.047 --> 00:11:08.037
+So classifier 1, classifier 2
+will train on this Training data,
+
+00:11:08.037 --> 00:11:11.545
+test on this Test data and
+compute an accuracy.
+
+00:11:11.545 --> 00:11:16.119
+So we'll have accuracy 1, accuracy 2,
+accuracy 3, for each of these classifiers.
+
+00:11:16.119 --> 00:11:22.649
+And well compute this
+performances of this classifiers,
+
+00:11:22.649 --> 00:11:27.978
+so we have 5 different
+example here 9 each time
+
+00:11:27.978 --> 00:11:33.186
+we training on a fold
+including our accuracy.
+
+00:11:33.186 --> 00:11:38.070
+Will take the average of all those and
+report the average of this 10
+
+00:11:38.070 --> 00:11:42.451
+runs each one training 9 folds and
+testing in one test fold.
+
+00:11:42.451 --> 00:11:51.089
+And in general it's nice if
+we also add a final test set.
+
+00:11:51.089 --> 00:11:54.859
+It turns out that other kind
+of classifiers MaxEnt and
+
+00:11:54.859 --> 00:11:57.550
+SVM often do better than Naive Bayes.
+
+00:11:57.550 --> 00:12:00.198
+It depends a lot on you data set and
+the size of the data.
+
+00:12:00.198 --> 00:12:03.500
+But you want to take a look at all
+sorts of different classifiers when
+
+00:12:03.500 --> 00:12:04.140
+you're doing a base.
+
+00:12:06.310 --> 00:12:09.198
+Now this base line algorithm
+has a lot of problems.
+
+00:12:09.198 --> 00:12:12.657
+One problem is that sentiment is
+just a hard task in general, so
+
+00:12:12.657 --> 00:12:14.957
+here's some examples from Pang and Lee.
+
+00:12:14.957 --> 00:12:18.650
+Take a look at them, if you're reading
+this because it is your darling fragrance,
+
+00:12:18.650 --> 00:12:21.412
+please wear it at home exclusively and
+tape the windows shut.
+
+00:12:21.412 --> 00:12:24.614
+So, that's a negative review of a perfume,
+but
+
+00:12:24.614 --> 00:12:28.610
+very hard to find just by using
+positive and negative words.
+
+00:12:28.610 --> 00:12:33.876
+Or the famous witty comment by
+Dorothy Parker on Katherine Hepburn,
+
+00:12:33.876 --> 00:12:37.070
+she runs the gamut of
+emotions from A to B.
+
+00:12:38.080 --> 00:12:39.280
+Again, quite difficult to detect.
+
+00:12:42.530 --> 00:12:45.880
+Another problem that often
+occurs in sentiment is called,
+
+00:12:45.880 --> 00:12:50.040
+the Thwarted Expectation Problem,
+has to do with ordering effects.
+
+00:12:50.040 --> 00:12:55.240
+So, here read this first review,
+this film should be brilliant,
+
+00:12:55.240 --> 00:12:59.770
+sounds like a great plot, actors are first
+rate lots of positive things going on, but
+
+00:12:59.770 --> 00:13:02.760
+at the end the reviewer
+says it can't hold up.
+
+00:13:02.760 --> 00:13:05.000
+So seems like a positive review,
+but it's not.
+
+00:13:06.260 --> 00:13:10.518
+Similarly, in this sentence, the very
+talented Laurence Fishbourne, not so good.
+
+00:13:10.518 --> 00:13:14.628
+So here we're setting up, I expected
+the movie to be good and it wasn't good.
+
+00:13:14.628 --> 00:13:17.882
+So this kind of ordering effect is
+something that we're going to have
+
+00:13:17.882 --> 00:13:20.975
+to deal with in any kind of more
+advanced sentiment algorithm.
+
+00:13:22.545 --> 00:13:26.695
+So that's the basic Baseline Algorithm
+that we can see for Sentiment Analysis.
+

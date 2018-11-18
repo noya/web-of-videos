@@ -1,0 +1,837 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.680 --> 00:00:01.710
+Hi again.
+
+00:00:01.710 --> 00:00:06.340
+Okay we've already laid some of the ground
+work with notions like term frequency and
+
+00:00:06.340 --> 00:00:08.230
+inverse document frequency.
+
+00:00:08.230 --> 00:00:09.010
+In this segment,
+
+00:00:09.010 --> 00:00:15.160
+what I want to introduce is properly the
+retrieval model of the vector space model.
+
+00:00:15.160 --> 00:00:18.550
+Which is one of the most commonly
+used models of information retrieval
+
+00:00:18.550 --> 00:00:19.200
+in real systems.
+
+00:00:20.920 --> 00:00:26.540
+So we saw in the previous segment how we
+turn documents into real valued vectors.
+
+00:00:26.540 --> 00:00:29.140
+And so, we now have a V dimensional vector
+
+00:00:29.140 --> 00:00:33.410
+space where V is the number
+of words now vocabulary.
+
+00:00:33.410 --> 00:00:37.210
+The terms,
+the words are the axis of the space, and
+
+00:00:37.210 --> 00:00:40.550
+documents you can think of as
+either just points in the space or
+
+00:00:40.550 --> 00:00:43.690
+vectors from the origin
+pointing out to those points.
+
+00:00:43.690 --> 00:00:48.560
+So we now have a very high dimensional
+space, tens of millions of dimensions
+
+00:00:48.560 --> 00:00:53.120
+in a real system when you apply this
+such as in a web search engine.
+
+00:00:53.120 --> 00:00:58.100
+A crucial property of these vectors
+is that they're very sparse vectors,
+
+00:00:58.100 --> 00:01:01.710
+most of the entries are zero
+because each individual document
+
+00:01:01.710 --> 00:01:04.760
+only typically has a few hundred or
+a thousand words in it.
+
+00:01:06.930 --> 00:01:11.440
+So then, if we have this vector
+space of documents, how do we handle
+
+00:01:11.440 --> 00:01:16.640
+querying it when a query comes in, and
+the key idea there is that we treat
+
+00:01:16.640 --> 00:01:21.950
+queries exactly the same way, they're also
+going to be vectors in the same space.
+
+00:01:21.950 --> 00:01:23.030
+And then if we do that,
+
+00:01:23.030 --> 00:01:27.420
+we can rank documents according to their
+proximity to the query in this space.
+
+00:01:28.670 --> 00:01:33.379
+So proximity corresponds
+to similarity of vectors,
+
+00:01:33.379 --> 00:01:38.200
+and therefore it's roughly
+the reverse of distance.
+
+00:01:38.200 --> 00:01:43.165
+And we're doing this because we want to
+get a way from the you're-either-in-or-out
+
+00:01:43.165 --> 00:01:47.683
+Boolean model and have a relative score as
+to how well a document matches a query.
+
+00:01:47.683 --> 00:01:51.468
+We're going to rank more relevant
+documents higher than less relevant
+
+00:01:51.468 --> 00:01:52.890
+documents.
+
+00:01:52.890 --> 00:01:55.149
+Let's try and
+make that all a bit more precise.
+
+00:01:57.670 --> 00:02:01.577
+So how can we formalize
+proximity in a vector space?
+
+00:02:01.577 --> 00:02:06.358
+The first attempt is just to take
+the distance between two points, that is,
+
+00:02:06.358 --> 00:02:10.250
+the distance between the end
+points of their vectors.
+
+00:02:10.250 --> 00:02:12.710
+And the standard way to
+do that in a vector space
+
+00:02:12.710 --> 00:02:15.210
+would be Euclidean distance
+between the points.
+
+00:02:15.210 --> 00:02:20.290
+But it turns out Euclidean distance by
+itself isn't actually a good idea and
+
+00:02:20.290 --> 00:02:25.030
+that's because Euclidean distance is
+large for vectors of different lengths.
+
+00:02:25.030 --> 00:02:27.440
+Let me explain what I mean by that.
+
+00:02:29.460 --> 00:02:33.780
+Let's suppose here is our vector space.
+
+00:02:33.780 --> 00:02:42.180
+Well, what we're finding is the distance
+between here and here is large.
+
+00:02:42.180 --> 00:02:49.760
+In particular, it's larger than either
+the distance here, or the distance there.
+
+00:02:49.760 --> 00:02:54.331
+But, if we actually think of this in terms
+of its information retrieval problem and
+
+00:02:54.331 --> 00:02:57.220
+look in what's in our space,
+that's seems wrong.
+
+00:02:57.220 --> 00:03:01.850
+In this tiny example the two word actually
+
+00:03:01.850 --> 00:03:07.350
+shown are here for gossip,
+and here, for jealous.
+
+00:03:07.350 --> 00:03:12.340
+And what our query is, this is
+the query that would come out precisely
+
+00:03:12.340 --> 00:03:15.480
+if your query is gossip and jealous.
+
+00:03:15.480 --> 00:03:19.347
+So it has both of those words
+occurring with equal weight.
+
+00:03:19.347 --> 00:03:24.470
+Well, if we then look at our documents,
+what we find is document one
+
+00:03:24.470 --> 00:03:28.400
+seems to have a lot to do with gossiping
+and nothing to do with jealousy.
+
+00:03:28.400 --> 00:03:34.110
+And document three has a lot to do with
+jealousy and nothing to do With gossiping.
+
+00:03:34.110 --> 00:03:38.898
+Whereas document two seems just
+the kind of document we want to get,
+
+00:03:38.898 --> 00:03:42.930
+one that has a lot to do with
+both gossiping and jealousy.
+
+00:03:42.930 --> 00:03:49.825
+So the terms in the document d2
+are very similar to the ones in q.
+
+00:03:49.825 --> 00:03:53.590
+So we want to be saying that, that is
+actually the most similar document.
+
+00:03:55.050 --> 00:03:58.620
+And so this suggests a way to solve
+this problem and move forward.
+
+00:03:58.620 --> 00:04:02.900
+And that is,
+rather than just talking about distance,
+
+00:04:02.900 --> 00:04:06.820
+what we want to start looking at
+is the angle in the vector space.
+
+00:04:08.520 --> 00:04:12.960
+So the idea is we can use
+angle instead of distance.
+
+00:04:12.960 --> 00:04:14.420
+So let's, in particular,
+
+00:04:14.420 --> 00:04:17.940
+motivate that once by considering
+this thought experiment.
+
+00:04:17.940 --> 00:04:23.320
+Suppose that we take a document and append
+it to itself giving us a document d prime.
+
+00:04:23.320 --> 00:04:27.680
+So clearly semantically, d and
+d prime have the same content.
+
+00:04:27.680 --> 00:04:30.358
+They cover the same information.
+
+00:04:30.358 --> 00:04:34.652
+But if we're just working in a regular
+vector space with Euclidean distance,
+
+00:04:34.652 --> 00:04:37.980
+the distance between the two
+documents will be quite large.
+
+00:04:37.980 --> 00:04:43.300
+And that's because if we had a vector and
+this was the vector for d.
+
+00:04:44.350 --> 00:04:49.030
+And the vector for d prime would be
+twice as long pointing out here and
+
+00:04:49.030 --> 00:04:53.280
+so that we have a quite large
+distance between these two vectors.
+
+00:04:53.280 --> 00:04:55.000
+So we don't want to do that.
+
+00:04:55.000 --> 00:05:00.240
+Instead, what we want to notice is
+that these two vectors are in a line,
+
+00:05:00.240 --> 00:05:06.080
+so the angle between the two vectors is
+zero, corresponding to maximal similarity.
+
+00:05:06.080 --> 00:05:10.280
+And so the idea is, we're going to
+rank documents according to that angle
+
+00:05:10.280 --> 00:05:12.760
+between the document and the query.
+
+00:05:12.760 --> 00:05:15.440
+And so
+the following two notions are equivalent,
+
+00:05:15.440 --> 00:05:19.070
+ranking documents in decreasing order
+of their angle between the query and
+
+00:05:19.070 --> 00:05:23.820
+the document and
+ranking documents in increasing
+
+00:05:23.820 --> 00:05:29.180
+order of the cosine of the angle
+between the query and the document.
+
+00:05:29.180 --> 00:05:32.604
+So, I'll go through that in a little
+bit more detail, but you'll often
+
+00:05:32.604 --> 00:05:36.380
+hear the phrase cosine similarity, and
+this is what we're introducing here.
+
+00:05:36.380 --> 00:05:42.260
+And the secret here is just to notice
+that cosine is a monotonically
+
+00:05:42.260 --> 00:05:48.390
+decreasing function for angle between
+the interval 0 and 180 degrees.
+
+00:05:48.390 --> 00:05:52.130
+So here's the cosine which
+you should remember.
+
+00:05:52.130 --> 00:05:58.830
+So if the angle is 0, the cosine of it
+is 1 If it's perpendicular 90 degrees,
+
+00:05:58.830 --> 00:06:03.600
+the cosine is zero, and it can keep
+on going right up to 180 degrees and
+
+00:06:03.600 --> 00:06:08.630
+the cosine is continuing
+to descend to minus one.
+
+00:06:08.630 --> 00:06:14.338
+So essentially, all we need to observe
+here is that cosine in a monotonically
+
+00:06:14.338 --> 00:06:20.010
+decreasing function in
+the range of zero to 180 so
+
+00:06:20.010 --> 00:06:25.830
+therefore cosine score serves
+as a kind of inverse of angle.
+
+00:06:25.830 --> 00:06:30.960
+And, well, that might still
+make it seem a rather strange
+
+00:06:30.960 --> 00:06:36.040
+thing to use, I mean, we could have just
+taken the reciprocal of the angle or
+
+00:06:36.040 --> 00:06:40.040
+the negative of the angle and
+that would've also turned things around so
+
+00:06:40.040 --> 00:06:44.030
+we got a measure of closeness between
+documents as a similarity measure.
+
+00:06:44.030 --> 00:06:48.400
+But it turns out the cosine
+measure is actually standard,
+
+00:06:48.400 --> 00:06:54.400
+because there's actually a very
+efficient way to evaluate the cosine of
+
+00:06:54.400 --> 00:06:59.360
+the angle between documents using vector
+arithmetic where we don't actually use
+
+00:06:59.360 --> 00:07:04.760
+any transcendental functions like cosine
+that would take a long time to compute.
+
+00:07:04.760 --> 00:07:09.160
+So the starting point of going through
+this is getting an idea of the length
+
+00:07:09.160 --> 00:07:12.830
+of a vector and
+how to normalize the length of a vector.
+
+00:07:12.830 --> 00:07:17.970
+So for any vector so we have a vector X.
+
+00:07:17.970 --> 00:07:23.060
+We can work out the length
+of the vector by summing up
+
+00:07:23.060 --> 00:07:28.980
+each of it's components squared, and then
+taking the square root around the outside.
+
+00:07:28.980 --> 00:07:34.280
+So that if we have something
+like a vector that's three four,
+
+00:07:34.280 --> 00:07:40.780
+what we're going to do is take three
+squared nine, four squared 16, and then
+
+00:07:42.240 --> 00:07:47.430
+add those gives 25,
+take the square root, gives five, and
+
+00:07:47.430 --> 00:07:51.873
+that's the length that the vector, just
+like in the standard Pythagorean triangle.
+
+00:07:52.890 --> 00:07:55.350
+Okay, so if we then take any vector and
+
+00:07:55.350 --> 00:08:00.540
+divide it by its length, we then get
+a unit length vector which you can think
+
+00:08:00.540 --> 00:08:05.540
+of as a vector that touches the surface
+of unit hypersphere around the origin.
+
+00:08:06.730 --> 00:08:11.940
+Now, if we go back to the example that
+we had earlier of two documents, d and
+
+00:08:11.940 --> 00:08:15.080
+d appended to itself to get d prime.
+
+00:08:15.080 --> 00:08:20.310
+You can see that these documents,
+if they are both length normalized,
+
+00:08:20.310 --> 00:08:25.410
+will go back to exactly the same position,
+and because of that once you length
+
+00:08:25.410 --> 00:08:29.370
+normalize vectors, long and
+short documents have comparable weights.
+
+00:08:30.850 --> 00:08:37.450
+So the secret of our cosine measure,
+is that we do this length normalization.
+
+00:08:37.450 --> 00:08:41.540
+So here's the cosine similarity
+between two documents,
+
+00:08:41.540 --> 00:08:46.460
+which is the cosine of the angle
+between the two documents.
+
+00:08:46.460 --> 00:08:47.930
+And the way we do that,
+
+00:08:47.930 --> 00:08:52.560
+is in the numerator,
+we calculate here a dot product.
+
+00:08:52.560 --> 00:08:57.100
+So we're taking the individual
+components of the vector here,
+
+00:08:57.100 --> 00:09:01.940
+component by component, and
+multiplying them and taking their sum.
+
+00:09:01.940 --> 00:09:07.010
+But then the way we do that is that we've
+
+00:09:07.010 --> 00:09:12.220
+then got this denominator which is
+considering the length of the vectors.
+
+00:09:12.220 --> 00:09:14.420
+And you can write it like this but
+actually,
+
+00:09:14.420 --> 00:09:20.000
+what it's equivalent to is
+taking each vector dot and
+
+00:09:20.000 --> 00:09:25.590
+length normalizing at, and then taking
+the dot product of the whole thing
+
+00:09:25.590 --> 00:09:31.190
+because it's these sort of two parts
+you can factor a path as you wish.
+
+00:09:31.190 --> 00:09:36.180
+And so, written out in full,
+it's over here, but we have
+
+00:09:36.180 --> 00:09:41.320
+the length normalizations on the bottom
+and then this sum dot product on the top.
+
+00:09:43.070 --> 00:09:49.720
+Okay, where each of these elements, q i is
+a tf-idf weight of term i in the query,
+
+00:09:49.720 --> 00:09:55.560
+and d i is the tf-idf weight
+of the term in the document.
+
+00:09:55.560 --> 00:10:00.290
+In particular, what we might want
+to do is actually length normalize
+
+00:10:00.290 --> 00:10:05.435
+our document vectors in advance and
+length normalize our cosine
+
+00:10:05.435 --> 00:10:09.980
+Length-normalize our query
+vector once the query comes in.
+
+00:10:09.980 --> 00:10:13.480
+And if we do that this
+cosine similarity measure
+
+00:10:13.480 --> 00:10:17.140
+is simply the dot product of
+length-normalized vectors.
+
+00:10:17.140 --> 00:10:22.330
+And so
+we're simply just taking this sum here
+
+00:10:22.330 --> 00:10:26.750
+in the vector space where,
+as we discussed before,
+
+00:10:26.750 --> 00:10:31.670
+in reality we won't do it over all
+elements of the vector, we'll just do it
+
+00:10:31.670 --> 00:10:37.650
+over the terms in
+the vocabulary that are in
+
+00:10:37.650 --> 00:10:42.639
+the intersection of ones that
+appear in q and the document.
+
+00:10:45.150 --> 00:10:48.720
+So going back to the kind
+of picture we had before,
+
+00:10:48.720 --> 00:10:53.610
+we now again have our vector
+space which again we're showing
+
+00:10:53.610 --> 00:10:58.140
+with just two axes here to keep it
+viewable, which are now poor and
+
+00:10:58.140 --> 00:11:02.860
+rich and
+we can take any document vector and
+
+00:11:02.860 --> 00:11:08.570
+we can map it down to unit length
+by doing this length normalization.
+
+00:11:08.570 --> 00:11:14.420
+And when we do that, we get all
+document vectors being vectors that
+
+00:11:14.420 --> 00:11:20.430
+touch the surface of this unit hyposphere,
+which is just a circle in two dimensions.
+
+00:11:20.430 --> 00:11:25.800
+And so then we want to order
+documents by a similarity by a query.
+
+00:11:25.800 --> 00:11:31.100
+We take this query here, and
+we're working out the angle,
+
+00:11:31.100 --> 00:11:35.236
+or the cosine of the angle
+to other documents.
+
+00:11:35.236 --> 00:11:40.948
+So, in particular the cosine will
+be highest the small angles.
+
+00:11:40.948 --> 00:11:46.150
+So, if we order these documents in
+terms of the cosine of the angle.
+
+00:11:46.150 --> 00:11:53.651
+The document will be d2, then it
+will be d1, and then it will be d3.
+
+00:11:55.068 --> 00:11:59.420
+Okay, let's now go through this concretely
+with an example so In this example,
+
+00:11:59.420 --> 00:12:02.172
+what we have is three novels
+of Jane Austen's, and
+
+00:12:02.172 --> 00:12:06.268
+we are going to represent them in
+the vector space, length normalized, and
+
+00:12:06.268 --> 00:12:11.395
+then we're going to work out the cosign
+similarity between the different novels.
+
+00:12:11.395 --> 00:12:15.685
+So in other words, in this example, there
+isn't exactly any query vector, we're just
+
+00:12:15.685 --> 00:12:19.895
+working out the similarity between the
+different novels that are our documents.
+
+00:12:19.895 --> 00:12:23.960
+So the starting off point
+is starting with these
+
+00:12:23.960 --> 00:12:28.670
+term frequency count vectors for
+the different novels.
+
+00:12:28.670 --> 00:12:31.670
+And so what we can see is
+
+00:12:31.670 --> 00:12:36.920
+affection is one of Jane Austen's favorite
+words that appears frequently every novel.
+
+00:12:36.920 --> 00:12:41.070
+The word wuthering only
+occurs in Wuthering Heights.
+
+00:12:41.070 --> 00:12:46.310
+And then other words like jealous and
+gossip occur occasionally.
+
+00:12:46.310 --> 00:12:50.194
+And so this is going to be our
+vocabulary for this example that I give.
+
+00:12:50.194 --> 00:12:55.103
+And what we're going to want to do is
+take these term frequency vectors and
+
+00:12:55.103 --> 00:12:59.630
+turn them into length normalized
+vectors on the unit hyper sphere.
+
+00:12:59.630 --> 00:13:01.280
+Now for this example,
+
+00:13:01.280 --> 00:13:07.020
+I'm just going to use tone frequency
+weighting to keep it a bit simpler.
+
+00:13:08.080 --> 00:13:10.360
+Let's see what happens on the next slide.
+
+00:13:11.710 --> 00:13:17.320
+Okay so here we have done log frequency
+weighting of the kind we saw before.
+
+00:13:17.320 --> 00:13:20.420
+So what were the 0s, say 0, and
+
+00:13:20.420 --> 00:13:23.570
+then where you have your mapping down so
+again a weighting of 3 for
+
+00:13:23.570 --> 00:13:27.630
+the number of times that affection
+appears in Sense and Sensibility.
+
+00:13:27.630 --> 00:13:31.630
+But these vectors aren't yet
+of the same length.
+
+00:13:31.630 --> 00:13:34.830
+This is clearly the longest
+of the vectors.
+
+00:13:34.830 --> 00:13:38.100
+So the next step is to
+length normalize them.
+
+00:13:38.100 --> 00:13:42.530
+So now here are the length normalize
+vectors for three documents.
+
+00:13:42.530 --> 00:13:46.960
+You can see how this vector
+has gone much shorter
+
+00:13:46.960 --> 00:13:50.000
+than it was here by scaling it down.
+
+00:13:50.000 --> 00:13:52.360
+And the property that we have for
+each of these vectors for
+
+00:13:52.360 --> 00:13:58.410
+their being length normalized is
+that if you took this quantity
+
+00:13:58.410 --> 00:14:03.360
+squared plus this quantity squared plus
+this quantity squared, you would get one.
+
+00:14:03.360 --> 00:14:07.020
+And, therefore, the square root
+of that sum would also be one.
+
+00:14:07.020 --> 00:14:09.290
+So the length one vector.
+
+00:14:09.290 --> 00:14:11.940
+So, given that they're length one vectors,
+
+00:14:11.940 --> 00:14:16.300
+we can then calculate cosine
+similarities as simply the doc product
+
+00:14:16.300 --> 00:14:18.980
+between the vectors, so
+let's see what happens when we do that.
+
+00:14:20.220 --> 00:14:25.100
+Okay, so then we have the cosine
+similarity between Sense and
+
+00:14:25.100 --> 00:14:27.780
+Sensibility and Price and Prejudice.
+
+00:14:27.780 --> 00:14:31.660
+Is taking these pairwise products and
+summing them together.
+
+00:14:32.960 --> 00:14:37.240
+And it gives us a cosine
+similarity of 0.94.
+
+00:14:37.240 --> 00:14:39.460
+So they're very similar.
+
+00:14:39.460 --> 00:14:43.250
+And then we can do it for the other
+cases and what we see that the Sense and
+
+00:14:43.250 --> 00:14:47.810
+Sensibility and
+Wuthering Heights is 0.79, and for
+
+00:14:47.810 --> 00:14:53.765
+the final pair, this too, it's 0.69.
+
+00:14:53.765 --> 00:14:59.120
+And the thing that we might wonder is,
+why do we have that the cosine
+
+00:14:59.120 --> 00:15:04.720
+similarity of Sense and
+Sensibility and Pride and
+
+00:15:04.720 --> 00:15:10.110
+Prejudice Is higher than that for sense
+and sensibility and border and heights.
+
+00:15:10.110 --> 00:15:15.211
+And so we can try and look at that so
+we can comparing this one with
+
+00:15:15.211 --> 00:15:20.603
+the other two and what we can see is
+this part of the bordering height
+
+00:15:20.603 --> 00:15:27.271
+factor doesn't help at all in producing
+similarity with sense and sensibility.
+
+00:15:27.271 --> 00:15:31.817
+The biggest component in the Sense and
+Sensibility vector is this one and so
+
+00:15:31.817 --> 00:15:35.571
+that generates a lot of similarity
+with Pride and Prejudice,
+
+00:15:35.571 --> 00:15:38.894
+which also has that word
+very prominently represented
+
+00:15:38.894 --> 00:15:42.640
+where that word is less
+represented in Wuthering Heights.
+
+00:15:42.640 --> 00:15:45.940
+And so therefore, this dot product here,
+
+00:15:45.940 --> 00:15:52.220
+that this term in the dot product is much
+larger and so we get greater similarity.
+
+00:15:52.220 --> 00:15:57.140
+And so you can see there that if the ratio
+of occurrence of different words
+
+00:15:57.140 --> 00:16:01.200
+in the document has a big effect
+in measuring overall similarity.
+
+00:16:03.330 --> 00:16:07.970
+Okay, I hope that example helped to make
+it more specific and that you now have
+
+00:16:07.970 --> 00:16:12.450
+a good idea of what the Vector Space Model
+in information retrieval is.
+
+00:16:12.450 --> 00:16:15.090
+Its the idea that we
+can make documents for
+
+00:16:15.090 --> 00:16:21.090
+retrieval based on their similarity of
+angles and high dimensional vector space.
+

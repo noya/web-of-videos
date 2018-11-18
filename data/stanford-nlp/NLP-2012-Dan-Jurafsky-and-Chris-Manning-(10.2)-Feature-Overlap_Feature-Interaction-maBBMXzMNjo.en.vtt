@@ -1,0 +1,715 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.660 --> 00:00:05.950
+Let's go through a few examples now that
+show how maxent entropy models behave.
+
+00:00:05.950 --> 00:00:09.260
+And in particular we see how maxent and
+preview models
+
+00:00:09.260 --> 00:00:14.080
+don't double count features in the same
+way that the naive based models did.
+
+00:00:14.080 --> 00:00:18.710
+So for these examples, we're assuming
+this teeny empirical dataset here.
+
+00:00:18.710 --> 00:00:23.350
+So that there are two features,
+each of which can have two values.
+
+00:00:23.350 --> 00:00:26.510
+So, there's little or big b,
+and there's little or big a.
+
+00:00:26.510 --> 00:00:31.290
+And we've got this distribution
+of the six data points.
+
+00:00:31.290 --> 00:00:34.780
+And so, these are the features that
+we're going to put in our models.
+
+00:00:34.780 --> 00:00:41.010
+So, the first feature is to say that
+we have a probability distribution.
+
+00:00:41.010 --> 00:00:45.020
+And so once we put in that feature,
+the maxent entropy model
+
+00:00:45.020 --> 00:00:49.920
+is to say okay give a quarter
+of probability to each outcome.
+
+00:00:51.690 --> 00:00:55.480
+Now the second constraint we're going to
+put in the model is that we're going to
+
+00:00:55.480 --> 00:00:59.350
+say well, but wait a minute,
+there's a lot of big As in this data.
+
+00:00:59.350 --> 00:01:02.074
+So our second feature is this red feature.
+
+00:01:02.074 --> 00:01:07.320
+And the expectation of that red feature
+in the empirical data is two thirds.
+
+00:01:07.320 --> 00:01:11.480
+So we add a parameter then to
+the model that captures that and so
+
+00:01:11.480 --> 00:01:15.850
+then the distribution that we get is that
+two-thirds of the data has to be in this
+
+00:01:15.850 --> 00:01:20.926
+column and so each of these cells is
+then uniformly one-third, one-third.
+
+00:01:22.450 --> 00:01:27.760
+Well, supposed what happens is we just
+add a second features in the model
+
+00:01:27.760 --> 00:01:32.165
+which is actually looking at
+exactly the same thing and
+
+00:01:32.165 --> 00:01:38.010
+saying that the expectation of
+getting big A must be two-thirds.
+
+00:01:38.010 --> 00:01:44.570
+Well, we now have two parameter lights,
+lambda prime and lambda double prime.
+
+00:01:44.570 --> 00:01:48.660
+But what we're going to optimize
+the model to do is to say what was
+
+00:01:48.660 --> 00:01:52.940
+some of the expectations in
+this column must be two thirds.
+
+00:01:52.940 --> 00:01:57.600
+And so what is going to happen actually
+is that the sum of lambda prime and
+
+00:01:57.600 --> 00:02:03.060
+lambda double prime is going to be
+the same as the value of the old lambda a.
+
+00:02:03.060 --> 00:02:06.370
+And we get exactly the same
+probability distribution right here.
+
+00:02:07.410 --> 00:02:12.620
+The effect of that in maxent
+entropy models is that features
+
+00:02:12.620 --> 00:02:17.580
+that duplicate the evidence of other
+features tend to not get much weight.
+
+00:02:17.580 --> 00:02:21.340
+So here's the example for
+our named entity model.
+
+00:02:21.340 --> 00:02:24.420
+So what we're doing is
+predicting the named
+
+00:02:25.720 --> 00:02:28.170
+entity that goes on the next token here.
+
+00:02:28.170 --> 00:02:33.280
+So if tagging along a word or time and
+we're doing at Grace Road and we've
+
+00:02:33.280 --> 00:02:39.140
+said that at is Other, then we're going
+to want to give Named NT tag to grace.
+
+00:02:39.140 --> 00:02:42.940
+And our two candidates in these
+examples have personal locations.
+
+00:02:44.280 --> 00:02:47.490
+So you could reasonably
+think that Grace is a good,
+
+00:02:47.490 --> 00:02:51.400
+the word Grace is a good indicator
+of something being a person and
+
+00:02:51.400 --> 00:02:54.170
+should therefore have a high weight for
+person.
+
+00:02:54.170 --> 00:02:58.900
+And if you look what's actually in the
+model, well, it does have a positive vote
+
+00:02:58.900 --> 00:03:04.320
+right here that Grace being a person but
+it's a fairly weak positive vote.
+
+00:03:04.320 --> 00:03:08.390
+And a lot of the reason why it's
+a weak positive vote is actually just
+
+00:03:08.390 --> 00:03:13.500
+knowing the letter or words starts with
+G is actually rather a strong indicator
+
+00:03:13.500 --> 00:03:15.220
+that something is a person.
+
+00:03:15.220 --> 00:03:20.480
+And so the current word feature is a
+special case of this more general feature
+
+00:03:20.480 --> 00:03:23.580
+that the beginning of
+the word starts with G.
+
+00:03:23.580 --> 00:03:27.560
+And so most of the weight goes to there,
+and there's only a little bit of positive
+
+00:03:27.560 --> 00:03:29.909
+weight on knowing what
+the current word is.
+
+00:03:31.030 --> 00:03:34.690
+Okay now let's look at a more
+interesting example where we have
+
+00:03:34.690 --> 00:03:38.290
+features that overlap but
+aren't exactly the same.
+
+00:03:38.290 --> 00:03:43.570
+So this time, here's our empirical
+data that we want to model and
+
+00:03:43.570 --> 00:03:46.880
+these three points of empirical data.
+
+00:03:46.880 --> 00:03:51.464
+So as before, we start off by
+constraining the values to probabilities.
+
+00:03:51.464 --> 00:03:54.279
+And then, as before,
+we put in this red feature,
+
+00:03:54.279 --> 00:03:58.330
+whose expectation is still
+two-thirds in the empirical data.
+
+00:03:58.330 --> 00:04:02.560
+And so that gives us the same
+distribution as before,
+
+00:04:02.560 --> 00:04:05.610
+with the same parameter weight, lambda A.
+
+00:04:05.610 --> 00:04:10.850
+Okay, but what now if we want to add
+an extra constraint to our model
+
+00:04:10.850 --> 00:04:13.570
+to capture the fact that
+there's data over here?
+
+00:04:13.570 --> 00:04:17.170
+Well, the obvious thing to
+do is to note that capital B
+
+00:04:17.170 --> 00:04:21.390
+also has an expectation of
+two-thirds in the observed data.
+
+00:04:21.390 --> 00:04:26.670
+So let's add in a feature that's true
+if a data point has a capital B,
+
+00:04:26.670 --> 00:04:30.610
+and let's add that to our model
+with a weight of lambda B.
+
+00:04:32.000 --> 00:04:36.540
+You might be hopeful that that would
+mean that we modeled the data perfectly.
+
+00:04:36.540 --> 00:04:37.750
+But actually, we don't.
+
+00:04:37.750 --> 00:04:41.110
+The maxent entropy
+distribution is this one here.
+
+00:04:41.110 --> 00:04:46.130
+Where we one-ninth chance of little b,
+little a.
+
+00:04:46.130 --> 00:04:49.260
+So we smooth the model
+a little which is maybe good.
+
+00:04:49.260 --> 00:04:52.480
+But we don't get a uniform
+distribution over the other points.
+
+00:04:52.480 --> 00:04:57.560
+We get weights of 2/9 and
+these two cells and 4/9 in this cell.
+
+00:04:57.560 --> 00:05:00.850
+So you're expecting almost
+half the probability mass
+
+00:05:00.850 --> 00:05:02.880
+to go to getting big A, big B.
+
+00:05:04.100 --> 00:05:07.290
+If you think about in terms of
+the parameter weights down here,
+
+00:05:07.290 --> 00:05:09.415
+it's kind of obvious what's happening.
+
+00:05:09.415 --> 00:05:14.090
+But for the case of Big A, Big B,
+both of our features fire.
+
+00:05:14.090 --> 00:05:18.350
+And so the weight that goes into
+the maxent formulation is the sum
+
+00:05:18.350 --> 00:05:20.360
+of lambda A and lambda B.
+
+00:05:20.360 --> 00:05:25.450
+And therefore, it's probability
+has to be much higher than
+
+00:05:25.450 --> 00:05:31.900
+the probabilities they're assigned
+to just lambda A and lambda B alone.
+
+00:05:31.900 --> 00:05:34.380
+Now there's no weight over here, so
+
+00:05:34.380 --> 00:05:37.600
+you might have thought that that
+should still begin probability zero.
+
+00:05:37.600 --> 00:05:42.570
+But remember that we do have to be
+observing the empirical expectations of
+
+00:05:42.570 --> 00:05:47.889
+the model so the constraints of our model,
+the probabilities here should sum to
+
+00:05:47.889 --> 00:05:53.230
+two-thirds and the probabilities
+here should sum to two-thirds.
+
+00:05:53.230 --> 00:05:57.120
+And then we've added in this
+constraint that the probability
+
+00:05:57.120 --> 00:06:02.150
+of this cell should be double
+the probability of this cell.
+
+00:06:02.150 --> 00:06:07.260
+And if you work through those constraints,
+the maximum likelihood solution is
+
+00:06:07.260 --> 00:06:13.460
+precisely the one that's shown here
+with 4/9ths, 2/9ths, 2/9ths, and 1/9th.
+
+00:06:13.460 --> 00:06:18.300
+So what that shows is that maxent
+entropy models don't model for
+
+00:06:18.300 --> 00:06:22.070
+free what statisticians
+call interaction terms.
+
+00:06:22.070 --> 00:06:26.980
+That if we want to say something special
+about how the combination of having big
+
+00:06:26.980 --> 00:06:33.560
+A and big B behaves, we have to do that by
+putting in extra features that model that.
+
+00:06:33.560 --> 00:06:37.040
+So here we have the same
+data as before and
+
+00:06:37.040 --> 00:06:40.400
+we start off with the same
+two features as before.
+
+00:06:40.400 --> 00:06:45.430
+One way we can fix that distribution
+is that we can add in a third feature
+
+00:06:47.520 --> 00:06:52.790
+which is true if both A and
+B are capitalized.
+
+00:06:52.790 --> 00:06:57.260
+Well, the expectation of that feature
+in the observed data is one-third.
+
+00:06:57.260 --> 00:07:01.600
+And so, that feature then determines that
+
+00:07:01.600 --> 00:07:05.310
+the probability of this
+cell must be one-third.
+
+00:07:05.310 --> 00:07:10.550
+Well, given our other feature constraints
+coming off these other columns here and
+
+00:07:10.550 --> 00:07:15.810
+here, then what we get is that
+the probabilities of one-third in each
+
+00:07:15.810 --> 00:07:20.890
+cell and we exactly model
+the empirical distribution.
+
+00:07:20.890 --> 00:07:25.600
+Including of course now that we do get
+probability zero for the remaining cell.
+
+00:07:25.600 --> 00:07:29.500
+I mean of course that's not the only
+way that this could have been achieved.
+
+00:07:29.500 --> 00:07:34.680
+We could have instead assigned
+a different feature, F4,
+
+00:07:34.680 --> 00:07:39.334
+which is true in any of
+the situations of Big A,
+
+00:07:39.334 --> 00:07:44.670
+Big B; Big A, Little B; or
+Little A, Big B.
+
+00:07:44.670 --> 00:07:50.170
+So in any of those three situations,
+it has the value one and zero otherwise.
+
+00:07:50.170 --> 00:07:53.190
+And we can make a model
+with this feature alone and
+
+00:07:53.190 --> 00:07:56.490
+it would also give exactly
+the right distribution.
+
+00:07:56.490 --> 00:08:02.370
+So in general the thing to take away from
+here is that a lot of the time, we want to
+
+00:08:02.370 --> 00:08:08.120
+put in features that model interaction
+terms or the model sets of data.
+
+00:08:08.120 --> 00:08:10.590
+I mean in particular
+natural language context,
+
+00:08:10.590 --> 00:08:15.100
+commonly what you want is to have
+features that model natural classes.
+
+00:08:15.100 --> 00:08:18.260
+So something like a feature for
+
+00:08:18.260 --> 00:08:23.830
+the characters as a digit, or
+the character is upper case.
+
+00:08:23.830 --> 00:08:26.350
+Or, the characters,
+
+00:08:26.350 --> 00:08:30.180
+the letter e, regardless of
+whether lowercase or uppercase.
+
+00:08:30.180 --> 00:08:33.710
+That those kind of natural
+classes make good features,
+
+00:08:33.710 --> 00:08:37.860
+because they'll cause the model
+to generalize in good ways.
+
+00:08:37.860 --> 00:08:42.160
+How, though, do we find out which
+features we want to put in our model?
+
+00:08:42.160 --> 00:08:47.778
+So, inside statistics, when you're looking
+at logistic regression models, and maxent
+
+00:08:47.778 --> 00:08:53.120
+entropy models are basically equivalent to
+multi-class logistic regression models.
+
+00:08:53.120 --> 00:08:57.130
+What is standard to do is to
+do a greedy stepwise search
+
+00:08:57.130 --> 00:08:59.074
+over the space of all
+possible interaction terms.
+
+00:09:00.225 --> 00:09:05.895
+I mean, that is, you don't evaluate every
+possible subset of features because that
+
+00:09:05.895 --> 00:09:09.155
+number of possible subsets
+of features is exponential.
+
+00:09:09.155 --> 00:09:11.485
+But you start with a known model and
+
+00:09:11.485 --> 00:09:15.915
+you one by one add in the feature
+that is the most useful out of all
+
+00:09:15.915 --> 00:09:19.495
+of the features that aren't getting
+the model until you find a good model.
+
+00:09:20.545 --> 00:09:25.150
+That works reasonably well on
+traditional statistics cases where you
+
+00:09:25.150 --> 00:09:27.390
+have maybe 10 or 20 features.
+
+00:09:27.390 --> 00:09:31.440
+But for the kind of cases that we
+do in natural language processing,
+
+00:09:31.440 --> 00:09:35.900
+we commonly use templates to generate
+thousands and thousands of features.
+
+00:09:35.900 --> 00:09:39.420
+So for instance, if we just have
+our what is the current word
+
+00:09:39.420 --> 00:09:44.110
+feature that's a feature that might have
+50,000 values of a typical training set.
+
+00:09:44.110 --> 00:09:46.370
+But we don't really want that feature,
+
+00:09:46.370 --> 00:09:49.830
+we want features like what is
+the previous word, what is the next word?
+
+00:09:49.830 --> 00:09:53.350
+And often we want higher
+order features like what is
+
+00:09:53.350 --> 00:09:58.040
+the word pair of the previous word and
+the current word.
+
+00:09:58.040 --> 00:10:01.660
+So very commonly we get models
+with millions of features, and
+
+00:10:01.660 --> 00:10:04.590
+indeed it's those models
+with millions of features
+
+00:10:04.590 --> 00:10:07.188
+that optimize the performance
+of our system.
+
+00:10:07.188 --> 00:10:12.130
+And while if we have millions of features,
+we just can't be affording to
+
+00:10:12.130 --> 00:10:17.480
+train millions upon millions of
+models to try and work out what's
+
+00:10:17.480 --> 00:10:22.330
+the roughly optimal set of features,
+even doing it in a greedy fashion.
+
+00:10:22.330 --> 00:10:27.510
+And so therefore in NLP,
+it's actually normal that
+
+00:10:28.780 --> 00:10:33.450
+which features are put into the model and
+which interaction terms according to
+
+00:10:33.450 --> 00:10:39.090
+the model is just being determined by
+hand based on linguistic intuitions.
+
+00:10:39.090 --> 00:10:42.640
+Not always there has been some work
+that has been looking at automatic
+
+00:10:42.640 --> 00:10:45.160
+ways to find good feature interactions,
+
+00:10:45.160 --> 00:10:50.050
+though even that work is having to do some
+fairly heuristic things to make up for
+
+00:10:50.050 --> 00:10:53.270
+the fact that the search space is so
+big in this case.
+
+00:10:53.270 --> 00:10:57.230
+Now here's an example showing
+feature interactions that work.
+
+00:10:57.230 --> 00:11:01.520
+Here we have again the same
+example with at Grace road.
+
+00:11:01.520 --> 00:11:05.810
+And so, we have,
+what is the previous class?
+
+00:11:05.810 --> 00:11:08.591
+So, in our example
+the previous class was other.
+
+00:11:08.591 --> 00:11:13.404
+And so, what this says is that,
+if the previous class was other,
+
+00:11:13.404 --> 00:11:17.620
+it's very unlikely that the next
+word is a named entity.
+
+00:11:17.620 --> 00:11:20.440
+Those are strongly
+negatively related features.
+
+00:11:20.440 --> 00:11:23.850
+And that's just really because most
+words aren't named entities, and
+
+00:11:23.850 --> 00:11:27.470
+if you've just seen what came
+before you wasn't a named entity,
+
+00:11:27.470 --> 00:11:31.000
+then probably the next word
+isn't a named entity either.
+
+00:11:31.000 --> 00:11:35.930
+On the other hand, if you see a word
+that is capitalized, so this is
+
+00:11:35.930 --> 00:11:40.620
+done by these word shaped signature
+features, so it's a capitalized word.
+
+00:11:40.620 --> 00:11:43.710
+Well capitalized words in English
+are just normally proper nouns, and
+
+00:11:43.710 --> 00:11:46.270
+proper nouns and normally entities.
+
+00:11:46.270 --> 00:11:50.630
+So that then, this feature has very
+positive weights on both person and
+
+00:11:50.630 --> 00:11:51.320
+location.
+
+00:11:53.490 --> 00:11:57.030
+Okay, so those two features
+are banging against each other,
+
+00:11:57.030 --> 00:12:00.890
+and if you add up those terms,
+we'll assume then in
+
+00:12:00.890 --> 00:12:05.190
+this case just the sum of those
+weights is approximately zero.
+
+00:12:05.190 --> 00:12:09.645
+And so you're not actually getting any
+particular evidence that a capitalised
+
+00:12:09.645 --> 00:12:15.420
+word after something passed other
+is going to be a named entity.
+
+00:12:15.420 --> 00:12:18.440
+But that's wrong and so
+to get the model to work better,
+
+00:12:18.440 --> 00:12:22.940
+what we have to do is put in
+an interaction term that models
+
+00:12:22.940 --> 00:12:28.110
+the conjunction of the previous state
+being other and being a capitalised word.
+
+00:12:28.110 --> 00:12:33.606
+And then when we do that, we find this
+interaction term votes quite strongly for
+
+00:12:33.606 --> 00:12:37.640
+either, for the word being
+either a person or a location.
+
+00:12:38.770 --> 00:12:39.980
+When features overlap,
+
+00:12:39.980 --> 00:12:44.030
+it's actually quite subtle the way
+the weighting of the features works.
+
+00:12:44.030 --> 00:12:47.710
+But it's something that's important to
+get a sense of to understand how maxent
+
+00:12:47.710 --> 00:12:48.370
+models work.
+
+00:12:48.370 --> 00:12:50.860
+And I hope these examples
+have helped with that.
+

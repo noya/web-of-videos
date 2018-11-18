@@ -1,0 +1,378 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.362 --> 00:00:04.002
+Finally, let's talk about some practical
+issues in text classification.
+
+00:00:06.662 --> 00:00:08.725
+Now that we've seen
+the math of Naive Bayes,
+
+00:00:08.725 --> 00:00:10.639
+we can turn to some real world questions.
+
+00:00:10.639 --> 00:00:13.831
+How in practice, do we build our
+classifiers in the real world?
+
+00:00:16.371 --> 00:00:18.593
+What classifier you build and what you do,
+
+00:00:18.593 --> 00:00:20.823
+depends a lot on what
+kind of data you have?
+
+00:00:20.823 --> 00:00:22.737
+Let's suppose you have no training data.
+
+00:00:22.737 --> 00:00:26.829
+Well, in that case, the right thing to
+do is to use manually written rules.
+
+00:00:26.829 --> 00:00:30.770
+So here's a rule for deciding if
+a document's about grain, let's say.
+
+00:00:30.770 --> 00:00:33.499
+We might say, if the word wheat or
+the word grain is there and
+
+00:00:33.499 --> 00:00:35.472
+doesn't have the word whole or the bread.
+
+00:00:35.472 --> 00:00:38.118
+So I find a recipe, then we say,
+this is a grain document.
+
+00:00:38.118 --> 00:00:42.201
+Now, manually written rules
+are difficult and you careful crafting.
+
+00:00:42.201 --> 00:00:46.562
+They have to be tuned on development
+data and it's very time consuming.
+
+00:00:46.562 --> 00:00:49.127
+It can take days to write the rules for
+each class.
+
+00:00:49.127 --> 00:00:51.863
+But if we have no training data,
+this may be the right approach.
+
+00:00:51.863 --> 00:00:54.058
+What if you have very little data?
+
+00:00:54.058 --> 00:00:58.105
+Well, if you have very little data, then
+Naive Bayes is just the algorithm for you.
+
+00:00:58.105 --> 00:01:02.069
+Naive Bayes is what's called a high-bias
+algorithm in machine learning.
+
+00:01:02.069 --> 00:01:07.275
+A high-bias algorithm Is one that doesn't
+tend to over fit training data too badly.
+
+00:01:07.275 --> 00:01:12.687
+It sort of trades off variance or
+generalization to a new test set.
+
+00:01:12.687 --> 00:01:15.996
+So, it doesn't over fit too
+much on a small amount of data.
+
+00:01:15.996 --> 00:01:20.939
+So that's the advantage of Naive Bayes,
+but it's also important to get more
+
+00:01:20.939 --> 00:01:25.669
+data and you can often find clever ways
+to get humans to label data for you.
+
+00:01:25.669 --> 00:01:27.455
+I mean, that's an important thing.
+
+00:01:27.455 --> 00:01:29.767
+If you don't have enough data,
+get more data.
+
+00:01:29.767 --> 00:01:33.552
+There's also various ways that
+we're not going to talk about so
+
+00:01:33.552 --> 00:01:36.700
+much in this class of
+semi-supervised training.
+
+00:01:36.700 --> 00:01:40.156
+Find some way to use a small amount of
+data to help train a larger amount of data
+
+00:01:40.156 --> 00:01:42.004
+and that's called the bootstrapping.
+
+00:01:42.004 --> 00:01:46.601
+Another thing that you might do
+if you have very little data.
+
+00:01:46.601 --> 00:01:49.389
+If you have a reasonable amount of data,
+now you might try all the clever
+
+00:01:49.389 --> 00:01:51.682
+classifiers that we'll talk
+about later in the quarter.
+
+00:01:51.682 --> 00:01:56.430
+Classifiers like regularize logistic
+regression or support vector machines.
+
+00:01:58.725 --> 00:02:01.641
+In fact, you can even use decision trees.
+
+00:02:01.641 --> 00:02:04.122
+Decision trees have advantages and
+disadvantages, but
+
+00:02:04.122 --> 00:02:07.230
+a big advantage of decision trees,
+is they are user-interpretable.
+
+00:02:07.230 --> 00:02:11.095
+And that's helpful, because people
+like to be able to modify a rule or
+
+00:02:11.095 --> 00:02:13.237
+hacking a classifier.
+
+00:02:13.237 --> 00:02:17.298
+And it's very much easier to modify
+your decision tree at a at a role,
+
+00:02:17.298 --> 00:02:19.198
+change your threshold by hand.
+
+00:02:19.198 --> 00:02:23.371
+It's much harder to do that with an SVM or
+logistic regression.
+
+00:02:23.371 --> 00:02:27.874
+Now you if you have a huge amount of data,
+well, now you can achieve high accuracy.
+
+00:02:27.874 --> 00:02:32.716
+Although there is a cost, many
+classifiers just take a long time SVMs,
+
+00:02:32.716 --> 00:02:38.190
+especially k nearest neighbors can
+be very slow to train a classifier.
+
+00:02:38.190 --> 00:02:39.840
+Logistic regression can
+be somewhat better.
+
+00:02:41.150 --> 00:02:44.460
+But really,
+if you have a huge amount of data,
+
+00:02:44.460 --> 00:02:47.900
+then it may just be efficient to train
+Naive Bayes, which is quite fast.
+
+00:02:49.530 --> 00:02:52.290
+Actually, if you have
+a very huge amount of data,
+
+00:02:52.290 --> 00:02:55.139
+it may turn out that
+the classifier may not matter.
+
+00:02:55.139 --> 00:02:58.505
+Here is a result from Brill and
+Banko on spelling correction
+
+00:02:58.505 --> 00:03:02.894
+comparing the performance of four
+different machine learning algorithms.
+
+00:03:02.894 --> 00:03:06.905
+A Memory-Based learner, Winnow,
+a Perception and Naive Bayes with on
+
+00:03:06.905 --> 00:03:11.904
+a spelling correction test with a million
+words, 10 million words, 100 million and
+
+00:03:11.904 --> 00:03:16.070
+so log scale and where we're measuring
+how accurate the classifiers are.
+
+00:03:16.070 --> 00:03:20.060
+And you can see that the difference
+between the classifiers
+
+00:03:20.060 --> 00:03:24.706
+is much smaller than the difference
+you get by just adding more data.
+
+00:03:24.706 --> 00:03:27.685
+And in fact, things depending
+on how much data you have,
+
+00:03:27.685 --> 00:03:31.510
+the classifiers cross over
+in their performance curve.
+
+00:03:31.510 --> 00:03:35.099
+So with enough data, it may not
+matter what classifier you have.
+
+00:03:36.360 --> 00:03:41.607
+So a real world system in general
+will combine this kind of automatic
+
+00:03:41.607 --> 00:03:46.764
+classification, whether it's from rules or
+supervised machine
+
+00:03:46.764 --> 00:03:52.117
+learning with manual review of
+uncertain or difficult or new cases.
+
+00:03:52.117 --> 00:03:55.784
+There is some important details for
+the computation in Naive Bayes.
+
+00:03:55.784 --> 00:03:58.344
+One is underflow prevention.
+
+00:03:58.344 --> 00:04:02.828
+So, it turns out that multiplying
+lots of probabilities can result in
+
+00:04:02.828 --> 00:04:04.807
+floating-point underflow.
+
+00:04:04.807 --> 00:04:07.916
+We talked about this for
+language modeling.
+
+00:04:07.916 --> 00:04:11.801
+So since by the definition of logarithm,
+
+00:04:11.801 --> 00:04:15.579
+the log(xy) = log(x) + log(y).
+
+00:04:15.579 --> 00:04:20.172
+In general, we keep store of our
+properties in the form of logs and
+
+00:04:20.172 --> 00:04:23.107
+we add them instead of multiplying them.
+
+00:04:23.107 --> 00:04:25.664
+So, we still have the same formula.
+
+00:04:25.664 --> 00:04:29.359
+Here's the Naive Bayes formula expressed
+now in terms of log probabilities
+
+00:04:29.359 --> 00:04:30.753
+instead of probabilities.
+
+00:04:30.753 --> 00:04:32.500
+It's still an argmax.
+
+00:04:32.500 --> 00:04:38.527
+But instead of multiplying a probability
+and a product of likelihoods,
+
+00:04:38.527 --> 00:04:43.782
+we're adding a log probability
+with a sum of log likelihoods.
+
+00:04:43.782 --> 00:04:48.519
+So now, the model is just choosing
+the class that maximizes over sum,
+
+00:04:48.519 --> 00:04:49.653
+sum of weights.
+
+00:04:49.653 --> 00:04:51.054
+Very simple model.
+
+00:04:53.484 --> 00:04:56.045
+Finally, we're going to
+want to tweak performance and
+
+00:04:56.045 --> 00:04:58.788
+domain-specific features for
+your particular task.
+
+00:04:58.788 --> 00:05:02.477
+Domain-specific weights are very important
+in the performance of real systems.
+
+00:05:02.477 --> 00:05:05.906
+So for example, sometimes we're
+going to want to collapse terms.
+
+00:05:05.906 --> 00:05:09.740
+Let's say, we're dealing with part
+numbers in some inventory task.
+
+00:05:09.740 --> 00:05:14.527
+Now, we might want to collapse all part
+numbers together into a part number kind
+
+00:05:14.527 --> 00:05:16.349
+of word or chemical formula.
+
+00:05:16.349 --> 00:05:19.611
+We might want to have just one named
+entity called chemical formula.
+
+00:05:19.611 --> 00:05:24.164
+But other kinds of collapsing such
+as stemming, generally doesn't help.
+
+00:05:24.164 --> 00:05:27.442
+So, you have to know about whether
+you need to collapse terms or not.
+
+00:05:27.442 --> 00:05:29.879
+It's also very important to upweight.
+
+00:05:29.879 --> 00:05:33.273
+Upweighting is counting a word,
+as if it occurs twice.
+
+00:05:33.273 --> 00:05:37.371
+And so often, we upweight title words or
+we might upweight the first sentence of
+
+00:05:37.371 --> 00:05:41.165
+each paragraph or sentences that have
+words that occurred in the title and
+
+00:05:41.165 --> 00:05:44.003
+made upweight all the words
+in that sentence and so on.
+
+00:05:44.003 --> 00:05:48.080
+So, small ways that can help
+in tweaking performance.
+
+00:05:48.080 --> 00:05:52.610
+So, we've seen a number of
+practical things that we can do in
+
+00:05:52.610 --> 00:05:55.690
+building up a real world
+text classification system.
+

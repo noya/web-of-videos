@@ -1,0 +1,272 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.660 --> 00:00:05.340
+Hello, in this segment, I'm going to
+start talking about ranked retrieval.
+
+00:00:05.340 --> 00:00:07.710
+So, so far,
+all of our queries have been Boolean.
+
+00:00:07.710 --> 00:00:13.230
+If we give a query like ocean and liner,
+and the search engine is going to return
+
+00:00:13.230 --> 00:00:18.085
+precisely the documents that contain
+the words ocean and liner, and no others.
+
+00:00:18.085 --> 00:00:20.553
+Documents either match or they don't.
+
+00:00:20.553 --> 00:00:24.227
+Now, this could be good for expert users
+with the precise understanding of their
+
+00:00:24.227 --> 00:00:25.426
+needs in the collection.
+
+00:00:25.426 --> 00:00:30.273
+And it could also be good when information
+retrieval system is a component in
+
+00:00:30.273 --> 00:00:31.798
+a larger application.
+
+00:00:31.798 --> 00:00:37.370
+And the system consume thousands of
+results and adjust the query as needed.
+
+00:00:37.370 --> 00:00:40.225
+But such a system turns out
+not to actually be good for
+
+00:00:40.225 --> 00:00:42.360
+the vast majority of users.
+
+00:00:42.360 --> 00:00:46.100
+Most users are incapable of
+writing good Boolean queries, or
+
+00:00:46.100 --> 00:00:49.778
+even if they can write them, they think
+it's far too much work to write them.
+
+00:00:49.778 --> 00:00:55.450
+And in particular, Boolean systems
+often produce 1000s of results and
+
+00:00:55.450 --> 00:00:58.260
+users don't want to wade
+through 1000s of results.
+
+00:00:58.260 --> 00:01:00.940
+This is particularly true
+of web search applications.
+
+00:01:02.610 --> 00:01:05.992
+In general, there's this problem
+with Boolean search, the feast or
+
+00:01:05.992 --> 00:01:07.380
+famine problem.
+
+00:01:07.380 --> 00:01:12.056
+Boolean queries often result in either
+too few returned results, 1 or 2,
+
+00:01:12.056 --> 00:01:16.890
+or even 0, because documents don't
+precisely satisfy the search request.
+
+00:01:16.890 --> 00:01:21.760
+Or else, they result in too many results,
+into the order of 1000s or more.
+
+00:01:22.800 --> 00:01:25.740
+So for example,
+here's a system giving results.
+
+00:01:25.740 --> 00:01:32.315
+If I give it the query "standard user
+dlink 650", it returns 200,000 results.
+
+00:01:32.315 --> 00:01:35.470
+So I try and
+make my query more specific and
+
+00:01:35.470 --> 00:01:38.430
+ask "standard user dlink
+650 no card found".
+
+00:01:38.430 --> 00:01:40.980
+But then, I get 0 results.
+
+00:01:42.140 --> 00:01:44.720
+It takes a lot of skill to
+come up with a query that
+
+00:01:44.720 --> 00:01:47.790
+produces a manageable number of hits.
+
+00:01:47.790 --> 00:01:52.060
+The basic problem is,
+if you're putting an AND between words,
+
+00:01:52.060 --> 00:01:54.000
+you get too few results.
+
+00:01:54.000 --> 00:01:56.680
+And if you put OR between words,
+you get too many results.
+
+00:01:58.390 --> 00:02:01.420
+So, part of the solution of that has been
+
+00:02:01.420 --> 00:02:03.830
+the development of
+ranked retrieval models.
+
+00:02:03.830 --> 00:02:08.290
+And the idea of these is, that rather than
+a set of documents satisfying a query,
+
+00:02:08.290 --> 00:02:10.860
+in ranked retrieval models,
+the system returns
+
+00:02:10.860 --> 00:02:14.860
+an ordering over the top documents in
+the collection with respect to the query.
+
+00:02:16.350 --> 00:02:20.390
+Going along with that has been
+the adoption of free text queries.
+
+00:02:20.390 --> 00:02:24.890
+Rather than explicit query language like
+the Boolean retrieval model with its Ands,
+
+00:02:24.890 --> 00:02:30.840
+Ors, and Nots, instead the user's query is
+now just some words in a human language.
+
+00:02:30.840 --> 00:02:33.150
+In principle,
+these are two separate choices,
+
+00:02:33.150 --> 00:02:36.120
+which can be manipulated separately,
+but in practice,
+
+00:02:36.120 --> 00:02:40.170
+ranked retrieval models have normally
+been associated with free text queries.
+
+00:02:40.170 --> 00:02:43.020
+And the opposite for
+the Boolean retrieval model.
+
+00:02:45.000 --> 00:02:49.840
+The feast or famine problem
+doesn't exist in ranked retrieval.
+
+00:02:49.840 --> 00:02:54.990
+When a system produces a large result set,
+users don't really notice.
+
+00:02:54.990 --> 00:02:58.180
+Indeed, the size of the result set
+basically isn't an issue, because
+
+00:02:58.180 --> 00:03:02.850
+normally the system will start off by just
+showing the user the top few results, and
+
+00:03:02.850 --> 00:03:04.830
+so, not overwhelm the user.
+
+00:03:04.830 --> 00:03:08.300
+And so, the total number of results
+is something they probably might even
+
+00:03:08.300 --> 00:03:08.980
+know or notice.
+
+00:03:08.980 --> 00:03:14.030
+This all depends on having a ranking
+algorithm that works well though,
+
+00:03:14.030 --> 00:03:16.080
+so that the top results are good results.
+
+00:03:17.230 --> 00:03:21.590
+So the basis of ranked retrieval is
+having a good system of scoring.
+
+00:03:21.590 --> 00:03:25.320
+We need to be able to return the documents
+that are most likely useful to
+
+00:03:25.320 --> 00:03:25.970
+the searcher.
+
+00:03:25.970 --> 00:03:28.600
+And so, that raises the question
+
+00:03:28.600 --> 00:03:32.750
+of how can we rank order the documents
+with respect to a query.
+
+00:03:32.750 --> 00:03:37.610
+And the method we'll look at to do that
+is the idea that what we should do
+
+00:03:37.610 --> 00:03:42.560
+is assign a score, say, a number
+between 0 and 1, to each document.
+
+00:03:42.560 --> 00:03:46.520
+This score measures how well the document
+and the query match each other.
+
+00:03:47.610 --> 00:03:51.500
+So we need a way of assigning
+a score to a query-document pair.
+
+00:03:51.500 --> 00:03:53.899
+Let's start with a one-term query.
+
+00:03:53.899 --> 00:03:58.291
+Well, if the query term doesn't
+occur in the document, the score for
+
+00:03:58.291 --> 00:04:00.008
+the document should be 0.
+
+00:04:00.008 --> 00:04:04.004
+And then beyond that, probably what we
+want to say is that the more frequently
+
+00:04:04.004 --> 00:04:08.690
+the query term appears in the document,
+the higher the score should be.
+
+00:04:08.690 --> 00:04:13.420
+And after that, how exactly do we
+score documents isn't quite so clear.
+
+00:04:13.420 --> 00:04:17.650
+And so, in upcoming segments we'll look
+at a number of alternatives for this.
+
+00:04:18.680 --> 00:04:23.320
+Okay, but I hope that's given you an idea
+of what ranked retrieval models are and
+
+00:04:23.320 --> 00:04:25.940
+how they differ from
+the Boolean retrieval model.
+

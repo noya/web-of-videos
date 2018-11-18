@@ -1,0 +1,347 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.040 --> 00:00:05.750
+We saw earlier that lots of times
+probabilities or counts of bigrams or
+
+00:00:05.750 --> 00:00:07.380
+trigrams would be zero.
+
+00:00:07.380 --> 00:00:09.570
+What do we do in these cases?
+
+00:00:09.570 --> 00:00:12.234
+Let's think about this by
+starting with what's called
+
+00:00:12.234 --> 00:00:13.999
+The Shannon Visualization Method.
+
+00:00:13.999 --> 00:00:18.589
+And this is what Shannon proposed
+to visualize the actual engram
+
+00:00:18.589 --> 00:00:23.620
+grammar that you've built by
+maximum length of the estimation.
+
+00:00:23.620 --> 00:00:27.830
+So here's the method, we choose a random
+bigram according to its probability, so
+
+00:00:27.830 --> 00:00:32.650
+this is a bigram with start as
+the first word and then any other word
+
+00:00:32.650 --> 00:00:36.940
+according to its probability, roll a die
+and pick whichever bigram comes up.
+
+00:00:36.940 --> 00:00:40.550
+So let's say we picked I as
+a very likely first word, so
+
+00:00:40.550 --> 00:00:43.070
+we picked start I as our first bigram.
+
+00:00:43.070 --> 00:00:48.410
+Now, we choose another random bigram that
+starts with that word w we just generated,
+
+00:00:48.410 --> 00:00:51.430
+and whose next word is chosen
+according to its probability.
+
+00:00:51.430 --> 00:00:54.360
+So now we pick want,
+then we've picked I want.
+
+00:00:54.360 --> 00:00:57.720
+And now we go on until we happen
+to choose the end of sentence.
+
+00:00:57.720 --> 00:01:03.410
+So I want to, to eat, eat Chinese, Chinese
+food, food end of sentence there we go.
+
+00:01:03.410 --> 00:01:06.520
+So now we string these words together and
+we generated a sentence.
+
+00:01:07.540 --> 00:01:10.870
+So the Shannon Visualization Method
+of it can show us a lot of things
+
+00:01:10.870 --> 00:01:13.490
+about the engrams that we've built.
+
+00:01:13.490 --> 00:01:17.930
+So for example, here's a grammar
+
+00:01:19.100 --> 00:01:23.510
+language model trained on Shakespeare and
+generating random sentences.
+
+00:01:25.070 --> 00:01:26.810
+So here's some unigram sentences.
+
+00:01:26.810 --> 00:01:29.780
+Every enter now severally so, let.
+
+00:01:29.780 --> 00:01:32.180
+Hill he lat speaks, or!
+
+00:01:32.180 --> 00:01:33.810
+Not very good sentences.
+
+00:01:33.810 --> 00:01:35.410
+How about our bigrams?
+
+00:01:35.410 --> 00:01:37.830
+Why dost stand forth thy canopy, forsooth.
+
+00:01:37.830 --> 00:01:39.850
+He is this palpable hit the King Henry.
+
+00:01:39.850 --> 00:01:40.470
+Live King.
+
+00:01:40.470 --> 00:01:41.279
+Follow.
+
+00:01:41.279 --> 00:01:41.874
+That was better.
+
+00:01:41.874 --> 00:01:43.200
+This is beginning to
+sound like Shakespeare.
+
+00:01:43.200 --> 00:01:43.790
+How about this one?
+
+00:01:45.640 --> 00:01:48.310
+Indeed the duke; and
+had a very good friend.
+
+00:01:48.310 --> 00:01:49.740
+Well, that sounds pretty good.
+
+00:01:49.740 --> 00:01:51.560
+Sweet prince, Falstaff shall die.
+
+00:01:51.560 --> 00:01:55.280
+And now let's look at the quadrigrams,
+It cannot be but so.
+
+00:01:55.280 --> 00:01:56.570
+Will you not tell me who I am?
+
+00:01:56.570 --> 00:01:57.370
+That sounds very good.
+
+00:01:59.440 --> 00:02:05.020
+Now, Shakespeare produced 800,000
+words with a vocabulary of 30,000.
+
+00:02:06.130 --> 00:02:11.120
+And it turns out that in those 800,000
+words, he produced about those 30,000
+
+00:02:11.120 --> 00:02:14.540
+words, he produced about
+300,000 different bigram types,
+
+00:02:14.540 --> 00:02:17.793
+so different, unique pairs of words.
+
+00:02:17.793 --> 00:02:22.733
+But that's 300,000 out
+of 30,000 squared or
+
+00:02:22.733 --> 00:02:26.820
+out of 844 million possible bigram.
+
+00:02:26.820 --> 00:02:31.960
+So if we multiply that out, 99.96% of
+the possible bigrams were never seen.
+
+00:02:31.960 --> 00:02:35.430
+They're also going to have zero
+entries in the bigram table.
+
+00:02:35.430 --> 00:02:36.390
+Vast number of zeros.
+
+00:02:37.970 --> 00:02:41.290
+So that's just bigrams,
+quadrigrams are even worse.
+
+00:02:41.290 --> 00:02:44.230
+So the reason why those quadrigrams look
+like Shakespeare is because those were
+
+00:02:44.230 --> 00:02:45.950
+actual Shakespeare sentences.
+
+00:02:45.950 --> 00:02:49.025
+Because following any
+particular quadrigram,
+
+00:02:49.025 --> 00:02:53.975
+really only one possible word can occur
+in such a small corpus as Shakespeare.
+
+00:02:53.975 --> 00:02:57.176
+And we can see that if we
+look at a different corpus,
+
+00:02:57.176 --> 00:03:00.690
+like the Wall Street Journal,
+it's not Shakespeare.
+
+00:03:00.690 --> 00:03:05.580
+So for example, here's some trigram
+sentences from the Wall Street Journal.
+
+00:03:05.580 --> 00:03:10.400
+They also point to 99.6 billion
+dollars from 204.063% of the rates
+
+00:03:10.400 --> 00:03:14.560
+of interest stores as Mexico and
+Brazil on market conditions.
+
+00:03:14.560 --> 00:03:16.547
+Sounds like the Wall Street Journal.
+
+00:03:16.547 --> 00:03:21.584
+But here's two corpora of English, both
+reasonable size corpora millions of words,
+
+00:03:21.584 --> 00:03:26.138
+or at least a million words, no overlap
+at all in the Shakespeare sentences and
+
+00:03:26.138 --> 00:03:28.290
+the Wall Street Journal sentences.
+
+00:03:29.980 --> 00:03:32.110
+So what's the lesson from this?
+
+00:03:32.110 --> 00:03:34.548
+One lesson is the peril's of overfitting.
+
+00:03:34.548 --> 00:03:36.029
+Engrams only work well for
+
+00:03:36.029 --> 00:03:40.120
+word prediction if the test corpus
+looks like the training corpus.
+
+00:03:40.120 --> 00:03:44.110
+If you test on Shakespeare but
+you trained on the Wall Street Journal,
+
+00:03:44.110 --> 00:03:45.780
+you're not going to
+predict words very well.
+
+00:03:45.780 --> 00:03:48.010
+So in real life this just doesn't happen.
+
+00:03:48.010 --> 00:03:52.580
+So we'd like to train robust models
+that do a better job of generalizing.
+
+00:03:53.948 --> 00:03:56.530
+And I want to talk about
+one kind of generalization,
+
+00:03:56.530 --> 00:03:58.330
+which is dealing with zeros.
+
+00:03:58.330 --> 00:04:02.090
+So by zeros I mean things that never
+occurred in the training set, but
+
+00:04:02.090 --> 00:04:04.190
+do occur in the test set.
+
+00:04:04.190 --> 00:04:05.690
+So let's look at some zeros.
+
+00:04:05.690 --> 00:04:12.170
+Imagine that in the training set we had
+phrases like denied the allegations,
+
+00:04:12.170 --> 00:04:16.300
+denied the reports, denied the claims,
+denied the request.
+
+00:04:16.300 --> 00:04:19.340
+And we never saw deny the offer so
+the probability
+
+00:04:19.340 --> 00:04:24.080
+based on maximum likelihood estimation
+of offer given denied the is zero.
+
+00:04:25.280 --> 00:04:29.430
+Now, we go to a test set and we see
+there's a sentence denied the offer,
+
+00:04:29.430 --> 00:04:30.500
+denied the loan.
+
+00:04:30.500 --> 00:04:35.280
+What's the probability of those sequences,
+denied the offer and
+
+00:04:35.280 --> 00:04:36.430
+denied the loan going to be?
+
+00:04:36.430 --> 00:04:40.770
+Well, the probably is going to be 0
+because we've trained our probabilities on
+
+00:04:40.770 --> 00:04:44.580
+our training site, we're going to do a
+very bad job if we're a speech recognizer,
+
+00:04:44.580 --> 00:04:47.750
+we'll never recognize this phrase
+if we're a machine translator,
+
+00:04:47.750 --> 00:04:50.260
+we'll refuse to translate
+into this phrase.
+
+00:04:50.260 --> 00:04:52.538
+We're going to claim this phrase
+is just not good English.
+
+00:04:52.538 --> 00:04:55.860
+So this is a big problem we need to solve.
+
+00:04:57.470 --> 00:04:59.290
+So bigrams with zero probability
+
+00:05:01.780 --> 00:05:05.260
+mean that we're going to assign
+zero probability to the test set.
+
+00:05:05.260 --> 00:05:07.120
+And so, we can never compute perplexity.
+
+00:05:07.120 --> 00:05:08.540
+We can't divide by zero.
+
+00:05:08.540 --> 00:05:11.450
+So we're going to need to
+find a way of dealing with
+
+00:05:12.790 --> 00:05:14.590
+bigrams with zero probability.
+

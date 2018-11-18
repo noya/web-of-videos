@@ -1,0 +1,368 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.840 --> 00:00:04.935
+In this segment we're going to keep on
+looking at the inverted index and see how
+
+00:00:04.935 --> 00:00:09.620
+it's an efficient data structure for
+doing query operations in an IR system.
+
+00:00:09.620 --> 00:00:13.980
+And in particular we'll step through
+in detail how you can perform
+
+00:00:13.980 --> 00:00:18.010
+a common kind of query,
+an and query for two terms.
+
+00:00:20.270 --> 00:00:25.250
+So starting off now we'll look at
+the details of query processing, and
+
+00:00:25.250 --> 00:00:29.410
+then we'll have a later segment where
+I'll talk even in more detail about
+
+00:00:29.410 --> 00:00:31.093
+the kind of queries we can process.
+
+00:00:33.690 --> 00:00:37.510
+So suppose we want to process a query.
+
+00:00:38.910 --> 00:00:43.360
+So suppose our query is Brutus and Caesar.
+
+00:00:43.360 --> 00:00:47.570
+Well, let me even do
+a simpler example than that.
+
+00:00:47.570 --> 00:00:52.400
+Suppose the very first kind of query we
+wanted to look at is just a query for
+
+00:00:52.400 --> 00:00:53.520
+Brutus.
+
+00:00:53.520 --> 00:00:57.230
+Well, how to do that is
+totally straightforward.
+
+00:00:57.230 --> 00:01:03.500
+What we do is locate
+Brutus in the Dictionary,
+
+00:01:03.500 --> 00:01:09.160
+and then we return its postings list
+that we looked up and say okay, this is
+
+00:01:09.160 --> 00:01:14.750
+the set of documents where Brutus occurs,
+and we don't need to do anything else.
+
+00:01:14.750 --> 00:01:18.515
+But now let's go to that
+fraction more complicated case.
+
+00:01:18.515 --> 00:01:22.405
+Well then, we're going to locate,
+for Brutus and Caesar, we're
+
+00:01:22.405 --> 00:01:27.575
+going to locate both the words in the
+Dictionary, look up their postings lists.
+
+00:01:27.575 --> 00:01:31.205
+And what we'd like to do is then work out
+
+00:01:31.205 --> 00:01:36.095
+what are the documents that
+contain both Brutus and Caesar?
+
+00:01:36.095 --> 00:01:38.850
+And doing the putting them together is
+
+00:01:38.850 --> 00:01:43.290
+extently referred to as merging
+the two postings lists.
+
+00:01:43.290 --> 00:01:46.920
+Now that term can actually be misleading
+because what we're doing with an and
+
+00:01:46.920 --> 00:01:51.180
+query is we're actually intersecting
+the two sets of documents to find
+
+00:01:51.180 --> 00:01:55.170
+the documents that in
+which both words occur.
+
+00:01:55.170 --> 00:01:58.100
+Whereas merging suggests
+doing some kind of
+
+00:01:58.100 --> 00:02:00.730
+putting them together
+in a union operation.
+
+00:02:00.730 --> 00:02:03.860
+But the term merge is used
+actually in both cases.
+
+00:02:03.860 --> 00:02:09.260
+   So the merge algorithm family refers to
+a family of algorithms where you can step
+
+00:02:09.260 --> 00:02:14.120
+through a pair of sorted lists and
+do various boolean operations on that.
+
+00:02:14.120 --> 00:02:16.540
+Let's look in concrete
+detail how that happens.
+
+00:02:20.030 --> 00:02:27.800
+Okay, so the way we do a merge operation
+to do Brutus and Caesar is like this.
+
+00:02:27.800 --> 00:02:32.189
+We start with the pointer which
+points at the head of both lists.
+
+00:02:33.730 --> 00:02:38.780
+And what we're going to be
+wanting to do is then work out
+
+00:02:41.600 --> 00:02:44.350
+what's in the intersection.
+
+00:02:44.350 --> 00:02:47.000
+So the way we do that is we ask,
+
+00:02:47.000 --> 00:02:52.840
+are these two pointers pointing
+at the same and equal doc ID?
+
+00:02:52.840 --> 00:02:54.550
+And the answer is no.
+
+00:02:54.550 --> 00:03:01.010
+And so what we do is then advance
+the pointer that has a smaller doc ID.
+
+00:03:01.010 --> 00:03:04.140
+So now our two pointers are like this and
+we say,
+
+00:03:04.140 --> 00:03:10.480
+are the two pointers pointing
+at the same document ID?
+
+00:03:10.480 --> 00:03:12.790
+And here the answer is yes.
+
+00:03:12.790 --> 00:03:16.400
+So we put that into a result list.
+
+00:03:16.400 --> 00:03:20.570
+And then if we've done that,
+we can then advance both pointers.
+
+00:03:22.210 --> 00:03:27.701
+We now say are these pointers both
+pointing at the same doc ID, no.
+
+00:03:29.250 --> 00:03:34.130
+Is the first list greater, first,
+the thing pointed to by the first
+
+00:03:34.130 --> 00:03:38.200
+list pointer greater than the thing
+pointed to by the second list pointer?
+
+00:03:38.200 --> 00:03:41.390
+No, so we advance the bottom pointer one.
+
+00:03:41.390 --> 00:03:45.340
+Then we say, is the doc ID pointed
+at by the two pointers equal?
+
+00:03:45.340 --> 00:03:48.170
+No, and so
+again we advance the smaller one.
+
+00:03:49.370 --> 00:03:50.180
+Equal?
+
+00:03:50.180 --> 00:03:50.870
+No.
+
+00:03:50.870 --> 00:03:52.750
+Advance the smaller one.
+
+00:03:52.750 --> 00:03:57.460
+At this point, they're again both
+pointing at the same doc ID, so
+
+00:03:57.460 --> 00:04:01.430
+we add that to our result set and
+we advance both pointers.
+
+00:04:03.520 --> 00:04:05.200
+Are they the same?
+
+00:04:05.200 --> 00:04:06.330
+No.
+
+00:04:06.330 --> 00:04:08.660
+What we do is advance the small one.
+
+00:04:08.660 --> 00:04:10.861
+Are they the same?
+
+00:04:10.861 --> 00:04:14.260
+No, we advance the smaller one.
+
+00:04:14.260 --> 00:04:15.135
+Same?
+
+00:04:15.135 --> 00:04:18.175
+No, advance the smaller one.
+
+00:04:18.175 --> 00:04:19.003
+Same?
+
+00:04:19.003 --> 00:04:21.764
+No, advance the smaller one.
+
+00:04:21.764 --> 00:04:22.619
+Same?
+
+00:04:22.619 --> 00:04:25.182
+No, and at this point when we try and
+
+00:04:25.182 --> 00:04:29.375
+advance the smaller one,
+one of our lists are exhausted.
+
+00:04:29.375 --> 00:04:34.049
+And so then there can be no other items
+in the intersection, and so we can stop.
+
+00:04:34.049 --> 00:04:38.057
+And so this is our return document set,
+documents 2 and
+
+00:04:38.057 --> 00:04:40.627
+8 contain both Brutus and Caesar.
+
+00:04:43.575 --> 00:04:45.970
+So I hope we went through
+that carefully enough.
+
+00:04:45.970 --> 00:04:49.780
+That you can see that if the list lengths,
+x and
+
+00:04:49.780 --> 00:04:55.290
+y, then this merge algorithm
+takes O(x+y) time,
+
+00:04:55.290 --> 00:04:59.765
+that it's linear in the sum of
+the lengths of the two postings lists.
+
+00:05:00.825 --> 00:05:06.715
+And you should also have seen what's
+crucial to make this operation linear,
+
+00:05:06.715 --> 00:05:09.955
+and what's crucial to making
+it linear is the fact that
+
+00:05:09.955 --> 00:05:14.405
+these postings lists were
+sorted in order of document ID.
+
+00:05:14.405 --> 00:05:18.575
+Precisely because of that
+we could do a linear scan
+
+00:05:18.575 --> 00:05:20.045
+through the two postings lists.
+
+00:05:20.045 --> 00:05:23.695
+Where if that hadn't been the case then
+it would have turned into an n-squared
+
+00:05:23.695 --> 00:05:24.315
+algorithm.
+
+00:05:26.925 --> 00:05:30.293
+Okay, here's the postings
+lists intersection algorithm,
+
+00:05:30.293 --> 00:05:32.558
+one more time it's a real algorithm, but
+
+00:05:32.558 --> 00:05:36.880
+hopefully you can see it's doing
+exactly the same as what I was by hand.
+
+00:05:36.880 --> 00:05:39.950
+So we start here with
+the answer set as zero, and
+
+00:05:39.950 --> 00:05:45.770
+then we're going to be doing this
+while loop while the postings lists
+
+00:05:45.770 --> 00:05:50.360
+of both not equal to NIL,
+because as soon as one's NIL, we can stop.
+
+00:05:50.360 --> 00:05:52.550
+So that's the and operation.
+
+00:05:52.550 --> 00:05:57.380
+Okay so then at each step what
+we do is ask whether the two,
+
+00:05:57.380 --> 00:06:01.810
+the document ID of the two pointers,
+is the same?
+
+00:06:01.810 --> 00:06:06.222
+If so, we add it to our answer.
+
+00:06:06.222 --> 00:06:11.490
+And if they are the same,
+we can advance both pointers.
+
+00:06:11.490 --> 00:06:16.020
+And if not,
+we work out which docID Is smaller,
+
+00:06:16.020 --> 00:06:20.880
+and then we advance that pointer,
+so either this one or this one.
+
+00:06:20.880 --> 00:06:24.850
+And that was exactly what I was doing and
+then when as soon as
+
+00:06:24.850 --> 00:06:29.170
+one of the document lists runs
+out we can return our answer set.
+
+00:06:32.920 --> 00:06:37.760
+Okay, I hope that made sense and you now
+feel like you could write your own code
+
+00:06:37.760 --> 00:06:41.640
+to do the intersection of postings
+list using the merge algorithm.
+

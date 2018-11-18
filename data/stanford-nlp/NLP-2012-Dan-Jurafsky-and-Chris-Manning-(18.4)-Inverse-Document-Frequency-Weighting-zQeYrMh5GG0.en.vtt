@@ -1,0 +1,551 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.920 --> 00:00:04.990
+In this segment I'm going to introduce
+another score that's used for
+
+00:00:04.990 --> 00:00:08.470
+making the matches of
+documents to a query.
+
+00:00:08.470 --> 00:00:12.000
+And that is to make use of this
+notion of document frequency.
+
+00:00:12.000 --> 00:00:14.080
+In particular we always use it in reverse,
+so
+
+00:00:14.080 --> 00:00:17.250
+it's normally referred to as inverse
+document frequency weighting.
+
+00:00:18.500 --> 00:00:22.390
+The idea behind making use of
+document frequency is that
+
+00:00:22.390 --> 00:00:25.100
+rare terms are more informative
+than frequent terms.
+
+00:00:26.130 --> 00:00:29.740
+So, if you remember early on
+we talked about stop words.
+
+00:00:29.740 --> 00:00:34.970
+Which was words like the, and to, and of.
+
+00:00:34.970 --> 00:00:40.270
+And so the idea that was that these words
+were so common so semantically empty that
+
+00:00:40.270 --> 00:00:45.260
+we didn't have to include them in our
+information retrieval system at all.
+
+00:00:45.260 --> 00:00:49.820
+They have no effect on how good
+a match a document was to a query.
+
+00:00:49.820 --> 00:00:52.000
+Well, that's maybe not quite true.
+
+00:00:52.000 --> 00:00:57.580
+But there's some truth in it in particular
+it seems like in general very common words
+
+00:00:57.580 --> 00:01:01.870
+aren't very determined of the matching
+of a document in a query.
+
+00:01:01.870 --> 00:01:04.980
+Where as rare words are more important.
+
+00:01:04.980 --> 00:01:08.920
+So you consider a term in the query
+that is very rare in the collection
+
+00:01:08.920 --> 00:01:11.440
+perhaps something like arachnocentric.
+
+00:01:11.440 --> 00:01:15.620
+Well, if someone had typed
+that word into their query and
+
+00:01:15.620 --> 00:01:19.380
+we can find a document that
+contains the word arachnocentric,
+
+00:01:19.380 --> 00:01:23.680
+it's very likely to be a document that
+the user would be interested in seeing.
+
+00:01:23.680 --> 00:01:27.260
+So we want to give a high
+weight in our match score for
+
+00:01:27.260 --> 00:01:29.170
+rare terms like arachnocentric.
+
+00:01:31.290 --> 00:01:36.230
+On the other hand, frequent terms
+are less informative than rare terms.
+
+00:01:36.230 --> 00:01:41.560
+So, consider a term that is frequent in
+the collection like high, increase, line.
+
+00:01:41.560 --> 00:01:44.780
+Which might occur in lots of documents.
+
+00:01:44.780 --> 00:01:49.550
+Well, a document containing such a term
+is more likely to be relevant than
+
+00:01:49.550 --> 00:01:53.740
+a document that doesn't if the query
+contained one of those terms and
+
+00:01:53.740 --> 00:01:57.060
+it's not such a sure
+indicator of relevance.
+
+00:01:57.060 --> 00:02:01.200
+So, frequent terms we want
+to give positive weights for
+
+00:02:01.200 --> 00:02:04.030
+a document matching a term in the query.
+
+00:02:04.030 --> 00:02:06.770
+But lower weights than for rare terms.
+
+00:02:06.770 --> 00:02:09.310
+And so
+the way we're going to go about doing that
+
+00:02:09.310 --> 00:02:12.720
+is by making use of this notion
+of document frequency scores.
+
+00:02:14.230 --> 00:02:15.590
+So what exactly is that?
+
+00:02:16.660 --> 00:02:21.830
+Well, the document frequency of a term is
+
+00:02:21.830 --> 00:02:25.610
+the number of documents
+that contain the term.
+
+00:02:25.610 --> 00:02:29.210
+So what this means is that we're
+looking at the entire collection, so
+
+00:02:29.210 --> 00:02:32.790
+maybe the collection Is
+a million documents, and
+
+00:02:32.790 --> 00:02:38.400
+if ten documents have this word we're
+saying that the document frequency is ten.
+
+00:02:38.400 --> 00:02:42.680
+So that's just counting the number
+of documents that it occurs.
+
+00:02:42.680 --> 00:02:44.780
+We can elicit the number
+of times that it occurs.
+
+00:02:44.780 --> 00:02:46.570
+That's something I'll come back to.
+
+00:02:47.680 --> 00:02:53.650
+So, document frequency is an inverse
+measure of informativeness of the term.
+
+00:02:54.690 --> 00:02:58.070
+And we also note that
+the document frequency has
+
+00:02:59.230 --> 00:03:03.470
+to be smaller than the number
+of documents in the collection.
+
+00:03:03.470 --> 00:03:08.050
+So putting that together, this gives us
+the measure of inverse document frequency
+
+00:03:08.050 --> 00:03:12.960
+where we start with the document frequency
+and used it as the denominator and
+
+00:03:12.960 --> 00:03:16.110
+the numerator N here is
+the number of documents.
+
+00:03:16.110 --> 00:03:22.040
+So for a word that appears in just
+one document, this part will be N and
+
+00:03:22.040 --> 00:03:27.540
+for word that appears in every document,
+it's value will be 1.
+
+00:03:27.540 --> 00:03:30.570
+So it's some value between one and N.
+
+00:03:30.570 --> 00:03:34.040
+And so then what we do after that,
+is we take the log of it.
+
+00:03:34.040 --> 00:03:39.870
+And the log is used to dampen the effect
+of inverse document frequency.
+
+00:03:39.870 --> 00:03:42.850
+The idea again is that if you
+just use the absolute score.
+
+00:03:42.850 --> 00:03:46.308
+That'd be too strong a vector.
+
+00:03:46.308 --> 00:03:49.264
+Now in this computation as you can
+see I've used log to the base 10, and
+
+00:03:49.264 --> 00:03:50.488
+that's very commonly used.
+
+00:03:50.488 --> 00:03:55.191
+But actually it turns out that what
+we used as the base of the log
+
+00:03:55.191 --> 00:03:57.281
+isn't really important.
+
+00:03:57.281 --> 00:04:02.245
+Okay, let's go to a concrete example,
+where again we're going to suppose that
+
+00:04:02.245 --> 00:04:06.060
+the size of our document
+collection is 1 million documents.
+
+00:04:06.060 --> 00:04:11.050
+So if we take an extremely rare word like
+calpurnia, which let's say occurs in just
+
+00:04:11.050 --> 00:04:16.070
+one document Well then what we're going
+to be doing is we're going to be taking
+
+00:04:16.070 --> 00:04:22.800
+one million the number of documents
+divided by one and then taking
+
+00:04:22.800 --> 00:04:27.235
+the log of that which means with that
+belong to the base 10 and that would be 6.
+
+00:04:27.235 --> 00:04:33.035
+If we take a somewhat more common word
+that occurs in maybe a 100 documents,
+
+00:04:33.035 --> 00:04:38.380
+then we're going to get the inverse
+document frequency of that is 4.
+
+00:04:38.380 --> 00:04:43.760
+And so then we can work on down for
+progressively more common words and
+
+00:04:43.760 --> 00:04:48.350
+the inverse document frequency will
+count down and in particular for
+
+00:04:48.350 --> 00:04:52.790
+the final case, we shouldn't the word that
+occurred in every one of our documents.
+
+00:04:52.790 --> 00:04:59.720
+We'll then we've got a million
+divided by a million.
+
+00:04:59.720 --> 00:05:03.650
+Which is one.
+
+00:05:03.650 --> 00:05:07.660
+And if we take a log of that
+we get the answer zero.
+
+00:05:08.820 --> 00:05:14.160
+So the result we actually get is that
+a word that occurs in every document
+
+00:05:14.160 --> 00:05:18.060
+does have a weight of 0
+according to an idf score and
+
+00:05:18.060 --> 00:05:22.350
+has no effect on the ordering of words and
+retrieval.
+
+00:05:22.350 --> 00:05:27.300
+And that makes sense, because if it
+occurs in every documents it has
+
+00:05:27.300 --> 00:05:31.700
+no discriminatory value between
+documents and gets a weight of 0.
+
+00:05:31.700 --> 00:05:36.630
+And so what you can see with these numbers
+overall though is that this inverse
+
+00:05:36.630 --> 00:05:41.520
+document frequency weighting
+will give a small multiplier to
+
+00:05:41.520 --> 00:05:47.530
+pay more attention to words that
+are rare words rather very common words.
+
+00:05:47.530 --> 00:05:49.930
+Another thing to note here is
+
+00:05:49.930 --> 00:05:54.790
+that IDF values aren't things
+that change for each query.
+
+00:05:54.790 --> 00:06:00.900
+That there's precisely one IDF value for
+each term in the collection, and that's
+
+00:06:00.900 --> 00:06:05.810
+going to be the same regardless of what
+query you're issuing of the collection.
+
+00:06:07.800 --> 00:06:12.480
+Okay, here's a yes,
+no question for you guys.
+
+00:06:12.480 --> 00:06:17.710
+Does the IDF have an effect on ranking for
+one-term queries like this one?
+
+00:06:18.990 --> 00:06:24.640
+The answer is no, it doesn't,
+IDF has no effect on one term queries.
+
+00:06:24.640 --> 00:06:29.660
+So for one term query,
+you both have one of these terms
+
+00:06:29.660 --> 00:06:34.080
+of N over the document frequency and
+it will be worked out.
+
+00:06:34.080 --> 00:06:41.110
+But it's going to be just a scaling factor
+which syncs only one idea value for
+
+00:06:41.110 --> 00:06:45.840
+each term will be applied
+to every document and
+
+00:06:45.840 --> 00:06:50.430
+therefore it won't affect
+the ranking in any way.
+
+00:06:50.430 --> 00:06:55.180
+You only get an effect from IDF when
+you have multiple terms in a query.
+
+00:06:55.180 --> 00:06:59.410
+So for example,
+if we have the query capricious person,
+
+00:06:59.410 --> 00:07:04.075
+well now we're in a situation where
+capricious is a much rarer word.
+
+00:07:04.075 --> 00:07:08.840
+So IDF will say pay much more
+attention to documents that contain
+
+00:07:08.840 --> 00:07:13.410
+the word capricious then to documents
+that contain just the word person
+
+00:07:13.410 --> 00:07:15.070
+in making your retrieval results.
+
+00:07:17.250 --> 00:07:20.700
+There's another measure that
+reflects the frequency of a term and
+
+00:07:20.700 --> 00:07:23.420
+indeed you might have been
+wondering why we're not using it.
+
+00:07:23.420 --> 00:07:26.840
+And that other measure is what
+information retrieval people refer to as
+
+00:07:26.840 --> 00:07:29.110
+the collection frequency of the term.
+
+00:07:29.110 --> 00:07:33.710
+So the collection frequency of the term
+is just the total number of times it
+
+00:07:33.710 --> 00:07:37.320
+appears in the collection
+counting multiple occurrences.
+
+00:07:37.320 --> 00:07:39.620
+So that's the measure that we've
+been using in other places.
+
+00:07:39.620 --> 00:07:44.480
+It's the measure we were using to
+build unigram language models or
+
+00:07:44.480 --> 00:07:49.530
+when we're working out spam classifiers or
+something like that.
+
+00:07:49.530 --> 00:07:53.880
+But it's not what's usually used in the
+information retrieval ranking systems and
+
+00:07:53.880 --> 00:07:56.690
+this next example can
+maybe help explain why.
+
+00:07:57.970 --> 00:08:02.880
+So here we have two words, insurance and
+try, and I picked those two
+
+00:08:02.880 --> 00:08:07.620
+words because they have virtually
+equal collection frequency.
+
+00:08:07.620 --> 00:08:12.655
+Overall they both occur somewhat more
+than 10,000 times in the collection.
+
+00:08:12.655 --> 00:08:15.148
+But let's then look at
+their document frequency.
+
+00:08:15.148 --> 00:08:21.011
+So the word, try,
+occurs in 8,700 odd documents.
+
+00:08:21.011 --> 00:08:25.578
+And that stands in contrast
+to Insurance which occurs in
+
+00:08:25.578 --> 00:08:28.894
+slightly under 4,000 documents.
+
+00:08:28.894 --> 00:08:30.311
+And so what does that mean?
+
+00:08:30.311 --> 00:08:36.777
+What that means is that when try occurs in
+the document it tends to occur only once,
+
+00:08:36.777 --> 00:08:41.650
+but that try is widely
+distributed across documents.
+
+00:08:41.650 --> 00:08:45.540
+On the other hand when
+insurance occurs in a document,
+
+00:08:45.540 --> 00:08:47.570
+it tends to occur several times.
+
+00:08:47.570 --> 00:08:49.849
+It tends to occur 2-3 times.
+
+00:08:49.849 --> 00:08:52.080
+And so what does that reflect?
+
+00:08:52.080 --> 00:08:54.620
+It reflects the fact that
+there tend to be documents
+
+00:08:54.620 --> 00:08:58.380
+about insurance which then
+mention insurance several times,
+
+00:08:58.380 --> 00:09:02.220
+where there don't really tend
+to be documents about trying.
+
+00:09:02.220 --> 00:09:07.040
+And so what does that mean in terms
+of coming up with the score for
+
+00:09:07.040 --> 00:09:09.710
+retrieval systems with words matching.
+
+00:09:09.710 --> 00:09:15.370
+What it seems to suggest is that
+what we should be doing is giving
+
+00:09:15.370 --> 00:09:21.440
+higher weighting to instances
+of the word insurance appearing.
+
+00:09:21.440 --> 00:09:22.930
+So if we will have some kind of,
+
+00:09:22.930 --> 00:09:27.780
+imagine some kind of query
+like try to buy insurance.
+
+00:09:30.620 --> 00:09:35.930
+The most important word to
+make sure we're finding in
+
+00:09:35.930 --> 00:09:40.740
+our documents to match the query is
+insurance and probably the second
+
+00:09:40.740 --> 00:09:46.470
+most important word is buy and
+try should be coming in third place.
+
+00:09:46.470 --> 00:09:48.850
+Before the nearest stop word of two.
+
+00:09:48.850 --> 00:09:53.880
+And so that's an idea that's
+being correctly captured
+
+00:09:53.880 --> 00:09:56.230
+by looking at the document frequency.
+
+00:09:56.230 --> 00:10:00.410
+But as you can see, it's not
+captured by the collection frequency
+
+00:10:00.410 --> 00:10:03.740
+which would score, try insurance equally.
+
+00:10:05.120 --> 00:10:10.910
+Okay, so I hope now you know what document
+frequency waiting is and why people
+
+00:10:10.910 --> 00:10:15.610
+usually use that as a retrieval ranking
+score rather than collection frequency.
+

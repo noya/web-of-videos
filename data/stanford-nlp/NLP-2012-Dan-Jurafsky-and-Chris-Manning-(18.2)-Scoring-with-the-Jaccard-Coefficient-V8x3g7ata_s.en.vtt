@@ -1,0 +1,270 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.670 --> 00:00:04.210
+It's the first simple example
+of the write retrieval model.
+
+00:00:04.210 --> 00:00:07.550
+Let's consider scoring with
+the Jaccard coefficient.
+
+00:00:07.550 --> 00:00:10.690
+So the Jaccard coefficient is
+a commonly used measure for
+
+00:00:10.690 --> 00:00:13.840
+the overlap between two sets a and b.
+
+00:00:13.840 --> 00:00:18.380
+And what it is, is simply you take the
+number of items in the section of a and
+
+00:00:18.380 --> 00:00:21.960
+b and you divide it by the number
+of items in the union of a and b.
+
+00:00:23.470 --> 00:00:28.320
+And so if we take the Jaccard coefficient
+of a set with itself, then the set has
+
+00:00:28.320 --> 00:00:32.950
+some size, and then that size will be
+also the size of the intersection,
+
+00:00:32.950 --> 00:00:37.380
+the union, and so the ratio will be 1 and
+the Jaccard coefficient is 1.
+
+00:00:37.380 --> 00:00:42.361
+If two sets are disjoint and have no
+members in common, and the numerator of
+
+00:00:42.361 --> 00:00:47.754
+the Jaccard coefficient would be zero,
+and so the Jaccard coefficient is zero.
+
+00:00:47.754 --> 00:00:52.544
+Now, the two sets don't have to be the
+same size, but you should be able to see
+
+00:00:52.544 --> 00:00:57.192
+the Jaccard coefficient will always
+assign a number between zero and one,
+
+00:00:57.192 --> 00:01:01.050
+because at most the intersection
+can be as large as the union.
+
+00:01:02.200 --> 00:01:06.700
+So suppose we decide to make the query
+document match score the Jaccard
+
+00:01:06.700 --> 00:01:12.180
+coefficient computed for the sets
+of words the two documents contain?
+
+00:01:12.180 --> 00:01:16.670
+So the idea is that let's suppose
+our query is ides of march,
+
+00:01:16.670 --> 00:01:21.030
+which has these three words, and
+then we have these two documents.
+
+00:01:21.030 --> 00:01:24.950
+So what we can do is say so
+there are three different words here.
+
+00:01:26.080 --> 00:01:30.960
+And then for Document 1,
+Caesar doesn't occur in it,
+
+00:01:30.960 --> 00:01:35.920
+die doesn't occur in it, in doesn't
+occur in it, march does occur in it.
+
+00:01:35.920 --> 00:01:38.750
+So the size of the intersection
+
+00:01:43.155 --> 00:01:49.115
+Is just one word and
+the total number of words is 6.
+
+00:01:49.115 --> 00:01:55.700
+If we then do the second document,
+well, the doesn't occur in the query.
+
+00:01:55.700 --> 00:01:57.530
+Long doesn't occur in the query.
+
+00:01:57.530 --> 00:02:00.390
+But again march does occur in the query.
+
+00:02:00.390 --> 00:02:07.380
+So this time the Jaccard
+coefficient of d1,
+
+00:02:07.380 --> 00:02:13.280
+d2, is going to be one divided
+by the number of words,
+
+00:02:13.280 --> 00:02:17.120
+which is this time five.
+
+00:02:17.120 --> 00:02:22.896
+Okay, and so this document is going to
+win as having the higher Jaccard score.
+
+00:02:22.896 --> 00:02:27.180
+Now of course that difference
+may not seem very significant.
+
+00:02:27.180 --> 00:02:30.970
+Essentially this document is
+winning here because it's shorter.
+
+00:02:30.970 --> 00:02:35.820
+But if we imagined a different example,
+
+00:02:35.820 --> 00:02:40.110
+where we maybe had the word
+ides in the second document.
+
+00:02:40.110 --> 00:02:42.930
+And we'd get that
+the Jaccard coefficient for
+
+00:02:42.930 --> 00:02:48.410
+it is now two overlapping words
+over six and that maybe makes
+
+00:02:48.410 --> 00:02:53.130
+more sense to you that you're getting more
+overlaps if the Jaccard score is higher.
+
+00:02:53.130 --> 00:02:58.490
+But this idea that all else being equal,
+a shorter document should be preferred,
+
+00:02:58.490 --> 00:03:01.060
+is a common one that we'll
+see again in IR models.
+
+00:03:02.790 --> 00:03:05.990
+Okay.
+So, it Jaccard scoring a good idea for
+
+00:03:05.990 --> 00:03:07.490
+a retrieval model?
+
+00:03:07.490 --> 00:03:09.180
+In general, it's not felt to be.
+
+00:03:09.180 --> 00:03:10.930
+It has a couple of issues.
+
+00:03:10.930 --> 00:03:13.790
+One is that is doesn't
+consider term frequency.
+
+00:03:13.790 --> 00:03:16.790
+It just uses the set of
+words in a document and
+
+00:03:16.790 --> 00:03:20.900
+ignores how many times
+the words occur in a document.
+
+00:03:20.900 --> 00:03:25.090
+But that's typically not
+all the information we want
+
+00:03:26.800 --> 00:03:32.070
+and we'll look at models in a minute
+that do deal with term frequency.
+
+00:03:32.070 --> 00:03:36.950
+There's also a second finer point which is
+that rare terms in a collection are more
+
+00:03:36.950 --> 00:03:41.430
+informative than frequent
+terms when evaluating a query.
+
+00:03:41.430 --> 00:03:45.200
+And that's something that we'll also
+want to factor into our models.
+
+00:03:45.200 --> 00:03:49.320
+There's one other aspect in which
+the Jaccard coefficient turns out
+
+00:03:49.320 --> 00:03:54.790
+not to work very well, and that is
+the way in which it does normalization by
+
+00:03:54.790 --> 00:03:58.900
+dividing through by the union
+isn't necessarily quite right.
+
+00:03:58.900 --> 00:04:03.910
+I mean in particular,
+later on in these segments we'll
+
+00:04:03.910 --> 00:04:09.960
+introduce the idea of
+using cosine similarity.
+
+00:04:09.960 --> 00:04:13.740
+And we'll go through the math of that for
+the more general case.
+
+00:04:13.740 --> 00:04:18.039
+And if after you've seen that you
+want to kind of come back to this and
+
+00:04:18.039 --> 00:04:21.087
+work out what the cosine
+similarity score is,
+
+00:04:21.087 --> 00:04:25.403
+if you just have a one zero bag of
+words and work out a cosine score.
+
+00:04:25.403 --> 00:04:29.443
+It'll turn out that it's this,
+which is like the Jaccard coefficient,
+
+00:04:29.443 --> 00:04:33.679
+except that we've got this slight
+difference in the denominator that we're
+
+00:04:33.679 --> 00:04:36.390
+now taking the square root of the union.
+
+00:04:36.390 --> 00:04:40.540
+And that actually turns out to be
+a better form of length normalization.
+
+00:04:42.350 --> 00:04:47.940
+Okay, so I introduced the Jaccard
+coefficient as a very simple
+
+00:04:49.350 --> 00:04:53.820
+ranked retrieval model, but
+I hope it was also a way
+
+00:04:53.820 --> 00:04:58.490
+to show some of the issues that we need
+to deal with in a good retrieval model.
+
+00:04:58.490 --> 00:05:02.310
+How to factor in the frequency of terms,
+the rareness of words.
+
+00:05:02.310 --> 00:05:05.470
+And how to normalize the score for
+different document lengths.
+

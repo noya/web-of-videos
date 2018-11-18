@@ -1,0 +1,1854 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:08.490 --> 00:00:10.830 align:start position:0%
+ 
+<c.colorE5E5E5>okay</c><c.colorCCCCCC><00:00:09.490><c> we're</c><00:00:09.700><c> now</c><00:00:09.849><c> going</c></c><c.colorE5E5E5><00:00:10.059><c> to</c><00:00:10.210><c> continue</c></c><c.colorCCCCCC><00:00:10.420><c> with</c></c>
+
+00:00:10.830 --> 00:00:10.840 align:start position:0%
+<c.colorE5E5E5>okay</c><c.colorCCCCCC> we're now going</c><c.colorE5E5E5> to continue</c><c.colorCCCCCC> with
+ </c>
+
+00:00:10.840 --> 00:00:12.840 align:start position:0%
+<c.colorE5E5E5>okay</c><c.colorCCCCCC> we're now going</c><c.colorE5E5E5> to continue</c><c.colorCCCCCC> with</c>
+<c.colorE5E5E5>some<00:00:10.900><c> additional</c><00:00:11.500><c> techniques</c><00:00:12.280><c> for</c><00:00:12.580><c> text</c></c>
+
+00:00:12.840 --> 00:00:12.850 align:start position:0%
+<c.colorE5E5E5>some additional techniques for text
+ </c>
+
+00:00:12.850 --> 00:00:15.930 align:start position:0%
+<c.colorE5E5E5>some additional techniques for text
+summarization</c><c.colorCCCCCC><00:00:14.190><c> I'm</c><00:00:15.190><c> going</c><00:00:15.459><c> to</c><00:00:15.580><c> go</c><00:00:15.730><c> very</c></c>
+
+00:00:15.930 --> 00:00:15.940 align:start position:0%
+summarization<c.colorCCCCCC> I'm going to go very
+ </c>
+
+00:00:15.940 --> 00:00:18.330 align:start position:0%
+summarization<c.colorCCCCCC> I'm going to go very
+briefly</c><c.colorE5E5E5><00:00:16.119><c> over</c><00:00:16.630><c> a</c><00:00:16.660><c> few</c><00:00:16.900><c> more</c><00:00:17.050><c> papers</c></c><c.colorCCCCCC><00:00:17.439><c> well</c><00:00:18.160><c> the</c></c>
+
+00:00:18.330 --> 00:00:18.340 align:start position:0%
+briefly<c.colorE5E5E5> over a few more papers</c><c.colorCCCCCC> well the
+ </c>
+
+00:00:18.340 --> 00:00:21.510 align:start position:0%
+briefly<c.colorE5E5E5> over a few more papers</c><c.colorCCCCCC> well the
+first<00:00:18.550><c> one</c><00:00:18.790><c> is</c></c><c.colorE5E5E5><00:00:18.820><c> by</c><00:00:19.290><c> John</c><00:00:20.290><c> Conroy</c></c><c.colorCCCCCC><00:00:20.770><c> Diane</c><00:00:21.160><c> only</c></c>
+
+00:00:21.510 --> 00:00:21.520 align:start position:0%
+first one is<c.colorE5E5E5> by John Conroy</c><c.colorCCCCCC> Diane only
+ </c>
+
+00:00:21.520 --> 00:00:25.800 align:start position:0%
+first one is<c.colorE5E5E5> by John Conroy</c><c.colorCCCCCC> Diane only
+from<00:00:21.820><c> 2001</c><00:00:22.919><c> it</c></c><c.colorE5E5E5><00:00:23.919><c> uses</c><00:00:24.460><c> a</c><00:00:24.700><c> hidden</c><00:00:25.029><c> Markov</c><00:00:25.390><c> models</c></c>
+
+00:00:25.800 --> 00:00:25.810 align:start position:0%
+from 2001<c.colorCCCCCC> it</c><c.colorE5E5E5> uses a hidden Markov models
+ </c>
+
+00:00:25.810 --> 00:00:28.109 align:start position:0%
+from 2001<c.colorCCCCCC> it</c><c.colorE5E5E5> uses a hidden Markov models
+for<00:00:25.960><c> text</c><00:00:26.200><c> summarization</c></c><c.colorCCCCCC><00:00:26.470><c> and</c></c><c.colorE5E5E5><00:00:27.130><c> it</c><00:00:27.460><c> is</c><00:00:27.640><c> that</c><00:00:27.939><c> we</c></c>
+
+00:00:28.109 --> 00:00:28.119 align:start position:0%
+for text summarization<c.colorCCCCCC> and</c><c.colorE5E5E5> it is that we
+ </c>
+
+00:00:28.119 --> 00:00:30.299 align:start position:0%
+for text summarization<c.colorCCCCCC> and</c><c.colorE5E5E5> it is that we
+want<00:00:28.419><c> to</c><00:00:28.779><c> take</c><00:00:29.230><c> into</c></c><c.colorCCCCCC><00:00:29.590><c> account</c><00:00:29.860><c> the</c><00:00:30.070><c> local</c></c>
+
+00:00:30.299 --> 00:00:30.309 align:start position:0%
+want to<c.colorE5E5E5> take into</c><c.colorCCCCCC> account the local
+ </c>
+
+00:00:30.309 --> 00:00:32.580 align:start position:0%
+want to<c.colorE5E5E5> take into</c><c.colorCCCCCC> account the local
+dependencies<00:00:31.300><c> between</c><00:00:31.450><c> sentences</c><00:00:32.230><c> the</c><00:00:32.380><c> idea</c></c>
+
+00:00:32.580 --> 00:00:32.590 align:start position:0%
+dependencies between sentences the idea
+ 
+
+00:00:32.590 --> 00:00:35.040 align:start position:0%
+dependencies between sentences the idea
+is<c.colorE5E5E5><00:00:32.649><c> that</c><00:00:32.829><c> you</c><00:00:33.579><c> don't</c><00:00:33.850><c> want</c><00:00:34.120><c> to</c></c><c.colorCCCCCC><00:00:34.450><c> include</c></c>
+
+00:00:35.040 --> 00:00:35.050 align:start position:0%
+is<c.colorE5E5E5> that you don't want to</c><c.colorCCCCCC> include
+ </c>
+
+00:00:35.050 --> 00:00:38.459 align:start position:0%
+is<c.colorE5E5E5> that you don't want to</c><c.colorCCCCCC> include
+sentences<00:00:36.010><c> in</c><00:00:36.130><c> the</c><00:00:36.250><c> summary</c><00:00:37.320><c> randomly</c><00:00:38.320><c> no</c></c>
+
+00:00:38.459 --> 00:00:38.469 align:start position:0%
+sentences in the summary randomly no
+ 
+
+00:00:38.469 --> 00:00:40.829 align:start position:0%
+sentences in the summary randomly no
+independent<00:00:39.070><c> of</c><00:00:39.190><c> one</c><00:00:39.370><c> another</c><00:00:39.399><c> way</c><00:00:39.850><c> often</c><c.colorE5E5E5><00:00:40.059><c> if</c></c>
+
+00:00:40.829 --> 00:00:40.839 align:start position:0%
+independent of one another way often<c.colorE5E5E5> if
+ </c>
+
+00:00:40.839 --> 00:00:42.209 align:start position:0%
+independent of one another way often<c.colorE5E5E5> if
+you<00:00:41.019><c> include</c></c><c.colorCCCCCC><00:00:41.260><c> the</c><00:00:41.379><c> sentence</c><00:00:41.800><c> you</c><00:00:41.920><c> have</c><00:00:41.949><c> to</c></c>
+
+00:00:42.209 --> 00:00:42.219 align:start position:0%
+you include<c.colorCCCCCC> the sentence you have to
+ </c>
+
+00:00:42.219 --> 00:00:44.189 align:start position:0%
+you include<c.colorCCCCCC> the sentence you have to
+decide<00:00:42.579><c> whether</c><00:00:42.879><c> the</c><00:00:43.120><c> sentence</c><00:00:43.539><c> before</c><00:00:43.929><c> after</c></c>
+
+00:00:44.189 --> 00:00:44.199 align:start position:0%
+decide whether the sentence<c.colorCCCCCC> before after
+ </c>
+
+00:00:44.199 --> 00:00:46.439 align:start position:0%
+decide whether the sentence<c.colorCCCCCC> before after</c>
+<c.colorE5E5E5>it<00:00:44.469><c> should</c><00:00:44.620><c> also</c><00:00:44.829><c> be</c></c><c.colorCCCCCC><00:00:44.980><c> included</c></c><c.colorE5E5E5><00:00:45.300><c> so</c><00:00:46.300><c> the</c></c>
+
+00:00:46.439 --> 00:00:46.449 align:start position:0%
+<c.colorE5E5E5>it should also be</c><c.colorCCCCCC> included</c><c.colorE5E5E5> so the
+ </c>
+
+00:00:46.449 --> 00:00:47.880 align:start position:0%
+<c.colorE5E5E5>it should also be</c><c.colorCCCCCC> included</c><c.colorE5E5E5> so the
+features<00:00:46.749><c> that</c><00:00:46.780><c> I</c><00:00:46.989><c> used</c><00:00:47.260><c> are</c><00:00:47.499><c> things</c><00:00:47.739><c> like</c></c>
+
+00:00:47.880 --> 00:00:47.890 align:start position:0%
+features that<c.colorE5E5E5> I used are things like
+ </c>
+
+00:00:47.890 --> 00:00:50.669 align:start position:0%
+features that<c.colorE5E5E5> I used are things like</c>
+<c.colorCCCCCC>position<00:00:48.640><c> number</c><00:00:49.179><c> of</c></c><c.colorE5E5E5><00:00:49.239><c> terms</c><00:00:49.600><c> similarity</c><00:00:50.530><c> to</c></c>
+
+00:00:50.669 --> 00:00:50.679 align:start position:0%
+<c.colorCCCCCC>position number of</c><c.colorE5E5E5> terms similarity to
+ </c>
+
+00:00:50.679 --> 00:00:52.799 align:start position:0%
+<c.colorCCCCCC>position number of</c><c.colorE5E5E5> terms similarity to</c>
+<c.colorCCCCCC>the<00:00:50.800><c> document</c><00:00:51.399><c> terms</c></c><c.colorE5E5E5><00:00:51.670><c> so</c><00:00:52.089><c> that</c><00:00:52.120><c> which</c><00:00:52.480><c> is</c></c><c.colorCCCCCC><00:00:52.629><c> very</c></c>
+
+00:00:52.799 --> 00:00:52.809 align:start position:0%
+<c.colorCCCCCC>the document terms</c><c.colorE5E5E5> so that which is</c><c.colorCCCCCC> very
+ </c>
+
+00:00:52.809 --> 00:00:54.840 align:start position:0%
+<c.colorCCCCCC>the document terms</c><c.colorE5E5E5> so that which is</c><c.colorCCCCCC> very
+similar<00:00:52.989><c> to</c><00:00:53.109><c> the</c><00:00:53.320><c> centroid</c><00:00:53.859><c> idea</c><00:00:54.219><c> in</c><00:00:54.489><c> the</c><00:00:54.670><c> mid</c></c>
+
+00:00:54.840 --> 00:00:54.850 align:start position:0%
+similar to<c.colorCCCCCC> the centroid idea in the mid
+ </c>
+
+00:00:54.850 --> 00:00:58.770 align:start position:0%
+similar to<c.colorCCCCCC> the centroid idea in the mid
+paper<00:00:55.739><c> so</c><00:00:56.739><c> the</c><00:00:56.859><c> hmm</c><00:00:57.339><c> alternates</c><00:00:57.969><c> between</c><00:00:58.239><c> some</c></c>
+
+00:00:58.770 --> 00:00:58.780 align:start position:0%
+paper so the hmm alternates between some
+ 
+
+00:00:58.780 --> 00:01:00.779 align:start position:0%
+paper so the hmm alternates between some
+again<00:00:59.079><c> non</c><c.colorE5E5E5><00:00:59.350><c> summary</c></c><c.colorCCCCCC><00:00:59.769><c> states</c></c><c.colorE5E5E5><00:01:00.129><c> so</c><00:01:00.579><c> how</c><00:01:00.730><c> the</c></c>
+
+00:01:00.779 --> 00:01:00.789 align:start position:0%
+again non<c.colorE5E5E5> summary</c><c.colorCCCCCC> states</c><c.colorE5E5E5> so how the
+ </c>
+
+00:01:00.789 --> 00:01:02.579 align:start position:0%
+again non<c.colorE5E5E5> summary</c><c.colorCCCCCC> states</c><c.colorE5E5E5> so how the
+probability</c><c.colorCCCCCC><00:01:01.510><c> of</c><00:01:01.600><c> staying</c><00:01:01.899><c> in</c></c><c.colorE5E5E5><00:01:02.079><c> a</c><00:01:02.199><c> summary</c></c>
+
+00:01:02.579 --> 00:01:02.589 align:start position:0%
+probability<c.colorCCCCCC> of staying in</c><c.colorE5E5E5> a summary
+ </c>
+
+00:01:02.589 --> 00:01:04.680 align:start position:0%
+probability<c.colorCCCCCC> of staying in</c><c.colorE5E5E5> a summary
+state<00:01:02.859><c> or</c><00:01:03.069><c> of</c><00:01:03.489><c> leaving</c><00:01:03.969><c> a</c><00:01:03.999><c> summary</c><00:01:04.449><c> state</c></c>
+
+00:01:04.680 --> 00:01:04.690 align:start position:0%
+state or of leaving a summary state
+ 
+
+00:01:04.690 --> 00:01:07.230 align:start position:0%
+state or of leaving a summary state
+<c.colorE5E5E5>going<00:01:04.930><c> to</c><00:01:05.019><c> no</c><00:01:05.199><c> summary</c><00:01:05.650><c> state</c><00:01:05.950><c> and</c><00:01:06.280><c> so</c><00:01:06.610><c> on</c><00:01:06.640><c> all</c></c>
+
+00:01:07.230 --> 00:01:07.240 align:start position:0%
+<c.colorE5E5E5>going to no summary state and so on all
+ </c>
+
+00:01:07.240 --> 00:01:10.350 align:start position:0%
+<c.colorE5E5E5>going to no summary state and so on all
+the<00:01:07.390><c> four</c><00:01:07.630><c> possible</c><00:01:08.080><c> combinations</c></c><c.colorCCCCCC><00:01:09.120><c> so</c><00:01:10.120><c> here's</c></c>
+
+00:01:10.350 --> 00:01:10.360 align:start position:0%
+<c.colorE5E5E5>the four possible combinations</c><c.colorCCCCCC> so here's
+ </c>
+
+00:01:10.360 --> 00:01:12.120 align:start position:0%
+<c.colorE5E5E5>the four possible combinations</c><c.colorCCCCCC> so here's
+an<00:01:10.479><c> example</c><00:01:10.750><c> from</c><00:01:10.990><c> the</c><00:01:11.080><c> conroy</c><00:01:11.590><c> and</c><00:01:11.620><c> O'Leary</c></c>
+
+00:01:12.120 --> 00:01:12.130 align:start position:0%
+an<c.colorCCCCCC> example from the conroy and O'Leary
+ </c>
+
+00:01:12.130 --> 00:01:16.050 align:start position:0%
+an<c.colorCCCCCC> example from the conroy and O'Leary
+paper<00:01:12.520><c> you</c><00:01:13.000><c> have</c><00:01:13.270><c> green</c><00:01:14.050><c> and</c><00:01:14.290><c> blue</c><00:01:15.060><c> sentences</c></c>
+
+00:01:16.050 --> 00:01:16.060 align:start position:0%
+paper<c.colorCCCCCC> you have green and blue sentences
+ </c>
+
+00:01:16.060 --> 00:01:17.640 align:start position:0%
+paper<c.colorCCCCCC> you have green and blue sentences
+that<00:01:16.360><c> tell</c><00:01:16.600><c> you</c><00:01:16.780><c> whether</c><00:01:16.990><c> you</c></c><c.colorE5E5E5><00:01:17.290><c> want</c><00:01:17.530><c> to</c></c>
+
+00:01:17.640 --> 00:01:17.650 align:start position:0%
+<c.colorCCCCCC>that tell you whether you</c><c.colorE5E5E5> want to
+ </c>
+
+00:01:17.650 --> 00:01:19.170 align:start position:0%
+<c.colorCCCCCC>that tell you whether you</c><c.colorE5E5E5> want to
+include<00:01:17.860><c> the</c><00:01:18.100><c> centers</c><00:01:18.460><c> in</c></c><c.colorCCCCCC><00:01:18.490><c> the</c><00:01:18.730><c> summary</c><00:01:19.090><c> or</c></c>
+
+00:01:19.170 --> 00:01:19.180 align:start position:0%
+include the centers in<c.colorCCCCCC> the summary or
+ </c>
+
+00:01:19.180 --> 00:01:20.840 align:start position:0%
+include the centers in<c.colorCCCCCC> the summary or
+not</c>
+
+00:01:20.840 --> 00:01:20.850 align:start position:0%
+not
+ 
+
+00:01:20.850 --> 00:01:25.500 align:start position:0%
+not
+next<c.colorCCCCCC><00:01:21.850><c> paper</c><00:01:22.000><c> is</c><00:01:22.270><c> by</c><00:01:22.450><c> Mouse</c><00:01:22.990><c> Osborne</c></c><c.colorE5E5E5><00:01:23.680><c> 2002</c><00:01:24.520><c> he</c></c>
+
+00:01:25.500 --> 00:01:25.510 align:start position:0%
+next<c.colorCCCCCC> paper is by Mouse Osborne</c><c.colorE5E5E5> 2002 he
+ </c>
+
+00:01:25.510 --> 00:01:27.660 align:start position:0%
+next<c.colorCCCCCC> paper is by Mouse Osborne</c><c.colorE5E5E5> 2002 he
+was<00:01:25.660><c> the</c><00:01:25.810><c> first</c><00:01:26.050><c> one</c><00:01:26.230><c> to</c><00:01:26.440><c> take</c><00:01:27.130><c> into</c></c><c.colorCCCCCC><00:01:27.430><c> account</c></c>
+
+00:01:27.660 --> 00:01:27.670 align:start position:0%
+was the first one to take into<c.colorCCCCCC> account
+ </c>
+
+00:01:27.670 --> 00:01:30.060 align:start position:0%
+was the first one to take into<c.colorCCCCCC> account
+the</c><c.colorE5E5E5><00:01:27.880><c> fact</c><00:01:28.120><c> that</c><00:01:28.210><c> the</c><00:01:29.080><c> features</c><00:01:29.530><c> used</c><00:01:29.830><c> in</c></c>
+
+00:01:30.060 --> 00:01:30.070 align:start position:0%
+the<c.colorE5E5E5> fact that the features used in
+ </c>
+
+00:01:30.070 --> 00:01:32.730 align:start position:0%
+the<c.colorE5E5E5> fact that the features used in</c>
+<c.colorCCCCCC>previous<00:01:30.460><c> papers</c><00:01:30.940><c> were</c><00:01:31.240><c> actually</c><00:01:32.050><c> dependent</c></c>
+
+00:01:32.730 --> 00:01:32.740 align:start position:0%
+<c.colorCCCCCC>previous papers were actually dependent
+ </c>
+
+00:01:32.740 --> 00:01:35.070 align:start position:0%
+<c.colorCCCCCC>previous papers were actually dependent
+and<00:01:33.010><c> techniques</c><00:01:33.760><c> like</c></c><c.colorE5E5E5><00:01:33.910><c> naive</c><00:01:34.330><c> Bayesian</c><00:01:34.630><c> and</c></c>
+
+00:01:35.070 --> 00:01:35.080 align:start position:0%
+and techniques like<c.colorE5E5E5> naive Bayesian and
+ </c>
+
+00:01:35.080 --> 00:01:38.160 align:start position:0%
+and techniques like<c.colorE5E5E5> naive Bayesian and
+so<00:01:35.200><c> on</c><00:01:35.380><c> should</c><00:01:35.590><c> not</c><00:01:35.770><c> be</c><00:01:36.690><c> necessarily</c><00:01:37.690><c> the</c><00:01:37.930><c> best</c></c>
+
+00:01:38.160 --> 00:01:38.170 align:start position:0%
+so on<c.colorE5E5E5> should not be necessarily the best
+ </c>
+
+00:01:38.170 --> 00:01:41.400 align:start position:0%
+so on<c.colorE5E5E5> should not be necessarily the best
+ones<00:01:38.440><c> so</c><00:01:39.010><c> in</c><00:01:39.640><c> his</c><00:01:39.850><c> case</c><00:01:39.910><c> he</c><00:01:40.390><c> used</c><00:01:40.600><c> the</c></c><c.colorCCCCCC><00:01:40.810><c> MaxEnt</c></c>
+
+00:01:41.400 --> 00:01:41.410 align:start position:0%
+ones<c.colorE5E5E5> so in his case he used the</c><c.colorCCCCCC> MaxEnt
+ </c>
+
+00:01:41.410 --> 00:01:44.070 align:start position:0%
+ones<c.colorE5E5E5> so in his case he used the</c><c.colorCCCCCC> MaxEnt
+or<00:01:41.590><c> log</c><00:01:41.800><c> linear</c></c><c.colorE5E5E5><00:01:42.010><c> model</c></c><c.colorCCCCCC><00:01:42.580><c> to</c><00:01:43.510><c> take</c><00:01:43.720><c> into</c><00:01:44.050><c> account</c></c>
+
+00:01:44.070 --> 00:01:44.080 align:start position:0%
+or log linear<c.colorE5E5E5> model</c><c.colorCCCCCC> to take into account
+ </c>
+
+00:01:44.080 --> 00:01:46.020 align:start position:0%
+or log linear<c.colorE5E5E5> model</c><c.colorCCCCCC> to take into account</c>
+<c.colorCCCCCC>the<00:01:44.500><c> dependencies</c><00:01:45.190><c> between</c><00:01:45.370><c> the</c><00:01:45.700><c> different</c></c>
+
+00:01:46.020 --> 00:01:46.030 align:start position:0%
+<c.colorCCCCCC>the dependencies between the different
+ </c>
+
+00:01:46.030 --> 00:01:48.060 align:start position:0%
+<c.colorCCCCCC>the dependencies between the different</c>
+<c.colorCCCCCC>features<00:01:46.390><c> and</c></c><c.colorE5E5E5><00:01:46.690><c> he</c><00:01:47.020><c> got</c><00:01:47.200><c> better</c><00:01:47.410><c> performance</c></c>
+
+00:01:48.060 --> 00:01:48.070 align:start position:0%
+<c.colorCCCCCC>features and</c><c.colorE5E5E5> he got better performance
+ </c>
+
+00:01:48.070 --> 00:01:50.460 align:start position:0%
+<c.colorCCCCCC>features and</c><c.colorE5E5E5> he got better performance
+than</c><c.colorCCCCCC><00:01:48.130><c> the</c><00:01:48.370><c> base</c><00:01:48.700><c> so</c></c><c.colorE5E5E5><00:01:49.690><c> the</c></c><c.colorCCCCCC><00:01:49.810><c> features</c><00:01:50.140><c> that</c></c><c.colorE5E5E5><00:01:50.170><c> he</c></c>
+
+00:01:50.460 --> 00:01:50.470 align:start position:0%
+than<c.colorCCCCCC> the base so</c><c.colorE5E5E5> the</c><c.colorCCCCCC> features that</c><c.colorE5E5E5> he
+ </c>
+
+00:01:50.470 --> 00:01:52.800 align:start position:0%
+than<c.colorCCCCCC> the base so</c><c.colorE5E5E5> the</c><c.colorCCCCCC> features that</c><c.colorE5E5E5> he
+used<00:01:50.680><c> were</c><00:01:50.890><c> sentence</c><00:01:51.430><c> lengths</c><00:01:51.820><c> sentence</c></c>
+
+00:01:52.800 --> 00:01:52.810 align:start position:0%
+used were sentence lengths sentence
+ 
+
+00:01:52.810 --> 00:01:54.510 align:start position:0%
+used were sentence lengths sentence
+positioned<00:01:53.410><c> whether</c><00:01:53.860><c> the</c><c.colorCCCCCC><00:01:54.070><c> sentence</c><00:01:54.400><c> is</c></c>
+
+00:01:54.510 --> 00:01:54.520 align:start position:0%
+positioned whether the<c.colorCCCCCC> sentence is
+ </c>
+
+00:01:54.520 --> 00:01:56.340 align:start position:0%
+positioned whether the<c.colorCCCCCC> sentence is
+inside<00:01:54.850><c> introduction</c><00:01:55.600><c> of</c><00:01:55.720><c> the</c><00:01:55.810><c> document</c></c>
+
+00:01:56.340 --> 00:01:56.350 align:start position:0%
+inside introduction of the document
+ 
+
+00:01:56.350 --> 00:01:59.270 align:start position:0%
+inside introduction of the document
+where<00:01:56.680><c> it's</c><00:01:56.830><c> inside</c><00:01:57.130><c> a</c><00:01:57.160><c> conclusion</c><00:01:57.880><c> and</c><00:01:58.060><c> so</c><00:01:58.240><c> on</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+where it's inside a conclusion and so on
+ 
+
+00:01:59.280 --> 00:02:01.950 align:start position:0%
+where it's inside a conclusion and so on
+now<00:02:00.280><c> the</c><00:02:00.340><c> next</c><c.colorCCCCCC><00:02:00.550><c> paper</c></c><c.colorE5E5E5><00:02:00.820><c> is</c><00:02:01.120><c> by</c><00:02:01.270><c> a</c></c><c.colorCCCCCC><00:02:01.300><c> con</c></c><c.colorE5E5E5><00:02:01.780><c> and</c></c>
+
+00:02:01.950 --> 00:02:01.960 align:start position:0%
+now the next<c.colorCCCCCC> paper</c><c.colorE5E5E5> is by a</c><c.colorCCCCCC> con</c><c.colorE5E5E5> and
+ </c>
+
+00:02:01.960 --> 00:02:04.350 align:start position:0%
+now the next<c.colorCCCCCC> paper</c><c.colorE5E5E5> is by a</c><c.colorCCCCCC> con</c><c.colorE5E5E5> and
+another<00:02:02.140><c> of</c><00:02:02.320><c> 2004</c><00:02:03.130><c> it</c></c><c.colorCCCCCC><00:02:03.430><c> was</c><00:02:03.730><c> published</c><00:02:04.150><c> in</c></c>
+
+00:02:04.350 --> 00:02:04.360 align:start position:0%
+another of 2004 it<c.colorCCCCCC> was published in
+ </c>
+
+00:02:04.360 --> 00:02:06.240 align:start position:0%
+another of 2004 it<c.colorCCCCCC> was published in</c>
+<c.colorCCCCCC>Journal<00:02:05.200><c> of</c></c><c.colorE5E5E5><00:02:05.230><c> artificial</c></c><c.colorCCCCCC><00:02:05.770><c> intelligence</c></c>
+
+00:02:06.240 --> 00:02:06.250 align:start position:0%
+<c.colorCCCCCC>Journal of</c><c.colorE5E5E5> artificial</c><c.colorCCCCCC> intelligence
+ </c>
+
+00:02:06.250 --> 00:02:08.880 align:start position:0%
+<c.colorCCCCCC>Journal of</c><c.colorE5E5E5> artificial</c><c.colorCCCCCC> intelligence
+research<00:02:06.730><c> or</c><00:02:06.970><c> Jerr</c></c><c.colorE5E5E5><00:02:07.420><c> and</c><00:02:08.200><c> this</c><00:02:08.410><c> was</c><00:02:08.560><c> the</c><00:02:08.679><c> first</c></c>
+
+00:02:08.880 --> 00:02:08.890 align:start position:0%
+research or<c.colorCCCCCC> Jerr</c><c.colorE5E5E5> and this was the first
+ </c>
+
+00:02:08.890 --> 00:02:11.400 align:start position:0%
+research or<c.colorCCCCCC> Jerr</c><c.colorE5E5E5> and this was the first</c>
+<c.colorE5E5E5>paper<00:02:09.220><c> on</c><00:02:09.479><c> method</c><00:02:10.479><c> code</c><00:02:10.780><c> based</c><00:02:11.019><c> on</c></c><c.colorCCCCCC><00:02:11.140><c> a</c><00:02:11.200><c> random</c></c>
+
+00:02:11.400 --> 00:02:11.410 align:start position:0%
+<c.colorE5E5E5>paper on method code based on</c><c.colorCCCCCC> a random
+ </c>
+
+00:02:11.410 --> 00:02:13.680 align:start position:0%
+<c.colorE5E5E5>paper on method code based on</c><c.colorCCCCCC> a random
+walks<00:02:11.920><c> for</c><00:02:12.190><c> multi</c><00:02:12.459><c> document</c></c><c.colorE5E5E5><00:02:12.940><c> summarization</c></c>
+
+00:02:13.680 --> 00:02:13.690 align:start position:0%
+walks for multi document<c.colorE5E5E5> summarization
+ </c>
+
+00:02:13.690 --> 00:02:15.330 align:start position:0%
+walks for multi document<c.colorE5E5E5> summarization
+and<00:02:13.810><c> that</c><00:02:13.959><c> technique</c><00:02:14.290><c> also</c><00:02:14.500><c> works</c><00:02:14.680><c> for</c><00:02:15.010><c> single</c></c>
+
+00:02:15.330 --> 00:02:15.340 align:start position:0%
+and<c.colorE5E5E5> that technique also works for single
+ </c>
+
+00:02:15.340 --> 00:02:17.910 align:start position:0%
+and<c.colorE5E5E5> that technique also works for single
+document<00:02:15.760><c> summaries</c></c><c.colorCCCCCC><00:02:16.499><c> so</c></c><c.colorE5E5E5><00:02:17.499><c> the</c><00:02:17.650><c> idea</c><00:02:17.859><c> is</c></c>
+
+00:02:17.910 --> 00:02:17.920 align:start position:0%
+document summaries<c.colorCCCCCC> so</c><c.colorE5E5E5> the idea is
+ </c>
+
+00:02:17.920 --> 00:02:19.880 align:start position:0%
+document summaries<c.colorCCCCCC> so</c><c.colorE5E5E5> the idea is</c>
+<c.colorCCCCCC>something<00:02:18.219><c> called</c></c><c.colorE5E5E5><00:02:18.430><c> lexical</c><00:02:18.670><c> centrality</c></c>
+
+00:02:19.880 --> 00:02:19.890 align:start position:0%
+<c.colorCCCCCC>something called</c><c.colorE5E5E5> lexical centrality
+ </c>
+
+00:02:19.890 --> 00:02:21.630 align:start position:0%
+<c.colorCCCCCC>something called</c><c.colorE5E5E5> lexical centrality
+lexical<00:02:20.890><c> centrality</c><00:02:21.280><c> me</c></c>
+
+00:02:21.630 --> 00:02:21.640 align:start position:0%
+lexical centrality me
+ 
+
+00:02:21.640 --> 00:02:24.420 align:start position:0%
+lexical centrality me
+that<00:02:21.819><c> if</c><00:02:22.390><c> a</c><00:02:22.630><c> sentence</c><c.colorE5E5E5><00:02:23.170><c> is</c><00:02:23.470><c> likely</c><00:02:23.860><c> to</c><00:02:24.220><c> be</c></c>
+
+00:02:24.420 --> 00:02:24.430 align:start position:0%
+that if a sentence<c.colorE5E5E5> is likely to be
+ </c>
+
+00:02:24.430 --> 00:02:27.930 align:start position:0%
+that if a sentence<c.colorE5E5E5> is likely to be
+visited</c><c.colorCCCCCC><00:02:25.200><c> during</c></c><c.colorE5E5E5><00:02:26.200><c> a</c><00:02:26.470><c> random</c></c><c.colorCCCCCC><00:02:26.680><c> walk</c><00:02:27.069><c> process</c><00:02:27.400><c> on</c></c>
+
+00:02:27.930 --> 00:02:27.940 align:start position:0%
+visited<c.colorCCCCCC> during</c><c.colorE5E5E5> a random</c><c.colorCCCCCC> walk process on
+ </c>
+
+00:02:27.940 --> 00:02:30.150 align:start position:0%
+visited<c.colorCCCCCC> during</c><c.colorE5E5E5> a random</c><c.colorCCCCCC> walk process on
+a<00:02:28.030><c> similarity</c><00:02:28.450><c> graph</c><00:02:28.959><c> corresponding</c><00:02:29.920><c> to</c><00:02:30.069><c> all</c></c>
+
+00:02:30.150 --> 00:02:30.160 align:start position:0%
+a similarity graph corresponding to all
+ 
+
+00:02:30.160 --> 00:02:32.010 align:start position:0%
+a similarity graph corresponding to all
+the<c.colorE5E5E5><00:02:30.220><c> sentences</c><00:02:30.819><c> in</c><00:02:30.940><c> the</c><00:02:31.060><c> set</c><00:02:31.270><c> of</c><00:02:31.390><c> documents</c></c>
+
+00:02:32.010 --> 00:02:32.020 align:start position:0%
+the<c.colorE5E5E5> sentences in the set of documents
+ </c>
+
+00:02:32.020 --> 00:02:33.870 align:start position:0%
+the<c.colorE5E5E5> sentences in the set of documents
+then<00:02:32.590><c> that</c><00:02:32.770><c> sentence</c><00:02:33.250><c> is</c><00:02:33.400><c> worthy</c><00:02:33.850><c> of</c></c>
+
+00:02:33.870 --> 00:02:33.880 align:start position:0%
+then that sentence is worthy of
+ 
+
+00:02:33.880 --> 00:02:36.690 align:start position:0%
+then that sentence is worthy of
+including<00:02:34.360><c> in</c><00:02:34.450><c> the</c><00:02:34.569><c> summary</c><00:02:35.160><c> so</c><00:02:36.160><c> the</c><00:02:36.430><c> steps</c>
+
+00:02:36.690 --> 00:02:36.700 align:start position:0%
+including in the summary so the steps
+ 
+
+00:02:36.700 --> 00:02:38.880 align:start position:0%
+including in the summary so the steps
+are<c.colorCCCCCC><00:02:36.850><c> the</c></c><c.colorE5E5E5><00:02:36.910><c> following</c><00:02:37.330><c> you</c><00:02:37.840><c> can</c><00:02:38.020><c> present</c><00:02:38.230><c> a</c><00:02:38.530><c> text</c></c>
+
+00:02:38.880 --> 00:02:38.890 align:start position:0%
+are<c.colorCCCCCC> the</c><c.colorE5E5E5> following you can present a text
+ </c>
+
+00:02:38.890 --> 00:02:42.900 align:start position:0%
+are<c.colorCCCCCC> the</c><c.colorE5E5E5> following you can present a text
+as<00:02:39.040><c> graph</c></c><c.colorCCCCCC><00:02:40.260><c> with</c></c><c.colorE5E5E5><00:02:41.260><c> Santos</c><00:02:42.130><c> is</c><00:02:42.310><c> connected</c></c><c.colorCCCCCC><00:02:42.790><c> to</c></c>
+
+00:02:42.900 --> 00:02:42.910 align:start position:0%
+as graph<c.colorCCCCCC> with</c><c.colorE5E5E5> Santos is connected</c><c.colorCCCCCC> to
+ </c>
+
+00:02:42.910 --> 00:02:44.730 align:start position:0%
+as graph<c.colorCCCCCC> with</c><c.colorE5E5E5> Santos is connected</c><c.colorCCCCCC> to</c>
+<c.colorE5E5E5>each<00:02:43.000><c> other</c><00:02:43.180><c> if</c><00:02:43.570><c> they</c><00:02:43.810><c> have</c><00:02:44.020><c> a</c><00:02:44.050><c> lot</c></c><c.colorCCCCCC><00:02:44.380><c> of</c><00:02:44.530><c> words</c></c>
+
+00:02:44.730 --> 00:02:44.740 align:start position:0%
+<c.colorE5E5E5>each other if they have a lot</c><c.colorCCCCCC> of words
+ </c>
+
+00:02:44.740 --> 00:02:47.160 align:start position:0%
+<c.colorE5E5E5>each other if they have a lot</c><c.colorCCCCCC> of words
+in<00:02:44.950><c> common</c><00:02:45.340><c> and</c><00:02:45.580><c> then</c><00:02:46.120><c> you</c><00:02:46.300><c> just</c><00:02:46.959><c> use</c><00:02:47.140><c> a</c></c>
+
+00:02:47.160 --> 00:02:47.170 align:start position:0%
+in<c.colorCCCCCC> common and then you just use a
+ </c>
+
+00:02:47.170 --> 00:02:49.110 align:start position:0%
+in<c.colorCCCCCC> common and then you just use a</c>
+<c.colorE5E5E5>standard<00:02:47.500><c> graph</c><00:02:47.980><c> centrality</c><00:02:48.459><c> metric</c><00:02:49.030><c> for</c></c>
+
+00:02:49.110 --> 00:02:49.120 align:start position:0%
+<c.colorE5E5E5>standard graph centrality metric for
+ </c>
+
+00:02:49.120 --> 00:02:51.150 align:start position:0%
+<c.colorE5E5E5>standard graph centrality metric for
+example<00:02:49.540><c> between</c><00:02:49.720><c> a</c><00:02:49.989><c> centrality</c><00:02:50.590><c> I</c><00:02:50.860><c> can</c></c>
+
+00:02:51.150 --> 00:02:51.160 align:start position:0%
+example between a centrality<c.colorE5E5E5> I can
+ </c>
+
+00:02:51.160 --> 00:02:53.040 align:start position:0%
+example between a centrality<c.colorE5E5E5> I can</c>
+<c.colorCCCCCC>vector<00:02:51.459><c> centrality</c></c><c.colorE5E5E5><00:02:51.910><c> to</c><00:02:52.209><c> determine</c><00:02:52.720><c> the</c><00:02:52.840><c> top</c></c>
+
+00:02:53.040 --> 00:02:53.050 align:start position:0%
+<c.colorCCCCCC>vector centrality</c><c.colorE5E5E5> to determine the top
+ </c>
+
+00:02:53.050 --> 00:02:56.130 align:start position:0%
+<c.colorCCCCCC>vector centrality</c><c.colorE5E5E5> to determine the top
+sentences<00:02:54.030><c> one</c><00:02:55.030><c> of</c><00:02:55.180><c> the</c><00:02:55.270><c> components</c><00:02:55.870><c> of</c><00:02:55.959><c> leg</c></c>
+
+00:02:56.130 --> 00:02:56.140 align:start position:0%
+sentences one of the components<c.colorE5E5E5> of leg
+ </c>
+
+00:02:56.140 --> 00:02:58.560 align:start position:0%
+sentences one of the components<c.colorE5E5E5> of leg
+shank<00:02:56.410><c> is</c><00:02:56.560><c> graph</c><00:02:56.890><c> clustering</c><00:02:57.580><c> so</c><00:02:57.610><c> before</c><00:02:58.360><c> you</c></c>
+
+00:02:58.560 --> 00:02:58.570 align:start position:0%
+shank is graph clustering<c.colorE5E5E5> so before you
+ </c>
+
+00:02:58.570 --> 00:03:00.390 align:start position:0%
+shank is graph clustering<c.colorE5E5E5> so before you
+want<00:02:58.840><c> to</c><00:02:58.959><c> pick</c><00:02:59.110><c> the</c></c><c.colorCCCCCC><00:02:59.230><c> most</c><00:02:59.530><c> central</c><00:02:59.800><c> sentences</c></c>
+
+00:03:00.390 --> 00:03:00.400 align:start position:0%
+want to pick the<c.colorCCCCCC> most central sentences
+ </c>
+
+00:03:00.400 --> 00:03:02.520 align:start position:0%
+want to pick the<c.colorCCCCCC> most central sentences
+you<00:03:00.550><c> want</c><00:03:00.790><c> also</c></c><c.colorE5E5E5><00:03:01.060><c> to</c><00:03:01.239><c> segment</c><00:03:01.570><c> the</c><00:03:01.930><c> graph</c><00:03:02.170><c> into</c></c>
+
+00:03:02.520 --> 00:03:02.530 align:start position:0%
+you want also<c.colorE5E5E5> to segment the graph into
+ </c>
+
+00:03:02.530 --> 00:03:04.050 align:start position:0%
+you want also<c.colorE5E5E5> to segment the graph into
+units<00:03:02.890><c> that</c><00:03:03.010><c> correspond</c><00:03:03.580><c> to</c><00:03:03.610><c> different</c></c>
+
+00:03:04.050 --> 00:03:04.060 align:start position:0%
+units<c.colorE5E5E5> that correspond to different
+ </c>
+
+00:03:04.060 --> 00:03:08.610 align:start position:0%
+units<c.colorE5E5E5> that correspond to different
+themes<00:03:05.940><c> so</c><00:03:06.940><c> here's</c><00:03:07.150><c> an</c><00:03:07.300><c> example</c><00:03:07.390><c> we</c><00:03:08.350><c> have</c><00:03:08.590><c> a</c></c>
+
+00:03:08.610 --> 00:03:08.620 align:start position:0%
+themes so here's an example<c.colorE5E5E5> we have a
+ </c>
+
+00:03:08.620 --> 00:03:12.090 align:start position:0%
+themes so here's an example<c.colorE5E5E5> we have a
+collection<00:03:09.130><c> of</c><00:03:09.450><c> 10</c><00:03:10.450><c> or</c><00:03:10.600><c> 11</c><00:03:10.930><c> sentences</c><00:03:11.560><c> from</c></c>
+
+00:03:12.090 --> 00:03:12.100 align:start position:0%
+collection<c.colorE5E5E5> of 10 or 11 sentences from
+ </c>
+
+00:03:12.100 --> 00:03:14.460 align:start position:0%
+collection<c.colorE5E5E5> of 10 or 11 sentences from
+different<00:03:12.459><c> documents</c></c><c.colorCCCCCC><00:03:13.060><c> that</c><00:03:13.930><c> correspond</c><00:03:14.440><c> to</c></c>
+
+00:03:14.460 --> 00:03:14.470 align:start position:0%
+different documents<c.colorCCCCCC> that correspond to
+ </c>
+
+00:03:14.470 --> 00:03:17.370 align:start position:0%
+different documents<c.colorCCCCCC> that correspond to
+the<00:03:14.709><c> same</c><00:03:14.739><c> event</c><00:03:15.280><c> the</c><00:03:15.730><c> first</c><00:03:16.000><c> one</c></c><c.colorE5E5E5><00:03:16.209><c> D</c><00:03:16.600><c> 1</c><00:03:16.840><c> s</c><00:03:17.110><c> 1</c></c>
+
+00:03:17.370 --> 00:03:17.380 align:start position:0%
+the same<c.colorCCCCCC> event the first one</c><c.colorE5E5E5> D 1 s 1
+ </c>
+
+00:03:17.380 --> 00:03:19.440 align:start position:0%
+the same<c.colorCCCCCC> event the first one</c><c.colorE5E5E5> D 1 s 1</c>
+<c.colorE5E5E5>just<00:03:17.980><c> means</c><00:03:18.190><c> that</c><00:03:18.430><c> it's</c><00:03:18.640><c> sent</c></c><c.colorCCCCCC><00:03:18.940><c> as</c><00:03:19.060><c> one</c><00:03:19.239><c> from</c></c>
+
+00:03:19.440 --> 00:03:19.450 align:start position:0%
+<c.colorE5E5E5>just means that it's sent</c><c.colorCCCCCC> as one from
+ </c>
+
+00:03:19.450 --> 00:03:21.930 align:start position:0%
+<c.colorE5E5E5>just means that it's sent</c><c.colorCCCCCC> as one from
+document</c><c.colorE5E5E5><00:03:19.900><c> 1</c><00:03:20.080><c> the</c><00:03:20.709><c> second</c><00:03:21.130><c> one</c><00:03:21.250><c> is</c><00:03:21.430><c> sent</c><00:03:21.610><c> as</c><00:03:21.760><c> one</c></c>
+
+00:03:21.930 --> 00:03:21.940 align:start position:0%
+document<c.colorE5E5E5> 1 the second one is sent as one
+ </c>
+
+00:03:21.940 --> 00:03:25.440 align:start position:0%
+document<c.colorE5E5E5> 1 the second one is sent as one
+from<00:03:22.150><c> document</c></c><c.colorCCCCCC><00:03:22.630><c> 2</c><00:03:22.870><c> and</c><00:03:23.200><c> so</c><00:03:23.410><c> on</c><00:03:23.790><c> we</c><00:03:24.790><c> have</c></c><c.colorE5E5E5><00:03:24.880><c> 11</c><00:03:25.390><c> of</c></c>
+
+00:03:25.440 --> 00:03:25.450 align:start position:0%
+from document<c.colorCCCCCC> 2 and so on we have</c><c.colorE5E5E5> 11 of
+ </c>
+
+00:03:25.450 --> 00:03:28.770 align:start position:0%
+from document<c.colorCCCCCC> 2 and so on we have</c><c.colorE5E5E5> 11 of</c>
+<c.colorE5E5E5>those<00:03:25.660><c> in</c><00:03:25.870><c> total</c><00:03:26.260><c> and</c><00:03:26.790><c> we</c><00:03:27.790><c> can</c><00:03:27.940><c> now</c><00:03:28.090><c> build</c><00:03:28.390><c> a</c></c>
+
+00:03:28.770 --> 00:03:28.780 align:start position:0%
+<c.colorE5E5E5>those in total and we can now build a
+ </c>
+
+00:03:28.780 --> 00:03:31.530 align:start position:0%
+<c.colorE5E5E5>those in total and we can now build a
+similarity<00:03:29.320><c> matrix</c><00:03:30.130><c> that</c><00:03:30.820><c> corresponds</c><00:03:31.420><c> to</c></c>
+
+00:03:31.530 --> 00:03:31.540 align:start position:0%
+similarity<c.colorE5E5E5> matrix that corresponds to
+ </c>
+
+00:03:31.540 --> 00:03:33.360 align:start position:0%
+similarity<c.colorE5E5E5> matrix that corresponds to
+all<00:03:31.660><c> the</c><00:03:31.930><c> different</c><00:03:32.290><c> pairs</c><00:03:32.560><c> of</c></c><c.colorCCCCCC><00:03:32.680><c> sentences</c><00:03:33.340><c> in</c></c>
+
+00:03:33.360 --> 00:03:33.370 align:start position:0%
+all<c.colorE5E5E5> the different pairs of</c><c.colorCCCCCC> sentences in
+ </c>
+
+00:03:33.370 --> 00:03:35.580 align:start position:0%
+all<c.colorE5E5E5> the different pairs of</c><c.colorCCCCCC> sentences in</c>
+<c.colorCCCCCC>that<00:03:33.640><c> input</c><00:03:33.870><c> now</c><00:03:34.870><c> it's</c><00:03:35.019><c> obvious</c><00:03:35.380><c> that</c><00:03:35.410><c> the</c></c>
+
+00:03:35.580 --> 00:03:35.590 align:start position:0%
+<c.colorCCCCCC>that input now it's obvious that the
+ </c>
+
+00:03:35.590 --> 00:03:38.490 align:start position:0%
+<c.colorCCCCCC>that input now it's obvious that the</c>
+<c.colorE5E5E5>diagonal<00:03:36.280><c> entries</c><00:03:36.610><c> are</c></c><c.colorCCCCCC><00:03:36.640><c> all</c></c><c.colorE5E5E5><00:03:36.910><c> ones</c><00:03:37.260><c> however</c><00:03:38.260><c> we</c></c>
+
+00:03:38.490 --> 00:03:38.500 align:start position:0%
+<c.colorE5E5E5>diagonal entries are</c><c.colorCCCCCC> all</c><c.colorE5E5E5> ones however we
+ </c>
+
+00:03:38.500 --> 00:03:40.050 align:start position:0%
+<c.colorE5E5E5>diagonal entries are</c><c.colorCCCCCC> all</c><c.colorE5E5E5> ones however we
+are<00:03:38.560><c> also</c><00:03:38.590><c> very</c></c><c.colorCCCCCC><00:03:38.920><c> interested</c><00:03:39.100><c> in</c></c><c.colorE5E5E5><00:03:39.610><c> the</c><00:03:39.760><c> high</c></c>
+
+00:03:40.050 --> 00:03:40.060 align:start position:0%
+<c.colorE5E5E5>are also very</c><c.colorCCCCCC> interested in</c><c.colorE5E5E5> the high
+ </c>
+
+00:03:40.060 --> 00:03:42.270 align:start position:0%
+<c.colorE5E5E5>are also very</c><c.colorCCCCCC> interested in</c><c.colorE5E5E5> the high
+values<00:03:40.660><c> that</c><00:03:40.810><c> are</c><00:03:41.019><c> not</c><00:03:41.170><c> on</c><00:03:41.440><c> the</c><00:03:41.470><c> diagonal</c><00:03:41.890><c> so</c></c>
+
+00:03:42.270 --> 00:03:42.280 align:start position:0%
+values that are not on the<c.colorE5E5E5> diagonal so
+ </c>
+
+00:03:42.280 --> 00:03:46.259 align:start position:0%
+values that are not on the<c.colorE5E5E5> diagonal so
+for<00:03:42.430><c> example</c><00:03:42.880><c> this</c><00:03:43.660><c> is</c><00:03:43.900><c> 0.45</c><00:03:44.860><c> value</c><00:03:45.579><c> here</c></c>
+
+00:03:46.259 --> 00:03:46.269 align:start position:0%
+for example this<c.colorE5E5E5> is 0.45 value here
+ </c>
+
+00:03:46.269 --> 00:03:48.449 align:start position:0%
+for example this<c.colorE5E5E5> is 0.45 value here</c>
+<c.colorCCCCCC>between<00:03:46.600><c> sentences</c></c><c.colorE5E5E5><00:03:47.170><c> 1</c><00:03:47.380><c> &amp;</c><00:03:47.560><c> 2</c><00:03:47.709><c> so</c><00:03:47.860><c> send</c><00:03:48.070><c> us</c><00:03:48.190><c> 1</c><00:03:48.430><c> and</c></c>
+
+00:03:48.449 --> 00:03:48.459 align:start position:0%
+<c.colorCCCCCC>between sentences</c><c.colorE5E5E5> 1 &amp; 2 so send us 1 and
+ </c>
+
+00:03:48.459 --> 00:03:50.100 align:start position:0%
+<c.colorCCCCCC>between sentences</c><c.colorE5E5E5> 1 &amp; 2 so send us 1 and</c>
+<c.colorCCCCCC>send<00:03:48.760><c> us</c><00:03:48.910><c> to</c></c><c.colorE5E5E5><00:03:49.150><c> God</c><00:03:49.329><c> be</c><00:03:49.480><c> very</c><00:03:49.720><c> strongly</c></c>
+
+00:03:50.100 --> 00:03:50.110 align:start position:0%
+<c.colorCCCCCC>send us to</c><c.colorE5E5E5> God be very strongly
+ </c>
+
+00:03:50.110 --> 00:03:53.250 align:start position:0%
+<c.colorCCCCCC>send us to</c><c.colorE5E5E5> God be very strongly
+connected<00:03:50.500><c> in</c><00:03:50.829><c> the</c><00:03:50.950><c> graph</c><00:03:51.810><c> so</c><00:03:52.810><c> now</c><00:03:52.930><c> let's</c><00:03:53.140><c> see</c></c>
+
+00:03:53.250 --> 00:03:53.260 align:start position:0%
+connected in the graph<c.colorE5E5E5> so now let's see
+ </c>
+
+00:03:53.260 --> 00:03:55.500 align:start position:0%
+connected in the graph<c.colorE5E5E5> so now let's see
+how<00:03:53.440><c> we</c><00:03:53.500><c> can</c><00:03:53.739><c> compute</c><00:03:53.950><c> the</c><00:03:54.459><c> cosine</c><00:03:54.970><c> centrality</c></c>
+
+00:03:55.500 --> 00:03:55.510 align:start position:0%
+how we can compute the cosine centrality
+ 
+
+00:03:55.510 --> 00:04:00.620 align:start position:0%
+how we can compute the cosine centrality
+<c.colorE5E5E5>of<00:03:56.100><c> this</c><00:03:57.100><c> graph</c><00:03:57.820><c> using</c><00:03:58.720><c> a</c><00:03:58.840><c> cosine</c></c><c.colorCCCCCC><00:03:59.320><c> cutoff</c></c><c.colorE5E5E5><00:03:59.769><c> of</c></c>
+
+00:04:00.620 --> 00:04:00.630 align:start position:0%
+<c.colorE5E5E5>of this graph using a cosine</c><c.colorCCCCCC> cutoff</c><c.colorE5E5E5> of
+ </c>
+
+00:04:00.630 --> 00:04:05.699 align:start position:0%
+<c.colorE5E5E5>of this graph using a cosine</c><c.colorCCCCCC> cutoff</c><c.colorE5E5E5> of
+0.3<00:04:02.459><c> so</c><00:04:03.459><c> what</c><00:04:03.820><c> we</c><00:04:04.239><c> have</c><00:04:04.420><c> here</c><00:04:04.780><c> is</c><00:04:04.959><c> 11</c><00:04:05.440><c> nodes</c></c>
+
+00:04:05.699 --> 00:04:05.709 align:start position:0%
+0.3 so what we have<c.colorE5E5E5> here is 11 nodes
+ </c>
+
+00:04:05.709 --> 00:04:07.500 align:start position:0%
+0.3 so what we have<c.colorE5E5E5> here is 11 nodes</c>
+<c.colorE5E5E5>each<00:04:06.100><c> of</c><00:04:06.280><c> which</c><00:04:06.400><c> corresponds</c><00:04:06.970><c> to</c><00:04:07.090><c> one</c><00:04:07.299><c> of</c><00:04:07.420><c> the</c></c>
+
+00:04:07.500 --> 00:04:07.510 align:start position:0%
+<c.colorE5E5E5>each of which corresponds to one of the
+ </c>
+
+00:04:07.510 --> 00:04:10.140 align:start position:0%
+<c.colorE5E5E5>each of which corresponds to one of the</c>
+<c.colorE5E5E5>sentences<00:04:08.019><c> in</c><00:04:08.170><c> the</c><00:04:08.290><c> input</c><00:04:08.620><c> and</c><00:04:08.940><c> only</c><00:04:09.940><c> those</c></c>
+
+00:04:10.140 --> 00:04:10.150 align:start position:0%
+<c.colorE5E5E5>sentences in the input and only those
+ </c>
+
+00:04:10.150 --> 00:04:12.420 align:start position:0%
+<c.colorE5E5E5>sentences in the input and only those
+sentence<00:04:10.720><c> pairs</c><00:04:11.140><c> that</c></c><c.colorCCCCCC><00:04:11.620><c> have</c><00:04:11.860><c> a</c><00:04:11.890><c> similarity</c></c>
+
+00:04:12.420 --> 00:04:12.430 align:start position:0%
+sentence pairs that<c.colorCCCCCC> have a similarity
+ </c>
+
+00:04:12.430 --> 00:04:15.930 align:start position:0%
+sentence pairs that<c.colorCCCCCC> have a similarity
+above<00:04:13.030><c> 0.3</c><00:04:13.900><c> are</c><00:04:14.049><c> connected</c><00:04:14.560><c> now</c><00:04:15.519><c> as</c><00:04:15.640><c> you</c></c><c.colorE5E5E5><00:04:15.760><c> can</c></c>
+
+00:04:15.930 --> 00:04:15.940 align:start position:0%
+above 0.3 are connected now as you<c.colorE5E5E5> can
+ </c>
+
+00:04:15.940 --> 00:04:17.130 align:start position:0%
+above 0.3 are connected now as you<c.colorE5E5E5> can</c>
+<c.colorCCCCCC>see<00:04:16.120><c> this</c><00:04:16.269><c> graph</c><00:04:16.539><c> is</c><00:04:16.720><c> still</c><00:04:16.900><c> fairly</c></c>
+
+00:04:17.130 --> 00:04:17.140 align:start position:0%
+<c.colorCCCCCC>see this graph is still fairly
+ </c>
+
+00:04:17.140 --> 00:04:19.229 align:start position:0%
+<c.colorCCCCCC>see this graph is still fairly
+disconnected<00:04:17.890><c> and</c></c><c.colorE5E5E5><00:04:18.070><c> there's</c><00:04:18.280><c> not</c><00:04:18.430><c> much</c><00:04:19.000><c> useful</c></c>
+
+00:04:19.229 --> 00:04:19.239 align:start position:0%
+disconnected and<c.colorE5E5E5> there's not much useful
+ </c>
+
+00:04:19.239 --> 00:04:21.560 align:start position:0%
+disconnected and<c.colorE5E5E5> there's not much useful
+information</c><c.colorCCCCCC><00:04:19.479><c> that</c></c><c.colorE5E5E5><00:04:20.049><c> can</c><00:04:20.410><c> be</c><00:04:20.560><c> gained</c><00:04:20.859><c> from</c><00:04:21.130><c> the</c></c>
+
+00:04:21.560 --> 00:04:21.570 align:start position:0%
+information<c.colorCCCCCC> that</c><c.colorE5E5E5> can be gained from the
+ </c>
+
+00:04:21.570 --> 00:04:25.350 align:start position:0%
+information<c.colorCCCCCC> that</c><c.colorE5E5E5> can be gained from the
+structure<00:04:22.650><c> if</c><00:04:23.650><c> we</c><00:04:23.890><c> lower</c><00:04:24.160><c> the</c><00:04:24.400><c> cutoff</c><00:04:24.640><c> for</c></c>
+
+00:04:25.350 --> 00:04:25.360 align:start position:0%
+structure if we lower the cutoff for
+ 
+
+00:04:25.360 --> 00:04:27.960 align:start position:0%
+structure if we lower the cutoff for
+cosine<c.colorE5E5E5><00:04:25.750><c> similarity</c><00:04:25.990><c> to</c><00:04:26.560><c> 0.2</c></c><c.colorCCCCCC><00:04:27.400><c> we're</c></c><c.colorE5E5E5><00:04:27.700><c> going</c><00:04:27.850><c> to</c></c>
+
+00:04:27.960 --> 00:04:27.970 align:start position:0%
+cosine<c.colorE5E5E5> similarity to 0.2</c><c.colorCCCCCC> we're</c><c.colorE5E5E5> going to
+ </c>
+
+00:04:27.970 --> 00:04:30.630 align:start position:0%
+cosine<c.colorE5E5E5> similarity to 0.2</c><c.colorCCCCCC> we're</c><c.colorE5E5E5> going to
+see<00:04:28.120><c> much</c><00:04:28.330><c> better</c><00:04:28.690><c> structure</c><00:04:29.070><c> in</c><00:04:30.070><c> fact</c><00:04:30.310><c> it</c><00:04:30.460><c> was</c></c>
+
+00:04:30.630 --> 00:04:30.640 align:start position:0%
+see much<c.colorE5E5E5> better structure in fact it was
+ </c>
+
+00:04:30.640 --> 00:04:32.310 align:start position:0%
+see much<c.colorE5E5E5> better structure in fact it was</c>
+<c.colorCCCCCC>very<00:04:30.820><c> obvious</c><00:04:30.940><c> at</c><00:04:31.270><c> this</c><00:04:31.360><c> point</c></c><c.colorE5E5E5><00:04:31.479><c> that</c><00:04:31.840><c> sentence</c></c>
+
+00:04:32.310 --> 00:04:32.320 align:start position:0%
+<c.colorCCCCCC>very obvious at this point</c><c.colorE5E5E5> that sentence
+ </c>
+
+00:04:32.320 --> 00:04:35.580 align:start position:0%
+<c.colorCCCCCC>very obvious at this point</c><c.colorE5E5E5> that sentence</c>
+<c.colorCCCCCC>d4<00:04:32.950><c> s1</c><00:04:33.460><c> is</c></c><c.colorE5E5E5><00:04:34.150><c> very</c><00:04:34.599><c> highly</c><00:04:34.930><c> connected</c></c>
+
+00:04:35.580 --> 00:04:35.590 align:start position:0%
+<c.colorCCCCCC>d4 s1 is</c><c.colorE5E5E5> very highly connected
+ </c>
+
+00:04:35.590 --> 00:04:37.260 align:start position:0%
+<c.colorCCCCCC>d4 s1 is</c><c.colorE5E5E5> very highly connected</c>
+<c.colorE5E5E5>to<00:04:35.800><c> the</c><00:04:35.920><c> rest</c><00:04:36.130><c> of</c><00:04:36.280><c> the</c><00:04:36.400><c> graph</c><00:04:36.640><c> where</c><00:04:36.880><c> a</c><00:04:36.940><c> sadness</c></c>
+
+00:04:37.260 --> 00:04:37.270 align:start position:0%
+<c.colorE5E5E5>to the rest of the graph where a sadness
+ </c>
+
+00:04:37.270 --> 00:04:41.280 align:start position:0%
+<c.colorE5E5E5>to the rest of the graph where a sadness
+is<00:04:37.540><c> like</c><00:04:37.720><c> D</c></c><c.colorCCCCCC><00:04:38.140><c> 2</c><00:04:38.350><c> s</c><00:04:38.470><c> 2</c><00:04:38.830><c> and</c><00:04:39.100><c> D</c><00:04:39.880><c> 3</c></c><c.colorE5E5E5><00:04:39.910><c> s</c></c><c.colorCCCCCC><00:04:40.300><c> 1</c><00:04:40.600><c> are</c><00:04:40.900><c> not</c><00:04:41.110><c> as</c></c>
+
+00:04:41.280 --> 00:04:41.290 align:start position:0%
+<c.colorE5E5E5>is like D</c><c.colorCCCCCC> 2 s 2 and D 3</c><c.colorE5E5E5> s</c><c.colorCCCCCC> 1 are not as
+ </c>
+
+00:04:41.290 --> 00:04:43.680 align:start position:0%
+<c.colorE5E5E5>is like D</c><c.colorCCCCCC> 2 s 2 and D 3</c><c.colorE5E5E5> s</c><c.colorCCCCCC> 1 are not as</c>
+<c.colorE5E5E5>highly<00:04:41.650><c> connected</c><00:04:41.920><c> if</c><00:04:42.850><c> we</c><00:04:43.030><c> keep</c><00:04:43.210><c> lowering</c><00:04:43.570><c> the</c></c>
+
+00:04:43.680 --> 00:04:43.690 align:start position:0%
+<c.colorE5E5E5>highly connected if we keep lowering the
+ </c>
+
+00:04:43.690 --> 00:04:45.780 align:start position:0%
+<c.colorE5E5E5>highly connected if we keep lowering the</c>
+<c.colorE5E5E5>-</c><c.colorCCCCCC><00:04:43.900><c> hold</c></c><c.colorE5E5E5><00:04:44.230><c> we're</c><00:04:44.470><c> going</c><00:04:44.650><c> to</c><00:04:44.770><c> get</c><00:04:44.980><c> a</c><00:04:45.250><c> situation</c></c>
+
+00:04:45.780 --> 00:04:45.790 align:start position:0%
+<c.colorE5E5E5>-</c><c.colorCCCCCC> hold</c><c.colorE5E5E5> we're going to get a situation
+ </c>
+
+00:04:45.790 --> 00:04:47.310 align:start position:0%
+<c.colorE5E5E5>-</c><c.colorCCCCCC> hold</c><c.colorE5E5E5> we're going to get a situation
+where<00:04:45.970><c> almost</c><00:04:46.150><c> everything</c><00:04:46.750><c> is</c><00:04:46.840><c> connected</c><00:04:47.080><c> to</c></c>
+
+00:04:47.310 --> 00:04:47.320 align:start position:0%
+where almost<c.colorE5E5E5> everything is connected to
+ </c>
+
+00:04:47.320 --> 00:04:49.320 align:start position:0%
+where almost<c.colorE5E5E5> everything is connected to
+everything<00:04:47.470><c> so</c><00:04:48.010><c> we</c><00:04:48.160><c> don't</c><00:04:48.400><c> want</c><00:04:48.610><c> to</c><00:04:48.730><c> go</c><00:04:48.910><c> that</c></c>
+
+00:04:49.320 --> 00:04:49.330 align:start position:0%
+everything<c.colorE5E5E5> so we don't want to go that
+ </c>
+
+00:04:49.330 --> 00:04:51.810 align:start position:0%
+everything<c.colorE5E5E5> so we don't want to go that</c>
+<c.colorE5E5E5>far</c><c.colorCCCCCC><00:04:49.630><c> in</c></c><c.colorE5E5E5><00:04:49.930><c> in</c></c><c.colorCCCCCC><00:04:50.650><c> there</c></c><c.colorE5E5E5><00:04:50.830><c> kind</c><00:04:51.130><c> of</c><00:04:51.280><c> a</c><00:04:51.310><c> lot</c><00:04:51.430><c> of</c></c><c.colorCCCCCC><00:04:51.460><c> paper</c></c>
+
+00:04:51.810 --> 00:04:51.820 align:start position:0%
+<c.colorE5E5E5>far</c><c.colorCCCCCC> in</c><c.colorE5E5E5> in</c><c.colorCCCCCC> there</c><c.colorE5E5E5> kind of a lot of</c><c.colorCCCCCC> paper
+ </c>
+
+00:04:51.820 --> 00:04:54.780 align:start position:0%
+<c.colorE5E5E5>far</c><c.colorCCCCCC> in</c><c.colorE5E5E5> in</c><c.colorCCCCCC> there</c><c.colorE5E5E5> kind of a lot of</c><c.colorCCCCCC> paper
+they<00:04:52.120><c> found</c><00:04:52.390><c> that</c><00:04:52.600><c> threshold</c></c><c.colorE5E5E5><00:04:53.380><c> of</c><00:04:53.770><c> about</c><00:04:53.890><c> 0.15</c></c>
+
+00:04:54.780 --> 00:04:54.790 align:start position:0%
+they found that threshold<c.colorE5E5E5> of about 0.15
+ </c>
+
+00:04:54.790 --> 00:04:58.920 align:start position:0%
+they found that threshold<c.colorE5E5E5> of about 0.15</c>
+<c.colorE5E5E5>gives<00:04:55.630><c> you</c><00:04:55.780><c> the</c><00:04:55.960><c> best</c></c><c.colorCCCCCC><00:04:56.610><c> information</c><00:04:57.610><c> value</c><00:04:58.060><c> for</c></c>
+
+00:04:58.920 --> 00:04:58.930 align:start position:0%
+<c.colorE5E5E5>gives you the best</c><c.colorCCCCCC> information value for
+ </c>
+
+00:04:58.930 --> 00:05:00.990 align:start position:0%
+<c.colorE5E5E5>gives you the best</c><c.colorCCCCCC> information value for
+the<00:04:59.050><c> graph</c><00:04:59.290><c> so</c><00:04:59.500><c> this</c><00:04:59.650><c> approximately</c><00:05:00.520><c> half</c><00:05:00.820><c> of</c></c>
+
+00:05:00.990 --> 00:05:01.000 align:start position:0%
+the graph so this approximately half of
+ 
+
+00:05:01.000 --> 00:05:03.450 align:start position:0%
+the graph so this approximately half of
+the<00:05:01.080><c> connections</c><00:05:02.080><c> are</c><00:05:02.290><c> actually</c><00:05:02.770><c> present</c><c.colorE5E5E5><00:05:03.010><c> and</c></c>
+
+00:05:03.450 --> 00:05:03.460 align:start position:0%
+the connections are actually present<c.colorE5E5E5> and
+ </c>
+
+00:05:03.460 --> 00:05:06.960 align:start position:0%
+the connections are actually present<c.colorE5E5E5> and
+half<00:05:03.670><c> are</c><00:05:03.880><c> not</c><00:05:03.910><c> present</c><00:05:04.830><c> so</c><00:05:05.830><c> in</c><00:05:05.920><c> a</c><00:05:06.010><c> graph</c><00:05:06.730><c> like</c></c>
+
+00:05:06.960 --> 00:05:06.970 align:start position:0%
+half are not<c.colorE5E5E5> present so in a graph like
+ </c>
+
+00:05:06.970 --> 00:05:09.930 align:start position:0%
+half are not<c.colorE5E5E5> present so in a graph like
+this<00:05:07.000><c> what</c><00:05:07.600><c> you</c><00:05:07.750><c> want</c><00:05:07.960><c> is</c></c><c.colorCCCCCC><00:05:08.350><c> four</c><00:05:09.160><c> sentences</c><00:05:09.700><c> to</c></c>
+
+00:05:09.930 --> 00:05:09.940 align:start position:0%
+this<c.colorE5E5E5> what you want is</c><c.colorCCCCCC> four sentences to
+ </c>
+
+00:05:09.940 --> 00:05:12.570 align:start position:0%
+this<c.colorE5E5E5> what you want is</c><c.colorCCCCCC> four sentences to
+vote<00:05:10.270><c> for</c><00:05:11.170><c> the</c><00:05:11.290><c> most</c><00:05:11.500><c> central</c><00:05:11.860><c> sentence</c><00:05:12.400><c> by</c></c>
+
+00:05:12.570 --> 00:05:12.580 align:start position:0%
+vote for the most central sentence by
+ 
+
+00:05:12.580 --> 00:05:14.520 align:start position:0%
+vote for the most central sentence by
+essentially<00:05:13.000><c> passing</c><c.colorCCCCCC><00:05:13.540><c> messages</c><00:05:14.050><c> along</c><00:05:14.290><c> the</c></c>
+
+00:05:14.520 --> 00:05:14.530 align:start position:0%
+essentially passing<c.colorCCCCCC> messages along the
+ </c>
+
+00:05:14.530 --> 00:05:18.000 align:start position:0%
+essentially passing<c.colorCCCCCC> messages along the
+edges<00:05:15.010><c> of</c><00:05:15.040><c> the</c><00:05:15.250><c> graph</c><00:05:15.570><c> so</c><00:05:16.570><c> if</c><00:05:16.840><c> D</c><00:05:17.080><c> for</c></c><c.colorE5E5E5><00:05:17.350><c> s</c></c><c.colorCCCCCC><00:05:17.500><c> 1</c><00:05:17.740><c> is</c></c>
+
+00:05:18.000 --> 00:05:18.010 align:start position:0%
+edges of<c.colorCCCCCC> the graph so if D for</c><c.colorE5E5E5> s</c><c.colorCCCCCC> 1 is
+ </c>
+
+00:05:18.010 --> 00:05:22.200 align:start position:0%
+edges of<c.colorCCCCCC> the graph so if D for</c><c.colorE5E5E5> s</c><c.colorCCCCCC> 1 is</c>
+<c.colorE5E5E5>the<00:05:18.400><c> most</c><00:05:18.610><c> central</c><00:05:18.910><c> sentence</c></c><c.colorCCCCCC><00:05:20.850><c> we</c><00:05:21.850><c> want</c><00:05:22.090><c> to</c></c>
+
+00:05:22.200 --> 00:05:22.210 align:start position:0%
+<c.colorE5E5E5>the most central sentence</c><c.colorCCCCCC> we want to
+ </c>
+
+00:05:22.210 --> 00:05:25.230 align:start position:0%
+<c.colorE5E5E5>the most central sentence</c><c.colorCCCCCC> we want to
+produce<00:05:22.420><c> that</c><00:05:22.750><c> as</c><00:05:22.960><c> part</c></c><c.colorE5E5E5><00:05:23.170><c> of</c><00:05:23.290><c> the</c></c><c.colorCCCCCC><00:05:23.410><c> somewhere</c><00:05:24.240><c> so</c></c>
+
+00:05:25.230 --> 00:05:25.240 align:start position:0%
+produce that as part<c.colorE5E5E5> of the</c><c.colorCCCCCC> somewhere so
+ </c>
+
+00:05:25.240 --> 00:05:26.790 align:start position:0%
+produce that as part<c.colorE5E5E5> of the</c><c.colorCCCCCC> somewhere so
+here<00:05:25.480><c> I'm</c><00:05:25.570><c> going</c><00:05:25.780><c> to</c></c><c.colorE5E5E5><00:05:25.870><c> discuss</c><00:05:26.290><c> a</c><00:05:26.320><c> little</c><00:05:26.440><c> bit</c></c>
+
+00:05:26.790 --> 00:05:26.800 align:start position:0%
+here I'm going to<c.colorE5E5E5> discuss a little bit
+ </c>
+
+00:05:26.800 --> 00:05:28.680 align:start position:0%
+here I'm going to<c.colorE5E5E5> discuss a little bit</c>
+<c.colorCCCCCC>more<00:05:27.100><c> advanced</c><00:05:27.460><c> material</c><00:05:28.030><c> you</c><00:05:28.120><c> can</c><00:05:28.300><c> skip</c><00:05:28.540><c> this</c></c>
+
+00:05:28.680 --> 00:05:28.690 align:start position:0%
+<c.colorCCCCCC>more advanced material you can skip this
+ </c>
+
+00:05:28.690 --> 00:05:30.810 align:start position:0%
+<c.colorCCCCCC>more advanced material you can skip this</c>
+<c.colorCCCCCC>part<00:05:28.960><c> if</c></c><c.colorE5E5E5><00:05:29.320><c> you</c><00:05:29.560><c> don't</c><00:05:29.740><c> feel</c><00:05:29.920><c> comfortable</c><00:05:30.100><c> with</c></c>
+
+00:05:30.810 --> 00:05:30.820 align:start position:0%
+<c.colorCCCCCC>part if</c><c.colorE5E5E5> you don't feel comfortable with
+ </c>
+
+00:05:30.820 --> 00:05:34.740 align:start position:0%
+<c.colorCCCCCC>part if</c><c.colorE5E5E5> you don't feel comfortable with
+the<00:05:31.600><c> linear</c><00:05:31.780><c> algebra</c></c><c.colorCCCCCC><00:05:32.050><c> used</c><00:05:32.740><c> in</c><00:05:32.920><c> it</c><00:05:33.480><c> so</c><00:05:34.480><c> here's</c></c>
+
+00:05:34.740 --> 00:05:34.750 align:start position:0%
+the linear<c.colorE5E5E5> algebra</c><c.colorCCCCCC> used in it so here's
+ </c>
+
+00:05:34.750 --> 00:05:36.090 align:start position:0%
+the linear<c.colorE5E5E5> algebra</c><c.colorCCCCCC> used in it so here's
+how<00:05:34.900><c> Lex</c></c><c.colorE5E5E5><00:05:35.200><c> rank</c><00:05:35.500><c> works</c></c>
+
+00:05:36.090 --> 00:05:36.100 align:start position:0%
+how Lex<c.colorE5E5E5> rank works
+ </c>
+
+00:05:36.100 --> 00:05:38.400 align:start position:0%
+how Lex<c.colorE5E5E5> rank works
+Lex<00:05:36.280><c> rank</c><00:05:36.520><c> is</c><00:05:36.700><c> the</c><00:05:36.910><c> lexical</c><00:05:37.870><c> centrality</c></c>
+
+00:05:38.400 --> 00:05:38.410 align:start position:0%
+Lex rank is<c.colorE5E5E5> the lexical centrality
+ </c>
+
+00:05:38.410 --> 00:05:40.740 align:start position:0%
+Lex rank is<c.colorE5E5E5> the lexical centrality
+method<00:05:38.950><c> used</c><00:05:39.160><c> in</c></c><c.colorCCCCCC><00:05:39.370><c> there</c></c><c.colorE5E5E5><00:05:39.970><c> kind</c><00:05:40.300><c> of</c><00:05:40.420><c> a</c><00:05:40.510><c> lot</c><00:05:40.600><c> of</c></c>
+
+00:05:40.740 --> 00:05:40.750 align:start position:0%
+method used in<c.colorCCCCCC> there</c><c.colorE5E5E5> kind of a lot of
+ </c>
+
+00:05:40.750 --> 00:05:43.320 align:start position:0%
+method used in<c.colorCCCCCC> there</c><c.colorE5E5E5> kind of a lot of
+paper<00:05:41.400><c> so</c><00:05:42.400><c> it's</c><00:05:42.520><c> based</c><00:05:42.760><c> on</c><00:05:42.940><c> a</c><00:05:43.000><c> square</c></c>
+
+00:05:43.320 --> 00:05:43.330 align:start position:0%
+paper<c.colorE5E5E5> so it's based on a square
+ </c>
+
+00:05:43.330 --> 00:05:45.810 align:start position:0%
+paper<c.colorE5E5E5> so it's based on a square
+connectivity<00:05:44.020><c> matrix</c><00:05:44.440><c> of</c><00:05:44.710><c> the</c><00:05:45.340><c> where</c><00:05:45.670><c> each</c></c>
+
+00:05:45.810 --> 00:05:45.820 align:start position:0%
+connectivity matrix of the where each
+ 
+
+00:05:45.820 --> 00:05:49.920 align:start position:0%
+connectivity matrix of the where each
+node<c.colorE5E5E5><00:05:46.150><c> corresponds</c><00:05:47.140><c> to</c><00:05:47.200><c> a</c><00:05:47.650><c> sentence</c></c><c.colorCCCCCC><00:05:48.570><c> it</c></c><c.colorE5E5E5><00:05:49.570><c> can</c><00:05:49.780><c> be</c></c>
+
+00:05:49.920 --> 00:05:49.930 align:start position:0%
+node<c.colorE5E5E5> corresponds to a sentence</c><c.colorCCCCCC> it</c><c.colorE5E5E5> can be
+ </c>
+
+00:05:49.930 --> 00:05:53.370 align:start position:0%
+node<c.colorE5E5E5> corresponds to a sentence</c><c.colorCCCCCC> it</c><c.colorE5E5E5> can be
+the<00:05:50.110><c> directed</c><00:05:50.590><c> or</c><00:05:50.800><c> undirected</c><00:05:52.170><c> now</c><00:05:53.170><c> an</c></c>
+
+00:05:53.370 --> 00:05:53.380 align:start position:0%
+the directed or undirected<c.colorE5E5E5> now an
+ </c>
+
+00:05:53.380 --> 00:05:56.430 align:start position:0%
+the directed or undirected<c.colorE5E5E5> now an
+eigenvalue<00:05:54.100><c> for</c><00:05:54.370><c> square</c><00:05:54.880><c> matrix</c><00:05:55.360><c> a</c><00:05:55.570><c> is</c><00:05:56.380><c> a</c></c>
+
+00:05:56.430 --> 00:05:56.440 align:start position:0%
+eigenvalue for<c.colorE5E5E5> square matrix a is a
+ </c>
+
+00:05:56.440 --> 00:05:59.880 align:start position:0%
+eigenvalue for<c.colorE5E5E5> square matrix a is a
+scalar<00:05:56.980><c> lambda</c><00:05:57.870><c> such</c><00:05:58.870><c> that</c><00:05:58.900><c> there</c><00:05:59.380><c> exists</c><00:05:59.800><c> a</c></c>
+
+00:05:59.880 --> 00:05:59.890 align:start position:0%
+scalar lambda such that<c.colorE5E5E5> there exists a
+ </c>
+
+00:05:59.890 --> 00:06:03.300 align:start position:0%
+scalar lambda such that<c.colorE5E5E5> there exists a
+vector<00:06:00.340><c> X</c><00:06:00.610><c> which</c><00:06:00.910><c> is</c><00:06:01.060><c> not</c><00:06:01.270><c> a</c><00:06:01.300><c> null</c><00:06:01.870><c> vector</c><00:06:02.310><c> such</c></c>
+
+00:06:03.300 --> 00:06:03.310 align:start position:0%
+vector X which is not a null vector such
+ 
+
+00:06:03.310 --> 00:06:07.260 align:start position:0%
+vector X which is not a null vector such
+that<c.colorE5E5E5><00:06:03.450><c> the</c><00:06:04.450><c> product</c></c><c.colorCCCCCC><00:06:04.960><c> a</c><00:06:05.200><c> X</c><00:06:05.560><c> of</c><00:06:05.950><c> the</c><00:06:06.640><c> matrix</c><00:06:07.090><c> with</c></c>
+
+00:06:07.260 --> 00:06:07.270 align:start position:0%
+that<c.colorE5E5E5> the product</c><c.colorCCCCCC> a X of the matrix with
+ </c>
+
+00:06:07.270 --> 00:06:09.360 align:start position:0%
+that<c.colorE5E5E5> the product</c><c.colorCCCCCC> a X of the matrix with
+that<00:06:07.450><c> vector</c></c><c.colorE5E5E5><00:06:07.690><c> is</c></c><c.colorCCCCCC><00:06:07.930><c> equal</c><00:06:08.530><c> to</c></c><c.colorE5E5E5><00:06:08.650><c> the</c><00:06:08.770><c> product</c><00:06:09.190><c> of</c></c>
+
+00:06:09.360 --> 00:06:09.370 align:start position:0%
+that vector<c.colorE5E5E5> is</c><c.colorCCCCCC> equal to</c><c.colorE5E5E5> the product of
+ </c>
+
+00:06:09.370 --> 00:06:11.340 align:start position:0%
+that vector<c.colorE5E5E5> is</c><c.colorCCCCCC> equal to</c><c.colorE5E5E5> the product of
+the<00:06:09.520><c> scalar</c><00:06:09.940><c> lambda</c><00:06:10.300><c> with</c><00:06:10.630><c> that</c><00:06:10.780><c> vector</c><00:06:11.020><c> so</c></c>
+
+00:06:11.340 --> 00:06:11.350 align:start position:0%
+the scalar lambda with that vector<c.colorE5E5E5> so
+ </c>
+
+00:06:11.350 --> 00:06:13.980 align:start position:0%
+the scalar lambda with that vector<c.colorE5E5E5> so
+that's<00:06:11.530><c> some</c><00:06:11.710><c> sort</c><00:06:11.860><c> of</c></c><c.colorCCCCCC><00:06:12.010><c> a</c><00:06:12.330><c> implicit</c><00:06:13.330><c> direction</c></c>
+
+00:06:13.980 --> 00:06:13.990 align:start position:0%
+that's some sort<c.colorE5E5E5> of</c><c.colorCCCCCC> a implicit direction
+ </c>
+
+00:06:13.990 --> 00:06:18.090 align:start position:0%
+that's some sort<c.colorE5E5E5> of</c><c.colorCCCCCC> a implicit direction
+of<00:06:14.200><c> the</c><00:06:14.350><c> matrix</c><00:06:15.870><c> the</c><00:06:16.870><c> normalized</c><00:06:17.530><c> eigen</c></c>
+
+00:06:18.090 --> 00:06:18.100 align:start position:0%
+of the matrix the normalized eigen
+ 
+
+00:06:18.100 --> 00:06:19.680 align:start position:0%
+of the matrix the normalized eigen
+vector<00:06:18.400><c> associated</c><c.colorE5E5E5><00:06:18.700><c> with</c><00:06:19.090><c> the</c><00:06:19.210><c> largest</c></c>
+
+00:06:19.680 --> 00:06:19.690 align:start position:0%
+vector associated<c.colorE5E5E5> with the largest
+ </c>
+
+00:06:19.690 --> 00:06:21.210 align:start position:0%
+vector associated<c.colorE5E5E5> with the largest
+lambda<00:06:20.110><c> is</c><00:06:20.260><c> called</c><00:06:20.470><c> the</c><00:06:20.650><c> principle</c><00:06:21.190><c> a</c></c>
+
+00:06:21.210 --> 00:06:21.220 align:start position:0%
+lambda is called<c.colorE5E5E5> the principle a
+ </c>
+
+00:06:21.220 --> 00:06:24.450 align:start position:0%
+lambda is called<c.colorE5E5E5> the principle a
+convective<00:06:21.640><c> alpha</c><00:06:22.210><c> and</c><00:06:22.680><c> a</c><00:06:23.680><c> matrix</c><00:06:24.130><c> is</c><00:06:24.220><c> called</c></c>
+
+00:06:24.450 --> 00:06:24.460 align:start position:0%
+convective alpha and a matrix is<c.colorE5E5E5> called
+ </c>
+
+00:06:24.460 --> 00:06:26.610 align:start position:0%
+convective alpha and a matrix is<c.colorE5E5E5> called
+the<00:06:24.580><c> stochastic</c><00:06:24.940><c> matrix</c><00:06:25.630><c> when</c><00:06:25.990><c> the</c><00:06:26.200><c> sum</c></c><c.colorCCCCCC><00:06:26.470><c> of</c></c>
+
+00:06:26.610 --> 00:06:26.620 align:start position:0%
+the stochastic matrix when the sum<c.colorCCCCCC> of
+ </c>
+
+00:06:26.620 --> 00:06:29.580 align:start position:0%
+the stochastic matrix when the sum<c.colorCCCCCC> of
+entries<00:06:27.010><c> in</c><00:06:27.160><c> each</c><00:06:27.250><c> row</c><00:06:27.520><c> sum</c><00:06:28.180><c> to</c><00:06:28.630><c> 1</c></c><c.colorE5E5E5><00:06:28.840><c> and</c><00:06:29.140><c> none</c><00:06:29.560><c> of</c></c>
+
+00:06:29.580 --> 00:06:29.590 align:start position:0%
+entries in each row sum to<c.colorCCCCCC> 1</c><c.colorE5E5E5> and none of
+ </c>
+
+00:06:29.590 --> 00:06:31.590 align:start position:0%
+entries in each row sum to<c.colorCCCCCC> 1</c><c.colorE5E5E5> and none of</c>
+<c.colorE5E5E5>them<00:06:29.830><c> is</c><00:06:30.010><c> negative</c><00:06:30.190><c> so</c><00:06:30.610><c> they</c></c><c.colorCCCCCC><00:06:30.730><c> all</c><00:06:30.850><c> from</c><00:06:31.390><c> some</c></c>
+
+00:06:31.590 --> 00:06:31.600 align:start position:0%
+<c.colorE5E5E5>them is negative so they</c><c.colorCCCCCC> all from some
+ </c>
+
+00:06:31.600 --> 00:06:34.380 align:start position:0%
+<c.colorE5E5E5>them is negative so they</c><c.colorCCCCCC> all from some
+probability<00:06:32.500><c> distribution</c><00:06:32.650><c> and</c><00:06:33.400><c> there</c><00:06:34.300><c> is</c><00:06:34.360><c> a</c></c>
+
+00:06:34.380 --> 00:06:34.390 align:start position:0%
+probability distribution<c.colorCCCCCC> and there is a
+ </c>
+
+00:06:34.390 --> 00:06:36.000 align:start position:0%
+probability distribution<c.colorCCCCCC> and there is a
+theorem<00:06:34.690><c> that</c><00:06:34.810><c> says</c><00:06:34.960><c> that</c><00:06:35.140><c> all</c><00:06:35.530><c> stochastic</c></c>
+
+00:06:36.000 --> 00:06:36.010 align:start position:0%
+theorem<c.colorCCCCCC> that says that all stochastic
+ </c>
+
+00:06:36.010 --> 00:06:40.770 align:start position:0%
+theorem<c.colorCCCCCC> that says that all stochastic
+matrices<00:06:36.610><c> have</c><00:06:37.030><c> a</c><00:06:37.060><c> principal</c><00:06:37.810><c> eigenvector</c><00:06:39.780><c> so</c></c>
+
+00:06:40.770 --> 00:06:40.780 align:start position:0%
+matrices have a principal eigenvector so
+ 
+
+00:06:40.780 --> 00:06:43.230 align:start position:0%
+matrices have a principal eigenvector so
+the<00:06:40.990><c> connectivity</c><00:06:41.320><c> matrix</c><00:06:42.070><c> in</c><00:06:42.670><c> this</c><00:06:42.880><c> kind</c><00:06:43.150><c> of</c>
+
+00:06:43.230 --> 00:06:43.240 align:start position:0%
+the connectivity matrix in this kind of
+ 
+
+00:06:43.240 --> 00:06:46.020 align:start position:0%
+the connectivity matrix in this kind of
+setup<00:06:43.990><c> is</c><00:06:44.320><c> similar</c><c.colorE5E5E5><00:06:44.530><c> to</c><00:06:44.800><c> the</c><00:06:44.920><c> one</c><00:06:45.130><c> that</c></c><c.colorCCCCCC><00:06:45.430><c> is</c></c><c.colorE5E5E5><00:06:45.820><c> used</c></c>
+
+00:06:46.020 --> 00:06:46.030 align:start position:0%
+setup is similar<c.colorE5E5E5> to the one that</c><c.colorCCCCCC> is</c><c.colorE5E5E5> used
+ </c>
+
+00:06:46.030 --> 00:06:48.150 align:start position:0%
+setup is similar<c.colorE5E5E5> to the one that</c><c.colorCCCCCC> is</c><c.colorE5E5E5> used
+in<00:06:46.180><c> PageRank</c><00:06:46.720><c> for</c><00:06:47.050><c> a</c><00:06:47.080><c> document</c><00:06:47.620><c> ranking</c></c>
+
+00:06:48.150 --> 00:06:48.160 align:start position:0%
+in PageRank for<c.colorE5E5E5> a document ranking
+ </c>
+
+00:06:48.160 --> 00:06:49.180 align:start position:0%
+in PageRank for<c.colorE5E5E5> a document ranking
+that's</c>
+
+00:06:49.180 --> 00:06:49.190 align:start position:0%
+that's
+ 
+
+00:06:49.190 --> 00:06:52.750 align:start position:0%
+that's
+system<c.colorE5E5E5><00:06:49.550><c> behind</c><00:06:49.940><c> Google</c></c><c.colorCCCCCC><00:06:50.330><c> and</c><00:06:51.130><c> it's</c><00:06:52.130><c> also</c><00:06:52.430><c> not</c></c>
+
+00:06:52.750 --> 00:06:52.760 align:start position:0%
+system<c.colorE5E5E5> behind Google</c><c.colorCCCCCC> and it's also not
+ </c>
+
+00:06:52.760 --> 00:06:55.960 align:start position:0%
+system<c.colorE5E5E5> behind Google</c><c.colorCCCCCC> and it's also not
+to<00:06:52.940><c> be</c><00:06:53.000><c> a</c><00:06:53.090><c> reducible</c></c><c.colorE5E5E5><00:06:54.070><c> so</c><00:06:55.070><c> one</c><00:06:55.250><c> can</c><00:06:55.460><c> use</c><00:06:55.490><c> an</c></c>
+
+00:06:55.960 --> 00:06:55.970 align:start position:0%
+to be<c.colorCCCCCC> a reducible</c><c.colorE5E5E5> so one can use an
+ </c>
+
+00:06:55.970 --> 00:06:58.480 align:start position:0%
+to be<c.colorCCCCCC> a reducible</c><c.colorE5E5E5> so one can use an
+integrative<00:06:56.540><c> power</c></c><c.colorCCCCCC><00:06:56.840><c> method</c></c><c.colorE5E5E5><00:06:57.080><c> to</c><00:06:57.980><c> compute</c><00:06:58.310><c> the</c></c>
+
+00:06:58.480 --> 00:06:58.490 align:start position:0%
+<c.colorE5E5E5>integrative power</c><c.colorCCCCCC> method</c><c.colorE5E5E5> to compute the
+ </c>
+
+00:06:58.490 --> 00:07:00.670 align:start position:0%
+<c.colorE5E5E5>integrative power</c><c.colorCCCCCC> method</c><c.colorE5E5E5> to compute the
+principal<00:06:59.060><c> investor</c><00:06:59.600><c> for</c><00:06:59.870><c> pretty</c><00:07:00.440><c> much</c></c>
+
+00:07:00.670 --> 00:07:00.680 align:start position:0%
+principal investor for pretty<c.colorE5E5E5> much
+ </c>
+
+00:07:00.680 --> 00:07:04.390 align:start position:0%
+principal investor for pretty<c.colorE5E5E5> much
+arbitrarily<00:07:01.310><c> large</c><00:07:01.840><c> matrices</c><00:07:03.220><c> so</c><00:07:04.220><c> that</c></c>
+
+00:07:04.390 --> 00:07:04.400 align:start position:0%
+arbitrarily large<c.colorE5E5E5> matrices so that
+ </c>
+
+00:07:04.400 --> 00:07:05.890 align:start position:0%
+arbitrarily large<c.colorE5E5E5> matrices so that
+eigenvector<00:07:04.910><c> corresponds</c><00:07:05.630><c> to</c><00:07:05.690><c> the</c></c>
+
+00:07:05.890 --> 00:07:05.900 align:start position:0%
+eigenvector corresponds to the
+ 
+
+00:07:05.900 --> 00:07:07.420 align:start position:0%
+eigenvector corresponds to the
+stationary<c.colorCCCCCC><00:07:06.410><c> value</c><00:07:06.800><c> of</c><00:07:06.890><c> the</c><00:07:07.010><c> Markov</c></c>
+
+00:07:07.420 --> 00:07:07.430 align:start position:0%
+stationary<c.colorCCCCCC> value of the Markov
+ </c>
+
+00:07:07.430 --> 00:07:09.220 align:start position:0%
+stationary<c.colorCCCCCC> value of the Markov
+stochastic<00:07:07.820><c> process</c><00:07:08.540><c> described</c><00:07:08.990><c> by</c><00:07:09.170><c> the</c></c>
+
+00:07:09.220 --> 00:07:09.230 align:start position:0%
+stochastic<c.colorCCCCCC> process described by the
+ </c>
+
+00:07:09.230 --> 00:07:11.380 align:start position:0%
+stochastic<c.colorCCCCCC> process described by the
+connectivity<00:07:09.920><c> matrix</c></c><c.colorE5E5E5><00:07:10.340><c> essentially</c><00:07:10.970><c> random</c></c>
+
+00:07:11.380 --> 00:07:11.390 align:start position:0%
+connectivity matrix<c.colorE5E5E5> essentially random
+ </c>
+
+00:07:11.390 --> 00:07:13.360 align:start position:0%
+connectivity matrix<c.colorE5E5E5> essentially random
+walk<00:07:11.630><c> over</c><00:07:12.170><c> the</c><00:07:12.290><c> nose</c><00:07:12.500><c> of</c><00:07:12.710><c> the</c><00:07:12.830><c> matrix</c><00:07:13.220><c> in</c></c>
+
+00:07:13.360 --> 00:07:13.370 align:start position:0%
+walk over the nose of the matrix<c.colorE5E5E5> in
+ </c>
+
+00:07:13.370 --> 00:07:15.270 align:start position:0%
+walk over the nose of the matrix<c.colorE5E5E5> in
+proportion<00:07:14.030><c> to</c><00:07:14.060><c> the</c><00:07:14.390><c> weights</c><00:07:14.780><c> of</c></c><c.colorCCCCCC><00:07:14.990><c> the</c></c><c.colorE5E5E5><00:07:15.110><c> edges</c></c>
+
+00:07:15.270 --> 00:07:15.280 align:start position:0%
+proportion to<c.colorE5E5E5> the weights of</c><c.colorCCCCCC> the</c><c.colorE5E5E5> edges
+ </c>
+
+00:07:15.280 --> 00:07:21.340 align:start position:0%
+proportion to<c.colorE5E5E5> the weights of</c><c.colorCCCCCC> the</c><c.colorE5E5E5> edges
+and<00:07:18.040><c> the</c><00:07:19.040><c> stationary</c><00:07:19.550><c> value</c><00:07:19.910><c> of</c><00:07:20.300><c> the</c><00:07:20.960><c> markov</c></c>
+
+00:07:21.340 --> 00:07:21.350 align:start position:0%
+<c.colorE5E5E5>and the stationary value of the markov
+ </c>
+
+00:07:21.350 --> 00:07:23.410 align:start position:0%
+<c.colorE5E5E5>and the stationary value of the markov
+matrix<00:07:21.830><c> is</c><00:07:22.040><c> computed</c><00:07:22.550><c> by</c><00:07:22.700><c> that</c><00:07:22.880><c> power</c><00:07:23.120><c> method</c></c>
+
+00:07:23.410 --> 00:07:23.420 align:start position:0%
+matrix is computed by that power method
+ 
+
+00:07:23.420 --> 00:07:24.820 align:start position:0%
+matrix is computed by that power method
+<c.colorE5E5E5>the<00:07:23.750><c> power</c></c><c.colorCCCCCC><00:07:23.990><c> method</c><00:07:24.290><c> is</c><00:07:24.410><c> something</c><00:07:24.620><c> very</c></c>
+
+00:07:24.820 --> 00:07:24.830 align:start position:0%
+<c.colorE5E5E5>the power</c><c.colorCCCCCC> method is something very
+ </c>
+
+00:07:24.830 --> 00:07:27.640 align:start position:0%
+<c.colorE5E5E5>the power</c><c.colorCCCCCC> method is something very
+straight<00:07:25.130><c> forward</c><00:07:25.330><c> P</c><00:07:26.330><c> is</c><00:07:26.600><c> the</c><00:07:26.870><c> vector</c><00:07:27.380><c> of</c></c>
+
+00:07:27.640 --> 00:07:27.650 align:start position:0%
+<c.colorCCCCCC>straight forward P is the vector of
+ </c>
+
+00:07:27.650 --> 00:07:30.370 align:start position:0%
+<c.colorCCCCCC>straight forward P is the vector of
+values</c><c.colorE5E5E5><00:07:27.890><c> that</c><00:07:28.430><c> correspond</c><00:07:29.150><c> to</c><00:07:29.210><c> the</c><00:07:29.480><c> centrality</c></c>
+
+00:07:30.370 --> 00:07:30.380 align:start position:0%
+values<c.colorE5E5E5> that correspond to the centrality
+ </c>
+
+00:07:30.380 --> 00:07:33.370 align:start position:0%
+values<c.colorE5E5E5> that correspond to the centrality</c>
+<c.colorE5E5E5>of<00:07:30.560><c> the</c><00:07:30.860><c> nodes</c><00:07:31.220><c> each</c><00:07:32.150><c> transposed</c><00:07:33.020><c> is</c></c><c.colorCCCCCC><00:07:33.350><c> a</c></c>
+
+00:07:33.370 --> 00:07:33.380 align:start position:0%
+<c.colorE5E5E5>of the nodes each transposed is</c><c.colorCCCCCC> a
+ </c>
+
+00:07:33.380 --> 00:07:36.640 align:start position:0%
+<c.colorE5E5E5>of the nodes each transposed is</c><c.colorCCCCCC> a</c>
+<c.colorE5E5E5>transpose</c><c.colorCCCCCC><00:07:34.040><c> of</c><00:07:34.100><c> the</c><00:07:34.370><c> connectivity</c><00:07:34.760><c> matrix</c></c><c.colorE5E5E5><00:07:35.650><c> so</c></c>
+
+00:07:36.640 --> 00:07:36.650 align:start position:0%
+<c.colorE5E5E5>transpose</c><c.colorCCCCCC> of the connectivity matrix</c><c.colorE5E5E5> so
+ </c>
+
+00:07:36.650 --> 00:07:40.060 align:start position:0%
+<c.colorE5E5E5>transpose</c><c.colorCCCCCC> of the connectivity matrix</c><c.colorE5E5E5> so
+if<00:07:36.860><c> we</c><00:07:37.010><c> have</c><00:07:37.250><c> the</c><00:07:38.410><c> eigenvector</c><00:07:39.410><c> formula</c></c><c.colorCCCCCC><00:07:39.830><c> p</c></c>
+
+00:07:40.060 --> 00:07:40.070 align:start position:0%
+if we have the eigenvector formula<c.colorCCCCCC> p
+ </c>
+
+00:07:40.070 --> 00:07:42.910 align:start position:0%
+if we have the eigenvector formula<c.colorCCCCCC> p
+equals<00:07:40.400><c> e</c><00:07:40.520><c> transpose</c><00:07:40.760><c> p</c><00:07:41.360><c> we</c><00:07:42.020><c> can</c><00:07:42.470><c> also</c><00:07:42.620><c> write</c></c>
+
+00:07:42.910 --> 00:07:42.920 align:start position:0%
+equals e transpose<c.colorCCCCCC> p we can also write
+ </c>
+
+00:07:42.920 --> 00:07:46.600 align:start position:0%
+equals e transpose<c.colorCCCCCC> p we can also write
+this</c><c.colorE5E5E5><00:07:43.100><c> as</c></c><c.colorCCCCCC><00:07:43.160><c> AI</c><00:07:43.870><c> minus</c><00:07:44.870><c> ETS</c><00:07:45.320><c> post</c><00:07:45.680><c> P</c><00:07:45.950><c> equals</c><00:07:46.250><c> zero</c></c>
+
+00:07:46.600 --> 00:07:46.610 align:start position:0%
+this<c.colorE5E5E5> as</c><c.colorCCCCCC> AI minus ETS post P equals zero
+ </c>
+
+00:07:46.610 --> 00:07:49.810 align:start position:0%
+this<c.colorE5E5E5> as</c><c.colorCCCCCC> AI minus ETS post P equals zero</c>
+<c.colorE5E5E5>where<00:07:46.940><c> I</c><00:07:46.970><c> is</c><00:07:47.210><c> the</c><00:07:47.560><c> matrix</c><00:07:48.560><c> that</c><00:07:48.710><c> has</c></c><c.colorCCCCCC><00:07:48.770><c> ones</c><00:07:49.400><c> on</c></c>
+
+00:07:49.810 --> 00:07:49.820 align:start position:0%
+<c.colorE5E5E5>where I is the matrix that has</c><c.colorCCCCCC> ones on
+ </c>
+
+00:07:49.820 --> 00:07:53.010 align:start position:0%
+<c.colorE5E5E5>where I is the matrix that has</c><c.colorCCCCCC> ones on
+the<00:07:49.940><c> diagonal</c><00:07:50.570><c> and</c></c><c.colorE5E5E5><00:07:50.690><c> zeros</c><00:07:51.050><c> everywhere</c><00:07:51.230><c> else</c></c>
+
+00:07:53.010 --> 00:07:53.020 align:start position:0%
+the diagonal and<c.colorE5E5E5> zeros everywhere else
+ </c>
+
+00:07:53.020 --> 00:07:56.200 align:start position:0%
+the diagonal and<c.colorE5E5E5> zeros everywhere else
+and<00:07:54.020><c> then</c><00:07:54.200><c> in</c></c><c.colorCCCCCC><00:07:54.680><c> PageRank</c><00:07:55.250><c> D</c><00:07:55.460><c> is</c><00:07:55.520><c> also</c><00:07:55.760><c> an</c><00:07:56.000><c> added</c></c>
+
+00:07:56.200 --> 00:07:56.210 align:start position:0%
+and then in<c.colorCCCCCC> PageRank D is also an added
+ </c>
+
+00:07:56.210 --> 00:07:58.930 align:start position:0%
+and then in<c.colorCCCCCC> PageRank D is also an added</c>
+<c.colorE5E5E5>twist</c><c.colorCCCCCC><00:07:56.540><c> to</c><00:07:57.470><c> deal</c><00:07:57.740><c> with</c></c><c.colorE5E5E5><00:07:57.890><c> dead-end</c><00:07:58.310><c> pages</c><00:07:58.730><c> so</c><00:07:58.850><c> if</c></c>
+
+00:07:58.930 --> 00:07:58.940 align:start position:0%
+<c.colorE5E5E5>twist</c><c.colorCCCCCC> to deal with</c><c.colorE5E5E5> dead-end pages so if
+ </c>
+
+00:07:58.940 --> 00:08:00.670 align:start position:0%
+<c.colorE5E5E5>twist</c><c.colorCCCCCC> to deal with</c><c.colorE5E5E5> dead-end pages so if
+you<00:07:59.030><c> end</c><00:07:59.210><c> up</c><00:07:59.330><c> in</c><00:07:59.570><c> a</c><00:07:59.660><c> node</c><00:08:00.080><c> that</c><00:08:00.110><c> doesn't</c><00:08:00.590><c> have</c></c>
+
+00:08:00.670 --> 00:08:00.680 align:start position:0%
+you end up<c.colorE5E5E5> in a node that doesn't have
+ </c>
+
+00:08:00.680 --> 00:08:02.710 align:start position:0%
+you end up<c.colorE5E5E5> in a node that doesn't have
+any</c><c.colorCCCCCC><00:08:00.890><c> outgoing</c><00:08:01.340><c> edges</c></c><c.colorE5E5E5><00:08:01.550><c> then</c><00:08:02.030><c> it's</c></c><c.colorCCCCCC><00:08:02.240><c> possible</c></c>
+
+00:08:02.710 --> 00:08:02.720 align:start position:0%
+any<c.colorCCCCCC> outgoing edges</c><c.colorE5E5E5> then it's</c><c.colorCCCCCC> possible
+ </c>
+
+00:08:02.720 --> 00:08:05.350 align:start position:0%
+any<c.colorCCCCCC> outgoing edges</c><c.colorE5E5E5> then it's</c><c.colorCCCCCC> possible
+with<00:08:02.840><c> the</c><00:08:02.930><c> probability</c></c><c.colorE5E5E5><00:08:03.320><c> 1</c><00:08:04.100><c> minus</c><00:08:04.460><c> epsilon</c><00:08:05.000><c> to</c></c>
+
+00:08:05.350 --> 00:08:05.360 align:start position:0%
+with the probability<c.colorE5E5E5> 1 minus epsilon to
+ </c>
+
+00:08:05.360 --> 00:08:09.610 align:start position:0%
+with the probability<c.colorE5E5E5> 1 minus epsilon to
+start<00:08:05.690><c> randomly</c><00:08:06.200><c> from</c><00:08:06.410><c> a</c></c><c.colorCCCCCC><00:08:06.530><c> different</c><00:08:06.890><c> page</c><00:08:08.620><c> so</c></c>
+
+00:08:09.610 --> 00:08:09.620 align:start position:0%
+start<c.colorE5E5E5> randomly from a</c><c.colorCCCCCC> different page so
+ </c>
+
+00:08:09.620 --> 00:08:13.150 align:start position:0%
+start<c.colorE5E5E5> randomly from a</c><c.colorCCCCCC> different page so
+the<00:08:09.800><c> value</c><00:08:10.190><c> of</c></c><c.colorE5E5E5><00:08:10.220><c> a</c><00:08:10.400><c> node</c></c><c.colorCCCCCC><00:08:10.640><c> P</c><00:08:11.480><c> of</c><00:08:11.720><c> V</c></c><c.colorE5E5E5><00:08:11.750><c> the</c><00:08:12.440><c> vertex</c><00:08:12.710><c> is</c></c>
+
+00:08:13.150 --> 00:08:13.160 align:start position:0%
+the value of<c.colorE5E5E5> a node</c><c.colorCCCCCC> P of V</c><c.colorE5E5E5> the vertex is
+ </c>
+
+00:08:13.160 --> 00:08:16.120 align:start position:0%
+the value of<c.colorE5E5E5> a node</c><c.colorCCCCCC> P of V</c><c.colorE5E5E5> the vertex is
+equal<00:08:13.490><c> to</c><00:08:13.700><c> 1</c><00:08:14.210><c> minus</c><00:08:14.690><c> epsilon</c><00:08:15.260><c> divided</c><00:08:15.530><c> by</c><00:08:15.680><c> n</c><00:08:15.890><c> so</c></c>
+
+00:08:16.120 --> 00:08:16.130 align:start position:0%
+equal to 1 minus epsilon divided by n so
+ 
+
+00:08:16.130 --> 00:08:17.560 align:start position:0%
+equal to 1 minus epsilon divided by n so
+this<c.colorCCCCCC><00:08:16.160><c> is</c></c><c.colorE5E5E5><00:08:16.430><c> the</c><00:08:16.550><c> probability</c><00:08:16.910><c> of</c><00:08:17.180><c> the</c></c>
+
+00:08:17.560 --> 00:08:17.570 align:start position:0%
+this<c.colorCCCCCC> is</c><c.colorE5E5E5> the probability of the
+ </c>
+
+00:08:17.570 --> 00:08:21.540 align:start position:0%
+this<c.colorCCCCCC> is</c><c.colorE5E5E5> the probability of the
+teleportation<00:08:18.440><c> a</c><00:08:18.770><c> random</c><00:08:19.100><c> jump</c><00:08:19.580><c> plus</c></c><c.colorCCCCCC><00:08:20.419><c> epsilon</c></c>
+
+00:08:21.540 --> 00:08:21.550 align:start position:0%
+teleportation a random jump<c.colorE5E5E5> plus</c><c.colorCCCCCC> epsilon
+ </c>
+
+00:08:21.550 --> 00:08:25.870 align:start position:0%
+teleportation a random jump<c.colorE5E5E5> plus</c><c.colorCCCCCC> epsilon
+the<00:08:22.550><c> sum</c><00:08:22.910><c> of</c><00:08:23.180><c> the</c><00:08:23.660><c> normalized</c><00:08:24.230><c> values</c><00:08:25.130><c> of</c><00:08:25.400><c> the</c></c>
+
+00:08:25.870 --> 00:08:25.880 align:start position:0%
+the sum of the normalized values of the
+ 
+
+00:08:25.880 --> 00:08:28.570 align:start position:0%
+the sum of the normalized values of the
+centrality<00:08:26.660><c> for</c><00:08:27.169><c> the</c><00:08:27.290><c> adjacent</c><00:08:27.919><c> nodes</c><00:08:28.190><c> where</c>
+
+00:08:28.570 --> 00:08:28.580 align:start position:0%
+centrality for the adjacent nodes where
+ 
+
+00:08:28.580 --> 00:08:32.550 align:start position:0%
+centrality for the adjacent nodes where
+PR<c.colorE5E5E5><00:08:29.270><c> are</c><00:08:29.690><c> the</c><00:08:29.840><c> nodes</c><00:08:30.080><c> that</c></c><c.colorCCCCCC><00:08:30.230><c> are</c><00:08:30.350><c> connected</c><00:08:30.470><c> to</c><00:08:31.250><c> V</c></c>
+
+00:08:32.550 --> 00:08:32.560 align:start position:0%
+PR<c.colorE5E5E5> are the nodes that</c><c.colorCCCCCC> are connected to V
+ </c>
+
+00:08:32.560 --> 00:08:37.240 align:start position:0%
+PR<c.colorE5E5E5> are the nodes that</c><c.colorCCCCCC> are connected to V
+and<00:08:34.599><c> eigenvector</c><00:08:35.599><c> centrality</c><00:08:36.070><c> it</c><00:08:37.070><c> is</c></c>
+
+00:08:37.240 --> 00:08:37.250 align:start position:0%
+and eigenvector centrality<c.colorCCCCCC> it is
+ </c>
+
+00:08:37.250 --> 00:08:39.040 align:start position:0%
+and eigenvector centrality<c.colorCCCCCC> it is
+computed</c><c.colorE5E5E5><00:08:37.729><c> in</c><00:08:37.849><c> the</c><00:08:37.969><c> following</c><00:08:38.270><c> way</c><00:08:38.450><c> the</c><00:08:38.750><c> paths</c></c>
+
+00:08:39.040 --> 00:08:39.050 align:start position:0%
+computed<c.colorE5E5E5> in the following way the paths
+ </c>
+
+00:08:39.050 --> 00:08:41.650 align:start position:0%
+computed<c.colorE5E5E5> in the following way the paths
+in<00:08:39.260><c> the</c><00:08:39.380><c> random</c><00:08:39.740><c> walk</c><00:08:39.919><c> I</c><00:08:40.190><c> just</c><00:08:40.490><c> waited</c><00:08:40.789><c> by</c></c><c.colorCCCCCC><00:08:41.150><c> the</c></c>
+
+00:08:41.650 --> 00:08:41.660 align:start position:0%
+in the random walk<c.colorE5E5E5> I just waited by</c><c.colorCCCCCC> the
+ </c>
+
+00:08:41.660 --> 00:08:43.390 align:start position:0%
+in the random walk<c.colorE5E5E5> I just waited by</c><c.colorCCCCCC> the
+centrality<00:08:42.050><c> of</c><00:08:42.229><c> the</c><00:08:42.440><c> know</c><00:08:42.710><c> that</c><00:08:43.039><c> the</c><00:08:43.160><c> path</c></c>
+
+00:08:43.390 --> 00:08:43.400 align:start position:0%
+centrality of<c.colorCCCCCC> the know that the path
+ </c>
+
+00:08:43.400 --> 00:08:48.400 align:start position:0%
+centrality of<c.colorCCCCCC> the know that the path
+connects<00:08:44.500><c> so</c><00:08:45.820><c> in</c><00:08:46.820><c> general</c><00:08:47.060><c> the</c><00:08:47.690><c> lexing</c><00:08:48.080><c> method</c></c>
+
+00:08:48.400 --> 00:08:48.410 align:start position:0%
+connects so in general the<c.colorCCCCCC> lexing method
+ </c>
+
+00:08:48.410 --> 00:08:50.710 align:start position:0%
+connects so in general the<c.colorCCCCCC> lexing method
+was<00:08:48.560><c> found</c><00:08:48.770><c> to</c><00:08:48.980><c> be</c><00:08:49.010><c> very</c><00:08:49.280><c> successful</c><00:08:49.520><c> for</c><00:08:50.240><c> an</c></c>
+
+00:08:50.710 --> 00:08:50.720 align:start position:0%
+was found<c.colorCCCCCC> to be very successful for an
+ </c>
+
+00:08:50.720 --> 00:08:52.960 align:start position:0%
+was found<c.colorCCCCCC> to be very successful for an
+evaluation</c><c.colorE5E5E5><00:08:51.050><c> of</c><00:08:51.620><c> summarization</c><00:08:52.250><c> based</c><00:08:52.700><c> on</c></c>
+
+00:08:52.960 --> 00:08:52.970 align:start position:0%
+evaluation<c.colorE5E5E5> of summarization based on
+ </c>
+
+00:08:52.970 --> 00:08:57.010 align:start position:0%
+evaluation<c.colorE5E5E5> of summarization based on
+duck<00:08:53.480><c> where</c><00:08:53.960><c> duck</c><00:08:54.260><c> is</c><00:08:54.500><c> the</c></c><c.colorCCCCCC><00:08:54.740><c> nice</c><00:08:56.020><c> new</c></c>
+
+00:08:57.010 --> 00:08:57.020 align:start position:0%
+duck where duck is the<c.colorCCCCCC> nice new
+ </c>
+
+00:08:57.020 --> 00:08:59.829 align:start position:0%
+duck where duck is the<c.colorCCCCCC> nice new</c>
+<c.colorE5E5E5>summarization<00:08:57.950><c> corpus</c><00:08:58.610><c> and</c><00:08:59.300><c> this</c><00:08:59.540><c> was</c><00:08:59.720><c> an</c></c>
+
+00:08:59.829 --> 00:08:59.839 align:start position:0%
+<c.colorE5E5E5>summarization corpus and this was an
+ </c>
+
+00:08:59.839 --> 00:09:01.750 align:start position:0%
+<c.colorE5E5E5>summarization corpus and this was an</c>
+<c.colorE5E5E5>official<00:09:00.200><c> evaluation</c><00:09:00.380><c> used</c><00:09:00.980><c> for</c><00:09:01.250><c> many</c></c><c.colorCCCCCC><00:09:01.430><c> years</c></c>
+
+00:09:01.750 --> 00:09:01.760 align:start position:0%
+<c.colorE5E5E5>official evaluation used for many</c><c.colorCCCCCC> years
+ </c>
+
+00:09:01.760 --> 00:09:02.410 align:start position:0%
+<c.colorE5E5E5>official evaluation used for many</c><c.colorCCCCCC> years</c>
+<c.colorE5E5E5>in<00:09:01.970><c> the</c></c><c.colorCCCCCC><00:09:02.060><c> mid</c></c>
+
+00:09:02.410 --> 00:09:02.420 align:start position:0%
+<c.colorE5E5E5>in the</c><c.colorCCCCCC> mid
+ </c>
+
+00:09:02.420 --> 00:09:05.079 align:start position:0%
+<c.colorE5E5E5>in the</c><c.colorCCCCCC> mid</c>
+<c.colorE5E5E5>thousands<00:09:03.130><c> so</c><00:09:04.130><c> the</c><00:09:04.250><c> next</c><00:09:04.430><c> paper</c><00:09:04.639><c> that</c><00:09:04.850><c> I</c><00:09:04.910><c> want</c></c>
+
+00:09:05.079 --> 00:09:05.089 align:start position:0%
+<c.colorE5E5E5>thousands so the next paper that I want
+ </c>
+
+00:09:05.089 --> 00:09:06.699 align:start position:0%
+<c.colorE5E5E5>thousands so the next paper that I want
+to<00:09:05.209><c> mention</c></c><c.colorCCCCCC><00:09:05.389><c> very</c><00:09:05.600><c> briefly</c><00:09:05.690><c> is</c><00:09:06.050><c> by</c><00:09:06.200><c> going</c></c><c.colorE5E5E5><00:09:06.470><c> in</c></c>
+
+00:09:06.699 --> 00:09:06.709 align:start position:0%
+to mention<c.colorCCCCCC> very briefly is by going</c><c.colorE5E5E5> in
+ </c>
+
+00:09:06.709 --> 00:09:09.160 align:start position:0%
+to mention<c.colorCCCCCC> very briefly is by going</c><c.colorE5E5E5> in
+Leo<00:09:06.889><c> 2001</c></c><c.colorCCCCCC><00:09:07.730><c> this</c></c><c.colorE5E5E5><00:09:08.240><c> is</c><00:09:08.420><c> the</c><00:09:08.510><c> first</c><00:09:08.720><c> paper</c><00:09:08.959><c> that</c></c>
+
+00:09:09.160 --> 00:09:09.170 align:start position:0%
+<c.colorE5E5E5>Leo 2001</c><c.colorCCCCCC> this</c><c.colorE5E5E5> is the first paper that
+ </c>
+
+00:09:09.170 --> 00:09:12.069 align:start position:0%
+<c.colorE5E5E5>Leo 2001</c><c.colorCCCCCC> this</c><c.colorE5E5E5> is the first paper that
+uses<00:09:09.680><c> latent</c><00:09:10.399><c> semantic</c><00:09:10.850><c> analysis</c></c><c.colorCCCCCC><00:09:11.510><c> LSA</c></c>
+
+00:09:12.069 --> 00:09:12.079 align:start position:0%
+uses latent semantic analysis<c.colorCCCCCC> LSA
+ </c>
+
+00:09:12.079 --> 00:09:13.870 align:start position:0%
+uses latent semantic analysis<c.colorCCCCCC> LSA
+something<00:09:12.500><c> which</c><00:09:12.740><c> we</c><00:09:12.889><c> have</c></c><c.colorE5E5E5><00:09:12.920><c> talked</c><00:09:13.399><c> about</c><00:09:13.579><c> in</c></c>
+
+00:09:13.870 --> 00:09:13.880 align:start position:0%
+something which we have<c.colorE5E5E5> talked about in
+ </c>
+
+00:09:13.880 --> 00:09:16.870 align:start position:0%
+something which we have<c.colorE5E5E5> talked about in
+the<00:09:13.970><c> past</c><00:09:14.180><c> in</c><00:09:14.600><c> this</c><00:09:14.720><c> class</c></c><c.colorCCCCCC><00:09:15.370><c> it</c><00:09:16.370><c> works</c><00:09:16.639><c> on</c><00:09:16.850><c> both</c></c>
+
+00:09:16.870 --> 00:09:16.880 align:start position:0%
+the past<c.colorE5E5E5> in this class</c><c.colorCCCCCC> it works on both
+ </c>
+
+00:09:16.880 --> 00:09:19.300 align:start position:0%
+the past<c.colorE5E5E5> in this class</c><c.colorCCCCCC> it works on both</c>
+<c.colorE5E5E5>single<00:09:17.750><c> and</c><00:09:17.810><c> multi</c><00:09:18.110><c> document</c><00:09:18.560><c> summarization</c></c>
+
+00:09:19.300 --> 00:09:19.310 align:start position:0%
+<c.colorE5E5E5>single and multi document summarization
+ </c>
+
+00:09:19.310 --> 00:09:22.650 align:start position:0%
+<c.colorE5E5E5>single and multi document summarization
+cases<00:09:19.940><c> and</c><00:09:20.570><c> doesn't</c></c><c.colorCCCCCC><00:09:21.019><c> use</c><00:09:21.199><c> any</c><00:09:21.529><c> explicit</c></c>
+
+00:09:22.650 --> 00:09:22.660 align:start position:0%
+<c.colorE5E5E5>cases and doesn't</c><c.colorCCCCCC> use any explicit
+ </c>
+
+00:09:22.660 --> 00:09:24.850 align:start position:0%
+<c.colorE5E5E5>cases and doesn't</c><c.colorCCCCCC> use any explicit</c>
+<c.colorE5E5E5>semantics<00:09:23.660><c> in</c><00:09:23.870><c> linguistics</c><00:09:24.350><c> for</c><00:09:24.440><c> example</c></c>
+
+00:09:24.850 --> 00:09:24.860 align:start position:0%
+<c.colorE5E5E5>semantics in linguistics for example
+ </c>
+
+00:09:24.860 --> 00:09:26.889 align:start position:0%
+<c.colorE5E5E5>semantics in linguistics for example
+were<00:09:24.980><c> denied</c><00:09:25.220><c> so</c><00:09:26.180><c> each</c><00:09:26.300><c> document</c><00:09:26.600><c> is</c></c>
+
+00:09:26.889 --> 00:09:26.899 align:start position:0%
+<c.colorE5E5E5>were denied so each document is
+ </c>
+
+00:09:26.899 --> 00:09:29.230 align:start position:0%
+<c.colorE5E5E5>were denied so each document is
+represented<00:09:27.560><c> as</c><00:09:27.680><c> a</c><00:09:27.709><c> word</c><00:09:28.070><c> by</c><00:09:28.279><c> sentence</c><00:09:28.820><c> matrix</c></c>
+
+00:09:29.230 --> 00:09:29.240 align:start position:0%
+represented as a word by sentence matrix
+ 
+
+00:09:29.240 --> 00:09:31.360 align:start position:0%
+represented as a word by sentence matrix
+where<00:09:29.449><c> each</c><00:09:29.600><c> row</c><00:09:29.930><c> corresponds</c><00:09:30.529><c> to</c><00:09:30.649><c> word</c><00:09:31.040><c> and</c>
+
+00:09:31.360 --> 00:09:31.370 align:start position:0%
+where each row corresponds to word and
+ 
+
+00:09:31.370 --> 00:09:33.240 align:start position:0%
+where each row corresponds to word and
+each<c.colorE5E5E5><00:09:31.459><c> column</c><00:09:31.850><c> corresponds</c><00:09:32.329><c> to</c><00:09:32.420><c> a</c><00:09:32.510><c> sentence</c></c>
+
+00:09:33.240 --> 00:09:33.250 align:start position:0%
+each<c.colorE5E5E5> column corresponds to a sentence
+ </c>
+
+00:09:33.250 --> 00:09:35.740 align:start position:0%
+each<c.colorE5E5E5> column corresponds to a sentence</c>
+<c.colorE5E5E5>the<00:09:34.250><c> weights</c><00:09:34.490><c> in</c><00:09:34.639><c> the</c><00:09:34.760><c> matrix</c><00:09:35.149><c> are</c><00:09:35.329><c> based</c><00:09:35.540><c> on</c></c>
+
+00:09:35.740 --> 00:09:35.750 align:start position:0%
+<c.colorE5E5E5>the weights in the matrix are based on
+ </c>
+
+00:09:35.750 --> 00:09:39.310 align:start position:0%
+<c.colorE5E5E5>the weights in the matrix are based on
+the</c><c.colorCCCCCC><00:09:35.870><c> tf-idf</c><00:09:36.350><c> values</c><00:09:36.920><c> of</c><00:09:37.070><c> the</c><00:09:37.190><c> words</c><00:09:37.630><c> so</c><00:09:38.630><c> LSA</c><00:09:39.079><c> as</c></c>
+
+00:09:39.310 --> 00:09:39.320 align:start position:0%
+the<c.colorCCCCCC> tf-idf values of the words so LSA as
+ </c>
+
+00:09:39.320 --> 00:09:41.199 align:start position:0%
+the<c.colorCCCCCC> tf-idf values of the words so LSA as
+we<00:09:39.649><c> remember</c><00:09:39.889><c> from</c><00:09:40.160><c> a</c><00:09:40.279><c> previous</c><00:09:40.310><c> lecture</c></c><c.colorE5E5E5><00:09:40.880><c> is</c></c>
+
+00:09:41.199 --> 00:09:41.209 align:start position:0%
+we remember<c.colorCCCCCC> from a previous lecture</c><c.colorE5E5E5> is
+ </c>
+
+00:09:41.209 --> 00:09:42.430 align:start position:0%
+we remember<c.colorCCCCCC> from a previous lecture</c><c.colorE5E5E5> is
+based<00:09:41.420><c> on</c><00:09:41.720><c> the</c><00:09:41.839><c> singular</c><00:09:42.199><c> value</c></c>
+
+00:09:42.430 --> 00:09:42.440 align:start position:0%
+based<c.colorE5E5E5> on the singular value
+ </c>
+
+00:09:42.440 --> 00:09:44.290 align:start position:0%
+based<c.colorE5E5E5> on the singular value
+decomposition<00:09:42.470><c> so</c><00:09:43.339><c> we</c><00:09:43.430><c> want</c><00:09:43.610><c> to</c><00:09:43.730><c> present</c><00:09:44.029><c> a</c></c>
+
+00:09:44.290 --> 00:09:44.300 align:start position:0%
+decomposition so we want to present a
+ 
+
+00:09:44.300 --> 00:09:47.769 align:start position:0%
+decomposition so we want to present a
+matrix<00:09:44.690><c> a</c><00:09:44.839><c> as</c><00:09:45.230><c> the</c><00:09:45.649><c> product</c><00:09:46.130><c> of</c><c.colorCCCCCC><00:09:46.339><c> you</c></c><c.colorE5E5E5><00:09:46.730><c> Sigma</c><00:09:47.540><c> and</c></c>
+
+00:09:47.769 --> 00:09:47.779 align:start position:0%
+matrix a as the product of<c.colorCCCCCC> you</c><c.colorE5E5E5> Sigma and
+ </c>
+
+00:09:47.779 --> 00:09:51.340 align:start position:0%
+matrix a as the product of<c.colorCCCCCC> you</c><c.colorE5E5E5> Sigma and
+V<00:09:47.839><c> transpose</c><00:09:49.029><c> where</c><00:09:50.029><c> the</c><00:09:50.750><c> roles</c><00:09:50.990><c> of</c><00:09:51.230><c> V</c></c>
+
+00:09:51.340 --> 00:09:51.350 align:start position:0%
+V<c.colorE5E5E5> transpose where the roles of V
+ </c>
+
+00:09:51.350 --> 00:09:53.170 align:start position:0%
+V<c.colorE5E5E5> transpose where the roles of V
+transpose<00:09:51.560><c> I</c><00:09:52.040><c> depend</c><00:09:52.490><c> on</c><00:09:52.610><c> topics</c></c><c.colorCCCCCC><00:09:53.060><c> that</c></c>
+
+00:09:53.170 --> 00:09:53.180 align:start position:0%
+transpose I depend on topics<c.colorCCCCCC> that
+ </c>
+
+00:09:53.180 --> 00:09:55.420 align:start position:0%
+transpose I depend on topics<c.colorCCCCCC> that
+correspond<00:09:53.690><c> to</c><00:09:53.720><c> the</c><00:09:53.899><c> documents</c><00:09:54.500><c> and</c><00:09:54.709><c> then</c><00:09:55.220><c> we</c></c>
+
+00:09:55.420 --> 00:09:55.430 align:start position:0%
+correspond to the documents and then we
+ 
+
+00:09:55.430 --> 00:09:57.400 align:start position:0%
+correspond to the documents and then we
+want<00:09:55.670><c> to</c><c.colorE5E5E5><00:09:55.760><c> pick</c><00:09:56.000><c> the</c><00:09:56.149><c> sentences</c></c><c.colorCCCCCC><00:09:56.720><c> that</c><00:09:56.899><c> contains</c></c>
+
+00:09:57.400 --> 00:09:57.410 align:start position:0%
+want to<c.colorE5E5E5> pick the sentences</c><c.colorCCCCCC> that contains
+ </c>
+
+00:09:57.410 --> 00:10:00.670 align:start position:0%
+want to<c.colorE5E5E5> pick the sentences</c><c.colorCCCCCC> that contains
+the<00:09:58.190><c> independent</c><00:09:58.730><c> topics</c><00:09:59.230><c> so</c><00:10:00.230><c> that's</c><00:10:00.410><c> in</c></c>
+
+00:10:00.670 --> 00:10:00.680 align:start position:0%
+the independent topics so that's in
+ 
+
+00:10:00.680 --> 00:10:04.110 align:start position:0%
+the independent topics so that's in
+<c.colorE5E5E5>summary<00:10:01.070><c> how</c><00:10:01.430><c> the</c></c><c.colorCCCCCC><00:10:02.089><c> Gong</c><00:10:02.360><c> a</c></c><c.colorE5E5E5><00:10:02.389><c> new</c><00:10:02.720><c> method</c><00:10:03.139><c> works</c></c>
+
+00:10:04.110 --> 00:10:04.120 align:start position:0%
+<c.colorE5E5E5>summary how the</c><c.colorCCCCCC> Gong a</c><c.colorE5E5E5> new method works
+ </c>
+
+00:10:04.120 --> 00:10:07.000 align:start position:0%
+<c.colorE5E5E5>summary how the</c><c.colorCCCCCC> Gong a</c><c.colorE5E5E5> new method works
+so<00:10:05.120><c> we're</c><00:10:05.570><c> going</c><00:10:05.720><c> to</c><00:10:05.810><c> continue</c><00:10:06.079><c> with</c></c>
+
+00:10:07.000 --> 00:10:07.010 align:start position:0%
+so we're going to continue<c.colorE5E5E5> with
+ </c>
+
+00:10:07.010 --> 00:10:09.100 align:start position:0%
+so we're going to continue<c.colorE5E5E5> with
+evaluation<00:10:07.550><c> of</c><00:10:07.790><c> summarization</c><00:10:08.420><c> in</c><00:10:08.779><c> the</c><00:10:08.870><c> next</c></c>
+
+00:10:09.100 --> 00:10:09.110 align:start position:0%
+evaluation<c.colorE5E5E5> of summarization in the next
+ </c>
+
+00:10:09.110 --> 00:10:11.500 align:start position:0%
+evaluation<c.colorE5E5E5> of summarization in the next
+segment</c>
+

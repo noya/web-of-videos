@@ -1,0 +1,799 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.930 --> 00:00:02.820
+Hi, in this segment,
+
+00:00:02.820 --> 00:00:06.510
+I'm going to introduce the machine
+learning sequence model approach
+
+00:00:06.510 --> 00:00:10.920
+to named entity recognition and other
+kinds of information extraction tasks.
+
+00:00:10.920 --> 00:00:14.880
+So I'm going to say a little bit about the
+structure of how you approach things and
+
+00:00:14.880 --> 00:00:17.090
+the features they use for that task.
+
+00:00:17.090 --> 00:00:20.152
+And then in the next segment, I'm
+going to talk about the details of using
+
+00:00:20.152 --> 00:00:22.362
+maximum entry models,
+as sequence classifiers.
+
+00:00:27.180 --> 00:00:31.489
+So if we're going to use a sequence
+model for named entity recognition,
+
+00:00:31.489 --> 00:00:33.620
+we need supervised training data.
+
+00:00:33.620 --> 00:00:37.450
+What that means is we have
+examples of training documents
+
+00:00:37.450 --> 00:00:41.360
+where the words are labeled for
+what their entity class is.
+
+00:00:41.360 --> 00:00:44.890
+So the steps we're going to have
+to go through is first of all
+
+00:00:44.890 --> 00:00:48.620
+collecting a representative set of
+training documents that contain
+
+00:00:48.620 --> 00:00:51.870
+entities that we're interested in and
+context we're interested.
+
+00:00:51.870 --> 00:00:56.690
+And then we are going to go through
+each word, and label each token for
+
+00:00:56.690 --> 00:01:01.260
+its entity class or if it's not any
+entity class, it'll be labeled other.
+
+00:01:01.260 --> 00:01:04.019
+Which is normally denoted O.
+
+00:01:04.019 --> 00:01:08.610
+Then on the machine learning classifier
+side, we're going to design appropriate
+
+00:01:08.610 --> 00:01:13.390
+feature extractors for
+identifying words for the classes.
+
+00:01:13.390 --> 00:01:17.740
+And then we're going to train a sequence
+classifier whose job is to do the best job
+
+00:01:17.740 --> 00:01:23.030
+possible it can of labeling each
+token with its entity class or other.
+
+00:01:23.030 --> 00:01:28.860
+And so this is the part we'll
+talk about in the next chunk.
+
+00:01:28.860 --> 00:01:33.076
+When we then want to run the classifier
+on actual documents to do stuff,
+
+00:01:33.076 --> 00:01:38.015
+that's often referred to as testing but
+maybe we should just call it classifying.
+
+00:01:40.410 --> 00:01:47.230
+We then have the train model so
+we get a set of testing documents.
+
+00:01:47.230 --> 00:01:48.121
+We have model.
+
+00:01:51.211 --> 00:01:55.839
+And we just run the sequence model
+inference on each document and
+
+00:01:55.839 --> 00:02:00.990
+it will be able to tell us the highest
+probability label for each token.
+
+00:02:00.990 --> 00:02:04.900
+We use those labels to
+output recognized entities.
+
+00:02:04.900 --> 00:02:08.360
+This all probably becomes more
+concrete if I show you an example.
+
+00:02:10.990 --> 00:02:16.830
+So here is our document which
+is a sequence of words.
+
+00:02:16.830 --> 00:02:21.800
+And so the labeling which is done by
+hand for the training documents and
+
+00:02:21.800 --> 00:02:26.920
+automatically by their train
+model at classification time,
+
+00:02:26.920 --> 00:02:31.610
+is putting on each word
+a label which is representing
+
+00:02:31.610 --> 00:02:35.720
+either its entity type, or it's an other.
+
+00:02:37.480 --> 00:02:42.640
+So, in this column,
+I'm showing what gets called IO encoding,
+
+00:02:42.640 --> 00:02:46.511
+which is short for Inside-Outside.
+
+00:02:46.511 --> 00:02:51.430
+And it's the most obvious and
+natural thing for
+
+00:02:51.430 --> 00:02:56.710
+someone to come up with for doing named
+entity recognition and sequence labeling.
+
+00:02:56.710 --> 00:03:00.850
+So we're taking Fred and
+labeling him as a person.
+
+00:03:00.850 --> 00:03:04.380
+We're then taking showed and
+labeling it as other,
+
+00:03:04.380 --> 00:03:08.820
+then Sue is a person name
+Mengqiu is a person name.
+
+00:03:08.820 --> 00:03:11.300
+Huang is part of a person name and
+
+00:03:11.300 --> 00:03:14.010
+then this next three tokens
+were all other, other, other.
+
+00:03:14.010 --> 00:03:19.130
+But there's a catch in
+that labeling scheme,
+
+00:03:19.130 --> 00:03:24.450
+which is actually this
+is one person's name and
+
+00:03:24.450 --> 00:03:27.650
+then this is another person's name.
+
+00:03:27.650 --> 00:03:31.930
+And we can't represent
+that in IO encoding.
+
+00:03:31.930 --> 00:03:36.170
+We can only say that we'll
+take maximal sequences
+
+00:03:36.170 --> 00:03:40.680
+of entities at the same class and
+call them the name of an entity.
+
+00:03:40.680 --> 00:03:46.220
+So to recognize two entities here,
+whereas really there are three.
+
+00:03:46.220 --> 00:03:51.950
+And so there's a technical way to fix that
+problem, and that's known as IOB encoding.
+
+00:03:51.950 --> 00:03:56.920
+And the way that you do IOB encoding
+is you're prefixing each class
+
+00:03:56.920 --> 00:04:01.860
+with a B if it's the beginning
+of an entity of that class, or
+
+00:04:01.860 --> 00:04:06.270
+an I if it's a continuation
+of an entity of that class.
+
+00:04:06.270 --> 00:04:09.970
+So then we can see,
+here's one person name.
+
+00:04:09.970 --> 00:04:11.680
+Here's a second person name,
+
+00:04:11.680 --> 00:04:16.460
+and we know it stops here because
+we have another B right there.
+
+00:04:16.460 --> 00:04:20.770
+Then we have a third person
+name which is two tokens long.
+
+00:04:20.770 --> 00:04:25.470
+So the IOB encoding isn't deficient and
+solves this problem.
+
+00:04:25.470 --> 00:04:32.980
+It comes at a bit of a cost because if we
+suppose that we have C entity classes.
+
+00:04:32.980 --> 00:04:39.070
+For IO encoding,
+you need to have C plus 1 labels,
+
+00:04:39.070 --> 00:04:45.600
+whereas for IOB encoding you
+have to have 2C plus 1 labels.
+
+00:04:45.600 --> 00:04:48.171
+The plus one's coming from the other for
+
+00:04:48.171 --> 00:04:52.340
+which you don't need to distinguish
+the BI even on IOB encoding.
+
+00:04:52.340 --> 00:04:56.150
+Well that seems a fairly small difference,
+
+00:04:56.150 --> 00:05:00.000
+but as we'll see when we look
+at sequence models, if you have
+
+00:05:00.000 --> 00:05:04.900
+any sequence information, you're raising
+this to the order of the sequence model.
+
+00:05:04.900 --> 00:05:07.620
+So you're at the minimum, squaring this.
+
+00:05:09.690 --> 00:05:14.610
+So that means that you
+are ending up with things having
+
+00:05:14.610 --> 00:05:18.610
+considerably slower run
+time with the IOB encoding.
+
+00:05:18.610 --> 00:05:23.750
+So, while in some sense this is
+clearly the right thing to do since
+
+00:05:23.750 --> 00:05:29.690
+it is not deficient representation and
+a lot of people actually do, do this.
+
+00:05:29.690 --> 00:05:34.940
+I'll reveal a little secret here which is
+in the Stanford name entity recognizer,
+
+00:05:34.940 --> 00:05:37.800
+we actually use IO encoding.
+
+00:05:37.800 --> 00:05:42.475
+And the reasons why we do
+that is it runs a lot faster.
+
+00:05:45.371 --> 00:05:48.864
+And it turns out that the slight limits in
+
+00:05:48.864 --> 00:05:54.130
+the representation aren't
+really a problem in practice.
+
+00:05:54.130 --> 00:05:58.730
+And there are two reasons that
+it's not a problem in practice.
+
+00:05:58.730 --> 00:06:03.912
+One is, situations like this,
+very, very rarely occur.
+
+00:06:03.912 --> 00:06:07.125
+While you'll quite often get
+entities next to each other,
+
+00:06:07.125 --> 00:06:10.290
+they're most commonly entities
+of different classes.
+
+00:06:10.290 --> 00:06:15.440
+But the IO encoding has no
+problem if it's a person
+
+00:06:15.440 --> 00:06:20.300
+followed by an organization, then it
+can see the boundary perfectly well.
+
+00:06:20.300 --> 00:06:25.110
+You only have a problem when you
+have two entities of the same class.
+
+00:06:25.110 --> 00:06:27.310
+And that happens pretty rarely.
+
+00:06:27.310 --> 00:06:32.500
+Now it does happen occasionally,
+but it turns out that in practice,
+
+00:06:32.500 --> 00:06:35.360
+systems trained with IOB encoding
+
+00:06:35.360 --> 00:06:39.720
+very rarely get this right even though
+they are capable of representing it.
+
+00:06:39.720 --> 00:06:44.720
+That because of the fact that having
+more classes worsens the sparseness,
+
+00:06:44.720 --> 00:06:48.470
+and because of the fact it's simply
+hard to tell where one name ends and
+
+00:06:48.470 --> 00:06:50.160
+the next one begins.
+
+00:06:50.160 --> 00:06:56.425
+What you find is in practice, IOB trained
+systems given data like this to tag,
+
+00:06:56.425 --> 00:07:03.300
+will nearly always tag them as
+one person name of three tokens.
+
+00:07:03.300 --> 00:07:06.850
+Which is exactly the same
+classification we extract in practice
+
+00:07:06.850 --> 00:07:09.430
+with the IO classification.
+
+00:07:09.430 --> 00:07:12.918
+And so in practice, using this works fine,
+
+00:07:12.918 --> 00:07:16.325
+despite a slight ugliness and
+so we use it.
+
+00:07:19.760 --> 00:07:23.855
+Okay, let me now just say a moment about
+what features we put in to sequence
+
+00:07:23.855 --> 00:07:28.700
+labeling for information extraction or
+named entity recognition problems.
+
+00:07:28.700 --> 00:07:32.190
+The obvious starting point is we
+put in features for the words.
+
+00:07:32.190 --> 00:07:35.230
+So we put in a feature for
+the current word in each class.
+
+00:07:35.230 --> 00:07:40.370
+So that essentially works like a learned
+dictionary of words in each class.
+
+00:07:40.370 --> 00:07:43.130
+And then we also put in features for
+the previous and
+
+00:07:43.130 --> 00:07:46.570
+next words which give us
+some context features.
+
+00:07:46.570 --> 00:07:49.730
+We know that for
+things like words after at or
+
+00:07:49.730 --> 00:07:53.620
+to might be more likely to be locations.
+
+00:07:53.620 --> 00:07:57.460
+If we have used other kinds
+of linguistic processing and
+
+00:07:57.460 --> 00:08:01.230
+we know part-of-speech tags,
+that'll often also be useful features.
+
+00:08:01.230 --> 00:08:06.180
+And we might also first throw them in for
+the current words part-of-speech tag,
+
+00:08:06.180 --> 00:08:11.430
+the next words part-of-speech tag, and
+the previous words part-of-speech tag.
+
+00:08:11.430 --> 00:08:15.438
+Now all of these features are just
+looking at the observed data, and
+
+00:08:15.438 --> 00:08:19.672
+they could be be just done in a straight
+classifier built for each word.
+
+00:08:19.672 --> 00:08:25.557
+You only have a sequence model when
+you also put in the Label context and
+
+00:08:25.557 --> 00:08:29.670
+so that's when you're
+saying that John Smith.
+
+00:08:29.670 --> 00:08:34.960
+&gt;&gt; If you think that
+John is a person name,
+
+00:08:34.960 --> 00:08:40.020
+then it's quite likely that the next
+token is also a person name,
+
+00:08:40.020 --> 00:08:43.480
+because person names are commonly
+more than one token long.
+
+00:08:43.480 --> 00:08:48.347
+And so you can features that model this
+label sequence and it's having features of
+
+00:08:48.347 --> 00:08:52.666
+this type that are definitional for
+making something a sequence model.
+
+00:08:56.071 --> 00:09:00.599
+But before we get into the details of
+sequence models, I'd just like to mention
+
+00:09:00.599 --> 00:09:04.315
+a couple of other kinds of features
+that are back at this level that
+
+00:09:04.315 --> 00:09:08.810
+are a little bit more interesting than
+just using the words as they are.
+
+00:09:08.810 --> 00:09:13.579
+And these features are really useful for
+having the models generalize better and
+
+00:09:13.579 --> 00:09:15.830
+work better on rare and unseen words.
+
+00:09:19.410 --> 00:09:23.800
+One of those kinds of features
+is character subsequences.
+
+00:09:23.800 --> 00:09:29.200
+So character subsequences of word can
+be very useful classificatory features.
+
+00:09:29.200 --> 00:09:32.180
+So I'm just going to show
+a neat example of this that was
+
+00:09:32.180 --> 00:09:34.930
+done by a student of mine,
+Joseph Smart, years ago.
+
+00:09:34.930 --> 00:09:39.709
+So he was classifying entities
+as one of these five classes.
+
+00:09:39.709 --> 00:09:42.628
+Drug, company, movie, place, person.
+
+00:09:42.628 --> 00:09:49.000
+And what he asked was how indicative
+a particular character subsequence is.
+
+00:09:49.000 --> 00:09:51.930
+And here are just a couple
+of examples from his data.
+
+00:09:51.930 --> 00:09:55.960
+So here's some of the words he was trying
+to classify, just to give an idea.
+
+00:09:55.960 --> 00:09:57.290
+Well they weren't only words actually,
+
+00:09:57.290 --> 00:10:01.980
+they could be multiword
+sequences like this one here.
+
+00:10:01.980 --> 00:10:05.930
+But now let's ask some questions about
+particular character subsequences.
+
+00:10:05.930 --> 00:10:11.140
+Suppose you know that the term
+to be classified has oxa in it.
+
+00:10:11.140 --> 00:10:15.820
+What turns out this x letter's a really
+strong marker of drug names, right,
+
+00:10:15.820 --> 00:10:19.140
+that's all of the drug names,
+like Xanax, and things like that.
+
+00:10:19.140 --> 00:10:23.614
+The people have these kind of particular
+
+00:10:23.614 --> 00:10:28.280
+semantic sound patterns
+that they name drugs after.
+
+00:10:28.280 --> 00:10:32.968
+And in this data at least,
+if you saw the letter oxa in a term,
+
+00:10:32.968 --> 00:10:39.270
+100% of the time it was a drug name,
+so that's why it's all purple here.
+
+00:10:39.270 --> 00:10:42.260
+So that was a categorical
+indicator feature.
+
+00:10:42.260 --> 00:10:45.680
+So that's an extreme case, and
+most of them aren't like that, but
+
+00:10:45.680 --> 00:10:47.920
+there are lots of other good features.
+
+00:10:47.920 --> 00:10:51.240
+Here's another very good
+feature from his data.
+
+00:10:51.240 --> 00:10:55.710
+For these terms,
+if you saw a colon in the term,
+
+00:10:55.710 --> 00:10:58.590
+that was pretty much a giveaway
+that it was a movie name.
+
+00:10:58.590 --> 00:11:02.550
+There are only a few exceptions up here.
+
+00:11:02.550 --> 00:11:05.450
+So that one's an almost
+categorical feature.
+
+00:11:05.450 --> 00:11:08.650
+Here's perhaps a more typical example, but
+
+00:11:08.650 --> 00:11:12.160
+a place where character
+subsequences are still very useful.
+
+00:11:12.160 --> 00:11:15.770
+So that, if a word ends in field.
+
+00:11:15.770 --> 00:11:17.950
+I mean, it could be anything just about.
+
+00:11:17.950 --> 00:11:19.990
+It couldn't be a drug name in this data,
+but
+
+00:11:19.990 --> 00:11:25.470
+it could be a place, it could be a person,
+so David Copperfield.
+
+00:11:25.470 --> 00:11:29.560
+It could be the name of a movie,
+because there's a movie David Copperfield.
+
+00:11:29.560 --> 00:11:31.500
+It could be the name of a company.
+
+00:11:31.500 --> 00:11:36.420
+But because of the semantic origins of
+this field ending, if it ends in field,
+
+00:11:36.420 --> 00:11:41.040
+it's overwhelmingly a location
+over two-thirds of the time.
+
+00:11:41.040 --> 00:11:44.870
+So ending in field is still
+a very good indicative feature.
+
+00:11:44.870 --> 00:11:48.600
+And so this way character substring
+features are very useful.
+
+00:11:49.910 --> 00:11:52.900
+Here's one other kind of feature
+that turns out to be quite
+
+00:11:52.900 --> 00:11:55.640
+complimentary to character subsequences.
+
+00:11:55.640 --> 00:11:58.700
+So this is what I call
+word shape sequences, and
+
+00:11:58.700 --> 00:12:04.120
+it's an idea that was first suggested
+by Michael Collins as far as I'm aware.
+
+00:12:04.120 --> 00:12:09.010
+And the idea was that you map
+words onto equivalence classes,
+
+00:12:09.010 --> 00:12:14.300
+which are a simplified representation
+that encodes attributes such as
+
+00:12:14.300 --> 00:12:18.430
+something about the length of the word,
+something about its capitalization,
+
+00:12:18.430 --> 00:12:22.570
+use of numerals, internal punctuation and
+things like that.
+
+00:12:22.570 --> 00:12:27.677
+There are very many particular ways
+that you can do it, but this gives you
+
+00:12:27.677 --> 00:12:32.881
+an example of the general idea of how
+to do it done on biological entities.
+
+00:12:32.881 --> 00:12:39.085
+So precisely in this system the way it
+was defined was that any capital letter,
+
+00:12:39.085 --> 00:12:43.250
+A, B, etc.,
+were being mapped to a capital X.
+
+00:12:43.250 --> 00:12:47.920
+Any little Latin letter was
+being mapped to a little x.
+
+00:12:47.920 --> 00:12:51.080
+Any number was being mapped to a little d.
+
+00:12:52.140 --> 00:12:59.179
+And symbols, like a hyphen, or a colon, or
+a period, were being mapped to themselves.
+
+00:13:01.410 --> 00:13:04.440
+And then there was one more
+trick that was being used here,
+
+00:13:04.440 --> 00:13:07.870
+which was a way of
+shortening adjacent letters.
+
+00:13:07.870 --> 00:13:12.580
+So the idea was that the beginnings and
+ends of words are important, but
+
+00:13:12.580 --> 00:13:16.230
+maybe we can pay less attention
+to stuff in the middle.
+
+00:13:16.230 --> 00:13:23.530
+So how these were worked out is
+the first two letters and the last
+
+00:13:23.530 --> 00:13:29.650
+two letters are being encoded according
+to this system that I've drawn over here.
+
+00:13:29.650 --> 00:13:34.430
+And so that means if the word
+is four characters or less, so
+
+00:13:34.430 --> 00:13:39.600
+that's picking up this length idea,
+you can see its length in the encoding.
+
+00:13:39.600 --> 00:13:42.684
+So if we had another example, and
+
+00:13:42.684 --> 00:13:47.100
+something was just xp
+that'd be encoded as xx.
+
+00:13:47.100 --> 00:13:49.960
+But if a word is longer
+than four characters,
+
+00:13:49.960 --> 00:13:54.270
+you're not encoding everything
+about the remaining characters.
+
+00:13:54.270 --> 00:13:59.627
+For all the characters in the middle,
+you're just saying,
+
+00:13:59.627 --> 00:14:04.260
+what is the set of these
+character types that occur?
+
+00:14:04.260 --> 00:14:10.810
+So, in this set here there's a lower
+case letter and there's a dash symbol.
+
+00:14:10.810 --> 00:14:16.655
+And then that set is being written out
+in a cannocialized order which is always
+
+00:14:16.655 --> 00:14:21.575
+the same, so actually the dash comes
+before the x and that's giving this form.
+
+00:14:21.575 --> 00:14:23.025
+A lot of details there.
+
+00:14:23.025 --> 00:14:27.162
+A lot of different ways you can imagine
+doing it, but the important part is that
+
+00:14:27.162 --> 00:14:32.422
+in this way we're defining this word
+shape equivalence class for each word.
+
+00:14:32.422 --> 00:14:37.022
+And so these are much denser
+than the rare individual words,
+
+00:14:37.022 --> 00:14:40.681
+but can be kind of good predictors of
+their behavior because they're recording
+
+00:14:40.681 --> 00:14:43.111
+important attributes
+like is there a digit,
+
+00:14:43.111 --> 00:14:48.251
+is it capitalized, is it all caps or
+having funny capitals at the end of it.
+
+00:14:48.251 --> 00:14:51.130
+So those can be useful features for
+classification.
+
+00:14:52.850 --> 00:14:57.170
+Okay so, I hope that introduced
+the problem of sequence models and
+
+00:14:57.170 --> 00:14:59.630
+some of the features we use for NER.
+
+00:14:59.630 --> 00:15:03.080
+I will get back into a bit
+of the details of building
+
+00:15:03.080 --> 00:15:04.691
+a maximum entity sequence model.
+

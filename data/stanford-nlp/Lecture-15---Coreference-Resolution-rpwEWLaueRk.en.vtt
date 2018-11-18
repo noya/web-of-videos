@@ -1,0 +1,4378 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.005 --> 00:00:07.761
+Stanford University.
+
+00:00:07.761 --> 00:00:13.644
+&gt;&gt; So we are now heading to
+the crucial end phase of the semester,
+
+00:00:13.644 --> 00:00:18.410
+so I guess we're now at
+the start of week nine.
+
+00:00:18.410 --> 00:00:22.222
+So first of all if I just
+do sort of reminders.
+
+00:00:22.222 --> 00:00:28.310
+Obviously everyone should keep working
+on their final projects- assignment 4s.
+
+00:00:28.310 --> 00:00:31.070
+A couple of just notes on that.
+
+00:00:31.070 --> 00:00:35.996
+So on Thursday we're just going to
+talk about dynamic memory networks.
+
+00:00:35.996 --> 00:00:39.238
+While they are only one of several ways
+that you could go about approaching
+
+00:00:39.238 --> 00:00:39.884
+assignment 4.
+
+00:00:39.884 --> 00:00:45.070
+They'll certainly be relevant material
+if you are doing assignment 4 because,
+
+00:00:45.070 --> 00:00:49.780
+it's an instance of the kind of
+architectures of sort of attention based
+
+00:00:49.780 --> 00:00:55.128
+architectures that people can use for
+tasks like the reading comprehension
+
+00:00:55.128 --> 00:01:00.628
+question/answering, like the squad
+data sets, so watch out for that.
+
+00:01:00.628 --> 00:01:04.592
+We've been trying to keep money
+in people's Azure accounts,
+
+00:01:04.592 --> 00:01:09.545
+actually a Microsoft rep Kristine is here
+right now if you need to pester her.
+
+00:01:09.545 --> 00:01:12.438
+[LAUGH] Pester her about any problems, and
+
+00:01:12.438 --> 00:01:17.150
+you're certainly contact us on
+Piazza if they're any issues, and
+
+00:01:17.150 --> 00:01:21.710
+we've been trying to be proactive
+at keeping things restocked.
+
+00:01:21.710 --> 00:01:26.609
+I know it's slightly frustrating if you go
+out of money and it then locks you out and
+
+00:01:26.609 --> 00:01:29.450
+we need to reset it, but
+we're doing our best.
+
+00:01:29.450 --> 00:01:33.236
+Okay, and it's great that there are now
+lots of people that are clearly very
+
+00:01:33.236 --> 00:01:35.250
+actively using it and doing stuff.
+
+00:01:35.250 --> 00:01:39.312
+And that's super, we are very
+pleased to see that all happening.
+
+00:01:39.312 --> 00:01:42.295
+Okay, then for assignment four, so for
+
+00:01:42.295 --> 00:01:47.828
+the assignment four submissions,
+we're doing submissions on CodaLab,
+
+00:01:47.828 --> 00:01:52.090
+which is conveniently tied
+right into Azure as well.
+
+00:01:52.090 --> 00:01:56.200
+And so for assignment four
+we've set up a leaderboard,
+
+00:01:56.200 --> 00:02:01.140
+at least when I looked this morning it
+only had one submission from Chris, and
+
+00:02:01.140 --> 00:02:03.100
+the people who set up the leaderboard.
+
+00:02:03.100 --> 00:02:08.070
+And they were only getting 2% on squad,
+so if you can get higher than 2%
+
+00:02:08.070 --> 00:02:12.935
+on squad at least temporarily you
+could be top of the leaderboard.
+
+00:02:12.935 --> 00:02:16.644
+[LAUGH] And so
+I hope people can try that out.
+
+00:02:16.644 --> 00:02:21.071
+And so, a couple of
+Percy Liang's RAs have been very
+
+00:02:21.071 --> 00:02:26.157
+actively working at helping
+us out of doing this
+
+00:02:26.157 --> 00:02:32.091
+CodaLab-Azure integration for
+using an assignment four.
+
+00:02:32.091 --> 00:02:36.850
+So big thank you to Percy and his RAs.
+
+00:02:36.850 --> 00:02:40.320
+And so,
+they've also made a couple of videos on
+
+00:02:40.320 --> 00:02:43.220
+how to use CodaLab that
+there's short videos.
+
+00:02:43.220 --> 00:02:46.620
+There was an announcement about it on
+Piazza, so have a look about those.
+
+00:02:47.650 --> 00:02:52.130
+Okay so, then moving right along for
+today's lecture, so
+
+00:02:52.130 --> 00:02:54.800
+for today's lecture,
+I'm gonna talk about coreference.
+
+00:02:55.880 --> 00:03:00.890
+So when we did the mid quarter survey,
+one of
+
+00:03:00.890 --> 00:03:05.740
+the things that a whole bunch of people
+complained about was that, we actually
+
+00:03:05.740 --> 00:03:11.220
+weren't doing much linguistics and
+natural language content in this class.
+
+00:03:11.220 --> 00:03:15.100
+So today, it's getting a little bit
+late since it's the start of week nine.
+
+00:03:15.100 --> 00:03:20.120
+I've actually got a try to have
+some more linguistic content
+
+00:03:20.120 --> 00:03:25.320
+in the first half before going back
+to deep learning models for the same.
+
+00:03:25.320 --> 00:03:30.340
+I think that sort of comment
+in the mid-quarter evaluations
+
+00:03:30.340 --> 00:03:34.800
+was completely fair because the reality
+was in the first half of the class.
+
+00:03:34.800 --> 00:03:38.740
+It really was sort of just about all
+deep learning models all the time.
+
+00:03:38.740 --> 00:03:42.640
+I mean, I'm not sure I've yet worked out
+the perfect solution to that because
+
+00:03:42.640 --> 00:03:46.140
+the fact of the matter was we kind
+of felt when organizing the class.
+
+00:03:46.140 --> 00:03:49.840
+That we were sort of on this treadmill
+where we had to get through more stuff in
+
+00:03:49.840 --> 00:03:52.630
+time for our next assignment.
+
+00:03:52.630 --> 00:03:56.600
+And so that is what it is, but over
+the last couple of weeks, we'll try and
+
+00:03:56.600 --> 00:03:59.840
+have a bit more NLP
+content as we go along,
+
+00:04:03.400 --> 00:04:08.580
+Coreference Resolution is
+an instance of a task.
+
+00:04:08.580 --> 00:04:12.910
+And it's really the only one that we're
+going to look at in any depth here.
+
+00:04:12.910 --> 00:04:16.040
+Where we're working on
+a larger level of a text so
+
+00:04:16.040 --> 00:04:20.530
+that we're not longer just trying to
+look at an individual sentence and say,
+
+00:04:20.530 --> 00:04:25.780
+what's the subject and the object and
+parsing or is this a company name.
+
+00:04:25.780 --> 00:04:29.120
+Where we're trying to make
+sense of a bigger text and
+
+00:04:29.120 --> 00:04:31.250
+work out what's going on about that.
+
+00:04:31.250 --> 00:04:34.610
+And it's not the entirety of
+understanding long text but
+
+00:04:34.610 --> 00:04:38.920
+it's sort of one of the most prominent
+things you need to do as you go along.
+
+00:04:38.920 --> 00:04:43.200
+So when we're doing coreference
+resolution, the first thing that we're
+
+00:04:43.200 --> 00:04:49.450
+doing is working out all the mentions in
+the piece of text so that pieces of text,
+
+00:04:49.450 --> 00:04:56.140
+basically noun phrases that refer
+to some entity in the world.
+
+00:04:56.140 --> 00:04:59.080
+And then once we've got those,
+we're trying to find
+
+00:04:59.080 --> 00:05:03.790
+the ones that refer to the same
+real world entity that co-refers.
+
+00:05:03.790 --> 00:05:07.980
+So there's one set them here
+which co-refer in this example
+
+00:05:07.980 --> 00:05:10.790
+to Barack Obama and
+then there's another set,
+
+00:05:10.790 --> 00:05:15.920
+which are these ones here, and they're
+the ones that co-refer to Hillary Clinton.
+
+00:05:17.430 --> 00:05:22.710
+Okay so
+that's our task of coreference resolution,
+
+00:05:22.710 --> 00:05:27.620
+and so I thought next we could just go
+through, really get a sense of what
+
+00:05:27.620 --> 00:05:32.360
+goes on in coreference resolution,
+of go through an example text.
+
+00:05:32.360 --> 00:05:38.050
+And this is where I signal to these guys
+here to flip me over to my other screen.
+
+00:05:39.060 --> 00:05:40.200
+Look at that!
+
+00:05:40.200 --> 00:05:42.610
+Okay, so here's our example text done,
+
+00:05:42.610 --> 00:05:46.585
+this is from a short story,
+story by Shruthi Rao called, The Star.
+
+00:05:46.585 --> 00:05:51.135
+Now, I have to admit,
+since this isn't a literature class,
+
+00:05:51.135 --> 00:05:54.275
+I actually made some little cuts and
+edits to this story so
+
+00:05:54.275 --> 00:05:59.057
+I could more easily fit it in
+a larger font size on my slide.
+
+00:05:59.057 --> 00:06:04.987
+So the text is slightly mangled but
+it's basically part of the story,
+
+00:06:04.987 --> 00:06:07.677
+so what have we got here when we do this,
+right?
+
+00:06:07.677 --> 00:06:12.458
+So first of all,
+we have the named entities,
+
+00:06:12.458 --> 00:06:17.028
+which is precisely what you were
+finding in assignment three, right?
+
+00:06:17.028 --> 00:06:21.126
+So we have Vanaja, and Akhila, and
+
+00:06:21.126 --> 00:06:27.000
+there's Akhila, and
+there's Prajwal, Akash,
+
+00:06:27.000 --> 00:06:32.199
+Lord Krishna, He is a named entity, Akash.
+
+00:06:32.199 --> 00:06:35.075
+So we've got all of those, but
+
+00:06:35.075 --> 00:06:41.169
+then we have a lot of other kinds
+of phrases that refer in the text.
+
+00:06:41.169 --> 00:06:46.150
+And the second prominent category
+is that we have pronouns.
+
+00:06:46.150 --> 00:06:51.018
+So there's they and there's she.
+
+00:06:51.018 --> 00:06:57.867
+There's this one thats a pronoun,
+that's kind of a special pronoun, herself.
+
+00:06:57.867 --> 00:07:00.030
+And there's she and him.
+
+00:07:00.030 --> 00:07:03.083
+And she, she, it, it.
+
+00:07:03.083 --> 00:07:07.740
+then I admit, I noticed I missed at
+
+00:07:07.740 --> 00:07:12.238
+least one of the named entities,
+
+00:07:12.238 --> 00:07:16.750
+there's another named entity.
+
+00:07:16.750 --> 00:07:19.220
+And there are probably other
+things I've missed, so
+
+00:07:19.220 --> 00:07:20.830
+you can tell me what I've missed.
+
+00:07:20.830 --> 00:07:23.720
+Okay, so
+those are both prominent categories, but
+
+00:07:23.720 --> 00:07:28.070
+that's not all there is,
+there's really a third category.
+
+00:07:28.070 --> 00:07:32.680
+Which are then things
+that are mentions but
+
+00:07:32.680 --> 00:07:37.700
+are done with common nouns so that they're
+neither pronouns or named entities.
+
+00:07:37.700 --> 00:07:42.022
+So that's something like the local park,
+
+00:07:42.022 --> 00:07:46.464
+well, there's her son is such an example,
+
+00:07:46.464 --> 00:07:50.930
+the same school, the preschool play.
+
+00:07:50.930 --> 00:07:55.300
+So there's sort of, you get an interesting
+thing is you get embedded ones.
+
+00:07:55.300 --> 00:07:59.970
+So the preschool play is in reference
+of a mention of an entity, but
+
+00:07:59.970 --> 00:08:05.030
+inside that there's the preschool,
+which is another mention of an entity.
+
+00:08:08.758 --> 00:08:13.545
+Okay so there is the naughty child,
+
+00:08:13.545 --> 00:08:19.286
+a tree, the best tree, a brown T-shirt,
+
+00:08:19.286 --> 00:08:23.912
+brown trousers, the tree trunk,
+
+00:08:23.912 --> 00:08:27.593
+a large cardboard cut out.
+
+00:08:30.987 --> 00:08:35.347
+Okay, then there is a circular opening,
+there are red balls.
+
+00:08:39.395 --> 00:08:41.084
+So they are those ones and
+
+00:08:41.084 --> 00:08:46.635
+then there are some other things that are
+common noun phrases and it's not quite so
+
+00:08:46.635 --> 00:08:51.321
+clear whether they're actually
+mentions of anything in the world.
+
+00:08:51.321 --> 00:08:54.440
+So there's a couple of years.
+
+00:08:54.440 --> 00:08:56.271
+Is that a mention of
+anything in the world?
+
+00:08:56.271 --> 00:08:57.280
+Not quite so clear.
+
+00:08:57.280 --> 00:09:02.235
+And then there's this,
+a tree's foliage which
+
+00:09:02.235 --> 00:09:05.975
+doesn't really seem like it's referring
+to anything concrete in the world.
+
+00:09:05.975 --> 00:09:10.075
+So there are various
+complicated cases like that.
+
+00:09:10.075 --> 00:09:14.700
+And in particular, there's another one of
+those more complicated cases at the end,
+
+00:09:14.700 --> 00:09:18.650
+which I'll maybe come back to later,
+this, the nicest tree.
+
+00:09:18.650 --> 00:09:22.450
+Okay, but somehow we work out
+what all our mentions are.
+
+00:09:22.450 --> 00:09:31.542
+And then, the task we want to do is to
+start to then work out which ones corefer.
+
+00:09:31.542 --> 00:09:38.240
+For a start, there's then Vanaja here.
+
+00:09:38.240 --> 00:09:44.609
+Then, what's the next thing
+that refers to Vanaja?
+
+00:09:55.087 --> 00:09:55.850
+Her, yes.
+
+00:09:55.850 --> 00:10:00.910
+So this is her, which I guess I forgot
+to mark when I was marking the pronouns.
+
+00:10:00.910 --> 00:10:04.190
+So embedded in the MP, her son, so again,
+
+00:10:04.190 --> 00:10:08.410
+you can get mentions and
+side mentions, there's that her.
+
+00:10:10.130 --> 00:10:15.956
+Is there anything else that is coreferent?
+
+00:10:15.956 --> 00:10:18.850
+She, okay, so there's that she there.
+
+00:10:18.850 --> 00:10:24.180
+And then the next one is, herself.
+
+00:10:24.180 --> 00:10:28.280
+Right, and so
+here we have these reflexive pronouns.
+
+00:10:28.280 --> 00:10:33.315
+And so reflexive pronouns are kind
+of special because they always
+
+00:10:33.315 --> 00:10:38.128
+corefer very closely back to
+each other as in that example,
+
+00:10:38.128 --> 00:10:41.157
+she resigned herself.
+
+00:10:41.157 --> 00:10:45.090
+Okay, so there's she again.
+
+00:10:45.090 --> 00:10:49.300
+Then she made, she attached.
+
+00:10:50.750 --> 00:10:51.699
+So that goes right through.
+
+00:10:51.699 --> 00:10:54.030
+Ok, so then we have.
+
+00:10:54.030 --> 00:10:59.814
+Now we have Akhila, which is Akhila.
+
+00:10:59.814 --> 00:11:08.800
+Sometimes you just get names
+being repeated as names.
+
+00:11:08.800 --> 00:11:11.663
+Are there other things
+that corefer with Akhila?
+
+00:11:24.124 --> 00:11:25.950
+Maybe not.
+
+00:11:25.950 --> 00:11:29.970
+Note that this is kind of part
+of how it's tricky, right?
+
+00:11:29.970 --> 00:11:36.950
+Because well here at the beginning,
+we have the names of two women.
+
+00:11:36.950 --> 00:11:40.330
+Akhila's name is actually
+repeated in the second sentence.
+
+00:11:40.330 --> 00:11:44.090
+But somehow we have to understand
+enough of the text beyond that
+
+00:11:44.090 --> 00:11:48.340
+to understand that all these
+other references to a she and
+
+00:11:48.340 --> 00:11:53.740
+a her aren't referring to Akhila at all,
+they're all referring to Vanaja.
+
+00:11:53.740 --> 00:12:00.740
+So we have these two entity chains, and
+then we have some more entity chains.
+
+00:12:00.740 --> 00:12:08.630
+So if we go to the next one, the local
+park, that one is just a singleton.
+
+00:12:08.630 --> 00:12:12.920
+Nothing else refers,
+I believe, to the local parks.
+
+00:12:12.920 --> 00:12:15.190
+There's something for
+a lot of background mentions,
+
+00:12:15.190 --> 00:12:18.150
+things have just been mentioned once and
+never repeated.
+
+00:12:19.260 --> 00:12:25.103
+And so then we have Prajwal,
+who sort of appears twice here.
+
+00:12:25.103 --> 00:12:29.765
+Like, there's Akhila's son which is sort
+of a descriptive term and then his name,
+
+00:12:29.765 --> 00:12:33.440
+Prajwal, so that's generally
+referred to as apposition.
+
+00:12:33.440 --> 00:12:35.940
+So we get two mentions of him right there.
+
+00:12:35.940 --> 00:12:39.340
+And then where else is Prajwal appearing?
+
+00:12:39.340 --> 00:12:41.340
+Well, one's his name is right here.
+
+00:12:41.340 --> 00:12:43.941
+Are there other places
+that Prajwal appears?
+
+00:12:46.584 --> 00:12:49.240
+Okay, so here's a complicated one.
+
+00:12:49.240 --> 00:12:52.680
+There is this they which
+refers to two people, right?
+
+00:12:52.680 --> 00:12:55.910
+That refers to Prajwal and Akash.
+
+00:12:55.910 --> 00:13:01.290
+So that's a phenomenon,
+maybe I'll start putting Akash in as well.
+
+00:13:02.790 --> 00:13:08.540
+So we have this phenomenon here of
+when you have split antecedents.
+
+00:13:08.540 --> 00:13:13.880
+So you can have a plural they that's
+referring back to two things that
+
+00:13:13.880 --> 00:13:19.660
+are disassociated with each other, they're
+just discontinuous in different places.
+
+00:13:19.660 --> 00:13:25.103
+When we start looking at co-ref algorithms
+that NLP people use a bit later,
+
+00:13:25.103 --> 00:13:30.205
+one of the embarrassing things that
+you will notice is that the standard
+
+00:13:30.205 --> 00:13:35.075
+algorithms that we use just can't
+handle this kind of split antecedents.
+
+00:13:35.075 --> 00:13:38.851
+That you're looking at a mention and
+you're trying to decide what to make it
+
+00:13:38.851 --> 00:13:42.170
+coreferent to, and
+you just can't get ones like that right.
+
+00:13:42.170 --> 00:13:43.770
+So that's a bit of embarrassing but
+
+00:13:43.770 --> 00:13:47.120
+that's the current state of
+natural language processing.
+
+00:13:47.120 --> 00:13:49.564
+What else is coreferent to Prajwal?
+
+00:13:58.632 --> 00:14:01.170
+Okay, we'll go on.
+
+00:14:01.170 --> 00:14:02.916
+So Akash appears a lot.
+
+00:14:02.916 --> 00:14:09.519
+We have Akash, Akash,
+
+00:14:09.519 --> 00:14:17.468
+him, Akash.
+
+00:14:19.704 --> 00:14:23.870
+Okay so, he goes through all the tree.
+
+00:14:23.870 --> 00:14:28.537
+So what other entities are there
+that occur multiple times here?
+
+00:14:34.669 --> 00:14:36.265
+The tree, okay.
+
+00:14:39.476 --> 00:14:44.704
+If you think about it,
+there's definitely here a tree, but
+
+00:14:44.704 --> 00:14:50.753
+if you think about it which of these
+things count as mentions in the real
+
+00:14:50.753 --> 00:14:57.650
+world, and which one do you want to deem
+this coreferent, is actually tricky.
+
+00:14:57.650 --> 00:15:02.490
+If you just half look at it,
+you just think, okay,
+
+00:15:02.490 --> 00:15:07.485
+anytime I see the word tree in a noun
+phrase, I'm just gonna say all of those
+
+00:15:07.485 --> 00:15:12.554
+coreferent with each other, but
+that doesn't actually seem to be right.
+
+00:15:12.554 --> 00:15:15.592
+Cuz when it was here,
+Akash was to be a tree,
+
+00:15:15.592 --> 00:15:20.853
+that's not talking about any specific
+tree that's referred in the world,
+
+00:15:20.853 --> 00:15:23.750
+that's some intentional description.
+
+00:15:24.900 --> 00:15:30.080
+She resigned herself to make Akash
+the best tree that anybody had ever seen.
+
+00:15:30.080 --> 00:15:33.850
+Again, that doesn't seem to be
+referring to any particular tree that's
+
+00:15:33.850 --> 00:15:38.800
+extant at any time,
+that's some kind of descriptive text.
+
+00:15:38.800 --> 00:15:42.930
+On the other hand, when it's gone down
+to she bought him a brown T-shirt and
+
+00:15:42.930 --> 00:15:46.910
+brown trousers to represent the tree,
+
+00:15:46.910 --> 00:15:50.940
+this is now,
+it's an abstract tree costume obviously.
+
+00:15:50.940 --> 00:15:54.990
+But that actually seems to be a real tree
+that's a thing in the will that you can
+
+00:15:54.990 --> 00:15:56.470
+point at.
+
+00:15:56.470 --> 00:16:02.390
+So, that's a real thing and then, well
+what about when it says a tree's foliage?
+
+00:16:02.390 --> 00:16:05.940
+Is that referring to that
+tree that she's building?
+
+00:16:05.940 --> 00:16:08.290
+Kind of a little bit unclear.
+
+00:16:09.290 --> 00:16:13.600
+But by the time it says,
+she attached red balls to it.
+
+00:16:15.380 --> 00:16:20.179
+That's clearly a reference to
+the tree that she's making and
+
+00:16:20.179 --> 00:16:22.400
+it's a good clear one.
+
+00:16:22.400 --> 00:16:27.781
+But then the last sentence says,
+it truly was the nicest tree.
+
+00:16:27.781 --> 00:16:31.813
+So for that one, the it is clearly again,
+
+00:16:31.813 --> 00:16:36.840
+referring to the tree
+that she's constructed.
+
+00:16:36.840 --> 00:16:38.235
+So that one is clear.
+
+00:16:38.235 --> 00:16:42.270
+The question is what to
+do about the nicest tree.
+
+00:16:42.270 --> 00:16:47.081
+And, to be honest, if like for
+various other NLP tasks for
+
+00:16:47.081 --> 00:16:52.140
+co-reference resolution,
+people have constructed data
+
+00:16:52.140 --> 00:16:57.040
+sets where people have essentially done
+what I'm trying to do live in front of you
+
+00:16:57.040 --> 00:17:01.800
+as to identify mentions and
+then say which one's a co-reference.
+
+00:17:01.800 --> 00:17:07.230
+And so what we have here for something
+like it truly was the nicest tree.
+
+00:17:07.230 --> 00:17:10.320
+The nicest tree is referred
+to as a predicate nominal.
+
+00:17:10.320 --> 00:17:13.244
+So it's something in the form
+of a noun phrase, but
+
+00:17:13.244 --> 00:17:17.500
+it's actually a property that is
+being predicated of the subject.
+
+00:17:17.500 --> 00:17:19.920
+It is the nicest tree.
+
+00:17:19.920 --> 00:17:24.125
+And so
+some of the data sets that people use for
+
+00:17:24.125 --> 00:17:28.678
+co-reference, they declare
+predicate nominals like this
+
+00:17:28.678 --> 00:17:33.500
+to be co-referent to the subject and
+therefore it would be purple.
+
+00:17:33.500 --> 00:17:36.999
+But there's kind of an argument
+that that's actually just wrong and
+
+00:17:36.999 --> 00:17:41.223
+the predicate nominal is actually kind of
+a descriptive property of the nicest tree
+
+00:17:41.223 --> 00:17:43.600
+and it's not actually
+referent to anything.
+
+00:17:43.600 --> 00:17:48.440
+And so then it wouldn't be
+what you're wanting to do.
+
+00:17:50.920 --> 00:17:54.912
+But I'll leave my purple there for
+the moment, okay.
+
+00:17:54.912 --> 00:18:00.032
+Are there any other interesting
+
+00:18:00.032 --> 00:18:04.588
+things I should comment on?
+
+00:18:04.588 --> 00:18:08.863
+There's obviously more things
+that we haven't done yet.
+
+00:18:08.863 --> 00:18:13.100
+I could choose a different color.
+
+00:18:13.100 --> 00:18:14.170
+So there's,
+
+00:18:22.557 --> 00:18:27.474
+Yeah, so I mean, there are obviously lot's
+of other things that are mentioned that
+
+00:18:27.474 --> 00:18:29.149
+aren't in change, right?
+
+00:18:29.149 --> 00:18:33.506
+So something like Akash's face is
+a mention that's a singular mention.
+
+00:18:33.506 --> 00:18:37.759
+There's a circular opening I guess
+that's kind of an interesting one cuz
+
+00:18:37.759 --> 00:18:40.408
+it seems like that is
+an entity in the real world.
+
+00:18:40.408 --> 00:18:44.604
+But it's an entity that's a hole in
+the world as opposed to a thing that's in
+
+00:18:44.604 --> 00:18:45.330
+the world.
+
+00:18:45.330 --> 00:18:50.287
+So there are lots of real world
+complications as to how things pan out in
+
+00:18:50.287 --> 00:18:55.595
+co-reference, but that's sort of
+an idea of that task and the problems.
+
+00:18:55.595 --> 00:18:56.820
+Does that make sense?
+
+00:18:58.250 --> 00:19:06.067
+Okay, I will go on from there by
+sending back my person, awesome.
+
+00:19:06.067 --> 00:19:11.108
+Okay, right, so
+what we've seen from that is basically
+
+00:19:11.108 --> 00:19:15.213
+what we're working with
+is the noun phrases.
+
+00:19:15.213 --> 00:19:20.260
+Most of them refer to
+entities in the world.
+
+00:19:20.260 --> 00:19:24.786
+There are many of them that in pairs
+refer to the same entity of the world and
+
+00:19:24.786 --> 00:19:28.014
+they're the ones we're
+gonna call co-referent.
+
+00:19:28.014 --> 00:19:32.245
+And then the other interesting
+thing that's different
+
+00:19:32.245 --> 00:19:36.386
+to what we tried to do with
+named identity recognition is
+
+00:19:36.386 --> 00:19:41.080
+that there are lots of cases in
+which you get nesting, right?
+
+00:19:41.080 --> 00:19:46.230
+So when you have CFO of Prime Corp,
+that Prime Corp is a mention,
+
+00:19:46.230 --> 00:19:50.380
+but CFO of Prime Corp is also a mention.
+
+00:19:50.380 --> 00:19:55.000
+His pay is a mention, but
+the his inside is also a mention.
+
+00:19:55.000 --> 00:19:55.940
+And we've got another one there.
+
+00:19:55.940 --> 00:19:58.510
+So you got lots of these nested examples.
+
+00:19:58.510 --> 00:20:03.083
+I mean, in truth you'd get
+the same thing happening also in
+
+00:20:03.083 --> 00:20:05.980
+named identity recognition.
+
+00:20:05.980 --> 00:20:08.869
+And some people, including a former
+student of mine, Jennie Finkle,
+
+00:20:08.869 --> 00:20:09.939
+actually looked at that.
+
+00:20:09.939 --> 00:20:15.032
+Because there are a whole bunch of cases
+that also in sort of names of things,
+
+00:20:15.032 --> 00:20:18.853
+when you have something like
+Palo Alto Utility Company,
+
+00:20:18.853 --> 00:20:23.520
+that you have the organization,
+which is Palo Alto Utility Company.
+
+00:20:23.520 --> 00:20:26.742
+And inside that you have a location,
+that's Palo Alto.
+
+00:20:26.742 --> 00:20:30.243
+Though in general, in NER,
+people just do it flat, and
+
+00:20:30.243 --> 00:20:33.200
+you kind of lose those embedded locations.
+
+00:20:33.200 --> 00:20:37.580
+But if you're wanting to follow along
+co-reference links like John Smith, and
+
+00:20:37.580 --> 00:20:41.960
+his pay, that you're sort of really
+losing a lot in your ability to
+
+00:20:41.960 --> 00:20:46.110
+interpret texts if you aren't dealing
+with those embedded mentions.
+
+00:20:46.110 --> 00:20:47.250
+And so normally, people do.
+
+00:20:48.920 --> 00:20:52.580
+So co-reference resolution
+is a really key task.
+
+00:20:52.580 --> 00:20:55.898
+It's used in all sorts of places.
+
+00:20:55.898 --> 00:21:00.130
+Essentially, anywhere where you want to
+do a fuller job of text understanding,
+
+00:21:00.130 --> 00:21:02.560
+you need to have co-reference.
+
+00:21:02.560 --> 00:21:06.520
+So if you want to sort of understand
+a story, like the story of the star,
+
+00:21:06.520 --> 00:21:09.520
+where you definitely need to be able
+to follow along the co-reference.
+
+00:21:09.520 --> 00:21:11.180
+It helps in lots of other tasks.
+
+00:21:11.180 --> 00:21:16.626
+So if you wanna do machine translation,
+if you're doing machine translation from
+
+00:21:16.626 --> 00:21:22.170
+one of the many languages like Turkish
+that don't distinguish gender in pronouns.
+
+00:21:22.170 --> 00:21:26.690
+And you want to then translate into say,
+English and it does have gender.
+
+00:21:27.760 --> 00:21:32.390
+Then what you need to do is follow along
+the co-reference chains to be work
+
+00:21:32.390 --> 00:21:35.910
+out which ones should be he and
+which ones should be she.
+
+00:21:35.910 --> 00:21:40.369
+It's been observed and
+complained about by a number of people
+
+00:21:40.369 --> 00:21:44.300
+recently that current MT
+systems don't do that.
+
+00:21:44.300 --> 00:21:48.589
+If you take Turkish and you translate into
+English, everything comes out male, sorry.
+
+00:21:48.589 --> 00:21:51.210
+That's a state of NLP on that.
+
+00:21:52.380 --> 00:21:57.370
+So text summarization,
+including things like web snippets right,
+
+00:21:57.370 --> 00:22:01.580
+if you're trying to cut out sort of
+a little snippet to put on web results.
+
+00:22:01.580 --> 00:22:04.742
+And it contains a pronoun in it, it would
+be much cleverer if you could replace
+
+00:22:04.742 --> 00:22:06.605
+it with its reference so
+its interpretable.
+
+00:22:06.605 --> 00:22:11.550
+And then also tasks like information
+extraction, relation extraction,
+
+00:22:11.550 --> 00:22:14.020
+question answering.
+
+00:22:14.020 --> 00:22:19.560
+This doesn't apply to the squad
+task the way it's formulated,
+
+00:22:19.560 --> 00:22:25.010
+but a lot of the time we have questions
+like, who married Claudia Ross in 1971?
+
+00:22:25.010 --> 00:22:29.204
+And you start searching the text for
+the answer to that question.
+
+00:22:29.204 --> 00:22:31.866
+And you say, yeah,
+I found the right place to look.
+
+00:22:31.866 --> 00:22:32.990
+Here's the sentence.
+
+00:22:32.990 --> 00:22:35.533
+He married Claudia Ross in 1971.
+
+00:22:35.533 --> 00:22:39.222
+And you're sure you've got the answer
+if only you could work out what he
+
+00:22:39.222 --> 00:22:43.050
+was co-referent to and that's why
+you need co-reference resolution.
+
+00:22:44.900 --> 00:22:48.410
+So when we've made all of these
+attempts to link things together,
+
+00:22:48.410 --> 00:22:53.295
+I'll just explain now how we go about
+evaluating co-reference resolution.
+
+00:22:53.295 --> 00:22:58.883
+So effectively co-referenced scoring
+it's kind of like clustering.
+
+00:22:58.883 --> 00:23:03.200
+And basically any metric that people
+have used for cluster evaluation,
+
+00:23:03.200 --> 00:23:07.200
+people have also tried to use
+the co-reference resolution.
+
+00:23:07.200 --> 00:23:11.890
+And so the one that we're gonna emphasis
+in today's lecture is one called B cubed,
+
+00:23:11.890 --> 00:23:15.900
+which is one of the widely used
+clustering evaluation metrics.
+
+00:23:15.900 --> 00:23:19.653
+So what you have here I mean, I've
+sort of just duplicated on both sides.
+
+00:23:19.653 --> 00:23:22.937
+So I can show you precision, recall, is so
+
+00:23:22.937 --> 00:23:28.850
+the colors of my little balls
+are the gold answers of what's correct.
+
+00:23:28.850 --> 00:23:33.100
+And then the circles that I've drawn
+around it is how my system has
+
+00:23:33.100 --> 00:23:36.540
+decided to gather things that
+it thinks its co-reference.
+
+00:23:36.540 --> 00:23:42.570
+And so what you do for
+the B cubed metric is you sort of
+
+00:23:42.570 --> 00:23:48.050
+align system clusters and
+the gold clusters.
+
+00:23:48.050 --> 00:23:52.590
+So I've chosen to align this system
+cluster with the blue color here,
+
+00:23:52.590 --> 00:23:55.630
+which I've shown by that
+black around the circle.
+
+00:23:55.630 --> 00:24:01.570
+And then I say, okay, well of the things
+that I put in my system cluster,
+
+00:24:01.570 --> 00:24:04.190
+what is the precision
+of what I put in there?
+
+00:24:04.190 --> 00:24:08.999
+And well, it turns out that four out
+of the five of them are blue and
+
+00:24:08.999 --> 00:24:10.492
+one of them is pink.
+
+00:24:10.492 --> 00:24:15.130
+And so I say my precision is 4 5ths For
+this cluster.
+
+00:24:15.130 --> 00:24:19.247
+Then I do it the other way around,
+and I work out a recall.
+
+00:24:19.247 --> 00:24:25.673
+So I say, well, I aligned the blue
+things with this system cluster.
+
+00:24:25.673 --> 00:24:27.228
+And, well, actually,
+
+00:24:27.228 --> 00:24:31.383
+this system cluster only contains
+four out of the six blue things.
+
+00:24:31.383 --> 00:24:36.925
+So my recall for that alignment is
+then four-sixths or two-thirds.
+
+00:24:36.925 --> 00:24:40.089
+And I'm gonna put those
+together in an F measure and
+
+00:24:40.089 --> 00:24:44.220
+that's then going to give
+me the B cubed measure.
+
+00:24:44.220 --> 00:24:46.830
+And so that's sort of the main idea.
+
+00:24:46.830 --> 00:24:49.023
+It's just a little bit
+more complex than that.
+
+00:24:49.023 --> 00:24:52.986
+I mean, first of all, obviously I want
+to do it not only with that cluster.
+
+00:24:52.986 --> 00:24:55.920
+I also want to align this
+cluster with the oranges and
+
+00:24:55.920 --> 00:24:59.995
+say they're precision recall one,
+cuz they're completely correct.
+
+00:24:59.995 --> 00:25:05.226
+And this cluster and the pinks,
+
+00:25:05.226 --> 00:25:10.457
+and then I wanna say precision,
+
+00:25:10.457 --> 00:25:16.869
+four sixths and recall, four fifths.
+
+00:25:16.869 --> 00:25:18.271
+So there are a couple of other tricks.
+
+00:25:18.271 --> 00:25:22.783
+One is that you're weighting
+the different precisions and
+
+00:25:22.783 --> 00:25:26.170
+recalls based on the size of the clusters.
+
+00:25:26.170 --> 00:25:31.040
+So, it matters more to get high
+precision on really big clusters.
+
+00:25:31.040 --> 00:25:36.260
+The other bit that I sort of slightly
+glossed over is I said, well, you align
+
+00:25:36.260 --> 00:25:41.390
+these system found clusters
+with a gold cluster.
+
+00:25:42.510 --> 00:25:46.410
+And as you might know
+from some other class,
+
+00:25:47.450 --> 00:25:51.930
+in the general case if you're
+doing a bipartite alignment, or
+
+00:25:51.930 --> 00:25:56.320
+things of that sort,
+that's actually an NP-hard problem.
+
+00:25:56.320 --> 00:26:01.390
+So it's sort of almost impossible
+to guarantee that you've found
+
+00:26:01.390 --> 00:26:03.700
+the optimal B-CUBED score.
+
+00:26:03.700 --> 00:26:06.270
+So normally, what you're
+actually finding in your system
+
+00:26:06.270 --> 00:26:10.920
+is sort of a lower bound on
+a possible B-CUBED score.
+
+00:26:10.920 --> 00:26:15.950
+But in practice, provided your system is
+reasonably good, it's fairly easy and
+
+00:26:15.950 --> 00:26:20.360
+a greedy manner to start aligning
+together system clusters and
+
+00:26:20.360 --> 00:26:23.820
+gold clusters,
+starting with the ones that you did best.
+
+00:26:23.820 --> 00:26:28.595
+And in practice, there's greedy
+matching software that's used for
+
+00:26:28.595 --> 00:26:32.650
+B-CUBED, which seems to nearly always
+work and give you the right answer.
+
+00:26:32.650 --> 00:26:35.590
+And so that hasn't been
+a huge problem in practice.
+
+00:26:35.590 --> 00:26:39.720
+That's only one measure that's
+been used for coreference.
+
+00:26:39.720 --> 00:26:43.320
+There are a whole bunch of
+other ones that have been used.
+
+00:26:43.320 --> 00:26:46.070
+Most of which relate to
+clustering algorithms,
+
+00:26:46.070 --> 00:26:48.350
+evaluations that people
+have used elsewhere.
+
+00:26:49.390 --> 00:26:54.480
+Okay, so before getting to the halfway
+point, I then want to say just a little
+
+00:26:54.480 --> 00:27:01.700
+bit more about what goes on in coreference
+from sort of a linguistic point of view.
+
+00:27:01.700 --> 00:27:03.680
+And this is actually
+a little bit interesting and
+
+00:27:03.680 --> 00:27:06.700
+hasn't actually been much
+dealt with by NLP systems.
+
+00:27:06.700 --> 00:27:09.080
+So what kinds of things do we have?
+
+00:27:09.080 --> 00:27:13.397
+So we have referring expressions,
+so things that directly refer,
+
+00:27:13.397 --> 00:27:18.200
+like John Smith, as named entities or
+the President as common nouns.
+
+00:27:18.200 --> 00:27:21.724
+We then have things that aren't
+directly referring, but or
+
+00:27:21.724 --> 00:27:25.124
+sort of variables that
+are contingent on something else.
+
+00:27:25.124 --> 00:27:27.465
+And there ones that are free variables.
+
+00:27:27.465 --> 00:27:30.262
+So his pay,
+that's sort of a free variable, but
+
+00:27:30.262 --> 00:27:34.170
+it's reference is dependent
+on the reference of Smith.
+
+00:27:34.170 --> 00:27:35.770
+And then we have these reflexives,
+
+00:27:35.770 --> 00:27:42.260
+the bound variables which are sort of
+closely connected with something nearby.
+
+00:27:42.260 --> 00:27:47.995
+And so in linguistic theory most of
+the work is dealt with these variables and
+
+00:27:47.995 --> 00:27:52.760
+trying to interpret what they
+are going to be coreferent with.
+
+00:27:52.760 --> 00:27:57.295
+Whereas, in doing practical
+coreference of a real text,
+
+00:27:57.295 --> 00:27:59.986
+there's quite a lot of pronouns.
+
+00:27:59.986 --> 00:28:04.074
+But a lot of the actions was actually
+dealing with these proper noun and
+
+00:28:04.074 --> 00:28:06.560
+common noun referring expressions.
+
+00:28:06.560 --> 00:28:10.390
+And it turns out in practice,
+getting these guys right is actually
+
+00:28:10.390 --> 00:28:14.170
+harder than getting these guys right,
+which is sort of interesting.
+
+00:28:15.910 --> 00:28:17.260
+So things to notice.
+
+00:28:17.260 --> 00:28:20.020
+Not all noun phrases are referring.
+
+00:28:20.020 --> 00:28:25.441
+So, if we have every dancer twisted her
+knee, her knee does not refer to anything
+
+00:28:25.441 --> 00:28:30.243
+because it's sort of embedded under
+this quantifier of every dancer.
+
+00:28:30.243 --> 00:28:33.736
+That's perhaps more clearly seen
+if you look at the second example.
+
+00:28:33.736 --> 00:28:35.950
+No dancer twisted her knee.
+
+00:28:35.950 --> 00:28:38.400
+There's no her knee being talked about,
+right?
+
+00:28:38.400 --> 00:28:42.140
+So that's a clearly
+non-referring noun phrase.
+
+00:28:43.590 --> 00:28:44.590
+Okay, and similarly,
+
+00:28:44.590 --> 00:28:49.170
+no dancer isn't a noun phrase
+that refers to any dancer either.
+
+00:28:51.980 --> 00:28:58.980
+So in linguistics,
+people normally distinguish two relations.
+
+00:28:58.980 --> 00:29:01.560
+So one of them is coreference,
+
+00:29:01.560 --> 00:29:06.370
+which is when two mentions refer
+to the same entity in the world.
+
+00:29:06.370 --> 00:29:09.550
+And that has nothing to do
+with the structure of text.
+
+00:29:09.550 --> 00:29:12.920
+And the other one is
+a relation of anaphora,
+
+00:29:12.920 --> 00:29:17.640
+which is a textual relation when a term,
+the anaphor,
+
+00:29:17.640 --> 00:29:23.230
+refer gains reference with respect
+to another term, the antecedent.
+
+00:29:23.230 --> 00:29:25.510
+So you're using it for its interpretation.
+
+00:29:26.600 --> 00:29:29.369
+So if you go back to Greek roots,
+
+00:29:29.369 --> 00:29:34.601
+an anaphor meant that you had
+this word whose interpretation
+
+00:29:34.601 --> 00:29:39.539
+was dependent on something
+that preceded it in the text.
+
+00:29:39.539 --> 00:29:43.959
+And so anaphora was distinguished
+from the opposite relationship,
+
+00:29:43.959 --> 00:29:47.082
+which was called Cataphora,
+where you actually
+
+00:29:47.082 --> 00:29:51.828
+had a dependent term that was dependent
+on something after it in the text.
+
+00:29:51.828 --> 00:29:56.270
+So here's a lovely example of
+Cataphora from Oscar Wilde.
+
+00:29:56.270 --> 00:30:00.750
+From the corner of the divan of Persian
+saddle-bags on which he was lying,
+
+00:30:00.750 --> 00:30:05.240
+smoking, as was his custom,
+innumerable cigarettes.
+
+00:30:05.240 --> 00:30:08.849
+Lord Henry Wotton cold just catch
+the gleam of the honey-sweet and
+
+00:30:08.849 --> 00:30:11.040
+honey-colored blossoms of a laburnum.
+
+00:30:12.380 --> 00:30:14.455
+This is a Laburnum,
+in case you were wondering.
+
+00:30:14.455 --> 00:30:18.662
+&gt;&gt; [LAUGH]
+&gt;&gt; So this is a beautiful example of
+
+00:30:18.662 --> 00:30:24.921
+cataphora, because the referential
+noun phrase is Lord Henry Wotton.
+
+00:30:24.921 --> 00:30:31.703
+And then both he and his then cataphors
+on the following Lord Henry Wotton.
+
+00:30:31.703 --> 00:30:38.220
+Again, it turns out in nearly all of our
+NLP systems, we never try and do this.
+
+00:30:38.220 --> 00:30:43.460
+So we're always coming across mentions and
+
+00:30:43.460 --> 00:30:47.165
+then we're trying to assign
+them to something before them.
+
+00:30:47.165 --> 00:30:50.893
+So we always treat them as
+backward looking anaphora.
+
+00:30:50.893 --> 00:30:55.706
+So we'd be actually hoping to say this
+he doesn't refer to anything before it.
+
+00:30:55.706 --> 00:31:02.765
+And then we'd be, later on, saying Lord
+Henry Wotton is coreferent with the he.
+
+00:31:02.765 --> 00:31:06.826
+But that's actually sort of linguistically
+bad and doesn't make terribly much sense.
+
+00:31:09.861 --> 00:31:15.222
+So a lot of the time, things that
+are anaphoric are coreferencial
+
+00:31:15.222 --> 00:31:19.622
+because the textural
+dependence is one of identity.
+
+00:31:19.622 --> 00:31:24.940
+So an anaphor is coreferencial
+with its antecedent.
+
+00:31:24.940 --> 00:31:26.710
+But that's not always true, either.
+
+00:31:26.710 --> 00:31:31.381
+So you have things, anaphoric relations
+that aren't identity relationships and
+
+00:31:31.381 --> 00:31:33.393
+then they're not coreferential.
+
+00:31:33.393 --> 00:31:35.940
+And so here's an example of this.
+
+00:31:35.940 --> 00:31:38.160
+We went to see a concert last night.
+
+00:31:38.160 --> 00:31:40.154
+The tickets were really expensive.
+
+00:31:40.154 --> 00:31:47.004
+So the tickets here is an anaphor that's
+dependent on reference to this antecedent.
+
+00:31:47.004 --> 00:31:52.530
+Because it's meaning that the tickets for
+the concert were really expensive.
+
+00:31:52.530 --> 00:31:54.860
+But it's not an identity relationship, so
+
+00:31:54.860 --> 00:31:57.720
+those are referred to
+as bridging anaphors.
+
+00:31:57.720 --> 00:32:02.093
+And there's been a little NLP work on
+trying to interpret bridging anaphors,
+
+00:32:02.093 --> 00:32:03.427
+but extremely little.
+
+00:32:03.427 --> 00:32:09.983
+For most of the coreference systems,
+a concert is a mention of an entity.
+
+00:32:09.983 --> 00:32:11.810
+The tickets are a mention of an entity.
+
+00:32:11.810 --> 00:32:14.790
+And you just don't learn
+the relationship between them.
+
+00:32:15.790 --> 00:32:18.264
+Okay, so there are really
+kind of two different things.
+
+00:32:18.264 --> 00:32:22.508
+So you can have anaphoric
+relationships in the text which may or
+
+00:32:22.508 --> 00:32:26.673
+may not imply (co)reference,
+90% of the time they do but
+
+00:32:26.673 --> 00:32:31.639
+not always, and then you have
+(co)referential relationships with two
+
+00:32:31.639 --> 00:32:35.950
+things in the text referred to
+the same thing in the world.
+
+00:32:35.950 --> 00:32:39.470
+But that may just be because they
+refer to the same thing in the world.
+
+00:32:39.470 --> 00:32:44.640
+There isn't necessarily any textual
+dependence relationship between them, and
+
+00:32:44.640 --> 00:32:49.010
+so something that you might like to think
+about is maybe those two phenomenas should
+
+00:32:49.010 --> 00:32:55.600
+actually be handled somewhat differently
+in our models, and the truth is for
+
+00:32:55.600 --> 00:32:59.590
+most of the models we build at the moment
+they're really not handled differently.
+
+00:32:59.590 --> 00:33:03.580
+You could hope if you crossed your
+fingers really hard, that somehow the way
+
+00:33:03.580 --> 00:33:08.230
+our neural network model works
+will end up treating the pronouns,
+
+00:33:08.230 --> 00:33:13.770
+which are normally anaphors, sort of
+differently to the way it's treating You
+
+00:33:13.770 --> 00:33:18.880
+know the various mentions of a cache which
+were just (co)reference relationships but
+
+00:33:18.880 --> 00:33:21.620
+you know sort of a crush your
+fingers really hard there's nothing
+
+00:33:21.620 --> 00:33:26.610
+really that model structure that's sort of
+really distinguishing these two notions.
+
+00:33:26.610 --> 00:33:31.399
+Okay, so on the second half of getting to
+say how we build (co)reference systems but
+
+00:33:31.399 --> 00:33:34.525
+before we do that we're onto
+the research highlight and
+
+00:33:34.525 --> 00:33:36.471
+James is going to talk about that.
+
+00:33:41.578 --> 00:33:43.230
+So, hello everyone.
+
+00:33:43.230 --> 00:33:46.010
+Today's research highlight will be
+summarizing source code using a neural
+
+00:33:46.010 --> 00:33:47.040
+attention model.
+
+00:33:47.040 --> 00:33:51.860
+This paper was published in ACL 2016,
+and its by authors from
+
+00:33:51.860 --> 00:33:56.360
+University of Washington, Computer Science
+and Engineering Department.
+
+00:33:56.360 --> 00:34:00.998
+So the main task in a dataset that
+they define is to generate sentences
+
+00:34:00.998 --> 00:34:05.180
+that describe C# and SQL queries, and
+they use a dataset from StackOverflow.
+
+00:34:06.660 --> 00:34:09.240
+Essentially, what they do is they
+just query the whole dataset for
+
+00:34:09.240 --> 00:34:15.090
+all the posts that have tags that have C#,
+SQL or Database, or Oracle in them.
+
+00:34:15.090 --> 00:34:17.970
+Well, as you would expect,
+just doing this naively doesn't work
+
+00:34:17.970 --> 00:34:20.920
+very well because there's lots and
+lots of noise in the dataset.
+
+00:34:20.920 --> 00:34:24.351
+So one of the cleaning sets that they do
+beforehand is to remove all the posts
+
+00:34:24.351 --> 00:34:25.385
+where the question and
+
+00:34:25.385 --> 00:34:29.360
+the text doesn't actually have any
+relevance with the content of the code.
+
+00:34:29.360 --> 00:34:33.030
+For example like people often ask
+questions about codes such as like how can
+
+00:34:33.030 --> 00:34:34.670
+I make these code run faster and
+
+00:34:34.670 --> 00:34:37.120
+in that sense that won't be
+a very good summary at all.
+
+00:34:37.120 --> 00:34:40.560
+A second thing that they do in order to,
+a more technical thing that they do is
+
+00:34:40.560 --> 00:34:45.110
+they actually try to parse the code
+in the sense that like a lot of
+
+00:34:45.110 --> 00:34:49.160
+code contains like literals, they have
+specific variable names Things like this,
+
+00:34:49.160 --> 00:34:53.230
+which are not very general, like general
+systems, to try to summarize code, and
+
+00:34:53.230 --> 00:34:56.460
+what they do in this case is they actually
+replace literals with their types.
+
+00:34:56.460 --> 00:34:59.540
+They also replace the table and
+column names with something more generic,
+
+00:34:59.540 --> 00:35:03.310
+and then they also remove in-line
+comments in order to make the system
+
+00:35:03.310 --> 00:35:05.110
+less reliant on those things.
+
+00:35:05.110 --> 00:35:10.560
+And two examples of the code are shown
+on the side, where one is C# code for
+
+00:35:10.560 --> 00:35:15.730
+getting the whiff of a text block in
+some view, I think, and the second
+
+00:35:15.730 --> 00:35:19.670
+is source code for SQL where you're
+trying to get the second largest element.
+
+00:35:21.040 --> 00:35:21.840
+Okay.
+
+00:35:21.840 --> 00:35:25.715
+And specifically, like they define two
+tasks that they're actually going to try
+
+00:35:25.715 --> 00:35:30.030
+to attempt, and these are to generate
+text, specifically a sentence
+
+00:35:30.030 --> 00:35:34.000
+to describe some code sequence
+that maximizes a scoring function.
+
+00:35:34.000 --> 00:35:37.780
+A second task is the information
+retrieval task, which is to go through,
+
+00:35:37.780 --> 00:35:43.820
+essentially their corpus, and
+find the code snippet that most
+
+00:35:43.820 --> 00:35:47.870
+closely relates to the input question,
+which would in a natural language.
+
+00:35:47.870 --> 00:35:49.790
+The scoring function is shown to the side.
+
+00:35:49.790 --> 00:35:54.240
+It's essentially the product of
+the next word probabilities, and
+
+00:35:54.240 --> 00:35:58.570
+these are proportional to what
+the output that we get from their model,
+
+00:35:58.570 --> 00:36:01.580
+which takes into account
+the hidden states of the LSTM and
+
+00:36:01.580 --> 00:36:03.230
+also some attention on the source code.
+
+00:36:04.670 --> 00:36:07.480
+Specifically, here's an example of how
+
+00:36:07.480 --> 00:36:11.150
+they generate their text using their
+model which they call CODE-NN.
+
+00:36:11.150 --> 00:36:16.010
+You feed in some starting token and
+then you make some form of prediction
+
+00:36:16.010 --> 00:36:20.790
+based on the attention and based on
+the LSTM to get on the next word, N1,
+
+00:36:20.790 --> 00:36:23.400
+and then you keep doing
+this iteratively again and
+
+00:36:23.400 --> 00:36:26.340
+again, and this is how they
+generate their full sequence.
+
+00:36:27.570 --> 00:36:32.920
+So to evaluate their system, they did,
+first on the text generation side they
+
+00:36:32.920 --> 00:36:37.170
+compared against, well they used existing
+MT metrics such as METEOR and BLEU, and
+
+00:36:37.170 --> 00:36:42.010
+they took some existing translation
+system and information retrieval baseline
+
+00:36:42.010 --> 00:36:47.050
+system called Moses which is a phrase
+based translations system and
+
+00:36:47.050 --> 00:36:50.586
+then on a previous model
+that also know that and
+
+00:36:50.586 --> 00:36:55.983
+they found that their models get higher
+scores on essentially METEOR and
+
+00:36:55.983 --> 00:36:58.780
+BLEU and then they also did
+something that's a user study,
+
+00:36:58.780 --> 00:37:01.370
+where they got five people, and
+they had them rank the result.
+
+00:37:01.370 --> 00:37:05.430
+Like manually score the results,
+in terms of naturalness, which is how well
+
+00:37:05.430 --> 00:37:09.660
+does the sentence actually read,
+in terms of fluency and informativeness.
+
+00:37:09.660 --> 00:37:12.910
+In terms of how much of the content
+of the code was actually captured
+
+00:37:12.910 --> 00:37:14.860
+by the summary, and
+
+00:37:14.860 --> 00:37:19.890
+they found that their model unsurprisingly
+does better than existing approaches.
+
+00:37:19.890 --> 00:37:23.360
+And then their information retrieval
+task they use a metric called
+
+00:37:23.360 --> 00:37:28.970
+Mean Reciprocal Rank, and they compared
+against some existing previous papers and
+
+00:37:28.970 --> 00:37:30.100
+existing baseline out there.
+
+00:37:32.800 --> 00:37:36.720
+So what's more interesting is the actual
+example outputs that the model generates.
+
+00:37:36.720 --> 00:37:42.170
+Here's an example of a C# code which is to
+
+00:37:42.170 --> 00:37:46.783
+add children to some tree node, and
+
+00:37:46.783 --> 00:37:51.840
+in particular, this is C#, so
+treenode is actually part of a TreeView,
+
+00:37:51.840 --> 00:37:54.280
+and in this case,
+CODE-NN actually gets pretty close,
+
+00:37:54.280 --> 00:37:58.411
+where they recognize that these tree
+nodes are related to tree views but
+
+00:37:58.411 --> 00:38:01.570
+it doesn't quite get the idea that you're
+trying to add instead of get them all.
+
+00:38:02.790 --> 00:38:07.126
+On the second example where the CODE-NN
+actually got the right result is this
+
+00:38:07.126 --> 00:38:10.661
+query where we're trying to select
+random rows from a table and
+
+00:38:10.661 --> 00:38:13.015
+CODE-NN actually get's it exactly.
+
+00:38:13.015 --> 00:38:16.584
+Cool, and that's all.
+
+00:38:16.584 --> 00:38:24.780
+&gt;&gt; [APPLAUSE]
+&gt;&gt; Okay,
+
+00:38:24.780 --> 00:38:30.260
+so now for the remaining 40 minutes,
+it's now algorithms to try and
+
+00:38:30.260 --> 00:38:33.990
+do (co)reference resolution,
+and so I guess for
+
+00:38:33.990 --> 00:38:38.820
+about the first 15 minutes, I'm gonna
+sort of say something about sort of
+
+00:38:38.820 --> 00:38:43.380
+the history of ways of doing
+(co)reference resolution,
+
+00:38:43.380 --> 00:38:48.060
+anaphora resolution in general, and just
+the sort of space and traditional methods.
+
+00:38:48.060 --> 00:38:52.570
+And then sort of for the last 25 minutes
+I'm gonna talk about one particular
+
+00:38:52.570 --> 00:38:57.860
+way of doing it which is actually
+from a paper that Kevin Clark did.
+
+00:38:57.860 --> 00:39:03.100
+The most famous thing in the space
+of (co)reference resolution,
+
+00:39:03.100 --> 00:39:05.810
+actually just an algorithm for
+
+00:39:05.810 --> 00:39:10.430
+determining the pronominal
+anaphora resolution, working out.
+
+00:39:10.430 --> 00:39:15.730
+What, you know, he, him,
+she, hers, its, refer to
+
+00:39:15.730 --> 00:39:21.550
+is an algorithm that was proposed
+by a long time ago by Jerry Hobbs,
+
+00:39:21.550 --> 00:39:26.540
+which these days is normally
+referred to as the Hobbs' Algorithm.
+
+00:39:26.540 --> 00:39:32.590
+But actually in Jerry Hobbs' paper he
+refers to as the naive algorithm for
+
+00:39:32.590 --> 00:39:35.010
+a reason that I will explain in a minute.
+
+00:39:35.010 --> 00:39:39.940
+And so this algorithm,
+I'm not gonna read through it,
+
+00:39:39.940 --> 00:39:46.060
+it's a complex mechanistic procedure for
+deciding what a pronoun refers to.
+
+00:39:46.060 --> 00:39:50.390
+So you begin at the noun phrase, so it's
+assuming a syntactic pass of the sentence,
+
+00:39:50.390 --> 00:39:53.710
+begin at the noun phrase
+immediately above the pronoun.
+
+00:39:53.710 --> 00:39:55.860
+Go up the tree to the first NP or S.
+
+00:39:55.860 --> 00:39:57.470
+Call this X, and the path p.
+
+00:39:57.470 --> 00:40:01.290
+Traverse all branches below X,
+to the left, blah, blah, blah, and
+
+00:40:01.290 --> 00:40:02.320
+this is in all of it.
+
+00:40:02.320 --> 00:40:07.212
+It keeps on going on the next page,
+and it's got go-tos, go to step 4.
+
+00:40:10.920 --> 00:40:14.208
+So, the sort of
+embarrassing thing is that,
+
+00:40:14.208 --> 00:40:18.632
+not in the system I'm gonna
+present at the end part of class.
+
+00:40:18.632 --> 00:40:23.786
+But if you look at the sort of
+machine learning approaches to
+
+00:40:23.786 --> 00:40:29.147
+co-reference resolution that
+were done in the 2000s and
+
+00:40:29.147 --> 00:40:37.120
+the first half of the 2010s, nearly all
+of them used this algorithm as a feature.
+
+00:40:37.120 --> 00:40:40.110
+So if you had a regular
+statistical classifier,
+
+00:40:40.110 --> 00:40:43.090
+you can take any kind of
+little sub routine and
+
+00:40:43.090 --> 00:40:48.290
+sort of put its judgment in as a feature,
+into your logistic regression.
+
+00:40:48.290 --> 00:40:53.132
+And it turned out that what this
+calculated was sort of a useful enough
+
+00:40:53.132 --> 00:40:57.935
+approximation to getting out most
+likely anaphoric relationships out of
+
+00:40:57.935 --> 00:40:58.911
+syntactic trees.
+
+00:40:58.911 --> 00:41:01.991
+That most machine learning
+systems use this and
+
+00:41:01.991 --> 00:41:04.225
+got value out of that as a feature.
+
+00:41:04.225 --> 00:41:07.500
+So here's the kind of idea
+of how it was meant to work.
+
+00:41:07.500 --> 00:41:14.550
+So "Niall Ferguson is a prolific
+well-paid and a snappy dresser.
+
+00:41:14.550 --> 00:41:20.080
+Stephen Moss hated him." Okay,
+so here's a him and
+
+00:41:20.080 --> 00:41:23.860
+you're wanting to work out
+what that's co-referent to.
+
+00:41:23.860 --> 00:41:27.520
+And so you start at this noun phrase here.
+
+00:41:27.520 --> 00:41:30.930
+And so what it said was that you
+started from this noun phrase and
+
+00:41:30.930 --> 00:41:36.400
+you went up to the next S or
+NP and you called that X, and
+
+00:41:36.400 --> 00:41:38.630
+the path that you'd gone up p.
+
+00:41:39.820 --> 00:41:43.060
+And then it says, traverse
+
+00:41:44.480 --> 00:41:48.940
+branches below X to the left of p,
+
+00:41:48.940 --> 00:41:55.700
+propose as antecedent any NP that
+has an NP or S between it and X.
+
+00:41:55.700 --> 00:42:01.980
+So I traverse things to the left and
+I can find here a noun phrase.
+
+00:42:01.980 --> 00:42:05.700
+But that doesn't have anything
+else in between that and so,
+
+00:42:05.700 --> 00:42:08.220
+therefore, it's not a candidate.
+
+00:42:08.220 --> 00:42:11.260
+And so, at that point,
+
+00:42:11.260 --> 00:42:15.705
+I'm going to be at the highest S in
+the sentence and I'm gonna traverse
+
+00:42:15.705 --> 00:42:20.675
+the parse trees of the previous
+sentences in the order of recency.
+
+00:42:20.675 --> 00:42:25.245
+And I traverse each tree left-to-right,
+breadth first.
+
+00:42:25.245 --> 00:42:31.302
+So there's a lot of stuff embedded in
+this very complex mechanistic procedure.
+
+00:42:31.302 --> 00:42:37.212
+But most of it is sort of correct, and
+gets first order linguistics right.
+
+00:42:37.212 --> 00:42:39.002
+And so what's going on here?
+
+00:42:39.002 --> 00:42:40.192
+So what's going on here?
+
+00:42:41.530 --> 00:42:44.900
+So when we see him,
+the first thing to suspect
+
+00:42:44.900 --> 00:42:49.010
+is maybe it refers to something to
+the left in this same sentence.
+
+00:42:49.010 --> 00:42:53.370
+But that's where the kind of linguistic
+constraints on pronouns come in, right?
+
+00:42:53.370 --> 00:42:59.050
+So that if Stephen Moss referred to him,
+he couldn't of said him,
+
+00:42:59.050 --> 00:43:06.050
+he would of needed to say himself, right,
+you have to use a reflexive there.
+
+00:43:06.050 --> 00:43:10.570
+So that's why it says,
+unless there's some intervening NP or
+
+00:43:10.570 --> 00:43:15.020
+S in between,
+it's not a candidate anymore.
+
+00:43:15.020 --> 00:43:15.840
+But precisely,
+
+00:43:15.840 --> 00:43:20.320
+if there was a more complex sentence
+structure, it would be a candidate.
+
+00:43:20.320 --> 00:43:24.140
+So if you had something like a more
+complex noun phrase in which
+
+00:43:24.140 --> 00:43:28.660
+Stephen Moss was a modifier,
+then co-reference would become possible.
+
+00:43:28.660 --> 00:43:32.490
+So if it was something like,
+Stephen Moss' brother hated him,
+
+00:43:32.490 --> 00:43:35.830
+then it'd be possible for
+him to refer to Stephen Moss, right?
+
+00:43:35.830 --> 00:43:40.850
+And so that will be captured
+because then there would an extra
+
+00:43:40.850 --> 00:43:45.070
+NP node in between here
+then it would be okay.
+
+00:43:45.070 --> 00:43:48.030
+So that didn't work and so
+we went backwards and so
+
+00:43:48.030 --> 00:43:51.180
+then again now instead of
+using software heuristics.
+
+00:43:51.180 --> 00:43:56.059
+So the heuristics are usually right,
+it said to go backwards to sentences and
+
+00:43:56.059 --> 00:43:57.270
+order of recency.
+
+00:43:57.270 --> 00:44:00.260
+So if the antecedent isn't
+in the current sentence,
+
+00:44:00.260 --> 00:44:04.150
+it's mostly in the immediately preceding
+sentence, so you look there first.
+
+00:44:04.150 --> 00:44:09.310
+And then it says, within the sentence,
+go from left to right.
+
+00:44:09.310 --> 00:44:10.790
+Well, what's going on there?
+
+00:44:10.790 --> 00:44:14.230
+There's sort of an obliqueness
+hierarchy in sentences.
+
+00:44:14.230 --> 00:44:19.280
+And actually within a sentence, a subject,
+which at least in English is on the left
+
+00:44:19.280 --> 00:44:23.810
+side, is more likely to be the antecedent
+than something that's an object or
+
+00:44:23.810 --> 00:44:27.990
+an indirect object or object of
+a preposition that's buried down here.
+
+00:44:27.990 --> 00:44:32.260
+So it's saying the first thing you
+should try is Niall Ferguson and so
+
+00:44:32.260 --> 00:44:33.930
+that's then a candidate.
+
+00:44:33.930 --> 00:44:38.120
+It doesn't get disqualified on
+page two from reasons of gender or
+
+00:44:38.120 --> 00:44:39.360
+anything like that.
+
+00:44:39.360 --> 00:44:44.828
+And so we propose it as an answer and
+the Hobbs Algorithm gets it right.
+
+00:44:44.828 --> 00:44:48.855
+And so the Hobbs Algorithm
+gets the right answer for
+
+00:44:48.855 --> 00:44:54.017
+pronouns about 80% of the time,
+it's actually pretty good.
+
+00:44:54.017 --> 00:44:55.980
+Of course, sometimes it gets it wrong,
+
+00:44:55.980 --> 00:44:59.170
+it's easy to come up with sentences
+that won't get it right for.
+
+00:45:00.220 --> 00:45:04.330
+So I just wanted to,
+before going on, deviate for
+
+00:45:04.330 --> 00:45:09.690
+a minute and talk about what
+Jerry Hobbs was actually interested in.
+
+00:45:09.690 --> 00:45:13.952
+So what Jerry Hobbs was actually
+interested in was knowledge-based
+
+00:45:13.952 --> 00:45:15.660
+pronominal coreference.
+
+00:45:15.660 --> 00:45:18.410
+And so, from the early days of AI,
+
+00:45:18.410 --> 00:45:23.110
+there's been sort of observations about
+how to actually get coreference right
+
+00:45:23.110 --> 00:45:27.960
+in many cases,
+you actually have to understand sentences.
+
+00:45:27.960 --> 00:45:32.410
+And so there was this famous
+pair of sentences, which was
+
+00:45:32.410 --> 00:45:36.670
+proposed by Terry Winograd, who until very
+recently, was on the Stanford faculty.
+
+00:45:36.670 --> 00:45:40.840
+Though he had kind of dropped out
+of doing NLPN and moved onto HCI.
+
+00:45:40.840 --> 00:45:44.530
+And so,
+Terry contrasted these two sentences.
+
+00:45:44.530 --> 00:45:48.730
+The city council refused the women
+a permit because they feared violence.
+
+00:45:48.730 --> 00:45:53.490
+And the city council refused the women
+a permit because they advocated violence.
+
+00:45:53.490 --> 00:45:57.640
+This was back in the 60s and 70s, when
+there was more protests around, I guess.
+
+00:45:57.640 --> 00:46:03.790
+So anyway, so in the first sentence,
+the natural reading is
+
+00:46:03.790 --> 00:46:09.030
+the they,
+is coreferent with the city council.
+
+00:46:09.030 --> 00:46:12.350
+And in the second sentence,
+the natural reasoning with reading is
+
+00:46:12.350 --> 00:46:16.010
+with the they being coreferent
+with the woman, right?
+
+00:46:16.010 --> 00:46:20.710
+And the crucial thing to notice is
+this isn't something that the Hobbs
+
+00:46:20.710 --> 00:46:24.860
+naive algorithm could possibly get
+right cuz both of these sentences
+
+00:46:24.860 --> 00:46:27.280
+have completely identical structure.
+
+00:46:29.120 --> 00:46:32.870
+And so the answer that was
+suggested at the time was well,
+
+00:46:32.870 --> 00:46:38.320
+what we actually need to do is
+have knowledge of the world and
+
+00:46:38.320 --> 00:46:41.920
+being able to sort of
+represent these actions, and
+
+00:46:41.920 --> 00:46:45.700
+representing relationships
+that are likely to occur.
+
+00:46:45.700 --> 00:46:50.335
+And that we just need to know, we have to
+sort of understand about city councils and
+
+00:46:50.335 --> 00:46:50.949
+permits.
+
+00:46:50.949 --> 00:46:55.007
+To understand that if
+you're refusing a permit,
+
+00:46:55.007 --> 00:46:59.646
+that would happen if someone
+was advocating violence but
+
+00:46:59.646 --> 00:47:04.478
+it would happen if the people
+who would be getting the permit
+
+00:47:04.478 --> 00:47:08.370
+were doing the advocation of violence.
+
+00:47:08.370 --> 00:47:12.140
+And so this is an idea that people have
+actually tried to resurrect recently.
+
+00:47:12.140 --> 00:47:17.700
+So, Hector Levesque a good
+old-fashioned AI guy.
+
+00:47:17.700 --> 00:47:23.220
+And I guess he gave an invited talk
+in 2013 where he sort of suggested,
+
+00:47:23.220 --> 00:47:27.350
+gee, we should kind of try and get back
+to these kind of Winograd sentences and
+
+00:47:27.350 --> 00:47:32.020
+actually be trying to understand them as
+interesting, co-referenced challenges.
+
+00:47:32.020 --> 00:47:35.890
+And so people have tried to, more
+recently, run a Winograd schema challenge.
+
+00:47:37.390 --> 00:47:41.950
+So, really this is what
+Jerry Hobbs was interested in.
+
+00:47:41.950 --> 00:47:45.550
+And so actually why he
+proposed his naive algorithm,
+
+00:47:45.550 --> 00:47:50.510
+it was actually one of the first
+instances of NLP when someone said, gee,
+
+00:47:50.510 --> 00:47:55.400
+before proposing something really complex,
+I should have a baseline.
+
+00:47:55.400 --> 00:47:59.328
+So I've got a good baseline to compare
+against as to how well something
+
+00:47:59.328 --> 00:48:00.980
+simple works.
+
+00:48:00.980 --> 00:48:02.990
+And what he discovered.
+
+00:48:02.990 --> 00:48:08.380
+Was the kind of systems he built
+couldn't possibly beat his baseline,
+
+00:48:08.380 --> 00:48:13.850
+because trying to do knowledge-based
+pronominal coreference was way too
+
+00:48:13.850 --> 00:48:19.250
+hard for
+what could be done back in the 1970s.
+
+00:48:19.250 --> 00:48:21.130
+But this is what he wrote about it.
+
+00:48:21.130 --> 00:48:24.760
+So he said,
+the naive approach is quite good.
+
+00:48:24.760 --> 00:48:28.660
+Computationally speaking, it will be
+a long time before a semantically based
+
+00:48:28.660 --> 00:48:32.330
+algorithm is sophisticated
+enough to perform as well.
+
+00:48:32.330 --> 00:48:37.060
+And these results set a very high standard
+for any other approach to aim for.
+
+00:48:37.060 --> 00:48:40.610
+Yet there is every reason to pursue
+a semantically based approach.
+
+00:48:40.610 --> 00:48:42.900
+The naive algorithm does not work.
+
+00:48:42.900 --> 00:48:45.880
+Anyone can think of
+examples where it fails.
+
+00:48:45.880 --> 00:48:50.542
+In these cases it not only fails, it gives
+no indication that it has failed and
+
+00:48:50.542 --> 00:48:53.427
+offers no hope in finding
+the real antecedent.
+
+00:48:53.427 --> 00:48:58.780
+So in one sense,
+since 1978 we have progress because we now
+
+00:48:58.780 --> 00:49:06.150
+have algorithms that are significantly
+better than the Hobbs' naive algorithm.
+
+00:49:06.150 --> 00:49:11.540
+So we've passed that bar for
+at least a decade, so that's a good news.
+
+00:49:11.540 --> 00:49:17.490
+On the other hand,
+Jerry Hobbs could very viably argue,
+
+00:49:17.490 --> 00:49:21.370
+that actually the second
+paragraph that I quoted there
+
+00:49:21.370 --> 00:49:25.610
+hasn't been addressed whatsoever,
+cuz we're writing.
+
+00:49:25.610 --> 00:49:28.720
+They might have more machine learning than
+them but we're writing the same kind of
+
+00:49:28.720 --> 00:49:33.580
+mechanistic algorithms that usually get
+things right, sometimes get things wrong.
+
+00:49:33.580 --> 00:49:37.030
+And that's just how it is and
+
+00:49:37.030 --> 00:49:40.970
+we don't really have any way
+of telling when it's failing.
+
+00:49:42.200 --> 00:49:44.830
+Okay, so how do people do coreference.
+
+00:49:44.830 --> 00:49:49.650
+So there are different ways that people
+approach the coreference problem.
+
+00:49:49.650 --> 00:49:53.330
+So actually the most common
+way of doing it is what's
+
+00:49:53.330 --> 00:49:55.250
+referred to as mentioned pair models.
+
+00:49:55.250 --> 00:49:58.820
+And that's what we gonna look at for
+the end part of this class.
+
+00:49:58.820 --> 00:50:02.910
+So we try and
+work out all the coreference relationships
+
+00:50:02.910 --> 00:50:06.690
+by just making a sequence
+of pairwise links.
+
+00:50:06.690 --> 00:50:10.340
+So we're gonna take pairs of mentions and
+say, are these coreference or
+
+00:50:10.340 --> 00:50:11.420
+not, yes or no.
+
+00:50:11.420 --> 00:50:16.730
+So we're doing binary classification
+decisions independently.
+
+00:50:16.730 --> 00:50:21.410
+And then as a result of those
+binary decisions we sort of
+
+00:50:21.410 --> 00:50:25.860
+induce a kind of clustering of
+mentions into entities, and
+
+00:50:25.860 --> 00:50:28.852
+we just do that in a simple
+deterministic way.
+
+00:50:28.852 --> 00:50:33.505
+We just join everything together into
+a lump that's been put together by
+
+00:50:33.505 --> 00:50:35.045
+these binary decisions.
+
+00:50:35.045 --> 00:50:39.625
+And we just say, and
+they all close together by transitivity.
+
+00:50:39.625 --> 00:50:42.643
+There are a couple of other
+approaches that people have used for
+
+00:50:42.643 --> 00:50:44.845
+coreference resolution.
+
+00:50:44.845 --> 00:50:48.225
+Rather than simply doing
+binary yes/no decisions,
+
+00:50:48.225 --> 00:50:52.515
+another choice is to say that you can
+actually use a ranking algorithm.
+
+00:50:52.515 --> 00:50:58.019
+Something that's gone very prominent
+in certain areas of machine learning
+
+00:50:58.019 --> 00:51:03.880
+that you kind of don't cover in your basic
+ML class, is doing ranking problems.
+
+00:51:03.880 --> 00:51:06.000
+But they have come up in a lot of places.
+
+00:51:06.000 --> 00:51:11.230
+Think things like,
+Netflix recommending you a movie.
+
+00:51:11.230 --> 00:51:16.200
+Google recommending you a web page,
+all of those things are ranking problems.
+
+00:51:16.200 --> 00:51:21.290
+And so you can think of coref as a ranking
+problem, because if you have a pronoun,
+
+00:51:21.290 --> 00:51:24.760
+well it should be
+coreferent with something.
+
+00:51:24.760 --> 00:51:29.430
+And maybe there are seven prior
+mentions in the document.
+
+00:51:29.430 --> 00:51:33.320
+And then you're doing a ranking task as
+to which one of those seven it would be.
+
+00:51:33.320 --> 00:51:37.950
+And then there's a third way of
+doing coreference resolution,
+
+00:51:37.950 --> 00:51:40.650
+which is arguably really the right way.
+
+00:51:40.650 --> 00:51:43.501
+Which is, what are referred
+to as entity mention models.
+
+00:51:43.501 --> 00:51:48.930
+And that's just explicitly
+think about the entities.
+
+00:51:48.930 --> 00:51:53.380
+They're actual real entities
+that your discourse is about.
+
+00:51:53.380 --> 00:51:58.340
+And when you see a mention, you should be
+saying, that's a mention of a particular
+
+00:51:58.340 --> 00:52:02.920
+entity, or maybe this mention introduces
+a new entity in to your discourse and
+
+00:52:02.920 --> 00:52:05.720
+you've got this set of
+underlying entities.
+
+00:52:05.720 --> 00:52:09.280
+So in some sense, your entities
+are your clusters or mentions, but
+
+00:52:09.280 --> 00:52:13.850
+you're actually giving them first
+class status as objects in your model
+
+00:52:13.850 --> 00:52:18.780
+rather than them just appearing as
+a result of some linking process.
+
+00:52:18.780 --> 00:52:23.900
+And so, a number of people then tried to
+work on models that explicitly represent
+
+00:52:23.900 --> 00:52:28.852
+entities and then do some kind
+of joint inference, or have some
+
+00:52:28.852 --> 00:52:32.959
+kind of generative model of how the
+mentions are created from the entities.
+
+00:52:33.960 --> 00:52:41.610
+But the simplest case and what we're look
+at mainly, are these mention-pair models.
+
+00:52:41.610 --> 00:52:46.850
+And so mention-pair models are normally
+trained to supervise learning models.
+
+00:52:46.850 --> 00:52:52.636
+What you do is you have some data,
+you have mentions.
+
+00:52:52.636 --> 00:52:56.400
+And so there's this prior problem
+of finding the mentions, but
+
+00:52:56.400 --> 00:53:00.820
+we can roughly think of
+the mentions as our noun phrases.
+
+00:53:00.820 --> 00:53:02.234
+And then here's a He, and
+
+00:53:02.234 --> 00:53:06.130
+what we're gonna say is that gonna
+be coreferent with something.
+
+00:53:06.130 --> 00:53:12.903
+Well, if we have gold standard data
+we'll know that the right answer would
+
+00:53:12.903 --> 00:53:18.310
+be either Mr. Obama or the president,
+cuz both of them are coreferent.
+
+00:53:18.310 --> 00:53:21.900
+And if you have multiple choices, you'd
+normally just choose the nearest one.
+
+00:53:21.900 --> 00:53:24.780
+And you say, the correct answer for
+this one is the president.
+
+00:53:26.160 --> 00:53:30.275
+And then you have negative examples which
+are things that are not coreference.
+
+00:53:30.275 --> 00:53:33.580
+So Milwaukee is a negative example.
+
+00:53:33.580 --> 00:53:35.550
+So you get positive and
+
+00:53:35.550 --> 00:53:40.610
+negative examples, you train
+a binary classifier and you're done.
+
+00:53:40.610 --> 00:53:45.610
+So if a conventional coref
+people then used all
+
+00:53:45.610 --> 00:53:50.170
+sorts of features,
+that were indicators of coreference.
+
+00:53:50.170 --> 00:53:55.890
+So for pronouns in English, they're things
+like person, number, and gender agreement.
+
+00:53:55.890 --> 00:53:57.310
+So Jack gave Mary a gift.
+
+00:53:57.310 --> 00:53:58.690
+She was excited.
+
+00:53:58.690 --> 00:54:03.240
+That has to be Mary because of gender,
+rather than Jack.
+
+00:54:03.240 --> 00:54:07.190
+There are softer notions
+like semantic compatibility.
+
+00:54:07.190 --> 00:54:09.340
+So if there's a reference
+to the mining conglomerate,
+
+00:54:09.340 --> 00:54:13.780
+that could be coreferent with the company
+because that's sorta semantically
+
+00:54:13.780 --> 00:54:16.610
+compatible, that's much harder to do.
+
+00:54:16.610 --> 00:54:21.350
+Some things that we've already mentioned
+are hard syntactic constraints.
+
+00:54:21.350 --> 00:54:26.510
+So John bought him a new car, him can't
+be John, that'd have to be himself.
+
+00:54:26.510 --> 00:54:28.690
+So that's a feature we can use.
+
+00:54:28.690 --> 00:54:31.959
+But there are lots of softer things
+which I was mentioning before.
+
+00:54:31.959 --> 00:54:36.150
+So, recency is a good indicator.
+
+00:54:36.150 --> 00:54:37.210
+John went to a movie.
+
+00:54:37.210 --> 00:54:38.420
+Jack went as well.
+
+00:54:38.420 --> 00:54:39.820
+He was not busy.
+
+00:54:39.820 --> 00:54:44.392
+That sort of sounds like it was probably
+Jack that wasn't busy, at least to me.
+
+00:54:44.392 --> 00:54:47.370
+And that's presumably a recency effect,
+but
+
+00:54:47.370 --> 00:54:51.920
+it's not really categorical, it has to be.
+
+00:54:51.920 --> 00:54:53.980
+Subjects are commonly preferred.
+
+00:54:53.980 --> 00:54:55.600
+John went to a movie with Jack.
+
+00:54:55.600 --> 00:54:56.480
+He was not busy.
+
+00:54:56.480 --> 00:55:00.890
+I think the most natural reading
+of that is that John was not busy,
+
+00:55:00.890 --> 00:55:03.560
+so that's preferring subjects.
+
+00:55:03.560 --> 00:55:06.560
+Parallelism, John went
+with Jack to a movie.
+
+00:55:06.560 --> 00:55:08.760
+Joe went with him to a bar.
+
+00:55:08.760 --> 00:55:14.632
+I think the most natural reading of that
+is that that is Jack that Joe went with.
+
+00:55:14.632 --> 00:55:18.430
+And that seems to make sense not
+according to grammatical role preference,
+
+00:55:18.430 --> 00:55:20.100
+which would give you John, but
+
+00:55:20.100 --> 00:55:24.158
+in terms of the parallelism of the two
+sentences and interpreting it that way.
+
+00:55:24.158 --> 00:55:28.000
+So there are lot's linguistic features
+that you would start to build
+
+00:55:28.000 --> 00:55:32.050
+features from and
+put them into a classifier and try and
+
+00:55:32.050 --> 00:55:36.932
+determine coreference, and
+people built these things where loosely,
+
+00:55:36.932 --> 00:55:41.740
+they are big logistic regression
+classifiers with hundreds of thousands of
+
+00:55:41.740 --> 00:55:46.675
+features that try to capture some
+of these kind of relationships.
+
+00:55:46.675 --> 00:55:49.900
+But for the last 25 minutes
+what I want to tell you then is
+
+00:55:49.900 --> 00:55:53.390
+about what people have done with
+deep learning and coreference.
+
+00:55:53.390 --> 00:55:57.050
+And the answer to that in two words is,
+not much.
+
+00:55:57.050 --> 00:56:03.161
+And so at this point in time There
+are basically four papers that have tried
+
+00:56:03.161 --> 00:56:08.468
+to use neural networks, deep learning,
+to do coreference by two authors.
+
+00:56:08.468 --> 00:56:13.213
+So there's Sam Wiseman at Harvard
+who's worked on the problem in
+
+00:56:13.213 --> 00:56:14.690
+a couple of papers.
+
+00:56:14.690 --> 00:56:19.240
+And then there's Kevin who's worked
+on the problem in a couple of papers.
+
+00:56:19.240 --> 00:56:21.745
+And so
+there is some sort of connections and
+
+00:56:21.745 --> 00:56:24.326
+there's some different approaches here.
+
+00:56:24.326 --> 00:56:29.382
+I mean, in particular, there are a couple
+of papers, both sorta Sam's second
+
+00:56:29.382 --> 00:56:35.132
+paper and Kevin's first paper, which we're
+both trying to do entity-mention models.
+
+00:56:35.132 --> 00:56:39.842
+And actually try to have explicit
+representations for entities and
+
+00:56:39.842 --> 00:56:43.660
+doing more global inference
+in terms of entities.
+
+00:56:43.660 --> 00:56:48.296
+And I think most people who have tried to
+do coreference a bit really do believe
+
+00:56:48.296 --> 00:56:53.289
+that surely they should be good power from
+doing things jointly over these entities
+
+00:56:53.289 --> 00:56:55.951
+and that should give some real advantages.
+
+00:56:55.951 --> 00:57:00.918
+In practice, it's repeatedly sort of
+proven hard to get sustained advantages
+
+00:57:00.918 --> 00:57:05.881
+from doing that and so there's sort of
+been this continuing use of entity pair,
+
+00:57:05.881 --> 00:57:10.478
+sorry, mention-pair models,
+which are very simple to implement, and
+
+00:57:10.478 --> 00:57:14.560
+you keep on thinking to work
+out how to make them work well.
+
+00:57:14.560 --> 00:57:20.150
+So Kevin's most recent paper is actually
+back to a mention-pair model and
+
+00:57:20.150 --> 00:57:21.930
+that produces great results.
+
+00:57:21.930 --> 00:57:26.880
+And I'd thought I'd actually show that
+one, not only because it's the most recent
+
+00:57:26.880 --> 00:57:31.020
+and best, but because it might be kind of
+a good chance to sort of show a couple
+
+00:57:31.020 --> 00:57:35.100
+of other techniques of doing things,
+in the context of deep learning.
+
+00:57:35.100 --> 00:57:42.030
+Okay, so here we go, so the first couple
+of bits may be fairly similar, right?
+
+00:57:42.030 --> 00:57:45.810
+So, we wanna find these
+coreference clusters.
+
+00:57:45.810 --> 00:57:50.150
+And so we're gonna be doing it
+simply as a mention-ranking model
+
+00:57:50.150 --> 00:57:54.780
+where you want to assign a score
+to each candidate antecedent.
+
+00:57:54.780 --> 00:57:59.332
+So, we want to be saying,
+what does my refer to?
+
+00:57:59.332 --> 00:58:05.438
+And we're picking the preceding mentions,
+and then we add on one extra candidate,
+
+00:58:05.438 --> 00:58:10.513
+cuz for any mention you have one
+possibility is this is a new referent in
+
+00:58:10.513 --> 00:58:16.380
+the discourse and it's not co-referent
+with anything that appears before it.
+
+00:58:16.380 --> 00:58:20.096
+So, we then have this new up the end.
+
+00:58:20.096 --> 00:58:22.870
+So you can say this a NEW referent.
+
+00:58:22.870 --> 00:58:25.699
+And so for each of these mention pairs,
+
+00:58:25.699 --> 00:58:29.260
+we're gonna build a model
+that scores them.
+
+00:58:29.260 --> 00:58:33.480
+And so, it's just gonna
+score a pair of mentions for
+
+00:58:33.480 --> 00:58:37.790
+coreference, independently still,
+and give them a score.
+
+00:58:37.790 --> 00:58:41.950
+And then what we're gonna do is say,
+well, which one has the best score?
+
+00:58:41.950 --> 00:58:45.090
+Okay, that's putting I and my together.
+
+00:58:45.090 --> 00:58:47.690
+And so that one, we're going to rejoin.
+
+00:58:47.690 --> 00:58:52.140
+And so then we can literally just go
+through the mentions in the discourse from
+
+00:58:52.140 --> 00:58:57.050
+left to right and
+run this mention-pair classifier
+
+00:58:57.050 --> 00:59:00.510
+on each successive mention and
+sort of then assign them.
+
+00:59:00.510 --> 00:59:02.630
+And that will give us our model.
+
+00:59:03.750 --> 00:59:08.790
+And so then the question is,
+how can we go about designing and
+
+00:59:08.790 --> 00:59:12.699
+training a good mention-pair classifier?
+
+00:59:12.699 --> 00:59:17.595
+Then yeah, cuz at the end of the day,
+our actual set of
+
+00:59:17.595 --> 00:59:22.770
+coreferent things will just be
+the result of these local decisions.
+
+00:59:22.770 --> 00:59:27.140
+So if we say, I as a new thing,
+Nader as a new thing,
+
+00:59:27.140 --> 00:59:32.320
+he refers to Nader,
+my refers to I, she refers to my.
+
+00:59:32.320 --> 00:59:36.140
+Then the result of that is we've
+sort of constructed these two
+
+00:59:36.140 --> 00:59:40.870
+coreferent clusters as a result
+of these local decisions.
+
+00:59:40.870 --> 00:59:43.350
+And as a result of imputing transitivity.
+
+00:59:43.350 --> 00:59:48.832
+So we're then saying that
+she is also coreferent to I.
+
+00:59:48.832 --> 00:59:51.890
+Okay, so I hope the setting
+in general is clear enough.
+
+00:59:53.580 --> 00:59:54.810
+How is that done?
+
+00:59:54.810 --> 00:59:58.770
+And so for
+doing the neural mention-pair model,
+
+00:59:58.770 --> 01:00:02.630
+this is being done as
+a feed-forward network.
+
+01:00:02.630 --> 01:00:06.440
+It's sort of, in some sense,
+it's no more complicated than that.
+
+01:00:06.440 --> 01:00:08.821
+But what are the parts that go into it?
+
+01:00:08.821 --> 01:00:12.940
+So down at the bottom we
+have two kinds of things.
+
+01:00:12.940 --> 01:00:16.094
+So firstly, for both the mention and
+
+01:00:16.094 --> 01:00:21.090
+the candidate antecedent,
+we have embeddings of words.
+
+01:00:22.150 --> 01:00:27.500
+And so this model didn't use any
+kind of recurrent neural network or
+
+01:00:27.500 --> 01:00:30.440
+something like that that
+goes through the mentions.
+
+01:00:30.440 --> 01:00:34.309
+I mean, Kevin actually experimented
+with that a little bit and
+
+01:00:34.309 --> 01:00:36.356
+found no particular value in it.
+
+01:00:36.356 --> 01:00:40.490
+And so it actually kind of like
+the dependency powers of Danqis
+
+01:00:40.490 --> 01:00:44.631
+that you did in assignment two if
+you remember back to that one.
+
+01:00:44.631 --> 01:00:49.580
+And so it picks out particular words and
+uses their word representations.
+
+01:00:49.580 --> 01:00:53.730
+So it will use the head word of the
+mention, the last word of the mention, and
+
+01:00:53.730 --> 01:00:59.230
+things like that, and so that gives
+you some word embedding features.
+
+01:00:59.230 --> 01:01:05.322
+And so the word embedding features are
+gonna be good for capturing similarities.
+
+01:01:05.322 --> 01:01:07.834
+I mean, certainly when it's
+just the same word, right?
+
+01:01:07.834 --> 01:01:10.270
+They both say Akash, you'll get that.
+
+01:01:10.270 --> 01:01:14.890
+But you hope to also get things like
+conglomerate and company having similar
+
+01:01:14.890 --> 01:01:19.880
+word representations that
+you can do things with.
+
+01:01:19.880 --> 01:01:23.015
+But there are some relationships
+that that's clearly not capturing.
+
+01:01:23.015 --> 01:01:27.457
+If you think of some of those properties
+that we've already mentioned like recency
+
+01:01:27.457 --> 01:01:31.461
+and grammatical role and things like that,
+they're not being captured.
+
+01:01:31.461 --> 01:01:35.434
+So there are also, then,
+a few features that are calculated for
+
+01:01:35.434 --> 01:01:38.280
+each mention that are also put into it.
+
+01:01:38.280 --> 01:01:42.180
+So after that it's really
+a straightforward architecture.
+
+01:01:42.180 --> 01:01:46.680
+It's a deep feed-forward network
+of sort of ReLus at every level
+
+01:01:46.680 --> 01:01:51.490
+that take you up to the top, and then at
+the top you're turning that into a score
+
+01:01:51.490 --> 01:01:56.340
+which is a numeric score of how
+likely it is to be coreferant.
+
+01:01:56.340 --> 01:02:02.220
+Yeah, so the tradition,
+compared to traditional systems,
+
+01:02:02.220 --> 01:02:05.790
+the number of handcrafted features
+is getting smaller over time,
+
+01:02:05.790 --> 01:02:08.750
+but there are still just
+the number that really help.
+
+01:02:08.750 --> 01:02:11.570
+Distance is one that really helps.
+
+01:02:11.570 --> 01:02:15.407
+And if you have any kind of dialogue
+doing tracking of speakers and
+
+01:02:15.407 --> 01:02:19.453
+change of speakers also really helps you,
+and you don't just get for
+
+01:02:19.453 --> 01:02:21.227
+free out of word embeddings.
+
+01:02:22.792 --> 01:02:25.900
+Okay, users pretrained word embeddings.
+
+01:02:25.900 --> 01:02:30.010
+I mentioned the no RNNs,
+deep network, dropout.
+
+01:02:30.010 --> 01:02:33.210
+So, that part is all
+pretty straightforward.
+
+01:02:33.210 --> 01:02:38.278
+So what's a novel more
+interesting part of the model?
+
+01:02:38.278 --> 01:02:43.360
+And so that was to say, well,
+you aren't necessarily gonna do well
+
+01:02:43.360 --> 01:02:48.450
+if you just train such a model
+as a straightforward classifier.
+
+01:02:48.450 --> 01:02:50.920
+You either got this decision right or
+wrong.
+
+01:02:50.920 --> 01:02:55.860
+You could do that but that's non
+optimal and the reason why it's non
+
+01:02:55.860 --> 01:03:00.940
+optimal is that some mistakes matter much,
+much more than others.
+
+01:03:00.940 --> 01:03:05.410
+Because even though
+the mention pair classifier
+
+01:03:05.410 --> 01:03:09.250
+is just an independent classifier
+of a pair of mentions.
+
+01:03:09.250 --> 01:03:13.840
+The reality is that as a result
+of making a sequence of those
+
+01:03:15.100 --> 01:03:18.970
+mention pair classifications,
+you're then going to end up
+
+01:03:18.970 --> 01:03:22.710
+with these clusterings of
+mentions that are your entities.
+
+01:03:22.710 --> 01:03:27.450
+And you have the quality of your
+co-reference is going to be decided
+
+01:03:27.450 --> 01:03:30.890
+by how good are those
+clusters mentions that your
+
+01:03:30.890 --> 01:03:33.500
+entities that you formed
+at the end of the day.
+
+01:03:33.500 --> 01:03:35.950
+And so what that means in particular
+
+01:03:35.950 --> 01:03:40.190
+is that some mistakes you can
+make are really bad mistakes.
+
+01:03:40.190 --> 01:03:44.173
+So if you've started along saying
+Bill Clinton coreferent with he,
+
+01:03:44.173 --> 01:03:48.649
+Clinton coreferent with he, and
+Hillary is coreferent with Clinton, her.
+
+01:03:48.649 --> 01:03:52.694
+If you then said let's make
+these two Clinton's coreferent,
+
+01:03:52.694 --> 01:03:55.120
+that sort of collapses your.
+
+01:03:55.120 --> 01:04:00.000
+Two partial clusterings together
+into one huge hair ball.
+
+01:04:00.000 --> 01:04:04.716
+And that sort of destroys your ability
+to kind of do discourse interpretation
+
+01:04:04.716 --> 01:04:10.120
+because you've collapsed two individuals
+in your discourse into one individual.
+
+01:04:10.120 --> 01:04:12.130
+So that's gonna really destroy you.
+
+01:04:12.130 --> 01:04:15.360
+But there are other ways in
+which you can make little errors
+
+01:04:15.360 --> 01:04:16.230
+which don't really matter.
+
+01:04:16.230 --> 01:04:20.550
+So, it was raining, but the car stayed
+dry because it was under cover.
+
+01:04:20.550 --> 01:04:24.280
+So this first it is what's
+referred to as the pleonastic it.
+
+01:04:24.280 --> 01:04:26.600
+That it's just not really
+referential at all.
+
+01:04:26.600 --> 01:04:29.510
+Just somehow in English
+we like to have subject.
+
+01:04:29.510 --> 01:04:33.310
+So rather than just saying it's raining
+as you would in many other languages,
+
+01:04:33.310 --> 01:04:34.940
+you say it is raining.
+
+01:04:34.940 --> 01:04:39.925
+But it's not really referring to anything,
+so It was
+
+01:04:39.925 --> 01:04:44.785
+a mistake to make that co-reference, the
+car, but it sort of doesn't really matter.
+
+01:04:44.785 --> 01:04:48.065
+It's not gonna destroy your
+understanding of the dialogue,
+
+01:04:48.065 --> 01:04:50.025
+you've just got sort of one thing wrong.
+
+01:04:50.025 --> 01:04:51.792
+So that's a minor error.
+
+01:04:51.792 --> 01:04:56.722
+And so the question is couldn't
+we train a model so that it's
+
+01:04:56.722 --> 01:05:01.732
+actually sensitive to these ideas of what
+a major error is and minor error is.
+
+01:05:01.732 --> 01:05:05.256
+and the secret of that is to say Well,
+
+01:05:05.256 --> 01:05:11.406
+that means that we can't work out
+the loss simply of individual decisions.
+
+01:05:11.406 --> 01:05:17.940
+We've gotta work out what impact those
+decisions have at the end of the day.
+
+01:05:17.940 --> 01:05:22.960
+And if you're in that situation
+in which you can't locally
+
+01:05:22.960 --> 01:05:28.190
+work out the loss of individual decisions,
+but you have to wait around and
+
+01:05:28.190 --> 01:05:33.150
+say how does things turn out later in
+the day cuz I'll have to use that.
+
+01:05:33.150 --> 01:05:36.790
+That's the space in which you need
+to use reinforcement learning.
+
+01:05:37.930 --> 01:05:43.710
+And so, that's one possibility
+that this paper talks about.
+
+01:05:43.710 --> 01:05:50.230
+So, previously people had done
+something about this problem.
+
+01:05:50.230 --> 01:05:53.640
+And I'll show you that in just
+a minute which is to say, gee,
+
+01:05:53.640 --> 01:05:56.960
+some of these decisions
+are more important than others.
+
+01:05:56.960 --> 01:06:02.500
+So we could come up with heuristics to
+decide how important different things are.
+
+01:06:02.500 --> 01:06:05.090
+And then we could For
+different kinds of errors.
+
+01:06:05.090 --> 01:06:09.860
+We can kind of set hyperparameters
+to weight those kind of errors and
+
+01:06:09.860 --> 01:06:13.100
+adjust those to maximize our performance.
+
+01:06:13.100 --> 01:06:15.060
+And to some extent, you can do that.
+
+01:06:15.060 --> 01:06:18.910
+But it seems like the more right and
+principled way to do it would be to say,
+
+01:06:18.910 --> 01:06:21.990
+no, this can be done,
+this reinforcement learning problem.
+
+01:06:21.990 --> 01:06:25.320
+And if we too wanna be
+finding local decisions,
+
+01:06:25.320 --> 01:06:29.560
+which lead to the end of
+the day as a good clustering.
+
+01:06:29.560 --> 01:06:31.840
+Say that our reward function for
+
+01:06:31.840 --> 01:06:35.480
+reinforcement learning is do we a get
+good clustering at the end of the day?.
+
+01:06:35.480 --> 01:06:43.060
+And if we do that we can get rid
+of having to, manually find,
+
+01:06:43.060 --> 01:06:47.180
+things to weight and setting the weights
+of them with hyper parameters.
+
+01:06:47.180 --> 01:06:51.532
+And we can get some gains, not huge gains,
+but some gains, from doing that.
+
+01:06:51.532 --> 01:06:55.110
+So the thing that are being done
+in prior work is to say, well,
+
+01:06:55.110 --> 01:06:59.250
+there are different classes
+of co-reference decisions and
+
+01:06:59.250 --> 01:07:03.062
+their importance we might
+want to weight differently.
+
+01:07:03.062 --> 01:07:07.810
+So the mistakes you can make
+is you can do a false new.
+
+01:07:07.810 --> 01:07:10.680
+You can claim that
+something is a new cluster
+
+01:07:10.680 --> 01:07:13.680
+when really it should have been
+made coreference to something.
+
+01:07:13.680 --> 01:07:16.360
+So that's failing to cluster
+when you should have.
+
+01:07:16.360 --> 01:07:18.570
+There's a false anaphoric.
+
+01:07:18.570 --> 01:07:21.170
+Something should have been
+it's own cluster, but
+
+01:07:21.170 --> 01:07:23.790
+you've joined it to an existing cluster.
+
+01:07:23.790 --> 01:07:27.690
+And then there's a wrong link where you
+should have been joining it with some
+
+01:07:27.690 --> 01:07:32.640
+previously established cluster and
+you chose a different one.
+
+01:07:32.640 --> 01:07:37.280
+So these notions still don't really get
+at sort of making a big scale mistake,
+
+01:07:37.280 --> 01:07:40.530
+like the Clinton mistake,
+versus small scale mistakes.
+
+01:07:40.530 --> 01:07:43.440
+But they sort of distinguish
+different decisions.
+
+01:07:43.440 --> 01:07:46.830
+And some of these are worse than others.
+
+01:07:46.830 --> 01:07:52.300
+So in general, doing a Wrong Link
+is worse than doing a False New.
+
+01:07:52.300 --> 01:07:57.990
+Cuz a False New doesn't thave the same
+knock on effects that a Wrong Link has.
+
+01:07:57.990 --> 01:08:03.320
+Yeah, so what prior work had said is okay,
+we have these four kinds of things.
+
+01:08:03.320 --> 01:08:05.620
+They can actually be coreferent.
+
+01:08:05.620 --> 01:08:10.800
+And done correctly or you can make
+these three different kinds of errors.
+
+01:08:10.800 --> 01:08:14.240
+And so what we could do is
+manually set weights for
+
+01:08:14.240 --> 01:08:18.930
+these different kinds of errors and
+adjust them to try and maximize our score.
+
+01:08:18.930 --> 01:08:25.180
+And so Sam Wiseman had proposed doing
+that In the kind of margin loss scenario.
+
+01:08:25.180 --> 01:08:29.100
+So that we are taking
+the maximum choice of
+
+01:08:29.100 --> 01:08:33.460
+candidate antecedents for each mentioned.
+
+01:08:33.460 --> 01:08:38.070
+And then here we have
+the usual kind of margin loss
+
+01:08:38.070 --> 01:08:41.620
+that we are looking at the score
+difference of the model.
+
+01:08:41.620 --> 01:08:47.120
+For the true antecedent
+versus this candidate.
+
+01:08:47.120 --> 01:08:49.900
+And they're both being
+scored by a current model.
+
+01:08:49.900 --> 01:08:54.280
+And so, again, we wanna adjust the scores
+according to our model to sort of
+
+01:08:54.280 --> 01:08:57.710
+minimize that kind of large margin loss.
+
+01:08:57.710 --> 01:09:02.780
+But we add this one extra factor to our
+loss function which we say is well,
+
+01:09:02.780 --> 01:09:05.900
+scale how much it cost's
+you to make this mistake
+
+01:09:05.900 --> 01:09:08.850
+based on what kind of
+an error you're making.
+
+01:09:08.850 --> 01:09:12.980
+Which is sort of classifying it as
+one of these different kinds errors.
+
+01:09:15.840 --> 01:09:20.220
+Okay and so that kind of idea wasn't
+actually original to Sam Weisman.
+
+01:09:20.220 --> 01:09:25.240
+So really sort of a whole bunch of
+papers really kind of just about all
+
+01:09:25.240 --> 01:09:30.840
+the coref papers that were done in
+the 2010s, had used this kind of idea.
+
+01:09:30.840 --> 01:09:34.720
+Because there's a way to push
+up coreference numbers a bit.
+
+01:09:34.720 --> 01:09:40.540
+But it doesn't seem perfect firstly you
+have to do the hyper parameter search.
+
+01:09:40.540 --> 01:09:46.340
+And secondly those error types
+are a bit correlated with badness,
+
+01:09:46.340 --> 01:09:50.580
+but they don't seem to be very
+directly correlated with badness.
+
+01:09:50.580 --> 01:09:54.030
+And so Kevin was wanting to try and
+do things better than that.
+
+01:09:55.040 --> 01:09:59.190
+These are the ways he approached it and
+he introduced two approaches.
+
+01:09:59.190 --> 01:10:02.930
+What we can say is when
+we are doing coreference,
+
+01:10:02.930 --> 01:10:06.790
+what we're doing is we're
+taking a sequence of actions.
+
+01:10:06.790 --> 01:10:11.846
+And so each action is looking at
+one mention as we head through and
+
+01:10:11.846 --> 01:10:15.497
+choosing something as
+it to be coreferent to,
+
+01:10:15.497 --> 01:10:20.540
+where one possibility is
+you are co-referent to NEW.
+
+01:10:20.540 --> 01:10:22.766
+So you're making this sequence of actions.
+
+01:10:22.766 --> 01:10:26.280
+So you are deciding what to do with I,
+deciding what to do with Nader,
+
+01:10:26.280 --> 01:10:27.880
+deciding what to do with he.
+
+01:10:27.880 --> 01:10:30.740
+That these are your sequence of actions.
+
+01:10:30.740 --> 01:10:36.250
+And so what we'd like to do is chose
+the sequence of actions that maximizes
+
+01:10:36.250 --> 01:10:42.040
+getting a good coreference
+clustering at the end of the day.
+
+01:10:42.040 --> 01:10:46.300
+So how do we decide what's
+a good coreference clustering?
+
+01:10:46.300 --> 01:10:50.770
+Well, what we do is we actually
+just believe our metric.
+
+01:10:50.770 --> 01:10:54.208
+So I showed you the BQ metric for
+coreference and
+
+01:10:54.208 --> 01:10:56.840
+that seemed kind of
+sensible it was sort of
+
+01:10:56.840 --> 01:11:00.250
+is F measure of getting your links
+right and precision and recall.
+
+01:11:00.250 --> 01:11:03.090
+So we call that our reward function.
+
+01:11:03.090 --> 01:11:07.743
+So if you kind if you get everything
+right, your BQ metric Is 100 or
+
+01:11:07.743 --> 01:11:12.580
+a 1 depending on whether you make
+it a point or make it a percentage.
+
+01:11:12.580 --> 01:11:17.930
+And so we then have no loss and
+if you make some mistakes,
+
+01:11:17.930 --> 01:11:22.240
+we can then work out the reward for
+different coreference algorithm.
+
+01:11:22.240 --> 01:11:28.340
+The reward will then be a lower award
+corresponding the b cubed score.
+
+01:11:28.340 --> 01:11:30.880
+And so
+Kevin explored two methods of doing this.
+
+01:11:30.880 --> 01:11:34.910
+One's sort of the REINFORCE algorithm
+which is the most common reinforcement
+
+01:11:34.910 --> 01:11:41.040
+learning algorithm that's used in deep
+learning techniques and elsewhere.
+
+01:11:41.040 --> 01:11:44.360
+And then reward-rescaling.
+
+01:11:44.360 --> 01:11:46.100
+So for the REINFORCE algorithm,
+
+01:11:46.100 --> 01:11:50.920
+what you're doing is you're defining
+a probability distribution over actions.
+
+01:11:50.920 --> 01:11:55.140
+And the way he was doing that was
+sort of taking the scores from
+
+01:11:55.140 --> 01:12:00.139
+the mentioned pair model and
+exponentiating those and normalizing them,
+
+01:12:00.139 --> 01:12:02.748
+so sort of standard soft max function.
+
+01:12:02.748 --> 01:12:07.390
+And saying that's the probability for
+taking different actions.
+
+01:12:07.390 --> 01:12:12.450
+And then what you're wanting
+to do is work out four action
+
+01:12:12.450 --> 01:12:19.350
+sequences with their probabilities,
+you want to maximize your expected reward.
+
+01:12:19.350 --> 01:12:22.780
+So the REINFORCE Algorithm
+maximizes your expected reward.
+
+01:12:22.780 --> 01:12:26.571
+So you're taking the expectation
+over action sequences,
+
+01:12:26.571 --> 01:12:31.575
+according to this probability distribution
+and then working out the reward,
+
+01:12:31.575 --> 01:12:35.316
+the B-cubed score,
+having taken that action sequence.
+
+01:12:35.316 --> 01:12:39.616
+The problem, is of course,
+that there are sort of an, oops,
+
+01:12:39.616 --> 01:12:44.584
+the problem is that there are an
+exponential number of different action
+
+01:12:44.584 --> 01:12:47.008
+sequences that you can take here.
+
+01:12:47.008 --> 01:12:49.910
+And so
+you can't actually explore all of them.
+
+01:12:49.910 --> 01:12:55.560
+But what you can do is then sample
+trajectories to estimate that expectation
+
+01:12:55.560 --> 01:12:59.000
+and to approximate the gradient and
+you can learn according to that.
+
+01:13:01.090 --> 01:13:04.026
+So using the REINFORCE Algorithm for
+
+01:13:04.026 --> 01:13:08.375
+reinforcement learning,
+it basically worked.
+
+01:13:08.375 --> 01:13:11.080
+It's sort of competitive
+with the heuristic
+
+01:13:11.080 --> 01:13:13.210
+loss functions that people had found.
+
+01:13:13.210 --> 01:13:16.748
+But it still seemed to
+have a small disadvantage,
+
+01:13:16.748 --> 01:13:22.481
+which is that the REINFORCE Algorithm
+maximizes performance in expectation but
+
+01:13:22.481 --> 01:13:25.360
+that's not what we actually want here.
+
+01:13:25.360 --> 01:13:29.120
+We actually want to sorta maximize
+the highest scoring action sequence,
+
+01:13:29.120 --> 01:13:31.648
+cuz that's where we're actually
+gonna use in practice.
+
+01:13:31.648 --> 01:13:36.890
+And so Kevin explored this other idea,
+which is to sort of say,
+
+01:13:36.890 --> 01:13:40.070
+let's actually continue with this idea
+
+01:13:40.070 --> 01:13:45.130
+of incorporating rewards into the max
+margin objective slack rescaling.
+
+01:13:45.130 --> 01:13:50.770
+But instead of using these sort of
+handset hyperparameters like before,
+
+01:13:50.770 --> 01:13:56.600
+what we will do is actually we
+can work out how to set those
+
+01:13:58.090 --> 01:14:02.790
+sort of losses for
+rescaling the large margin objective.
+
+01:14:02.790 --> 01:14:06.340
+So the idea there is for
+our training data,
+
+01:14:06.340 --> 01:14:10.730
+we can actually just look at
+the effect of different decisions.
+
+01:14:10.730 --> 01:14:15.480
+So since each action is independent
+from every other action,
+
+01:14:15.480 --> 01:14:20.700
+we can change one action and
+see what effect it had for the reward.
+
+01:14:20.700 --> 01:14:25.049
+So, this is the correct set of
+actions when our Reward = 100.
+
+01:14:25.049 --> 01:14:31.929
+And so, we can just say for AI there,
+suppose we made that decision differently,
+
+01:14:31.929 --> 01:14:36.932
+suppose we had said AI then
+declared that mention to be NEW.
+
+01:14:36.932 --> 01:14:41.720
+Well, we can just say this is what our
+system returned what's the B-cubed
+
+01:14:41.720 --> 01:14:42.860
+score for that?
+
+01:14:42.860 --> 01:14:45.790
+And the answer is 85, and so
+
+01:14:45.790 --> 01:14:50.000
+our Regret = 15 because we could have
+gotten the right answer and 100.
+
+01:14:50.000 --> 01:14:53.130
+And then we could say, well,
+let's consider a different possibility.
+
+01:14:53.130 --> 01:14:58.478
+We could have put my as coreferent to he,
+what's the B-cubed score then?
+
+01:14:58.478 --> 01:15:04.808
+And the B-cubed score is 66 and so
+now our Regret is larger, our Regret = 34.
+
+01:15:04.808 --> 01:15:08.300
+So we can actually empirically
+over the training data
+
+01:15:08.300 --> 01:15:13.197
+work out what the cost of different
+mistakes is in terms of B-cubed score.
+
+01:15:14.560 --> 01:15:19.951
+So, then what we can do,
+is sort of incorporate that,
+
+01:15:19.951 --> 01:15:25.579
+so that now, the sort of,
+the scaling factor over our max
+
+01:15:25.579 --> 01:15:30.856
+margin loss function is being
+taken as the difference
+
+01:15:30.856 --> 01:15:36.627
+between the best action we
+could have taken at that point.
+
+01:15:36.627 --> 01:15:41.585
+Which may no longer be the perfect action
+because we might have previously made
+
+01:15:41.585 --> 01:15:44.700
+mistakes versus the actions
+that we did choose.
+
+01:15:44.700 --> 01:15:49.560
+So that the cost is then sort of
+the regret for taking a particular action,
+
+01:15:49.560 --> 01:15:53.770
+and that replaces the heuristic cost
+we used previously, for actually
+
+01:15:53.770 --> 01:15:58.140
+what is the actual cost of this mistake
+in the context of a particular sentence?
+
+01:15:59.860 --> 01:16:04.340
+Okay, so that was the system or
+the second system that was built.
+
+01:16:04.340 --> 01:16:06.660
+And so then this was evaluated on coref.
+
+01:16:06.660 --> 01:16:12.070
+So most of the recent work on coreference
+has used, there were these CoNLL shared
+
+01:16:12.070 --> 01:16:16.905
+task in 2011 and 2012, the coreference.
+
+01:16:16.905 --> 01:16:21.540
+It was, it had English and
+Chinese in it and
+
+01:16:21.540 --> 01:16:24.510
+these are scored with
+the sort of CoNLL score.
+
+01:16:24.510 --> 01:16:28.190
+The people who did the CoNLL competition,
+I guess they didn't wanna take sides as to
+
+01:16:28.190 --> 01:16:32.315
+which was the best metric for co-reference
+so they came up with the CoNLL score for
+
+01:16:32.315 --> 01:16:35.680
+co-reference, which was actually
+just the arithmetic mean
+
+01:16:35.680 --> 01:16:40.270
+of three co-reference metrics,
+B-cubed and two other ones.
+
+01:16:40.270 --> 01:16:42.500
+And so these are how things performed.
+
+01:16:42.500 --> 01:16:46.540
+So the kind of heuristic losses
+that people had used previously
+
+01:16:46.540 --> 01:16:48.550
+actually work quite well.
+
+01:16:48.550 --> 01:16:54.700
+So using the REINFORCE algorithm
+is a smidgen better but
+
+01:16:54.700 --> 01:16:59.180
+not really better than using
+the current heuristic loss functions.
+
+01:16:59.180 --> 01:17:04.690
+But what you could find is
+that using Reward Rescaling
+
+01:17:04.690 --> 01:17:10.330
+actually did work significantly
+better because you could then
+
+01:17:10.330 --> 01:17:16.090
+sort of actually use the real losses that
+were incurred in different environments.
+
+01:17:16.090 --> 01:17:20.040
+Now, these results and
+differences may not look very impressive.
+
+01:17:20.040 --> 01:17:23.230
+But that's partly because
+even the heuristic loss
+
+01:17:23.230 --> 01:17:26.360
+is being run on a good
+neural coreference system.
+
+01:17:26.360 --> 01:17:29.020
+So I should also show
+you these other results,
+
+01:17:29.020 --> 01:17:31.290
+just to give you a sense of things.
+
+01:17:31.290 --> 01:17:34.720
+So this is the sort of progress
+that's really been made
+
+01:17:34.720 --> 01:17:37.050
+in coreference resolution.
+
+01:17:37.050 --> 01:17:42.318
+So at the time of CoNLL 2012,
+the best Chinese system was
+
+01:17:42.318 --> 01:17:49.571
+this Chen &amp; Ng which got 57 on the CoNLL
+score, the best English system got 60.
+
+01:17:49.571 --> 01:17:54.767
+There had been some work on non-neural
+systems since then, so there's
+
+01:17:54.767 --> 01:18:01.480
+a better Chinese system, and there's also
+a bit better English in this system.
+
+01:18:01.480 --> 01:18:05.860
+So the Wiseman was sort of
+the first neural system,
+
+01:18:05.860 --> 01:18:09.140
+so that was actually now
+starting to do a lot better.
+
+01:18:09.140 --> 01:18:12.585
+And then here is Kevin's two system and
+
+01:18:12.585 --> 01:18:16.355
+it sort of starting to get some
+decent gains beyond that going up.
+
+01:18:16.355 --> 01:18:18.945
+So the neural systems actually have given
+
+01:18:18.945 --> 01:18:24.105
+a nice new level of gain beyond
+previous coreference systems.
+
+01:18:24.105 --> 01:18:28.950
+And so I just wanted to end in the last
+minute it by saying, well why is that?
+
+01:18:28.950 --> 01:18:34.980
+So, one of the biggest gains is just
+the sort of general goodness of embedding.
+
+01:18:34.980 --> 01:18:39.634
+So, one of the places where you get the
+biggest gains is what turns out to be one
+
+01:18:39.634 --> 01:18:44.216
+the hardest cases of coreference in
+practice, is when you have these common
+
+01:18:44.216 --> 01:18:47.598
+noun nominals and
+you have to realize they're coreferent.
+
+01:18:47.598 --> 01:18:51.836
+And so that's things like
+the country's leftist rebels and
+
+01:18:51.836 --> 01:18:56.902
+the guerillas, the gun, the rifle,
+216 sailors from the USS Cole,
+
+01:18:56.902 --> 01:19:01.823
+the crew, these are the kind of ones
+that are very hard to get, right.
+
+01:19:01.823 --> 01:19:06.775
+If you're just doing conventional system
+with word features and things like that.
+
+01:19:06.775 --> 01:19:10.845
+But that's precisely the kind of place
+where having our word vectors actually
+
+01:19:10.845 --> 01:19:15.665
+does give us some purchase that these
+are still hardest cases to get right.
+
+01:19:15.665 --> 01:19:18.695
+But the other place you were getting gains
+
+01:19:18.695 --> 01:19:21.925
+is from using this
+Reward Rescaling algorithm.
+
+01:19:21.925 --> 01:19:26.410
+And the kind of interesting thing that the
+results actually turned out, is compared
+
+01:19:26.410 --> 01:19:32.280
+to the heuristic loss function,
+that using Reward Rescaling, that
+
+01:19:32.280 --> 01:19:38.708
+the Reward Rescaling system actually made
+more mistake than heuristic loss function.
+
+01:19:38.708 --> 01:19:43.031
+But was cleverer at deciding
+where to make its mistakes and so
+
+01:19:43.031 --> 01:19:46.476
+it made mistakes that were less important.
+
+01:19:46.476 --> 01:19:51.880
+So, even thought it made more mistakes,
+overall it was able to achieve
+
+01:19:51.880 --> 01:19:57.660
+a better B-cubed score by concentrating
+on making less important mistakes.
+
+01:19:57.660 --> 01:20:02.340
+And that reflects the fact that is for
+different mistakes,
+
+01:20:02.340 --> 01:20:05.160
+there is a wide variety
+of different costs.
+
+01:20:05.160 --> 01:20:10.385
+So this is an empirical graph of
+looking at all cases of false new,
+
+01:20:10.385 --> 01:20:15.230
+and then this is the distribution
+over how much they cost You.
+
+01:20:15.230 --> 01:20:19.397
+Even though, as you can see,
+there is a clear mode to this graph.
+
+01:20:19.397 --> 01:20:22.708
+So if you were doing
+a heuristic loss you would say,
+
+01:20:22.708 --> 01:20:27.540
+okay, customer false new is about 0.28 or
+something like that.
+
+01:20:27.540 --> 01:20:31.550
+For different situations there's
+an enormous distribution as
+
+01:20:31.550 --> 01:20:34.060
+to what the real cost
+of a false new is and
+
+01:20:34.060 --> 01:20:37.680
+that's precisely what could be
+captured by the Reward Rescaling.
+
+01:20:37.680 --> 01:20:42.410
+Okay, that's it for coreference and
+then back on Thursday for
+
+01:20:42.410 --> 01:20:44.690
+doing the dynamic memory networks.
+

@@ -1,0 +1,2174 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:08.300 --> 00:00:11.110 align:start position:0%
+ 
+so<00:00:09.300><c> this</c><c.colorCCCCCC><00:00:09.510><c> segment</c><00:00:09.870><c> is</c><00:00:09.960><c> about</c><00:00:10.100><c> pre-processing</c></c>
+
+00:00:11.110 --> 00:00:11.120 align:start position:0%
+so this<c.colorCCCCCC> segment is about pre-processing
+ </c>
+
+00:00:11.120 --> 00:00:13.100 align:start position:0%
+so this<c.colorCCCCCC> segment is about pre-processing</c>
+<c.colorE5E5E5>before<00:00:12.120><c> you</c><00:00:12.209><c> build</c><00:00:12.420><c> any</c><00:00:12.629><c> natural</c><00:00:12.840><c> language</c></c>
+
+00:00:13.100 --> 00:00:13.110 align:start position:0%
+<c.colorE5E5E5>before you build any natural language
+ </c>
+
+00:00:13.110 --> 00:00:15.560 align:start position:0%
+<c.colorE5E5E5>before you build any natural language</c>
+<c.colorCCCCCC>processing<00:00:13.290><c> system</c></c><c.colorE5E5E5><00:00:14.219><c> you</c><00:00:14.670><c> are</c><00:00:15.000><c> going</c><00:00:15.240><c> to</c><00:00:15.360><c> get</c></c>
+
+00:00:15.560 --> 00:00:15.570 align:start position:0%
+<c.colorCCCCCC>processing system</c><c.colorE5E5E5> you are going to get
+ </c>
+
+00:00:15.570 --> 00:00:17.510 align:start position:0%
+<c.colorCCCCCC>processing system</c><c.colorE5E5E5> you are going to get
+your<00:00:15.780><c> text</c><00:00:16.170><c> in</c><00:00:16.320><c> a</c><00:00:16.410><c> format</c><00:00:16.800><c> that</c><00:00:16.860><c> the</c><00:00:17.190><c> system</c></c>
+
+00:00:17.510 --> 00:00:17.520 align:start position:0%
+your<c.colorE5E5E5> text in a format that the system
+ </c>
+
+00:00:17.520 --> 00:00:18.980 align:start position:0%
+your<c.colorE5E5E5> text in a format that the system</c>
+<c.colorCCCCCC>will<00:00:17.640><c> not</c><00:00:17.760><c> be</c><00:00:17.940><c> able</c><00:00:18.060><c> to</c><00:00:18.150><c> understand</c><00:00:18.690><c> you</c></c><c.colorE5E5E5><00:00:18.779><c> need</c></c>
+
+00:00:18.980 --> 00:00:18.990 align:start position:0%
+<c.colorCCCCCC>will not be able to understand you</c><c.colorE5E5E5> need
+ </c>
+
+00:00:18.990 --> 00:00:21.170 align:start position:0%
+<c.colorCCCCCC>will not be able to understand you</c><c.colorE5E5E5> need
+to<00:00:19.170><c> convert</c></c><c.colorCCCCCC><00:00:19.680><c> it</c><00:00:19.920><c> into</c></c><c.colorE5E5E5><00:00:20.010><c> a</c><00:00:20.220><c> format</c><00:00:20.609><c> that</c><00:00:20.670><c> is</c></c>
+
+00:00:21.170 --> 00:00:21.180 align:start position:0%
+to convert<c.colorCCCCCC> it into</c><c.colorE5E5E5> a format that is
+ </c>
+
+00:00:21.180 --> 00:00:24.050 align:start position:0%
+to convert<c.colorCCCCCC> it into</c><c.colorE5E5E5> a format that is
+easier</c><c.colorCCCCCC><00:00:21.510><c> to</c><00:00:21.660><c> process</c><00:00:21.930><c> this</c><00:00:22.740><c> stage</c><00:00:23.070><c> of</c><00:00:23.460><c> an</c><00:00:23.910><c> an</c></c>
+
+00:00:24.050 --> 00:00:24.060 align:start position:0%
+easier<c.colorCCCCCC> to process this stage of an an
+ </c>
+
+00:00:24.060 --> 00:00:25.999 align:start position:0%
+easier<c.colorCCCCCC> to process this stage of an an
+okapi<00:00:24.359><c> file</c><00:00:24.810><c> is</c><00:00:24.960><c> called</c><00:00:25.169><c> pre</c><00:00:25.410><c> processing</c></c>
+
+00:00:25.999 --> 00:00:26.009 align:start position:0%
+<c.colorCCCCCC>okapi file is called pre processing
+ </c>
+
+00:00:26.009 --> 00:00:29.450 align:start position:0%
+<c.colorCCCCCC>okapi file is called pre processing
+let's<00:00:26.789><c> look</c><00:00:26.970><c> at</c><00:00:27.060><c> some</c><00:00:27.240><c> examples</c></c><c.colorE5E5E5><00:00:28.220><c> first</c><00:00:29.220><c> of</c><00:00:29.339><c> all</c></c>
+
+00:00:29.450 --> 00:00:29.460 align:start position:0%
+let's look at some examples<c.colorE5E5E5> first of all
+ </c>
+
+00:00:29.460 --> 00:00:32.330 align:start position:0%
+let's look at some examples<c.colorE5E5E5> first of all
+we<00:00:29.579><c> need</c></c><c.colorCCCCCC><00:00:29.669><c> to</c></c><c.colorE5E5E5><00:00:29.730><c> remove</c><00:00:30.150><c> any</c><00:00:30.359><c> non</c><00:00:30.659><c> textual</c><00:00:31.340><c> pieces</c></c>
+
+00:00:32.330 --> 00:00:32.340 align:start position:0%
+we need<c.colorCCCCCC> to</c><c.colorE5E5E5> remove any non textual pieces
+ </c>
+
+00:00:32.340 --> 00:00:35.270 align:start position:0%
+we need<c.colorCCCCCC> to</c><c.colorE5E5E5> remove any non textual pieces
+for<00:00:32.490><c> example</c></c><c.colorCCCCCC><00:00:32.940><c> ads</c><00:00:33.150><c> images</c><00:00:34.140><c> JavaScript</c><00:00:35.010><c> code</c></c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+for<c.colorE5E5E5> example</c><c.colorCCCCCC> ads images JavaScript code
+ </c>
+
+00:00:35.280 --> 00:00:37.700 align:start position:0%
+for<c.colorE5E5E5> example</c><c.colorCCCCCC> ads images JavaScript code</c>
+<c.colorE5E5E5>we<00:00:36.150><c> need</c></c><c.colorCCCCCC><00:00:36.180><c> to</c><00:00:36.390><c> understand</c><00:00:36.840><c> the</c><00:00:37.020><c> text</c></c><c.colorE5E5E5><00:00:37.260><c> encoding</c></c>
+
+00:00:37.700 --> 00:00:37.710 align:start position:0%
+<c.colorE5E5E5>we need</c><c.colorCCCCCC> to understand the text</c><c.colorE5E5E5> encoding
+ </c>
+
+00:00:37.710 --> 00:00:39.860 align:start position:0%
+<c.colorE5E5E5>we need</c><c.colorCCCCCC> to understand the text</c><c.colorE5E5E5> encoding
+for<00:00:38.160><c> example</c><00:00:38.550><c> where</c><00:00:38.670><c> it's</c><00:00:38.820><c> in</c><00:00:38.970><c> Unicode</c><00:00:39.570><c> or</c></c>
+
+00:00:39.860 --> 00:00:39.870 align:start position:0%
+for example where it's in<c.colorE5E5E5> Unicode or
+ </c>
+
+00:00:39.870 --> 00:00:41.510 align:start position:0%
+for example where it's in<c.colorE5E5E5> Unicode or
+some<00:00:40.020><c> other</c><00:00:40.230><c> encoding</c><00:00:40.829><c> and</c><00:00:40.980><c> convert</c><00:00:41.340><c> it</c><00:00:41.489><c> to</c></c>
+
+00:00:41.510 --> 00:00:41.520 align:start position:0%
+some other encoding<c.colorE5E5E5> and convert it to
+ </c>
+
+00:00:41.520 --> 00:00:44.090 align:start position:0%
+some other encoding<c.colorE5E5E5> and convert it to</c>
+<c.colorE5E5E5>one<00:00:41.820><c> of</c></c><c.colorCCCCCC><00:00:41.850><c> the</c><00:00:42.090><c> system</c><00:00:42.420><c> understand</c><00:00:42.899><c> we</c><00:00:43.859><c> need</c><00:00:44.010><c> to</c></c>
+
+00:00:44.090 --> 00:00:44.100 align:start position:0%
+<c.colorE5E5E5>one of</c><c.colorCCCCCC> the system understand we need to
+ </c>
+
+00:00:44.100 --> 00:00:46.279 align:start position:0%
+<c.colorE5E5E5>one of</c><c.colorCCCCCC> the system understand we need to
+do<00:00:44.219><c> send</c><00:00:44.489><c> a</c><00:00:44.579><c> segmentation</c></c><c.colorE5E5E5><00:00:45.120><c> understand</c><00:00:46.019><c> where</c></c>
+
+00:00:46.279 --> 00:00:46.289 align:start position:0%
+do send a segmentation<c.colorE5E5E5> understand where
+ </c>
+
+00:00:46.289 --> 00:00:48.439 align:start position:0%
+do send a segmentation<c.colorE5E5E5> understand where
+the<00:00:46.890><c> boundaries</c><00:00:47.309><c> between</c><00:00:47.579><c> sentences</c><00:00:48.300><c> are</c></c>
+
+00:00:48.439 --> 00:00:48.449 align:start position:0%
+the boundaries<c.colorE5E5E5> between sentences are
+ </c>
+
+00:00:48.449 --> 00:00:51.619 align:start position:0%
+the boundaries<c.colorE5E5E5> between sentences are
+located<00:00:49.019><c> and</c><00:00:50.010><c> then</c><00:00:50.399><c> we</c><00:00:50.519><c> need</c><00:00:50.670><c> to</c><00:00:50.760><c> do</c><00:00:50.969><c> a</c><00:00:51.210><c> bunch</c></c>
+
+00:00:51.619 --> 00:00:51.629 align:start position:0%
+located and then we need<c.colorE5E5E5> to do a bunch
+ </c>
+
+00:00:51.629 --> 00:00:53.240 align:start position:0%
+located and then we need<c.colorE5E5E5> to do a bunch
+of<00:00:51.750><c> other</c></c><c.colorCCCCCC><00:00:51.870><c> things</c><00:00:52.230><c> let's</c></c><c.colorE5E5E5><00:00:52.500><c> look</c><00:00:52.800><c> at</c><00:00:52.920><c> some</c><00:00:53.129><c> of</c></c>
+
+00:00:53.240 --> 00:00:53.250 align:start position:0%
+of other<c.colorCCCCCC> things let's</c><c.colorE5E5E5> look at some of
+ </c>
+
+00:00:53.250 --> 00:00:55.340 align:start position:0%
+of other<c.colorCCCCCC> things let's</c><c.colorE5E5E5> look at some of
+them<00:00:53.399><c> in</c><00:00:53.550><c> more</c></c><c.colorCCCCCC><00:00:53.730><c> detail</c></c><c.colorE5E5E5><00:00:54.120><c> the</c><00:00:54.539><c> first</c><00:00:54.809><c> is</c><00:00:55.019><c> called</c></c>
+
+00:00:55.340 --> 00:00:55.350 align:start position:0%
+them in more<c.colorCCCCCC> detail</c><c.colorE5E5E5> the first is called
+ </c>
+
+00:00:55.350 --> 00:00:58.009 align:start position:0%
+them in more<c.colorCCCCCC> detail</c><c.colorE5E5E5> the first is called
+normalization<00:00:55.890><c> so</c><00:00:56.629><c> normalization</c><00:00:57.629><c> means</c></c>
+
+00:00:58.009 --> 00:00:58.019 align:start position:0%
+normalization<c.colorE5E5E5> so normalization means
+ </c>
+
+00:00:58.019 --> 00:00:59.840 align:start position:0%
+normalization<c.colorE5E5E5> so normalization means
+that<00:00:58.230><c> if</c><00:00:58.440><c> a</c><00:00:58.679><c> word</c><00:00:58.949><c> can</c><00:00:59.250><c> have</c><00:00:59.399><c> multiple</c></c>
+
+00:00:59.840 --> 00:00:59.850 align:start position:0%
+that if a word can have multiple
+ 
+
+00:00:59.850 --> 00:01:02.270 align:start position:0%
+that if a word can have multiple
+variants<c.colorE5E5E5><00:01:00.510><c> we</c><00:01:00.839><c> want</c><00:01:01.109><c> to</c><00:01:01.320><c> convert</c><00:01:01.710><c> it</c></c><c.colorCCCCCC><00:01:01.769><c> all</c></c><c.colorE5E5E5><00:01:02.100><c> to</c></c>
+
+00:01:02.270 --> 00:01:02.280 align:start position:0%
+variants<c.colorE5E5E5> we want to convert it</c><c.colorCCCCCC> all</c><c.colorE5E5E5> to
+ </c>
+
+00:01:02.280 --> 00:01:03.740 align:start position:0%
+variants<c.colorE5E5E5> we want to convert it</c><c.colorCCCCCC> all</c><c.colorE5E5E5> to
+the<00:01:02.429><c> same</c><00:01:02.670><c> form</c><00:01:03.059><c> so</c></c><c.colorCCCCCC><00:01:03.269><c> that</c><00:01:03.420><c> they're</c></c><c.colorE5E5E5><00:01:03.600><c> not</c></c>
+
+00:01:03.740 --> 00:01:03.750 align:start position:0%
+the same form so<c.colorCCCCCC> that they're</c><c.colorE5E5E5> not
+ </c>
+
+00:01:03.750 --> 00:01:07.760 align:start position:0%
+the same form so<c.colorCCCCCC> that they're</c><c.colorE5E5E5> not
+confused<00:01:04.730><c> label</c></c><c.colorCCCCCC><00:01:05.730><c> the</c><00:01:05.910><c> labeled</c></c><c.colorE5E5E5><00:01:06.420><c> are</c><00:01:06.810><c> spelled</c></c>
+
+00:01:07.760 --> 00:01:07.770 align:start position:0%
+confused<c.colorE5E5E5> label</c><c.colorCCCCCC> the labeled</c><c.colorE5E5E5> are spelled
+ </c>
+
+00:01:07.770 --> 00:01:09.620 align:start position:0%
+confused<c.colorE5E5E5> label</c><c.colorCCCCCC> the labeled</c><c.colorE5E5E5> are spelled</c>
+<c.colorCCCCCC>differently<00:01:08.370><c> in</c><00:01:08.520><c> British</c><00:01:09.060><c> English</c><00:01:09.210><c> and</c></c>
+
+00:01:09.620 --> 00:01:09.630 align:start position:0%
+<c.colorCCCCCC>differently in British English and
+ </c>
+
+00:01:09.630 --> 00:01:12.289 align:start position:0%
+<c.colorCCCCCC>differently in British English and
+American<00:01:10.020><c> English</c><00:01:10.140><c> with</c><00:01:10.560><c> one</c><00:01:10.830><c> hour</c></c><c.colorE5E5E5><00:01:11.100><c> or</c></c><c.colorCCCCCC><00:01:11.370><c> 12</c><00:01:11.730><c> we</c></c>
+
+00:01:12.289 --> 00:01:12.299 align:start position:0%
+<c.colorCCCCCC>American English with one hour</c><c.colorE5E5E5> or</c><c.colorCCCCCC> 12 we
+ </c>
+
+00:01:12.299 --> 00:01:15.140 align:start position:0%
+<c.colorCCCCCC>American English with one hour</c><c.colorE5E5E5> or</c><c.colorCCCCCC> 12 we
+want<00:01:12.540><c> perhaps</c><00:01:13.020><c> to</c><00:01:13.200><c> merge</c><00:01:13.439><c> those</c><00:01:13.710><c> into</c><00:01:14.070><c> one</c></c><c.colorE5E5E5><00:01:14.250><c> the</c></c>
+
+00:01:15.140 --> 00:01:15.150 align:start position:0%
+want perhaps to merge those into one<c.colorE5E5E5> the
+ </c>
+
+00:01:15.150 --> 00:01:17.090 align:start position:0%
+want perhaps to merge those into one<c.colorE5E5E5> the
+word</c><c.colorCCCCCC><00:01:15.360><c> Extra</c><00:01:15.869><c> Terrestrial</c><00:01:15.900><c> can</c><00:01:16.619><c> be</c><00:01:16.770><c> spelled</c></c>
+
+00:01:17.090 --> 00:01:17.100 align:start position:0%
+word<c.colorCCCCCC> Extra Terrestrial can be spelled
+ </c>
+
+00:01:17.100 --> 00:01:18.740 align:start position:0%
+word<c.colorCCCCCC> Extra Terrestrial can be spelled
+with</c><c.colorE5E5E5><00:01:17.280><c> a</c><00:01:17.310><c> hyphen</c><00:01:17.820><c> in</c><00:01:17.939><c> the</c><00:01:18.060><c> middle</c><00:01:18.390><c> or</c><00:01:18.600><c> as</c><00:01:18.720><c> a</c></c>
+
+00:01:18.740 --> 00:01:18.750 align:start position:0%
+with<c.colorE5E5E5> a hyphen in the middle or as a
+ </c>
+
+00:01:18.750 --> 00:01:20.899 align:start position:0%
+with<c.colorE5E5E5> a hyphen in the middle or as a
+single<00:01:19.229><c> word</c><00:01:19.470><c> or</c><00:01:19.740><c> as</c><00:01:19.829><c> with</c><00:01:20.220><c> the</c><00:01:20.310><c> space</c><00:01:20.579><c> in</c><00:01:20.790><c> the</c></c>
+
+00:01:20.899 --> 00:01:20.909 align:start position:0%
+single word or as<c.colorE5E5E5> with the space in the
+ </c>
+
+00:01:20.909 --> 00:01:22.280 align:start position:0%
+single word or as<c.colorE5E5E5> with the space in the</c>
+<c.colorE5E5E5>middle<00:01:21.210><c> we</c><00:01:21.360><c> again</c><00:01:21.540><c> want</c><00:01:21.780><c> to</c><00:01:21.869><c> be</c><00:01:22.020><c> able</c></c><c.colorCCCCCC><00:01:22.079><c> to</c></c>
+
+00:01:22.280 --> 00:01:22.290 align:start position:0%
+<c.colorE5E5E5>middle we again want to be able</c><c.colorCCCCCC> to
+ </c>
+
+00:01:22.290 --> 00:01:23.929 align:start position:0%
+<c.colorE5E5E5>middle we again want to be able</c><c.colorCCCCCC> to
+collapse<00:01:22.619><c> those</c><00:01:22.890><c> into</c><00:01:23.340><c> one</c><00:01:23.610><c> specific</c></c>
+
+00:01:23.929 --> 00:01:23.939 align:start position:0%
+collapse those into one specific
+ 
+
+00:01:23.939 --> 00:01:27.649 align:start position:0%
+collapse those into one specific
+normalized<00:01:24.930><c> version</c><c.colorCCCCCC><00:01:26.090><c> the</c></c><c.colorE5E5E5><00:01:27.090><c> next</c><00:01:27.329><c> step</c><00:01:27.479><c> is</c></c>
+
+00:01:27.649 --> 00:01:27.659 align:start position:0%
+normalized version<c.colorCCCCCC> the</c><c.colorE5E5E5> next step is
+ </c>
+
+00:01:27.659 --> 00:01:29.179 align:start position:0%
+normalized version<c.colorCCCCCC> the</c><c.colorE5E5E5> next step is</c>
+<c.colorCCCCCC>something<00:01:27.899><c> called</c><00:01:28.079><c> stemming</c><00:01:28.619><c> that</c><00:01:28.950><c> is</c></c>
+
+00:01:29.179 --> 00:01:29.189 align:start position:0%
+<c.colorCCCCCC>something called stemming that is
+ </c>
+
+00:01:29.189 --> 00:01:31.490 align:start position:0%
+<c.colorCCCCCC>something called stemming that is</c>
+<c.colorE5E5E5>merging<00:01:30.180><c> words</c><00:01:30.450><c> like</c><00:01:30.720><c> computer</c><00:01:31.350><c> and</c></c>
+
+00:01:31.490 --> 00:01:31.500 align:start position:0%
+<c.colorE5E5E5>merging words like computer and
+ </c>
+
+00:01:31.500 --> 00:01:34.160 align:start position:0%
+<c.colorE5E5E5>merging words like computer and
+computation<00:01:32.280><c> into</c><00:01:32.520><c> the</c><00:01:32.670><c> same</c><00:01:32.939><c> category</c><00:01:33.540><c> based</c></c>
+
+00:01:34.160 --> 00:01:34.170 align:start position:0%
+computation into the same category based
+ 
+
+00:01:34.170 --> 00:01:37.429 align:start position:0%
+computation into the same category based
+<c.colorE5E5E5>on<00:01:34.409><c> their</c><00:01:34.590><c> stem</c><00:01:34.860><c> compute</c><00:01:36.049><c> we'll</c><00:01:37.049><c> talk</c><00:01:37.290><c> about</c></c>
+
+00:01:37.429 --> 00:01:37.439 align:start position:0%
+<c.colorE5E5E5>on their stem compute we'll talk about
+ </c>
+
+00:01:37.439 --> 00:01:40.480 align:start position:0%
+<c.colorE5E5E5>on their stem compute we'll talk about</c>
+<c.colorE5E5E5>stemming<00:01:37.979><c> in</c><00:01:38.100><c> more</c><00:01:38.280><c> detail</c><00:01:38.640><c> separately</c></c>
+
+00:01:40.480 --> 00:01:40.490 align:start position:0%
+<c.colorE5E5E5>stemming in more detail separately
+ </c>
+
+00:01:40.490 --> 00:01:43.160 align:start position:0%
+<c.colorE5E5E5>stemming in more detail separately
+morphological<00:01:41.490><c> analysis</c><00:01:42.030><c> deals</c><00:01:42.420><c> with</c><00:01:42.719><c> the</c></c>
+
+00:01:43.160 --> 00:01:43.170 align:start position:0%
+morphological analysis deals with the
+ 
+
+00:01:43.170 --> 00:01:44.959 align:start position:0%
+morphological analysis deals with the
+relationship<00:01:43.860><c> between</c><00:01:44.040><c> words</c><00:01:44.460><c> of</c><00:01:44.640><c> the</c><00:01:44.759><c> same</c>
+
+00:01:44.959 --> 00:01:44.969 align:start position:0%
+relationship between words of the same
+ 
+
+00:01:44.969 --> 00:01:47.090 align:start position:0%
+relationship between words of the same
+inflection<00:01:45.600><c> so</c><00:01:45.750><c> for</c><00:01:45.899><c> example</c><00:01:46.290><c> cars</c><00:01:46.649><c> can</c><c.colorCCCCCC><00:01:46.979><c> be</c></c>
+
+00:01:47.090 --> 00:01:47.100 align:start position:0%
+inflection so for example cars can<c.colorCCCCCC> be
+ </c>
+
+00:01:47.100 --> 00:01:49.340 align:start position:0%
+inflection so for example cars can<c.colorCCCCCC> be
+labeled</c><c.colorE5E5E5><00:01:47.490><c> as</c><00:01:47.640><c> the</c><00:01:47.850><c> plural</c><00:01:48.240><c> form</c><00:01:48.509><c> of</c><00:01:48.630><c> car</c><00:01:48.990><c> and</c></c>
+
+00:01:49.340 --> 00:01:49.350 align:start position:0%
+<c.colorCCCCCC>labeled</c><c.colorE5E5E5> as the plural form of car and
+ </c>
+
+00:01:49.350 --> 00:01:51.109 align:start position:0%
+<c.colorCCCCCC>labeled</c><c.colorE5E5E5> as the plural form of car and
+both<00:01:49.530><c> of</c><00:01:49.560><c> those</c><00:01:49.860><c> would</c><00:01:50.100><c> be</c><00:01:50.250><c> labeled</c><00:01:50.430><c> as</c><00:01:50.759><c> nouns</c></c>
+
+00:01:51.109 --> 00:01:51.119 align:start position:0%
+both of<c.colorE5E5E5> those would be labeled as nouns
+ </c>
+
+00:01:51.119 --> 00:01:54.399 align:start position:0%
+both of<c.colorE5E5E5> those would be labeled as nouns</c>
+<c.colorE5E5E5>one<00:01:51.990><c> is</c><00:01:52.170><c> singular</c><00:01:52.500><c> and</c><00:01:52.710><c> one</c></c><c.colorCCCCCC><00:01:52.860><c> implore</c></c>
+
+00:01:54.399 --> 00:01:54.409 align:start position:0%
+<c.colorE5E5E5>one is singular and one</c><c.colorCCCCCC> implore
+ </c>
+
+00:01:54.409 --> 00:01:57.230 align:start position:0%
+<c.colorE5E5E5>one is singular and one</c><c.colorCCCCCC> implore
+capitalization</c><c.colorE5E5E5><00:01:55.409><c> matters</c><00:01:55.890><c> a</c><00:01:55.920><c> lot</c></c><c.colorCCCCCC><00:01:56.159><c> so</c><00:01:56.759><c> if</c><00:01:57.060><c> your</c></c>
+
+00:01:57.230 --> 00:01:57.240 align:start position:0%
+capitalization<c.colorE5E5E5> matters a lot</c><c.colorCCCCCC> so if your
+ </c>
+
+00:01:57.240 --> 00:01:59.209 align:start position:0%
+capitalization<c.colorE5E5E5> matters a lot</c><c.colorCCCCCC> so if your
+text</c><c.colorE5E5E5><00:01:57.479><c> is</c><00:01:57.630><c> entirely</c><00:01:58.049><c> in</c><00:01:58.229><c> capital</c><00:01:58.680><c> letters</c><00:01:58.950><c> this</c></c>
+
+00:01:59.209 --> 00:01:59.219 align:start position:0%
+text<c.colorE5E5E5> is entirely in capital letters this
+ </c>
+
+00:01:59.219 --> 00:02:01.010 align:start position:0%
+text<c.colorE5E5E5> is entirely in capital letters this
+may<00:01:59.340><c> be</c><00:01:59.399><c> very</c></c><c.colorCCCCCC><00:01:59.490><c> difficult</c><00:02:00.119><c> to</c><00:02:00.270><c> do</c><00:02:00.450><c> but</c></c><c.colorE5E5E5><00:02:00.689><c> if</c><00:02:00.840><c> it's</c></c>
+
+00:02:01.010 --> 00:02:01.020 align:start position:0%
+may be very<c.colorCCCCCC> difficult to do but</c><c.colorE5E5E5> if it's
+ </c>
+
+00:02:01.020 --> 00:02:02.929 align:start position:0%
+may be very<c.colorCCCCCC> difficult to do but</c><c.colorE5E5E5> if it's
+in<00:02:01.140><c> mixed</c><00:02:01.409><c> case</c><00:02:01.590><c> you</c><00:02:02.250><c> want</c><00:02:02.460><c> to</c><00:02:02.579><c> be</c></c><c.colorCCCCCC><00:02:02.670><c> able</c><00:02:02.820><c> to</c></c>
+
+00:02:02.929 --> 00:02:02.939 align:start position:0%
+in mixed case you want to be<c.colorCCCCCC> able to
+ </c>
+
+00:02:02.939 --> 00:02:05.179 align:start position:0%
+in mixed case you want to be<c.colorCCCCCC> able to
+distinguish<00:02:03.450><c> between</c><00:02:03.509><c> things</c><00:02:04.079><c> like</c><00:02:04.350><c> now</c><00:02:04.770><c> and</c></c>
+
+00:02:05.179 --> 00:02:05.189 align:start position:0%
+distinguish between things<c.colorCCCCCC> like now and
+ </c>
+
+00:02:05.189 --> 00:02:08.029 align:start position:0%
+distinguish between things<c.colorCCCCCC> like now and
+now</c><c.colorE5E5E5><00:02:05.460><c> when</c><00:02:06.000><c> the</c><00:02:06.390><c> first</c></c><c.colorCCCCCC><00:02:06.600><c> one</c><00:02:06.869><c> is</c><00:02:07.020><c> just</c><00:02:07.049><c> an</c><00:02:07.469><c> adverb</c></c>
+
+00:02:08.029 --> 00:02:08.039 align:start position:0%
+now<c.colorE5E5E5> when the first</c><c.colorCCCCCC> one is just an adverb
+ </c>
+
+00:02:08.039 --> 00:02:10.040 align:start position:0%
+now<c.colorE5E5E5> when the first</c><c.colorCCCCCC> one is just an adverb
+for<00:02:08.280><c> time</c><00:02:08.550><c> and</c><00:02:08.820><c> the</c><00:02:09.270><c> second</c><00:02:09.660><c> one</c><00:02:09.780><c> is</c><00:02:09.930><c> the</c></c>
+
+00:02:10.040 --> 00:02:10.050 align:start position:0%
+for time and<c.colorCCCCCC> the second one is the
+ </c>
+
+00:02:10.050 --> 00:02:11.690 align:start position:0%
+for time and<c.colorCCCCCC> the second one is the
+national<00:02:10.440><c> organization</c><00:02:10.470><c> of</c><00:02:11.130><c> women</c></c><c.colorE5E5E5><00:02:11.370><c> and</c></c>
+
+00:02:11.690 --> 00:02:11.700 align:start position:0%
+national organization<c.colorCCCCCC> of women</c><c.colorE5E5E5> and
+ </c>
+
+00:02:11.700 --> 00:02:13.970 align:start position:0%
+national organization<c.colorCCCCCC> of women</c><c.colorE5E5E5> and
+similarly</c><c.colorCCCCCC><00:02:12.120><c> leads</c></c><c.colorE5E5E5><00:02:12.540><c> could</c><00:02:13.080><c> be</c><00:02:13.260><c> the</c><00:02:13.440><c> past</c><00:02:13.710><c> tense</c></c>
+
+00:02:13.970 --> 00:02:13.980 align:start position:0%
+similarly<c.colorCCCCCC> leads</c><c.colorE5E5E5> could be the past tense
+ </c>
+
+00:02:13.980 --> 00:02:16.220 align:start position:0%
+similarly<c.colorCCCCCC> leads</c><c.colorE5E5E5> could be the past tense
+of<00:02:14.160><c> the</c><00:02:14.220><c> verb</c><00:02:14.340><c> to</c><00:02:14.700><c> lead</c><00:02:14.910><c> or</c><00:02:15.630><c> it</c><00:02:15.870><c> can</c><00:02:16.050><c> be</c><00:02:16.200><c> a</c></c>
+
+00:02:16.220 --> 00:02:16.230 align:start position:0%
+of<c.colorE5E5E5> the verb to lead or it can be a
+ </c>
+
+00:02:16.230 --> 00:02:19.040 align:start position:0%
+of<c.colorE5E5E5> the verb to lead or it can be a</c>
+<c.colorE5E5E5>light-emitting<00:02:16.920><c> diode</c><00:02:17.700><c> which</c></c><c.colorCCCCCC><00:02:18.540><c> is</c><00:02:18.720><c> an</c><00:02:18.870><c> acronym</c></c>
+
+00:02:19.040 --> 00:02:19.050 align:start position:0%
+<c.colorE5E5E5>light-emitting diode which</c><c.colorCCCCCC> is an acronym
+ </c>
+
+00:02:19.050 --> 00:02:22.070 align:start position:0%
+<c.colorE5E5E5>light-emitting diode which</c><c.colorCCCCCC> is an acronym</c>
+<c.colorCCCCCC>on</c><c.colorE5E5E5><00:02:20.040><c> capital</c></c><c.colorCCCCCC><00:02:20.730><c> X</c></c>
+
+00:02:22.070 --> 00:02:22.080 align:start position:0%
+<c.colorCCCCCC>on</c><c.colorE5E5E5> capital</c><c.colorCCCCCC> X
+ </c>
+
+00:02:22.080 --> 00:02:24.500 align:start position:0%
+<c.colorCCCCCC>on</c><c.colorE5E5E5> capital</c><c.colorCCCCCC> X
+you<00:02:22.500><c> also</c><00:02:22.680><c> want</c></c><c.colorE5E5E5><00:02:22.980><c> to</c><00:02:23.370><c> see</c><00:02:23.790><c> how</c></c><c.colorCCCCCC><00:02:23.820><c> all</c></c><c.colorE5E5E5><00:02:24.300><c> this</c></c>
+
+00:02:24.500 --> 00:02:24.510 align:start position:0%
+<c.colorCCCCCC>you also want</c><c.colorE5E5E5> to see how</c><c.colorCCCCCC> all</c><c.colorE5E5E5> this
+ </c>
+
+00:02:24.510 --> 00:02:26.210 align:start position:0%
+<c.colorCCCCCC>you also want</c><c.colorE5E5E5> to see how</c><c.colorCCCCCC> all</c><c.colorE5E5E5> this
+interferes<00:02:25.200><c> with</c><00:02:25.410><c> named</c><00:02:25.620><c> entity</c><00:02:26.070><c> extraction</c></c>
+
+00:02:26.210 --> 00:02:26.220 align:start position:0%
+interferes with named entity extraction
+ 
+
+00:02:26.220 --> 00:02:29.030 align:start position:0%
+interferes with named entity extraction
+<c.colorE5E5E5>because<00:02:26.880><c> if</c><00:02:27.060><c> you</c><00:02:27.180><c> see</c></c><c.colorCCCCCC><00:02:27.390><c> USA</c><00:02:28.110><c> capital</c><00:02:28.740><c> letters</c></c>
+
+00:02:29.030 --> 00:02:29.040 align:start position:0%
+<c.colorE5E5E5>because if you see</c><c.colorCCCCCC> USA capital letters
+ </c>
+
+00:02:29.040 --> 00:02:30.740 align:start position:0%
+<c.colorE5E5E5>because if you see</c><c.colorCCCCCC> USA capital letters</c>
+<c.colorE5E5E5>that<00:02:29.430><c> can</c><00:02:29.610><c> easily</c><00:02:29.790><c> be</c><00:02:30.090><c> picked</c><00:02:30.270><c> up</c><00:02:30.480><c> by</c><00:02:30.690><c> the</c></c>
+
+00:02:30.740 --> 00:02:30.750 align:start position:0%
+<c.colorE5E5E5>that can easily be picked up by the
+ </c>
+
+00:02:30.750 --> 00:02:32.570 align:start position:0%
+<c.colorE5E5E5>that can easily be picked up by the
+named<00:02:31.050><c> entity</c><00:02:31.410><c> recognizer</c><00:02:31.860><c> as</c><00:02:32.100><c> a</c><00:02:32.130><c> country</c></c>
+
+00:02:32.570 --> 00:02:32.580 align:start position:0%
+named entity recognizer as a country
+ 
+
+00:02:32.580 --> 00:02:34.730 align:start position:0%
+named entity recognizer as a country
+name<00:02:32.730><c> but</c><00:02:32.940><c> if</c><00:02:33.060><c> you</c><00:02:33.150><c> have</c><00:02:33.360><c> a</c><00:02:33.660><c> text</c><00:02:34.260><c> in</c><c.colorE5E5E5><00:02:34.350><c> a</c><00:02:34.440><c> foreign</c></c>
+
+00:02:34.730 --> 00:02:34.740 align:start position:0%
+name but if you have a text in<c.colorE5E5E5> a foreign
+ </c>
+
+00:02:34.740 --> 00:02:37.070 align:start position:0%
+name but if you have a text in<c.colorE5E5E5> a foreign
+language<00:02:34.890><c> for</c></c><c.colorCCCCCC><00:02:35.100><c> example</c><00:02:35.360><c> Musa</c><00:02:36.360><c> in</c><00:02:36.420><c> Spanish</c></c>
+
+00:02:37.070 --> 00:02:37.080 align:start position:0%
+language<c.colorE5E5E5> for</c><c.colorCCCCCC> example Musa in Spanish
+ </c>
+
+00:02:37.080 --> 00:02:41.240 align:start position:0%
+language<c.colorE5E5E5> for</c><c.colorCCCCCC> example Musa in Spanish
+means</c><c.colorE5E5E5><00:02:37.290><c> he</c><00:02:37.710><c> uses</c><00:02:38.690><c> that</c><00:02:39.690><c> would</c><00:02:40.350><c> confuse</c><00:02:41.040><c> the</c></c>
+
+00:02:41.240 --> 00:02:41.250 align:start position:0%
+means<c.colorE5E5E5> he uses that would confuse the
+ </c>
+
+00:02:41.250 --> 00:02:45.320 align:start position:0%
+means<c.colorE5E5E5> he uses that would confuse the
+named<00:02:41.430><c> entity</c><00:02:41.850><c> recognizer</c></c><c.colorCCCCCC><00:02:44.210><c> there</c><00:02:45.210><c> is</c><00:02:45.270><c> a</c></c>
+
+00:02:45.320 --> 00:02:45.330 align:start position:0%
+named entity recognizer<c.colorCCCCCC> there is a
+ </c>
+
+00:02:45.330 --> 00:02:47.420 align:start position:0%
+named entity recognizer<c.colorCCCCCC> there is a
+distinction</c><c.colorE5E5E5><00:02:45.720><c> to</c><00:02:45.960><c> be</c><00:02:45.990><c> made</c><00:02:46.110><c> between</c><00:02:46.350><c> types</c><00:02:47.130><c> and</c></c>
+
+00:02:47.420 --> 00:02:47.430 align:start position:0%
+distinction<c.colorE5E5E5> to be made between types and
+ </c>
+
+00:02:47.430 --> 00:02:50.840 align:start position:0%
+distinction<c.colorE5E5E5> to be made between types and
+tokens</c><c.colorCCCCCC><00:02:47.940><c> so</c><00:02:48.600><c> a</c><00:02:48.630><c> type</c><00:02:49.050><c> is</c><00:02:49.470><c> any</c><00:02:50.070><c> sequence</c><00:02:50.700><c> of</c></c>
+
+00:02:50.840 --> 00:02:50.850 align:start position:0%
+tokens<c.colorCCCCCC> so a type is any sequence of
+ </c>
+
+00:02:50.850 --> 00:02:53.000 align:start position:0%
+tokens<c.colorCCCCCC> so a type is any sequence of
+characters<00:02:51.150><c> that</c><00:02:51.390><c> represents</c><00:02:52.350><c> a</c><00:02:52.410><c> specific</c></c>
+
+00:02:53.000 --> 00:02:53.010 align:start position:0%
+characters that represents a specific
+ 
+
+00:02:53.010 --> 00:02:56.840 align:start position:0%
+characters that represents a specific
+<c.colorE5E5E5>word<00:02:53.610><c> whereas</c><00:02:54.600><c> a</c><00:02:54.630><c> token</c><00:02:55.200><c> is</c><00:02:55.410><c> any</c></c><c.colorCCCCCC><00:02:56.040><c> occurrence</c></c>
+
+00:02:56.840 --> 00:02:56.850 align:start position:0%
+<c.colorE5E5E5>word whereas a token is any</c><c.colorCCCCCC> occurrence
+ </c>
+
+00:02:56.850 --> 00:03:00.199 align:start position:0%
+<c.colorE5E5E5>word whereas a token is any</c><c.colorCCCCCC> occurrence
+of<00:02:57.030><c> a</c><00:02:57.150><c> type</c></c><c.colorE5E5E5><00:02:57.500><c> so</c><00:02:58.500><c> a</c><00:02:58.530><c> word</c><00:02:58.890><c> type</c><00:02:59.310><c> may</c><00:02:59.520><c> appear</c></c><c.colorCCCCCC><00:02:59.880><c> just</c></c>
+
+00:03:00.199 --> 00:03:00.209 align:start position:0%
+of a type<c.colorE5E5E5> so a word type may appear</c><c.colorCCCCCC> just
+ </c>
+
+00:03:00.209 --> 00:03:02.330 align:start position:0%
+of a type<c.colorE5E5E5> so a word type may appear</c><c.colorCCCCCC> just
+once</c><c.colorE5E5E5><00:03:00.480><c> in</c><00:03:00.840><c> a</c><00:03:00.990><c> document</c><00:03:01.410><c> but</c><00:03:01.650><c> the</c><00:03:01.680><c> token</c><00:03:02.190><c> may</c></c>
+
+00:03:02.330 --> 00:03:02.340 align:start position:0%
+once<c.colorE5E5E5> in a document but the token may
+ </c>
+
+00:03:02.340 --> 00:03:04.550 align:start position:0%
+once<c.colorE5E5E5> in a document but the token may
+appear<00:03:02.580><c> multiple</c></c><c.colorCCCCCC><00:03:02.820><c> times</c><00:03:03.360><c> so</c><00:03:03.600><c> in</c><00:03:03.690><c> the</c><00:03:03.870><c> sentence</c></c>
+
+00:03:04.550 --> 00:03:04.560 align:start position:0%
+appear multiple<c.colorCCCCCC> times so in the sentence
+ </c>
+
+00:03:04.560 --> 00:03:06.230 align:start position:0%
+appear multiple<c.colorCCCCCC> times so in the sentence
+to</c><c.colorE5E5E5><00:03:05.160><c> be</c><00:03:05.340><c> or</c></c><c.colorCCCCCC><00:03:05.459><c> not</c><00:03:05.580><c> to</c><00:03:05.640><c> be</c></c>
+
+00:03:06.230 --> 00:03:06.240 align:start position:0%
+to<c.colorE5E5E5> be or</c><c.colorCCCCCC> not to be
+ </c>
+
+00:03:06.240 --> 00:03:12.080 align:start position:0%
+to<c.colorE5E5E5> be or</c><c.colorCCCCCC> not to be
+we<00:03:06.690><c> have</c><00:03:06.959><c> four</c><00:03:07.740><c> types</c><00:03:07.980><c> to</c><00:03:08.910><c> be</c></c><c.colorE5E5E5><00:03:09.360><c> or</c><00:03:10.020><c> and</c></c><c.colorCCCCCC><00:03:10.620><c> not</c><00:03:11.090><c> but</c></c>
+
+00:03:12.080 --> 00:03:12.090 align:start position:0%
+we have four types to be<c.colorE5E5E5> or and</c><c.colorCCCCCC> not but
+ </c>
+
+00:03:12.090 --> 00:03:14.780 align:start position:0%
+we have four types to be<c.colorE5E5E5> or and</c><c.colorCCCCCC> not but
+we<00:03:12.330><c> have</c><00:03:12.360><c> six</c></c><c.colorE5E5E5><00:03:12.870><c> talk</c><00:03:13.140><c> is</c><00:03:13.350><c> because</c><00:03:13.709><c> the</c><00:03:13.890><c> types</c></c><c.colorCCCCCC><00:03:14.280><c> 2</c></c>
+
+00:03:14.780 --> 00:03:14.790 align:start position:0%
+we have<c.colorCCCCCC> six</c><c.colorE5E5E5> talk is because the types</c><c.colorCCCCCC> 2
+ </c>
+
+00:03:14.790 --> 00:03:19.160 align:start position:0%
+we have<c.colorCCCCCC> six</c><c.colorE5E5E5> talk is because the types</c><c.colorCCCCCC> 2
+and</c><c.colorE5E5E5><00:03:15.150><c> B</c><00:03:15.360><c> appear</c><00:03:15.900><c> twice</c><00:03:16.080><c> each</c><00:03:17.720><c> we</c><00:03:18.720><c> need</c><00:03:18.870><c> to</c><00:03:19.020><c> do</c></c>
+
+00:03:19.160 --> 00:03:19.170 align:start position:0%
+and<c.colorE5E5E5> B appear twice each we need to do
+ </c>
+
+00:03:19.170 --> 00:03:21.740 align:start position:0%
+and<c.colorE5E5E5> B appear twice each we need to do</c>
+<c.colorE5E5E5>also<00:03:19.440><c> something</c><00:03:19.620><c> called</c><00:03:19.740><c> tokenization</c></c><c.colorCCCCCC><00:03:20.660><c> so</c><00:03:21.660><c> in</c></c>
+
+00:03:21.740 --> 00:03:21.750 align:start position:0%
+<c.colorE5E5E5>also something called tokenization</c><c.colorCCCCCC> so in
+ </c>
+
+00:03:21.750 --> 00:03:24.770 align:start position:0%
+<c.colorE5E5E5>also something called tokenization</c><c.colorCCCCCC> so in
+tokenization<00:03:22.170><c> we</c><00:03:22.740><c> have</c><00:03:23.240><c> periods</c><00:03:24.240><c> and</c></c><c.colorE5E5E5><00:03:24.570><c> other</c></c>
+
+00:03:24.770 --> 00:03:24.780 align:start position:0%
+tokenization we have periods and<c.colorE5E5E5> other
+ </c>
+
+00:03:24.780 --> 00:03:26.720 align:start position:0%
+tokenization we have periods and<c.colorE5E5E5> other
+punctuation<00:03:25.080><c> symbols</c><00:03:25.680><c> in</c><00:03:26.040><c> the</c><00:03:26.130><c> middle</c><00:03:26.459><c> of</c><00:03:26.580><c> the</c></c>
+
+00:03:26.720 --> 00:03:26.730 align:start position:0%
+punctuation symbols in the middle of the
+ 
+
+00:03:26.730 --> 00:03:29.240 align:start position:0%
+punctuation symbols in the middle of the
+text<c.colorE5E5E5><00:03:26.940><c> and</c><00:03:27.320><c> we</c><00:03:28.320><c> need</c><00:03:28.470><c> to</c><00:03:28.590><c> figure</c><00:03:28.709><c> out</c><00:03:28.890><c> where</c></c>
+
+00:03:29.240 --> 00:03:29.250 align:start position:0%
+text<c.colorE5E5E5> and we need to figure out where
+ </c>
+
+00:03:29.250 --> 00:03:31.550 align:start position:0%
+text<c.colorE5E5E5> and we need to figure out where
+words<00:03:29.670><c> start</c><00:03:30.209><c> and</c><00:03:30.450><c> where</c><00:03:30.630><c> words</c><00:03:30.870><c> end</c><00:03:31.260><c> for</c></c>
+
+00:03:31.550 --> 00:03:31.560 align:start position:0%
+words start and where words<c.colorE5E5E5> end for
+ </c>
+
+00:03:31.560 --> 00:03:34.009 align:start position:0%
+words start and where words<c.colorE5E5E5> end for
+example</c><c.colorCCCCCC><00:03:31.650><c> we</c><00:03:32.070><c> want</c><00:03:32.310><c> to</c></c><c.colorE5E5E5><00:03:32.370><c> collapse</c><00:03:32.790><c> together</c></c><c.colorCCCCCC><00:03:33.030><c> ALS</c></c>
+
+00:03:34.009 --> 00:03:34.019 align:start position:0%
+example<c.colorCCCCCC> we want to</c><c.colorE5E5E5> collapse together</c><c.colorCCCCCC> ALS
+ </c>
+
+00:03:34.019 --> 00:03:36.620 align:start position:0%
+example<c.colorCCCCCC> we want to</c><c.colorE5E5E5> collapse together</c><c.colorCCCCCC> ALS
+without<00:03:34.800><c> the</c><00:03:34.950><c> periods</c><00:03:35.430><c> with</c><00:03:35.580><c> ALS</c><00:03:36.239><c> with</c><00:03:36.480><c> the</c></c>
+
+00:03:36.620 --> 00:03:36.630 align:start position:0%
+without the periods with ALS with the
+ 
+
+00:03:36.630 --> 00:03:39.140 align:start position:0%
+without the periods with ALS with the
+periods<c.colorE5E5E5><00:03:37.050><c> and</c></c><c.colorCCCCCC><00:03:37.290><c> not</c><00:03:37.530><c> assume</c><00:03:37.950><c> that</c></c><c.colorE5E5E5><00:03:37.980><c> the</c><00:03:38.730><c> second</c></c>
+
+00:03:39.140 --> 00:03:39.150 align:start position:0%
+periods<c.colorE5E5E5> and</c><c.colorCCCCCC> not assume that</c><c.colorE5E5E5> the second
+ </c>
+
+00:03:39.150 --> 00:03:40.970 align:start position:0%
+periods<c.colorE5E5E5> and</c><c.colorCCCCCC> not assume that</c><c.colorE5E5E5> the second
+example<00:03:39.480><c> tells</c><00:03:39.989><c> us</c><00:03:40.200><c> that</c><00:03:40.350><c> there</c><00:03:40.560><c> really</c></c><c.colorCCCCCC><00:03:40.650><c> three</c></c>
+
+00:03:40.970 --> 00:03:40.980 align:start position:0%
+example<c.colorE5E5E5> tells us that there really</c><c.colorCCCCCC> three
+ </c>
+
+00:03:40.980 --> 00:03:42.860 align:start position:0%
+example<c.colorE5E5E5> tells us that there really</c><c.colorCCCCCC> three
+sentences<00:03:41.580><c> and</c><00:03:41.760><c> the</c><00:03:41.880><c> periods</c></c><c.colorE5E5E5><00:03:42.239><c> mean</c><00:03:42.420><c> sentence</c></c>
+
+00:03:42.860 --> 00:03:42.870 align:start position:0%
+sentences and the periods<c.colorE5E5E5> mean sentence
+ </c>
+
+00:03:42.870 --> 00:03:46.370 align:start position:0%
+sentences and the periods<c.colorE5E5E5> mean sentence
+boundaries<00:03:44.120><c> identifying</c><00:03:45.120><c> the</c><00:03:45.600><c> boundaries</c><00:03:46.260><c> of</c></c>
+
+00:03:46.370 --> 00:03:46.380 align:start position:0%
+boundaries identifying the boundaries of
+ 
+
+00:03:46.380 --> 00:03:48.080 align:start position:0%
+boundaries identifying the boundaries of
+words<00:03:46.800><c> and</c><c.colorE5E5E5><00:03:46.950><c> sentences</c></c><c.colorCCCCCC><00:03:47.100><c> can</c><00:03:47.550><c> be</c><00:03:47.760><c> actually</c></c><c.colorE5E5E5><00:03:47.910><c> very</c></c>
+
+00:03:48.080 --> 00:03:48.090 align:start position:0%
+words and<c.colorE5E5E5> sentences</c><c.colorCCCCCC> can be actually</c><c.colorE5E5E5> very
+ </c>
+
+00:03:48.090 --> 00:03:51.440 align:start position:0%
+words and<c.colorE5E5E5> sentences</c><c.colorCCCCCC> can be actually</c><c.colorE5E5E5> very
+tricky</c><c.colorCCCCCC><00:03:48.480><c> for</c><00:03:49.170><c> example</c><00:03:49.980><c> paws</c><00:03:50.370><c> with</c><00:03:50.790><c> apostrophe</c></c>
+
+00:03:51.440 --> 00:03:51.450 align:start position:0%
+<c.colorE5E5E5>tricky</c><c.colorCCCCCC> for example paws with apostrophe
+ </c>
+
+00:03:51.450 --> 00:03:54.140 align:start position:0%
+<c.colorE5E5E5>tricky</c><c.colorCCCCCC> for example paws with apostrophe
+s</c><c.colorE5E5E5><00:03:51.480><c> do</c><00:03:51.930><c> we</c><00:03:52.050><c> split</c></c><c.colorCCCCCC><00:03:52.350><c> the</c><00:03:52.709><c> apostrophe</c><00:03:53.310><c> or</c><00:03:53.340><c> not</c><00:03:53.550><c> we</c></c>
+
+00:03:54.140 --> 00:03:54.150 align:start position:0%
+s<c.colorE5E5E5> do we split</c><c.colorCCCCCC> the apostrophe or not we
+ </c>
+
+00:03:54.150 --> 00:03:55.759 align:start position:0%
+s<c.colorE5E5E5> do we split</c><c.colorCCCCCC> the apostrophe or not we
+have<00:03:54.330><c> to</c><00:03:54.480><c> make</c><00:03:54.600><c> a</c></c><c.colorE5E5E5><00:03:54.630><c> decision</c><00:03:55.200><c> and</c><00:03:55.350><c> then</c><00:03:55.500><c> use</c><00:03:55.739><c> it</c></c>
+
+00:03:55.759 --> 00:03:55.769 align:start position:0%
+have<c.colorCCCCCC> to make a</c><c.colorE5E5E5> decision and then use it
+ </c>
+
+00:03:55.769 --> 00:03:57.440 align:start position:0%
+have<c.colorCCCCCC> to make a</c><c.colorE5E5E5> decision and then use it</c>
+<c.colorCCCCCC>consistently<00:03:56.519><c> throughout</c><00:03:56.880><c> the</c><00:03:57.150><c> entire</c></c>
+
+00:03:57.440 --> 00:03:57.450 align:start position:0%
+<c.colorCCCCCC>consistently throughout the entire
+ </c>
+
+00:03:57.450 --> 00:04:00.650 align:start position:0%
+<c.colorCCCCCC>consistently throughout the entire</c>
+<c.colorE5E5E5>natural<00:03:58.019><c> language</c><00:03:58.290><c> pipeline</c><00:03:59.420><c> there</c><00:04:00.420><c> are</c><00:04:00.510><c> some</c></c>
+
+00:04:00.650 --> 00:04:00.660 align:start position:0%
+<c.colorE5E5E5>natural language pipeline there are some
+ </c>
+
+00:04:00.660 --> 00:04:02.690 align:start position:0%
+<c.colorE5E5E5>natural language pipeline there are some
+abbreviations</c><c.colorCCCCCC><00:04:00.959><c> that</c><00:04:01.680><c> end</c><00:04:01.920><c> in</c><00:04:02.160><c> punctuation</c></c>
+
+00:04:02.690 --> 00:04:02.700 align:start position:0%
+abbreviations<c.colorCCCCCC> that end in punctuation
+ </c>
+
+00:04:02.700 --> 00:04:05.240 align:start position:0%
+abbreviations<c.colorCCCCCC> that end in punctuation
+and<00:04:03.510><c> they</c><00:04:04.019><c> can</c><00:04:04.200><c> be</c><00:04:04.290><c> very</c><00:04:04.320><c> confusing</c><00:04:04.920><c> sometimes</c></c>
+
+00:04:05.240 --> 00:04:05.250 align:start position:0%
+and they can be very<c.colorCCCCCC> confusing sometimes
+ </c>
+
+00:04:05.250 --> 00:04:08.030 align:start position:0%
+and they can be very<c.colorCCCCCC> confusing sometimes</c>
+<c.colorE5E5E5>so<00:04:05.580><c> for</c><00:04:05.730><c> example</c></c><c.colorCCCCCC><00:04:06.150><c> willow</c><00:04:06.630><c> drive</c><00:04:06.860><c> ends</c><00:04:07.860><c> with</c></c>
+
+00:04:08.030 --> 00:04:08.040 align:start position:0%
+<c.colorE5E5E5>so for example</c><c.colorCCCCCC> willow drive ends with
+ </c>
+
+00:04:08.040 --> 00:04:09.590 align:start position:0%
+<c.colorE5E5E5>so for example</c><c.colorCCCCCC> willow drive ends with</c>
+<c.colorCCCCCC>the<00:04:08.130><c> punctuation</c><00:04:08.610><c> we</c><00:04:08.970><c> don't</c><00:04:09.150><c> want</c><00:04:09.300><c> to</c><00:04:09.420><c> split</c></c>
+
+00:04:09.590 --> 00:04:09.600 align:start position:0%
+<c.colorCCCCCC>the punctuation we don't want to split
+ </c>
+
+00:04:09.600 --> 00:04:12.770 align:start position:0%
+<c.colorCCCCCC>the punctuation we don't want to split</c>
+<c.colorCCCCCC>there</c><c.colorE5E5E5><00:04:09.930><c> it's</c><00:04:10.260><c> not</c><00:04:10.500><c> part</c><00:04:10.860><c> of</c><00:04:10.920><c> a</c><00:04:11.040><c> sentence</c><00:04:11.780><c> dr.</c></c>
+
+00:04:12.770 --> 00:04:12.780 align:start position:0%
+<c.colorCCCCCC>there</c><c.colorE5E5E5> it's not part of a sentence dr.
+ </c>
+
+00:04:12.780 --> 00:04:15.290 align:start position:0%
+<c.colorCCCCCC>there</c><c.colorE5E5E5> it's not part of a sentence dr.
+willow<00:04:13.140><c> look</c><00:04:13.590><c> have</c><00:04:13.709><c> the</c><00:04:13.860><c> same</c><00:04:14.070><c> words</c><00:04:14.370><c> and</c><00:04:14.760><c> we</c></c>
+
+00:04:15.290 --> 00:04:15.300 align:start position:0%
+willow look have<c.colorE5E5E5> the same words and we
+ </c>
+
+00:04:15.300 --> 00:04:17.000 align:start position:0%
+willow look have<c.colorE5E5E5> the same words and we
+don't</c><c.colorCCCCCC><00:04:15.330><c> want</c></c><c.colorE5E5E5><00:04:15.630><c> to</c><00:04:15.720><c> split</c><00:04:15.900><c> there</c><00:04:16.140><c> either</c><00:04:16.350><c> even</c></c>
+
+00:04:17.000 --> 00:04:17.010 align:start position:0%
+don't<c.colorCCCCCC> want</c><c.colorE5E5E5> to split there either even
+ </c>
+
+00:04:17.010 --> 00:04:20.240 align:start position:0%
+don't<c.colorCCCCCC> want</c><c.colorE5E5E5> to split there either even
+though<00:04:17.190><c> it</c><00:04:17.340><c> has</c><00:04:17.549><c> a</c><00:04:17.580><c> period</c><00:04:18.709><c> there</c></c><c.colorCCCCCC><00:04:19.709><c> are</c><00:04:19.890><c> cases</c></c>
+
+00:04:20.240 --> 00:04:20.250 align:start position:0%
+<c.colorE5E5E5>though it has a period there</c><c.colorCCCCCC> are cases
+ </c>
+
+00:04:20.250 --> 00:04:22.790 align:start position:0%
+<c.colorE5E5E5>though it has a period there</c><c.colorCCCCCC> are cases
+of<00:04:20.430><c> phrases</c><00:04:21.060><c> that</c></c><c.colorE5E5E5><00:04:21.090><c> have</c><00:04:21.989><c> to</c><00:04:22.200><c> be</c><00:04:22.260><c> used</c><00:04:22.560><c> as</c></c>
+
+00:04:22.790 --> 00:04:22.800 align:start position:0%
+of phrases that<c.colorE5E5E5> have to be used as
+ </c>
+
+00:04:22.800 --> 00:04:25.330 align:start position:0%
+of phrases that<c.colorE5E5E5> have to be used as
+chunks<00:04:23.490><c> for</c><00:04:23.640><c> example</c><00:04:24.090><c> New</c><00:04:24.300><c> York</c></c><c.colorCCCCCC><00:04:24.600><c> or</c><00:04:24.990><c> ad</c><00:04:25.169><c> hoc</c></c>
+
+00:04:25.330 --> 00:04:25.340 align:start position:0%
+chunks<c.colorE5E5E5> for example New York</c><c.colorCCCCCC> or ad hoc
+ </c>
+
+00:04:25.340 --> 00:04:28.400 align:start position:0%
+chunks<c.colorE5E5E5> for example New York</c><c.colorCCCCCC> or ad hoc</c>
+<c.colorCCCCCC>those<00:04:26.340><c> are</c><00:04:26.520><c> both</c><00:04:26.729><c> two</c><00:04:27.060><c> word</c><00:04:27.270><c> compounds</c><00:04:28.020><c> but</c><00:04:28.200><c> we</c></c>
+
+00:04:28.400 --> 00:04:28.410 align:start position:0%
+<c.colorCCCCCC>those are both two word compounds but we
+ </c>
+
+00:04:28.410 --> 00:04:30.200 align:start position:0%
+<c.colorCCCCCC>those are both two word compounds but we
+want<00:04:28.650><c> to</c><00:04:28.800><c> store</c></c><c.colorE5E5E5><00:04:29.130><c> them</c><00:04:29.370><c> as</c><00:04:29.490><c> ash</c><00:04:29.669><c> in</c><00:04:29.820><c> the</c><00:04:29.850><c> memory</c></c>
+
+00:04:30.200 --> 00:04:30.210 align:start position:0%
+want to store<c.colorE5E5E5> them as ash in the memory
+ </c>
+
+00:04:30.210 --> 00:04:34.100 align:start position:0%
+want to store<c.colorE5E5E5> them as ash in the memory
+of<00:04:30.300><c> the</c><00:04:30.390><c> computer</c><00:04:30.419><c> as</c><00:04:31.020><c> a</c><00:04:31.380><c> single</c><00:04:31.890><c> unit</c><00:04:33.110><c> other</c></c>
+
+00:04:34.100 --> 00:04:34.110 align:start position:0%
+<c.colorE5E5E5>of the computer as a single unit other
+ </c>
+
+00:04:34.110 --> 00:04:35.959 align:start position:0%
+<c.colorE5E5E5>of the computer as a single unit other
+punctuation<00:04:34.590><c> symbols</c><00:04:35.039><c> can</c><00:04:35.370><c> also</c><00:04:35.520><c> create</c></c>
+
+00:04:35.959 --> 00:04:35.969 align:start position:0%
+punctuation<c.colorE5E5E5> symbols can also create
+ </c>
+
+00:04:35.969 --> 00:04:37.519 align:start position:0%
+punctuation<c.colorE5E5E5> symbols can also create
+for<00:04:36.269><c> example</c><00:04:36.659><c> the</c><00:04:36.809><c> New</c><00:04:37.019><c> York</c><00:04:37.229><c> Los</c><00:04:37.499><c> Angeles</c></c>
+
+00:04:37.519 --> 00:04:37.529 align:start position:0%
+for example the<c.colorE5E5E5> New York Los Angeles
+ </c>
+
+00:04:37.529 --> 00:04:41.419 align:start position:0%
+for example the<c.colorE5E5E5> New York Los Angeles
+flight<00:04:38.479><c> if</c><00:04:39.479><c> we</c><00:04:39.779><c> split</c></c><c.colorCCCCCC><00:04:40.169><c> our</c></c><c.colorE5E5E5><00:04:40.469><c> spaces</c></c><c.colorCCCCCC><00:04:41.069><c> we're</c></c>
+
+00:04:41.419 --> 00:04:41.429 align:start position:0%
+flight<c.colorE5E5E5> if we split</c><c.colorCCCCCC> our</c><c.colorE5E5E5> spaces</c><c.colorCCCCCC> we're
+ </c>
+
+00:04:41.429 --> 00:04:44.419 align:start position:0%
+flight<c.colorE5E5E5> if we split</c><c.colorCCCCCC> our</c><c.colorE5E5E5> spaces</c><c.colorCCCCCC> we're
+going<00:04:41.639><c> to</c><00:04:41.759><c> assume</c><00:04:42.089><c> that</c><00:04:42.149><c> York</c><00:04:42.959><c> -</c><00:04:43.349><c> loss</c></c><c.colorE5E5E5><00:04:43.829><c> would</c></c>
+
+00:04:44.419 --> 00:04:44.429 align:start position:0%
+going to assume that York - loss<c.colorE5E5E5> would
+ </c>
+
+00:04:44.429 --> 00:04:46.549 align:start position:0%
+going to assume that York - loss<c.colorE5E5E5> would</c>
+<c.colorCCCCCC>be<00:04:44.610><c> a</c><00:04:44.639><c> word</c></c><c.colorE5E5E5><00:04:44.909><c> which</c><00:04:45.689><c> is</c><00:04:45.839><c> clearly</c><00:04:46.139><c> not</c></c><c.colorCCCCCC><00:04:46.259><c> the</c><00:04:46.409><c> case</c></c>
+
+00:04:46.549 --> 00:04:46.559 align:start position:0%
+<c.colorCCCCCC>be a word</c><c.colorE5E5E5> which is clearly not</c><c.colorCCCCCC> the case
+ </c>
+
+00:04:46.559 --> 00:04:50.689 align:start position:0%
+<c.colorCCCCCC>be a word</c><c.colorE5E5E5> which is clearly not</c><c.colorCCCCCC> the case</c>
+<c.colorE5E5E5>here</c><c.colorCCCCCC><00:04:47.329><c> we</c><00:04:48.329><c> want</c><00:04:48.599><c> to</c><00:04:48.689><c> split</c><00:04:49.019><c> this</c><00:04:49.529><c> phrase</c><00:04:50.279><c> into</c></c>
+
+00:04:50.689 --> 00:04:50.699 align:start position:0%
+<c.colorE5E5E5>here</c><c.colorCCCCCC> we want to split this phrase into
+ </c>
+
+00:04:50.699 --> 00:04:54.679 align:start position:0%
+<c.colorE5E5E5>here</c><c.colorCCCCCC> we want to split this phrase into
+New</c><c.colorE5E5E5><00:04:50.909><c> York</c><00:04:51.259><c> -</c><00:04:52.259><c> Los</c><00:04:53.009><c> Angeles</c></c><c.colorCCCCCC><00:04:53.239><c> that</c><00:04:54.239><c> would</c><00:04:54.449><c> be</c><00:04:54.569><c> the</c></c>
+
+00:04:54.679 --> 00:04:54.689 align:start position:0%
+New<c.colorE5E5E5> York - Los Angeles</c><c.colorCCCCCC> that would be the
+ </c>
+
+00:04:54.689 --> 00:04:57.679 align:start position:0%
+New<c.colorE5E5E5> York - Los Angeles</c><c.colorCCCCCC> that would be the
+correct</c><c.colorE5E5E5><00:04:54.869><c> way</c></c><c.colorCCCCCC><00:04:55.559><c> to</c><00:04:55.619><c> interpret</c></c><c.colorE5E5E5><00:04:56.099><c> it</c><00:04:56.569><c> notice</c><00:04:57.569><c> that</c></c>
+
+00:04:57.679 --> 00:04:57.689 align:start position:0%
+correct<c.colorE5E5E5> way</c><c.colorCCCCCC> to interpret</c><c.colorE5E5E5> it notice that
+ </c>
+
+00:04:57.689 --> 00:04:59.509 align:start position:0%
+correct<c.colorE5E5E5> way</c><c.colorCCCCCC> to interpret</c><c.colorE5E5E5> it notice that
+this<00:04:57.809><c> is</c><00:04:57.869><c> different</c><00:04:58.349><c> from</c><00:04:58.469><c> Minneapolis</c><00:04:59.249><c> st.</c></c>
+
+00:04:59.509 --> 00:04:59.519 align:start position:0%
+this<c.colorE5E5E5> is different from Minneapolis st.
+ </c>
+
+00:04:59.519 --> 00:05:01.489 align:start position:0%
+this<c.colorE5E5E5> is different from Minneapolis st.
+Paul</c><c.colorCCCCCC><00:04:59.610><c> which</c><00:05:00.179><c> is</c><00:05:00.329><c> the</c><00:05:00.479><c> name</c><00:05:00.659><c> of</c></c><c.colorE5E5E5><00:05:00.839><c> one</c><00:05:01.110><c> place</c></c>
+
+00:05:01.489 --> 00:05:01.499 align:start position:0%
+Paul<c.colorCCCCCC> which is the name of</c><c.colorE5E5E5> one place
+ </c>
+
+00:05:01.499 --> 00:05:04.669 align:start position:0%
+Paul<c.colorCCCCCC> which is the name of</c><c.colorE5E5E5> one place
+rather</c><c.colorCCCCCC><00:05:02.039><c> than</c><00:05:02.569><c> the</c></c><c.colorE5E5E5><00:05:03.569><c> example</c></c><c.colorCCCCCC><00:05:04.049><c> that</c><00:05:04.229><c> we</c><00:05:04.349><c> had</c><00:05:04.529><c> on</c></c>
+
+00:05:04.669 --> 00:05:04.679 align:start position:0%
+rather<c.colorCCCCCC> than the</c><c.colorE5E5E5> example</c><c.colorCCCCCC> that we had on
+ </c>
+
+00:05:04.679 --> 00:05:07.579 align:start position:0%
+rather<c.colorCCCCCC> than the</c><c.colorE5E5E5> example</c><c.colorCCCCCC> that we had on
+the<00:05:04.799><c> left</c><00:05:05.869><c> numbers</c></c><c.colorE5E5E5><00:05:06.869><c> can</c><00:05:07.049><c> be</c><00:05:07.079><c> very</c><00:05:07.349><c> challenging</c></c>
+
+00:05:07.579 --> 00:05:07.589 align:start position:0%
+the left<c.colorCCCCCC> numbers</c><c.colorE5E5E5> can be very challenging
+ </c>
+
+00:05:07.589 --> 00:05:10.669 align:start position:0%
+the left<c.colorCCCCCC> numbers</c><c.colorE5E5E5> can be very challenging</c>
+<c.colorCCCCCC>we<00:05:08.459><c> see</c><00:05:08.699><c> often</c><00:05:09.089><c> phone</c><00:05:09.449><c> numbers</c></c><c.colorE5E5E5><00:05:09.989><c> and</c><00:05:10.379><c> dates</c></c>
+
+00:05:10.669 --> 00:05:10.679 align:start position:0%
+<c.colorCCCCCC>we see often phone numbers</c><c.colorE5E5E5> and dates
+ </c>
+
+00:05:10.679 --> 00:05:13.159 align:start position:0%
+<c.colorCCCCCC>we see often phone numbers</c><c.colorE5E5E5> and dates</c>
+<c.colorE5E5E5>that<00:05:11.219><c> can</c><00:05:11.399><c> be</c><00:05:11.549><c> in</c><00:05:11.610><c> very</c><00:05:11.789><c> different</c><00:05:11.999><c> formats</c></c><c.colorCCCCCC><00:05:12.509><c> it</c></c>
+
+00:05:13.159 --> 00:05:13.169 align:start position:0%
+<c.colorE5E5E5>that can be in very different formats</c><c.colorCCCCCC> it
+ </c>
+
+00:05:13.169 --> 00:05:14.989 align:start position:0%
+<c.colorE5E5E5>that can be in very different formats</c><c.colorCCCCCC> it
+may<00:05:13.409><c> be</c><00:05:13.469><c> very</c><00:05:13.739><c> useful</c><00:05:13.799><c> to</c><00:05:14.279><c> recognize</c></c><c.colorE5E5E5><00:05:14.429><c> that</c></c>
+
+00:05:14.989 --> 00:05:14.999 align:start position:0%
+may be<c.colorCCCCCC> very useful to recognize</c><c.colorE5E5E5> that
+ </c>
+
+00:05:14.999 --> 00:05:18.649 align:start position:0%
+may be<c.colorCCCCCC> very useful to recognize</c><c.colorE5E5E5> that
+this<00:05:15.299><c> entire</c><00:05:15.689><c> sequence</c></c><c.colorCCCCCC><00:05:15.959><c> 8</c><00:05:16.349><c> 8</c><00:05:16.589><c> 8</c><00:05:16.619><c> 5</c><00:05:17.189><c> 5</c><00:05:17.459><c> 5</c></c><c.colorE5E5E5><00:05:17.729><c> 13</c><00:05:18.209><c> 13</c></c>
+
+00:05:18.649 --> 00:05:18.659 align:start position:0%
+this entire<c.colorE5E5E5> sequence</c><c.colorCCCCCC> 8 8 8 5 5 5</c><c.colorE5E5E5> 13 13
+ </c>
+
+00:05:18.659 --> 00:05:21.589 align:start position:0%
+this entire<c.colorE5E5E5> sequence</c><c.colorCCCCCC> 8 8 8 5 5 5</c><c.colorE5E5E5> 13 13
+is<00:05:18.809><c> a</c><00:05:18.839><c> single</c></c><c.colorCCCCCC><00:05:19.289><c> number</c><00:05:19.709><c> and</c><00:05:19.969><c> also</c></c><c.colorE5E5E5><00:05:20.969><c> that</c><00:05:21.299><c> it</c><00:05:21.419><c> is</c></c>
+
+00:05:21.589 --> 00:05:21.599 align:start position:0%
+is a single<c.colorCCCCCC> number and also</c><c.colorE5E5E5> that it is
+ </c>
+
+00:05:21.599 --> 00:05:23.359 align:start position:0%
+is a single<c.colorCCCCCC> number and also</c><c.colorE5E5E5> that it is
+the<00:05:21.719><c> same</c></c><c.colorCCCCCC><00:05:21.959><c> number</c><00:05:22.349><c> as</c><00:05:22.379><c> the</c><00:05:22.619><c> one</c><00:05:22.799><c> shown</c></c><c.colorE5E5E5><00:05:23.039><c> on</c><00:05:23.099><c> the</c></c>
+
+00:05:23.359 --> 00:05:23.369 align:start position:0%
+the same<c.colorCCCCCC> number as the one shown</c><c.colorE5E5E5> on the
+ </c>
+
+00:05:23.369 --> 00:05:25.339 align:start position:0%
+the same<c.colorCCCCCC> number as the one shown</c><c.colorE5E5E5> on the</c>
+<c.colorCCCCCC>right<00:05:23.519><c> hand</c><00:05:23.729><c> side</c><00:05:23.999><c> the</c><00:05:24.839><c> same</c></c><c.colorE5E5E5><00:05:24.989><c> thing</c><00:05:25.169><c> goes</c><00:05:25.319><c> for</c></c>
+
+00:05:25.339 --> 00:05:25.349 align:start position:0%
+<c.colorCCCCCC>right hand side the same</c><c.colorE5E5E5> thing goes for
+ </c>
+
+00:05:25.349 --> 00:05:27.019 align:start position:0%
+<c.colorCCCCCC>right hand side the same</c><c.colorE5E5E5> thing goes for
+dates<00:05:25.799><c> which</c><00:05:26.129><c> can</c><00:05:26.339><c> be</c><00:05:26.459><c> spelled</c><00:05:26.729><c> in</c><00:05:26.849><c> many</c></c>
+
+00:05:27.019 --> 00:05:27.029 align:start position:0%
+dates which can be spelled<c.colorE5E5E5> in many
+ </c>
+
+00:05:27.029 --> 00:05:31.459 align:start position:0%
+dates which can be spelled<c.colorE5E5E5> in many
+different<00:05:27.239><c> ways</c></c><c.colorCCCCCC><00:05:27.860><c> January</c><00:05:28.860><c> -</c><00:05:29.069><c> 13</c></c><c.colorE5E5E5><00:05:29.699><c> -</c><00:05:29.909><c> 2012</c></c><c.colorCCCCCC><00:05:30.779><c> vs.</c></c>
+
+00:05:31.459 --> 00:05:31.469 align:start position:0%
+different<c.colorE5E5E5> ways</c><c.colorCCCCCC> January - 13</c><c.colorE5E5E5> - 2012</c><c.colorCCCCCC> vs.
+ </c>
+
+00:05:31.469 --> 00:05:37.489 align:start position:0%
+different<c.colorE5E5E5> ways</c><c.colorCCCCCC> January - 13</c><c.colorE5E5E5> - 2012</c><c.colorCCCCCC> vs.
+2012</c><c.colorE5E5E5><00:05:32.339><c> 0</c><00:05:32.789><c> 1</c><00:05:32.999><c> 13</c></c><c.colorCCCCCC><00:05:33.539><c> vs.</c><00:05:34.249><c> 13th</c></c><c.colorE5E5E5><00:05:35.249><c> January</c><00:05:36.149><c> 2012</c><00:05:36.959><c> and</c><00:05:37.349><c> so</c></c>
+
+00:05:37.489 --> 00:05:37.499 align:start position:0%
+2012<c.colorE5E5E5> 0 1 13</c><c.colorCCCCCC> vs. 13th</c><c.colorE5E5E5> January 2012 and so
+ </c>
+
+00:05:37.499 --> 00:05:39.469 align:start position:0%
+2012<c.colorE5E5E5> 0 1 13</c><c.colorCCCCCC> vs. 13th</c><c.colorE5E5E5> January 2012 and so
+on</c><c.colorCCCCCC><00:05:37.679><c> the</c><00:05:38.159><c> new</c><00:05:38.489><c> or</c><00:05:38.610><c> else</c><00:05:38.789><c> can</c><00:05:38.999><c> also</c><00:05:39.149><c> be</c><00:05:39.329><c> very</c></c>
+
+00:05:39.469 --> 00:05:39.479 align:start position:0%
+on<c.colorCCCCCC> the new or else can also be very
+ </c>
+
+00:05:39.479 --> 00:05:42.979 align:start position:0%
+on<c.colorCCCCCC> the new or else can also be very</c>
+<c.colorE5E5E5>problematic</c><c.colorCCCCCC><00:05:39.689><c> because</c><00:05:40.469><c> they</c><00:05:41.339><c> have</c><00:05:41.989><c> portions</c></c>
+
+00:05:42.979 --> 00:05:42.989 align:start position:0%
+<c.colorE5E5E5>problematic</c><c.colorCCCCCC> because they have portions
+ </c>
+
+00:05:42.989 --> 00:05:44.989 align:start position:0%
+<c.colorE5E5E5>problematic</c><c.colorCCCCCC> because they have portions
+that<00:05:43.319><c> are</c><00:05:43.469><c> separated</c><00:05:44.009><c> with</c><00:05:44.129><c> slashes</c></c><c.colorE5E5E5><00:05:44.519><c> and</c></c>
+
+00:05:44.989 --> 00:05:44.999 align:start position:0%
+that are separated with slashes<c.colorE5E5E5> and
+ </c>
+
+00:05:44.999 --> 00:05:47.809 align:start position:0%
+that are separated with slashes<c.colorE5E5E5> and
+periods<00:05:45.619><c> some</c><00:05:46.619><c> of</c><00:05:46.739><c> those</c><00:05:46.860><c> portions</c><00:05:47.249><c> may</c><00:05:47.579><c> look</c></c>
+
+00:05:47.809 --> 00:05:47.819 align:start position:0%
+periods some of those portions<c.colorE5E5E5> may look
+ </c>
+
+00:05:47.819 --> 00:05:49.639 align:start position:0%
+periods some of those portions<c.colorE5E5E5> may look
+like<00:05:47.999><c> words</c><00:05:48.449><c> and</c></c><c.colorCCCCCC><00:05:48.719><c> if</c><00:05:49.199><c> we</c></c><c.colorE5E5E5><00:05:49.349><c> don't</c><00:05:49.529><c> recognize</c></c>
+
+00:05:49.639 --> 00:05:49.649 align:start position:0%
+like words<c.colorE5E5E5> and</c><c.colorCCCCCC> if we</c><c.colorE5E5E5> don't recognize
+ </c>
+
+00:05:49.649 --> 00:05:51.709 align:start position:0%
+like words<c.colorE5E5E5> and</c><c.colorCCCCCC> if we</c><c.colorE5E5E5> don't recognize</c>
+<c.colorCCCCCC>that</c><c.colorE5E5E5><00:05:49.979><c> the</c><00:05:50.249><c> whole</c><00:05:50.459><c> unit</c><00:05:50.729><c> is</c><00:05:50.819><c> a</c><00:05:50.879><c> URL</c><00:05:51.300><c> we</c><00:05:51.539><c> may</c></c>
+
+00:05:51.709 --> 00:05:51.719 align:start position:0%
+<c.colorCCCCCC>that</c><c.colorE5E5E5> the whole unit is a URL we may
+ </c>
+
+00:05:51.719 --> 00:05:54.350 align:start position:0%
+<c.colorCCCCCC>that</c><c.colorE5E5E5> the whole unit is a URL we may
+erroneously<00:05:52.439><c> try</c><00:05:53.189><c> to</c><00:05:53.249><c> parse</c><00:05:53.669><c> it</c><00:05:53.879><c> into</c><00:05:53.969><c> its</c></c>
+
+00:05:54.350 --> 00:05:54.360 align:start position:0%
+erroneously try to parse it into<c.colorE5E5E5> its
+ </c>
+
+00:05:54.360 --> 00:05:58.159 align:start position:0%
+erroneously try to parse it into<c.colorE5E5E5> its
+individual<00:05:54.959><c> component</c><00:05:55.889><c> words</c><00:05:57.169><c> some</c></c>
+
+00:05:58.159 --> 00:05:58.169 align:start position:0%
+individual component words<c.colorE5E5E5> some
+ </c>
+
+00:05:58.169 --> 00:05:59.869 align:start position:0%
+individual component words<c.colorE5E5E5> some
+languages<00:05:58.589><c> have</c><00:05:58.649><c> additional</c><00:05:59.219><c> challenges</c><00:05:59.729><c> for</c></c>
+
+00:05:59.869 --> 00:05:59.879 align:start position:0%
+languages have<c.colorE5E5E5> additional challenges for
+ </c>
+
+00:05:59.879 --> 00:06:01.669 align:start position:0%
+languages have<c.colorE5E5E5> additional challenges for</c>
+<c.colorE5E5E5>example</c><c.colorCCCCCC><00:05:59.939><c> this</c><00:06:00.449><c> is</c><00:06:00.629><c> a</c><00:06:00.659><c> text</c><00:06:01.019><c> from</c><00:06:01.110><c> a</c></c><c.colorE5E5E5><00:06:01.199><c> new</c><00:06:01.349><c> story</c></c>
+
+00:06:01.669 --> 00:06:01.679 align:start position:0%
+<c.colorE5E5E5>example</c><c.colorCCCCCC> this is a text from a</c><c.colorE5E5E5> new story
+ </c>
+
+00:06:01.679 --> 00:06:04.939 align:start position:0%
+<c.colorE5E5E5>example</c><c.colorCCCCCC> this is a text from a</c><c.colorE5E5E5> new story
+in<00:06:01.739><c> Japanese</c><00:06:02.339><c> Japanese</c><00:06:03.269><c> just</c><00:06:03.989><c> like</c><00:06:04.169><c> Chinese</c></c>
+
+00:06:04.939 --> 00:06:04.949 align:start position:0%
+in Japanese Japanese just like Chinese
+ 
+
+00:06:04.949 --> 00:06:07.069 align:start position:0%
+in Japanese Japanese just like Chinese
+and<00:06:05.279><c> some</c><c.colorE5E5E5><00:06:05.489><c> other</c><00:06:05.669><c> languages</c><00:06:06.149><c> doesn't</c><00:06:06.629><c> use</c></c>
+
+00:06:07.069 --> 00:06:07.079 align:start position:0%
+and some<c.colorE5E5E5> other languages doesn't use
+ </c>
+
+00:06:07.079 --> 00:06:09.949 align:start position:0%
+and some<c.colorE5E5E5> other languages doesn't use
+word<00:06:08.009><c> boundaries</c><00:06:08.699><c> there</c><00:06:08.909><c> are</c><00:06:08.969><c> no</c><00:06:09.029><c> spaces</c><00:06:09.329><c> in</c></c>
+
+00:06:09.949 --> 00:06:09.959 align:start position:0%
+word boundaries<c.colorE5E5E5> there are no spaces in
+ </c>
+
+00:06:09.959 --> 00:06:14.059 align:start position:0%
+word boundaries<c.colorE5E5E5> there are no spaces in</c>
+<c.colorCCCCCC>between<00:06:10.409><c> words</c><00:06:12.110><c> so</c><00:06:13.110><c> it's</c><00:06:13.259><c> very</c></c><c.colorE5E5E5><00:06:13.379><c> difficult</c><00:06:13.889><c> to</c></c>
+
+00:06:14.059 --> 00:06:14.069 align:start position:0%
+<c.colorCCCCCC>between words so it's very</c><c.colorE5E5E5> difficult to
+ </c>
+
+00:06:14.069 --> 00:06:16.159 align:start position:0%
+<c.colorCCCCCC>between words so it's very</c><c.colorE5E5E5> difficult to
+figure<00:06:14.189><c> out</c><00:06:14.459><c> where</c><00:06:14.759><c> a</c><00:06:14.789><c> word</c><00:06:15.179><c> starts</c><00:06:15.719><c> an</c><00:06:15.839><c> award</c></c>
+
+00:06:16.159 --> 00:06:16.169 align:start position:0%
+figure<c.colorE5E5E5> out where a word starts an award
+ </c>
+
+00:06:16.169 --> 00:06:20.299 align:start position:0%
+figure<c.colorE5E5E5> out where a word starts an award
+ends</c><c.colorCCCCCC><00:06:17.059><c> +</c><00:06:18.059><c> furthermore</c></c><c.colorE5E5E5><00:06:18.689><c> just</c><00:06:19.619><c> use</c><00:06:19.799><c> this</c><00:06:19.949><c> example</c></c>
+
+00:06:20.299 --> 00:06:20.309 align:start position:0%
+ends<c.colorCCCCCC> + furthermore</c><c.colorE5E5E5> just use this example
+ </c>
+
+00:06:20.309 --> 00:06:22.729 align:start position:0%
+ends<c.colorCCCCCC> + furthermore</c><c.colorE5E5E5> just use this example</c>
+<c.colorE5E5E5>why<00:06:20.610><c> it's</c><00:06:20.789><c> showing</c><00:06:20.999><c> on</c><00:06:21.149><c> the</c><00:06:21.269><c> screen</c></c><c.colorCCCCCC><00:06:21.739><c> Japanese</c></c>
+
+00:06:22.729 --> 00:06:22.739 align:start position:0%
+<c.colorE5E5E5>why it's showing on the screen</c><c.colorCCCCCC> Japanese
+ </c>
+
+00:06:22.739 --> 00:06:25.159 align:start position:0%
+<c.colorE5E5E5>why it's showing on the screen</c><c.colorCCCCCC> Japanese
+has<00:06:22.979><c> 3</c><00:06:23.309><c> different</c><00:06:23.489><c> alphabets</c><00:06:24.209><c> katakana</c></c>
+
+00:06:25.159 --> 00:06:25.169 align:start position:0%
+has<c.colorCCCCCC> 3 different alphabets katakana
+ </c>
+
+00:06:25.169 --> 00:06:27.229 align:start position:0%
+has<c.colorCCCCCC> 3 different alphabets katakana
+hiragana<00:06:25.559><c> and</c><00:06:26.009><c> kanji</c><00:06:26.339><c> which</c></c><c.colorE5E5E5><00:06:26.610><c> has</c><00:06:26.969><c> to</c><00:06:27.119><c> be</c></c>
+
+00:06:27.229 --> 00:06:27.239 align:start position:0%
+hiragana and kanji which<c.colorE5E5E5> has to be
+ </c>
+
+00:06:27.239 --> 00:06:28.879 align:start position:0%
+hiragana and kanji which<c.colorE5E5E5> has to be
+separated<00:06:27.869><c> and</c><00:06:27.989><c> each</c><00:06:28.169><c> of</c><00:06:28.379><c> them</c><00:06:28.529><c> has</c><00:06:28.709><c> to</c><00:06:28.829><c> be</c></c>
+
+00:06:28.879 --> 00:06:28.889 align:start position:0%
+separated and each of them has<c.colorE5E5E5> to be
+ </c>
+
+00:06:28.889 --> 00:06:32.600 align:start position:0%
+separated and each of them has<c.colorE5E5E5> to be
+parsed<00:06:29.279><c> separately</c><00:06:30.739><c> so</c><00:06:31.739><c> would</c><00:06:31.949><c> segmentation</c></c>
+
+00:06:32.600 --> 00:06:32.610 align:start position:0%
+parsed separately so<c.colorE5E5E5> would segmentation
+ </c>
+
+00:06:32.610 --> 00:06:34.489 align:start position:0%
+parsed separately so<c.colorE5E5E5> would segmentation</c>
+<c.colorCCCCCC>can<00:06:32.789><c> be</c><00:06:32.909><c> very</c><00:06:33.119><c> difficult</c><00:06:33.329><c> let's</c></c><c.colorE5E5E5><00:06:34.199><c> look</c><00:06:34.379><c> at</c><00:06:34.469><c> a</c></c>
+
+00:06:34.489 --> 00:06:34.499 align:start position:0%
+<c.colorCCCCCC>can be very difficult let's</c><c.colorE5E5E5> look at a
+ </c>
+
+00:06:34.499 --> 00:06:36.469 align:start position:0%
+<c.colorCCCCCC>can be very difficult let's</c><c.colorE5E5E5> look at a
+few</c><c.colorCCCCCC><00:06:34.709><c> examples</c><00:06:35.249><c> the</c><00:06:35.579><c> first</c><00:06:35.759><c> example</c></c><c.colorE5E5E5><00:06:35.969><c> is</c><00:06:36.360><c> from</c></c>
+
+00:06:36.469 --> 00:06:36.479 align:start position:0%
+few<c.colorCCCCCC> examples the first example</c><c.colorE5E5E5> is from
+ </c>
+
+00:06:36.479 --> 00:06:38.989 align:start position:0%
+few<c.colorCCCCCC> examples the first example</c><c.colorE5E5E5> is from
+Arabic<00:06:37.079><c> it</c><00:06:37.289><c> has</c><00:06:37.499><c> the</c><00:06:37.709><c> word</c><00:06:37.919><c> kitab</c><00:06:38.429><c> which</c><00:06:38.729><c> means</c></c>
+
+00:06:38.989 --> 00:06:38.999 align:start position:0%
+<c.colorE5E5E5>Arabic it has the word kitab which means
+ </c>
+
+00:06:38.999 --> 00:06:42.129 align:start position:0%
+<c.colorE5E5E5>Arabic it has the word kitab which means
+book</c><c.colorCCCCCC><00:06:39.469><c> arabic</c><00:06:40.469><c> is</c><00:06:40.589><c> spelled</c><00:06:40.889><c> right-to-left</c></c><c.colorE5E5E5><00:06:41.459><c> and</c></c>
+
+00:06:42.129 --> 00:06:42.139 align:start position:0%
+book<c.colorCCCCCC> arabic is spelled right-to-left</c><c.colorE5E5E5> and
+ </c>
+
+00:06:42.139 --> 00:06:44.600 align:start position:0%
+book<c.colorCCCCCC> arabic is spelled right-to-left</c><c.colorE5E5E5> and
+symbol<00:06:43.139><c> at</c><00:06:43.259><c> the</c><00:06:43.289><c> right</c><00:06:43.529><c> hand</c><00:06:43.799><c> side</c><00:06:43.979><c> is</c><00:06:44.159><c> the</c><00:06:44.189><c> qu</c></c>
+
+00:06:44.600 --> 00:06:44.610 align:start position:0%
+symbol at the<c.colorE5E5E5> right hand side is the qu
+ </c>
+
+00:06:44.610 --> 00:06:46.999 align:start position:0%
+symbol at the<c.colorE5E5E5> right hand side is the qu
+sound<00:06:44.909><c> then</c><00:06:45.329><c> the</c><00:06:45.360><c> second</c><00:06:45.719><c> one</c><00:06:45.809><c> is</c></c><c.colorCCCCCC><00:06:45.839><c> the</c><00:06:46.169><c> -</c><00:06:46.589><c> the</c></c>
+
+00:06:46.999 --> 00:06:47.009 align:start position:0%
+sound<c.colorE5E5E5> then the second one is</c><c.colorCCCCCC> the - the
+ </c>
+
+00:06:47.009 --> 00:06:48.859 align:start position:0%
+sound<c.colorE5E5E5> then the second one is</c><c.colorCCCCCC> the - the
+next<00:06:47.219><c> one</c><00:06:47.309><c> is</c><00:06:47.550><c> the</c><00:06:47.669><c> R</c><00:06:47.849><c> sound</c><00:06:48.329><c> and</c><00:06:48.569><c> the</c><00:06:48.659><c> last</c></c>
+
+00:06:48.859 --> 00:06:48.869 align:start position:0%
+next<c.colorCCCCCC> one is the R sound and the last
+ </c>
+
+00:06:48.869 --> 00:06:49.820 align:start position:0%
+next<c.colorCCCCCC> one is the R sound and the last
+thing<00:06:49.139><c> that</c></c><c.colorE5E5E5><00:06:49.169><c> is</c><00:06:49.349><c> which</c><00:06:49.619><c> is</c></c>
+
+00:06:49.820 --> 00:06:49.830 align:start position:0%
+thing that<c.colorE5E5E5> is which is
+ </c>
+
+00:06:49.830 --> 00:06:52.490 align:start position:0%
+thing that<c.colorE5E5E5> is which is
+separate<00:06:50.160><c> from</c></c><c.colorCCCCCC><00:06:50.340><c> the</c></c><c.colorE5E5E5><00:06:50.460><c> rest</c><00:06:50.610><c> is</c><00:06:50.820><c> booked</c></c><c.colorCCCCCC><00:06:51.500><c> the</c></c>
+
+00:06:52.490 --> 00:06:52.500 align:start position:0%
+separate<c.colorE5E5E5> from</c><c.colorCCCCCC> the</c><c.colorE5E5E5> rest is booked</c><c.colorCCCCCC> the
+ </c>
+
+00:06:52.500 --> 00:06:54.200 align:start position:0%
+separate<c.colorE5E5E5> from</c><c.colorCCCCCC> the</c><c.colorE5E5E5> rest is booked</c><c.colorCCCCCC> the
+space<00:06:52.800><c> in</c><00:06:53.040><c> between</c><00:06:53.070><c> those</c><00:06:53.490><c> two</c><00:06:53.700><c> doesn't</c><00:06:54.060><c> mean</c></c>
+
+00:06:54.200 --> 00:06:54.210 align:start position:0%
+space in between those two doesn't mean
+ 
+
+00:06:54.210 --> 00:06:55.880 align:start position:0%
+space in between those two doesn't mean
+that<c.colorE5E5E5><00:06:54.360><c> this</c><00:06:54.510><c> is</c></c><c.colorCCCCCC><00:06:54.570><c> a</c><00:06:54.720><c> word</c><00:06:55.020><c> bounder</c></c><c.colorE5E5E5><00:06:55.530><c> it</c><00:06:55.680><c> just</c></c>
+
+00:06:55.880 --> 00:06:55.890 align:start position:0%
+that<c.colorE5E5E5> this is</c><c.colorCCCCCC> a word bounder</c><c.colorE5E5E5> it just
+ </c>
+
+00:06:55.890 --> 00:06:58.130 align:start position:0%
+that<c.colorE5E5E5> this is</c><c.colorCCCCCC> a word bounder</c><c.colorE5E5E5> it just
+happens<00:06:56.220><c> that</c><00:06:56.280><c> the</c><00:06:56.550><c> letters</c><00:06:57.090><c> for</c><00:06:57.390><c> a</c><00:06:57.540><c> and</c><00:06:58.050><c> the</c></c>
+
+00:06:58.130 --> 00:06:58.140 align:start position:0%
+happens that the letters for<c.colorE5E5E5> a and the
+ </c>
+
+00:06:58.140 --> 00:07:00.920 align:start position:0%
+happens that the letters for<c.colorE5E5E5> a and the
+letter<00:06:58.320><c> for</c><00:06:58.620><c> bull</c><00:06:58.910><c> have</c><00:06:59.910><c> to</c><00:07:00.330><c> have</c><00:07:00.510><c> a</c><00:07:00.540><c> space</c><00:07:00.870><c> in</c></c>
+
+00:07:00.920 --> 00:07:00.930 align:start position:0%
+letter for bull<c.colorE5E5E5> have to have a space in
+ </c>
+
+00:07:00.930 --> 00:07:03.890 align:start position:0%
+letter for bull<c.colorE5E5E5> have to have a space in</c>
+<c.colorCCCCCC>between</c><c.colorE5E5E5><00:07:01.140><c> them</c><00:07:01.710><c> so</c><00:07:02.640><c> if</c><00:07:02.820><c> we</c><00:07:02.940><c> try</c></c><c.colorCCCCCC><00:07:03.120><c> to</c><00:07:03.210><c> split</c><00:07:03.660><c> there</c></c>
+
+00:07:03.890 --> 00:07:03.900 align:start position:0%
+<c.colorCCCCCC>between</c><c.colorE5E5E5> them so if we try</c><c.colorCCCCCC> to split there
+ </c>
+
+00:07:03.900 --> 00:07:05.770 align:start position:0%
+<c.colorCCCCCC>between</c><c.colorE5E5E5> them so if we try</c><c.colorCCCCCC> to split there
+we're<00:07:04.080><c> going</c></c><c.colorE5E5E5><00:07:04.230><c> to</c><00:07:04.350><c> get</c><00:07:04.530><c> two</c><00:07:04.770><c> meaningless</c><00:07:05.310><c> words</c></c>
+
+00:07:05.770 --> 00:07:05.780 align:start position:0%
+we're going<c.colorE5E5E5> to get two meaningless words
+ </c>
+
+00:07:05.780 --> 00:07:09.620 align:start position:0%
+we're going<c.colorE5E5E5> to get two meaningless words
+in<00:07:06.780><c> Japanese</c><00:07:07.080><c> we</c><00:07:07.740><c> have</c><00:07:07.980><c> an</c><00:07:08.610><c> example</c></c><c.colorCCCCCC><00:07:09.030><c> here</c></c>
+
+00:07:09.620 --> 00:07:09.630 align:start position:0%
+in Japanese<c.colorE5E5E5> we have an example</c><c.colorCCCCCC> here
+ </c>
+
+00:07:09.630 --> 00:07:11.900 align:start position:0%
+in Japanese<c.colorE5E5E5> we have an example</c><c.colorCCCCCC> here
+kono<00:07:09.840><c> Hanwha</c></c><c.colorE5E5E5><00:07:10.380><c> or</c><00:07:10.650><c> Moy</c><00:07:10.950><c> which</c><00:07:11.220><c> means</c><00:07:11.460><c> this</c><00:07:11.640><c> book</c></c>
+
+00:07:11.900 --> 00:07:11.910 align:start position:0%
+<c.colorCCCCCC>kono Hanwha</c><c.colorE5E5E5> or Moy which means this book
+ </c>
+
+00:07:11.910 --> 00:07:14.900 align:start position:0%
+<c.colorCCCCCC>kono Hanwha</c><c.colorE5E5E5> or Moy which means this book
+is<00:07:12.060><c> interesting</c></c><c.colorCCCCCC><00:07:12.330><c> again</c><00:07:12.930><c> we</c><00:07:13.620><c> have</c><00:07:13.830><c> four</c><00:07:14.640><c> words</c></c>
+
+00:07:14.900 --> 00:07:14.910 align:start position:0%
+is interesting<c.colorCCCCCC> again we have four words
+ </c>
+
+00:07:14.910 --> 00:07:17.960 align:start position:0%
+is interesting<c.colorCCCCCC> again we have four words
+here</c><c.colorE5E5E5><00:07:15.390><c> the</c><00:07:15.900><c> first</c><00:07:16.140><c> two</c><00:07:16.350><c> symbols</c><00:07:16.980><c> the</c><00:07:17.520><c> next</c><00:07:17.820><c> one</c></c>
+
+00:07:17.960 --> 00:07:17.970 align:start position:0%
+here<c.colorE5E5E5> the first two symbols the next one
+ </c>
+
+00:07:17.970 --> 00:07:20.990 align:start position:0%
+here<c.colorE5E5E5> the first two symbols the next one
+has<00:07:18.210><c> one</c><00:07:18.480><c> symbol</c><00:07:19.130><c> the</c><00:07:20.130><c> next</c><00:07:20.370><c> one</c><00:07:20.520><c> has</c><00:07:20.700><c> one</c></c>
+
+00:07:20.990 --> 00:07:21.000 align:start position:0%
+has one symbol the next one has one
+ 
+
+00:07:21.000 --> 00:07:23.660 align:start position:0%
+has one symbol the next one has one
+symbol<c.colorE5E5E5><00:07:21.330><c> and</c><00:07:21.600><c> the</c><00:07:21.660><c> last</c><00:07:21.840><c> one</c><00:07:22.050><c> has</c><00:07:22.260><c> two</c><00:07:22.650><c> so</c><00:07:23.370><c> if</c><00:07:23.520><c> we</c></c>
+
+00:07:23.660 --> 00:07:23.670 align:start position:0%
+symbol<c.colorE5E5E5> and the last one has two so if we
+ </c>
+
+00:07:23.670 --> 00:07:26.900 align:start position:0%
+symbol<c.colorE5E5E5> and the last one has two so if we</c>
+<c.colorE5E5E5>don't<00:07:23.880><c> know</c><00:07:24.090><c> that</c><00:07:24.750><c> the</c><00:07:25.650><c> third</c><00:07:26.010><c> symbol</c><00:07:26.610><c> from</c></c>
+
+00:07:26.900 --> 00:07:26.910 align:start position:0%
+<c.colorE5E5E5>don't know that the third symbol from
+ </c>
+
+00:07:26.910 --> 00:07:29.870 align:start position:0%
+<c.colorE5E5E5>don't know that the third symbol from</c>
+<c.colorCCCCCC>the<00:07:27.060><c> left</c><00:07:27.270><c> represents</c></c><c.colorE5E5E5><00:07:27.510><c> book</c><00:07:28.380><c> or</c><00:07:28.740><c> horn</c><00:07:29.100><c> we</c></c>
+
+00:07:29.870 --> 00:07:29.880 align:start position:0%
+<c.colorCCCCCC>the left represents</c><c.colorE5E5E5> book or horn we
+ </c>
+
+00:07:29.880 --> 00:07:31.520 align:start position:0%
+<c.colorCCCCCC>the left represents</c><c.colorE5E5E5> book or horn we
+wouldn't<00:07:30.210><c> be</c><00:07:30.300><c> able</c><00:07:30.390><c> to</c><00:07:30.540><c> understand</c><00:07:31.110><c> where</c><00:07:31.500><c> to</c></c>
+
+00:07:31.520 --> 00:07:31.530 align:start position:0%
+wouldn't be able<c.colorE5E5E5> to understand where to
+ </c>
+
+00:07:31.530 --> 00:07:34.300 align:start position:0%
+wouldn't be able<c.colorE5E5E5> to understand where to</c>
+<c.colorCCCCCC>put</c><c.colorE5E5E5><00:07:31.890><c> this</c><00:07:32.010><c> word</c><00:07:32.580><c> boundaries</c><00:07:33.180><c> in</c><00:07:33.330><c> this</c><00:07:33.480><c> face</c></c>
+
+00:07:34.300 --> 00:07:34.310 align:start position:0%
+<c.colorCCCCCC>put</c><c.colorE5E5E5> this word boundaries in this face
+ </c>
+
+00:07:34.310 --> 00:07:37.430 align:start position:0%
+<c.colorCCCCCC>put</c><c.colorE5E5E5> this word boundaries in this face
+some<00:07:35.310><c> languages</c><00:07:36.090><c> have</c><00:07:36.150><c> very</c><00:07:36.540><c> long</c><00:07:36.780><c> words</c><00:07:37.170><c> for</c></c>
+
+00:07:37.430 --> 00:07:37.440 align:start position:0%
+some languages have<c.colorE5E5E5> very long words for
+ </c>
+
+00:07:37.440 --> 00:07:39.350 align:start position:0%
+some languages have<c.colorE5E5E5> very long words for
+example</c><c.colorCCCCCC><00:07:37.500><c> in</c><00:07:37.920><c> German</c></c><c.colorE5E5E5><00:07:38.340><c> you</c><00:07:38.820><c> have</c><00:07:39.000><c> some</c><00:07:39.210><c> like</c></c>
+
+00:07:39.350 --> 00:07:39.360 align:start position:0%
+example<c.colorCCCCCC> in German</c><c.colorE5E5E5> you have some like
+ </c>
+
+00:07:39.360 --> 00:07:41.930 align:start position:0%
+example<c.colorCCCCCC> in German</c><c.colorE5E5E5> you have some like
+finance</c><c.colorCCCCCC><00:07:40.080><c> Dean</c><00:07:40.560><c> Sly</c><00:07:40.920><c> Stone</c><00:07:41.250><c> which</c><00:07:41.670><c> means</c></c>
+
+00:07:41.930 --> 00:07:41.940 align:start position:0%
+finance<c.colorCCCCCC> Dean Sly Stone which means
+ </c>
+
+00:07:41.940 --> 00:07:44.330 align:start position:0%
+finance<c.colorCCCCCC> Dean Sly Stone which means
+something<00:07:42.210><c> like</c><00:07:42.240><c> financial</c><00:07:42.930><c> services</c><00:07:43.530><c> in</c></c>
+
+00:07:44.330 --> 00:07:44.340 align:start position:0%
+something like financial<c.colorCCCCCC> services in
+ </c>
+
+00:07:44.340 --> 00:07:45.800 align:start position:0%
+something like financial<c.colorCCCCCC> services in
+this<00:07:44.520><c> case</c><00:07:44.700><c> we</c><00:07:44.850><c> have</c><00:07:45.030><c> three</c><00:07:45.270><c> different</c><00:07:45.630><c> words</c></c>
+
+00:07:45.800 --> 00:07:45.810 align:start position:0%
+this case we have three<c.colorCCCCCC> different words
+ </c>
+
+00:07:45.810 --> 00:07:47.780 align:start position:0%
+this case we have three<c.colorCCCCCC> different words
+that<00:07:45.990><c> I</c><00:07:46.140><c> just</c><00:07:46.410><c> merged</c><00:07:46.770><c> together</c><00:07:47.100><c> into</c></c><c.colorE5E5E5><00:07:47.400><c> one</c></c>
+
+00:07:47.780 --> 00:07:47.790 align:start position:0%
+that<c.colorCCCCCC> I just merged together into</c><c.colorE5E5E5> one
+ </c>
+
+00:07:47.790 --> 00:07:50.120 align:start position:0%
+that<c.colorCCCCCC> I just merged together into</c><c.colorE5E5E5> one
+long<00:07:48.060><c> word</c><00:07:48.420><c> so</c><00:07:48.870><c> segmenting</c><00:07:49.710><c> something</c><00:07:49.980><c> like</c></c>
+
+00:07:50.120 --> 00:07:50.130 align:start position:0%
+long word so segmenting something like
+ 
+
+00:07:50.130 --> 00:07:51.710 align:start position:0%
+long word so segmenting something like
+<c.colorE5E5E5>this<00:07:50.280><c> can</c><00:07:50.460><c> be</c><00:07:50.550><c> very</c><00:07:50.760><c> tricky</c></c><c.colorCCCCCC><00:07:51.030><c> if</c><00:07:51.330><c> you</c><00:07:51.420><c> want</c><00:07:51.630><c> to</c></c>
+
+00:07:51.710 --> 00:07:51.720 align:start position:0%
+<c.colorE5E5E5>this can be very tricky</c><c.colorCCCCCC> if you want to
+ </c>
+
+00:07:51.720 --> 00:07:53.570 align:start position:0%
+<c.colorE5E5E5>this can be very tricky</c><c.colorCCCCCC> if you want to
+find<00:07:51.960><c> for</c></c><c.colorE5E5E5><00:07:52.110><c> example</c></c><c.colorCCCCCC><00:07:52.170><c> all</c><00:07:52.680><c> the</c><00:07:52.890><c> documents</c><00:07:53.460><c> about</c></c>
+
+00:07:53.570 --> 00:07:53.580 align:start position:0%
+find for<c.colorE5E5E5> example</c><c.colorCCCCCC> all the documents about
+ </c>
+
+00:07:53.580 --> 00:07:56.960 align:start position:0%
+find for<c.colorE5E5E5> example</c><c.colorCCCCCC> all the documents about
+financial</c><c.colorE5E5E5><00:07:54.570><c> issues</c><00:07:55.230><c> we</c><00:07:56.040><c> want</c><00:07:56.310><c> to</c><00:07:56.400><c> be</c><00:07:56.610><c> able</c><00:07:56.790><c> to</c></c>
+
+00:07:56.960 --> 00:07:56.970 align:start position:0%
+financial<c.colorE5E5E5> issues we want to be able to
+ </c>
+
+00:07:56.970 --> 00:07:59.120 align:start position:0%
+financial<c.colorE5E5E5> issues we want to be able to
+retrieve<00:07:57.480><c> this</c><00:07:57.690><c> document</c><00:07:58.230><c> as</c><00:07:58.350><c> well</c></c><c.colorCCCCCC><00:07:58.560><c> even</c></c>
+
+00:07:59.120 --> 00:07:59.130 align:start position:0%
+<c.colorE5E5E5>retrieve this document as well</c><c.colorCCCCCC> even
+ </c>
+
+00:07:59.130 --> 00:08:01.040 align:start position:0%
+<c.colorE5E5E5>retrieve this document as well</c><c.colorCCCCCC> even
+though</c><c.colorE5E5E5><00:07:59.310><c> the</c><00:07:59.580><c> word</c><00:07:59.760><c> finance</c><00:08:00.240><c> appears</c><00:08:00.840><c> as</c><00:08:01.020><c> a</c></c>
+
+00:08:01.040 --> 00:08:01.050 align:start position:0%
+though<c.colorE5E5E5> the word finance appears as a
+ </c>
+
+00:08:01.050 --> 00:08:02.330 align:start position:0%
+though<c.colorE5E5E5> the word finance appears as a
+part<00:08:01.410><c> of</c><00:08:01.470><c> another</c><00:08:01.710><c> word</c></c>
+
+00:08:02.330 --> 00:08:02.340 align:start position:0%
+part of<c.colorE5E5E5> another word
+ </c>
+
+00:08:02.340 --> 00:08:05.120 align:start position:0%
+part of<c.colorE5E5E5> another word
+so<00:08:02.820><c> segmenting</c><00:08:03.780><c> and</c><00:08:03.930><c> tokenizing</c><00:08:04.500><c> German</c></c>
+
+00:08:05.120 --> 00:08:05.130 align:start position:0%
+so segmenting and tokenizing<c.colorE5E5E5> German
+ </c>
+
+00:08:05.130 --> 00:08:07.610 align:start position:0%
+so segmenting and tokenizing<c.colorE5E5E5> German
+presents<00:08:05.700><c> a</c><00:08:05.760><c> particular</c></c><c.colorCCCCCC><00:08:05.940><c> challenge</c><00:08:06.690><c> and</c></c>
+
+00:08:07.610 --> 00:08:07.620 align:start position:0%
+presents a particular<c.colorCCCCCC> challenge and
+ </c>
+
+00:08:07.620 --> 00:08:09.410 align:start position:0%
+presents a particular<c.colorCCCCCC> challenge and
+let's<00:08:07.950><c> look</c></c><c.colorE5E5E5><00:08:08.160><c> at</c><00:08:08.250><c> one</c><00:08:08.400><c> more</c></c><c.colorCCCCCC><00:08:08.430><c> example</c><00:08:08.880><c> of</c><00:08:09.120><c> word</c></c>
+
+00:08:09.410 --> 00:08:09.420 align:start position:0%
+let's<c.colorCCCCCC> look</c><c.colorE5E5E5> at one more</c><c.colorCCCCCC> example of word
+ </c>
+
+00:08:09.420 --> 00:08:11.870 align:start position:0%
+let's<c.colorCCCCCC> look</c><c.colorE5E5E5> at one more</c><c.colorCCCCCC> example of word
+segmentation<00:08:09.660><c> if</c><00:08:10.290><c> we</c><00:08:10.410><c> make</c><00:08:10.590><c> a</c><00:08:10.620><c> mistake</c></c><c.colorE5E5E5><00:08:10.880><c> in</c></c>
+
+00:08:11.870 --> 00:08:11.880 align:start position:0%
+segmentation if we make a mistake<c.colorE5E5E5> in
+ </c>
+
+00:08:11.880 --> 00:08:13.700 align:start position:0%
+segmentation if we make a mistake<c.colorE5E5E5> in
+Chinese<00:08:12.450><c> for</c><00:08:12.600><c> example</c><00:08:13.050><c> we</c><00:08:13.140><c> have</c><00:08:13.320><c> the</c></c><c.colorCCCCCC><00:08:13.500><c> word</c><00:08:13.680><c> for</c></c>
+
+00:08:13.700 --> 00:08:13.710 align:start position:0%
+Chinese for example we have the<c.colorCCCCCC> word for
+ </c>
+
+00:08:13.710 --> 00:08:16.250 align:start position:0%
+Chinese for example we have the<c.colorCCCCCC> word for
+television<00:08:14.580><c> which</c><00:08:15.510><c> consists</c><00:08:15.990><c> of</c></c><c.colorE5E5E5><00:08:16.110><c> the</c></c>
+
+00:08:16.250 --> 00:08:16.260 align:start position:0%
+television which consists of<c.colorE5E5E5> the
+ </c>
+
+00:08:16.260 --> 00:08:18.260 align:start position:0%
+television which consists of<c.colorE5E5E5> the
+characters<00:08:16.710><c> for</c></c><c.colorCCCCCC><00:08:16.920><c> electricity</c><00:08:17.730><c> and</c><00:08:17.880><c> to</c><00:08:18.090><c> look</c></c>
+
+00:08:18.260 --> 00:08:18.270 align:start position:0%
+characters for<c.colorCCCCCC> electricity and to look
+ </c>
+
+00:08:18.270 --> 00:08:20.210 align:start position:0%
+characters for<c.colorCCCCCC> electricity and to look
+at<00:08:18.510><c> if</c><00:08:18.750><c> we</c><00:08:18.810><c> split</c></c><c.colorE5E5E5><00:08:19.140><c> it</c></c><c.colorCCCCCC><00:08:19.230><c> into</c><00:08:19.470><c> two</c><00:08:19.740><c> words</c></c><c.colorE5E5E5><00:08:19.920><c> we'll</c></c>
+
+00:08:20.210 --> 00:08:20.220 align:start position:0%
+at if we split<c.colorE5E5E5> it</c><c.colorCCCCCC> into two words</c><c.colorE5E5E5> we'll
+ </c>
+
+00:08:20.220 --> 00:08:21.620 align:start position:0%
+at if we split<c.colorE5E5E5> it</c><c.colorCCCCCC> into two words</c><c.colorE5E5E5> we'll
+get<00:08:20.370><c> something</c><00:08:20.730><c> like</c><00:08:21.000><c> looking</c><00:08:21.510><c> at</c></c>
+
+00:08:21.620 --> 00:08:21.630 align:start position:0%
+get<c.colorE5E5E5> something like looking at
+ </c>
+
+00:08:21.630 --> 00:08:23.600 align:start position:0%
+get<c.colorE5E5E5> something like looking at
+electricity<00:08:22.350><c> which</c><00:08:22.560><c> is</c></c><c.colorCCCCCC><00:08:22.590><c> definitely</c></c><c.colorE5E5E5><00:08:23.220><c> not</c></c><c.colorCCCCCC><00:08:23.370><c> the</c></c>
+
+00:08:23.600 --> 00:08:23.610 align:start position:0%
+<c.colorE5E5E5>electricity which is</c><c.colorCCCCCC> definitely</c><c.colorE5E5E5> not</c><c.colorCCCCCC> the
+ </c>
+
+00:08:23.610 --> 00:08:28.160 align:start position:0%
+<c.colorE5E5E5>electricity which is</c><c.colorCCCCCC> definitely</c><c.colorE5E5E5> not</c><c.colorCCCCCC> the</c>
+<c.colorE5E5E5>same<00:08:23.790><c> intended</c><00:08:24.360><c> meaning</c><00:08:24.720><c> as</c><00:08:24.870><c> television</c><00:08:27.140><c> so</c><00:08:28.140><c> I</c></c>
+
+00:08:28.160 --> 00:08:28.170 align:start position:0%
+<c.colorE5E5E5>same intended meaning as television so I
+ </c>
+
+00:08:28.170 --> 00:08:29.990 align:start position:0%
+<c.colorE5E5E5>same intended meaning as television so I</c>
+<c.colorCCCCCC>mentioned<00:08:28.650><c> that</c><00:08:28.770><c> Japanese</c><00:08:29.610><c> has</c><00:08:29.820><c> three</c></c>
+
+00:08:29.990 --> 00:08:30.000 align:start position:0%
+<c.colorCCCCCC>mentioned that Japanese has three
+ </c>
+
+00:08:30.000 --> 00:08:31.430 align:start position:0%
+<c.colorCCCCCC>mentioned that Japanese has three
+different<00:08:30.330><c> alphabets</c><00:08:30.780><c> so</c><00:08:30.930><c> here's</c><00:08:31.170><c> an</c><00:08:31.320><c> example</c></c>
+
+00:08:31.430 --> 00:08:31.440 align:start position:0%
+<c.colorCCCCCC>different alphabets so here's an example
+ </c>
+
+00:08:31.440 --> 00:08:34.640 align:start position:0%
+<c.colorCCCCCC>different alphabets so here's an example</c>
+<c.colorE5E5E5>that</c><c.colorCCCCCC><00:08:32.100><c> shows</c><00:08:32.430><c> that</c><00:08:32.670><c> all</c></c><c.colorE5E5E5><00:08:32.880><c> the</c><00:08:33.570><c> text</c><00:08:33.900><c> in</c><00:08:34.020><c> blue</c><00:08:34.320><c> is</c></c>
+
+00:08:34.640 --> 00:08:34.650 align:start position:0%
+<c.colorE5E5E5>that</c><c.colorCCCCCC> shows that all</c><c.colorE5E5E5> the text in blue is
+ </c>
+
+00:08:34.650 --> 00:08:35.570 align:start position:0%
+<c.colorE5E5E5>that</c><c.colorCCCCCC> shows that all</c><c.colorE5E5E5> the text in blue is
+kanji<00:08:35.340><c> or</c></c>
+
+00:08:35.570 --> 00:08:35.580 align:start position:0%
+kanji or
+ 
+
+00:08:35.580 --> 00:08:38.810 align:start position:0%
+kanji or
+Chinese<00:08:36.510><c> characters</c><00:08:37.490><c> the</c><c.colorE5E5E5><00:08:38.490><c> other</c><00:08:38.610><c> two</c></c>
+
+00:08:38.810 --> 00:08:38.820 align:start position:0%
+Chinese characters the<c.colorE5E5E5> other two
+ </c>
+
+00:08:38.820 --> 00:08:41.030 align:start position:0%
+Chinese characters the<c.colorE5E5E5> other two
+alphabets</c><c.colorCCCCCC><00:08:39.270><c> in</c><00:08:39.750><c> addition</c><00:08:40.140><c> to</c><00:08:40.260><c> kanji</c><00:08:40.770><c> are</c></c>
+
+00:08:41.030 --> 00:08:41.040 align:start position:0%
+alphabets<c.colorCCCCCC> in addition to kanji are
+ </c>
+
+00:08:41.040 --> 00:08:43.910 align:start position:0%
+alphabets<c.colorCCCCCC> in addition to kanji are
+hiragana<00:08:41.700><c> which</c><00:08:42.420><c> is</c><00:08:42.600><c> used</c><00:08:42.870><c> for</c></c><c.colorE5E5E5><00:08:42.990><c> endings</c><00:08:43.710><c> of</c></c>
+
+00:08:43.910 --> 00:08:43.920 align:start position:0%
+hiragana<c.colorCCCCCC> which is used for</c><c.colorE5E5E5> endings of
+ </c>
+
+00:08:43.920 --> 00:08:46.250 align:start position:0%
+hiragana<c.colorCCCCCC> which is used for</c><c.colorE5E5E5> endings of
+words<00:08:44.190><c> and</c><00:08:44.520><c> prepositions</c><00:08:44.910><c> and</c><00:08:45.450><c> other</c><00:08:45.630><c> service</c></c>
+
+00:08:46.250 --> 00:08:46.260 align:start position:0%
+words and prepositions<c.colorE5E5E5> and other service
+ </c>
+
+00:08:46.260 --> 00:08:48.710 align:start position:0%
+words and prepositions<c.colorE5E5E5> and other service
+words<00:08:46.530><c> and</c><00:08:46.890><c> katakana</c><00:08:47.880><c> which</c><00:08:48.330><c> is</c><00:08:48.450><c> used</c><00:08:48.660><c> for</c></c>
+
+00:08:48.710 --> 00:08:48.720 align:start position:0%
+words and katakana<c.colorE5E5E5> which is used for
+ </c>
+
+00:08:48.720 --> 00:08:50.900 align:start position:0%
+words and katakana<c.colorE5E5E5> which is used for
+foreign<00:08:49.230><c> words</c><00:08:49.620><c> like</c><00:08:49.830><c> in</c><00:08:49.980><c> this</c><00:08:50.070><c> example</c><00:08:50.220><c> New</c></c>
+
+00:08:50.900 --> 00:08:50.910 align:start position:0%
+foreign words like in this example New
+ 
+
+00:08:50.910 --> 00:08:53.750 align:start position:0%
+foreign words like in this example New
+York<c.colorE5E5E5><00:08:51.300><c> which</c><00:08:52.140><c> is</c><00:08:52.290><c> the</c><00:08:52.410><c> word</c><00:08:52.620><c> on</c><00:08:52.950><c> the</c><00:08:53.070><c> left</c><00:08:53.310><c> in</c></c>
+
+00:08:53.750 --> 00:08:53.760 align:start position:0%
+York<c.colorE5E5E5> which is the word on the left in
+ </c>
+
+00:08:53.760 --> 00:08:57.260 align:start position:0%
+York<c.colorE5E5E5> which is the word on the left in
+red<00:08:54.090><c> and</c><00:08:55.340><c> occasionally</c><00:08:56.340><c> Japanese</c><00:08:56.820><c> text</c><00:08:57.120><c> can</c></c>
+
+00:08:57.260 --> 00:08:57.270 align:start position:0%
+red<c.colorE5E5E5> and occasionally Japanese text can
+ </c>
+
+00:08:57.270 --> 00:08:59.360 align:start position:0%
+red<c.colorE5E5E5> and occasionally Japanese text can</c>
+<c.colorE5E5E5>also<00:08:57.450><c> include</c><00:08:57.810><c> text</c><00:08:58.350><c> in</c><00:08:58.470><c> the</c></c><c.colorCCCCCC><00:08:58.590><c> form</c></c><c.colorE5E5E5><00:08:58.770><c> of</c><00:08:58.890><c> G</c><00:08:59.130><c> which</c></c>
+
+00:08:59.360 --> 00:08:59.370 align:start position:0%
+<c.colorE5E5E5>also include text in the</c><c.colorCCCCCC> form</c><c.colorE5E5E5> of G which
+ </c>
+
+00:08:59.370 --> 00:09:01.490 align:start position:0%
+<c.colorE5E5E5>also include text in the</c><c.colorCCCCCC> form</c><c.colorE5E5E5> of G which
+is<00:08:59.400><c> essentially</c><00:09:00.120><c> Latin</c><00:09:00.900><c> characters</c><00:09:01.350><c> just</c></c>
+
+00:09:01.490 --> 00:09:01.500 align:start position:0%
+is<c.colorE5E5E5> essentially Latin characters just
+ </c>
+
+00:09:01.500 --> 00:09:03.680 align:start position:0%
+is<c.colorE5E5E5> essentially Latin characters just
+like<00:09:01.620><c> in</c><00:09:01.890><c> English</c><00:09:02.220><c> and</c><00:09:02.490><c> it</c><00:09:02.700><c> can</c><00:09:02.850><c> also</c><00:09:03.000><c> have</c><00:09:03.330><c> no</c></c>
+
+00:09:03.680 --> 00:09:03.690 align:start position:0%
+like<c.colorE5E5E5> in English and it can also have no
+ </c>
+
+00:09:03.690 --> 00:09:06.650 align:start position:0%
+like<c.colorE5E5E5> in English and it can also have no</c>
+<c.colorCCCCCC>boar's<00:09:04.370><c> so</c><00:09:05.370><c> in</c><00:09:05.490><c> this</c></c><c.colorE5E5E5><00:09:05.580><c> particular</c></c><c.colorCCCCCC><00:09:05.790><c> example</c><00:09:06.300><c> we</c></c>
+
+00:09:06.650 --> 00:09:06.660 align:start position:0%
+<c.colorCCCCCC>boar's so in this</c><c.colorE5E5E5> particular</c><c.colorCCCCCC> example we
+ </c>
+
+00:09:06.660 --> 00:09:09.230 align:start position:0%
+<c.colorCCCCCC>boar's so in this</c><c.colorE5E5E5> particular</c><c.colorCCCCCC> example we
+have<00:09:06.900><c> a</c><00:09:06.930><c> phrase</c></c><c.colorE5E5E5><00:09:07.410><c> New</c><00:09:08.010><c> York</c></c><c.colorCCCCCC><00:09:08.250><c> WA</c><00:09:08.550><c> I</c><00:09:08.880><c> make</c><00:09:09.210><c> a</c></c>
+
+00:09:09.230 --> 00:09:09.240 align:start position:0%
+have a phrase<c.colorE5E5E5> New York</c><c.colorCCCCCC> WA I make a
+ </c>
+
+00:09:09.240 --> 00:09:12.110 align:start position:0%
+have a phrase<c.colorE5E5E5> New York</c><c.colorCCCCCC> WA I make a
+goshawk<00:09:09.810><c> aku</c><00:09:10.260><c> New</c><00:09:10.590><c> York</c><00:09:11.010><c> khushu</c><00:09:11.490><c> New</c><00:09:11.820><c> Era</c></c>
+
+00:09:12.110 --> 00:09:12.120 align:start position:0%
+goshawk aku<c.colorCCCCCC> New York khushu New Era
+ </c>
+
+00:09:12.120 --> 00:09:15.680 align:start position:0%
+goshawk aku<c.colorCCCCCC> New York khushu New Era
+Toshi<00:09:12.510><c> which</c><00:09:12.960><c> means</c><00:09:13.460><c> New</c><00:09:14.460><c> York</c><00:09:14.790><c> is</c><00:09:15.120><c> a</c><00:09:15.180><c> city</c></c>
+
+00:09:15.680 --> 00:09:15.690 align:start position:0%
+Toshi<c.colorCCCCCC> which means New York is a city
+ </c>
+
+00:09:15.690 --> 00:09:18.530 align:start position:0%
+Toshi<c.colorCCCCCC> which means New York is a city
+located<00:09:16.080><c> in</c><00:09:16.500><c> the</c><00:09:16.590><c> state</c><00:09:16.800><c> of</c><00:09:16.950><c> New</c><00:09:17.100><c> York</c></c><c.colorE5E5E5><00:09:17.370><c> we</c><00:09:18.300><c> have</c></c>
+
+00:09:18.530 --> 00:09:18.540 align:start position:0%
+located in the state<c.colorCCCCCC> of New York</c><c.colorE5E5E5> we have
+ </c>
+
+00:09:18.540 --> 00:09:21.560 align:start position:0%
+located in the state<c.colorCCCCCC> of New York</c><c.colorE5E5E5> we have
+three<00:09:18.990><c> pieces</c><00:09:19.290><c> of</c><00:09:19.560><c> text</c></c><c.colorCCCCCC><00:09:19.830><c> New</c><00:09:20.460><c> York</c><00:09:20.790><c> America</c></c>
+
+00:09:21.560 --> 00:09:21.570 align:start position:0%
+<c.colorE5E5E5>three pieces of text</c><c.colorCCCCCC> New York America
+ </c>
+
+00:09:21.570 --> 00:09:23.570 align:start position:0%
+<c.colorE5E5E5>three pieces of text</c><c.colorCCCCCC> New York America
+and<00:09:21.750><c> New</c></c><c.colorE5E5E5><00:09:21.870><c> York</c><00:09:22.080><c> again</c><00:09:22.410><c> which</c><00:09:22.830><c> are</c></c><c.colorCCCCCC><00:09:22.980><c> in</c></c><c.colorE5E5E5><00:09:23.070><c> katakana</c></c>
+
+00:09:23.570 --> 00:09:23.580 align:start position:0%
+and New<c.colorE5E5E5> York again which are</c><c.colorCCCCCC> in</c><c.colorE5E5E5> katakana
+ </c>
+
+00:09:23.580 --> 00:09:26.000 align:start position:0%
+and New<c.colorE5E5E5> York again which are</c><c.colorCCCCCC> in</c><c.colorE5E5E5> katakana
+have<00:09:24.240><c> some</c><00:09:24.480><c> text</c><00:09:24.810><c> in</c><00:09:24.900><c> romaji</c><00:09:25.260><c> which</c><00:09:25.800><c> is</c></c>
+
+00:09:26.000 --> 00:09:26.010 align:start position:0%
+<c.colorE5E5E5>have some text in romaji which is
+ </c>
+
+00:09:26.010 --> 00:09:28.430 align:start position:0%
+<c.colorE5E5E5>have some text in romaji which is
+spelled<00:09:26.550><c> in</c><00:09:26.670><c> English</c><00:09:27.030><c> we</c></c><c.colorCCCCCC><00:09:27.810><c> have</c><00:09:28.020><c> four</c></c>
+
+00:09:28.430 --> 00:09:28.440 align:start position:0%
+spelled in<c.colorE5E5E5> English we</c><c.colorCCCCCC> have four
+ </c>
+
+00:09:28.440 --> 00:09:33.290 align:start position:0%
+spelled in<c.colorE5E5E5> English we</c><c.colorCCCCCC> have four
+characters</c><c.colorE5E5E5><00:09:28.650><c> in</c><00:09:29.600><c> hiragana</c></c><c.colorCCCCCC><00:09:30.600><c> and</c></c><c.colorE5E5E5><00:09:31.140><c> only</c><00:09:32.300><c> six</c></c>
+
+00:09:33.290 --> 00:09:33.300 align:start position:0%
+characters<c.colorE5E5E5> in hiragana</c><c.colorCCCCCC> and</c><c.colorE5E5E5> only six
+ </c>
+
+00:09:33.300 --> 00:09:36.590 align:start position:0%
+characters<c.colorE5E5E5> in hiragana</c><c.colorCCCCCC> and</c><c.colorE5E5E5> only six
+other<00:09:33.540><c> characters</c><00:09:34.170><c> in</c><00:09:34.470><c> kanji</c><00:09:35.220><c> so</c><00:09:36.090><c> you</c><00:09:36.420><c> can</c></c>
+
+00:09:36.590 --> 00:09:36.600 align:start position:0%
+other characters in kanji so you can
+ 
+
+00:09:36.600 --> 00:09:38.300 align:start position:0%
+other characters in kanji so you can
+imagine<c.colorE5E5E5><00:09:36.870><c> how</c><00:09:37.260><c> difficult</c><00:09:37.680><c> it</c><00:09:38.070><c> is</c><00:09:38.280><c> to</c></c>
+
+00:09:38.300 --> 00:09:38.310 align:start position:0%
+imagine<c.colorE5E5E5> how difficult it is to
+ </c>
+
+00:09:38.310 --> 00:09:42.470 align:start position:0%
+imagine<c.colorE5E5E5> how difficult it is to</c>
+<c.colorE5E5E5>pre-process<00:09:39.090><c> this</c><00:09:39.540><c> kind</c><00:09:39.780><c> of</c><00:09:39.870><c> text</c><00:09:41.150><c> and</c><00:09:42.150><c> the</c></c>
+
+00:09:42.470 --> 00:09:42.480 align:start position:0%
+<c.colorE5E5E5>pre-process this kind of text and the
+ </c>
+
+00:09:42.480 --> 00:09:44.540 align:start position:0%
+<c.colorE5E5E5>pre-process this kind of text and the
+final<00:09:42.810><c> task</c><00:09:43.020><c> in</c><00:09:43.290><c> pre-processing</c><00:09:43.920><c> that</c><00:09:44.460><c> I</c></c>
+
+00:09:44.540 --> 00:09:44.550 align:start position:0%
+final task<c.colorE5E5E5> in pre-processing that I
+ </c>
+
+00:09:44.550 --> 00:09:46.280 align:start position:0%
+final task<c.colorE5E5E5> in pre-processing that I
+would<00:09:44.670><c> like</c><00:09:44.820><c> to</c></c><c.colorCCCCCC><00:09:44.970><c> mention</c><00:09:45.330><c> today</c><00:09:45.450><c> is</c><00:09:45.630><c> sentence</c></c>
+
+00:09:46.280 --> 00:09:46.290 align:start position:0%
+would like<c.colorE5E5E5> to</c><c.colorCCCCCC> mention today is sentence
+ </c>
+
+00:09:46.290 --> 00:09:48.080 align:start position:0%
+would like<c.colorE5E5E5> to</c><c.colorCCCCCC> mention today is sentence</c>
+<c.colorCCCCCC>bound<00:09:46.530><c> to</c></c><c.colorE5E5E5><00:09:46.680><c> get</c><00:09:46.800><c> recognition</c><00:09:47.340><c> so</c><00:09:47.790><c> the</c><00:09:47.910><c> globe</c></c>
+
+00:09:48.080 --> 00:09:48.090 align:start position:0%
+<c.colorCCCCCC>bound to</c><c.colorE5E5E5> get recognition so the globe
+ </c>
+
+00:09:48.090 --> 00:09:49.670 align:start position:0%
+<c.colorCCCCCC>bound to</c><c.colorE5E5E5> get recognition so the globe
+sentence</c><c.colorCCCCCC><00:09:48.450><c> boundary</c><00:09:48.780><c> mission</c><00:09:49.230><c> is</c><00:09:49.350><c> to</c><00:09:49.500><c> figure</c></c>
+
+00:09:49.670 --> 00:09:49.680 align:start position:0%
+sentence<c.colorCCCCCC> boundary mission is to figure
+ </c>
+
+00:09:49.680 --> 00:09:52.520 align:start position:0%
+sentence<c.colorCCCCCC> boundary mission is to figure</c>
+<c.colorE5E5E5>out<00:09:49.830><c> which</c><00:09:50.330><c> punctuation</c><00:09:51.330><c> symbols</c><00:09:51.750><c> indicate</c></c>
+
+00:09:52.520 --> 00:09:52.530 align:start position:0%
+<c.colorE5E5E5>out which punctuation symbols indicate
+ </c>
+
+00:09:52.530 --> 00:09:54.920 align:start position:0%
+<c.colorE5E5E5>out which punctuation symbols indicate
+the<00:09:52.710><c> end</c><00:09:52.860><c> of</c><00:09:53.040><c> a</c><00:09:53.130><c> sentence</c><00:09:53.580><c> now</c><00:09:54.450><c> as</c><00:09:54.510><c> we</c><00:09:54.720><c> looked</c></c>
+
+00:09:54.920 --> 00:09:54.930 align:start position:0%
+the end<c.colorE5E5E5> of a sentence now as we looked
+ </c>
+
+00:09:54.930 --> 00:09:57.350 align:start position:0%
+the end<c.colorE5E5E5> of a sentence now as we looked</c>
+<c.colorE5E5E5>at<00:09:55.080><c> this</c><00:09:55.320><c> example</c></c><c.colorCCCCCC><00:09:55.890><c> earlier</c></c><c.colorE5E5E5><00:09:56.250><c> Willow</c><00:09:56.760><c> Drive</c><00:09:56.790><c> and</c></c>
+
+00:09:57.350 --> 00:09:57.360 align:start position:0%
+<c.colorE5E5E5>at this example</c><c.colorCCCCCC> earlier</c><c.colorE5E5E5> Willow Drive and
+ </c>
+
+00:09:57.360 --> 00:10:00.140 align:start position:0%
+<c.colorE5E5E5>at this example</c><c.colorCCCCCC> earlier</c><c.colorE5E5E5> Willow Drive and
+dr.<00:09:57.720><c> willow</c><00:09:58.080><c> and</c><00:09:58.320><c> so</c><00:09:58.380><c> on</c><00:09:58.710><c> very</c><00:09:59.160><c> often</c></c><c.colorCCCCCC><00:09:59.340><c> a</c><00:09:59.730><c> period</c></c>
+
+00:10:00.140 --> 00:10:00.150 align:start position:0%
+dr. willow and<c.colorE5E5E5> so on very often</c><c.colorCCCCCC> a period
+ </c>
+
+00:10:00.150 --> 00:10:02.270 align:start position:0%
+dr. willow and<c.colorE5E5E5> so on very often</c><c.colorCCCCCC> a period
+may<00:10:00.330><c> indicate</c><00:10:00.630><c> an</c><00:10:01.080><c> abbreviation</c><00:10:01.650><c> and</c><00:10:02.070><c> rather</c></c>
+
+00:10:02.270 --> 00:10:02.280 align:start position:0%
+may indicate an abbreviation and rather
+ 
+
+00:10:02.280 --> 00:10:05.810 align:start position:0%
+may indicate an abbreviation and rather
+than<00:10:02.640><c> a</c><00:10:03.150><c> sentence</c><00:10:04.080><c> boundary</c><c.colorCCCCCC><00:10:04.470><c> so</c><00:10:05.280><c> Santa's</c><00:10:05.610><c> body</c></c>
+
+00:10:05.810 --> 00:10:05.820 align:start position:0%
+than a sentence boundary<c.colorCCCCCC> so Santa's body
+ </c>
+
+00:10:05.820 --> 00:10:08.060 align:start position:0%
+than a sentence boundary<c.colorCCCCCC> so Santa's body</c>
+<c.colorE5E5E5>nation<00:10:06.420><c> is</c><00:10:06.540><c> typically</c><00:10:06.990><c> dealt</c><00:10:07.320><c> with</c><00:10:07.650><c> by</c></c><c.colorCCCCCC><00:10:07.860><c> using</c></c>
+
+00:10:08.060 --> 00:10:08.070 align:start position:0%
+<c.colorE5E5E5>nation is typically dealt with by</c><c.colorCCCCCC> using
+ </c>
+
+00:10:08.070 --> 00:10:10.550 align:start position:0%
+<c.colorE5E5E5>nation is typically dealt with by</c><c.colorCCCCCC> using
+decision<00:10:08.880><c> trees</c><00:10:09.150><c> they</c><00:10:09.720><c> look</c><00:10:10.050><c> at</c></c><c.colorE5E5E5><00:10:10.170><c> features</c></c>
+
+00:10:10.550 --> 00:10:10.560 align:start position:0%
+decision trees<c.colorCCCCCC> they look at</c><c.colorE5E5E5> features
+ </c>
+
+00:10:10.560 --> 00:10:12.620 align:start position:0%
+decision trees<c.colorCCCCCC> they look at</c><c.colorE5E5E5> features
+such<00:10:10.800><c> as</c><00:10:10.830><c> the</c><00:10:11.280><c> actual</c><00:10:11.550><c> punctuation</c><00:10:12.090><c> is</c><00:10:12.390><c> it</c><00:10:12.510><c> an</c></c>
+
+00:10:12.620 --> 00:10:12.630 align:start position:0%
+such as the actual punctuation is it an
+ 
+
+00:10:12.630 --> 00:10:15.140 align:start position:0%
+such as the actual punctuation is it an
+exclamation<c.colorCCCCCC><00:10:12.990><c> point</c><00:10:13.680><c> or</c><00:10:13.800><c> a</c></c><c.colorE5E5E5><00:10:13.920><c> period</c><00:10:14.340><c> is</c><00:10:14.850><c> it</c><00:10:15.060><c> a</c></c>
+
+00:10:15.140 --> 00:10:15.150 align:start position:0%
+exclamation<c.colorCCCCCC> point or a</c><c.colorE5E5E5> period is it a
+ </c>
+
+00:10:15.150 --> 00:10:16.640 align:start position:0%
+exclamation<c.colorCCCCCC> point or a</c><c.colorE5E5E5> period is it a
+question<00:10:15.600><c> mark</c></c><c.colorCCCCCC><00:10:15.780><c> question</c><00:10:16.260><c> marks</c><00:10:16.500><c> are</c></c>
+
+00:10:16.640 --> 00:10:16.650 align:start position:0%
+<c.colorE5E5E5>question mark</c><c.colorCCCCCC> question marks are
+ </c>
+
+00:10:16.650 --> 00:10:18.530 align:start position:0%
+<c.colorE5E5E5>question mark</c><c.colorCCCCCC> question marks are
+unlikely</c><c.colorE5E5E5><00:10:17.190><c> to</c><00:10:17.460><c> appear</c><00:10:17.760><c> in</c><00:10:17.910><c> acronyms</c><00:10:18.300><c> for</c></c>
+
+00:10:18.530 --> 00:10:18.540 align:start position:0%
+unlikely<c.colorE5E5E5> to appear in acronyms for
+ </c>
+
+00:10:18.540 --> 00:10:20.750 align:start position:0%
+unlikely<c.colorE5E5E5> to appear in acronyms for
+example<00:10:19.170><c> as</c></c><c.colorCCCCCC><00:10:19.260><c> part</c><00:10:19.560><c> of</c><00:10:19.680><c> abbreviations</c></c><c.colorE5E5E5><00:10:20.280><c> whereas</c></c>
+
+00:10:20.750 --> 00:10:20.760 align:start position:0%
+<c.colorE5E5E5>example as</c><c.colorCCCCCC> part of abbreviations</c><c.colorE5E5E5> whereas
+ </c>
+
+00:10:20.760 --> 00:10:23.810 align:start position:0%
+<c.colorE5E5E5>example as</c><c.colorCCCCCC> part of abbreviations</c><c.colorE5E5E5> whereas
+periods<00:10:21.180><c> can</c><00:10:21.360><c> appear</c><00:10:21.810><c> in</c><00:10:22.100><c> in</c><00:10:23.100><c> acronyms</c><00:10:23.490><c> very</c></c>
+
+00:10:23.810 --> 00:10:23.820 align:start position:0%
+periods can appear in in acronyms<c.colorE5E5E5> very
+ </c>
+
+00:10:23.820 --> 00:10:26.240 align:start position:0%
+periods can appear in in acronyms<c.colorE5E5E5> very
+frequently<00:10:24.360><c> we</c><00:10:25.110><c> can</c><00:10:25.260><c> look</c><00:10:25.410><c> at</c><00:10:25.530><c> the</c><00:10:25.620><c> formatting</c></c>
+
+00:10:26.240 --> 00:10:26.250 align:start position:0%
+frequently we can look at the formatting
+ 
+
+00:10:26.250 --> 00:10:29.000 align:start position:0%
+frequently we can look at the formatting
+<c.colorE5E5E5>for<00:10:26.400><c> example</c><00:10:26.760><c> is</c><00:10:26.850><c> there</c><00:10:27.030><c> space</c><00:10:27.420><c> after</c><00:10:28.010><c> the</c></c>
+
+00:10:29.000 --> 00:10:29.010 align:start position:0%
+<c.colorE5E5E5>for example is there space after the
+ </c>
+
+00:10:29.010 --> 00:10:32.810 align:start position:0%
+<c.colorE5E5E5>for example is there space after the
+period<00:10:29.910><c> is</c><00:10:30.660><c> there</c><00:10:31.130><c> capitalization</c></c><c.colorCCCCCC><00:10:32.130><c> we</c><00:10:32.670><c> can</c></c>
+
+00:10:32.810 --> 00:10:32.820 align:start position:0%
+<c.colorE5E5E5>period is there capitalization</c><c.colorCCCCCC> we can
+ </c>
+
+00:10:32.820 --> 00:10:34.400 align:start position:0%
+<c.colorE5E5E5>period is there capitalization</c><c.colorCCCCCC> we can</c>
+<c.colorE5E5E5>look<00:10:32.970><c> at</c><00:10:33.090><c> the</c><00:10:33.240><c> phones</c><00:10:33.540><c> if</c><00:10:33.840><c> there</c><00:10:33.960><c> is</c><00:10:34.020><c> a</c><00:10:34.050><c> font</c></c>
+
+00:10:34.400 --> 00:10:34.410 align:start position:0%
+<c.colorE5E5E5>look at the phones if there is a font
+ </c>
+
+00:10:34.410 --> 00:10:36.200 align:start position:0%
+<c.colorE5E5E5>look at the phones if there is a font
+change<00:10:34.830><c> that</c><00:10:35.070><c> can</c><00:10:35.250><c> indicate</c><00:10:35.520><c> that</c></c><c.colorCCCCCC><00:10:35.700><c> we</c><00:10:35.970><c> have</c><00:10:36.000><c> a</c></c>
+
+00:10:36.200 --> 00:10:36.210 align:start position:0%
+change that can indicate that<c.colorCCCCCC> we have a
+ </c>
+
+00:10:36.210 --> 00:10:39.230 align:start position:0%
+change that can indicate that<c.colorCCCCCC> we have a
+new<00:10:36.480><c> sentence</c><00:10:37.020><c> or</c><00:10:37.200><c> a</c><00:10:37.230><c> new</c><00:10:37.410><c> paragraph</c></c><c.colorE5E5E5><00:10:38.060><c> we</c><00:10:39.060><c> can</c></c>
+
+00:10:39.230 --> 00:10:39.240 align:start position:0%
+new sentence or a new paragraph<c.colorE5E5E5> we can
+ </c>
+
+00:10:39.240 --> 00:10:40.940 align:start position:0%
+new sentence or a new paragraph<c.colorE5E5E5> we can
+also<00:10:39.390><c> look</c><00:10:39.660><c> at</c><00:10:39.810><c> specific</c><00:10:40.590><c> list</c><00:10:40.800><c> of</c></c>
+
+00:10:40.940 --> 00:10:40.950 align:start position:0%
+also look at specific list of
+ 
+
+00:10:40.950 --> 00:10:43.760 align:start position:0%
+also look at specific list of
+abbreviations<00:10:41.160><c> such</c><00:10:41.910><c> as</c><00:10:42.180><c> dr</c><00:10:42.780><c> for</c><00:10:43.140><c> doctor</c><00:10:43.620><c> or</c>
+
+00:10:43.760 --> 00:10:43.770 align:start position:0%
+abbreviations such as dr for doctor or
+ 
+
+00:10:43.770 --> 00:10:49.460 align:start position:0%
+abbreviations such as dr for doctor or
+dr<00:10:44.070><c> a.m.</c><00:10:45.860><c> for</c><00:10:46.910><c> morning</c><00:10:47.910><c> and</c><00:10:48.330><c> so</c><00:10:48.600><c> on</c><c.colorCCCCCC><00:10:48.750><c> so</c><00:10:49.350><c> an</c></c>
+
+00:10:49.460 --> 00:10:49.470 align:start position:0%
+dr a.m. for morning and so on<c.colorCCCCCC> so an
+ </c>
+
+00:10:49.470 --> 00:10:51.140 align:start position:0%
+dr a.m. for morning and so on<c.colorCCCCCC> so an
+example<00:10:49.589><c> of</c><00:10:49.950><c> a</c><00:10:50.100><c> who</c><00:10:50.280><c> and</c></c><c.colorE5E5E5><00:10:50.460><c> the</c><00:10:50.550><c> decision</c><00:10:51.000><c> tree</c></c>
+
+00:10:51.140 --> 00:10:51.150 align:start position:0%
+example<c.colorCCCCCC> of a who and</c><c.colorE5E5E5> the decision tree
+ </c>
+
+00:10:51.150 --> 00:10:52.730 align:start position:0%
+example<c.colorCCCCCC> of a who and</c><c.colorE5E5E5> the decision tree</c>
+<c.colorCCCCCC>would<00:10:51.330><c> be</c><00:10:51.420><c> something</c></c><c.colorE5E5E5><00:10:51.630><c> like</c><00:10:51.720><c> this</c><00:10:51.960><c> if</c><00:10:52.410><c> there</c><00:10:52.710><c> is</c></c>
+
+00:10:52.730 --> 00:10:52.740 align:start position:0%
+<c.colorCCCCCC>would be something</c><c.colorE5E5E5> like this if there is
+ </c>
+
+00:10:52.740 --> 00:10:55.220 align:start position:0%
+<c.colorCCCCCC>would be something</c><c.colorE5E5E5> like this if there is</c>
+<c.colorCCCCCC>no<00:10:52.950><c> space</c></c><c.colorE5E5E5><00:10:53.310><c> after</c><00:10:53.790><c> a</c><00:10:53.820><c> period</c><00:10:54.150><c> don't</c><00:10:54.750><c> assume</c></c>
+
+00:10:55.220 --> 00:10:55.230 align:start position:0%
+<c.colorCCCCCC>no space</c><c.colorE5E5E5> after a period don't assume
+ </c>
+
+00:10:55.230 --> 00:10:56.990 align:start position:0%
+<c.colorCCCCCC>no space</c><c.colorE5E5E5> after a period don't assume
+that<00:10:55.440><c> there</c></c><c.colorCCCCCC><00:10:55.620><c> is</c><00:10:55.710><c> a</c><00:10:55.740><c> sentence</c><00:10:56.250><c> boundary</c><00:10:56.670><c> so</c></c>
+
+00:10:56.990 --> 00:10:57.000 align:start position:0%
+that there<c.colorCCCCCC> is a sentence boundary so
+ </c>
+
+00:10:57.000 --> 00:10:59.210 align:start position:0%
+that there<c.colorCCCCCC> is a sentence boundary so
+there<00:10:57.810><c> is</c><00:10:57.930><c> a</c><00:10:58.140><c> convention</c><00:10:58.680><c> in</c></c><c.colorE5E5E5><00:10:58.800><c> English</c><00:10:59.130><c> to</c></c>
+
+00:10:59.210 --> 00:10:59.220 align:start position:0%
+there is a convention in<c.colorE5E5E5> English to
+ </c>
+
+00:10:59.220 --> 00:11:01.490 align:start position:0%
+there is a convention in<c.colorE5E5E5> English to
+include<00:10:59.580><c> one</c></c><c.colorCCCCCC><00:11:00.330><c> or</c><00:11:00.480><c> two</c><00:11:00.600><c> spaces</c><00:11:00.900><c> after</c><00:11:01.230><c> a</c><00:11:01.440><c> period</c></c>
+
+00:11:01.490 --> 00:11:01.500 align:start position:0%
+include one<c.colorCCCCCC> or two spaces after a period
+ </c>
+
+00:11:01.500 --> 00:11:03.230 align:start position:0%
+include one<c.colorCCCCCC> or two spaces after a period
+if<00:11:02.010><c> the</c><00:11:02.190><c> text</c><00:11:02.490><c> is</c><00:11:02.550><c> in</c><00:11:02.700><c> a</c><00:11:02.790><c> different</c><00:11:03.120><c> language</c></c>
+
+00:11:03.230 --> 00:11:03.240 align:start position:0%
+if the text is<c.colorCCCCCC> in a different language
+ </c>
+
+00:11:03.240 --> 00:11:07.310 align:start position:0%
+if the text is<c.colorCCCCCC> in a different language
+this<00:11:03.720><c> room</c><00:11:03.960><c> may</c><00:11:04.170><c> not</c><00:11:04.350><c> apply</c><00:11:05.330><c> so</c></c><c.colorE5E5E5><00:11:06.330><c> you</c><00:11:06.390><c> now</c><00:11:07.020><c> have</c></c>
+
+00:11:07.310 --> 00:11:07.320 align:start position:0%
+this room may not apply<c.colorCCCCCC> so</c><c.colorE5E5E5> you now have
+ </c>
+
+00:11:07.320 --> 00:11:10.640 align:start position:0%
+this room may not apply<c.colorCCCCCC> so</c><c.colorE5E5E5> you now have</c>
+<c.colorE5E5E5>an</c><c.colorCCCCCC><00:11:07.560><c> idea</c><00:11:07.860><c> how</c><00:11:08.660><c> pre-processing</c><00:11:09.660><c> works</c><00:11:10.080><c> and</c><00:11:10.470><c> why</c></c>
+
+00:11:10.640 --> 00:11:10.650 align:start position:0%
+<c.colorE5E5E5>an</c><c.colorCCCCCC> idea how pre-processing works and why
+ </c>
+
+00:11:10.650 --> 00:11:12.110 align:start position:0%
+<c.colorE5E5E5>an</c><c.colorCCCCCC> idea how pre-processing works and why
+it<00:11:10.710><c> is</c><00:11:10.890><c> important</c></c><c.colorE5E5E5><00:11:11.400><c> for</c><00:11:11.520><c> natural</c><00:11:11.850><c> language</c></c>
+
+00:11:12.110 --> 00:11:12.120 align:start position:0%
+it is important<c.colorE5E5E5> for natural language
+ </c>
+
+00:11:12.120 --> 00:11:13.940 align:start position:0%
+it is important<c.colorE5E5E5> for natural language
+processing</c><c.colorCCCCCC><00:11:12.150><c> we</c><00:11:12.870><c> will</c><00:11:12.990><c> assume</c><00:11:13.410><c> for</c></c><c.colorE5E5E5><00:11:13.650><c> the</c><00:11:13.770><c> rest</c></c>
+
+00:11:13.940 --> 00:11:13.950 align:start position:0%
+processing<c.colorCCCCCC> we will assume for</c><c.colorE5E5E5> the rest
+ </c>
+
+00:11:13.950 --> 00:11:15.860 align:start position:0%
+processing<c.colorCCCCCC> we will assume for</c><c.colorE5E5E5> the rest
+of<00:11:14.040><c> this</c><00:11:14.190><c> course</c><00:11:14.490><c> that</c><00:11:14.730><c> the</c><00:11:14.940><c> texts</c></c><c.colorCCCCCC><00:11:15.420><c> that</c><00:11:15.630><c> we're</c></c>
+
+00:11:15.860 --> 00:11:15.870 align:start position:0%
+of<c.colorE5E5E5> this course that the texts</c><c.colorCCCCCC> that we're
+ </c>
+
+00:11:15.870 --> 00:11:17.510 align:start position:0%
+of<c.colorE5E5E5> this course that the texts</c><c.colorCCCCCC> that we're
+dealing<00:11:16.050><c> with</c><00:11:16.440><c> have</c><00:11:16.680><c> already</c><00:11:17.010><c> been</c></c>
+
+00:11:17.510 --> 00:11:17.520 align:start position:0%
+dealing<c.colorCCCCCC> with have already been
+ </c>
+
+00:11:17.520 --> 00:11:20.270 align:start position:0%
+dealing<c.colorCCCCCC> with have already been
+processed<00:11:18.060><c> and</c><00:11:18.270><c> properly</c></c><c.colorE5E5E5><00:11:19.130><c> segmented</c><00:11:20.130><c> into</c></c>
+
+00:11:20.270 --> 00:11:20.280 align:start position:0%
+processed and properly<c.colorE5E5E5> segmented into
+ </c>
+
+00:11:20.280 --> 00:11:23.180 align:start position:0%
+processed and properly<c.colorE5E5E5> segmented into
+segments<00:11:20.970><c> so</c><00:11:21.510><c> appropriately</c><00:11:22.290><c> segmented</c><00:11:23.010><c> into</c></c>
+
+00:11:23.180 --> 00:11:23.190 align:start position:0%
+segments so appropriately segmented into
+ 
+
+00:11:23.190 --> 00:11:27.530 align:start position:0%
+segments so appropriately segmented into
+sentences<c.colorE5E5E5><00:11:23.730><c> and</c><00:11:24.240><c> words</c></c><c.colorCCCCCC><00:11:24.510><c> so</c><00:11:26.090><c> this</c></c><c.colorE5E5E5><00:11:27.090><c> concludes</c></c>
+
+00:11:27.530 --> 00:11:27.540 align:start position:0%
+sentences<c.colorE5E5E5> and words</c><c.colorCCCCCC> so this</c><c.colorE5E5E5> concludes
+ </c>
+
+00:11:27.540 --> 00:11:31.400 align:start position:0%
+sentences<c.colorE5E5E5> and words</c><c.colorCCCCCC> so this</c><c.colorE5E5E5> concludes
+the<00:11:27.690><c> section</c><00:11:27.930><c> on</c><00:11:28.400><c> pre-processing</c></c>
+

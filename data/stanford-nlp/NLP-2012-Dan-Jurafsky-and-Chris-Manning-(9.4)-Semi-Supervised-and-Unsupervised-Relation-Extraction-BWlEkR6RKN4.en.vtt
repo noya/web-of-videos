@@ -1,0 +1,655 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.540 --> 00:00:03.550
+Some of the most popular
+recent algorithms for
+
+00:00:03.550 --> 00:00:07.610
+relation extraction are semi-supervised
+and unsupervised algorithms.
+
+00:00:07.610 --> 00:00:08.140
+Let's look at them.
+
+00:00:10.930 --> 00:00:13.470
+What happens if you don't
+have a large training set?
+
+00:00:13.470 --> 00:00:16.770
+But what you have instead are maybe
+just a couple of seed examples or
+
+00:00:16.770 --> 00:00:19.160
+maybe you have a couple of
+high-precision patterns.
+
+00:00:19.160 --> 00:00:22.110
+Can you use those seeds
+to do something useful?
+
+00:00:22.110 --> 00:00:25.680
+In the seed based or bootstrapping
+approaches to relation extraction,
+
+00:00:25.680 --> 00:00:28.930
+we use the seeds to directly
+learn how to populate a relation.
+
+00:00:30.100 --> 00:00:33.630
+The intuition of the seed based
+method from Hearst 1992 is to
+
+00:00:33.630 --> 00:00:36.540
+gather a set of seed pairs
+that have a relation.
+
+00:00:36.540 --> 00:00:37.810
+And then iterate the following.
+
+00:00:37.810 --> 00:00:39.890
+We find sentences with these pairs.
+
+00:00:39.890 --> 00:00:43.970
+We look at the context between or around
+the pairs, look at the words before or
+
+00:00:43.970 --> 00:00:46.100
+after or in the relation itself.
+
+00:00:46.100 --> 00:00:49.350
+And we generalize this context
+to create some patterns.
+
+00:00:49.350 --> 00:00:51.860
+We use the patterns to search for
+more pairs.
+
+00:00:51.860 --> 00:00:53.630
+If we're on the web,
+we're searching the web.
+
+00:00:53.630 --> 00:00:56.380
+If we're in a large corpus,
+we look in this corpus.
+
+00:00:56.380 --> 00:00:59.380
+We find more pairs, and
+now we just iterate.
+
+00:00:59.380 --> 00:01:03.449
+We take these pairs, we find sentences
+that have them, we find more patterns,
+
+00:01:03.449 --> 00:01:06.808
+we generalize the patterns, and
+so on, in this iterative loop.
+
+00:01:08.668 --> 00:01:12.418
+So suppose we're looking for
+where famous authors are buried,
+
+00:01:12.418 --> 00:01:15.830
+and we know that Mark Twain is
+buried in Elmira, New York.
+
+00:01:17.000 --> 00:01:19.800
+So we might start with
+that single seed tuple.
+
+00:01:19.800 --> 00:01:23.760
+We might grep or google on the web for
+all environments of that seed tuple.
+
+00:01:23.760 --> 00:01:26.370
+So we might find sentences like these.
+
+00:01:26.370 --> 00:01:28.380
+Mark Twain is buried in Elmira.
+
+00:01:28.380 --> 00:01:30.530
+The grave of Mark Twain is in Elmira.
+
+00:01:30.530 --> 00:01:33.300
+Elmira is Mark Twain's
+final resting place.
+
+00:01:33.300 --> 00:01:36.200
+And then we take out the actual
+entities and create little variables.
+
+00:01:36.200 --> 00:01:40.908
+So we learn X is buried in Y is a Patten
+or the grave of X is in Y is a pattern or
+
+00:01:40.908 --> 00:01:45.318
+Y is X's final resting place, so
+we learn these kind of patterns.
+
+00:01:45.318 --> 00:01:52.458
+We take those patterns, grep for
+more tuples and then we iterate.
+
+00:01:52.458 --> 00:01:57.450
+And this approach was first applied by
+Sergei Brin in 1998 who looked at the task
+
+00:01:57.450 --> 00:01:59.820
+of extracting author book pairs.
+
+00:01:59.820 --> 00:02:02.590
+So we might have authors
+like Isaac Asimov and
+
+00:02:02.590 --> 00:02:05.980
+The Robots of Dawn or William Shakespeare
+and The Comedy of Errors.
+
+00:02:05.980 --> 00:02:10.340
+So first we might find instances, so
+imagine for Comedy of Errors we happen to
+
+00:02:10.340 --> 00:02:14.920
+find these four instances, The Comedy
+of Errors by William Shakespeare, was.
+
+00:02:14.920 --> 00:02:17.450
+The Comedy of Errors by
+William Shakespeare, is.
+
+00:02:17.450 --> 00:02:18.340
+The Comedy of Errors,
+
+00:02:18.340 --> 00:02:20.410
+one of William Shakespeare's
+earliest attempts, and so on.
+
+00:02:20.410 --> 00:02:23.750
+And now we extract patterns from these,
+and
+
+00:02:23.750 --> 00:02:27.530
+one way to do this is to group all
+these patterns by what's in the middle.
+
+00:02:27.530 --> 00:02:29.758
+So these two both have
+comma by in the middle.
+
+00:02:29.758 --> 00:02:37.000
+And now we take the longest common prefix
+or suffix of the before and after parts.
+
+00:02:37.000 --> 00:02:41.728
+So both of these have nothing before and
+both of these has a comma after.
+
+00:02:41.728 --> 00:02:44.632
+So we will extract the pattern saying,
+
+00:02:44.632 --> 00:02:49.120
+we have an x follow by comma by and
+then a y followed by a comma.
+
+00:02:50.190 --> 00:02:53.860
+Or in these two patterns,
+they both have comma one of in the middle.
+
+00:02:53.860 --> 00:02:55.650
+And they both have nothing before.
+
+00:02:55.650 --> 00:02:58.180
+And they both have an apostrophe s,
+afterwards.
+
+00:02:58.180 --> 00:03:03.090
+So, we can extract the pattern x, and
+then comma one of, and then y and
+
+00:03:03.090 --> 00:03:04.518
+then apostrophe s.
+
+00:03:04.518 --> 00:03:07.612
+And again, we iterate,
+now that we've got some new patterns, and
+
+00:03:07.612 --> 00:03:10.940
+we find new seeds that match that pattern,
+and we continually iterate.
+
+00:03:14.510 --> 00:03:19.060
+The Brin approach was improved
+in the Snowball Algorithm.
+
+00:03:19.060 --> 00:03:21.070
+Similar iterative algorithm, and
+
+00:03:21.070 --> 00:03:25.120
+similar kinds of grouped
+instances to extract patterns.
+
+00:03:25.120 --> 00:03:29.600
+And the extra intuition of Snowball
+was the requirement that X and
+
+00:03:29.600 --> 00:03:30.960
+Y be named entities.
+
+00:03:30.960 --> 00:03:35.820
+So in the deep algorithm,
+x and y could be any string.
+
+00:03:35.820 --> 00:03:38.573
+Now we're going to add the intuition
+that each of those things have to be
+
+00:03:38.573 --> 00:03:41.802
+a particular named entity that's going to
+help us because we know we have a relation
+
+00:03:41.802 --> 00:03:43.338
+between organization and location.
+
+00:03:43.338 --> 00:03:50.290
+And again we extract words in between or
+before or after the two patterns.
+
+00:03:50.290 --> 00:03:54.180
+And the Snowball algorithm also computed
+a confidence value for each pattern, so
+
+00:03:54.180 --> 00:03:55.340
+that's kind of a new intuition.
+
+00:04:00.270 --> 00:04:03.470
+Another semi-supervised algorithm
+extends both of these ideas
+
+00:04:03.470 --> 00:04:08.030
+by combining the bootstrapping algorithms
+that we saw with the seed-based methods
+
+00:04:08.030 --> 00:04:11.090
+with the supervised learning algorithms
+we saw in the previous lecture.
+
+00:04:11.090 --> 00:04:14.690
+So instead of 5 seeds,
+in a distant supervision algorithm,
+
+00:04:14.690 --> 00:04:18.250
+we take a large database and
+we get a huge number of seed examples.
+
+00:04:18.250 --> 00:04:20.820
+Now from those huge number of seeds,
+we have a big database.
+
+00:04:20.820 --> 00:04:22.760
+We could have hundreds of
+thousands of examples.
+
+00:04:22.760 --> 00:04:25.380
+We create lots and lots of features.
+
+00:04:25.380 --> 00:04:29.010
+And now, instead iterating,
+we simply take all of those features and
+
+00:04:29.010 --> 00:04:32.110
+build a big supervised
+classifier supervised
+
+00:04:32.110 --> 00:04:35.132
+by all these facts that we know
+were truly in our large database.
+
+00:04:36.960 --> 00:04:39.280
+So like supervised classification,
+
+00:04:39.280 --> 00:04:43.730
+in distant supervision, we're learning
+a classifier with lots of features
+
+00:04:43.730 --> 00:04:47.660
+that's supervised by the detailed
+hand-created knowledge and some database.
+
+00:04:47.660 --> 00:04:51.630
+But we're not having to do the complex
+iteratively expanding of patterns
+
+00:04:51.630 --> 00:04:53.060
+that we saw in the sea based method.
+
+00:04:54.550 --> 00:04:58.765
+But like unsupervised classification,
+distance supervision lets you use lots and
+
+00:04:58.765 --> 00:05:02.444
+lots of unlabeled data and it's not
+sensitive to the genre issues that you
+
+00:05:02.444 --> 00:05:04.658
+might have in supervised classification.
+
+00:05:06.378 --> 00:05:08.158
+So let's see how it works.
+
+00:05:08.158 --> 00:05:11.400
+For each relation let's say we're
+trying to extract the born-in relation.
+
+00:05:12.430 --> 00:05:16.090
+We go through each tuple in some big
+database of the born-in relations.
+
+00:05:16.090 --> 00:05:17.528
+We have lots of born in relations.
+
+00:05:17.528 --> 00:05:21.310
+Edwin Hubble, Born-in Marshfield,
+Albert Einstein, Born-in Ulm.
+
+00:05:22.420 --> 00:05:24.480
+We find sentences in some large corpus.
+
+00:05:24.480 --> 00:05:26.570
+Let's say we're using the web
+that have both entities.
+
+00:05:26.570 --> 00:05:28.690
+So, here's a bunch of
+sentences we might find.
+
+00:05:28.690 --> 00:05:32.580
+Hubble was born in Marshfield,
+Einstein, born (1879),
+
+00:05:32.580 --> 00:05:36.050
+Ulm, Hubble's birthplace in Marshfield,
+and so on.
+
+00:05:36.050 --> 00:05:36.799
+Lots of sentences.
+
+00:05:37.810 --> 00:05:39.920
+And now from all of those sentences for
+
+00:05:39.920 --> 00:05:43.090
+all those different entities
+we extract frequent features.
+
+00:05:43.090 --> 00:05:47.150
+So we might parse the sentences, we might
+just use the words in between, we might
+
+00:05:47.150 --> 00:05:51.450
+have some name entities, we might have
+parts of speech tags, all sorts of things.
+
+00:05:51.450 --> 00:05:54.398
+We extract lots and lots of features.
+
+00:05:54.398 --> 00:05:57.638
+And now we take all those features and
+do exactly what we did for
+
+00:05:57.638 --> 00:05:59.270
+supervised classification.
+
+00:05:59.270 --> 00:06:02.880
+And we have a ton of features and
+we have a large training set.
+
+00:06:02.880 --> 00:06:05.880
+And now we just trained
+a supervised classifier.
+
+00:06:05.880 --> 00:06:07.727
+We'll need,
+like any supervised classifier,
+
+00:06:07.727 --> 00:06:10.938
+we'll need examples in the training set of
+positive and negative set of instances.
+
+00:06:10.938 --> 00:06:14.998
+We extract our positive instances
+from what we've seen in the database.
+
+00:06:14.998 --> 00:06:16.920
+So person, a particular person,
+
+00:06:16.920 --> 00:06:20.178
+Albert Einstein being born in
+Ulm is a positive instance.
+
+00:06:20.178 --> 00:06:22.559
+So from our supervised classifier,
+
+00:06:22.559 --> 00:06:27.646
+we can get a probability of the Born-In
+relation for a particular data point.
+
+00:06:27.646 --> 00:06:31.186
+And now that we can condition that on all
+sorts of features we can extract from each
+
+00:06:31.186 --> 00:06:32.100
+sentence.
+
+00:06:32.100 --> 00:06:33.230
+So huge number of features.
+
+00:06:34.560 --> 00:06:39.140
+Most recently, there's been a number of
+algorithms for doing unsupervised relation
+
+00:06:39.140 --> 00:06:42.730
+extraction often called open information
+extraction where the goal is to extract
+
+00:06:42.730 --> 00:06:46.510
+relations from the web with no training
+data and no real list of relations.
+
+00:06:46.510 --> 00:06:48.420
+We just go to the web and
+pull information out.
+
+00:06:49.680 --> 00:06:54.990
+And here is the Banko algorithm,
+called the Textrunner algorithm.
+
+00:07:00.460 --> 00:07:04.546
+They first used parsed data to
+train a classifier to the side of
+
+00:07:04.546 --> 00:07:07.080
+a particular relation or tuple.
+
+00:07:07.080 --> 00:07:08.110
+It's trustworthy or not?
+
+00:07:08.110 --> 00:07:11.705
+Do they have a small amount of parsed
+data where they can use very expensive
+
+00:07:11.705 --> 00:07:15.450
+parsed features to decide
+that a subject and a verb and
+
+00:07:15.450 --> 00:07:17.690
+an object likely to be in a relation.
+
+00:07:17.690 --> 00:07:20.598
+Train a classier that can
+do that in a relation.
+
+00:07:20.598 --> 00:07:24.699
+And now they walk through the very large
+corpus that saves the web in a single-pass
+
+00:07:24.699 --> 00:07:27.135
+and maybe to extract any
+relation between NPs and
+
+00:07:27.135 --> 00:07:29.515
+we keep them if they
+are trustworthy classier,
+
+00:07:29.515 --> 00:07:33.100
+says this is likely to be a relation
+between the two entities.
+
+00:07:33.100 --> 00:07:35.800
+And then we rank these
+relations based on redundancy.
+
+00:07:35.800 --> 00:07:40.170
+If we see a relation occur a lot of times
+between two entities on different websites
+
+00:07:40.170 --> 00:07:42.208
+then we guess this is a real relation.
+
+00:07:42.208 --> 00:07:47.238
+And this open extraction algorithm
+extracts relations like FCI, specializes
+
+00:07:47.238 --> 00:07:52.370
+in software development or Tesla,
+invented, coil transformer and so on.
+
+00:07:52.370 --> 00:07:57.790
+Where we can extract a virtually
+infinite number of possible relations
+
+00:07:57.790 --> 00:08:01.790
+between any entities, all we have to do is
+see them often enough times on the web.
+
+00:08:05.590 --> 00:08:07.510
+How do we evaluate the semi-supervised and
+
+00:08:07.510 --> 00:08:10.190
+the unsupervised relation
+extraction algorithms?
+
+00:08:10.190 --> 00:08:13.830
+Since all of these are extracting
+totally new relations from the web or
+
+00:08:13.830 --> 00:08:17.680
+from some large corpus,
+there's no gold set of correct instances.
+
+00:08:17.680 --> 00:08:20.150
+We can't prelabel the web with
+all the relations that are on it.
+
+00:08:20.150 --> 00:08:22.410
+If we could do that we'd be done.
+
+00:08:22.410 --> 00:08:25.370
+And that means that we can't compute
+precision because we don't know which
+
+00:08:25.370 --> 00:08:27.630
+of the new relations we've
+extracted are correct.
+
+00:08:27.630 --> 00:08:30.900
+And we can't complete compute recall
+because we don't know which ones we
+
+00:08:30.900 --> 00:08:32.030
+missed.
+
+00:08:32.030 --> 00:08:34.328
+So what do we do?
+
+00:08:34.328 --> 00:08:36.550
+We can compute an approximate precision.
+
+00:08:37.800 --> 00:08:41.390
+And we do this by drawing a random
+sample of relations from the output of
+
+00:08:41.390 --> 00:08:44.350
+the system, and we just check
+the precision of those manually.
+
+00:08:44.350 --> 00:08:48.741
+So we take some random sample, we pull out
+some of the relations in that sample, and
+
+00:08:48.741 --> 00:08:51.018
+we measure how many of those were correct.
+
+00:08:51.018 --> 00:08:54.650
+And that will tell us an estimate
+of the precision of the system.
+
+00:08:55.750 --> 00:08:58.850
+And we can also do that at
+different levels of recall.
+
+00:08:58.850 --> 00:09:02.610
+So we could take, let's say our relations
+are ranked, we got a probability,
+
+00:09:02.610 --> 00:09:05.850
+there's probably a ranking, we could
+take the top 1,000 by that ranking,
+
+00:09:05.850 --> 00:09:09.550
+compute the precision for some sample
+of 100 of those or take the top 10,000,
+
+00:09:09.550 --> 00:09:13.430
+computer the precision for
+some sample of 100 of those and so on.
+
+00:09:13.430 --> 00:09:16.310
+And get the precision at
+different levels of recall.
+
+00:09:16.310 --> 00:09:18.230
+So in this case,
+we're taking a random sample.
+
+00:09:18.230 --> 00:09:23.000
+But there's no way to evaluate the actual
+recall, the complete recall of the system
+
+00:09:23.000 --> 00:09:25.740
+without labeling the entire database
+which of course, we can't do.
+
+00:09:30.050 --> 00:09:33.880
+So semi-supervised and unsupervised
+algorithms for named entity extraction
+
+00:09:33.880 --> 00:09:38.380
+are two of the most exciting areas in
+modern research and extracting relations.
+
+00:09:38.380 --> 00:09:42.140
+And in general, the use of rules with
+named entities to extract relations,
+
+00:09:42.140 --> 00:09:45.850
+the use of supervised machine learning,
+and these new unsupervised approaches
+
+00:09:45.850 --> 00:09:49.120
+are always to solve the very important
+task of relation extraction,
+
+00:09:49.120 --> 00:09:51.540
+one of the core parts of
+information extraction.
+

@@ -1,0 +1,702 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.668 --> 00:00:07.028
+Supervised machine learning is an
+important way to do Relation Extraction.
+
+00:00:07.028 --> 00:00:11.508
+The algorithm works as follows, we choose
+some set of relations we like to extract.
+
+00:00:11.508 --> 00:00:15.368
+We choose some set of entities we like
+to extract the relationship in between.
+
+00:00:15.368 --> 00:00:19.688
+And once it presumes we have some entity,
+tagger can tag those entities.
+
+00:00:19.688 --> 00:00:22.160
+And now we find some data and we label it.
+
+00:00:22.160 --> 00:00:26.300
+So we choose some representative corpus,
+we run our named entity tagger and
+
+00:00:26.300 --> 00:00:29.030
+label the entities or
+we label them by hand if it's small.
+
+00:00:29.030 --> 00:00:32.760
+And now, by hand we label
+the relationship between each entity, so
+
+00:00:32.760 --> 00:00:36.030
+all the relations we're interested in,
+we label all of them in the corpus.
+
+00:00:36.030 --> 00:00:38.846
+And now, we break our corpus
+into training, development and
+
+00:00:38.846 --> 00:00:42.058
+test like we've done in the past for
+all of our classification tasks.
+
+00:00:42.058 --> 00:00:46.049
+And now, we train our classifier
+on our training set and then,
+
+00:00:46.049 --> 00:00:48.848
+we test it on our development and
+test sets.
+
+00:00:51.228 --> 00:00:54.428
+For efficiency reasons,
+we often modify this algorithm slightly.
+
+00:00:54.428 --> 00:00:58.640
+We first find all pairs of named entities,
+usually occurring in the same sentence or
+
+00:00:58.640 --> 00:01:00.210
+right near each other.
+
+00:01:00.210 --> 00:01:03.550
+And we build one classifier which
+just makes a yes, no decision.
+
+00:01:03.550 --> 00:01:05.250
+Are these two instances
+related in some way?
+
+00:01:06.260 --> 00:01:11.240
+And if so, we then run to a second
+classifier which classifies the relation.
+
+00:01:11.240 --> 00:01:14.658
+So why do we build two
+classifiers instead of one?
+
+00:01:14.658 --> 00:01:18.957
+Usually, if we have a lot of data this
+simple Boolean classifier that says these
+
+00:01:18.957 --> 00:01:22.420
+things are probably related in
+some way can be run very quickly,
+
+00:01:22.420 --> 00:01:25.648
+can be train fast and run fast,
+we can train in a lot of data.
+
+00:01:25.648 --> 00:01:29.591
+And that will eliminate most pairs because
+most entities in most senses are probably
+
+00:01:29.591 --> 00:01:32.260
+not in whatever relation
+that we're looking for.
+
+00:01:32.260 --> 00:01:34.850
+And then we can use distinct
+feature sets specific
+
+00:01:34.850 --> 00:01:37.640
+to the sighting of two things
+are related to each other at all and
+
+00:01:37.640 --> 00:01:39.100
+the sighting of there in
+a particular relation.
+
+00:01:42.570 --> 00:01:45.212
+So again, we might use the relations for
+
+00:01:45.212 --> 00:01:50.031
+example from the Automated Content
+Extraction or ACE Task remember we had
+
+00:01:50.031 --> 00:01:54.008
+six meta relations and
+17 sub-types of those relations.
+
+00:01:54.008 --> 00:01:56.101
+And given that set of relations,
+
+00:01:56.101 --> 00:02:00.678
+our task is to classify the relation
+between two entities in a sentence.
+
+00:02:00.678 --> 00:02:05.065
+So imagine this sentence, American
+Airlines a unit of AMR Immediately matched
+
+00:02:05.065 --> 00:02:07.168
+the moves spokesman Tim Wagner said.
+
+00:02:07.168 --> 00:02:11.682
+So, we have two entities, American
+Airlines and Tim Wagner and our task
+
+00:02:11.682 --> 00:02:15.950
+is to decide what the relationship
+is between those two entities.
+
+00:02:15.950 --> 00:02:19.830
+It might be family or citizen or
+employment or it might nothing, it might
+
+00:02:19.830 --> 00:02:23.730
+unrelated or it could be subsidiary or
+founder or inventor and so on.
+
+00:02:25.470 --> 00:02:27.848
+So what are the features that
+we're going to use for this task?
+
+00:02:27.848 --> 00:02:32.417
+And let's for now, imagine that we're
+doing just a task of deciding what
+
+00:02:32.417 --> 00:02:34.788
+the relationship is between the two.
+
+00:02:34.788 --> 00:02:37.367
+So here is the sentence again,
+where we have two mentions,
+
+00:02:37.367 --> 00:02:40.760
+Mention 1 is American Airlines and
+Mention 2 is Tim Wagner.
+
+00:02:40.760 --> 00:02:43.829
+So one important feature is
+the headwords of the two mentions.
+
+00:02:44.970 --> 00:02:48.245
+So the headword of
+American Airlines is Airlines, so
+
+00:02:48.245 --> 00:02:51.748
+we'll talk more about headwords
+when we get to parsing.
+
+00:02:51.748 --> 00:02:55.150
+In this case,
+American Airlines is an airline and
+
+00:02:55.150 --> 00:02:58.380
+the headword of Tim Wagner will be Wagner.
+
+00:02:58.380 --> 00:03:01.158
+And so, Airlines and
+Wagner might be useful features.
+
+00:03:01.158 --> 00:03:04.558
+And we can create a new feature which
+is just the two combined together.
+
+00:03:04.558 --> 00:03:07.553
+And sometimes that's going to be useful
+because we're going to see the two heads
+
+00:03:07.553 --> 00:03:11.750
+together often enough that that feature
+might actually tell us some information.
+
+00:03:11.750 --> 00:03:16.150
+So we have three features so far,
+Airlines, Wagner and Airlines-Wagner.
+
+00:03:16.150 --> 00:03:18.088
+We might through in the bag of words or
+
+00:03:18.088 --> 00:03:21.158
+even a bag of bigrams that
+are in the mentions themselves.
+
+00:03:21.158 --> 00:03:24.350
+So the word American,
+the word airlines, the word Tim, and
+
+00:03:24.350 --> 00:03:27.820
+the word Wagner are all words
+that occur in the two mentions.
+
+00:03:27.820 --> 00:03:30.550
+And the bigram American Airlines and
+
+00:03:30.550 --> 00:03:34.990
+the bigram Tim Wagner
+occur in the two mentions.
+
+00:03:34.990 --> 00:03:36.265
+And we might pick words or
+
+00:03:36.265 --> 00:03:40.538
+bigrams that are in particular positions
+to the left and right of the two mentions.
+
+00:03:40.538 --> 00:03:45.697
+So for example, the word before Mention 2,
+so we'll call this word minus 1,
+
+00:03:45.697 --> 00:03:49.098
+with respect to Mention 2,
+is the work spokesman.
+
+00:03:49.098 --> 00:03:50.936
+And the word after Mention 2, so
+
+00:03:50.936 --> 00:03:55.760
+we'll call this the word plus 1 with
+respect to Mention 2, is the word said.
+
+00:03:55.760 --> 00:03:57.200
+Or after Mention 1,
+
+00:03:57.200 --> 00:04:00.700
+if we're counting punctuation,
+our first word there is a comma.
+
+00:04:00.700 --> 00:04:01.830
+If we're not counting punctuation or
+
+00:04:01.830 --> 00:04:06.000
+first word is a and
+the word before American Airlines is nil.
+
+00:04:06.000 --> 00:04:08.910
+There's no word before American Airlines,
+so we can have these
+
+00:04:08.910 --> 00:04:13.260
+words that are specific, at specific
+positions before and after each mention.
+
+00:04:15.170 --> 00:04:19.568
+And we can have the words that are in
+between the two mentions, so for example,
+
+00:04:19.568 --> 00:04:24.330
+this between region.
+
+00:04:24.330 --> 00:04:26.230
+So a unit of AMR immediately
+matched the move,
+
+00:04:26.230 --> 00:04:28.940
+spokesman between American Airlines and
+Tim Wagner.
+
+00:04:28.940 --> 00:04:33.810
+We can throw in a bag of those words,
+so a, AMR, of, immediately,
+
+00:04:33.810 --> 00:04:35.790
+and all those sort of thing or
+
+00:04:35.790 --> 00:04:39.490
+in fact, if we have enough compute power
+we can throw in bags of bigrams as well.
+
+00:04:39.490 --> 00:04:41.900
+So all pairs of words
+between the two entities.
+
+00:04:44.990 --> 00:04:49.838
+We've already said that name-entity type
+very important relation extraction, so
+
+00:04:49.838 --> 00:04:52.948
+I want to know that the first
+entity is an organization.
+
+00:04:52.948 --> 00:04:59.468
+So American Airlines in organization,
+the second mention Tim Wagner is a person.
+
+00:04:59.468 --> 00:05:02.780
+And I might create a new feature just
+by concatenating those two together.
+
+00:05:02.780 --> 00:05:06.660
+So, a new feature called org-person which
+is the concatenation of the two named
+
+00:05:06.660 --> 00:05:07.620
+entity types.
+
+00:05:07.620 --> 00:05:11.630
+A feature whose value is an org-person and
+
+00:05:11.630 --> 00:05:14.990
+then we might add what's called
+the entity level of the two mentions.
+
+00:05:14.990 --> 00:05:20.040
+So the entity level is whether an entity
+is a name, a nominal or a pronoun.
+
+00:05:20.040 --> 00:05:23.527
+And very often, what we have is names,
+but we also get nominals and
+
+00:05:23.527 --> 00:05:25.408
+pronouns acting as name entities.
+
+00:05:25.408 --> 00:05:29.797
+So, these two are both names, so
+American Airlines is a name and
+
+00:05:29.797 --> 00:05:34.102
+Tim Wagner is a name but if they put,
+they were instead it or he,
+
+00:05:34.102 --> 00:05:36.408
+then we will call this a pronoun.
+
+00:05:36.408 --> 00:05:39.290
+And if it was a nominal like
+the companies so not a proper noun,
+
+00:05:39.290 --> 00:05:40.960
+then we will call that the nominal.
+
+00:05:42.080 --> 00:05:44.820
+So, again another feature we can use for
+each of the two mentions.
+
+00:05:48.030 --> 00:05:52.370
+And we haven't talked yet about parsing,
+but we can use lots of features related to
+
+00:05:52.370 --> 00:05:56.788
+the parse once we parse the sentence, we
+can extract lots of useful parse features.
+
+00:05:56.788 --> 00:06:00.088
+And, just to give you the intuition
+without going into the details of parsing.
+
+00:06:00.088 --> 00:06:04.156
+We could extract what's called a
+synantatic chunk sequence or a base chunk
+
+00:06:04.156 --> 00:06:08.628
+sequence, so there's a couple of noun
+phrases followed by preposition phrase.
+
+00:06:08.628 --> 00:06:12.410
+So here, we have a noun phrase,
+and a noun phrase, and
+
+00:06:12.410 --> 00:06:17.288
+a preposition phrase, and a verb phrase,
+and a noun phrase and so on.
+
+00:06:17.288 --> 00:06:22.328
+So this sequence of syntactic chunks.
+
+00:06:22.328 --> 00:06:26.287
+We can actually, run a parser and then
+flatten out the parse into what's called
+
+00:06:26.287 --> 00:06:29.551
+a constituent pass, and
+we'll talk about how these work later.
+
+00:06:29.551 --> 00:06:31.321
+But basically this is saying that,
+
+00:06:31.321 --> 00:06:35.038
+we see the parse has a noun phrase whose
+parent has a noun phrase whose parent
+
+00:06:35.038 --> 00:06:37.878
+is a sentence whose parent is
+another sentence and so on.
+
+00:06:37.878 --> 00:06:41.618
+So it's another way of taking a complex
+parse string, flattening it out and
+
+00:06:41.618 --> 00:06:44.080
+we can have a dependency path,
+for example.
+
+00:06:44.080 --> 00:06:49.420
+We can say that the head said has an
+argument which is Wagner and an argument
+
+00:06:49.420 --> 00:06:53.280
+which is matched and matched has
+an argument which is Airlines and so on.
+
+00:06:53.280 --> 00:06:57.438
+So any of these kind of things can be used
+as parse features for relation extraction.
+
+00:07:00.318 --> 00:07:03.710
+And finally, we can use Gazeteer and
+trigger word features.
+
+00:07:03.710 --> 00:07:07.050
+So a trigger word is just a list of terms
+
+00:07:07.050 --> 00:07:09.100
+that might be useful in
+this particular domain.
+
+00:07:09.100 --> 00:07:12.060
+So for example,
+kinship terms are obviously useful for
+
+00:07:12.060 --> 00:07:13.860
+just having if we have
+the family relation.
+
+00:07:13.860 --> 00:07:17.054
+So word like parent or wife or
+husband or grandparent
+
+00:07:17.054 --> 00:07:20.470
+are obviously words that are going to
+help in finding a family relation.
+
+00:07:20.470 --> 00:07:24.000
+And we can get these from online
+databases, like the WordNet thesaurus, or
+
+00:07:24.000 --> 00:07:25.560
+other places.
+
+00:07:25.560 --> 00:07:31.588
+And a Gazeteer feature is a list of use
+geographical or geopolitical words.
+
+00:07:31.588 --> 00:07:35.676
+So we might have a country name list,
+in a Gazeteer or other kinds of
+
+00:07:35.676 --> 00:07:40.208
+sub-entities like names of rivers or
+lakes or states or cities and so on.
+
+00:07:40.208 --> 00:07:43.753
+That's going to help us know that
+San Francisco is in California and
+
+00:07:43.753 --> 00:07:46.208
+California is in the United States and
+so on.
+
+00:07:46.208 --> 00:07:50.704
+And we often, when we talk about
+Gazeteer features, we might for
+
+00:07:50.704 --> 00:07:54.728
+example, for
+detecting name entities like person name.
+
+00:07:54.728 --> 00:07:58.680
+Having a country name list isn't as useful
+but having a list of common person names
+
+00:07:58.680 --> 00:08:02.130
+in whatever language we're working
+in might be a very useful feature.
+
+00:08:02.130 --> 00:08:05.778
+And so, we often call those Gazeteer
+features even though a name list isn't
+
+00:08:05.778 --> 00:08:07.838
+really a Gazeteer, it's a list of names.
+
+00:08:07.838 --> 00:08:11.828
+But sometimes we use the word
+Gazeteer to mean to any long list of
+
+00:08:11.828 --> 00:08:16.218
+useful proper nouns that might help
+us in doing emented extraction.
+
+00:08:19.198 --> 00:08:22.170
+So in summary, for our sentence
+American Airlines, unit of AMR,
+
+00:08:22.170 --> 00:08:24.778
+immediately matched the move
+spokesman Tim Wagner said.
+
+00:08:24.778 --> 00:08:28.687
+We might have a whole series of features,
+so we might have the entity
+
+00:08:28.687 --> 00:08:32.748
+type of the first mention being ORG,
+and the second one being person.
+
+00:08:32.748 --> 00:08:34.729
+And the head of the first
+one being airlines, and
+
+00:08:34.729 --> 00:08:36.630
+the head of the second one being Wagner.
+
+00:08:36.630 --> 00:08:40.295
+And the Concatenated type feature
+which's value is ORGPERS, and
+
+00:08:40.295 --> 00:08:43.958
+then the bag of words of all of
+the words between the two entities and
+
+00:08:43.958 --> 00:08:48.428
+the word before entity one, which there
+isn't one so that would be none or nill.
+
+00:08:48.428 --> 00:08:50.997
+And the word after
+Entity2 which is said and
+
+00:08:50.997 --> 00:08:54.408
+then all the various parse
+features that we talked about.
+
+00:08:54.408 --> 00:08:59.129
+And we combine all these features and
+we extract them from our training set,
+
+00:08:59.129 --> 00:09:03.723
+we've stacked them from our test set and
+we do standard classification.
+
+00:09:03.723 --> 00:09:05.545
+And of course you can use
+any classifier you'd like.
+
+00:09:05.545 --> 00:09:08.785
+We've talked about the MaxEnt classifier
+and the Naive Bayes classifier.
+
+00:09:08.785 --> 00:09:10.555
+There's other classifiers like SVM.
+
+00:09:10.555 --> 00:09:14.695
+Whatever you like and in each case, you
+train your classifier on the training set.
+
+00:09:14.695 --> 00:09:17.685
+You extract all these features for
+deciding your relation.
+
+00:09:17.685 --> 00:09:20.835
+Training that classifier in
+the training set and then tune
+
+00:09:20.835 --> 00:09:25.565
+any of your hyper parameters on the dev
+set and then test on your unseen test set.
+
+00:09:27.360 --> 00:09:29.160
+Like other kinds of classification,
+
+00:09:29.160 --> 00:09:33.360
+Supervised Relation Extraction is
+evaluated with precision recall in F1.
+
+00:09:33.360 --> 00:09:36.090
+So, just as we saw with other
+kinds of classification,
+
+00:09:36.090 --> 00:09:39.140
+the precision is the number of
+correctly extracted relations
+
+00:09:39.140 --> 00:09:41.580
+over the total number
+of relations extracted.
+
+00:09:41.580 --> 00:09:44.560
+And the recall is the number of
+correctly extracted relations
+
+00:09:44.560 --> 00:09:47.538
+over the total number
+of true gold relations.
+
+00:09:47.538 --> 00:09:49.738
+So we're going to need to test that,
+that's hand labeled for
+
+00:09:49.738 --> 00:09:52.118
+the correct relations and
+we can compute the precision recall.
+
+00:09:52.118 --> 00:09:56.778
+And again,
+the balance of the F1 is 2PR over P+R.
+
+00:10:00.298 --> 00:10:04.890
+So in summary, supervised relation
+extraction let's us get higher accuracy if
+
+00:10:04.890 --> 00:10:06.915
+we have enough hand labeled data and
+
+00:10:06.915 --> 00:10:10.100
+if the test set is in the same
+domain as the training set.
+
+00:10:11.130 --> 00:10:15.270
+The minuses of supervised relation
+extraction are the expense of labelling
+
+00:10:15.270 --> 00:10:16.700
+a large training set.
+
+00:10:16.700 --> 00:10:19.050
+And the general problem
+with supervise models,
+
+00:10:19.050 --> 00:10:21.640
+which is that they don't generalize
+well to different genres.
+
+00:10:21.640 --> 00:10:25.218
+So if we know that we're going to run
+our system on a similar genre to what we
+
+00:10:25.218 --> 00:10:27.978
+have in training,
+then supervise is a good approach.
+
+00:10:27.978 --> 00:10:31.068
+If we're worried that the test set's
+going to be very different than
+
+00:10:31.068 --> 00:10:34.608
+the training set and we have to be able
+to be very robust to different genres.
+
+00:10:34.608 --> 00:10:38.950
+Then we'll probably need to turn to
+unsupervised or semi-supervised methods.
+
+00:10:40.050 --> 00:10:43.830
+So, supervised relation extraction,
+an important way to do relation extraction
+
+00:10:43.830 --> 00:10:46.310
+in cases when we can afford
+to label a training set and
+
+00:10:46.310 --> 00:10:49.900
+we thing our test domain is going to
+be very similar to the training domain.
+

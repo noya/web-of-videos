@@ -1,0 +1,966 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.469 --> 00:00:06.025
+Let's now look at a particular model for
+realizing lexicalized PCFGs, and the model
+
+00:00:06.025 --> 00:00:11.211
+we're going to look at is the model of
+Eugene Charniak from Charniak 1997.
+
+00:00:11.211 --> 00:00:13.620
+This isn't the most recent model.
+
+00:00:13.620 --> 00:00:15.910
+But I'm choosing it because
+it's the simplest and
+
+00:00:15.910 --> 00:00:19.560
+most straightforward way of
+building a lexicalized PCFG and
+
+00:00:19.560 --> 00:00:23.600
+so hopefully it's easy for
+you guys to get a sense of how it works.
+
+00:00:25.330 --> 00:00:29.630
+So just to give a bit of context for
+what I'm explaining, when you're actually
+
+00:00:29.630 --> 00:00:35.340
+parsing in Charniak's parsing model, the
+way he's doing the pausing is bottom up
+
+00:00:35.340 --> 00:00:40.530
+in a way somewhat similar to the way that
+we did CKY pausing you know in OS Sigma.
+
+00:00:41.560 --> 00:00:46.530
+Just as with the plain vanilla PCFG, the
+probabilistic condition is top-down, so
+
+00:00:46.530 --> 00:00:50.995
+you've got the probability of a Right
+hand side given a left hand side,
+
+00:00:50.995 --> 00:00:54.100
+ie the probability of the stuff
+below given the stuff above.
+
+00:00:54.100 --> 00:00:58.105
+And in this segment I'm basically going
+to just show you what the probability
+
+00:00:58.105 --> 00:01:02.310
+distribution are, rather than actually
+going through the pausing algorithm.
+
+00:01:02.310 --> 00:01:06.340
+But for the actual pausing algorithm,
+you are using these probabilities and
+
+00:01:06.340 --> 00:01:08.930
+applying them,
+working upwards through the tree.
+
+00:01:10.880 --> 00:01:15.110
+So this is the idea of how
+Charniak's algorithm works, and for
+
+00:01:15.110 --> 00:01:19.090
+this example, what i'm going to assume
+is that this is our starting point,
+
+00:01:19.090 --> 00:01:22.260
+where we're already partway
+through building a tree.
+
+00:01:22.260 --> 00:01:24.770
+So we have an s node and
+
+00:01:24.770 --> 00:01:28.080
+we know the head word of the whole
+sentence is going to be rose.
+
+00:01:28.080 --> 00:01:32.746
+And that sentence is rewriting as
+a noun phrase and a verb phrase.
+
+00:01:32.746 --> 00:01:37.925
+Well, since the the third phrase
+is the head of the sentence,
+
+00:01:37.925 --> 00:01:42.875
+we just know automatically that it's
+head word is also going to be rose.
+
+00:01:42.875 --> 00:01:47.135
+And the point at which we're
+up to is we haven't yet
+
+00:01:47.135 --> 00:01:50.480
+decided how to expand this noun phrase and
+
+00:01:50.480 --> 00:01:55.320
+we don't know what the head
+of this noun phrase is.
+
+00:01:55.320 --> 00:02:00.450
+So, in Charniak's model, there are two
+probability distributions that are used
+
+00:02:00.450 --> 00:02:06.040
+to expand out the sentence and
+we'll see each of them in turn so
+
+00:02:06.040 --> 00:02:13.320
+the first one is gee, we have to choose
+some head word for this noun phrase.
+
+00:02:13.320 --> 00:02:18.820
+And for choosing that head word, we're
+going to condition on several things.
+
+00:02:18.820 --> 00:02:23.600
+We're going to condition on
+the head word of the pair end,
+
+00:02:25.340 --> 00:02:29.080
+the category which is now N phrase and
+
+00:02:29.080 --> 00:02:33.320
+the parent category which here is S and
+
+00:02:33.320 --> 00:02:38.240
+so the probability distribution
+we are going to use is this one.
+
+00:02:38.240 --> 00:02:42.770
+So we're going to have a probability
+of different hide word choices
+
+00:02:42.770 --> 00:02:45.400
+Given the three conditioning things.
+
+00:02:46.520 --> 00:02:52.200
+The category, the parent category,
+and the parent head word.
+
+00:02:53.290 --> 00:02:58.562
+And so what we are asking is for
+a noun phrase which
+
+00:02:58.562 --> 00:03:06.590
+is in this context of
+being under an S node and
+
+00:03:06.590 --> 00:03:11.400
+having head of the whole S P rose,
+
+00:03:11.400 --> 00:03:17.070
+what are likely nouns to choose
+as the head of the noun phrase.
+
+00:03:17.070 --> 00:03:21.410
+And so you might think of something
+like the balloon rose and say balloon.
+
+00:03:21.410 --> 00:03:24.460
+Or temperature, temperature rose.
+
+00:03:24.460 --> 00:03:27.890
+Or you might think tempos or
+something like this.
+
+00:03:27.890 --> 00:03:31.390
+But since actually here we're
+dealing with a financial newspaper,
+
+00:03:31.390 --> 00:03:35.120
+the Wall Street Journal,
+what it's actually likely to be, and
+
+00:03:35.120 --> 00:03:38.410
+is in this example, is that profits rose.
+
+00:03:39.680 --> 00:03:42.080
+Okay, so
+now we have this noun phrase here.
+
+00:03:42.080 --> 00:03:45.800
+Here, which is a noun phrase,
+headed by profits, but
+
+00:03:45.800 --> 00:03:49.190
+we don't actually know how it expands.
+
+00:03:49.190 --> 00:03:52.720
+And so now we're going to have a second
+probability distribution at work.
+
+00:03:52.720 --> 00:03:57.878
+And so we're going to want to have
+a rewrite rule that's working out
+
+00:03:57.878 --> 00:04:05.140
+How this expands, and what we're going to
+condition it on is a head word, profits,
+
+00:04:05.140 --> 00:04:12.250
+the category, noun phrase, and
+the parent category, which is S.
+
+00:04:12.250 --> 00:04:16.600
+And so that's then going to give us this
+second probability distribution here.
+
+00:04:16.600 --> 00:04:21.530
+What is the probability of a role that
+expands this down one level in the tree
+
+00:04:21.530 --> 00:04:24.980
+given these three conditioning things?
+
+00:04:24.980 --> 00:04:27.550
+The category, the parent category.
+
+00:04:27.550 --> 00:04:29.490
+And the head word.
+
+00:04:29.490 --> 00:04:31.480
+Okay so, we're going to chose a rule.
+
+00:04:31.480 --> 00:04:38.287
+And so that rule could be
+just NP goes to a plural
+
+00:04:38.287 --> 00:04:43.205
+noun, and it would have some probability,
+or it could be something else.
+
+00:04:43.205 --> 00:04:48.465
+And so for this example here the actual
+rule that's chosen is to generate
+
+00:04:48.465 --> 00:04:50.665
+an adjective and a plural noun.
+
+00:04:51.665 --> 00:04:54.780
+And so
+that's given by this probability here.
+
+00:04:54.780 --> 00:04:56.900
+Well once we've generated an adjective and
+
+00:04:56.900 --> 00:05:01.630
+a plural noun, we then have
+the notion of a head of a phrase so
+
+00:05:01.630 --> 00:05:06.780
+we know deterministically that if this
+is a noun phrase headed by profits
+
+00:05:06.780 --> 00:05:12.220
+well this plural noun must be profits
+because it is the head of the noun phrase.
+
+00:05:12.220 --> 00:05:17.160
+And since, actually, we're down to
+the level of a part of speech tag here,
+
+00:05:17.160 --> 00:05:21.890
+that means we have the word profits
+at the bottom of the tree here.
+
+00:05:21.890 --> 00:05:27.010
+Okay, at this point we've completed
+
+00:05:27.010 --> 00:05:32.480
+this element of the expansion according
+to these two probability distortions.
+
+00:05:32.480 --> 00:05:35.730
+And at that point,
+we're just going to keep on going.
+
+00:05:35.730 --> 00:05:40.340
+So we're going to say
+well here is a category.
+
+00:05:40.340 --> 00:05:43.220
+It's actually a non-terminal category.
+
+00:05:43.220 --> 00:05:48.680
+But we're going to expand that by
+working out what its headword is so
+
+00:05:48.680 --> 00:05:51.110
+we're going to use this
+probability distribution.
+
+00:05:51.110 --> 00:05:54.990
+And we're going to choose a word
+here is the head word corporate.
+
+00:05:56.520 --> 00:05:57.620
+And then by that point,
+
+00:05:57.620 --> 00:06:01.470
+because we're down to a nonterminal, we'll
+know that that's a word in the sentence.
+
+00:06:01.470 --> 00:06:07.570
+And then over here,
+the VP headed by rose It's
+
+00:06:07.570 --> 00:06:12.360
+going to have to be expanded by making
+use of this probability distribution.
+
+00:06:12.360 --> 00:06:19.570
+So we're going to expand that and
+choose some expansion
+
+00:06:19.570 --> 00:06:24.880
+phrase maybe it will go through a past
+tense verb and a prepositional phrase.
+
+00:06:24.880 --> 00:06:30.160
+And then we'll start expanding those
+down by choosing head words and
+
+00:06:30.160 --> 00:06:31.090
+how to expand them.
+
+00:06:31.090 --> 00:06:34.160
+We'll get the rows here
+automatically again of course,
+
+00:06:34.160 --> 00:06:36.020
+which will then go to the word rose.
+
+00:06:36.020 --> 00:06:40.760
+And set out, then we'll choose a head word
+over here and then start expanding it.
+
+00:06:40.760 --> 00:06:42.950
+So we're pretty much done.
+
+00:06:42.950 --> 00:06:47.290
+So the only thing we really need now
+Is a way to get started, and so for
+
+00:06:47.290 --> 00:06:52.310
+that we just need a slightly variant
+probability distribution at the beginning.
+
+00:06:52.310 --> 00:06:56.080
+So that we're going to say that we
+have a root category at the top, and
+
+00:06:56.080 --> 00:06:57.590
+it needs a headword.
+
+00:06:57.590 --> 00:07:02.570
+So at that point, we're going to
+have a probability of a headword
+
+00:07:02.570 --> 00:07:07.450
+given that the category equals root and
+
+00:07:07.450 --> 00:07:11.080
+then the other things, these don't exist.
+
+00:07:11.080 --> 00:07:15.020
+So this is just the chance of different
+words being the head of the whole
+
+00:07:15.020 --> 00:07:16.290
+sentence.
+
+00:07:16.290 --> 00:07:22.350
+And so then, once we've done that, we can
+then start expanding downwards from there.
+
+00:07:22.350 --> 00:07:26.610
+So this will be a ROOT headed by rose and
+
+00:07:26.610 --> 00:07:30.250
+then we look for
+a rule to expand that that.
+
+00:07:30.250 --> 00:07:36.530
+So we're now looking for some expansion
+but, you're here to B to S under this.
+
+00:07:36.530 --> 00:07:41.250
+So, at this point we again, don't yet
+
+00:07:41.250 --> 00:07:45.300
+have a parent category but,
+we've now got a category and
+
+00:07:45.300 --> 00:07:49.850
+the head so, you need a couple of special
+probability distributions to just get you
+
+00:07:49.850 --> 00:07:53.840
+started at the beginning and then, you do
+the basic precaution I've talked out here.
+
+00:07:55.710 --> 00:08:02.240
+So what can we achieve by putting these
+words into the grammar like this.
+
+00:08:02.240 --> 00:08:04.640
+So here are some
+statistics that show this,
+
+00:08:04.640 --> 00:08:08.830
+that go in a bit more detail
+what I talked about previously.
+
+00:08:08.830 --> 00:08:12.830
+So here we have different
+expansions of the verb phrase rule.
+
+00:08:12.830 --> 00:08:15.500
+And here we have a choice of
+different verbs for a head.
+
+00:08:15.500 --> 00:08:19.290
+And this just illustrates
+more systematically
+
+00:08:19.290 --> 00:08:22.060
+how the chance of different expansions for
+
+00:08:22.060 --> 00:08:27.990
+the verb phrase vary enormously
+depending on which verb you're choosing.
+
+00:08:27.990 --> 00:08:33.490
+So, if you have a verb like come,
+you find out that getting a PP after
+
+00:08:33.490 --> 00:08:38.680
+the verb is enormously, enormously common,
+it happens about one third of the time.
+
+00:08:38.680 --> 00:08:43.610
+And having just the verb in the verb
+phrase happens about 10% of the time.
+
+00:08:43.610 --> 00:08:47.290
+Where many other kinds of compliments,
+like S and
+
+00:08:47.290 --> 00:08:51.340
+NP compliments are really
+rare with the verb calm.
+
+00:08:51.340 --> 00:08:56.885
+But that's then exactly and
+also trend with a noun phrase after it.
+
+00:08:56.885 --> 00:08:59.485
+But for
+other verbs the facts are very different.
+
+00:08:59.485 --> 00:09:03.235
+So for the verb take,
+take normally takes an object.
+
+00:09:05.275 --> 00:09:08.815
+He took a nap, he took a walk,
+he took a ticket and a thing like that.
+
+00:09:08.815 --> 00:09:14.475
+So about a third of the time
+you get just VP goes to VNP.
+
+00:09:14.475 --> 00:09:20.890
+Of course you can get other things
+as well If we then move on to think,
+
+00:09:20.890 --> 00:09:26.670
+think is a sentential comment verb
+that you're saying what you thought.
+
+00:09:26.670 --> 00:09:30.790
+And in fact, nearly always the think
+almost three quarters the time
+
+00:09:30.790 --> 00:09:32.870
+you're getting an S bar complement,
+
+00:09:32.870 --> 00:09:37.820
+that's something like he thinks that she
+is dishonest, he thinks she is dishonest.
+
+00:09:37.820 --> 00:09:39.720
+Either of those is an S bar complement,
+
+00:09:39.720 --> 00:09:42.820
+regardless whether there's an over that or
+not.
+
+00:09:42.820 --> 00:09:46.250
+And then the final example
+illustrated here is the verb want,
+
+00:09:46.250 --> 00:09:50.830
+which also takes complements but
+it takes infinitive S compliments.
+
+00:09:50.830 --> 00:09:52.050
+I want to go to the store.
+
+00:09:52.050 --> 00:09:55.770
+And so about 70% of the time,
+you get that.
+
+00:09:55.770 --> 00:09:56.630
+And so, essentially,
+
+00:09:56.630 --> 00:10:00.960
+you notice that they're just extremely
+different probabilities of different
+
+00:10:00.960 --> 00:10:05.810
+expansions of the verb phrase, dependent
+on knowing what the head verb is.
+
+00:10:05.810 --> 00:10:08.310
+And this is precisely
+the kind of information
+
+00:10:08.310 --> 00:10:11.660
+that can be captured in
+the lexicalized policing model.
+
+00:10:11.660 --> 00:10:16.630
+And the one other final
+thing to note here is that
+
+00:10:16.630 --> 00:10:21.750
+these are what are sometimes referred
+to as monolexical probabilities so
+
+00:10:21.750 --> 00:10:25.810
+we're looking at
+the expansion of categories,
+
+00:10:25.810 --> 00:10:32.360
+in terms of the categories and knowing
+just one lexical item, the head verb.
+
+00:10:32.360 --> 00:10:35.730
+That's in slight contrast
+to the other main way
+
+00:10:35.730 --> 00:10:39.660
+in which lexicalized PCFGs are useful,
+and that's for
+
+00:10:39.660 --> 00:10:43.910
+predicting dependencies in things
+like prepositional phrases.
+
+00:10:43.910 --> 00:10:48.755
+So, there we have bilexical probabilities.
+
+00:10:48.755 --> 00:10:54.424
+So, that was when we had examples
+
+00:10:54.424 --> 00:10:59.895
+like go, into, or man, with.
+
+00:10:59.895 --> 00:11:04.597
+We're then deciding how likely the
+connection is between a preposition and
+
+00:11:04.597 --> 00:11:06.560
+then a noun and a verb.
+
+00:11:06.560 --> 00:11:10.420
+So these then involve two words at a time.
+
+00:11:10.420 --> 00:11:15.450
+So the model also has
+bilexical probabilities.
+
+00:11:15.450 --> 00:11:23.350
+So here are the chances of choosing
+the head noun of a noun phrase.
+
+00:11:23.350 --> 00:11:27.660
+A plural noun phrase, given some amount of
+
+00:11:27.660 --> 00:11:32.380
+information which might include
+information about the noun phrase.
+
+00:11:32.380 --> 00:11:37.570
+But also information about what
+its parent category is and
+
+00:11:37.570 --> 00:11:42.460
+what the head word of
+the whole sentence is.
+
+00:11:42.460 --> 00:11:44.970
+And so
+what you find in the Wall Street Journal,
+
+00:11:44.970 --> 00:11:49.800
+this isn't typical of all English,
+is that if you have a plural noun,
+
+00:11:49.800 --> 00:11:52.750
+a bit over one percent
+of the time is prices.
+
+00:11:53.780 --> 00:11:55.289
+But if you know that it's
+
+00:11:57.220 --> 00:12:02.550
+it's inside a noun phrase under an s node,
+ie it's the subject of the sentence.
+
+00:12:02.550 --> 00:12:07.040
+Well then the chances of it
+being prices become about 2.5%.
+
+00:12:07.040 --> 00:12:12.270
+But what really makes a big difference
+is that if you know that the verb is
+
+00:12:13.570 --> 00:12:19.500
+fell, well that's information that
+tells you it's the kind of verb that
+
+00:12:19.500 --> 00:12:24.440
+could easily go with prices and so then
+the probability becomes far higher again,
+
+00:12:24.440 --> 00:12:27.490
+so now it's up to almost a 15% chance,
+
+00:12:27.490 --> 00:12:33.090
+a one in seven chance that the head of
+the noun phrase is going to be prices.
+
+00:12:34.630 --> 00:12:38.140
+And again, we're capturing a lot more
+of this probabilistic information.
+
+00:12:39.150 --> 00:12:44.080
+But you might be wondering now g can we
+really estimate this probabilities and
+
+00:12:44.080 --> 00:12:48.690
+the answer is that in general you
+can't estimate this probabilities
+
+00:12:48.690 --> 00:12:51.730
+that the probabilities that
+you'd like to estimate but
+
+00:12:51.730 --> 00:12:56.330
+come far too sparse and
+I'll illustrate that on the next slide.
+
+00:12:56.330 --> 00:12:58.950
+But the way that it's dealt
+with in Charniak's model
+
+00:12:58.950 --> 00:13:03.490
+is by having a complicated scheme
+of doing linear interpolation
+
+00:13:03.490 --> 00:13:06.720
+between different models that are more or
+less precise.
+
+00:13:06.720 --> 00:13:09.480
+So this should be reminiscent
+of what you saw for
+
+00:13:09.480 --> 00:13:13.940
+language models in the second
+week of the class.
+
+00:13:13.940 --> 00:13:18.700
+So we want to estimate this probability
+distribution that we've seen before,
+
+00:13:18.700 --> 00:13:22.510
+choosing a headword based
+on the parent's headword,
+
+00:13:22.510 --> 00:13:25.940
+current category and
+the parent's category.
+
+00:13:25.940 --> 00:13:30.550
+And the way you are doing that is by
+taking this linear interpolation of
+
+00:13:30.550 --> 00:13:35.555
+a bunch of different distributions
+that one of which is just the maximum
+
+00:13:35.555 --> 00:13:40.020
+likelihood estimation conditioning on
+everything, and then there are further
+
+00:13:40.020 --> 00:13:44.750
+distributions that, first of all,
+leave out what the parent headword is, and
+
+00:13:44.750 --> 00:13:48.280
+then also Leave out even
+the parent category.
+
+00:13:48.280 --> 00:13:52.390
+So at this point you're just choosing
+a headword based on the category.
+
+00:13:52.390 --> 00:13:54.610
+And so just saying it's a noun phrase,
+
+00:13:54.610 --> 00:13:57.560
+what's the chance of it
+having a certain head?
+
+00:13:57.560 --> 00:14:02.103
+And in Charniak's model these
+different distributions
+
+00:14:02.103 --> 00:14:05.131
+are weighted in a deterministic way,
+
+00:14:05.131 --> 00:14:11.199
+depending on how much you'd expect to
+have seen certain kinds of evidence.
+
+00:14:11.199 --> 00:14:16.570
+So, making use of these language
+modeling like techniques are central
+
+00:14:16.570 --> 00:14:22.580
+to build these kind of lexicalized PCFGs,
+because the data just is too sparse.
+
+00:14:22.580 --> 00:14:25.230
+And this next slide shows that.
+
+00:14:25.230 --> 00:14:30.250
+So here,
+the different distributions are being
+
+00:14:30.250 --> 00:14:33.350
+combined together in
+the linear interpolation.
+
+00:14:33.350 --> 00:14:38.220
+So if we do the one on the right first,
+what we find out is that if
+
+00:14:38.220 --> 00:14:41.610
+You've got a noun phrase
+headed by profits, and
+
+00:14:43.220 --> 00:14:48.070
+inside it there's an adjective and you're
+wanting to ask what adjective it is in
+
+00:14:48.070 --> 00:14:52.722
+the Wall Street Journal, one quarter
+of the time, it's corporate profits.
+
+00:14:52.722 --> 00:14:57.570
+Okay so that's a very precise,
+fully conditioned estimate
+
+00:14:57.570 --> 00:15:02.220
+whereas when you start erasing
+some of the information,
+
+00:15:02.220 --> 00:15:06.790
+you get parsa but
+still non zero estimates.
+
+00:15:06.790 --> 00:15:09.578
+I haven't actually mentioned
+this second line here.
+
+00:15:09.578 --> 00:15:14.547
+This was a method that Charniak used to
+get poor semantic classes to try and keep
+
+00:15:14.547 --> 00:15:19.818
+some information about the parent headward
+before getting rid of it entirely, but
+
+00:15:19.818 --> 00:15:24.883
+if we just look, again, don't really deal
+with that one and look at these two.
+
+00:15:24.883 --> 00:15:29.874
+You can see that once you're only
+conditioning on knowing it's a noun phrase
+
+00:15:29.874 --> 00:15:34.630
+under an s, or just a noun phrase,
+the chance of it being corporate is then
+
+00:15:34.630 --> 00:15:37.580
+dropping by almost two
+orders of magnitude.
+
+00:15:37.580 --> 00:15:39.400
+So you're down to about half a percent.
+
+00:15:41.550 --> 00:15:45.440
+Okay, so this is the good case
+in which you can calculate
+
+00:15:45.440 --> 00:15:49.510
+a probability from the rich
+conditioning and it helps you a lot.
+
+00:15:49.510 --> 00:15:52.540
+But quite commonly that
+just doesn't work for you.
+
+00:15:52.540 --> 00:15:58.070
+So if you then say well,
+the verb of the sentence is rose and I've
+
+00:15:58.070 --> 00:16:04.790
+got a subject noun phrase, a noun phrase
+under an S and what noun should it be?
+
+00:16:04.790 --> 00:16:07.500
+Well in the particular sentence in
+
+00:16:07.500 --> 00:16:12.020
+the data to be passed
+the actual noun was profits.
+
+00:16:13.870 --> 00:16:18.060
+But it turns out that in
+the training data profits never
+
+00:16:18.060 --> 00:16:22.990
+occurred as the noun hitting
+a noun phrase as the subject
+
+00:16:22.990 --> 00:16:25.850
+goes despite the fact that
+that sounds perfectly normal.
+
+00:16:25.850 --> 00:16:30.090
+Profits rose last quarter profits
+rose throughout the economy,
+
+00:16:30.090 --> 00:16:32.110
+any sentence like that.
+
+00:16:32.110 --> 00:16:37.560
+And so this, the maximum likelihood
+estimate, the MLE here, is just zero,
+
+00:16:37.560 --> 00:16:42.380
+and so the only way we get a nonzero
+probability estimate is by using these
+
+00:16:43.980 --> 00:16:47.570
+probabilities where we
+condition by less stuff.
+
+00:16:47.570 --> 00:16:50.310
+And even then,
+we're getting these probabilities, right?
+
+00:16:50.310 --> 00:16:55.659
+So the probability of a noun
+being profits in a noun phrase.
+
+00:16:55.659 --> 00:16:58.400
+It's about sort of 120th of a percent.
+
+00:16:58.400 --> 00:17:00.880
+But that's the best kind
+of estimate that we have.
+
+00:17:00.880 --> 00:17:05.905
+And so although you'd like to use rich
+estimates as here most of the time in
+
+00:17:05.905 --> 00:17:11.340
+doing lexicon's PCFG pausing, you're
+actually having to fall back on rather
+
+00:17:11.340 --> 00:17:16.694
+cost or estimates because you can't
+get the conditioning information you'd
+
+00:17:16.694 --> 00:17:21.913
+like to from the fairly small supervised
+tree banks that we have to train on.
+
+00:17:21.913 --> 00:17:26.986
+In particular for
+these bilexical probabilities when you're
+
+00:17:26.986 --> 00:17:32.345
+trying to condition on two lexical items,
+the probabilities tend
+
+00:17:32.345 --> 00:17:38.580
+to have to get hacked off just because
+the amount of information to estimate.
+
+00:17:38.580 --> 00:17:40.894
+This is extremely, extremely sparse,
+
+00:17:40.894 --> 00:17:45.520
+because you're in this space where even
+before you consider other categories,
+
+00:17:45.520 --> 00:17:50.610
+that you're doing something that's kind
+of like bigram probability estimates.
+
+00:17:50.610 --> 00:17:54.320
+And it's hard to estimate
+word bigram probabilities
+
+00:17:54.320 --> 00:17:56.040
+on only about a million words of text.
+
+00:17:56.040 --> 00:18:00.750
+And that's all the text that we have
+in the hand constructed tree banks.
+
+00:18:03.040 --> 00:18:07.770
+Okay, there were some details
+that needed smoothing.
+
+00:18:07.770 --> 00:18:10.950
+And the end there, but I hope the main
+thing that you could take away from this
+
+00:18:10.950 --> 00:18:15.430
+segment is how there's a fairly
+straightforward system of two probably
+
+00:18:15.430 --> 00:18:21.970
+distributions that Charniak was able to
+use to realize a lexicalized PCFG models.
+

@@ -1,0 +1,812 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.770 --> 00:00:03.120
+Hi I'm Dan Jurafsky and Chris Manning and
+
+00:00:03.120 --> 00:00:06.570
+I are very happy to welcome you to our
+course on Natural Language Processing.
+
+00:00:06.570 --> 00:00:10.480
+This is a particularly exciting time to be
+working on natural language processing.
+
+00:00:10.480 --> 00:00:11.950
+The vast amount of data on the web and
+
+00:00:11.950 --> 00:00:15.280
+social media have made it possible
+to build fantastic new applications.
+
+00:00:16.610 --> 00:00:19.490
+Let's look at one of them,
+question answering.
+
+00:00:19.490 --> 00:00:23.970
+You may know that IBM's Watson won
+the Jeopardy challenge on February 16th
+
+00:00:23.970 --> 00:00:28.860
+In 2011, answering questions
+like WIliam Wilkinson's
+
+00:00:28.860 --> 00:00:32.350
+book inspired this author's
+most famous novel.
+
+00:00:32.350 --> 00:00:38.880
+And you may know that the answer is
+Bram Stoker who famously wrote Dracula.
+
+00:00:41.860 --> 00:00:44.650
+Another important task is
+information extraction.
+
+00:00:44.650 --> 00:00:47.920
+For example imagine that I have the
+following email from my colleague Chris
+
+00:00:47.920 --> 00:00:48.970
+about scheduling a meeting.
+
+00:00:50.090 --> 00:00:55.690
+We'd like software to automatically notice
+that there are dates like tomorrow,
+
+00:00:55.690 --> 00:01:00.150
+times like 10 to 11:30 and
+a room like Gates 159,
+
+00:01:00.150 --> 00:01:03.440
+extract those information,
+create a new calendar entry, and
+
+00:01:03.440 --> 00:01:08.500
+then populate a calendar with this kind
+of structured information with the event,
+
+00:01:08.500 --> 00:01:11.080
+date, start, and end for
+a calendar program.
+
+00:01:11.080 --> 00:01:15.908
+And modern email and calendar programs
+are capable of doing this from text.
+
+00:01:19.328 --> 00:01:23.482
+Another application of this kind of
+information extraction involves sentiment
+
+00:01:23.482 --> 00:01:24.100
+analysis.
+
+00:01:24.100 --> 00:01:26.118
+Imagine that you're
+interested in cameras and
+
+00:01:26.118 --> 00:01:28.448
+you're reading a lot of
+reviews of cameras on the web.
+
+00:01:28.448 --> 00:01:31.650
+So here's a bunch of reviews.
+
+00:01:31.650 --> 00:01:34.600
+We'd like to automatically determine,
+from the reviews,
+
+00:01:34.600 --> 00:01:38.030
+that what people care about in
+cameras are particular attributes.
+
+00:01:38.030 --> 00:01:40.730
+If they're buying a camera,
+they want to know if it has good zoom, or
+
+00:01:40.730 --> 00:01:42.140
+affordability, or size and
+
+00:01:42.140 --> 00:01:45.390
+weight, to want to automatically
+determine those attributes.
+
+00:01:45.390 --> 00:01:47.200
+And then we'd like to automatically for
+
+00:01:47.200 --> 00:01:51.510
+any particular attribute, determine how
+the reviewers felt about those attributes.
+
+00:01:51.510 --> 00:01:55.100
+For example, if a reviewer said nice and
+compact to carry,
+
+00:01:55.100 --> 00:01:58.600
+that's a positive sentiment, and
+here's another positive example.
+
+00:01:58.600 --> 00:02:02.000
+But a phrase like flimsy
+is a negative sentiment.
+
+00:02:02.000 --> 00:02:06.363
+So we'd like to automatically detect for
+each sentence what the sentiment is, and
+
+00:02:06.363 --> 00:02:10.808
+then aggregate for each features, for
+let's say, for zoom, for affordability.
+
+00:02:10.808 --> 00:02:14.367
+So we might decide that this camera,
+the reviews really liked the flash, but
+
+00:02:14.367 --> 00:02:16.520
+they weren't so
+happy about the ease of use.
+
+00:02:16.520 --> 00:02:18.740
+So we might measure the positive and
+
+00:02:18.740 --> 00:02:22.990
+negative sentiment about each
+attribute and then aggregate those.
+
+00:02:24.060 --> 00:02:27.227
+Machine translation is another
+important new application and
+
+00:02:27.227 --> 00:02:29.566
+machine translation can
+be fully automatic.
+
+00:02:29.566 --> 00:02:33.206
+So for example, we might have
+a source sentence in Chinese and
+
+00:02:33.206 --> 00:02:37.488
+here's Stanford's Phrasal MT system
+translating that into English.
+
+00:02:37.488 --> 00:02:40.483
+But MT can also be used to
+help human translators, so
+
+00:02:40.483 --> 00:02:43.070
+here we might have an Arabic text.
+
+00:02:43.070 --> 00:02:46.700
+And the human translator translating
+it into English, might need some help
+
+00:02:46.700 --> 00:02:51.530
+from the MT system, for example,
+a collection of possible next words
+
+00:02:51.530 --> 00:02:55.320
+that the MT system can build automatically
+and help the human translator.
+
+00:02:55.320 --> 00:02:58.510
+Let's look at the state of
+the art in language technology.
+
+00:02:59.570 --> 00:03:03.450
+Like every field, NLP is divided up
+into specialties and subspecialties.
+
+00:03:03.450 --> 00:03:06.330
+A number of these problems
+are pretty close to solved.
+
+00:03:06.330 --> 00:03:11.160
+So for example spam detection, well
+it's very hard to completely detect spam
+
+00:03:11.160 --> 00:03:14.400
+in our email boxes,
+we don't have 99% spam, and
+
+00:03:14.400 --> 00:03:20.910
+that's because spam detection is
+a relatively easy classification task.
+
+00:03:20.910 --> 00:03:24.320
+A couple of important component tasks,
+part of speech tagging and
+
+00:03:24.320 --> 00:03:25.430
+named entity tagging.
+
+00:03:25.430 --> 00:03:27.950
+We'll talk about those
+later in the course, and
+
+00:03:27.950 --> 00:03:31.020
+those work at pretty high accuracies,
+we're going to get 97% accuracy
+
+00:03:31.020 --> 00:03:34.740
+on part of speech tagging and
+we see how that's important for parsing.
+
+00:03:34.740 --> 00:03:38.000
+In other tasks,
+we're making good progress.
+
+00:03:38.000 --> 00:03:38.890
+Not as commercial,
+
+00:03:38.890 --> 00:03:42.990
+not as completely solved, but there
+are systems out there that are being used.
+
+00:03:42.990 --> 00:03:46.680
+So we talked about sentiment analysis,
+the task of deciding thumbs up or
+
+00:03:46.680 --> 00:03:48.540
+thumbs down on a sentence or a product.
+
+00:03:49.870 --> 00:03:53.710
+Component technologies like word sentence
+disambiguation, deciding if we're talking
+
+00:03:53.710 --> 00:03:58.500
+about a rodent or a computer mouse when
+people talk about mouses in a search.
+
+00:03:59.590 --> 00:04:02.650
+We'll talk about parsing,
+which is good enough now to be
+
+00:04:02.650 --> 00:04:07.050
+used in lots of applications, and
+machine translation usable on the web.
+
+00:04:07.050 --> 00:04:09.830
+A number of applications
+however are still quite hard.
+
+00:04:09.830 --> 00:04:13.640
+So for example,
+answering hard questions like
+
+00:04:13.640 --> 00:04:17.450
+how effective is this medicine in treating
+that disease by looking at the web or
+
+00:04:17.450 --> 00:04:20.860
+by summarizing information
+we know is quite hard.
+
+00:04:20.860 --> 00:04:25.270
+Similarly, while we made some progress
+on deciding that the sentence,
+
+00:04:25.270 --> 00:04:28.740
+XYZ company acquired
+ABC company yesterday,
+
+00:04:28.740 --> 00:04:32.670
+means something similar to ABC
+has been taken over by XYZ.
+
+00:04:32.670 --> 00:04:36.940
+The general problem of detecting that two
+phrases or sentences mean the same thing,
+
+00:04:36.940 --> 00:04:39.040
+the paraphrase task, is still quite hard.
+
+00:04:40.070 --> 00:04:43.000
+Even harder is the task of summarization.
+
+00:04:43.000 --> 00:04:46.990
+Reading a number of let's say news
+articles that say, the Dow Jones is up, or
+
+00:04:46.990 --> 00:04:51.830
+the S&amp;P 500 has jumped, and
+housing prices rose, and aggregating that
+
+00:04:51.830 --> 00:04:55.590
+to give a user information like
+in summary, the economy is good.
+
+00:04:56.960 --> 00:05:00.710
+And finally, one of the hardest tasks
+in natural language processing,
+
+00:05:00.710 --> 00:05:04.620
+carrying on a complete human
+machine communication and dialogue.
+
+00:05:04.620 --> 00:05:08.320
+So here's a simple example, asking
+about what movie is playing when and
+
+00:05:08.320 --> 00:05:09.100
+buying movie tickets.
+
+00:05:09.100 --> 00:05:11.890
+And you can get applications
+that do that today.
+
+00:05:11.890 --> 00:05:15.560
+But the general problem of understanding
+everything the user might ask for
+
+00:05:15.560 --> 00:05:19.280
+and returning a sensible
+response is quite difficult.
+
+00:05:22.150 --> 00:05:25.300
+Why is natural language processing so
+difficult?
+
+00:05:25.300 --> 00:05:29.130
+One cute example are the kinds
+of ambiguity problems that
+
+00:05:29.130 --> 00:05:31.058
+are called crash blossoms.
+
+00:05:31.058 --> 00:05:35.790
+So ambiguity is any case where a surface
+form might have multiple interpretations.
+
+00:05:35.790 --> 00:05:40.700
+A crash blossom is the name for a kind
+of headline that has two meanings and
+
+00:05:40.700 --> 00:05:43.660
+the ambiguity causes
+a humorous interpretation.
+
+00:05:44.740 --> 00:05:50.780
+So reading this first headline, Violinist
+Linked to JAL Crash Blossoms, you
+
+00:05:50.780 --> 00:05:56.730
+might think that the main verb is linked,
+and the violinist is being linked to what?
+
+00:05:56.730 --> 00:05:58.990
+He's being linked to
+Japan Airlines crash blossoms.
+
+00:05:58.990 --> 00:06:00.920
+Well what are crash blossoms?
+
+00:06:00.920 --> 00:06:03.980
+Well this headline gave the name to
+this phenomena because the actual
+
+00:06:03.980 --> 00:06:08.620
+interpretation that the headline writer
+intended, the main verb was blossoms.
+
+00:06:08.620 --> 00:06:11.650
+Who does the blossoming, a violinist.
+
+00:06:11.650 --> 00:06:15.430
+And this fact about being linked to
+JAL crash was a modifier of violinist.
+
+00:06:18.220 --> 00:06:23.460
+Similar kinds of syntactic ambiguities,
+so here, Teacher Strikes Idle Kids.
+
+00:06:23.460 --> 00:06:26.420
+The writer intended
+the main verb to be idle,
+
+00:06:26.420 --> 00:06:29.710
+the strikes caused the kids to be idle.
+
+00:06:29.710 --> 00:06:33.370
+But of course the humorous interpretation
+is that the teacher is striking,
+
+00:06:33.370 --> 00:06:39.350
+strike is the verb, and
+we have a teacher striking idle kids.
+
+00:06:39.350 --> 00:06:42.880
+Another important kind of
+ambiguity is word sense ambiguity.
+
+00:06:44.610 --> 00:06:48.810
+So in our third example, Red Tape Holds
+Up New Bridges, the writer intended
+
+00:06:48.810 --> 00:06:53.640
+holds up to mean something like delay,
+we'll call that sense one of holds up.
+
+00:06:53.640 --> 00:06:58.410
+But the amusing interpretation
+is the second sense of holds up,
+
+00:06:58.410 --> 00:07:00.500
+which we might write down as to support.
+
+00:07:01.800 --> 00:07:04.693
+And now we get the interpretation
+that literal red tape,
+
+00:07:04.693 --> 00:07:08.378
+as opposed to beaurocratic red tape,
+is actually supporting a bridge.
+
+00:07:08.378 --> 00:07:14.150
+And we can see lots of other kinds of
+ambiguities in these actual headlines.
+
+00:07:14.150 --> 00:07:17.790
+Now it turns out that it's not just
+amusing headlines that have ambiguity.
+
+00:07:17.790 --> 00:07:21.050
+Ambiguity is pervasive throughout
+natural language texts.
+
+00:07:21.050 --> 00:07:25.854
+Let's look at a sensible, nonambiguous
+looking headline from the New York Times.
+
+00:07:27.305 --> 00:07:31.855
+The headline, we've shortened it here
+a bit, is Fed raises interest rates.
+
+00:07:31.855 --> 00:07:33.875
+Well that seems unambiguous.
+
+00:07:33.875 --> 00:07:36.445
+We have a verb here,
+I'll write a little parse tree.
+
+00:07:36.445 --> 00:07:38.415
+Raises, what gets raised?
+
+00:07:39.745 --> 00:07:44.600
+A noun phrase, and we'll write a little
+two nouns here, interest rates.
+
+00:07:44.600 --> 00:07:49.690
+And we'll have a verb phrase,
+so raising interest rates.
+
+00:07:49.690 --> 00:07:53.930
+And then we'll have the Fed,
+make a little noun phrase.
+
+00:07:53.930 --> 00:07:56.550
+And then we'll say, this is a sentence
+that has a noun phrase, Fed,
+
+00:07:56.550 --> 00:07:58.510
+and a verb phrase, raises.
+
+00:07:58.510 --> 00:08:00.010
+And what gets raised is interest rates.
+
+00:08:00.010 --> 00:08:02.080
+So this is called
+a phrase structure parse.
+
+00:08:02.080 --> 00:08:05.430
+We'll talk about that later in the course,
+phrase structure.
+
+00:08:08.350 --> 00:08:09.890
+So we could also write a dependency parse.
+
+00:08:09.890 --> 00:08:14.290
+So we say the head verb, raises,
+has an argument which is Fed, and
+
+00:08:14.290 --> 00:08:20.820
+it has another dependent which is rates,
+and rates itself has a dependent interest.
+
+00:08:20.820 --> 00:08:22.950
+So we can see name verb is raising.
+
+00:08:22.950 --> 00:08:27.235
+Well another interpretation of the very
+same sentence, one that people don't see,
+
+00:08:27.235 --> 00:08:28.901
+but that parsers see right away,
+
+00:08:28.901 --> 00:08:32.848
+is that it's not raises that's the main
+verb of the sentence, but interest.
+
+00:08:32.848 --> 00:08:40.388
+Somebody interests something and that
+something that gets interested is rates.
+
+00:08:43.528 --> 00:08:45.628
+And what is interesting these rates?
+
+00:08:45.628 --> 00:08:50.198
+Well it's Fed raises, raises by the Fed,
+so it's a complete different sentence with
+
+00:08:50.198 --> 00:08:53.955
+a different interpretation that
+something is interesting the rates,
+
+00:08:53.955 --> 00:08:55.408
+whatever that could mean.
+
+00:08:55.408 --> 00:08:58.722
+And that seems an unlikely interpretation
+for people, but of course for
+
+00:08:58.722 --> 00:09:01.277
+a parser this is a perfectly
+reasonable interpretation
+
+00:09:01.277 --> 00:09:03.170
+that we have to learn how to rule out.
+
+00:09:03.170 --> 00:09:06.420
+In fact,
+the sentence can get even more difficult.
+
+00:09:06.420 --> 00:09:09.620
+The actual headline was somewhat longer.
+
+00:09:09.620 --> 00:09:12.880
+So we had Fed raises interest
+rates half a percent.
+
+00:09:12.880 --> 00:09:18.160
+Here we could imagine that rates is
+the verb and now we have what is rating.
+
+00:09:18.160 --> 00:09:22.650
+Fed raises interest,
+the interest in Federal raises are rating
+
+00:09:22.650 --> 00:09:27.590
+half a percent so we might have
+a dependency structure like this.
+
+00:09:27.590 --> 00:09:30.281
+So again interest rates,
+
+00:09:30.281 --> 00:09:35.240
+the raises are what do the interesting and
+the Fed is a modifier of raises.
+
+00:09:35.240 --> 00:09:40.130
+So whether with our phrase structure
+parse or our dependency parse, and
+
+00:09:40.130 --> 00:09:42.310
+even more so as we add more words,
+we're going to get more and
+
+00:09:42.310 --> 00:09:46.690
+more ambiguity that have to be solved in
+order to build a parse for each sentence.
+
+00:09:48.590 --> 00:09:51.240
+Now the format of the course,
+you're going to have in video quizzes.
+
+00:09:51.240 --> 00:09:53.630
+And most lectures will
+include a little quiz.
+
+00:09:53.630 --> 00:09:55.650
+And they're there just to
+check basic understanding.
+
+00:09:55.650 --> 00:09:57.690
+They're simple, multiple choice questions.
+
+00:09:57.690 --> 00:09:59.900
+You can retake them if you get them wrong.
+
+00:09:59.900 --> 00:10:01.220
+Let's see one right now.
+
+00:10:01.220 --> 00:10:03.960
+A number of other things making
+natural language difficult.
+
+00:10:05.460 --> 00:10:08.220
+One of them is the non standard
+English that we frequently see in
+
+00:10:08.220 --> 00:10:12.290
+text like Twitter feeds where
+we have capitalization and
+
+00:10:12.290 --> 00:10:17.190
+unusual spelling of words and
+hashtags and user ids and so on.
+
+00:10:17.190 --> 00:10:20.580
+So all of our parsers and part of
+speech taggers that we're going to make
+
+00:10:20.580 --> 00:10:24.820
+use of are often trained on very
+clean newspaper text English,
+
+00:10:24.820 --> 00:10:29.260
+but the actual English in the wild
+will cause us a lot of problems.
+
+00:10:29.260 --> 00:10:31.040
+We'll have a lot of segmentation problems.
+
+00:10:31.040 --> 00:10:38.050
+For example, if we see the string Y-O-R-K
+dash N-E-W is part of New York-New Haven,
+
+00:10:38.050 --> 00:10:43.380
+how do we know the correct segmentation
+is New York and New Haven?
+
+00:10:43.380 --> 00:10:50.070
+So the New York-New Haven railroad,
+and not something like York dash New.
+
+00:10:50.070 --> 00:10:52.630
+This word here is not
+a word like in dash law.
+
+00:10:52.630 --> 00:10:54.945
+We have to solve the segmentation
+problem correctly.
+
+00:10:54.945 --> 00:11:00.770
+We have problems with idioms and with
+new words that haven't been seen before.
+
+00:11:00.770 --> 00:11:03.380
+And we'll also have
+problems with entity names,
+
+00:11:03.380 --> 00:11:06.550
+like the movie A Bug's Life
+which has English words in it.
+
+00:11:06.550 --> 00:11:10.550
+And so it's often difficult to know
+where the movie name starts and ends.
+
+00:11:10.550 --> 00:11:13.730
+And this comes up very often in
+biology where we have genes and
+
+00:11:13.730 --> 00:11:15.840
+proteins named with English words.
+
+00:11:17.020 --> 00:11:19.390
+The task of natural language
+understanding, it's very difficult,
+
+00:11:19.390 --> 00:11:20.810
+what tools do we need?
+
+00:11:20.810 --> 00:11:24.140
+Well we need knowledge about language,
+knowledge about the world, and
+
+00:11:24.140 --> 00:11:26.410
+a way to combine these knowledge sources.
+
+00:11:26.410 --> 00:11:30.040
+So generally the way we do this
+is to use probabilistic models
+
+00:11:30.040 --> 00:11:32.140
+that are built from language data.
+
+00:11:32.140 --> 00:11:34.912
+So for example,
+if we see the word maison in French,
+
+00:11:34.912 --> 00:11:38.188
+we very likely to translate that
+as the word house in English.
+
+00:11:38.188 --> 00:11:41.865
+On the other hand, if we see the word
+L'avocat general in French we're very
+
+00:11:41.865 --> 00:11:45.370
+unlikely to translate that
+as the general avocado.
+
+00:11:45.370 --> 00:11:49.750
+And training these probabilistic
+models in general can be very hard.
+
+00:11:49.750 --> 00:11:52.870
+But it turns out that we
+can do an approximate job
+
+00:11:52.870 --> 00:11:55.445
+of probabilistic models with
+rough text features and
+
+00:11:55.445 --> 00:11:57.600
+we'll introduce those rough
+text features as we go.
+
+00:11:59.480 --> 00:12:02.387
+So our goal in the class is
+teaching key theory and methods for
+
+00:12:02.387 --> 00:12:04.558
+statistical natural language processing.
+
+00:12:04.558 --> 00:12:09.080
+We'll talk about the Viterbi algorithm,
+Naive Bayes and Maxent classifiers.
+
+00:12:09.080 --> 00:12:12.850
+We'll introduce n-gram language modeling,
+and statistical parsing.
+
+00:12:12.850 --> 00:12:14.625
+We'll talk about the inverted index and
+
+00:12:14.625 --> 00:12:18.050
+tf-idf and vector models of meaning
+that important in information retrieval.
+
+00:12:19.330 --> 00:12:22.570
+And we'll do this for practical,
+robust real world applications.
+
+00:12:22.570 --> 00:12:25.909
+We'll talk about information extraction,
+about spelling correction,
+
+00:12:25.909 --> 00:12:27.340
+about information retrieval.
+
+00:12:30.278 --> 00:12:33.200
+The skills you'll need for the task,
+you'll need simple linear algebra, so
+
+00:12:33.200 --> 00:12:35.480
+you should know what a vector is and
+what a matrix is.
+
+00:12:35.480 --> 00:12:37.560
+You should have some basic
+probability theory, and
+
+00:12:37.560 --> 00:12:39.670
+you'll need to know how to
+program in either JAVA or
+
+00:12:39.670 --> 00:12:41.840
+Python because there'll be
+weekly programming assignments.
+
+00:12:41.840 --> 00:12:43.528
+And you'll have your choice of languages.
+
+00:12:45.468 --> 00:12:48.786
+We're very happy to welcome you to our
+course on natural language processing and
+
+00:12:48.786 --> 00:12:51.000
+we look forward to seeing
+you in following lectures.
+

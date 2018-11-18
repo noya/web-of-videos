@@ -1,0 +1,292 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.650 --> 00:00:03.388
+We talked earlier about
+evaluating question answering.
+
+00:00:03.388 --> 00:00:06.840
+If we have the answer to a factoid
+question, we can simply evaluate it by
+
+00:00:06.840 --> 00:00:10.810
+seeing if the factoid the system
+returns is the correct factoid.
+
+00:00:10.810 --> 00:00:13.430
+Now, summaries can't
+be evaluated that way,
+
+00:00:13.430 --> 00:00:17.870
+because we can't have a single
+perfect summary for any document.
+
+00:00:17.870 --> 00:00:21.568
+So we'll introduce a different algorithm,
+called ROUGE.
+
+00:00:21.568 --> 00:00:25.318
+ROUGE stands for
+recall oriented understudy for
+
+00:00:25.318 --> 00:00:28.888
+gisting evaluation proposed by Lin and
+Hovy.
+
+00:00:28.888 --> 00:00:33.368
+And here's the idea, it's an intrinsic
+metric for evaluating summary.
+
+00:00:33.368 --> 00:00:37.428
+We're going to ask,
+is this summary good as a summary.
+
+00:00:37.428 --> 00:00:41.820
+Not in some other extrinsic
+application but just as a summary.
+
+00:00:41.820 --> 00:00:44.760
+And it's based on a metric called BLEU or
+
+00:00:44.760 --> 00:00:50.080
+BLEU that defined originally from machine
+translation, and it's not as good.
+
+00:00:50.080 --> 00:00:53.690
+ROUGE is not as good as
+using humans to say,
+
+00:00:53.690 --> 00:00:55.510
+did the summary answer
+the user's question?
+
+00:00:55.510 --> 00:00:59.060
+So if we can afford that,
+we'll certainly hire users and
+
+00:00:59.060 --> 00:01:02.720
+have them test to see if an answer
+answers a user's question.
+
+00:01:02.720 --> 00:01:04.090
+But ROUGE is very convenient for
+
+00:01:04.090 --> 00:01:09.320
+testing while we're building our system,
+and it works as follows.
+
+00:01:09.320 --> 00:01:11.110
+We're given a document D.
+
+00:01:11.110 --> 00:01:15.350
+And let's say we've got our summarizer and
+it produces an automatic summary.
+
+00:01:15.350 --> 00:01:18.520
+And this can be a query-focused summary.
+
+00:01:18.520 --> 00:01:21.830
+So maybe we also know about
+the query that the user asked.
+
+00:01:21.830 --> 00:01:23.354
+Or even for generic summarization.
+
+00:01:24.625 --> 00:01:29.835
+Now we have N humans produce a set of
+reference summaries of this document.
+
+00:01:29.835 --> 00:01:32.640
+Again, in query-focused summarization,
+they look at the query and
+
+00:01:32.640 --> 00:01:34.693
+write their summaries in
+generic summarization.
+
+00:01:34.693 --> 00:01:36.073
+They just write their summaries.
+
+00:01:36.073 --> 00:01:40.725
+So we have a set of summaries, one,
+two, three, four human summaries,
+
+00:01:40.725 --> 00:01:41.933
+of our document D.
+
+00:01:41.933 --> 00:01:47.573
+And now the system produces
+another summary, call that X.
+
+00:01:47.573 --> 00:01:52.613
+We have our automatic summary and
+our four human summaries and now we just
+
+00:01:52.613 --> 00:01:58.280
+ask what percentage of the bigrams
+from these human summaries occur in X.
+
+00:01:58.280 --> 00:02:00.200
+Obviously they won't all occur in X.
+
+00:02:00.200 --> 00:02:03.640
+A good summary will contain
+a lot of the bigrams that occur
+
+00:02:03.640 --> 00:02:05.180
+in some of these human summaries so
+
+00:02:05.180 --> 00:02:09.080
+by counting the percentage, we get
+an intuition for what's a good summary.
+
+00:02:09.080 --> 00:02:13.600
+And there are various versions of ROUGE,
+unigram ROUGE, bigram ROUGE.
+
+00:02:13.600 --> 00:02:17.278
+There's also other versions that
+talk about length in different ways.
+
+00:02:17.278 --> 00:02:21.376
+We'll introduce just one, ROUGE-2
+bigram ROUGE, which works pretty well.
+
+00:02:21.376 --> 00:02:27.037
+And it's just asking out of all
+the bigrams, in the all sentences,
+
+00:02:27.037 --> 00:02:32.616
+in all the reference summaries,
+take the count of those bigrams.
+
+00:02:32.616 --> 00:02:37.979
+And notice that out of all those bigrams,
+look at again,
+
+00:02:37.979 --> 00:02:43.008
+in each sentence in the summary for
+each bigram asks,
+
+00:02:43.008 --> 00:02:47.928
+what's it's minimum count
+in the summary produced
+
+00:02:47.928 --> 00:02:51.416
+by our system and the human summary?
+
+00:02:51.416 --> 00:02:56.733
+So it's asking, how many bigrams
+occurred both in our system and
+
+00:02:56.733 --> 00:02:58.576
+in the human summary?
+
+00:02:58.576 --> 00:03:01.497
+So that will give us, out of all bigrams,
+
+00:03:01.497 --> 00:03:06.180
+how many occurred both in the summary and
+in the human references?
+
+00:03:08.140 --> 00:03:09.410
+Let's look at an example.
+
+00:03:09.410 --> 00:03:14.500
+Here I've made up three human
+summaries and a system summary.
+
+00:03:14.500 --> 00:03:19.877
+So here's our human three summaries and
+our system answer to a question.
+
+00:03:19.877 --> 00:03:21.477
+Let's compute ROUGE.
+
+00:03:21.477 --> 00:03:26.330
+So the numerator, we want to know how
+many bigrams that occurred in these human
+
+00:03:26.330 --> 00:03:30.757
+summaries, how many of those bigrams
+also occur in our system answer?
+
+00:03:30.757 --> 00:03:36.417
+We can walk through, well water spinach,
+that's in our answer, here it is here.
+
+00:03:36.417 --> 00:03:40.623
+And spinach is and is a,
+and in this summary,
+
+00:03:40.623 --> 00:03:44.177
+water spinach and spinach is and is a.
+
+00:03:44.177 --> 00:03:48.517
+And in this third summary again,
+water spinach and spinach is and is a.
+
+00:03:48.517 --> 00:03:54.237
+But also commonly eaten and
+leaf vegetable and of Asia.
+
+00:03:54.237 --> 00:03:59.020
+So if we add all that together,
+we have three from this first summary.
+
+00:03:59.020 --> 00:04:02.720
+And three from the second summary and
+six from the third.
+
+00:04:02.720 --> 00:04:06.020
+And how many total bigrams
+are there in the human summary?
+
+00:04:06.020 --> 00:04:07.555
+Well, you can count them yourself.
+
+00:04:07.555 --> 00:04:12.280
+There's ten in the first example up here,
+nine in here, nine in here.
+
+00:04:12.280 --> 00:04:18.237
+So we have 3 + 3 + 6 over 10 + 9 + 9 or
+a ROUGE score of 0.43.
+
+00:04:21.217 --> 00:04:26.038
+So we've introduced ROUGE,
+an algorithm for evaluating summaries,
+
+00:04:26.038 --> 00:04:31.822
+whether they're generic or query-focused,
+by looking at how many of the bigrams or
+
+00:04:31.822 --> 00:04:37.390
+engrams in general in a human summary
+occur in our machine generated summary.
+
+00:04:37.390 --> 00:04:41.700
+And a better summary is one that
+overlaps more with the human summary.
+
+00:04:41.700 --> 00:04:45.770
+Now ROUGE doesn't work as well as having
+humans actually answer the question.
+
+00:04:45.770 --> 00:04:49.388
+Did this answer provide
+the information the user asked for?
+
+00:04:49.388 --> 00:04:54.108
+That can be very expensive, and so
+ROUGE can provide the fast to run and
+
+00:04:54.108 --> 00:04:58.668
+convenient, intrinsic metric that
+we can use to test our systems.
+
+00:04:58.668 --> 00:05:01.441
+And then at the end, we can use humans
+to see how well they really did.
+

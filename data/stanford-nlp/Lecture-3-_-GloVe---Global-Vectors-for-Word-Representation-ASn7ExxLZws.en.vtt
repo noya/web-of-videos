@@ -1,0 +1,4560 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.915
+[MUSIC]
+
+00:00:04.915 --> 00:00:07.888
+Stanford University.
+
+00:00:10.809 --> 00:00:11.322
+&gt;&gt; Alright!
+
+00:00:11.322 --> 00:00:13.150
+Hello, everybody.
+
+00:00:13.150 --> 00:00:14.590
+Welcome to lecture three.
+
+00:00:14.590 --> 00:00:18.340
+I'm Richard, and today we'll talk
+a little bit more about word vectors.
+
+00:00:18.340 --> 00:00:23.470
+But before that, let's do three
+little organizational Items.
+
+00:00:23.470 --> 00:00:27.100
+First we'll have our first
+coding session this week.
+
+00:00:27.100 --> 00:00:31.640
+Next, the problem set one has
+a bunch of programming for
+
+00:00:31.640 --> 00:00:36.150
+you, as the first and only one where
+you will do everything from scratch.
+
+00:00:36.150 --> 00:00:37.830
+So, do get started early on it.
+
+00:00:39.800 --> 00:00:42.660
+The coding session is mostly
+to help you chat with other
+
+00:00:42.660 --> 00:00:44.230
+people go through small bugs.
+
+00:00:44.230 --> 00:00:47.260
+Make sure you have everything set
+up properly, your environments and
+
+00:00:47.260 --> 00:00:51.760
+everything, so you can get into the
+exciting deep learning parts right away.
+
+00:00:53.550 --> 00:00:56.080
+Then there's the career fair,
+the computer science forum.
+
+00:00:56.080 --> 00:01:04.200
+It's excited to help you find companies
+to work at, and talk about your career.
+
+00:01:04.200 --> 00:01:08.176
+And then my first project advice office
+hour's today, I'll just grab a quick
+
+00:01:08.176 --> 00:01:12.140
+dinner after this and then I'll be back
+here in the Huang basement to chat.
+
+00:01:12.140 --> 00:01:16.910
+Mostly about projects, so we encourage you
+to think about your projects early and so
+
+00:01:16.910 --> 00:01:19.120
+we'll start that today.
+
+00:01:19.120 --> 00:01:22.632
+Very excited to chat with you if wanna
+just bounce off ideas in the beginning,
+
+00:01:22.632 --> 00:01:23.560
+that will be great.
+
+00:01:25.600 --> 00:01:27.327
+Any questions around organization, yes.
+
+00:01:29.847 --> 00:01:33.359
+I think just like outside,
+yeah like, you can't miss it,
+
+00:01:33.359 --> 00:01:35.620
+like right here in front of the class.
+
+00:01:38.599 --> 00:01:40.543
+Any other organizational questions?
+
+00:01:46.629 --> 00:01:47.982
+Yeah.
+He will hold office hours too.
+
+00:01:47.982 --> 00:01:50.266
+And we have a calendar on the website, and
+
+00:01:50.266 --> 00:01:53.019
+you can find all our office
+hours on the calendar.
+
+00:01:57.447 --> 00:01:58.360
+Okay.
+We'll fix that.
+
+00:01:58.360 --> 00:02:02.624
+We'll add the names of who's doing
+the office hours, especially for
+
+00:02:02.624 --> 00:02:08.200
+Chris and mine All right, great.
+
+00:02:08.200 --> 00:02:10.290
+So we'll finish word2vec.
+
+00:02:10.290 --> 00:02:12.600
+But then where it gets
+really interesting is,
+
+00:02:12.600 --> 00:02:16.200
+we're actually asked what
+word2vec really captures.
+
+00:02:16.200 --> 00:02:18.612
+We have these objective
+functions we're optimizing.
+
+00:02:18.612 --> 00:02:21.613
+And we'll take a bit of a look and
+analyze what's going on there.
+
+00:02:21.613 --> 00:02:25.216
+And then we'll try to actually
+capture the essence of word2vec,
+
+00:02:25.216 --> 00:02:27.190
+a little more effectively.
+
+00:02:27.190 --> 00:02:30.720
+And then also look at our first analysis,
+of intrinsic and
+
+00:02:30.720 --> 00:02:34.130
+extrinsic evaluations for word vectors.
+
+00:02:34.130 --> 00:02:36.200
+So, it'll be really exciting.
+
+00:02:36.200 --> 00:02:40.920
+By the end, you actually have a good sense
+of how to evaluate word vectors, and
+
+00:02:40.920 --> 00:02:43.990
+you have at least two methods under
+your belt on how to train them.
+
+00:02:45.580 --> 00:02:47.780
+So let's do a quick review of word2vec.
+
+00:02:47.780 --> 00:02:52.570
+We ended with this following equation
+here, where we wanted to basically predict
+
+00:02:53.710 --> 00:02:57.260
+the outside vectors from the center word,
+and
+
+00:02:57.260 --> 00:03:01.400
+so lets just recap really
+quickly what that meant.
+
+00:03:01.400 --> 00:03:06.040
+So let's say I have the beginning of
+a corpus, and it says something like,
+
+00:03:06.040 --> 00:03:12.960
+I like deep learning,
+
+00:03:12.960 --> 00:03:15.930
+or just and NLP.
+
+00:03:17.850 --> 00:03:21.890
+Now, what we were gonna do is, we
+basically wanna compute the probability.
+
+00:03:21.890 --> 00:03:26.840
+Let's say, we start with these word
+vectors in this is our first center word,
+
+00:03:26.840 --> 00:03:28.430
+and that's deep.
+
+00:03:28.430 --> 00:03:31.960
+So, we wanna first compute
+the probability of
+
+00:03:33.410 --> 00:03:37.860
+the first outside word,
+I given the word deep and
+
+00:03:37.860 --> 00:03:42.540
+that was something like
+the exponent here Of UO.
+
+00:03:43.970 --> 00:03:48.852
+So the U vector is the outside word and
+so that's,
+
+00:03:48.852 --> 00:03:52.931
+in our case, I here transposed the deep.
+
+00:03:52.931 --> 00:03:57.803
+And then we had this big sum here and
+the sum is always the same,
+
+00:03:57.803 --> 00:03:59.698
+given for a certain VC.
+
+00:03:59.698 --> 00:04:01.260
+So that is the center word.
+
+00:04:01.260 --> 00:04:03.510
+Now, how do we get this V and this U?
+
+00:04:03.510 --> 00:04:08.390
+We basically have a large matrix here,
+
+00:04:08.390 --> 00:04:11.330
+with all the different word vectors for
+all the different words.
+
+00:04:11.330 --> 00:04:13.700
+So it starts with vector for aardvark.
+
+00:04:16.050 --> 00:04:21.150
+And a and so on,
+all the way to maybe the vector for zebra.
+
+00:04:21.150 --> 00:04:24.960
+And we had basically all
+our center words v in here.
+
+00:04:24.960 --> 00:04:30.300
+And then we have one large matrix,
+where we have again, all the vectors
+
+00:04:30.300 --> 00:04:36.240
+starting with aardvark and A,
+and so on, all the way to zebra.
+
+00:04:38.300 --> 00:04:44.127
+And when we start in our first window
+through this corpus, we basically collect,
+
+00:04:44.127 --> 00:04:48.435
+take that vector for deep here
+this vector V plug it in here and
+
+00:04:48.435 --> 00:04:51.487
+then we wanna maximize this probability.
+
+00:04:54.689 --> 00:04:59.380
+And now, we'll take the vectors for
+U for all these different words like I,
+
+00:04:59.380 --> 00:05:01.720
+like, learning, and and.
+
+00:05:01.720 --> 00:05:06.990
+So the next thing would be, I for like or
+the probability of like given deep.
+
+00:05:08.020 --> 00:05:13.900
+And that'll be the exponent of
+U like transpose of v deep.
+
+00:05:15.190 --> 00:05:18.130
+And again, we have to divide by this
+
+00:05:18.130 --> 00:05:20.580
+pretty large sum over
+the entire vocabulary.
+
+00:05:20.580 --> 00:05:23.915
+So, it's essentially little
+classification problems all over.
+
+00:05:23.915 --> 00:05:26.050
+So that's the first window of this corpus.
+
+00:05:27.830 --> 00:05:32.130
+Now, when we move to the next window,
+we basically move one over.
+
+00:05:33.550 --> 00:05:39.778
+And now the center word is learning, and
+we wanna predict these outside words.
+
+00:05:41.453 --> 00:05:46.720
+So now we'll take for this next,
+the second window here.
+
+00:05:46.720 --> 00:05:49.400
+This was the first window,
+the second window.
+
+00:05:49.400 --> 00:05:55.620
+We'll now take the vector V for learning
+and the U vector for like, deep and NLP.
+
+00:05:57.340 --> 00:06:01.030
+So that was the skip gram model that
+we talked about in the last lecture,
+
+00:06:01.030 --> 00:06:05.410
+just explained again
+with the same notation.
+
+00:06:05.410 --> 00:06:08.350
+But basically, you take one window
+at a time, you move that window and
+
+00:06:08.350 --> 00:06:11.050
+you keep trying to predict
+the outside words.
+
+00:06:11.050 --> 00:06:11.940
+Next to the center word.
+
+00:06:14.290 --> 00:06:15.450
+Are there any questions around this?
+
+00:06:15.450 --> 00:06:17.689
+Cuz we'll move, yep?
+
+00:06:23.951 --> 00:06:26.420
+That's a good question, so
+how do you actually develop that?
+
+00:06:26.420 --> 00:06:30.090
+You start with all the numbers,
+all these vectors are just random.
+
+00:06:30.090 --> 00:06:35.310
+Little small random numbers, often sampled
+uniformly between two small numbers.
+
+00:06:36.360 --> 00:06:40.200
+And then, you take the derivatives with
+respect to these vectors in order to
+
+00:06:40.200 --> 00:06:41.883
+increase these probabilities.
+
+00:06:44.159 --> 00:06:50.078
+And you essentially take the gradient
+here, of each of these windows with SGD.
+
+00:06:50.078 --> 00:06:55.287
+And so, when you take the derivatives that
+we went through in Latin last lecture,
+
+00:06:55.287 --> 00:06:59.741
+with respect to all these different
+vectors here, you get this very,
+
+00:06:59.741 --> 00:07:02.100
+very large sparse update.
+
+00:07:02.100 --> 00:07:06.410
+Cuz all your parameters
+are essentially all the word vectors.
+
+00:07:06.410 --> 00:07:10.952
+And basically these two matrices,
+with all these different column vectors.
+
+00:07:10.952 --> 00:07:14.818
+And so let's say you have
+100 dimensional vectors, and
+
+00:07:14.818 --> 00:07:18.542
+you have a vocabulary of
+let's say 20,000 words.
+
+00:07:18.542 --> 00:07:22.170
+So that's a lot of different
+numbers that you have to optimize.
+
+00:07:22.170 --> 00:07:25.110
+And so these updates are very, very large.
+
+00:07:25.110 --> 00:07:27.420
+But, they're also very
+sparse cuz each window,
+
+00:07:27.420 --> 00:07:31.410
+you usually only see five words
+if your window size is two.
+
+00:07:33.300 --> 00:07:36.420
+yeah?
+&gt;&gt; [INAUDIBLE]
+
+00:07:36.420 --> 00:07:37.160
+&gt;&gt; That's a good question.
+
+00:07:37.160 --> 00:07:39.950
+We'll get to that once we look at
+the evaluation of these word vectors.
+
+00:07:44.304 --> 00:07:50.140
+This cost function is not
+convex It doesn't matter,
+
+00:07:50.140 --> 00:07:52.870
+sorry, I should repeat all the questions,
+sorry for the people on the video.
+
+00:07:52.870 --> 00:07:55.780
+So the first question was,
+how do we choose the dimensionality?
+
+00:07:55.780 --> 00:07:58.030
+We'll get to that very soon.
+
+00:07:58.030 --> 00:08:00.120
+And then, this question here.
+
+00:08:00.120 --> 00:08:01.707
+Was how do we start?
+
+00:08:01.707 --> 00:08:03.903
+And how much does it matter?
+
+00:08:03.903 --> 00:08:08.666
+It turns out most of the objective
+functions, pretty much almost of them in
+
+00:08:08.666 --> 00:08:13.240
+this lecture, are not convex, and
+so initialization does matter.
+
+00:08:13.240 --> 00:08:14.820
+And we'll go through tips and
+
+00:08:14.820 --> 00:08:20.240
+tricks on how to circumvent getting
+stuck in very bad local optima.
+
+00:08:20.240 --> 00:08:23.340
+But it turns out in practice,
+as long as you initialize with small
+
+00:08:23.340 --> 00:08:27.320
+random numbers especially in these word
+vectors, it does not tend to be a problem.
+
+00:08:30.780 --> 00:08:34.130
+All right, so we basically run SGD,
+it's just a recap of last lecture.
+
+00:08:34.130 --> 00:08:39.020
+Run SGD, we update now our
+cost function here at each
+
+00:08:39.020 --> 00:08:43.630
+window as we move through the corpus,
+right?
+
+00:08:43.630 --> 00:08:47.090
+And so when you think about these updates
+and you think about implementing that,
+
+00:08:47.090 --> 00:08:50.880
+which you'll very soon for
+problem set one, you'll realize well,
+
+00:08:50.880 --> 00:08:55.020
+if I have this entire matrix,
+this entire vector here, sorry.
+
+00:08:55.020 --> 00:08:57.406
+This vector of all these
+different numbers and
+
+00:08:57.406 --> 00:08:59.916
+I explicitly actually
+keep around these zeros,
+
+00:08:59.916 --> 00:09:04.096
+you have very, very large updates, and
+you'll run out of memory very quickly.
+
+00:09:04.096 --> 00:09:06.784
+And so what instead you
+wanna do is either have very
+
+00:09:06.784 --> 00:09:11.581
+sparse matrix operations where
+you update only specific columns.
+
+00:09:11.581 --> 00:09:16.911
+For this second window, you only have
+to update the outside vectors for
+
+00:09:16.911 --> 00:09:20.199
+like, deep and NLP and
+inside vector for learning.
+
+00:09:20.199 --> 00:09:26.051
+Or you could also implement this as
+essentially a hash where you have keys and
+
+00:09:26.051 --> 00:09:26.790
+values.
+
+00:09:26.790 --> 00:09:30.580
+And the values are the vectors,
+and the keys are the word strings.
+
+00:09:33.850 --> 00:09:37.990
+All right, now, when I told you
+this is the skip-gram model,
+
+00:09:37.990 --> 00:09:43.060
+I actually kind of lied a little bit
+to teach it to you one step at a time.
+
+00:09:43.060 --> 00:09:47.150
+It turns out when you do
+this computation here,
+
+00:09:48.890 --> 00:09:50.440
+the upper part is pretty simple, right?
+
+00:09:50.440 --> 00:09:52.180
+This is just
+the hundred-dimensional vector, and
+
+00:09:52.180 --> 00:09:54.980
+you multiply that with another
+hundred-dimensional vector.
+
+00:09:54.980 --> 00:09:56.355
+So that's pretty fast.
+
+00:09:56.355 --> 00:10:00.318
+But at each window, and again you
+go through an entire corpus, right?
+
+00:10:00.318 --> 00:10:03.479
+You do this one step at a time,
+one word at a time.
+
+00:10:03.479 --> 00:10:05.265
+And for each window,
+you do this computation.
+
+00:10:05.265 --> 00:10:07.251
+And you do also this gigantic sum.
+
+00:10:07.251 --> 00:10:09.698
+And this sum goes over
+the entire vocabulary.
+
+00:10:09.698 --> 00:10:14.687
+Again, potentially 20,000 maybe
+even a million different words
+
+00:10:14.687 --> 00:10:16.248
+in your whole corpus.
+
+00:10:16.248 --> 00:10:18.329
+All right, so each window,
+
+00:10:18.329 --> 00:10:23.202
+you have to make 20,000 times
+this inner product down here.
+
+00:10:23.202 --> 00:10:25.320
+And that's not very efficient.
+
+00:10:25.320 --> 00:10:28.780
+And it turns out,
+you also don't teach the model that much.
+
+00:10:28.780 --> 00:10:35.086
+At each window you say, deep learning, or
+learning does not co-occur with zebra.
+
+00:10:35.086 --> 00:10:36.491
+It does not co-occur of aardvark.
+
+00:10:36.491 --> 00:10:39.310
+It does not co-occur
+with 20,000 other words.
+
+00:10:39.310 --> 00:10:40.185
+And it's kind of repetitive, right?
+
+00:10:40.185 --> 00:10:44.930
+Cuz most words don't actually appear with
+most other words, it's pretty sparse.
+
+00:10:44.930 --> 00:10:50.150
+And so the main idea behind skip-gram is a
+very neat trick, which is we'll just train
+
+00:10:50.150 --> 00:10:53.670
+a couple of binary logistic
+regressions for the true pairs.
+
+00:10:53.670 --> 00:10:57.370
+So we keep this idea of
+wanting to optimize and
+
+00:10:57.370 --> 00:11:01.790
+maximize this inner product of
+the center word and the outside words.
+
+00:11:01.790 --> 00:11:03.340
+But instead of going through all,
+
+00:11:03.340 --> 00:11:05.610
+we'll actually just take
+a couple of random words and say,
+
+00:11:05.610 --> 00:11:11.120
+how about these random words from
+the rest of the corpus don't co-occur.
+
+00:11:11.120 --> 00:11:15.740
+And this leads us to the original
+objective function of the skip-gram model,
+
+00:11:15.740 --> 00:11:19.810
+which sort of as a software
+package is often called Word2vec.
+
+00:11:19.810 --> 00:11:23.200
+And the original paper title was
+Distributed Representations of Words and
+
+00:11:23.200 --> 00:11:25.300
+Phrases, and their compositionality.
+
+00:11:25.300 --> 00:11:27.870
+And so the overall objective
+function is as follows.
+
+00:11:27.870 --> 00:11:29.860
+Let's walk through this slowly together.
+
+00:11:30.970 --> 00:11:33.410
+Basically, you go again
+through each window.
+
+00:11:33.410 --> 00:11:38.730
+So T here corresponds to each window
+as you go through the corpus,
+
+00:11:38.730 --> 00:11:39.880
+and then we have two terms here.
+
+00:11:39.880 --> 00:11:44.710
+The first one is essentially just a log
+probability of these two center words and
+
+00:11:44.710 --> 00:11:46.134
+outside words co-occurring.
+
+00:11:47.240 --> 00:11:50.870
+And so the sigmoid here is
+a simple element wise function.
+
+00:11:50.870 --> 00:11:51.743
+We'll become very good friends.
+
+00:11:51.743 --> 00:11:53.690
+We'll use the sigmoid function a lot.
+
+00:11:53.690 --> 00:11:57.040
+You'll have to really be able to
+take derivatives of it and so on.
+
+00:11:57.040 --> 00:12:00.040
+But essentially what it does,
+it just takes any real number and
+
+00:12:00.040 --> 00:12:02.200
+squashes it to be between zero and one.
+
+00:12:02.200 --> 00:12:06.182
+And that's for you learning people,
+good enough to call it a probability.
+
+00:12:06.182 --> 00:12:09.395
+If you're reading statistics,
+you wanna have proper measures and so on,
+
+00:12:09.395 --> 00:12:12.413
+so it's not quite that much, but
+it's a number between zero and one.
+
+00:12:12.413 --> 00:12:13.445
+We'll call it a probability.
+
+00:12:13.445 --> 00:12:19.364
+And then we basically can call this
+here a term that we basically wanna
+
+00:12:19.364 --> 00:12:25.020
+maximize the log probability of
+these two words co-occurring.
+
+00:12:25.020 --> 00:12:26.234
+Any questions about the first term?
+
+00:12:30.282 --> 00:12:33.792
+This is very similar to before, but
+then we have the second term here.
+
+00:12:33.792 --> 00:12:37.580
+And the original description
+was this expected value here.
+
+00:12:37.580 --> 00:12:41.581
+But really, we can have some clear
+notation that essentially just shows that
+
+00:12:41.581 --> 00:12:45.790
+we're going to randomly sub sample
+a couple of the words from the corpus.
+
+00:12:45.790 --> 00:12:47.334
+And for each of these,
+
+00:12:47.334 --> 00:12:52.470
+we will essentially try to minimize
+their probability of co-occurring.
+
+00:12:52.470 --> 00:12:56.696
+And so one good exercise is actually for
+
+00:12:56.696 --> 00:13:00.414
+you in preparation for midterms.
+
+00:13:00.414 --> 00:13:05.968
+And what not to prove to
+yourself that one of sigmoid
+
+00:13:05.968 --> 00:13:11.019
+of minus x is the same as
+one minus sigmoid of x.
+
+00:13:11.019 --> 00:13:14.960
+That is a nice little quick
+proof to get into the zone.
+
+00:13:14.960 --> 00:13:18.470
+And so basically this is one
+minus the probability of this.
+
+00:13:18.470 --> 00:13:22.041
+So we'd subsample a couple of random words
+from our corpus instead of going through
+
+00:13:22.041 --> 00:13:24.656
+all the different ones saying
+an aardvark doesn't appear.
+
+00:13:24.656 --> 00:13:26.960
+Zebra doesn't appear with learning and
+so on.
+
+00:13:26.960 --> 00:13:31.140
+We'll just sample five, or ten, or so,
+and then we minimize their probabilities.
+
+00:13:33.070 --> 00:13:34.200
+And so usually, we take and
+
+00:13:34.200 --> 00:13:39.120
+this is again a hyperparameter, one that
+will have to evaluate how much it matters.
+
+00:13:39.120 --> 00:13:41.420
+I will take k negative samples for
+
+00:13:41.420 --> 00:13:45.020
+the second part here of the objective
+functions for each window.
+
+00:13:45.020 --> 00:13:49.683
+And then we minimize the probability
+that these random words appear
+
+00:13:49.683 --> 00:13:51.415
+around the center word.
+
+00:13:51.415 --> 00:13:55.059
+And then the way we sample them is
+actually from a simple uniform or
+
+00:13:55.059 --> 00:13:56.723
+unigram distribution here.
+
+00:13:56.723 --> 00:14:00.092
+We basically look at how often do
+the words generally appear, and
+
+00:14:00.092 --> 00:14:01.910
+then we sample them based on that.
+
+00:14:01.910 --> 00:14:03.439
+But we also take the power
+of three-fourth.
+
+00:14:03.439 --> 00:14:04.962
+It's kind of a hacky term.
+
+00:14:04.962 --> 00:14:08.726
+If you play around with this model for
+long enough, you say, well,
+
+00:14:08.726 --> 00:14:12.556
+maybe it should more often sample some
+of these rare words cuz otherwise,
+
+00:14:12.556 --> 00:14:16.240
+it would very, very often sample THE and
+A and other stop words.
+
+00:14:16.240 --> 00:14:20.850
+And would probably never, ever sample
+aardvark and zebra in our corpus,
+
+00:14:20.850 --> 00:14:25.970
+so you take this to
+the power of three-fourth.
+
+00:14:25.970 --> 00:14:27.460
+And you don't have to
+implement this function,
+
+00:14:27.460 --> 00:14:31.260
+we'll just give it to you cuz you kind
+of have to compute the statistics
+
+00:14:31.260 --> 00:14:33.940
+of how often each word
+appears in the corpus.
+
+00:14:33.940 --> 00:14:35.610
+But we'll give this to
+you in the problem set.
+
+00:14:37.080 --> 00:14:40.297
+All right, so
+any questions around the skip-gram model?
+
+00:14:40.297 --> 00:14:40.797
+Yeah?
+
+00:14:46.692 --> 00:14:53.920
+That's right, so the question is,
+is it a choice of how to define p of w?
+
+00:14:53.920 --> 00:14:57.240
+And it is a choice, you could do
+a lot of different things there.
+
+00:14:57.240 --> 00:15:02.224
+But it turns out a very simple thing,
+like just taking the unigram distribution.
+
+00:15:02.224 --> 00:15:05.830
+How often does this word
+appear works well enough.
+
+00:15:05.830 --> 00:15:10.349
+So people haven't really explored
+more complex versions than that.
+
+00:15:19.712 --> 00:15:20.990
+That's a good question.
+
+00:15:20.990 --> 00:15:24.430
+Should we make sure that
+the random samples here
+
+00:15:24.430 --> 00:15:27.170
+aren't the same as exactly this word?
+
+00:15:28.500 --> 00:15:32.460
+Yes, but it turns out that the probability
+for a very large corpora is so
+
+00:15:32.460 --> 00:15:36.590
+tiny that the very, very few times that
+ever happens is kind of irrelevant.
+
+00:15:36.590 --> 00:15:39.918
+Cuz we randomly sub-sample so
+much that it doesn't change.
+
+00:15:48.573 --> 00:15:50.200
+Orders of magnitude for which part?
+
+00:15:51.617 --> 00:15:53.224
+K, it's ten.
+
+00:15:53.224 --> 00:15:56.436
+It's relatively small, and
+it's an interesting trade-off that
+
+00:15:56.436 --> 00:15:59.317
+you'll observe in actually
+several deep learning models.
+
+00:15:59.317 --> 00:16:04.460
+Often, As you go through the corpus,
+you could do an update after each window,
+
+00:16:04.460 --> 00:16:08.290
+but you could also say let's go through
+five windows collect the updates and
+
+00:16:08.290 --> 00:16:10.820
+then make a really, a step in your...
+
+00:16:10.820 --> 00:16:12.971
+Mini batch of your stochastic
+gradient descent and
+
+00:16:12.971 --> 00:16:15.681
+we'll go through a lot these kind
+of options later in the class.
+
+00:16:17.375 --> 00:16:25.942
+All right, last question on skip
+gram What does Jt(theta) represent?
+
+00:16:25.942 --> 00:16:26.890
+It's a good question.
+
+00:16:26.890 --> 00:16:33.650
+So theta is often a parameter that we
+use for all the variables in our model.
+
+00:16:33.650 --> 00:16:35.320
+So in our case here for
+the skip-gram model,
+
+00:16:35.320 --> 00:16:39.825
+it's essentially all the U vectors and
+all the V vectors.
+
+00:16:39.825 --> 00:16:42.400
+Later on, when we call,
+we'll call a theta,
+
+00:16:42.400 --> 00:16:46.310
+it might have other parameters of
+the neural network, layers and so on.
+
+00:16:46.310 --> 00:16:50.360
+And J is just our cost function and
+T is at the Tth time step or
+
+00:16:50.360 --> 00:16:53.540
+the Tth window as we
+go through our corpus.
+
+00:16:53.540 --> 00:16:56.953
+So in the end, our overall objective
+function that we actually optimize is
+
+00:16:56.953 --> 00:16:57.995
+the sum of all of them.
+
+00:16:57.995 --> 00:17:02.942
+But again, we don't wanna do one large
+update of the entire corpus, right?
+
+00:17:02.942 --> 00:17:06.378
+We don't wanna go through all the windows,
+collect all the updates and
+
+00:17:06.378 --> 00:17:09.770
+then make one gigantic step cuz that
+usually doesn't work very well.
+
+00:17:12.162 --> 00:17:16.730
+So, good question I think, last lecture
+we talked a lot about minimization.
+
+00:17:16.730 --> 00:17:20.200
+Here, we have these log probabilities and
+in the paper you wanna maximize that.
+
+00:17:24.286 --> 00:17:25.540
+And it's often very intuitive, right?
+
+00:17:25.540 --> 00:17:29.350
+Once you have probabilities,
+you usually wanna maximize the probability
+
+00:17:29.350 --> 00:17:32.930
+of the actual thing that you
+see in your corpus happening.
+
+00:17:32.930 --> 00:17:33.680
+And then other times,
+
+00:17:33.680 --> 00:17:37.560
+when we call it a cost function,
+we wanna minimize the cost and so on.
+
+00:17:39.550 --> 00:17:43.830
+All right so, in word2vector's,
+another model,
+
+00:17:43.830 --> 00:17:46.690
+which you won't have to implement
+unless you want to get bonus points.
+
+00:17:46.690 --> 00:17:49.565
+But we will ask you to take
+derivatives of, and so
+
+00:17:49.565 --> 00:17:53.682
+it's good to understand it at least
+in a very simple conceptual level.
+
+00:17:53.682 --> 00:17:57.550
+And it's very similar
+to the skip-gram model.
+
+00:17:57.550 --> 00:18:00.170
+Basically, we want to predict
+
+00:18:00.170 --> 00:18:04.040
+the center word from the sum
+of the surrounding words.
+
+00:18:04.040 --> 00:18:08.280
+So very simply here, we sum up
+the vector of And of NLP and of deep and
+
+00:18:08.280 --> 00:18:10.770
+of like and
+we have the sum of these vectors.
+
+00:18:10.770 --> 00:18:14.640
+And then we have some inner products
+with just the vector of the inside.
+
+00:18:14.640 --> 00:18:18.250
+And basically that's called
+the continuous bag of words model.
+
+00:18:18.250 --> 00:18:22.510
+You'll learn all about the details and
+the definition of that in the problem set.
+
+00:18:23.920 --> 00:18:27.036
+So what actually happens when we
+train these word vectors, right?
+
+00:18:27.036 --> 00:18:31.939
+We optimize this objective function and
+we take gradients and
+
+00:18:31.939 --> 00:18:37.917
+after a while, something kind of
+magical happens to these word vectors.
+
+00:18:37.917 --> 00:18:43.524
+And that is that they actually start to
+cluster around similar kinds of meaning,
+
+00:18:43.524 --> 00:18:47.980
+and sometimes also similar
+kinds of syntactic functions.
+
+00:18:47.980 --> 00:18:53.030
+So when we zoom in, and again, this is,
+usually these vectors are 25 to even
+
+00:18:53.030 --> 00:18:58.480
+500 or thousand dimensional, this is just
+a PCA visualization of these vectors.
+
+00:18:58.480 --> 00:19:03.210
+And what we'll observe is that Tuesday and
+Thursday and
+
+00:19:03.210 --> 00:19:07.040
+weekdays cluster together,
+number terms cluster together,
+
+00:19:08.170 --> 00:19:12.090
+first names cluster together and so on.
+
+00:19:12.090 --> 00:19:16.240
+So basically, words that appear
+in similar context turn out to
+
+00:19:16.240 --> 00:19:19.820
+often have dissimilar meaning as
+we discussed in previous lecture.
+
+00:19:19.820 --> 00:19:24.280
+And so
+they essentially get similar vectors
+
+00:19:24.280 --> 00:19:28.670
+after we train this model for
+a sufficient number of sets.
+
+00:19:30.926 --> 00:19:33.160
+All right, let's summarize word2vec.
+
+00:19:33.160 --> 00:19:36.270
+Basically, we went through
+each word in the corpus.
+
+00:19:36.270 --> 00:19:38.310
+We looked at the surrounding
+words in the window.
+
+00:19:38.310 --> 00:19:40.320
+We predict the surrounding words.
+
+00:19:40.320 --> 00:19:43.480
+Now, what we are essentially
+doing there is
+
+00:19:43.480 --> 00:19:46.130
+trying to capture
+the coocurrence of words.
+
+00:19:46.130 --> 00:19:49.112
+How often does this word
+cooccur with the other word?
+
+00:19:49.112 --> 00:19:51.156
+And we did that one count at a time.
+
+00:19:51.156 --> 00:19:56.020
+It's like, I see the deep and
+learning happen.
+
+00:19:56.020 --> 00:19:58.440
+I make an update to both of this vectors.
+
+00:19:58.440 --> 00:20:02.320
+And then you go over the corpus and then
+you probably will eventually see deep and
+
+00:20:02.320 --> 00:20:06.600
+learning coocurring again and
+you make again a separate update step.
+
+00:20:06.600 --> 00:20:08.488
+When you think about that,
+it's not very efficient, right?
+
+00:20:08.488 --> 00:20:12.860
+Why now we just go to the entire corpus
+once, count how often this deep and
+
+00:20:12.860 --> 00:20:18.340
+learning cooccur, of these two
+words cooccur, and then we make one
+
+00:20:18.340 --> 00:20:23.810
+update step that captures the entire
+count instead of one sample at the time.
+
+00:20:25.220 --> 00:20:27.910
+And, yes we can do that and
+
+00:20:27.910 --> 00:20:31.960
+that is actually a method that
+came historically before word2vec.
+
+00:20:33.060 --> 00:20:36.070
+And there are different
+options of how we can do this.
+
+00:20:36.070 --> 00:20:37.730
+The simplest one or
+
+00:20:37.730 --> 00:20:41.680
+the one that is similar to word2vec at
+least is that we again use a window around
+
+00:20:41.680 --> 00:20:45.460
+each word and we basically just
+go through the entire corpus.
+
+00:20:45.460 --> 00:20:47.200
+We don't update anything,
+we don't do any SGD.
+
+00:20:47.200 --> 00:20:49.670
+We just collect the counts first.
+
+00:20:49.670 --> 00:20:53.080
+And once we have the counts,
+then we do something to that matrix.
+
+00:20:53.080 --> 00:20:56.720
+And so when we look at just
+the window of length maybe two,
+
+00:20:56.720 --> 00:21:01.980
+like in this example here, or maybe five,
+some small window size around each word,
+
+00:21:01.980 --> 00:21:05.080
+what we'll do is we'll capture,
+not just the semantics, but
+
+00:21:05.080 --> 00:21:07.560
+also some of the syntactic
+information of each word.
+
+00:21:07.560 --> 00:21:10.210
+Namely, what kind of
+part of speech tag is it.
+
+00:21:10.210 --> 00:21:13.530
+So verbs are going to be
+closer to one another.
+
+00:21:13.530 --> 00:21:16.320
+Then the verbs are to nouns, for instance.
+
+00:21:18.460 --> 00:21:21.690
+If, on the other hand, we look at
+co-occurrence counts that aren't just
+
+00:21:21.690 --> 00:21:25.720
+around the window, but entire document,
+so I don't just look at each window.
+
+00:21:25.720 --> 00:21:30.705
+But i say, this Word appears with all
+these other words in this entire Wikipedia
+
+00:21:30.705 --> 00:21:33.905
+article, for instance, or
+this entire Word document.
+
+00:21:33.905 --> 00:21:39.315
+Then, what you'll capture is actually
+more topics, and this is often
+
+00:21:39.315 --> 00:21:44.919
+called Latent Semantic Analysis,
+a big popular model from a while back.
+
+00:21:44.919 --> 00:21:48.868
+And basically what you'll get there is,
+you'll ignore the part of
+
+00:21:48.868 --> 00:21:53.026
+speech that you ignore any kind of
+syntactic information and just say,
+
+00:21:53.026 --> 00:21:56.353
+well swimming and boat and
+water and weather and the sun,
+
+00:21:56.353 --> 00:22:01.890
+they're all kind of appear in this topic
+together, in this document together.
+
+00:22:01.890 --> 00:22:05.310
+So we won't go into too many details for
+these cuz they turn out for
+
+00:22:05.310 --> 00:22:08.060
+a lot of other downstream tasks
+like machine translation or so and
+
+00:22:08.060 --> 00:22:12.070
+we really want to use these windows,
+but it's good knowledge to have.
+
+00:22:12.070 --> 00:22:18.190
+So let's go over a simple example of
+what we would do if we had a very small
+
+00:22:18.190 --> 00:22:23.070
+corpus and wanna collect these windows and
+then compute word vectors from that.
+
+00:22:44.928 --> 00:22:48.115
+So it is technically not cosine cuz we
+are not normalizing over the length, and
+
+00:22:48.115 --> 00:22:51.560
+technically we are not optimizing inner
+products of these probabilities and so on.
+
+00:22:51.560 --> 00:22:52.599
+But continue.
+
+00:23:00.151 --> 00:23:01.500
+That's right.
+So the question is,
+
+00:23:01.500 --> 00:23:05.690
+in all these visualizations here,
+we kind of look at Euclidean distance.
+
+00:23:05.690 --> 00:23:10.220
+And it's true, we're actually often
+are going to use inner products
+
+00:23:10.220 --> 00:23:12.050
+kinds of similarities.
+
+00:23:12.050 --> 00:23:17.220
+So yes, in some cases, Euclidean
+distance works reasonably well still,
+
+00:23:17.220 --> 00:23:22.000
+despite not doing this in fact we'll see
+one evaluation that is entirely based or
+
+00:23:22.000 --> 00:23:25.400
+partly based on Euclidean distances and
+partly inner products.
+
+00:23:25.400 --> 00:23:30.700
+So it turns out both work well despite
+our objective function only having this.
+
+00:23:30.700 --> 00:23:33.593
+And even more surprising there're a lot
+of things that work quite well on this
+
+00:23:33.593 --> 00:23:35.740
+despite starting with this
+kind of objective function.
+
+00:23:41.429 --> 00:23:45.864
+We often yeah, so if despite having
+only this inner product optimizations,
+
+00:23:45.864 --> 00:23:50.110
+we will actually also do often very
+well in terms of Euclidean distances.
+
+00:23:50.110 --> 00:23:52.891
+Yep.
+
+00:23:54.287 --> 00:23:59.402
+Well, it get's complicated but there
+are some interesting relationships between
+
+00:23:59.402 --> 00:24:04.150
+the ratios of the co-occurence counts
+We don't have enough time to dive into
+
+00:24:04.150 --> 00:24:07.770
+the details, but if you are interested
+in that I will talk about a paper.
+
+00:24:07.770 --> 00:24:12.199
+I mentioned the title of the paper in
+five or ten slides, that will help
+
+00:24:12.199 --> 00:24:15.817
+you understand that a little better and
+gain some more intuition, yep.
+
+00:24:15.817 --> 00:24:20.950
+All right, so,
+window based co-occurrence matrices.
+
+00:24:20.950 --> 00:24:22.930
+So, let's say,
+we have this corpus here, and
+
+00:24:22.930 --> 00:24:26.210
+that's to find our window length
+as just 1, for simplicity.
+
+00:24:26.210 --> 00:24:29.370
+Usually, we have more commonly
+5 to 10 windows around there.
+
+00:24:30.560 --> 00:24:34.250
+And we assume we have
+a symmetric window so,
+
+00:24:34.250 --> 00:24:38.040
+we don't care if a word is to the left or
+to the right of our center word.
+
+00:24:38.040 --> 00:24:39.510
+And we have this corpus.
+
+00:24:39.510 --> 00:24:44.430
+So, this is essentially what a window
+based co-occurrence matrix would be, for
+
+00:24:44.430 --> 00:24:46.540
+this very, very simple corpus.
+
+00:24:46.540 --> 00:24:51.650
+We just look at the word I and then,
+we look at which words appear next to I.
+
+00:24:51.650 --> 00:24:56.190
+And so, we look at I, we see like
+twice so, we have number two here.
+
+00:24:56.190 --> 00:25:00.260
+And we see enjoy once so,
+we put the count one here.
+
+00:25:00.260 --> 00:25:02.130
+And then, we know we have the word like.
+
+00:25:02.130 --> 00:25:07.390
+And so, like co-occurs twice
+with the word I on it's left and
+
+00:25:07.390 --> 00:25:09.290
+once with deep and once with NLP.
+
+00:25:09.290 --> 00:25:14.316
+And so, this is essentially we go through
+all the words in a very large corpus and
+
+00:25:14.316 --> 00:25:17.177
+we compute all these counts, super simple.
+
+00:25:17.177 --> 00:25:20.420
+Now, you could say, well,
+that's a vector already, right?
+
+00:25:20.420 --> 00:25:24.770
+You have a list of numbers here and that
+list of numbers now represents that word.
+
+00:25:24.770 --> 00:25:29.174
+And you already kinda capture things like,
+well, like and enjoy have some overlap so,
+
+00:25:29.174 --> 00:25:30.731
+maybe they're more similar.
+
+00:25:30.731 --> 00:25:32.870
+So, you already have a word vector, right?
+
+00:25:32.870 --> 00:25:36.840
+But now, it's not a very ideal word
+vector for a couple of reasons.
+
+00:25:36.840 --> 00:25:39.950
+The first one is,
+if you have a new word in your vocabulary,
+
+00:25:39.950 --> 00:25:41.090
+that word vector changes.
+
+00:25:41.090 --> 00:25:44.680
+So, if you have some downstream machine
+learning models now to take that
+
+00:25:44.680 --> 00:25:48.540
+vector's input, they always have to change
+and there's always some parameter missing.
+
+00:25:48.540 --> 00:25:51.415
+Also, this vector is going
+to be very high-dimensional.
+
+00:25:51.415 --> 00:25:54.263
+Of course, for this tiny corpus,
+it's small but generally,
+
+00:25:54.263 --> 00:25:56.290
+we'll have tens of thousands of words.
+
+00:25:56.290 --> 00:25:58.070
+So, it's a very high-dimensional vector.
+
+00:25:58.070 --> 00:26:01.890
+So, you'll have sparsity issues if you
+try to train a machine learning model
+
+00:26:01.890 --> 00:26:06.760
+on this afterwards and that moves up in
+a much less robust downstream models.
+
+00:26:07.970 --> 00:26:12.194
+And so, the solution to that is lets again
+have the similar idea to word2vec and
+
+00:26:12.194 --> 00:26:16.307
+have just don't store all of the co
+occurrence counts, every single number.
+
+00:26:16.307 --> 00:26:19.018
+But just store most of
+the important information,
+
+00:26:19.018 --> 00:26:22.360
+the fixed small number of dimensions,
+similar to word2vec,
+
+00:26:22.360 --> 00:26:26.420
+those will be somewhere around
+25 to 1,000 dimensions.
+
+00:26:26.420 --> 00:26:29.940
+And then, the question is okay,
+how do we now reduce the dimensionality,
+
+00:26:29.940 --> 00:26:32.560
+we have these very large
+co-occurrence matrices here.
+
+00:26:32.560 --> 00:26:36.480
+In the realistic setting, we'll have
+20,000 by 20,000 or even a million by
+
+00:26:36.480 --> 00:26:41.170
+a million, very large sparse matrix,
+how do we reduce the dimensionality?
+
+00:26:41.170 --> 00:26:44.510
+And the answer is we'll
+just use very simple SVD.
+
+00:26:44.510 --> 00:26:47.100
+So, who here is familiar with
+singular value decomposition?
+
+00:26:49.420 --> 00:26:52.670
+All right, good, the majority of people,
+if you're not then,
+
+00:26:52.670 --> 00:26:57.230
+I strongly suggest you go to the office
+hours and brush up on your linear algebra.
+
+00:26:59.350 --> 00:27:04.740
+But, basically, we'll have here
+this X hat matrix, which is
+
+00:27:04.740 --> 00:27:10.320
+going to be our best rank k approximation
+to our original co-occurrence matrix X.
+
+00:27:10.320 --> 00:27:18.050
+And we'll have basically these three
+simple matrices with orthonormal columns.
+
+00:27:18.050 --> 00:27:23.370
+U we often call also our left-singular
+vectors and we have here S the diagonal
+
+00:27:23.370 --> 00:27:28.220
+matrix containing all the singular
+values usually from largest to smallest.
+
+00:27:28.220 --> 00:27:32.763
+And we have our matrix V here,
+our orthonormal rows.
+
+00:27:32.763 --> 00:27:36.521
+And so, in code,
+this is also extremely simple,
+
+00:27:36.521 --> 00:27:41.351
+we can literally implement this
+in just a few lines, if we have,
+
+00:27:41.351 --> 00:27:46.380
+this is our corpus here, and
+this is our co-occurrence matrix X.
+
+00:27:46.380 --> 00:27:51.830
+Then, we can simply run SVD with
+one line of Python code and
+
+00:27:51.830 --> 00:27:54.000
+then, we get this matrix U.
+
+00:27:54.000 --> 00:28:02.360
+And now, we can take the first two
+columns here of U and plot them, right?
+
+00:28:02.360 --> 00:28:07.097
+And if we do this in the first two
+dimensions here, we'll actually get
+
+00:28:07.097 --> 00:28:12.430
+similar kinda visualization to all this
+other ones I've showed you, right?
+
+00:28:12.430 --> 00:28:16.630
+But this is a few lines of Python code
+to create that kinda word vector.
+
+00:28:18.010 --> 00:28:23.652
+And now, it's kinda reading tea leaves,
+none of these dimensions we can't really
+
+00:28:23.652 --> 00:28:29.648
+say, this dimension is noun, the verbness
+of a word, or something like that.
+
+00:28:29.648 --> 00:28:32.420
+But as you look at these long enough,
+
+00:28:32.420 --> 00:28:35.600
+you'll definitely observe
+some kinds of patterns.
+
+00:28:35.600 --> 00:28:40.290
+So for instance, I and like are very
+frequent words in this corpus and
+
+00:28:40.290 --> 00:28:42.560
+they're a little further to the left so,
+that's one.
+
+00:28:42.560 --> 00:28:46.890
+Like and enjoy are nearest
+neighbors in this space so
+
+00:28:46.890 --> 00:28:50.630
+that's another observation,
+they're both verbs, and so on.
+
+00:28:50.630 --> 00:28:54.450
+So, the things that were being liked,
+flying and
+
+00:28:54.450 --> 00:28:58.160
+deep and other things
+are closer together and so on.
+
+00:28:58.160 --> 00:29:02.875
+So, such a very simple method you get
+a first approximation to what word
+
+00:29:02.875 --> 00:29:05.087
+vectors can and should capture.
+
+00:29:07.155 --> 00:29:11.704
+Are there any questions around this SVD
+method in the co-occurrence matrix?
+
+00:29:18.489 --> 00:29:20.846
+It's a good question,
+is the window always symmetric?
+
+00:29:20.846 --> 00:29:25.231
+And the answer is no, we can actually
+evaluate asymmetric windows and
+
+00:29:25.231 --> 00:29:30.226
+symmetric windows, and I'll show you
+the result of that in a couple of slides.
+
+00:29:32.439 --> 00:29:36.505
+All right, now, once you realize, wow,
+this is so simple and it works kinda well,
+
+00:29:36.505 --> 00:29:40.036
+and you're a researcher, you always
+wanna try to improve it a little bit.
+
+00:29:40.036 --> 00:29:44.391
+And so, there are a lot of different hacks
+that we can make to this co-occurrence
+
+00:29:44.391 --> 00:29:44.920
+matrix.
+
+00:29:44.920 --> 00:29:49.560
+So, instead of taking the raw counts, for
+instance, as you do this, you realize,
+
+00:29:49.560 --> 00:29:55.170
+well, a lot of representational power
+in this word vectors is now captured
+
+00:29:55.170 --> 00:29:58.740
+by the fact that the and he and
+
+00:29:58.740 --> 00:30:03.840
+has and a lot of other very, very frequent
+words co-occur with almost all the nouns.
+
+00:30:03.840 --> 00:30:08.524
+Like the appears in the window of
+pretty much every noun out there.
+
+00:30:08.524 --> 00:30:12.283
+And it doesn't really give us that much
+information that it does over and over and
+
+00:30:12.283 --> 00:30:13.420
+over again.
+
+00:30:13.420 --> 00:30:17.720
+And so, one thing we can do is
+actually just cap it and say,
+
+00:30:17.720 --> 00:30:21.900
+all right, whatever the co-occurs
+with the most, and a lot of other
+
+00:30:21.900 --> 00:30:26.620
+one of these function words,
+we'll just maximize the count at 100.
+
+00:30:26.620 --> 00:30:30.306
+Or, I know some people do this also,
+we just ignore a couple of the most
+
+00:30:30.306 --> 00:30:33.869
+frequent words cuz they really,
+we have a power law distribution or
+
+00:30:33.869 --> 00:30:37.495
+Zipf's law where basically,
+the most frequent words appear much,
+
+00:30:37.495 --> 00:30:40.897
+much more frequently than other words and
+then, it peters out.
+
+00:30:40.897 --> 00:30:46.867
+And then, there's a very long tail of
+words that don't appear that often but
+
+00:30:46.867 --> 00:30:51.720
+those very rare words often
+have a lot of semantic content.
+
+00:30:51.720 --> 00:30:54.336
+Then, another way we can change this,
+
+00:30:54.336 --> 00:30:58.620
+the way we compute these counts is by
+not counting all the words equally.
+
+00:30:58.620 --> 00:30:59.843
+So, we can say, well,
+
+00:30:59.843 --> 00:31:03.160
+words that appear right next to my
+center word get a count of one.
+
+00:31:03.160 --> 00:31:05.891
+Or words that appear and
+they're five steps away,
+
+00:31:05.891 --> 00:31:08.377
+five words away only
+you get a count of 0.5.
+
+00:31:08.377 --> 00:31:10.720
+And so, that's another hack we can do.
+
+00:31:10.720 --> 00:31:14.010
+And then, instead of counts we could
+compute correlations and set them to 0.
+
+00:31:14.010 --> 00:31:19.088
+You get the idea, you can play a little
+around with this matrix of co-occurrence
+
+00:31:19.088 --> 00:31:25.010
+counts in a variety of different ways and
+sometimes they help quite significantly.
+
+00:31:25.010 --> 00:31:30.130
+So, in 2005, so quite a long time ago,
+people used this SVD method and
+
+00:31:30.130 --> 00:31:31.400
+compared a lot of different
+
+00:31:33.510 --> 00:31:37.580
+ways of hacking the co-occurrence
+matrix and modifying it.
+
+00:31:38.760 --> 00:31:42.340
+And basically found quite surprising and
+awesome results.
+
+00:31:42.340 --> 00:31:45.260
+And so, this is another way
+we can try to visualize
+
+00:31:45.260 --> 00:31:46.740
+this very high dimensional space.
+
+00:31:46.740 --> 00:31:50.270
+Again, these vectors are usually
+around 100 dimensions or so, so
+
+00:31:50.270 --> 00:31:51.630
+it's hard to visualize it.
+
+00:31:51.630 --> 00:31:55.560
+And so, instead of projecting it down to
+just 2D, here they just choose a couple of
+
+00:31:55.560 --> 00:32:00.440
+words and look at the nearest
+neighbours and which word is closest To
+
+00:32:00.440 --> 00:32:04.780
+what other word and they find that wrist
+and ankle are closest to one another.
+
+00:32:04.780 --> 00:32:06.810
+And next closest word is shoulder.
+
+00:32:06.810 --> 00:32:09.010
+And the next closest one is arm and so on.
+
+00:32:09.010 --> 00:32:13.215
+And so different extremities cluster
+together, we'll see different
+
+00:32:13.215 --> 00:32:18.365
+cities clustering together, and American
+cities are closer to one another than
+
+00:32:18.365 --> 00:32:22.445
+cities from other countries, and country
+names are close together, and so on.
+
+00:32:22.445 --> 00:32:23.895
+So it's quite amazing, right?
+
+00:32:23.895 --> 00:32:27.170
+Even with something as simple
+as SVD around these windows,
+
+00:32:27.170 --> 00:32:32.040
+you capture a lot of different
+kinds of information.
+
+00:32:32.040 --> 00:32:35.910
+In fact it even goes to syntactic and
+
+00:32:35.910 --> 00:32:40.610
+chromatical kinds of patterns that
+are captured by this SVD method.
+
+00:32:40.610 --> 00:32:45.560
+So show, showed, shown or
+take, took, taken and so
+
+00:32:45.560 --> 00:32:51.210
+on are all always together in
+often similar kinds of patterns.
+
+00:32:52.240 --> 00:32:57.460
+And it goes further and
+even more semantic in the verbs that
+
+00:32:58.690 --> 00:33:04.130
+are very similar and
+related to these kinds of nouns.
+
+00:33:04.130 --> 00:33:09.295
+Often appear even in roughly similar
+kinds of Euclidean distances.
+
+00:33:09.295 --> 00:33:17.440
+So, swim and swimmer, clean and janitor,
+drive and driver, teach and teacher.
+
+00:33:17.440 --> 00:33:22.760
+They're all basically have a similar
+kind of vector difference.
+
+00:33:25.500 --> 00:33:28.897
+And intuitively you would
+think well they appear,
+
+00:33:28.897 --> 00:33:33.089
+they often have similar kinds
+of context in which they appear.
+
+00:33:33.089 --> 00:33:36.970
+And there's some intuitive sense of why,
+why this would happen,
+
+00:33:36.970 --> 00:33:40.515
+as you're trying to capture
+these co-occurrence counts.
+
+00:33:45.449 --> 00:33:47.480
+Does the language matter?
+
+00:33:47.480 --> 00:33:48.836
+Yes, in what way?
+
+00:33:52.738 --> 00:33:53.279
+Great question.
+
+00:33:53.279 --> 00:33:56.130
+So if it was German instead of English.
+
+00:33:56.130 --> 00:34:01.220
+So it's actually a sad truth of a lot of
+natural language processing research that
+
+00:34:01.220 --> 00:34:03.040
+the majority of it is in English.
+
+00:34:03.040 --> 00:34:05.950
+And a few people do this.
+
+00:34:05.950 --> 00:34:08.439
+It turns out this works for
+a lot of other languages.
+
+00:34:08.439 --> 00:34:11.639
+But people don't have as good
+evaluation metrics often for
+
+00:34:11.639 --> 00:34:15.742
+these other languages and evaluation
+data sets which we'll get to in a bit.
+
+00:34:15.742 --> 00:34:19.562
+But we would believe that it works for
+pretty much all languages.
+
+00:34:19.562 --> 00:34:24.030
+Now there's a lot of complexity because
+some languages like Finnish or German have
+
+00:34:24.030 --> 00:34:28.540
+potentially a lot of different words, cuz
+they have much richer morphology, right?
+
+00:34:28.540 --> 00:34:30.650
+German has compound nouns.
+
+00:34:30.650 --> 00:34:33.819
+And so you get more and
+more rare words, and
+
+00:34:33.819 --> 00:34:38.838
+then the rarer the words are,
+the less good counts you have of them,
+
+00:34:38.838 --> 00:34:43.420
+and the harder it is to use
+this method in a vanilla way.
+
+00:34:43.420 --> 00:34:46.680
+Which eventually in the limit
+will get us to character-based
+
+00:34:46.680 --> 00:34:49.270
+natural language processing,
+which we'll get to in a couple weeks.
+
+00:34:49.270 --> 00:34:51.520
+But in general, this works for
+pretty much any language.
+
+00:34:52.820 --> 00:34:54.300
+Great question.
+
+00:34:54.300 --> 00:34:56.120
+So now, what's the problem here?
+
+00:34:56.120 --> 00:34:59.060
+Well SVD, while being very simple and
+
+00:34:59.060 --> 00:35:03.432
+one nice line of Python code, is actually
+computationally not always great,
+
+00:35:03.432 --> 00:35:06.040
+especially as we get larger and
+larger matrices.
+
+00:35:07.200 --> 00:35:12.345
+So we essentially have this quadratic
+cost here in the smaller dimension.
+
+00:35:12.345 --> 00:35:15.301
+So either if it's a word by
+word co-occurrence matrix or
+
+00:35:15.301 --> 00:35:18.824
+even a word by document,
+we'd assume this gets very, very large.
+
+00:35:18.824 --> 00:35:23.841
+And then it also gets hard to
+incorporate new words or documents into,
+
+00:35:23.841 --> 00:35:28.601
+into this whole model cuz you have
+to rerun this whole PCA or sorry,
+
+00:35:28.601 --> 00:35:31.515
+the SVD, singular value decomposition.
+
+00:35:31.515 --> 00:35:33.142
+And then on top of that SVD, and
+
+00:35:33.142 --> 00:35:37.085
+how we optimize that is quite different
+to a lot of the other downstream deep
+
+00:35:37.085 --> 00:35:40.770
+learning methods that we'll use
+like neural networks and so on.
+
+00:35:40.770 --> 00:35:42.900
+It's a very different
+kind of optimization.
+
+00:35:42.900 --> 00:35:45.834
+And so the word to vec objective
+function is similar to SVD,
+
+00:35:45.834 --> 00:35:47.430
+you look at one window at a time.
+
+00:35:47.430 --> 00:35:48.390
+You make an update step.
+
+00:35:48.390 --> 00:35:52.932
+And that is very similar to how we
+optimize most of the other models in this
+
+00:35:52.932 --> 00:35:55.328
+lecture and in deep learning for NLP.
+
+00:35:55.328 --> 00:35:59.046
+And so basically what we
+came with with post-doc and
+
+00:35:59.046 --> 00:36:02.428
+Chris' group, so
+Jeffery Pennington, me and
+
+00:36:02.428 --> 00:36:07.376
+Chris, is a method that tries to
+combine the best of both worlds.
+
+00:36:07.376 --> 00:36:10.450
+So let's summarize what the advantages and
+
+00:36:10.450 --> 00:36:13.150
+disadvantages are of these two
+different kinds of methods.
+
+00:36:13.150 --> 00:36:16.150
+Basically we have these count
+based methods based on SVD and
+
+00:36:16.150 --> 00:36:18.060
+the co-occurence matrix.
+
+00:36:18.060 --> 00:36:19.320
+And we have the window-based or
+
+00:36:19.320 --> 00:36:21.610
+direct prediction methods
+like the Skip-Gram model.
+
+00:36:24.310 --> 00:36:28.920
+The advantages of PCA is that
+it's relatively fast to train,
+
+00:36:28.920 --> 00:36:31.710
+unless the matrix gets very,
+very large but
+
+00:36:31.710 --> 00:36:35.750
+we're making very efficient usage of
+the statistics that we have, right?
+
+00:36:35.750 --> 00:36:38.431
+We only have to collect the statistics
+once, and we could in theory,
+
+00:36:38.431 --> 00:36:39.599
+throw away the whole corpus.
+
+00:36:39.599 --> 00:36:44.903
+And then we can try a lot of different
+things on just these co-occurence counts.
+
+00:36:44.903 --> 00:36:49.076
+Sadly, when you do this,
+it captures mostly word similarity,
+
+00:36:49.076 --> 00:36:53.561
+and not various other patterns that
+the word2vec model, captures and
+
+00:36:53.561 --> 00:36:56.594
+we'll show you what
+those are in evaluation.
+
+00:36:56.594 --> 00:37:00.410
+And we give often disproportionate
+importance to these large counts.
+
+00:37:00.410 --> 00:37:04.410
+And we can try various ways
+of lowering the importance
+
+00:37:04.410 --> 00:37:06.370
+that these function words and
+very frequent words have.
+
+00:37:08.830 --> 00:37:13.051
+The disadvantage of
+the Skip-Gram of model is that
+
+00:37:13.051 --> 00:37:16.200
+it scales with a corpus size, right?
+
+00:37:16.200 --> 00:37:18.600
+You have to go through
+every single window,
+
+00:37:18.600 --> 00:37:23.410
+which is not very efficient, and
+henceforth you also don't really make very
+
+00:37:23.410 --> 00:37:28.050
+efficient usage of the statistics that
+you have overall, of the data set.
+
+00:37:28.050 --> 00:37:30.660
+However we actually get, in may cases,
+
+00:37:30.660 --> 00:37:32.840
+much better performance
+on downstream tasks.
+
+00:37:32.840 --> 00:37:33.610
+And we don't know yet,
+
+00:37:33.610 --> 00:37:36.840
+those downstream tasks, that's why we have
+the whole lecture for this whole quarter.
+
+00:37:36.840 --> 00:37:40.970
+But for a variety of different
+problems like an entity recognition or
+
+00:37:40.970 --> 00:37:42.645
+part of speech tagging and so on.
+
+00:37:42.645 --> 00:37:44.475
+Things that you'll implement
+in the problem sets,
+
+00:37:44.475 --> 00:37:48.730
+it turns out the Skip-Gram like models
+turn out to work slightly better.
+
+00:37:49.950 --> 00:37:52.900
+And we can capture various
+complex patterns, some of
+
+00:37:52.900 --> 00:37:56.640
+which are very surprising and we'll get
+to in the second part of this lecture.
+
+00:37:56.640 --> 00:37:57.840
+And so, basically,
+
+00:37:57.840 --> 00:38:02.040
+what we tried to do here is combining
+the best of both of these worlds.
+
+00:38:02.040 --> 00:38:07.040
+And the result of that was the GloVe
+model, our Global Vectors model.
+
+00:38:07.040 --> 00:38:09.640
+So let's walk through this
+objective function a little bit.
+
+00:38:09.640 --> 00:38:13.080
+Again, theta here will
+be all our parameters.
+
+00:38:13.080 --> 00:38:16.408
+So in this case, again,
+we have these U and these V vectors.
+
+00:38:16.408 --> 00:38:18.705
+But they're even more symmetric now,
+
+00:38:18.705 --> 00:38:23.101
+we basically just go through all pairs
+of words that might ever co-occur.
+
+00:38:23.101 --> 00:38:26.172
+So we go through these very
+large co-occurrence matrix that
+
+00:38:26.172 --> 00:38:28.590
+we computed in the beginning and
+we call P here.
+
+00:38:29.590 --> 00:38:33.709
+And for
+each pair of words in this entire corpus,
+
+00:38:33.709 --> 00:38:38.834
+we basically want to minimize
+the distance between the inner
+
+00:38:38.834 --> 00:38:43.270
+product here, and
+the log count of these two words.
+
+00:38:43.270 --> 00:38:48.819
+So again, this is just this kind of
+matrix here that we're going over.
+
+00:38:48.819 --> 00:38:53.204
+We're going over all elements of
+this kind of co-occurrence matrix.
+
+00:38:53.204 --> 00:38:56.756
+But instead of running the large SVD,
+
+00:38:56.756 --> 00:39:02.529
+we'll basically just optimize
+one such count at a time here.
+
+00:39:02.529 --> 00:39:05.277
+So I have the square of this distance and
+
+00:39:05.277 --> 00:39:09.938
+then we also have this term here,
+f, which allows us to weight even
+
+00:39:09.938 --> 00:39:14.300
+lower some of these very
+frequent kinds of co-occurrences.
+
+00:39:14.300 --> 00:39:18.904
+So the, for instance, will have
+the maximum amount that we can weigh it
+
+00:39:18.904 --> 00:39:21.691
+inside this overall objective function.
+
+00:39:24.557 --> 00:39:25.109
+All right,
+
+00:39:25.109 --> 00:39:28.490
+so now what this allows us to do is
+essentially we can train very quickly.
+
+00:39:28.490 --> 00:39:32.234
+Cuz instead of saying, all right, we'll
+optimize that deep and learning co-occur
+
+00:39:32.234 --> 00:39:35.952
+in one window, and then we'll go in a
+couple windows later, they co-occur again.
+
+00:39:35.952 --> 00:39:38.170
+And we update again, with just one say or
+
+00:39:38.170 --> 00:39:40.810
+a deep learning co-occur
+in this entire corpus.
+
+00:39:40.810 --> 00:39:44.701
+Which could now be in all of Wikipedia or
+in our case, all of common crawl.
+
+00:39:44.701 --> 00:39:47.782
+Which is most of the Internet,
+that's kind of amazing.
+
+00:39:47.782 --> 00:39:50.480
+It's a gigantic corpora
+with billions of tokens.
+
+00:39:50.480 --> 00:39:52.534
+And we just say, all right, deep and
+
+00:39:52.534 --> 00:39:57.524
+learning in these billions of documents
+co-occur 536 times or something like that.
+
+00:39:57.524 --> 00:39:58.977
+Probably now a lot more often.
+
+00:39:58.977 --> 00:40:03.974
+And then we'll just optimize basically
+This inner product to be closed and
+
+00:40:03.974 --> 00:40:07.863
+it's value to the log of
+that overall account.
+
+00:40:11.199 --> 00:40:14.570
+And because of that,
+it scales to very large corpora.
+
+00:40:14.570 --> 00:40:18.730
+Which is great because the rare
+words appear not very often and
+
+00:40:18.730 --> 00:40:23.864
+just build hours to capture even rarer
+like the semantics of very rare words.
+
+00:40:23.864 --> 00:40:27.955
+And because of the efficient usage
+of the statistics, it turns out
+
+00:40:27.955 --> 00:40:32.280
+to also work very well on small
+corpora and even smaller vector sizes.
+
+00:40:34.320 --> 00:40:37.185
+So now you might be confused
+because individualization,
+
+00:40:37.185 --> 00:40:41.068
+we keep showing you a single vector but
+here, we again, just like with the skip
+
+00:40:41.068 --> 00:40:45.210
+gram vector, we have v vector, it's the
+outside vectors and the inside vectors.
+
+00:40:46.810 --> 00:40:50.620
+And so let's get rid of that confusion and
+
+00:40:50.620 --> 00:40:54.500
+basically tell you that there are a lot
+of different options of how you get,
+
+00:40:54.500 --> 00:40:57.920
+eventually, just a single vector
+from having these two vectors.
+
+00:40:57.920 --> 00:40:59.600
+You could concatenate them but
+
+00:40:59.600 --> 00:41:02.020
+it turns out what works best
+is just to sum them up.
+
+00:41:02.020 --> 00:41:04.880
+They essentially both
+capture co-occurence counts.
+
+00:41:04.880 --> 00:41:08.780
+And if we just sum them,
+that turns out to work best in practice.
+
+00:41:09.800 --> 00:41:13.450
+And so, that also destroys
+some of the intuitions of why
+
+00:41:13.450 --> 00:41:17.495
+certain things should happen, but it turns
+out in practice this works best, yeah?
+
+00:41:17.495 --> 00:41:21.620
+&gt;&gt; [INAUDIBLE]
+&gt;&gt; What are U and
+
+00:41:21.620 --> 00:41:25.610
+V again, so U here are again just
+the vectors of all the words.
+
+00:41:25.610 --> 00:41:30.360
+And so here, just like with the skip-gram,
+we had the inside and the outside vectors.
+
+00:41:30.360 --> 00:41:34.930
+Here, u and v are just the vectors in
+the column and the vectors in the row.
+
+00:41:34.930 --> 00:41:37.750
+They're essentially interchangeable and
+because of that,
+
+00:41:37.750 --> 00:41:39.950
+it makes even more sense to sum them up.
+
+00:41:39.950 --> 00:41:43.560
+You could even say, well, why don't
+you just have one set of vectors?
+
+00:41:43.560 --> 00:41:48.040
+But then, you'd have a more, a less
+well behaved objective function here,
+
+00:41:48.040 --> 00:41:54.000
+because you have the inner product between
+two of the same sets of parameters.
+
+00:41:54.000 --> 00:41:57.922
+And it turns out, in terms of the
+optimization having the separate vectors
+
+00:41:57.922 --> 00:42:02.230
+during optimization and combining them at
+the very end just was much more stable.
+
+00:42:07.946 --> 00:42:08.760
+That's right.
+
+00:42:08.760 --> 00:42:10.710
+Even for skip-gram, that's the question.
+
+00:42:10.710 --> 00:42:12.900
+Is it common also time for
+skip-gram to sum them up?
+
+00:42:12.900 --> 00:42:15.760
+It is.
+And it's a good, it's good whenever you
+
+00:42:15.760 --> 00:42:19.580
+have these choices and they seem a little
+arbitrary, also, for all your projects.
+
+00:42:19.580 --> 00:42:22.800
+The best thing to always do is like,
+well, there are two things.
+
+00:42:22.800 --> 00:42:25.250
+You could just come to me and
+say, hey what should I do?
+
+00:42:25.250 --> 00:42:26.250
+X or Y?
+
+00:42:26.250 --> 00:42:27.550
+And the true answer,
+
+00:42:27.550 --> 00:42:31.350
+especially as you get closer to your
+project and to more research and
+
+00:42:31.350 --> 00:42:35.670
+novel kinds of applications, the best
+answer is always, try all of them.
+
+00:42:37.110 --> 00:42:42.920
+And then have a real metric a quantitative
+of measure of how well all of them do and
+
+00:42:42.920 --> 00:42:46.590
+then have a nice little
+table in your final projects
+
+00:42:46.590 --> 00:42:50.470
+description that tells you
+very concretely what it is.
+
+00:42:50.470 --> 00:42:53.390
+And once you do that many times,
+you'll gain some intuitions,
+
+00:42:53.390 --> 00:42:56.620
+and you'll realize alright, for the fifth
+project, you just realized well summing
+
+00:42:56.620 --> 00:43:00.540
+them up usually works best, so
+I'm just going to continue doing that.
+
+00:43:00.540 --> 00:43:01.930
+Especially as you get into the field,
+
+00:43:01.930 --> 00:43:05.685
+it's good to try a lot of these
+different knobs and hyperparameters.
+
+00:43:05.685 --> 00:43:11.760
+&gt;&gt; [INAUDIBLE]
+&gt;&gt; That's right,
+
+00:43:11.760 --> 00:43:13.040
+they're all in the same scale here.
+
+00:43:13.040 --> 00:43:15.137
+Really they are quite interchangeable,
+especially for the Glove model.
+
+00:43:34.349 --> 00:43:35.495
+Is that a question?
+
+00:43:35.495 --> 00:43:36.545
+Alright I will try to repeat it.
+
+00:43:36.545 --> 00:43:39.275
+So in theory here you're right.
+
+00:43:39.275 --> 00:43:44.735
+So the question is does the magnitude
+of these vectors matter?
+
+00:43:46.215 --> 00:43:46.965
+Good paraphrase?
+
+00:43:46.965 --> 00:43:49.325
+And so you are right.
+
+00:43:49.325 --> 00:43:50.015
+It does.
+
+00:43:50.015 --> 00:43:56.440
+But in the end you will see them basically
+in very similar contexts, a lot of times.
+
+00:43:56.440 --> 00:43:58.820
+And so in this log here,
+
+00:44:00.220 --> 00:44:03.790
+they will eventually have to
+capture the log count, right?
+
+00:44:03.790 --> 00:44:09.490
+So they will have to go to a certain size
+of what these log counts usually are.
+
+00:44:09.490 --> 00:44:12.250
+And then the model just figures
+out that they are in the end
+
+00:44:12.250 --> 00:44:14.450
+roughly in the same place.
+
+00:44:14.450 --> 00:44:18.309
+There's nothing in the optimization
+that pushes some vectors to get really,
+
+00:44:18.309 --> 00:44:21.817
+really large, except of course,
+the vectors of words that appear very
+
+00:44:21.817 --> 00:44:24.857
+frequently, and
+that's why we have exactly this term here,
+
+00:44:24.857 --> 00:44:27.851
+to basically cap the importance
+of the very frequent words.
+
+00:44:45.028 --> 00:44:51.570
+Yes, so the question is, and I'll just
+phrase it the way it is, which is right.
+
+00:44:51.570 --> 00:44:55.950
+The skip-gram model tries to capture
+co-occurrences one window at a time.
+
+00:44:57.190 --> 00:45:01.690
+And the Glove model tries to capture
+the counts of the overall statistics
+
+00:45:01.690 --> 00:45:06.250
+of how often these words appear together,
+all right.
+
+00:45:06.250 --> 00:45:06.870
+One more question?
+
+00:45:06.870 --> 00:45:10.450
+I think there was one.
+
+00:45:10.450 --> 00:45:11.030
+No?
+
+00:45:11.030 --> 00:45:11.660
+Great.
+
+00:45:11.660 --> 00:45:14.740
+So now we can look at some fun results.
+
+00:45:14.740 --> 00:45:19.460
+And, basically, we found,
+the nearest neighbors for
+
+00:45:19.460 --> 00:45:21.400
+frog were all these various words.
+
+00:45:21.400 --> 00:45:24.020
+And we're first a little worried,
+but then we looked them up.
+
+00:45:24.020 --> 00:45:25.960
+And realize, alright,
+those are actually quite good.
+
+00:45:25.960 --> 00:45:30.520
+So you'll see here even for
+very rare words, Glove will give you very,
+
+00:45:30.520 --> 00:45:34.080
+very good nearest neighbors in this space.
+
+00:45:34.080 --> 00:45:36.760
+And so next,
+we will do the evaluation, but
+
+00:45:36.760 --> 00:45:41.490
+before that we'll do a little
+intermission with Arun.
+
+00:45:42.510 --> 00:45:43.064
+Take it away.
+
+00:45:47.638 --> 00:45:52.401
+&gt;&gt; [SOUND] Cool, so
+we've been talking about word vectors.
+
+00:45:52.401 --> 00:45:55.930
+I'm gonna take a brief detour
+to talk about Polysemy.
+
+00:45:57.350 --> 00:46:01.200
+So far we've seen that word vectors
+encode similarity, we see that
+
+00:46:01.200 --> 00:46:06.590
+similar concepts are even distributed
+in Euclidean space near each other.
+
+00:46:06.590 --> 00:46:11.260
+And the question I want you to think
+about is, what do we do about polysemy?
+
+00:46:11.260 --> 00:46:12.630
+Suppose you have a word like tie.
+
+00:46:12.630 --> 00:46:16.220
+All right, tie could mean
+something like a tie in a game.
+
+00:46:16.220 --> 00:46:19.409
+So maybe it should be near this cluster.
+
+00:46:21.730 --> 00:46:24.910
+Over here.
+It could be a piece of clothing, so
+
+00:46:24.910 --> 00:46:26.840
+maybe it should be near this cluster, or
+
+00:46:26.840 --> 00:46:31.280
+it could be an action like braid twist,
+should be near this cluster.
+
+00:46:31.280 --> 00:46:33.130
+Where should it lie?
+
+00:46:33.130 --> 00:46:37.010
+So this paper by Sanjeev Arora and
+
+00:46:37.010 --> 00:46:41.300
+the entire group,
+they seek to answer this question.
+
+00:46:41.300 --> 00:46:45.660
+And one of the first things
+they find is that if
+
+00:46:45.660 --> 00:46:50.230
+you have an imaginary you could split
+up tie into these polysemous vectors.
+
+00:46:50.230 --> 00:46:53.300
+You had tie one every time you
+talk about this sport event.
+
+00:46:53.300 --> 00:46:56.050
+Tie two every time you talked
+about the garment of clothing.
+
+00:46:57.450 --> 00:47:02.110
+Then, you can show that the actual
+tie that is a combination of
+
+00:47:02.110 --> 00:47:07.770
+all of these words lies in the linear
+superposition of all of these vectors.
+
+00:47:07.770 --> 00:47:11.380
+You might be wondering, how is this
+vector close to all of them, but
+
+00:47:11.380 --> 00:47:15.040
+that's because we're projecting
+this into a 2D plane and so
+
+00:47:15.040 --> 00:47:17.460
+it's actually closer to
+them in other dimensions.
+
+00:47:19.200 --> 00:47:23.720
+Now that we know that
+this tie lies near or
+
+00:47:23.720 --> 00:47:29.220
+in the plane of the different senses
+we might be curious to find out,
+
+00:47:29.220 --> 00:47:33.470
+can we actually find out what
+the different senses of a word are.
+
+00:47:33.470 --> 00:47:38.540
+Suppose we can only see this word tie,
+could we computationally find out
+
+00:47:38.540 --> 00:47:43.935
+to some core logistics that tie had
+a meaning about sport clothing etc.
+
+00:47:45.060 --> 00:47:47.860
+So the second thing that they're able
+to show is that there's an algorithm
+
+00:47:47.860 --> 00:47:49.270
+called sparse coding.
+
+00:47:49.270 --> 00:47:51.040
+That is able to recover these.
+
+00:47:51.040 --> 00:47:55.270
+I don't have time to discuss exactly what
+sparse coding how the algorithm works but
+
+00:47:55.270 --> 00:47:56.760
+let me describe the model.
+
+00:47:56.760 --> 00:48:01.823
+The model says that every word
+vector you have is composed as
+
+00:48:01.823 --> 00:48:08.500
+the sum of a small selected number
+of what are called context vectors.
+
+00:48:08.500 --> 00:48:11.230
+So these context vectors,
+there are only 2,000 that they found for
+
+00:48:11.230 --> 00:48:14.850
+their entire corpus,
+are common across every word.
+
+00:48:14.850 --> 00:48:17.790
+But every word like tie is
+only composed of a small
+
+00:48:17.790 --> 00:48:19.640
+number of these context vectors.
+
+00:48:19.640 --> 00:48:22.436
+So, the context vector could
+be something like sports, etc.
+
+00:48:22.436 --> 00:48:26.440
+There's some noise added in,
+but that's not very important.
+
+00:48:26.440 --> 00:48:30.110
+And so, if you look at the type of output
+that you get for something like tie,
+
+00:48:30.110 --> 00:48:34.950
+you see something to do with clothing,
+with sports.
+
+00:48:34.950 --> 00:48:37.780
+Very interestingly you also
+see output about music.
+
+00:48:37.780 --> 00:48:40.360
+Some of you might realize
+that actually makes sense.
+
+00:48:41.600 --> 00:48:45.528
+And now,
+we might wonder how this is qualitative.
+
+00:48:45.528 --> 00:48:48.889
+Is there a way we can quantitatively
+evaluate how good the senses we
+
+00:48:48.889 --> 00:48:50.405
+recover are?
+
+00:48:50.405 --> 00:48:56.315
+So it turns out, yes you can, and
+here's the sort of experimental set-up.
+
+00:48:56.315 --> 00:49:00.525
+So, for
+every word that was taken from WordNet,
+
+00:49:00.525 --> 00:49:05.880
+a number of about 20 sets of
+related senses were picked up.
+
+00:49:05.880 --> 00:49:09.630
+So, a bunch of words that represent
+that sense, like tie, blouse, or
+
+00:49:09.630 --> 00:49:14.240
+pants, or something totally unrelated,
+like computer, mouse, and keyboard.
+
+00:49:14.240 --> 00:49:19.589
+And so now they asked a bunch of grad
+students, because they're guinea pigs, to
+
+00:49:19.589 --> 00:49:24.954
+differentiate if they could find out which
+one of these words correspond to tie.
+
+00:49:24.954 --> 00:49:28.510
+And they also asked the algorithm
+if it could make that distinction.
+
+00:49:28.510 --> 00:49:30.090
+The interesting thing is that,
+
+00:49:31.120 --> 00:49:35.900
+the performance of this method that
+I alluded to earlier, is about at
+
+00:49:35.900 --> 00:49:40.540
+the same level as the non-native grad
+students that they had surveyed.
+
+00:49:40.540 --> 00:49:42.840
+Which I think is interesting.
+
+00:49:42.840 --> 00:49:46.810
+The native speakers do better on the task.
+
+00:49:46.810 --> 00:49:50.700
+So in summary,
+word vectors can indeed capture polysemy.
+
+00:49:50.700 --> 00:49:53.000
+It turns out these polysemies,
+the word vectors,
+
+00:49:53.000 --> 00:49:56.410
+are in the linear superposition
+of the polysemy vectors.
+
+00:49:56.410 --> 00:50:01.960
+You can recover the senses that
+a polysemous word has wIth sparse coding.
+
+00:50:01.960 --> 00:50:05.032
+And the senses that you
+recover are almost as good as
+
+00:50:05.032 --> 00:50:07.470
+that of a non-native English speaker.
+
+00:50:07.470 --> 00:50:08.630
+Thank you.
+
+00:50:08.630 --> 00:50:09.667
+&gt;&gt; Awesome, thank you Arun.
+
+00:50:09.667 --> 00:50:15.066
+&gt;&gt; [APPLAUSE]
+&gt;&gt; All right,
+
+00:50:15.066 --> 00:50:18.210
+so now on to evaluating word vectors.
+
+00:50:18.210 --> 00:50:23.160
+So we've had gone through now
+a bunch of new machinery.
+
+00:50:23.160 --> 00:50:25.910
+And you say, well,
+how well does this actually work?
+
+00:50:25.910 --> 00:50:27.520
+I have all these hyperparameters.
+
+00:50:27.520 --> 00:50:29.340
+What's the window size?
+
+00:50:29.340 --> 00:50:30.690
+What's the vector size?
+
+00:50:30.690 --> 00:50:32.660
+And we already came up
+with these questions.
+
+00:50:32.660 --> 00:50:35.040
+How much does it matter
+how do we choose them?
+
+00:50:35.040 --> 00:50:37.500
+And these are all the answers now.
+
+00:50:37.500 --> 00:50:39.350
+Well, at least some of them.
+
+00:50:39.350 --> 00:50:43.990
+So, in a very high level, and this will be
+true for a lot of your projects as well,
+
+00:50:43.990 --> 00:50:48.470
+you can make a high level decision of
+whether you will have an intrinsic or
+
+00:50:48.470 --> 00:50:52.680
+an extrinsic evaluation of
+whatever project you're doing.
+
+00:50:52.680 --> 00:50:56.060
+And in the case of word vectors,
+that is no different.
+
+00:50:56.060 --> 00:51:01.350
+So intrinsic evaluations are usually on
+some specific or intermediate subtask.
+
+00:51:01.350 --> 00:51:06.040
+So we might, for instance, look at how
+well do these vector differences or vector
+
+00:51:06.040 --> 00:51:10.260
+similarities and inner products correlate
+with human judgments of similarity.
+
+00:51:10.260 --> 00:51:13.810
+And we'll go through a couple
+of these kinds of evaluations in
+
+00:51:13.810 --> 00:51:15.470
+the next couple of slides.
+
+00:51:15.470 --> 00:51:18.764
+The advantage of intrinsic evaluations
+is that they're going to be very fast
+
+00:51:18.764 --> 00:51:19.327
+to compute.
+
+00:51:19.327 --> 00:51:20.748
+You have your vectors,
+
+00:51:20.748 --> 00:51:24.592
+you run them through this quick
+similarity correlation study.
+
+00:51:24.592 --> 00:51:28.250
+And you get a number out and
+you then can claim victory very quickly.
+
+00:51:28.250 --> 00:51:33.819
+And then or you can modify your model and
+try 50,000 different little knobs and
+
+00:51:33.819 --> 00:51:37.465
+combinations and tune this very quickly.
+
+00:51:37.465 --> 00:51:42.210
+It sometimes helps you really understand
+very quickly how your system works, what
+
+00:51:42.210 --> 00:51:46.915
+kinds of hyperparameters actually have
+an impact on this metric of similarity,
+
+00:51:46.915 --> 00:51:48.112
+for instance.
+
+00:51:48.112 --> 00:51:51.622
+However, there's no free lunch here.
+
+00:51:51.622 --> 00:51:55.062
+It's not clear, sometimes,
+if your intermediate or
+
+00:51:55.062 --> 00:51:59.632
+intrinsic evaluation and improvements
+actually carry out to be a real
+
+00:51:59.632 --> 00:52:02.810
+improvement in some task
+real people will care about.
+
+00:52:02.810 --> 00:52:05.500
+And real people is a little
+tricky definition.
+
+00:52:05.500 --> 00:52:06.565
+I guess real people,
+
+00:52:06.565 --> 00:52:09.820
+usually we'll assume are like
+normal people who want to just have
+
+00:52:09.820 --> 00:52:14.230
+a machine translation system or a question
+answering system or something like that.
+
+00:52:14.230 --> 00:52:15.530
+Not necessarily linguists and
+
+00:52:15.530 --> 00:52:18.440
+natural language processing
+researchers in the field.
+
+00:52:18.440 --> 00:52:22.533
+And so, sometimes you actually
+observe people trying to
+
+00:52:22.533 --> 00:52:25.867
+optimize their intrinsic
+evaluations a lot.
+
+00:52:25.867 --> 00:52:28.387
+And they spent years of
+their life optimizing them.
+
+00:52:28.387 --> 00:52:32.146
+And other people later find out, well,
+it turns out those improvements on your
+
+00:52:32.146 --> 00:52:35.400
+intrinsic task, when I actually
+applied your better word vectors or
+
+00:52:35.400 --> 00:52:38.487
+something to name entity recognition or
+part of speech tagging or
+
+00:52:38.487 --> 00:52:41.840
+machine translation,
+I don't see an improvement.
+
+00:52:41.840 --> 00:52:45.500
+So then the question is, well, how useful
+is your intrinsic evaluation task?
+
+00:52:45.500 --> 00:52:49.320
+So as you go down this route, and
+a lot of you will for their projects,
+
+00:52:49.320 --> 00:52:53.800
+you always wanna make sure you establish
+some kind of correlation between these.
+
+00:52:53.800 --> 00:52:56.978
+Now, the extrinsic one is basically
+evaluation on a real task.
+
+00:52:56.978 --> 00:53:00.130
+And that's really where
+the rubber hits the road, or
+
+00:53:00.130 --> 00:53:02.010
+the proof is in the pudding, or whatever.
+
+00:53:02.010 --> 00:53:05.030
+The problem with that is that
+it can take a very long time.
+
+00:53:05.030 --> 00:53:07.540
+You have your new word vectors and
+you're like,
+
+00:53:07.540 --> 00:53:10.815
+I took the Pearson correlation instead of
+the raw count of my core currents matrix.
+
+00:53:10.815 --> 00:53:13.000
+I think that's the best thing ever.
+
+00:53:13.000 --> 00:53:16.421
+Now I wanna evaluate whether that
+word vector really helps for
+
+00:53:16.421 --> 00:53:17.747
+machine translation.
+
+00:53:17.747 --> 00:53:19.829
+And you say, all right,
+now I'm gonna take my word vectors and
+
+00:53:19.829 --> 00:53:21.980
+plug them into this machine
+translation system.
+
+00:53:21.980 --> 00:53:23.580
+And that turns out to
+take a week to train.
+
+00:53:24.760 --> 00:53:27.600
+And then you have to wait a long time,
+and now you have ten other knobs, and
+
+00:53:27.600 --> 00:53:28.730
+before you know it, the year is over.
+
+00:53:28.730 --> 00:53:32.330
+And you can't really just do
+that every time you have a tiny,
+
+00:53:32.330 --> 00:53:36.910
+little improvement on your first
+early word vectors, for instance.
+
+00:53:36.910 --> 00:53:40.123
+So that's the problem,
+it takes a long time.
+
+00:53:40.123 --> 00:53:44.165
+And then often people will often make
+the mistake of tuning a lot of different
+
+00:53:44.165 --> 00:53:44.930
+subsystems.
+
+00:53:44.930 --> 00:53:49.253
+And then they put it all together
+into the full system, the real task,
+
+00:53:49.253 --> 00:53:51.028
+like machine translation.
+
+00:53:51.028 --> 00:53:53.035
+And something overall has improved,
+
+00:53:53.035 --> 00:53:56.710
+but now it's unclear which part
+actually gave the improvement.
+
+00:53:56.710 --> 00:54:00.040
+Maybe two parts where actually, one was
+really good, the other one was bad.
+
+00:54:00.040 --> 00:54:01.790
+They cancel each other out, and so on.
+
+00:54:01.790 --> 00:54:05.380
+So you wanna basically,
+when you use extrinsic evaluations,
+
+00:54:05.380 --> 00:54:09.880
+be very certain that you only change
+one thing that you came up with, or
+
+00:54:09.880 --> 00:54:12.080
+one aspect of your word vectors,
+for instance.
+
+00:54:12.080 --> 00:54:15.670
+And if you then get an improvement
+on your overall downstream task,
+
+00:54:15.670 --> 00:54:18.320
+then you're really in a good place.
+
+00:54:18.320 --> 00:54:20.670
+So let's be more explicit and
+
+00:54:20.670 --> 00:54:24.060
+go through some of these
+intrinsic word vector evaluations.
+
+00:54:25.430 --> 00:54:30.251
+One that was very popular and
+came out just very recently
+
+00:54:30.251 --> 00:54:35.392
+with the word2vec paper was
+these word vector analogies.
+
+00:54:35.392 --> 00:54:40.482
+Where basically they found,
+which was initially very surprising to
+
+00:54:40.482 --> 00:54:46.446
+a lot of people, that you have amazing
+kinds of semantic and syntactic analogies
+
+00:54:46.446 --> 00:54:51.550
+that are captured through these
+cosine distances in these vectors.
+
+00:54:51.550 --> 00:54:56.780
+So for instance, you might ask,
+what is man to woman and
+
+00:54:56.780 --> 00:54:59.360
+the relationship of king to another word?
+
+00:55:00.590 --> 00:55:03.140
+And basically a simple analogy.
+
+00:55:03.140 --> 00:55:06.590
+Man to woman is like king to queen.
+
+00:55:06.590 --> 00:55:07.590
+That's right.
+
+00:55:07.590 --> 00:55:11.418
+And so it turns out that,
+when you just take vector of woman,
+
+00:55:11.418 --> 00:55:15.411
+you subtract the vector of man,
+and you add the vector of king.
+
+00:55:15.411 --> 00:55:21.940
+And then you try to find the vector
+that has the largest cosine similarity.
+
+00:55:21.940 --> 00:55:26.376
+It turns out the vector of queen
+is actually that vector that has
+
+00:55:26.376 --> 00:55:29.567
+the largest cosine
+similarity to this term.
+
+00:55:31.400 --> 00:55:34.652
+And so that is quite amazing,
+and it works for
+
+00:55:34.652 --> 00:55:38.514
+a lot of different kinds
+of very intuitive patterns.
+
+00:55:38.514 --> 00:55:40.503
+So, let’s go through a couple of them.
+
+00:55:40.503 --> 00:55:45.461
+So you'd have similar things like, if
+sir to madam is similar as man to woman,
+
+00:55:45.461 --> 00:55:50.800
+or heir to heiress, or king to queen,
+or emperor to empress, and so on.
+
+00:55:50.800 --> 00:55:56.186
+So they all have a similar kind of
+relationship that is captured very well
+
+00:55:56.186 --> 00:56:02.510
+by these cosine distances in this simple
+Euclidean Subtractions and additions.
+
+00:56:05.040 --> 00:56:06.780
+It goes even more specific.
+
+00:56:06.780 --> 00:56:11.610
+You have similar kinds of companies and
+their CEO names.
+
+00:56:11.610 --> 00:56:15.990
+And you can take company, title,
+minus CEO plus other company, and
+
+00:56:15.990 --> 00:56:19.190
+you get to the vector of the name
+of the CEO of that other company.
+
+00:56:21.200 --> 00:56:24.440
+And it works not just for
+semantic relationships but also for
+
+00:56:24.440 --> 00:56:29.150
+syntactic relationships, so slow,
+slower, or slowest in these glove
+
+00:56:29.150 --> 00:56:34.180
+things has very similar
+kind of differences and so
+
+00:56:34.180 --> 00:56:39.340
+on, to short, shorter, and shortest,
+or strong, stronger, and strongest.
+
+00:56:39.340 --> 00:56:44.070
+You can have a lot of fun with this and
+people did so here are some even more fun
+
+00:56:44.070 --> 00:56:50.660
+ones like Sushi- Japan + Germany
+goes to bratwurst, and so on.
+
+00:56:50.660 --> 00:56:53.750
+Which as a German, I'm mildly offended by.
+
+00:56:53.750 --> 00:56:59.350
+And of course,
+it's very intuitive in some ways.
+
+00:56:59.350 --> 00:57:00.410
+But it's also questionable.
+
+00:57:00.410 --> 00:57:02.941
+Maybe it should have been [INAUDIBLE] or
+whatever.
+
+00:57:02.941 --> 00:57:06.474
+Other typical German foods.
+
+00:57:08.080 --> 00:57:13.930
+While this is very intuitive and for
+some people, in terms of the actual
+
+00:57:13.930 --> 00:57:18.860
+semantics that are captured here, you
+might really wonder why this has happened.
+
+00:57:18.860 --> 00:57:23.570
+And there is no mathematical proof
+of why this has to fall out but
+
+00:57:23.570 --> 00:57:27.190
+intuitively you can kind of
+make sense of it a little bit.
+
+00:57:27.190 --> 00:57:33.255
+Superlatives for instance might
+appear next to certain words,
+
+00:57:33.255 --> 00:57:37.140
+very often, in similar kinds of ways.
+
+00:57:37.140 --> 00:57:42.035
+Maybe most, for instance,
+appears in front of a lot of superlative.
+
+00:57:43.850 --> 00:57:52.520
+Or barely might appear in front of
+certain words like slower or shorter.
+
+00:57:52.520 --> 00:57:55.925
+It's barely shorter
+than this other person.
+
+00:57:55.925 --> 00:58:00.682
+And since in these vectors you're
+capturing these core occurrence accounts,
+
+00:58:00.682 --> 00:58:05.368
+as you take out, basically one concurrence
+you subtract that one concurrence
+
+00:58:05.368 --> 00:58:07.717
+intuitively it's a little hand wavy.
+
+00:58:07.717 --> 00:58:11.619
+There's no like again here this is
+not a nice mathematical proof but
+
+00:58:11.619 --> 00:58:16.340
+intuitively you can see how similar kinds
+of words appeared and you subtract those
+
+00:58:16.340 --> 00:58:20.598
+counts and hence you arrive in similar
+kinds of places into vector space.
+
+00:58:20.598 --> 00:58:25.650
+Now first you try a couple of these, and
+you're surprised that this works well.
+
+00:58:25.650 --> 00:58:27.880
+And then you want to make it
+a little more quantitative.
+
+00:58:27.880 --> 00:58:28.410
+All right, so
+
+00:58:28.410 --> 00:58:33.890
+this was a qualitative sub sample of some
+words where this works incredibly well.
+
+00:58:33.890 --> 00:58:36.090
+It's also true that when you
+really play around with it for
+
+00:58:36.090 --> 00:58:38.720
+a while,
+you'll find something things that are like
+
+00:58:38.720 --> 00:58:42.630
+Audi minus German goes to some
+crazy sushi term or something.
+
+00:58:42.630 --> 00:58:44.560
+It doesn't always make sense but
+
+00:58:44.560 --> 00:58:48.350
+there are a lot of them where it
+really is surprisingly intuitive.
+
+00:58:48.350 --> 00:58:53.220
+And so people essentially then came
+up with a data set to try to see
+
+00:58:53.220 --> 00:58:58.230
+how often does it really appear and
+does it really work this well?
+
+00:58:58.230 --> 00:59:02.810
+And so they basically collected
+this Word Vector Analogies task.
+
+00:59:02.810 --> 00:59:04.150
+And these are some examples.
+
+00:59:04.150 --> 00:59:06.260
+You can download all of
+them on this link here.
+
+00:59:06.260 --> 00:59:10.655
+This is, again, the original
+word2vec paper that discovered and
+
+00:59:10.655 --> 00:59:13.260
+described these linear relationships.
+
+00:59:13.260 --> 00:59:16.500
+And they basically look at Chicago and
+Illinois and Houston Texas.
+
+00:59:16.500 --> 00:59:20.420
+And you can basically come up
+with a lot of different analogies
+
+00:59:20.420 --> 00:59:22.510
+where this city appears in that state.
+
+00:59:23.660 --> 00:59:27.770
+Of course there are some problems and
+as you optimize this metric more and
+
+00:59:27.770 --> 00:59:32.360
+more you will observe like well maybe
+that city name actually appears in
+
+00:59:32.360 --> 00:59:35.490
+multiple different cities and
+different states have the same name.
+
+00:59:35.490 --> 00:59:38.360
+And then it kind of depends on your
+corpus that you're training on whether or
+
+00:59:38.360 --> 00:59:40.490
+not this has been captured or not.
+
+00:59:40.490 --> 00:59:43.670
+But still, a lot of people,
+it makes a lot of sense for
+
+00:59:43.670 --> 00:59:47.021
+most of them to optimize these
+at least for a little bit.
+
+00:59:47.021 --> 00:59:51.866
+Here are some other examples of analogies
+that are in this data set that are being
+
+00:59:51.866 --> 00:59:56.638
+captured, and just like the capital and
+the world, of course you know as those
+
+00:59:56.638 --> 01:00:01.013
+change if it doesn't change in your
+corpus that's also problematic.
+
+01:00:01.013 --> 01:00:04.816
+But in many cases the capitals of
+countries don't change, and so
+
+01:00:04.816 --> 01:00:09.591
+it's quite intuitive and here's some
+examples of syntactic relationships and
+
+01:00:09.591 --> 01:00:13.460
+analogies that are basically
+in this data set to evaluate.
+
+01:00:13.460 --> 01:00:16.220
+We have several thousands
+of these analogies and
+
+01:00:16.220 --> 01:00:19.430
+now, we compute our word vectors,
+we've tuned some knob,
+
+01:00:19.430 --> 01:00:23.560
+we changed the hyperparameter instead of
+25 dimensions, we have 50 dimensions and
+
+01:00:23.560 --> 01:00:26.400
+then we evaluate which one is better for
+these analogies.
+
+01:00:28.880 --> 01:00:33.250
+And again, here is another syntactic one
+with past tense kinds of relationships.
+
+01:00:33.250 --> 01:00:35.500
+Dancing to danced should
+be like going to went.
+
+01:00:37.070 --> 01:00:41.170
+Now, we can basically look at a lot of
+different methods, and we don't know all
+
+01:00:41.170 --> 01:00:46.560
+of these in the class here, but we know
+the skip gram SG and the Glove model.
+
+01:00:46.560 --> 01:00:52.230
+And here is the first
+evaluation that is quantitative
+
+01:00:52.230 --> 01:00:56.620
+and basically looks at the semantic and
+the syntactic relationships, and
+
+01:00:56.620 --> 01:00:59.060
+then just average, in terms of the total.
+
+01:00:59.060 --> 01:01:05.520
+And just says, how often is
+exactly this relationship true,
+
+01:01:05.520 --> 01:01:09.630
+for all these different analogies
+that we have here in the data set.
+
+01:01:09.630 --> 01:01:17.280
+And it turns out that when both of
+these papers came out in 2013 and
+
+01:01:17.280 --> 01:01:22.530
+14 basically GloVe was the best
+at capturing these relationships.
+
+01:01:22.530 --> 01:01:24.900
+And so we observe a couple
+of interesting things here.
+
+01:01:24.900 --> 01:01:28.990
+One, it turns out
+sometimes more dimensions
+
+01:01:28.990 --> 01:01:33.520
+don't actually help in capturing
+these relationships better, so
+
+01:01:33.520 --> 01:01:38.180
+thousand dimensional vectors work
+worst than 300 dimensional vectors.
+
+01:01:38.180 --> 01:01:42.620
+Another interesting observation and that
+is something that is somewhat sadly true
+
+01:01:42.620 --> 01:01:48.330
+for pretty much every deep learning model
+ever is more data will work better.
+
+01:01:48.330 --> 01:01:52.150
+If you train your word
+vectors on 42 billion tokens,
+
+01:01:52.150 --> 01:01:55.090
+it will work better than
+on 6 billion tokens.
+
+01:01:55.090 --> 01:01:58.550
+By you know, 4% or so.
+
+01:01:58.550 --> 01:02:01.250
+Here we have the same 300 dimensions.
+
+01:02:01.250 --> 01:02:05.843
+Again, we only want to change one thing
+to understand whether that one change
+
+01:02:05.843 --> 01:02:07.337
+actually has an impact.
+
+01:02:07.337 --> 01:02:10.440
+And we'll see here a big gap.
+
+01:02:17.664 --> 01:02:19.354
+It's a good question.
+How come the performance
+
+01:02:19.354 --> 01:02:20.443
+sometimes goes down?
+
+01:02:20.443 --> 01:02:26.620
+It turns out it also depends on what
+you're training your word vectors on.
+
+01:02:26.620 --> 01:02:30.430
+It turns out, Wikipedia for instance,
+is really great because Wikipedia has very
+
+01:02:30.430 --> 01:02:33.530
+good descriptions of all these
+capitals in all the world.
+
+01:02:33.530 --> 01:02:38.530
+But now if you take news, and let's say if
+you take US news and in US news you might
+
+01:02:38.530 --> 01:02:43.460
+not have Abuja and
+Ashgabat mentioned very often.
+
+01:02:43.460 --> 01:02:46.100
+Well, then the vectors for
+those words will also not
+
+01:02:46.100 --> 01:02:49.610
+capture their semantics very well and
+so you will do worse.
+
+01:02:49.610 --> 01:02:53.780
+And so some not, bigger is not always
+better it also depends on the quality
+
+01:02:53.780 --> 01:02:55.090
+of the data that you have.
+
+01:02:55.090 --> 01:02:59.500
+And Wikipedia has less misspellings
+than general Internet texts and so on.
+
+01:02:59.500 --> 01:03:01.850
+And it's actually a very good data set.
+
+01:03:01.850 --> 01:03:06.800
+And so here are some of
+the evaluations and we have a lot of
+
+01:03:06.800 --> 01:03:10.840
+questions of like how do we choose this
+hyperparameter the size and so on.
+
+01:03:10.840 --> 01:03:16.520
+This is I think a very good and careful
+analysis that Geoffrey had done here three
+
+01:03:16.520 --> 01:03:21.610
+years ago on a variety of these different
+hyperparameters that we've observed and
+
+01:03:21.610 --> 01:03:23.790
+kind of mentioned in passing.
+
+01:03:23.790 --> 01:03:24.580
+And so
+
+01:03:24.580 --> 01:03:30.610
+this is also a great sort of way that you
+should try to emulate for your projects.
+
+01:03:30.610 --> 01:03:34.360
+Whenever I see plots like this I
+get a big smile on my face and
+
+01:03:34.360 --> 01:03:36.295
+your grades just like improve right away.
+
+01:03:36.295 --> 01:03:37.620
+&gt;&gt; [LAUGH]
+&gt;&gt; Unless
+
+01:03:37.620 --> 01:03:39.110
+you make certain mistakes in your plots.
+
+01:03:39.110 --> 01:03:41.880
+But let's go through them.
+
+01:03:41.880 --> 01:03:46.410
+Here we look at basically the symmetric
+context, the asymmetric context is
+
+01:03:46.410 --> 01:03:51.010
+where we only count words that have
+happened after the current word.
+
+01:03:51.010 --> 01:03:54.850
+We ignore the things that's before but it
+turns out symmetric usually works better
+
+01:03:54.850 --> 01:03:59.330
+and so a vector dimension here
+is a good one to evaluate.
+
+01:03:59.330 --> 01:04:01.478
+It's pretty fundamental
+how high dimensional.
+
+01:04:01.478 --> 01:04:03.810
+Should these be.
+
+01:04:03.810 --> 01:04:06.510
+And we basically observe
+that when they're very small
+
+01:04:06.510 --> 01:04:11.176
+it doesn't work as well in capturing these
+analogies but then after around 200,
+
+01:04:11.176 --> 01:04:15.240
+300 it actually kind of peters out and
+then it doesn't get much better.
+
+01:04:15.240 --> 01:04:21.460
+In fact, over all it's pretty
+flat between 300 and 600.
+
+01:04:21.460 --> 01:04:22.687
+And this is good.
+
+01:04:22.687 --> 01:04:26.620
+So, the main number we often look
+at here is the overall accuracy and
+
+01:04:26.620 --> 01:04:27.866
+that's in red here.
+
+01:04:27.866 --> 01:04:29.190
+And that's flat.
+
+01:04:29.190 --> 01:04:34.210
+So, one mistake you could make
+when create such a plot is you
+
+01:04:34.210 --> 01:04:38.760
+can prove you have some hyperparameter and
+you have some kind of accuracy.
+
+01:04:39.880 --> 01:04:42.740
+This could be the vector size,
+and you create a nice plot and
+
+01:04:42.740 --> 01:04:45.720
+you say look, things got better.
+
+01:04:45.720 --> 01:04:49.390
+And then my comment if I see
+a plot like this would be,
+
+01:04:49.390 --> 01:04:51.740
+well why didn't you go
+further in this direction?
+
+01:04:51.740 --> 01:04:53.920
+It seems to just be going up and up.
+
+01:04:53.920 --> 01:04:56.170
+Like, so that is not good.
+
+01:04:56.170 --> 01:04:59.860
+You should find your plots until
+they actually kind of peter out, and
+
+01:04:59.860 --> 01:05:05.940
+you say all right now, I really found
+the optimum value for this hyperparameter.
+
+01:05:05.940 --> 01:05:11.110
+So, another important
+thing to evaluate here
+
+01:05:11.110 --> 01:05:16.010
+is the window's size, and there
+are sometimes considerations around this.
+
+01:05:16.010 --> 01:05:21.030
+So word vectors for instance,
+maybe the 200 worked
+
+01:05:21.030 --> 01:05:25.590
+here slightly better than, or
+300 works slightly better than 200.
+
+01:05:25.590 --> 01:05:28.800
+But, larger word vectors
+also means more RAM, right?
+
+01:05:28.800 --> 01:05:32.850
+Your software now needs
+to store more data.
+
+01:05:32.850 --> 01:05:36.660
+And you need to, you might want
+to ship it to the cellphone.
+
+01:05:36.660 --> 01:05:42.500
+And now yes you might get 2%
+improvement on this intrinsic task.
+
+01:05:42.500 --> 01:05:46.050
+But you also have 30%
+higher RAM requirements.
+
+01:05:46.050 --> 01:05:48.400
+And maybe you say, well,
+I don't care about those 2% or
+
+01:05:48.400 --> 01:05:51.210
+so improvement in accuracy
+on this intrinsic task.
+
+01:05:51.210 --> 01:05:53.210
+I still choose a smaller word vector.
+
+01:05:53.210 --> 01:05:56.530
+So, that's a legit argument,
+but in general here,
+
+01:05:56.530 --> 01:06:00.650
+we're just trying to optimize this metric.
+
+01:06:00.650 --> 01:06:02.630
+And so
+we wanna look at carefully what these are.
+
+01:06:02.630 --> 01:06:06.772
+All right, now, window's size, again
+this is how many words to the left and
+
+01:06:06.772 --> 01:06:12.190
+to the right of each of the center
+words do we wanna predict and
+
+01:06:12.190 --> 01:06:14.070
+compute the counts for.
+
+01:06:14.070 --> 01:06:18.550
+Turns out around eight or
+so, you get the highest.
+
+01:06:18.550 --> 01:06:23.941
+But again that also increases
+the complexity and the training time.
+
+01:06:23.941 --> 01:06:25.886
+The longer the windows are,
+
+01:06:25.886 --> 01:06:30.108
+the more times you have to compute
+these kind of expressions.
+
+01:06:30.108 --> 01:06:32.574
+And then for asymmetric context,
+
+01:06:32.574 --> 01:06:37.344
+it's actually slightly different
+windows size that works best.
+
+01:06:37.344 --> 01:06:40.731
+All right,
+any question around these evaluations?
+
+01:06:44.358 --> 01:06:45.626
+Great.
+
+01:06:45.626 --> 01:06:50.275
+Now, it's very hard actually,
+to compare glove and the skip gram model,
+
+01:06:50.275 --> 01:06:54.080
+cuz they're very different
+kinds of training regimes.
+
+01:06:54.080 --> 01:06:56.425
+One goes through the one window at a time,
+
+01:06:56.425 --> 01:07:01.060
+the other one first computes all
+the counts, and then works on the counts.
+
+01:07:01.060 --> 01:07:05.480
+So this is kind of us
+trying to do well and
+
+01:07:05.480 --> 01:07:09.350
+answer a reviewer question of
+when you compare them directly.
+
+01:07:09.350 --> 01:07:11.600
+So what we did here is we
+looked at the Negative Samples.
+
+01:07:11.600 --> 01:07:14.400
+So remember, we had that sum and
+the objective function for
+
+01:07:14.400 --> 01:07:18.220
+the skip gram model of how many words
+we want to push down the probability of
+
+01:07:18.220 --> 01:07:21.660
+cuz they don't appear in that window and
+so
+
+01:07:21.660 --> 01:07:28.330
+that is one way to increase training time,
+and in theory do better on that objective.
+
+01:07:28.330 --> 01:07:33.345
+Versus different iterations of how
+often do we go over this cocurrence
+
+01:07:33.345 --> 01:07:38.027
+counts to optimize each pair in
+the cocurrence matrix for GloVe.
+
+01:07:38.027 --> 01:07:40.948
+And in this evaluation GloVe did better
+
+01:07:40.948 --> 01:07:45.559
+regardless of how many hours you
+sort of trained both models.
+
+01:07:45.559 --> 01:07:52.010
+And this is more data helps,
+that the argument already made.
+
+01:07:52.010 --> 01:07:55.150
+Especially Wikipedia.
+
+01:07:55.150 --> 01:07:57.770
+So here Gigaword is I think
+mostly a news corpus.
+
+01:07:57.770 --> 01:08:05.220
+So news, despite being more actually it
+does not work quite as well, overall, and
+
+01:08:05.220 --> 01:08:11.090
+especially not for semantic,
+relationships and analogies,
+
+01:08:11.090 --> 01:08:15.150
+but Common Crawl, which is a super large
+data set of 42 billion tokens, works best.
+
+01:08:18.730 --> 01:08:21.950
+All right, so now these amazing analogies
+of king minus man plus woman and
+
+01:08:21.950 --> 01:08:25.070
+so on were very exciting.
+
+01:08:25.070 --> 01:08:30.870
+Before that, people used often
+just correlation judgements.
+
+01:08:30.870 --> 01:08:35.943
+So basically they asked a bunch of people,
+often grad students,
+
+01:08:35.943 --> 01:08:41.865
+to give on a scale of one to ten, how
+similar do you think these two words are?
+
+01:08:41.865 --> 01:08:45.847
+So tiger and cat, when you ask three or
+five humans on a scale from one to ten
+
+01:08:45.847 --> 01:08:50.086
+how similar they are, they might say,
+one might say seven, the other eight,
+
+01:08:50.086 --> 01:08:53.259
+the other six or something like that and
+then you average.
+
+01:08:53.259 --> 01:08:57.418
+And then you get basically a score
+here of similarities our computer and
+
+01:08:57.418 --> 01:08:58.760
+internet are seven.
+
+01:08:58.760 --> 01:09:02.409
+But stock and
+CD are not very similar at all.
+
+01:09:02.409 --> 01:09:06.859
+So a bunch of people will say on a scale
+from one to ten, it's only 1.3 on average.
+
+01:09:06.859 --> 01:09:10.513
+&gt;&gt; [INAUDIBLE]
+&gt;&gt; And now,
+
+01:09:10.513 --> 01:09:13.440
+we could try to basically say all right.
+
+01:09:13.440 --> 01:09:19.600
+We want to train word vectors such that
+the vectors have a high correlation and
+
+01:09:19.600 --> 01:09:24.580
+their distances be it cosine similarity or
+Euclidian distance,
+
+01:09:24.580 --> 01:09:29.790
+or you can try different distance metrics
+too and look at how close they are.
+
+01:09:29.790 --> 01:09:31.740
+And so here's one such example.
+
+01:09:31.740 --> 01:09:36.420
+You take the word of Sweden and
+you look in terms of cosine similarity and
+
+01:09:36.420 --> 01:09:40.670
+you basically find lots of words
+that are very, very close by or
+
+01:09:40.670 --> 01:09:45.140
+have the largest cosine similarity and
+
+01:09:46.380 --> 01:09:50.340
+you basically get Norway and
+Denmark to be very close by.
+
+01:09:50.340 --> 01:09:55.150
+And so, if you have a lot of these
+kinds of data sets and this one,
+
+01:09:55.150 --> 01:10:00.620
+WordSim353 has basically
+353 such pairs of words.
+
+01:10:00.620 --> 01:10:04.650
+And you can look at how well
+
+01:10:04.650 --> 01:10:09.970
+do your vector distances correlate
+with these human judgements.
+
+01:10:09.970 --> 01:10:12.013
+So the higher the correlation,
+
+01:10:12.013 --> 01:10:17.097
+the more intuitive we would think are the
+distances in this large vector space.
+
+01:10:17.097 --> 01:10:22.136
+And again, Glove does very well
+here across a whole host of
+
+01:10:22.136 --> 01:10:27.389
+different kinds of datasets
+like the WordSim 353 and,
+
+01:10:27.389 --> 01:10:32.860
+again, the largest training
+dataset here did best for Glove.
+
+01:10:32.860 --> 01:10:38.315
+Any questions on word vector
+similarities and correlations?
+
+01:10:38.315 --> 01:10:40.354
+No, good, all right.
+
+01:10:40.354 --> 01:10:47.520
+Now, basically, intrinsic's evaluations
+have this huge problem, right?
+
+01:10:47.520 --> 01:10:49.940
+We have these nice similarities,
+but who knows?
+
+01:10:49.940 --> 01:10:53.480
+Maybe that doesn't actually improve the
+real tasks that we care about in the end.
+
+01:10:53.480 --> 01:10:57.910
+And so the best kinds of evaluations,
+but again they are very expensive,
+
+01:10:57.910 --> 01:11:02.450
+are those on real tasks or at least
+subsequent kinds of downstream tasks.
+
+01:11:02.450 --> 01:11:04.850
+And so one such example is
+named entity recognition.
+
+01:11:04.850 --> 01:11:07.070
+It's a good one cuz
+it's relatively simple.
+
+01:11:07.070 --> 01:11:09.360
+But it's actually useful enough.
+
+01:11:09.360 --> 01:11:12.740
+You might want to run a named entity
+recognition system over a bunch of
+
+01:11:12.740 --> 01:11:14.090
+your corporate emails.
+
+01:11:14.090 --> 01:11:17.833
+To understand which person is in
+relationship to what company, and
+
+01:11:17.833 --> 01:11:21.520
+where do they live and the locations
+of different people and so on.
+
+01:11:21.520 --> 01:11:26.345
+It's actually a useful system to have,
+a named entity recognition system.
+
+01:11:26.345 --> 01:11:29.945
+And basically we'll go
+through the actual models for
+
+01:11:29.945 --> 01:11:34.400
+doing a named entity recognition
+in the next lecture.
+
+01:11:34.400 --> 01:11:37.330
+But as we plug in different
+word vectors into these
+
+01:11:37.330 --> 01:11:41.770
+downstream models that we'll describe in
+the next lecture we'll observe that for
+
+01:11:41.770 --> 01:11:46.550
+many of them GloVe vectors again do very,
+very well on these downstream tasks.
+
+01:11:48.620 --> 01:11:50.480
+All right.
+Any questions on extrinsic methods?
+
+01:11:50.480 --> 01:11:54.060
+We'll go through the actual
+model that works here later.
+
+01:12:10.486 --> 01:12:11.026
+That's right.
+
+01:12:11.026 --> 01:12:16.080
+Well, so you're not optimizing
+anything here, you're just evaluating.
+
+01:12:16.080 --> 01:12:17.766
+You're not training anything.
+
+01:12:17.766 --> 01:12:21.900
+You've trained your word vectors with your
+objective function from skip-gram, and
+
+01:12:21.900 --> 01:12:24.590
+you fix them, and
+then you just evaluate them.
+
+01:12:24.590 --> 01:12:28.730
+And so what you're evaluating here now
+is you look at for instance Sweden and
+
+01:12:28.730 --> 01:12:33.160
+Norway, and they have a certain
+distance between them, and
+
+01:12:33.160 --> 01:12:35.460
+then you want to basically
+look at the human
+
+01:12:37.460 --> 01:12:41.330
+measure of how similar do humans
+think these two words are.
+
+01:12:41.330 --> 01:12:46.450
+And then you want these kinds of human
+judgements of similarity to correlate well
+
+01:12:46.450 --> 01:12:48.240
+with the cosine distances of the vectors.
+
+01:12:50.170 --> 01:12:53.620
+And when they correlate well,
+you think, the vectors are capturing
+
+01:12:53.620 --> 01:12:57.056
+similar kinds of intuitions that people
+have, and hence they should be good.
+
+01:12:57.056 --> 01:13:01.930
+And again, intuitively it would
+make sense that if Sweden
+
+01:13:01.930 --> 01:13:05.940
+has good cosine similarity and you plugged
+it into some other downstream system,
+
+01:13:05.940 --> 01:13:09.940
+that that system will also get
+better at capturing named entities.
+
+01:13:09.940 --> 01:13:13.640
+Because maybe at training time
+it sees the vector of Sweden and
+
+01:13:13.640 --> 01:13:16.285
+at test time it sees
+the vector of Norway and
+
+01:13:16.285 --> 01:13:19.800
+at training time you told that Sweden is
+a location, and so a test time it might
+
+01:13:19.800 --> 01:13:24.920
+be more likely to correctly identify
+Norway or Denmark also as a location.
+
+01:13:24.920 --> 01:13:27.000
+Because they're actually
+close by in the vector space.
+
+01:13:28.310 --> 01:13:32.219
+And we'll go actually through example
+of how we train word vectors and so
+
+01:13:32.219 --> 01:13:33.510
+on in the next lecture.
+
+01:13:33.510 --> 01:13:35.398
+Or train downstream tasks.
+
+01:13:35.398 --> 01:13:40.300
+So I think we have until 5:50,
+so we got 8 more minutes.
+
+01:13:40.300 --> 01:13:47.250
+So, let's look briefly at simple,
+single word classification.
+
+01:13:47.250 --> 01:13:54.190
+So you know we talked about these
+word vectors and I basically showed
+
+01:13:54.190 --> 01:13:58.130
+you the difference between starting with
+these very simple co-occurrence counts and
+
+01:13:58.130 --> 01:14:04.780
+these very sparse large vectors versus
+having small dense vectors like Word2vec.
+
+01:14:04.780 --> 01:14:09.820
+And so the major benefits are basically
+that because similar words cluster
+
+01:14:09.820 --> 01:14:16.070
+together, we'll be able to classify and
+be more robust in classifying
+
+01:14:17.450 --> 01:14:22.220
+different kinds of words that we might
+not see in the training data set.
+
+01:14:22.220 --> 01:14:25.050
+So for instance,
+because countries cluster together and
+
+01:14:25.050 --> 01:14:29.626
+our goal is to classify location words
+then we'll do better if we initialize
+
+01:14:29.626 --> 01:14:34.480
+all these country words to be in
+a similar part of the vector space.
+
+01:14:35.660 --> 01:14:39.080
+It turns out later we'll actually
+fine tune these vectors too.
+
+01:14:39.080 --> 01:14:43.010
+So right now we learned
+an unsupervised objective function.
+
+01:14:43.010 --> 01:14:47.904
+It's unsupervised in the sense that we
+don't have human labels that we assigned
+
+01:14:47.904 --> 01:14:52.050
+to each input, we just basically
+took a large corpus of words, and
+
+01:14:52.050 --> 01:14:54.840
+we learned with these
+unsupervised objective functions.
+
+01:14:56.650 --> 01:14:59.930
+But other tasks where that
+doesn't actually work as well.
+
+01:14:59.930 --> 01:15:06.110
+So for instance sentiment analysis turns
+out to not be a great downstream task for
+
+01:15:06.110 --> 01:15:12.410
+some word vectors because good and bad
+might actually appear in similar contexts.
+
+01:15:12.410 --> 01:15:16.140
+I thought this movie was really good or
+bad.
+
+01:15:16.140 --> 01:15:19.260
+And so when your downstream
+task is sentiment analysis
+
+01:15:19.260 --> 01:15:22.530
+it turns out that maybe you can just
+initialize your word vectors randomly.
+
+01:15:23.700 --> 01:15:26.664
+So this is kind of a bummer
+after listening to us for
+
+01:15:26.664 --> 01:15:30.070
+many hours on how word
+vectors should be trained.
+
+01:15:30.070 --> 01:15:35.317
+But fret not, it's in many cases word
+vectors are helpful as your first step for
+
+01:15:35.317 --> 01:15:38.311
+your deep learning model, just not always.
+
+01:15:38.311 --> 01:15:41.430
+And again, that will be
+something that you can evaluate.
+
+01:15:41.430 --> 01:15:43.550
+Can I just initialize my words randomly or
+
+01:15:43.550 --> 01:15:46.500
+should I initialize them with
+the Word2vec or the glove model.
+
+01:15:47.860 --> 01:15:52.560
+So as we're trying to classify words,
+what we'll use is the softmax.
+
+01:15:52.560 --> 01:15:56.630
+And so you've seen this equation already
+in the very beginning in the first slide
+
+01:15:56.630 --> 01:15:57.532
+of the lecture.
+
+01:15:57.532 --> 01:16:02.070
+But we'll change the notation a little
+bit because all the math that will follow
+
+01:16:02.070 --> 01:16:06.820
+will be easier to go through
+with this kind of notation.
+
+01:16:06.820 --> 01:16:11.940
+So this is going to be
+the softmax that we'll optimize.
+
+01:16:11.940 --> 01:16:15.670
+It's essentially just a different
+word term for logistic regression.
+
+01:16:15.670 --> 01:16:21.670
+And we'll in many cases, have generally
+a matrix W here for our different classes.
+
+01:16:22.760 --> 01:16:27.080
+So x, for instance, could be in
+a simplest form, just a word vector.
+
+01:16:27.080 --> 01:16:31.467
+We're just trying to classify different
+word vectors with no context of just like,
+
+01:16:31.467 --> 01:16:32.969
+are these locations or not.
+
+01:16:32.969 --> 01:16:37.130
+It's not very useful, but just for
+pedagogical reasons, let's assume x,
+
+01:16:37.130 --> 01:16:39.630
+our input here, is just a word vector.
+
+01:16:39.630 --> 01:16:43.120
+And I want to classify, is it a location,
+or is it not a location.
+
+01:16:43.120 --> 01:16:47.634
+And then we give it basically, these
+different kinds of word vectors that we
+
+01:16:47.634 --> 01:16:52.499
+compute it, for instance, for Sweden and
+Norway, and then we want to classify is
+
+01:16:52.499 --> 01:16:56.686
+now Finland, Switzerland, and
+also a location, yes or no.
+
+01:16:56.686 --> 01:16:58.270
+So that's the task.
+
+01:16:58.270 --> 01:17:04.380
+And so our softmax here might just
+have in the simplest case two,
+
+01:17:04.380 --> 01:17:09.250
+two doesn't really make sense so let's say
+we have multiple different classes and
+
+01:17:09.250 --> 01:17:12.620
+each class has one row vector here.
+
+01:17:12.620 --> 01:17:18.640
+And so this notation y is essentially
+the number of rows that we have,
+
+01:17:18.640 --> 01:17:20.870
+so the specific row that we have.
+
+01:17:20.870 --> 01:17:26.516
+And we have here inner product with this
+rho vector times this column vector x.
+
+01:17:26.516 --> 01:17:30.494
+And then we normalize just
+like we always do for
+
+01:17:30.494 --> 01:17:35.084
+logistic regression to get
+an overall vector here for
+
+01:17:35.084 --> 01:17:38.756
+all the different classes that sums to 1.
+
+01:17:38.756 --> 01:17:44.570
+So W in general for classification
+will be a C by d dimensional matrix.
+
+01:17:44.570 --> 01:17:47.660
+Where d is our input and
+C is the number of classes that we have.
+
+01:17:50.720 --> 01:17:54.927
+And again, logistic regression, just a
+different term for softmax classification.
+
+01:17:57.847 --> 01:18:03.261
+And the nice thing about the softmax is
+that it will generalize well above for
+
+01:18:03.261 --> 01:18:05.470
+multiple different classes.
+
+01:18:05.470 --> 01:18:11.320
+And so, basically this is also
+something we've already covered.
+
+01:18:11.320 --> 01:18:15.800
+So the loss function will use a similar
+term for all the subsequent lectures.
+
+01:18:15.800 --> 01:18:19.720
+Loss function, cost function and objective
+functions, we kind of use interchangeably.
+
+01:18:20.850 --> 01:18:25.698
+And what we'll use to optimize
+the softmax is the cross entropy loss.
+
+01:18:25.698 --> 01:18:29.090
+And so I feel like the last minute,
+
+01:18:29.090 --> 01:18:33.190
+I'll just give you one extra minute,
+cuz if we start now, it'll be too late.
+
+01:18:33.190 --> 01:18:36.871
+So that's it, thank you.
+
+01:18:36.871 --> 01:18:39.380
+&gt;&gt; [APPLAUSE]
+

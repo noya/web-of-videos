@@ -1,0 +1,301 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.890 --> 00:00:04.240
+Let's now turn to the use of
+summarization in question answering.
+
+00:00:05.800 --> 00:00:10.110
+The goal of summarization is to produce an
+abridged version of a text that contains
+
+00:00:10.110 --> 00:00:13.910
+information that's important to or
+relevant for a user, particular user need.
+
+00:00:13.910 --> 00:00:17.680
+And so that might mean abstracting
+any kind of document or
+
+00:00:17.680 --> 00:00:22.040
+article, summarizing email threads or
+meetings, simplifying text.
+
+00:00:22.040 --> 00:00:23.780
+We'll talk about compressing sentences.
+
+00:00:25.170 --> 00:00:27.720
+And we can talk about
+summarization in two ways.
+
+00:00:27.720 --> 00:00:30.650
+Single document summarization,
+given a single document,
+
+00:00:30.650 --> 00:00:33.530
+we're going to produce an abstract or
+an outline.
+
+00:00:33.530 --> 00:00:36.820
+Perhaps a headline,
+a very short summary of a document.
+
+00:00:36.820 --> 00:00:40.390
+In multiple document summarization,
+we're given a group of documents,
+
+00:00:40.390 --> 00:00:45.620
+presumably related documents, and our job
+is to produce the gist of these documents.
+
+00:00:45.620 --> 00:00:48.040
+So, if we have some news
+stories on the same event,
+
+00:00:48.040 --> 00:00:52.530
+we might summarize the event by picking
+the information from different documents.
+
+00:00:52.530 --> 00:00:53.930
+That can be true also for
+
+00:00:53.930 --> 00:00:57.520
+any kind of set of web pages that
+are focused on some topic or question.
+
+00:00:58.690 --> 00:01:01.830
+Now, we distinguish between
+generic summarization and
+
+00:01:01.830 --> 00:01:03.970
+query focused summarization.
+
+00:01:03.970 --> 00:01:06.130
+Generic summarization is
+what I talked about so far.
+
+00:01:06.130 --> 00:01:08.920
+We have some document or
+some set of documents and
+
+00:01:08.920 --> 00:01:11.050
+our job is just to build a summary.
+
+00:01:11.050 --> 00:01:15.450
+Query focused summarization is
+summarizing a document with respect to
+
+00:01:15.450 --> 00:01:18.740
+the information need that the user
+expresses by their query.
+
+00:01:18.740 --> 00:01:23.050
+So, you can think of query-focused
+summarization just another kind of complex
+
+00:01:23.050 --> 00:01:27.010
+question and answering, where answering
+a question by summarizing a document
+
+00:01:27.010 --> 00:01:30.280
+that has the information in it to
+construct the answer that the user needs.
+
+00:01:31.490 --> 00:01:33.920
+Now, we've all seen
+query-focused summaries,
+
+00:01:33.920 --> 00:01:37.280
+because that's what search engines use to
+show you the information about a page.
+
+00:01:38.590 --> 00:01:41.920
+So for example Google will
+give you 156 characters,
+
+00:01:41.920 --> 00:01:45.570
+about 26 words for each page,
+as a summary of the page.
+
+00:01:45.570 --> 00:01:48.380
+So if I'd asked a question to Google,
+what is Die Brucke?
+
+00:01:48.380 --> 00:01:53.395
+And I get say these three URLs back we
+
+00:01:53.395 --> 00:01:58.475
+have the title of the URL, and then some
+text and that text, that snippet is some
+
+00:01:58.475 --> 00:02:02.755
+kind of summary of the page that helps
+the user understand what's in the page.
+
+00:02:02.755 --> 00:02:06.345
+So we can think of summarization
+in general of single documents
+
+00:02:06.345 --> 00:02:08.405
+as generating things like snippets.
+
+00:02:08.405 --> 00:02:12.505
+And we're going to talk about the more
+general task of specifically just snippets
+
+00:02:12.505 --> 00:02:17.730
+for web search but you can think of these
+snippets as a characteristic example.
+
+00:02:17.730 --> 00:02:22.170
+Now where a snippet is the answer to a
+question, taking information from a single
+
+00:02:22.170 --> 00:02:25.900
+document, we often want the answer
+from multiple documents.
+
+00:02:25.900 --> 00:02:29.430
+So creating answers to complex
+questions that involve summarizing for
+
+00:02:29.430 --> 00:02:33.380
+multiple documents,
+we're going to create a cohesive answer
+
+00:02:33.380 --> 00:02:35.730
+that combines information
+from each of these documents.
+
+00:02:35.730 --> 00:02:38.370
+So that's multiple document
+question answering,
+
+00:02:38.370 --> 00:02:41.030
+now we can think of two ways
+of doing summarization.
+
+00:02:41.030 --> 00:02:45.660
+In extractive summarization we created
+a summary by taking particular words or
+
+00:02:45.660 --> 00:02:47.500
+phrases that are in the documents and
+
+00:02:47.500 --> 00:02:50.338
+building a summary just out
+of this words or phrases.
+
+00:02:50.338 --> 00:02:52.830
+And a snippet from a search
+engine like Google
+
+00:02:52.830 --> 00:02:54.360
+as an extractive summary in this way.
+
+00:02:55.670 --> 00:03:00.650
+I contrast an abstractive summary as
+one which we create our own words,
+
+00:03:00.650 --> 00:03:04.680
+different words than are in the text,
+to summarize the content of the text.
+
+00:03:04.680 --> 00:03:09.180
+And we're going to be talking completely
+about extractive summarization today.
+
+00:03:09.180 --> 00:03:13.560
+Abstractive summarization is an important
+research goal, but very difficult.
+
+00:03:16.000 --> 00:03:18.940
+And one thing to think about whenever
+we're talking about summarizing from
+
+00:03:18.940 --> 00:03:20.410
+a document whether it's a webpage or
+
+00:03:20.410 --> 00:03:25.280
+anything else is what our baselines are
+for summarization and good writers often
+
+00:03:25.280 --> 00:03:28.870
+put their ideas right at the beginning
+at the title or at the first sentence.
+
+00:03:28.870 --> 00:03:32.630
+So a simple baseline whenever we're
+measuring any kind of summarization
+
+00:03:32.630 --> 00:03:35.830
+algorithm, is just taking
+the first sentence.
+
+00:03:35.830 --> 00:03:39.735
+So, for example, in this Google query,
+what is the Die Brucka,
+
+00:03:39.735 --> 00:03:44.564
+if we took the output from this first hit,
+and we look at the sentence, Die Brucka
+
+00:03:44.564 --> 00:03:49.062
+was a group of German expressionist
+artists formed in Dresden, and so on.
+
+00:03:49.062 --> 00:03:56.081
+Let's look at this page,
+where the snippet comes from and
+
+00:03:56.081 --> 00:04:01.095
+we can see that this
+snippet is really just
+
+00:04:01.095 --> 00:04:06.265
+the first 156 characters of this page.
+
+00:04:06.265 --> 00:04:10.285
+So sometimes the best snippet
+is really just the beginning.
+
+00:04:10.285 --> 00:04:13.095
+And so we're going to use that not only
+as a baseline, but later we'll see that
+
+00:04:13.095 --> 00:04:16.555
+that's a feature we could use in different
+kinds of summarization algorithms.
+
+00:04:18.915 --> 00:04:23.305
+We've introduced the task of natural
+language generations, producing abstracts,
+
+00:04:23.305 --> 00:04:26.310
+summaries, or
+even headlines from a document.
+
+00:04:26.310 --> 00:04:28.720
+And we've talked about
+query focus summarization,
+
+00:04:28.720 --> 00:04:31.530
+where we use summarization to
+answer a particular question.
+
+00:04:31.530 --> 00:04:34.590
+We built a summary of a document that is
+
+00:04:34.590 --> 00:04:37.800
+specifically designed to answer
+a question posed by the user.
+
+00:04:37.800 --> 00:04:41.900
+And we've talked about single and multiple
+document summarization, and now we'll see
+
+00:04:41.900 --> 00:04:45.350
+the details of how to do each of
+these tasks in the further lectures.
+

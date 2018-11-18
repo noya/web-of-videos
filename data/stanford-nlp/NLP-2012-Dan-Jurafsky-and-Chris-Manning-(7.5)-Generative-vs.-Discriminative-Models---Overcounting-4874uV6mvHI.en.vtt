@@ -1,0 +1,638 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.368 --> 00:00:05.177
+Hello, on this section I want to point out
+a problem with generative models such as
+
+00:00:05.177 --> 00:00:09.990
+Naive Bayse models which is how they can
+overcount evidence when it's correlated
+
+00:00:09.990 --> 00:00:13.634
+and at least hint at how Maxent
+models can solve this problem.
+
+00:00:13.634 --> 00:00:18.874
+I'm going to use this example, so in this
+example here's our training data and
+
+00:00:18.874 --> 00:00:22.031
+in our training data we
+have eight documents.
+
+00:00:22.031 --> 00:00:25.142
+And so four of those documents
+are about Europe, and
+
+00:00:25.142 --> 00:00:27.960
+four of those documents
+are in the class Asia.
+
+00:00:27.960 --> 00:00:31.390
+And we're wanting to do a two
+class classification problem
+
+00:00:31.390 --> 00:00:34.570
+between documents about Europe and Asia.
+
+00:00:34.570 --> 00:00:37.840
+Now to keep this example small,
+
+00:00:37.840 --> 00:00:41.610
+I'm building a text classifier
+with a very tiny vocabulary.
+
+00:00:41.610 --> 00:00:46.610
+You can always truncate the vocabulary
+used in Naive Bayse text classifier and
+
+00:00:46.610 --> 00:00:50.270
+people often do to make
+the models smaller, more compact.
+
+00:00:50.270 --> 00:00:53.930
+And in this example I've done
+that to an extreme extent and so
+
+00:00:53.930 --> 00:00:57.680
+I only have three words
+left in my vocabulary.
+
+00:00:57.680 --> 00:01:02.280
+And so in the documents we're just
+looking at instances of those words so
+
+00:01:02.280 --> 00:01:05.980
+in the first document there's
+two instances of Monaco and
+
+00:01:05.980 --> 00:01:11.590
+no instances of the other two words in
+my vocabulary which are Hong and Kong.
+
+00:01:11.590 --> 00:01:15.820
+Okay, so if we look at the overall
+statistics, what are we starting to find?
+
+00:01:15.820 --> 00:01:18.850
+So we've got four documents
+from each class, and
+
+00:01:18.850 --> 00:01:20.590
+they're eight documents in total.
+
+00:01:20.590 --> 00:01:26.320
+So the prior probabilities of Asia and
+Europe are half each.
+
+00:01:26.320 --> 00:01:30.980
+If in total in Europe
+there are eight words and
+
+00:01:30.980 --> 00:01:36.820
+six of them on Monaco, so
+the probability of a word being Monaco,
+
+00:01:36.820 --> 00:01:42.137
+given that's in the Europe category
+is three-quarters, six-eights.
+
+00:01:42.137 --> 00:01:45.090
+Okay looking at the Asia category,
+
+00:01:45.090 --> 00:01:51.500
+they're again eight words in our training
+data and two of those are Monaco.
+
+00:01:51.500 --> 00:01:57.700
+So the probability of a word being Monaco
+in the Asia category is one-quarter.
+
+00:01:57.700 --> 00:02:01.940
+Now let's suppose we've now
+built our native base model and
+
+00:02:01.940 --> 00:02:04.050
+we're going to classify a document.
+
+00:02:04.050 --> 00:02:07.930
+So here's our picture of
+the native base model and for
+
+00:02:07.930 --> 00:02:11.950
+this particular document, the only word
+from our vocabulary that appears in it
+
+00:02:11.950 --> 00:02:14.980
+is Monaco that it appears once.
+
+00:02:14.980 --> 00:02:16.870
+So what does our model predict?
+
+00:02:16.870 --> 00:02:21.120
+So for the joint probability of Asia and
+Monaco, we've got prior probability of
+
+00:02:21.120 --> 00:02:27.370
+Asia that's a half, times the probability
+of Monaco given Asia, which is a quarter.
+
+00:02:28.840 --> 00:02:31.130
+Then the joint probability of Europe and
+
+00:02:31.130 --> 00:02:35.890
+Monaco is the prior probability a half,
+times three-quarters.
+
+00:02:35.890 --> 00:02:40.590
+And so to work out the posterior
+probabilities we're going to take each of
+
+00:02:40.590 --> 00:02:47.380
+these terms over divided by the sum
+of the two to normalize it.
+
+00:02:47.380 --> 00:02:50.940
+And so what e have here is one-eights and
+
+00:02:50.940 --> 00:02:55.665
+three-eights which is going
+to give us one quarter.
+
+00:02:55.665 --> 00:03:01.511
+And for Europe we're going to take
+three-eighths over three-eighths
+
+00:03:01.511 --> 00:03:07.140
+plus one-eighth,
+which simplifies down to three-quarters.
+
+00:03:07.140 --> 00:03:11.880
+So this isn't surprising,
+this gives us exactly what we'd expect.
+
+00:03:11.880 --> 00:03:16.940
+So what we saw in our training data
+that Monaco appeared six times
+
+00:03:16.940 --> 00:03:19.310
+over here and twice over here.
+
+00:03:19.310 --> 00:03:22.390
+The two classes are equally likely.
+
+00:03:22.390 --> 00:03:27.200
+So if you've got a document with just
+the word Monaco appearing in it well, we'd
+
+00:03:27.200 --> 00:03:32.610
+expect to say there's a three-quarters
+chance it's a document about Europe.
+
+00:03:32.610 --> 00:03:35.490
+That's a Naive Bayse
+model working correctly.
+
+00:03:35.490 --> 00:03:38.470
+But now let's look at another example.
+
+00:03:38.470 --> 00:03:43.160
+In this example we have exactly
+the same training data so
+
+00:03:43.160 --> 00:03:46.630
+the probabilities of each class is a half.
+
+00:03:46.630 --> 00:03:51.800
+But this time we're going to be working
+with documents with Hong and Kong in them.
+
+00:03:51.800 --> 00:03:56.430
+So the probability of a word being Hong,
+given it's about Asia.
+
+00:03:56.430 --> 00:04:00.040
+So that's three out of eight and
+
+00:04:00.040 --> 00:04:04.790
+the probability of Kong being it's
+about Asia is again three out of eight.
+
+00:04:04.790 --> 00:04:08.380
+So that's three-eighths.
+
+00:04:08.380 --> 00:04:13.280
+Then over here for Europe, there's one
+instance each of Hong and Kong and
+
+00:04:13.280 --> 00:04:17.165
+there are eight words in total so
+we've got probabilities of one-eighth.
+
+00:04:19.020 --> 00:04:21.710
+Okay, now let's again move to test time.
+
+00:04:21.710 --> 00:04:26.830
+So here's how Naive Bayse model and our
+document the way testing on as the words
+
+00:04:26.830 --> 00:04:32.210
+Hong and Kong appearing ones each and
+nothing else from our vocabulary.
+
+00:04:32.210 --> 00:04:37.206
+Okay, so if we work out the same kinds of
+probabilities as before, we get a half
+
+00:04:37.206 --> 00:04:44.560
+times three-eighths times three-eighths.
+
+00:04:44.560 --> 00:04:51.340
+And here we get a half times
+one-eighth times one-eighth.
+
+00:04:51.340 --> 00:04:55.250
+The denominators are always the same so
+we can just look at the numerators for
+
+00:04:55.250 --> 00:04:56.370
+working it out.
+
+00:04:56.370 --> 00:05:02.430
+So this is proportional to nine and
+this is proportional to one.
+
+00:05:02.430 --> 00:05:07.434
+So then when we work these
+posterior probabilities for
+
+00:05:07.434 --> 00:05:12.981
+Asia, we get nine over nine
+plus one equals nine-tenths and
+
+00:05:12.981 --> 00:05:18.550
+for Europe we get one over nine
+plus one equals one-tenths.
+
+00:05:19.770 --> 00:05:24.310
+So look at what's happened,
+the classifier's now giving 90%
+
+00:05:24.310 --> 00:05:29.320
+probability that it's an Asia document
+rather than just three quarters.
+
+00:05:29.320 --> 00:05:33.260
+And intuitively that doesn't make sense
+that the answers should be exactly
+
+00:05:33.260 --> 00:05:38.340
+the same as from the document with just
+Monaco, because look, Hong Kong appeared
+
+00:05:38.340 --> 00:05:44.200
+once in the Europe document and
+it occurred three times in Asia documents.
+
+00:05:44.200 --> 00:05:47.340
+So the probability should
+be three-quarters.
+
+00:05:47.340 --> 00:05:49.390
+But why did that not happened?
+
+00:05:49.390 --> 00:05:53.970
+Well, that didn't happened because
+although I'm suggesting now that Hong Kong
+
+00:05:53.970 --> 00:05:56.950
+is one word, the name of one place.
+
+00:05:56.950 --> 00:06:01.344
+In our model, it's being treated as
+two completely independent words that
+
+00:06:01.344 --> 00:06:03.415
+have nothing to do with each other.
+
+00:06:06.453 --> 00:06:10.210
+And so it counts the evidence
+that each one separately and so
+
+00:06:10.210 --> 00:06:16.170
+that's precisely where you're getting
+these 3/8 times 3/8 and 1/8 times 1/8.
+
+00:06:16.170 --> 00:06:21.160
+And that ends up with you having
+this odd ratio of nine to
+
+00:06:21.160 --> 00:06:25.260
+one in it's favor of Asia
+where it is previously
+
+00:06:25.260 --> 00:06:29.600
+when you had the document with just
+Monaco you had a ratio of three to one.
+
+00:06:29.600 --> 00:06:34.100
+So you start multiplying
+in odds factor of three for
+
+00:06:34.100 --> 00:06:36.480
+each repeatedly instance of the word.
+
+00:06:37.500 --> 00:06:42.880
+So what's going on here is
+that really we have one piece
+
+00:06:42.880 --> 00:06:48.020
+of evidence Appearance of the word,
+the place name Hong Kong.
+
+00:06:48.020 --> 00:06:53.760
+But because it's two tokens we're treating
+it as two separate pieces of evidence and
+
+00:06:53.760 --> 00:06:56.080
+so we double count that evidence and
+
+00:06:56.080 --> 00:06:59.380
+we falsely confident that
+the document is about Asia.
+
+00:07:00.420 --> 00:07:03.030
+Does that create problems for
+classification?
+
+00:07:03.030 --> 00:07:06.120
+It turns out it does,
+let's look at one more example.
+
+00:07:06.120 --> 00:07:07.278
+So in this example,
+
+00:07:07.278 --> 00:07:11.035
+everything in the Naive Bayse
+factors is just the same as before.
+
+00:07:11.035 --> 00:07:15.825
+We have exactly the same training data
+that we're building a model form.
+
+00:07:24.669 --> 00:07:30.637
+But this time, at test time we've got
+exactly the same Naive Bayse model but
+
+00:07:30.637 --> 00:07:35.960
+our document of interest has Hong Kong,
+Monaco one time each.
+
+00:07:35.960 --> 00:07:41.100
+So what does that mean we get when we work
+through our faith based model predictions?
+
+00:07:41.100 --> 00:07:44.444
+So the joint probability, the Asia and
+
+00:07:44.444 --> 00:07:49.713
+all the words is a half times
+Hong given Asia three-eighths,
+
+00:07:49.713 --> 00:07:54.950
+times three-eights for
+Kong times one quarter for Monaco.
+
+00:07:54.950 --> 00:07:59.750
+The probability of this joint
+probability is a half times
+
+00:07:59.750 --> 00:08:05.360
+one-eighth times one-eighth
+times three-quarters.
+
+00:08:05.360 --> 00:08:10.065
+Again, the denominators are the same and
+
+00:08:10.065 --> 00:08:15.039
+can be ignored so
+the posterior probability
+
+00:08:15.039 --> 00:08:20.148
+of Asia is then going to
+be three times three,
+
+00:08:20.148 --> 00:08:25.810
+nine over 9+3 so
+that's then three quarters.
+
+00:08:25.810 --> 00:08:33.639
+And the posterior probability of Europe
+is going to be 3/9+3 equals 1/4.
+
+00:08:35.060 --> 00:08:42.360
+And so look at this what we've gotten
+out is that there's a 75% chance that
+
+00:08:42.360 --> 00:08:48.550
+this document here is an Asia document and
+intuitively that doesn't make sense.
+
+00:08:48.550 --> 00:08:53.970
+Informally in the training data there are
+two documents that look just like this.
+
+00:08:53.970 --> 00:08:57.360
+And one was about Europe and
+one was about Asia.
+
+00:08:57.360 --> 00:09:02.554
+But more precisely we have
+these statistics that the word,
+
+00:09:02.554 --> 00:09:07.740
+the place Monaco appears three quarters
+of the time in Europe documents and
+
+00:09:07.740 --> 00:09:09.850
+one quarter of the time here.
+
+00:09:09.850 --> 00:09:15.910
+And the place Hong Kong occurs
+three quarters of the time here,
+
+00:09:15.910 --> 00:09:18.070
+and one quarter of the time about Europe.
+
+00:09:18.070 --> 00:09:21.740
+So those two factors should just
+completely cancel each other out and
+
+00:09:21.740 --> 00:09:25.940
+we should say that this document
+is equally likely to be
+
+00:09:25.940 --> 00:09:27.940
+a document about Europe or Asia.
+
+00:09:27.940 --> 00:09:32.200
+But again we don't get that affect
+because the two tokens here
+
+00:09:32.200 --> 00:09:36.670
+are wrongly being treated as
+independent sources of evidence.
+
+00:09:36.670 --> 00:09:41.190
+And so therefore,
+we think we still have a three to one
+
+00:09:41.190 --> 00:09:44.110
+odds ratio in favor of
+the document being about Asia.
+
+00:09:45.170 --> 00:09:50.765
+Okay, so what we've seen is that Naive
+Bayes models will multi-count evidence
+
+00:09:50.765 --> 00:09:56.185
+that when it treats evidence as
+independent even when it's partly or
+
+00:09:56.185 --> 00:09:59.267
+totally correlated with
+other pieces evidence.
+
+00:09:59.267 --> 00:10:03.817
+Each time you see a feature
+it's being multiplied in and
+
+00:10:03.817 --> 00:10:07.577
+what we're going to show in the upcoming
+part is that maximum entropy models
+
+00:10:07.577 --> 00:10:09.207
+pretty much solve this problem.
+
+00:10:09.207 --> 00:10:14.000
+The completely solve it when two pieces
+of evidence are completely correlated.
+
+00:10:14.000 --> 00:10:18.070
+And as we shall see, this is done by
+weighting features by more complex
+
+00:10:18.070 --> 00:10:23.070
+algorithm that ends up meaning that
+the model expectations of features
+
+00:10:23.070 --> 00:10:25.910
+match their observed
+empirical expectations.
+
+00:10:27.470 --> 00:10:32.860
+Now obviously, there are names
+of places like Hong Kong or
+
+00:10:32.860 --> 00:10:38.840
+Saudi Arabia that provide two
+tokens that are very correlated,
+
+00:10:38.840 --> 00:10:42.740
+but you might still be thinking that
+this doesn't come up very much.
+
+00:10:42.740 --> 00:10:46.540
+But the truth is that when you're
+building feature rich classifiers,
+
+00:10:46.540 --> 00:10:50.010
+defining features as we discussed before,
+this happens a ton.
+
+00:10:50.010 --> 00:10:52.640
+Let me just quickly give
+you one more example.
+
+00:10:52.640 --> 00:10:56.760
+So suppose we're doing
+some medical documents,
+
+00:10:56.760 --> 00:11:00.200
+and a word that we might have in
+the document collection is Xanax.
+
+00:11:00.200 --> 00:11:02.220
+And we'll have that as a word feature.
+
+00:11:02.220 --> 00:11:07.130
+But we discussed how commonly you also
+want to have substrate features for
+
+00:11:07.130 --> 00:11:09.150
+prefixes and suffixes.
+
+00:11:09.150 --> 00:11:11.572
+And so
+that means we might have a feature for
+
+00:11:11.572 --> 00:11:14.880
+the first four letters of the word Xana,
+with a capital X.
+
+00:11:14.880 --> 00:11:21.715
+The first three letters of a word Xan and
+the first two letter and the first letter.
+
+00:11:21.715 --> 00:11:27.161
+But the problem is it's quite likely
+in our training data that the only
+
+00:11:27.161 --> 00:11:31.974
+word that we ever see that's
+start with capital Xan is Xanax.
+
+00:11:31.974 --> 00:11:34.911
+It's very rare beginning of words and
+
+00:11:34.911 --> 00:11:39.683
+therefore this feature will fire
+only when the word is Xanax,
+
+00:11:39.683 --> 00:11:44.190
+and this feature will fire
+only when the word is Xanax.
+
+00:11:44.190 --> 00:11:46.290
+And so these three features,
+
+00:11:46.290 --> 00:11:49.650
+their occurrence will be completely
+correlated with each other.
+
+00:11:49.650 --> 00:11:53.440
+And so if we build a Naive Bayes
+model with these three features,
+
+00:11:53.440 --> 00:11:56.650
+we'll triple count what's
+really one piece of evidence,
+
+00:11:56.650 --> 00:12:00.870
+whereas the maximum entropy
+model won't do that.
+
+00:12:00.870 --> 00:12:03.660
+Okay, I hope that's given you
+a sense of the problem and
+
+00:12:03.660 --> 00:12:07.450
+motivated you to stick with
+the math that comes up ahead
+
+00:12:07.450 --> 00:12:09.810
+in explaining how maximum
+entropy models work.
+

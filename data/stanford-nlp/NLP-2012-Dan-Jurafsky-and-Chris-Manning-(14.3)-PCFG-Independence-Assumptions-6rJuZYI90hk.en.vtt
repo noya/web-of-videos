@@ -1,0 +1,517 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.730 --> 00:00:05.700
+In this segment we can dig in a little
+deeper into the independence assumptions
+
+00:00:05.700 --> 00:00:09.130
+of PCFGs and what that means in practice.
+
+00:00:09.130 --> 00:00:15.890
+So the symbols of a PCFG define
+the independence assumptions.
+
+00:00:15.890 --> 00:00:17.920
+So if we have a pair of rules like this,
+
+00:00:17.920 --> 00:00:23.690
+S goes to nonphrase verb phrase Noun
+phrase goes to determine a noun.
+
+00:00:23.690 --> 00:00:28.890
+When you're expanding here,
+the only thing you know is
+
+00:00:28.890 --> 00:00:33.950
+that you've got a noun phrase and you've
+got probabilities for how it expands.
+
+00:00:33.950 --> 00:00:38.450
+So the right way to think of categories in
+
+00:00:38.450 --> 00:00:43.940
+a PCFG is that they're kind of
+choke points for information flow.
+
+00:00:43.940 --> 00:00:49.360
+So we have the outside tree up here and
+
+00:00:51.260 --> 00:00:57.730
+When we're expanding this noun phrase,
+we know nothing about the outside tree.
+
+00:00:57.730 --> 00:01:01.600
+All we know is that we're
+expanding a noun phrase.
+
+00:01:01.600 --> 00:01:07.570
+Or, looked at from reverse, when we're
+working out what paths to choose up
+
+00:01:07.570 --> 00:01:12.620
+here We don't know anything
+about what went on down here.
+
+00:01:12.620 --> 00:01:17.950
+All we know is that this is a noun
+phrase over some number of words,
+
+00:01:17.950 --> 00:01:20.170
+and then we need to work
+out what happens above it.
+
+00:01:21.210 --> 00:01:27.420
+So precisely this is a point that
+which is in independent assumption.
+
+00:01:27.420 --> 00:01:33.200
+Is assumption is you can work out
+the probability things inside here
+
+00:01:33.200 --> 00:01:38.440
+knowing only that this is a noun
+phrase and you can work out
+
+00:01:38.440 --> 00:01:43.650
+the probabilities of things up here
+knowing only that this is a noun phrase.
+
+00:01:43.650 --> 00:01:46.930
+That's a very strong
+independence assumption.
+
+00:01:48.750 --> 00:01:54.210
+Then we can see clearly that it's too
+strong by looking at various cases.
+
+00:01:54.210 --> 00:01:56.850
+And here's one example.
+
+00:01:56.850 --> 00:02:01.750
+So if we just say, what are the chances
+of expanding a noun phrase overall?
+
+00:02:01.750 --> 00:02:06.880
+Well, the chance of a noun phrase
+expanding as a noun phrase,
+
+00:02:06.880 --> 00:02:09.820
+prepositional phrase in the pintree bank.
+
+00:02:09.820 --> 00:02:16.320
+It's about 11% and the chances
+of it expanding as a pronoun, so
+
+00:02:16.320 --> 00:02:21.993
+this is something like The noun
+phrase goes to the pronoun she.
+
+00:02:21.993 --> 00:02:24.784
+That's 6%.
+
+00:02:24.784 --> 00:02:28.060
+And these are just the overall statistics.
+
+00:02:28.060 --> 00:02:31.920
+And let's suppose we now ask
+about particular categories.
+
+00:02:31.920 --> 00:02:35.360
+Suppose we know that this is
+a noun phrase under an S and
+
+00:02:35.360 --> 00:02:38.830
+that's The subject noun
+phrase of a sentence.
+
+00:02:38.830 --> 00:02:42.420
+Then we find out that the statistics
+are enormously different.
+
+00:02:42.420 --> 00:02:47.530
+So the chance of this expanding
+as an NP PP go down a little,
+
+00:02:47.530 --> 00:02:50.400
+but what's really dramatic
+is that the chances of it
+
+00:02:50.400 --> 00:02:56.100
+becoming a pronoun go up enormously
+about three and a half times.
+
+00:02:56.100 --> 00:02:59.930
+In contrast if we know it's
+a noun phrase under a verb
+
+00:02:59.930 --> 00:03:05.390
+phrase the chance of it
+being a pronoun drops.
+
+00:03:05.390 --> 00:03:10.480
+But the chances of it being an NP PP
+go up a lot, they more than double.
+
+00:03:10.480 --> 00:03:15.460
+Now if you have a bit more
+background in linguistics,
+
+00:03:15.460 --> 00:03:19.120
+you'd say at this moment,
+well of course, that's exactly.
+
+00:03:19.120 --> 00:03:23.230
+Typically what you'd expect based on
+knowledge about information structure of
+
+00:03:23.230 --> 00:03:27.460
+language so that subjects are normally
+used for topics established,
+
+00:03:27.460 --> 00:03:29.040
+discourse reference.
+
+00:03:29.040 --> 00:03:33.930
+And therefore, it's highly appropriate for
+that to be a pronoun
+
+00:03:33.930 --> 00:03:38.910
+whereas inside the verb phrase what
+you're normally doing is introducing
+
+00:03:38.910 --> 00:03:43.050
+new information which, therefore needs
+to be explained a little bit more.
+
+00:03:43.050 --> 00:03:45.450
+And therefore, it'd be quite common for
+
+00:03:45.450 --> 00:03:50.210
+that to be a noun phrase with
+a prepositional phrase hanging
+
+00:03:50.210 --> 00:03:53.950
+off it because that's one of the ways in
+which you can express more information.
+
+00:03:53.950 --> 00:03:57.800
+So you can say something like the man
+by the railway road tracks or
+
+00:03:57.800 --> 00:04:01.310
+something like that, where you're
+giving more descriptive content.
+
+00:04:01.310 --> 00:04:06.450
+But just thinking about it at
+the moment for our PCFG well,
+
+00:04:06.450 --> 00:04:10.680
+what we're finding is that if we just
+say we're expanding a noun phrase,
+
+00:04:10.680 --> 00:04:14.860
+we're losing this additional
+information which would let us
+
+00:04:14.860 --> 00:04:17.690
+give much better probabilities
+about how to expand that.
+
+00:04:19.910 --> 00:04:24.440
+Another way that you can see that your
+independence assumptions Are too strong.
+
+00:04:24.440 --> 00:04:29.480
+It's when you run a basic PCFG and
+you find that just does the wrong thing.
+
+00:04:29.480 --> 00:04:34.880
+So it's choosing rules that look
+wrong that shouldn't have used but
+
+00:04:34.880 --> 00:04:37.150
+somehow it's choosing to use them.
+
+00:04:37.150 --> 00:04:43.450
+Here's an example of this, so for a noun
+phrase like Big Board composite trading,
+
+00:04:43.450 --> 00:04:48.040
+the noun phrase structure that you're
+meant to choose in the Penn Treebank
+
+00:04:48.040 --> 00:04:49.440
+is just this flat structure.
+
+00:04:49.440 --> 00:04:53.560
+In general the Penn Treebank structure
+uses a lot of Flat structures for
+
+00:04:53.560 --> 00:04:55.790
+compound nouns like this.
+
+00:04:55.790 --> 00:05:00.560
+But if you train up a simple P-C-F-G and
+run it on this sentence,
+
+00:05:00.560 --> 00:05:05.520
+the structure that you
+actually get is this on here.
+
+00:05:05.520 --> 00:05:09.710
+Where it's put in an extra noun
+phase node around the board.
+
+00:05:11.220 --> 00:05:13.620
+Well, it just shouldn't have done that and
+
+00:05:13.620 --> 00:05:19.070
+your first reaction is well why did it
+do that because all of the compound
+
+00:05:19.070 --> 00:05:22.290
+nouns in the Penn tree bank have
+this kind of flat structure.
+
+00:05:22.290 --> 00:05:23.290
+Why didn't it learn that?
+
+00:05:23.290 --> 00:05:28.220
+But the reason that it was able to do this
+is that there's a different structure in
+
+00:05:28.220 --> 00:05:33.410
+the Penn Tree bank way you do get
+these NP nodes at the start of an NP.
+
+00:05:33.410 --> 00:05:40.150
+And when that happens with possessives,
+so here we have this possessive NP,
+
+00:05:40.150 --> 00:05:47.080
+and then you do have a noun phrase Up here
+going to noun phrase, adjective, noun.
+
+00:05:48.160 --> 00:05:54.400
+And so what you like to say is,
+well this here, it's okay to use it for
+
+00:05:54.400 --> 00:05:58.710
+possessives, but
+this noun phrase isn't a possessor.
+
+00:05:58.710 --> 00:06:02.200
+But then that's precisely
+where the problem is.
+
+00:06:02.200 --> 00:06:06.170
+Plus both of these nodes I
+just marked noun phrase.
+
+00:06:06.170 --> 00:06:09.240
+And so,
+we're not recording the information
+
+00:06:09.240 --> 00:06:12.530
+that this one here is
+a possessive noun phrase.
+
+00:06:12.530 --> 00:06:17.160
+So somehow we want to get more
+information this category to say this is
+
+00:06:17.160 --> 00:06:18.980
+a possessive noun phrase.
+
+00:06:18.980 --> 00:06:23.570
+So the parser would know
+that you can't use that
+
+00:06:23.570 --> 00:06:28.820
+expansion rule when you have a
+non-possessive noun phrase like big board.
+
+00:06:29.990 --> 00:06:31.880
+So that's what we want to do.
+
+00:06:31.880 --> 00:06:36.350
+So we can relax the independence
+assumptions of a PCFG
+
+00:06:36.350 --> 00:06:41.090
+by encoding more information
+into the non-terminals symbol.
+
+00:06:41.090 --> 00:06:44.800
+It's a process that's often
+referred to as state splitting.
+
+00:06:44.800 --> 00:06:47.930
+So one of the first proposals for
+state splitting and
+
+00:06:47.930 --> 00:06:51.930
+showing how successful
+it was was Mark Johnson.
+
+00:06:51.930 --> 00:06:55.940
+Noticed that you could improve
+a probabilistic context free grammar
+
+00:06:55.940 --> 00:06:58.930
+quite a lot by encoding as
+
+00:06:58.930 --> 00:07:03.610
+part of each non-terminal also
+what was the parent category.
+
+00:07:03.610 --> 00:07:08.240
+And remember you also saw this idea in
+the conditioning of Charniak parser
+
+00:07:08.240 --> 00:07:10.190
+in a preceding segman.
+
+00:07:10.190 --> 00:07:15.490
+So Johnson's observation was that if
+you did nothing more, but changed
+
+00:07:15.490 --> 00:07:22.810
+all of the non-terminals to also record
+in them what the parent non-terminal is.
+
+00:07:22.810 --> 00:07:26.600
+So you then effectively have
+a number of non-terminals squared,
+
+00:07:26.600 --> 00:07:28.620
+space of non-terminals.
+
+00:07:28.620 --> 00:07:29.980
+That that change alone,
+
+00:07:29.980 --> 00:07:34.380
+if you just train a PCFG in the regular
+manner, Makes a big difference.
+
+00:07:34.380 --> 00:07:37.720
+It pushes up to your passing
+numbers by a couple of percent.
+
+00:07:38.770 --> 00:07:42.490
+So that's a useful idea, but there are
+others things that we might want to do,
+
+00:07:42.490 --> 00:07:45.610
+that have a slightly different character.
+
+00:07:45.610 --> 00:07:48.170
+So for the example for the previous slide.
+
+00:07:48.170 --> 00:07:52.710
+If we want to rule out
+the big board bad pars,
+
+00:07:52.710 --> 00:07:57.990
+it seems like what we also want to do
+is know about possessive noun phrases.
+
+00:07:57.990 --> 00:08:01.985
+So possessive noun phrases are these
+ones like fidelities with an apostrophe
+
+00:08:01.985 --> 00:08:04.335
+s at the end.
+
+00:08:04.335 --> 00:08:08.595
+And they have a very different
+nature than regular noun phrases.
+
+00:08:08.595 --> 00:08:12.105
+But, it wasn't being recorded
+in the category symbol, but
+
+00:08:12.105 --> 00:08:13.475
+just being called noun phrase.
+
+00:08:13.475 --> 00:08:18.000
+So why don't we do state splitting and
+say, no we're going to Without noun
+
+00:08:18.000 --> 00:08:22.490
+phrases that are possessives and
+pull them into NP-POS.
+
+00:08:22.490 --> 00:08:26.060
+And then that information will also
+be captured in the grammar, and
+
+00:08:26.060 --> 00:08:28.620
+again will have a more accurate PCFG.
+
+00:08:30.380 --> 00:08:35.500
+Of course there's a danger of doing
+this too much, and that is that if
+
+00:08:35.500 --> 00:08:41.200
+we have too much state-splitting, we
+start getting more and more nonterminals.
+
+00:08:41.200 --> 00:08:45.030
+And our information about the nonterminals
+becomes sparser and sparser.
+
+00:08:45.030 --> 00:08:49.100
+And in particular, in the model we're
+going to show in the the next segment:
+
+00:08:49.100 --> 00:08:54.680
+there was absolutely no smoothing
+of the rule rewrite probabilities.
+
+00:08:54.680 --> 00:08:57.450
+And so,
+if you did too much state-splitting,
+
+00:08:57.450 --> 00:09:00.455
+you'd end up having zero probabilities for
+things that you.
+
+00:09:00.455 --> 00:09:05.535
+You haven't seen before, but
+unlike with word probabilities,
+
+00:09:05.535 --> 00:09:07.515
+where you basically have to smooth them.
+
+00:09:07.515 --> 00:09:12.055
+You can do a reasonable
+amount of state splitting
+
+00:09:12.055 --> 00:09:16.945
+of categories in this sort of a way
+before you have to deal with smoothing.
+
+00:09:16.945 --> 00:09:21.795
+And so, what we're going to look
+at is which ways of splitting
+
+00:09:21.795 --> 00:09:27.180
+categories are most useful for
+capturing probabilistic
+
+00:09:27.180 --> 00:09:31.820
+dependence that's needed to do
+a good job in PCFG parsing.
+
+00:09:33.990 --> 00:09:37.590
+Okay, I hope that gives you
+a more concrete sense about PCFG
+
+00:09:37.590 --> 00:09:42.520
+independence assumptions and how they can
+hurt you, but also how to solve them.
+

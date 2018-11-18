@@ -1,0 +1,2470 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:05.860 align:start position:0%
+ 
+<c.colorE5E5E5>you</c>
+
+00:00:05.860 --> 00:00:05.870 align:start position:0%
+ 
+ 
+
+00:00:05.870 --> 00:00:08.780 align:start position:0%
+ 
+this<c.colorE5E5E5><00:00:06.870><c> lecture</c><00:00:07.290><c> is</c><00:00:07.500><c> about</c><00:00:07.790><c> probabilistic</c></c>
+
+00:00:08.780 --> 00:00:08.790 align:start position:0%
+this<c.colorE5E5E5> lecture is about probabilistic
+ </c>
+
+00:00:08.790 --> 00:00:11.060 align:start position:0%
+this<c.colorE5E5E5> lecture is about probabilistic
+topic<00:00:09.330><c> models</c><00:00:09.690><c> for</c></c><c.colorCCCCCC><00:00:09.990><c> topic</c><00:00:10.440><c> mining</c><00:00:10.860><c> and</c></c>
+
+00:00:11.060 --> 00:00:11.070 align:start position:0%
+<c.colorE5E5E5>topic models for</c><c.colorCCCCCC> topic mining and
+ </c>
+
+00:00:11.070 --> 00:00:14.450 align:start position:0%
+<c.colorE5E5E5>topic models for</c><c.colorCCCCCC> topic mining and</c>
+<c.colorE5E5E5>analysis<00:00:12.410><c> in</c><00:00:13.410><c> this</c></c><c.colorCCCCCC><00:00:13.559><c> lecture</c><00:00:14.040><c> we're</c><00:00:14.309><c> going</c></c><c.colorE5E5E5><00:00:14.400><c> to</c></c>
+
+00:00:14.450 --> 00:00:14.460 align:start position:0%
+<c.colorE5E5E5>analysis in this</c><c.colorCCCCCC> lecture we're going</c><c.colorE5E5E5> to
+ </c>
+
+00:00:14.460 --> 00:00:15.950 align:start position:0%
+<c.colorE5E5E5>analysis in this</c><c.colorCCCCCC> lecture we're going</c><c.colorE5E5E5> to
+continue<00:00:14.790><c> talking</c><00:00:15.150><c> about</c><00:00:15.360><c> the</c><00:00:15.599><c> top</c><00:00:15.780><c> of</c><00:00:15.870><c> the</c></c>
+
+00:00:15.950 --> 00:00:15.960 align:start position:0%
+continue<c.colorE5E5E5> talking about the top of the
+ </c>
+
+00:00:15.960 --> 00:00:18.470 align:start position:0%
+continue<c.colorE5E5E5> talking about the top of the
+mining<00:00:16.320><c> and</c><00:00:16.439><c> analysis</c><00:00:17.270><c> we're</c><00:00:18.270><c> going</c><00:00:18.420><c> to</c></c>
+
+00:00:18.470 --> 00:00:18.480 align:start position:0%
+mining and analysis we're<c.colorE5E5E5> going to
+ </c>
+
+00:00:18.480 --> 00:00:22.519 align:start position:0%
+mining and analysis we're<c.colorE5E5E5> going to
+introduce<00:00:18.689><c> probabilistic</c><00:00:19.470><c> atomic</c><00:00:19.980><c> models</c><00:00:21.529><c> so</c></c>
+
+00:00:22.519 --> 00:00:22.529 align:start position:0%
+introduce probabilistic<c.colorE5E5E5> atomic models so
+ </c>
+
+00:00:22.529 --> 00:00:24.680 align:start position:0%
+introduce probabilistic<c.colorE5E5E5> atomic models so
+this<00:00:22.890><c> is</c><00:00:23.039><c> a</c><00:00:23.070><c> slide</c><00:00:23.520><c> that</c></c><c.colorCCCCCC><00:00:23.910><c> you</c><00:00:24.300><c> have</c><00:00:24.420><c> seen</c></c>
+
+00:00:24.680 --> 00:00:24.690 align:start position:0%
+this is a slide that<c.colorCCCCCC> you have seen
+ </c>
+
+00:00:24.690 --> 00:00:27.439 align:start position:0%
+this is a slide that<c.colorCCCCCC> you have seen
+earlier</c><c.colorE5E5E5><00:00:24.869><c> and</c><00:00:25.770><c> where</c><00:00:26.279><c> we</c><00:00:26.430><c> discussed</c><00:00:26.850><c> the</c></c>
+
+00:00:27.439 --> 00:00:27.449 align:start position:0%
+earlier<c.colorE5E5E5> and where we discussed the
+ </c>
+
+00:00:27.449 --> 00:00:30.769 align:start position:0%
+earlier<c.colorE5E5E5> and where we discussed the
+problems<00:00:27.960><c> with</c><00:00:28.199><c> using</c><00:00:28.710><c> a</c><00:00:28.949><c> term</c><00:00:28.980><c> as</c><00:00:29.460><c> a</c><00:00:29.520><c> topic</c><00:00:30.029><c> so</c></c>
+
+00:00:30.769 --> 00:00:30.779 align:start position:0%
+problems with using<c.colorE5E5E5> a term as a topic so
+ </c>
+
+00:00:30.779 --> 00:00:33.950 align:start position:0%
+problems with using<c.colorE5E5E5> a term as a topic so
+to<00:00:30.840><c> solve</c><00:00:31.289><c> these</c><00:00:31.529><c> problems</c></c><c.colorCCCCCC><00:00:32.510><c> intuitively</c></c><c.colorE5E5E5><00:00:33.510><c> we</c></c>
+
+00:00:33.950 --> 00:00:33.960 align:start position:0%
+to solve these problems<c.colorCCCCCC> intuitively</c><c.colorE5E5E5> we
+ </c>
+
+00:00:33.960 --> 00:00:37.250 align:start position:0%
+to solve these problems<c.colorCCCCCC> intuitively</c><c.colorE5E5E5> we
+need<00:00:34.140><c> to</c><00:00:34.320><c> use</c><00:00:34.830><c> more</c><00:00:35.489><c> words</c><00:00:36.330><c> to</c><00:00:36.720><c> describe</c></c><c.colorCCCCCC><00:00:36.900><c> a</c></c>
+
+00:00:37.250 --> 00:00:37.260 align:start position:0%
+need to use more<c.colorE5E5E5> words to describe</c><c.colorCCCCCC> a
+ </c>
+
+00:00:37.260 --> 00:00:39.229 align:start position:0%
+need to use more<c.colorE5E5E5> words to describe</c><c.colorCCCCCC> a
+topic</c><c.colorE5E5E5><00:00:37.590><c> and</c><00:00:37.739><c> this</c><00:00:38.159><c> would</c><00:00:38.370><c> address</c><00:00:38.610><c> the</c><00:00:38.850><c> problem</c></c>
+
+00:00:39.229 --> 00:00:39.239 align:start position:0%
+topic<c.colorE5E5E5> and this would address the problem
+ </c>
+
+00:00:39.239 --> 00:00:43.460 align:start position:0%
+topic<c.colorE5E5E5> and this would address the problem
+of<00:00:39.479><c> lack</c><00:00:40.260><c> of</c><00:00:41.030><c> expressive</c><00:00:42.030><c> power</c><00:00:42.420><c> when</c><00:00:43.199><c> we</c><00:00:43.350><c> have</c></c>
+
+00:00:43.460 --> 00:00:43.470 align:start position:0%
+of<c.colorE5E5E5> lack of expressive power when we have
+ </c>
+
+00:00:43.470 --> 00:00:46.549 align:start position:0%
+of<c.colorE5E5E5> lack of expressive power when we have
+more<00:00:43.710><c> words</c><00:00:44.510><c> that</c><00:00:45.510><c> we</c><00:00:45.629><c> can</c></c><c.colorCCCCCC><00:00:45.659><c> use</c><00:00:45.809><c> to</c><00:00:45.960><c> describe</c></c>
+
+00:00:46.549 --> 00:00:46.559 align:start position:0%
+more words<c.colorE5E5E5> that we can</c><c.colorCCCCCC> use to describe
+ </c>
+
+00:00:46.559 --> 00:00:48.020 align:start position:0%
+more words<c.colorE5E5E5> that we can</c><c.colorCCCCCC> use to describe
+the</c><c.colorE5E5E5><00:00:46.710><c> topic</c></c><c.colorCCCCCC><00:00:46.979><c> of</c><00:00:47.100><c> we</c><00:00:47.220><c> can</c><00:00:47.370><c> describe</c></c><c.colorE5E5E5><00:00:47.760><c> a</c></c>
+
+00:00:48.020 --> 00:00:48.030 align:start position:0%
+the<c.colorE5E5E5> topic</c><c.colorCCCCCC> of we can describe</c><c.colorE5E5E5> a
+ </c>
+
+00:00:48.030 --> 00:00:50.960 align:start position:0%
+the<c.colorE5E5E5> topic</c><c.colorCCCCCC> of we can describe</c><c.colorE5E5E5> a
+complicated<00:00:48.690><c> topics</c><00:00:49.080><c> to</c><00:00:49.949><c> address</c><00:00:50.309><c> the</c><00:00:50.580><c> second</c></c>
+
+00:00:50.960 --> 00:00:50.970 align:start position:0%
+complicated topics to address the second
+ 
+
+00:00:50.970 --> 00:00:53.360 align:start position:0%
+complicated topics to address the second
+problem<00:00:51.239><c> we</c><00:00:52.049><c> need</c><c.colorCCCCCC><00:00:52.199><c> introduced</c><00:00:52.650><c> weights</c></c><c.colorE5E5E5><00:00:53.040><c> on</c></c>
+
+00:00:53.360 --> 00:00:53.370 align:start position:0%
+problem we need<c.colorCCCCCC> introduced weights</c><c.colorE5E5E5> on
+ </c>
+
+00:00:53.370 --> 00:00:55.009 align:start position:0%
+problem we need<c.colorCCCCCC> introduced weights</c><c.colorE5E5E5> on
+words</c><c.colorCCCCCC><00:00:53.670><c> this</c><00:00:54.210><c> would</c></c><c.colorE5E5E5><00:00:54.659><c> allow</c></c><c.colorCCCCCC><00:00:54.960><c> the</c></c>
+
+00:00:55.009 --> 00:00:55.019 align:start position:0%
+<c.colorE5E5E5>words</c><c.colorCCCCCC> this would</c><c.colorE5E5E5> allow</c><c.colorCCCCCC> the
+ </c>
+
+00:00:55.019 --> 00:00:57.859 align:start position:0%
+<c.colorE5E5E5>words</c><c.colorCCCCCC> this would</c><c.colorE5E5E5> allow</c><c.colorCCCCCC> the
+distinguishing<00:00:56.059><c> subtle</c><00:00:57.059><c> differences</c><00:00:57.600><c> in</c></c>
+
+00:00:57.859 --> 00:00:57.869 align:start position:0%
+<c.colorCCCCCC>distinguishing subtle differences in
+ </c>
+
+00:00:57.869 --> 00:01:00.890 align:start position:0%
+<c.colorCCCCCC>distinguishing subtle differences in
+topics<00:00:58.619><c> and</c><00:00:58.860><c> in</c><00:00:59.100><c> to</c></c><c.colorE5E5E5><00:00:59.250><c> introduce</c></c><c.colorCCCCCC><00:00:59.900><c> semantically</c></c>
+
+00:01:00.890 --> 00:01:00.900 align:start position:0%
+topics<c.colorCCCCCC> and in to</c><c.colorE5E5E5> introduce</c><c.colorCCCCCC> semantically
+ </c>
+
+00:01:00.900 --> 00:01:03.969 align:start position:0%
+topics<c.colorCCCCCC> and in to</c><c.colorE5E5E5> introduce</c><c.colorCCCCCC> semantically
+related<00:01:01.019><c> words</c><00:01:01.619><c> in</c><00:01:02.580><c> a</c><00:01:02.850><c> fuzzy</c><00:01:03.449><c> manner</c></c>
+
+00:01:03.969 --> 00:01:03.979 align:start position:0%
+related<c.colorCCCCCC> words in a fuzzy manner
+ </c>
+
+00:01:03.979 --> 00:01:06.500 align:start position:0%
+related<c.colorCCCCCC> words in a fuzzy manner
+finally<00:01:04.979><c> to</c></c><c.colorE5E5E5><00:01:05.220><c> solve</c><00:01:05.489><c> the</c><00:01:05.700><c> problem</c><00:01:06.119><c> of</c><00:01:06.270><c> water</c></c>
+
+00:01:06.500 --> 00:01:06.510 align:start position:0%
+finally to<c.colorE5E5E5> solve the problem of water
+ </c>
+
+00:01:06.510 --> 00:01:09.980 align:start position:0%
+finally to<c.colorE5E5E5> solve the problem of water</c>
+<c.colorE5E5E5>ambiguity<00:01:07.290><c> we</c><00:01:07.860><c> need</c><00:01:08.040><c> to</c><00:01:08.159><c> split</c><00:01:08.520><c> an</c><00:01:08.990><c> ambiguous</c></c>
+
+00:01:09.980 --> 00:01:09.990 align:start position:0%
+<c.colorE5E5E5>ambiguity we need to split an ambiguous
+ </c>
+
+00:01:09.990 --> 00:01:12.740 align:start position:0%
+<c.colorE5E5E5>ambiguity we need to split an ambiguous
+word<00:01:10.649><c> so</c><00:01:11.340><c> that</c></c><c.colorCCCCCC><00:01:11.369><c> we</c><00:01:11.759><c> can</c><00:01:11.909><c> design</c></c><c.colorE5E5E5><00:01:12.119><c> the</c><00:01:12.479><c> great</c></c>
+
+00:01:12.740 --> 00:01:12.750 align:start position:0%
+word<c.colorE5E5E5> so that</c><c.colorCCCCCC> we can design</c><c.colorE5E5E5> the great
+ </c>
+
+00:01:12.750 --> 00:01:16.849 align:start position:0%
+word<c.colorE5E5E5> so that</c><c.colorCCCCCC> we can design</c><c.colorE5E5E5> the great
+it's<00:01:13.609><c> topic</c><00:01:14.689><c> it</c><00:01:15.689><c> turns</c><00:01:16.020><c> out</c><00:01:16.200><c> that</c></c><c.colorCCCCCC><00:01:16.439><c> but</c><00:01:16.680><c> all</c></c>
+
+00:01:16.849 --> 00:01:16.859 align:start position:0%
+it's topic<c.colorE5E5E5> it turns out that</c><c.colorCCCCCC> but all
+ </c>
+
+00:01:16.859 --> 00:01:19.490 align:start position:0%
+it's topic<c.colorE5E5E5> it turns out that</c><c.colorCCCCCC> but all
+these<00:01:17.130><c> can</c><00:01:17.579><c> be</c><00:01:17.609><c> done</c></c><c.colorE5E5E5><00:01:17.759><c> by</c><00:01:18.479><c> using</c><00:01:18.840><c> a</c><00:01:19.020><c> proper</c><00:01:19.259><c> risk</c></c>
+
+00:01:19.490 --> 00:01:19.500 align:start position:0%
+these can be<c.colorCCCCCC> done</c><c.colorE5E5E5> by using a proper risk
+ </c>
+
+00:01:19.500 --> 00:01:21.800 align:start position:0%
+these can be<c.colorCCCCCC> done</c><c.colorE5E5E5> by using a proper risk
+with<00:01:19.710><c> hopping</c><00:01:19.979><c> model</c><00:01:20.310><c> and</c><00:01:20.490><c> that's</c><00:01:21.359><c> why</c><00:01:21.570><c> we're</c></c>
+
+00:01:21.800 --> 00:01:21.810 align:start position:0%
+with hopping model<c.colorE5E5E5> and that's why we're
+ </c>
+
+00:01:21.810 --> 00:01:23.870 align:start position:0%
+with hopping model<c.colorE5E5E5> and that's why we're
+going<00:01:22.020><c> to</c><00:01:22.109><c> spend</c></c><c.colorCCCCCC><00:01:22.439><c> a</c></c><c.colorE5E5E5><00:01:22.770><c> lot</c><00:01:22.920><c> of</c></c><c.colorCCCCCC><00:01:22.950><c> lectures</c></c><c.colorE5E5E5><00:01:23.429><c> to</c><00:01:23.670><c> talk</c></c>
+
+00:01:23.870 --> 00:01:23.880 align:start position:0%
+going to<c.colorE5E5E5> spend</c><c.colorCCCCCC> a</c><c.colorE5E5E5> lot of</c><c.colorCCCCCC> lectures</c><c.colorE5E5E5> to talk
+ </c>
+
+00:01:23.880 --> 00:01:26.630 align:start position:0%
+going to<c.colorE5E5E5> spend</c><c.colorCCCCCC> a</c><c.colorE5E5E5> lot of</c><c.colorCCCCCC> lectures</c><c.colorE5E5E5> to talk
+about<00:01:24.000><c> this</c><00:01:24.299><c> topic</c><00:01:24.570><c> so</c></c><c.colorCCCCCC><00:01:24.929><c> the</c><00:01:25.890><c> basic</c><00:01:26.219><c> idea</c><00:01:26.340><c> here</c></c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+about<c.colorE5E5E5> this topic so</c><c.colorCCCCCC> the basic idea here
+ </c>
+
+00:01:26.640 --> 00:01:30.590 align:start position:0%
+about<c.colorE5E5E5> this topic so</c><c.colorCCCCCC> the basic idea here
+is<00:01:27.560><c> improve</c></c><c.colorE5E5E5><00:01:28.560><c> the</c><00:01:29.149><c> representation</c><00:01:30.149><c> of</c><00:01:30.210><c> topic</c></c>
+
+00:01:30.590 --> 00:01:30.600 align:start position:0%
+is improve<c.colorE5E5E5> the representation of topic
+ </c>
+
+00:01:30.600 --> 00:01:33.260 align:start position:0%
+is improve<c.colorE5E5E5> the representation of topic
+as<00:01:30.810><c> a</c><00:01:30.840><c> word</c><00:01:31.200><c> distribution</c><00:01:31.859><c> so</c><00:01:32.670><c> what</c><00:01:32.880><c> you</c><00:01:33.030><c> see</c></c>
+
+00:01:33.260 --> 00:01:33.270 align:start position:0%
+as a word distribution so what you see
+ 
+
+00:01:33.270 --> 00:01:35.929 align:start position:0%
+as a word distribution so what you see
+<c.colorCCCCCC>now<00:01:33.479><c> is</c></c><c.colorE5E5E5><00:01:33.869><c> the</c><00:01:34.530><c> old</c></c><c.colorCCCCCC><00:01:34.829><c> written</c><00:01:35.340><c> dating</c><00:01:35.640><c> where</c><00:01:35.789><c> we</c></c>
+
+00:01:35.929 --> 00:01:35.939 align:start position:0%
+<c.colorCCCCCC>now is</c><c.colorE5E5E5> the old</c><c.colorCCCCCC> written dating where we
+ </c>
+
+00:01:35.939 --> 00:01:37.849 align:start position:0%
+<c.colorCCCCCC>now is</c><c.colorE5E5E5> the old</c><c.colorCCCCCC> written dating where we
+represent</c><c.colorE5E5E5><00:01:36.420><c> each</c><00:01:36.570><c> topic</c><00:01:36.960><c> with</c><00:01:37.140><c> just</c><00:01:37.380><c> one</c><00:01:37.619><c> word</c></c>
+
+00:01:37.849 --> 00:01:37.859 align:start position:0%
+represent<c.colorE5E5E5> each topic with just one word
+ </c>
+
+00:01:37.859 --> 00:01:41.239 align:start position:0%
+represent<c.colorE5E5E5> each topic with just one word
+or<00:01:38.100><c> one</c></c><c.colorCCCCCC><00:01:38.130><c> term</c></c><c.colorE5E5E5><00:01:38.759><c> or</c><00:01:38.999><c> one</c><00:01:39.329><c> phrase</c><00:01:39.829><c> but</c><00:01:40.829><c> now</c><00:01:41.009><c> we're</c></c>
+
+00:01:41.239 --> 00:01:41.249 align:start position:0%
+or one<c.colorCCCCCC> term</c><c.colorE5E5E5> or one phrase but now we're
+ </c>
+
+00:01:41.249 --> 00:01:43.609 align:start position:0%
+or one<c.colorCCCCCC> term</c><c.colorE5E5E5> or one phrase but now we're
+going<00:01:41.369><c> to</c></c><c.colorCCCCCC><00:01:41.460><c> use</c><00:01:41.549><c> a</c><00:01:42.060><c> word</c><00:01:42.630><c> distribution</c></c><c.colorE5E5E5><00:01:43.350><c> to</c></c>
+
+00:01:43.609 --> 00:01:43.619 align:start position:0%
+going to<c.colorCCCCCC> use a word distribution</c><c.colorE5E5E5> to
+ </c>
+
+00:01:43.619 --> 00:01:45.919 align:start position:0%
+going to<c.colorCCCCCC> use a word distribution</c><c.colorE5E5E5> to
+describe<00:01:44.070><c> the</c><00:01:44.579><c> topic</c><00:01:44.909><c> so</c><00:01:45.329><c> here</c><00:01:45.509><c> you</c><00:01:45.630><c> see</c></c><c.colorCCCCCC><00:01:45.689><c> that</c></c>
+
+00:01:45.919 --> 00:01:45.929 align:start position:0%
+describe the topic<c.colorE5E5E5> so here you see</c><c.colorCCCCCC> that
+ </c>
+
+00:01:45.929 --> 00:01:48.319 align:start position:0%
+describe the topic<c.colorE5E5E5> so here you see</c><c.colorCCCCCC> that</c>
+<c.colorE5E5E5>for<00:01:46.439><c> sports</c></c><c.colorCCCCCC><00:01:46.799><c> we're</c><00:01:47.249><c> going</c><00:01:47.429><c> to</c><00:01:47.520><c> use</c><00:01:47.789><c> a</c><00:01:48.060><c> word</c></c>
+
+00:01:48.319 --> 00:01:48.329 align:start position:0%
+<c.colorE5E5E5>for sports</c><c.colorCCCCCC> we're going to use a word
+ </c>
+
+00:01:48.329 --> 00:01:51.080 align:start position:0%
+<c.colorE5E5E5>for sports</c><c.colorCCCCCC> we're going to use a word
+distributing<00:01:48.990><c> over</c></c><c.colorE5E5E5><00:01:49.759><c> theoretical</c><00:01:50.759><c> speaking</c></c>
+
+00:01:51.080 --> 00:01:51.090 align:start position:0%
+distributing over<c.colorE5E5E5> theoretical speaking
+ </c>
+
+00:01:51.090 --> 00:01:54.919 align:start position:0%
+distributing over<c.colorE5E5E5> theoretical speaking</c>
+<c.colorE5E5E5>all<00:01:51.270><c> the</c></c><c.colorCCCCCC><00:01:51.329><c> words</c><00:01:51.810><c> in</c></c><c.colorE5E5E5><00:01:52.049><c> our</c><00:01:52.350><c> vocabulary</c><00:01:53.780><c> so</c><00:01:54.780><c> for</c></c>
+
+00:01:54.919 --> 00:01:54.929 align:start position:0%
+<c.colorE5E5E5>all the</c><c.colorCCCCCC> words in</c><c.colorE5E5E5> our vocabulary so for
+ </c>
+
+00:01:54.929 --> 00:01:57.469 align:start position:0%
+<c.colorE5E5E5>all the</c><c.colorCCCCCC> words in</c><c.colorE5E5E5> our vocabulary so for</c>
+<c.colorE5E5E5>example<00:01:55.380><c> the</c><00:01:55.530><c> high</c></c><c.colorCCCCCC><00:01:55.679><c> probability</c><00:01:56.369><c> words</c><00:01:56.640><c> here</c></c>
+
+00:01:57.469 --> 00:01:57.479 align:start position:0%
+<c.colorE5E5E5>example the high</c><c.colorCCCCCC> probability words here
+ </c>
+
+00:01:57.479 --> 00:02:02.120 align:start position:0%
+<c.colorE5E5E5>example the high</c><c.colorCCCCCC> probability words here
+are<00:01:57.719><c> sports</c><00:01:58.439><c> game</c></c><c.colorE5E5E5><00:01:59.689><c> basketball</c><00:02:00.689><c> football</c><00:02:01.380><c> play</c></c>
+
+00:02:02.120 --> 00:02:02.130 align:start position:0%
+are sports game<c.colorE5E5E5> basketball football play
+ </c>
+
+00:02:02.130 --> 00:02:05.419 align:start position:0%
+are sports game<c.colorE5E5E5> basketball football play
+star<00:02:02.609><c> etc</c><00:02:02.960><c> these</c><00:02:03.960><c> are</c><00:02:04.020><c> sports</c></c><c.colorCCCCCC><00:02:04.560><c> redditor</c><00:02:05.189><c> terms</c></c>
+
+00:02:05.419 --> 00:02:05.429 align:start position:0%
+star etc<c.colorE5E5E5> these are sports</c><c.colorCCCCCC> redditor terms
+ </c>
+
+00:02:05.429 --> 00:02:07.700 align:start position:0%
+star etc<c.colorE5E5E5> these are sports</c><c.colorCCCCCC> redditor terms</c>
+<c.colorCCCCCC>and<00:02:05.759><c> of</c><00:02:06.240><c> course</c><00:02:06.450><c> it</c><00:02:06.810><c> would</c><00:02:07.229><c> also</c><00:02:07.439><c> give</c><00:02:07.560><c> a</c></c>
+
+00:02:07.700 --> 00:02:07.710 align:start position:0%
+<c.colorCCCCCC>and of course it would also give a
+ </c>
+
+00:02:07.710 --> 00:02:09.950 align:start position:0%
+<c.colorCCCCCC>and of course it would also give a</c>
+<c.colorE5E5E5>nonzero<00:02:08.280><c> probability</c><00:02:08.369><c> to</c><00:02:09.240><c> some</c><00:02:09.509><c> other</c><00:02:09.690><c> world</c></c>
+
+00:02:09.950 --> 00:02:09.960 align:start position:0%
+<c.colorE5E5E5>nonzero probability to some other world
+ </c>
+
+00:02:09.960 --> 00:02:13.190 align:start position:0%
+<c.colorE5E5E5>nonzero probability to some other world
+like<00:02:10.289><c> travel</c><00:02:11.130><c> which</c><00:02:12.000><c> might</c><00:02:12.420><c> be</c></c><c.colorCCCCCC><00:02:12.660><c> related</c><00:02:13.170><c> to</c></c>
+
+00:02:13.190 --> 00:02:13.200 align:start position:0%
+like travel which might be<c.colorCCCCCC> related to
+ </c>
+
+00:02:13.200 --> 00:02:16.280 align:start position:0%
+like travel which might be<c.colorCCCCCC> related to</c>
+<c.colorE5E5E5>sports<00:02:13.560><c> but</c><00:02:13.709><c> in</c><00:02:14.430><c> general</c><00:02:14.970><c> not</c><00:02:15.480><c> so</c><00:02:16.140><c> much</c></c>
+
+00:02:16.280 --> 00:02:16.290 align:start position:0%
+<c.colorE5E5E5>sports but in general not so much
+ </c>
+
+00:02:16.290 --> 00:02:16.970 align:start position:0%
+<c.colorE5E5E5>sports but in general not so much</c>
+<c.colorE5E5E5>related</c>
+
+00:02:16.970 --> 00:02:16.980 align:start position:0%
+<c.colorE5E5E5>related
+ </c>
+
+00:02:16.980 --> 00:02:20.360 align:start position:0%
+<c.colorE5E5E5>related
+topic<00:02:17.900><c> in</c><00:02:18.900><c> general</c></c><c.colorCCCCCC><00:02:19.140><c> we</c><00:02:19.650><c> can</c><00:02:19.860><c> imagine</c><00:02:20.099><c> a</c></c>
+
+00:02:20.360 --> 00:02:20.370 align:start position:0%
+topic in general<c.colorCCCCCC> we can imagine a
+ </c>
+
+00:02:20.370 --> 00:02:22.430 align:start position:0%
+topic in general<c.colorCCCCCC> we can imagine a
+nonzero<00:02:20.849><c> probability</c><00:02:20.909><c> for</c><00:02:21.780><c> all</c></c><c.colorE5E5E5><00:02:22.019><c> the</c></c><c.colorCCCCCC><00:02:22.230><c> words</c></c>
+
+00:02:22.430 --> 00:02:22.440 align:start position:0%
+nonzero probability for all<c.colorE5E5E5> the</c><c.colorCCCCCC> words
+ </c>
+
+00:02:22.440 --> 00:02:24.890 align:start position:0%
+nonzero probability for all<c.colorE5E5E5> the</c><c.colorCCCCCC> words</c>
+<c.colorE5E5E5>and<00:02:22.739><c> some</c><00:02:23.340><c> words</c><00:02:23.610><c> that</c><00:02:23.940><c> are</c></c><c.colorCCCCCC><00:02:24.299><c> not</c><00:02:24.360><c> relevant</c></c>
+
+00:02:24.890 --> 00:02:24.900 align:start position:0%
+<c.colorE5E5E5>and some words that are</c><c.colorCCCCCC> not relevant
+ </c>
+
+00:02:24.900 --> 00:02:27.380 align:start position:0%
+<c.colorE5E5E5>and some words that are</c><c.colorCCCCCC> not relevant
+would</c><c.colorE5E5E5><00:02:25.170><c> have</c><00:02:25.349><c> very</c><00:02:25.620><c> very</c><00:02:26.040><c> small</c><00:02:26.390><c> probabilities</c></c>
+
+00:02:27.380 --> 00:02:27.390 align:start position:0%
+<c.colorCCCCCC>would</c><c.colorE5E5E5> have very very small probabilities
+ </c>
+
+00:02:27.390 --> 00:02:30.970 align:start position:0%
+<c.colorCCCCCC>would</c><c.colorE5E5E5> have very very small probabilities
+and<00:02:27.690><c> these</c><00:02:28.110><c> probabilities</c><00:02:28.890><c> was</c><00:02:29.250><c> something</c></c><c.colorCCCCCC><00:02:29.640><c> 1</c></c>
+
+00:02:30.970 --> 00:02:30.980 align:start position:0%
+and these probabilities<c.colorE5E5E5> was something</c><c.colorCCCCCC> 1
+ </c>
+
+00:02:30.980 --> 00:02:33.830 align:start position:0%
+and these probabilities<c.colorE5E5E5> was something</c><c.colorCCCCCC> 1</c>
+<c.colorE5E5E5>so<00:02:31.980><c> that</c><00:02:32.190><c> it</c><00:02:32.459><c> forms</c><00:02:32.819><c> a</c><00:02:32.909><c> distribution</c><00:02:33.180><c> of</c><00:02:33.569><c> all</c></c>
+
+00:02:33.830 --> 00:02:33.840 align:start position:0%
+<c.colorE5E5E5>so that it forms a distribution of all
+ </c>
+
+00:02:33.840 --> 00:02:37.850 align:start position:0%
+<c.colorE5E5E5>so that it forms a distribution of all
+the<00:02:34.019><c> world</c><00:02:35.690><c> now</c><00:02:36.690><c> intuitively</c></c><c.colorCCCCCC><00:02:37.110><c> this</c></c>
+
+00:02:37.850 --> 00:02:37.860 align:start position:0%
+the world now intuitively<c.colorCCCCCC> this
+ </c>
+
+00:02:37.860 --> 00:02:40.280 align:start position:0%
+the world now intuitively<c.colorCCCCCC> this
+distribution</c><c.colorE5E5E5><00:02:38.360><c> represents</c><00:02:39.360><c> a</c><00:02:39.510><c> topic</c><00:02:39.900><c> in</c></c><c.colorCCCCCC><00:02:40.049><c> that</c></c>
+
+00:02:40.280 --> 00:02:40.290 align:start position:0%
+distribution<c.colorE5E5E5> represents a topic in</c><c.colorCCCCCC> that
+ </c>
+
+00:02:40.290 --> 00:02:42.699 align:start position:0%
+distribution<c.colorE5E5E5> represents a topic in</c><c.colorCCCCCC> that
+if</c><c.colorE5E5E5><00:02:40.590><c> we</c><00:02:40.799><c> assemble</c><00:02:41.430><c> words</c><00:02:41.670><c> from</c><00:02:42.180><c> the</c></c>
+
+00:02:42.699 --> 00:02:42.709 align:start position:0%
+if<c.colorE5E5E5> we assemble words from the
+ </c>
+
+00:02:42.709 --> 00:02:45.470 align:start position:0%
+if<c.colorE5E5E5> we assemble words from the
+distribution<00:02:43.709><c> we</c><00:02:44.190><c> tend</c><00:02:44.430><c> to</c><00:02:44.519><c> see</c><00:02:44.819><c> words</c><00:02:45.120><c> that</c></c>
+
+00:02:45.470 --> 00:02:45.480 align:start position:0%
+distribution we<c.colorE5E5E5> tend to see words that
+ </c>
+
+00:02:45.480 --> 00:02:49.069 align:start position:0%
+distribution we<c.colorE5E5E5> tend to see words that
+are<00:02:45.599><c> ready</c><00:02:45.840><c> to</c></c><c.colorCCCCCC><00:02:45.959><c> the</c><00:02:46.290><c> sports</c><00:02:46.560><c> you</c><00:02:47.659><c> can</c><00:02:48.659><c> also</c><00:02:48.810><c> see</c></c>
+
+00:02:49.069 --> 00:02:49.079 align:start position:0%
+are ready to<c.colorCCCCCC> the sports you can also see
+ </c>
+
+00:02:49.079 --> 00:02:51.589 align:start position:0%
+are ready to<c.colorCCCCCC> the sports you can also see
+as<00:02:49.620><c> a</c><00:02:49.650><c> very</c><00:02:49.950><c> special</c><00:02:50.700><c> case</c></c><c.colorE5E5E5><00:02:50.940><c> if</c><00:02:51.180><c> the</c></c>
+
+00:02:51.589 --> 00:02:51.599 align:start position:0%
+as a very<c.colorCCCCCC> special case</c><c.colorE5E5E5> if the
+ </c>
+
+00:02:51.599 --> 00:02:53.690 align:start position:0%
+as a very<c.colorCCCCCC> special case</c><c.colorE5E5E5> if the
+probability<00:02:52.170><c> the</c><00:02:52.230><c> mass</c><00:02:52.410><c> is</c><00:02:52.680><c> concentrated</c><00:02:53.220><c> in</c></c>
+
+00:02:53.690 --> 00:02:53.700 align:start position:0%
+probability the mass is<c.colorE5E5E5> concentrated in
+ </c>
+
+00:02:53.700 --> 00:02:55.940 align:start position:0%
+probability the mass is<c.colorE5E5E5> concentrated in
+China</c><c.colorCCCCCC><00:02:54.000><c> of</c><00:02:54.239><c> just</c><00:02:54.540><c> one</c><00:02:54.900><c> word</c></c><c.colorE5E5E5><00:02:55.140><c> needs</c><00:02:55.470><c> a</c><00:02:55.620><c> sports</c></c>
+
+00:02:55.940 --> 00:02:55.950 align:start position:0%
+China<c.colorCCCCCC> of just one word</c><c.colorE5E5E5> needs a sports
+ </c>
+
+00:02:55.950 --> 00:02:59.869 align:start position:0%
+China<c.colorCCCCCC> of just one word</c><c.colorE5E5E5> needs a sports
+and<00:02:56.220><c> this</c><00:02:56.940><c> basically</c><00:02:58.310><c> degenerates</c><00:02:59.310><c> to</c><00:02:59.430><c> the</c></c>
+
+00:02:59.869 --> 00:02:59.879 align:start position:0%
+and this basically degenerates to<c.colorE5E5E5> the
+ </c>
+
+00:02:59.879 --> 00:03:02.479 align:start position:0%
+and this basically degenerates to<c.colorE5E5E5> the
+simple<00:03:00.420><c> recommendation</c><00:03:00.750><c> of</c><00:03:01.319><c> topical</c><00:03:02.190><c> with</c></c>
+
+00:03:02.479 --> 00:03:02.489 align:start position:0%
+simple recommendation<c.colorE5E5E5> of topical with
+ </c>
+
+00:03:02.489 --> 00:03:07.759 align:start position:0%
+simple recommendation<c.colorE5E5E5> of topical with
+just<00:03:02.790><c> one</c><00:03:03.030><c> word</c></c><c.colorCCCCCC><00:03:03.299><c> but</c><00:03:03.950><c> as</c><00:03:04.950><c> a</c><00:03:05.010><c> distribution</c><00:03:06.769><c> this</c></c>
+
+00:03:07.759 --> 00:03:07.769 align:start position:0%
+just one word<c.colorCCCCCC> but as a distribution this
+ </c>
+
+00:03:07.769 --> 00:03:10.670 align:start position:0%
+just one word<c.colorCCCCCC> but as a distribution this</c>
+<c.colorE5E5E5>topical<00:03:08.700><c> representation</c><00:03:09.299><c> can</c><00:03:10.170><c> in</c><00:03:10.470><c> general</c></c>
+
+00:03:10.670 --> 00:03:10.680 align:start position:0%
+<c.colorE5E5E5>topical representation can in general
+ </c>
+
+00:03:10.680 --> 00:03:13.580 align:start position:0%
+<c.colorE5E5E5>topical representation can in general</c>
+<c.colorE5E5E5>involve<00:03:11.310><c> many</c><00:03:11.579><c> words</c><00:03:11.879><c> to</c><00:03:12.629><c> describe</c><00:03:12.810><c> a</c><00:03:13.230><c> topic</c></c>
+
+00:03:13.580 --> 00:03:13.590 align:start position:0%
+<c.colorE5E5E5>involve many words to describe a topic
+ </c>
+
+00:03:13.590 --> 00:03:16.130 align:start position:0%
+<c.colorE5E5E5>involve many words to describe a topic
+and<00:03:13.859><c> can</c><00:03:14.129><c> model</c><00:03:14.549><c> subtle</c><00:03:15.510><c> differences</c><00:03:16.079><c> in</c></c>
+
+00:03:16.130 --> 00:03:16.140 align:start position:0%
+<c.colorE5E5E5>and can model subtle differences in
+ </c>
+
+00:03:16.140 --> 00:03:18.619 align:start position:0%
+<c.colorE5E5E5>and can model subtle differences in
+semantics<00:03:16.950><c> of</c><00:03:17.129><c> a</c><00:03:17.310><c> topic</c><00:03:17.670><c> similarly</c><00:03:18.329><c> we</c><00:03:18.480><c> can</c></c>
+
+00:03:18.619 --> 00:03:18.629 align:start position:0%
+semantics of<c.colorE5E5E5> a topic similarly we can
+ </c>
+
+00:03:18.629 --> 00:03:22.339 align:start position:0%
+semantics of<c.colorE5E5E5> a topic similarly we can
+model<00:03:18.930><c> travel</c><00:03:19.379><c> and</c><00:03:19.650><c> science</c><00:03:20.269><c> with</c><00:03:21.349><c> their</c></c>
+
+00:03:22.339 --> 00:03:22.349 align:start position:0%
+model travel and science<c.colorE5E5E5> with their
+ </c>
+
+00:03:22.349 --> 00:03:24.740 align:start position:0%
+model travel and science<c.colorE5E5E5> with their</c>
+<c.colorE5E5E5>respective<00:03:23.040><c> distributions</c><00:03:23.940><c> so</c><00:03:24.480><c> in</c><00:03:24.630><c> the</c></c>
+
+00:03:24.740 --> 00:03:24.750 align:start position:0%
+<c.colorE5E5E5>respective distributions so in the
+ </c>
+
+00:03:24.750 --> 00:03:27.409 align:start position:0%
+<c.colorE5E5E5>respective distributions so in the
+distribution<00:03:24.989><c> for</c><00:03:25.410><c> travel</c><00:03:25.799><c> we</c><00:03:25.980><c> see</c><00:03:26.220><c> top</c><00:03:27.150><c> words</c></c>
+
+00:03:27.409 --> 00:03:27.419 align:start position:0%
+distribution for travel we see top words
+ 
+
+00:03:27.419 --> 00:03:30.289 align:start position:0%
+distribution for travel we see top words
+like<c.colorE5E5E5><00:03:27.870><c> attraction</c></c><c.colorCCCCCC><00:03:28.620><c> trip</c><00:03:29.130><c> or</c><00:03:29.310><c> flight</c></c><c.colorE5E5E5><00:03:29.579><c> hotel</c><00:03:29.970><c> et</c></c>
+
+00:03:30.289 --> 00:03:30.299 align:start position:0%
+like<c.colorE5E5E5> attraction</c><c.colorCCCCCC> trip or flight</c><c.colorE5E5E5> hotel et
+ </c>
+
+00:03:30.299 --> 00:03:30.940 align:start position:0%
+like<c.colorE5E5E5> attraction</c><c.colorCCCCCC> trip or flight</c><c.colorE5E5E5> hotel et
+cetera</c>
+
+00:03:30.940 --> 00:03:30.950 align:start position:0%
+cetera
+ 
+
+00:03:30.950 --> 00:03:33.789 align:start position:0%
+cetera
+<c.colorE5E5E5>whereas<00:03:31.950><c> in</c><00:03:32.099><c> science</c><00:03:32.639><c> will</c><00:03:32.880><c> see</c></c><c.colorCCCCCC><00:03:33.030><c> scientist</c></c>
+
+00:03:33.789 --> 00:03:33.799 align:start position:0%
+<c.colorE5E5E5>whereas in science will see</c><c.colorCCCCCC> scientist
+ </c>
+
+00:03:33.799 --> 00:03:36.920 align:start position:0%
+<c.colorE5E5E5>whereas in science will see</c><c.colorCCCCCC> scientist</c>
+<c.colorE5E5E5>spaceship</c><c.colorCCCCCC><00:03:34.910><c> Telescope</c></c><c.colorE5E5E5><00:03:35.910><c> of</c></c><c.colorCCCCCC><00:03:36.090><c> genomics</c><00:03:36.690><c> and</c></c>
+
+00:03:36.920 --> 00:03:36.930 align:start position:0%
+<c.colorE5E5E5>spaceship</c><c.colorCCCCCC> Telescope</c><c.colorE5E5E5> of</c><c.colorCCCCCC> genomics and
+ </c>
+
+00:03:36.930 --> 00:03:40.190 align:start position:0%
+<c.colorE5E5E5>spaceship</c><c.colorCCCCCC> Telescope</c><c.colorE5E5E5> of</c><c.colorCCCCCC> genomics and</c>
+<c.colorCCCCCC>neuroscience<00:03:37.889><c> relate</c></c><c.colorE5E5E5><00:03:38.220><c> returns</c><00:03:38.870><c> now</c><00:03:39.870><c> that</c></c>
+
+00:03:40.190 --> 00:03:40.200 align:start position:0%
+<c.colorCCCCCC>neuroscience relate</c><c.colorE5E5E5> returns now that
+ </c>
+
+00:03:40.200 --> 00:03:43.400 align:start position:0%
+<c.colorCCCCCC>neuroscience relate</c><c.colorE5E5E5> returns now that
+doesn't<00:03:40.650><c> mean</c><00:03:40.950><c> sports</c></c><c.colorCCCCCC><00:03:41.790><c> ability</c><00:03:42.269><c> terms</c><00:03:42.510><c> where</c></c>
+
+00:03:43.400 --> 00:03:43.410 align:start position:0%
+doesn't mean sports<c.colorCCCCCC> ability terms where
+ </c>
+
+00:03:43.410 --> 00:03:45.470 align:start position:0%
+doesn't mean sports<c.colorCCCCCC> ability terms where
+necessary<00:03:43.590><c> have</c><00:03:44.069><c> 0</c><00:03:44.489><c> probabilities</c><00:03:45.269><c> for</c></c>
+
+00:03:45.470 --> 00:03:45.480 align:start position:0%
+necessary have<c.colorCCCCCC> 0 probabilities for
+ </c>
+
+00:03:45.480 --> 00:03:48.140 align:start position:0%
+necessary have<c.colorCCCCCC> 0 probabilities for
+science<00:03:45.870><c> in</c><00:03:46.349><c> general</c><00:03:46.859><c> we</c></c><c.colorE5E5E5><00:03:47.220><c> can</c><00:03:47.519><c> imagine</c><00:03:47.760><c> all</c></c>
+
+00:03:48.140 --> 00:03:48.150 align:start position:0%
+science in<c.colorCCCCCC> general we</c><c.colorE5E5E5> can imagine all
+ </c>
+
+00:03:48.150 --> 00:03:49.930 align:start position:0%
+science in<c.colorCCCCCC> general we</c><c.colorE5E5E5> can imagine all
+these<00:03:48.329><c> words</c><00:03:49.139><c> we</c><00:03:49.410><c> have</c><00:03:49.560><c> nonzero</c></c>
+
+00:03:49.930 --> 00:03:49.940 align:start position:0%
+these words we have<c.colorE5E5E5> nonzero
+ </c>
+
+00:03:49.940 --> 00:03:53.030 align:start position:0%
+these words we have<c.colorE5E5E5> nonzero
+probabilities<00:03:50.940><c> it's</c><00:03:51.930><c> just</c><00:03:52.230><c> that</c><00:03:52.560><c> for</c><00:03:52.980><c> a</c></c>
+
+00:03:53.030 --> 00:03:53.040 align:start position:0%
+probabilities<c.colorE5E5E5> it's just that for a
+ </c>
+
+00:03:53.040 --> 00:03:54.710 align:start position:0%
+probabilities<c.colorE5E5E5> it's just that for a
+particular<00:03:53.370><c> topic</c></c><c.colorCCCCCC><00:03:53.639><c> of</c><00:03:53.940><c> some</c><00:03:54.060><c> words</c><00:03:54.359><c> we</c><00:03:54.540><c> have</c></c>
+
+00:03:54.710 --> 00:03:54.720 align:start position:0%
+<c.colorE5E5E5>particular topic</c><c.colorCCCCCC> of some words we have
+ </c>
+
+00:03:54.720 --> 00:03:58.339 align:start position:0%
+<c.colorE5E5E5>particular topic</c><c.colorCCCCCC> of some words we have
+very</c><c.colorE5E5E5><00:03:55.019><c> very</c><00:03:55.319><c> small</c><00:03:55.620><c> probabilities</c></c><c.colorCCCCCC><00:03:56.489><c> now</c><00:03:57.349><c> you</c></c>
+
+00:03:58.339 --> 00:03:58.349 align:start position:0%
+very<c.colorE5E5E5> very small probabilities</c><c.colorCCCCCC> now you
+ </c>
+
+00:03:58.349 --> 00:04:00.349 align:start position:0%
+very<c.colorE5E5E5> very small probabilities</c><c.colorCCCCCC> now you
+can<00:03:58.620><c> also</c><00:03:58.769><c> see</c><00:03:59.099><c> there</c><00:03:59.489><c> are</c><00:03:59.669><c> some</c><00:03:59.879><c> words</c><00:04:00.180><c> that</c></c>
+
+00:04:00.349 --> 00:04:00.359 align:start position:0%
+can also see there are some words that
+ 
+
+00:04:00.359 --> 00:04:03.170 align:start position:0%
+can also see there are some words that
+are<c.colorE5E5E5><00:04:00.480><c> shared</c><00:04:00.810><c> by</c><00:04:01.139><c> these</c><00:04:02.069><c> topics</c><00:04:02.549><c> well</c><00:04:02.910><c> when</c><00:04:03.150><c> I</c></c>
+
+00:04:03.170 --> 00:04:03.180 align:start position:0%
+are<c.colorE5E5E5> shared by these topics well when I
+ </c>
+
+00:04:03.180 --> 00:04:05.720 align:start position:0%
+are<c.colorE5E5E5> shared by these topics well when I
+say<00:04:03.510><c> share</c><00:04:03.750><c> it</c><00:04:04.049><c> just</c></c><c.colorCCCCCC><00:04:04.079><c> means</c><00:04:04.530><c> even</c></c><c.colorE5E5E5><00:04:05.340><c> with</c><00:04:05.489><c> some</c></c>
+
+00:04:05.720 --> 00:04:05.730 align:start position:0%
+say share it just<c.colorCCCCCC> means even</c><c.colorE5E5E5> with some
+ </c>
+
+00:04:05.730 --> 00:04:08.360 align:start position:0%
+say share it just<c.colorCCCCCC> means even</c><c.colorE5E5E5> with some
+probability<00:04:06.030><c> threshold</c></c><c.colorCCCCCC><00:04:06.739><c> you</c><00:04:07.739><c> can</c><00:04:07.859><c> still</c><00:04:08.129><c> see</c></c>
+
+00:04:08.360 --> 00:04:08.370 align:start position:0%
+probability threshold<c.colorCCCCCC> you can still see
+ </c>
+
+00:04:08.370 --> 00:04:11.000 align:start position:0%
+probability threshold<c.colorCCCCCC> you can still see
+one<00:04:08.819><c> word</c></c><c.colorE5E5E5><00:04:09.030><c> to</c><00:04:09.329><c> occur</c><00:04:09.599><c> in</c><00:04:09.780><c> multiple</c><00:04:09.959><c> topics</c><00:04:10.410><c> in</c></c>
+
+00:04:11.000 --> 00:04:11.010 align:start position:0%
+one word<c.colorE5E5E5> to occur in multiple topics in
+ </c>
+
+00:04:11.010 --> 00:04:13.339 align:start position:0%
+one word<c.colorE5E5E5> to occur in multiple topics in
+this<00:04:11.190><c> case</c><00:04:11.430><c> I</c></c><c.colorCCCCCC><00:04:11.579><c> marked</c><00:04:12.030><c> them</c><00:04:12.150><c> in</c><00:04:12.359><c> black</c></c><c.colorE5E5E5><00:04:12.720><c> so</c><00:04:13.260><c> you</c></c>
+
+00:04:13.339 --> 00:04:13.349 align:start position:0%
+this case<c.colorE5E5E5> I</c><c.colorCCCCCC> marked them in black</c><c.colorE5E5E5> so you
+ </c>
+
+00:04:13.349 --> 00:04:15.379 align:start position:0%
+this case<c.colorE5E5E5> I</c><c.colorCCCCCC> marked them in black</c><c.colorE5E5E5> so you
+can<00:04:13.500><c> see</c><00:04:13.680><c> travel</c><00:04:14.160><c> for</c></c><c.colorCCCCCC><00:04:14.340><c> example</c><00:04:14.760><c> occurred</c><00:04:15.209><c> in</c></c>
+
+00:04:15.379 --> 00:04:15.389 align:start position:0%
+can see travel for<c.colorCCCCCC> example occurred in
+ </c>
+
+00:04:15.389 --> 00:04:17.240 align:start position:0%
+can see travel for<c.colorCCCCCC> example occurred in
+all<00:04:15.690><c> the</c><00:04:15.840><c> three</c><00:04:16.049><c> topics</c><00:04:16.440><c> here</c><00:04:16.709><c> but</c><00:04:17.070><c> was</c></c>
+
+00:04:17.240 --> 00:04:17.250 align:start position:0%
+all the three<c.colorCCCCCC> topics here but was
+ </c>
+
+00:04:17.250 --> 00:04:19.909 align:start position:0%
+all the three<c.colorCCCCCC> topics here but was
+different<00:04:17.639><c> the</c><00:04:17.699><c> probabilities</c><00:04:18.359><c> it</c><00:04:19.199><c> has</c><00:04:19.680><c> the</c></c>
+
+00:04:19.909 --> 00:04:19.919 align:start position:0%
+different the probabilities it has the
+ 
+
+00:04:19.919 --> 00:04:21.979 align:start position:0%
+different the probabilities it has the
+highest<c.colorE5E5E5><00:04:20.099><c> probability</c><00:04:20.459><c> for</c><00:04:21.120><c> the</c><00:04:21.269><c> travel</c><00:04:21.630><c> topic</c></c>
+
+00:04:21.979 --> 00:04:21.989 align:start position:0%
+highest<c.colorE5E5E5> probability for the travel topic
+ </c>
+
+00:04:21.989 --> 00:04:26.029 align:start position:0%
+highest<c.colorE5E5E5> probability for the travel topic</c>
+<c.colorE5E5E5>0.05<00:04:22.970><c> but</c><00:04:23.970><c> with</c><00:04:24.630><c> much</c><00:04:24.930><c> smaller</c><00:04:25.320><c> probabilities</c></c>
+
+00:04:26.029 --> 00:04:26.039 align:start position:0%
+<c.colorE5E5E5>0.05 but with much smaller probabilities
+ </c>
+
+00:04:26.039 --> 00:04:28.219 align:start position:0%
+<c.colorE5E5E5>0.05 but with much smaller probabilities
+for<00:04:26.280><c> sports</c></c><c.colorCCCCCC><00:04:26.610><c> and</c><00:04:26.820><c> science</c><00:04:27.270><c> which</c><00:04:27.810><c> makes</c><00:04:28.080><c> a</c></c>
+
+00:04:28.219 --> 00:04:28.229 align:start position:0%
+for sports<c.colorCCCCCC> and science which makes a
+ </c>
+
+00:04:28.229 --> 00:04:29.020 align:start position:0%
+for sports<c.colorCCCCCC> and science which makes a
+sense</c>
+
+00:04:29.020 --> 00:04:29.030 align:start position:0%
+sense
+ 
+
+00:04:29.030 --> 00:04:31.060 align:start position:0%
+sense
+and<00:04:29.420><c> similarly</c><00:04:29.810><c> you</c><c.colorE5E5E5><00:04:29.900><c> can</c><00:04:30.050><c> see</c><00:04:30.230><c> star</c><00:04:30.560><c> also</c></c>
+
+00:04:31.060 --> 00:04:31.070 align:start position:0%
+and similarly you<c.colorE5E5E5> can see star also
+ </c>
+
+00:04:31.070 --> 00:04:33.490 align:start position:0%
+and similarly you<c.colorE5E5E5> can see star also
+occurred<00:04:31.400><c> in</c><00:04:31.520><c> sports</c><00:04:31.970><c> and</c><00:04:32.210><c> science</c><00:04:32.660><c> with</c></c>
+
+00:04:33.490 --> 00:04:33.500 align:start position:0%
+occurred in sports and<c.colorE5E5E5> science with
+ </c>
+
+00:04:33.500 --> 00:04:35.440 align:start position:0%
+occurred in sports and<c.colorE5E5E5> science with
+reasonably<00:04:34.160><c> high</c><00:04:34.340><c> probabilities</c><00:04:35.150><c> because</c></c>
+
+00:04:35.440 --> 00:04:35.450 align:start position:0%
+<c.colorE5E5E5>reasonably high probabilities because
+ </c>
+
+00:04:35.450 --> 00:04:38.080 align:start position:0%
+<c.colorE5E5E5>reasonably high probabilities because</c>
+<c.colorE5E5E5>they<00:04:35.990><c> might</c></c><c.colorCCCCCC><00:04:36.200><c> be</c><00:04:36.500><c> actually</c><00:04:37.340><c> related</c><00:04:37.880><c> to</c></c><c.colorE5E5E5><00:04:37.970><c> the</c></c>
+
+00:04:38.080 --> 00:04:38.090 align:start position:0%
+<c.colorE5E5E5>they might</c><c.colorCCCCCC> be actually related to</c><c.colorE5E5E5> the
+ </c>
+
+00:04:38.090 --> 00:04:38.830 align:start position:0%
+<c.colorE5E5E5>they might</c><c.colorCCCCCC> be actually related to</c><c.colorE5E5E5> the
+two<00:04:38.270><c> topics</c></c>
+
+00:04:38.830 --> 00:04:38.840 align:start position:0%
+two topics
+ 
+
+00:04:38.840 --> 00:04:41.050 align:start position:0%
+two topics
+so<00:04:39.290><c> with</c><00:04:39.560><c> this</c><00:04:39.710><c> replenishing</c><00:04:40.520><c> it</c><00:04:40.670><c> addresses</c>
+
+00:04:41.050 --> 00:04:41.060 align:start position:0%
+so with this replenishing it addresses
+ 
+
+00:04:41.060 --> 00:04:42.700 align:start position:0%
+so with this replenishing it addresses
+<c.colorE5E5E5>the<00:04:41.360><c> three</c><00:04:41.600><c> problems</c><00:04:41.810><c> that</c><00:04:42.230><c> mentioned</c></c>
+
+00:04:42.700 --> 00:04:42.710 align:start position:0%
+<c.colorE5E5E5>the three problems that mentioned
+ </c>
+
+00:04:42.710 --> 00:04:45.520 align:start position:0%
+<c.colorE5E5E5>the three problems that mentioned
+earlier<00:04:43.040><c> first</c><00:04:43.610><c> it</c><00:04:44.300><c> now</c><00:04:44.480><c> uses</c><00:04:44.900><c> multiple</c><00:04:45.080><c> words</c></c>
+
+00:04:45.520 --> 00:04:45.530 align:start position:0%
+earlier first it now uses multiple<c.colorE5E5E5> words
+ </c>
+
+00:04:45.530 --> 00:04:47.680 align:start position:0%
+earlier first it now uses multiple<c.colorE5E5E5> words
+to<00:04:45.770><c> describe</c></c><c.colorCCCCCC><00:04:45.980><c> a</c><00:04:46.250><c> topic</c></c><c.colorE5E5E5><00:04:46.640><c> so</c><00:04:46.880><c> it</c><00:04:47.000><c> allows</c><00:04:47.450><c> us</c></c><c.colorCCCCCC><00:04:47.480><c> to</c></c>
+
+00:04:47.680 --> 00:04:47.690 align:start position:0%
+to describe<c.colorCCCCCC> a topic</c><c.colorE5E5E5> so it allows us</c><c.colorCCCCCC> to
+ </c>
+
+00:04:47.690 --> 00:04:50.100 align:start position:0%
+to describe<c.colorCCCCCC> a topic</c><c.colorE5E5E5> so it allows us</c><c.colorCCCCCC> to</c>
+<c.colorE5E5E5>describe</c><c.colorCCCCCC><00:04:48.140><c> a</c><00:04:48.260><c> very</c></c><c.colorE5E5E5><00:04:48.560><c> complicated</c><00:04:49.190><c> topics</c></c>
+
+00:04:50.100 --> 00:04:50.110 align:start position:0%
+<c.colorE5E5E5>describe</c><c.colorCCCCCC> a very</c><c.colorE5E5E5> complicated topics
+ </c>
+
+00:04:50.110 --> 00:04:53.710 align:start position:0%
+<c.colorE5E5E5>describe</c><c.colorCCCCCC> a very</c><c.colorE5E5E5> complicated topics
+second</c><c.colorCCCCCC><00:04:51.110><c> it</c><00:04:51.320><c> assigns</c><00:04:52.010><c> weights</c><00:04:52.430><c> to</c><00:04:52.850><c> terms</c><00:04:53.300><c> so</c></c>
+
+00:04:53.710 --> 00:04:53.720 align:start position:0%
+second<c.colorCCCCCC> it assigns weights to terms so
+ </c>
+
+00:04:53.720 --> 00:04:55.630 align:start position:0%
+second<c.colorCCCCCC> it assigns weights to terms so
+now<00:04:53.930><c> we</c><00:04:53.990><c> can</c><00:04:54.290><c> model</c></c><c.colorE5E5E5><00:04:54.590><c> several</c><00:04:54.920><c> differences</c><00:04:55.280><c> of</c></c>
+
+00:04:55.630 --> 00:04:55.640 align:start position:0%
+now we can model<c.colorE5E5E5> several differences of
+ </c>
+
+00:04:55.640 --> 00:04:58.390 align:start position:0%
+now we can model<c.colorE5E5E5> several differences of
+semantics</c><c.colorCCCCCC><00:04:56.240><c> and</c><00:04:56.450><c> we</c><00:04:57.230><c> can</c></c><c.colorE5E5E5><00:04:57.380><c> bring</c><00:04:57.620><c> in</c><00:04:57.830><c> related</c></c>
+
+00:04:58.390 --> 00:04:58.400 align:start position:0%
+semantics<c.colorCCCCCC> and we can</c><c.colorE5E5E5> bring in related
+ </c>
+
+00:04:58.400 --> 00:05:02.500 align:start position:0%
+semantics<c.colorCCCCCC> and we can</c><c.colorE5E5E5> bring in related
+words<00:04:58.670><c> together</c><00:04:59.540><c> to</c><00:05:00.070><c> model</c><00:05:01.070><c> topic</c><00:05:01.510><c> sir</c></c>
+
+00:05:02.500 --> 00:05:02.510 align:start position:0%
+words together<c.colorE5E5E5> to model topic sir
+ </c>
+
+00:05:02.510 --> 00:05:05.320 align:start position:0%
+words together<c.colorE5E5E5> to model topic sir
+because<00:05:03.470><c> we</c><00:05:03.800><c> have</c><00:05:04.030><c> probabilities</c><00:05:05.030><c> for</c><00:05:05.270><c> the</c></c>
+
+00:05:05.320 --> 00:05:05.330 align:start position:0%
+<c.colorE5E5E5>because we have probabilities for the
+ </c>
+
+00:05:05.330 --> 00:05:08.260 align:start position:0%
+<c.colorE5E5E5>because we have probabilities for the</c>
+<c.colorE5E5E5>same<00:05:05.660><c> word</c><00:05:05.990><c> in</c><00:05:06.440><c> different</c><00:05:06.800><c> topics</c><00:05:07.190><c> we</c><00:05:08.030><c> can</c></c>
+
+00:05:08.260 --> 00:05:08.270 align:start position:0%
+<c.colorE5E5E5>same word in different topics we can
+ </c>
+
+00:05:08.270 --> 00:05:12.100 align:start position:0%
+<c.colorE5E5E5>same word in different topics we can</c>
+<c.colorCCCCCC>descend<00:05:09.050><c> be</c><00:05:09.169><c> great</c><00:05:09.470><c> the</c><00:05:10.010><c> sense</c><00:05:10.580><c> of</c><00:05:10.850><c> word</c><00:05:11.360><c> in</c></c>
+
+00:05:12.100 --> 00:05:12.110 align:start position:0%
+<c.colorCCCCCC>descend be great the sense of word in
+ </c>
+
+00:05:12.110 --> 00:05:16.090 align:start position:0%
+<c.colorCCCCCC>descend be great the sense of word in
+the<00:05:12.410><c> text</c></c><c.colorE5E5E5><00:05:12.620><c> to</c><00:05:13.460><c> decode</c><00:05:13.910><c> its</c></c><c.colorCCCCCC><00:05:14.500><c> underlying</c></c><c.colorE5E5E5><00:05:15.500><c> topic</c></c>
+
+00:05:16.090 --> 00:05:16.100 align:start position:0%
+the text<c.colorE5E5E5> to decode its</c><c.colorCCCCCC> underlying</c><c.colorE5E5E5> topic
+ </c>
+
+00:05:16.100 --> 00:05:19.150 align:start position:0%
+the text<c.colorE5E5E5> to decode its</c><c.colorCCCCCC> underlying</c><c.colorE5E5E5> topic
+so<00:05:17.060><c> address</c><00:05:17.450><c> all</c><00:05:17.720><c> these</c><00:05:17.900><c> three</c><00:05:18.380><c> problems</c><00:05:18.650><c> with</c></c>
+
+00:05:19.150 --> 00:05:19.160 align:start position:0%
+so address all these three problems with
+ 
+
+00:05:19.160 --> 00:05:22.540 align:start position:0%
+so address all these three problems with
+this<00:05:20.090><c> new</c><00:05:20.330><c> way</c><00:05:20.510><c> of</c><00:05:20.540><c> representing</c><00:05:21.350><c> a</c><00:05:21.470><c> topic</c><c.colorE5E5E5><00:05:21.860><c> so</c></c>
+
+00:05:22.540 --> 00:05:22.550 align:start position:0%
+this new way of representing a topic<c.colorE5E5E5> so
+ </c>
+
+00:05:22.550 --> 00:05:25.630 align:start position:0%
+this new way of representing a topic<c.colorE5E5E5> so
+now<00:05:22.880><c> of</c><00:05:23.090><c> course</c><00:05:23.150><c> our</c><00:05:23.600><c> problem</c><00:05:24.050><c> definition</c><00:05:24.710><c> has</c></c>
+
+00:05:25.630 --> 00:05:25.640 align:start position:0%
+now<c.colorE5E5E5> of course our problem definition has
+ </c>
+
+00:05:25.640 --> 00:05:27.730 align:start position:0%
+now<c.colorE5E5E5> of course our problem definition has
+been<00:05:25.669><c> refined</c><00:05:26.210><c> that</c><00:05:26.510><c> just</c><00:05:26.780><c> a</c><00:05:26.960><c> slightly</c><00:05:27.290><c> the</c></c>
+
+00:05:27.730 --> 00:05:27.740 align:start position:0%
+been<c.colorE5E5E5> refined that just a slightly the
+ </c>
+
+00:05:27.740 --> 00:05:29.710 align:start position:0%
+been<c.colorE5E5E5> refined that just a slightly the
+slide<00:05:28.040><c> is</c><00:05:28.370><c> very</c></c><c.colorCCCCCC><00:05:28.430><c> similar</c><00:05:29.270><c> to</c><00:05:29.360><c> what</c><00:05:29.510><c> you</c><00:05:29.630><c> have</c></c>
+
+00:05:29.710 --> 00:05:29.720 align:start position:0%
+slide is very<c.colorCCCCCC> similar to what you have
+ </c>
+
+00:05:29.720 --> 00:05:32.380 align:start position:0%
+slide is very<c.colorCCCCCC> similar to what you have
+seen<00:05:29.780><c> before</c></c><c.colorE5E5E5><00:05:30.020><c> except</c><00:05:30.980><c> that</c><00:05:31.040><c> we</c><00:05:31.490><c> have</c><00:05:31.520><c> added</c><00:05:32.360><c> a</c></c>
+
+00:05:32.380 --> 00:05:32.390 align:start position:0%
+seen<c.colorCCCCCC> before</c><c.colorE5E5E5> except that we have added a
+ </c>
+
+00:05:32.390 --> 00:05:35.140 align:start position:0%
+seen<c.colorCCCCCC> before</c><c.colorE5E5E5> except that we have added a</c>
+<c.colorE5E5E5>refinement<00:05:33.050><c> for</c><00:05:33.260><c> what</c><00:05:33.680><c> the</c><00:05:33.800><c> topic</c><00:05:34.130><c> is</c><00:05:34.280><c> so</c><00:05:34.910><c> now</c></c>
+
+00:05:35.140 --> 00:05:35.150 align:start position:0%
+<c.colorE5E5E5>refinement for what the topic is so now
+ </c>
+
+00:05:35.150 --> 00:05:38.340 align:start position:0%
+<c.colorE5E5E5>refinement for what the topic is so now
+each<00:05:35.600><c> topic</c><00:05:36.080><c> is</c><00:05:36.350><c> a</c><00:05:36.380><c> word</c><00:05:36.979><c> distribution</c><00:05:37.700><c> and</c></c>
+
+00:05:38.340 --> 00:05:38.350 align:start position:0%
+each topic is a word distribution and
+ 
+
+00:05:38.350 --> 00:05:41.320 align:start position:0%
+each topic is a word distribution and
+for<c.colorE5E5E5><00:05:39.350><c> each</c><00:05:39.500><c> word</c><00:05:39.860><c> distribution</c><00:05:40.580><c> we</c><00:05:40.970><c> know</c><00:05:41.150><c> that</c></c>
+
+00:05:41.320 --> 00:05:41.330 align:start position:0%
+for<c.colorE5E5E5> each word distribution we know that
+ </c>
+
+00:05:41.330 --> 00:05:43.510 align:start position:0%
+for<c.colorE5E5E5> each word distribution we know that
+all<00:05:41.660><c> the</c><00:05:41.780><c> probabilities</c><00:05:42.020><c> should</c><00:05:43.010><c> sum</c><00:05:43.220><c> to</c><00:05:43.250><c> one</c></c>
+
+00:05:43.510 --> 00:05:43.520 align:start position:0%
+all the probabilities<c.colorE5E5E5> should sum to one
+ </c>
+
+00:05:43.520 --> 00:05:45.610 align:start position:0%
+all the probabilities<c.colorE5E5E5> should sum to one
+over<00:05:43.850><c> all</c><00:05:43.970><c> the</c><00:05:44.150><c> words</c><00:05:44.360><c> in</c><00:05:44.600><c> the</c><00:05:44.750><c> vocabulary</c><00:05:44.870><c> so</c></c>
+
+00:05:45.610 --> 00:05:45.620 align:start position:0%
+over<c.colorE5E5E5> all the words in the vocabulary so
+ </c>
+
+00:05:45.620 --> 00:05:48.070 align:start position:0%
+over<c.colorE5E5E5> all the words in the vocabulary so
+you<00:05:45.890><c> see</c><00:05:46.070><c> a</c><00:05:46.100><c> constraint</c><00:05:46.669><c> here</c><00:05:46.910><c> and</c><00:05:47.210><c> we</c><00:05:47.810><c> still</c></c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+you see a constraint here<c.colorE5E5E5> and we still
+ </c>
+
+00:05:48.080 --> 00:05:50.590 align:start position:0%
+you see a constraint here<c.colorE5E5E5> and we still
+have</c><c.colorCCCCCC><00:05:48.200><c> another</c><00:05:48.500><c> constraint</c></c><c.colorE5E5E5><00:05:48.830><c> on</c><00:05:49.280><c> the</c><00:05:50.120><c> topic</c></c>
+
+00:05:50.590 --> 00:05:50.600 align:start position:0%
+have<c.colorCCCCCC> another constraint</c><c.colorE5E5E5> on the topic
+ </c>
+
+00:05:50.600 --> 00:05:54.250 align:start position:0%
+have<c.colorCCCCCC> another constraint</c><c.colorE5E5E5> on the topic
+coverage<00:05:51.160><c> namely</c></c><c.colorCCCCCC><00:05:52.160><c> PI's</c></c><c.colorE5E5E5><00:05:52.430><c> so</c><00:05:53.180><c> all</c><00:05:53.450><c> the</c><00:05:53.630><c> pub</c></c><c.colorCCCCCC><00:05:53.840><c> PI</c></c>
+
+00:05:54.250 --> 00:05:54.260 align:start position:0%
+coverage namely<c.colorCCCCCC> PI's</c><c.colorE5E5E5> so all the pub</c><c.colorCCCCCC> PI
+ </c>
+
+00:05:54.260 --> 00:05:57.640 align:start position:0%
+coverage namely<c.colorCCCCCC> PI's</c><c.colorE5E5E5> so all the pub</c><c.colorCCCCCC> PI
+sub</c><c.colorE5E5E5><00:05:54.320><c> IJ</c><00:05:54.800><c> s</c><00:05:55.100><c> must</c><00:05:55.820><c> sum</c><00:05:56.210><c> to</c><00:05:56.240><c> one</c><00:05:56.540><c> for</c><00:05:57.320><c> the</c><00:05:57.440><c> same</c></c>
+
+00:05:57.640 --> 00:05:57.650 align:start position:0%
+sub<c.colorE5E5E5> IJ s must sum to one for the same
+ </c>
+
+00:05:57.650 --> 00:06:00.700 align:start position:0%
+sub<c.colorE5E5E5> IJ s must sum to one for the same
+document<00:05:58.690><c> so</c><00:05:59.690><c> how</c><00:05:59.930><c> do</c><00:05:59.990><c> we</c><00:06:00.229><c> solve</c><00:06:00.470><c> this</c><00:06:00.650><c> problem</c></c>
+
+00:06:00.700 --> 00:06:00.710 align:start position:0%
+document so how do<c.colorE5E5E5> we solve this problem
+ </c>
+
+00:06:00.710 --> 00:06:03.159 align:start position:0%
+document so how do<c.colorE5E5E5> we solve this problem</c>
+<c.colorCCCCCC>well<00:06:01.370><c> let's</c><00:06:01.880><c> look</c><00:06:02.180><c> at</c></c><c.colorE5E5E5><00:06:02.390><c> this</c><00:06:02.570><c> problem</c><00:06:02.810><c> as</c><00:06:03.110><c> a</c></c>
+
+00:06:03.159 --> 00:06:03.169 align:start position:0%
+<c.colorCCCCCC>well let's look at</c><c.colorE5E5E5> this problem as a
+ </c>
+
+00:06:03.169 --> 00:06:05.770 align:start position:0%
+<c.colorCCCCCC>well let's look at</c><c.colorE5E5E5> this problem as a</c>
+<c.colorCCCCCC>computation</c><c.colorE5E5E5><00:06:03.919><c> problem</c><00:06:04.640><c> now</c><00:06:04.850><c> and</c><00:06:05.270><c> so</c><00:06:05.630><c> we</c></c>
+
+00:06:05.770 --> 00:06:05.780 align:start position:0%
+<c.colorCCCCCC>computation</c><c.colorE5E5E5> problem now and so we
+ </c>
+
+00:06:05.780 --> 00:06:07.690 align:start position:0%
+<c.colorCCCCCC>computation</c><c.colorE5E5E5> problem now and so we
+clearly<00:06:06.110><c> specifies</c><00:06:06.710><c> the</c><00:06:06.919><c> input</c><00:06:07.250><c> and</c><00:06:07.490><c> output</c></c>
+
+00:06:07.690 --> 00:06:07.700 align:start position:0%
+clearly<c.colorE5E5E5> specifies the input and output
+ </c>
+
+00:06:07.700 --> 00:06:11.200 align:start position:0%
+clearly<c.colorE5E5E5> specifies the input and output</c>
+<c.colorCCCCCC>and<00:06:08.270><c> illustrated</c><00:06:09.080><c> here</c><00:06:10.070><c> on</c><00:06:10.190><c> this</c><00:06:10.370><c> side</c><00:06:10.729><c> the</c></c>
+
+00:06:11.200 --> 00:06:11.210 align:start position:0%
+<c.colorCCCCCC>and illustrated here on this side the
+ </c>
+
+00:06:11.210 --> 00:06:13.390 align:start position:0%
+<c.colorCCCCCC>and illustrated here on this side the</c>
+<c.colorCCCCCC>input<00:06:11.540><c> of</c><00:06:11.570><c> course</c></c><c.colorE5E5E5><00:06:11.780><c> is</c><00:06:12.080><c> our</c><00:06:12.260><c> text</c><00:06:12.590><c> data</c></c><c.colorCCCCCC><00:06:12.860><c> C</c><00:06:13.190><c> is</c><00:06:13.250><c> a</c></c>
+
+00:06:13.390 --> 00:06:13.400 align:start position:0%
+<c.colorCCCCCC>input of course</c><c.colorE5E5E5> is our text data</c><c.colorCCCCCC> C is a
+ </c>
+
+00:06:13.400 --> 00:06:16.270 align:start position:0%
+<c.colorCCCCCC>input of course</c><c.colorE5E5E5> is our text data</c><c.colorCCCCCC> C is a</c>
+<c.colorE5E5E5>collection<00:06:13.820><c> but</c><00:06:14.690><c> we</c><00:06:14.900><c> also</c><00:06:15.229><c> generally</c><00:06:16.010><c> assume</c></c>
+
+00:06:16.270 --> 00:06:16.280 align:start position:0%
+<c.colorE5E5E5>collection but we also generally assume
+ </c>
+
+00:06:16.280 --> 00:06:18.850 align:start position:0%
+<c.colorE5E5E5>collection but we also generally assume
+we<00:06:16.610><c> know</c><00:06:16.790><c> the</c><00:06:17.030><c> number</c><00:06:17.330><c> of</c><00:06:17.419><c> topics</c></c><c.colorCCCCCC><00:06:17.630><c> cake</c><00:06:18.140><c> are</c><00:06:18.320><c> we</c></c>
+
+00:06:18.850 --> 00:06:18.860 align:start position:0%
+we know the number of topics<c.colorCCCCCC> cake are we
+ </c>
+
+00:06:18.860 --> 00:06:21.790 align:start position:0%
+we know the number of topics<c.colorCCCCCC> cake are we
+hypothesis<00:06:19.820><c> a</c><00:06:19.850><c> number</c><00:06:20.419><c> and</c><00:06:20.630><c> then</c><00:06:21.140><c> try</c><00:06:21.380><c> to</c><00:06:21.410><c> mind</c></c>
+
+00:06:21.790 --> 00:06:21.800 align:start position:0%
+hypothesis a number and then try to mind
+ 
+
+00:06:21.800 --> 00:06:23.860 align:start position:0%
+hypothesis a number and then try to mind
+<c.colorE5E5E5>K<00:06:22.190><c> topics</c><00:06:22.580><c> even</c></c><c.colorCCCCCC><00:06:22.940><c> though</c><00:06:23.180><c> we</c><00:06:23.330><c> don't</c><00:06:23.479><c> know</c></c><c.colorE5E5E5><00:06:23.570><c> the</c></c>
+
+00:06:23.860 --> 00:06:23.870 align:start position:0%
+<c.colorE5E5E5>K topics even</c><c.colorCCCCCC> though we don't know</c><c.colorE5E5E5> the
+ </c>
+
+00:06:23.870 --> 00:06:26.770 align:start position:0%
+<c.colorE5E5E5>K topics even</c><c.colorCCCCCC> though we don't know</c><c.colorE5E5E5> the
+exact<00:06:24.229><c> topics</c><00:06:25.100><c> that</c></c><c.colorCCCCCC><00:06:26.060><c> exist</c></c><c.colorE5E5E5><00:06:26.479><c> in</c><00:06:26.660><c> the</c></c>
+
+00:06:26.770 --> 00:06:26.780 align:start position:0%
+exact topics that<c.colorCCCCCC> exist</c><c.colorE5E5E5> in the
+ </c>
+
+00:06:26.780 --> 00:06:29.290 align:start position:0%
+exact topics that<c.colorCCCCCC> exist</c><c.colorE5E5E5> in the
+connection</c><c.colorCCCCCC><00:06:27.020><c> and</c><00:06:27.320><c> V</c><00:06:28.070><c> is</c><00:06:28.340><c> the</c><00:06:28.520><c> vocabulary</c><00:06:28.640><c> set</c></c>
+
+00:06:29.290 --> 00:06:29.300 align:start position:0%
+connection<c.colorCCCCCC> and V is the vocabulary set
+ </c>
+
+00:06:29.300 --> 00:06:32.770 align:start position:0%
+connection<c.colorCCCCCC> and V is the vocabulary set
+as<00:06:29.840><c> a</c><00:06:30.200><c> set</c><00:06:30.560><c> of</c><00:06:30.710><c> words</c></c><c.colorE5E5E5><00:06:30.950><c> that</c></c><c.colorCCCCCC><00:06:31.360><c> determines</c><00:06:32.360><c> what</c></c>
+
+00:06:32.770 --> 00:06:32.780 align:start position:0%
+<c.colorCCCCCC>as a set of words</c><c.colorE5E5E5> that</c><c.colorCCCCCC> determines what
+ </c>
+
+00:06:32.780 --> 00:06:36.880 align:start position:0%
+<c.colorCCCCCC>as a set of words</c><c.colorE5E5E5> that</c><c.colorCCCCCC> determines what
+units<00:06:33.260><c> would</c></c><c.colorE5E5E5><00:06:33.950><c> be</c><00:06:34.070><c> treated</c><00:06:34.430><c> as</c><00:06:35.590><c> the</c><00:06:36.590><c> basic</c></c>
+
+00:06:36.880 --> 00:06:36.890 align:start position:0%
+units would<c.colorE5E5E5> be treated as the basic
+ </c>
+
+00:06:36.890 --> 00:06:39.700 align:start position:0%
+units would<c.colorE5E5E5> be treated as the basic
+units<00:06:37.190><c> for</c><00:06:37.400><c> analysis</c></c><c.colorCCCCCC><00:06:37.880><c> in</c><00:06:38.150><c> most</c><00:06:39.110><c> cases</c><00:06:39.380><c> when</c></c>
+
+00:06:39.700 --> 00:06:39.710 align:start position:0%
+units for analysis<c.colorCCCCCC> in most cases when
+ </c>
+
+00:06:39.710 --> 00:06:40.450 align:start position:0%
+units for analysis<c.colorCCCCCC> in most cases when
+use<00:06:39.919><c> words</c></c>
+
+00:06:40.450 --> 00:06:40.460 align:start position:0%
+<c.colorCCCCCC>use words
+ </c>
+
+00:06:40.460 --> 00:06:45.370 align:start position:0%
+<c.colorCCCCCC>use words</c>
+<c.colorE5E5E5>as<00:06:40.610><c> the</c><00:06:41.000><c> basis</c><00:06:41.360><c> for</c></c><c.colorCCCCCC><00:06:43.270><c> analysis</c></c><c.colorE5E5E5><00:06:44.270><c> and</c><00:06:44.509><c> that</c><00:06:45.139><c> means</c></c>
+
+00:06:45.370 --> 00:06:45.380 align:start position:0%
+<c.colorE5E5E5>as the basis for</c><c.colorCCCCCC> analysis</c><c.colorE5E5E5> and that means
+ </c>
+
+00:06:45.380 --> 00:06:48.969 align:start position:0%
+<c.colorE5E5E5>as the basis for</c><c.colorCCCCCC> analysis</c><c.colorE5E5E5> and that means
+each<00:06:45.680><c> war</c><00:06:45.949><c> is</c><00:06:46.100><c> a</c><00:06:46.130><c> unit</c><00:06:46.660><c> now</c><00:06:47.660><c> the</c><00:06:47.720><c> output</c><00:06:48.319><c> would</c></c>
+
+00:06:48.969 --> 00:06:48.979 align:start position:0%
+each war is a unit now the<c.colorE5E5E5> output would
+ </c>
+
+00:06:48.979 --> 00:06:51.580 align:start position:0%
+each war is a unit now the<c.colorE5E5E5> output would
+consist</c><c.colorCCCCCC><00:06:49.490><c> of</c><00:06:49.910><c> as</c><00:06:50.330><c> first</c></c><c.colorE5E5E5><00:06:50.720><c> a</c><00:06:50.900><c> set</c><00:06:51.169><c> of</c><00:06:51.319><c> topics</c></c>
+
+00:06:51.580 --> 00:06:51.590 align:start position:0%
+consist<c.colorCCCCCC> of as first</c><c.colorE5E5E5> a set of topics
+ </c>
+
+00:06:51.590 --> 00:06:54.400 align:start position:0%
+consist<c.colorCCCCCC> of as first</c><c.colorE5E5E5> a set of topics</c>
+<c.colorE5E5E5>represented<00:06:52.370><c> by</c><00:06:52.520><c> Athena</c><00:06:52.849><c> eyes</c><00:06:53.060><c> Ichi</c><00:06:53.630><c> is</c></c><c.colorCCCCCC><00:06:54.139><c> a</c></c>
+
+00:06:54.400 --> 00:06:54.410 align:start position:0%
+<c.colorE5E5E5>represented by Athena eyes Ichi is</c><c.colorCCCCCC> a
+ </c>
+
+00:06:54.410 --> 00:06:59.439 align:start position:0%
+<c.colorE5E5E5>represented by Athena eyes Ichi is</c><c.colorCCCCCC> a
+water<00:06:54.680><c> distribution</c></c><c.colorE5E5E5><00:06:54.889><c> and</c><00:06:57.849><c> we</c><00:06:58.849><c> also</c><00:06:59.030><c> want</c><00:06:59.389><c> to</c></c>
+
+00:06:59.439 --> 00:06:59.449 align:start position:0%
+water distribution<c.colorE5E5E5> and we also want to
+ </c>
+
+00:06:59.449 --> 00:07:02.050 align:start position:0%
+water distribution<c.colorE5E5E5> and we also want to</c>
+<c.colorE5E5E5>know</c><c.colorCCCCCC><00:06:59.690><c> the</c><00:06:59.930><c> coverage</c></c><c.colorE5E5E5><00:07:00.440><c> of</c><00:07:00.650><c> topics</c><00:07:01.610><c> in</c></c><c.colorCCCCCC><00:07:01.910><c> each</c></c>
+
+00:07:02.050 --> 00:07:02.060 align:start position:0%
+<c.colorE5E5E5>know</c><c.colorCCCCCC> the coverage</c><c.colorE5E5E5> of topics in</c><c.colorCCCCCC> each
+ </c>
+
+00:07:02.060 --> 00:07:04.420 align:start position:0%
+<c.colorE5E5E5>know</c><c.colorCCCCCC> the coverage</c><c.colorE5E5E5> of topics in</c><c.colorCCCCCC> each
+document</c><c.colorE5E5E5><00:07:02.509><c> so</c><00:07:03.050><c> this</c><00:07:03.199><c> that's</c><00:07:03.680><c> the</c><00:07:03.889><c> same</c><00:07:04.099><c> PI</c><00:07:04.400><c> I</c></c>
+
+00:07:04.420 --> 00:07:04.430 align:start position:0%
+document<c.colorE5E5E5> so this that's the same PI I
+ </c>
+
+00:07:04.430 --> 00:07:09.189 align:start position:0%
+document<c.colorE5E5E5> so this that's the same PI I
+J's<00:07:05.030><c> that</c><00:07:05.300><c> we</c><00:07:05.569><c> have</c><00:07:05.690><c> seen</c><00:07:05.900><c> before</c></c><c.colorCCCCCC><00:07:06.639><c> so</c><00:07:08.080><c> given</c><00:07:09.080><c> a</c></c>
+
+00:07:09.189 --> 00:07:09.199 align:start position:0%
+<c.colorE5E5E5>J's that we have seen before</c><c.colorCCCCCC> so given a
+ </c>
+
+00:07:09.199 --> 00:07:11.010 align:start position:0%
+<c.colorE5E5E5>J's that we have seen before</c><c.colorCCCCCC> so given a
+set<00:07:09.229><c> of</c><00:07:09.440><c> text</c><00:07:09.979><c> that</c><00:07:10.130><c> we</c><00:07:10.460><c> would</c><00:07:10.580><c> like</c><00:07:10.759><c> to</c></c>
+
+00:07:11.010 --> 00:07:11.020 align:start position:0%
+set<c.colorCCCCCC> of text that we would like to
+ </c>
+
+00:07:11.020 --> 00:07:13.600 align:start position:0%
+set<c.colorCCCCCC> of text that we would like to
+compute<00:07:12.020><c> all</c><00:07:12.289><c> these</c><00:07:12.440><c> distributions</c><00:07:13.190><c> and</c><00:07:13.430><c> all</c></c>
+
+00:07:13.600 --> 00:07:13.610 align:start position:0%
+compute all these distributions and all
+ 
+
+00:07:13.610 --> 00:07:16.390 align:start position:0%
+compute all these distributions and all
+these<00:07:13.759><c> coverages</c><c.colorE5E5E5><00:07:14.570><c> as</c></c><c.colorCCCCCC><00:07:15.259><c> you'll</c><00:07:15.710><c> have</c></c><c.colorE5E5E5><00:07:15.919><c> seen</c><00:07:15.979><c> on</c></c>
+
+00:07:16.390 --> 00:07:16.400 align:start position:0%
+these coverages<c.colorE5E5E5> as</c><c.colorCCCCCC> you'll have</c><c.colorE5E5E5> seen on
+ </c>
+
+00:07:16.400 --> 00:07:19.150 align:start position:0%
+these coverages<c.colorE5E5E5> as</c><c.colorCCCCCC> you'll have</c><c.colorE5E5E5> seen on
+this<00:07:16.580><c> slide</c><00:07:17.169><c> now</c><00:07:18.169><c> of</c><00:07:18.289><c> course</c><00:07:18.470><c> there</c><00:07:18.800><c> may</c><00:07:19.130><c> be</c></c>
+
+00:07:19.150 --> 00:07:19.160 align:start position:0%
+this slide<c.colorE5E5E5> now of course there may be
+ </c>
+
+00:07:19.160 --> 00:07:21.159 align:start position:0%
+this slide<c.colorE5E5E5> now of course there may be
+many</c><c.colorCCCCCC><00:07:19.639><c> different</c><00:07:19.910><c> ways</c><00:07:20.240><c> of</c><00:07:20.599><c> solving</c><00:07:20.930><c> this</c></c>
+
+00:07:21.159 --> 00:07:21.169 align:start position:0%
+many<c.colorCCCCCC> different ways of solving this
+ </c>
+
+00:07:21.169 --> 00:07:23.020 align:start position:0%
+many<c.colorCCCCCC> different ways of solving this
+problem<00:07:21.229><c> indeed</c><00:07:22.039><c> you</c></c><c.colorE5E5E5><00:07:22.250><c> can</c><00:07:22.400><c> write</c><00:07:22.580><c> a</c></c><c.colorCCCCCC><00:07:22.610><c> high</c><00:07:22.849><c> risk</c></c>
+
+00:07:23.020 --> 00:07:23.030 align:start position:0%
+problem<c.colorCCCCCC> indeed you</c><c.colorE5E5E5> can write a</c><c.colorCCCCCC> high risk
+ </c>
+
+00:07:23.030 --> 00:07:25.540 align:start position:0%
+problem<c.colorCCCCCC> indeed you</c><c.colorE5E5E5> can write a</c><c.colorCCCCCC> high risk</c>
+<c.colorE5E5E5>program<00:07:23.449><c> to</c><00:07:23.870><c> solve</c><00:07:24.199><c> this</c><00:07:24.380><c> problem</c></c><c.colorCCCCCC><00:07:24.530><c> now</c><00:07:25.340><c> here</c></c>
+
+00:07:25.540 --> 00:07:25.550 align:start position:0%
+<c.colorE5E5E5>program to solve this problem</c><c.colorCCCCCC> now here
+ </c>
+
+00:07:25.550 --> 00:07:27.909 align:start position:0%
+<c.colorE5E5E5>program to solve this problem</c><c.colorCCCCCC> now here
+we're<00:07:25.789><c> going</c></c><c.colorE5E5E5><00:07:25.910><c> to</c><00:07:25.970><c> introduce</c><00:07:26.150><c> a</c><00:07:26.770><c> general</c><00:07:27.770><c> way</c></c>
+
+00:07:27.909 --> 00:07:27.919 align:start position:0%
+we're going<c.colorE5E5E5> to introduce a general way
+ </c>
+
+00:07:27.919 --> 00:07:30.279 align:start position:0%
+we're going<c.colorE5E5E5> to introduce a general way
+of<00:07:27.949><c> solving</c><00:07:28.669><c> this</c><00:07:29.000><c> problem</c></c><c.colorCCCCCC><00:07:29.169><c> called</c><00:07:30.169><c> a</c></c>
+
+00:07:30.279 --> 00:07:30.289 align:start position:0%
+of<c.colorE5E5E5> solving this problem</c><c.colorCCCCCC> called a
+ </c>
+
+00:07:30.289 --> 00:07:33.520 align:start position:0%
+of<c.colorE5E5E5> solving this problem</c><c.colorCCCCCC> called a
+generative<00:07:30.979><c> model</c><00:07:31.310><c> and</c><00:07:31.580><c> this</c></c><c.colorE5E5E5><00:07:32.479><c> is</c><00:07:32.659><c> in</c><00:07:33.080><c> fact</c></c><c.colorCCCCCC><00:07:33.169><c> a</c></c>
+
+00:07:33.520 --> 00:07:33.530 align:start position:0%
+generative<c.colorCCCCCC> model and this</c><c.colorE5E5E5> is in fact</c><c.colorCCCCCC> a
+ </c>
+
+00:07:33.530 --> 00:07:37.240 align:start position:0%
+generative<c.colorCCCCCC> model and this</c><c.colorE5E5E5> is in fact</c><c.colorCCCCCC> a
+very<00:07:34.130><c> general</c><00:07:34.849><c> idea</c></c><c.colorE5E5E5><00:07:34.880><c> and</c><00:07:35.389><c> it's</c><00:07:35.900><c> a</c><00:07:36.250><c> principal</c></c>
+
+00:07:37.240 --> 00:07:37.250 align:start position:0%
+very general idea<c.colorE5E5E5> and it's a principal
+ </c>
+
+00:07:37.250 --> 00:07:39.969 align:start position:0%
+very general idea<c.colorE5E5E5> and it's a principal
+way<00:07:37.460><c> of</c><00:07:37.639><c> using</c><00:07:37.990><c> statistical</c><00:07:38.990><c> modeling</c><00:07:39.710><c> to</c></c>
+
+00:07:39.969 --> 00:07:39.979 align:start position:0%
+way of using statistical modeling to
+ 
+
+00:07:39.979 --> 00:07:43.120 align:start position:0%
+way of using statistical modeling to
+solve<00:07:40.220><c> text</c><00:07:40.639><c> mining</c><00:07:41.060><c> problems</c><00:07:41.770><c> here</c><00:07:42.770><c> item</c>
+
+00:07:43.120 --> 00:07:43.130 align:start position:0%
+solve text mining problems here item
+ 
+
+00:07:43.130 --> 00:07:45.279 align:start position:0%
+solve text mining problems here item
+that<00:07:43.370><c> the</c><00:07:44.270><c> picture</c><c.colorE5E5E5><00:07:44.630><c> that</c><00:07:44.900><c> we</c><00:07:45.020><c> have</c><00:07:45.139><c> seen</c></c>
+
+00:07:45.279 --> 00:07:45.289 align:start position:0%
+that the picture<c.colorE5E5E5> that we have seen
+ </c>
+
+00:07:45.289 --> 00:07:48.100 align:start position:0%
+that the picture<c.colorE5E5E5> that we have seen</c>
+<c.colorE5E5E5>before</c><c.colorCCCCCC><00:07:45.409><c> in</c><00:07:46.190><c> order</c></c><c.colorE5E5E5><00:07:46.520><c> to</c><00:07:46.669><c> show</c><00:07:47.330><c> the</c><00:07:47.599><c> generation</c></c>
+
+00:07:48.100 --> 00:07:48.110 align:start position:0%
+<c.colorE5E5E5>before</c><c.colorCCCCCC> in order</c><c.colorE5E5E5> to show the generation
+ </c>
+
+00:07:48.110 --> 00:07:51.719 align:start position:0%
+<c.colorE5E5E5>before</c><c.colorCCCCCC> in order</c><c.colorE5E5E5> to show the generation
+process<00:07:48.580><c> so</c><00:07:49.580><c> the</c><00:07:49.699><c> idea</c><00:07:50.150><c> of</c><00:07:50.210><c> this</c><00:07:50.570><c> approach</c><00:07:50.990><c> is</c></c>
+
+00:07:51.719 --> 00:07:51.729 align:start position:0%
+process<c.colorE5E5E5> so the idea of this approach is
+ </c>
+
+00:07:51.729 --> 00:07:54.790 align:start position:0%
+process<c.colorE5E5E5> so the idea of this approach is</c>
+<c.colorE5E5E5>actually<00:07:52.729><c> to</c><00:07:52.909><c> first</c><00:07:53.240><c> design</c><00:07:53.840><c> a</c><00:07:53.870><c> model</c><00:07:54.289><c> for</c><00:07:54.740><c> our</c></c>
+
+00:07:54.790 --> 00:07:54.800 align:start position:0%
+<c.colorE5E5E5>actually to first design a model for our
+ </c>
+
+00:07:54.800 --> 00:07:58.120 align:start position:0%
+<c.colorE5E5E5>actually to first design a model for our</c>
+<c.colorCCCCCC>data</c><c.colorE5E5E5><00:07:55.159><c> so</c><00:07:56.060><c> we</c><00:07:56.479><c> design</c><00:07:57.050><c> a</c><00:07:57.080><c> probabilistic</c></c><c.colorCCCCCC><00:07:57.650><c> model</c></c>
+
+00:07:58.120 --> 00:07:58.130 align:start position:0%
+<c.colorCCCCCC>data</c><c.colorE5E5E5> so we design a probabilistic</c><c.colorCCCCCC> model
+ </c>
+
+00:07:58.130 --> 00:08:01.450 align:start position:0%
+<c.colorCCCCCC>data</c><c.colorE5E5E5> so we design a probabilistic</c><c.colorCCCCCC> model
+to<00:07:58.759><c> model</c><00:07:59.180><c> how</c><00:07:59.570><c> the</c><00:07:59.599><c> data</c><00:07:59.960><c> are</c><00:08:00.289><c> generated</c></c><c.colorE5E5E5><00:08:00.740><c> of</c></c>
+
+00:08:01.450 --> 00:08:01.460 align:start position:0%
+to model how the data are generated<c.colorE5E5E5> of
+ </c>
+
+00:08:01.460 --> 00:08:03.969 align:start position:0%
+to model how the data are generated<c.colorE5E5E5> of
+course<00:08:02.360><c> this</c><00:08:02.630><c> is</c><00:08:02.810><c> based</c><00:08:03.050><c> on</c><00:08:03.229><c> our</c><00:08:03.469><c> assumption</c></c>
+
+00:08:03.969 --> 00:08:03.979 align:start position:0%
+course this is<c.colorE5E5E5> based on our assumption
+ </c>
+
+00:08:03.979 --> 00:08:06.129 align:start position:0%
+course this is<c.colorE5E5E5> based on our assumption</c>
+<c.colorE5E5E5>the<00:08:04.250><c> actual</c><00:08:04.639><c> data</c><00:08:04.789><c> aren't</c></c><c.colorCCCCCC><00:08:05.360><c> necessarily</c></c>
+
+00:08:06.129 --> 00:08:06.139 align:start position:0%
+<c.colorE5E5E5>the actual data aren't</c><c.colorCCCCCC> necessarily
+ </c>
+
+00:08:06.139 --> 00:08:08.950 align:start position:0%
+<c.colorE5E5E5>the actual data aren't</c><c.colorCCCCCC> necessarily</c>
+<c.colorE5E5E5>generating<00:08:06.770><c> this</c><00:08:06.919><c> way</c><00:08:07.180><c> so</c><00:08:08.180><c> that</c><00:08:08.539><c> would</c><00:08:08.690><c> give</c></c>
+
+00:08:08.950 --> 00:08:08.960 align:start position:0%
+<c.colorE5E5E5>generating this way so that would give
+ </c>
+
+00:08:08.960 --> 00:08:11.080 align:start position:0%
+<c.colorE5E5E5>generating this way so that would give</c>
+<c.colorE5E5E5>us<00:08:09.139><c> a</c><00:08:09.500><c> probability</c><00:08:10.250><c> distribution</c><00:08:10.610><c> of</c><00:08:11.030><c> the</c></c>
+
+00:08:11.080 --> 00:08:11.090 align:start position:0%
+<c.colorE5E5E5>us a probability distribution of the
+ </c>
+
+00:08:11.090 --> 00:08:13.180 align:start position:0%
+<c.colorE5E5E5>us a probability distribution of the</c>
+<c.colorCCCCCC>data<00:08:11.509><c> that</c></c><c.colorE5E5E5><00:08:11.750><c> you</c><00:08:12.229><c> are</c><00:08:12.259><c> seeing</c><00:08:12.770><c> on</c><00:08:12.949><c> this</c><00:08:13.130><c> slide</c></c>
+
+00:08:13.180 --> 00:08:13.190 align:start position:0%
+<c.colorCCCCCC>data that</c><c.colorE5E5E5> you are seeing on this slide
+ </c>
+
+00:08:13.190 --> 00:08:16.060 align:start position:0%
+<c.colorCCCCCC>data that</c><c.colorE5E5E5> you are seeing on this slide</c>
+<c.colorE5E5E5>given</c><c.colorCCCCCC><00:08:14.180><c> a</c><00:08:14.389><c> particular</c></c><c.colorE5E5E5><00:08:14.599><c> model</c><00:08:15.349><c> and</c><00:08:15.500><c> parameters</c></c>
+
+00:08:16.060 --> 00:08:16.070 align:start position:0%
+<c.colorE5E5E5>given</c><c.colorCCCCCC> a particular</c><c.colorE5E5E5> model and parameters
+ </c>
+
+00:08:16.070 --> 00:08:18.939 align:start position:0%
+<c.colorE5E5E5>given</c><c.colorCCCCCC> a particular</c><c.colorE5E5E5> model and parameters
+that<00:08:16.580><c> are</c><00:08:16.639><c> denoted</c><00:08:17.060><c> by</c><00:08:17.240><c> lambda</c><00:08:18.020><c> so</c><00:08:18.919><c> this</c></c>
+
+00:08:18.939 --> 00:08:18.949 align:start position:0%
+<c.colorE5E5E5>that are denoted by lambda so this
+ </c>
+
+00:08:18.949 --> 00:08:22.029 align:start position:0%
+<c.colorE5E5E5>that are denoted by lambda so this
+temporal<00:08:19.580><c> M</c><00:08:19.729><c> law</c><00:08:19.940><c> actually</c><00:08:20.509><c> consists</c><00:08:21.469><c> of</c><00:08:21.680><c> all</c></c>
+
+00:08:22.029 --> 00:08:22.039 align:start position:0%
+temporal<c.colorE5E5E5> M law actually consists of all
+ </c>
+
+00:08:22.039 --> 00:08:24.490 align:start position:0%
+temporal<c.colorE5E5E5> M law actually consists of all
+the<00:08:22.370><c> parameters</c></c><c.colorCCCCCC><00:08:22.699><c> that</c><00:08:23.270><c> were</c><00:08:23.659><c> interesting</c></c><c.colorE5E5E5><00:08:24.289><c> and</c></c>
+
+00:08:24.490 --> 00:08:24.500 align:start position:0%
+the parameters<c.colorCCCCCC> that were interesting</c><c.colorE5E5E5> and
+ </c>
+
+00:08:24.500 --> 00:08:26.499 align:start position:0%
+the parameters<c.colorCCCCCC> that were interesting</c><c.colorE5E5E5> and
+these<00:08:24.590><c> parameters</c><00:08:24.979><c> in</c><00:08:25.550><c> general</c><00:08:26.180><c> would</c></c>
+
+00:08:26.499 --> 00:08:26.509 align:start position:0%
+these parameters<c.colorE5E5E5> in general would
+ </c>
+
+00:08:26.509 --> 00:08:28.060 align:start position:0%
+these parameters<c.colorE5E5E5> in general would
+control</c><c.colorCCCCCC><00:08:26.990><c> the</c><00:08:27.080><c> behavior</c></c><c.colorE5E5E5><00:08:27.229><c> of</c><00:08:27.770><c> the</c></c>
+
+00:08:28.060 --> 00:08:28.070 align:start position:0%
+control<c.colorCCCCCC> the behavior</c><c.colorE5E5E5> of the
+ </c>
+
+00:08:28.070 --> 00:08:30.010 align:start position:0%
+control<c.colorCCCCCC> the behavior</c><c.colorE5E5E5> of the
+probabilistic<00:08:28.490><c> model</c><00:08:28.969><c> meaning</c></c><c.colorCCCCCC><00:08:29.509><c> that</c><00:08:29.719><c> if</c><00:08:29.900><c> you</c></c>
+
+00:08:30.010 --> 00:08:30.020 align:start position:0%
+probabilistic<c.colorE5E5E5> model meaning</c><c.colorCCCCCC> that if you
+ </c>
+
+00:08:30.020 --> 00:08:31.600 align:start position:0%
+probabilistic<c.colorE5E5E5> model meaning</c><c.colorCCCCCC> that if you
+set<00:08:30.229><c> these</c><00:08:30.409><c> parameters</c></c><c.colorE5E5E5><00:08:30.620><c> to</c><00:08:31.099><c> different</c><00:08:31.430><c> values</c></c>
+
+00:08:31.600 --> 00:08:31.610 align:start position:0%
+set these parameters<c.colorE5E5E5> to different values
+ </c>
+
+00:08:31.610 --> 00:08:34.510 align:start position:0%
+set these parameters<c.colorE5E5E5> to different values</c>
+<c.colorCCCCCC>and<00:08:32.060><c> it</c></c><c.colorE5E5E5><00:08:32.599><c> will</c><00:08:32.719><c> give</c></c><c.colorCCCCCC><00:08:32.930><c> some</c></c><c.colorE5E5E5><00:08:33.320><c> data</c><00:08:33.620><c> points</c><00:08:33.709><c> higher</c></c>
+
+00:08:34.510 --> 00:08:34.520 align:start position:0%
+<c.colorCCCCCC>and it</c><c.colorE5E5E5> will give</c><c.colorCCCCCC> some</c><c.colorE5E5E5> data points higher
+ </c>
+
+00:08:34.520 --> 00:08:37.180 align:start position:0%
+<c.colorCCCCCC>and it</c><c.colorE5E5E5> will give</c><c.colorCCCCCC> some</c><c.colorE5E5E5> data points higher
+probabilities<00:08:35.300><c> there</c><00:08:35.570><c> others</c><00:08:35.870><c> now</c><00:08:36.860><c> in</c><00:08:37.039><c> this</c></c>
+
+00:08:37.180 --> 00:08:37.190 align:start position:0%
+probabilities there others<c.colorE5E5E5> now in this
+ </c>
+
+00:08:37.190 --> 00:08:39.250 align:start position:0%
+probabilities there others<c.colorE5E5E5> now in this
+case<00:08:37.430><c> of</c><00:08:37.610><c> course</c><00:08:37.640><c> for</c></c><c.colorCCCCCC><00:08:38.209><c> our</c><00:08:38.360><c> text</c><00:08:38.899><c> mining</c></c>
+
+00:08:39.250 --> 00:08:39.260 align:start position:0%
+<c.colorE5E5E5>case of course for</c><c.colorCCCCCC> our text mining
+ </c>
+
+00:08:39.260 --> 00:08:41.529 align:start position:0%
+<c.colorE5E5E5>case of course for</c><c.colorCCCCCC> our text mining
+problem<00:08:39.589><c> or</c><00:08:39.770><c> more</c><00:08:40.159><c> precisely</c></c><c.colorE5E5E5><00:08:40.399><c> a</c><00:08:40.820><c> topic</c><00:08:41.149><c> mining</c></c>
+
+00:08:41.529 --> 00:08:41.539 align:start position:0%
+problem or more precisely<c.colorE5E5E5> a topic mining
+ </c>
+
+00:08:41.539 --> 00:08:43.839 align:start position:0%
+problem or more precisely<c.colorE5E5E5> a topic mining
+problem<00:08:41.899><c> we</c><00:08:42.770><c> have</c><00:08:42.890><c> the</c><00:08:43.039><c> following</c><00:08:43.250><c> premise</c></c>
+
+00:08:43.839 --> 00:08:43.849 align:start position:0%
+problem we have the following premise
+ 
+
+00:08:43.849 --> 00:08:46.510 align:start position:0%
+problem we have the following premise
+<c.colorE5E5E5>first<00:08:44.329><c> we</c><00:08:44.570><c> have</c><00:08:44.690><c> C</c><00:08:44.930><c> dies</c></c><c.colorCCCCCC><00:08:45.110><c> which</c><00:08:45.709><c> is</c><00:08:45.980><c> a</c><00:08:46.010><c> word</c></c>
+
+00:08:46.510 --> 00:08:46.520 align:start position:0%
+<c.colorE5E5E5>first we have C dies</c><c.colorCCCCCC> which is a word
+ </c>
+
+00:08:46.520 --> 00:08:49.840 align:start position:0%
+<c.colorE5E5E5>first we have C dies</c><c.colorCCCCCC> which is a word
+distribution</c><c.colorE5E5E5><00:08:47.180><c> and</c><00:08:47.420><c> then</c><00:08:48.320><c> we</c><00:08:48.529><c> have</c><00:08:48.740><c> a</c><00:08:49.040><c> set</c></c><c.colorCCCCCC><00:08:49.699><c> of</c></c>
+
+00:08:49.840 --> 00:08:49.850 align:start position:0%
+distribution<c.colorE5E5E5> and then we have a set</c><c.colorCCCCCC> of
+ </c>
+
+00:08:49.850 --> 00:08:52.060 align:start position:0%
+distribution<c.colorE5E5E5> and then we have a set</c><c.colorCCCCCC> of</c>
+<c.colorE5E5E5>PI's<00:08:50.209><c> for</c><00:08:50.900><c> each</c><00:08:51.020><c> document</c></c>
+
+00:08:52.060 --> 00:08:52.070 align:start position:0%
+<c.colorE5E5E5>PI's for each document
+ </c>
+
+00:08:52.070 --> 00:08:54.670 align:start position:0%
+<c.colorE5E5E5>PI's for each document
+since<00:08:52.370><c> we</c><00:08:52.520><c> have</c><00:08:52.670><c> n</c><00:08:52.940><c> documents</c><00:08:53.660><c> so</c><00:08:54.140><c> we</c><00:08:54.320><c> have</c><00:08:54.440><c> n</c></c>
+
+00:08:54.670 --> 00:08:54.680 align:start position:0%
+since we have n documents<c.colorE5E5E5> so we have n
+ </c>
+
+00:08:54.680 --> 00:08:58.690 align:start position:0%
+since we have n documents<c.colorE5E5E5> so we have n
+sets<00:08:55.010><c> of</c></c><c.colorCCCCCC><00:08:55.310><c> PI's</c><00:08:56.530><c> and</c><00:08:57.530><c> each</c><00:08:57.800><c> step</c></c><c.colorE5E5E5><00:08:58.100><c> or</c><00:08:58.370><c> the</c><00:08:58.490><c> pyah</c></c>
+
+00:08:58.690 --> 00:08:58.700 align:start position:0%
+sets of<c.colorCCCCCC> PI's and each step</c><c.colorE5E5E5> or the pyah
+ </c>
+
+00:08:58.700 --> 00:09:02.590 align:start position:0%
+sets of<c.colorCCCCCC> PI's and each step</c><c.colorE5E5E5> or the pyah
+pyah<00:08:59.180><c> values</c></c><c.colorCCCCCC><00:08:59.930><c> was</c><00:09:00.110><c> something</c><00:09:00.470><c> 1</c><00:09:00.590><c> so</c><00:09:01.550><c> this</c></c><c.colorE5E5E5><00:09:02.270><c> is</c></c>
+
+00:09:02.590 --> 00:09:02.600 align:start position:0%
+pyah values<c.colorCCCCCC> was something 1 so this</c><c.colorE5E5E5> is
+ </c>
+
+00:09:02.600 --> 00:09:06.340 align:start position:0%
+pyah values<c.colorCCCCCC> was something 1 so this</c><c.colorE5E5E5> is
+to<00:09:03.050><c> say</c><00:09:03.320><c> that</c><00:09:03.730><c> we</c><00:09:04.730><c> first</c><00:09:05.060><c> pretend</c><00:09:05.630><c> we</c><00:09:05.930><c> already</c></c>
+
+00:09:06.340 --> 00:09:06.350 align:start position:0%
+to<c.colorE5E5E5> say that we first pretend we already
+ </c>
+
+00:09:06.350 --> 00:09:08.470 align:start position:0%
+to<c.colorE5E5E5> say that we first pretend we already
+have<00:09:06.620><c> these</c><00:09:06.920><c> word</c><00:09:07.220><c> distributions</c><00:09:07.910><c> and</c><00:09:08.060><c> the</c></c>
+
+00:09:08.470 --> 00:09:08.480 align:start position:0%
+have these<c.colorE5E5E5> word distributions and the
+ </c>
+
+00:09:08.480 --> 00:09:11.320 align:start position:0%
+have these<c.colorE5E5E5> word distributions and the
+coverage</c><c.colorCCCCCC><00:09:08.980><c> numbers</c><00:09:09.980><c> and</c><00:09:10.220><c> then</c><00:09:10.880><c> we're</c></c><c.colorE5E5E5><00:09:11.120><c> going</c><00:09:11.270><c> to</c></c>
+
+00:09:11.320 --> 00:09:11.330 align:start position:0%
+coverage<c.colorCCCCCC> numbers and then we're</c><c.colorE5E5E5> going to
+ </c>
+
+00:09:11.330 --> 00:09:15.100 align:start position:0%
+coverage<c.colorCCCCCC> numbers and then we're</c><c.colorE5E5E5> going to
+see<00:09:12.140><c> how</c><00:09:12.740><c> we</c><00:09:12.800><c> can</c><00:09:13.160><c> generate</c><00:09:13.460><c> data</c><00:09:14.000><c> by</c></c><c.colorCCCCCC><00:09:14.630><c> using</c></c>
+
+00:09:15.100 --> 00:09:15.110 align:start position:0%
+see how we can generate<c.colorE5E5E5> data by</c><c.colorCCCCCC> using
+ </c>
+
+00:09:15.110 --> 00:09:18.760 align:start position:0%
+see how we can generate<c.colorE5E5E5> data by</c><c.colorCCCCCC> using
+such<00:09:15.920><c> distributions</c><00:09:16.930><c> and</c><00:09:17.930><c> so</c><00:09:18.170><c> how</c><00:09:18.560><c> do</c><00:09:18.620><c> we</c></c>
+
+00:09:18.760 --> 00:09:18.770 align:start position:0%
+such distributions and<c.colorCCCCCC> so how do we
+ </c>
+
+00:09:18.770 --> 00:09:22.810 align:start position:0%
+such distributions and<c.colorCCCCCC> so how do we
+model<00:09:19.340><c> the</c><00:09:19.460><c> data</c><00:09:19.610><c> in</c><00:09:20.240><c> this</c><00:09:20.510><c> way</c></c><c.colorE5E5E5><00:09:20.750><c> and</c></c><c.colorCCCCCC><00:09:21.410><c> we</c><00:09:22.340><c> assume</c></c>
+
+00:09:22.810 --> 00:09:22.820 align:start position:0%
+model the data in this way<c.colorE5E5E5> and</c><c.colorCCCCCC> we assume
+ </c>
+
+00:09:22.820 --> 00:09:26.110 align:start position:0%
+model the data in this way<c.colorE5E5E5> and</c><c.colorCCCCCC> we assume
+that</c><c.colorE5E5E5><00:09:22.850><c> there</c></c><c.colorCCCCCC><00:09:23.210><c> are</c><00:09:23.360><c> actual</c><00:09:24.020><c> samples</c><00:09:24.680><c> drawn</c><00:09:25.550><c> from</c></c>
+
+00:09:26.110 --> 00:09:26.120 align:start position:0%
+that<c.colorE5E5E5> there</c><c.colorCCCCCC> are actual samples drawn from
+ </c>
+
+00:09:26.120 --> 00:09:28.660 align:start position:0%
+that<c.colorE5E5E5> there</c><c.colorCCCCCC> are actual samples drawn from
+such<00:09:26.660><c> a</c><00:09:26.690><c> model</c><00:09:27.230><c> that</c></c><c.colorE5E5E5><00:09:27.440><c> depends</c><00:09:28.400><c> on</c><00:09:28.490><c> these</c></c>
+
+00:09:28.660 --> 00:09:28.670 align:start position:0%
+such a model that<c.colorE5E5E5> depends on these
+ </c>
+
+00:09:28.670 --> 00:09:30.340 align:start position:0%
+such a model that<c.colorE5E5E5> depends on these
+parameters</c><c.colorCCCCCC><00:09:29.000><c> now</c><00:09:29.600><c> one</c><00:09:29.810><c> interesting</c><00:09:29.990><c> question</c></c>
+
+00:09:30.340 --> 00:09:30.350 align:start position:0%
+<c.colorE5E5E5>parameters</c><c.colorCCCCCC> now one interesting question
+ </c>
+
+00:09:30.350 --> 00:09:33.310 align:start position:0%
+<c.colorE5E5E5>parameters</c><c.colorCCCCCC> now one interesting question</c>
+<c.colorE5E5E5>here<00:09:30.710><c> is</c></c><c.colorCCCCCC><00:09:30.860><c> to</c><00:09:31.480><c> think</c><00:09:32.480><c> about</c></c><c.colorE5E5E5><00:09:32.540><c> how</c><00:09:33.260><c> many</c></c>
+
+00:09:33.310 --> 00:09:33.320 align:start position:0%
+<c.colorE5E5E5>here is</c><c.colorCCCCCC> to think about</c><c.colorE5E5E5> how many
+ </c>
+
+00:09:33.320 --> 00:09:36.010 align:start position:0%
+<c.colorE5E5E5>here is</c><c.colorCCCCCC> to think about</c><c.colorE5E5E5> how many
+parameters<00:09:33.920><c> are</c><00:09:34.340><c> there</c><00:09:34.490><c> in</c><00:09:34.700><c> total</c><00:09:35.020><c> now</c></c>
+
+00:09:36.010 --> 00:09:36.020 align:start position:0%
+parameters are there in total<c.colorE5E5E5> now
+ </c>
+
+00:09:36.020 --> 00:09:39.820 align:start position:0%
+parameters are there in total<c.colorE5E5E5> now
+obviously<00:09:36.470><c> we</c><00:09:36.770><c> can</c><00:09:37.040><c> already</c><00:09:37.190><c> see</c><00:09:37.670><c> n</c></c><c.colorCCCCCC><00:09:38.320><c> x</c><00:09:39.320><c> k</c></c>
+
+00:09:39.820 --> 00:09:39.830 align:start position:0%
+<c.colorE5E5E5>obviously we can already see n</c><c.colorCCCCCC> x k
+ </c>
+
+00:09:39.830 --> 00:09:44.080 align:start position:0%
+<c.colorE5E5E5>obviously we can already see n</c><c.colorCCCCCC> x k
+parameters<00:09:40.610><c> for</c><00:09:41.270><c> PI's</c><00:09:41.590><c> we</c><00:09:42.590><c> also</c><00:09:42.740><c> see</c><00:09:43.130><c> kc</c></c><c.colorE5E5E5><00:09:43.910><c> dies</c></c>
+
+00:09:44.080 --> 00:09:44.090 align:start position:0%
+parameters for<c.colorCCCCCC> PI's we also see kc</c><c.colorE5E5E5> dies
+ </c>
+
+00:09:44.090 --> 00:09:47.200 align:start position:0%
+parameters for<c.colorCCCCCC> PI's we also see kc</c><c.colorE5E5E5> dies</c>
+<c.colorCCCCCC>but<00:09:44.600><c> each</c><00:09:44.780><c> STI</c></c><c.colorE5E5E5><00:09:45.190><c> is</c></c><c.colorCCCCCC><00:09:46.190><c> there</c></c><c.colorE5E5E5><00:09:46.520><c> to</c><00:09:46.700><c> a</c><00:09:46.730><c> set</c><00:09:47.030><c> of</c></c>
+
+00:09:47.200 --> 00:09:47.210 align:start position:0%
+<c.colorCCCCCC>but each STI</c><c.colorE5E5E5> is</c><c.colorCCCCCC> there</c><c.colorE5E5E5> to a set of
+ </c>
+
+00:09:47.210 --> 00:09:49.300 align:start position:0%
+<c.colorCCCCCC>but each STI</c><c.colorE5E5E5> is</c><c.colorCCCCCC> there</c><c.colorE5E5E5> to a set of
+probability<00:09:48.050><c> values</c><00:09:48.380><c> right</c><00:09:48.800><c> it's</c><00:09:49.190><c> a</c></c>
+
+00:09:49.300 --> 00:09:49.310 align:start position:0%
+probability values<c.colorE5E5E5> right it's a
+ </c>
+
+00:09:49.310 --> 00:09:52.180 align:start position:0%
+probability values<c.colorE5E5E5> right it's a</c>
+<c.colorCCCCCC>distributing</c><c.colorE5E5E5><00:09:49.880><c> over</c></c><c.colorCCCCCC><00:09:50.030><c> words</c><00:09:50.650><c> so</c><00:09:51.650><c> I</c><00:09:51.680><c> leave</c><00:09:52.010><c> this</c></c>
+
+00:09:52.180 --> 00:09:52.190 align:start position:0%
+<c.colorCCCCCC>distributing</c><c.colorE5E5E5> over</c><c.colorCCCCCC> words so I leave this
+ </c>
+
+00:09:52.190 --> 00:09:55.840 align:start position:0%
+<c.colorCCCCCC>distributing</c><c.colorE5E5E5> over</c><c.colorCCCCCC> words so I leave this
+as<00:09:52.250><c> an</c><00:09:52.490><c> exercise</c><00:09:52.930><c> for</c><00:09:53.930><c> you</c></c><c.colorE5E5E5><00:09:53.990><c> to</c></c><c.colorCCCCCC><00:09:54.790><c> figure</c></c><c.colorE5E5E5><00:09:55.790><c> out</c></c>
+
+00:09:55.840 --> 00:09:55.850 align:start position:0%
+as<c.colorCCCCCC> an exercise for you</c><c.colorE5E5E5> to</c><c.colorCCCCCC> figure</c><c.colorE5E5E5> out
+ </c>
+
+00:09:55.850 --> 00:09:58.540 align:start position:0%
+as<c.colorCCCCCC> an exercise for you</c><c.colorE5E5E5> to</c><c.colorCCCCCC> figure</c><c.colorE5E5E5> out</c>
+<c.colorCCCCCC>exactly</c><c.colorE5E5E5><00:09:56.810><c> how</c><00:09:57.050><c> many</c><00:09:57.110><c> parameters</c><00:09:57.500><c> there</c><00:09:58.400><c> are</c></c>
+
+00:09:58.540 --> 00:09:58.550 align:start position:0%
+<c.colorCCCCCC>exactly</c><c.colorE5E5E5> how many parameters there are
+ </c>
+
+00:09:58.550 --> 00:10:01.300 align:start position:0%
+<c.colorCCCCCC>exactly</c><c.colorE5E5E5> how many parameters there are
+here<00:09:59.020><c> now</c><00:10:00.020><c> once</c><00:10:00.230><c> we</c><00:10:00.410><c> set</c><00:10:00.650><c> up</c><00:10:00.680><c> at</c><00:10:00.890><c> the</c><00:10:00.950><c> model</c></c>
+
+00:10:01.300 --> 00:10:01.310 align:start position:0%
+here now once we set up<c.colorE5E5E5> at the model
+ </c>
+
+00:10:01.310 --> 00:10:04.090 align:start position:0%
+here now once we set up<c.colorE5E5E5> at the model</c>
+<c.colorCCCCCC>then<00:10:01.550><c> we</c><00:10:01.790><c> can</c><00:10:02.450><c> fit</c><00:10:02.840><c> the</c><00:10:03.080><c> model</c><00:10:03.440><c> to</c><00:10:03.650><c> our</c></c><c.colorE5E5E5><00:10:03.680><c> data</c></c>
+
+00:10:04.090 --> 00:10:04.100 align:start position:0%
+<c.colorCCCCCC>then we can fit the model to our</c><c.colorE5E5E5> data
+ </c>
+
+00:10:04.100 --> 00:10:06.850 align:start position:0%
+<c.colorCCCCCC>then we can fit the model to our</c><c.colorE5E5E5> data
+meaning<00:10:04.970><c> that</c><00:10:05.120><c> we</c><00:10:05.870><c> can</c></c><c.colorCCCCCC><00:10:06.020><c> estimate</c></c><c.colorE5E5E5><00:10:06.470><c> the</c></c>
+
+00:10:06.850 --> 00:10:06.860 align:start position:0%
+meaning that<c.colorE5E5E5> we can</c><c.colorCCCCCC> estimate</c><c.colorE5E5E5> the
+ </c>
+
+00:10:06.860 --> 00:10:09.490 align:start position:0%
+meaning that<c.colorE5E5E5> we can</c><c.colorCCCCCC> estimate</c><c.colorE5E5E5> the
+parameters<00:10:07.460><c> or</c><00:10:07.670><c> infer</c><00:10:08.300><c> the</c><00:10:08.510><c> parameters</c><00:10:09.020><c> based</c></c>
+
+00:10:09.490 --> 00:10:09.500 align:start position:0%
+parameters or infer the parameters based
+ 
+
+00:10:09.500 --> 00:10:12.190 align:start position:0%
+parameters or infer the parameters based
+on<00:10:09.710><c> the</c><00:10:09.890><c> data</c><c.colorCCCCCC><00:10:10.040><c> in</c><00:10:11.030><c> other</c><00:10:11.180><c> words</c><00:10:11.480><c> we</c><00:10:11.750><c> would</c></c><c.colorE5E5E5><00:10:11.990><c> like</c></c>
+
+00:10:12.190 --> 00:10:12.200 align:start position:0%
+on the data<c.colorCCCCCC> in other words we would</c><c.colorE5E5E5> like
+ </c>
+
+00:10:12.200 --> 00:10:15.250 align:start position:0%
+on the data<c.colorCCCCCC> in other words we would</c><c.colorE5E5E5> like</c>
+<c.colorCCCCCC>to<00:10:12.350><c> adjust</c></c><c.colorE5E5E5><00:10:12.500><c> these</c><00:10:13.130><c> parameter</c><00:10:13.730><c> values</c><00:10:14.260><c> until</c></c>
+
+00:10:15.250 --> 00:10:15.260 align:start position:0%
+<c.colorCCCCCC>to adjust</c><c.colorE5E5E5> these parameter values until
+ </c>
+
+00:10:15.260 --> 00:10:18.550 align:start position:0%
+<c.colorCCCCCC>to adjust</c><c.colorE5E5E5> these parameter values until
+we<00:10:15.470><c> give</c><00:10:15.950><c> our</c><00:10:16.850><c> data</c><00:10:17.360><c> set</c><00:10:17.750><c> the</c><00:10:18.140><c> maximum</c></c>
+
+00:10:18.550 --> 00:10:18.560 align:start position:0%
+we<c.colorE5E5E5> give our data set the maximum
+ </c>
+
+00:10:18.560 --> 00:10:21.220 align:start position:0%
+we<c.colorE5E5E5> give our data set the maximum</c>
+<c.colorE5E5E5>probability<00:10:19.040><c> I</c><00:10:19.700><c> just</c></c><c.colorCCCCCC><00:10:20.540><c> to</c><00:10:20.630><c> say</c><00:10:20.810><c> that</c><00:10:20.990><c> depending</c></c>
+
+00:10:21.220 --> 00:10:21.230 align:start position:0%
+<c.colorE5E5E5>probability I just</c><c.colorCCCCCC> to say that depending
+ </c>
+
+00:10:21.230 --> 00:10:23.380 align:start position:0%
+<c.colorE5E5E5>probability I just</c><c.colorCCCCCC> to say that depending</c>
+<c.colorCCCCCC>on</c><c.colorE5E5E5><00:10:21.620><c> the</c><00:10:21.740><c> parameter</c><00:10:22.130><c> values</c><00:10:22.490><c> some</c><00:10:23.090><c> data</c><00:10:23.300><c> points</c></c>
+
+00:10:23.380 --> 00:10:23.390 align:start position:0%
+<c.colorCCCCCC>on</c><c.colorE5E5E5> the parameter values some data points
+ </c>
+
+00:10:23.390 --> 00:10:26.040 align:start position:0%
+<c.colorCCCCCC>on</c><c.colorE5E5E5> the parameter values some data points</c>
+<c.colorCCCCCC>we</c><c.colorE5E5E5><00:10:23.780><c> have</c><00:10:23.960><c> higher</c><00:10:24.200><c> probabilities</c><00:10:24.950><c> than</c><00:10:25.610><c> others</c></c>
+
+00:10:26.040 --> 00:10:26.050 align:start position:0%
+<c.colorCCCCCC>we</c><c.colorE5E5E5> have higher probabilities than others
+ </c>
+
+00:10:26.050 --> 00:10:29.440 align:start position:0%
+<c.colorCCCCCC>we</c><c.colorE5E5E5> have higher probabilities than others
+what<00:10:27.050><c> we</c><00:10:27.260><c> are</c><00:10:27.440><c> interested</c><00:10:27.680><c> in</c><00:10:28.010><c> here</c><00:10:28.310><c> is</c><00:10:28.450><c> what</c></c>
+
+00:10:29.440 --> 00:10:29.450 align:start position:0%
+what<c.colorE5E5E5> we are interested in here is what
+ </c>
+
+00:10:29.450 --> 00:10:31.840 align:start position:0%
+what<c.colorE5E5E5> we are interested in here is what
+parameter<00:10:29.990><c> values</c><00:10:30.320><c> will</c><00:10:30.530><c> give</c><00:10:30.680><c> our</c><00:10:31.070><c> data</c><00:10:31.490><c> set</c></c>
+
+00:10:31.840 --> 00:10:31.850 align:start position:0%
+parameter values will give our data set
+ 
+
+00:10:31.850 --> 00:10:33.880 align:start position:0%
+parameter values will give our data set
+the<00:10:32.270><c> highest</c><c.colorE5E5E5><00:10:32.480><c> probability</c></c><c.colorCCCCCC><00:10:32.870><c> so</c></c><c.colorE5E5E5><00:10:33.500><c> I</c><00:10:33.560><c> also</c></c>
+
+00:10:33.880 --> 00:10:33.890 align:start position:0%
+the highest<c.colorE5E5E5> probability</c><c.colorCCCCCC> so</c><c.colorE5E5E5> I also
+ </c>
+
+00:10:33.890 --> 00:10:35.710 align:start position:0%
+the highest<c.colorE5E5E5> probability</c><c.colorCCCCCC> so</c><c.colorE5E5E5> I also</c>
+<c.colorE5E5E5>illustrated<00:10:34.610><c> through</c></c><c.colorCCCCCC><00:10:34.700><c> the</c><00:10:34.790><c> problem</c><00:10:35.210><c> with</c><00:10:35.690><c> a</c></c>
+
+00:10:35.710 --> 00:10:35.720 align:start position:0%
+<c.colorE5E5E5>illustrated through</c><c.colorCCCCCC> the problem with a
+ </c>
+
+00:10:35.720 --> 00:10:38.350 align:start position:0%
+<c.colorE5E5E5>illustrated through</c><c.colorCCCCCC> the problem with a
+picture<00:10:36.080><c> that</c><00:10:36.290><c> you</c><00:10:36.620><c> see</c><00:10:36.830><c> here</c><00:10:37.040><c> on</c><00:10:37.310><c> the</c><00:10:37.850><c> x-axis</c></c>
+
+00:10:38.350 --> 00:10:38.360 align:start position:0%
+picture that<c.colorCCCCCC> you see here on the x-axis
+ </c>
+
+00:10:38.360 --> 00:10:41.020 align:start position:0%
+picture that<c.colorCCCCCC> you see here on the x-axis</c>
+<c.colorCCCCCC>I<00:10:38.810><c> just</c><00:10:39.230><c> illustrate</c><00:10:39.830><c> the</c></c><c.colorE5E5E5><00:10:40.010><c> lambda</c><00:10:40.700><c> the</c></c>
+
+00:10:41.020 --> 00:10:41.030 align:start position:0%
+<c.colorCCCCCC>I just illustrate the</c><c.colorE5E5E5> lambda the
+ </c>
+
+00:10:41.030 --> 00:10:43.600 align:start position:0%
+<c.colorCCCCCC>I just illustrate the</c><c.colorE5E5E5> lambda the
+parameters<00:10:41.540><c> as</c><00:10:41.690><c> one</c><00:10:42.140><c> dimensional</c><00:10:42.610><c> variable</c></c>
+
+00:10:43.600 --> 00:10:43.610 align:start position:0%
+parameters as one dimensional<c.colorE5E5E5> variable
+ </c>
+
+00:10:43.610 --> 00:10:46.120 align:start position:0%
+parameters as one dimensional<c.colorE5E5E5> variable
+it's<00:10:44.300><c> oversimplification</c><00:10:45.290><c> obviously</c><00:10:45.770><c> but</c><00:10:45.980><c> in</c></c>
+
+00:10:46.120 --> 00:10:46.130 align:start position:0%
+<c.colorE5E5E5>it's oversimplification obviously but in
+ </c>
+
+00:10:46.130 --> 00:10:49.720 align:start position:0%
+<c.colorE5E5E5>it's oversimplification obviously but in
+surfaces<00:10:46.670><c> to</c><00:10:47.330><c> show</c><00:10:47.630><c> the</c><00:10:47.900><c> idea</c></c><c.colorCCCCCC><00:10:48.350><c> and</c><00:10:48.860><c> the</c></c><c.colorE5E5E5><00:10:49.490><c> y-axis</c></c>
+
+00:10:49.720 --> 00:10:49.730 align:start position:0%
+surfaces to show the idea<c.colorCCCCCC> and the</c><c.colorE5E5E5> y-axis
+ </c>
+
+00:10:49.730 --> 00:10:51.730 align:start position:0%
+surfaces to show the idea<c.colorCCCCCC> and the</c><c.colorE5E5E5> y-axis</c>
+<c.colorCCCCCC>shows</c><c.colorE5E5E5><00:10:50.180><c> the</c><00:10:50.720><c> probability</c></c><c.colorCCCCCC><00:10:50.930><c> of</c><00:10:51.410><c> the</c></c><c.colorE5E5E5><00:10:51.560><c> data</c></c>
+
+00:10:51.730 --> 00:10:51.740 align:start position:0%
+<c.colorCCCCCC>shows</c><c.colorE5E5E5> the probability</c><c.colorCCCCCC> of the</c><c.colorE5E5E5> data
+ </c>
+
+00:10:51.740 --> 00:10:54.730 align:start position:0%
+<c.colorCCCCCC>shows</c><c.colorE5E5E5> the probability</c><c.colorCCCCCC> of the</c><c.colorE5E5E5> data
+observed<00:10:52.610><c> this</c><00:10:53.480><c> probability</c><00:10:54.200><c> obviously</c></c>
+
+00:10:54.730 --> 00:10:54.740 align:start position:0%
+observed<c.colorE5E5E5> this probability obviously
+ </c>
+
+00:10:54.740 --> 00:10:57.880 align:start position:0%
+observed<c.colorE5E5E5> this probability obviously
+depends<00:10:55.400><c> on</c><00:10:55.520><c> the</c></c><c.colorCCCCCC><00:10:55.690><c> setting</c><00:10:56.690><c> of</c><00:10:56.870><c> lambda</c></c><c.colorE5E5E5><00:10:57.350><c> so</c></c>
+
+00:10:57.880 --> 00:10:57.890 align:start position:0%
+depends on<c.colorE5E5E5> the</c><c.colorCCCCCC> setting of lambda</c><c.colorE5E5E5> so
+ </c>
+
+00:10:57.890 --> 00:10:59.890 align:start position:0%
+depends on<c.colorE5E5E5> the</c><c.colorCCCCCC> setting of lambda</c><c.colorE5E5E5> so
+that's<00:10:58.100><c> why</c><00:10:58.250><c> it</c><00:10:58.310><c> varies</c><00:10:58.940><c> as</c><00:10:59.150><c> you</c><00:10:59.450><c> change</c><00:10:59.780><c> the</c></c>
+
+00:10:59.890 --> 00:10:59.900 align:start position:0%
+that's why it varies as you change the
+ 
+
+00:10:59.900 --> 00:11:02.080 align:start position:0%
+that's why it varies as you change the
+<c.colorE5E5E5>value<00:11:00.440><c> of</c><00:11:00.470><c> lambda</c><00:11:00.770><c> what</c><00:11:01.550><c> we</c><00:11:01.700><c> were</c><00:11:01.760><c> interested</c></c>
+
+00:11:02.080 --> 00:11:02.090 align:start position:0%
+<c.colorE5E5E5>value of lambda what we were interested
+ </c>
+
+00:11:02.090 --> 00:11:05.510 align:start position:0%
+<c.colorE5E5E5>value of lambda what we were interested
+in<00:11:02.360><c> here</c><00:11:02.660><c> is</c><00:11:02.690><c> refine</c><00:11:03.230><c> the</c><00:11:03.470><c> lambda</c><00:11:04.010><c> star</c></c>
+
+00:11:05.510 --> 00:11:05.520 align:start position:0%
+<c.colorE5E5E5>in here is refine the lambda star
+ </c>
+
+00:11:05.520 --> 00:11:08.330 align:start position:0%
+<c.colorE5E5E5>in here is refine the lambda star
+that<00:11:06.030><c> would</c><00:11:06.210><c> maximize</c><00:11:06.650><c> the</c><00:11:07.650><c> probability</c><00:11:07.890><c> of</c></c>
+
+00:11:08.330 --> 00:11:08.340 align:start position:0%
+that would maximize<c.colorE5E5E5> the probability of
+ </c>
+
+00:11:08.340 --> 00:11:12.380 align:start position:0%
+that would maximize<c.colorE5E5E5> the probability of
+the<00:11:08.580><c> observed</c><00:11:08.670><c> data</c><00:11:09.560><c> so</c><00:11:10.560><c> this</c><00:11:11.340><c> would</c><00:11:11.640><c> be</c><00:11:11.910><c> then</c></c>
+
+00:11:12.380 --> 00:11:12.390 align:start position:0%
+the observed<c.colorE5E5E5> data so this would be then
+ </c>
+
+00:11:12.390 --> 00:11:15.770 align:start position:0%
+the observed<c.colorE5E5E5> data so this would be then
+our<00:11:12.800><c> estimate</c><00:11:13.800><c> of</c></c><c.colorCCCCCC><00:11:13.830><c> the</c><00:11:14.010><c> parameters</c><00:11:14.580><c> and</c><00:11:14.790><c> these</c></c>
+
+00:11:15.770 --> 00:11:15.780 align:start position:0%
+<c.colorE5E5E5>our estimate of</c><c.colorCCCCCC> the parameters and these
+ </c>
+
+00:11:15.780 --> 00:11:19.250 align:start position:0%
+<c.colorE5E5E5>our estimate of</c><c.colorCCCCCC> the parameters and these
+parameters<00:11:16.290><c> note</c><00:11:17.130><c> that</c></c><c.colorE5E5E5><00:11:17.400><c> are</c><00:11:17.630><c> precisely</c><00:11:18.630><c> what</c></c>
+
+00:11:19.250 --> 00:11:19.260 align:start position:0%
+parameters<c.colorCCCCCC> note that</c><c.colorE5E5E5> are precisely what
+ </c>
+
+00:11:19.260 --> 00:11:21.980 align:start position:0%
+parameters<c.colorCCCCCC> note that</c><c.colorE5E5E5> are precisely what</c>
+<c.colorCCCCCC>we<00:11:19.710><c> hope</c><00:11:20.040><c> to</c><00:11:20.220><c> discover</c></c><c.colorE5E5E5><00:11:20.610><c> from</c><00:11:20.910><c> text</c><00:11:21.240><c> data</c><00:11:21.450><c> so</c></c><c.colorCCCCCC><00:11:21.840><c> we</c></c>
+
+00:11:21.980 --> 00:11:21.990 align:start position:0%
+<c.colorCCCCCC>we hope to discover</c><c.colorE5E5E5> from text data so</c><c.colorCCCCCC> we
+ </c>
+
+00:11:21.990 --> 00:11:24.500 align:start position:0%
+<c.colorCCCCCC>we hope to discover</c><c.colorE5E5E5> from text data so</c><c.colorCCCCCC> we
+treat<00:11:22.380><c> these</c><00:11:22.760><c> parameters</c><00:11:23.760><c> as</c></c><c.colorE5E5E5><00:11:23.910><c> after</c><00:11:24.480><c> the</c></c>
+
+00:11:24.500 --> 00:11:24.510 align:start position:0%
+treat these parameters as<c.colorE5E5E5> after the
+ </c>
+
+00:11:24.510 --> 00:11:27.260 align:start position:0%
+treat these parameters as<c.colorE5E5E5> after the
+outcome<00:11:25.200><c> or</c></c><c.colorCCCCCC><00:11:25.350><c> the</c><00:11:25.620><c> output</c><00:11:26.070><c> of</c><00:11:26.190><c> the</c><00:11:26.850><c> data</c><00:11:27.030><c> mining</c></c>
+
+00:11:27.260 --> 00:11:27.270 align:start position:0%
+<c.colorE5E5E5>outcome or</c><c.colorCCCCCC> the output of the data mining
+ </c>
+
+00:11:27.270 --> 00:11:29.450 align:start position:0%
+<c.colorE5E5E5>outcome or</c><c.colorCCCCCC> the output of the data mining</c>
+<c.colorE5E5E5>algorithm<00:11:27.930><c> so</c><00:11:28.380><c> this</c><00:11:28.560><c> is</c></c><c.colorCCCCCC><00:11:28.710><c> the</c><00:11:28.800><c> general</c><00:11:29.130><c> idea</c><00:11:29.190><c> of</c></c>
+
+00:11:29.450 --> 00:11:29.460 align:start position:0%
+<c.colorE5E5E5>algorithm so this is</c><c.colorCCCCCC> the general idea of
+ </c>
+
+00:11:29.460 --> 00:11:31.370 align:start position:0%
+<c.colorE5E5E5>algorithm so this is</c><c.colorCCCCCC> the general idea of</c>
+<c.colorE5E5E5>using<00:11:29.850><c> a</c><00:11:29.910><c> generative</c><00:11:30.480><c> model</c></c><c.colorCCCCCC><00:11:30.510><c> for</c><00:11:30.990><c> text</c><00:11:31.200><c> mining</c></c>
+
+00:11:31.370 --> 00:11:31.380 align:start position:0%
+<c.colorE5E5E5>using a generative model</c><c.colorCCCCCC> for text mining
+ </c>
+
+00:11:31.380 --> 00:11:33.770 align:start position:0%
+<c.colorE5E5E5>using a generative model</c><c.colorCCCCCC> for text mining</c>
+<c.colorE5E5E5>first<00:11:32.190><c> we</c><00:11:32.610><c> design</c><00:11:32.940><c> a</c><00:11:32.970><c> model</c><00:11:33.450><c> with</c><00:11:33.600><c> some</c></c>
+
+00:11:33.770 --> 00:11:33.780 align:start position:0%
+<c.colorE5E5E5>first we design a model with some
+ </c>
+
+00:11:33.780 --> 00:11:35.750 align:start position:0%
+<c.colorE5E5E5>first we design a model with some
+parameters<00:11:34.290><c> that</c><00:11:34.740><c> we</c><00:11:34.920><c> are</c><00:11:35.010><c> interested</c><00:11:35.430><c> in</c><00:11:35.550><c> and</c></c>
+
+00:11:35.750 --> 00:11:35.760 align:start position:0%
+parameters<c.colorE5E5E5> that we are interested in and
+ </c>
+
+00:11:35.760 --> 00:11:37.940 align:start position:0%
+parameters<c.colorE5E5E5> that we are interested in and
+then</c><c.colorCCCCCC><00:11:36.270><c> we</c><00:11:36.390><c> model</c><00:11:36.840><c> that</c></c><c.colorE5E5E5><00:11:36.960><c> they</c><00:11:37.080><c> now</c><00:11:37.230><c> adjust</c><00:11:37.800><c> to</c></c>
+
+00:11:37.940 --> 00:11:37.950 align:start position:0%
+then<c.colorCCCCCC> we model that</c><c.colorE5E5E5> they now adjust to
+ </c>
+
+00:11:37.950 --> 00:11:40.370 align:start position:0%
+then<c.colorCCCCCC> we model that</c><c.colorE5E5E5> they now adjust to
+the<00:11:38.040><c> parameters</c><00:11:38.490><c> to</c></c><c.colorCCCCCC><00:11:38.700><c> fit</c><00:11:38.940><c> the</c></c><c.colorE5E5E5><00:11:39.060><c> data</c><00:11:39.270><c> as</c><00:11:39.510><c> well</c></c>
+
+00:11:40.370 --> 00:11:40.380 align:start position:0%
+the parameters to<c.colorCCCCCC> fit the</c><c.colorE5E5E5> data as well
+ </c>
+
+00:11:40.380 --> 00:11:43.040 align:start position:0%
+the parameters to<c.colorCCCCCC> fit the</c><c.colorE5E5E5> data as well
+as<00:11:40.440><c> we</c><00:11:40.830><c> can</c><00:11:41.100><c> after</c></c><c.colorCCCCCC><00:11:41.970><c> we</c><00:11:42.300><c> have</c><00:11:42.450><c> Fitness</c><00:11:42.900><c> data</c></c>
+
+00:11:43.040 --> 00:11:43.050 align:start position:0%
+as<c.colorE5E5E5> we can after</c><c.colorCCCCCC> we have Fitness data
+ </c>
+
+00:11:43.050 --> 00:11:44.930 align:start position:0%
+as<c.colorE5E5E5> we can after</c><c.colorCCCCCC> we have Fitness data
+then<00:11:43.440><c> we</c><00:11:43.620><c> will</c><00:11:43.770><c> recover</c><00:11:44.130><c> some</c><00:11:44.460><c> parameter</c></c>
+
+00:11:44.930 --> 00:11:44.940 align:start position:0%
+then we will recover some parameter
+ 
+
+00:11:44.940 --> 00:11:46.640 align:start position:0%
+then we will recover some parameter
+values<c.colorCCCCCC><00:11:45.300><c> we'll</c></c><c.colorE5E5E5><00:11:45.720><c> get</c><00:11:45.870><c> the</c><00:11:46.050><c> specific</c><00:11:46.560><c> of</c></c>
+
+00:11:46.640 --> 00:11:46.650 align:start position:0%
+values<c.colorCCCCCC> we'll</c><c.colorE5E5E5> get the specific of
+ </c>
+
+00:11:46.650 --> 00:11:48.620 align:start position:0%
+values<c.colorCCCCCC> we'll</c><c.colorE5E5E5> get the specific of
+parameter<00:11:47.070><c> values</c></c><c.colorCCCCCC><00:11:47.100><c> and</c><00:11:47.580><c> those</c><00:11:48.120><c> will</c><00:11:48.390><c> be</c><00:11:48.510><c> the</c></c>
+
+00:11:48.620 --> 00:11:48.630 align:start position:0%
+<c.colorE5E5E5>parameter values</c><c.colorCCCCCC> and those will be the
+ </c>
+
+00:11:48.630 --> 00:11:51.260 align:start position:0%
+<c.colorE5E5E5>parameter values</c><c.colorCCCCCC> and those will be the
+output</c><c.colorE5E5E5><00:11:48.810><c> of</c><00:11:49.260><c> the</c><00:11:50.010><c> algorithm</c><00:11:50.310><c> and</c><00:11:50.850><c> we</c><00:11:51.030><c> treat</c></c>
+
+00:11:51.260 --> 00:11:51.270 align:start position:0%
+output<c.colorE5E5E5> of the algorithm and we treat
+ </c>
+
+00:11:51.270 --> 00:11:53.420 align:start position:0%
+output<c.colorE5E5E5> of the algorithm and we treat
+those<00:11:51.450><c> as</c><00:11:51.710><c> actually</c><00:11:52.710><c> the</c><00:11:52.740><c> discovered</c></c>
+
+00:11:53.420 --> 00:11:53.430 align:start position:0%
+those<c.colorE5E5E5> as actually the discovered
+ </c>
+
+00:11:53.430 --> 00:11:56.750 align:start position:0%
+those<c.colorE5E5E5> as actually the discovered
+knowledge<00:11:54.150><c> from</c><00:11:54.360><c> text</c><00:11:54.720><c> data</c><00:11:54.960><c> by</c><00:11:55.950><c> varying</c><00:11:56.610><c> the</c></c>
+
+00:11:56.750 --> 00:11:56.760 align:start position:0%
+knowledge<c.colorE5E5E5> from text data by varying the
+ </c>
+
+00:11:56.760 --> 00:11:58.040 align:start position:0%
+knowledge<c.colorE5E5E5> from text data by varying the
+model<00:11:57.090><c> of</c><00:11:57.150><c> course</c><00:11:57.390><c> we</c><00:11:57.540><c> can</c><00:11:57.690><c> discover</c></c>
+
+00:11:58.040 --> 00:11:58.050 align:start position:0%
+model of course we can discover
+ 
+
+00:11:58.050 --> 00:12:00.530 align:start position:0%
+model of course we can discover
+different<c.colorCCCCCC><00:11:58.290><c> knowledge</c><00:11:58.860><c> so</c></c><c.colorE5E5E5><00:11:59.580><c> to</c><00:11:59.640><c> summarize</c><00:12:00.090><c> we</c></c>
+
+00:12:00.530 --> 00:12:00.540 align:start position:0%
+different<c.colorCCCCCC> knowledge so</c><c.colorE5E5E5> to summarize we
+ </c>
+
+00:12:00.540 --> 00:12:03.410 align:start position:0%
+different<c.colorCCCCCC> knowledge so</c><c.colorE5E5E5> to summarize we
+introduced<00:12:01.230><c> a</c><00:12:01.650><c> new</c></c><c.colorCCCCCC><00:12:01.950><c> way</c><00:12:02.280><c> of</c><00:12:02.730><c> representing</c></c>
+
+00:12:03.410 --> 00:12:03.420 align:start position:0%
+introduced a new<c.colorCCCCCC> way of representing
+ </c>
+
+00:12:03.420 --> 00:12:06.380 align:start position:0%
+introduced a new<c.colorCCCCCC> way of representing
+topic<00:12:03.900><c> namely</c></c><c.colorE5E5E5><00:12:04.820><c> represented</c><00:12:05.820><c> as</c><00:12:06.090><c> a</c><00:12:06.120><c> water</c></c>
+
+00:12:06.380 --> 00:12:06.390 align:start position:0%
+topic namely<c.colorE5E5E5> represented as a water
+ </c>
+
+00:12:06.390 --> 00:12:08.450 align:start position:0%
+topic namely<c.colorE5E5E5> represented as a water
+distribution<00:12:06.680><c> and</c><00:12:07.680><c> this</c><00:12:07.860><c> has</c><00:12:08.160><c> the</c><00:12:08.340><c> advantage</c></c>
+
+00:12:08.450 --> 00:12:08.460 align:start position:0%
+distribution<c.colorE5E5E5> and this has the advantage
+ </c>
+
+00:12:08.460 --> 00:12:11.390 align:start position:0%
+distribution<c.colorE5E5E5> and this has the advantage
+of<00:12:09.150><c> using</c><00:12:09.600><c> multiple</c><00:12:10.170><c> words</c><00:12:10.650><c> to</c><00:12:10.800><c> describe</c><00:12:11.010><c> a</c></c>
+
+00:12:11.390 --> 00:12:11.400 align:start position:0%
+of using multiple words to describe a
+ 
+
+00:12:11.400 --> 00:12:14.750 align:start position:0%
+of using multiple words to describe a
+complicated<00:12:12.180><c> topic</c><c.colorE5E5E5><00:12:12.500><c> it</c><00:12:13.500><c> also</c><00:12:13.830><c> allows</c><00:12:14.460><c> us</c></c><c.colorCCCCCC><00:12:14.490><c> to</c></c>
+
+00:12:14.750 --> 00:12:14.760 align:start position:0%
+complicated topic<c.colorE5E5E5> it also allows us</c><c.colorCCCCCC> to
+ </c>
+
+00:12:14.760 --> 00:12:16.490 align:start position:0%
+complicated topic<c.colorE5E5E5> it also allows us</c><c.colorCCCCCC> to
+assign<00:12:15.000><c> weights</c></c><c.colorE5E5E5><00:12:15.330><c> on</c><00:12:15.510><c> words</c><00:12:15.750><c> so</c><00:12:16.230><c> we</c><00:12:16.380><c> have</c></c>
+
+00:12:16.490 --> 00:12:16.500 align:start position:0%
+assign weights<c.colorE5E5E5> on words so we have
+ </c>
+
+00:12:16.500 --> 00:12:18.650 align:start position:0%
+assign weights<c.colorE5E5E5> on words so we have</c>
+<c.colorCCCCCC>models<00:12:16.860><c> of</c><00:12:17.010><c> those</c></c><c.colorE5E5E5><00:12:17.160><c> variations</c><00:12:17.760><c> of</c><00:12:18.150><c> semantics</c></c>
+
+00:12:18.650 --> 00:12:18.660 align:start position:0%
+<c.colorCCCCCC>models of those</c><c.colorE5E5E5> variations of semantics
+ </c>
+
+00:12:18.660 --> 00:12:21.620 align:start position:0%
+<c.colorCCCCCC>models of those</c><c.colorE5E5E5> variations of semantics
+we<00:12:19.470><c> talked</c><00:12:19.860><c> about</c><00:12:19.980><c> the</c><00:12:20.310><c> task</c><00:12:20.580><c> of</c><00:12:20.880><c> topic</c><00:12:21.210><c> mining</c></c>
+
+00:12:21.620 --> 00:12:21.630 align:start position:0%
+we talked about<c.colorE5E5E5> the task of topic mining
+ </c>
+
+00:12:21.630 --> 00:12:24.710 align:start position:0%
+we talked about<c.colorE5E5E5> the task of topic mining
+and<00:12:21.780><c> analysis</c><00:12:22.640><c> when</c><00:12:23.640><c> we</c><00:12:23.670><c> define</c><00:12:24.060><c> a</c><00:12:24.090><c> topic</c><00:12:24.480><c> as</c><00:12:24.690><c> a</c></c>
+
+00:12:24.710 --> 00:12:24.720 align:start position:0%
+and analysis<c.colorE5E5E5> when we define a topic as a
+ </c>
+
+00:12:24.720 --> 00:12:27.230 align:start position:0%
+and analysis<c.colorE5E5E5> when we define a topic as a
+distribution<00:12:25.490><c> so</c><00:12:26.490><c> the</c><00:12:26.640><c> input</c><00:12:26.910><c> is</c></c><c.colorCCCCCC><00:12:26.940><c> a</c></c>
+
+00:12:27.230 --> 00:12:27.240 align:start position:0%
+distribution<c.colorE5E5E5> so the input is</c><c.colorCCCCCC> a
+ </c>
+
+00:12:27.240 --> 00:12:29.390 align:start position:0%
+distribution<c.colorE5E5E5> so the input is</c><c.colorCCCCCC> a
+collection<00:12:27.540><c> of</c><00:12:27.840><c> text</c><00:12:28.410><c> articles</c></c><c.colorE5E5E5><00:12:28.860><c> the</c><00:12:29.070><c> number</c></c>
+
+00:12:29.390 --> 00:12:29.400 align:start position:0%
+collection of text articles<c.colorE5E5E5> the number
+ </c>
+
+00:12:29.400 --> 00:12:31.130 align:start position:0%
+collection of text articles<c.colorE5E5E5> the number
+of<00:12:29.460><c> topics</c><00:12:29.670><c> and</c></c><c.colorCCCCCC><00:12:30.000><c> material</c><00:12:30.570><c> set</c></c><c.colorE5E5E5><00:12:30.780><c> and</c><00:12:31.020><c> the</c></c>
+
+00:12:31.130 --> 00:12:31.140 align:start position:0%
+of topics<c.colorE5E5E5> and</c><c.colorCCCCCC> material set</c><c.colorE5E5E5> and the
+ </c>
+
+00:12:31.140 --> 00:12:33.830 align:start position:0%
+of topics<c.colorE5E5E5> and</c><c.colorCCCCCC> material set</c><c.colorE5E5E5> and the
+output<00:12:31.590><c> is</c><00:12:31.710><c> a</c><00:12:31.740><c> set</c><00:12:32.070><c> of</c><00:12:32.220><c> topics</c><00:12:32.460><c> each</c><00:12:33.030><c> is</c><00:12:33.390><c> a</c><00:12:33.420><c> word</c></c>
+
+00:12:33.830 --> 00:12:33.840 align:start position:0%
+output is a set of topics<c.colorE5E5E5> each is a word
+ </c>
+
+00:12:33.840 --> 00:12:36.950 align:start position:0%
+output is a set of topics<c.colorE5E5E5> each is a word
+distribution<00:12:34.440><c> and</c><00:12:35.370><c> also</c><00:12:35.610><c> the</c><00:12:36.120><c> coverage</c><00:12:36.780><c> of</c></c>
+
+00:12:36.950 --> 00:12:36.960 align:start position:0%
+distribution and also<c.colorE5E5E5> the coverage of
+ </c>
+
+00:12:36.960 --> 00:12:38.780 align:start position:0%
+distribution and also<c.colorE5E5E5> the coverage of
+all</c><c.colorCCCCCC><00:12:37.290><c> the</c><00:12:37.440><c> topics</c></c><c.colorE5E5E5><00:12:37.770><c> in</c></c><c.colorCCCCCC><00:12:37.920><c> each</c></c><c.colorE5E5E5><00:12:37.980><c> document</c></c><c.colorCCCCCC><00:12:38.310><c> and</c></c>
+
+00:12:38.780 --> 00:12:38.790 align:start position:0%
+all<c.colorCCCCCC> the topics</c><c.colorE5E5E5> in</c><c.colorCCCCCC> each</c><c.colorE5E5E5> document</c><c.colorCCCCCC> and
+ </c>
+
+00:12:38.790 --> 00:12:41.510 align:start position:0%
+all<c.colorCCCCCC> the topics</c><c.colorE5E5E5> in</c><c.colorCCCCCC> each</c><c.colorE5E5E5> document</c><c.colorCCCCCC> and
+these<00:12:38.970><c> are</c></c><c.colorE5E5E5><00:12:39.180><c> formally</c><00:12:39.660><c> represented</c><00:12:40.260><c> by</c><00:12:40.520><c> theta</c></c>
+
+00:12:41.510 --> 00:12:41.520 align:start position:0%
+these are<c.colorE5E5E5> formally represented by theta
+ </c>
+
+00:12:41.520 --> 00:12:45.620 align:start position:0%
+these are<c.colorE5E5E5> formally represented by theta</c>
+<c.colorCCCCCC>eyes<00:12:41.790><c> and</c><00:12:42.180><c> pi</c><00:12:42.540><c> eyes</c><00:12:42.870><c> and</c><00:12:43.880><c> we</c><00:12:44.880><c> have</c><00:12:45.120><c> two</c></c>
+
+00:12:45.620 --> 00:12:45.630 align:start position:0%
+<c.colorCCCCCC>eyes and pi eyes and we have two
+ </c>
+
+00:12:45.630 --> 00:12:48.020 align:start position:0%
+<c.colorCCCCCC>eyes and pi eyes and we have two
+constraints<00:12:46.110><c> here</c><00:12:46.950><c> for</c><00:12:47.550><c> these</c><00:12:47.760><c> parameters</c></c>
+
+00:12:48.020 --> 00:12:48.030 align:start position:0%
+constraints here for these parameters
+ 
+
+00:12:48.030 --> 00:12:51.980 align:start position:0%
+constraints here for these parameters
+<c.colorCCCCCC>the<00:12:48.750><c> first</c></c><c.colorE5E5E5><00:12:48.780><c> is</c><00:12:49.260><c> the</c><00:12:49.920><c> constraint</c><00:12:50.490><c> on</c><00:12:50.820><c> the</c><00:12:51.570><c> word</c></c>
+
+00:12:51.980 --> 00:12:51.990 align:start position:0%
+<c.colorCCCCCC>the first</c><c.colorE5E5E5> is the constraint on the word
+ </c>
+
+00:12:51.990 --> 00:12:54.140 align:start position:0%
+<c.colorCCCCCC>the first</c><c.colorE5E5E5> is the constraint on the word
+distributions</c><c.colorCCCCCC><00:12:52.710><c> in</c><00:12:53.370><c> each</c><00:12:53.550><c> water</c><00:12:53.850><c> distribution</c></c>
+
+00:12:54.140 --> 00:12:54.150 align:start position:0%
+distributions<c.colorCCCCCC> in each water distribution
+ </c>
+
+00:12:54.150 --> 00:12:56.930 align:start position:0%
+distributions<c.colorCCCCCC> in each water distribution</c>
+<c.colorE5E5E5>the<00:12:54.540><c> probabilities</c><00:12:55.200><c> on</c><00:12:55.440><c> all</c><00:12:55.710><c> the</c><00:12:55.890><c> words</c><00:12:56.100><c> must</c></c>
+
+00:12:56.930 --> 00:12:56.940 align:start position:0%
+<c.colorE5E5E5>the probabilities on all the words must
+ </c>
+
+00:12:56.940 --> 00:12:58.910 align:start position:0%
+<c.colorE5E5E5>the probabilities on all the words must
+sum<00:12:57.300><c> to</c><00:12:57.330><c> one</c><00:12:57.570><c> over</c><00:12:58.020><c> all</c><00:12:58.080><c> the</c><00:12:58.380><c> words</c><00:12:58.620><c> in</c><00:12:58.830><c> the</c></c>
+
+00:12:58.910 --> 00:12:58.920 align:start position:0%
+sum to<c.colorE5E5E5> one over all the words in the
+ </c>
+
+00:12:58.920 --> 00:13:01.280 align:start position:0%
+sum to<c.colorE5E5E5> one over all the words in the
+vocabulary</c><c.colorCCCCCC><00:12:59.150><c> the</c><00:13:00.150><c> second</c><00:13:00.540><c> constraint</c><00:13:00.870><c> is</c></c><c.colorE5E5E5><00:13:01.080><c> on</c></c>
+
+00:13:01.280 --> 00:13:01.290 align:start position:0%
+vocabulary<c.colorCCCCCC> the second constraint is</c><c.colorE5E5E5> on
+ </c>
+
+00:13:01.290 --> 00:13:03.410 align:start position:0%
+vocabulary<c.colorCCCCCC> the second constraint is</c><c.colorE5E5E5> on
+the<00:13:01.470><c> topic</c><00:13:01.740><c> coverage</c><00:13:02.310><c> in</c><00:13:02.490><c> each</c></c><c.colorCCCCCC><00:13:02.610><c> document</c><00:13:03.180><c> a</c></c>
+
+00:13:03.410 --> 00:13:03.420 align:start position:0%
+the topic coverage in each<c.colorCCCCCC> document a
+ </c>
+
+00:13:03.420 --> 00:13:05.840 align:start position:0%
+the topic coverage in each<c.colorCCCCCC> document a
+document</c><c.colorE5E5E5><00:13:04.230><c> is</c><00:13:04.590><c> not</c><00:13:04.770><c> allowed</c><00:13:05.070><c> recover</c><00:13:05.520><c> a</c></c>
+
+00:13:05.840 --> 00:13:05.850 align:start position:0%
+document<c.colorE5E5E5> is not allowed recover a
+ </c>
+
+00:13:05.850 --> 00:13:08.390 align:start position:0%
+document<c.colorE5E5E5> is not allowed recover a
+topical<00:13:06.450><c> outside</c><00:13:06.960><c> the</c><00:13:07.350><c> set</c><00:13:07.830><c> of</c><00:13:07.980><c> topics</c><00:13:08.220><c> that</c></c>
+
+00:13:08.390 --> 00:13:08.400 align:start position:0%
+topical outside the set of topics<c.colorE5E5E5> that
+ </c>
+
+00:13:08.400 --> 00:13:11.510 align:start position:0%
+topical outside the set of topics<c.colorE5E5E5> that
+we</c><c.colorCCCCCC><00:13:08.700><c> are</c><00:13:08.900><c> discovering</c><00:13:09.900><c> so</c><00:13:10.410><c> the</c><00:13:10.890><c> coverage</c></c><c.colorE5E5E5><00:13:11.250><c> of</c></c>
+
+00:13:11.510 --> 00:13:11.520 align:start position:0%
+<c.colorE5E5E5>we</c><c.colorCCCCCC> are discovering so the coverage</c><c.colorE5E5E5> of
+ </c>
+
+00:13:11.520 --> 00:13:13.879 align:start position:0%
+<c.colorE5E5E5>we</c><c.colorCCCCCC> are discovering so the coverage</c><c.colorE5E5E5> of
+each<00:13:12.090><c> of</c><00:13:12.300><c> the</c><00:13:12.540><c> knees</c></c>
+
+00:13:13.879 --> 00:13:13.889 align:start position:0%
+each of<c.colorE5E5E5> the knees
+ </c>
+
+00:13:13.889 --> 00:13:17.299 align:start position:0%
+each of<c.colorE5E5E5> the knees
+topics<00:13:14.220><c> with</c><00:13:14.489><c> someone</c><00:13:15.359><c> for</c><00:13:15.869><c> a</c><00:13:16.049><c> document</c></c><c.colorCCCCCC><00:13:16.589><c> we</c></c>
+
+00:13:17.299 --> 00:13:17.309 align:start position:0%
+topics with someone for a document<c.colorCCCCCC> we
+ </c>
+
+00:13:17.309 --> 00:13:19.160 align:start position:0%
+topics with someone for a document<c.colorCCCCCC> we
+also<00:13:17.459><c> introduced</c><00:13:17.939><c> a</c><00:13:18.089><c> general</c><00:13:18.509><c> idea</c><00:13:18.569><c> of</c></c><c.colorE5E5E5><00:13:18.809><c> using</c></c>
+
+00:13:19.160 --> 00:13:19.170 align:start position:0%
+also<c.colorCCCCCC> introduced a general idea of</c><c.colorE5E5E5> using
+ </c>
+
+00:13:19.170 --> 00:13:21.220 align:start position:0%
+also<c.colorCCCCCC> introduced a general idea of</c><c.colorE5E5E5> using
+a<00:13:19.230><c> generative</c><00:13:19.829><c> model</c></c><c.colorCCCCCC><00:13:19.859><c> for</c><00:13:20.339><c> text</c><00:13:20.579><c> mining</c></c><c.colorE5E5E5><00:13:20.999><c> and</c></c>
+
+00:13:21.220 --> 00:13:21.230 align:start position:0%
+a generative model<c.colorCCCCCC> for text mining</c><c.colorE5E5E5> and
+ </c>
+
+00:13:21.230 --> 00:13:24.319 align:start position:0%
+a generative model<c.colorCCCCCC> for text mining</c><c.colorE5E5E5> and
+the<00:13:22.230><c> idea</c><00:13:22.559><c> here</c><00:13:22.799><c> is</c><00:13:22.829><c> to</c><00:13:23.009><c> first</c><00:13:23.369><c> design</c><00:13:23.790><c> a</c><00:13:23.819><c> model</c></c>
+
+00:13:24.319 --> 00:13:24.329 align:start position:0%
+the idea here is<c.colorE5E5E5> to first design a model
+ </c>
+
+00:13:24.329 --> 00:13:27.979 align:start position:0%
+the idea here is<c.colorE5E5E5> to first design a model
+to<00:13:25.290><c> model</c><00:13:25.499><c> the</c><00:13:25.829><c> generation</c><00:13:26.639><c> of</c><00:13:26.730><c> data</c><00:13:26.999><c> we</c></c>
+
+00:13:27.979 --> 00:13:27.989 align:start position:0%
+to model the generation of<c.colorE5E5E5> data we
+ </c>
+
+00:13:27.989 --> 00:13:29.809 align:start position:0%
+to model the generation of<c.colorE5E5E5> data we
+simply<00:13:28.439><c> assume</c></c><c.colorCCCCCC><00:13:28.559><c> that</c></c><c.colorE5E5E5><00:13:28.799><c> there</c></c><c.colorCCCCCC><00:13:29.129><c> are</c></c><c.colorE5E5E5><00:13:29.279><c> generating</c></c>
+
+00:13:29.809 --> 00:13:29.819 align:start position:0%
+simply<c.colorE5E5E5> assume</c><c.colorCCCCCC> that</c><c.colorE5E5E5> there</c><c.colorCCCCCC> are</c><c.colorE5E5E5> generating
+ </c>
+
+00:13:29.819 --> 00:13:32.030 align:start position:0%
+simply<c.colorE5E5E5> assume</c><c.colorCCCCCC> that</c><c.colorE5E5E5> there</c><c.colorCCCCCC> are</c><c.colorE5E5E5> generating
+in<00:13:29.850><c> this</c><00:13:30.059><c> way</c><00:13:30.269><c> and</c><00:13:30.480><c> inside</c></c><c.colorCCCCCC><00:13:31.319><c> the</c><00:13:31.470><c> model</c><00:13:31.739><c> we're</c></c>
+
+00:13:32.030 --> 00:13:32.040 align:start position:0%
+in<c.colorE5E5E5> this way and inside</c><c.colorCCCCCC> the model we're
+ </c>
+
+00:13:32.040 --> 00:13:33.799 align:start position:0%
+in<c.colorE5E5E5> this way and inside</c><c.colorCCCCCC> the model we're
+embarrassin<00:13:32.819><c> parameters</c><00:13:33.449><c> that</c><00:13:33.629><c> were</c></c>
+
+00:13:33.799 --> 00:13:33.809 align:start position:0%
+embarrassin parameters that were
+ 
+
+00:13:33.809 --> 00:13:37.159 align:start position:0%
+embarrassin parameters that were
+interested<00:13:34.319><c> in</c><00:13:34.410><c> denoted</c><00:13:34.949><c> by</c><c.colorCCCCCC><00:13:35.129><c> Lemna</c></c><c.colorE5E5E5><00:13:35.699><c> and</c><00:13:36.179><c> then</c></c>
+
+00:13:37.159 --> 00:13:37.169 align:start position:0%
+interested in denoted by<c.colorCCCCCC> Lemna</c><c.colorE5E5E5> and then
+ </c>
+
+00:13:37.169 --> 00:13:39.139 align:start position:0%
+interested in denoted by<c.colorCCCCCC> Lemna</c><c.colorE5E5E5> and then
+we<00:13:37.439><c> can</c><00:13:37.589><c> infer</c></c><c.colorCCCCCC><00:13:37.739><c> the</c><00:13:38.040><c> most</c></c><c.colorE5E5E5><00:13:38.249><c> likely</c><00:13:38.699><c> parameter</c></c>
+
+00:13:39.139 --> 00:13:39.149 align:start position:0%
+we can infer<c.colorCCCCCC> the most</c><c.colorE5E5E5> likely parameter
+ </c>
+
+00:13:39.149 --> 00:13:41.090 align:start position:0%
+we can infer<c.colorCCCCCC> the most</c><c.colorE5E5E5> likely parameter
+values<00:13:39.480><c> that</c><00:13:39.929><c> must</c><00:13:40.169><c> are</c><00:13:40.410><c> given</c><00:13:40.859><c> a</c><00:13:40.919><c> particular</c></c>
+
+00:13:41.090 --> 00:13:41.100 align:start position:0%
+values that<c.colorE5E5E5> must are given a particular
+ </c>
+
+00:13:41.100 --> 00:13:44.659 align:start position:0%
+values that<c.colorE5E5E5> must are given a particular</c>
+<c.colorCCCCCC>data<00:13:41.579><c> set</c></c><c.colorE5E5E5><00:13:41.850><c> and</c><00:13:42.149><c> we</c></c><c.colorCCCCCC><00:13:43.139><c> can</c><00:13:43.470><c> then</c><00:13:43.649><c> take</c><00:13:43.949><c> the</c><00:13:44.339><c> lambda</c></c>
+
+00:13:44.659 --> 00:13:44.669 align:start position:0%
+<c.colorCCCCCC>data set</c><c.colorE5E5E5> and we</c><c.colorCCCCCC> can then take the lambda
+ </c>
+
+00:13:44.669 --> 00:13:47.539 align:start position:0%
+<c.colorCCCCCC>data set</c><c.colorE5E5E5> and we</c><c.colorCCCCCC> can then take the lambda
+star<00:13:44.910><c> as</c><00:13:45.290><c> knowledge</c><00:13:46.290><c> discovered</c><00:13:46.889><c> from</c><00:13:47.220><c> the</c></c>
+
+00:13:47.539 --> 00:13:47.549 align:start position:0%
+star as<c.colorCCCCCC> knowledge discovered from the
+ </c>
+
+00:13:47.549 --> 00:13:51.259 align:start position:0%
+star as<c.colorCCCCCC> knowledge discovered from the</c>
+<c.colorE5E5E5>text<00:13:48.389><c> for</c></c><c.colorCCCCCC><00:13:48.959><c> our</c><00:13:49.079><c> problem</c><00:13:49.559><c> and</c><00:13:50.040><c> we</c><00:13:50.100><c> had</c></c><c.colorE5E5E5><00:13:50.850><c> just</c><00:13:51.119><c> the</c></c>
+
+00:13:51.259 --> 00:13:51.269 align:start position:0%
+<c.colorE5E5E5>text for</c><c.colorCCCCCC> our problem and we had</c><c.colorE5E5E5> just the
+ </c>
+
+00:13:51.269 --> 00:13:53.689 align:start position:0%
+<c.colorE5E5E5>text for</c><c.colorCCCCCC> our problem and we had</c><c.colorE5E5E5> just the
+design<00:13:51.779><c> of</c><00:13:52.290><c> the</c><00:13:52.529><c> model</c><00:13:52.859><c> and</c><00:13:53.009><c> the</c><00:13:53.160><c> parameters</c></c>
+
+00:13:53.689 --> 00:13:53.699 align:start position:0%
+<c.colorE5E5E5>design of the model and the parameters
+ </c>
+
+00:13:53.699 --> 00:13:56.119 align:start position:0%
+<c.colorE5E5E5>design of the model and the parameters
+with<00:13:53.910><c> this</c><00:13:54.059><c> car</c></c><c.colorCCCCCC><00:13:54.359><c> this</c><00:13:54.869><c> discovered</c><00:13:55.499><c> various</c></c>
+
+00:13:56.119 --> 00:13:56.129 align:start position:0%
+with this car<c.colorCCCCCC> this discovered various
+ </c>
+
+00:13:56.129 --> 00:13:59.299 align:start position:0%
+with this car<c.colorCCCCCC> this discovered various
+kinds</c><c.colorE5E5E5><00:13:56.790><c> of</c><00:13:56.879><c> knowledge</c><00:13:57.089><c> from</c><00:13:57.540><c> text</c><00:13:57.929><c> as</c><00:13:58.109><c> you</c><00:13:59.100><c> are</c></c>
+
+00:13:59.299 --> 00:13:59.309 align:start position:0%
+kinds<c.colorE5E5E5> of knowledge from text as you are
+ </c>
+
+00:13:59.309 --> 00:14:04.790 align:start position:0%
+kinds<c.colorE5E5E5> of knowledge from text as you are
+seeing<00:13:59.489><c> later</c><00:13:59.819><c> in</c><00:14:00.629><c> the</c><00:14:01.619><c> other</c><00:14:02.279><c> lectures</c></c>
+

@@ -1,0 +1,440 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.150 --> 00:00:02.632
+In this section of the course,
+
+00:00:02.632 --> 00:00:05.316
+we're going to start looking
+at discriminative models.
+
+00:00:05.316 --> 00:00:08.452
+We're going to look at how they contrast
+with generative models that we've
+
+00:00:08.452 --> 00:00:09.190
+looked at so far.
+
+00:00:09.190 --> 00:00:14.363
+And in particular, go through a detailed
+examination of Maxent entropy models.
+
+00:00:18.170 --> 00:00:20.464
+So far,
+we've been looking at generative models.
+
+00:00:20.464 --> 00:00:24.750
+In particular, we've looked at language
+models and Naive Bayes models.
+
+00:00:24.750 --> 00:00:29.395
+But in addition to these generate models,
+there's now much use of conditional or
+
+00:00:29.395 --> 00:00:32.309
+discriminative in natural
+language processing.
+
+00:00:32.309 --> 00:00:35.712
+And also in related fields like speech and
+information retrieval or
+
+00:00:35.712 --> 00:00:39.606
+machine learning more generally, and
+that's for a couple of good reasons.
+
+00:00:39.606 --> 00:00:43.110
+These models tend to have very
+high accuracy performance.
+
+00:00:43.110 --> 00:00:44.950
+And also they're
+linguistically interesting,
+
+00:00:44.950 --> 00:00:49.210
+because they make it easy to include lots
+of linguistically important features.
+
+00:00:49.210 --> 00:00:52.540
+And hence, they easily allow
+the building of language independent
+
+00:00:52.540 --> 00:00:54.620
+we talked about NLP systems.
+
+00:00:56.180 --> 00:00:59.899
+So, let me now contrast joint
+versus discriminative models.
+
+00:00:59.899 --> 00:01:05.500
+In both cases, we're going to
+assume that we have some data (d,c)
+
+00:01:05.500 --> 00:01:10.440
+of paired observation of the data d and
+the hidden classes c.
+
+00:01:10.440 --> 00:01:14.702
+And so, the defining characteristic
+of joint models is that they place
+
+00:01:14.702 --> 00:01:19.080
+probabilities over both the observed
+data and the hidden stuff.
+
+00:01:19.080 --> 00:01:22.340
+So we have the probability of (c and d).
+
+00:01:22.340 --> 00:01:26.326
+And commonly, the way that's done
+is there is a generative model, so
+
+00:01:26.326 --> 00:01:33.230
+that generative models generate
+the observed data from the hidden stuff.
+
+00:01:34.820 --> 00:01:36.191
+These kind of joint or
+
+00:01:36.191 --> 00:01:40.694
+generative models comprise all
+the classic statistical NLP models.
+
+00:01:40.694 --> 00:01:44.836
+Not only n-gram models in Naive Bayes
+classifiers that we see already, but
+
+00:01:44.836 --> 00:01:48.719
+also hidden mock off models,
+probabilistic context free grammars and
+
+00:01:48.719 --> 00:01:51.389
+the IBM machine translation
+alignment models.
+
+00:01:54.908 --> 00:01:59.619
+In contrast discriminative or
+conditional models more directly target
+
+00:01:59.619 --> 00:02:03.470
+the classification decision
+that we want to make.
+
+00:02:03.470 --> 00:02:08.140
+Formally, they put probability
+distributions that are conditional,
+
+00:02:08.140 --> 00:02:10.980
+the probability of
+the class given the data.
+
+00:02:12.660 --> 00:02:16.200
+Discriminative models
+include logistic regression.
+
+00:02:16.200 --> 00:02:19.930
+Or in general, the whole area
+of conditional loglinear models,
+
+00:02:19.930 --> 00:02:22.800
+including a particular
+Maxent entropy models and
+
+00:02:22.800 --> 00:02:27.040
+their generalization to sequences,
+conditional random fields.
+
+00:02:27.040 --> 00:02:31.190
+Many other machine learning methods,
+such as SVMs, perceptrons or
+
+00:02:31.190 --> 00:02:35.090
+averaged perceptrons are also
+discriminative classifiers, but
+
+00:02:35.090 --> 00:02:37.220
+they're not directly probabilistic models.
+
+00:02:39.890 --> 00:02:43.941
+One way of showing the difference between
+the two model classes is by means of
+
+00:02:43.941 --> 00:02:48.323
+the graphical model diagrams that are used
+for probabilistic models in general.
+
+00:02:48.323 --> 00:02:52.180
+In these diagrams, we draw circles for
+random variables and
+
+00:02:52.180 --> 00:02:55.610
+lines for
+direct dependencies between them.
+
+00:02:55.610 --> 00:03:00.805
+And some of the variables are normally
+observed and others are hidden, and
+
+00:03:00.805 --> 00:03:05.937
+then for each node is like a little
+classifier based on its incoming arcs.
+
+00:03:05.937 --> 00:03:09.985
+If we draw these kind of models,
+what we find is that for
+
+00:03:09.985 --> 00:03:14.070
+a Naive Bayes model,
+the picture looks like this.
+
+00:03:14.070 --> 00:03:18.765
+So at classification time,
+we are observing the various
+
+00:03:18.765 --> 00:03:23.295
+words of the document,
+which is our given data.
+
+00:03:23.295 --> 00:03:26.481
+And based on those,
+we want to predict the class.
+
+00:03:26.481 --> 00:03:29.503
+But in terms of the probabilistic model,
+
+00:03:29.503 --> 00:03:34.254
+our probability factors,
+our prior probability of the class and
+
+00:03:34.254 --> 00:03:39.495
+then the probability of the words
+in the document given the class.
+
+00:03:39.495 --> 00:03:45.175
+And so, that we have this generative
+direction in which the words are generated
+
+00:03:45.175 --> 00:03:50.628
+from the class rather than actually
+predicting what we haven't observed.
+
+00:03:50.628 --> 00:03:56.940
+In a discriminative model such as logistic
+regression, the situation is the opposite.
+
+00:03:56.940 --> 00:04:02.199
+We've again, observed the words of the
+document and want to predict the class.
+
+00:04:02.199 --> 00:04:07.877
+But this time, we're directly putting
+the probability over the class
+
+00:04:07.877 --> 00:04:12.810
+given all of the data that we've observed,
+d1, d2, d3.
+
+00:04:15.428 --> 00:04:21.541
+So in generative models, we look at
+the joint probability over the data and
+
+00:04:21.541 --> 00:04:28.340
+the class and what we try and do is
+attempt to maximize this joint likelihood.
+
+00:04:28.340 --> 00:04:29.936
+And as we've already seen,
+
+00:04:29.936 --> 00:04:34.136
+that the categorical models is trivial
+to optimize the joint likelihood.
+
+00:04:34.136 --> 00:04:37.910
+All we do is take the relative
+frequencies of different events.
+
+00:04:37.910 --> 00:04:41.386
+That is we count how often
+different things occur and
+
+00:04:41.386 --> 00:04:45.655
+then we divide by a normalizing
+denominator, and we're done.
+
+00:04:45.655 --> 00:04:48.720
+So, that's very practical for estimation.
+
+00:04:48.720 --> 00:04:52.090
+In contrast, the conditional model,
+
+00:04:52.090 --> 00:04:56.000
+we want to work out these
+probabilities of (c given d).
+
+00:04:56.000 --> 00:04:58.270
+And so in a conditional model,
+
+00:04:58.270 --> 00:05:03.400
+what we'll do is attempt to directly
+maximize the conditional likelihood.
+
+00:05:03.400 --> 00:05:08.090
+The probability of the classes
+observed given the data.
+
+00:05:08.090 --> 00:05:11.364
+As we'll see,
+this turns out to be much harder to do.
+
+00:05:11.364 --> 00:05:13.281
+But it is perhaps, more useful,
+
+00:05:13.281 --> 00:05:17.740
+because it's more directly related
+to classifications, excess or error.
+
+00:05:21.209 --> 00:05:23.848
+This slide gives some
+initial motivation for
+
+00:05:23.848 --> 00:05:28.860
+being interested in conditional models by
+showing that they have high performance.
+
+00:05:28.860 --> 00:05:34.379
+In this slide, I show the results of
+some experiments done by Dan Klein and
+
+00:05:34.379 --> 00:05:35.632
+me in 2002.
+
+00:05:35.632 --> 00:05:39.841
+The task here is word sense
+disambiguation, but essentially that's
+
+00:05:39.841 --> 00:05:44.450
+the same task as text classification
+that we've looked at earlier.
+
+00:05:44.450 --> 00:05:48.826
+You're wanting to choose one of a number
+of senses of words such as star,
+
+00:05:48.826 --> 00:05:53.349
+whether it's a rock star or this
+astronomical object based on the evidence
+
+00:05:53.349 --> 00:05:56.468
+of the words around it that
+you see in the document.
+
+00:05:56.468 --> 00:06:01.003
+And in these experiments,
+what we were very careful to do is to
+
+00:06:01.003 --> 00:06:05.555
+setup two models which were
+exactly the same in all respects.
+
+00:06:05.555 --> 00:06:07.448
+They had exactly the same features.
+
+00:06:07.448 --> 00:06:10.939
+Exactly the same methods
+of smoothing the data, but
+
+00:06:10.939 --> 00:06:15.302
+differed only in whether we were
+doing conditional estimation or
+
+00:06:15.302 --> 00:06:20.440
+joint estimation and what do we see
+in the results of these experiments?
+
+00:06:20.440 --> 00:06:25.075
+What we see is well, if we just skip
+first for straight to how it performs
+
+00:06:25.075 --> 00:06:30.048
+on the test data, we see the good news
+stories the conditional likelihood.
+
+00:06:30.048 --> 00:06:34.310
+The conditional likelihood
+is giving us performance,
+
+00:06:34.310 --> 00:06:40.940
+that's 2.5% better than what we got from
+the joint likelihood Naive Bayes model.
+
+00:06:40.940 --> 00:06:43.823
+So, this joint likelihood
+model is a Naive Bayes model.
+
+00:06:43.823 --> 00:06:45.973
+And so, that's a nice gain and
+
+00:06:45.973 --> 00:06:51.620
+something that is very appealing
+when building practical NLP systems.
+
+00:06:51.620 --> 00:06:55.388
+Incidentally, we can also notice something
+interesting by looking at performance on
+
+00:06:55.388 --> 00:06:56.221
+the training set.
+
+00:06:56.221 --> 00:07:02.050
+If we look at performance on the training
+set, the joint model gets 86.5%,
+
+00:07:02.050 --> 00:07:07.610
+which goes up to 98.5 5% for
+the conditional likelihood model.
+
+00:07:07.610 --> 00:07:11.289
+You could think that that's good news,
+but it's actually a cause for worry.
+
+00:07:11.289 --> 00:07:15.574
+What you will find is that
+conditional models can very easily
+
+00:07:15.574 --> 00:07:18.130
+memorize much of training set.
+
+00:07:18.130 --> 00:07:23.040
+And so they're prone to over
+fitting by memorizing too much what
+
+00:07:23.040 --> 00:07:27.290
+happened to be seen in training data,
+which may not reappear in test data.
+
+00:07:27.290 --> 00:07:28.590
+And so, we'll go on and
+
+00:07:28.590 --> 00:07:32.756
+look at how to control this kind of
+overfitting later on in this discussion.
+
+00:07:36.040 --> 00:07:39.000
+That's a motivating introduction for
+discriminative models and
+
+00:07:39.000 --> 00:07:40.381
+discriminative estimation.
+
+00:07:40.381 --> 00:07:41.443
+In the next section,
+
+00:07:41.443 --> 00:07:45.160
+we'll start looking at how we can define
+the features that are used in these
+
+00:07:45.160 --> 00:07:48.825
+models and then go from there into
+the details of how they're estimated.
+

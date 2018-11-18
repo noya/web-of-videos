@@ -1,0 +1,1342 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:06.030 align:start position:0%
+ 
+you
+
+00:00:06.030 --> 00:00:06.040 align:start position:0%
+ 
+ 
+
+00:00:06.040 --> 00:00:08.740 align:start position:0%
+ 
+this<c.colorE5E5E5><00:00:07.040><c> factor</c><00:00:07.399><c> is</c><00:00:07.430><c> a</c><00:00:07.549><c> continually</c><00:00:08.180><c> discussion</c></c>
+
+00:00:08.740 --> 00:00:08.750 align:start position:0%
+this<c.colorE5E5E5> factor is a continually discussion
+ </c>
+
+00:00:08.750 --> 00:00:11.289 align:start position:0%
+this<c.colorE5E5E5> factor is a continually discussion
+of<00:00:08.870><c> generative</c><00:00:09.830><c> properties</c><00:00:10.309><c> models</c><00:00:10.820><c> for</c><00:00:11.030><c> text</c></c>
+
+00:00:11.289 --> 00:00:11.299 align:start position:0%
+of generative properties models for<c.colorE5E5E5> text
+ </c>
+
+00:00:11.299 --> 00:00:14.379 align:start position:0%
+of generative properties models for<c.colorE5E5E5> text
+classroom<00:00:12.459><c> in</c><00:00:13.459><c> this</c><00:00:13.670><c> bacteria</c><00:00:14.090><c> we're</c><00:00:14.240><c> going</c></c>
+
+00:00:14.379 --> 00:00:14.389 align:start position:0%
+classroom in this bacteria we're going
+ 
+
+00:00:14.389 --> 00:00:15.760 align:start position:0%
+classroom in this bacteria we're going
+to<00:00:14.449><c> continue</c><00:00:14.660><c> talking</c><00:00:15.049><c> about</c><c.colorE5E5E5><00:00:15.230><c> the</c><00:00:15.500><c> text</c></c>
+
+00:00:15.760 --> 00:00:15.770 align:start position:0%
+to continue talking about<c.colorE5E5E5> the text
+ </c>
+
+00:00:15.770 --> 00:00:19.179 align:start position:0%
+to continue talking about<c.colorE5E5E5> the text</c>
+<c.colorE5E5E5>crafts<00:00:16.029><c> text</c><00:00:17.029><c> classroom</c><00:00:17.480><c> particularly</c><00:00:18.189><c> the</c></c>
+
+00:00:19.179 --> 00:00:19.189 align:start position:0%
+<c.colorE5E5E5>crafts text classroom particularly the
+ </c>
+
+00:00:19.189 --> 00:00:24.310 align:start position:0%
+<c.colorE5E5E5>crafts text classroom particularly the
+generating<00:00:19.789><c> probabilistic</c><00:00:20.449><c> models</c><00:00:23.050><c> so</c><00:00:24.050><c> this</c></c>
+
+00:00:24.310 --> 00:00:24.320 align:start position:0%
+generating probabilistic models so this
+ 
+
+00:00:24.320 --> 00:00:25.689 align:start position:0%
+generating probabilistic models so this
+is<c.colorCCCCCC><00:00:24.349><c> a</c><00:00:24.499><c> slide</c><00:00:24.800><c> that</c><00:00:24.829><c> you</c><00:00:25.159><c> have</c><00:00:25.310><c> seen</c><00:00:25.550><c> earlier</c></c>
+
+00:00:25.689 --> 00:00:25.699 align:start position:0%
+is<c.colorCCCCCC> a slide that you have seen earlier
+ </c>
+
+00:00:25.699 --> 00:00:28.120 align:start position:0%
+is<c.colorCCCCCC> a slide that you have seen earlier
+where<00:00:26.390><c> we</c><00:00:26.570><c> have</c><00:00:27.529><c> written</c><00:00:27.769><c> down</c><00:00:27.949><c> the</c></c>
+
+00:00:28.120 --> 00:00:28.130 align:start position:0%
+where we have written down the
+ 
+
+00:00:28.130 --> 00:00:32.470 align:start position:0%
+where we have written down the
+likelihood<00:00:28.849><c> function</c><00:00:29.140><c> for</c><00:00:30.140><c> a</c><00:00:30.499><c> document</c><00:00:31.480><c> with</c>
+
+00:00:32.470 --> 00:00:32.480 align:start position:0%
+likelihood function for a document with
+ 
+
+00:00:32.480 --> 00:00:36.280 align:start position:0%
+likelihood function for a document with
+two<00:00:32.920><c> distributions</c><00:00:34.180><c> in</c><00:00:35.180><c> a</c><00:00:35.600><c> two</c><00:00:35.899><c> component</c>
+
+00:00:36.280 --> 00:00:36.290 align:start position:0%
+two distributions in a two component
+ 
+
+00:00:36.290 --> 00:00:37.750 align:start position:0%
+two distributions in a two component
+that<00:00:36.500><c> makes</c><00:00:36.590><c> you</c><00:00:36.860><c> model</c><00:00:37.160><c> for</c><00:00:37.190><c> document</c>
+
+00:00:37.750 --> 00:00:37.760 align:start position:0%
+that makes you model for document
+ 
+
+00:00:37.760 --> 00:00:41.350 align:start position:0%
+that makes you model for document
+clustering<00:00:38.710><c> now</c><00:00:39.730><c> in</c><00:00:40.730><c> this</c><c.colorCCCCCC><00:00:40.850><c> Factory</c><00:00:41.180><c> we're</c></c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+clustering now in this<c.colorCCCCCC> Factory we're
+ </c>
+
+00:00:41.360 --> 00:00:45.520 align:start position:0%
+clustering now in this<c.colorCCCCCC> Factory we're
+going<00:00:41.480><c> to</c><00:00:41.600><c> generalize</c></c><c.colorE5E5E5><00:00:42.440><c> this</c><00:00:42.800><c> to</c><00:00:44.410><c> include</c><00:00:45.410><c> the</c></c>
+
+00:00:45.520 --> 00:00:45.530 align:start position:0%
+going to generalize<c.colorE5E5E5> this to include the
+ </c>
+
+00:00:45.530 --> 00:00:48.070 align:start position:0%
+going to generalize<c.colorE5E5E5> this to include the
+K<00:00:45.770><c> clusters</c><00:00:46.420><c> now</c><00:00:47.420><c> if</c><00:00:47.720><c> you</c><00:00:47.780><c> look</c><00:00:47.900><c> at</c><00:00:48.050><c> the</c></c>
+
+00:00:48.070 --> 00:00:48.080 align:start position:0%
+K clusters now if you look at the
+ 
+
+00:00:48.080 --> 00:00:50.440 align:start position:0%
+K clusters now if you look at the
+<c.colorE5E5E5>formula<00:00:48.470><c> and</c><00:00:48.770><c> think</c><00:00:49.010><c> about</c><00:00:49.220><c> the</c><00:00:49.430><c> question</c><00:00:49.880><c> how</c></c>
+
+00:00:50.440 --> 00:00:50.450 align:start position:0%
+<c.colorE5E5E5>formula and think about the question how
+ </c>
+
+00:00:50.450 --> 00:00:52.240 align:start position:0%
+<c.colorE5E5E5>formula and think about the question how
+to<00:00:50.510><c> generalize</c><00:00:50.900><c> it</c><00:00:51.110><c> you</c><00:00:51.740><c> will</c><00:00:51.860><c> realize</c><00:00:52.220><c> that</c></c>
+
+00:00:52.240 --> 00:00:52.250 align:start position:0%
+to generalize it you will realize that
+ 
+
+00:00:52.250 --> 00:00:55.750 align:start position:0%
+to generalize it you will realize that
+<c.colorE5E5E5>all<00:00:53.030><c> we</c><00:00:53.180><c> need</c><00:00:53.360><c> is</c></c><c.colorCCCCCC><00:00:53.630><c> to</c><00:00:53.750><c> add</c><00:00:53.960><c> more</c><00:00:54.380><c> terms</c><00:00:54.920><c> like</c></c>
+
+00:00:55.750 --> 00:00:55.760 align:start position:0%
+<c.colorE5E5E5>all we need is</c><c.colorCCCCCC> to add more terms like
+ </c>
+
+00:00:55.760 --> 00:00:58.900 align:start position:0%
+<c.colorE5E5E5>all we need is</c><c.colorCCCCCC> to add more terms like
+what<00:00:55.970><c> you</c><00:00:56.120><c> have</c><00:00:56.270><c> seen</c><00:00:56.510><c> here</c><00:00:57.130><c> so</c><00:00:58.130><c> you</c><00:00:58.430><c> can</c><00:00:58.670><c> just</c></c>
+
+00:00:58.900 --> 00:00:58.910 align:start position:0%
+what you have seen here so you can just
+ 
+
+00:00:58.910 --> 00:01:03.270 align:start position:0%
+what you have seen here so you can just
+add<00:00:59.480><c> more</c><00:00:59.960><c> Thetas</c><00:01:00.620><c> and</c><00:01:00.980><c> the</c><00:01:01.820><c> probabilities</c><00:01:02.510><c> of</c>
+
+00:01:03.270 --> 00:01:03.280 align:start position:0%
+add more Thetas and the probabilities of
+ 
+
+00:01:03.280 --> 00:01:05.710 align:start position:0%
+add more Thetas and the probabilities of
+Thetas<00:01:04.280><c> and</c><00:01:04.610><c> the</c><00:01:05.000><c> probabilities</c><00:01:05.570><c> of</c>
+
+00:01:05.710 --> 00:01:05.720 align:start position:0%
+Thetas and the probabilities of
+ 
+
+00:01:05.720 --> 00:01:09.160 align:start position:0%
+Thetas and the probabilities of
+generating<00:01:06.259><c> e</c><00:01:06.470><c> from</c><00:01:06.979><c> those</c><00:01:07.280><c> Cedars</c><00:01:07.960><c> so</c><00:01:08.960><c> this</c>
+
+00:01:09.160 --> 00:01:09.170 align:start position:0%
+generating e from those Cedars so this
+ 
+
+00:01:09.170 --> 00:01:11.320 align:start position:0%
+generating e from those Cedars so this
+is<00:01:09.200><c> precisely</c><00:01:09.710><c> what</c><c.colorCCCCCC><00:01:10.100><c> we</c><00:01:10.280><c> are</c><00:01:10.340><c> going</c><00:01:11.150><c> to</c><00:01:11.240><c> use</c></c>
+
+00:01:11.320 --> 00:01:11.330 align:start position:0%
+is precisely what<c.colorCCCCCC> we are going to use
+ </c>
+
+00:01:11.330 --> 00:01:14.470 align:start position:0%
+is precisely what<c.colorCCCCCC> we are going to use</c>
+<c.colorE5E5E5>and<00:01:11.870><c> this</c><00:01:12.440><c> is</c><00:01:12.650><c> the</c><00:01:12.920><c> general</c><00:01:13.460><c> presentation</c><00:01:14.000><c> of</c></c>
+
+00:01:14.470 --> 00:01:14.480 align:start position:0%
+<c.colorE5E5E5>and this is the general presentation of
+ </c>
+
+00:01:14.480 --> 00:01:17.350 align:start position:0%
+<c.colorE5E5E5>and this is the general presentation of
+the<00:01:14.840><c> mixture</c><00:01:15.500><c> model</c><00:01:15.830><c> for</c><00:01:16.400><c> document</c></c>
+
+00:01:17.350 --> 00:01:17.360 align:start position:0%
+the<c.colorE5E5E5> mixture model for document
+ </c>
+
+00:01:17.360 --> 00:01:21.010 align:start position:0%
+the<c.colorE5E5E5> mixture model for document
+clustering</c><c.colorCCCCCC><00:01:18.310><c> okay</c><00:01:19.310><c> so</c><00:01:19.880><c> as</c><00:01:20.060><c> more</c><00:01:20.390><c> cases</c><00:01:20.659><c> we</c></c>
+
+00:01:21.010 --> 00:01:21.020 align:start position:0%
+clustering<c.colorCCCCCC> okay so as more cases we
+ </c>
+
+00:01:21.020 --> 00:01:22.930 align:start position:0%
+clustering<c.colorCCCCCC> okay so as more cases we
+follow<00:01:21.229><c> these</c><00:01:21.470><c> steps</c><00:01:21.650><c> and</c><00:01:22.159><c> using</c><00:01:22.880><c> a</c></c>
+
+00:01:22.930 --> 00:01:22.940 align:start position:0%
+follow these steps and using a
+ 
+
+00:01:22.940 --> 00:01:25.030 align:start position:0%
+follow these steps and using a
+generative<00:01:23.450><c> model</c><00:01:23.750><c> first</c><00:01:23.990><c> let's</c><00:01:24.740><c> think</c><00:01:24.979><c> about</c>
+
+00:01:25.030 --> 00:01:25.040 align:start position:0%
+generative model first let's think about
+ 
+
+00:01:25.040 --> 00:01:28.270 align:start position:0%
+generative model first let's think about
+our<00:01:25.550><c> data</c><c.colorE5E5E5><00:01:26.510><c> alright</c><00:01:27.470><c> so</c><00:01:27.710><c> in</c><00:01:27.830><c> this</c><00:01:27.920><c> case</c><00:01:28.130><c> our</c></c>
+
+00:01:28.270 --> 00:01:28.280 align:start position:0%
+our data<c.colorE5E5E5> alright so in this case our
+ </c>
+
+00:01:28.280 --> 00:01:30.310 align:start position:0%
+our data<c.colorE5E5E5> alright so in this case our
+data<00:01:28.550><c> is</c><00:01:28.670><c> a</c><00:01:28.850><c> collection</c><00:01:29.120><c> of</c><00:01:29.270><c> documents</c><00:01:29.479><c> n</c></c>
+
+00:01:30.310 --> 00:01:30.320 align:start position:0%
+data is a collection of documents n
+ 
+
+00:01:30.320 --> 00:01:34.480 align:start position:0%
+data is a collection of documents n
+documents<00:01:31.010><c> denoted</c><00:01:31.760><c> by</c><00:01:31.790><c> DD</c><00:01:32.240><c> sub</c><00:01:32.450><c> I</c><00:01:32.630><c> and</c><00:01:33.490><c> then</c>
+
+00:01:34.480 --> 00:01:34.490 align:start position:0%
+documents denoted by DD sub I and then
+ 
+
+00:01:34.490 --> 00:01:36.550 align:start position:0%
+documents denoted by DD sub I and then
+we<c.colorCCCCCC><00:01:34.909><c> talked</c><00:01:35.090><c> about</c><00:01:35.210><c> the</c><00:01:35.450><c> moral</c><00:01:36.020><c> thing</c><00:01:36.229><c> about</c></c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+we<c.colorCCCCCC> talked about the moral thing about
+ </c>
+
+00:01:36.560 --> 00:01:38.800 align:start position:0%
+we<c.colorCCCCCC> talked about the moral thing about
+the</c><c.colorE5E5E5><00:01:36.710><c> model</c><00:01:37.070><c> in</c><00:01:37.340><c> this</c><00:01:37.549><c> case</c><00:01:37.760><c> we</c><00:01:38.360><c> design</c><00:01:38.780><c> a</c></c>
+
+00:01:38.800 --> 00:01:38.810 align:start position:0%
+the<c.colorE5E5E5> model in this case we design a
+ </c>
+
+00:01:38.810 --> 00:01:41.469 align:start position:0%
+the<c.colorE5E5E5> model in this case we design a
+mixture<00:01:39.229><c> of</c><00:01:39.320><c> K</c><00:01:39.650><c> unigram</c><00:01:40.100><c> damage</c><00:01:40.490><c> models</c><00:01:40.820><c> it's</c></c>
+
+00:01:41.469 --> 00:01:41.479 align:start position:0%
+mixture of<c.colorE5E5E5> K unigram damage models it's
+ </c>
+
+00:01:41.479 --> 00:01:44.350 align:start position:0%
+mixture of<c.colorE5E5E5> K unigram damage models it's
+a<00:01:41.540><c> little</c><00:01:41.810><c> bit</c><00:01:41.930><c> different</c><00:01:42.350><c> from</c><00:01:42.650><c> the</c></c><c.colorCCCCCC><00:01:43.360><c> topic</c></c>
+
+00:01:44.350 --> 00:01:44.360 align:start position:0%
+a<c.colorE5E5E5> little bit different from the</c><c.colorCCCCCC> topic
+ </c>
+
+00:01:44.360 --> 00:01:47.860 align:start position:0%
+a<c.colorE5E5E5> little bit different from the</c><c.colorCCCCCC> topic
+model<00:01:44.780><c> and</c><00:01:45.470><c> but</c><00:01:46.400><c> we</c><00:01:47.000><c> have</c><00:01:47.150><c> similar</c><00:01:47.390><c> parameters</c></c>
+
+00:01:47.860 --> 00:01:47.870 align:start position:0%
+model and but we have similar parameters
+ 
+
+00:01:47.870 --> 00:01:50.770 align:start position:0%
+model and but we have similar parameters
+we<00:01:48.380><c> have</c><00:01:48.560><c> a</c><00:01:48.590><c> set</c><00:01:49.010><c> of</c><00:01:49.159><c> the</c><00:01:49.430><c> eyes</c><00:01:49.580><c> to</c><00:01:50.000><c> denote</c><00:01:50.330><c> the</c>
+
+00:01:50.770 --> 00:01:50.780 align:start position:0%
+we have a set of the eyes to denote the
+ 
+
+00:01:50.780 --> 00:01:53.289 align:start position:0%
+we have a set of the eyes to denote the
+word<00:01:51.710><c> distributions</c><00:01:52.340><c> corresponding</c><00:01:53.000><c> to</c><00:01:53.150><c> the</c>
+
+00:01:53.289 --> 00:01:53.299 align:start position:0%
+word distributions corresponding to the
+ 
+
+00:01:53.299 --> 00:01:56.950 align:start position:0%
+word distributions corresponding to the
+<c.colorE5E5E5>K<00:01:53.570><c> unigram</c><00:01:54.290><c> language</c><00:01:54.680><c> models</c><00:01:55.040><c> we</c><00:01:55.880><c> have</c><00:01:56.060><c> P</c><00:01:56.630><c> of</c></c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+<c.colorE5E5E5>K unigram language models we have P of
+ </c>
+
+00:01:56.960 --> 00:01:59.920 align:start position:0%
+<c.colorE5E5E5>K unigram language models we have P of
+each</c><c.colorCCCCCC><00:01:57.380><c> sida</c><00:01:57.979><c> I</c><00:01:58.070><c> as</c><00:01:58.580><c> a</c><00:01:58.640><c> probability</c></c><c.colorE5E5E5><00:01:59.540><c> of</c></c>
+
+00:01:59.920 --> 00:01:59.930 align:start position:0%
+each<c.colorCCCCCC> sida I as a probability</c><c.colorE5E5E5> of
+ </c>
+
+00:01:59.930 --> 00:02:02.920 align:start position:0%
+each<c.colorCCCCCC> sida I as a probability</c><c.colorE5E5E5> of
+selecting<00:02:00.560><c> each</c><00:02:01.280><c> of</c><00:02:01.610><c> the</c><00:02:02.060><c> K</c><00:02:02.360><c> distribution</c></c>
+
+00:02:02.920 --> 00:02:02.930 align:start position:0%
+selecting each of the<c.colorE5E5E5> K distribution
+ </c>
+
+00:02:02.930 --> 00:02:06.160 align:start position:0%
+selecting each of the<c.colorE5E5E5> K distribution
+regenerator<00:02:03.500><c> document</c><00:02:04.930><c> now</c><00:02:05.930><c> note</c><00:02:06.140><c> that</c></c>
+
+00:02:06.160 --> 00:02:06.170 align:start position:0%
+regenerator document now note that
+ 
+
+00:02:06.170 --> 00:02:09.520 align:start position:0%
+regenerator document now note that
+although<00:02:06.619><c> our</c><00:02:07.330><c> goal</c><00:02:08.330><c> is</c><00:02:08.539><c> to</c><c.colorE5E5E5><00:02:08.569><c> find</c><00:02:09.439><c> the</c></c>
+
+00:02:09.520 --> 00:02:09.530 align:start position:0%
+although our goal is to<c.colorE5E5E5> find the
+ </c>
+
+00:02:09.530 --> 00:02:12.910 align:start position:0%
+although our goal is to<c.colorE5E5E5> find the
+clusters<00:02:10.009><c> and</c><00:02:10.250><c> we</c><00:02:11.150><c> actually</c><00:02:11.319><c> have</c><00:02:12.319><c> used</c><00:02:12.709><c> a</c></c>
+
+00:02:12.910 --> 00:02:12.920 align:start position:0%
+clusters and we actually<c.colorE5E5E5> have used a
+ </c>
+
+00:02:12.920 --> 00:02:15.160 align:start position:0%
+clusters and we actually<c.colorE5E5E5> have used a
+more<00:02:13.099><c> general</c><00:02:13.549><c> notion</c><00:02:13.880><c> of</c><00:02:13.970><c> a</c><00:02:14.060><c> probability</c></c><c.colorCCCCCC><00:02:15.050><c> of</c></c>
+
+00:02:15.160 --> 00:02:15.170 align:start position:0%
+more general notion of a probability<c.colorCCCCCC> of
+ </c>
+
+00:02:15.170 --> 00:02:19.300 align:start position:0%
+more general notion of a probability<c.colorCCCCCC> of
+each<00:02:15.640><c> cluster</c><00:02:16.640><c> and</c><00:02:17.060><c> this</c><00:02:17.990><c> as</c><00:02:18.290><c> you</c><00:02:18.709><c> see</c><00:02:18.860><c> later</c></c>
+
+00:02:19.300 --> 00:02:19.310 align:start position:0%
+each cluster and this as<c.colorCCCCCC> you see later
+ </c>
+
+00:02:19.310 --> 00:02:21.940 align:start position:0%
+each cluster and this as<c.colorCCCCCC> you see later
+would<00:02:19.430><c> allow</c><00:02:19.790><c> us</c><00:02:20.000><c> to</c><00:02:20.450><c> assign</c><00:02:20.930><c> a</c><00:02:20.989><c> document</c><00:02:21.650><c> to</c></c>
+
+00:02:21.940 --> 00:02:21.950 align:start position:0%
+would allow<c.colorCCCCCC> us to assign a document to
+ </c>
+
+00:02:21.950 --> 00:02:26.740 align:start position:0%
+would allow<c.colorCCCCCC> us to assign a document to</c>
+<c.colorCCCCCC>the<00:02:24.580><c> cluster</c><00:02:25.580><c> that</c><00:02:25.730><c> has</c><00:02:25.790><c> a</c><00:02:25.970><c> highest</c><00:02:26.450><c> report</c></c>
+
+00:02:26.740 --> 00:02:26.750 align:start position:0%
+<c.colorCCCCCC>the cluster that has a highest report
+ </c>
+
+00:02:26.750 --> 00:02:29.410 align:start position:0%
+<c.colorCCCCCC>the cluster that has a highest report
+unity<00:02:27.140><c> of</c><00:02:27.170><c> being</c><00:02:27.650><c> able</c><00:02:28.370><c> to</c><00:02:28.640><c> generate</c><00:02:29.150><c> the</c></c>
+
+00:02:29.410 --> 00:02:29.420 align:start position:0%
+unity of being able to generate the
+ 
+
+00:02:29.420 --> 00:02:33.130 align:start position:0%
+unity of being able to generate the
+document<00:02:30.220><c> so</c><00:02:31.220><c> as</c><00:02:31.819><c> a</c><00:02:31.880><c> result</c><00:02:32.150><c> we</c><00:02:32.630><c> cows</c><00:02:32.870><c> will</c>
+
+00:02:33.130 --> 00:02:33.140 align:start position:0%
+document so as a result we cows will
+ 
+
+00:02:33.140 --> 00:02:36.300 align:start position:0%
+document so as a result we cows will
+recover<00:02:33.500><c> some</c><00:02:33.860><c> other</c><00:02:34.209><c> interesting</c>
+
+00:02:36.300 --> 00:02:36.310 align:start position:0%
+recover some other interesting
+ 
+
+00:02:36.310 --> 00:02:43.120 align:start position:0%
+recover some other interesting
+properties<00:02:37.310><c> as</c><00:02:38.349><c> you</c><00:02:39.349><c> will</c><00:02:39.560><c> see</c><00:02:39.769><c> later</c><00:02:41.500><c> so</c><00:02:42.500><c> the</c>
+
+00:02:43.120 --> 00:02:43.130 align:start position:0%
+properties as you will see later so the
+ 
+
+00:02:43.130 --> 00:02:45.040 align:start position:0%
+properties as you will see later so the
+model<00:02:43.370><c> basically</c><00:02:43.760><c> would</c><c.colorE5E5E5><00:02:44.360><c> make</c><00:02:44.690><c> the</c><00:02:44.870><c> following</c></c>
+
+00:02:45.040 --> 00:02:45.050 align:start position:0%
+model basically would<c.colorE5E5E5> make the following
+ </c>
+
+00:02:45.050 --> 00:02:46.690 align:start position:0%
+model basically would<c.colorE5E5E5> make the following
+assumption<00:02:45.680><c> about</c><00:02:45.769><c> the</c><00:02:45.920><c> generation</c><00:02:46.489><c> of</c><00:02:46.580><c> a</c></c>
+
+00:02:46.690 --> 00:02:46.700 align:start position:0%
+assumption about the generation of a
+ 
+
+00:02:46.700 --> 00:02:48.640 align:start position:0%
+assumption about the generation of a
+document<00:02:46.970><c> we</c><00:02:47.450><c> first</c><00:02:47.720><c> choose</c><00:02:48.170><c> a</c><00:02:48.230><c> state</c><00:02:48.620><c> I</c>
+
+00:02:48.640 --> 00:02:48.650 align:start position:0%
+document we first choose a state I
+ 
+
+00:02:48.650 --> 00:02:50.860 align:start position:0%
+document we first choose a state I
+according<c.colorE5E5E5><00:02:49.489><c> to</c><00:02:49.610><c> probability</c><00:02:50.030><c> of</c><00:02:50.300><c> the</c><00:02:50.480><c> eye</c><00:02:50.510><c> and</c></c>
+
+00:02:50.860 --> 00:02:50.870 align:start position:0%
+according<c.colorE5E5E5> to probability of the eye and
+ </c>
+
+00:02:50.870 --> 00:02:53.259 align:start position:0%
+according<c.colorE5E5E5> to probability of the eye and</c>
+<c.colorE5E5E5>then<00:02:51.260><c> generate</c><00:02:52.040><c> all</c><00:02:52.280><c> the</c><00:02:52.310><c> words</c><00:02:52.730><c> in</c><00:02:53.060><c> the</c></c>
+
+00:02:53.259 --> 00:02:53.269 align:start position:0%
+<c.colorE5E5E5>then generate all the words in the
+ </c>
+
+00:02:53.269 --> 00:02:55.840 align:start position:0%
+<c.colorE5E5E5>then generate all the words in the
+document<00:02:53.390><c> using</c><00:02:54.049><c> this</c><00:02:54.709><c> distribution</c><00:02:55.160><c> note</c></c>
+
+00:02:55.840 --> 00:02:55.850 align:start position:0%
+document using this distribution note
+ 
+
+00:02:55.850 --> 00:02:58.870 align:start position:0%
+document using this distribution note
+that<00:02:56.120><c> it's</c><00:02:56.360><c> important</c><00:02:56.930><c> that</c><00:02:57.650><c> we</c><00:02:57.680><c> use</c><00:02:58.400><c> this</c>
+
+00:02:58.870 --> 00:02:58.880 align:start position:0%
+that it's important that we use this
+ 
+
+00:02:58.880 --> 00:03:00.970 align:start position:0%
+that it's important that we use this
+<c.colorE5E5E5>disability<00:02:59.269><c> and</c><00:02:59.900><c> all</c><00:03:00.200><c> the</c><00:03:00.440><c> words</c><00:03:00.620><c> in</c><00:03:00.799><c> the</c></c>
+
+00:03:00.970 --> 00:03:00.980 align:start position:0%
+<c.colorE5E5E5>disability and all the words in the
+ </c>
+
+00:03:00.980 --> 00:03:03.130 align:start position:0%
+<c.colorE5E5E5>disability and all the words in the
+document<00:03:01.150><c> this</c><00:03:02.150><c> is</c><00:03:02.269><c> very</c><00:03:02.540><c> different</c><00:03:02.750><c> from</c></c>
+
+00:03:03.130 --> 00:03:03.140 align:start position:0%
+document this is very different from
+ 
+
+00:03:03.140 --> 00:03:06.070 align:start position:0%
+document this is very different from
+topic<00:03:03.920><c> model</c><00:03:04.250><c> so</c><c.colorCCCCCC><00:03:04.819><c> likelihood</c><00:03:05.420><c> function</c><00:03:05.840><c> would</c></c>
+
+00:03:06.070 --> 00:03:06.080 align:start position:0%
+topic model so<c.colorCCCCCC> likelihood function would
+ </c>
+
+00:03:06.080 --> 00:03:10.300 align:start position:0%
+topic model so<c.colorCCCCCC> likelihood function would
+be<00:03:06.140><c> like</c><00:03:06.890><c> what</c><00:03:07.190><c> you</c></c><c.colorE5E5E5><00:03:07.340><c> are</c><00:03:07.459><c> seeing</c><00:03:07.640><c> here</c><00:03:08.860><c> ok</c><00:03:09.860><c> so</c></c>
+
+00:03:10.300 --> 00:03:10.310 align:start position:0%
+be like what you<c.colorE5E5E5> are seeing here ok so
+ </c>
+
+00:03:10.310 --> 00:03:16.059 align:start position:0%
+be like what you<c.colorE5E5E5> are seeing here ok so
+the<00:03:13.000><c> you</c><00:03:14.000><c> can</c><00:03:14.299><c> take</c><00:03:14.780><c> a</c><00:03:14.810><c> look</c><00:03:15.080><c> at</c><00:03:15.200><c> the</c><00:03:15.349><c> formula</c></c>
+
+00:03:16.059 --> 00:03:16.069 align:start position:0%
+the you can take a<c.colorE5E5E5> look at the formula
+ </c>
+
+00:03:16.069 --> 00:03:21.580 align:start position:0%
+the you can take a<c.colorE5E5E5> look at the formula
+here<00:03:16.459><c> we</c><00:03:16.730><c> have</c><00:03:16.910><c> used</c></c><c.colorCCCCCC><00:03:17.980><c> different</c><00:03:20.590><c> notation</c></c>
+
+00:03:21.580 --> 00:03:21.590 align:start position:0%
+here we have used<c.colorCCCCCC> different notation
+ </c>
+
+00:03:21.590 --> 00:03:27.490 align:start position:0%
+here we have used<c.colorCCCCCC> different notation
+here<00:03:21.769><c> in</c><00:03:22.430><c> the</c><00:03:23.359><c> second</c><00:03:24.260><c> line</c><00:03:24.440><c> of</c><00:03:24.730><c> this</c><00:03:26.440><c> of</c><00:03:27.440><c> this</c></c>
+
+00:03:27.490 --> 00:03:27.500 align:start position:0%
+here in the second line of this of this
+ 
+
+00:03:27.500 --> 00:03:35.170 align:start position:0%
+here in the second line of this of this
+equation<00:03:29.590><c> you</c><00:03:30.590><c> can</c><00:03:30.620><c> see</c><00:03:30.980><c> now</c><c.colorCCCCCC><00:03:31.870><c> the</c><00:03:34.180><c> rotation</c></c>
+
+00:03:35.170 --> 00:03:35.180 align:start position:0%
+equation you can see now<c.colorCCCCCC> the rotation
+ </c>
+
+00:03:35.180 --> 00:03:38.440 align:start position:0%
+equation you can see now<c.colorCCCCCC> the rotation
+has<00:03:35.359><c> been</c><00:03:35.630><c> Candida</c><00:03:36.079><c> to</c><00:03:36.200><c> use</c><00:03:36.500><c> a</c><00:03:36.850><c> unique</c><00:03:37.850><c> word</c><00:03:38.150><c> in</c></c>
+
+00:03:38.440 --> 00:03:38.450 align:start position:0%
+has been<c.colorCCCCCC> Candida to use a unique word in
+ </c>
+
+00:03:38.450 --> 00:03:41.680 align:start position:0%
+has been<c.colorCCCCCC> Candida to use a unique word in
+the<00:03:38.600><c> vocabulary</c><00:03:38.720><c> in</c><00:03:39.590><c> the</c><00:03:39.920><c> pipe</c><00:03:40.130><c> instead</c><00:03:40.790><c> of</c><00:03:41.030><c> a</c></c>
+
+00:03:41.680 --> 00:03:41.690 align:start position:0%
+the vocabulary in the pipe instead of a
+ 
+
+00:03:41.690 --> 00:03:45.220 align:start position:0%
+the vocabulary in the pipe instead of a
+particular<c.colorCCCCCC><00:03:42.230><c> position</c><00:03:42.829><c> in</c><00:03:43.040><c> the</c><00:03:43.430><c> document</c><00:03:44.230><c> so</c></c>
+
+00:03:45.220 --> 00:03:45.230 align:start position:0%
+particular<c.colorCCCCCC> position in the document so
+ </c>
+
+00:03:45.230 --> 00:03:50.500 align:start position:0%
+particular<c.colorCCCCCC> position in the document so
+from<00:03:45.799><c> X</c><00:03:46.100><c> subject</c><00:03:46.519><c> to</c></c><c.colorE5E5E5><00:03:47.139><c> W</c><00:03:48.310><c> is</c><00:03:49.310><c> a</c><00:03:49.880><c> change</c><00:03:50.329><c> of</c></c>
+
+00:03:50.500 --> 00:03:50.510 align:start position:0%
+from X subject to<c.colorE5E5E5> W is a change of
+ </c>
+
+00:03:50.510 --> 00:03:55.410 align:start position:0%
+from X subject to<c.colorE5E5E5> W is a change of
+notation<00:03:51.380><c> and</c><00:03:52.420><c> this</c><00:03:53.420><c> change</c><00:03:54.319><c> allows</c><00:03:54.859><c> us</c><00:03:55.130><c> to</c></c>
+
+00:03:55.410 --> 00:03:55.420 align:start position:0%
+notation and this change allows us to
+ 
+
+00:03:55.420 --> 00:03:58.539 align:start position:0%
+notation and this change allows us to
+show<00:03:56.420><c> the</c><c.colorCCCCCC><00:03:56.600><c> estimation</c><00:03:57.230><c> formulas</c><00:03:57.739><c> more</c><00:03:58.130><c> easily</c></c>
+
+00:03:58.539 --> 00:03:58.549 align:start position:0%
+show the<c.colorCCCCCC> estimation formulas more easily
+ </c>
+
+00:03:58.549 --> 00:04:01.059 align:start position:0%
+show the<c.colorCCCCCC> estimation formulas more easily
+and<00:03:58.760><c> you</c><00:03:59.060><c> have</c><00:03:59.180><c> seen</c><00:03:59.450><c> this</c><00:03:59.630><c> change</c><00:04:00.139><c> also</c><00:04:00.920><c> in</c></c>
+
+00:04:01.059 --> 00:04:01.069 align:start position:0%
+and<c.colorCCCCCC> you have seen this change also in
+ </c>
+
+00:04:01.069 --> 00:04:04.509 align:start position:0%
+and<c.colorCCCCCC> you have seen this change also in
+the<00:04:01.790><c> topic</c><00:04:02.030><c> model</c><00:04:02.480><c> hesitation</c><00:04:03.410><c> but</c><00:04:04.160><c> it's</c></c>
+
+00:04:04.509 --> 00:04:04.519 align:start position:0%
+the topic model hesitation but it's
+ 
+
+00:04:04.519 --> 00:04:06.670 align:start position:0%
+the topic model hesitation but it's
+basically<c.colorE5E5E5><00:04:04.970><c> still</c><00:04:05.480><c> just</c><00:04:05.720><c> a</c><00:04:05.900><c> product</c><00:04:06.170><c> of</c><00:04:06.500><c> the</c></c>
+
+00:04:06.670 --> 00:04:06.680 align:start position:0%
+basically<c.colorE5E5E5> still just a product of the
+ </c>
+
+00:04:06.680 --> 00:04:10.300 align:start position:0%
+basically<c.colorE5E5E5> still just a product of the
+communities<00:04:07.310><c> of</c><00:04:07.489><c> all</c><00:04:07.790><c> the</c><00:04:07.940><c> words</c></c><c.colorCCCCCC><00:04:09.069><c> right</c><00:04:10.069><c> and</c></c>
+
+00:04:10.300 --> 00:04:10.310 align:start position:0%
+communities of all the words<c.colorCCCCCC> right and
+ </c>
+
+00:04:10.310 --> 00:04:12.460 align:start position:0%
+communities of all the words<c.colorCCCCCC> right and
+so<00:04:10.760><c> with</c><00:04:11.030><c> the</c><00:04:11.209><c> library</c><00:04:11.569><c> function</c><00:04:12.019><c> now</c><00:04:12.170><c> we</c><00:04:12.230><c> can</c></c>
+
+00:04:12.460 --> 00:04:12.470 align:start position:0%
+so with the library function now we can
+ 
+
+00:04:12.470 --> 00:04:14.410 align:start position:0%
+so with the library function now we can
+<c.colorE5E5E5>talk<00:04:12.650><c> about</c><00:04:12.769><c> how</c><00:04:13.430><c> to</c><00:04:13.489><c> do</c><00:04:13.880><c> parameter</c></c>
+
+00:04:14.410 --> 00:04:14.420 align:start position:0%
+<c.colorE5E5E5>talk about how to do parameter
+ </c>
+
+00:04:14.420 --> 00:04:16.180 align:start position:0%
+<c.colorE5E5E5>talk about how to do parameter
+estimation<00:04:14.750><c> here</c><00:04:15.230><c> we</c><00:04:15.350><c> can</c><00:04:15.500><c> simply</c><00:04:15.829><c> use</c><00:04:16.039><c> the</c></c>
+
+00:04:16.180 --> 00:04:16.190 align:start position:0%
+estimation here we can simply use the
+ 
+
+00:04:16.190 --> 00:04:19.270 align:start position:0%
+estimation here we can simply use the
+maximum<00:04:16.820><c> likelihood</c><00:04:17.209><c> estimator</c><c.colorE5E5E5><00:04:18.169><c> right</c><00:04:19.039><c> so</c></c>
+
+00:04:19.270 --> 00:04:19.280 align:start position:0%
+maximum likelihood estimator<c.colorE5E5E5> right so
+ </c>
+
+00:04:19.280 --> 00:04:22.090 align:start position:0%
+maximum likelihood estimator<c.colorE5E5E5> right so
+that's<00:04:19.609><c> just</c><00:04:20.180><c> a</c><00:04:20.959><c> standard</c><00:04:21.500><c> way</c><00:04:21.650><c> of</c><00:04:21.680><c> doing</c></c>
+
+00:04:22.090 --> 00:04:22.100 align:start position:0%
+that's just a standard way of doing
+ 
+
+00:04:22.100 --> 00:04:25.120 align:start position:0%
+that's just a standard way of doing
+things<00:04:22.250><c> so</c><00:04:23.060><c> all</c><00:04:23.350><c> should</c><c.colorE5E5E5><00:04:24.350><c> be</c><00:04:24.470><c> familiar</c><00:04:24.650><c> to</c><00:04:24.950><c> you</c></c>
+
+00:04:25.120 --> 00:04:25.130 align:start position:0%
+things so all should<c.colorE5E5E5> be familiar to you
+ </c>
+
+00:04:25.130 --> 00:04:28.420 align:start position:0%
+things so all should<c.colorE5E5E5> be familiar to you
+now<00:04:25.340><c> it's</c><00:04:25.940><c> just</c><00:04:26.210><c> a</c><00:04:26.300><c> different</c><00:04:26.510><c> model</c><00:04:26.979><c> so</c><00:04:27.979><c> after</c></c>
+
+00:04:28.420 --> 00:04:28.430 align:start position:0%
+now<c.colorE5E5E5> it's just a different model so after
+ </c>
+
+00:04:28.430 --> 00:04:30.820 align:start position:0%
+now<c.colorE5E5E5> it's just a different model so after
+we<00:04:28.550><c> have</c></c><c.colorCCCCCC><00:04:28.700><c> estimated</c><00:04:29.180><c> parameters</c><00:04:29.539><c> how</c><00:04:30.440><c> can</c><00:04:30.710><c> we</c></c>
+
+00:04:30.820 --> 00:04:30.830 align:start position:0%
+we have<c.colorCCCCCC> estimated parameters how can we
+ </c>
+
+00:04:30.830 --> 00:04:31.350 align:start position:0%
+we have<c.colorCCCCCC> estimated parameters how can we
+then</c>
+
+00:04:31.350 --> 00:04:31.360 align:start position:0%
+then
+ 
+
+00:04:31.360 --> 00:04:34.170 align:start position:0%
+then
+located<00:04:31.780><c> clusters</c><00:04:32.199><c> to</c><00:04:32.650><c> the</c><00:04:32.770><c> documents</c><00:04:33.250><c> well</c>
+
+00:04:34.170 --> 00:04:34.180 align:start position:0%
+located clusters to the documents well
+ 
+
+00:04:34.180 --> 00:04:36.659 align:start position:0%
+located clusters to the documents well
+let's<00:04:35.020><c> take</c><00:04:35.259><c> a</c><00:04:35.319><c> look</c><c.colorCCCCCC><00:04:35.409><c> at</c><00:04:35.650><c> the</c><00:04:35.830><c> this</c><00:04:36.099><c> situation</c></c>
+
+00:04:36.659 --> 00:04:36.669 align:start position:0%
+let's take a look<c.colorCCCCCC> at the this situation
+ </c>
+
+00:04:36.669 --> 00:04:39.809 align:start position:0%
+let's take a look<c.colorCCCCCC> at the this situation
+more<00:04:36.789><c> closely</c><00:04:37.060><c> so</c><00:04:37.840><c> we</c><00:04:38.169><c> just</c><00:04:38.490><c> repeat</c><00:04:39.490><c> the</c></c>
+
+00:04:39.809 --> 00:04:39.819 align:start position:0%
+more closely so we just repeat<c.colorCCCCCC> the
+ </c>
+
+00:04:39.819 --> 00:04:42.050 align:start position:0%
+more closely so we just repeat<c.colorCCCCCC> the
+parameters<00:04:40.210><c> here</c><00:04:40.629><c> for</c><00:04:40.960><c> this</c><00:04:41.110><c> mixture</c><00:04:41.469><c> model</c></c>
+
+00:04:42.050 --> 00:04:42.060 align:start position:0%
+parameters here for this mixture model
+ 
+
+00:04:42.060 --> 00:04:45.600 align:start position:0%
+parameters here for this mixture model
+now<00:04:43.060><c> if</c><00:04:43.900><c> you</c><00:04:44.110><c> think</c><00:04:44.650><c> about</c><c.colorE5E5E5><00:04:44.710><c> what</c><00:04:45.250><c> we</c><00:04:45.340><c> can</c><00:04:45.460><c> get</c></c>
+
+00:04:45.600 --> 00:04:45.610 align:start position:0%
+now if you think about<c.colorE5E5E5> what we can get
+ </c>
+
+00:04:45.610 --> 00:04:47.610 align:start position:0%
+now if you think about<c.colorE5E5E5> what we can get
+by</c><c.colorCCCCCC><00:04:45.909><c> istomin</c><00:04:46.449><c> such</c><00:04:46.689><c> a</c><00:04:46.719><c> model</c><00:04:47.139><c> we</c><00:04:47.319><c> can</c><00:04:47.500><c> actually</c></c>
+
+00:04:47.610 --> 00:04:47.620 align:start position:0%
+by<c.colorCCCCCC> istomin such a model we can actually
+ </c>
+
+00:04:47.620 --> 00:04:50.159 align:start position:0%
+by<c.colorCCCCCC> istomin such a model we can actually</c>
+<c.colorCCCCCC>get<00:04:47.919><c> more</c><00:04:48.189><c> information</c><00:04:48.460><c> than</c><00:04:49.060><c> what</c><00:04:49.120><c> we</c><00:04:49.990><c> need</c></c>
+
+00:04:50.159 --> 00:04:50.169 align:start position:0%
+<c.colorCCCCCC>get more information than what we need
+ </c>
+
+00:04:50.169 --> 00:04:54.179 align:start position:0%
+<c.colorCCCCCC>get more information than what we need
+for<00:04:50.469><c> doing</c><00:04:51.219><c> clustering</c><00:04:51.669><c> right</c><00:04:51.969><c> so</c><00:04:53.009><c> theta</c></c><c.colorE5E5E5><00:04:54.009><c> I</c></c>
+
+00:04:54.179 --> 00:04:54.189 align:start position:0%
+for doing clustering right so theta<c.colorE5E5E5> I
+ </c>
+
+00:04:54.189 --> 00:04:56.249 align:start position:0%
+for doing clustering right so theta<c.colorE5E5E5> I
+for<00:04:54.580><c> example</c><00:04:54.669><c> represents</c><00:04:55.569><c> the</c><00:04:55.659><c> content</c><00:04:56.139><c> of</c></c>
+
+00:04:56.249 --> 00:04:56.259 align:start position:0%
+for example represents the content of
+ 
+
+00:04:56.259 --> 00:04:59.249 align:start position:0%
+for example represents the content of
+<c.colorCCCCCC>cross-slide<00:04:56.710><c> this</c></c><c.colorE5E5E5><00:04:57.400><c> is</c><00:04:57.780><c> actually</c><00:04:58.780><c> a</c><00:04:58.840><c> byproduct</c></c>
+
+00:04:59.249 --> 00:04:59.259 align:start position:0%
+<c.colorCCCCCC>cross-slide this</c><c.colorE5E5E5> is actually a byproduct
+ </c>
+
+00:04:59.259 --> 00:05:02.309 align:start position:0%
+<c.colorCCCCCC>cross-slide this</c><c.colorE5E5E5> is actually a byproduct
+it<00:04:59.680><c> helped</c><00:05:00.219><c> us</c><00:05:00.400><c> summarize</c><00:05:00.969><c> what</c><00:05:01.659><c> the</c><00:05:01.870><c> cluster</c></c>
+
+00:05:02.309 --> 00:05:02.319 align:start position:0%
+it helped us summarize what the cluster
+ 
+
+00:05:02.319 --> 00:05:05.070 align:start position:0%
+it helped us summarize what the cluster
+is<00:05:02.409><c> about</c><00:05:02.710><c> to</c><00:05:03.370><c> look</c><00:05:03.520><c> at</c><00:05:03.639><c> the</c><00:05:03.789><c> top</c><00:05:04.000><c> terms</c><00:05:04.330><c> in</c>
+
+00:05:05.070 --> 00:05:05.080 align:start position:0%
+is about to look at the top terms in
+ 
+
+00:05:05.080 --> 00:05:06.420 align:start position:0%
+is about to look at the top terms in
+this<00:05:05.289><c> cluster</c><00:05:05.560><c> or</c><00:05:05.949><c> in</c><00:05:06.099><c> this</c><00:05:06.219><c> water</c>
+
+00:05:06.420 --> 00:05:06.430 align:start position:0%
+this cluster or in this water
+ 
+
+00:05:06.430 --> 00:05:08.279 align:start position:0%
+this cluster or in this water
+distribution<00:05:06.759><c> and</c><00:05:07.360><c> they</c><00:05:07.569><c> will</c><00:05:07.719><c> tell</c><c.colorCCCCCC><00:05:07.840><c> us</c><00:05:08.020><c> what</c></c>
+
+00:05:08.279 --> 00:05:08.289 align:start position:0%
+distribution and they will tell<c.colorCCCCCC> us what
+ </c>
+
+00:05:08.289 --> 00:05:12.089 align:start position:0%
+distribution and they will tell<c.colorCCCCCC> us what
+the<00:05:08.500><c> cluster</c><00:05:09.159><c> is</c><00:05:09.310><c> about</c><00:05:09.580><c> and</c><00:05:10.319><c> P</c><00:05:11.319><c> of</c><00:05:11.469><c> theta</c><00:05:11.979><c> I</c></c>
+
+00:05:12.089 --> 00:05:12.099 align:start position:0%
+the cluster is about and P of theta I
+ 
+
+00:05:12.099 --> 00:05:14.550 align:start position:0%
+the cluster is about and P of theta I
+can<00:05:12.849><c> be</c><00:05:12.969><c> interpreted</c><00:05:13.270><c> as</c><00:05:13.569><c> indicating</c><00:05:14.199><c> the</c>
+
+00:05:14.550 --> 00:05:14.560 align:start position:0%
+can be interpreted as indicating the
+ 
+
+00:05:14.560 --> 00:05:16.980 align:start position:0%
+can be interpreted as indicating the
+size<00:05:14.860><c> of</c><00:05:15.189><c> customer</c><00:05:15.639><c> because</c><c.colorCCCCCC><00:05:16.180><c> it</c><00:05:16.360><c> tells</c><00:05:16.599><c> us</c><00:05:16.840><c> how</c></c>
+
+00:05:16.980 --> 00:05:16.990 align:start position:0%
+size of customer because<c.colorCCCCCC> it tells us how
+ </c>
+
+00:05:16.990 --> 00:05:20.100 align:start position:0%
+size of customer because<c.colorCCCCCC> it tells us how
+likely<00:05:17.259><c> a</c><00:05:17.759><c> cluster</c><00:05:18.759><c> would</c></c><c.colorE5E5E5><00:05:19.449><c> be</c><00:05:19.599><c> used</c><00:05:19.810><c> to</c></c>
+
+00:05:20.100 --> 00:05:20.110 align:start position:0%
+likely a cluster would<c.colorE5E5E5> be used to
+ </c>
+
+00:05:20.110 --> 00:05:22.110 align:start position:0%
+likely a cluster would<c.colorE5E5E5> be used to
+generate<00:05:20.259><c> the</c><00:05:20.620><c> document</c><00:05:21.099><c> the</c><00:05:21.370><c> more</c><00:05:21.639><c> likely</c></c>
+
+00:05:22.110 --> 00:05:22.120 align:start position:0%
+generate the document the more likely
+ 
+
+00:05:22.120 --> 00:05:24.240 align:start position:0%
+generate the document the more likely
+<c.colorCCCCCC>the<00:05:22.449><c> cluster</c><00:05:22.840><c> is</c><00:05:22.960><c> used</c><00:05:23.319><c> to</c><00:05:23.860><c> generate</c><00:05:23.889><c> the</c></c>
+
+00:05:24.240 --> 00:05:24.250 align:start position:0%
+<c.colorCCCCCC>the cluster is used to generate the
+ </c>
+
+00:05:24.250 --> 00:05:27.300 align:start position:0%
+<c.colorCCCCCC>the cluster is used to generate the
+document<00:05:24.729><c> we</c><00:05:25.240><c> can</c><00:05:25.389><c> assume</c><00:05:25.629><c> the</c><00:05:26.500><c> larger</c><00:05:27.189><c> the</c></c>
+
+00:05:27.300 --> 00:05:27.310 align:start position:0%
+document we can assume the larger the
+ 
+
+00:05:27.310 --> 00:05:31.559 align:start position:0%
+document we can assume the larger the
+cluster<00:05:27.729><c> size</c><00:05:27.939><c> is</c><c.colorCCCCCC><00:05:28.360><c> I</c><00:05:29.400><c> note</c><00:05:30.400><c> that</c><00:05:30.430><c> unlike</c><00:05:31.000><c> in</c></c>
+
+00:05:31.559 --> 00:05:31.569 align:start position:0%
+cluster size is<c.colorCCCCCC> I note that unlike in
+ </c>
+
+00:05:31.569 --> 00:05:34.369 align:start position:0%
+cluster size is<c.colorCCCCCC> I note that unlike in</c>
+<c.colorE5E5E5>POS<00:05:32.110><c> a</c><00:05:32.289><c> and</c><00:05:32.560><c> this</c><00:05:33.009><c> probability</c><00:05:33.550><c> of</c><00:05:33.759><c> theta</c><00:05:34.000><c> is</c></c>
+
+00:05:34.369 --> 00:05:34.379 align:start position:0%
+<c.colorE5E5E5>POS a and this probability of theta is
+ </c>
+
+00:05:34.379 --> 00:05:38.159 align:start position:0%
+<c.colorE5E5E5>POS a and this probability of theta is
+not<00:05:35.379><c> dependent</c><00:05:35.889><c> on</c><00:05:36.460><c> d</c><00:05:36.849><c> now</c><00:05:37.690><c> you</c><00:05:37.750><c> may</c><00:05:37.960><c> recall</c></c>
+
+00:05:38.159 --> 00:05:38.169 align:start position:0%
+not dependent<c.colorE5E5E5> on d now you may recall
+ </c>
+
+00:05:38.169 --> 00:05:40.860 align:start position:0%
+not dependent<c.colorE5E5E5> on d now you may recall
+that<00:05:38.379><c> the</c><00:05:39.069><c> topic</c><00:05:39.460><c> of</c><00:05:39.520><c> choice</c><00:05:39.659><c> in</c><00:05:40.659><c> each</c></c>
+
+00:05:40.860 --> 00:05:40.870 align:start position:0%
+that<c.colorE5E5E5> the topic of choice in each
+ </c>
+
+00:05:40.870 --> 00:05:42.869 align:start position:0%
+that<c.colorE5E5E5> the topic of choice in each
+document<00:05:41.199><c> that</c><00:05:41.469><c> actually</c><00:05:41.860><c> depends</c><00:05:42.310><c> on</c></c><c.colorCCCCCC><00:05:42.430><c> D</c><00:05:42.639><c> that</c></c>
+
+00:05:42.869 --> 00:05:42.879 align:start position:0%
+document that actually depends on<c.colorCCCCCC> D that
+ </c>
+
+00:05:42.879 --> 00:05:44.519 align:start position:0%
+document that actually depends on<c.colorCCCCCC> D that
+means</c><c.colorE5E5E5><00:05:42.909><c> each</c><00:05:43.330><c> document</c><00:05:43.629><c> can</c><00:05:44.349><c> have</c><00:05:44.500><c> a</c></c>
+
+00:05:44.519 --> 00:05:44.529 align:start position:0%
+means<c.colorE5E5E5> each document can have a
+ </c>
+
+00:05:44.529 --> 00:05:47.219 align:start position:0%
+means<c.colorE5E5E5> each document can have a
+potentially<00:05:45.159><c> different</c><00:05:45.400><c> the</c><00:05:45.639><c> choice</c><00:05:46.229><c> of</c></c>
+
+00:05:47.219 --> 00:05:47.229 align:start position:0%
+potentially different the choice of
+ 
+
+00:05:47.229 --> 00:05:50.519 align:start position:0%
+potentially different the choice of
+topics<00:05:47.979><c> but</c><00:05:48.759><c> here</c><00:05:48.969><c> we</c><c.colorCCCCCC><00:05:49.120><c> have</c><00:05:49.270><c> a</c><00:05:49.300><c> generic</c><00:05:49.960><c> choice</c></c>
+
+00:05:50.519 --> 00:05:50.529 align:start position:0%
+topics but here we<c.colorCCCCCC> have a generic choice
+ </c>
+
+00:05:50.529 --> 00:05:54.450 align:start position:0%
+topics but here we<c.colorCCCCCC> have a generic choice
+from<00:05:50.830><c> unity</c><00:05:51.310><c> for</c><00:05:51.490><c> all</c><00:05:51.699><c> the</c><00:05:52.650><c> documents</c><00:05:53.650><c> but</c><00:05:54.339><c> of</c></c>
+
+00:05:54.450 --> 00:05:54.460 align:start position:0%
+from unity for all the documents but of
+ 
+
+00:05:54.460 --> 00:05:56.279 align:start position:0%
+from unity for all the documents but of
+course<c.colorE5E5E5><00:05:54.729><c> even</c><00:05:55.180><c> a</c><00:05:55.270><c> particular</c><00:05:55.779><c> document</c><00:05:56.199><c> that</c></c>
+
+00:05:56.279 --> 00:05:56.289 align:start position:0%
+course<c.colorE5E5E5> even a particular document that
+ </c>
+
+00:05:56.289 --> 00:05:59.339 align:start position:0%
+course<c.colorE5E5E5> even a particular document that
+which<00:05:56.469><c> they</c><00:05:56.650><c> have</c><00:05:56.770><c> to</c><00:05:56.800><c> infer</c><00:05:57.279><c> which</c><00:05:58.229><c> topic</c><00:05:59.229><c> is</c></c>
+
+00:05:59.339 --> 00:05:59.349 align:start position:0%
+which they have to<c.colorE5E5E5> infer which topic is
+ </c>
+
+00:05:59.349 --> 00:06:01.559 align:start position:0%
+which they have to<c.colorE5E5E5> infer which topic is
+more<00:05:59.620><c> likely</c><00:05:59.860><c> to</c><00:06:00.250><c> generate</c><00:06:00.580><c> to</c><00:06:00.969><c> the</c><00:06:01.060><c> document</c></c>
+
+00:06:01.559 --> 00:06:01.569 align:start position:0%
+more likely to generate to the document
+ 
+
+00:06:01.569 --> 00:06:03.390 align:start position:0%
+more likely to generate to the document
+so<00:06:01.960><c> in</c><00:06:02.169><c> that</c><00:06:02.319><c> sense</c><00:06:02.560><c> we</c><00:06:02.710><c> can</c><00:06:02.979><c> still</c><00:06:03.219><c> have</c><00:06:03.370><c> a</c>
+
+00:06:03.390 --> 00:06:03.400 align:start position:0%
+so in that sense we can still have a
+ 
+
+00:06:03.400 --> 00:06:07.740 align:start position:0%
+so in that sense we can still have a
+document<00:06:03.879><c> dependent</c><00:06:06.569><c> probability</c><00:06:07.569><c> of</c>
+
+00:06:07.740 --> 00:06:07.750 align:start position:0%
+document dependent probability of
+ 
+
+00:06:07.750 --> 00:06:11.100 align:start position:0%
+document dependent probability of
+clusters<00:06:09.060><c> so</c><00:06:10.060><c> now</c><00:06:10.300><c> let's</c><c.colorE5E5E5><00:06:10.509><c> look</c><00:06:10.629><c> at</c><00:06:10.810><c> the</c><00:06:10.990><c> key</c></c>
+
+00:06:11.100 --> 00:06:11.110 align:start position:0%
+clusters so now let's<c.colorE5E5E5> look at the key
+ </c>
+
+00:06:11.110 --> 00:06:14.070 align:start position:0%
+clusters so now let's<c.colorE5E5E5> look at the key
+problem<00:06:11.529><c> of</c><00:06:11.770><c> assigning</c><00:06:12.900><c> documents</c><00:06:13.900><c> to</c></c>
+
+00:06:14.070 --> 00:06:14.080 align:start position:0%
+problem of assigning documents to
+ 
+
+00:06:14.080 --> 00:06:16.110 align:start position:0%
+problem of assigning documents to
+<c.colorE5E5E5>clusters<00:06:14.589><c> or</c><00:06:14.770><c> assigning</c><00:06:15.159><c> clusters</c></c><c.colorCCCCCC><00:06:15.610><c> revoking</c></c>
+
+00:06:16.110 --> 00:06:16.120 align:start position:0%
+<c.colorE5E5E5>clusters or assigning clusters</c><c.colorCCCCCC> revoking
+ </c>
+
+00:06:16.120 --> 00:06:20.219 align:start position:0%
+<c.colorE5E5E5>clusters or assigning clusters</c><c.colorCCCCCC> revoking
+it<00:06:16.210><c> right</c><00:06:17.009><c> so</c><00:06:18.009><c> that's</c></c><c.colorE5E5E5><00:06:18.460><c> your</c><00:06:18.699><c> computer</c><00:06:19.270><c> C</c><00:06:19.509><c> sub</c><00:06:19.960><c> D</c></c>
+
+00:06:20.219 --> 00:06:20.229 align:start position:0%
+<c.colorCCCCCC>it right so that's</c><c.colorE5E5E5> your computer C sub D
+ </c>
+
+00:06:20.229 --> 00:06:22.890 align:start position:0%
+<c.colorCCCCCC>it right so that's</c><c.colorE5E5E5> your computer C sub D
+here<00:06:20.529><c> and</c><00:06:20.740><c> this</c><00:06:21.550><c> will</c><00:06:21.759><c> take</c><00:06:21.909><c> 0</c><00:06:22.060><c> or</c><00:06:22.270><c> one</c></c><c.colorCCCCCC><00:06:22.629><c> of</c><00:06:22.779><c> the</c></c>
+
+00:06:22.890 --> 00:06:22.900 align:start position:0%
+here and this will take 0 or one<c.colorCCCCCC> of the
+ </c>
+
+00:06:22.900 --> 00:06:25.589 align:start position:0%
+here and this will take 0 or one<c.colorCCCCCC> of the
+values<00:06:23.080><c> in</c></c><c.colorE5E5E5><00:06:23.259><c> the</c><00:06:23.919><c> range</c><00:06:23.949><c> of</c><00:06:24.339><c> 12</c><00:06:24.819><c> k</c><00:06:25.029><c> to</c><00:06:25.089><c> indicate</c></c>
+
+00:06:25.589 --> 00:06:25.599 align:start position:0%
+values in<c.colorE5E5E5> the range of 12 k to indicate
+ </c>
+
+00:06:25.599 --> 00:06:27.769 align:start position:0%
+values in<c.colorE5E5E5> the range of 12 k to indicate
+which<00:06:25.810><c> cluster</c><00:06:26.110><c> should</c><00:06:26.710><c> be</c><00:06:26.830><c> assigned</c></c><c.colorCCCCCC><00:06:27.129><c> a</c><00:06:27.279><c> 2d</c></c>
+
+00:06:27.769 --> 00:06:27.779 align:start position:0%
+which cluster should be assigned<c.colorCCCCCC> a 2d
+ </c>
+
+00:06:27.779 --> 00:06:30.959 align:start position:0%
+which cluster should be assigned<c.colorCCCCCC> a 2d
+now<00:06:28.779><c> let's</c><00:06:29.259><c> first</c><00:06:29.830><c> you</c><00:06:30.159><c> might</c><00:06:30.339><c> think</c><00:06:30.669><c> about</c><00:06:30.789><c> a</c></c>
+
+00:06:30.959 --> 00:06:30.969 align:start position:0%
+now let's first you might think about<c.colorCCCCCC> a
+ </c>
+
+00:06:30.969 --> 00:06:33.749 align:start position:0%
+now let's first you might think about<c.colorCCCCCC> a
+way</c><c.colorE5E5E5><00:06:31.569><c> to</c><00:06:31.629><c> use</c><00:06:32.349><c> likely</c><00:06:32.800><c> hold</c><00:06:32.979><c> on</c><00:06:33.099><c> me</c><00:06:33.219><c> and</c><00:06:33.400><c> that</c><00:06:33.669><c> is</c></c>
+
+00:06:33.749 --> 00:06:33.759 align:start position:0%
+way<c.colorE5E5E5> to use likely hold on me and that is
+ </c>
+
+00:06:33.759 --> 00:06:35.399 align:start position:0%
+way<c.colorE5E5E5> to use likely hold on me and that is
+assigned<00:06:34.210><c> deed</c><00:06:34.569><c> to</c><00:06:34.779><c> the</c><00:06:34.900><c> cluster</c></c>
+
+00:06:35.399 --> 00:06:35.409 align:start position:0%
+assigned deed to the cluster
+ 
+
+00:06:35.409 --> 00:06:38.100 align:start position:0%
+assigned deed to the cluster
+corresponding<00:06:36.099><c> to</c><00:06:36.250><c> the</c><00:06:36.400><c> top</c><00:06:36.639><c> casita</c><00:06:37.089><c> I</c><00:06:37.210><c> that</c>
+
+00:06:38.100 --> 00:06:38.110 align:start position:0%
+corresponding to the top casita I that
+ 
+
+00:06:38.110 --> 00:06:40.649 align:start position:0%
+corresponding to the top casita I that
+most<c.colorE5E5E5><00:06:38.529><c> likely</c><00:06:39.279><c> has</c><00:06:39.699><c> been</c><00:06:39.940><c> used</c><00:06:40.180><c> to</c><00:06:40.449><c> generate</c></c>
+
+00:06:40.649 --> 00:06:40.659 align:start position:0%
+most<c.colorE5E5E5> likely has been used to generate
+ </c>
+
+00:06:40.659 --> 00:06:43.770 align:start position:0%
+most<c.colorE5E5E5> likely has been used to generate
+the<00:06:40.959><c> deep</c><00:06:41.669><c> so</c><00:06:42.669><c> that</c><00:06:42.969><c> means</c><00:06:43.240><c> welcome</c></c>
+
+00:06:43.770 --> 00:06:43.780 align:start position:0%
+the deep so<c.colorE5E5E5> that means welcome
+ </c>
+
+00:06:43.780 --> 00:06:45.840 align:start position:0%
+the deep so<c.colorE5E5E5> that means welcome
+choose<00:06:43.990><c> one</c><00:06:44.440><c> of</c><00:06:44.470><c> those</c><00:06:44.830><c> distributions</c><00:06:45.490><c> that</c></c>
+
+00:06:45.840 --> 00:06:45.850 align:start position:0%
+choose one of<c.colorE5E5E5> those distributions that
+ </c>
+
+00:06:45.850 --> 00:06:49.530 align:start position:0%
+choose one of<c.colorE5E5E5> those distributions that
+gives<00:06:46.360><c> me</c><00:06:46.750><c> the</c><00:06:47.350><c> highest</c><00:06:47.830><c> probability</c><00:06:48.540><c> in</c></c>
+
+00:06:49.530 --> 00:06:49.540 align:start position:0%
+gives me the highest probability in
+ 
+
+00:06:49.540 --> 00:06:51.810 align:start position:0%
+gives me the highest probability in
+other<00:06:49.690><c> words</c><00:06:49.960><c> we'll</c><00:06:50.320><c> see</c><00:06:50.530><c> which</c><00:06:50.889><c> distribution</c>
+
+00:06:51.810 --> 00:06:51.820 align:start position:0%
+other words we'll see which distribution
+ 
+
+00:06:51.820 --> 00:06:54.330 align:start position:0%
+other words we'll see which distribution
+has<00:06:52.600><c> a</c><00:06:52.660><c> content</c><00:06:53.260><c> that</c><00:06:53.440><c> matches</c><00:06:53.680><c> our</c><00:06:54.070><c> deep</c>
+
+00:06:54.330 --> 00:06:54.340 align:start position:0%
+has a content that matches our deep
+ 
+
+00:06:54.340 --> 00:06:58.430 align:start position:0%
+has a content that matches our deep
+about<00:06:56.070><c> intuitively</c><00:06:57.070><c> that</c><00:06:57.190><c> makes</c><00:06:57.730><c> sense</c>
+
+00:06:58.430 --> 00:06:58.440 align:start position:0%
+about intuitively that makes sense
+ 
+
+00:06:58.440 --> 00:07:02.550 align:start position:0%
+about intuitively that makes sense
+however<00:06:59.440><c> this</c><00:06:59.950><c> approach</c><00:07:00.990><c> does</c><00:07:01.990><c> not</c><00:07:02.169><c> consider</c>
+
+00:07:02.550 --> 00:07:02.560 align:start position:0%
+however this approach does not consider
+ 
+
+00:07:02.560 --> 00:07:04.890 align:start position:0%
+however this approach does not consider
+the<00:07:02.800><c> size</c><00:07:03.040><c> of</c><00:07:03.370><c> clusters</c><00:07:03.880><c> which</c><00:07:04.540><c> is</c><00:07:04.720><c> also</c>
+
+00:07:04.890 --> 00:07:04.900 align:start position:0%
+the size of clusters which is also
+ 
+
+00:07:04.900 --> 00:07:08.370 align:start position:0%
+the size of clusters which is also
+<c.colorE5E5E5>available<00:07:05.350><c> to</c><00:07:05.680><c> us</c><00:07:05.770><c> and</c><00:07:06.180><c> so</c><00:07:07.180><c> a</c><00:07:07.480><c> better</c><00:07:07.930><c> way</c><00:07:08.169><c> is</c></c>
+
+00:07:08.370 --> 00:07:08.380 align:start position:0%
+<c.colorE5E5E5>available to us and so a better way is
+ </c>
+
+00:07:08.380 --> 00:07:11.340 align:start position:0%
+<c.colorE5E5E5>available to us and so a better way is
+to<00:07:08.470><c> use</c><00:07:08.710><c> the</c><00:07:09.070><c> likelihood</c><00:07:09.960><c> together</c><00:07:10.960><c> with</c><00:07:11.320><c> a</c></c>
+
+00:07:11.340 --> 00:07:11.350 align:start position:0%
+to use<c.colorE5E5E5> the likelihood together with a
+ </c>
+
+00:07:11.350 --> 00:07:13.740 align:start position:0%
+to use<c.colorE5E5E5> the likelihood together with a
+prior<00:07:11.770><c> in</c><00:07:12.100><c> this</c><00:07:12.310><c> case</c><00:07:12.490><c> the</c><00:07:12.730><c> pride</c><00:07:12.970><c> is</c><00:07:13.180><c> P</c><00:07:13.540><c> of</c></c>
+
+00:07:13.740 --> 00:07:13.750 align:start position:0%
+prior in this case<c.colorE5E5E5> the pride is P of
+ </c>
+
+00:07:13.750 --> 00:07:18.510 align:start position:0%
+prior in this case<c.colorE5E5E5> the pride is P of
+theta<00:07:14.440><c> I</c><00:07:14.680><c> and</c><00:07:15.690><c> together</c><00:07:16.690><c> and</c><00:07:17.169><c> that</c><00:07:18.130><c> is</c><00:07:18.280><c> we're</c></c>
+
+00:07:18.510 --> 00:07:18.520 align:start position:0%
+theta I and together<c.colorE5E5E5> and that is we're
+ </c>
+
+00:07:18.520 --> 00:07:20.190 align:start position:0%
+theta I and together<c.colorE5E5E5> and that is we're</c>
+<c.colorE5E5E5>going<00:07:18.700><c> to</c><00:07:18.790><c> use</c><00:07:18.910><c> the</c><00:07:19.090><c> base</c><00:07:19.270><c> formula</c><00:07:19.690><c> to</c><00:07:20.020><c> compute</c></c>
+
+00:07:20.190 --> 00:07:20.200 align:start position:0%
+<c.colorE5E5E5>going to use the base formula to compute
+ </c>
+
+00:07:20.200 --> 00:07:23.700 align:start position:0%
+<c.colorE5E5E5>going to use the base formula to compute
+the<00:07:20.410><c> posterior</c><00:07:20.980><c> probability</c><00:07:21.850><c> of</c><00:07:22.110><c> theta</c><00:07:23.110><c> given</c></c>
+
+00:07:23.700 --> 00:07:23.710 align:start position:0%
+the<c.colorE5E5E5> posterior probability of theta given
+ </c>
+
+00:07:23.710 --> 00:07:28.050 align:start position:0%
+the<c.colorE5E5E5> posterior probability of theta given
+deep<00:07:24.280><c> and</c><00:07:24.990><c> if</c><00:07:25.990><c> we</c><00:07:26.140><c> choose</c><00:07:27.010><c> seed</c><00:07:27.430><c> are</c><00:07:27.580><c> based</c><00:07:27.850><c> on</c></c>
+
+00:07:28.050 --> 00:07:28.060 align:start position:0%
+deep and if we choose seed are based on
+ 
+
+00:07:28.060 --> 00:07:30.630 align:start position:0%
+deep and if we choose seed are based on
+this<00:07:28.210><c> posterior</c><00:07:28.720><c> from</c><00:07:29.140><c> unity</c><00:07:29.590><c> and</c><00:07:29.770><c> we</c><00:07:30.490><c> would</c>
+
+00:07:30.630 --> 00:07:30.640 align:start position:0%
+this posterior from unity and we would
+ 
+
+00:07:30.640 --> 00:07:32.730 align:start position:0%
+this posterior from unity and we would
+have<00:07:30.940><c> the</c><00:07:31.180><c> following</c><00:07:31.480><c> formula</c><c.colorE5E5E5><00:07:31.930><c> that</c><00:07:32.230><c> you</c><00:07:32.470><c> see</c></c>
+
+00:07:32.730 --> 00:07:32.740 align:start position:0%
+have the following formula<c.colorE5E5E5> that you see
+ </c>
+
+00:07:32.740 --> 00:07:36.150 align:start position:0%
+have the following formula<c.colorE5E5E5> that you see
+here<00:07:33.010><c> on</c><00:07:33.220><c> the</c></c><c.colorCCCCCC><00:07:33.300><c> bottom</c><00:07:34.300><c> of</c></c><c.colorE5E5E5><00:07:34.630><c> this</c><00:07:34.840><c> slide</c><00:07:35.020><c> and</c><00:07:35.440><c> in</c></c>
+
+00:07:36.150 --> 00:07:36.160 align:start position:0%
+here on the<c.colorCCCCCC> bottom of</c><c.colorE5E5E5> this slide and in
+ </c>
+
+00:07:36.160 --> 00:07:37.620 align:start position:0%
+here on the<c.colorCCCCCC> bottom of</c><c.colorE5E5E5> this slide and in
+this<00:07:36.280><c> case</c><00:07:36.550><c> we're</c><00:07:36.880><c> going</c><00:07:36.910><c> to</c><00:07:37.060><c> choose</c><00:07:37.360><c> the</c></c>
+
+00:07:37.620 --> 00:07:37.630 align:start position:0%
+this case we're going to choose the
+ 
+
+00:07:37.630 --> 00:07:42.120 align:start position:0%
+this case we're going to choose the
+theta<00:07:37.900><c> that</c><00:07:38.680><c> has</c><00:07:39.100><c> a</c><00:07:39.520><c> large</c><00:07:40.270><c> p</c><00:07:40.960><c> of</c><c.colorE5E5E5><00:07:41.140><c> the</c><00:07:41.979><c> night</c></c>
+
+00:07:42.120 --> 00:07:42.130 align:start position:0%
+theta that has a large p of<c.colorE5E5E5> the night
+ </c>
+
+00:07:42.130 --> 00:07:45.240 align:start position:0%
+theta that has a large p of<c.colorE5E5E5> the night
+that<00:07:42.520><c> means</c><00:07:42.760><c> a</c><00:07:42.940><c> large</c><00:07:43.210><c> cluster</c><00:07:43.720><c> and</c><00:07:44.200><c> also</c><00:07:45.040><c> a</c></c>
+
+00:07:45.240 --> 00:07:45.250 align:start position:0%
+that means a large cluster and also a
+ 
+
+00:07:45.250 --> 00:07:47.730 align:start position:0%
+that means a large cluster and also a
+high<00:07:45.490><c> probability</c><00:07:45.700><c> of</c><c.colorE5E5E5><00:07:46.120><c> generating</c><00:07:46.180><c> d</c><00:07:46.960><c> so</c></c>
+
+00:07:47.730 --> 00:07:47.740 align:start position:0%
+high probability of<c.colorE5E5E5> generating d so
+ </c>
+
+00:07:47.740 --> 00:07:51.030 align:start position:0%
+high probability of<c.colorE5E5E5> generating d so
+within<00:07:48.070><c> the</c><00:07:48.250><c> favor</c><00:07:48.490><c> a</c><00:07:48.690><c> cluster</c><00:07:49.690><c> that's</c><00:07:50.040><c> large</c></c>
+
+00:07:51.030 --> 00:07:51.040 align:start position:0%
+within the favor a cluster that's large
+ 
+
+00:07:51.040 --> 00:07:54.690 align:start position:0%
+within the favor a cluster that's large
+and<00:07:51.340><c> also</c><00:07:51.970><c> consistent</c><00:07:52.690><c> with</c><00:07:52.780><c> our</c><00:07:53.550><c> with</c><00:07:54.550><c> the</c>
+
+00:07:54.690 --> 00:07:54.700 align:start position:0%
+and also consistent with our with the
+ 
+
+00:07:54.700 --> 00:07:57.840 align:start position:0%
+and also consistent with our with the
+document<00:07:55.210><c> and</c><00:07:55.500><c> that</c><c.colorE5E5E5><00:07:56.790><c> immediately</c><00:07:57.790><c> makes</c></c>
+
+00:07:57.840 --> 00:07:57.850 align:start position:0%
+document and that<c.colorE5E5E5> immediately makes
+ </c>
+
+00:07:57.850 --> 00:08:01.409 align:start position:0%
+document and that<c.colorE5E5E5> immediately makes
+sense<00:07:58.240><c> because</c><00:07:58.479><c> the</c><00:07:59.470><c> chance</c><00:07:59.860><c> of</c><00:08:00.160><c> a</c><00:08:00.789><c> document</c></c>
+
+00:08:01.409 --> 00:08:01.419 align:start position:0%
+sense because the chance of a document
+ 
+
+00:08:01.419 --> 00:08:03.750 align:start position:0%
+sense because the chance of a document
+being<00:08:01.780><c> a</c><00:08:02.050><c> large</c><00:08:02.260><c> cluster</c><00:08:02.830><c> is</c><00:08:03.010><c> generally</c>
+
+00:08:03.750 --> 00:08:03.760 align:start position:0%
+being a large cluster is generally
+ 
+
+00:08:03.760 --> 00:08:07.920 align:start position:0%
+being a large cluster is generally
+higher<00:08:04.030><c> than</c><00:08:04.360><c> in</c><00:08:04.630><c> a</c><00:08:04.930><c> small</c><00:08:05.260><c> cluster</c><00:08:06.690><c> so</c><00:08:07.690><c> this</c>
+
+00:08:07.920 --> 00:08:07.930 align:start position:0%
+higher than in a small cluster so this
+ 
+
+00:08:07.930 --> 00:08:09.600 align:start position:0%
+higher than in a small cluster so this
+means<00:08:08.169><c> once</c><00:08:08.770><c> we</c><00:08:09.010><c> can</c><00:08:09.190><c> estimate</c><00:08:09.310><c> the</c>
+
+00:08:09.600 --> 00:08:09.610 align:start position:0%
+means once we can estimate the
+ 
+
+00:08:09.610 --> 00:08:13.920 align:start position:0%
+means once we can estimate the
+parameters<c.colorE5E5E5><00:08:09.910><c> of</c><00:08:11.490><c> the</c><00:08:12.490><c> model</c><00:08:12.520><c> then</c><00:08:13.150><c> we</c><00:08:13.419><c> can</c><00:08:13.630><c> easy</c></c>
+
+00:08:13.920 --> 00:08:13.930 align:start position:0%
+parameters<c.colorE5E5E5> of the model then we can easy
+ </c>
+
+00:08:13.930 --> 00:08:15.570 align:start position:0%
+parameters<c.colorE5E5E5> of the model then we can easy
+to<00:08:14.229><c> solve</c><00:08:14.410><c> the</c><00:08:14.560><c> problem</c><00:08:14.919><c> of</c><00:08:15.070><c> document</c></c>
+
+00:08:15.570 --> 00:08:15.580 align:start position:0%
+to solve the problem of document
+ 
+
+00:08:15.580 --> 00:08:18.630 align:start position:0%
+to solve the problem of document
+clustering<00:08:16.020><c> so</c><00:08:17.020><c> next</c><00:08:17.320><c> we</c><00:08:18.070><c> have</c><c.colorCCCCCC><00:08:18.220><c> to</c><00:08:18.400><c> discuss</c></c>
+
+00:08:18.630 --> 00:08:18.640 align:start position:0%
+clustering so next we have<c.colorCCCCCC> to discuss
+ </c>
+
+00:08:18.640 --> 00:08:21.980 align:start position:0%
+clustering so next we have<c.colorCCCCCC> to discuss
+how<00:08:19.060><c> to</c><00:08:19.090><c> actually</c><00:08:19.600><c> compute</c><00:08:20.110><c> the</c><00:08:20.410><c> estimate</c></c><c.colorE5E5E5><00:08:20.890><c> of</c></c>
+
+00:08:21.980 --> 00:08:21.990 align:start position:0%
+how to actually compute the estimate<c.colorE5E5E5> of
+ </c>
+
+00:08:21.990 --> 00:08:25.410 align:start position:0%
+how to actually compute the estimate<c.colorE5E5E5> of
+the<00:08:22.990><c> model</c></c>
+

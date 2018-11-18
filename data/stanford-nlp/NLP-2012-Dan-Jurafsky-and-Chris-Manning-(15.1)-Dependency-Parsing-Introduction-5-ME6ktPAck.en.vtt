@@ -1,0 +1,556 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.010 --> 00:00:04.260
+In this segment I'm going to
+return to dependency parsing.
+
+00:00:04.260 --> 00:00:08.200
+Right in the first segment I introduced
+the idea of dependency syntax.
+
+00:00:08.200 --> 00:00:10.690
+But let's look again at how that worked.
+
+00:00:10.690 --> 00:00:16.090
+So the idea of dependency syntax is
+you connect up the words of a sentence
+
+00:00:16.090 --> 00:00:17.920
+by putting arrows between them.
+
+00:00:17.920 --> 00:00:23.243
+That show relationships of being
+modifiers or arguments of other words.
+
+00:00:23.243 --> 00:00:28.174
+So here in this example, we've got the
+head of the whole sentence, submitted, and
+
+00:00:28.174 --> 00:00:29.780
+it's got its dependents.
+
+00:00:29.780 --> 00:00:37.120
+So it's got bills submitted by somebody
+and then also the auxiliary verb, were.
+
+00:00:39.000 --> 00:00:41.810
+Now, not necessarily, but
+
+00:00:41.810 --> 00:00:46.950
+quite commonly the arrows are typed by
+the name of some grammatical relation.
+
+00:00:46.950 --> 00:00:51.010
+And so we can see that here we've
+got the subject of the passive,
+
+00:00:51.010 --> 00:00:54.520
+the verbal auxiliary and
+the prepositional relationship.
+
+00:00:56.020 --> 00:01:01.130
+The other things that you should know
+about just a bit of the terminology.
+
+00:01:01.130 --> 00:01:06.762
+So firstly, when we have an arrow,
+we always have the thing
+
+00:01:06.762 --> 00:01:11.618
+that is the head or
+the governor, here submitted.
+
+00:01:11.618 --> 00:01:15.415
+And the thing that is the dependent,
+modifier, inferior,
+
+00:01:15.415 --> 00:01:19.310
+various words you use that you
+can see over here, here bills.
+
+00:01:19.310 --> 00:01:26.380
+So that they're the two ends, the governor
+and the governed thing of a dependency.
+
+00:01:26.380 --> 00:01:32.320
+Now out beyond that, there's actually some
+inconsistency about how things are done.
+
+00:01:32.320 --> 00:01:37.395
+So in these slides and in the original
+dependency grammar work of Tesniere,
+
+00:01:37.395 --> 00:01:42.170
+the arrows run from
+the governor to the dependent.
+
+00:01:42.170 --> 00:01:47.280
+But you can absolutely also find other
+work that points the arrows the other way.
+
+00:01:47.280 --> 00:01:54.060
+And actually if like here you're
+using height in the tree to show
+
+00:01:54.060 --> 00:01:57.880
+what's dependent of what, you actually
+don't need to have any arrows at all.
+
+00:01:57.880 --> 00:02:01.810
+You could just draw these as lines
+without any arrowhead on them.
+
+00:02:03.040 --> 00:02:10.600
+Okay, so as in this example, normally what
+you find is that dependencies form a tree.
+
+00:02:10.600 --> 00:02:16.330
+So that there's a root node, and
+then from there everything heads
+
+00:02:16.330 --> 00:02:21.230
+down with words having a single head and
+in a nice acyclic manner.
+
+00:02:21.230 --> 00:02:25.990
+I should mention also that it's actually
+quite common to add sort of one pseudo
+
+00:02:25.990 --> 00:02:32.720
+node at the top, often called root or wall
+which points at the head of the sentence.
+
+00:02:32.720 --> 00:02:37.574
+And that actually makes things a lot
+cleaner, both in terms of the parsing
+
+00:02:37.574 --> 00:02:42.680
+algorithms but also in terms of things
+like evaluation and representation.
+
+00:02:42.680 --> 00:02:47.480
+Because then you get the property
+that every word of the sentence,
+
+00:02:47.480 --> 00:02:51.089
+including the root is
+the dependent of one thing.
+
+00:02:51.089 --> 00:02:55.259
+And so you can think of it as doing an
+assignment process of working out what is
+
+00:02:55.259 --> 00:02:57.620
+the governor of each word of the sentence.
+
+00:03:01.370 --> 00:03:05.800
+How does dependency grammar relate to
+the kind of phrase structure grammar
+
+00:03:05.800 --> 00:03:08.080
+that we've concentrated on so far?
+
+00:03:08.080 --> 00:03:12.880
+Well, the central innovation is
+really that dependency grammar
+
+00:03:12.880 --> 00:03:17.660
+is built around the notion of
+having heads and dependents.
+
+00:03:17.660 --> 00:03:21.080
+Whereas, the basic case of
+a context free grammar,
+
+00:03:21.080 --> 00:03:22.810
+there's no notion of a head whatsoever.
+
+00:03:22.810 --> 00:03:25.780
+And actually things have
+moved on from there.
+
+00:03:25.780 --> 00:03:28.340
+If you look at modern linguistic theory,
+
+00:03:28.340 --> 00:03:31.710
+that means things like
+X-bar grammar to linguists.
+
+00:03:31.710 --> 00:03:36.260
+Or our modern statistical parsers, like
+the Charniak, Collins, or Stanford parser.
+
+00:03:36.260 --> 00:03:39.890
+All of them have a notion of head and
+use it extensively.
+
+00:03:39.890 --> 00:03:44.360
+So for example, in all these parsers,
+there's a notion of head rules where it
+
+00:03:44.360 --> 00:03:50.320
+will identify some category as
+the head of a larger category.
+
+00:03:50.320 --> 00:03:54.479
+And as soon as you have head rules of
+the kind that we discussed before,
+
+00:03:54.479 --> 00:03:58.145
+well then you can straightforwardly
+get the dependencies out
+
+00:03:58.145 --> 00:04:00.563
+of a phrase structure representation.
+
+00:04:00.563 --> 00:04:06.669
+So basically you kind of
+have a spine of head chains.
+
+00:04:06.669 --> 00:04:11.080
+And then everywhere you have something
+coming off that, that's a dependent.
+
+00:04:11.080 --> 00:04:14.950
+So we have a dependency
+from walked to Sue and
+
+00:04:14.950 --> 00:04:19.660
+a dependency from walked into,
+this is another head chain.
+
+00:04:19.660 --> 00:04:25.300
+And then we´ve got another dependency
+from into store, head chain and
+
+00:04:25.300 --> 00:04:27.507
+dependency, store the.
+
+00:04:27.507 --> 00:04:32.673
+So we have a basis for
+a dependency representation
+
+00:04:32.673 --> 00:04:40.179
+inside a phrase structure tree if and
+only if we have heads represented.
+
+00:04:40.179 --> 00:04:42.470
+What about if we go in
+the opposite direction?
+
+00:04:42.470 --> 00:04:47.130
+If you try and go from dependencies to
+phrase structure, you can reconstruct
+
+00:04:47.130 --> 00:04:52.050
+a phrase structure tree by taking the
+closure of the dependencies of a word and
+
+00:04:52.050 --> 00:04:55.680
+saying that those represent a constituent.
+
+00:04:55.680 --> 00:05:00.080
+But it slightly changes the representation
+from what we normally see
+
+00:05:00.080 --> 00:05:01.790
+in phrase structure trees.
+
+00:05:01.790 --> 00:05:06.947
+In particular, in a situation like this,
+you can't have
+
+00:05:06.947 --> 00:05:13.173
+a VP node because actually both Sue and
+into are dependents of walked.
+
+00:05:13.173 --> 00:05:17.946
+And therefore all three of those
+must have a flat phrase structure
+
+00:05:17.946 --> 00:05:23.690
+representation where you have the head and
+its two dependents, Sue and into.
+
+00:05:26.200 --> 00:05:28.820
+How do people go about
+doing dependency parsing?
+
+00:05:28.820 --> 00:05:32.690
+A whole variety of methods have
+been used for dependency parsing.
+
+00:05:32.690 --> 00:05:36.270
+One method to do it is with
+a dynamic programming algorithm like
+
+00:05:36.270 --> 00:05:39.640
+the CKY algorithm that we saw for
+phrase structure parsing.
+
+00:05:39.640 --> 00:05:43.970
+Now if you do this naively
+by adding in heads,
+
+00:05:43.970 --> 00:05:48.040
+you end up with something similar to
+the lexicalized probabilistic context-free
+
+00:05:48.040 --> 00:05:52.320
+grammars we saw earlier, and end up
+with an O big n to the fifth algorithm.
+
+00:05:52.320 --> 00:05:58.472
+But there's a clever reformulation of what
+the parse items are due to Jason Eisner
+
+00:05:58.472 --> 00:06:04.816
+in 1996, which makes the complexity of
+doing dependency parsing also n cubed.
+
+00:06:04.816 --> 00:06:08.513
+Which is kind of what you'd hope
+it would be just thinking about
+
+00:06:08.513 --> 00:06:10.270
+the nature of the operation.
+
+00:06:10.270 --> 00:06:13.290
+But there are a whole
+bunch of other methods.
+
+00:06:13.290 --> 00:06:18.210
+So people have directly used graph
+algorithms to do dependency parsing.
+
+00:06:18.210 --> 00:06:23.106
+So one idea from the algorithms literature
+is that you can construct a maximum
+
+00:06:23.106 --> 00:06:25.075
+spanning tree for a sentence.
+
+00:06:25.075 --> 00:06:29.767
+Because since you want all words connected
+together to be the dependent of something,
+
+00:06:29.767 --> 00:06:33.833
+that means you have to build a tree that
+spans all the words in the sentence.
+
+00:06:33.833 --> 00:06:38.670
+And that's the idea that's used
+in the well known MSTParser.
+
+00:06:38.670 --> 00:06:42.300
+There are other ideas of
+constraint satisfaction where you
+
+00:06:42.300 --> 00:06:46.850
+start off with an dense set of
+edges between all words and
+
+00:06:46.850 --> 00:06:51.340
+then eliminate ones that don't
+satisfy hard constraints.
+
+00:06:51.340 --> 00:06:54.000
+But a final trend in dependency parsing,
+and
+
+00:06:54.000 --> 00:06:58.570
+actually what we are going to focus
+on here, is a way of doing dependency
+
+00:06:58.570 --> 00:07:03.250
+parsing where you head left to
+right through the sentence.
+
+00:07:03.250 --> 00:07:07.760
+And make greedy decisions based
+on machine learning classifiers
+
+00:07:07.760 --> 00:07:11.400
+as to which words to connect
+to other words as dependents.
+
+00:07:11.400 --> 00:07:15.660
+And so the most well known example
+of this framework is MaltParser.
+
+00:07:15.660 --> 00:07:21.424
+And I'm going to concentrate on this just
+partly because it's very different than
+
+00:07:21.424 --> 00:07:26.876
+what we did for our approach to phrase
+structure parsing we looked at in depth.
+
+00:07:26.876 --> 00:07:31.643
+But also because it's been shown that this
+kind of method of doing dependency parsing
+
+00:07:31.643 --> 00:07:36.572
+actually works extremely well, it can
+work accurately and exceedingly quickly.
+
+00:07:36.572 --> 00:07:40.370
+So it's just a good thing to know about
+as a different point in the space.
+
+00:07:42.650 --> 00:07:45.140
+No matter how we do dependency parsing,
+
+00:07:45.140 --> 00:07:50.790
+we need some sources of information to let
+us choose between possible analyses and
+
+00:07:50.790 --> 00:07:54.090
+which words to take as
+dependents of other words.
+
+00:07:54.090 --> 00:07:59.310
+So here's a list of the main
+sources of information people use.
+
+00:07:59.310 --> 00:08:04.200
+So the most obvious source of
+information is bilexical dependency.
+
+00:08:04.200 --> 00:08:10.668
+So if we have something like
+a dependency between issues and the.
+
+00:08:10.668 --> 00:08:13.197
+Well, we can look at
+the word that's the head and
+
+00:08:13.197 --> 00:08:16.840
+look at the word that's the dependent,
+and say is that likely?
+
+00:08:16.840 --> 00:08:19.470
+That's similar to
+the bilexical dependencies
+
+00:08:19.470 --> 00:08:22.030
+of our earlier lexicalized PCFGs.
+
+00:08:22.030 --> 00:08:25.240
+But we don't want to use
+that as our only source of
+
+00:08:25.240 --> 00:08:28.670
+information partly because
+lexical information is so sparse.
+
+00:08:28.670 --> 00:08:32.450
+And there are several other
+good sources of information, so
+
+00:08:32.450 --> 00:08:34.240
+let's just go through those.
+
+00:08:34.240 --> 00:08:38.950
+So one is the distance between
+the head and the dependent.
+
+00:08:40.280 --> 00:08:42.210
+And if you look at this picture,
+
+00:08:42.210 --> 00:08:48.060
+what you'll see is that most dependencies
+are short, they're with nearby words.
+
+00:08:48.060 --> 00:08:50.210
+There are a couple of exceptions.
+
+00:08:50.210 --> 00:08:56.420
+So, this dependency here is a pretty long
+one, but most of them are pretty short.
+
+00:08:57.540 --> 00:09:02.560
+Other sources of information,
+what is the intervening material.
+
+00:09:02.560 --> 00:09:07.340
+So, in general,
+dependencies don't cross over verbs, and
+
+00:09:07.340 --> 00:09:09.740
+commonly they don't
+cross over punctuation.
+
+00:09:09.740 --> 00:09:12.970
+Some exceptions,
+commas quite often cross over.
+
+00:09:12.970 --> 00:09:17.400
+So looking at the words in
+between can give information
+
+00:09:17.400 --> 00:09:20.250
+about whether a dependency is likely or
+not.
+
+00:09:20.250 --> 00:09:24.560
+A final source of information is
+looking at the valency of heads.
+
+00:09:24.560 --> 00:09:25.610
+And that's saying, for
+
+00:09:25.610 --> 00:09:29.410
+a particular word, what kind of
+dependents does it typically take?
+
+00:09:29.410 --> 00:09:34.321
+So a word like the typically takes
+no dependents on the left and
+
+00:09:34.321 --> 00:09:38.293
+no dependents on the right,
+as in this case here.
+
+00:09:38.293 --> 00:09:43.353
+On the other hand if you have
+a word that is say a noun,
+
+00:09:43.353 --> 00:09:49.796
+it will take dependents like
+adjectives and articles on the left,
+
+00:09:49.796 --> 00:09:55.510
+but it won't take those kind
+of dependents on the right.
+
+00:09:55.510 --> 00:09:58.270
+But it can take other kinds of
+words as dependents on the right.
+
+00:09:58.270 --> 00:10:01.570
+For example,
+take prepositional phrase modifiers or
+
+00:10:01.570 --> 00:10:03.950
+relative clauses as
+dependents on the right.
+
+00:10:03.950 --> 00:10:08.200
+So you can develop a quite rich typology
+of what kind of dependents words take.
+
+00:10:10.020 --> 00:10:15.420
+Okay, that should give you a better
+sense of what dependency representations
+
+00:10:15.420 --> 00:10:18.880
+look like, and the big picture of
+how we go about parsing with them.
+
+00:10:18.880 --> 00:10:23.814
+In the next segment we'll introduce a
+concrete algorithm for dependency parsing.
+

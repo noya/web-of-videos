@@ -1,0 +1,1008 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.990 --> 00:00:02.840
+Hi again.
+
+00:00:02.840 --> 00:00:06.260
+Let's turn to how to compute whether
+two words are similar or not.
+
+00:00:06.260 --> 00:00:08.760
+And we'll start in this section with
+
+00:00:08.760 --> 00:00:11.290
+methods that use a thesaurus
+to compute word similarity.
+
+00:00:13.020 --> 00:00:15.690
+So where synonymy was a binary relation.
+
+00:00:15.690 --> 00:00:18.420
+Two words are either synonymous or
+they're not.
+
+00:00:18.420 --> 00:00:22.700
+We often want a looser definition
+of similarity or distance
+
+00:00:22.700 --> 00:00:25.990
+that says two words are more similar
+if they share more features of meaning.
+
+00:00:25.990 --> 00:00:28.180
+But that requires they
+be absolute synonyms.
+
+00:00:29.470 --> 00:00:30.230
+And similarity,
+
+00:00:30.230 --> 00:00:34.090
+just like synonomy is a relationship
+between senses not just between words.
+
+00:00:34.090 --> 00:00:37.450
+So we don't say that the bank
+is similar to the word slope.
+
+00:00:37.450 --> 00:00:41.200
+We say the word sense one of bank
+is similar to the word fund,
+
+00:00:41.200 --> 00:00:44.070
+actually sends three of fund,
+but it actually sends
+
+00:00:44.070 --> 00:00:49.060
+two of bank is similar to slope and
+there we had two senses of bank.
+
+00:00:49.060 --> 00:00:52.350
+So even though technically
+similarities is a property of senses,
+
+00:00:52.350 --> 00:00:55.480
+we'll find ways to compute
+similarity over words as well.
+
+00:00:55.480 --> 00:00:58.889
+Either by taking the max similarities
+between senses or summing or various ways.
+
+00:01:01.700 --> 00:01:04.430
+Now word similarity plays
+a role in lots of applications.
+
+00:01:04.430 --> 00:01:08.590
+You might want to know if two words
+are similar, to grab a set of synonyms or
+
+00:01:08.590 --> 00:01:12.720
+similar words, for the query if
+someone asks information retrieval, or
+
+00:01:12.720 --> 00:01:14.790
+for the answer in question answering.
+
+00:01:14.790 --> 00:01:17.520
+Lots of times the translation of
+a word you'll have to look for
+
+00:01:17.520 --> 00:01:19.420
+similar words to help
+find the translation.
+
+00:01:20.800 --> 00:01:24.460
+Essay grading where
+students write an essay and
+
+00:01:24.460 --> 00:01:27.810
+you need to know what the similar
+words are to the correct word for
+
+00:01:27.810 --> 00:01:29.560
+the concept and so on,
+this comes up a lot.
+
+00:01:32.550 --> 00:01:34.970
+And in all of our applications for
+word similarity,
+
+00:01:34.970 --> 00:01:40.030
+we often distinguish Technically,
+word similarity for word relatedness.
+
+00:01:40.030 --> 00:01:44.510
+So a similar word is a near synonym, but
+a related word can be related in any way.
+
+00:01:44.510 --> 00:01:49.310
+So car and bicycle might be similar,
+maybe they're not synonyms because car and
+
+00:01:49.310 --> 00:01:50.610
+automobile are synonyms.
+
+00:01:50.610 --> 00:01:54.170
+Car and bicycle are not quite so
+close so they're similar But car and
+
+00:01:54.170 --> 00:01:55.670
+gasoline, clearly related.
+
+00:01:55.670 --> 00:01:59.920
+Gasoline is something that goes with cars,
+but it's not similar to cars in some way.
+
+00:01:59.920 --> 00:02:02.010
+So we're generally here looking for
+similarity, but
+
+00:02:02.010 --> 00:02:05.080
+occasionally some of the algorithms will
+give you instead words that are related.
+
+00:02:05.080 --> 00:02:07.640
+And that may or might not be useful
+depending upon the application.
+
+00:02:07.640 --> 00:02:13.150
+There are two classes of
+similarity algorithms.
+
+00:02:13.150 --> 00:02:15.650
+Thesaurus based algorithms we'll
+talk about in this section
+
+00:02:15.650 --> 00:02:18.580
+are words nearby in the hierarchy.
+
+00:02:18.580 --> 00:02:20.870
+Or do words have similar glosses?
+
+00:02:20.870 --> 00:02:24.940
+We'll use the the hierarchy or the glosses
+as ways of defining similarity.
+
+00:02:24.940 --> 00:02:28.160
+And distributional algorithms that
+we'll talk about in the next section.
+
+00:02:28.160 --> 00:02:30.630
+Do words have similar
+distributional contexts?
+
+00:02:32.600 --> 00:02:37.080
+So the simplest of the thesaurus based
+similarly algorithm just call path
+
+00:02:37.080 --> 00:02:37.730
+based similarity.
+
+00:02:37.730 --> 00:02:40.950
+And I've given you a little picture
+here of the WordNet hierarchy.
+
+00:02:40.950 --> 00:02:45.160
+And here you see two concepts to senses or
+synsets we call them concepts for
+
+00:02:45.160 --> 00:02:49.560
+now, are similar if they near to each
+other in this thesaurus hierarchy.
+
+00:02:49.560 --> 00:02:52.510
+By near each other we mean have
+a short path in between them.
+
+00:02:53.600 --> 00:02:57.710
+And will define path length, somewhat
+unusually we'll say a concept has a path
+
+00:02:57.710 --> 00:03:02.220
+length one to themselves, and
+two to their nearest neighbor and so on.
+
+00:03:03.580 --> 00:03:10.300
+So the word, the concept nickel has
+a path length one to nickel, two to coin,
+
+00:03:10.300 --> 00:03:14.920
+And three to dime, because it goes one for
+nickel, two to coin, three to dime.
+
+00:03:14.920 --> 00:03:18.460
+And the path length between nickel and
+
+00:03:18.460 --> 00:03:23.600
+coinage is similarly three and
+to all the way up to money is
+
+00:03:23.600 --> 00:03:27.840
+six to coin, to coin is to currently, to
+medium exchange, down to money, and so on.
+
+00:03:28.940 --> 00:03:31.030
+Nickels even further from Richter scale.
+
+00:03:31.030 --> 00:03:33.660
+It goes all the way up to standard and
+then down to Richter scale.
+
+00:03:36.380 --> 00:03:39.360
+So the path length formerly
+is one plus the number of
+
+00:03:39.360 --> 00:03:43.879
+edges in the shortest path in the hypernym
+graph between the sense nodes c 1 and c 2.
+
+00:03:45.250 --> 00:03:49.970
+Now, we can turn a pathlenc,
+which is a distance metric,
+
+00:03:49.970 --> 00:03:54.700
+into simpath, a similarity metric,
+simply by taking 1 over the distance.
+
+00:03:54.700 --> 00:03:59.520
+So we'll take the pathlenc and invert it,
+and we get a similarity metric.
+
+00:03:59.520 --> 00:04:01.460
+And we can turn the sense-based metric.
+
+00:04:01.460 --> 00:04:05.700
+Simpath is a metric Of similarity
+between two senses or two concepts,
+
+00:04:05.700 --> 00:04:09.860
+C one or C two, and
+turn into a metric between
+
+00:04:09.860 --> 00:04:13.810
+by taking the maximum similarity
+among pairs of senses.
+
+00:04:13.810 --> 00:04:19.630
+So for all sense of word one and all
+sense of word two, I take the similarity
+
+00:04:19.630 --> 00:04:22.730
+between each of those word one sense and
+each of those word two senses.
+
+00:04:22.730 --> 00:04:27.070
+And I take the maximum similarity
+between those pairs and
+
+00:04:27.070 --> 00:04:28.940
+that's the similarity between the words.
+
+00:04:31.780 --> 00:04:35.825
+So, returning to sense-based similarity,
+we've got our metric now for
+
+00:04:35.825 --> 00:04:38.340
+path-based similarity,
+one over the path length.
+
+00:04:38.340 --> 00:04:42.540
+So, between nickel and coin,
+we've a path length of 1/1 + 1,
+
+00:04:42.540 --> 00:04:49.120
+remember we're adding 1 to the number
+of inches, so it's 1/2 or 0.5.
+
+00:04:49.120 --> 00:04:53.310
+Between fund and budget,
+similarly 1/2 or 0.5.
+
+00:04:53.310 --> 00:04:58.300
+Between nickel and currency,
+we have one, two, three edges.
+
+00:04:58.300 --> 00:05:02.981
+So, 1 / 3+1 or 4 is 0.25,
+
+00:05:02.981 --> 00:05:06.569
+between nickel and money,
+
+00:05:06.569 --> 00:05:12.044
+now we have 5 + 1 or 6 distance 1 / 6.
+
+00:05:12.044 --> 00:05:16.270
+Similarity between coinage and
+
+00:05:16.270 --> 00:05:20.110
+Richter scale, or a similarity of 1 / 6.
+
+00:05:20.110 --> 00:05:26.150
+Or, for that matter,
+between nickel, and standard.
+
+00:05:27.430 --> 00:05:28.686
+Also 1 over 6, or
+
+00:05:28.686 --> 00:05:35.747
+.17 Now there's a problem
+with this basic path based
+
+00:05:35.747 --> 00:05:40.010
+similarity which is that we assume that
+every link represented a uniform distance.
+
+00:05:40.010 --> 00:05:43.630
+Nickel to money somehow seems
+to us it ought to be closer
+
+00:05:43.630 --> 00:05:44.630
+than nickel to standard.
+
+00:05:44.630 --> 00:05:49.040
+And that's because nodes that are very
+high in the hierarchy are very abstract.
+
+00:05:49.040 --> 00:05:53.780
+And like a metric that says
+that nodes whose only length is
+
+00:05:53.780 --> 00:05:55.580
+going all the way up to
+the top of the hierarchy.
+
+00:05:55.580 --> 00:05:58.380
+Those are probably not very similar words.
+
+00:05:58.380 --> 00:06:01.820
+And to do that, we would like to represent
+the cost of each edge independently.
+
+00:06:04.170 --> 00:06:06.680
+The most common solution to
+this problem is the use of
+
+00:06:06.680 --> 00:06:08.860
+information content similarity metrics.
+
+00:06:08.860 --> 00:06:11.830
+First proposed by Resnik in 1995.
+
+00:06:11.830 --> 00:06:16.140
+And these define a concept P(c)
+a probability of a concept c.
+
+00:06:16.140 --> 00:06:19.200
+As the probability that a randomly
+selected word in a corpus
+
+00:06:19.200 --> 00:06:21.250
+is an instance of that concept.
+
+00:06:21.250 --> 00:06:24.190
+And formally what I mean is that
+there is a distinct random variable
+
+00:06:24.190 --> 00:06:26.890
+that ranges over words
+associated with each concept.
+
+00:06:26.890 --> 00:06:29.888
+So every node in a hierarchy
+has this random variable.
+
+00:06:29.888 --> 00:06:34.650
+And for that concept every observed
+
+00:06:34.650 --> 00:06:38.330
+noun is either a member of that
+concept with probability of p of c or
+
+00:06:38.330 --> 00:06:41.890
+not a member of that concept
+with probability 1 minus p of c.
+
+00:06:41.890 --> 00:06:43.105
+So every word.
+
+00:06:43.105 --> 00:06:45.885
+Is a member of the root node, which might
+be called entity, or might be called
+
+00:06:45.885 --> 00:06:49.005
+something else in different versions
+of word net or your own hierarchy.
+
+00:06:50.185 --> 00:06:53.375
+So that means that the probability of
+whatever the root node it is one, and
+
+00:06:53.375 --> 00:06:58.125
+the probability of nodes right below the
+root node are going to be very high and
+
+00:06:58.125 --> 00:07:00.655
+the lower you get in the hierarchy,
+the lower the probability.
+
+00:07:03.060 --> 00:07:04.030
+Let's see how that works.
+
+00:07:05.430 --> 00:07:07.050
+So here's a little piece of a hierarchy.
+
+00:07:07.050 --> 00:07:08.140
+We've got entity here.
+
+00:07:08.140 --> 00:07:10.980
+There's actually something above
+this hierarchy in the top.
+
+00:07:10.980 --> 00:07:14.750
+And then we have entity, then we have
+down to geological formation and
+
+00:07:14.750 --> 00:07:18.510
+then some brief notes, hill,
+ridge, grotto, coast and so on.
+
+00:07:18.510 --> 00:07:21.020
+We're going to train
+information content similarity
+
+00:07:21.020 --> 00:07:23.710
+first by training a probability p of c.
+
+00:07:23.710 --> 00:07:26.220
+And every instance of a word like hill
+
+00:07:26.220 --> 00:07:30.260
+counts toward the frequency of all of
+its parents, of itself, obviously, but
+
+00:07:30.260 --> 00:07:34.150
+also natural elevation, geological
+formation, all the way up to entity.
+
+00:07:35.540 --> 00:07:40.070
+So if we define the concept words (c),
+words (c) is the set of all words
+
+00:07:40.070 --> 00:07:44.170
+that are children of node c,
+I should say plus c itself as well.
+
+00:07:44.170 --> 00:07:51.980
+So, the words of natural elevation are
+hill ridge and natural elevation itself.
+
+00:07:54.670 --> 00:07:59.600
+The words of geological formation
+are hill, ridge, grotto, coast, shore,
+
+00:07:59.600 --> 00:08:03.720
+cave, natural elevation and
+geological formation itself.
+
+00:08:05.950 --> 00:08:08.910
+And now we can take, for any concept,
+
+00:08:08.910 --> 00:08:12.990
+we sum over all the words of that concept,
+so, itself and all of its children.
+
+00:08:12.990 --> 00:08:14.830
+Sum the counts of all of those words.
+
+00:08:14.830 --> 00:08:17.480
+And then normalize by the total
+number of words in the corpus, and
+
+00:08:17.480 --> 00:08:20.680
+that tells us the probability
+of the concept.
+
+00:08:20.680 --> 00:08:23.799
+So the probability that a random word
+will be an instance of that concept.
+
+00:08:27.049 --> 00:08:31.910
+Once we've computed these probabilities,
+we can associate them with a hierarchy.
+
+00:08:31.910 --> 00:08:33.620
+So here's probabilities computed by D.
+
+00:08:33.620 --> 00:08:39.600
+Lin and so now we can say that the concept
+coast has probability 0.0000216.
+
+00:08:39.600 --> 00:08:42.290
+While the further up we go in
+the hierarchy up to entity,
+
+00:08:42.290 --> 00:08:44.200
+we have a probability of 0.295.
+
+00:08:44.200 --> 00:08:47.662
+And whatever in this particular version
+of WordNet was above entity will have
+
+00:08:47.662 --> 00:08:48.629
+a probability of 1.
+
+00:08:51.628 --> 00:08:54.360
+Now that we have probability,
+we just need two more things.
+
+00:08:54.360 --> 00:08:57.140
+We'll define the information
+content of a concept
+
+00:08:57.140 --> 00:08:59.380
+as the negative log
+probability of that concept.
+
+00:08:59.380 --> 00:09:03.160
+So we'll just following the information
+theoretic definition of information there.
+
+00:09:03.160 --> 00:09:06.190
+And we'll define the lowest
+common subsumer of a node
+
+00:09:06.190 --> 00:09:10.940
+as the lowest node in the hierarchy that
+subsumes both of the very naturally.
+
+00:09:10.940 --> 00:09:14.560
+So the lowest common subsumer of hill and
+coast, think about that,
+
+00:09:15.710 --> 00:09:20.330
+geological formation, the lowest common
+subsumer of coast and shore, shore.
+
+00:09:22.760 --> 00:09:25.480
+Now how are we going to use
+this information content as
+
+00:09:25.480 --> 00:09:26.310
+a similarity metric.
+
+00:09:26.310 --> 00:09:29.800
+There are a number of methods,
+the Resnik method.
+
+00:09:30.850 --> 00:09:34.840
+We say that the similarity between two
+words is related to how much information
+
+00:09:34.840 --> 00:09:38.710
+they have in common, the more they have
+in common, the more similar they are.
+
+00:09:38.710 --> 00:09:42.680
+For Resnik, we just say,
+what's in common in between two words
+
+00:09:42.680 --> 00:09:45.920
+Is the information content of
+the lowest common subsumer.
+
+00:09:45.920 --> 00:09:49.340
+If I have two concepts, what's in common
+between them is the thing that they
+
+00:09:49.340 --> 00:09:51.730
+share as their inherited thing in common.
+
+00:09:51.730 --> 00:09:53.730
+So if I just measure the amount
+of information in that,
+
+00:09:53.730 --> 00:09:55.630
+that is in fact what they have in common.
+
+00:09:55.630 --> 00:09:59.450
+So the negative log probability of that
+least common subsumer that's their
+
+00:09:59.450 --> 00:10:03.430
+similarity, so we're define that metric
+of Resnik similarity metric this way.
+
+00:10:05.850 --> 00:10:06.940
+An alternative metric for
+
+00:10:06.940 --> 00:10:09.600
+dealing with information theoretic
+similarity is the Lin metric.
+
+00:10:10.790 --> 00:10:15.860
+As with Resnik, the more two things have
+in common, the more similar they are.
+
+00:10:15.860 --> 00:10:19.320
+But now, the new intuition,
+the more differences between A and
+
+00:10:19.320 --> 00:10:20.900
+B, the less similar they are.
+
+00:10:20.900 --> 00:10:25.360
+And we measure commonality by
+introducing the predicate common.
+
+00:10:25.360 --> 00:10:28.620
+Which is a proposition stating
+the commonalities between A &amp; B.
+
+00:10:28.620 --> 00:10:32.290
+And IC, the amount of information
+contained in the proposition.
+
+00:10:33.790 --> 00:10:38.440
+And to measure the difference
+between A &amp; B, we say that the total
+
+00:10:38.440 --> 00:10:41.720
+description of A &amp; B,
+the sum of everything we know about them,
+
+00:10:41.720 --> 00:10:44.770
+is the sum of the commonalities
+plus the differences.
+
+00:10:44.770 --> 00:10:45.640
+So to get the differences,
+
+00:10:45.640 --> 00:10:49.240
+we can take the description and
+subtract out the commonalities.
+
+00:10:49.240 --> 00:10:54.960
+So roughly speaking, A and B are more
+similar if IC of common is high and
+
+00:10:54.960 --> 00:10:57.140
+IC of description is low.
+
+00:10:59.340 --> 00:11:02.480
+So the Lin similarity
+between two concepts A and
+
+00:11:02.480 --> 00:11:04.550
+B is higher when they have more in common,
+
+00:11:04.550 --> 00:11:07.090
+less when there is a lot of other things
+about them that they don't have in common.
+
+00:11:08.110 --> 00:11:12.910
+And Lin modifies Resnik in defining the
+information content of the commonality of
+
+00:11:12.910 --> 00:11:16.500
+the two as twice the information
+of their lowest common subsumer.
+
+00:11:17.510 --> 00:11:20.850
+And so given two concepts in a hierarchy,
+
+00:11:20.850 --> 00:11:25.400
+the Lin similarity is two times the log
+probability of their least common subsumer
+
+00:11:25.400 --> 00:11:28.580
+over the sum of the log
+probabilities of the two concepts.
+
+00:11:28.580 --> 00:11:30.860
+The total of the description that
+we know about the two concepts.
+
+00:11:32.620 --> 00:11:36.020
+Let's look at an example in
+our small sample hierarchy.
+
+00:11:36.020 --> 00:11:40.930
+We want to know the lin similarity
+between the concepts hill and coast and
+
+00:11:40.930 --> 00:11:45.380
+we look at the lowest common
+geological-formation.
+
+00:11:45.380 --> 00:11:48.140
+We take twice the log probability of that
+
+00:11:48.140 --> 00:11:53.370
+divided by the sum of the log probability
+of the two items hill and coast.
+
+00:11:53.370 --> 00:11:58.820
+And that gives us for the Lin similarity
+between hill and coast as .59.
+
+00:11:58.820 --> 00:12:04.110
+Now a final thesaurus-based similarity
+metric is called the Lesk Algorithm
+
+00:12:04.110 --> 00:12:08.380
+after Michael Lesk who invented it is
+often called lesk or extended lesk.
+
+00:12:08.380 --> 00:12:10.840
+And this method instead
+of using the hierarchy,
+
+00:12:10.840 --> 00:12:14.584
+looks at the glosses of the words
+in the dictionary or thesaurus.
+
+00:12:14.584 --> 00:12:17.620
+And the intuition is that
+two concepts are similar
+
+00:12:17.620 --> 00:12:20.215
+if their glosses Contain similar words.
+
+00:12:20.215 --> 00:12:25.635
+So the two word networks drawing paper and
+decal have lots of similar words.
+
+00:12:25.635 --> 00:12:26.985
+Paper that is specially prepared for
+
+00:12:26.985 --> 00:12:31.645
+use in drafting, transferring designs from
+specially prepared paper, blah blah blah.
+
+00:12:31.645 --> 00:12:36.375
+And we have here, the words specially
+prepared are in common, and
+
+00:12:36.375 --> 00:12:38.149
+paper, in both definitions.
+
+00:12:39.860 --> 00:12:43.240
+And so, for
+each n-word phrase that's in both glosses,
+
+00:12:43.240 --> 00:12:45.650
+the lesk algorithm adds
+a score of n squared.
+
+00:12:45.650 --> 00:12:50.450
+So paper is in both glosses, that's
+a length one, so it'll add a score of one.
+
+00:12:50.450 --> 00:12:54.690
+Specially prepared is of length two, so
+it'll add a score of 2 squared or four.
+
+00:12:54.690 --> 00:13:00.740
+So this, the total Lesk similarity
+between drawing paper and decal is 5.
+
+00:13:00.740 --> 00:13:04.540
+And in fact, with most versions of
+Lesk similarity, we don't just look at
+
+00:13:04.540 --> 00:13:09.060
+the glosses of the two words, we look at
+the glosses of the words, their hypernyms,
+
+00:13:09.060 --> 00:13:11.780
+their hyponyms and so
+on and we add all that up.
+
+00:13:11.780 --> 00:13:13.580
+So it's a sum over all the words, or
+
+00:13:13.580 --> 00:13:16.770
+sometimes a max over all
+the words of their similarity.
+
+00:13:19.660 --> 00:13:23.890
+So in summary we've seen three
+classes of thesaurus-based similarity.
+
+00:13:23.890 --> 00:13:28.560
+Pathlen similarity where two words
+are similar if there's a short path
+
+00:13:28.560 --> 00:13:32.670
+between them in the hierarchy,
+information theoretic similarity.
+
+00:13:32.670 --> 00:13:34.580
+We've seen two methods, resnik and lin,
+
+00:13:34.580 --> 00:13:37.150
+and there's a third one
+called jiangconrath.
+
+00:13:37.150 --> 00:13:39.010
+So these are the information
+theoretic similarity.
+
+00:13:39.010 --> 00:13:41.660
+Well we are looking at the least
+common sub similar of a node,
+
+00:13:41.660 --> 00:13:45.310
+measuring it's probability,
+turning that into an information measure.
+
+00:13:45.310 --> 00:13:49.975
+And we've seen less similarity
+where given two concepts.
+
+00:13:49.975 --> 00:13:52.045
+We take the gloss of them and
+
+00:13:52.045 --> 00:13:55.765
+compute the overlap in words with this
+kind of weighting that we talked about.
+
+00:13:55.765 --> 00:13:59.545
+Or we might just look at the gloss as not
+just of the words but of some words in
+
+00:13:59.545 --> 00:14:02.845
+relation to those concepts like they're
+hyponyms or hypernyms and so on.
+
+00:14:02.845 --> 00:14:06.135
+And we sum all that up over
+a specified set of relations and
+
+00:14:06.135 --> 00:14:09.105
+that gives us the Lesk similarity,
+or extended Lesk similarity.
+
+00:14:11.460 --> 00:14:15.400
+There are lots of libraries for computing
+these various thesaurus-based methods.
+
+00:14:15.400 --> 00:14:18.180
+In Python and LTK has methods and
+
+00:14:18.180 --> 00:14:21.510
+there are Python based tools
+like WordNet::Similarity.
+
+00:14:21.510 --> 00:14:24.420
+And there's even a nice web
+based interfaced so that you can
+
+00:14:24.420 --> 00:14:28.580
+check out the similarity between two
+words based on different methods.
+
+00:14:28.580 --> 00:14:30.110
+And you can go take
+a look at all of these.
+
+00:14:31.980 --> 00:14:37.320
+We evaluate similarity like many other
+NLP algorithms in two different ways.
+
+00:14:37.320 --> 00:14:40.980
+We can do intrinsic evaluation where
+we can look at the metric itself and
+
+00:14:40.980 --> 00:14:44.610
+say, how similar is
+the numbers this metric gives
+
+00:14:44.610 --> 00:14:47.500
+to what humans would give
+on some similar tasks?
+
+00:14:47.500 --> 00:14:50.220
+So I get a similarity metric for
+two words, and
+
+00:14:50.220 --> 00:14:51.630
+then I get humans to give me a number.
+
+00:14:51.630 --> 00:14:53.220
+How similar are these two words?
+
+00:14:53.220 --> 00:14:54.010
+And I compare those.
+
+00:14:54.010 --> 00:14:56.720
+So that's intrinsic evaluation.
+
+00:14:56.720 --> 00:14:59.772
+More functional is entrance, extrinsic or
+
+00:14:59.772 --> 00:15:03.340
+task-based end-to-end evaluations
+where I have some application.
+
+00:15:03.340 --> 00:15:06.040
+I put my similarity matrix
+in the application and
+
+00:15:06.040 --> 00:15:07.720
+I see how well it
+improves the application.
+
+00:15:07.720 --> 00:15:10.530
+And that application could
+be word ambiguation or
+
+00:15:10.530 --> 00:15:13.420
+spelling error correction or SA grading.
+
+00:15:13.420 --> 00:15:18.010
+A common simple extrinsic test that's
+used is taking the test of English
+
+00:15:18.010 --> 00:15:22.190
+as a foreign language or
+TOEFL Multiple-choice vocabulary tests.
+
+00:15:22.190 --> 00:15:23.470
+So here we have questions like,
+
+00:15:23.470 --> 00:15:28.250
+levied is closest in meaning
+to which of these four words?
+
+00:15:28.250 --> 00:15:33.755
+And we can simply take our similarity
+metric the similarity between levied and
+
+00:15:33.755 --> 00:15:38.635
+imposed, levied and believed, levied and
+requested, levied and correlated.
+
+00:15:38.635 --> 00:15:43.395
+And see if our metric returns the right
+answer, the most similar word, or
+
+00:15:43.395 --> 00:15:45.125
+the insert is imposed.
+
+00:15:47.065 --> 00:15:49.055
+So, thesaurus-based methods for
+
+00:15:49.055 --> 00:15:53.550
+word similarity are a useful way of
+telling if two words are similar.
+
+00:15:53.550 --> 00:15:57.400
+They're very functional in languages
+like English, where we have lots of
+
+00:15:57.400 --> 00:16:01.640
+thesauruses either for general text in
+WordNet or for medical texts in MeSH.
+
+00:16:02.720 --> 00:16:06.130
+They work less well when we're
+working in particular genres
+
+00:16:06.130 --> 00:16:08.670
+when we might not have the right
+information in the thesaurus, or
+
+00:16:08.670 --> 00:16:12.310
+in languages for
+which thesauruses are not as available.
+
+00:16:12.310 --> 00:16:16.360
+And so for those applications we'll
+turn to the distributional methods that
+
+00:16:16.360 --> 00:16:17.080
+we'll see next.
+

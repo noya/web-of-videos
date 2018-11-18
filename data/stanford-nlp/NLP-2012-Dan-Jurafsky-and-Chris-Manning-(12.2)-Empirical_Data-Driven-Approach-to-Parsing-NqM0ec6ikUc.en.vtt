@@ -1,0 +1,402 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.890 --> 00:00:03.410
+In this segment,
+I'm going to talk about why
+
+00:00:03.410 --> 00:00:08.280
+researchers adopt an empirical
+approach using data and statistics for
+
+00:00:08.280 --> 00:00:13.090
+making progress on the problem of parsing
+the structure of human language sentences.
+
+00:00:14.990 --> 00:00:17.960
+What was the situation
+that existed before that?
+
+00:00:17.960 --> 00:00:22.960
+Well the classic way of parsing,
+by which I mean before 1990 Was
+
+00:00:22.960 --> 00:00:28.120
+that people would write a grammar,
+which might be a free structure grammar or
+
+00:00:28.120 --> 00:00:30.670
+a context free grammar,
+those two terms are equivalent.
+
+00:00:30.670 --> 00:00:34.410
+Or it might be of a more
+complex format and a lexicon.
+
+00:00:34.410 --> 00:00:38.580
+So something like this baby
+example that I've shown here.
+
+00:00:38.580 --> 00:00:43.620
+And once you have a grammar of that sort,
+you can then use a grammar parsing system
+
+00:00:43.620 --> 00:00:49.210
+or a proof system defined allowed
+parses for a string of words.
+
+00:00:49.210 --> 00:00:53.660
+The problem with this approach
+is that it's scaled very badly
+
+00:00:53.660 --> 00:00:58.260
+to the kind of sentences that
+people typically write and say, and
+
+00:00:58.260 --> 00:01:01.330
+didn't give a suitable
+solution to that problem.
+
+00:01:02.410 --> 00:01:05.910
+Let me try and
+give some indication of the problem.
+
+00:01:05.910 --> 00:01:08.690
+So consider the full version of
+this sentence that we've used as
+
+00:01:08.690 --> 00:01:10.110
+an example before.
+
+00:01:10.110 --> 00:01:15.550
+Fed raises interest rates 0.5%
+in effort to control inflation.
+
+00:01:15.550 --> 00:01:20.010
+If I as a linguist, writer,
+grammar that's not completely crazy but
+
+00:01:20.010 --> 00:01:24.210
+has the smallest possible grammar
+that can parse that sentence and
+
+00:01:24.210 --> 00:01:27.800
+then say Parser pass the sentence.
+
+00:01:27.800 --> 00:01:33.330
+What I find is that the grammar already
+allows 36 parses for that sentence.
+
+00:01:33.330 --> 00:01:37.050
+If I write a slightly more general
+grammar which will allow other
+
+00:01:37.050 --> 00:01:40.370
+things that commonly happen in
+that drawing with sentences.
+
+00:01:40.370 --> 00:01:46.080
+Well then suddenly, my grammar
+allows 592 parses for this sentence.
+
+00:01:46.080 --> 00:01:50.390
+And if we then look at the kind of broad
+coverage grammars that are actually used
+
+00:01:50.390 --> 00:01:55.320
+in the statistical parses, we'll talk
+about and I try to pause the sentence.
+
+00:01:55.320 --> 00:01:58.720
+I find this sentence
+has millions of parses.
+
+00:01:58.720 --> 00:02:03.120
+So you can see that we've got a problem
+that's kind of out of control.
+
+00:02:03.120 --> 00:02:08.070
+So classical parsing was
+stuck between two problems.
+
+00:02:08.070 --> 00:02:13.170
+On the one hand, you could try and put
+a lot of constraint on grammars to limit
+
+00:02:13.170 --> 00:02:18.680
+their ability through generate weird and
+unlikely parses for sentences.
+
+00:02:18.680 --> 00:02:23.400
+But the problem was that to the extent
+that you did that the grammar became very
+
+00:02:23.400 --> 00:02:24.600
+non robust.
+
+00:02:24.600 --> 00:02:29.290
+So it was quite common in traditional
+systems that even if you get a well-edited
+
+00:02:29.290 --> 00:02:32.450
+text like news wire articles
+
+00:02:32.450 --> 00:02:37.270
+that something like 30% of the sentences
+would have no parse whatsoever.
+
+00:02:37.270 --> 00:02:41.830
+But on the other hand,
+if you made the grammar looser, so
+
+00:02:41.830 --> 00:02:46.620
+it could parse more sentences, what you
+found is that even extremely simple
+
+00:02:46.620 --> 00:02:52.010
+sentences started getting more and
+more unlikely and weird pauses.
+
+00:02:52.010 --> 00:02:54.420
+And you didn't have any good
+way to choose between them.
+
+00:02:55.580 --> 00:03:00.710
+So what we need is a system of grammar
+that's flexible enough that it can
+
+00:03:00.710 --> 00:03:05.260
+deal with the flexible ways in which
+humans use language in their daily life.
+
+00:03:05.260 --> 00:03:10.280
+But is predictive enough that it will
+allow us to choose the correct or
+
+00:03:10.280 --> 00:03:12.730
+likely paths for the sentence.
+
+00:03:12.730 --> 00:03:16.490
+And so, that's precisely what
+the statistical parsing systems that we'll
+
+00:03:16.490 --> 00:03:18.700
+look at in these lectures allow us to do.
+
+00:03:18.700 --> 00:03:23.300
+How can you build
+a statistical parsing system?
+
+00:03:23.300 --> 00:03:25.970
+That's where the topic of data comes in.
+
+00:03:25.970 --> 00:03:29.840
+And so the huge enabling factor for
+
+00:03:29.840 --> 00:03:34.850
+being able to build statistical parsing
+systems was the development of treebanks.
+
+00:03:34.850 --> 00:03:38.180
+And here I'm showing an example
+sentence from the Penn Treebank,
+
+00:03:38.180 --> 00:03:43.060
+which was the earliest widely available
+treebank and still the most famous.
+
+00:03:43.060 --> 00:03:46.880
+So what's we've shown examples
+of Treebank sentences before.
+
+00:03:46.880 --> 00:03:51.100
+But what you actually get in the Treebank
+is these kind of structures.
+
+00:03:51.100 --> 00:03:54.790
+So the sentence tree structure is being
+
+00:03:54.790 --> 00:03:59.610
+indicated by these parenthesis which
+are nested to show constituency.
+
+00:03:59.610 --> 00:04:02.090
+If you're an old time LISP programmer,
+
+00:04:02.090 --> 00:04:06.930
+this should look to you as
+indeed is LISP as expressions.
+
+00:04:06.930 --> 00:04:10.150
+So this is giving the structure of
+a sentence with noun phrases and
+
+00:04:10.150 --> 00:04:12.670
+verb phrases, and various other things.
+
+00:04:12.670 --> 00:04:17.200
+So these markings also will indicate
+empty elements of various kinds, and
+
+00:04:17.200 --> 00:04:19.250
+also sort of various
+functional annotations.
+
+00:04:19.250 --> 00:04:22.730
+So this says that this is
+the subject of the sentence.
+
+00:04:22.730 --> 00:04:26.780
+And so
+once we had this kind of annotated data,
+
+00:04:26.780 --> 00:04:32.420
+within a position in which we can use
+machine learning techniques to train
+
+00:04:32.420 --> 00:04:37.940
+passers to say what is the most
+likely pass for a sentence.
+
+00:04:37.940 --> 00:04:40.600
+We're also in a much
+better position to build
+
+00:04:40.600 --> 00:04:44.990
+robust parsers because we have
+a lot of sentences that give us
+
+00:04:44.990 --> 00:04:49.540
+some kind of indication of what kind
+of flexibility of structure we need to
+
+00:04:49.540 --> 00:04:54.149
+admit into our languages to be able
+to parse typical language use.
+
+00:04:55.690 --> 00:05:00.840
+And said this was a revelation
+that if you're starting off and
+
+00:05:00.840 --> 00:05:06.770
+actually seems like building a treebank
+is a lot of work with very low payoff.
+
+00:05:06.770 --> 00:05:12.120
+because the whole power of writing rules
+of grammar Is you can write one rule and
+
+00:05:12.120 --> 00:05:14.850
+it generalizes to thousands, millions,
+
+00:05:14.850 --> 00:05:17.700
+in fact an infinite number
+of possible sentences.
+
+00:05:17.700 --> 00:05:22.220
+Whereas building a treebank, you're taking
+one sentence at a time and parsing it.
+
+00:05:22.220 --> 00:05:25.930
+So that seems slower and less useful, but
+
+00:05:25.930 --> 00:05:29.690
+actually a treebank gives us many,
+many useful things.
+
+00:05:29.690 --> 00:05:31.510
+It gives us reusabilty.
+
+00:05:31.510 --> 00:05:36.340
+Normally the parser of one person
+was completely not used in
+
+00:05:36.340 --> 00:05:40.570
+developing the parser of another person,
+or it's done completely independently.
+
+00:05:40.570 --> 00:05:44.558
+But now we've been able to build many
+many parsers, part-of-speech taggers,
+
+00:05:44.558 --> 00:05:49.670
+et cetera of pin treebank data and
+it also has other wider uses.
+
+00:05:49.670 --> 00:05:53.770
+So for example, many linguists now
+use the pintreebank as a source for
+
+00:05:53.770 --> 00:05:56.610
+testing out and
+developing hypotheses about language.
+
+00:05:56.610 --> 00:06:02.130
+The pin treebank gives us
+something that is broad coverage.
+
+00:06:02.130 --> 00:06:07.520
+It gives us the statistics that'll
+allow us to choose between parsers.
+
+00:06:07.520 --> 00:06:12.120
+And it gives us another thing that's
+improved to be incredibly important.
+
+00:06:12.120 --> 00:06:16.780
+It gives us a way to evaluate
+parsers on a common test bed so
+
+00:06:16.780 --> 00:06:22.080
+that we have good data on which parsers
+are better or worse than other parsers.
+
+00:06:22.080 --> 00:06:25.420
+Now of course these days the Pin
+tree makers aren't the only parser,
+
+00:06:25.420 --> 00:06:27.030
+there are now dozens of treebanks.
+
+00:06:27.030 --> 00:06:30.870
+There are both treebanks for
+different languages and treebanks for
+
+00:06:30.870 --> 00:06:31.880
+different genres.
+
+00:06:31.880 --> 00:06:34.760
+The original Pin treebank
+was just newswire.
+
+00:06:34.760 --> 00:06:36.780
+It's been extended to other genres.
+
+00:06:36.780 --> 00:06:42.150
+But now there are treebanks that
+cover things like biomedical English.
+
+00:06:42.150 --> 00:06:47.350
+Is one popular domain but also other
+things like we various kinds of informal
+
+00:06:47.350 --> 00:06:52.890
+text and more specialized kinds of English
+usage such as treebanks of questions.
+
+00:06:56.090 --> 00:07:00.890
+Okay so hope that motivated for
+you why it's been important to
+
+00:07:00.890 --> 00:07:05.660
+take an empirical approach in developing
+parsing systems for human languages.
+
+00:07:05.660 --> 00:07:08.840
+And the great value that we'll
+be able to get from having
+
+00:07:08.840 --> 00:07:10.770
+data resources like treebanks.
+

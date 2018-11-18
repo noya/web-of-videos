@@ -1,0 +1,1126 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:07.679 --> 00:00:09.959 align:start position:0%
+ 
+in<00:00:08.679><c> this</c><00:00:08.920><c> segment</c><00:00:09.130><c> we're</c><00:00:09.519><c> going</c><00:00:09.670><c> to</c><00:00:09.760><c> very</c>
+
+00:00:09.959 --> 00:00:09.969 align:start position:0%
+in this segment we're going to very
+ 
+
+00:00:09.969 --> 00:00:13.080 align:start position:0%
+in this segment we're going to very
+<c.colorCCCCCC>briefly</c><c.colorE5E5E5><00:00:10.090><c> talk</c><00:00:10.660><c> about</c><00:00:10.690><c> the</c><00:00:11.049><c> second</c><00:00:11.760><c> portion</c><00:00:12.760><c> of</c></c>
+
+00:00:13.080 --> 00:00:13.090 align:start position:0%
+<c.colorCCCCCC>briefly</c><c.colorE5E5E5> talk about the second portion of
+ </c>
+
+00:00:13.090 --> 00:00:14.549 align:start position:0%
+<c.colorCCCCCC>briefly</c><c.colorE5E5E5> talk about the second portion of
+the<00:00:13.209><c> natural</c><00:00:13.570><c> language</c></c><c.colorCCCCCC><00:00:13.690><c> understanding</c></c>
+
+00:00:14.549 --> 00:00:14.559 align:start position:0%
+the natural language<c.colorCCCCCC> understanding
+ </c>
+
+00:00:14.559 --> 00:00:18.300 align:start position:0%
+the natural language<c.colorCCCCCC> understanding
+pipeline<00:00:15.070><c> specifically</c><00:00:15.820><c> text</c><00:00:16.240><c> generation</c><00:00:17.310><c> so</c></c>
+
+00:00:18.300 --> 00:00:18.310 align:start position:0%
+pipeline specifically text generation so
+ 
+
+00:00:18.310 --> 00:00:20.070 align:start position:0%
+pipeline specifically text generation so
+let<c.colorE5E5E5><00:00:18.430><c> me</c><00:00:18.550><c> remind</c><00:00:18.790><c> you</c><00:00:18.910><c> what</c><00:00:19.029><c> the</c></c><c.colorCCCCCC><00:00:19.150><c> Nano</c><00:00:19.330><c> pipeline</c></c>
+
+00:00:20.070 --> 00:00:20.080 align:start position:0%
+let<c.colorE5E5E5> me remind you what the</c><c.colorCCCCCC> Nano pipeline
+ </c>
+
+00:00:20.080 --> 00:00:22.109 align:start position:0%
+let<c.colorE5E5E5> me remind you what the</c><c.colorCCCCCC> Nano pipeline
+looks</c><c.colorE5E5E5><00:00:20.230><c> like</c><00:00:20.500><c> we</c><00:00:20.919><c> have</c><00:00:21.130><c> understanding</c><00:00:22.000><c> and</c></c>
+
+00:00:22.109 --> 00:00:22.119 align:start position:0%
+looks<c.colorE5E5E5> like we have understanding and
+ </c>
+
+00:00:22.119 --> 00:00:24.900 align:start position:0%
+looks<c.colorE5E5E5> like we have understanding and
+generation</c><c.colorCCCCCC><00:00:22.750><c> we</c><00:00:23.680><c> start</c><00:00:23.980><c> from</c><00:00:24.130><c> a</c><00:00:24.250><c> language</c><00:00:24.670><c> like</c></c>
+
+00:00:24.900 --> 00:00:24.910 align:start position:0%
+generation<c.colorCCCCCC> we start from a language like
+ </c>
+
+00:00:24.910 --> 00:00:27.660 align:start position:0%
+generation<c.colorCCCCCC> we start from a language like
+a<00:00:24.939><c> sentence</c><00:00:25.539><c> and</c><00:00:25.810><c> the</c><00:00:26.679><c> standings</c><00:00:27.099><c> takes</c><00:00:27.310><c> it</c><00:00:27.490><c> to</c></c>
+
+00:00:27.660 --> 00:00:27.670 align:start position:0%
+a sentence and the standings takes it to
+ 
+
+00:00:27.670 --> 00:00:29.279 align:start position:0%
+a sentence and the standings takes it to
+some<00:00:27.849><c> computer</c><c.colorE5E5E5><00:00:28.119><c> presentation</c><00:00:29.050><c> that</c><00:00:29.199><c> the</c></c>
+
+00:00:29.279 --> 00:00:29.289 align:start position:0%
+some computer<c.colorE5E5E5> presentation that the
+ </c>
+
+00:00:29.289 --> 00:00:30.450 align:start position:0%
+some computer<c.colorE5E5E5> presentation that the
+computer<00:00:29.650><c> can</c><00:00:29.800><c> understand</c></c>
+
+00:00:30.450 --> 00:00:30.460 align:start position:0%
+computer can understand
+ 
+
+00:00:30.460 --> 00:00:32.310 align:start position:0%
+computer can understand
+and<00:00:30.580><c> then</c><00:00:31.330><c> in</c><00:00:31.449><c> the</c><00:00:31.539><c> computer</c><00:00:31.869><c> wants</c><c.colorE5E5E5><00:00:32.080><c> to</c></c>
+
+00:00:32.310 --> 00:00:32.320 align:start position:0%
+and then in the computer wants<c.colorE5E5E5> to
+ </c>
+
+00:00:32.320 --> 00:00:35.070 align:start position:0%
+and then in the computer wants<c.colorE5E5E5> to
+respond<00:00:32.739><c> to</c><00:00:33.040><c> the</c><00:00:33.160><c> human</c><00:00:33.580><c> it</c><00:00:34.360><c> would</c><00:00:34.540><c> have</c><00:00:34.750><c> to</c><00:00:34.900><c> go</c></c>
+
+00:00:35.070 --> 00:00:35.080 align:start position:0%
+respond to the human<c.colorE5E5E5> it would have to go
+ </c>
+
+00:00:35.080 --> 00:00:37.439 align:start position:0%
+respond to the human<c.colorE5E5E5> it would have to go
+through</c><c.colorCCCCCC><00:00:35.140><c> a</c><00:00:35.710><c> generation</c><00:00:36.550><c> component</c></c><c.colorE5E5E5><00:00:36.940><c> and</c></c>
+
+00:00:37.439 --> 00:00:37.449 align:start position:0%
+through<c.colorCCCCCC> a generation component</c><c.colorE5E5E5> and
+ </c>
+
+00:00:37.449 --> 00:00:40.259 align:start position:0%
+through<c.colorCCCCCC> a generation component</c><c.colorE5E5E5> and
+produce<00:00:37.780><c> language</c><00:00:38.050><c> back</c><00:00:38.670><c> not</c><00:00:39.670><c> oh</c><00:00:39.699><c> I</c><00:00:39.850><c> know</c><00:00:40.000><c> P</c></c>
+
+00:00:40.259 --> 00:00:40.269 align:start position:0%
+produce language<c.colorE5E5E5> back not oh I know P
+ </c>
+
+00:00:40.269 --> 00:00:42.329 align:start position:0%
+produce language<c.colorE5E5E5> back not oh I know P
+systems<00:00:40.629><c> have</c><00:00:40.839><c> to</c></c><c.colorCCCCCC><00:00:40.870><c> have</c><00:00:41.199><c> both</c><00:00:41.470><c> of</c><00:00:41.500><c> those</c><00:00:41.830><c> parts</c></c>
+
+00:00:42.329 --> 00:00:42.339 align:start position:0%
+systems have to<c.colorCCCCCC> have both of those parts
+ </c>
+
+00:00:42.339 --> 00:00:45.329 align:start position:0%
+systems have to<c.colorCCCCCC> have both of those parts</c>
+<c.colorE5E5E5>it's<00:00:42.970><c> completely</c><00:00:43.510><c> reasonable</c><00:00:44.290><c> to</c><00:00:44.830><c> expect</c><00:00:44.920><c> the</c></c>
+
+00:00:45.329 --> 00:00:45.339 align:start position:0%
+<c.colorE5E5E5>it's completely reasonable to expect the
+ </c>
+
+00:00:45.339 --> 00:00:47.490 align:start position:0%
+<c.colorE5E5E5>it's completely reasonable to expect the</c>
+<c.colorCCCCCC>system<00:00:45.699><c> to</c><00:00:45.850><c> just</c><00:00:46.030><c> understand</c><00:00:46.659><c> human</c><00:00:47.470><c> language</c></c>
+
+00:00:47.490 --> 00:00:47.500 align:start position:0%
+<c.colorCCCCCC>system to just understand human language
+ </c>
+
+00:00:47.500 --> 00:00:49.649 align:start position:0%
+<c.colorCCCCCC>system to just understand human language
+and</c><c.colorE5E5E5><00:00:48.010><c> then</c><00:00:48.159><c> perform</c><00:00:48.610><c> some</c><00:00:48.790><c> actions</c><00:00:49.269><c> without</c></c>
+
+00:00:49.649 --> 00:00:49.659 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> then perform some actions without
+ </c>
+
+00:00:49.659 --> 00:00:52.020 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> then perform some actions without</c>
+<c.colorE5E5E5>having<00:00:50.170><c> to</c><00:00:50.290><c> generate</c><00:00:50.440><c> anything</c><00:00:51.100><c> back</c><00:00:51.280><c> it</c><00:00:51.879><c> is</c></c>
+
+00:00:52.020 --> 00:00:52.030 align:start position:0%
+<c.colorE5E5E5>having to generate anything back it is
+ </c>
+
+00:00:52.030 --> 00:00:53.729 align:start position:0%
+<c.colorE5E5E5>having to generate anything back it is
+also<00:00:52.210><c> possible</c><00:00:52.510><c> for</c><00:00:52.809><c> a</c><00:00:52.989><c> system</c><00:00:53.290><c> to</c><00:00:53.409><c> just</c><00:00:53.619><c> have</c></c>
+
+00:00:53.729 --> 00:00:53.739 align:start position:0%
+also possible for<c.colorE5E5E5> a system to just have
+ </c>
+
+00:00:53.739 --> 00:00:55.170 align:start position:0%
+also possible for<c.colorE5E5E5> a system to just have
+the<00:00:53.860><c> second</c><00:00:54.250><c> part</c><00:00:54.430><c> so</c><00:00:54.580><c> for</c><00:00:54.729><c> example</c><00:00:55.150><c> a</c></c>
+
+00:00:55.170 --> 00:00:55.180 align:start position:0%
+the second<c.colorE5E5E5> part so for example a
+ </c>
+
+00:00:55.180 --> 00:00:57.390 align:start position:0%
+the second<c.colorE5E5E5> part so for example a</c>
+<c.colorCCCCCC>computer<00:00:55.600><c> can</c><00:00:55.780><c> have</c></c><c.colorE5E5E5><00:00:55.960><c> access</c><00:00:56.920><c> to</c><00:00:57.040><c> the</c><00:00:57.190><c> weather</c></c>
+
+00:00:57.390 --> 00:00:57.400 align:start position:0%
+<c.colorCCCCCC>computer can have</c><c.colorE5E5E5> access to the weather
+ </c>
+
+00:00:57.400 --> 00:00:59.609 align:start position:0%
+<c.colorCCCCCC>computer can have</c><c.colorE5E5E5> access to the weather
+data</c><c.colorCCCCCC><00:00:57.760><c> and</c><00:00:58.119><c> then</c><00:00:58.239><c> use</c><00:00:58.479><c> automatic</c></c><c.colorE5E5E5><00:00:59.229><c> text</c></c>
+
+00:00:59.609 --> 00:00:59.619 align:start position:0%
+<c.colorE5E5E5>data</c><c.colorCCCCCC> and then use automatic</c><c.colorE5E5E5> text
+ </c>
+
+00:00:59.619 --> 00:01:01.799 align:start position:0%
+<c.colorE5E5E5>data</c><c.colorCCCCCC> and then use automatic</c><c.colorE5E5E5> text
+generation<00:01:00.220><c> to</c><00:01:00.339><c> produce</c><00:01:00.580><c> weather</c><00:01:01.030><c> reports</c><00:01:01.600><c> or</c></c>
+
+00:01:01.799 --> 00:01:01.809 align:start position:0%
+generation to produce<c.colorE5E5E5> weather reports or
+ </c>
+
+00:01:01.809 --> 00:01:03.899 align:start position:0%
+generation to produce<c.colorE5E5E5> weather reports or
+it<00:01:01.930><c> can</c><00:01:02.140><c> have</c><00:01:02.350><c> access</c><00:01:02.589><c> to</c><00:01:02.830><c> stock</c><00:01:03.280><c> market</c><00:01:03.699><c> data</c></c>
+
+00:01:03.899 --> 00:01:03.909 align:start position:0%
+it can have access<c.colorE5E5E5> to stock market data
+ </c>
+
+00:01:03.909 --> 00:01:07.469 align:start position:0%
+it can have access<c.colorE5E5E5> to stock market data
+and<00:01:04.180><c> produce</c><00:01:04.680><c> financial</c><00:01:05.680><c> reports</c><00:01:06.270><c> so</c><00:01:07.270><c> what's</c></c>
+
+00:01:07.469 --> 00:01:07.479 align:start position:0%
+<c.colorE5E5E5>and produce financial reports so what's
+ </c>
+
+00:01:07.479 --> 00:01:08.700 align:start position:0%
+<c.colorE5E5E5>and produce financial reports so what's
+the<00:01:07.570><c> definition</c><00:01:07.689><c> of</c><00:01:08.110><c> natural</c><00:01:08.260><c> language</c></c>
+
+00:01:08.700 --> 00:01:08.710 align:start position:0%
+the definition<c.colorE5E5E5> of natural language
+ </c>
+
+00:01:08.710 --> 00:01:10.920 align:start position:0%
+the definition<c.colorE5E5E5> of natural language
+generation</c><c.colorCCCCCC><00:01:08.820><c> well</c><00:01:09.820><c> it</c><00:01:09.880><c> is</c><00:01:10.030><c> the</c></c><c.colorE5E5E5><00:01:10.180><c> process</c><00:01:10.689><c> of</c></c>
+
+00:01:10.920 --> 00:01:10.930 align:start position:0%
+generation<c.colorCCCCCC> well it is the</c><c.colorE5E5E5> process of
+ </c>
+
+00:01:10.930 --> 00:01:13.410 align:start position:0%
+generation<c.colorCCCCCC> well it is the</c><c.colorE5E5E5> process of
+deliberately<00:01:11.729><c> constructing</c><00:01:12.729><c> some</c><00:01:13.090><c> natural</c></c>
+
+00:01:13.410 --> 00:01:13.420 align:start position:0%
+deliberately<c.colorE5E5E5> constructing some natural
+ </c>
+
+00:01:13.420 --> 00:01:16.200 align:start position:0%
+deliberately<c.colorE5E5E5> constructing some natural
+language<00:01:13.689><c> text</c></c><c.colorCCCCCC><00:01:13.960><c> in</c><00:01:14.799><c> order</c></c><c.colorE5E5E5><00:01:15.159><c> to</c><00:01:15.310><c> meet</c><00:01:15.579><c> some</c></c>
+
+00:01:16.200 --> 00:01:16.210 align:start position:0%
+language text<c.colorCCCCCC> in order</c><c.colorE5E5E5> to meet some
+ </c>
+
+00:01:16.210 --> 00:01:18.480 align:start position:0%
+language text<c.colorCCCCCC> in order</c><c.colorE5E5E5> to meet some
+specific<00:01:16.750><c> communicative</c><00:01:17.439><c> goal</c><00:01:17.679><c> and</c><00:01:18.399><c> the</c></c>
+
+00:01:18.480 --> 00:01:18.490 align:start position:0%
+specific communicative goal and the
+ 
+
+00:01:18.490 --> 00:01:21.209 align:start position:0%
+specific communicative goal and the
+communicative<00:01:19.060><c> go</c><c.colorE5E5E5><00:01:19.240><c> maybe</c><00:01:19.479><c> we</c></c><c.colorCCCCCC><00:01:19.960><c> want</c></c><c.colorE5E5E5><00:01:20.829><c> to</c><00:01:20.950><c> give</c></c>
+
+00:01:21.209 --> 00:01:21.219 align:start position:0%
+communicative go<c.colorE5E5E5> maybe we</c><c.colorCCCCCC> want</c><c.colorE5E5E5> to give
+ </c>
+
+00:01:21.219 --> 00:01:23.580 align:start position:0%
+communicative go<c.colorE5E5E5> maybe we</c><c.colorCCCCCC> want</c><c.colorE5E5E5> to give
+the<00:01:21.490><c> specific</c><00:01:21.969><c> information</c><00:01:22.119><c> to</c><00:01:22.749><c> this</c><00:01:22.899><c> user</c><00:01:23.259><c> in</c></c>
+
+00:01:23.580 --> 00:01:23.590 align:start position:0%
+the specific information<c.colorE5E5E5> to this user in
+ </c>
+
+00:01:23.590 --> 00:01:25.800 align:start position:0%
+the specific information<c.colorE5E5E5> to this user in
+this<00:01:23.679><c> particular</c><00:01:24.189><c> context</c><00:01:24.850><c> using</c></c><c.colorCCCCCC><00:01:25.119><c> this</c><00:01:25.570><c> much</c></c>
+
+00:01:25.800 --> 00:01:25.810 align:start position:0%
+this particular context using<c.colorCCCCCC> this much
+ </c>
+
+00:01:25.810 --> 00:01:30.060 align:start position:0%
+this particular context using<c.colorCCCCCC> this much</c>
+<c.colorE5E5E5>space<00:01:26.619><c> so</c><00:01:27.479><c> this</c><00:01:28.479><c> definition</c><00:01:28.899><c> is</c><00:01:29.200><c> from</c><00:01:29.350><c> David</c></c>
+
+00:01:30.060 --> 00:01:30.070 align:start position:0%
+<c.colorE5E5E5>space so this definition is from David
+ </c>
+
+00:01:30.070 --> 00:01:34.980 align:start position:0%
+<c.colorE5E5E5>space so this definition is from David</c>
+<c.colorCCCCCC>MacDonald<00:01:30.640><c> 1992</c></c><c.colorE5E5E5><00:01:32.070><c> so</c><00:01:33.070><c> what</c><00:01:33.219><c> is</c><00:01:33.340><c> energy</c><00:01:33.899><c> one</c></c><c.colorCCCCCC><00:01:34.899><c> of</c></c>
+
+00:01:34.980 --> 00:01:34.990 align:start position:0%
+<c.colorCCCCCC>MacDonald 1992</c><c.colorE5E5E5> so what is energy one</c><c.colorCCCCCC> of
+ </c>
+
+00:01:34.990 --> 00:01:37.169 align:start position:0%
+<c.colorCCCCCC>MacDonald 1992</c><c.colorE5E5E5> so what is energy one</c><c.colorCCCCCC> of
+its<00:01:35.140><c> most</c></c><c.colorE5E5E5><00:01:35.289><c> important</c><00:01:35.799><c> components</c><00:01:36.340><c> is</c><00:01:36.460><c> mapping</c></c>
+
+00:01:37.169 --> 00:01:37.179 align:start position:0%
+its most<c.colorE5E5E5> important components is mapping
+ </c>
+
+00:01:37.179 --> 00:01:39.270 align:start position:0%
+its most<c.colorE5E5E5> important components is mapping
+meaning<00:01:37.780><c> to</c><00:01:37.929><c> text</c><00:01:38.380><c> so</c><00:01:38.679><c> this</c><00:01:38.829><c> meaning</c><00:01:39.189><c> is</c></c>
+
+00:01:39.270 --> 00:01:39.280 align:start position:0%
+meaning to text so this meaning is
+ 
+
+00:01:39.280 --> 00:01:41.989 align:start position:0%
+meaning to text so this meaning is
+<c.colorE5E5E5>typically</c><c.colorCCCCCC><00:01:39.729><c> represented</c><00:01:40.420><c> in</c></c><c.colorE5E5E5><00:01:40.600><c> some</c><00:01:40.990><c> semantic</c></c>
+
+00:01:41.989 --> 00:01:41.999 align:start position:0%
+<c.colorE5E5E5>typically</c><c.colorCCCCCC> represented in</c><c.colorE5E5E5> some semantic
+ </c>
+
+00:01:41.999 --> 00:01:46.260 align:start position:0%
+<c.colorE5E5E5>typically</c><c.colorCCCCCC> represented in</c><c.colorE5E5E5> some semantic
+form<00:01:42.999><c> for</c><00:01:43.390><c> example</c></c><c.colorCCCCCC><00:01:43.479><c> our</c><00:01:44.170><c> CCG</c><00:01:45.039><c> or</c><00:01:45.340><c> FEG</c></c>
+
+00:01:46.260 --> 00:01:46.270 align:start position:0%
+form<c.colorE5E5E5> for example</c><c.colorCCCCCC> our CCG or FEG
+ </c>
+
+00:01:46.270 --> 00:01:49.679 align:start position:0%
+form<c.colorE5E5E5> for example</c><c.colorCCCCCC> our CCG or FEG
+fog</c><c.colorE5E5E5><00:01:46.689><c> and</c><00:01:47.219><c> the</c><00:01:48.219><c> stages</c></c><c.colorCCCCCC><00:01:48.670><c> are</c><00:01:48.969><c> the</c><00:01:49.329><c> following</c></c>
+
+00:01:49.679 --> 00:01:49.689 align:start position:0%
+fog<c.colorE5E5E5> and the stages</c><c.colorCCCCCC> are the following
+ </c>
+
+00:01:49.689 --> 00:01:51.120 align:start position:0%
+fog<c.colorE5E5E5> and the stages</c><c.colorCCCCCC> are the following
+first</c><c.colorE5E5E5><00:01:50.020><c> you</c><00:01:50.170><c> have</c><00:01:50.319><c> to</c><00:01:50.409><c> perform</c><00:01:50.679><c> something</c></c>
+
+00:01:51.120 --> 00:01:51.130 align:start position:0%
+first<c.colorE5E5E5> you have to perform something
+ </c>
+
+00:01:51.130 --> 00:01:52.800 align:start position:0%
+first<c.colorE5E5E5> you have to perform something
+called<00:01:51.340><c> content</c><00:01:51.609><c> selection</c><00:01:52.240><c> that</c><00:01:52.749><c> is</c></c>
+
+00:01:52.800 --> 00:01:52.810 align:start position:0%
+called content<c.colorE5E5E5> selection that is
+ </c>
+
+00:01:52.810 --> 00:01:54.779 align:start position:0%
+called content<c.colorE5E5E5> selection that is
+determining<00:01:53.530><c> what</c><00:01:53.799><c> content</c><00:01:54.310><c> you</c></c><c.colorCCCCCC><00:01:54.460><c> want</c><00:01:54.670><c> to</c></c>
+
+00:01:54.779 --> 00:01:54.789 align:start position:0%
+<c.colorE5E5E5>determining what content you</c><c.colorCCCCCC> want to
+ </c>
+
+00:01:54.789 --> 00:01:56.940 align:start position:0%
+<c.colorE5E5E5>determining what content you</c><c.colorCCCCCC> want to</c>
+<c.colorE5E5E5>share<00:01:54.999><c> with</c><00:01:55.210><c> the</c><00:01:55.299><c> user</c><00:01:55.479><c> then</c><00:01:56.409><c> you</c><00:01:56.439><c> perform</c><00:01:56.859><c> a</c></c>
+
+00:01:56.940 --> 00:01:56.950 align:start position:0%
+<c.colorE5E5E5>share with the user then you perform a
+ </c>
+
+00:01:56.950 --> 00:01:58.950 align:start position:0%
+<c.colorE5E5E5>share with the user then you perform a
+lexical<00:01:57.369><c> choice</c><00:01:57.639><c> which</c><00:01:57.999><c> is</c><00:01:58.179><c> deciding</c><00:01:58.780><c> what</c></c>
+
+00:01:58.950 --> 00:01:58.960 align:start position:0%
+lexical choice which<c.colorE5E5E5> is deciding what
+ </c>
+
+00:01:58.960 --> 00:02:01.169 align:start position:0%
+lexical choice which<c.colorE5E5E5> is deciding what
+words<00:01:59.350><c> to</c><00:01:59.530><c> use</c></c><c.colorCCCCCC><00:01:59.649><c> for</c><00:02:00.159><c> example</c><00:02:00.700><c> whether</c></c><c.colorE5E5E5><00:02:00.819><c> to</c><00:02:00.999><c> use</c></c>
+
+00:02:01.169 --> 00:02:01.179 align:start position:0%
+words to<c.colorE5E5E5> use</c><c.colorCCCCCC> for example whether</c><c.colorE5E5E5> to use
+ </c>
+
+00:02:01.179 --> 00:02:03.359 align:start position:0%
+words to<c.colorE5E5E5> use</c><c.colorCCCCCC> for example whether</c><c.colorE5E5E5> to use
+a<00:02:01.210><c> nominal</c><00:02:01.749><c> ization</c><00:02:02.049><c> or</c><00:02:02.409><c> verb</c><00:02:02.710><c> to</c><00:02:02.979><c> express</c><00:02:03.340><c> a</c></c>
+
+00:02:03.359 --> 00:02:03.369 align:start position:0%
+a nominal ization or verb to express a
+ 
+
+00:02:03.369 --> 00:02:05.669 align:start position:0%
+a nominal ization or verb to express a
+<c.colorE5E5E5>certain<00:02:03.789><c> concept</c><00:02:04.179><c> then</c><00:02:05.079><c> you</c><00:02:05.109><c> have</c><00:02:05.380><c> to</c><00:02:05.499><c> perform</c></c>
+
+00:02:05.669 --> 00:02:05.679 align:start position:0%
+<c.colorE5E5E5>certain concept then you have to perform
+ </c>
+
+00:02:05.679 --> 00:02:07.199 align:start position:0%
+<c.colorE5E5E5>certain concept then you have to perform</c>
+<c.colorE5E5E5>something<00:02:06.100><c> called</c><00:02:06.249><c> sentence</c><00:02:06.789><c> structure</c></c>
+
+00:02:07.199 --> 00:02:07.209 align:start position:0%
+<c.colorE5E5E5>something called sentence structure
+ </c>
+
+00:02:07.209 --> 00:02:09.210 align:start position:0%
+<c.colorE5E5E5>something called sentence structure
+generation<00:02:07.780><c> that</c></c><c.colorCCCCCC><00:02:07.959><c> is</c><00:02:08.170><c> performing</c><00:02:08.890><c> actions</c></c>
+
+00:02:09.210 --> 00:02:09.220 align:start position:0%
+generation that<c.colorCCCCCC> is performing actions
+ </c>
+
+00:02:09.220 --> 00:02:12.050 align:start position:0%
+generation that<c.colorCCCCCC> is performing actions</c>
+<c.colorCCCCCC>like<00:02:09.610><c> aggregation</c></c><c.colorE5E5E5><00:02:10.479><c> that</c><00:02:10.660><c> is</c><00:02:10.929><c> collecting</c></c>
+
+00:02:12.050 --> 00:02:12.060 align:start position:0%
+<c.colorCCCCCC>like aggregation</c><c.colorE5E5E5> that is collecting
+ </c>
+
+00:02:12.060 --> 00:02:15.210 align:start position:0%
+<c.colorCCCCCC>like aggregation</c><c.colorE5E5E5> that is collecting
+multiple<00:02:13.060><c> facts</c><00:02:13.360><c> into</c><00:02:13.630><c> one</c><00:02:14.220><c> generating</c></c>
+
+00:02:15.210 --> 00:02:15.220 align:start position:0%
+<c.colorE5E5E5>multiple facts into one generating
+ </c>
+
+00:02:15.220 --> 00:02:17.220 align:start position:0%
+<c.colorE5E5E5>multiple facts into one generating
+referring<00:02:15.730><c> expressions</c><00:02:16.420><c> for</c><00:02:16.570><c> example</c><00:02:16.630><c> poor</c></c>
+
+00:02:17.220 --> 00:02:17.230 align:start position:0%
+referring expressions for example poor
+ 
+
+00:02:17.230 --> 00:02:19.710 align:start position:0%
+referring expressions for example poor
+nouns<c.colorE5E5E5><00:02:17.500><c> and</c><00:02:17.890><c> then</c><00:02:18.760><c> you</c><00:02:19.000><c> also</c><00:02:19.120><c> have</c><00:02:19.390><c> to</c><00:02:19.540><c> worry</c></c>
+
+00:02:19.710 --> 00:02:19.720 align:start position:0%
+nouns<c.colorE5E5E5> and then you also have to worry
+ </c>
+
+00:02:19.720 --> 00:02:20.530 align:start position:0%
+nouns<c.colorE5E5E5> and then you also have to worry
+about<00:02:19.840><c> the</c><00:02:20.140><c> disk</c></c>
+
+00:02:20.530 --> 00:02:20.540 align:start position:0%
+about<c.colorE5E5E5> the disk
+ </c>
+
+00:02:20.540 --> 00:02:22.270 align:start position:0%
+about<c.colorE5E5E5> the disk
+structure<00:02:20.959><c> once</c><00:02:21.140><c> you</c><00:02:21.319><c> know</c><00:02:21.469><c> what</c><00:02:21.799><c> are</c><00:02:22.010><c> the</c></c>
+
+00:02:22.270 --> 00:02:22.280 align:start position:0%
+structure once you know what are the
+ 
+
+00:02:22.280 --> 00:02:23.920 align:start position:0%
+structure once you know what are the
+individual<00:02:22.790><c> sentences</c><00:02:23.360><c> you</c><00:02:23.480><c> may</c><00:02:23.629><c> want</c><00:02:23.840><c> to</c>
+
+00:02:23.920 --> 00:02:23.930 align:start position:0%
+individual sentences you may want to
+ 
+
+00:02:23.930 --> 00:02:25.750 align:start position:0%
+individual sentences you may want to
+generate<c.colorE5E5E5><00:02:24.319><c> on</c></c><c.colorCCCCCC><00:02:24.530><c> this</c><00:02:24.739><c> course</c><00:02:25.040><c> connectives</c><00:02:25.579><c> for</c></c>
+
+00:02:25.750 --> 00:02:25.760 align:start position:0%
+generate<c.colorE5E5E5> on</c><c.colorCCCCCC> this course connectives for
+ </c>
+
+00:02:25.760 --> 00:02:29.440 align:start position:0%
+generate<c.colorE5E5E5> on</c><c.colorCCCCCC> this course connectives for</c>
+<c.colorE5E5E5>example<00:02:26.379><c> therefore</c><00:02:27.379><c> or</c><00:02:27.760><c> consequently</c><00:02:28.760><c> or</c><00:02:29.150><c> in</c></c>
+
+00:02:29.440 --> 00:02:29.450 align:start position:0%
+<c.colorE5E5E5>example therefore or consequently or in
+ </c>
+
+00:02:29.450 --> 00:02:31.809 align:start position:0%
+<c.colorE5E5E5>example therefore or consequently or in
+addition<00:02:30.019><c> so</c></c><c.colorCCCCCC><00:02:30.680><c> that</c><00:02:30.829><c> the</c><00:02:30.950><c> text</c><00:02:31.280><c> flows</c></c><c.colorE5E5E5><00:02:31.400><c> more</c></c>
+
+00:02:31.809 --> 00:02:31.819 align:start position:0%
+<c.colorE5E5E5>addition so</c><c.colorCCCCCC> that the text flows</c><c.colorE5E5E5> more
+ </c>
+
+00:02:31.819 --> 00:02:34.539 align:start position:0%
+<c.colorE5E5E5>addition so</c><c.colorCCCCCC> that the text flows</c><c.colorE5E5E5> more
+smoothly<00:02:32.709><c> so</c><00:02:33.709><c> here's</c><00:02:33.890><c> an</c></c><c.colorCCCCCC><00:02:34.040><c> example</c><00:02:34.310><c> of</c><00:02:34.459><c> an</c></c>
+
+00:02:34.539 --> 00:02:34.549 align:start position:0%
+smoothly<c.colorE5E5E5> so here's an</c><c.colorCCCCCC> example of an
+ </c>
+
+00:02:34.549 --> 00:02:36.990 align:start position:0%
+smoothly<c.colorE5E5E5> so here's an</c><c.colorCCCCCC> example of an
+energy<00:02:34.939><c> system</c></c><c.colorE5E5E5><00:02:35.150><c> this</c><00:02:35.780><c> is</c><00:02:35.900><c> the</c><00:02:36.019><c> Fogg</c><00:02:36.290><c> system</c></c>
+
+00:02:36.990 --> 00:02:37.000 align:start position:0%
+energy system<c.colorE5E5E5> this is the Fogg system
+ </c>
+
+00:02:37.000 --> 00:02:40.030 align:start position:0%
+energy system<c.colorE5E5E5> this is the Fogg system
+designed<00:02:38.000><c> by</c><00:02:38.209><c> Goldberg</c><00:02:38.810><c> at</c><00:02:38.959><c> all</c><00:02:39.140><c> it</c><00:02:39.620><c> has</c></c><c.colorCCCCCC><00:02:39.650><c> been</c></c>
+
+00:02:40.030 --> 00:02:40.040 align:start position:0%
+designed<c.colorE5E5E5> by Goldberg at all it has</c><c.colorCCCCCC> been
+ </c>
+
+00:02:40.040 --> 00:02:43.809 align:start position:0%
+designed<c.colorE5E5E5> by Goldberg at all it has</c><c.colorCCCCCC> been
+in<00:02:40.220><c> use</c><00:02:40.459><c> for</c></c><c.colorE5E5E5><00:02:40.519><c> more</c></c><c.colorCCCCCC><00:02:41.420><c> than</c><00:02:41.569><c> twenty</c><00:02:41.959><c> years</c></c><c.colorE5E5E5><00:02:41.989><c> now</c></c><c.colorCCCCCC><00:02:42.819><c> it</c></c>
+
+00:02:43.809 --> 00:02:43.819 align:start position:0%
+in use<c.colorCCCCCC> for</c><c.colorE5E5E5> more</c><c.colorCCCCCC> than twenty years</c><c.colorE5E5E5> now</c><c.colorCCCCCC> it
+ </c>
+
+00:02:43.819 --> 00:02:46.690 align:start position:0%
+in use<c.colorCCCCCC> for</c><c.colorE5E5E5> more</c><c.colorCCCCCC> than twenty years</c><c.colorE5E5E5> now</c><c.colorCCCCCC> it
+is<00:02:44.030><c> designed</c><00:02:44.510><c> to</c><00:02:44.720><c> generate</c></c><c.colorE5E5E5><00:02:45.349><c> weather</c><00:02:46.129><c> forecast</c></c>
+
+00:02:46.690 --> 00:02:46.700 align:start position:0%
+is designed to generate<c.colorE5E5E5> weather forecast
+ </c>
+
+00:02:46.700 --> 00:02:48.759 align:start position:0%
+is designed to generate<c.colorE5E5E5> weather forecast
+reports<00:02:47.299><c> for</c><00:02:47.480><c> the</c><00:02:47.569><c> Canadian</c><00:02:48.079><c> weather</c><00:02:48.260><c> service</c></c>
+
+00:02:48.759 --> 00:02:48.769 align:start position:0%
+reports for the Canadian weather<c.colorE5E5E5> service
+ </c>
+
+00:02:48.769 --> 00:02:51.369 align:start position:0%
+reports for the Canadian weather<c.colorE5E5E5> service
+in<00:02:48.920><c> both</c><00:02:49.099><c> French</c><00:02:49.430><c> and</c><00:02:49.609><c> English</c><00:02:49.900><c> so</c><00:02:50.900><c> its</c><00:02:51.019><c> input</c></c>
+
+00:02:51.369 --> 00:02:51.379 align:start position:0%
+in both French and<c.colorE5E5E5> English so its input
+ </c>
+
+00:02:51.379 --> 00:02:53.589 align:start position:0%
+in both French and<c.colorE5E5E5> English so its input
+is</c><c.colorCCCCCC><00:02:51.409><c> from</c></c><c.colorE5E5E5><00:02:51.739><c> some</c><00:02:52.010><c> numerical</c><00:02:52.760><c> simulation</c><00:02:53.329><c> data</c></c>
+
+00:02:53.589 --> 00:02:53.599 align:start position:0%
+is<c.colorCCCCCC> from</c><c.colorE5E5E5> some numerical simulation data
+ </c>
+
+00:02:53.599 --> 00:02:55.860 align:start position:0%
+is<c.colorCCCCCC> from</c><c.colorE5E5E5> some numerical simulation data
+and<00:02:53.959><c> notated</c><00:02:54.439><c> by</c><00:02:54.470><c> humans</c><00:02:55.040><c> for</c><00:02:55.220><c> example</c><00:02:55.250><c> about</c></c>
+
+00:02:55.860 --> 00:02:55.870 align:start position:0%
+and notated by humans for example about
+ 
+
+00:02:55.870 --> 00:02:59.190 align:start position:0%
+and notated by humans for example about
+France<00:02:56.870><c> and</c><00:02:57.349><c> expected</c><00:02:57.859><c> precipitation</c><c.colorE5E5E5><00:02:58.099><c> and</c></c>
+
+00:02:59.190 --> 00:02:59.200 align:start position:0%
+France and expected precipitation<c.colorE5E5E5> and
+ </c>
+
+00:02:59.200 --> 00:03:01.509 align:start position:0%
+France and expected precipitation<c.colorE5E5E5> and
+then</c><c.colorCCCCCC><00:03:00.200><c> its</c><00:03:00.409><c> output</c><00:03:00.829><c> which</c><00:03:00.980><c> is</c><00:03:01.010><c> a</c><00:03:01.129><c> little</c><00:03:01.400><c> bit</c></c>
+
+00:03:01.509 --> 00:03:01.519 align:start position:0%
+then<c.colorCCCCCC> its output which is a little bit
+ </c>
+
+00:03:01.519 --> 00:03:03.129 align:start position:0%
+then<c.colorCCCCCC> its output which is a little bit
+hard<00:03:01.730><c> to</c><00:03:01.790><c> see</c></c><c.colorE5E5E5><00:03:01.909><c> here</c><00:03:02.359><c> and</c><00:03:02.599><c> you</c><00:03:02.750><c> can</c><00:03:02.900><c> probably</c></c>
+
+00:03:03.129 --> 00:03:03.139 align:start position:0%
+hard to see<c.colorE5E5E5> here and you can probably
+ </c>
+
+00:03:03.139 --> 00:03:04.990 align:start position:0%
+hard to see<c.colorE5E5E5> here and you can probably
+stop<00:03:03.590><c> and</c><00:03:03.829><c> zoom</c><00:03:04.040><c> in</c><00:03:04.220><c> to</c></c><c.colorCCCCCC><00:03:04.250><c> see</c><00:03:04.549><c> it</c><00:03:04.669><c> in</c><00:03:04.819><c> more</c></c>
+
+00:03:04.990 --> 00:03:05.000 align:start position:0%
+stop and zoom in to<c.colorCCCCCC> see it in more
+ </c>
+
+00:03:05.000 --> 00:03:07.659 align:start position:0%
+stop and zoom in to<c.colorCCCCCC> see it in more
+detail<00:03:05.389><c> is</c><00:03:05.659><c> an</c><00:03:06.260><c> actual</c><00:03:06.620><c> weather</c><00:03:06.889><c> report</c><00:03:07.400><c> for</c><00:03:07.609><c> a</c></c>
+
+00:03:07.659 --> 00:03:07.669 align:start position:0%
+detail is an actual weather report for<c.colorCCCCCC> a
+ </c>
+
+00:03:07.669 --> 00:03:09.940 align:start position:0%
+detail is an actual weather report for<c.colorCCCCCC> a
+specific</c><c.colorE5E5E5><00:03:07.900><c> location</c><00:03:08.900><c> in</c><00:03:09.349><c> one</c><00:03:09.560><c> of</c><00:03:09.680><c> the</c><00:03:09.799><c> two</c></c>
+
+00:03:09.940 --> 00:03:09.950 align:start position:0%
+specific<c.colorE5E5E5> location in one of the two
+ </c>
+
+00:03:09.950 --> 00:03:13.000 align:start position:0%
+specific<c.colorE5E5E5> location in one of the two
+target<00:03:10.340><c> languages</c><00:03:11.200><c> so</c><00:03:12.200><c> one</c><00:03:12.349><c> more</c></c><c.colorCCCCCC><00:03:12.530><c> example</c><00:03:12.799><c> of</c></c>
+
+00:03:13.000 --> 00:03:13.010 align:start position:0%
+target languages<c.colorE5E5E5> so one more</c><c.colorCCCCCC> example of
+ </c>
+
+00:03:13.010 --> 00:03:14.559 align:start position:0%
+target languages<c.colorE5E5E5> so one more</c><c.colorCCCCCC> example of
+a<00:03:13.099><c> generation</c><00:03:13.609><c> system</c><00:03:14.000><c> is</c><00:03:14.120><c> what</c><00:03:14.269><c> it</c><00:03:14.419><c> was</c></c>
+
+00:03:14.559 --> 00:03:14.569 align:start position:0%
+a generation system is what it was
+ 
+
+00:03:14.569 --> 00:03:15.879 align:start position:0%
+a generation system is what it was
+designed<00:03:14.689><c> developed</c><c.colorE5E5E5><00:03:15.049><c> at</c><00:03:15.409><c> Columbia</c></c>
+
+00:03:15.879 --> 00:03:15.889 align:start position:0%
+designed developed<c.colorE5E5E5> at Columbia
+ </c>
+
+00:03:15.889 --> 00:03:18.789 align:start position:0%
+designed developed<c.colorE5E5E5> at Columbia
+University<00:03:16.400><c> and</c></c><c.colorCCCCCC><00:03:16.430><c> Belcore</c><00:03:16.939><c> in</c><00:03:17.120><c> the</c><00:03:17.239><c> 90s</c></c><c.colorE5E5E5><00:03:17.799><c> its</c></c>
+
+00:03:18.789 --> 00:03:18.799 align:start position:0%
+University and<c.colorCCCCCC> Belcore in the 90s</c><c.colorE5E5E5> its
+ </c>
+
+00:03:18.799 --> 00:03:21.699 align:start position:0%
+University and<c.colorCCCCCC> Belcore in the 90s</c><c.colorE5E5E5> its
+goal</c><c.colorCCCCCC><00:03:19.129><c> was</c><00:03:19.549><c> to</c><00:03:19.970><c> produce</c><00:03:20.209><c> reports</c></c><c.colorE5E5E5><00:03:20.780><c> that</c></c>
+
+00:03:21.699 --> 00:03:21.709 align:start position:0%
+goal<c.colorCCCCCC> was to produce reports</c><c.colorE5E5E5> that
+ </c>
+
+00:03:21.709 --> 00:03:23.440 align:start position:0%
+goal<c.colorCCCCCC> was to produce reports</c><c.colorE5E5E5> that
+describe<00:03:22.189><c> different</c><00:03:22.639><c> simulation</c><00:03:23.180><c> options</c></c>
+
+00:03:23.440 --> 00:03:23.450 align:start position:0%
+describe different simulation options
+ 
+
+00:03:23.450 --> 00:03:27.219 align:start position:0%
+describe different simulation options
+<c.colorE5E5E5>that<00:03:23.870><c> an</c><00:03:24.109><c> engineer</c><00:03:24.709><c> who</c><00:03:25.370><c> lays</c><00:03:25.609><c> cables</c><00:03:26.299><c> in</c></c><c.colorCCCCCC><00:03:26.629><c> a</c></c>
+
+00:03:27.219 --> 00:03:27.229 align:start position:0%
+<c.colorE5E5E5>that an engineer who lays cables in</c><c.colorCCCCCC> a
+ </c>
+
+00:03:27.229 --> 00:03:30.610 align:start position:0%
+<c.colorE5E5E5>that an engineer who lays cables in</c><c.colorCCCCCC> a
+telephone</c><c.colorE5E5E5><00:03:27.849><c> system</c><00:03:28.849><c> has</c><00:03:29.120><c> already</c><00:03:29.329><c> explored</c><00:03:29.810><c> so</c></c>
+
+00:03:30.610 --> 00:03:30.620 align:start position:0%
+telephone<c.colorE5E5E5> system has already explored so
+ </c>
+
+00:03:30.620 --> 00:03:32.559 align:start position:0%
+telephone<c.colorE5E5E5> system has already explored so
+the<00:03:30.769><c> input</c><00:03:31.040><c> is</c></c><c.colorCCCCCC><00:03:31.069><c> a</c><00:03:31.190><c> simulation</c></c><c.colorE5E5E5><00:03:31.669><c> log</c><00:03:31.970><c> file</c><00:03:32.269><c> and</c></c>
+
+00:03:32.559 --> 00:03:32.569 align:start position:0%
+the input is<c.colorCCCCCC> a simulation</c><c.colorE5E5E5> log file and
+ </c>
+
+00:03:32.569 --> 00:03:35.259 align:start position:0%
+the input is<c.colorCCCCCC> a simulation</c><c.colorE5E5E5> log file and
+it<00:03:32.840><c> was</c><00:03:33.049><c> designed</c><00:03:33.500><c> and</c></c><c.colorCCCCCC><00:03:33.769><c> developed</c><00:03:34.220><c> by</c><00:03:34.370><c> Bell</c></c>
+
+00:03:35.259 --> 00:03:35.269 align:start position:0%
+it was<c.colorE5E5E5> designed and</c><c.colorCCCCCC> developed by Bell
+ </c>
+
+00:03:35.269 --> 00:03:37.360 align:start position:0%
+it was<c.colorE5E5E5> designed and</c><c.colorCCCCCC> developed by Bell
+core<00:03:35.569><c> and</c><00:03:35.720><c> Columbia</c><00:03:36.139><c> University</c><00:03:36.709><c> in</c></c><c.colorE5E5E5><00:03:36.769><c> the</c><00:03:36.889><c> 90s</c></c>
+
+00:03:37.360 --> 00:03:37.370 align:start position:0%
+<c.colorCCCCCC>core and Columbia University in</c><c.colorE5E5E5> the 90s
+ </c>
+
+00:03:37.370 --> 00:03:39.460 align:start position:0%
+<c.colorCCCCCC>core and Columbia University in</c><c.colorE5E5E5> the 90s</c>
+<c.colorCCCCCC>so<00:03:37.579><c> the</c><00:03:38.299><c> input</c><00:03:38.569><c> is</c><00:03:38.750><c> something</c><00:03:39.139><c> like</c><00:03:39.229><c> this</c></c>
+
+00:03:39.460 --> 00:03:39.470 align:start position:0%
+<c.colorCCCCCC>so the input is something like this
+ </c>
+
+00:03:39.470 --> 00:03:43.420 align:start position:0%
+<c.colorCCCCCC>so the input is something like this</c>
+<c.colorE5E5E5>there<00:03:39.949><c> is</c></c><c.colorCCCCCC><00:03:39.979><c> a</c><00:03:40.099><c> specific</c><00:03:40.519><c> run</c><00:03:41.180><c> ID</c><00:03:41.889><c> so</c><00:03:42.889><c> specific</c></c>
+
+00:03:43.420 --> 00:03:43.430 align:start position:0%
+<c.colorE5E5E5>there is</c><c.colorCCCCCC> a specific run ID so specific
+ </c>
+
+00:03:43.430 --> 00:03:45.610 align:start position:0%
+<c.colorE5E5E5>there is</c><c.colorCCCCCC> a specific run ID so specific
+type<00:03:43.699><c> of</c></c><c.colorE5E5E5><00:03:43.729><c> cable</c></c><c.colorCCCCCC><00:03:44.209><c> that</c><00:03:44.629><c> was</c><00:03:44.810><c> located</c><00:03:45.169><c> in</c><00:03:45.530><c> a</c></c>
+
+00:03:45.610 --> 00:03:45.620 align:start position:0%
+type of<c.colorE5E5E5> cable</c><c.colorCCCCCC> that was located in a
+ </c>
+
+00:03:45.620 --> 00:03:48.250 align:start position:0%
+type of<c.colorE5E5E5> cable</c><c.colorCCCCCC> that was located in a</c>
+<c.colorCCCCCC>particular<00:03:46.129><c> place</c><00:03:46.790><c> at</c><00:03:47.120><c> a</c><00:03:47.180><c> particular</c><00:03:47.449><c> date</c><00:03:48.019><c> in</c></c>
+
+00:03:48.250 --> 00:03:48.260 align:start position:0%
+<c.colorCCCCCC>particular place at a particular date in
+ </c>
+
+00:03:48.260 --> 00:03:52.149 align:start position:0%
+<c.colorCCCCCC>particular place at a particular date in
+a<00:03:48.349><c> certain</c><00:03:48.739><c> way</c></c><c.colorE5E5E5><00:03:49.010><c> and</c><00:03:49.930><c> then</c><00:03:50.930><c> all</c><00:03:51.530><c> of</c><00:03:51.590><c> those</c><00:03:51.889><c> get</c></c>
+
+00:03:52.149 --> 00:03:52.159 align:start position:0%
+a certain way<c.colorE5E5E5> and then all of those get
+ </c>
+
+00:03:52.159 --> 00:03:55.270 align:start position:0%
+a certain way<c.colorE5E5E5> and then all of those get</c>
+<c.colorCCCCCC>collapsed<00:03:52.669><c> into</c><00:03:52.970><c> one</c></c><c.colorE5E5E5><00:03:53.000><c> output</c></c><c.colorCCCCCC><00:03:53.629><c> so</c><00:03:54.280><c> it's</c></c>
+
+00:03:55.270 --> 00:03:55.280 align:start position:0%
+<c.colorCCCCCC>collapsed into one</c><c.colorE5E5E5> output</c><c.colorCCCCCC> so it's
+ </c>
+
+00:03:55.280 --> 00:03:57.699 align:start position:0%
+<c.colorCCCCCC>collapsed into one</c><c.colorE5E5E5> output</c><c.colorCCCCCC> so it's</c>
+<c.colorE5E5E5>something<00:03:55.519><c> like</c><00:03:55.609><c> this</c><00:03:55.819><c> this</c><00:03:56.060><c> saved</c><00:03:56.709><c> fiber</c></c>
+
+00:03:57.699 --> 00:03:57.709 align:start position:0%
+<c.colorE5E5E5>something like this this saved fiber
+ </c>
+
+00:03:57.709 --> 00:04:00.819 align:start position:0%
+<c.colorE5E5E5>something like this this saved fiber
+refinement<00:03:58.579><c> includes</c></c><c.colorCCCCCC><00:03:59.239><c> all</c><00:03:59.479><c> DL</c><00:03:59.840><c> C</c><00:04:00.049><c> changes</c></c><c.colorE5E5E5><00:04:00.590><c> in</c></c>
+
+00:04:00.819 --> 00:04:00.829 align:start position:0%
+refinement<c.colorE5E5E5> includes</c><c.colorCCCCCC> all DL C changes</c><c.colorE5E5E5> in
+ </c>
+
+00:04:00.829 --> 00:04:04.689 align:start position:0%
+refinement<c.colorE5E5E5> includes</c><c.colorCCCCCC> all DL C changes</c><c.colorE5E5E5> in</c>
+<c.colorCCCCCC>run<00:04:01.040><c> ID</c></c><c.colorE5E5E5><00:04:01.250><c> all</c><00:04:01.639><c> DLC</c><00:04:02.329><c> period</c><00:04:02.930><c> run</c><00:04:03.620><c> ID</c></c><c.colorCCCCCC><00:04:03.859><c> fiber</c><00:04:04.370><c> all</c></c>
+
+00:04:04.689 --> 00:04:04.699 align:start position:0%
+<c.colorCCCCCC>run ID</c><c.colorE5E5E5> all DLC period run ID</c><c.colorCCCCCC> fiber all
+ </c>
+
+00:04:04.699 --> 00:04:07.300 align:start position:0%
+<c.colorCCCCCC>run ID</c><c.colorE5E5E5> all DLC period run ID</c><c.colorCCCCCC> fiber all
+demanded<00:04:05.359><c> that</c><00:04:05.449><c> plan</c><00:04:05.810><c> activate</c><00:04:06.500><c> fiber</c><00:04:06.859><c> for</c></c>
+
+00:04:07.300 --> 00:04:07.310 align:start position:0%
+demanded that plan activate fiber for
+ 
+
+00:04:07.310 --> 00:04:11.140 align:start position:0%
+demanded that plan activate fiber for
+<c.colorE5E5E5>CSAs<00:04:07.879><c> 1201</c><00:04:08.599><c> 1301</c><00:04:09.409><c> and</c><00:04:09.590><c> so</c><00:04:09.769><c> on</c><00:04:09.919><c> in</c><00:04:10.150><c> second</c></c>
+
+00:04:11.140 --> 00:04:11.150 align:start position:0%
+<c.colorE5E5E5>CSAs 1201 1301 and so on in second
+ </c>
+
+00:04:11.150 --> 00:04:13.809 align:start position:0%
+<c.colorE5E5E5>CSAs 1201 1301 and so on in second
+quarter<00:04:11.329><c> of</c><00:04:11.540><c> 95</c><00:04:12.109><c> period</c><00:04:12.949><c> it</c><00:04:13.099><c> requested</c><00:04:13.699><c> the</c></c>
+
+00:04:13.809 --> 00:04:13.819 align:start position:0%
+quarter of 95 period it requested the
+ 
+
+00:04:13.819 --> 00:04:16.089 align:start position:0%
+quarter of 95 period it requested the
+placement<c.colorE5E5E5><00:04:14.299><c> of</c><00:04:14.389><c> a</c><00:04:14.449><c> 48</c><00:04:14.900><c> fiber</c><00:04:15.139><c> cable</c><00:04:15.739><c> from</c><00:04:15.919><c> the</c></c>
+
+00:04:16.089 --> 00:04:16.099 align:start position:0%
+placement<c.colorE5E5E5> of a 48 fiber cable from the
+ </c>
+
+00:04:16.099 --> 00:04:20.170 align:start position:0%
+placement<c.colorE5E5E5> of a 48 fiber cable from the</c>
+<c.colorCCCCCC>co</c><c.colorE5E5E5><00:04:16.400><c> to</c><00:04:16.759><c> section</c></c><c.colorCCCCCC><00:04:17.150><c> 11</c></c><c.colorE5E5E5><00:04:17.539><c> or</c></c><c.colorCCCCCC><00:04:17.659><c> V</c><00:04:17.900><c> and</c><00:04:18.199><c> so</c><00:04:19.190><c> on</c><00:04:19.370><c> so</c><00:04:20.030><c> this</c></c>
+
+00:04:20.170 --> 00:04:20.180 align:start position:0%
+<c.colorCCCCCC>co</c><c.colorE5E5E5> to section</c><c.colorCCCCCC> 11</c><c.colorE5E5E5> or</c><c.colorCCCCCC> V and so on so this
+ </c>
+
+00:04:20.180 --> 00:04:22.980 align:start position:0%
+<c.colorCCCCCC>co</c><c.colorE5E5E5> to section</c><c.colorCCCCCC> 11</c><c.colorE5E5E5> or</c><c.colorCCCCCC> V and so on so this</c>
+<c.colorE5E5E5>is<00:04:20.239><c> the</c></c><c.colorCCCCCC><00:04:20.780><c> output</c><00:04:21.560><c> of</c></c><c.colorE5E5E5><00:04:21.769><c> the</c><00:04:21.919><c> system</c><00:04:22.159><c> which</c><00:04:22.490><c> used</c></c>
+
+00:04:22.980 --> 00:04:22.990 align:start position:0%
+<c.colorE5E5E5>is the</c><c.colorCCCCCC> output of</c><c.colorE5E5E5> the system which used
+ </c>
+
+00:04:22.990 --> 00:04:28.870 align:start position:0%
+<c.colorE5E5E5>is the</c><c.colorCCCCCC> output of</c><c.colorE5E5E5> the system which used</c>
+<c.colorCCCCCC>forth<00:04:23.990><c> and</c></c><c.colorE5E5E5><00:04:25.780><c> surge</c></c><c.colorCCCCCC><00:04:26.780><c> to</c><00:04:27.680><c> generation</c><00:04:28.430><c> systems</c></c>
+
+00:04:28.870 --> 00:04:28.880 align:start position:0%
+<c.colorCCCCCC>forth and</c><c.colorE5E5E5> surge</c><c.colorCCCCCC> to generation systems
+ </c>
+
+00:04:28.880 --> 00:04:32.379 align:start position:0%
+<c.colorCCCCCC>forth and</c><c.colorE5E5E5> surge</c><c.colorCCCCCC> to generation systems
+developed<00:04:29.360><c> at</c><00:04:29.479><c> Columbia</c></c><c.colorE5E5E5><00:04:30.289><c> in</c><00:04:30.349><c> the</c></c><c.colorCCCCCC><00:04:30.380><c> mid-90s</c></c><c.colorE5E5E5><00:04:31.389><c> so</c></c>
+
+00:04:32.379 --> 00:04:32.389 align:start position:0%
+developed at Columbia<c.colorE5E5E5> in the</c><c.colorCCCCCC> mid-90s</c><c.colorE5E5E5> so
+ </c>
+
+00:04:32.389 --> 00:04:33.700 align:start position:0%
+developed at Columbia<c.colorE5E5E5> in the</c><c.colorCCCCCC> mid-90s</c><c.colorE5E5E5> so
+in</c><c.colorCCCCCC><00:04:32.510><c> text</c><00:04:32.810><c> innovation</c><00:04:33.289><c> there's</c><00:04:33.560><c> some</c></c>
+
+00:04:33.700 --> 00:04:33.710 align:start position:0%
+<c.colorE5E5E5>in</c><c.colorCCCCCC> text innovation there's some
+ </c>
+
+00:04:33.710 --> 00:04:34.239 align:start position:0%
+<c.colorE5E5E5>in</c><c.colorCCCCCC> text innovation there's some
+important</c>
+
+00:04:34.239 --> 00:04:34.249 align:start position:0%
+important
+ 
+
+00:04:34.249 --> 00:04:35.979 align:start position:0%
+important
+considerations<00:04:34.969><c> I</c><00:04:35.209><c> mentioned</c><00:04:35.629><c> some</c><00:04:35.779><c> of</c><c.colorE5E5E5><00:04:35.809><c> them</c></c>
+
+00:04:35.979 --> 00:04:35.989 align:start position:0%
+considerations I mentioned some of<c.colorE5E5E5> them
+ </c>
+
+00:04:35.989 --> 00:04:38.079 align:start position:0%
+considerations I mentioned some of<c.colorE5E5E5> them</c>
+<c.colorCCCCCC>already</c><c.colorE5E5E5><00:04:36.349><c> but</c><00:04:37.309><c> they</c><00:04:37.399><c> all</c><00:04:37.519><c> have</c><00:04:37.699><c> to</c><00:04:37.849><c> deal</c><00:04:38.059><c> with</c></c>
+
+00:04:38.079 --> 00:04:38.089 align:start position:0%
+<c.colorCCCCCC>already</c><c.colorE5E5E5> but they all have to deal with
+ </c>
+
+00:04:38.089 --> 00:04:40.689 align:start position:0%
+<c.colorCCCCCC>already</c><c.colorE5E5E5> but they all have to deal with</c>
+<c.colorE5E5E5>choices</c><c.colorCCCCCC><00:04:38.779><c> so</c><00:04:39.139><c> you</c><00:04:39.859><c> can</c><00:04:40.009><c> consider</c><00:04:40.339><c> each</c><00:04:40.579><c> of</c></c>
+
+00:04:40.689 --> 00:04:40.699 align:start position:0%
+<c.colorE5E5E5>choices</c><c.colorCCCCCC> so you can consider each of
+ </c>
+
+00:04:40.699 --> 00:04:42.189 align:start position:0%
+<c.colorE5E5E5>choices</c><c.colorCCCCCC> so you can consider each of
+those</c><c.colorE5E5E5><00:04:40.879><c> is</c><00:04:41.089><c> some</c><00:04:41.239><c> sort</c><00:04:41.449><c> of</c><00:04:41.479><c> a</c><00:04:41.599><c> classifier</c><00:04:42.169><c> that</c></c>
+
+00:04:42.189 --> 00:04:42.199 align:start position:0%
+those<c.colorE5E5E5> is some sort of a classifier that
+ </c>
+
+00:04:42.199 --> 00:04:44.049 align:start position:0%
+those<c.colorE5E5E5> is some sort of a classifier that</c>
+<c.colorE5E5E5>takes<00:04:42.619><c> multiple</c><00:04:42.889><c> inputs</c><00:04:43.579><c> and</c><00:04:43.699><c> you</c><00:04:43.759><c> have</c><00:04:43.939><c> to</c></c>
+
+00:04:44.049 --> 00:04:44.059 align:start position:0%
+<c.colorE5E5E5>takes multiple inputs and you have to
+ </c>
+
+00:04:44.059 --> 00:04:45.399 align:start position:0%
+<c.colorE5E5E5>takes multiple inputs and you have to
+decide</c><c.colorCCCCCC><00:04:44.209><c> which</c><00:04:44.539><c> one</c><00:04:44.719><c> to</c></c><c.colorE5E5E5><00:04:44.749><c> take</c></c>
+
+00:04:45.399 --> 00:04:45.409 align:start position:0%
+decide<c.colorCCCCCC> which one to</c><c.colorE5E5E5> take
+ </c>
+
+00:04:45.409 --> 00:04:47.709 align:start position:0%
+decide<c.colorCCCCCC> which one to</c><c.colorE5E5E5> take
+so<00:04:46.009><c> the</c><00:04:46.189><c> choices</c><00:04:46.459><c> are</c><00:04:46.759><c> about</c><00:04:47.059><c> the</c><00:04:47.209><c> content</c></c>
+
+00:04:47.709 --> 00:04:47.719 align:start position:0%
+so the choices are about the content
+ 
+
+00:04:47.719 --> 00:04:51.189 align:start position:0%
+so the choices are about the content
+what<00:04:48.049><c> you</c><00:04:48.229><c> want</c><00:04:48.439><c> to</c><00:04:48.559><c> say</c><00:04:49.629><c> coherence</c><00:04:50.629><c> how</c><00:04:51.139><c> to</c>
+
+00:04:51.189 --> 00:04:51.199 align:start position:0%
+what you want to say coherence how to
+ 
+
+00:04:51.199 --> 00:04:54.399 align:start position:0%
+what you want to say coherence how to
+make<00:04:51.529><c> the</c><00:04:52.039><c> text</c><00:04:52.369><c> flow</c><00:04:52.549><c> coherently</c><c.colorE5E5E5><00:04:53.209><c> the</c><00:04:53.989><c> style</c></c>
+
+00:04:54.399 --> 00:04:54.409 align:start position:0%
+make the text flow coherently<c.colorE5E5E5> the style
+ </c>
+
+00:04:54.409 --> 00:04:56.829 align:start position:0%
+make the text flow coherently<c.colorE5E5E5> the style
+the<00:04:55.039><c> media</c></c><c.colorCCCCCC><00:04:55.429><c> so</c><00:04:55.639><c> media</c><00:04:55.969><c> refers</c><00:04:56.359><c> to</c><00:04:56.389><c> the</c></c><c.colorE5E5E5><00:04:56.659><c> fact</c></c>
+
+00:04:56.829 --> 00:04:56.839 align:start position:0%
+the<c.colorE5E5E5> media</c><c.colorCCCCCC> so media refers to the</c><c.colorE5E5E5> fact
+ </c>
+
+00:04:56.839 --> 00:04:58.389 align:start position:0%
+the<c.colorE5E5E5> media</c><c.colorCCCCCC> so media refers to the</c><c.colorE5E5E5> fact
+that<00:04:56.929><c> you</c><00:04:57.109><c> can</c><00:04:57.289><c> generate</c><00:04:57.619><c> multimedia</c></c>
+
+00:04:58.389 --> 00:04:58.399 align:start position:0%
+that you can generate multimedia
+ 
+
+00:04:58.399 --> 00:05:00.069 align:start position:0%
+that you can generate multimedia
+presentations<00:04:59.179><c> that</c><c.colorE5E5E5><00:04:59.299><c> involve</c><00:04:59.689><c> let's</c><00:04:59.899><c> say</c></c>
+
+00:05:00.069 --> 00:05:00.079 align:start position:0%
+presentations that<c.colorE5E5E5> involve let's say
+ </c>
+
+00:05:00.079 --> 00:05:02.019 align:start position:0%
+presentations that<c.colorE5E5E5> involve let's say
+some</c><c.colorCCCCCC><00:05:00.709><c> of</c><00:05:00.799><c> the</c><00:05:00.919><c> information</c><00:05:01.099><c> in</c><00:05:01.609><c> visual</c><00:05:01.999><c> form</c></c>
+
+00:05:02.019 --> 00:05:02.029 align:start position:0%
+some<c.colorCCCCCC> of the information in visual form
+ </c>
+
+00:05:02.029 --> 00:05:03.669 align:start position:0%
+some<c.colorCCCCCC> of the information in visual form
+and<00:05:02.449><c> the</c><00:05:02.539><c> rest</c><00:05:02.719><c> in</c><00:05:02.899><c> texture</c><00:05:03.259><c> form</c><00:05:03.499><c> and</c><00:05:03.619><c> you</c></c>
+
+00:05:03.669 --> 00:05:03.679 align:start position:0%
+and the rest in texture form and you
+ 
+
+00:05:03.679 --> 00:05:05.529 align:start position:0%
+and the rest in texture form and you
+<c.colorE5E5E5>have<00:05:03.859><c> to</c><00:05:04.009><c> balance</c><00:05:04.249><c> the</c></c><c.colorCCCCCC><00:05:04.759><c> amount</c></c><c.colorE5E5E5><00:05:05.389><c> of</c></c>
+
+00:05:05.529 --> 00:05:05.539 align:start position:0%
+<c.colorE5E5E5>have to balance the</c><c.colorCCCCCC> amount</c><c.colorE5E5E5> of
+ </c>
+
+00:05:05.539 --> 00:05:07.389 align:start position:0%
+<c.colorE5E5E5>have to balance the</c><c.colorCCCCCC> amount</c><c.colorE5E5E5> of
+information<00:05:05.809><c> conveyed</c><00:05:06.409><c> by</c><00:05:06.860><c> each</c><00:05:07.039><c> of</c><00:05:07.219><c> those</c></c>
+
+00:05:07.389 --> 00:05:07.399 align:start position:0%
+information<c.colorE5E5E5> conveyed by each of those
+ </c>
+
+00:05:07.399 --> 00:05:10.509 align:start position:0%
+information<c.colorE5E5E5> conveyed by each of those
+media<00:05:08.439><c> you</c><00:05:09.439><c> also</c><00:05:09.559><c> have</c><00:05:09.769><c> to</c><00:05:09.889><c> determine</c><00:05:10.069><c> what</c></c>
+
+00:05:10.509 --> 00:05:10.519 align:start position:0%
+media you also have to determine<c.colorE5E5E5> what
+ </c>
+
+00:05:10.519 --> 00:05:12.489 align:start position:0%
+media you also have to determine<c.colorE5E5E5> what
+syntactic<00:05:11.179><c> structure</c><00:05:11.599><c> to</c><00:05:11.719><c> use</c><00:05:11.869><c> for</c></c><c.colorCCCCCC><00:05:12.079><c> example</c></c>
+
+00:05:12.489 --> 00:05:12.499 align:start position:0%
+syntactic structure to use for<c.colorCCCCCC> example
+ </c>
+
+00:05:12.499 --> 00:05:14.579 align:start position:0%
+syntactic structure to use for<c.colorCCCCCC> example</c>
+<c.colorE5E5E5>whether<00:05:12.649><c> to</c><00:05:12.769><c> use</c><00:05:12.919><c> a</c><00:05:12.949><c> nominal</c><00:05:13.429><c> ization</c><00:05:13.759><c> or</c><00:05:14.179><c> firm</c></c>
+
+00:05:14.579 --> 00:05:14.589 align:start position:0%
+<c.colorE5E5E5>whether to use a nominal ization or firm
+ </c>
+
+00:05:14.589 --> 00:05:17.259 align:start position:0%
+<c.colorE5E5E5>whether to use a nominal ization or firm
+you<00:05:15.589><c> have</c><00:05:15.799><c> to</c><00:05:15.979><c> aggregate</c><00:05:16.309><c> facts</c><00:05:16.909><c> so</c></c><c.colorCCCCCC><00:05:16.999><c> that</c><00:05:17.149><c> you</c></c>
+
+00:05:17.259 --> 00:05:17.269 align:start position:0%
+you<c.colorE5E5E5> have to aggregate facts so</c><c.colorCCCCCC> that you
+ </c>
+
+00:05:17.269 --> 00:05:20.199 align:start position:0%
+you<c.colorE5E5E5> have to aggregate facts so</c><c.colorCCCCCC> that you
+get<00:05:17.449><c> more</c><00:05:18.379><c> concise</c><00:05:19.009><c> sentences</c><00:05:19.819><c> so</c><00:05:19.939><c> instead</c><00:05:20.149><c> of</c></c>
+
+00:05:20.199 --> 00:05:20.209 align:start position:0%
+get more concise<c.colorCCCCCC> sentences so instead of
+ </c>
+
+00:05:20.209 --> 00:05:22.749 align:start position:0%
+get more concise<c.colorCCCCCC> sentences so instead of
+saying<00:05:20.479><c> for</c><00:05:20.689><c> example</c><00:05:21.139><c> there</c><00:05:21.739><c> is</c><00:05:21.860><c> a</c><00:05:21.889><c> cable</c></c><c.colorE5E5E5><00:05:22.249><c> in</c></c>
+
+00:05:22.749 --> 00:05:22.759 align:start position:0%
+saying for<c.colorCCCCCC> example there is a cable</c><c.colorE5E5E5> in
+ </c>
+
+00:05:22.759 --> 00:05:25.209 align:start position:0%
+saying for<c.colorCCCCCC> example there is a cable</c><c.colorE5E5E5> in
+unit<00:05:23.179><c> 1</c><00:05:23.509><c> and</c><00:05:23.779><c> there</c><00:05:24.019><c> is</c><00:05:24.110><c> a</c><00:05:24.139><c> cable</c><00:05:24.619><c> in</c><00:05:24.739><c> unit</c><00:05:25.009><c> 2</c></c>
+
+00:05:25.209 --> 00:05:25.219 align:start position:0%
+unit<c.colorE5E5E5> 1 and there is a cable in unit 2
+ </c>
+
+00:05:25.219 --> 00:05:26.859 align:start position:0%
+unit<c.colorE5E5E5> 1 and there is a cable in unit 2
+you<00:05:25.399><c> may</c><00:05:25.579><c> say</c><00:05:25.759><c> something</c><00:05:26.029><c> like</c><00:05:26.269><c> there</c><00:05:26.599><c> are</c><00:05:26.659><c> two</c></c>
+
+00:05:26.859 --> 00:05:26.869 align:start position:0%
+you may say<c.colorE5E5E5> something like there are two
+ </c>
+
+00:05:26.869 --> 00:05:30.369 align:start position:0%
+you may say<c.colorE5E5E5> something like there are two
+cables<00:05:27.799><c> in</c><00:05:27.979><c> units</c></c><c.colorCCCCCC><00:05:28.309><c> one</c><00:05:28.519><c> and</c><00:05:28.699><c> two</c></c><c.colorE5E5E5><00:05:29.199><c> you</c><00:05:30.199><c> also</c></c>
+
+00:05:30.369 --> 00:05:30.379 align:start position:0%
+cables in units<c.colorCCCCCC> one and two</c><c.colorE5E5E5> you also
+ </c>
+
+00:05:30.379 --> 00:05:31.569 align:start position:0%
+cables in units<c.colorCCCCCC> one and two</c><c.colorE5E5E5> you also
+have<00:05:30.589><c> to</c><00:05:30.709><c> figure</c><00:05:30.799><c> out</c><00:05:30.919><c> how</c><00:05:31.099><c> to</c></c><c.colorCCCCCC><00:05:31.129><c> generate</c></c>
+
+00:05:31.569 --> 00:05:31.579 align:start position:0%
+have to figure<c.colorE5E5E5> out how to</c><c.colorCCCCCC> generate
+ </c>
+
+00:05:31.579 --> 00:05:33.219 align:start position:0%
+have to figure<c.colorE5E5E5> out how to</c><c.colorCCCCCC> generate
+inferring</c><c.colorE5E5E5><00:05:31.999><c> expressions</c><00:05:32.569><c> so</c><00:05:32.689><c> that</c><00:05:32.839><c> the</c><00:05:32.929><c> text</c></c>
+
+00:05:33.219 --> 00:05:33.229 align:start position:0%
+inferring<c.colorE5E5E5> expressions so that the text
+ </c>
+
+00:05:33.229 --> 00:05:35.529 align:start position:0%
+inferring<c.colorE5E5E5> expressions so that the text
+doesn't<00:05:33.409><c> look</c></c><c.colorCCCCCC><00:05:33.709><c> completely</c><00:05:34.609><c> automatically</c></c>
+
+00:05:35.529 --> 00:05:35.539 align:start position:0%
+doesn't look<c.colorCCCCCC> completely automatically
+ </c>
+
+00:05:35.539 --> 00:05:37.659 align:start position:0%
+doesn't look<c.colorCCCCCC> completely automatically
+generated</c><c.colorE5E5E5><00:05:36.289><c> and</c><00:05:36.649><c> you</c><00:05:37.129><c> have</c><00:05:37.279><c> to</c><00:05:37.429><c> worry</c><00:05:37.549><c> about</c></c>
+
+00:05:37.659 --> 00:05:37.669 align:start position:0%
+generated<c.colorE5E5E5> and you have to worry about
+ </c>
+
+00:05:37.669 --> 00:05:39.669 align:start position:0%
+generated<c.colorE5E5E5> and you have to worry about
+the<00:05:37.939><c> lexical</c><00:05:38.419><c> choice</c><00:05:38.659><c> what</c><00:05:38.929><c> were</c><00:05:39.229><c> the</c><00:05:39.469><c> most</c></c>
+
+00:05:39.669 --> 00:05:39.679 align:start position:0%
+<c.colorE5E5E5>the lexical choice what were the most
+ </c>
+
+00:05:39.679 --> 00:05:42.639 align:start position:0%
+<c.colorE5E5E5>the lexical choice what were the most</c>
+<c.colorE5E5E5>appropriate<00:05:40.219><c> in</c><00:05:40.309><c> the</c><00:05:40.399><c> given</c><00:05:40.669><c> context</c><00:05:41.439><c> so</c><00:05:42.439><c> this</c></c>
+
+00:05:42.639 --> 00:05:42.649 align:start position:0%
+<c.colorE5E5E5>appropriate in the given context so this
+ </c>
+
+00:05:42.649 --> 00:05:44.139 align:start position:0%
+<c.colorE5E5E5>appropriate in the given context so this
+is<00:05:42.860><c> the</c><00:05:43.009><c> end</c><00:05:43.159><c> of</c><00:05:43.399><c> the</c><00:05:43.579><c> introduction</c><00:05:44.119><c> to</c></c>
+
+00:05:44.139 --> 00:05:44.149 align:start position:0%
+is the end of the<c.colorE5E5E5> introduction to
+ </c>
+
+00:05:44.149 --> 00:05:47.079 align:start position:0%
+is the end of the<c.colorE5E5E5> introduction to</c>
+<c.colorE5E5E5>natural<00:05:44.599><c> language</c></c><c.colorCCCCCC><00:05:44.689><c> generation</c><00:05:45.849><c> we're</c><00:05:46.849><c> going</c></c>
+
+00:05:47.079 --> 00:05:47.089 align:start position:0%
+<c.colorE5E5E5>natural language</c><c.colorCCCCCC> generation we're going
+ </c>
+
+00:05:47.089 --> 00:05:50.559 align:start position:0%
+<c.colorE5E5E5>natural language</c><c.colorCCCCCC> generation we're going
+to<00:05:47.209><c> continue</c></c><c.colorE5E5E5><00:05:47.539><c> in</c><00:05:47.869><c> the</c></c><c.colorCCCCCC><00:05:47.959><c> next</c><00:05:48.199><c> segment</c></c>
+

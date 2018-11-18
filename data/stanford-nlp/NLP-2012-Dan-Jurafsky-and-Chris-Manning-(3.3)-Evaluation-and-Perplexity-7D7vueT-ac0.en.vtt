@@ -1,0 +1,627 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.030 --> 00:00:04.380
+Every natural language processing
+tool has to be evaluated and
+
+00:00:04.380 --> 00:00:06.090
+language models have to
+be evaluated as well.
+
+00:00:07.250 --> 00:00:11.260
+What does it mean for a language
+model to be a good language model?
+
+00:00:11.260 --> 00:00:14.810
+In general we say a good language
+model is one that is better at
+
+00:00:14.810 --> 00:00:19.720
+finding the good sentences and
+liking them more than the bad sentences.
+
+00:00:19.720 --> 00:00:24.510
+Or, more specifically, we want to assign
+a higher probability to real or, perhaps,
+
+00:00:24.510 --> 00:00:27.571
+frequently observed sentences
+than ungrammatical,
+
+00:00:27.571 --> 00:00:30.778
+or impossible, or
+at least rarely observed sentences.
+
+00:00:30.778 --> 00:00:34.840
+So that's the goal of our
+evaluating a language model.
+
+00:00:34.840 --> 00:00:38.110
+Now, we train the parameters of
+a language model on a training set
+
+00:00:41.420 --> 00:00:44.770
+and we test the model's performance
+on data that we haven't seen.
+
+00:00:44.770 --> 00:00:47.490
+So we have some training data and
+some unseen data.
+
+00:00:47.490 --> 00:00:49.660
+This unseen data's called a test set.
+
+00:00:49.660 --> 00:00:52.587
+And we want it to be something that's
+not the same as our training set,
+
+00:00:52.587 --> 00:00:54.781
+totally unused,
+we've never looked at it before.
+
+00:00:54.781 --> 00:00:58.210
+And that will be a fair
+evaluation of our model.
+
+00:00:58.210 --> 00:01:00.990
+And then we'll need an evaluation
+metric that tells you
+
+00:01:00.990 --> 00:01:03.500
+how well does your model
+do on this unseen test set.
+
+00:01:05.620 --> 00:01:07.560
+So what are these evaluation models?
+
+00:01:07.560 --> 00:01:12.432
+The best evaluation, best way of comparing
+any two models, two language models A and
+
+00:01:12.432 --> 00:01:14.336
+B, is to put each model in a task.
+
+00:01:14.336 --> 00:01:18.011
+So we're going to build our spelling
+corrector, or speech recognizer,
+
+00:01:18.011 --> 00:01:21.960
+or MT system, whatever our application
+is that uses language models.
+
+00:01:21.960 --> 00:01:26.720
+We'll put our language model in there, and
+now we'll run our task and we'll get some
+
+00:01:26.720 --> 00:01:32.160
+accuracy for the system running with
+model A, the system running with model B.
+
+00:01:32.160 --> 00:01:35.410
+Perhaps that's how many misspelled
+words are corrected properly if we're
+
+00:01:35.410 --> 00:01:36.679
+doing spelling correction or
+
+00:01:36.679 --> 00:01:40.560
+how many words are translated
+correctly if we're doing translation.
+
+00:01:40.560 --> 00:01:43.275
+And now we just compare
+the accuracy of the two models.
+
+00:01:43.275 --> 00:01:48.420
+Whichever model has a higher accuracy
+is the better language model.
+
+00:01:48.420 --> 00:01:50.720
+So this is called extrinsic evaluation.
+
+00:01:50.720 --> 00:01:53.970
+We're using something external
+to to the N-gram model itself.
+
+00:01:53.970 --> 00:01:57.160
+And looking at our performance
+on that external task.
+
+00:01:58.570 --> 00:02:02.920
+The problem with this kind of extrinsic
+evaluation, it's also called in-vivo
+
+00:02:02.920 --> 00:02:08.060
+evaluation, is that it's time-consuming.
+
+00:02:08.060 --> 00:02:11.660
+In many cases, this can take days or weeks
+for a modern machine translation system or
+
+00:02:11.660 --> 00:02:13.560
+a modern speech recognition system.
+
+00:02:13.560 --> 00:02:15.830
+Running evaluations can
+often be extremely slow.
+
+00:02:17.570 --> 00:02:21.340
+So instead what we sometimes
+use is an intrinsic evaluation,
+
+00:02:21.340 --> 00:02:24.640
+something that's intrinsically about
+language models themselves and
+
+00:02:24.640 --> 00:02:26.900
+not about any particular application.
+
+00:02:26.900 --> 00:02:30.250
+And the most common intrinsic
+evaluation is called perplexity.
+
+00:02:31.880 --> 00:02:37.800
+Now perplexity happens to be a bad
+approximation to an extrinsic evaluation
+
+00:02:37.800 --> 00:02:41.540
+unless it turns out that the test data
+looks a lot like the training data.
+
+00:02:42.670 --> 00:02:46.750
+So generally, perplexity is useful
+only in pilot experiments, but
+
+00:02:46.750 --> 00:02:49.690
+it does help to think about the problem,
+and
+
+00:02:49.690 --> 00:02:54.190
+it's a useful tool as long as we also
+use extrinsic evaluation as well.
+
+00:02:55.440 --> 00:02:57.720
+So let's think about
+the intuition of perplexity.
+
+00:02:57.720 --> 00:03:02.860
+And like many ideas in language modeling,
+this dates back to Claude Shannon.
+
+00:03:04.480 --> 00:03:08.770
+So Shannon proposed, among many other
+things, a game about word prediction.
+
+00:03:08.770 --> 00:03:10.680
+How well can we predict the next word?
+
+00:03:10.680 --> 00:03:14.630
+So for example, we've seen sentences like
+I always order pizza with cheese and,
+
+00:03:14.630 --> 00:03:17.830
+and our job is to predict the next word.
+
+00:03:17.830 --> 00:03:22.120
+So from this first sentence, we might say,
+well, a good language model might guess
+
+00:03:22.120 --> 00:03:26.720
+that we are likely to have mushrooms and
+likely to have pepperoni, and maybe less
+
+00:03:26.720 --> 00:03:30.210
+likely to have anchovies because anchovies
+are somewhat less popular than mushrooms.
+
+00:03:30.210 --> 00:03:33.050
+And very unlikely to put
+fried rice on our pizza, and
+
+00:03:33.050 --> 00:03:37.890
+extremely unlikely let's say,
+to have and and.
+
+00:03:37.890 --> 00:03:43.490
+Although, people, I guess,
+do say and and after the word and.
+
+00:03:43.490 --> 00:03:48.200
+And so how well the model predicts
+the actual words that occur
+
+00:03:48.200 --> 00:03:51.280
+is how good the model is.
+
+00:03:51.280 --> 00:03:56.900
+So a model on a sentence like the 33rd
+President of the US we know the next word
+
+00:03:56.900 --> 00:04:02.450
+is very likely to be JFK or John or
+Kennedy or some word like that.
+
+00:04:02.450 --> 00:04:04.270
+So this is a very predictable case.
+
+00:04:04.270 --> 00:04:07.640
+Here we have, I saw a,
+anything could come next.
+
+00:04:07.640 --> 00:04:11.818
+So in some cases we're going to be much
+better predicting the next word and
+
+00:04:11.818 --> 00:04:13.800
+in some cases very much worse, but
+
+00:04:13.800 --> 00:04:18.150
+a good language model on average should
+do better than a bad language model.
+
+00:04:18.150 --> 00:04:21.880
+Now it turns out that unigrams are very
+bad at this game, and if you think for
+
+00:04:21.880 --> 00:04:22.900
+a second, you'll realize why.
+
+00:04:24.850 --> 00:04:30.240
+So in summary, a better model of text, a
+better language model, is one that assigns
+
+00:04:30.240 --> 00:04:35.070
+a higher probability to
+whatever word actually occurs.
+
+00:04:35.070 --> 00:04:39.120
+If you can guess right the next word,
+you are a good language model.
+
+00:04:39.120 --> 00:04:43.290
+So the best language model is the one
+that best predicts an unseen test set, or
+
+00:04:43.290 --> 00:04:46.440
+assigns on average the highest
+probability of a sentence
+
+00:04:46.440 --> 00:04:48.490
+to all the sentences that it sees.
+
+00:04:48.490 --> 00:04:52.060
+If you give me a new test set, and I try
+using different language models to assign
+
+00:04:52.060 --> 00:04:55.810
+a probability to each of its sentences,
+the better language model is the one that
+
+00:04:55.810 --> 00:04:59.580
+says, I knew that sentence was coming,
+and assigns it a very high probability.
+
+00:05:00.820 --> 00:05:02.150
+Now the perplexity,
+
+00:05:02.150 --> 00:05:06.210
+this new metric we're going to be using,
+is inversely related to probability.
+
+00:05:06.210 --> 00:05:10.890
+It's the inverse probability of the test
+set, normalized by the number of words.
+
+00:05:10.890 --> 00:05:14.950
+Let's imagine our test set is
+a single long sentence, n words long.
+
+00:05:16.260 --> 00:05:20.130
+We compute the complexity of this n
+word sentence by taking the inverse
+
+00:05:20.130 --> 00:05:21.790
+probability, one over its probability,
+
+00:05:21.790 --> 00:05:26.020
+and then normalizing by length,
+by taking the nth root.
+
+00:05:26.020 --> 00:05:29.220
+We take the nth root because otherwise
+the longer the sentence, the lower
+
+00:05:29.220 --> 00:05:33.060
+the probability, since we're multiplying
+lots of low probability engrams together.
+
+00:05:33.060 --> 00:05:37.340
+So we want a normalizing factor so we can
+compare test sets of different lengths.
+
+00:05:37.340 --> 00:05:41.170
+So just showing this another way, the
+perplexity of a string of words of length
+
+00:05:41.170 --> 00:05:46.110
+n is the nth root of one over
+the probability of the string of words.
+
+00:05:46.110 --> 00:05:47.610
+So by the chain rule,
+
+00:05:47.610 --> 00:05:52.170
+the probability of the string of words
+one through n is the product over all i
+
+00:05:52.170 --> 00:05:56.690
+of the probability of each word
+given the entire prefix beforehand.
+
+00:05:56.690 --> 00:06:00.150
+We're just using the chain rule here to
+rewrite the probability of a long sequence
+
+00:06:00.150 --> 00:06:04.080
+with the product of the probabilities
+of each word given its prefix.
+
+00:06:04.080 --> 00:06:04.580
+And then for
+
+00:06:04.580 --> 00:06:09.020
+bigrams, by our mark up approximation
+to the chain rule, we can estimate
+
+00:06:09.020 --> 00:06:13.180
+the probability of a sequence of words
+with the product of a bunch of bigrams.
+
+00:06:13.180 --> 00:06:17.540
+So the perplexity of a string of words
+according to a bigram model is the nth
+
+00:06:17.540 --> 00:06:22.400
+root of the inverse of the product
+of n bigram probabilities.
+
+00:06:23.430 --> 00:06:25.566
+So because of this inversion,
+
+00:06:25.566 --> 00:06:30.012
+minimizing perplexity is the same
+as maximizing probability.
+
+00:06:30.012 --> 00:06:32.390
+And this is important to keep in
+mind when thinking about perplexity.
+
+00:06:34.060 --> 00:06:36.455
+There's another intuition for perplexity,
+
+00:06:36.455 --> 00:06:41.130
+also based on Shannon, and
+this example comes from Josh Goodman.
+
+00:06:41.130 --> 00:06:44.995
+And this second intuition for
+perplexity relies on the idea
+
+00:06:44.995 --> 00:06:49.796
+that perplexity is the average related
+to the average branching factor.
+
+00:06:51.710 --> 00:06:55.560
+Perplexity at any point in a sentence is,
+on average,
+
+00:06:55.560 --> 00:06:58.160
+how many things could occur next?
+
+00:06:58.160 --> 00:07:01.340
+And we'll see later this is related to
+the probability of the upcoming things,
+
+00:07:01.340 --> 00:07:03.230
+related to the entropy
+of the upcoming things.
+
+00:07:03.230 --> 00:07:07.070
+But roughly speaking, if I had 10
+possible words that could come next and
+
+00:07:07.070 --> 00:07:10.350
+they were all equal probability,
+my perplexity would be 10.
+
+00:07:10.350 --> 00:07:13.079
+So for example,
+if I am recognizing the 10 digits,
+
+00:07:14.110 --> 00:07:17.140
+then the perplexity of the task is 10.
+
+00:07:17.140 --> 00:07:20.480
+There's 10 possible things that could come
+next and I can't decide between them.
+
+00:07:22.130 --> 00:07:27.040
+If I have to recognize when I'm
+building a speech recognizer for
+
+00:07:28.410 --> 00:07:33.720
+a switchboard phone service, and
+I have to recognize 30,000 names,
+
+00:07:33.720 --> 00:07:37.530
+then the perplexity of the names is
+30,000 if they're all equally likely.
+
+00:07:38.990 --> 00:07:43.330
+But suppose a system has to represent,
+has to recognize, let's say again,
+
+00:07:43.330 --> 00:07:46.720
+a phone switchboard, phone operator,
+automatic phone operator,
+
+00:07:46.720 --> 00:07:50.160
+has to recognize the word operator,
+and that occurs a quarter of the time.
+
+00:07:50.160 --> 00:07:52.580
+The word sales,
+that occurs a quarter of the time.
+
+00:07:52.580 --> 00:07:56.270
+Or the word technical support that
+occurs a quarter of the time, and
+
+00:07:56.270 --> 00:08:00.817
+then with 1 over 120,000 times each,
+another 30,000 names occur.
+
+00:08:00.817 --> 00:08:05.402
+So, now we have to take the weighted
+average of all these possibilities of what
+
+00:08:05.402 --> 00:08:09.980
+could occur to compute on average
+how likely is any one word to occur.
+
+00:08:09.980 --> 00:08:11.914
+And now the perplexity is 54.
+
+00:08:12.920 --> 00:08:16.850
+So the perplexity again is the weighted
+equivalent branching factor.
+
+00:08:18.940 --> 00:08:22.320
+So let's examine this
+new kind of perplexity,
+
+00:08:22.320 --> 00:08:24.040
+the weighted equivalent branching factor,
+and
+
+00:08:24.040 --> 00:08:30.110
+show that it's the same as this
+inverted normalized probability metric.
+
+00:08:31.600 --> 00:08:34.760
+So let's take a sentence
+consisting of random digits.
+
+00:08:34.760 --> 00:08:38.780
+What's the perplexity of this sentence
+according to a model that assigns
+
+00:08:39.780 --> 00:08:41.220
+equal probability to each digit?
+
+00:08:42.540 --> 00:08:46.440
+So we'll see the perplexity of
+the sentence, this string of digits,
+
+00:08:46.440 --> 00:08:51.390
+let's make it,
+it doesn't matter how long it is.
+
+00:08:51.390 --> 00:08:52.840
+So we have a bunch of digits.
+
+00:08:52.840 --> 00:08:54.500
+And the probability of
+this bunch of digits,
+
+00:08:54.500 --> 00:08:57.320
+we'll call them digit 1,
+digit 2, through digit n.
+
+00:08:59.080 --> 00:09:02.910
+The perplexity by our first
+metric is negative 1 is
+
+00:09:02.910 --> 00:09:06.090
+the probability of this sequence
+to the negative 1 over n.
+
+00:09:07.560 --> 00:09:13.974
+And since we've said that each of these
+words has a probability of one-tenth and
+
+00:09:13.974 --> 00:09:19.070
+assuming a unigram probability,
+that's probably one-tenth
+
+00:09:19.070 --> 00:09:24.180
+times one-tenth times one-tenth
+times one-tenth and so on.
+
+00:09:24.180 --> 00:09:31.460
+That's one-tenth to the n,
+because there were n words.
+
+00:09:31.460 --> 00:09:35.676
+So, make it -1/n, and
+as we can see over here, that's equal to,
+
+00:09:35.676 --> 00:09:39.480
+the n's cancel,
+we get 1/10 to the -1, or we get 10.
+
+00:09:39.480 --> 00:09:45.258
+So, by thinking about perplexity as the
+normalized probability of a long string,
+
+00:09:45.258 --> 00:09:49.960
+we can sort of see the intuition
+that the average branching factor by
+
+00:09:49.960 --> 00:09:54.661
+normalizing for the length we're
+sort of asking how many things can
+
+00:09:54.661 --> 00:09:58.236
+occur at each time weighted
+by their probability.
+
+00:09:58.236 --> 00:10:00.527
+All right, so now perplexity in general,
+
+00:10:00.527 --> 00:10:03.560
+the lower the perplexity
+the better of the model.
+
+00:10:03.560 --> 00:10:08.440
+So for example, here's where a training
+set trained on 38 million words
+
+00:10:08.440 --> 00:10:12.750
+tested on 1.5 million words from
+the newspaper the Wall Street Journal.
+
+00:10:12.750 --> 00:10:17.400
+And a unigram model has
+a perplexity of 962.
+
+00:10:17.400 --> 00:10:22.230
+A bigram model has a much lower,
+much more accurate perplexity of 170 and
+
+00:10:22.230 --> 00:10:25.280
+a trigram model has even lower perplexity.
+
+00:10:25.280 --> 00:10:31.160
+So perplexity, since it's modeling
+something like average branching factor or
+
+00:10:31.160 --> 00:10:32.340
+average predictability,
+
+00:10:32.340 --> 00:10:37.170
+the lower you get the better you are at
+predicting the actual data that occurs.
+

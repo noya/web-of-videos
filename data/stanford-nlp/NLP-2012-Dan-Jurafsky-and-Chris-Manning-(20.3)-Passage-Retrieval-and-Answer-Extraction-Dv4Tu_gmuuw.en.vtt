@@ -1,0 +1,435 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.600 --> 00:00:05.630
+The next step in Question Answering is
+Passage Retrieval and Answer Extraction.
+
+00:00:07.970 --> 00:00:12.060
+Looking at our flow chart again,
+we've now processed the question,
+
+00:00:12.060 --> 00:00:16.590
+we've decided what queries to send
+to the IR engine, and our job now is
+
+00:00:16.590 --> 00:00:20.780
+to do document retrieval, find all
+documents that have those query words.
+
+00:00:20.780 --> 00:00:22.290
+Extract some documents and
+
+00:00:22.290 --> 00:00:26.950
+pull passages out of those that might
+have relevant answer fragments in them.
+
+00:00:29.470 --> 00:00:30.640
+So we'll have three steps.
+
+00:00:31.940 --> 00:00:34.635
+Retrieve documents from
+the IR engine engine.
+
+00:00:34.635 --> 00:00:36.285
+Segment the document into shorter units.
+
+00:00:36.285 --> 00:00:41.235
+Often we just use paragraph breaks for
+that, and then passage ranking.
+
+00:00:41.235 --> 00:00:44.445
+So reranking the passages
+depending on how well
+
+00:00:44.445 --> 00:00:46.445
+they are likely to contain
+an answer to the question.
+
+00:00:47.892 --> 00:00:51.192
+So it's this third step, passage ranking,
+that I want to talk about.
+
+00:00:51.192 --> 00:00:54.547
+We've seen IR already, and
+the segmentation is relatively simple.
+
+00:00:54.547 --> 00:00:56.714
+We might use paragraphs or
+similar kinds of things.
+
+00:00:56.714 --> 00:01:00.202
+So the hard part really is,
+I've got a whole lot of passages
+
+00:01:00.202 --> 00:01:02.422
+that came back from breaking up
+these documents into pieces.
+
+00:01:02.422 --> 00:01:03.782
+Which ones contain the answer?
+
+00:01:06.930 --> 00:01:11.009
+So the kind of features that get used for
+passage ranking and again we might use
+
+00:01:11.009 --> 00:01:14.820
+the rule-based classifier, we might use
+supervised machine learning for this.
+
+00:01:14.820 --> 00:01:19.850
+We might ask how many named entities of
+the answer type occur in this passage?
+
+00:01:19.850 --> 00:01:22.490
+If I'm asking about a person or
+about a date,
+
+00:01:22.490 --> 00:01:24.420
+how many people or
+dates are in this passage?
+
+00:01:24.420 --> 00:01:25.750
+If none, I've got a bad passage.
+
+00:01:27.190 --> 00:01:29.490
+How many of the query words
+occur in this passage.
+
+00:01:29.490 --> 00:01:31.360
+So I know that they occurred
+in the document, but
+
+00:01:31.360 --> 00:01:34.750
+I want to know how many of them also
+occurred in this particular passage.
+
+00:01:34.750 --> 00:01:39.145
+And instead of words we might
+look at entire N-grams.
+
+00:01:39.145 --> 00:01:43.432
+We might look at how close these
+query keywords occur to each other in
+
+00:01:43.432 --> 00:01:44.347
+the passage.
+
+00:01:44.347 --> 00:01:46.157
+If I've got two or
+three keywords right next to each other,
+
+00:01:46.157 --> 00:01:47.725
+I'm probably on to something.
+
+00:01:47.725 --> 00:01:51.275
+And related to that, I can take
+the longest sequence of question words,
+
+00:01:51.275 --> 00:01:52.545
+and ask how long that is.
+
+00:01:52.545 --> 00:01:54.305
+That's another feature I can use.
+
+00:01:54.305 --> 00:01:57.785
+And of course, the document that had
+the passage, we already ranked that,
+
+00:01:57.785 --> 00:02:00.195
+and the rank of that document
+might itself be a useful feature.
+
+00:02:00.195 --> 00:02:01.515
+So we can throw all these things together.
+
+00:02:03.910 --> 00:02:07.770
+So once I've done this step, so now
+we've got facts about the question, and
+
+00:02:07.770 --> 00:02:10.340
+we've retrieved and
+ranked a bunch of answer passages.
+
+00:02:10.340 --> 00:02:15.850
+The last step is pulling the answer out
+of the passages, so answer processing.
+
+00:02:17.900 --> 00:02:21.010
+So the first thing to do here
+in answer extraction is to run
+
+00:02:21.010 --> 00:02:23.360
+a named-entity tagger on the passages.
+
+00:02:23.360 --> 00:02:26.725
+So if we have an answer type we've
+got to have a named-entity tagger
+
+00:02:26.725 --> 00:02:28.329
+that detects that answer type.
+
+00:02:28.329 --> 00:02:30.276
+So if we know we're looking for a city,
+
+00:02:30.276 --> 00:02:34.558
+that's no help if we don't have a tagger
+that can find cities in raw text.
+
+00:02:34.558 --> 00:02:37.310
+So this could be again a full
+named-entity tagger or
+
+00:02:37.310 --> 00:02:39.640
+some simple regular expression or
+some hybrid.
+
+00:02:39.640 --> 00:02:42.600
+And then our job is to return
+the string with the right type.
+
+00:02:42.600 --> 00:02:45.907
+So for example if we have a person
+question who is the prime minister
+
+00:02:45.907 --> 00:02:46.445
+of India?
+
+00:02:46.445 --> 00:02:50.158
+We're going to want to be able
+to detect answers in passages so
+
+00:02:50.158 --> 00:02:54.467
+that if I had this passage Manmohan Singh,
+Prime Minister of India,
+
+00:02:54.467 --> 00:02:58.410
+I want to know that's a person
+likely to be the answer.
+
+00:02:58.410 --> 00:03:01.000
+Similarly if I have a length question
+
+00:03:01.000 --> 00:03:05.395
+then a passage that contains this
+length is likely to be an answer.
+
+00:03:05.395 --> 00:03:11.020
+So I'm going to want to be able to
+pull out this length and this person.
+
+00:03:14.150 --> 00:03:18.010
+Now the problem happens when a passage
+contains multiple candidate answers of
+
+00:03:18.010 --> 00:03:19.432
+the correct named entity type.
+
+00:03:19.432 --> 00:03:22.640
+So here's a question,
+who was Queen Victoria's second son?
+
+00:03:23.870 --> 00:03:25.500
+And we know we're looking for a person.
+
+00:03:25.500 --> 00:03:26.950
+And here's a lovely passage.
+
+00:03:26.950 --> 00:03:30.880
+The Marie biscuit is named after Marie and
+so on.
+
+00:03:30.880 --> 00:03:34.050
+But this passage has a whole
+lot of named entities in it.
+
+00:03:34.050 --> 00:03:35.450
+It has a whole lot of people.
+
+00:03:35.450 --> 00:03:39.530
+It has Czar Alexander II, then it has
+Alfred and it has Queen Victoria and
+
+00:03:39.530 --> 00:03:40.410
+it has Prince Albert.
+
+00:03:42.060 --> 00:03:47.170
+So Alfred is in fact
+the answer to the question.
+
+00:03:47.170 --> 00:03:51.302
+Alfred is the second
+son of Queen Victoria.
+
+00:03:51.302 --> 00:03:55.400
+So deciding which of these named entities
+is the correct answer, now we're in this
+
+00:03:55.400 --> 00:03:58.855
+machine learning problem where we
+need lots of features that will tell
+
+00:03:58.855 --> 00:04:02.620
+us which of the named entities is likely
+to be the correct answer to extract.
+
+00:04:04.830 --> 00:04:08.230
+And we can use machine learning and
+lots of rich features for
+
+00:04:08.230 --> 00:04:10.040
+ranking these candidate answers.
+
+00:04:10.040 --> 00:04:11.520
+So again,
+
+00:04:11.520 --> 00:04:15.520
+a candidate is a good candidate if it has
+a phrase that has the correct answer type.
+
+00:04:15.520 --> 00:04:20.046
+So If I've got a good name
+that's the right kind of named
+
+00:04:20.046 --> 00:04:22.660
+entity that's a good sign.
+
+00:04:22.660 --> 00:04:24.310
+I can write regular expressions.
+
+00:04:24.310 --> 00:04:26.840
+I can measure the number
+of question keywords.
+
+00:04:26.840 --> 00:04:28.040
+I can look at the distance again.
+
+00:04:28.040 --> 00:04:35.138
+So all these factors that we can use for
+passages we can use for answers as well.
+
+00:04:35.138 --> 00:04:39.507
+A good answer candidate is in apposition
+to question terms that might be,
+
+00:04:39.507 --> 00:04:45.440
+there's an appositive clause, it might
+be followed by some kind of punctuation.
+
+00:04:45.440 --> 00:04:47.700
+We might look again for
+the longest sequence of question terms.
+
+00:04:47.700 --> 00:04:51.790
+So all these same features can now be
+used for ranking candidate answers.
+
+00:04:54.780 --> 00:04:59.880
+So in IBM Watson,
+the answer is actually scored by a whole
+
+00:04:59.880 --> 00:05:02.780
+lot of rich knowledge sources,
+more than 50 components.
+
+00:05:02.780 --> 00:05:05.730
+And they use unstructured text,
+they use semi-structured text,
+
+00:05:05.730 --> 00:05:07.810
+they might use knowledge
+from triple stores,
+
+00:05:07.810 --> 00:05:10.320
+from these relation extractions
+we talked about earlier.
+
+00:05:10.320 --> 00:05:17.920
+And each of them might give a score to a
+possible answer from their own knowledge.
+
+00:05:17.920 --> 00:05:21.760
+So we might use geospatial knowledge,
+so we know let's say from
+
+00:05:21.760 --> 00:05:25.540
+a geospatial database that
+California is southwest of Montana.
+
+00:05:25.540 --> 00:05:28.450
+That might help us in
+deciding if California is
+
+00:05:28.450 --> 00:05:31.430
+a good answer to a question
+involving southwest of Montana.
+
+00:05:31.430 --> 00:05:33.490
+We can extract temporal relationships.
+
+00:05:33.490 --> 00:05:36.060
+We can look at how reliable
+the source passage is.
+
+00:05:36.060 --> 00:05:39.017
+We can do full parses and
+get logical forms and so on.
+
+00:05:39.017 --> 00:05:41.904
+And we'll talk a little bit more later
+about how all of these knowledge sources
+
+00:05:41.904 --> 00:05:42.480
+might be used.
+
+00:05:45.380 --> 00:05:48.390
+Once we've picked an answer,
+we need to decide how good it is.
+
+00:05:48.390 --> 00:05:51.770
+If we're just returning one
+answer we can just use accuracy.
+
+00:05:51.770 --> 00:05:56.500
+Does the answer match some gold labeled
+correct answer for that question?
+
+00:05:56.500 --> 00:06:01.260
+But often we return multiple answers as we
+do in general and information retrieval.
+
+00:06:01.260 --> 00:06:03.981
+In that case we use a metric
+called mean reciprocal rank.
+
+00:06:03.981 --> 00:06:09.157
+What we do is for each query we're gong
+to return a ranked list of M candidate
+
+00:06:09.157 --> 00:06:14.282
+answers and the score of that query
+is 1/Rank of the first right answer.
+
+00:06:14.282 --> 00:06:19.204
+So if M is five and we get five answers
+and only the third one is the first one
+
+00:06:19.204 --> 00:06:23.190
+that's correct,
+the score of that query is one-third.
+
+00:06:23.190 --> 00:06:28.812
+And now we take the mean of those
+ranks all over our N queries.
+
+00:06:28.812 --> 00:06:30.010
+And that's the mean reciprocal rank.
+
+00:06:32.060 --> 00:06:35.810
+So that's the final step in
+the standard IR-based algorithm for
+
+00:06:35.810 --> 00:06:37.080
+factoid question answering.
+

@@ -1,0 +1,596 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.556 --> 00:00:04.030
+Welcome back.
+
+00:00:04.030 --> 00:00:06.790
+We've introduced the idea of
+information extraction and
+
+00:00:06.790 --> 00:00:10.440
+one of its core tasks,
+named entity extraction.
+
+00:00:10.440 --> 00:00:13.709
+Now we'd like to turn to a second
+core task of information extraction,
+
+00:00:13.709 --> 00:00:16.551
+the task of extracting relations,
+or relation extraction.
+
+00:00:19.533 --> 00:00:22.140
+Consider the following sentence
+from a company report.
+
+00:00:22.140 --> 00:00:25.370
+International Business Machines was
+incorporated in the State of New York
+
+00:00:25.370 --> 00:00:26.610
+on June 16th and so on.
+
+00:00:28.180 --> 00:00:32.710
+We'd like to extract a relatively
+complex relation about Company-Founding.
+
+00:00:32.710 --> 00:00:34.770
+We'd like to know that
+there was a founding event,
+
+00:00:34.770 --> 00:00:38.400
+and that the company was IBM,
+that the location was in New York,
+
+00:00:38.400 --> 00:00:43.080
+that there was a date, that the company
+was originally named CTR, and so on, so
+
+00:00:43.080 --> 00:00:48.290
+all this kind of facts about
+this large structured relation.
+
+00:00:48.290 --> 00:00:51.960
+That's the general task of information
+extraction as we've defined it.
+
+00:00:51.960 --> 00:00:55.470
+But we're going to define a simpler
+task of relation extraction
+
+00:00:55.470 --> 00:00:59.260
+which we're going to call the task
+of extracting relation triples.
+
+00:00:59.260 --> 00:01:02.020
+So instead of these complex events,
+
+00:01:02.020 --> 00:01:05.400
+we'll extract things like
+Founding-year(IBM,1911).
+
+00:01:05.400 --> 00:01:09.400
+So a simple relation between
+a predicate and two arguments.
+
+00:01:09.400 --> 00:01:13.340
+IBM was founded in the year 1911,
+Founding-year(IBM,1911), and
+
+00:01:13.340 --> 00:01:17.030
+the same with location,
+Founding-location(IBM,New York).
+
+00:01:17.030 --> 00:01:19.811
+So a series of individual triples,
+and that'll be our task,
+
+00:01:19.811 --> 00:01:21.531
+extracting these triples from text.
+
+00:01:23.853 --> 00:01:27.493
+So for example, imagine the following
+Wikipedia page about Stanford University.
+
+00:01:30.712 --> 00:01:33.668
+Taking a sentence like,
+the Leland Stanford Junior University,
+
+00:01:33.668 --> 00:01:36.460
+commonly referred to as
+Stanford University and so on.
+
+00:01:36.460 --> 00:01:39.970
+From these fragments of sentences,
+we'd like to extract relations,
+
+00:01:39.970 --> 00:01:40.990
+like the following.
+
+00:01:40.990 --> 00:01:44.150
+That Stanford is located in California.
+
+00:01:44.150 --> 00:01:48.230
+And we get that from located in Stanford,
+California.
+
+00:01:48.230 --> 00:01:53.450
+Or founded in 1891,
+there is founded the University in 1891.
+
+00:01:53.450 --> 00:01:57.400
+And the founder was Leland Stanford,
+and here we have Leland Stanford.
+
+00:01:57.400 --> 00:01:58.980
+So from this kind of text,
+
+00:01:58.980 --> 00:02:03.470
+our job is to extract individual relations
+between the entities in the text.
+
+00:02:04.970 --> 00:02:07.898
+Relation extraction is important for
+all sorts of applications.
+
+00:02:07.898 --> 00:02:10.510
+Any time we need some kind
+of structured knowledge, and
+
+00:02:10.510 --> 00:02:13.860
+the knowledge originally is in
+the form of text, it's more easy for
+
+00:02:13.860 --> 00:02:16.755
+an application to get that knowledge
+from a structured database, so
+
+00:02:16.755 --> 00:02:20.990
+we'd like to extract these textual
+facts into structured form.
+
+00:02:20.990 --> 00:02:24.070
+That could be new structured databases or
+we could adding words to
+
+00:02:24.070 --> 00:02:27.560
+current databases like the WordNet
+thesaurus that we'll talk about later, or
+
+00:02:27.560 --> 00:02:29.860
+FreeBase, or
+DBPedia that we'll talk about later today.
+
+00:02:32.560 --> 00:02:34.980
+These kind of relations are quite useful,
+for example,
+
+00:02:34.980 --> 00:02:36.320
+in tasks like question answering.
+
+00:02:36.320 --> 00:02:39.710
+So imagine the following question
+that's modified from a question that
+
+00:02:39.710 --> 00:02:41.520
+was asked on the Jeopardy show.
+
+00:02:41.520 --> 00:02:44.810
+The granddaughter of which actor
+starred in the movie "E.T."?
+
+00:02:44.810 --> 00:02:46.410
+And in order to answer this question,
+
+00:02:46.410 --> 00:02:52.400
+we'd like to know that the relations in
+the question include, acted in E.T., so
+
+00:02:52.400 --> 00:02:56.780
+we want to know who acted in E.T., and we
+have to know that someone is an actor, and
+
+00:02:56.780 --> 00:02:58.590
+that someone is somebody
+else's granddaughter.
+
+00:02:58.590 --> 00:03:02.390
+So these kind of relations will help, both
+in understanding what's being asked in
+
+00:03:02.390 --> 00:03:04.860
+the question, and
+then finding the answer in raw text.
+
+00:03:06.650 --> 00:03:09.390
+That's all great, but
+what relations should we be extracting?
+
+00:03:10.880 --> 00:03:14.710
+Well one set of relations, comes from
+the Automated Content Extraction,
+
+00:03:14.710 --> 00:03:19.990
+or ACE task, where 17 relations
+grouped into six classes were defined.
+
+00:03:19.990 --> 00:03:25.508
+So, for example, we had the class of
+PERSON-SOCIAL relations, so we had Family.
+
+00:03:25.508 --> 00:03:28.450
+So that's going to to be
+related to a parent or
+
+00:03:28.450 --> 00:03:30.960
+a brother relation between people.
+
+00:03:30.960 --> 00:03:34.219
+Or we had PHYSICAL locations,
+something is located in some place or
+
+00:03:34.219 --> 00:03:36.060
+located near some place.
+
+00:03:36.060 --> 00:03:39.520
+Or affiliation with some organization.
+
+00:03:39.520 --> 00:03:42.240
+I might be the founder of an organization,
+or the owner, or
+
+00:03:42.240 --> 00:03:44.070
+some member of an organization.
+
+00:03:44.070 --> 00:03:47.450
+Or I might be the creator of some
+artifact, the manufacturer or
+
+00:03:47.450 --> 00:03:48.960
+inventor of an artifact.
+
+00:03:48.960 --> 00:03:51.000
+Or I might be a corporate subsidiary.
+
+00:03:51.000 --> 00:03:54.630
+Or I might be a geographical
+subpart of some other entity.
+
+00:03:54.630 --> 00:03:57.780
+So these are all the kinds of
+relations that are in ACE.
+
+00:03:59.200 --> 00:04:04.924
+And so for example,
+we might have the Physical-Located
+
+00:04:04.924 --> 00:04:09.680
+in relation, and that might hold
+between a person like He, and
+
+00:04:09.680 --> 00:04:12.705
+some kind of geopolitical entity
+like the state of Tennessee.
+
+00:04:12.705 --> 00:04:18.290
+Or a Part-Whole-Subsidiary that might
+hold between two organizations.
+
+00:04:18.290 --> 00:04:21.590
+The first organization, the parent
+company of the second organization.
+
+00:04:22.920 --> 00:04:26.770
+Or, we talked about family relations so
+again, holding between two people that
+
+00:04:26.770 --> 00:04:31.010
+a wife and a husband are related
+by the family relation.
+
+00:04:31.010 --> 00:04:33.830
+Or we might have the founder relation
+that holds between a person and
+
+00:04:33.830 --> 00:04:35.090
+an organization.
+
+00:04:35.090 --> 00:04:38.330
+So here we have a relation
+between Steve Jobs And Apple.
+
+00:04:38.330 --> 00:04:44.265
+So these are the kind of relations that we
+extracted using the ACE set of relations.
+
+00:04:47.161 --> 00:04:50.160
+Of course there's different sets of
+relations for every possible task.
+
+00:04:50.160 --> 00:04:55.760
+For biomedical information extraction
+we might want to use the UMLS,
+
+00:04:55.760 --> 00:05:00.140
+the Unified Medical Language System, which
+defines entities and relations as well.
+
+00:05:01.140 --> 00:05:06.050
+So, for example, we have entities like
+Injury or Physiological Function,
+
+00:05:06.050 --> 00:05:11.880
+and they can be related by relations
+like disrupts or location-of.
+
+00:05:11.880 --> 00:05:15.840
+So for example we might have some
+Pharmacological Substance, some drug,
+
+00:05:15.840 --> 00:05:20.000
+and that might cause some Pathological
+Function, it might cause some disease or
+
+00:05:20.000 --> 00:05:21.710
+cause some problem.
+
+00:05:21.710 --> 00:05:26.270
+Or we might have some other
+Pharmacological Substance, or
+
+00:05:26.270 --> 00:05:29.260
+we might have some other
+Pharmacological Substance that
+
+00:05:29.260 --> 00:05:31.700
+instead treats some Pathological Function.
+
+00:05:31.700 --> 00:05:33.470
+So we have lots of different entities.
+
+00:05:33.470 --> 00:05:36.580
+In this case,
+134 of them in this dataset, and
+
+00:05:36.580 --> 00:05:38.820
+54 relations that can hold between them.
+
+00:05:40.200 --> 00:05:41.250
+Now for each application,
+
+00:05:41.250 --> 00:05:43.760
+we might have a different set of
+relations that might be useful.
+
+00:05:43.760 --> 00:05:48.440
+So, for example, the sentence, Doppler
+echocardiography can be used to diagnose
+
+00:05:48.440 --> 00:05:51.649
+left anterior descending artery stenosis,
+
+00:05:52.700 --> 00:05:58.610
+we might extract from that sentence
+a relation of diagnoses between
+
+00:05:58.610 --> 00:06:03.910
+this technique and this stenosis.
+
+00:06:06.290 --> 00:06:08.870
+Now there are lots of existing databases
+
+00:06:08.870 --> 00:06:12.510
+of relations that have been extracted from
+public sources like Wikipedia for example,
+
+00:06:12.510 --> 00:06:17.120
+so to take that same Stanford University
+Wikipedia page, you may notice over
+
+00:06:17.120 --> 00:06:20.700
+on the right here a little structured
+part of the Wikipedia page.
+
+00:06:20.700 --> 00:06:23.140
+That's called the Wikipedia info box.
+
+00:06:23.140 --> 00:06:27.830
+If you look in more detail at what we have
+there, we have in fact a set of relations.
+
+00:06:27.830 --> 00:06:29.510
+So we have Type, Private.
+
+00:06:29.510 --> 00:06:31.240
+President, John Hennessey.
+
+00:06:31.240 --> 00:06:33.460
+Location, Stanford, and so on.
+
+00:06:33.460 --> 00:06:38.440
+So each of these kinds of relation names
+and the values of their relations.
+
+00:06:38.440 --> 00:06:42.140
+And if you look at the source for
+this, we can see the actual infobox.
+
+00:06:44.460 --> 00:06:49.760
+And here for example,
+we can see that the city
+
+00:06:49.760 --> 00:06:54.890
+of the University is Stanford,
+the state is California, and
+
+00:06:54.890 --> 00:06:58.650
+the motto "Die Luft der Freiheit weht",
+and so on.
+
+00:06:58.650 --> 00:07:03.840
+And so we can extract these relations
+directly out of the infoboxes.
+
+00:07:03.840 --> 00:07:06.640
+State their relation,
+state their relation model.
+
+00:07:06.640 --> 00:07:10.340
+Holding between Stanford and
+California, or Stanford and the motto.
+
+00:07:13.050 --> 00:07:17.030
+These databases that draw from Wikipedia
+tend to represent the information in what
+
+00:07:17.030 --> 00:07:20.770
+are called Resource Description Framework
+triples, or RDF triples.
+
+00:07:20.770 --> 00:07:25.120
+An RDF triple is just a subject,
+some sort of predicate and an object.
+
+00:07:25.120 --> 00:07:27.640
+So, the predicate is what we
+are calling a relation, so
+
+00:07:27.640 --> 00:07:30.700
+location would be a predicate in RDF.
+
+00:07:30.700 --> 00:07:34.570
+So we have Golden Gate Park
+location San Francisco, so
+
+00:07:34.570 --> 00:07:38.200
+a location relation between
+Golden Gate Park and San Francisco.
+
+00:07:39.910 --> 00:07:44.720
+And, databases like DBPedia which draw
+on the Wikipedia infoboxes to create
+
+00:07:44.720 --> 00:07:49.550
+these large databases to triple,
+in fact has a billion of these triples,
+
+00:07:49.550 --> 00:07:54.180
+385 million of which come from, I should
+say million, come from English Wikipedia.
+
+00:07:55.900 --> 00:08:00.096
+And in other databases like Freebase,
+we have a lot of this kind of relations,
+
+00:08:00.096 --> 00:08:04.294
+so a common relation is the nationality
+of a person mentioned in Wikipedia, or
+
+00:08:04.294 --> 00:08:08.746
+their profession, or classification of
+a biological entity, or which locations
+
+00:08:08.746 --> 00:08:12.582
+are inside which other locations,
+like Paris is in France, and so on.
+
+00:08:16.483 --> 00:08:21.247
+We can also extract ontological relations,
+we'll talk about this more when we talk
+
+00:08:21.247 --> 00:08:25.946
+about thesauruses like WordNet, but
+every kind of relation databases includes,
+
+00:08:25.946 --> 00:08:29.720
+or are called, IS-A, or hypernym,
+or subsumption relation.
+
+00:08:29.720 --> 00:08:33.750
+So we know that a giraffe is a kind of
+ruminant, which is a kind of ungulate,
+
+00:08:33.750 --> 00:08:35.244
+which is a kind of mammal, and so on.
+
+00:08:35.244 --> 00:08:38.990
+So these IS-A or hypernym relations are
+very important and we can think of those
+
+00:08:38.990 --> 00:08:41.982
+as the same kind of relation and extract
+them with similar kinds of methods.
+
+00:08:41.982 --> 00:08:47.360
+Of this specific type of, this kind of
+relation where we have an instance and
+
+00:08:47.360 --> 00:08:53.370
+a particular entity like San Francisco
+which is an instance of a city,
+
+00:08:53.370 --> 00:08:55.540
+so we can have a relationship
+between classes,
+
+00:08:55.540 --> 00:08:59.380
+the class giraffe is a subtype
+of the class ruminant.
+
+00:08:59.380 --> 00:09:03.420
+Or we can have an instance San Francisco
+which is an instance of a class like city.
+
+00:09:03.420 --> 00:09:05.690
+And again these relations can
+be extracted from text and
+
+00:09:05.690 --> 00:09:10.080
+we can use them to augment databases or
+create new databases of our own.
+
+00:09:12.940 --> 00:09:14.940
+How do we build these relation extractors?
+
+00:09:14.940 --> 00:09:16.280
+There's a number of methods.
+
+00:09:16.280 --> 00:09:20.150
+Like all information extraction,
+as we saw with named entity tagging,
+
+00:09:20.150 --> 00:09:23.460
+we can hand-write patterns, and
+we'll talk about hand-written patterns for
+
+00:09:23.460 --> 00:09:24.680
+extracting relations.
+
+00:09:24.680 --> 00:09:26.080
+We can do supervised machine learning.
+
+00:09:26.080 --> 00:09:30.720
+And then there's a number of popular
+methods for doing semi-supervised and
+
+00:09:30.720 --> 00:09:32.840
+unsupervised learning for
+extracting relations, and
+
+00:09:32.840 --> 00:09:33.740
+we'll talk about those as well.
+
+00:09:37.290 --> 00:09:40.180
+We've seen that relation extraction
+is an important component of
+
+00:09:40.180 --> 00:09:42.840
+information extraction,
+useful for question answering and
+
+00:09:42.840 --> 00:09:45.700
+for building large
+knowledge bases from text.
+

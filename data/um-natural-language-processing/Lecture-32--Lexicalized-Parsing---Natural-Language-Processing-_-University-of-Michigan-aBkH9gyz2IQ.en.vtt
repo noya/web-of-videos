@@ -1,0 +1,1710 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:08.460 --> 00:00:10.830 align:start position:0%
+ 
+<c.colorE5E5E5>okay<00:00:09.460><c> so</c><00:00:09.520><c> the</c><00:00:09.730><c> next</c><00:00:09.850><c> segment</c><00:00:10.330><c> is</c><00:00:10.420><c> going</c><00:00:10.480><c> to</c></c><c.colorCCCCCC><00:00:10.690><c> be</c></c>
+
+00:00:10.830 --> 00:00:10.840 align:start position:0%
+<c.colorE5E5E5>okay so the next segment is going to</c><c.colorCCCCCC> be
+ </c>
+
+00:00:10.840 --> 00:00:14.220 align:start position:0%
+<c.colorE5E5E5>okay so the next segment is going to</c><c.colorCCCCCC> be
+about<00:00:11.050><c> lexicalized</c><00:00:11.800><c> parsing</c></c><c.colorE5E5E5><00:00:12.750><c> so</c><00:00:13.750><c> lexicalized</c></c>
+
+00:00:14.220 --> 00:00:14.230 align:start position:0%
+about lexicalized parsing<c.colorE5E5E5> so lexicalized
+ </c>
+
+00:00:14.230 --> 00:00:16.800 align:start position:0%
+about lexicalized parsing<c.colorE5E5E5> so lexicalized
+parsing<00:00:14.260><c> is</c><00:00:15.070><c> one</c><00:00:15.400><c> step</c><00:00:15.670><c> up</c></c><c.colorCCCCCC><00:00:15.970><c> from</c><00:00:16.270><c> context-free</c></c>
+
+00:00:16.800 --> 00:00:16.810 align:start position:0%
+parsing is one step up<c.colorCCCCCC> from context-free
+ </c>
+
+00:00:16.810 --> 00:00:19.050 align:start position:0%
+parsing is one step up<c.colorCCCCCC> from context-free
+parsing<00:00:17.529><c> because</c><00:00:17.920><c> it</c><00:00:18.099><c> allows</c><00:00:18.369><c> us</c></c><c.colorE5E5E5><00:00:18.610><c> to</c><00:00:18.820><c> capture</c></c>
+
+00:00:19.050 --> 00:00:19.060 align:start position:0%
+parsing because it allows<c.colorCCCCCC> us</c><c.colorE5E5E5> to capture
+ </c>
+
+00:00:19.060 --> 00:00:21.240 align:start position:0%
+parsing because it allows<c.colorCCCCCC> us</c><c.colorE5E5E5> to capture</c>
+<c.colorE5E5E5>some<00:00:19.480><c> regularities</c><00:00:20.170><c> that</c><00:00:20.200><c> are</c><00:00:20.529><c> involved</c><00:00:21.070><c> with</c></c>
+
+00:00:21.240 --> 00:00:21.250 align:start position:0%
+<c.colorE5E5E5>some regularities that are involved with
+ </c>
+
+00:00:21.250 --> 00:00:23.999 align:start position:0%
+<c.colorE5E5E5>some regularities that are involved with
+specific<00:00:22.180><c> words</c><00:00:22.630><c> and</c><00:00:22.990><c> specific</c><00:00:23.500><c> heads</c><00:00:23.800><c> of</c></c>
+
+00:00:23.999 --> 00:00:24.009 align:start position:0%
+specific<c.colorE5E5E5> words and specific heads of
+ </c>
+
+00:00:24.009 --> 00:00:27.510 align:start position:0%
+specific<c.colorE5E5E5> words and specific heads of
+phrases<00:00:25.050><c> so</c><00:00:26.050><c> why</c><00:00:26.320><c> are</c><00:00:26.380><c> we</c><00:00:26.650><c> even</c><00:00:26.890><c> considering</c></c>
+
+00:00:27.510 --> 00:00:27.520 align:start position:0%
+phrases<c.colorE5E5E5> so why are we even considering
+ </c>
+
+00:00:27.520 --> 00:00:30.569 align:start position:0%
+phrases<c.colorE5E5E5> so why are we even considering
+it<00:00:27.669><c> well</c><00:00:27.939><c> the</c><00:00:28.329><c> reason</c><00:00:28.599><c> is</c><00:00:28.720><c> that</c><00:00:29.130><c> pcfg</c><00:00:30.130><c> s</c><00:00:30.340><c> and</c></c>
+
+00:00:30.569 --> 00:00:30.579 align:start position:0%
+it<c.colorE5E5E5> well the reason is that pcfg s and
+ </c>
+
+00:00:30.579 --> 00:00:33.360 align:start position:0%
+it<c.colorE5E5E5> well the reason is that pcfg s and
+CFG<00:00:31.000><c> is</c><00:00:31.060><c> in</c><00:00:31.210><c> general</c></c><c.colorCCCCCC><00:00:31.419><c> our</c><00:00:32.160><c> have</c><00:00:33.160><c> some</c></c>
+
+00:00:33.360 --> 00:00:33.370 align:start position:0%
+CFG is in general<c.colorCCCCCC> our have some
+ </c>
+
+00:00:33.370 --> 00:00:35.580 align:start position:0%
+CFG is in general<c.colorCCCCCC> our have some</c>
+<c.colorE5E5E5>limitations<00:00:34.050><c> for</c></c><c.colorCCCCCC><00:00:35.050><c> example</c><00:00:35.470><c> the</c></c>
+
+00:00:35.580 --> 00:00:35.590 align:start position:0%
+<c.colorE5E5E5>limitations for</c><c.colorCCCCCC> example the
+ </c>
+
+00:00:35.590 --> 00:00:36.990 align:start position:0%
+<c.colorE5E5E5>limitations for</c><c.colorCCCCCC> example the
+probabilities<00:00:36.160><c> don't</c></c><c.colorE5E5E5><00:00:36.309><c> depend</c><00:00:36.700><c> on</c><00:00:36.880><c> the</c></c>
+
+00:00:36.990 --> 00:00:37.000 align:start position:0%
+probabilities don't<c.colorE5E5E5> depend on the
+ </c>
+
+00:00:37.000 --> 00:00:40.319 align:start position:0%
+probabilities don't<c.colorE5E5E5> depend on the
+specific<00:00:37.510><c> words</c><00:00:38.280><c> if</c><00:00:39.280><c> we</c></c><c.colorCCCCCC><00:00:39.489><c> have</c><00:00:39.670><c> a</c><00:00:39.790><c> verb</c><00:00:40.300><c> like</c></c>
+
+00:00:40.319 --> 00:00:40.329 align:start position:0%
+specific words<c.colorE5E5E5> if we</c><c.colorCCCCCC> have a verb like
+ </c>
+
+00:00:40.329 --> 00:00:43.860 align:start position:0%
+specific words<c.colorE5E5E5> if we</c><c.colorCCCCCC> have a verb like</c>
+<c.colorE5E5E5>give<00:00:40.960><c> and</c><00:00:41.649><c> the</c><00:00:42.039><c> verb</c><00:00:42.250><c> look</c><00:00:42.399><c> like</c><00:00:42.640><c> see</c><00:00:43.149><c> we</c><00:00:43.690><c> know</c></c>
+
+00:00:43.860 --> 00:00:43.870 align:start position:0%
+<c.colorE5E5E5>give and the verb look like see we know
+ </c>
+
+00:00:43.870 --> 00:00:45.630 align:start position:0%
+<c.colorE5E5E5>give and the verb look like see we know
+that</c><c.colorCCCCCC><00:00:43.899><c> they</c></c><c.colorE5E5E5><00:00:44.170><c> have</c><00:00:44.350><c> different</c><00:00:44.890><c> structures</c></c><c.colorCCCCCC><00:00:45.340><c> so</c></c>
+
+00:00:45.630 --> 00:00:45.640 align:start position:0%
+that<c.colorCCCCCC> they</c><c.colorE5E5E5> have different structures</c><c.colorCCCCCC> so
+ </c>
+
+00:00:45.640 --> 00:00:48.029 align:start position:0%
+that<c.colorCCCCCC> they</c><c.colorE5E5E5> have different structures</c><c.colorCCCCCC> so
+give<00:00:45.969><c> takes</c><00:00:46.750><c> two</c><00:00:46.989><c> arguments</c><00:00:47.320><c> in</c><00:00:47.679><c> the</c><00:00:47.800><c> form</c></c>
+
+00:00:48.029 --> 00:00:48.039 align:start position:0%
+give takes two arguments in the form
+ 
+
+00:00:48.039 --> 00:00:50.549 align:start position:0%
+give takes two arguments in the form
+give<00:00:48.280><c> someone</c><00:00:48.789><c> something</c><c.colorE5E5E5><00:00:49.210><c> versus</c><00:00:50.019><c> the</c><00:00:50.320><c> verb</c></c>
+
+00:00:50.549 --> 00:00:50.559 align:start position:0%
+give someone something<c.colorE5E5E5> versus the verb
+ </c>
+
+00:00:50.559 --> 00:00:52.799 align:start position:0%
+give someone something<c.colorE5E5E5> versus the verb</c>
+<c.colorE5E5E5>see<00:00:51.010><c> which</c><00:00:51.339><c> only</c><00:00:51.550><c> takes</c><00:00:51.760><c> one</c><00:00:52.030><c> argument</c></c><c.colorCCCCCC><00:00:52.059><c> as</c><00:00:52.629><c> and</c></c>
+
+00:00:52.799 --> 00:00:52.809 align:start position:0%
+<c.colorE5E5E5>see which only takes one argument</c><c.colorCCCCCC> as and
+ </c>
+
+00:00:52.809 --> 00:00:56.759 align:start position:0%
+<c.colorE5E5E5>see which only takes one argument</c><c.colorCCCCCC> as and
+see<00:00:53.079><c> something</c></c><c.colorE5E5E5><00:00:54.839><c> in</c><00:00:55.839><c> context-free</c><00:00:56.350><c> grammars</c></c>
+
+00:00:56.759 --> 00:00:56.769 align:start position:0%
+see something<c.colorE5E5E5> in context-free grammars
+ </c>
+
+00:00:56.769 --> 00:00:58.889 align:start position:0%
+see something<c.colorE5E5E5> in context-free grammars
+it's<00:00:56.949><c> not</c><00:00:57.070><c> possible</c><00:00:57.609><c> to</c><00:00:57.940><c> take</c><00:00:58.359><c> into</c><00:00:58.629><c> account</c></c>
+
+00:00:58.889 --> 00:00:58.899 align:start position:0%
+it's not possible to take into<c.colorE5E5E5> account
+ </c>
+
+00:00:58.899 --> 00:01:00.779 align:start position:0%
+it's not possible to take into<c.colorE5E5E5> account
+this<00:00:59.230><c> kind</c><00:00:59.440><c> of</c><00:00:59.499><c> argument</c></c><c.colorCCCCCC><00:00:59.679><c> structure</c><00:01:00.219><c> easily</c></c>
+
+00:01:00.779 --> 00:01:00.789 align:start position:0%
+<c.colorE5E5E5>this kind of argument</c><c.colorCCCCCC> structure easily
+ </c>
+
+00:01:00.789 --> 00:01:03.060 align:start position:0%
+<c.colorE5E5E5>this kind of argument</c><c.colorCCCCCC> structure easily</c>
+<c.colorE5E5E5>it's<00:01:01.629><c> also</c><00:01:01.809><c> not</c></c><c.colorCCCCCC><00:01:02.050><c> possible</c><00:01:02.260><c> to</c><00:01:02.649><c> disambiguate</c></c>
+
+00:01:03.060 --> 00:01:03.070 align:start position:0%
+<c.colorE5E5E5>it's also not</c><c.colorCCCCCC> possible to disambiguate
+ </c>
+
+00:01:03.070 --> 00:01:04.850 align:start position:0%
+<c.colorE5E5E5>it's also not</c><c.colorCCCCCC> possible to disambiguate
+sentences<00:01:03.760><c> based</c><00:01:03.969><c> on</c><00:01:04.150><c> semantic</c><00:01:04.629><c> information</c></c>
+
+00:01:04.850 --> 00:01:04.860 align:start position:0%
+sentences based on semantic information
+ 
+
+00:01:04.860 --> 00:01:09.030 align:start position:0%
+sentences based on semantic information
+<c.colorCCCCCC>so</c><c.colorE5E5E5><00:01:05.860><c> for</c><00:01:06.040><c> example</c><00:01:06.540><c> the</c><00:01:07.540><c> fact</c><00:01:07.780><c> that</c><00:01:08.040><c> eating</c></c>
+
+00:01:09.030 --> 00:01:09.040 align:start position:0%
+<c.colorCCCCCC>so</c><c.colorE5E5E5> for example the fact that eating
+ </c>
+
+00:01:09.040 --> 00:01:11.280 align:start position:0%
+<c.colorCCCCCC>so</c><c.colorE5E5E5> for example the fact that eating
+pizza<00:01:09.370><c> with</c><00:01:09.520><c> pepperoni</c></c><c.colorCCCCCC><00:01:09.880><c> is</c><00:01:10.630><c> very</c></c><c.colorE5E5E5><00:01:10.960><c> different</c></c>
+
+00:01:11.280 --> 00:01:11.290 align:start position:0%
+pizza<c.colorE5E5E5> with pepperoni</c><c.colorCCCCCC> is very</c><c.colorE5E5E5> different
+ </c>
+
+00:01:11.290 --> 00:01:12.960 align:start position:0%
+pizza<c.colorE5E5E5> with pepperoni</c><c.colorCCCCCC> is very</c><c.colorE5E5E5> different
+from<00:01:11.350><c> eating</c><00:01:11.740><c> pizza</c></c><c.colorCCCCCC><00:01:11.770><c> with</c></c><c.colorE5E5E5><00:01:12.220><c> the</c><00:01:12.250><c> form</c><00:01:12.610><c> because</c></c>
+
+00:01:12.960 --> 00:01:12.970 align:start position:0%
+from eating pizza<c.colorCCCCCC> with</c><c.colorE5E5E5> the form because
+ </c>
+
+00:01:12.970 --> 00:01:15.210 align:start position:0%
+from eating pizza<c.colorCCCCCC> with</c><c.colorE5E5E5> the form because
+pepperoni<00:01:13.570><c> is</c><00:01:13.750><c> a</c><00:01:13.840><c> food</c><00:01:14.170><c> item</c><00:01:14.409><c> whereas</c><00:01:14.920><c> foo</c></c>
+
+00:01:15.210 --> 00:01:15.220 align:start position:0%
+pepperoni is a food item whereas foo
+ 
+
+00:01:15.220 --> 00:01:17.700 align:start position:0%
+pepperoni is a food item whereas foo
+fork<00:01:15.670><c> is</c><00:01:15.850><c> a</c><00:01:15.880><c> tool</c><00:01:16.270><c> so</c><c.colorE5E5E5><00:01:16.960><c> we</c><00:01:17.079><c> cannot</c><00:01:17.320><c> in</c><00:01:17.619><c> a</c></c>
+
+00:01:17.700 --> 00:01:17.710 align:start position:0%
+fork is a tool so<c.colorE5E5E5> we cannot in a
+ </c>
+
+00:01:17.710 --> 00:01:18.660 align:start position:0%
+fork is a tool so<c.colorE5E5E5> we cannot in a
+context-free<00:01:18.159><c> grammar</c></c>
+
+00:01:18.660 --> 00:01:18.670 align:start position:0%
+context-free grammar
+ 
+
+00:01:18.670 --> 00:01:21.330 align:start position:0%
+context-free grammar
+<c.colorE5E5E5>figure<00:01:19.210><c> out</c><00:01:19.299><c> that</c><00:01:19.649><c> pepperoni</c><00:01:20.649><c> is</c><00:01:20.829><c> more</c><00:01:21.040><c> likely</c></c>
+
+00:01:21.330 --> 00:01:21.340 align:start position:0%
+<c.colorE5E5E5>figure out that pepperoni is more likely
+ </c>
+
+00:01:21.340 --> 00:01:23.280 align:start position:0%
+<c.colorE5E5E5>figure out that pepperoni is more likely</c>
+<c.colorE5E5E5>to<00:01:21.460><c> be</c><00:01:21.579><c> associated</c></c><c.colorCCCCCC><00:01:22.119><c> with</c><00:01:22.360><c> low</c><00:01:22.630><c> attachment</c></c>
+
+00:01:23.280 --> 00:01:23.290 align:start position:0%
+<c.colorE5E5E5>to be associated</c><c.colorCCCCCC> with low attachment
+ </c>
+
+00:01:23.290 --> 00:01:27.420 align:start position:0%
+<c.colorE5E5E5>to be associated</c><c.colorCCCCCC> with low attachment</c>
+<c.colorCCCCCC>versus<00:01:23.799><c> fork</c><00:01:24.520><c> which</c><00:01:24.790><c> is</c><00:01:24.969><c> high</c><00:01:25.149><c> attachment</c><00:01:26.430><c> so</c></c>
+
+00:01:27.420 --> 00:01:27.430 align:start position:0%
+<c.colorCCCCCC>versus fork which is high attachment so
+ </c>
+
+00:01:27.430 --> 00:01:29.190 align:start position:0%
+<c.colorCCCCCC>versus fork which is high attachment so
+the<00:01:27.549><c> basic</c><00:01:27.939><c> idea</c><00:01:28.030><c> of</c><00:01:28.270><c> a</c><00:01:28.390><c> lexicalized</c><00:01:28.869><c> grammar</c></c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+the basic idea<c.colorCCCCCC> of a lexicalized grammar
+ </c>
+
+00:01:29.200 --> 00:01:31.770 align:start position:0%
+the basic idea<c.colorCCCCCC> of a lexicalized grammar
+is<00:01:29.530><c> to</c><00:01:29.950><c> use</c><00:01:30.130><c> the</c><00:01:30.340><c> head</c><00:01:30.610><c> of</c><00:01:30.759><c> a</c><00:01:30.850><c> phrase</c><00:01:31.149><c> as</c><00:01:31.540><c> an</c></c>
+
+00:01:31.770 --> 00:01:31.780 align:start position:0%
+is to use the head of a phrase as an
+ 
+
+00:01:31.780 --> 00:01:33.179 align:start position:0%
+is to use the head of a phrase as an
+additional<c.colorE5E5E5><00:01:32.170><c> source</c><00:01:32.439><c> of</c><00:01:32.560><c> information</c><00:01:32.829><c> for</c></c>
+
+00:01:33.179 --> 00:01:33.189 align:start position:0%
+additional<c.colorE5E5E5> source of information for
+ </c>
+
+00:01:33.189 --> 00:01:35.399 align:start position:0%
+additional<c.colorE5E5E5> source of information for</c>
+<c.colorCCCCCC>example<00:01:33.820><c> instead</c></c><c.colorE5E5E5><00:01:34.450><c> of</c><00:01:34.570><c> having</c></c><c.colorCCCCCC><00:01:34.630><c> a</c><00:01:35.020><c> rule</c></c><c.colorE5E5E5><00:01:35.229><c> that</c></c>
+
+00:01:35.399 --> 00:01:35.409 align:start position:0%
+<c.colorCCCCCC>example instead</c><c.colorE5E5E5> of having</c><c.colorCCCCCC> a rule</c><c.colorE5E5E5> that
+ </c>
+
+00:01:35.409 --> 00:01:37.230 align:start position:0%
+<c.colorCCCCCC>example instead</c><c.colorE5E5E5> of having</c><c.colorCCCCCC> a rule</c><c.colorE5E5E5> that</c>
+<c.colorCCCCCC>just<00:01:35.619><c> says</c></c><c.colorE5E5E5><00:01:35.799><c> that</c><00:01:36.040><c> the</c><00:01:36.159><c> verb</c><00:01:36.369><c> phrase</c><00:01:36.579><c> gets</c></c>
+
+00:01:37.230 --> 00:01:37.240 align:start position:0%
+<c.colorCCCCCC>just says</c><c.colorE5E5E5> that the verb phrase gets
+ </c>
+
+00:01:37.240 --> 00:01:39.270 align:start position:0%
+<c.colorCCCCCC>just says</c><c.colorE5E5E5> that the verb phrase gets
+transformed<00:01:37.780><c> into</c><00:01:37.810><c> a</c><00:01:38.049><c> verb</c></c><c.colorCCCCCC><00:01:38.320><c> we're</c><00:01:38.979><c> going</c><00:01:39.159><c> to</c></c>
+
+00:01:39.270 --> 00:01:39.280 align:start position:0%
+transformed into<c.colorE5E5E5> a verb</c><c.colorCCCCCC> we're going to
+ </c>
+
+00:01:39.280 --> 00:01:40.859 align:start position:0%
+transformed into<c.colorE5E5E5> a verb</c><c.colorCCCCCC> we're going to
+have<00:01:39.460><c> a</c><00:01:39.490><c> rule</c><00:01:39.759><c> that</c></c><c.colorE5E5E5><00:01:39.939><c> says</c><00:01:40.180><c> a</c><00:01:40.210><c> verb</c><00:01:40.689><c> phrase</c></c>
+
+00:01:40.859 --> 00:01:40.869 align:start position:0%
+have a rule<c.colorCCCCCC> that</c><c.colorE5E5E5> says a verb phrase
+ </c>
+
+00:01:40.869 --> 00:01:43.709 align:start position:0%
+have a rule<c.colorCCCCCC> that</c><c.colorE5E5E5> says a verb phrase</c>
+<c.colorE5E5E5>whose<00:01:41.469><c> head</c><00:01:41.829><c> is</c><00:01:42.340><c> 8</c><00:01:42.850><c> is</c><00:01:43.210><c> going</c><00:01:43.509><c> to</c><00:01:43.630><c> be</c></c>
+
+00:01:43.709 --> 00:01:43.719 align:start position:0%
+<c.colorE5E5E5>whose head is 8 is going to be
+ </c>
+
+00:01:43.719 --> 00:01:47.300 align:start position:0%
+<c.colorE5E5E5>whose head is 8 is going to be
+transformed<00:01:44.439><c> into</c><00:01:44.619><c> a</c><00:01:45.070><c> verb</c><00:01:45.490><c> whose</c><00:01:46.000><c> head</c><00:01:46.270><c> is</c><00:01:46.420><c> 8</c></c>
+
+00:01:47.300 --> 00:01:47.310 align:start position:0%
+transformed into<c.colorE5E5E5> a verb whose head is 8
+ </c>
+
+00:01:47.310 --> 00:01:50.639 align:start position:0%
+transformed into<c.colorE5E5E5> a verb whose head is 8
+so<00:01:48.310><c> here's</c><00:01:48.490><c> an</c><00:01:48.610><c> example</c><00:01:48.869><c> we</c><00:01:49.869><c> have</c><00:01:50.110><c> the</c><00:01:50.350><c> parse</c></c>
+
+00:01:50.639 --> 00:01:50.649 align:start position:0%
+so here's an example<c.colorE5E5E5> we have the parse
+ </c>
+
+00:01:50.649 --> 00:01:52.529 align:start position:0%
+so here's an example<c.colorE5E5E5> we have the parse
+tree<00:01:50.740><c> from</c><00:01:51.250><c> the</c><00:01:51.399><c> previous</c><00:01:51.759><c> segment</c><00:01:52.210><c> for</c><00:01:52.450><c> the</c></c>
+
+00:01:52.529 --> 00:01:52.539 align:start position:0%
+tree from the previous<c.colorE5E5E5> segment for the
+ </c>
+
+00:01:52.539 --> 00:01:54.599 align:start position:0%
+tree from the previous<c.colorE5E5E5> segment for the
+sentence<00:01:52.960><c> the</c><00:01:53.049><c> child</c><00:01:53.380><c> ate</c><00:01:53.829><c> the</c><00:01:54.100><c> cake</c><00:01:54.310><c> with</c><00:01:54.579><c> a</c></c>
+
+00:01:54.599 --> 00:01:54.609 align:start position:0%
+sentence the child<c.colorE5E5E5> ate the cake with a
+ </c>
+
+00:01:54.609 --> 00:01:58.050 align:start position:0%
+sentence the child<c.colorE5E5E5> ate the cake with a
+fork<00:01:55.770><c> we</c><00:01:56.770><c> want</c><00:01:56.979><c> to</c><00:01:57.100><c> convert</c><00:01:57.520><c> this</c><00:01:57.700><c> into</c><00:01:57.759><c> a</c></c>
+
+00:01:58.050 --> 00:01:58.060 align:start position:0%
+fork we want to convert<c.colorE5E5E5> this into a
+ </c>
+
+00:01:58.060 --> 00:02:00.359 align:start position:0%
+fork we want to convert<c.colorE5E5E5> this into a
+lexicalized<00:01:58.630><c> form</c><00:01:59.020><c> and</c><00:01:59.320><c> this</c><00:01:59.680><c> is</c><00:01:59.859><c> done</c></c><c.colorCCCCCC><00:02:00.070><c> by</c></c>
+
+00:02:00.359 --> 00:02:00.369 align:start position:0%
+lexicalized form<c.colorE5E5E5> and this is done</c><c.colorCCCCCC> by
+ </c>
+
+00:02:00.369 --> 00:02:02.219 align:start position:0%
+lexicalized form<c.colorE5E5E5> and this is done</c><c.colorCCCCCC> by
+starting</c><c.colorE5E5E5><00:02:01.030><c> from</c><00:02:01.149><c> the</c></c><c.colorCCCCCC><00:02:01.329><c> lowest</c><00:02:01.719><c> level</c><00:02:02.109><c> of</c><00:02:02.170><c> the</c></c>
+
+00:02:02.219 --> 00:02:02.229 align:start position:0%
+starting<c.colorE5E5E5> from the</c><c.colorCCCCCC> lowest level of the
+ </c>
+
+00:02:02.229 --> 00:02:04.319 align:start position:0%
+starting<c.colorE5E5E5> from the</c><c.colorCCCCCC> lowest level of the</c>
+<c.colorE5E5E5>parse<00:02:02.619><c> tree</c><00:02:02.680><c> the</c><00:02:03.070><c> terminal</c><00:02:03.670><c> symbols</c></c><c.colorCCCCCC><00:02:03.850><c> in</c><00:02:04.210><c> the</c></c>
+
+00:02:04.319 --> 00:02:04.329 align:start position:0%
+<c.colorE5E5E5>parse tree the terminal symbols</c><c.colorCCCCCC> in the
+ </c>
+
+00:02:04.329 --> 00:02:08.700 align:start position:0%
+<c.colorE5E5E5>parse tree the terminal symbols</c><c.colorCCCCCC> in the
+words<00:02:04.570><c> and</c><00:02:05.340><c> by</c><00:02:06.509><c> extracting</c></c><c.colorE5E5E5><00:02:07.509><c> the</c><00:02:07.869><c> heads</c><00:02:08.289><c> of</c></c>
+
+00:02:08.700 --> 00:02:08.710 align:start position:0%
+words and by extracting<c.colorE5E5E5> the heads of
+ </c>
+
+00:02:08.710 --> 00:02:11.250 align:start position:0%
+words and by extracting<c.colorE5E5E5> the heads of
+every<00:02:09.179><c> constituent</c><00:02:10.179><c> in</c><00:02:10.390><c> a</c><00:02:10.479><c> recursive</c><00:02:11.050><c> way</c></c>
+
+00:02:11.250 --> 00:02:11.260 align:start position:0%
+every constituent in a<c.colorE5E5E5> recursive way
+ </c>
+
+00:02:11.260 --> 00:02:13.200 align:start position:0%
+every constituent in a<c.colorE5E5E5> recursive way
+until<00:02:11.680><c> we</c><00:02:11.830><c> reach</c></c><c.colorCCCCCC><00:02:12.010><c> the</c><00:02:12.280><c> top</c><00:02:12.460><c> of</c><00:02:12.670><c> the</c><00:02:12.790><c> sentence</c></c>
+
+00:02:13.200 --> 00:02:13.210 align:start position:0%
+until we reach<c.colorCCCCCC> the top of the sentence
+ </c>
+
+00:02:13.210 --> 00:02:15.510 align:start position:0%
+until we reach<c.colorCCCCCC> the top of the sentence</c>
+<c.colorE5E5E5>so<00:02:13.990><c> we're</c><00:02:14.140><c> going</c><00:02:14.260><c> to</c><00:02:14.350><c> start</c><00:02:14.710><c> with</c><00:02:14.950><c> individual</c></c>
+
+00:02:15.510 --> 00:02:15.520 align:start position:0%
+<c.colorE5E5E5>so we're going to start with individual
+ </c>
+
+00:02:15.520 --> 00:02:18.960 align:start position:0%
+<c.colorE5E5E5>so we're going to start with individual
+words<00:02:15.900><c> so</c><00:02:16.900><c> the</c><00:02:17.170><c> phase</c></c><c.colorCCCCCC><00:02:17.470><c> duck</c><00:02:17.830><c> cake</c><00:02:18.130><c> is</c><00:02:18.490><c> a</c><00:02:18.640><c> noun</c></c>
+
+00:02:18.960 --> 00:02:18.970 align:start position:0%
+words so the<c.colorE5E5E5> phase</c><c.colorCCCCCC> duck cake is a noun
+ </c>
+
+00:02:18.970 --> 00:02:20.580 align:start position:0%
+words so the<c.colorE5E5E5> phase</c><c.colorCCCCCC> duck cake is a noun
+phrase<00:02:19.180><c> and</c></c><c.colorE5E5E5><00:02:19.570><c> the</c><00:02:19.720><c> whole</c><00:02:19.900><c> for</c><00:02:20.230><c> a</c><00:02:20.260><c> noun</c><00:02:20.410><c> phrase</c></c>
+
+00:02:20.580 --> 00:02:20.590 align:start position:0%
+phrase and<c.colorE5E5E5> the whole for a noun phrase
+ </c>
+
+00:02:20.590 --> 00:02:21.750 align:start position:0%
+phrase and<c.colorE5E5E5> the whole for a noun phrase
+says<00:02:21.040><c> that</c><00:02:21.340><c> the</c></c>
+
+00:02:21.750 --> 00:02:21.760 align:start position:0%
+says that the
+ 
+
+00:02:21.760 --> 00:02:23.670 align:start position:0%
+says that the
+head<00:02:22.060><c> of</c><00:02:22.239><c> the</c><00:02:22.360><c> noun</c><00:02:22.540><c> phrase</c><c.colorE5E5E5><00:02:22.750><c> is</c><00:02:22.870><c> equal</c><00:02:23.439><c> to</c><00:02:23.560><c> the</c></c>
+
+00:02:23.670 --> 00:02:23.680 align:start position:0%
+head of the noun phrase<c.colorE5E5E5> is equal to the
+ </c>
+
+00:02:23.680 --> 00:02:26.369 align:start position:0%
+head of the noun phrase<c.colorE5E5E5> is equal to the
+head<00:02:23.890><c> of</c></c><c.colorCCCCCC><00:02:23.920><c> the</c></c><c.colorE5E5E5><00:02:24.069><c> noun</c><00:02:24.780><c> so</c><00:02:25.780><c> since</c><00:02:26.019><c> the</c><00:02:26.110><c> head</c><00:02:26.290><c> of</c></c>
+
+00:02:26.369 --> 00:02:26.379 align:start position:0%
+head of<c.colorCCCCCC> the</c><c.colorE5E5E5> noun so since the head of
+ </c>
+
+00:02:26.379 --> 00:02:28.770 align:start position:0%
+head of<c.colorCCCCCC> the</c><c.colorE5E5E5> noun so since the head of
+the<00:02:26.500><c> noun</c><00:02:26.709><c> and</c><00:02:27.069><c> to</c><00:02:27.280><c> his</c><00:02:27.430><c> cake</c></c><c.colorCCCCCC><00:02:27.760><c> the</c><00:02:28.209><c> head</c></c><c.colorE5E5E5><00:02:28.480><c> of</c><00:02:28.659><c> the</c></c>
+
+00:02:28.770 --> 00:02:28.780 align:start position:0%
+the noun<c.colorE5E5E5> and to his cake</c><c.colorCCCCCC> the head</c><c.colorE5E5E5> of the
+ </c>
+
+00:02:28.780 --> 00:02:31.080 align:start position:0%
+the noun<c.colorE5E5E5> and to his cake</c><c.colorCCCCCC> the head</c><c.colorE5E5E5> of the
+entire<00:02:29.230><c> noun</c><00:02:29.439><c> phrase</c><00:02:29.739><c> noun</c><00:02:30.129><c> phrase</c><00:02:30.430><c> 2</c></c><c.colorCCCCCC><00:02:30.459><c> is</c><00:02:30.909><c> also</c></c>
+
+00:02:31.080 --> 00:02:31.090 align:start position:0%
+entire noun phrase noun<c.colorE5E5E5> phrase 2</c><c.colorCCCCCC> is also
+ </c>
+
+00:02:31.090 --> 00:02:34.289 align:start position:0%
+entire noun phrase noun<c.colorE5E5E5> phrase 2</c><c.colorCCCCCC> is also
+cake</c><c.colorE5E5E5><00:02:31.799><c> something</c><00:02:32.799><c> happens</c><00:02:33.250><c> with</c><00:02:33.400><c> the</c><00:02:33.579><c> fork</c><00:02:33.939><c> the</c></c>
+
+00:02:34.289 --> 00:02:34.299 align:start position:0%
+cake<c.colorE5E5E5> something happens with the fork the
+ </c>
+
+00:02:34.299 --> 00:02:36.149 align:start position:0%
+cake<c.colorE5E5E5> something happens with the fork the
+head<00:02:34.480><c> of</c><00:02:34.599><c> the</c><00:02:34.720><c> noun</c><00:02:34.900><c> phrase</c></c><c.colorCCCCCC><00:02:35.140><c> labeled</c><00:02:36.010><c> number</c></c>
+
+00:02:36.149 --> 00:02:36.159 align:start position:0%
+head of the noun phrase<c.colorCCCCCC> labeled number
+ </c>
+
+00:02:36.159 --> 00:02:38.399 align:start position:0%
+head of the noun phrase<c.colorCCCCCC> labeled number</c>
+<c.colorCCCCCC>of<00:02:36.430><c> non</c><00:02:36.730><c> phase</c><00:02:36.970><c> 3</c></c><c.colorE5E5E5><00:02:37.299><c> is</c><00:02:37.629><c> going</c><00:02:37.900><c> to</c><00:02:37.989><c> be</c><00:02:38.079><c> fork</c></c>
+
+00:02:38.399 --> 00:02:38.409 align:start position:0%
+<c.colorCCCCCC>of non phase 3</c><c.colorE5E5E5> is going to be fork
+ </c>
+
+00:02:38.409 --> 00:02:42.500 align:start position:0%
+<c.colorCCCCCC>of non phase 3</c><c.colorE5E5E5> is going to be fork
+because<00:02:38.860><c> its</c><00:02:39.400><c> main</c><00:02:40.000><c> noun</c><00:02:40.510><c> is</c><00:02:40.870><c> fork</c></c>
+
+00:02:42.500 --> 00:02:42.510 align:start position:0%
+<c.colorE5E5E5>because its main noun is fork
+ </c>
+
+00:02:42.510 --> 00:02:45.539 align:start position:0%
+<c.colorE5E5E5>because its main noun is fork
+similarly<00:02:43.510><c> the</c><00:02:44.110><c> head</c><00:02:44.290><c> of</c><00:02:44.409><c> the</c><00:02:44.530><c> noun</c><00:02:44.680><c> phrase</c><00:02:44.920><c> 1</c></c>
+
+00:02:45.539 --> 00:02:45.549 align:start position:0%
+similarly the head of the noun<c.colorE5E5E5> phrase 1
+ </c>
+
+00:02:45.549 --> 00:02:47.220 align:start position:0%
+similarly the head of the noun<c.colorE5E5E5> phrase 1
+is<00:02:45.610><c> going</c><00:02:45.909><c> to</c><00:02:46.000><c> be</c><00:02:46.120><c> child</c><00:02:46.450><c> because</c><00:02:46.870><c> the</c><00:02:47.019><c> head</c></c>
+
+00:02:47.220 --> 00:02:47.230 align:start position:0%
+is going to be child because the head
+ 
+
+00:02:47.230 --> 00:02:50.309 align:start position:0%
+is going to be child because the head
+now<00:02:47.409><c> is</c><00:02:47.680><c> child</c><c.colorE5E5E5><00:02:48.359><c> so</c><00:02:49.359><c> this</c><00:02:49.540><c> point</c><00:02:49.840><c> we</c><00:02:49.989><c> still</c></c><c.colorCCCCCC><00:02:50.140><c> have</c></c>
+
+00:02:50.309 --> 00:02:50.319 align:start position:0%
+now is child<c.colorE5E5E5> so this point we still</c><c.colorCCCCCC> have
+ </c>
+
+00:02:50.319 --> 00:02:55.259 align:start position:0%
+now is child<c.colorE5E5E5> so this point we still</c><c.colorCCCCCC> have
+to<00:02:50.500><c> expand</c></c><c.colorE5E5E5><00:02:51.090><c> several</c><00:02:52.090><c> more</c><00:02:52.329><c> heads</c><00:02:53.340><c> so</c><00:02:54.340><c> the</c><00:02:55.030><c> head</c></c>
+
+00:02:55.259 --> 00:02:55.269 align:start position:0%
+to expand<c.colorE5E5E5> several more heads so the head
+ </c>
+
+00:02:55.269 --> 00:02:57.210 align:start position:0%
+to expand<c.colorE5E5E5> several more heads so the head</c>
+<c.colorE5E5E5>of<00:02:55.390><c> the</c><00:02:55.480><c> prepositional</c><00:02:56.140><c> phrase</c><00:02:56.379><c> with</c><00:02:57.040><c> the</c></c>
+
+00:02:57.210 --> 00:02:57.220 align:start position:0%
+<c.colorE5E5E5>of the prepositional phrase with the
+ </c>
+
+00:02:57.220 --> 00:03:00.210 align:start position:0%
+<c.colorE5E5E5>of the prepositional phrase with the
+fork<00:02:57.579><c> is</c><00:02:57.849><c> by</c><00:02:58.510><c> definition</c><00:02:58.720><c> the</c><00:02:59.530><c> preposition</c></c>
+
+00:03:00.210 --> 00:03:00.220 align:start position:0%
+fork is by definition<c.colorE5E5E5> the preposition
+ </c>
+
+00:03:00.220 --> 00:03:03.000 align:start position:0%
+fork is by definition<c.colorE5E5E5> the preposition
+itself<00:03:00.609><c> so</c></c><c.colorCCCCCC><00:03:01.239><c> we're</c><00:03:01.599><c> forgetting</c></c><c.colorE5E5E5><00:03:02.079><c> about</c></c><c.colorCCCCCC><00:03:02.319><c> fork</c><00:03:02.829><c> at</c></c>
+
+00:03:03.000 --> 00:03:03.010 align:start position:0%
+itself so<c.colorCCCCCC> we're forgetting</c><c.colorE5E5E5> about</c><c.colorCCCCCC> fork at
+ </c>
+
+00:03:03.010 --> 00:03:04.470 align:start position:0%
+itself so<c.colorCCCCCC> we're forgetting</c><c.colorE5E5E5> about</c><c.colorCCCCCC> fork at
+this<00:03:03.129><c> point</c><00:03:03.430><c> and</c><00:03:03.670><c> instead</c></c><c.colorE5E5E5><00:03:03.940><c> we</c></c><c.colorCCCCCC><00:03:04.150><c> are</c><00:03:04.239><c> replacing</c></c>
+
+00:03:04.470 --> 00:03:04.480 align:start position:0%
+this point and instead<c.colorE5E5E5> we</c><c.colorCCCCCC> are replacing
+ </c>
+
+00:03:04.480 --> 00:03:07.080 align:start position:0%
+this point and instead<c.colorE5E5E5> we</c><c.colorCCCCCC> are replacing</c>
+<c.colorE5E5E5>it<00:03:04.989><c> as</c><00:03:05.230><c> the</c><00:03:05.950><c> head</c><00:03:06.159><c> of</c></c><c.colorCCCCCC><00:03:06.190><c> the</c><00:03:06.459><c> prepositional</c></c>
+
+00:03:07.080 --> 00:03:07.090 align:start position:0%
+<c.colorE5E5E5>it as the head of</c><c.colorCCCCCC> the prepositional
+ </c>
+
+00:03:07.090 --> 00:03:10.860 align:start position:0%
+<c.colorE5E5E5>it as the head of</c><c.colorCCCCCC> the prepositional
+phrase<00:03:07.329><c> with</c><00:03:07.690><c> the</c><00:03:07.810><c> word</c><00:03:08.019><c> width</c><00:03:09.269><c> the</c><00:03:10.269><c> head</c><00:03:10.510><c> of</c><00:03:10.780><c> a</c></c>
+
+00:03:10.860 --> 00:03:10.870 align:start position:0%
+phrase with the word<c.colorCCCCCC> width the head of a
+ </c>
+
+00:03:10.870 --> 00:03:14.220 align:start position:0%
+phrase with the word<c.colorCCCCCC> width the head of a
+verb</c><c.colorE5E5E5><00:03:11.109><c> phrase</c><00:03:11.379><c> is</c><00:03:11.409><c> the</c><00:03:11.859><c> verb</c><00:03:12.159><c> so</c><00:03:12.900><c> the</c><00:03:13.900><c> verb</c></c>
+
+00:03:14.220 --> 00:03:14.230 align:start position:0%
+verb<c.colorE5E5E5> phrase is the verb so the verb
+ </c>
+
+00:03:14.230 --> 00:03:16.470 align:start position:0%
+verb<c.colorE5E5E5> phrase is the verb so the verb
+phrase<00:03:14.379><c> ate</c><00:03:14.769><c> the</c><00:03:14.950><c> cake</c><00:03:15.190><c> is</c><00:03:15.639><c> going</c><00:03:15.909><c> to</c><00:03:16.000><c> have</c><00:03:16.209><c> 8</c></c>
+
+00:03:16.470 --> 00:03:16.480 align:start position:0%
+phrase<c.colorE5E5E5> ate the cake is going to have 8
+ </c>
+
+00:03:16.480 --> 00:03:19.289 align:start position:0%
+phrase<c.colorE5E5E5> ate the cake is going to have 8
+as<00:03:16.780><c> its</c><00:03:16.989><c> head</c><00:03:17.200><c> and</c><00:03:17.670><c> this</c><00:03:18.670><c> 8</c><00:03:18.879><c> is</c><00:03:19.030><c> going</c><00:03:19.120><c> to</c><00:03:19.239><c> be</c></c>
+
+00:03:19.289 --> 00:03:19.299 align:start position:0%
+as its head and this 8 is going to be
+ 
+
+00:03:19.299 --> 00:03:21.390 align:start position:0%
+as its head and this 8 is going to be
+<c.colorCCCCCC>propagated<00:03:19.930><c> one</c><00:03:20.109><c> more</c><00:03:20.319><c> level</c></c><c.colorE5E5E5><00:03:20.530><c> up</c><00:03:20.799><c> to</c></c><c.colorCCCCCC><00:03:20.829><c> the</c></c><c.colorE5E5E5><00:03:21.099><c> next</c></c>
+
+00:03:21.390 --> 00:03:21.400 align:start position:0%
+<c.colorCCCCCC>propagated one more level</c><c.colorE5E5E5> up to</c><c.colorCCCCCC> the</c><c.colorE5E5E5> next
+ </c>
+
+00:03:21.400 --> 00:03:25.050 align:start position:0%
+<c.colorCCCCCC>propagated one more level</c><c.colorE5E5E5> up to</c><c.colorCCCCCC> the</c><c.colorE5E5E5> next
+VP<00:03:21.760><c> up</c><00:03:22.560><c> which</c><00:03:23.560><c> is</c><00:03:23.709><c> also</c><00:03:23.920><c> going</c><00:03:24.190><c> to</c><00:03:24.280><c> have</c><00:03:24.519><c> 8</c><00:03:24.760><c> as</c></c>
+
+00:03:25.050 --> 00:03:25.060 align:start position:0%
+<c.colorE5E5E5>VP up which is also going to have 8 as
+ </c>
+
+00:03:25.060 --> 00:03:27.390 align:start position:0%
+<c.colorE5E5E5>VP up which is also going to have 8 as
+its<00:03:25.239><c> head</c><00:03:25.480><c> and</c><00:03:25.750><c> now</c><00:03:25.900><c> we</c><00:03:25.959><c> have</c><00:03:26.379><c> two</c></c><c.colorCCCCCC><00:03:26.739><c> choices</c></c><c.colorE5E5E5><00:03:27.010><c> for</c></c>
+
+00:03:27.390 --> 00:03:27.400 align:start position:0%
+its head<c.colorE5E5E5> and now we have two</c><c.colorCCCCCC> choices</c><c.colorE5E5E5> for
+ </c>
+
+00:03:27.400 --> 00:03:30.569 align:start position:0%
+its head<c.colorE5E5E5> and now we have two</c><c.colorCCCCCC> choices</c><c.colorE5E5E5> for
+head<00:03:27.669><c> for</c><00:03:27.910><c> the</c></c><c.colorCCCCCC><00:03:28.000><c> entire</c><00:03:28.239><c> sentence</c><00:03:29.250><c> child</c><00:03:30.250><c> which</c></c>
+
+00:03:30.569 --> 00:03:30.579 align:start position:0%
+head for the<c.colorCCCCCC> entire sentence child which
+ </c>
+
+00:03:30.579 --> 00:03:32.220 align:start position:0%
+head for the<c.colorCCCCCC> entire sentence child which</c>
+<c.colorCCCCCC>is</c><c.colorE5E5E5><00:03:30.699><c> the</c><00:03:30.819><c> head</c><00:03:31.000><c> of</c></c><c.colorCCCCCC><00:03:31.030><c> the</c><00:03:31.239><c> noun</c></c><c.colorE5E5E5><00:03:31.419><c> phrase</c><00:03:31.720><c> and</c><00:03:32.019><c> 8</c></c>
+
+00:03:32.220 --> 00:03:32.230 align:start position:0%
+<c.colorCCCCCC>is</c><c.colorE5E5E5> the head of</c><c.colorCCCCCC> the noun</c><c.colorE5E5E5> phrase and 8
+ </c>
+
+00:03:32.230 --> 00:03:33.629 align:start position:0%
+<c.colorCCCCCC>is</c><c.colorE5E5E5> the head of</c><c.colorCCCCCC> the noun</c><c.colorE5E5E5> phrase and 8
+which</c><c.colorCCCCCC><00:03:32.560><c> is</c></c><c.colorE5E5E5><00:03:32.680><c> the</c><00:03:32.769><c> head</c><00:03:32.949><c> of</c><00:03:32.980><c> the</c><00:03:33.160><c> verb</c></c><c.colorCCCCCC><00:03:33.370><c> phrase</c><00:03:33.609><c> and</c></c>
+
+00:03:33.629 --> 00:03:33.639 align:start position:0%
+which<c.colorCCCCCC> is</c><c.colorE5E5E5> the head of the verb</c><c.colorCCCCCC> phrase and
+ </c>
+
+00:03:33.639 --> 00:03:36.800 align:start position:0%
+which<c.colorCCCCCC> is</c><c.colorE5E5E5> the head of the verb</c><c.colorCCCCCC> phrase and</c>
+<c.colorCCCCCC>in<00:03:34.000><c> this</c><00:03:34.090><c> case</c><00:03:34.329><c> which</c><00:03:34.510><c> one</c><00:03:34.690><c> do</c><00:03:34.780><c> you</c></c><c.colorE5E5E5><00:03:34.840><c> think</c><00:03:34.900><c> wins</c></c>
+
+00:03:36.800 --> 00:03:36.810 align:start position:0%
+<c.colorCCCCCC>in this case which one do you</c><c.colorE5E5E5> think wins
+ </c>
+
+00:03:36.810 --> 00:03:40.080 align:start position:0%
+<c.colorCCCCCC>in this case which one do you</c><c.colorE5E5E5> think wins
+well</c><c.colorCCCCCC><00:03:37.829><c> the</c><00:03:38.829><c> row</c><00:03:38.980><c> is</c><00:03:39.190><c> that</c></c><c.colorE5E5E5><00:03:39.370><c> the</c><00:03:39.760><c> head</c><00:03:39.940><c> of</c></c><c.colorCCCCCC><00:03:39.970><c> the</c></c>
+
+00:03:40.080 --> 00:03:40.090 align:start position:0%
+well<c.colorCCCCCC> the row is that</c><c.colorE5E5E5> the head of</c><c.colorCCCCCC> the
+ </c>
+
+00:03:40.090 --> 00:03:41.729 align:start position:0%
+well<c.colorCCCCCC> the row is that</c><c.colorE5E5E5> the head of</c><c.colorCCCCCC> the</c>
+<c.colorE5E5E5>sentence<00:03:40.569><c> is</c><00:03:40.690><c> the</c><00:03:40.720><c> head</c><00:03:40.989><c> of</c><00:03:41.109><c> its</c><00:03:41.260><c> main</c><00:03:41.470><c> verb</c></c>
+
+00:03:41.729 --> 00:03:41.739 align:start position:0%
+<c.colorE5E5E5>sentence is the head of its main verb
+ </c>
+
+00:03:41.739 --> 00:03:44.309 align:start position:0%
+<c.colorE5E5E5>sentence is the head of its main verb
+phrase</c><c.colorCCCCCC><00:03:42.040><c> so</c><00:03:42.430><c> we're</c><00:03:42.699><c> going</c></c><c.colorE5E5E5><00:03:42.819><c> to</c><00:03:42.970><c> propagate</c></c><c.colorCCCCCC><00:03:43.299><c> 8</c></c><c.colorE5E5E5><00:03:43.900><c> as</c></c>
+
+00:03:44.309 --> 00:03:44.319 align:start position:0%
+phrase<c.colorCCCCCC> so we're going</c><c.colorE5E5E5> to propagate</c><c.colorCCCCCC> 8</c><c.colorE5E5E5> as
+ </c>
+
+00:03:44.319 --> 00:03:49.280 align:start position:0%
+phrase<c.colorCCCCCC> so we're going</c><c.colorE5E5E5> to propagate</c><c.colorCCCCCC> 8</c><c.colorE5E5E5> as
+the</c><c.colorCCCCCC><00:03:44.980><c> head</c><00:03:45.310><c> of</c></c><c.colorE5E5E5><00:03:45.340><c> the</c><00:03:45.549><c> entire</c><00:03:45.849><c> sentence</c><00:03:47.040><c> so</c><00:03:48.040><c> every</c></c>
+
+00:03:49.280 --> 00:03:49.290 align:start position:0%
+the<c.colorCCCCCC> head of</c><c.colorE5E5E5> the entire sentence so every
+ </c>
+
+00:03:49.290 --> 00:03:51.659 align:start position:0%
+the<c.colorCCCCCC> head of</c><c.colorE5E5E5> the entire sentence so every
+production<00:03:50.290><c> in</c><00:03:50.680><c> the</c><00:03:50.769><c> grammar</c><00:03:51.040><c> can</c><00:03:51.340><c> now</c><00:03:51.489><c> be</c></c>
+
+00:03:51.659 --> 00:03:51.669 align:start position:0%
+production<c.colorE5E5E5> in the grammar can now be
+ </c>
+
+00:03:51.669 --> 00:03:54.809 align:start position:0%
+production<c.colorE5E5E5> in the grammar can now be</c>
+<c.colorCCCCCC>re-written<00:03:52.060><c> as</c><00:03:52.449><c> a</c><00:03:53.440><c> lexical</c></c><c.colorE5E5E5><00:03:54.160><c> lexical</c></c><c.colorCCCCCC><00:03:54.459><c> eyes</c></c>
+
+00:03:54.809 --> 00:03:54.819 align:start position:0%
+<c.colorCCCCCC>re-written as a lexical</c><c.colorE5E5E5> lexical</c><c.colorCCCCCC> eyes
+ </c>
+
+00:03:54.819 --> 00:03:57.539 align:start position:0%
+<c.colorCCCCCC>re-written as a lexical</c><c.colorE5E5E5> lexical</c><c.colorCCCCCC> eyes</c>
+<c.colorE5E5E5>form<00:03:55.150><c> for</c><00:03:55.299><c> example</c></c><c.colorCCCCCC><00:03:55.359><c> there</c><00:03:55.959><c> who</c><00:03:56.620><c> on</c><00:03:56.859><c> the</c><00:03:56.980><c> top</c><00:03:57.220><c> is</c></c>
+
+00:03:57.539 --> 00:03:57.549 align:start position:0%
+<c.colorE5E5E5>form for example</c><c.colorCCCCCC> there who on the top is
+ </c>
+
+00:03:57.549 --> 00:04:01.439 align:start position:0%
+<c.colorE5E5E5>form for example</c><c.colorCCCCCC> there who on the top is</c>
+<c.colorE5E5E5>going<00:03:57.760><c> to</c><00:03:57.849><c> be</c><00:03:57.940><c> s</c><00:03:58.120><c> headed</c><00:03:58.959><c> by</c><00:03:59.230><c> 8</c><00:03:59.699><c> gives</c><00:04:00.699><c> us</c></c><c.colorCCCCCC><00:04:00.879><c> NP</c></c>
+
+00:04:01.439 --> 00:04:01.449 align:start position:0%
+<c.colorE5E5E5>going to be s headed by 8 gives us</c><c.colorCCCCCC> NP
+ </c>
+
+00:04:01.449 --> 00:04:03.780 align:start position:0%
+<c.colorE5E5E5>going to be s headed by 8 gives us</c><c.colorCCCCCC> NP
+headed<00:04:01.870><c> by</c><00:04:02.019><c> child</c><00:04:02.410><c> followed</c><00:04:02.889><c> by</c><00:04:03.040><c> VP</c></c><c.colorE5E5E5><00:04:03.489><c> head</c></c>
+
+00:04:03.780 --> 00:04:03.790 align:start position:0%
+headed by child followed by VP<c.colorE5E5E5> head
+ </c>
+
+00:04:03.790 --> 00:04:08.250 align:start position:0%
+headed by child followed by VP<c.colorE5E5E5> head
+headed<00:04:04.599><c> by</c><00:04:04.750><c> 8</c></c><c.colorCCCCCC><00:04:06.030><c> okay</c><00:04:07.030><c> so</c><00:04:07.090><c> one</c><00:04:07.780><c> of</c><00:04:07.810><c> the</c><00:04:08.049><c> most</c></c>
+
+00:04:08.250 --> 00:04:08.260 align:start position:0%
+headed by 8<c.colorCCCCCC> okay so one of the most
+ </c>
+
+00:04:08.260 --> 00:04:10.199 align:start position:0%
+headed by 8<c.colorCCCCCC> okay so one of the most
+popular<00:04:09.040><c> parsers</c><00:04:09.549><c> that</c><00:04:09.760><c> involve</c></c>
+
+00:04:10.199 --> 00:04:10.209 align:start position:0%
+popular parsers<c.colorCCCCCC> that involve
+ </c>
+
+00:04:10.209 --> 00:04:13.199 align:start position:0%
+popular parsers<c.colorCCCCCC> that involve
+lexicalization<00:04:10.810><c> is</c><00:04:11.290><c> the</c><00:04:11.379><c> colons</c><00:04:11.799><c> parser</c><00:04:12.280><c> the</c></c>
+
+00:04:13.199 --> 00:04:13.209 align:start position:0%
+lexicalization is the<c.colorCCCCCC> colons parser the
+ </c>
+
+00:04:13.209 --> 00:04:15.390 align:start position:0%
+lexicalization is the<c.colorCCCCCC> colons parser the
+version</c><c.colorE5E5E5><00:04:13.540><c> from</c><00:04:13.720><c> 1999</c><00:04:14.560><c> is</c><00:04:14.739><c> the</c><00:04:14.889><c> water</c></c><c.colorCCCCCC><00:04:15.040><c> that</c></c><c.colorE5E5E5><00:04:15.250><c> were</c></c>
+
+00:04:15.390 --> 00:04:15.400 align:start position:0%
+version<c.colorE5E5E5> from 1999 is the water</c><c.colorCCCCCC> that</c><c.colorE5E5E5> were
+ </c>
+
+00:04:15.400 --> 00:04:19.379 align:start position:0%
+version<c.colorE5E5E5> from 1999 is the water</c><c.colorCCCCCC> that</c><c.colorE5E5E5> were
+it<00:04:15.459><c> used</c><00:04:15.730><c> as</c><00:04:15.940><c> an</c><00:04:16.090><c> example</c><00:04:16.560><c> so</c><00:04:17.560><c> this</c><00:04:18.159><c> model</c></c><c.colorCCCCCC><00:04:18.459><c> is</c></c>
+
+00:04:19.379 --> 00:04:19.389 align:start position:0%
+it used as an example<c.colorE5E5E5> so this model</c><c.colorCCCCCC> is
+ </c>
+
+00:04:19.389 --> 00:04:21.629 align:start position:0%
+it used as an example<c.colorE5E5E5> so this model</c><c.colorCCCCCC> is
+generative<00:04:20.109><c> and</c><00:04:20.349><c> it</c><00:04:20.889><c> has</c><00:04:21.070><c> the</c><00:04:21.310><c> following</c></c>
+
+00:04:21.629 --> 00:04:21.639 align:start position:0%
+generative and it has the<c.colorCCCCCC> following
+ </c>
+
+00:04:21.639 --> 00:04:24.770 align:start position:0%
+generative and it has the<c.colorCCCCCC> following
+types<00:04:21.880><c> of</c><00:04:22.060><c> rules</c><00:04:22.470><c> every</c><00:04:23.470><c> left</c><00:04:23.650><c> hand</c><00:04:23.919><c> side</c><00:04:24.159><c> is</c></c>
+
+00:04:24.770 --> 00:04:24.780 align:start position:0%
+types of rules every left hand side is
+ 
+
+00:04:24.780 --> 00:04:28.740 align:start position:0%
+types of rules every left hand side is
+turned<00:04:25.780><c> into</c><00:04:26.050><c> a</c><00:04:26.289><c> sequence</c><00:04:26.800><c> of</c><00:04:27.130><c> owls</c><c.colorCCCCCC><00:04:27.520><c> an</c><00:04:28.030><c> H</c></c><c.colorE5E5E5><00:04:28.360><c> and</c></c>
+
+00:04:28.740 --> 00:04:28.750 align:start position:0%
+turned into a sequence of owls<c.colorCCCCCC> an H</c><c.colorE5E5E5> and
+ </c>
+
+00:04:28.750 --> 00:04:30.029 align:start position:0%
+turned into a sequence of owls<c.colorCCCCCC> an H</c><c.colorE5E5E5> and
+a<00:04:29.080><c> set</c><00:04:29.380><c> of</c><00:04:29.409><c> ours</c></c>
+
+00:04:30.029 --> 00:04:30.039 align:start position:0%
+a set of ours
+ 
+
+00:04:30.039 --> 00:04:32.219 align:start position:0%
+a set of ours
+<c.colorCCCCCC>owls<00:04:30.880><c> are</c><00:04:31.240><c> the</c><00:04:31.450><c> things</c><00:04:31.659><c> that</c><00:04:31.750><c> appear</c><00:04:32.050><c> before</c></c>
+
+00:04:32.219 --> 00:04:32.229 align:start position:0%
+<c.colorCCCCCC>owls are the things that appear before
+ </c>
+
+00:04:32.229 --> 00:04:34.560 align:start position:0%
+<c.colorCCCCCC>owls are the things that appear before
+the<00:04:32.590><c> head</c><00:04:32.800><c> ours</c><00:04:33.190><c> are</c><00:04:33.639><c> the</c><00:04:33.940><c> things</c></c><c.colorE5E5E5><00:04:34.150><c> that</c><00:04:34.270><c> appear</c></c>
+
+00:04:34.560 --> 00:04:34.570 align:start position:0%
+the head ours are<c.colorCCCCCC> the things</c><c.colorE5E5E5> that appear
+ </c>
+
+00:04:34.570 --> 00:04:35.459 align:start position:0%
+the head ours are<c.colorCCCCCC> the things</c><c.colorE5E5E5> that appear
+after<00:04:34.690><c> the</c></c>
+
+00:04:35.459 --> 00:04:35.469 align:start position:0%
+after the
+ 
+
+00:04:35.469 --> 00:04:37.529 align:start position:0%
+after the
+so<00:04:36.039><c> the</c><00:04:36.159><c> generative</c><00:04:36.639><c> model</c><00:04:36.939><c> goes</c><00:04:37.150><c> as</c><00:04:37.330><c> follows</c>
+
+00:04:37.529 --> 00:04:37.539 align:start position:0%
+so the generative model goes as follows
+ 
+
+00:04:37.539 --> 00:04:41.429 align:start position:0%
+so the generative model goes as follows
+<c.colorCCCCCC>H<00:04:38.439><c> gets</c><00:04:38.830><c> generated</c></c><c.colorE5E5E5><00:04:39.099><c> first</c><00:04:39.990><c> then</c><00:04:40.990><c> all</c><00:04:41.289><c> the</c></c>
+
+00:04:41.429 --> 00:04:41.439 align:start position:0%
+<c.colorCCCCCC>H gets generated</c><c.colorE5E5E5> first then all the
+ </c>
+
+00:04:41.439 --> 00:04:43.320 align:start position:0%
+<c.colorCCCCCC>H gets generated</c><c.colorE5E5E5> first then all the</c>
+<c.colorE5E5E5>elves<00:04:41.860><c> get</c></c><c.colorCCCCCC><00:04:42.189><c> generated</c><00:04:42.699><c> the</c><00:04:42.819><c> right</c><00:04:42.939><c> to</c><00:04:43.120><c> left</c></c>
+
+00:04:43.320 --> 00:04:43.330 align:start position:0%
+<c.colorE5E5E5>elves get</c><c.colorCCCCCC> generated the right to left
+ </c>
+
+00:04:43.330 --> 00:04:46.110 align:start position:0%
+<c.colorE5E5E5>elves get</c><c.colorCCCCCC> generated the right to left</c>
+<c.colorE5E5E5>from<00:04:43.659><c> 1</c><00:04:43.870><c> to</c></c><c.colorCCCCCC><00:04:44.080><c> n</c><00:04:44.259><c> and</c><00:04:44.560><c> then</c><00:04:45.219><c> finally</c><00:04:45.580><c> all</c><00:04:45.639><c> the</c><00:04:45.909><c> R's</c></c>
+
+00:04:46.110 --> 00:04:46.120 align:start position:0%
+<c.colorE5E5E5>from 1 to</c><c.colorCCCCCC> n and then finally all the R's
+ </c>
+
+00:04:46.120 --> 00:04:52.730 align:start position:0%
+<c.colorE5E5E5>from 1 to</c><c.colorCCCCCC> n and then finally all the R's</c>
+<c.colorE5E5E5>going<00:04:46.810><c> left</c><00:04:46.990><c> to</c><00:04:47.139><c> right</c><00:04:47.229><c> from</c><00:04:47.529><c> 1</c><00:04:47.800><c> to</c></c><c.colorCCCCCC><00:04:47.979><c> n</c><00:04:50.849><c> so</c><00:04:51.849><c> the</c></c>
+
+00:04:52.730 --> 00:04:52.740 align:start position:0%
+<c.colorE5E5E5>going left to right from 1 to</c><c.colorCCCCCC> n so the
+ </c>
+
+00:04:52.740 --> 00:04:54.570 align:start position:0%
+<c.colorE5E5E5>going left to right from 1 to</c><c.colorCCCCCC> n so the
+probabilities<00:04:53.740><c> are</c><00:04:53.860><c> estimated</c><00:04:54.550><c> using</c></c>
+
+00:04:54.570 --> 00:04:54.580 align:start position:0%
+probabilities<c.colorCCCCCC> are estimated using
+ </c>
+
+00:04:54.580 --> 00:04:56.909 align:start position:0%
+probabilities<c.colorCCCCCC> are estimated using</c>
+<c.colorE5E5E5>maximum</c><c.colorCCCCCC><00:04:55.569><c> likelihood</c><00:04:55.960><c> estimation</c></c><c.colorE5E5E5><00:04:56.499><c> from</c><00:04:56.830><c> the</c></c>
+
+00:04:56.909 --> 00:04:56.919 align:start position:0%
+<c.colorE5E5E5>maximum</c><c.colorCCCCCC> likelihood estimation</c><c.colorE5E5E5> from the
+ </c>
+
+00:04:56.919 --> 00:04:57.749 align:start position:0%
+<c.colorE5E5E5>maximum</c><c.colorCCCCCC> likelihood estimation</c><c.colorE5E5E5> from the
+penn<00:04:57.129><c> treebank</c></c>
+
+00:04:57.749 --> 00:04:57.759 align:start position:0%
+penn treebank
+ 
+
+00:04:57.759 --> 00:05:01.339 align:start position:0%
+penn treebank
+<c.colorE5E5E5>so<00:04:58.150><c> here's</c><00:04:58.360><c> an</c><00:04:58.449><c> example</c></c><c.colorCCCCCC><00:04:59.039><c> we</c><00:05:00.039><c> want</c><00:05:00.279><c> to</c></c><c.colorE5E5E5><00:05:00.370><c> find</c><00:05:00.699><c> the</c></c>
+
+00:05:01.339 --> 00:05:01.349 align:start position:0%
+<c.colorE5E5E5>so here's an example</c><c.colorCCCCCC> we want to</c><c.colorE5E5E5> find the
+ </c>
+
+00:05:01.349 --> 00:05:03.480 align:start position:0%
+<c.colorE5E5E5>so here's an example</c><c.colorCCCCCC> we want to</c><c.colorE5E5E5> find the
+conditional<00:05:02.349><c> probability</c><00:05:02.949><c> of</c><00:05:03.189><c> the</c></c>
+
+00:05:03.480 --> 00:05:03.490 align:start position:0%
+conditional probability<c.colorE5E5E5> of the
+ </c>
+
+00:05:03.490 --> 00:05:05.879 align:start position:0%
+conditional probability<c.colorE5E5E5> of the
+proposition<00:05:04.090><c> of</c><00:05:04.240><c> given</c><00:05:04.840><c> the</c><00:05:04.960><c> verb</c><00:05:05.169><c> think</c><00:05:05.590><c> of</c></c>
+
+00:05:05.879 --> 00:05:05.889 align:start position:0%
+proposition of given<c.colorE5E5E5> the verb think of
+ </c>
+
+00:05:05.889 --> 00:05:08.760 align:start position:0%
+proposition of given<c.colorE5E5E5> the verb think of</c>
+<c.colorCCCCCC>his<00:05:06.400><c> labelled</c><00:05:06.789><c> as</c><00:05:06.999><c> in</c><00:05:07.300><c> as</c><00:05:07.659><c> the</c><00:05:07.840><c> preposition</c><00:05:08.469><c> in</c></c>
+
+00:05:08.760 --> 00:05:08.770 align:start position:0%
+<c.colorCCCCCC>his labelled as in as the preposition in
+ </c>
+
+00:05:08.770 --> 00:05:11.939 align:start position:0%
+<c.colorCCCCCC>his labelled as in as the preposition in
+and<00:05:09.120><c> think</c><00:05:10.120><c> is</c><00:05:10.240><c> labeled</c><00:05:10.629><c> as</c><00:05:10.750><c> a</c><00:05:10.779><c> verb</c><00:05:11.139><c> and</c><00:05:11.590><c> we're</c></c>
+
+00:05:11.939 --> 00:05:11.949 align:start position:0%
+and think is labeled as a verb<c.colorCCCCCC> and we're
+ </c>
+
+00:05:11.949 --> 00:05:13.290 align:start position:0%
+and think is labeled as a verb<c.colorCCCCCC> and we're</c>
+<c.colorE5E5E5>just<00:05:12.129><c> going</c><00:05:12.310><c> to</c><00:05:12.370><c> compute</c><00:05:12.819><c> this</c><00:05:12.939><c> probability</c></c>
+
+00:05:13.290 --> 00:05:13.300 align:start position:0%
+<c.colorE5E5E5>just going to compute this probability
+ </c>
+
+00:05:13.300 --> 00:05:17.309 align:start position:0%
+<c.colorE5E5E5>just going to compute this probability</c>
+<c.colorE5E5E5>by<00:05:13.900><c> dividing</c><00:05:14.909><c> the</c><00:05:15.909><c> actual</c><00:05:16.569><c> occurrences</c><00:05:17.259><c> of</c></c>
+
+00:05:17.309 --> 00:05:17.319 align:start position:0%
+<c.colorE5E5E5>by dividing the actual occurrences of
+ </c>
+
+00:05:17.319 --> 00:05:20.010 align:start position:0%
+<c.colorE5E5E5>by dividing the actual occurrences of
+the<00:05:18.099><c> word</c></c><c.colorCCCCCC><00:05:18.129><c> off</c><00:05:18.550><c> to</c><00:05:19.180><c> the</c><00:05:19.330><c> right</c></c><c.colorE5E5E5><00:05:19.479><c> of</c><00:05:19.629><c> the</c><00:05:19.779><c> head</c></c>
+
+00:05:20.010 --> 00:05:20.020 align:start position:0%
+the word<c.colorCCCCCC> off to the right</c><c.colorE5E5E5> of the head
+ </c>
+
+00:05:20.020 --> 00:05:22.649 align:start position:0%
+the word<c.colorCCCCCC> off to the right</c><c.colorE5E5E5> of the head</c>
+<c.colorCCCCCC>thing<00:05:20.520><c> divided</c></c><c.colorE5E5E5><00:05:21.520><c> by</c><00:05:21.669><c> the</c><00:05:21.729><c> total</c></c><c.colorCCCCCC><00:05:22.060><c> number</c><00:05:22.629><c> of</c></c>
+
+00:05:22.649 --> 00:05:22.659 align:start position:0%
+<c.colorCCCCCC>thing divided</c><c.colorE5E5E5> by the total</c><c.colorCCCCCC> number of
+ </c>
+
+00:05:22.659 --> 00:05:24.809 align:start position:0%
+<c.colorCCCCCC>thing divided</c><c.colorE5E5E5> by the total</c><c.colorCCCCCC> number of
+symbols<00:05:23.050><c> that</c></c><c.colorE5E5E5><00:05:23.620><c> appear</c></c><c.colorCCCCCC><00:05:24.009><c> right</c><00:05:24.370><c> of</c><00:05:24.490><c> the</c><00:05:24.610><c> head</c></c>
+
+00:05:24.809 --> 00:05:24.819 align:start position:0%
+symbols that<c.colorE5E5E5> appear</c><c.colorCCCCCC> right of the head
+ </c>
+
+00:05:24.819 --> 00:05:28.200 align:start position:0%
+symbols that<c.colorE5E5E5> appear</c><c.colorCCCCCC> right of the head</c>
+<c.colorE5E5E5>thing<00:05:25.060><c> and</c><00:05:26.099><c> we</c><00:05:27.099><c> can</c><00:05:27.279><c> also</c><00:05:27.430><c> do</c><00:05:27.669><c> some</c><00:05:27.849><c> sort</c><00:05:28.120><c> of</c></c>
+
+00:05:28.200 --> 00:05:28.210 align:start position:0%
+<c.colorE5E5E5>thing and we can also do some sort of
+ </c>
+
+00:05:28.210 --> 00:05:30.510 align:start position:0%
+<c.colorE5E5E5>thing and we can also do some sort of
+smoothing<00:05:28.539><c> if</c><00:05:28.870><c> the</c><00:05:29.080><c> data</c><00:05:29.289><c> is</c><00:05:29.409><c> sparse</c><00:05:29.770><c> so</c><00:05:30.400><c> the</c></c>
+
+00:05:30.510 --> 00:05:30.520 align:start position:0%
+smoothing if the data is sparse so the
+ 
+
+00:05:30.520 --> 00:05:33.149 align:start position:0%
+smoothing if the data is sparse so the
+smaller<00:05:30.789><c> probability</c><c.colorE5E5E5><00:05:31.120><c> that</c><00:05:31.810><c> involves</c><00:05:32.409><c> the</c></c>
+
+00:05:33.149 --> 00:05:33.159 align:start position:0%
+smaller probability<c.colorE5E5E5> that involves the
+ </c>
+
+00:05:33.159 --> 00:05:35.219 align:start position:0%
+smaller probability<c.colorE5E5E5> that involves the
+lexicalized<00:05:33.819><c> version</c><00:05:34.270><c> of</c><00:05:34.389><c> I've</c><00:05:34.629><c> given</c><00:05:35.139><c> the</c></c>
+
+00:05:35.219 --> 00:05:35.229 align:start position:0%
+lexicalized version of I've given the
+ 
+
+00:05:35.229 --> 00:05:37.050 align:start position:0%
+lexicalized version of I've given the
+lexicalized<00:05:35.740><c> version</c><00:05:36.159><c> of</c><00:05:36.279><c> think</c><00:05:36.550><c> is</c><00:05:36.759><c> going</c><c.colorE5E5E5><00:05:36.939><c> to</c></c>
+
+00:05:37.050 --> 00:05:37.060 align:start position:0%
+lexicalized version of think is going<c.colorE5E5E5> to
+ </c>
+
+00:05:37.060 --> 00:05:38.909 align:start position:0%
+lexicalized version of think is going<c.colorE5E5E5> to
+be<00:05:37.180><c> a</c><00:05:37.210><c> linear</c></c><c.colorCCCCCC><00:05:37.389><c> combination</c><00:05:37.719><c> of</c><00:05:38.439><c> three</c><00:05:38.710><c> things</c></c>
+
+00:05:38.909 --> 00:05:38.919 align:start position:0%
+be a linear<c.colorCCCCCC> combination of three things
+ </c>
+
+00:05:38.919 --> 00:05:42.869 align:start position:0%
+be a linear<c.colorCCCCCC> combination of three things</c>
+<c.colorE5E5E5>one<00:05:39.879><c> the</c></c><c.colorCCCCCC><00:05:40.150><c> actual</c><00:05:40.449><c> counts</c><00:05:40.960><c> for</c><00:05:41.800><c> often</c><00:05:42.370><c> think</c></c>
+
+00:05:42.869 --> 00:05:42.879 align:start position:0%
+<c.colorE5E5E5>one the</c><c.colorCCCCCC> actual counts for often think
+ </c>
+
+00:05:42.879 --> 00:05:44.850 align:start position:0%
+<c.colorE5E5E5>one the</c><c.colorCCCCCC> actual counts for often think
+lexicalized<00:05:43.719><c> but</c><00:05:44.229><c> if</c><00:05:44.349><c> those</c><00:05:44.560><c> are</c><00:05:44.710><c> not</c></c>
+
+00:05:44.850 --> 00:05:44.860 align:start position:0%
+lexicalized<c.colorCCCCCC> but if those are not
+ </c>
+
+00:05:44.860 --> 00:05:48.450 align:start position:0%
+lexicalized<c.colorCCCCCC> but if those are not
+available<00:05:45.009><c> we</c></c><c.colorE5E5E5><00:05:45.550><c> can</c><00:05:45.699><c> also</c><00:05:45.879><c> look</c><00:05:46.150><c> at</c><00:05:47.219><c> the</c><00:05:48.219><c> case</c></c>
+
+00:05:48.450 --> 00:05:48.460 align:start position:0%
+available<c.colorCCCCCC> we</c><c.colorE5E5E5> can also look at the case
+ </c>
+
+00:05:48.460 --> 00:05:50.579 align:start position:0%
+available<c.colorCCCCCC> we</c><c.colorE5E5E5> can also look at the case</c>
+<c.colorCCCCCC>where<00:05:48.759><c> off</c><00:05:48.969><c> is</c><00:05:49.210><c> lexicalized</c><00:05:49.839><c> but</c><00:05:50.080><c> the</c><00:05:50.199><c> verb</c><00:05:50.409><c> is</c></c>
+
+00:05:50.579 --> 00:05:50.589 align:start position:0%
+<c.colorCCCCCC>where off is lexicalized but the verb is
+ </c>
+
+00:05:50.589 --> 00:05:52.920 align:start position:0%
+<c.colorCCCCCC>where off is lexicalized but the verb is
+not</c><c.colorE5E5E5><00:05:50.620><c> and</c><00:05:51.219><c> finally</c><00:05:51.819><c> the</c><00:05:52.000><c> case</c><00:05:52.210><c> where</c><00:05:52.509><c> none</c><00:05:52.899><c> of</c></c>
+
+00:05:52.920 --> 00:05:52.930 align:start position:0%
+not<c.colorE5E5E5> and finally the case where none of
+ </c>
+
+00:05:52.930 --> 00:05:57.659 align:start position:0%
+not<c.colorE5E5E5> and finally the case where none of
+them<00:05:53.229><c> are</c><00:05:53.529><c> lexicalized</c><00:05:55.289><c> so</c><00:05:56.289><c> this</c><00:05:56.830><c> helps</c><00:05:57.580><c> us</c></c>
+
+00:05:57.659 --> 00:05:57.669 align:start position:0%
+<c.colorE5E5E5>them are lexicalized so this helps us
+ </c>
+
+00:05:57.669 --> 00:05:58.829 align:start position:0%
+<c.colorE5E5E5>them are lexicalized so this helps us</c>
+<c.colorCCCCCC>address<00:05:58.029><c> some</c><00:05:58.089><c> of</c><00:05:58.240><c> the</c><00:05:58.419><c> issues</c><00:05:58.689><c> with</c></c>
+
+00:05:58.829 --> 00:05:58.839 align:start position:0%
+<c.colorCCCCCC>address some of the issues with
+ </c>
+
+00:05:58.839 --> 00:06:00.600 align:start position:0%
+<c.colorCCCCCC>address some of the issues with
+lexicalized</c><c.colorE5E5E5><00:05:59.349><c> grammar</c><00:05:59.680><c> specifically</c><00:06:00.430><c> that</c></c>
+
+00:06:00.600 --> 00:06:00.610 align:start position:0%
+lexicalized<c.colorE5E5E5> grammar specifically that
+ </c>
+
+00:06:00.610 --> 00:06:02.639 align:start position:0%
+lexicalized<c.colorE5E5E5> grammar specifically that</c>
+<c.colorE5E5E5>the<00:06:01.029><c> training</c><00:06:01.389><c> data</c><00:06:01.509><c> is</c><00:06:01.689><c> much</c><00:06:01.930><c> more</c><00:06:02.229><c> sparse</c></c>
+
+00:06:02.639 --> 00:06:02.649 align:start position:0%
+<c.colorE5E5E5>the training data is much more sparse
+ </c>
+
+00:06:02.649 --> 00:06:04.200 align:start position:0%
+<c.colorE5E5E5>the training data is much more sparse
+when<00:06:02.889><c> you</c><00:06:02.979><c> train</c><00:06:03.219><c> a</c><00:06:03.250><c> lexicalized</c><00:06:03.819><c> grammar</c></c>
+
+00:06:04.200 --> 00:06:04.210 align:start position:0%
+when you train<c.colorE5E5E5> a lexicalized grammar
+ </c>
+
+00:06:04.210 --> 00:06:06.570 align:start position:0%
+when you train<c.colorE5E5E5> a lexicalized grammar
+because<00:06:04.449><c> of</c><00:06:05.099><c> so</c><00:06:06.099><c> many</c><00:06:06.189><c> different</c></c>
+
+00:06:06.570 --> 00:06:06.580 align:start position:0%
+because<c.colorE5E5E5> of so many different
+ </c>
+
+00:06:06.580 --> 00:06:08.070 align:start position:0%
+because<c.colorE5E5E5> of so many different
+combinations</c><c.colorCCCCCC><00:06:06.759><c> that</c><00:06:07.270><c> you</c><00:06:07.419><c> have</c><00:06:07.569><c> to</c><00:06:07.689><c> take</c><00:06:07.899><c> into</c></c>
+
+00:06:08.070 --> 00:06:08.080 align:start position:0%
+combinations<c.colorCCCCCC> that you have to take into
+ </c>
+
+00:06:08.080 --> 00:06:11.579 align:start position:0%
+combinations<c.colorCCCCCC> that you have to take into
+account</c><c.colorE5E5E5><00:06:08.229><c> and</c><00:06:09.930><c> that</c><00:06:10.930><c> leads</c><00:06:11.319><c> to</c><00:06:11.560><c> a</c></c>
+
+00:06:11.579 --> 00:06:11.589 align:start position:0%
+<c.colorCCCCCC>account</c><c.colorE5E5E5> and that leads to a
+ </c>
+
+00:06:11.589 --> 00:06:13.439 align:start position:0%
+<c.colorCCCCCC>account</c><c.colorE5E5E5> and that leads to a
+combinatorial<00:06:11.949><c> explosion</c><00:06:12.849><c> and</c><00:06:13.060><c> you</c><00:06:13.089><c> need</c><00:06:13.330><c> to</c></c>
+
+00:06:13.439 --> 00:06:13.449 align:start position:0%
+combinatorial<c.colorE5E5E5> explosion and you need to
+ </c>
+
+00:06:13.449 --> 00:06:16.499 align:start position:0%
+combinatorial<c.colorE5E5E5> explosion and you need to
+parameterize<00:06:14.080><c> the</c><00:06:14.349><c> grammar</c><00:06:15.210><c> so</c><00:06:16.210><c> one</c><00:06:16.360><c> thing</c></c>
+
+00:06:16.499 --> 00:06:16.509 align:start position:0%
+parameterize the grammar so one thing
+ 
+
+00:06:16.509 --> 00:06:18.480 align:start position:0%
+parameterize the grammar so one thing
+<c.colorCCCCCC>that<00:06:16.629><c> I</c><00:06:16.870><c> want</c></c><c.colorE5E5E5><00:06:17.050><c> to</c><00:06:17.169><c> bring</c><00:06:17.319><c> up</c></c><c.colorCCCCCC><00:06:17.500><c> here</c><00:06:17.800><c> is</c></c><c.colorE5E5E5><00:06:17.860><c> called</c></c>
+
+00:06:18.480 --> 00:06:18.490 align:start position:0%
+<c.colorCCCCCC>that I want</c><c.colorE5E5E5> to bring up</c><c.colorCCCCCC> here is</c><c.colorE5E5E5> called
+ </c>
+
+00:06:18.490 --> 00:06:20.219 align:start position:0%
+<c.colorCCCCCC>that I want</c><c.colorE5E5E5> to bring up</c><c.colorCCCCCC> here is</c><c.colorE5E5E5> called
+discriminative</c><c.colorCCCCCC><00:06:19.210><c> we</c><00:06:19.389><c> ranking</c><00:06:19.870><c> it's</c><00:06:20.110><c> a</c></c>
+
+00:06:20.219 --> 00:06:20.229 align:start position:0%
+discriminative<c.colorCCCCCC> we ranking it's a
+ </c>
+
+00:06:20.229 --> 00:06:23.550 align:start position:0%
+discriminative<c.colorCCCCCC> we ranking it's a</c>
+<c.colorE5E5E5>technique<00:06:20.589><c> that</c><00:06:20.620><c> is</c></c><c.colorCCCCCC><00:06:20.889><c> used</c></c><c.colorE5E5E5><00:06:20.949><c> because</c><00:06:22.560><c> they</c></c>
+
+00:06:23.550 --> 00:06:23.560 align:start position:0%
+<c.colorE5E5E5>technique that is</c><c.colorCCCCCC> used</c><c.colorE5E5E5> because they
+ </c>
+
+00:06:23.560 --> 00:06:26.040 align:start position:0%
+<c.colorE5E5E5>technique that is</c><c.colorCCCCCC> used</c><c.colorE5E5E5> because they</c>
+<c.colorCCCCCC>often<00:06:24.099><c> in</c><00:06:24.879><c> a</c><00:06:25.060><c> probabilistic</c><00:06:25.419><c> context-free</c></c>
+
+00:06:26.040 --> 00:06:26.050 align:start position:0%
+<c.colorCCCCCC>often in a probabilistic context-free
+ </c>
+
+00:06:26.050 --> 00:06:28.320 align:start position:0%
+<c.colorCCCCCC>often in a probabilistic context-free
+grammar</c><c.colorE5E5E5><00:06:26.409><c> you</c><00:06:26.949><c> can</c></c><c.colorCCCCCC><00:06:26.979><c> have</c><00:06:27.370><c> many</c><00:06:27.699><c> parses</c></c>
+
+00:06:28.320 --> 00:06:28.330 align:start position:0%
+grammar<c.colorE5E5E5> you can</c><c.colorCCCCCC> have many parses
+ </c>
+
+00:06:28.330 --> 00:06:31.110 align:start position:0%
+grammar<c.colorE5E5E5> you can</c><c.colorCCCCCC> have many parses
+associated<00:06:29.020><c> with</c><00:06:29.169><c> the</c><00:06:29.259><c> input</c><00:06:29.560><c> sentence</c></c><c.colorE5E5E5><00:06:30.120><c> and</c></c>
+
+00:06:31.110 --> 00:06:31.120 align:start position:0%
+associated with the<c.colorCCCCCC> input sentence</c><c.colorE5E5E5> and
+ </c>
+
+00:06:31.120 --> 00:06:32.909 align:start position:0%
+associated with the<c.colorCCCCCC> input sentence</c><c.colorE5E5E5> and
+their<00:06:31.389><c> probabilities</c><00:06:31.960><c> may</c><00:06:32.139><c> be</c><00:06:32.199><c> very</c><00:06:32.529><c> similar</c></c>
+
+00:06:32.909 --> 00:06:32.919 align:start position:0%
+their<c.colorE5E5E5> probabilities may be very similar
+ </c>
+
+00:06:32.919 --> 00:06:34.649 align:start position:0%
+their<c.colorE5E5E5> probabilities may be very similar</c>
+<c.colorCCCCCC>to<00:06:33.099><c> each</c></c><c.colorE5E5E5><00:06:33.129><c> other</c><00:06:33.370><c> so</c><00:06:33.699><c> it's</c><00:06:33.819><c> not</c><00:06:33.939><c> clear</c><00:06:34.330><c> if</c><00:06:34.629><c> you</c></c>
+
+00:06:34.649 --> 00:06:34.659 align:start position:0%
+<c.colorCCCCCC>to each</c><c.colorE5E5E5> other so it's not clear if you
+ </c>
+
+00:06:34.659 --> 00:06:36.719 align:start position:0%
+<c.colorCCCCCC>to each</c><c.colorE5E5E5> other so it's not clear if you
+wanted<00:06:35.169><c> to</c><00:06:35.289><c> pick</c></c><c.colorCCCCCC><00:06:35.469><c> just</c><00:06:35.770><c> one</c><00:06:36.009><c> of</c><00:06:36.189><c> them</c></c><c.colorE5E5E5><00:06:36.370><c> whether</c></c>
+
+00:06:36.719 --> 00:06:36.729 align:start position:0%
+<c.colorE5E5E5>wanted to pick</c><c.colorCCCCCC> just one of them</c><c.colorE5E5E5> whether
+ </c>
+
+00:06:36.729 --> 00:06:38.279 align:start position:0%
+<c.colorE5E5E5>wanted to pick</c><c.colorCCCCCC> just one of them</c><c.colorE5E5E5> whether
+the<00:06:37.000><c> one</c><00:06:37.180><c> with</c><00:06:37.360><c> the</c><00:06:37.419><c> highest</c><00:06:37.659><c> probability</c><00:06:37.870><c> is</c></c>
+
+00:06:38.279 --> 00:06:38.289 align:start position:0%
+the one with the highest probability<c.colorE5E5E5> is
+ </c>
+
+00:06:38.289 --> 00:06:40.019 align:start position:0%
+the one with the highest probability<c.colorE5E5E5> is
+the<00:06:38.349><c> best</c><00:06:38.710><c> one</c><00:06:38.919><c> instead</c><00:06:39.219><c> what</c><00:06:39.430><c> you</c><00:06:39.550><c> do</c><00:06:39.729><c> is</c><00:06:39.879><c> you</c></c>
+
+00:06:40.019 --> 00:06:40.029 align:start position:0%
+the<c.colorE5E5E5> best one instead what you do is you
+ </c>
+
+00:06:40.029 --> 00:06:44.009 align:start position:0%
+the<c.colorE5E5E5> best one instead what you do is you
+produce<00:06:40.210><c> an</c><00:06:40.479><c> N</c><00:06:40.659><c> best</c><00:06:40.930><c> list</c><00:06:41.229><c> and</c><00:06:41.909><c> you</c><00:06:42.909><c> use</c><00:06:43.180><c> some</c></c>
+
+00:06:44.009 --> 00:06:44.019 align:start position:0%
+produce<c.colorE5E5E5> an N best list and you use some
+ </c>
+
+00:06:44.019 --> 00:06:46.409 align:start position:0%
+produce<c.colorE5E5E5> an N best list and you use some
+additional</c><c.colorCCCCCC><00:06:44.259><c> information</c><00:06:44.620><c> to</c><00:06:45.279><c> pick</c><00:06:45.550><c> the</c></c>
+
+00:06:46.409 --> 00:06:46.419 align:start position:0%
+additional<c.colorCCCCCC> information to pick the
+ </c>
+
+00:06:46.419 --> 00:06:48.810 align:start position:0%
+additional<c.colorCCCCCC> information to pick the
+sentences</c><c.colorE5E5E5><00:06:47.229><c> for</c><00:06:47.740><c> the</c><00:06:47.860><c> parses</c><00:06:48.370><c> that</c></c>
+
+00:06:48.810 --> 00:06:48.820 align:start position:0%
+sentences<c.colorE5E5E5> for the parses that
+ </c>
+
+00:06:48.820 --> 00:06:52.440 align:start position:0%
+sentences<c.colorE5E5E5> for the parses that</c>
+<c.colorCCCCCC>are<00:06:48.910><c> most</c><00:06:49.150><c> likely</c><00:06:49.600><c> to</c></c><c.colorE5E5E5><00:06:49.750><c> be</c></c><c.colorCCCCCC><00:06:49.900><c> the</c><00:06:50.170><c> best</c><00:06:50.380><c> ones</c></c><c.colorE5E5E5><00:06:51.450><c> so</c></c>
+
+00:06:52.440 --> 00:06:52.450 align:start position:0%
+<c.colorCCCCCC>are most likely to</c><c.colorE5E5E5> be</c><c.colorCCCCCC> the best ones</c><c.colorE5E5E5> so
+ </c>
+
+00:06:52.450 --> 00:06:54.000 align:start position:0%
+<c.colorCCCCCC>are most likely to</c><c.colorE5E5E5> be</c><c.colorCCCCCC> the best ones</c><c.colorE5E5E5> so
+some<00:06:52.750><c> of</c><00:06:52.780><c> the</c><00:06:52.930><c> considerations</c></c><c.colorCCCCCC><00:06:53.380><c> that</c><00:06:53.620><c> we</c><00:06:53.800><c> take</c></c>
+
+00:06:54.000 --> 00:06:54.010 align:start position:0%
+some of the considerations<c.colorCCCCCC> that we take
+ </c>
+
+00:06:54.010 --> 00:06:56.310 align:start position:0%
+some of the considerations<c.colorCCCCCC> that we take
+into<00:06:54.190><c> account</c><00:06:54.310><c> on</c><00:06:55.060><c> this</c><00:06:55.300><c> and</c><00:06:55.540><c> best</c><00:06:55.750><c> list</c></c><c.colorE5E5E5><00:06:56.020><c> is</c></c>
+
+00:06:56.310 --> 00:06:56.320 align:start position:0%
+into<c.colorCCCCCC> account on this and best list</c><c.colorE5E5E5> is
+ </c>
+
+00:06:56.320 --> 00:06:58.860 align:start position:0%
+into<c.colorCCCCCC> account on this and best list</c><c.colorE5E5E5> is
+things<00:06:56.770><c> like</c><00:06:56.860><c> the</c><00:06:57.160><c> parse</c><00:06:57.490><c> tree</c><00:06:57.580><c> depth</c><00:06:58.120><c> so</c><00:06:58.810><c> you</c></c>
+
+00:06:58.860 --> 00:06:58.870 align:start position:0%
+things like<c.colorE5E5E5> the parse tree depth so you
+ </c>
+
+00:06:58.870 --> 00:07:00.600 align:start position:0%
+things like<c.colorE5E5E5> the parse tree depth so you
+want<00:06:59.110><c> to</c><00:06:59.230><c> make</c><00:06:59.380><c> sure</c><00:06:59.410><c> that</c><00:06:59.650><c> you</c><00:07:00.280><c> don't</c><00:07:00.430><c> get</c></c>
+
+00:07:00.600 --> 00:07:00.610 align:start position:0%
+want to make sure that you don't<c.colorE5E5E5> get
+ </c>
+
+00:07:00.610 --> 00:07:02.820 align:start position:0%
+want to make sure that you don't<c.colorE5E5E5> get
+sentences<00:07:01.180><c> that</c><00:07:01.210><c> have</c></c><c.colorCCCCCC><00:07:01.930><c> cheeser</c><00:07:02.350><c> that</c><00:07:02.620><c> too</c></c>
+
+00:07:02.820 --> 00:07:02.830 align:start position:0%
+sentences that have<c.colorCCCCCC> cheeser that too
+ </c>
+
+00:07:02.830 --> 00:07:05.610 align:start position:0%
+sentences that have<c.colorCCCCCC> cheeser that too
+deep<00:07:03.100><c> or</c><00:07:03.340><c> too</c><00:07:03.490><c> shallow</c></c><c.colorE5E5E5><00:07:03.960><c> you</c><00:07:04.960><c> also</c><00:07:05.260><c> take</c><00:07:05.440><c> into</c></c>
+
+00:07:05.610 --> 00:07:05.620 align:start position:0%
+deep or<c.colorCCCCCC> too shallow</c><c.colorE5E5E5> you also take into
+ </c>
+
+00:07:05.620 --> 00:07:07.680 align:start position:0%
+deep or<c.colorCCCCCC> too shallow</c><c.colorE5E5E5> you also take into</c>
+<c.colorCCCCCC>account</c><c.colorE5E5E5><00:07:06.010><c> whether</c><00:07:06.580><c> you</c><00:07:06.700><c> have</c><00:07:06.910><c> more</c><00:07:07.180><c> instances</c></c>
+
+00:07:07.680 --> 00:07:07.690 align:start position:0%
+<c.colorCCCCCC>account</c><c.colorE5E5E5> whether you have more instances
+ </c>
+
+00:07:07.690 --> 00:07:09.630 align:start position:0%
+<c.colorCCCCCC>account</c><c.colorE5E5E5> whether you have more instances
+of<00:07:07.750><c> left</c><00:07:08.080><c> attachment</c><00:07:08.710><c> or</c><00:07:08.830><c> right</c><00:07:08.980><c> attachment</c></c>
+
+00:07:09.630 --> 00:07:09.640 align:start position:0%
+<c.colorE5E5E5>of left attachment or right attachment
+ </c>
+
+00:07:09.640 --> 00:07:12.060 align:start position:0%
+<c.colorE5E5E5>of left attachment or right attachment
+so<00:07:09.790><c> for</c><00:07:09.940><c> example</c><00:07:10.390><c> in</c><00:07:10.810><c> English</c><00:07:11.170><c> it's</c><00:07:11.350><c> more</c></c>
+
+00:07:12.060 --> 00:07:12.070 align:start position:0%
+so for example in<c.colorE5E5E5> English it's more
+ </c>
+
+00:07:12.070 --> 00:07:13.740 align:start position:0%
+so for example in<c.colorE5E5E5> English it's more
+likely</c><c.colorCCCCCC><00:07:12.280><c> to</c></c><c.colorE5E5E5><00:07:12.460><c> have</c><00:07:12.730><c> right</c><00:07:12.940><c> attachments</c><00:07:13.630><c> and</c></c>
+
+00:07:13.740 --> 00:07:13.750 align:start position:0%
+likely<c.colorCCCCCC> to</c><c.colorE5E5E5> have right attachments and
+ </c>
+
+00:07:13.750 --> 00:07:15.930 align:start position:0%
+likely<c.colorCCCCCC> to</c><c.colorE5E5E5> have right attachments and</c>
+<c.colorCCCCCC>left</c><c.colorE5E5E5><00:07:13.900><c> the</c></c><c.colorCCCCCC><00:07:14.020><c> Tatra</c></c><c.colorE5E5E5><00:07:14.260><c> so</c><00:07:14.500><c> you</c><00:07:14.590><c> would</c><00:07:14.740><c> roll</c><00:07:14.950><c> out</c><00:07:15.010><c> a</c></c>
+
+00:07:15.930 --> 00:07:15.940 align:start position:0%
+<c.colorCCCCCC>left</c><c.colorE5E5E5> the</c><c.colorCCCCCC> Tatra</c><c.colorE5E5E5> so you would roll out a
+ </c>
+
+00:07:15.940 --> 00:07:18.000 align:start position:0%
+<c.colorCCCCCC>left</c><c.colorE5E5E5> the</c><c.colorCCCCCC> Tatra</c><c.colorE5E5E5> so you would roll out a
+parse<00:07:16.840><c> tree</c><00:07:16.930><c> that</c><00:07:17.200><c> has</c><00:07:17.380><c> too</c><00:07:17.620><c> many</c><00:07:17.740><c> left</c></c>
+
+00:07:18.000 --> 00:07:18.010 align:start position:0%
+parse tree that has too many<c.colorE5E5E5> left
+ </c>
+
+00:07:18.010 --> 00:07:20.250 align:start position:0%
+parse tree that has too many<c.colorE5E5E5> left
+attachments<00:07:18.790><c> you</c><00:07:19.510><c> can</c><00:07:19.570><c> also</c><00:07:19.810><c> look</c><00:07:20.020><c> at</c><00:07:20.140><c> the</c></c>
+
+00:07:20.250 --> 00:07:20.260 align:start position:0%
+attachments you can<c.colorE5E5E5> also look at the
+ </c>
+
+00:07:20.260 --> 00:07:21.900 align:start position:0%
+attachments you can<c.colorE5E5E5> also look at the
+disk<00:07:20.470><c> or</c><00:07:20.680><c> structure</c><00:07:21.130><c> so</c><00:07:21.250><c> for</c><00:07:21.430><c> example</c><00:07:21.760><c> if</c><00:07:21.820><c> a</c></c>
+
+00:07:21.900 --> 00:07:21.910 align:start position:0%
+disk<c.colorE5E5E5> or structure so for example if a
+ </c>
+
+00:07:21.910 --> 00:07:23.550 align:start position:0%
+disk<c.colorE5E5E5> or structure so for example if a
+certain<00:07:22.060><c> sentence</c><00:07:22.600><c> is</c><00:07:22.720><c> the</c><00:07:22.840><c> second</c><00:07:23.230><c> one</c><00:07:23.350><c> in</c><00:07:23.470><c> a</c></c>
+
+00:07:23.550 --> 00:07:23.560 align:start position:0%
+certain<c.colorE5E5E5> sentence is the second one in a
+ </c>
+
+00:07:23.560 --> 00:07:25.710 align:start position:0%
+certain<c.colorE5E5E5> sentence is the second one in a
+paragraph</c><c.colorCCCCCC><00:07:23.890><c> you</c><00:07:24.730><c> may</c><00:07:24.910><c> want</c><00:07:25.150><c> to</c></c><c.colorE5E5E5><00:07:25.240><c> treat</c></c><c.colorCCCCCC><00:07:25.540><c> it</c></c>
+
+00:07:25.710 --> 00:07:25.720 align:start position:0%
+paragraph<c.colorCCCCCC> you may want to</c><c.colorE5E5E5> treat</c><c.colorCCCCCC> it
+ </c>
+
+00:07:25.720 --> 00:07:27.420 align:start position:0%
+paragraph<c.colorCCCCCC> you may want to</c><c.colorE5E5E5> treat</c><c.colorCCCCCC> it
+differently<00:07:25.750><c> because</c></c><c.colorE5E5E5><00:07:26.350><c> it's</c><00:07:26.830><c> more</c><00:07:27.010><c> likely</c><00:07:27.190><c> to</c></c>
+
+00:07:27.420 --> 00:07:27.430 align:start position:0%
+differently because<c.colorE5E5E5> it's more likely to
+ </c>
+
+00:07:27.430 --> 00:07:29.490 align:start position:0%
+differently because<c.colorE5E5E5> it's more likely to
+include<00:07:27.610><c> anaphoric</c><00:07:28.240><c> expressions</c><00:07:28.900><c> that</c><00:07:29.110><c> refer</c></c>
+
+00:07:29.490 --> 00:07:29.500 align:start position:0%
+include anaphoric expressions<c.colorE5E5E5> that refer
+ </c>
+
+00:07:29.500 --> 00:07:31.860 align:start position:0%
+include anaphoric expressions<c.colorE5E5E5> that refer
+back<00:07:29.680><c> to</c><00:07:29.740><c> the</c><00:07:29.950><c> previous</c><00:07:30.070><c> sentence</c><00:07:30.730><c> so</c><00:07:31.600><c> can</c><00:07:31.780><c> you</c></c>
+
+00:07:31.860 --> 00:07:31.870 align:start position:0%
+back to the previous<c.colorE5E5E5> sentence so can you
+ </c>
+
+00:07:31.870 --> 00:07:33.240 align:start position:0%
+back to the previous<c.colorE5E5E5> sentence so can you</c>
+<c.colorCCCCCC>think<00:07:31.990><c> of</c><00:07:32.110><c> some</c><00:07:32.290><c> other</c><00:07:32.470><c> features</c><00:07:32.890><c> that</c></c><c.colorE5E5E5><00:07:32.920><c> can</c><00:07:33.220><c> be</c></c>
+
+00:07:33.240 --> 00:07:33.250 align:start position:0%
+<c.colorCCCCCC>think of some other features that</c><c.colorE5E5E5> can be
+ </c>
+
+00:07:33.250 --> 00:07:38.070 align:start position:0%
+<c.colorCCCCCC>think of some other features that</c><c.colorE5E5E5> can be</c>
+<c.colorCCCCCC>used<00:07:33.580><c> in</c><00:07:33.730><c> the</c></c><c.colorE5E5E5><00:07:33.820><c> he</c><00:07:33.940><c> ranking</c><00:07:34.410><c> well</c><00:07:35.410><c> let's</c><00:07:36.160><c> see</c><00:07:37.080><c> so</c></c>
+
+00:07:38.070 --> 00:07:38.080 align:start position:0%
+<c.colorCCCCCC>used in the</c><c.colorE5E5E5> he ranking well let's see so
+ </c>
+
+00:07:38.080 --> 00:07:39.750 align:start position:0%
+<c.colorCCCCCC>used in the</c><c.colorE5E5E5> he ranking well let's see so</c>
+<c.colorE5E5E5>the<00:07:38.200><c> question</c><00:07:38.560><c> was</c><00:07:38.710><c> what</c><00:07:39.610><c> other</c></c>
+
+00:07:39.750 --> 00:07:39.760 align:start position:0%
+<c.colorE5E5E5>the question was what other
+ </c>
+
+00:07:39.760 --> 00:07:41.580 align:start position:0%
+<c.colorE5E5E5>the question was what other
+considerations<00:07:40.540><c> can</c><00:07:40.720><c> you</c><00:07:40.840><c> have</c><00:07:41.020><c> for</c><00:07:41.260><c> here</c><00:07:41.410><c> on</c></c>
+
+00:07:41.580 --> 00:07:41.590 align:start position:0%
+considerations can<c.colorE5E5E5> you have for here on
+ </c>
+
+00:07:41.590 --> 00:07:43.140 align:start position:0%
+considerations can<c.colorE5E5E5> you have for here on
+key<00:07:41.740><c> in</c><00:07:41.860><c> addition</c><00:07:42.220><c> to</c><00:07:42.340><c> parse</c><00:07:42.640><c> tree</c><00:07:42.850><c> depth</c></c>
+
+00:07:43.140 --> 00:07:43.150 align:start position:0%
+key in addition to parse tree depth
+ 
+
+00:07:43.150 --> 00:07:45.330 align:start position:0%
+key in addition to parse tree depth
+attachment<00:07:44.110><c> direction</c><00:07:44.650><c> and</c><c.colorCCCCCC><00:07:44.830><c> discourse</c></c>
+
+00:07:45.330 --> 00:07:45.340 align:start position:0%
+attachment direction and<c.colorCCCCCC> discourse
+ </c>
+
+00:07:45.340 --> 00:07:47.790 align:start position:0%
+attachment direction and<c.colorCCCCCC> discourse
+structure<00:07:45.990><c> well</c><00:07:46.990><c> some</c><00:07:47.500><c> of</c><00:07:47.530><c> them</c><00:07:47.740><c> are</c></c>
+
+00:07:47.790 --> 00:07:47.800 align:start position:0%
+structure well some of them are
+ 
+
+00:07:47.800 --> 00:07:49.920 align:start position:0%
+structure well some of them are
+consistency<00:07:48.760><c> across</c><00:07:48.850><c> sentences</c><00:07:49.600><c> so</c><00:07:49.780><c> for</c>
+
+00:07:49.920 --> 00:07:49.930 align:start position:0%
+consistency across sentences so for
+ 
+
+00:07:49.930 --> 00:07:51.420 align:start position:0%
+consistency across sentences so for
+example<00:07:50.320><c> you</c><00:07:50.410><c> may</c><c.colorCCCCCC><00:07:50.530><c> have</c><00:07:50.680><c> a</c><00:07:50.710><c> word</c><00:07:51.040><c> that</c></c><c.colorE5E5E5><00:07:51.250><c> was</c></c>
+
+00:07:51.420 --> 00:07:51.430 align:start position:0%
+example you may<c.colorCCCCCC> have a word that</c><c.colorE5E5E5> was
+ </c>
+
+00:07:51.430 --> 00:07:53.700 align:start position:0%
+example you may<c.colorCCCCCC> have a word that</c><c.colorE5E5E5> was
+interpreted<00:07:52.270><c> in</c><00:07:52.330><c> one</c><00:07:52.540><c> way</c><00:07:52.810><c> in</c><00:07:53.050><c> one</c><00:07:53.200><c> sentence</c></c>
+
+00:07:53.700 --> 00:07:53.710 align:start position:0%
+<c.colorE5E5E5>interpreted in one way in one sentence
+ </c>
+
+00:07:53.710 --> 00:07:55.230 align:start position:0%
+<c.colorE5E5E5>interpreted in one way in one sentence
+you<00:07:53.770><c> want</c><00:07:54.040><c> to</c><00:07:54.130><c> ensure</c></c><c.colorCCCCCC><00:07:54.280><c> that</c><00:07:54.400><c> it's</c></c><c.colorE5E5E5><00:07:54.670><c> interpreted</c></c>
+
+00:07:55.230 --> 00:07:55.240 align:start position:0%
+you<c.colorE5E5E5> want to ensure</c><c.colorCCCCCC> that it's</c><c.colorE5E5E5> interpreted
+ </c>
+
+00:07:55.240 --> 00:07:56.520 align:start position:0%
+you<c.colorE5E5E5> want to ensure</c><c.colorCCCCCC> that it's</c><c.colorE5E5E5> interpreted
+exactly</c><c.colorCCCCCC><00:07:55.390><c> the</c><00:07:55.780><c> same</c><00:07:55.990><c> way</c><00:07:56.170><c> in</c><00:07:56.260><c> the</c><00:07:56.380><c> next</c></c>
+
+00:07:56.520 --> 00:07:56.530 align:start position:0%
+exactly<c.colorCCCCCC> the same way in the next
+ </c>
+
+00:07:56.530 --> 00:07:59.010 align:start position:0%
+exactly<c.colorCCCCCC> the same way in the next</c>
+<c.colorE5E5E5>sentence<00:07:57.040><c> you</c><00:07:57.850><c> can</c><00:07:58.000><c> also</c><00:07:58.180><c> take</c><00:07:58.420><c> into</c></c><c.colorCCCCCC><00:07:58.630><c> account</c></c>
+
+00:07:59.010 --> 00:07:59.020 align:start position:0%
+<c.colorE5E5E5>sentence you can also take into</c><c.colorCCCCCC> account
+ </c>
+
+00:07:59.020 --> 00:08:00.510 align:start position:0%
+<c.colorE5E5E5>sentence you can also take into</c><c.colorCCCCCC> account
+some<00:07:59.260><c> information</c><00:07:59.830><c> that</c><00:07:59.950><c> comes</c><00:08:00.160><c> from</c></c><c.colorE5E5E5><00:08:00.220><c> some</c><00:08:00.490><c> of</c></c>
+
+00:08:00.510 --> 00:08:00.520 align:start position:0%
+some information that comes from<c.colorE5E5E5> some of
+ </c>
+
+00:08:00.520 --> 00:08:01.830 align:start position:0%
+some information that comes from<c.colorE5E5E5> some of</c>
+<c.colorE5E5E5>the<00:08:00.700><c> other</c><00:08:00.820><c> stages</c><00:08:01.150><c> of</c><00:08:01.360><c> the</c><00:08:01.420><c> natural</c><00:08:01.720><c> language</c></c>
+
+00:08:01.830 --> 00:08:01.840 align:start position:0%
+<c.colorE5E5E5>the other stages of the natural language
+ </c>
+
+00:08:01.840 --> 00:08:03.510 align:start position:0%
+<c.colorE5E5E5>the other stages of the natural language</c>
+<c.colorE5E5E5>pipeline<00:08:02.380><c> for</c><00:08:02.530><c> example</c><00:08:02.950><c> the</c><00:08:03.040><c> part</c><00:08:03.310><c> of</c><00:08:03.430><c> speech</c></c>
+
+00:08:03.510 --> 00:08:03.520 align:start position:0%
+<c.colorE5E5E5>pipeline for example the part of speech
+ </c>
+
+00:08:03.520 --> 00:08:06.300 align:start position:0%
+<c.colorE5E5E5>pipeline for example the part of speech
+sequence<00:08:04.150><c> or</c><00:08:04.450><c> some</c><00:08:05.290><c> constraints</c><00:08:05.890><c> from</c><00:08:05.950><c> speech</c></c>
+
+00:08:06.300 --> 00:08:06.310 align:start position:0%
+sequence or some constraints from speech
+ 
+
+00:08:06.310 --> 00:08:08.610 align:start position:0%
+sequence or some constraints from speech
+recognition<00:08:07.020><c> one</c><00:08:08.020><c> thing</c><00:08:08.200><c> that</c><00:08:08.320><c> you</c><00:08:08.440><c> may</c><00:08:08.560><c> be</c>
+
+00:08:08.610 --> 00:08:08.620 align:start position:0%
+recognition one thing that you may be
+ 
+
+00:08:08.620 --> 00:08:11.160 align:start position:0%
+recognition one thing that you may be
+wondering<00:08:09.160><c> is</c><00:08:09.250><c> how</c><00:08:09.610><c> well</c><00:08:09.880><c> do</c><00:08:10.210><c> parsers</c><00:08:10.840><c> work</c>
+
+00:08:11.160 --> 00:08:11.170 align:start position:0%
+wondering is how well do parsers work
+ 
+
+00:08:11.170 --> 00:08:15.350 align:start position:0%
+wondering is how well do parsers work
+well<00:08:12.160><c> in</c><00:08:12.640><c> some</c><c.colorE5E5E5><00:08:13.090><c> examples</c><00:08:13.660><c> the</c><00:08:14.050><c> f1</c><00:08:14.650><c> measure</c></c>
+
+00:08:15.350 --> 00:08:15.360 align:start position:0%
+well in some<c.colorE5E5E5> examples the f1 measure
+ </c>
+
+00:08:15.360 --> 00:08:18.390 align:start position:0%
+well in some<c.colorE5E5E5> examples the f1 measure
+competed<00:08:16.360><c> on</c><00:08:16.540><c> sentences</c><00:08:17.350><c> that</c><00:08:17.380><c> are</c><00:08:17.680><c> 40</c><00:08:18.160><c> words</c></c>
+
+00:08:18.390 --> 00:08:18.400 align:start position:0%
+competed on sentences that are 40 words
+ 
+
+00:08:18.400 --> 00:08:20.490 align:start position:0%
+competed on sentences that are 40 words
+or<00:08:18.640><c> less</c><c.colorE5E5E5><00:08:18.820><c> this</c></c><c.colorCCCCCC><00:08:19.270><c> is</c><00:08:19.330><c> a</c><00:08:19.480><c> standard</c><00:08:19.990><c> evaluation</c></c>
+
+00:08:20.490 --> 00:08:20.500 align:start position:0%
+or less<c.colorE5E5E5> this</c><c.colorCCCCCC> is a standard evaluation
+ </c>
+
+00:08:20.500 --> 00:08:23.520 align:start position:0%
+or less<c.colorE5E5E5> this</c><c.colorCCCCCC> is a standard evaluation
+metric<00:08:20.890><c> for</c><00:08:21.100><c> statistical</c><00:08:21.880><c> parsers</c><00:08:22.390><c> I</c><00:08:22.660><c> hear</c></c>
+
+00:08:23.520 --> 00:08:23.530 align:start position:0%
+metric for statistical parsers<c.colorCCCCCC> I hear
+ </c>
+
+00:08:23.530 --> 00:08:25.740 align:start position:0%
+metric for statistical parsers<c.colorCCCCCC> I hear
+some<00:08:23.740><c> statistics</c><00:08:24.370><c> the</c><00:08:24.790><c> ballpark</c><00:08:25.300><c> is</c><00:08:25.450><c> in</c><00:08:25.630><c> the</c></c>
+
+00:08:25.740 --> 00:08:25.750 align:start position:0%
+some statistics the ballpark is in the
+ 
+
+00:08:25.750 --> 00:08:28.890 align:start position:0%
+some statistics the ballpark is in the
+low<00:08:26.110><c> 90s</c><c.colorCCCCCC><00:08:26.140><c> so</c><00:08:27.130><c> the</c><00:08:27.370><c> earliest</c></c><c.colorE5E5E5><00:08:27.690><c> parser</c><00:08:28.690><c> that</c></c><c.colorCCCCCC><00:08:28.720><c> I</c></c>
+
+00:08:28.890 --> 00:08:28.900 align:start position:0%
+low 90s<c.colorCCCCCC> so the earliest</c><c.colorE5E5E5> parser that</c><c.colorCCCCCC> I
+ </c>
+
+00:08:28.900 --> 00:08:30.750 align:start position:0%
+low 90s<c.colorCCCCCC> so the earliest</c><c.colorE5E5E5> parser that</c><c.colorCCCCCC> I
+wanted</c><c.colorE5E5E5><00:08:29.110><c> to</c><00:08:29.200><c> share</c><00:08:29.350><c> his</c><00:08:29.590><c> the</c><00:08:29.740><c> charniak</c><00:08:30.220><c> parser</c></c>
+
+00:08:30.750 --> 00:08:30.760 align:start position:0%
+wanted<c.colorE5E5E5> to share his the charniak parser
+ </c>
+
+00:08:30.760 --> 00:08:33.630 align:start position:0%
+wanted<c.colorE5E5E5> to share his the charniak parser</c>
+<c.colorE5E5E5>of<00:08:31.390><c> 2000</c><00:08:32.080><c> this</c><00:08:32.380><c> one</c><00:08:32.620><c> achieves</c><00:08:33.010><c> ninety</c><00:08:33.400><c> point</c></c>
+
+00:08:33.630 --> 00:08:33.640 align:start position:0%
+<c.colorE5E5E5>of 2000 this one achieves ninety point
+ </c>
+
+00:08:33.640 --> 00:08:37.589 align:start position:0%
+<c.colorE5E5E5>of 2000 this one achieves ninety point
+one<00:08:33.820><c> percent</c></c><c.colorCCCCCC><00:08:34.320><c> f1</c></c><c.colorE5E5E5><00:08:35.320><c> and</c><00:08:35.640><c> there's</c><00:08:36.640><c> some</c><00:08:36.820><c> modified</c></c>
+
+00:08:37.589 --> 00:08:37.599 align:start position:0%
+one percent<c.colorCCCCCC> f1</c><c.colorE5E5E5> and there's some modified
+ </c>
+
+00:08:37.599 --> 00:08:39.390 align:start position:0%
+one percent<c.colorCCCCCC> f1</c><c.colorE5E5E5> and there's some modified
+for<00:08:37.810><c> use</c><00:08:37.840><c> without</c><00:08:38.110><c> a</c><00:08:38.320><c> better</c><00:08:38.560><c> version</c></c><c.colorCCCCCC><00:08:38.890><c> of</c><00:08:39.160><c> the</c></c>
+
+00:08:39.390 --> 00:08:39.400 align:start position:0%
+for use<c.colorE5E5E5> without a better version</c><c.colorCCCCCC> of the
+ </c>
+
+00:08:39.400 --> 00:08:41.610 align:start position:0%
+for use<c.colorE5E5E5> without a better version</c><c.colorCCCCCC> of the</c>
+<c.colorE5E5E5>China<00:08:39.669><c> parses</c><00:08:40.240><c> by</c></c><c.colorCCCCCC><00:08:40.419><c> charniak</c><00:08:40.930><c> and</c></c><c.colorE5E5E5><00:08:41.200><c> Johnson</c></c>
+
+00:08:41.610 --> 00:08:41.620 align:start position:0%
+<c.colorE5E5E5>China parses by</c><c.colorCCCCCC> charniak and</c><c.colorE5E5E5> Johnson
+ </c>
+
+00:08:41.620 --> 00:08:43.950 align:start position:0%
+<c.colorE5E5E5>China parses by</c><c.colorCCCCCC> charniak and</c><c.colorE5E5E5> Johnson
+from<00:08:41.740><c> 2005</c><00:08:42.550><c> it</c><00:08:42.910><c> achieves</c><00:08:43.330><c> some</c><00:08:43.750><c> of</c><00:08:43.840><c> the</c></c>
+
+00:08:43.950 --> 00:08:43.960 align:start position:0%
+from 2005 it achieves some of the
+ 
+
+00:08:43.960 --> 00:08:47.280 align:start position:0%
+from 2005 it achieves some of the
+highest<00:08:44.320><c> possible</c><00:08:45.240><c> performance</c><00:08:46.240><c> on</c><00:08:46.870><c> f1</c>
+
+00:08:47.280 --> 00:08:47.290 align:start position:0%
+highest possible performance on f1
+ 
+
+00:08:47.290 --> 00:08:50.610 align:start position:0%
+highest possible performance on f1
+namely<c.colorE5E5E5><00:08:47.800><c> 92</c><00:08:48.310><c> percent</c><00:08:48.900><c> so</c><00:08:49.900><c> this</c><00:08:50.020><c> concludes</c><00:08:50.290><c> the</c></c>
+
+00:08:50.610 --> 00:08:50.620 align:start position:0%
+namely<c.colorE5E5E5> 92 percent so this concludes the
+ </c>
+
+00:08:50.620 --> 00:08:53.640 align:start position:0%
+namely<c.colorE5E5E5> 92 percent so this concludes the
+section<00:08:50.860><c> of</c><00:08:51.160><c> statistical</c><00:08:51.820><c> parsing</c><00:08:52.530><c> in</c><00:08:53.530><c> the</c></c>
+
+00:08:53.640 --> 00:08:53.650 align:start position:0%
+section of statistical parsing in the
+ 
+
+00:08:53.650 --> 00:08:55.410 align:start position:0%
+section of statistical parsing in the
+next<00:08:53.890><c> segment</c><00:08:54.280><c> we're</c><00:08:54.490><c> going</c><c.colorE5E5E5><00:08:54.640><c> to</c><00:08:54.760><c> look</c><00:08:54.910><c> at</c><00:08:55.120><c> a</c></c>
+
+00:08:55.410 --> 00:08:55.420 align:start position:0%
+next segment we're going<c.colorE5E5E5> to look at a
+ </c>
+
+00:08:55.420 --> 00:08:57.480 align:start position:0%
+next segment we're going<c.colorE5E5E5> to look at a
+very</c><c.colorCCCCCC><00:08:55.720><c> different</c><00:08:56.050><c> type</c><00:08:56.290><c> of</c><00:08:56.320><c> parsing</c><00:08:56.980><c> called</c></c>
+
+00:08:57.480 --> 00:08:57.490 align:start position:0%
+very<c.colorCCCCCC> different type of parsing called
+ </c>
+
+00:08:57.490 --> 00:09:00.600 align:start position:0%
+very<c.colorCCCCCC> different type of parsing called
+dependency</c><c.colorE5E5E5><00:08:58.030><c> parsing</c></c>
+

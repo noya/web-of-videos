@@ -1,0 +1,496 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.290 --> 00:00:02.160
+We've introduced precision and recall.
+
+00:00:02.160 --> 00:00:05.630
+Now let's turn to the remaining issues in
+the evaluation of text classification.
+
+00:00:07.340 --> 00:00:11.808
+A commonly used data set for text
+classification is the Reuters dataset.
+
+00:00:11.808 --> 00:00:13.548
+It's got 21,000 documents.
+
+00:00:13.548 --> 00:00:16.008
+They're a standard training and
+test splits.
+
+00:00:16.008 --> 00:00:18.188
+The set has 118 categories.
+
+00:00:18.188 --> 00:00:20.684
+And this is a class of
+multivalue classification,
+
+00:00:20.684 --> 00:00:23.188
+because an article can be
+in more than on category.
+
+00:00:23.188 --> 00:00:26.762
+So that means we're going to be
+learning 118 separate classifiers,
+
+00:00:26.762 --> 00:00:28.768
+each one making a binary distinction.
+
+00:00:28.768 --> 00:00:31.828
+And the average document has
+about just over 1 class.
+
+00:00:31.828 --> 00:00:35.495
+And here's some common categories
+with some number of training and
+
+00:00:35.495 --> 00:00:36.468
+test documents.
+
+00:00:36.468 --> 00:00:39.088
+So there's 433 training
+documents about grain.
+
+00:00:39.088 --> 00:00:41.728
+And 149 test documents about grain.
+
+00:00:41.728 --> 00:00:47.728
+And we have classes like wheat,
+and corn, and interest and so on.
+
+00:00:47.728 --> 00:00:49.740
+Here's a sample of Reuters' document.
+
+00:00:49.740 --> 00:00:54.530
+You can see it's about livestock, and
+about hogs, so it has two topics.
+
+00:00:54.530 --> 00:00:55.480
+Here's the text.
+
+00:00:55.480 --> 00:00:57.930
+So our task is, given this text,
+
+00:00:57.930 --> 00:01:03.443
+to classify this document as
+about livestock and about hogs.
+
+00:01:03.443 --> 00:01:07.403
+The confusion matrix is very important for
+multiclass classification.
+
+00:01:07.403 --> 00:01:12.248
+The confusion matrix tells us, for
+any pair of classes, c1 and c2,
+
+00:01:12.248 --> 00:01:16.623
+how many documents from c1 were
+incorrectly assigned to c2?
+
+00:01:16.623 --> 00:01:17.863
+Here's a little example.
+
+00:01:17.863 --> 00:01:20.823
+We have some documents about poultry or
+wheat or coffee.
+
+00:01:20.823 --> 00:01:23.803
+And here's their true classes, numbers
+of documents in these true classes.
+
+00:01:23.803 --> 00:01:26.003
+And here's what are classifier assigned.
+
+00:01:26.003 --> 00:01:31.317
+So, c sub 3 2, this 90,
+is documents that were about wheat,
+
+00:01:31.317 --> 00:01:35.678
+but our classifier thought
+they were about poultry.
+
+00:01:35.678 --> 00:01:38.540
+So this is a classifier
+that just loves chickens.
+
+00:01:38.540 --> 00:01:41.440
+Each cell of the classifier tells us
+
+00:01:41.440 --> 00:01:44.260
+how many documents of each class
+were classified in the other class.
+
+00:01:44.260 --> 00:01:48.220
+And that means that the diagonals
+of this confusion matrix give us
+
+00:01:48.220 --> 00:01:49.870
+the correct classifications.
+
+00:01:49.870 --> 00:01:55.146
+Here, 95 documents that we said were
+about the UK are in fact about the UK.
+
+00:01:55.146 --> 00:01:59.510
+And no documents that we said were
+about wheat are actually about wheat.
+
+00:02:01.830 --> 00:02:06.155
+We can use the confusion matrix to compute
+the same measures we've talked about,
+
+00:02:06.155 --> 00:02:07.418
+precision and recall.
+
+00:02:07.418 --> 00:02:08.718
+Let's start with recall.
+
+00:02:08.718 --> 00:02:12.910
+Recall the fraction of documents in
+class i that are classified correctly.
+
+00:02:12.910 --> 00:02:15.700
+How many of these class
+i documents did we find?
+
+00:02:15.700 --> 00:02:21.648
+So, true positives,
+Cii divided by the sum of the entire row.
+
+00:02:21.648 --> 00:02:22.900
+Let's go back and look at our table.
+
+00:02:24.140 --> 00:02:27.700
+Here's an entire row of documents
+that are actually about wheat.
+
+00:02:27.700 --> 00:02:30.066
+And let's say our true
+positives here are 0.
+
+00:02:30.066 --> 00:02:32.580
+So a very,
+very bad classifier about wheat.
+
+00:02:32.580 --> 00:02:34.938
+We divide 0 by the sum
+of all these numbers.
+
+00:02:34.938 --> 00:02:39.398
+10 plus 90 plus 1 is
+going to give us our recall.
+
+00:02:42.358 --> 00:02:46.345
+For precision we're going to ask,
+of the documents that we returned, so
+
+00:02:46.345 --> 00:02:49.004
+that's an entire column,
+of that column, and
+
+00:02:49.004 --> 00:02:52.070
+how many are the documents
+that we were correct about?
+
+00:02:53.960 --> 00:02:57.010
+Of the documents that we
+said were about wheat,
+
+00:02:58.490 --> 00:03:00.200
+how many of them were truly about wheat?
+
+00:03:00.200 --> 00:03:02.630
+So, the documents about wheat divided by
+
+00:03:03.950 --> 00:03:06.150
+the sum of all these documents
+that we said were about wheat.
+
+00:03:08.880 --> 00:03:13.710
+And then accuracy is just a fraction
+of documents classified correctly.
+
+00:03:13.710 --> 00:03:18.032
+So, it's the sum of these diagonal entries
+divided by the sum of all of the entries
+
+00:03:18.032 --> 00:03:19.418
+in the confusion matrix.
+
+00:03:22.438 --> 00:03:26.036
+Now, since we have more than one class,
+we're going to need a way to combine
+
+00:03:26.036 --> 00:03:30.060
+the values, the precision recall values
+we get from each class into one measure.
+
+00:03:30.060 --> 00:03:32.000
+because it's often useful
+to have a single measure.
+
+00:03:32.000 --> 00:03:34.180
+And there's two standard ways to do this.
+
+00:03:34.180 --> 00:03:38.046
+In macro-averaging, we compute the
+performance, the precision or recall or
+
+00:03:38.046 --> 00:03:41.592
+f score for each class, and then we
+average them to get an average value.
+
+00:03:41.592 --> 00:03:45.546
+So if we have 113 classes,
+we're going to compute 113 precisions.
+
+00:03:45.546 --> 00:03:49.051
+And we're going to average them all
+to get a macro-averaging precision.
+
+00:03:49.051 --> 00:03:52.700
+In micro-averaging, we instead collect
+all the decisions for all the classes in
+
+00:03:52.700 --> 00:03:56.930
+the one single contingency table and
+then we evaluate our precision on that.
+
+00:03:59.210 --> 00:04:00.590
+Let's look at an example.
+
+00:04:00.590 --> 00:04:03.050
+Here we have two classes,
+class 1 and class 2.
+
+00:04:03.050 --> 00:04:06.860
+And here's all the things that are true
+yeses and true nos for class 1.
+
+00:04:06.860 --> 00:04:10.730
+And here's things that are really
+in class 2 and really not.
+
+00:04:10.730 --> 00:04:13.040
+And here's what our classifier returns.
+
+00:04:13.040 --> 00:04:14.470
+So our macroaveraged precision,
+
+00:04:14.470 --> 00:04:17.350
+we're going to compute the precision
+separately for the two classes.
+
+00:04:17.350 --> 00:04:20.564
+So for class 1, 10 over 10 + 10.
+
+00:04:20.564 --> 00:04:22.330
+So that's 0.5.
+
+00:04:22.330 --> 00:04:28.890
+For class 2, 90 over 90 + 10, or 0.9.
+
+00:04:28.890 --> 00:04:33.563
+So our macroaverage precision is the
+average of 0.5 and 0.9, and we get 0.7.
+
+00:04:34.930 --> 00:04:36.590
+For microaveraging on the other hand,
+
+00:04:36.590 --> 00:04:38.920
+we're going to take the two
+contingency tables and
+
+00:04:38.920 --> 00:04:43.980
+just add them all together to get
+a single microaverage contingency table.
+
+00:04:43.980 --> 00:04:46.200
+And now we're going to compute
+precision directly from that.
+
+00:04:46.200 --> 00:04:49.883
+So we'll get 100 over,
+
+00:04:49.883 --> 00:04:54.054
+100 + 20, or 0.83.
+
+00:04:54.054 --> 00:04:57.671
+So, you can see that the microaveraged
+score is dominated by the score in
+
+00:04:57.671 --> 00:04:58.630
+the common class.
+
+00:04:58.630 --> 00:05:00.480
+Class 2 is much more common than class 1.
+
+00:05:00.480 --> 00:05:01.980
+These numbers are much bigger.
+
+00:05:01.980 --> 00:05:03.080
+In micro-averaging,
+
+00:05:03.080 --> 00:05:08.080
+that class will dominate these summed
+numbers in this summed contingency table.
+
+00:05:08.080 --> 00:05:11.438
+In macro-averaging, each class
+is going to participate equally.
+
+00:05:13.818 --> 00:05:18.110
+For text classification evaluation we
+need more than just precision or recall.
+
+00:05:18.110 --> 00:05:20.471
+As in many machine learning
+based algorithms for
+
+00:05:20.471 --> 00:05:24.041
+natural language processing,
+we'll need a training set, a test set for
+
+00:05:24.041 --> 00:05:28.148
+measuring performance, and something
+called a development test set, or dev set.
+
+00:05:28.148 --> 00:05:30.850
+And the training set will
+compute our parameters.
+
+00:05:30.850 --> 00:05:34.070
+And what we'll do with a dev
+set is test our performance
+
+00:05:34.070 --> 00:05:35.680
+while we're developing our system.
+
+00:05:35.680 --> 00:05:38.240
+And so, whether we're looking
+at precision recall F1, or
+
+00:05:38.240 --> 00:05:41.850
+whether we're looking at accuracy, we'll
+look at our scores in the development test
+
+00:05:41.850 --> 00:05:44.765
+to find bugs in our algorithm and
+develop new features.
+
+00:05:44.765 --> 00:05:46.685
+And once we're done
+developing the algorithm,
+
+00:05:46.685 --> 00:05:49.691
+we can then test on
+a clean unseen test set.
+
+00:05:49.691 --> 00:05:52.715
+And the reason why it's important
+to have this clean unseen test set,
+
+00:05:52.715 --> 00:05:55.385
+is that otherwise, if we report
+numbers on our development test
+
+00:05:55.385 --> 00:05:58.612
+set that we've been using all along,
+we're going to end up overfitting.
+
+00:05:58.612 --> 00:06:02.570
+We're going to report much higher
+accuracies probably than are reasonable
+
+00:06:02.570 --> 00:06:06.870
+because we've tuned our algorithm
+to this development test set.
+
+00:06:06.870 --> 00:06:10.270
+Clean unseen test set gives us a more
+conservative estimate of performance.
+
+00:06:11.850 --> 00:06:14.788
+Now we can get sampling errors
+due to small data sets.
+
+00:06:14.788 --> 00:06:18.068
+Maybe out test set is small, or
+our training set's unrepresentative.
+
+00:06:18.068 --> 00:06:21.008
+So it's common, we talked about
+earlier about cross-validation.
+
+00:06:21.008 --> 00:06:24.236
+So we're going to take multiple splits
+of our data and cross-validate.
+
+00:06:24.236 --> 00:06:27.214
+For example, let's say we set
+aside some portion of our data for
+
+00:06:27.214 --> 00:06:30.598
+a dev set, we take the rest of it,
+and we'll train on this training set.
+
+00:06:30.598 --> 00:06:32.838
+And then look at our
+performance on the dev set.
+
+00:06:32.838 --> 00:06:35.632
+And then we'll take a different split,
+train on this part of the training set,
+
+00:06:35.632 --> 00:06:36.790
+and report on the dev set.
+
+00:06:36.790 --> 00:06:39.380
+Take this part of the training set, and
+get our performance in the dev set.
+
+00:06:39.380 --> 00:06:42.497
+Then we're going to pool our
+results from each split and
+
+00:06:42.497 --> 00:06:45.665
+then compute a total pooled
+dev set performance.
+
+00:06:45.665 --> 00:06:49.995
+This lets us avoid having very small test
+sets or very unrepresentative test sets.
+
+00:06:49.995 --> 00:06:54.425
+A lot of the data gets used for
+both training and dev in different splits.
+
+00:06:54.425 --> 00:06:58.585
+Still, at the end, we need to
+have our clean unseen test set so
+
+00:06:58.585 --> 00:07:01.388
+that we don't overfit to these dev sets.
+
+00:07:01.388 --> 00:07:04.970
+We've now given you a number of ways
+to evaluate text classification.
+
+00:07:04.970 --> 00:07:08.430
+We've introduced precision or recall and
+f score, and talked about what to do in
+
+00:07:08.430 --> 00:07:11.510
+the multi-class problem where
+we have more than two classes.
+
+00:07:11.510 --> 00:07:14.577
+We'll see the use of these ideas and
+also of micro-averaging and
+
+00:07:14.577 --> 00:07:16.890
+macro-averaging through out
+natural language processing.
+

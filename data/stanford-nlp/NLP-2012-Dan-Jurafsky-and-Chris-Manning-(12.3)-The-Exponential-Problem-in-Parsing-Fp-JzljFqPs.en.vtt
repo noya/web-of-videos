@@ -1,0 +1,761 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.980 --> 00:00:06.150
+In this segment I'm going to talk about
+where the huge number of parses for
+
+00:00:06.150 --> 00:00:09.020
+human languages sentences comes from and
+
+00:00:09.020 --> 00:00:12.750
+how we might go about solving it
+in our statistical parsing system.
+
+00:00:15.180 --> 00:00:20.710
+So a key part of doing parsing for
+human language sentences is
+
+00:00:20.710 --> 00:00:25.830
+this problem of what's called attachment
+from the psychological literature.
+
+00:00:25.830 --> 00:00:31.760
+It's for various kinds of phrases,
+how do we decide what they modify?
+
+00:00:31.760 --> 00:00:34.940
+So anytime we have prepositional phrases,
+adverbial or
+
+00:00:34.940 --> 00:00:40.350
+participial phrases, infinitives,
+coordinations, and things like that,
+
+00:00:40.350 --> 00:00:45.720
+we have this attachment decision of
+working out what are they modifying.
+
+00:00:45.720 --> 00:00:48.740
+Let's work through an example
+to get an idea of that problem.
+
+00:00:50.140 --> 00:00:54.413
+So here we have a sentence,
+The board approved [its acquisition] [by
+
+00:00:54.413 --> 00:01:00.260
+Royal Trustco Ltd.] [of Toronto] [for
+$27 a share] [at its monthly meeting].
+
+00:01:00.260 --> 00:01:03.630
+And if we look at this sentence,
+well, what do we find?
+
+00:01:03.630 --> 00:01:08.700
+We find that, well,
+we have here the subject,
+
+00:01:08.700 --> 00:01:14.460
+the board, then the verb approved,
+and object its acquisition.
+
+00:01:14.460 --> 00:01:19.140
+But then if we look after that, what
+we find is that there are actually four
+
+00:01:19.140 --> 00:01:24.130
+prepositional phrases in a row,
+by Royal Trustco Ltd of Toronto for
+
+00:01:24.130 --> 00:01:28.045
+$27 a share at its monthly meeting.
+
+00:01:28.045 --> 00:01:34.220
+And for each of those what we need to
+do is decide what are they modifying.
+
+00:01:34.220 --> 00:01:39.580
+So in general,
+a prepositional phrase can modify a verb.
+
+00:01:39.580 --> 00:01:44.632
+It can modify a preceding noun phrase,
+so it's got these two targets.
+
+00:01:44.632 --> 00:01:50.540
+But actually, each of these prepositional
+phrases includes in it a noun phrase.
+
+00:01:50.540 --> 00:01:53.400
+So once we get to the later
+prepositional phrases,
+
+00:01:53.400 --> 00:01:56.820
+there'll be more things that
+each one can choose to modify.
+
+00:01:56.820 --> 00:01:59.540
+Okay, let's go through each one in turn.
+
+00:01:59.540 --> 00:02:02.520
+Right, so for by Royal Trustco,
+
+00:02:02.520 --> 00:02:06.950
+that's modifying the acquisition,
+not the approval.
+
+00:02:06.950 --> 00:02:10.600
+So its acquisition by Royal Trustco.
+
+00:02:10.600 --> 00:02:17.890
+So that's in dependency format,
+we have that relationship.
+
+00:02:17.890 --> 00:02:24.050
+Okay, of Toronto, this is not modifying
+the approval or the acquisition.
+
+00:02:24.050 --> 00:02:28.090
+Rather, it's Royal Trustco Ltd of Toronto.
+
+00:02:28.090 --> 00:02:35.029
+So this prepositional phrase is
+modifying Royal Trustco Ltd.
+
+00:02:35.029 --> 00:02:40.082
+Okay, so then if we go on to
+the third one, for $27 a share,
+
+00:02:40.082 --> 00:02:44.182
+that's not modifying Toronto or
+Royal Trustco.
+
+00:02:44.182 --> 00:02:47.420
+It's modifying the acquisition.
+
+00:02:47.420 --> 00:02:51.966
+So this is an acquisition for $27 a share.
+
+00:02:51.966 --> 00:02:56.241
+And then for the last prepositional
+phrase, at its monthly meeting,
+
+00:02:56.241 --> 00:03:01.096
+that's presumably not referring to
+an acquisition at its monthly meeting, or
+
+00:03:01.096 --> 00:03:05.750
+any of these other things, but rather
+its approval at its monthly meeting.
+
+00:03:05.750 --> 00:03:09.600
+So this prepositional phrase
+modifies the first verb.
+
+00:03:11.280 --> 00:03:15.260
+Okay, that was kind of complex,
+though as human beings,
+
+00:03:15.260 --> 00:03:18.440
+we just read the sentence and
+understand what it means,
+
+00:03:18.440 --> 00:03:23.740
+and do these attachment decisions without
+any apparent effort most of the time.
+
+00:03:23.740 --> 00:03:27.183
+But the thing we want to think about for
+
+00:03:27.183 --> 00:03:32.357
+a moment now is how many
+possible attachments there are.
+
+00:03:32.357 --> 00:03:36.681
+Well, if you just sort of
+think there are 1, 2, 3,
+
+00:03:36.681 --> 00:03:41.854
+4 things here and each of them can
+attach to a bunch of points, and
+
+00:03:41.854 --> 00:03:48.157
+each one can be chosen completely freely,
+it should be fairly clear that well,
+
+00:03:48.157 --> 00:03:52.862
+we're going to get exponential
+number of possibilities,
+
+00:03:52.862 --> 00:03:57.610
+exponential in the number
+of prepositional phrases.
+
+00:03:57.610 --> 00:04:02.305
+And it's precisely from that cause
+is where this huge number of
+
+00:04:02.305 --> 00:04:07.170
+parses that we saw previously, like having
+600 parses for a sentence, came from.
+
+00:04:07.170 --> 00:04:10.995
+Then really you're making
+a number of decisions for
+
+00:04:10.995 --> 00:04:13.335
+things like category and attachment.
+
+00:04:13.335 --> 00:04:16.148
+And a lot of them can
+fairly freely combine, so
+
+00:04:16.148 --> 00:04:20.535
+you multiply out these ambiguities and
+you get a huge number.
+
+00:04:20.535 --> 00:04:23.850
+However, it's not the case
+in examples like this
+
+00:04:23.850 --> 00:04:27.520
+you're completely free to
+attach anything anywhere.
+
+00:04:27.520 --> 00:04:32.392
+So when we did by Royal Trustco,
+it could certainly choose to
+
+00:04:32.392 --> 00:04:37.040
+attach either to the preceding noun or
+the verb.
+
+00:04:37.040 --> 00:04:43.880
+And then syntactically when we attached
+of Toronto, it had three choices.
+
+00:04:43.880 --> 00:04:48.410
+It could attach to Royal Trustco or
+
+00:04:48.410 --> 00:04:53.560
+to the preceding noun phrase or
+to the preceding verb phrase.
+
+00:04:53.560 --> 00:04:56.880
+And all of those were
+syntactically possible.
+
+00:04:56.880 --> 00:05:00.000
+But once you've made
+some higher attachments,
+
+00:05:00.000 --> 00:05:04.630
+that means earlier in the sentence,
+things become more restricted.
+
+00:05:04.630 --> 00:05:10.113
+So in particular,
+once we decided to attach for
+
+00:05:10.113 --> 00:05:15.680
+$27 a share as a modifier
+of its acquisition,
+
+00:05:15.680 --> 00:05:20.596
+that restricts the attachments that are
+possible for this prepositional phrase.
+
+00:05:20.596 --> 00:05:24.960
+It could still attach to a share, or
+
+00:05:24.960 --> 00:05:30.160
+it could attach to an acquisition,
+or it could attach to approved.
+
+00:05:30.160 --> 00:05:37.256
+But these ones here that are kind of
+hidden behind the attachment of for
+
+00:05:37.256 --> 00:05:43.440
+$27 a share to an acquisition,
+these ones become not possible anymore.
+
+00:05:44.640 --> 00:05:48.620
+So that leaves kind of
+a little puzzle of well,
+
+00:05:48.620 --> 00:05:52.130
+as you add on prepositional
+phrase attachments to a sentence,
+
+00:05:52.130 --> 00:05:57.330
+how many possible attachments are there
+that observe this constraint,
+
+00:05:57.330 --> 00:06:01.050
+which corresponds to
+dependencies not crossing or for
+
+00:06:01.050 --> 00:06:06.340
+there being a tree structure to
+a sentence in a phrase structure grammar?
+
+00:06:06.340 --> 00:06:09.070
+Well, it turns out
+the the answer to that question
+
+00:06:09.070 --> 00:06:12.110
+is a well-worked-out piece of math.
+
+00:06:12.110 --> 00:06:16.880
+The answer can be found in the series of
+Catalan numbers, which is a sequence that
+
+00:06:16.880 --> 00:06:21.870
+turns up in a lot of places, wherever
+you've got kind of tree-like context.
+
+00:06:21.870 --> 00:06:25.550
+For example, it even turns up in
+probabilistic graphical models.
+
+00:06:25.550 --> 00:06:29.390
+An the important thing to know
+from our purposes is that
+
+00:06:29.390 --> 00:06:33.360
+the growth of the Catalan numbers
+is still an exponential sequence.
+
+00:06:33.360 --> 00:06:35.819
+We get an exponential number of parses.
+
+00:06:35.819 --> 00:06:39.044
+Unless you're a math geek,
+working through the factorials
+
+00:06:39.044 --> 00:06:41.833
+there probably isn't the most
+useful things to do.
+
+00:06:41.833 --> 00:06:45.698
+But rather it's probably much
+more valuable linguistically to
+
+00:06:45.698 --> 00:06:50.204
+actually look at what are the possible
+structures for a simple sentence and
+
+00:06:50.204 --> 00:06:52.850
+get a sense of how many there are there.
+
+00:06:52.850 --> 00:06:57.020
+And so that's what we'll ask you to do
+in the quiz question that follows this.
+
+00:06:58.580 --> 00:07:03.590
+Okay, you've hopefully worked out in the
+quiz that the answer that once you have
+
+00:07:03.590 --> 00:07:08.490
+two prepositional phrases,
+the number of possible structures is five.
+
+00:07:08.490 --> 00:07:11.580
+But rather than focusing
+on that number now,
+
+00:07:11.580 --> 00:07:17.270
+what I want to start doing is focusing
+on the two problems that come from
+
+00:07:17.270 --> 00:07:22.970
+having this exponential possible number
+of parses to even quite simple sentences.
+
+00:07:22.970 --> 00:07:27.040
+So problem number one is that
+if we parse naively, and
+
+00:07:27.040 --> 00:07:31.110
+that means that we use
+the simple kinds of top-down or
+
+00:07:31.110 --> 00:07:36.810
+bottom-up parses that are normally
+used in context, like in programming
+
+00:07:36.810 --> 00:07:41.707
+languages where they're used
+with less ambiguous languages.
+
+00:07:41.707 --> 00:07:46.161
+But that would mean that our parsers end
+up doing an exponential amount of work
+
+00:07:46.161 --> 00:07:51.070
+themselves, and that's no good if we'd
+like our parsers to parse quickly.
+
+00:07:51.070 --> 00:07:54.250
+So where does that exponential
+amount of work come from?
+
+00:07:54.250 --> 00:07:59.980
+Well, the thing to notice is that we're
+generating this exponential number
+
+00:07:59.980 --> 00:08:06.740
+of trees, and that comes about from having
+a small number of basic ambiguities.
+
+00:08:06.740 --> 00:08:13.100
+So in this silly example, we have
+the two PPs with cats and with claws.
+
+00:08:13.100 --> 00:08:16.471
+We're choosing where to
+attach each of those.
+
+00:08:16.471 --> 00:08:19.023
+So there are really only two decisions,
+
+00:08:19.023 --> 00:08:24.570
+but we're then multiplying that out
+into an exponential number of parses.
+
+00:08:24.570 --> 00:08:26.100
+And in the course of doing that,
+
+00:08:26.100 --> 00:08:29.910
+what happens is that we do
+a lot of repeated work.
+
+00:08:29.910 --> 00:08:35.010
+So if you look at these parse structures,
+you can see that we keep on building
+
+00:08:35.010 --> 00:08:37.560
+the same piece of structure over and
+over again.
+
+00:08:37.560 --> 00:08:41.990
+So here's a little PP of with claws.
+
+00:08:41.990 --> 00:08:47.010
+And we build it in this parse, we build it
+in that parse, we build it in that parse,
+
+00:08:47.010 --> 00:08:49.470
+we build it in every parse.
+
+00:08:49.470 --> 00:08:52.040
+We're always going to have that PP.
+
+00:08:52.040 --> 00:08:56.973
+But if we just generate all the structures
+we're building it over and over again.
+
+00:08:56.973 --> 00:08:59.570
+And the same is true with
+larger bits of structures.
+
+00:08:59.570 --> 00:09:03.335
+So here's a bigger PP,
+with cats with claws.
+
+00:09:03.335 --> 00:09:07.500
+It also appears in this parse, and so
+
+00:09:07.500 --> 00:09:12.780
+we are doing completely duplicated
+work there, and that goes on.
+
+00:09:12.780 --> 00:09:15.990
+So here's a verb phrase
+of scratch people and
+
+00:09:15.990 --> 00:09:22.370
+we generate it in that parse and
+we generate it in that parse.
+
+00:09:22.370 --> 00:09:25.460
+And there are other
+places in which we build
+
+00:09:25.460 --> 00:09:29.032
+other pieces of structure
+that get repeated over.
+
+00:09:29.032 --> 00:09:33.150
+So here's a noun phrase
+of people with cats and
+
+00:09:33.150 --> 00:09:39.190
+here's the same piece of noun
+phrase of people with cats.
+
+00:09:39.190 --> 00:09:45.860
+Here is a verb phrase of
+scratch people with cats.
+
+00:09:47.090 --> 00:09:51.710
+And here is again the verb
+phrase scratch people with cats
+
+00:09:51.710 --> 00:09:54.850
+being generated a second time.
+
+00:09:54.850 --> 00:09:57.585
+So there's just a lot of repeated work.
+
+00:09:57.585 --> 00:10:01.790
+And so the secret to building efficient
+parsers and getting away from doing
+
+00:10:01.790 --> 00:10:08.035
+an exponential amount of work is to
+avoid doing the same work twice.
+
+00:10:08.035 --> 00:10:14.155
+We only want to find possible pieces of
+structure for a sentence precisely once.
+
+00:10:14.155 --> 00:10:19.090
+And then we'll be able to turn parsing
+from an exponential problem into
+
+00:10:19.090 --> 00:10:21.073
+a polynomial time problem.
+
+00:10:21.073 --> 00:10:26.213
+The problem is then how to choose the
+correct parse, or several likely parses,
+
+00:10:26.213 --> 00:10:29.757
+out of the many,
+many possible parses for a sentence.
+
+00:10:29.757 --> 00:10:31.580
+How can we do that?
+
+00:10:31.580 --> 00:10:33.410
+Well, let's look at this simple example.
+
+00:10:33.410 --> 00:10:37.670
+So this is again the classic here is
+a verb with an object noun phrase and
+
+00:10:37.670 --> 00:10:40.700
+a prepositional phrase
+attachment following it.
+
+00:10:40.700 --> 00:10:45.130
+So it could be that this
+modifies the verb so
+
+00:10:45.130 --> 00:10:50.560
+she is looking through a telescope and
+she saw the man with the telescope.
+
+00:10:50.560 --> 00:10:54.110
+Or it could be that this
+modifies the noun, so
+
+00:10:54.110 --> 00:10:58.960
+this is a man with a telescope and
+she saw that person.
+
+00:10:58.960 --> 00:11:00.450
+Well, which of those is correct?
+
+00:11:00.450 --> 00:11:04.350
+Well, the answer is that
+it could be either.
+
+00:11:04.350 --> 00:11:08.470
+So this is what's commonly referred
+to as an AI complete problem.
+
+00:11:08.470 --> 00:11:12.790
+Knowing which is correct could depend
+on arbitrary knowledge about the world
+
+00:11:12.790 --> 00:11:17.240
+situation that's being observed or
+the prior discourse context in really
+
+00:11:17.240 --> 00:11:21.210
+complex ways, and
+it can be really hard to tell.
+
+00:11:21.210 --> 00:11:26.570
+Well, that's true, but it turns out that
+in a lot of cases you can be pretty sure
+
+00:11:26.570 --> 00:11:29.970
+what's correct without
+understanding a lot.
+
+00:11:29.970 --> 00:11:34.240
+That just looking at the words that
+are involved, the nouns, the verbs, and
+
+00:11:34.240 --> 00:11:38.710
+the prepositions, you can get a really
+good idea of which attachment is correct,
+
+00:11:38.710 --> 00:11:42.495
+even without having anything like
+full understanding of the sentence.
+
+00:11:42.495 --> 00:11:45.525
+Let's look at a couple of
+examples that illustrate this.
+
+00:11:47.295 --> 00:11:51.345
+Okay, so
+here is now some more real text examples.
+
+00:11:51.345 --> 00:11:53.115
+They have exactly the same structure.
+
+00:11:53.115 --> 00:11:58.387
+So we've got a verb, a noun phrase,
+and our prepositional phrase.
+
+00:11:58.387 --> 00:12:02.467
+Moscow sent more than 100,000
+soldiers into Afghanistan.
+
+00:12:02.467 --> 00:12:08.810
+So one possibility is that the sending is
+into Afghanistan, the verb attachment.
+
+00:12:08.810 --> 00:12:12.639
+And the other possibility is
+it's soldiers into Afghanistan.
+
+00:12:12.639 --> 00:12:15.580
+Now syntactically,
+either of these is possible.
+
+00:12:15.580 --> 00:12:20.603
+So soldiers into Afghanistan,
+would have the same structure
+
+00:12:20.603 --> 00:12:26.797
+as a phrase like whatever student's
+into Lady Gaga or something like that.
+
+00:12:26.797 --> 00:12:30.239
+All right, it's a possible syntactic
+structure, but it's just really,
+
+00:12:30.239 --> 00:12:31.116
+really unlikely.
+
+00:12:31.116 --> 00:12:34.994
+You're just very unlikely to
+have soldiers into Afghanistan.
+
+00:12:34.994 --> 00:12:39.939
+And so almost certainly the structure
+that we want to choose is with
+
+00:12:39.939 --> 00:12:42.627
+into Afghanistan modifying sent.
+
+00:12:42.627 --> 00:12:49.550
+And that's a very common idiom, that you
+send something into some environment,
+
+00:12:49.550 --> 00:12:54.330
+and so we should choose this parse.
+
+00:12:54.330 --> 00:12:56.440
+And then let's look at this next example.
+
+00:12:58.480 --> 00:13:01.180
+So in this example, same structure again.
+
+00:13:02.650 --> 00:13:07.570
+And we can have the PP with
+New South Wales head being
+
+00:13:07.570 --> 00:13:11.880
+a dependent of breached,
+breached with New South Wales Health.
+
+00:13:11.880 --> 00:13:16.910
+Or it can be a dependent of the agreement,
+agreement with New South Wales head.
+
+00:13:16.910 --> 00:13:22.190
+Well, again, breaching with New South
+Wales here just isn't very likely.
+
+00:13:22.190 --> 00:13:26.065
+You just don't say I
+breached with my friend.
+
+00:13:26.065 --> 00:13:27.930
+It doesn't sound very good.
+
+00:13:27.930 --> 00:13:32.830
+On the other hand,
+an agreement with New South Wales Health,
+
+00:13:32.830 --> 00:13:38.430
+that's really common and normal sounding,
+because you make agreements with somebody.
+
+00:13:38.430 --> 00:13:42.821
+And so this is the attachment
+that we should choose.
+
+00:13:42.821 --> 00:13:48.700
+So that then didn't look that hard,
+and that's exactly what we'll do.
+
+00:13:48.700 --> 00:13:50.980
+Our statistical parsers will try and
+
+00:13:50.980 --> 00:13:56.790
+exploit such statistics about word
+combination, which kind of preposition
+
+00:13:56.790 --> 00:14:01.640
+is likely to go with which nouns and
+which verbs, to be able to choose
+
+00:14:01.640 --> 00:14:06.680
+the correct parses of sentences without
+having full understanding of them.
+
+00:14:08.110 --> 00:14:11.800
+Okay, I hope that's given
+a sense of how parsing
+
+00:14:11.800 --> 00:14:15.350
+human language sentences can
+just be a really bad problem.
+
+00:14:15.350 --> 00:14:20.600
+But also some idea of how we
+can start developing methods
+
+00:14:20.600 --> 00:14:24.990
+that will solve both the problem of there
+being an exponential number of parses,
+
+00:14:24.990 --> 00:14:27.410
+not causing an exponential amount of work,
+and
+
+00:14:27.410 --> 00:14:30.311
+how we choose the most likely parses for
+sentences.
+

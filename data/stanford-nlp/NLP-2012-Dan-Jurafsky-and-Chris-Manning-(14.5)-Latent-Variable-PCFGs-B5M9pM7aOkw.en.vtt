@@ -1,0 +1,657 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.880 --> 00:00:04.875
+Following on from the work in
+accurate unlexicalized parsing,
+
+00:00:04.875 --> 00:00:06.860
+it was then an extension.
+
+00:00:06.860 --> 00:00:11.440
+Which lead to latent variable PCFGs, which
+I'm not going to go through in detail.
+
+00:00:11.440 --> 00:00:15.700
+But I just want to briefly introduce
+the idea of, and show you how it works.
+
+00:00:17.900 --> 00:00:20.658
+So in the model that we
+are looking at previously, for
+
+00:00:20.658 --> 00:00:25.150
+accurate unlexicalized PFCGs,
+everything was hand done.
+
+00:00:25.150 --> 00:00:28.240
+Someone was staring at sentences and
+how they parsed.
+
+00:00:28.240 --> 00:00:31.290
+And deciding how better
+to split the categories
+
+00:00:31.290 --> 00:00:34.180
+to build a parser that would work better.
+
+00:00:34.180 --> 00:00:38.053
+So if you're interested in machine
+learning, you should be thinking gee,
+
+00:00:38.053 --> 00:00:41.756
+maybe we could do that automatically
+rather than doing it all manually.
+
+00:00:41.756 --> 00:00:46.017
+And so
+that's the idea of latent variable PCFGs.
+
+00:00:46.017 --> 00:00:50.812
+So the starting point is,
+we still have a treebank to train on.
+
+00:00:50.812 --> 00:00:55.312
+So the bracketing of the sentences and
+the training data are known, and
+
+00:00:55.312 --> 00:00:57.337
+the base categories are known.
+
+00:00:57.337 --> 00:01:05.162
+So that we have a noun phrase node that's
+in some context, and we already know that.
+
+00:01:05.162 --> 00:01:07.063
+But what we're saying is,
+
+00:01:07.063 --> 00:01:12.780
+well maybe there's someway that we'd like
+to annotate it for more information.
+
+00:01:12.780 --> 00:01:15.913
+To say what kind of a noun phrase is it so
+that we can parse it more accurately.
+
+00:01:15.913 --> 00:01:20.393
+And so concretely, the way that
+that's being done is by splitting
+
+00:01:20.393 --> 00:01:24.876
+the noun phrase category into
+a certain number of subcategories.
+
+00:01:24.876 --> 00:01:28.835
+Where each one is just been given
+a number, so, this is an NP 17.
+
+00:01:28.835 --> 00:01:36.497
+And so then the learning task is to
+choose both a number of subcategories.
+
+00:01:36.497 --> 00:01:39.374
+And then how to group all
+of the noun phrases in
+
+00:01:39.374 --> 00:01:42.720
+the training data into
+particular subcategories.
+
+00:01:42.720 --> 00:01:48.792
+So that you can have something
+in common in all the NP17s.
+
+00:01:48.792 --> 00:01:54.482
+So that you can then have good
+predictions as to how they expand and
+
+00:01:54.482 --> 00:01:56.866
+which words they contain.
+
+00:01:56.866 --> 00:02:00.204
+I'm not going to go through
+that algorithm in detail.
+
+00:02:00.204 --> 00:02:03.973
+If you've seen things in other
+classes like machine learning or
+
+00:02:03.973 --> 00:02:06.082
+probabilistic graphical models.
+
+00:02:06.082 --> 00:02:10.783
+It's a form of the Algorithm like
+before back when algorithms used
+
+00:02:10.783 --> 00:02:14.688
+HMMs constrained by
+the pre-existing tree structure.
+
+00:02:14.688 --> 00:02:18.514
+So, what you're doing is you have
+the pre-existing tree structure in black.
+
+00:02:18.514 --> 00:02:23.239
+And you're wanting to have
+a probability distribution over
+
+00:02:23.239 --> 00:02:26.954
+different latent sub
+states of each category.
+
+00:02:26.954 --> 00:02:31.504
+And the simplest way of doing
+this would just be to say okay,
+
+00:02:31.504 --> 00:02:34.512
+each category has ten subcategories.
+
+00:02:34.512 --> 00:02:38.659
+And then learn a probability
+distribution over the choice of
+
+00:02:38.659 --> 00:02:41.594
+different subcategories for the S state.
+
+00:02:41.594 --> 00:02:46.459
+That had been tried previously and
+not been found to not work very well.
+
+00:02:46.459 --> 00:02:52.240
+So, what Slav Petrov introduced was
+a clever split/merge algorithm.
+
+00:02:52.240 --> 00:02:58.812
+Where for each category you started
+with just the single category of an S.
+
+00:02:58.812 --> 00:03:03.212
+And you said, okay let's try and
+split that into two S categories.
+
+00:03:03.212 --> 00:03:08.540
+Is there a good way to split it to
+capture more conditioning information?
+
+00:03:08.540 --> 00:03:11.980
+Yes, let's keep that split,
+okay, we'll try again.
+
+00:03:11.980 --> 00:03:14.890
+Let's take each of those and
+split them into two and so
+
+00:03:14.890 --> 00:03:17.690
+we have four S subcategories.
+
+00:03:17.690 --> 00:03:20.970
+And then maybe at that point you discover
+that one of those splits was useful and
+
+00:03:20.970 --> 00:03:22.210
+the other one wasn't.
+
+00:03:22.210 --> 00:03:27.000
+So you just get rid of the other again,
+go back to three S subcategories.
+
+00:03:27.000 --> 00:03:31.140
+And you'd repeat that over a number of
+times and so you'd progressively split and
+
+00:03:31.140 --> 00:03:32.860
+merge the subcategories.
+
+00:03:32.860 --> 00:03:35.870
+And come out with a good number
+of sets of different categories.
+
+00:03:37.300 --> 00:03:39.950
+Yeah again, I'm not going to go
+through the algorithm in detail,
+
+00:03:39.950 --> 00:03:42.520
+let's just look at how it turns out.
+
+00:03:42.520 --> 00:03:47.310
+So this shows some of the subcategories
+that are learned for part of speech tags,
+
+00:03:47.310 --> 00:03:49.790
+because they're the easiest
+ones to interpret.
+
+00:03:49.790 --> 00:03:52.480
+This is for proper nouns, and so
+
+00:03:52.480 --> 00:03:58.050
+what we find is that the proper
+nouns have been divided into groups.
+
+00:03:58.050 --> 00:04:02.780
+And the way they're divided
+isn't just purely syntactic like
+
+00:04:02.780 --> 00:04:04.810
+a feature based grammar anymore.
+
+00:04:04.810 --> 00:04:08.133
+They're syntactico somatic
+class based models so
+
+00:04:08.133 --> 00:04:13.410
+we have a sub category of proper nouns,
+which is abbreviations for months.
+
+00:04:13.410 --> 00:04:18.760
+We have another that's first names,
+another one that's initials,
+
+00:04:18.760 --> 00:04:22.390
+another one that's last names of people.
+
+00:04:22.390 --> 00:04:26.520
+And then,
+we have two corresponding states here for
+
+00:04:26.520 --> 00:04:29.890
+what are location names
+which are multiword.
+
+00:04:29.890 --> 00:04:34.790
+And again, we have a first word here and
+a last word here.
+
+00:04:34.790 --> 00:04:41.100
+So, we have these interesting
+semantic subclasses of nouns.
+
+00:04:41.100 --> 00:04:45.980
+And something similar to that is happening
+also with the personal pronouns.
+
+00:04:45.980 --> 00:04:51.280
+So we're having the ones that
+are the normative subject pronouns and
+
+00:04:51.280 --> 00:04:58.496
+we're having the ones that
+are the accusative object pronouns.
+
+00:04:58.496 --> 00:05:01.625
+And then,
+we're also then distinguishing between
+
+00:05:01.625 --> 00:05:05.263
+the subject ones as to whether
+they're capitalized or not.
+
+00:05:05.263 --> 00:05:09.352
+Which is maybe capturing something
+that were there at the beginning of
+
+00:05:09.352 --> 00:05:11.010
+the sentence.
+
+00:05:11.010 --> 00:05:14.730
+And a word isn't restricted or
+only appear in one category.
+
+00:05:14.730 --> 00:05:16.780
+It can be in the rewrite
+of multiple categories,
+
+00:05:16.780 --> 00:05:19.670
+so it appears in both these places.
+
+00:05:19.670 --> 00:05:22.830
+Because it's used as both a nominative and
+accusative pattern.
+
+00:05:24.790 --> 00:05:28.650
+Looking overall at the pattern
+of state splits by phrases,
+
+00:05:28.650 --> 00:05:33.603
+this actually works interestingly and
+linguistically very effectively.
+
+00:05:33.603 --> 00:05:38.086
+So for the common categories like noun
+phrase, verb phrase, prepositional phrase.
+
+00:05:38.086 --> 00:05:43.087
+But equally the ones where the basic
+categories of the pin treebank were
+
+00:05:43.087 --> 00:05:48.522
+too crude, that's what we found out
+previously with our hand state splits.
+
+00:05:48.522 --> 00:05:53.027
+We found that we wanted to
+distinguish possessive noun phrases.
+
+00:05:53.027 --> 00:05:56.330
+And we wanted to distinguish verb phrases,
+
+00:05:56.330 --> 00:06:01.072
+depending on whether they're infinitive,
+to verb phrases.
+
+00:06:01.072 --> 00:06:05.832
+Where they're in verb phrases or
+whether they are finite verb phrases.
+
+00:06:05.832 --> 00:06:10.852
+Well in those places,
+the split merge algorithm
+
+00:06:10.852 --> 00:06:15.873
+learns a lot of sub
+categories as learning 25,
+
+00:06:15.873 --> 00:06:18.700
+35 or so subcategories.
+
+00:06:18.700 --> 00:06:24.160
+On the other hand, for
+the rare weird categories on the unlike
+
+00:06:24.160 --> 00:06:30.960
+constituent phrase or
+right recursive clauses, the fragments.
+
+00:06:30.960 --> 00:06:33.220
+It's learning very few subcategories.
+
+00:06:33.220 --> 00:06:36.730
+In fact for these ones over here,
+it's making no splits at all,
+
+00:06:36.730 --> 00:06:39.665
+and it's just having
+the single treebank category.
+
+00:06:41.592 --> 00:06:47.400
+So within building a grammar that is
+making splits which aren't purely
+
+00:06:47.400 --> 00:06:52.447
+syntactic, it's also got
+semantically flavoured splits.
+
+00:06:52.447 --> 00:06:59.228
+But it's still much courser than
+actually doing headword lexicalization.
+
+00:06:59.228 --> 00:07:02.003
+So in the models that
+I'm showing you here,
+
+00:07:02.003 --> 00:07:07.030
+the maximum possible number of splits
+that could happen to a category was 64.
+
+00:07:07.030 --> 00:07:13.322
+And in practice, at most a reasonable
+number of them survives.
+
+00:07:13.322 --> 00:07:17.791
+In practice you are always getting less
+than 40 as you can see in this example.
+
+00:07:17.791 --> 00:07:20.799
+So with just that level
+of state splitting,
+
+00:07:20.799 --> 00:07:23.249
+how well can you make a parser work?
+
+00:07:23.249 --> 00:07:28.102
+And the answer turned out to be you can
+make a parser that worked amazingly well.
+
+00:07:28.102 --> 00:07:33.624
+So, this slide shows you
+current parsing results for
+
+00:07:33.624 --> 00:07:40.629
+the parsers that are around when
+I'm saying this around 2012.
+
+00:07:40.629 --> 00:07:45.492
+So we start off again with our
+basic PCFG at around 72.7%,
+
+00:07:45.492 --> 00:07:48.628
+F1, and we're working up from there.
+
+00:07:48.628 --> 00:07:52.367
+And I'm showing two columns of results.
+
+00:07:52.367 --> 00:07:55.861
+A lot of early parts of results were
+showing on sentences up to at most
+
+00:07:55.861 --> 00:07:56.546
+40 words.
+
+00:07:56.546 --> 00:08:00.154
+Whereas more recently it's
+been more common to show
+
+00:08:00.154 --> 00:08:02.943
+results on all sentences of any length.
+
+00:08:02.943 --> 00:08:09.586
+Our baseline now is this unlexicalized
+parser of Klein &amp; Manning and
+
+00:08:09.586 --> 00:08:16.585
+so sentences of all lengths,
+it's getting a little under 86% here.
+
+00:08:16.585 --> 00:08:18.152
+Matsuzaki et al.,
+
+00:08:18.152 --> 00:08:23.609
+tried the simple idea of splitting
+each category with latent states.
+
+00:08:23.609 --> 00:08:27.649
+But just assuming the same number
+of latent states for each category.
+
+00:08:27.649 --> 00:08:29.925
+And that didn't really work any better.
+
+00:08:29.925 --> 00:08:35.230
+In particular, both of these
+parsers are still noticeably below
+
+00:08:35.230 --> 00:08:40.350
+what you could get by doing
+lexicalized PCFGs with head words.
+
+00:08:40.350 --> 00:08:45.860
+So the best of the Charniak Collins
+family of lexicalized
+
+00:08:45.860 --> 00:08:50.796
+PCFGs was this more recent
+model of Eugene Charniak
+
+00:08:50.796 --> 00:08:55.525
+from 2000, and it was getting 89.5%.
+
+00:08:55.525 --> 00:09:00.820
+And so it seemed like maybe this
+3.5% gap was the value that you were
+
+00:09:00.820 --> 00:09:07.146
+getting from lexicalization beyond what
+you got from this basic state splitting.
+
+00:09:07.146 --> 00:09:11.650
+But, what the latent-variable
+
+00:09:11.650 --> 00:09:15.900
+PCFG showed is, well,
+actually you could get all
+
+00:09:15.900 --> 00:09:19.935
+that value without actually
+modeling particular head words.
+
+00:09:19.935 --> 00:09:24.050
+But just using these fairly
+cost semantic classes of words.
+
+00:09:24.050 --> 00:09:28.850
+So in the latent variable,
+PCFG is actually a little bit better.
+
+00:09:28.850 --> 00:09:32.260
+And it's getting this
+extra half a percent here.
+
+00:09:32.260 --> 00:09:39.493
+You kind of can't explain in
+absolute versions why it's better.
+
+00:09:39.493 --> 00:09:43.998
+Because really it's using less condition
+information than Charniak's parser.
+
+00:09:43.998 --> 00:09:49.954
+So the reason it's better is because
+the probability estimation is better.
+
+00:09:49.954 --> 00:09:54.222
+And it's better because it's a lot easier
+to do here because you have a much
+
+00:09:54.222 --> 00:09:56.677
+more number of categories in the grammar.
+
+00:09:56.677 --> 00:10:00.473
+And you're not having to do
+complicated smoothing with head words.
+
+00:10:00.473 --> 00:10:07.241
+Now people have gone on and
+done further work with lexicalized PCFGs.
+
+00:10:07.241 --> 00:10:12.159
+And so in particular using Charniak and
+Mark Johnson work together to add
+
+00:10:12.159 --> 00:10:15.879
+a descriptive reranker on
+top of the Charniak parser.
+
+00:10:15.879 --> 00:10:20.312
+So, this discriminative reranker is
+essentially using a maxim model of
+
+00:10:20.312 --> 00:10:22.357
+the kind that we saw in week four.
+
+00:10:22.357 --> 00:10:29.160
+But applying it now to choose between
+different parsers for a sentence.
+
+00:10:29.160 --> 00:10:33.519
+Where the candidate parsers are being
+generated by Charniak generative parsers,
+
+00:10:33.519 --> 00:10:35.082
+so this is feeding into that.
+
+00:10:35.082 --> 00:10:39.064
+And while the mexant model was again
+able to do this better form of
+
+00:10:39.064 --> 00:10:42.617
+probabilistic conditioning
+which definitely helped.
+
+00:10:42.617 --> 00:10:47.890
+So that was then adding about 2% in
+performance to the Charniak parser.
+
+00:10:47.890 --> 00:10:53.790
+And in particular adding a little bit
+still above the level of the Petrov and
+
+00:10:53.790 --> 00:10:55.170
+Klein parser.
+
+00:10:55.170 --> 00:11:00.674
+But still noticeably,
+knowing that individual particular head
+
+00:11:00.674 --> 00:11:06.290
+words is still now only giving
+you about 1.3% in performance.
+
+00:11:06.290 --> 00:11:11.937
+And finally as always in machine learning
+context, if you have a bunch of systems.
+
+00:11:11.937 --> 00:11:15.520
+A bunch of classifiers are doing things,
+
+00:11:15.520 --> 00:11:19.280
+you can always get even better results
+by combining them all together.
+
+00:11:19.280 --> 00:11:20.520
+And people have shown that.
+
+00:11:20.520 --> 00:11:25.200
+So Fossum and Knight combined
+various constituent parsers and
+
+00:11:25.200 --> 00:11:27.330
+their performance into an aggregate model.
+
+00:11:27.330 --> 00:11:30.710
+And that was able to get
+an extra percent of performance.
+
+00:11:30.710 --> 00:11:34.330
+So this is the state of
+the art at the moment for
+
+00:11:34.330 --> 00:11:36.530
+performance in probabilistic parsing.
+
+00:11:36.530 --> 00:11:39.692
+Which actually is an extremely
+high level of accuracy.
+
+00:11:39.692 --> 00:11:44.930
+Probabilistic parses actually can
+give you the right parsers for
+
+00:11:44.930 --> 00:11:47.842
+most parts of most
+sentences quite reliably.
+
+00:11:47.842 --> 00:11:53.560
+So shows the idea of having these
+
+00:11:53.560 --> 00:11:58.630
+latent states, when you allow them to be
+defined to maximize past performance.
+
+00:11:58.630 --> 00:12:01.270
+You get these syntactico-semantic states,
+
+00:12:01.270 --> 00:12:06.440
+which really allow you to parse rather
+well, still with a quite compact grammar.
+

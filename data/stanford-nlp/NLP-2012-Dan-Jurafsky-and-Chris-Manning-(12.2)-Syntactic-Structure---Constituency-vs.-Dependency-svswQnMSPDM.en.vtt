@@ -1,0 +1,493 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.390 --> 00:00:03.350
+Okay, in this section of the course
+we're going to start talking
+
+00:00:03.350 --> 00:00:07.010
+about how to parse text
+using statistical models.
+
+00:00:07.010 --> 00:00:11.776
+But before doing that, let me just
+introduce two views of syntactic
+
+00:00:11.776 --> 00:00:15.640
+structure that we'll explore
+in our parsing models.
+
+00:00:15.640 --> 00:00:19.090
+So the first view is what's
+called constituency parsing.
+
+00:00:19.090 --> 00:00:22.730
+And the idea of constituency
+parsing is that what we do
+
+00:00:22.730 --> 00:00:26.040
+is that we organize words
+into nested constituents.
+
+00:00:26.040 --> 00:00:28.698
+Let me give you a bit
+of an example of that.
+
+00:00:28.698 --> 00:00:35.878
+So we had long ago this sentence,
+Fed raises interest rates.
+
+00:00:39.778 --> 00:00:45.176
+And so we had the parts of
+speech that we've seen before,
+
+00:00:45.176 --> 00:00:49.449
+that this is a proper noun and
+this a verb, and
+
+00:00:49.449 --> 00:00:54.980
+these are both nouns in the sense
+it's the correct parse.
+
+00:00:54.980 --> 00:01:00.190
+But then above that, what we wanted to say
+is these nouns go together to form a noun
+
+00:01:00.190 --> 00:01:05.000
+phrase, and then the verb and
+the noun phrase go together to
+
+00:01:05.000 --> 00:01:10.610
+form a verb phrase, and everything
+goes together to form a sentence.
+
+00:01:10.610 --> 00:01:14.820
+And so these things up here,
+these are our constituents.
+
+00:01:14.820 --> 00:01:18.075
+And so the claim is that
+the part of the sentence,
+
+00:01:18.075 --> 00:01:23.030
+it's also sometimes shown with square
+brackets, interest rates is a constituent,
+
+00:01:23.030 --> 00:01:25.190
+that it's a unit of the sentence.
+
+00:01:27.200 --> 00:01:29.680
+Now how do we know what a constituent is?
+
+00:01:29.680 --> 00:01:33.930
+Well, that's a complex issue, but
+here are some of the ideas that we use.
+
+00:01:33.930 --> 00:01:39.980
+So one big idea is by looking at
+the words that stay together and go
+
+00:01:39.980 --> 00:01:45.360
+together when phrases move around because
+of various syntactic constructions.
+
+00:01:45.360 --> 00:01:50.440
+So in this example here,
+we've got these two and
+
+00:01:50.440 --> 00:01:54.020
+three words, to the children and
+about drugs.
+
+00:01:54.020 --> 00:01:58.230
+And well, something that you'll notice
+is that we can actually swap them around
+
+00:01:58.230 --> 00:02:01.410
+into the opposite order and
+that that's fine.
+
+00:02:01.410 --> 00:02:04.110
+John talked about drugs to the children.
+
+00:02:04.110 --> 00:02:06.280
+Or you could do other things with them.
+
+00:02:06.280 --> 00:02:10.694
+So for example,
+maybe you could take this one and
+
+00:02:10.694 --> 00:02:14.470
+front it in certain discourse contexts.
+
+00:02:14.470 --> 00:02:17.610
+You could say,
+to the children John talked about drugs.
+
+00:02:17.610 --> 00:02:22.850
+And so this is all evidence that each of
+these groups of words is a constituent.
+
+00:02:22.850 --> 00:02:27.400
+On the other hand, if you randomly
+reorder the words of a sentence,
+
+00:02:27.400 --> 00:02:30.140
+normally you get something
+that just doesn't work at all.
+
+00:02:30.140 --> 00:02:34.950
+So here what I've tried to do
+is take the word drugs from
+
+00:02:34.950 --> 00:02:39.980
+the end here and thought, hm, maybe I can
+just take it and stick it after taught.
+
+00:02:39.980 --> 00:02:41.210
+But that doesn't work at all.
+
+00:02:41.210 --> 00:02:46.170
+So you can't say, this is it down here,
+John talked drugs to the children about.
+
+00:02:48.160 --> 00:02:49.850
+And there are a lot of other tests.
+
+00:02:49.850 --> 00:02:55.220
+Another test is this idea of
+phrasal expansion and substitution.
+
+00:02:55.220 --> 00:02:59.460
+So for the phrase on the box
+you can make it a bigger unit,
+
+00:02:59.460 --> 00:03:04.730
+like right on top of the box, and you
+can make it a smaller unit, like there.
+
+00:03:04.730 --> 00:03:08.170
+And in general you can
+apply these substitutions
+
+00:03:08.170 --> 00:03:11.700
+in any place where the phrase
+on the box can appear.
+
+00:03:11.700 --> 00:03:16.398
+There are lots of other syntactic tests
+that people use for constituency.
+
+00:03:16.398 --> 00:03:20.022
+Really, if you want to learn a lot about
+this you should take a linguistics course
+
+00:03:20.022 --> 00:03:22.225
+and then you'll see this
+all in more detail.
+
+00:03:22.225 --> 00:03:24.920
+But I hope that's enough
+to give a rough idea.
+
+00:03:24.920 --> 00:03:26.158
+Those were simple sentences.
+
+00:03:26.158 --> 00:03:30.830
+This is the kind of thing that happens
+when you've got big real sentences.
+
+00:03:30.830 --> 00:03:33.190
+So this sentence is, Analysts said Mr.
+
+00:03:33.190 --> 00:03:38.480
+Stronach wants to resume a more
+influential role in running the company.
+
+00:03:38.480 --> 00:03:42.060
+And so the idea of constituency structure,
+
+00:03:42.060 --> 00:03:46.140
+or phrase structure, is that we have this
+units, again, that are constituents.
+
+00:03:46.140 --> 00:03:50.178
+So here's a constituent,
+a more influential role.
+
+00:03:50.178 --> 00:03:54.257
+Here's another constituent which
+just is name Mr. Stronach.
+
+00:03:54.257 --> 00:03:57.090
+And then here are some different
+constituents down the bottom.
+
+00:03:57.090 --> 00:03:59.790
+So running the company is a constituent.
+
+00:03:59.790 --> 00:04:04.170
+But also this bigger in running
+the company is also a constituent.
+
+00:04:04.170 --> 00:04:05.720
+So constituents nest together.
+
+00:04:07.270 --> 00:04:11.712
+And these are the kind of parse trees
+that NLP people actually spend their time
+
+00:04:11.712 --> 00:04:12.608
+dealing with.
+
+00:04:12.608 --> 00:04:14.720
+And we'll talk more about these, but
+
+00:04:14.720 --> 00:04:19.143
+note just one attribute of them is as
+well as actual pronounced words, they're
+
+00:04:19.143 --> 00:04:23.648
+postulating these unpronounced units
+in them as well, called empty elements.
+
+00:04:26.408 --> 00:04:31.327
+So the straightforward way to model phrase
+structural constituency structures, just
+
+00:04:31.327 --> 00:04:37.390
+as a context-free grammar, which we assume
+you've seen somewhere in computer science.
+
+00:04:37.390 --> 00:04:43.061
+And that is just the idea that
+you've got these rules that says,
+
+00:04:43.061 --> 00:04:45.050
+A rewrites as B C D.
+
+00:04:45.050 --> 00:04:49.990
+And if you apply these,
+then let's say we have B goes to E F.
+
+00:04:49.990 --> 00:04:54.996
+If you apply these,
+you get phrase structure rules,
+
+00:04:54.996 --> 00:04:59.568
+where this is B, C, D and
+then this goes to E, F.
+
+00:04:59.568 --> 00:05:03.150
+And that gives you
+the constituency structure.
+
+00:05:03.150 --> 00:05:08.360
+But these kind of rules you can write for
+other tree symbols.
+
+00:05:08.360 --> 00:05:11.080
+But if you actually look at what
+happens in natural languages,
+
+00:05:11.080 --> 00:05:13.460
+there's always a lot more structure.
+
+00:05:13.460 --> 00:05:17.730
+And this is the idea that
+gets called X-bar theory.
+
+00:05:17.730 --> 00:05:21.670
+And what that says is that
+in natural languages, by and
+
+00:05:21.670 --> 00:05:25.550
+large, phrases are headed by particular
+
+00:05:25.550 --> 00:05:30.280
+kinds of words which then take
+modifiers and dependents around them.
+
+00:05:30.280 --> 00:05:34.910
+So informally we call things a verb
+phrase precisely because they have
+
+00:05:34.910 --> 00:05:36.798
+a verb in the middle of them.
+
+00:05:36.798 --> 00:05:41.296
+And we call things a noun phrase precisely
+because they have a noun that is
+
+00:05:41.296 --> 00:05:43.590
+the central element of them.
+
+00:05:43.590 --> 00:05:46.900
+So a noun phrase,
+something like the man in the corner,
+
+00:05:46.900 --> 00:05:53.140
+centrally has the noun man and then
+has other modifiers sitting around it.
+
+00:05:53.140 --> 00:05:57.001
+And so although according
+to a context-free grammar,
+
+00:05:57.001 --> 00:06:01.845
+these are just arbitrary symbols,
+in practice we give them names that
+
+00:06:01.845 --> 00:06:05.558
+reflect this headed structure or
+phrase structure.
+
+00:06:05.558 --> 00:06:09.600
+And the same is true of other categories,
+as well, like adjective phrases and
+
+00:06:09.600 --> 00:06:10.529
+adverb phrases.
+
+00:06:12.200 --> 00:06:15.520
+So they are a large part
+of our category inventory.
+
+00:06:15.520 --> 00:06:17.230
+We do have other kinds of phrases.
+
+00:06:17.230 --> 00:06:22.438
+So we have sentences and
+various kinds of invert and questioning
+
+00:06:22.438 --> 00:06:29.320
+sentences which basically correspond to
+a subject noun phrase and a verb phrase.
+
+00:06:29.320 --> 00:06:34.023
+And then they can appear in bigger
+complement clauses, these SBAR and
+
+00:06:34.023 --> 00:06:39.400
+SBAR(Q), which also have something
+like a that introducing the sentence.
+
+00:06:39.400 --> 00:06:42.640
+And various other miscellaneous
+stuff happens as well.
+
+00:06:42.640 --> 00:06:46.820
+Again, you can learn a lot more about
+that in a linguistic syntax class.
+
+00:06:46.820 --> 00:06:52.770
+But this idea of headed phrase structure
+is the connection between phrase structure
+
+00:06:52.770 --> 00:06:57.100
+and the other big approach to syntactic
+structure that I want to show you, and
+
+00:06:57.100 --> 00:06:59.350
+that's dependency structure.
+
+00:06:59.350 --> 00:07:05.900
+So in dependency structure, the idea is we
+directly show for the words of a sentence
+
+00:07:05.900 --> 00:07:11.310
+which other words depend on, that is,
+modify or are arguments of, them.
+
+00:07:11.310 --> 00:07:16.640
+Let's look at that with this example,
+the boy put the tortoise on the rug.
+
+00:07:16.640 --> 00:07:19.817
+So the head of this whole
+sentence is putting,
+
+00:07:19.817 --> 00:07:23.520
+that that's the central
+word of the sentence.
+
+00:07:23.520 --> 00:07:28.480
+And that's sometimes represented
+by having a dependency arc coming
+
+00:07:28.480 --> 00:07:32.938
+in from the edge, pointing to
+the head of the whole sentence.
+
+00:07:32.938 --> 00:07:36.258
+Okay, so
+then put has two arguments itself.
+
+00:07:36.258 --> 00:07:39.938
+So put's arguments are the boy.
+
+00:07:39.938 --> 00:07:44.161
+I'm sorry,
+it's got three arguments itself,
+
+00:07:44.161 --> 00:07:48.798
+the tortoise, and on the rug,
+where things are put.
+
+00:07:48.798 --> 00:07:54.778
+So who put what and then where.
+
+00:07:54.778 --> 00:07:58.511
+Okay, and so then at that point,
+we then sort of say, well, boy,
+
+00:07:58.511 --> 00:08:00.870
+does it have any modifiers or arguments?
+
+00:08:00.870 --> 00:08:03.050
+Its modifier is the.
+
+00:08:03.050 --> 00:08:05.368
+Tortoise, does it have any modifiers or
+arguments?
+
+00:08:05.368 --> 00:08:08.410
+Its modifier is the.
+
+00:08:08.410 --> 00:08:12.878
+And then on, as a preposition,
+takes a complement, so
+
+00:08:12.878 --> 00:08:16.110
+its argument is its complement the rug,
+
+00:08:16.110 --> 00:08:21.270
+where the rug is the head and
+the modifier of rug is the.
+
+00:08:21.270 --> 00:08:24.702
+And so
+this set of arrows I've now drawn here is
+
+00:08:24.702 --> 00:08:27.788
+a dependency analysis of this sentence.
+
+00:08:27.788 --> 00:08:32.189
+And this form of dependency
+analysis is the other major
+
+00:08:32.189 --> 00:08:35.448
+syntactic representation we'll use.
+
+00:08:35.448 --> 00:08:35.996
+Okay, so
+
+00:08:35.996 --> 00:08:40.585
+I hope that's been enough to give you some
+idea of the representations we use for
+
+00:08:40.585 --> 00:08:45.330
+syntactic structure and how the two main
+representations connect to each other.
+

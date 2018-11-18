@@ -1,0 +1,259 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.833
+The next thing I'd like to introduce is
+term frequency weighting, which is one of
+
+00:00:04.833 --> 00:00:09.189
+the components of the kind of document
+scores that are regularly used in
+
+00:00:09.189 --> 00:00:13.939
+information retrieval systems. Let's go
+back to where we began, with the term
+
+00:00:13.939 --> 00:00:19.467
+document incidence matrix. So with this
+matrix we recorded a number, which was
+
+00:00:19.467 --> 00:00:24.497
+either one or zero, in each cell of the
+matrix depending on whether the word
+
+00:00:24.497 --> 00:00:29.647
+occurred in the document. If we then think
+about what the representation of each
+
+00:00:29.647 --> 00:00:35.344
+document is, well what we have is a
+vector. It's a binary vector, which, the
+
+00:00:35.344 --> 00:00:41.769
+dimensionality of the vector is the size
+of the vocabulary and it's recording these 1s
+
+00:00:41.769 --> 00:00:46.967
+or 0s. But we don't have to limit
+ourselves to a binary vector like this. An
+
+00:00:46.967 --> 00:00:53.624
+obvious alternative is instead to move to
+a count vector. So now we still have a
+
+00:00:53.624 --> 00:01:00.525
+vector for each document, but rather than
+simply putting 1's and 0's in it, we're
+
+00:01:00.525 --> 00:01:06.993
+putting in the number of times the word
+occurs in the document. So we've still got a
+
+00:01:06.993 --> 00:01:15.200
+vector of size of vocabulary, but it's now a
+vector in the natural number vector space.
+
+00:01:15.200 --> 00:01:20.764
+Previously in the Boolean retrieval model,
+we were just looking at a set of words
+
+00:01:20.764 --> 00:01:26.061
+that occurred in the document and doing
+set operations like AND or OR. Now with
+
+00:01:26.061 --> 00:01:31.291
+this count model, we've moved to the
+commonly used bag of words model. So in
+
+00:01:31.291 --> 00:01:36.317
+the bag of words model, we're not
+considering the ordering of the words in
+
+00:01:36.317 --> 00:01:41.935
+the document, but we are considering how
+many times a word occurs in a document.
+
+00:01:41.935 --> 00:01:47.766
+And this word Bag is commonly used for an
+extension to sets, which does record how
+
+00:01:47.766 --> 00:01:53.742
+often a word is used. So the bag of words
+model has some huge limitations. So, John
+
+00:01:53.742 --> 00:01:59.571
+is quicker than Mary, and Mary is quicker
+than John, have exactly the same vectors,
+
+00:01:59.571 --> 00:02:06.276
+there's no differentiation between them.
+And that's obviously has its limitations.
+
+00:02:06.276 --> 00:02:12.003
+So in a sense, this is a step back.
+Earlier on when we introduced positional
+
+00:02:12.003 --> 00:02:17.049
+indices, they were able to distinguish
+these two documents by either proximity or
+
+00:02:17.049 --> 00:02:21.556
+phrase queries. And we'll want to get back
+to that. We'll look later at recovering
+
+00:02:21.556 --> 00:02:26.386
+positional information, but for now we're
+going to develop the bag of words model
+
+00:02:26.386 --> 00:02:31.582
+and how it's used in vector space
+retrieval models. So we have this quantity
+
+00:02:31.582 --> 00:02:35.345
+of the term frequency of a term in a
+document, which is just the number of
+
+00:02:35.345 --> 00:02:41.093
+times that it occurs. And so the question
+then is, how can we use that in a
+
+00:02:41.093 --> 00:02:46.065
+retrieval score? Thinking about it a
+little, I hope you can be convinced that
+
+00:02:46.065 --> 00:02:51.630
+raw term frequency is perhaps not what we
+really want. So the idea underlying making
+
+00:02:51.630 --> 00:02:56.797
+use of term frequency is, if I'm searching
+for something like squirrels, then I
+
+00:02:56.797 --> 00:03:02.362
+should prefer a document that has the word
+squirrel in it three times over one that
+
+00:03:02.362 --> 00:03:08.112
+just has the word squirrel in it once. But
+on the other hand, if I find a document
+
+00:03:08.112 --> 00:03:13.551
+that has the word squirrel in it 30 times,
+it's not clear that I should prefer it 30
+
+00:03:13.551 --> 00:03:19.146
+times as much as the document that only
+mentions squirrel once. And so the
+
+00:03:19.146 --> 00:03:26.232
+suggestion is that relevance goes up with
+number of mentions but not linearly. And so
+
+00:03:26.232 --> 00:03:32.411
+we want to come up with some way of
+scaling term frequencies that is relative
+
+00:03:32.411 --> 00:03:39.513
+to its frequency but less than linear.
+Before I go on to outline such measure let
+
+00:03:39.513 --> 00:03:44.934
+me just highlight one last point. We talk
+here about term frequency. Now the word
+
+00:03:44.934 --> 00:03:50.355
+frequency actually has two usages. One is
+the rate at which something occurs, the
+
+00:03:50.355 --> 00:03:55.776
+frequency of burglaries. And the other
+sense of it is the one that's always used
+
+00:03:55.776 --> 00:04:01.332
+in information retrieval. So when we talk
+about frequency in information retrieval,
+
+00:04:01.332 --> 00:04:06.900
+frequency just means the count, so the
+count of a word in a document. Okay, so
+
+00:04:06.900 --> 00:04:13.817
+this now is what Is standardly done with
+the term frequency. What we do is we take
+
+00:04:13.817 --> 00:04:19.896
+the log of the term frequency. Now if the
+term frequency is zero, the word doesn't
+
+00:04:19.896 --> 00:04:25.524
+occur in the document, well the log of
+zero is negative infinity. So that's
+
+00:04:25.524 --> 00:04:30.960
+slightly problematic. So the standard fix
+for that is we have this two case
+
+00:04:30.960 --> 00:04:36.361
+construction where we add one to the term
+frequency if the term does occur in the
+
+00:04:36.361 --> 00:04:42.166
+document. So if it occurs once, then its
+value will become one. Because the log
+
+00:04:42.166 --> 00:04:48.247
+will be zero and then we'll add one to it.
+And we return an answer of zero if the
+
+00:04:48.247 --> 00:04:55.268
+word doesn't occur. So that means that if,
+going on a little, and if we use base ten
+
+00:04:55.268 --> 00:05:00.249
+logarithms as here, you can see how we're
+getting this less than linear growth. So
+
+00:05:00.249 --> 00:05:05.536
+if a word occurs twice in a document, it
+gets a weight of 1.3, a little more. If it
+
+00:05:05.536 --> 00:05:11.780
+occurs ten times, it gets a weight of two,
+1000 times, a weight of four, And so on.
+
+00:05:12.464 --> 00:05:18.072
+So in order to score a document query
+pair, we're just gonna sum over these
+
+00:05:18.072 --> 00:05:25.046
+terms for each word in the query and the
+document. So it's sufficient to take the
+
+00:05:25.046 --> 00:05:29.962
+intersection of words that are in both the
+query and the document, cause everything
+
+00:05:29.962 --> 00:05:36.020
+else will contribute nothing to the score.
+And then for each of those terms, we're
+
+00:05:36.020 --> 00:05:41.748
+gonna calculate this quantity and sum them
+up. And so note in particular, that the
+
+00:05:41.748 --> 00:05:46.850
+score is indeed still zero if none of the
+query terms is present in the document.
+
+00:05:46.850 --> 00:05:52.905
+Okay, so that's the idea of term frequency
+weighting and how it can be used to give a
+
+00:05:52.905 --> 00:05:58.106
+score for documents for a particular
+query, which can be used to rank the
+
+00:05:58.106 --> 00:05:59.460
+documents returned.
+
