@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Web of Videos</title>
+	<script src="static/jquery.js"></script>
+	<!--script src="web-of-videos.js"></script-->
+	<!--link rel="stylesheet" href="styles.css"-->
+  </head>
+  <body>
+	<div class="main-content">
+		<div class="padded">
+			<div id="player"></div>
+		</div>
+		<div class="padded">
+			Description and stuff;
+			
+		</div>
+	</div>
+	<div class="sidebar">
+		<div class="padded">
+			<!--div id = "sidebar_id"></div-->
+		</div>
+	</div>
+  
+    
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      
+
+	  // Get the video id
+	  //var videoId = getUrlParameter("v");
+	  // 3. This function creates an <iframe> (and YouTube player)
+	  //    after the API code downloads.
+	  var player;
+	  
+	  function onYouTubeIframeAPIReady() {
+                
+		player = new YT.Player('player', {
+		  height: '390',
+		  width: '640',
+		  //videoId: videoId,
+		  playerVars :{
+		      listType : 'playlist',
+		      list: 'PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO',
+		      autoplay : 1
+		  },
+		  events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPlayerStateChange,
+		  },
+		});
+	  }
+
+	  // 4. The API will call this function when the video player is ready.
+	  function onPlayerReady(event) {
+		event.target.playVideo();
+	  }
+
+	  // 5. The API calls this function when the player's state changes.
+	  //    The function indicates that when playing a video (state=1),
+	  //    the player should play for six seconds and then stop.
+	  
+	  function onPlayerStateChange(event) {
+		if (event.data != -1) {
+			//var time = player.getCurrentTime();
+			//console.log(time);
+			url = player.getVideoUrl()
+			videoInfo = JSON.stringify({"url" : url})
+	        console.log(url);
+	        $(".sidebar .padded").text(url);
+			//$(".sidebar .padded").text(time);
+			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+			console.log($SCRIPT_ROOT)
+			$.ajax({
+                url: $SCRIPT_ROOT + '/getSimVideos',
+                type: 'POST',
+                data: videoInfo,
+                headers : {"Content-Type": "application/json"},
+                //contentType: "application/json; charset=utf-8",
+                //dataType: "json",
+                success : function(result){  // on success get the return object from server
+                    console.log(result); // do whatever with it. 
+                    $(".sidebar .padded").text("returned=" + url);
+                    //$("#sidebar_id").html("returned=" + url);
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+            
+		}
+		//console.log(event.data)
+	  }
+
+
+    </script>
+  </body>
+</html>
