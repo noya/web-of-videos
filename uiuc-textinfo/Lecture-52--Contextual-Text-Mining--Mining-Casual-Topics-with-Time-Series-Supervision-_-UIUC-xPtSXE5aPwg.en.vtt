@@ -1,0 +1,3398 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:06.420 align:start position:0%
+ 
+you
+
+00:00:06.420 --> 00:00:06.430 align:start position:0%
+ 
+ 
+
+00:00:06.430 --> 00:00:09.580 align:start position:0%
+ 
+this<c.colorE5E5E5><00:00:07.430><c> lecture</c><00:00:07.880><c> is</c><00:00:07.910><c> about</c><00:00:08.269><c> the</c><00:00:08.660><c> using</c><00:00:09.170><c> a</c><00:00:09.320><c> time</c></c>
+
+00:00:09.580 --> 00:00:09.590 align:start position:0%
+this<c.colorE5E5E5> lecture is about the using a time
+ </c>
+
+00:00:09.590 --> 00:00:12.730 align:start position:0%
+this<c.colorE5E5E5> lecture is about the using a time
+series<00:00:09.920><c> as</c><00:00:10.280><c> context</c><00:00:10.969><c> to</c><00:00:11.740><c> potentially</c></c>
+
+00:00:12.730 --> 00:00:12.740 align:start position:0%
+series as context to potentially
+ 
+
+00:00:12.740 --> 00:00:15.039 align:start position:0%
+series as context to potentially
+discover<00:00:13.129><c> causal</c><00:00:13.639><c> topics</c><00:00:14.000><c> in</c><00:00:14.240><c> text</c><00:00:14.660><c> in</c><00:00:14.870><c> this</c>
+
+00:00:15.039 --> 00:00:15.049 align:start position:0%
+discover causal topics in text in this
+ 
+
+00:00:15.049 --> 00:00:15.940 align:start position:0%
+discover causal topics in text in this
+lecture<00:00:15.259><c> we're</c><00:00:15.589><c> going</c><00:00:15.620><c> to</c><00:00:15.799><c> continue</c>
+
+00:00:15.940 --> 00:00:15.950 align:start position:0%
+lecture we're going to continue
+ 
+
+00:00:15.950 --> 00:00:18.519 align:start position:0%
+lecture we're going to continue
+discussing<00:00:16.580><c> contextual</c><00:00:17.360><c> tabs</c><00:00:17.540><c> mining</c><00:00:18.020><c> in</c>
+
+00:00:18.519 --> 00:00:18.529 align:start position:0%
+discussing contextual tabs mining in
+ 
+
+00:00:18.529 --> 00:00:19.960 align:start position:0%
+discussing contextual tabs mining in
+particular<c.colorE5E5E5><00:00:18.830><c> we're</c><00:00:19.220><c> going</c></c><c.colorCCCCCC><00:00:19.250><c> to</c><00:00:19.460><c> look</c><00:00:19.580><c> at</c><00:00:19.759><c> the</c></c>
+
+00:00:19.960 --> 00:00:19.970 align:start position:0%
+particular<c.colorE5E5E5> we're going</c><c.colorCCCCCC> to look at the
+ </c>
+
+00:00:19.970 --> 00:00:23.890 align:start position:0%
+particular<c.colorE5E5E5> we're going</c><c.colorCCCCCC> to look at the
+time</c><c.colorE5E5E5><00:00:20.779><c> series</c><00:00:21.169><c> as</c><00:00:21.980><c> a</c><00:00:22.039><c> context</c><00:00:22.850><c> for</c><00:00:23.180><c> analyzing</c></c>
+
+00:00:23.890 --> 00:00:23.900 align:start position:0%
+time<c.colorE5E5E5> series as a context for analyzing
+ </c>
+
+00:00:23.900 --> 00:00:26.650 align:start position:0%
+time<c.colorE5E5E5> series as a context for analyzing
+text<00:00:24.289><c> to</c><00:00:25.039><c> potentially</c><00:00:25.760><c> discover</c><00:00:26.119><c> causal</c></c>
+
+00:00:26.650 --> 00:00:26.660 align:start position:0%
+text to potentially discover causal
+ 
+
+00:00:26.660 --> 00:00:28.779 align:start position:0%
+text to potentially discover causal
+topics<00:00:27.019><c> as</c><00:00:27.230><c> usual</c><00:00:28.099><c> let's</c><00:00:28.279><c> start</c><00:00:28.519><c> with</c><00:00:28.670><c> the</c>
+
+00:00:28.779 --> 00:00:28.789 align:start position:0%
+topics as usual let's start with the
+ 
+
+00:00:28.789 --> 00:00:30.849 align:start position:0%
+topics as usual let's start with the
+motivation<00:00:29.300><c> in</c><c.colorE5E5E5><00:00:29.570><c> this</c><00:00:29.779><c> case</c><00:00:29.990><c> we</c><00:00:30.349><c> hope</c><00:00:30.560><c> to</c><00:00:30.710><c> use</c></c>
+
+00:00:30.849 --> 00:00:30.859 align:start position:0%
+motivation in<c.colorE5E5E5> this case we hope to use
+ </c>
+
+00:00:30.859 --> 00:00:33.310 align:start position:0%
+motivation in<c.colorE5E5E5> this case we hope to use
+text<00:00:31.220><c> mining</c><00:00:31.490><c> to</c><00:00:32.330><c> understand</c><00:00:32.960><c> the</c><00:00:33.110><c> time</c></c>
+
+00:00:33.310 --> 00:00:33.320 align:start position:0%
+text mining to understand the time
+ 
+
+00:00:33.320 --> 00:00:36.220 align:start position:0%
+text mining to understand the time
+series<00:00:33.590><c> here</c><00:00:34.550><c> what</c><00:00:34.730><c> you</c><c.colorCCCCCC><00:00:34.760><c> are</c><00:00:35.000><c> seeing</c><00:00:35.180><c> is</c><00:00:35.360><c> Dow</c></c>
+
+00:00:36.220 --> 00:00:36.230 align:start position:0%
+series here what you<c.colorCCCCCC> are seeing is Dow
+ </c>
+
+00:00:36.230 --> 00:00:39.040 align:start position:0%
+series here what you<c.colorCCCCCC> are seeing is Dow
+Jones<00:00:36.530><c> Industrial</c><00:00:37.309><c> Average</c><00:00:37.370><c> and</c><00:00:38.090><c> start</c><00:00:38.809><c> price</c></c>
+
+00:00:39.040 --> 00:00:39.050 align:start position:0%
+Jones Industrial Average and start price
+ 
+
+00:00:39.050 --> 00:00:41.650 align:start position:0%
+Jones Industrial Average and start price
+curves<00:00:39.440><c> and</c><00:00:39.739><c> you</c><00:00:40.340><c> see</c><00:00:40.520><c> a</c><c.colorCCCCCC><00:00:40.550><c> southern</c><00:00:41.059><c> drop</c><00:00:41.360><c> here</c></c>
+
+00:00:41.650 --> 00:00:41.660 align:start position:0%
+curves and you see a<c.colorCCCCCC> southern drop here
+ </c>
+
+00:00:41.660 --> 00:00:43.900 align:start position:0%
+curves and you see a<c.colorCCCCCC> southern drop here
+right<00:00:42.140><c> so</c><00:00:42.710><c> one</c><00:00:43.100><c> would</c><00:00:43.280><c> be</c><00:00:43.430><c> interested</c></c><c.colorE5E5E5><00:00:43.850><c> in</c></c>
+
+00:00:43.900 --> 00:00:43.910 align:start position:0%
+right so one would be interested<c.colorE5E5E5> in
+ </c>
+
+00:00:43.910 --> 00:00:45.639 align:start position:0%
+right so one would be interested<c.colorE5E5E5> in</c>
+<c.colorCCCCCC>knowing<00:00:44.090><c> what</c></c><c.colorE5E5E5><00:00:44.239><c> might</c><00:00:44.539><c> have</c><00:00:44.719><c> caused</c><00:00:45.079><c> the</c><00:00:45.410><c> stock</c></c>
+
+00:00:45.639 --> 00:00:45.649 align:start position:0%
+<c.colorCCCCCC>knowing what</c><c.colorE5E5E5> might have caused the stock
+ </c>
+
+00:00:45.649 --> 00:00:49.600 align:start position:0%
+<c.colorCCCCCC>knowing what</c><c.colorE5E5E5> might have caused the stock
+market<00:00:45.980><c> crash</c><00:00:47.980><c> well</c><00:00:48.980><c> if</c><00:00:49.250><c> you</c><00:00:49.309><c> know</c><00:00:49.460><c> the</c></c>
+
+00:00:49.600 --> 00:00:49.610 align:start position:0%
+market<c.colorE5E5E5> crash well if you know the
+ </c>
+
+00:00:49.610 --> 00:00:51.130 align:start position:0%
+market<c.colorE5E5E5> crash well if you know the</c>
+<c.colorCCCCCC>background<00:00:50.059><c> and</c><00:00:50.300><c> you</c><00:00:50.510><c> might</c></c><c.colorE5E5E5><00:00:50.690><c> be</c><00:00:50.870><c> able</c><00:00:50.930><c> to</c></c>
+
+00:00:51.130 --> 00:00:51.140 align:start position:0%
+<c.colorCCCCCC>background and you might</c><c.colorE5E5E5> be able to
+ </c>
+
+00:00:51.140 --> 00:00:52.900 align:start position:0%
+<c.colorCCCCCC>background and you might</c><c.colorE5E5E5> be able to
+figure<00:00:51.289><c> out</c><00:00:51.469><c> if</c><00:00:51.680><c> you</c><00:00:51.770><c> look</c><00:00:51.890><c> at</c></c><c.colorCCCCCC><00:00:52.010><c> timestamp</c></c><c.colorE5E5E5><00:00:52.309><c> or</c></c>
+
+00:00:52.900 --> 00:00:52.910 align:start position:0%
+figure out if you look at<c.colorCCCCCC> timestamp</c><c.colorE5E5E5> or
+ </c>
+
+00:00:52.910 --> 00:00:54.819 align:start position:0%
+figure out if you look at<c.colorCCCCCC> timestamp</c><c.colorE5E5E5> or
+there<00:00:53.210><c> are</c><00:00:53.239><c> other</c><00:00:53.539><c> data</c></c><c.colorCCCCCC><00:00:54.050><c> that</c><00:00:54.350><c> can</c><00:00:54.530><c> help</c><00:00:54.680><c> us</c></c>
+
+00:00:54.819 --> 00:00:54.829 align:start position:0%
+there are<c.colorE5E5E5> other data</c><c.colorCCCCCC> that can help us
+ </c>
+
+00:00:54.829 --> 00:00:57.250 align:start position:0%
+there are<c.colorE5E5E5> other data</c><c.colorCCCCCC> that can help us
+figure<00:00:55.129><c> it</c></c><c.colorE5E5E5><00:00:55.250><c> out</c><00:00:55.340><c> but</c><00:00:56.300><c> the</c><00:00:56.449><c> question</c></c><c.colorCCCCCC><00:00:56.660><c> here</c><00:00:56.960><c> is</c></c>
+
+00:00:57.250 --> 00:00:57.260 align:start position:0%
+figure<c.colorCCCCCC> it</c><c.colorE5E5E5> out but the question</c><c.colorCCCCCC> here is
+ </c>
+
+00:00:57.260 --> 00:01:00.520 align:start position:0%
+figure<c.colorCCCCCC> it</c><c.colorE5E5E5> out but the question</c><c.colorCCCCCC> here is
+can<00:00:57.800><c> we</c><00:00:58.489><c> get</c><00:00:58.699><c> some</c><00:00:58.969><c> clothes</c></c><c.colorE5E5E5><00:00:59.300><c> about</c><00:00:59.809><c> this</c><00:01:00.050><c> from</c></c>
+
+00:01:00.520 --> 00:01:00.530 align:start position:0%
+can we get some clothes<c.colorE5E5E5> about this from
+ </c>
+
+00:01:00.530 --> 00:01:02.979 align:start position:0%
+can we get some clothes<c.colorE5E5E5> about this from
+the<00:01:00.739><c> companion</c><00:01:01.100><c> new</c><00:01:01.430><c> screen</c><00:01:01.940><c> and</c><00:01:02.329><c> we</c><00:01:02.870><c> have</c><00:01:02.960><c> a</c></c>
+
+00:01:02.979 --> 00:01:02.989 align:start position:0%
+the companion<c.colorE5E5E5> new screen and we have a
+ </c>
+
+00:01:02.989 --> 00:01:05.469 align:start position:0%
+the companion<c.colorE5E5E5> new screen and we have a
+lot<00:01:03.199><c> of</c><00:01:03.230><c> news</c><00:01:03.500><c> data</c><00:01:03.739><c> that</c><00:01:04.100><c> are</c><00:01:04.479><c> generated</c></c>
+
+00:01:05.469 --> 00:01:05.479 align:start position:0%
+lot of news data that are generated
+ 
+
+00:01:05.479 --> 00:01:09.340 align:start position:0%
+lot of news data that are generated
+during<00:01:05.630><c> that</c><00:01:05.899><c> period</c><00:01:07.270><c> so</c><00:01:08.270><c> if</c><00:01:08.600><c> you</c><00:01:08.690><c> do</c><00:01:08.840><c> that</c><00:01:09.050><c> we</c>
+
+00:01:09.340 --> 00:01:09.350 align:start position:0%
+during that period so if you do that we
+ 
+
+00:01:09.350 --> 00:01:11.800 align:start position:0%
+during that period so if you do that we
+<c.colorE5E5E5>might<00:01:09.590><c> actually</c><00:01:09.830><c> discover</c><00:01:10.610><c> the</c><00:01:11.569><c> crash</c></c>
+
+00:01:11.800 --> 00:01:11.810 align:start position:0%
+<c.colorE5E5E5>might actually discover the crash
+ </c>
+
+00:01:11.810 --> 00:01:13.660 align:start position:0%
+<c.colorE5E5E5>might actually discover the crash
+actually<00:01:12.170><c> happened</c><00:01:12.770><c> at</c><00:01:13.039><c> the</c><00:01:13.220><c> time</c><00:01:13.429><c> of</c></c>
+
+00:01:13.660 --> 00:01:13.670 align:start position:0%
+actually happened at the time of
+ 
+
+00:01:13.670 --> 00:01:17.529 align:start position:0%
+actually happened at the time of
+September<00:01:14.660><c> 11</c><00:01:15.080><c> attack</c><00:01:15.500><c> and</c><00:01:16.119><c> that's</c><00:01:17.119><c> the</c><00:01:17.330><c> time</c>
+
+00:01:17.529 --> 00:01:17.539 align:start position:0%
+September 11 attack and that's the time
+ 
+
+00:01:17.539 --> 00:01:20.680 align:start position:0%
+September 11 attack and that's the time
+when<00:01:17.899><c> there</c><00:01:18.440><c> is</c><00:01:18.590><c> a</c><c.colorE5E5E5><00:01:18.619><c> sudden</c><00:01:19.009><c> rise</c><00:01:19.160><c> of</c><00:01:19.490><c> the</c><00:01:19.910><c> topic</c></c>
+
+00:01:20.680 --> 00:01:20.690 align:start position:0%
+when there is a<c.colorE5E5E5> sudden rise of the topic
+ </c>
+
+00:01:20.690 --> 00:01:23.050 align:start position:0%
+when there is a<c.colorE5E5E5> sudden rise of the topic
+about<00:01:21.410><c> the</c><00:01:21.590><c> September</c><00:01:22.069><c> 11</c><00:01:22.369><c> attacker</c><00:01:22.640><c> in</c><00:01:22.880><c> news</c></c>
+
+00:01:23.050 --> 00:01:23.060 align:start position:0%
+about the September 11 attacker in news
+ 
+
+00:01:23.060 --> 00:01:27.160 align:start position:0%
+about the September 11 attacker in news
+articles<00:01:25.179><c> here's</c><c.colorCCCCCC><00:01:26.179><c> another</c><00:01:26.450><c> scenario</c><00:01:26.840><c> where</c></c>
+
+00:01:27.160 --> 00:01:27.170 align:start position:0%
+articles here's<c.colorCCCCCC> another scenario where
+ </c>
+
+00:01:27.170 --> 00:01:30.120 align:start position:0%
+articles here's<c.colorCCCCCC> another scenario where</c>
+<c.colorCCCCCC>we<00:01:27.319><c> want</c></c><c.colorE5E5E5><00:01:27.500><c> to</c><00:01:27.560><c> analyze</c><00:01:27.709><c> the</c><00:01:28.130><c> presidential</c></c>
+
+00:01:30.120 --> 00:01:30.130 align:start position:0%
+<c.colorCCCCCC>we want</c><c.colorE5E5E5> to analyze the presidential
+ </c>
+
+00:01:30.130 --> 00:01:34.600 align:start position:0%
+<c.colorCCCCCC>we want</c><c.colorE5E5E5> to analyze the presidential</c>
+<c.colorE5E5E5>election<00:01:31.130><c> and</c><00:01:31.340><c> this</c><00:01:32.149><c> is</c><00:01:32.360><c> the</c><00:01:33.229><c> time</c><00:01:34.220><c> seals</c><00:01:34.489><c> that</c></c>
+
+00:01:34.600 --> 00:01:34.610 align:start position:0%
+<c.colorE5E5E5>election and this is the time seals that
+ </c>
+
+00:01:34.610 --> 00:01:36.460 align:start position:0%
+<c.colorE5E5E5>election and this is the time seals that
+are<00:01:34.789><c> from</c><00:01:35.090><c> a</c><00:01:35.149><c> presidential</c><00:01:35.899><c> prediction</c></c>
+
+00:01:36.460 --> 00:01:36.470 align:start position:0%
+are from<c.colorE5E5E5> a presidential prediction
+ </c>
+
+00:01:36.470 --> 00:01:40.059 align:start position:0%
+are from<c.colorE5E5E5> a presidential prediction
+market<00:01:37.119><c> for</c><00:01:38.119><c> example</c><00:01:38.539><c> I</c><00:01:38.869><c> why</c><00:01:39.470><c> are</c><00:01:39.739><c> trying</c><00:01:39.979><c> to</c></c>
+
+00:01:40.059 --> 00:01:40.069 align:start position:0%
+market for example I why are trying to
+ 
+
+00:01:40.069 --> 00:01:43.270 align:start position:0%
+market for example I why are trying to
+market<00:01:40.220><c> would</c><00:01:41.030><c> have</c><00:01:41.330><c> stops</c><00:01:42.319><c> for</c><00:01:42.979><c> each</c>
+
+00:01:43.270 --> 00:01:43.280 align:start position:0%
+market would have stops for each
+ 
+
+00:01:43.280 --> 00:01:45.969 align:start position:0%
+market would have stops for each
+candidate<00:01:44.239><c> and</c><00:01:44.539><c> if</c><00:01:45.110><c> you</c><00:01:45.200><c> believe</c><00:01:45.349><c> one</c>
+
+00:01:45.969 --> 00:01:45.979 align:start position:0%
+candidate and if you believe one
+ 
+
+00:01:45.979 --> 00:01:48.279 align:start position:0%
+candidate and if you believe one
+candidate<00:01:46.610><c> will</c><00:01:46.819><c> win</c><00:01:46.849><c> then</c><c.colorCCCCCC><00:01:47.300><c> you</c><00:01:47.509><c> tend</c><00:01:47.959><c> to</c></c><c.colorE5E5E5><00:01:48.080><c> buy</c></c>
+
+00:01:48.279 --> 00:01:48.289 align:start position:0%
+candidate will win then<c.colorCCCCCC> you tend to</c><c.colorE5E5E5> buy
+ </c>
+
+00:01:48.289 --> 00:01:51.580 align:start position:0%
+candidate will win then<c.colorCCCCCC> you tend to</c><c.colorE5E5E5> buy
+the<00:01:48.349><c> stock</c><00:01:48.739><c> of</c><00:01:48.890><c> all</c><00:01:49.039><c> that</c><00:01:49.819><c> can</c><00:01:50.090><c> date</c><00:01:50.630><c> causing</c></c>
+
+00:01:51.580 --> 00:01:51.590 align:start position:0%
+the stock<c.colorE5E5E5> of all that can date causing
+ </c>
+
+00:01:51.590 --> 00:01:54.070 align:start position:0%
+the stock<c.colorE5E5E5> of all that can date causing
+the<00:01:51.679><c> price</c><00:01:51.920><c> of</c><00:01:52.280><c> that</c><00:01:52.459><c> candid</c><00:01:52.940><c> to</c><00:01:53.450><c> increase</c><00:01:53.780><c> so</c></c>
+
+00:01:54.070 --> 00:01:54.080 align:start position:0%
+the price of that candid to increase so
+ 
+
+00:01:54.080 --> 00:01:56.499 align:start position:0%
+the price of that candid to increase so
+that's<00:01:54.229><c> a</c><00:01:54.319><c> nice</c><00:01:54.530><c> way</c><c.colorCCCCCC><00:01:54.800><c> to</c><00:01:55.250><c> actually</c><00:01:55.640><c> do</c><00:01:55.789><c> survey</c></c>
+
+00:01:56.499 --> 00:01:56.509 align:start position:0%
+that's a nice way<c.colorCCCCCC> to actually do survey
+ </c>
+
+00:01:56.509 --> 00:01:58.270 align:start position:0%
+that's a nice way<c.colorCCCCCC> to actually do survey
+of<00:01:56.690><c> people's</c><00:01:57.170><c> opinions</c><00:01:57.709><c> about</c><00:01:57.860><c> these</c></c>
+
+00:01:58.270 --> 00:01:58.280 align:start position:0%
+of people's opinions about these
+ 
+
+00:01:58.280 --> 00:02:02.559 align:start position:0%
+of people's opinions about these
+candidates<00:01:59.470><c> now</c><00:02:00.470><c> suppose</c><00:02:01.039><c> you</c><00:02:01.069><c> see</c><00:02:01.580><c> a</c><00:02:01.759><c> certain</c>
+
+00:02:02.559 --> 00:02:02.569 align:start position:0%
+candidates now suppose you see a certain
+ 
+
+00:02:02.569 --> 00:02:05.440 align:start position:0%
+candidates now suppose you see a certain
+drop<00:02:02.929><c> of</c><00:02:03.170><c> price</c><00:02:03.530><c> for</c><00:02:04.009><c> one</c><00:02:04.759><c> candidate</c><00:02:05.179><c> you</c>
+
+00:02:05.440 --> 00:02:05.450 align:start position:0%
+drop of price for one candidate you
+ 
+
+00:02:05.450 --> 00:02:07.749 align:start position:0%
+drop of price for one candidate you
+might<00:02:05.660><c> also</c><00:02:05.959><c> want</c><00:02:06.349><c> to</c><00:02:06.440><c> know</c><00:02:06.649><c> what</c><00:02:07.280><c> might</c><00:02:07.580><c> have</c>
+
+00:02:07.749 --> 00:02:07.759 align:start position:0%
+might also want to know what might have
+ 
+
+00:02:07.759 --> 00:02:12.339 align:start position:0%
+might also want to know what might have
+caused<00:02:08.060><c> the</c><00:02:08.360><c> sudden</c><00:02:08.509><c> drop</c><00:02:08.899><c> or</c><00:02:10.300><c> in</c><00:02:11.349><c> social</c>
+
+00:02:12.339 --> 00:02:12.349 align:start position:0%
+caused the sudden drop or in social
+ 
+
+00:02:12.349 --> 00:02:14.470 align:start position:0%
+caused the sudden drop or in social
+science<00:02:12.620><c> that</c><00:02:12.739><c> you</c><c.colorE5E5E5><00:02:12.920><c> might</c><00:02:13.190><c> be</c><00:02:13.610><c> interested</c><00:02:14.030><c> in</c></c>
+
+00:02:14.470 --> 00:02:14.480 align:start position:0%
+science that you<c.colorE5E5E5> might be interested in
+ </c>
+
+00:02:14.480 --> 00:02:16.490 align:start position:0%
+science that you<c.colorE5E5E5> might be interested in</c>
+<c.colorCCCCCC>knowing<00:02:15.050><c> what</c><00:02:15.230><c> mattered</c><00:02:15.950><c> in</c><00:02:16.160><c> this</c></c>
+
+00:02:16.490 --> 00:02:16.500 align:start position:0%
+<c.colorCCCCCC>knowing what mattered in this
+ </c>
+
+00:02:16.500 --> 00:02:18.710 align:start position:0%
+<c.colorCCCCCC>knowing what mattered in this
+election<00:02:16.950><c> what</c><00:02:17.130><c> issues</c><00:02:17.520><c> really</c><00:02:18.420><c> matter</c></c>
+
+00:02:18.710 --> 00:02:18.720 align:start position:0%
+election what issues really matter
+ 
+
+00:02:18.720 --> 00:02:21.890 align:start position:0%
+election what issues really matter
+little<00:02:18.960><c> people</c><00:02:19.970><c> now</c><00:02:20.970><c> again</c><00:02:21.120><c> in</c><c.colorE5E5E5><00:02:21.420><c> this</c><00:02:21.540><c> case</c><00:02:21.750><c> we</c></c>
+
+00:02:21.890 --> 00:02:21.900 align:start position:0%
+little people now again in<c.colorE5E5E5> this case we
+ </c>
+
+00:02:21.900 --> 00:02:23.480 align:start position:0%
+little people now again in<c.colorE5E5E5> this case we
+can<00:02:22.080><c> look</c><00:02:22.140><c> at</c><00:02:22.290><c> the</c><00:02:22.470><c> companion</c></c><c.colorCCCCCC><00:02:23.040><c> news</c><00:02:23.310><c> the</c></c>
+
+00:02:23.480 --> 00:02:23.490 align:start position:0%
+can look at the companion<c.colorCCCCCC> news the
+ </c>
+
+00:02:23.490 --> 00:02:25.340 align:start position:0%
+can look at the companion<c.colorCCCCCC> news the
+screen<00:02:23.790><c> and</c><00:02:23.970><c> ask</c></c><c.colorE5E5E5><00:02:24.450><c> you</c><00:02:24.600><c> the</c><00:02:24.660><c> question</c><00:02:25.020><c> are</c></c>
+
+00:02:25.340 --> 00:02:25.350 align:start position:0%
+screen and ask<c.colorE5E5E5> you the question are
+ </c>
+
+00:02:25.350 --> 00:02:27.470 align:start position:0%
+screen and ask<c.colorE5E5E5> you the question are
+there<00:02:25.530><c> any</c><00:02:25.620><c> cruise</c><00:02:25.980><c> in</c></c><c.colorCCCCCC><00:02:26.280><c> the</c><00:02:26.400><c> new</c><00:02:26.580><c> screen</c><00:02:27.150><c> that</c></c>
+
+00:02:27.470 --> 00:02:27.480 align:start position:0%
+there any cruise in<c.colorCCCCCC> the new screen that
+ </c>
+
+00:02:27.480 --> 00:02:30.200 align:start position:0%
+there any cruise in<c.colorCCCCCC> the new screen that
+might<00:02:27.750><c> provide</c><00:02:28.350><c> insight</c><00:02:28.770><c> about</c><00:02:28.980><c> this</c><00:02:29.340><c> so</c><00:02:30.060><c> for</c></c>
+
+00:02:30.200 --> 00:02:30.210 align:start position:0%
+might provide insight about this so for
+ 
+
+00:02:30.210 --> 00:02:32.210 align:start position:0%
+might provide insight about this so for
+<c.colorE5E5E5>example<00:02:30.300><c> we</c><00:02:30.810><c> might</c><00:02:30.990><c> discover</c><00:02:31.560><c> the</c></c><c.colorCCCCCC><00:02:31.830><c> main</c><00:02:32.010><c> king</c></c>
+
+00:02:32.210 --> 00:02:32.220 align:start position:0%
+<c.colorE5E5E5>example we might discover the</c><c.colorCCCCCC> main king
+ </c>
+
+00:02:32.220 --> 00:02:37.550 align:start position:0%
+<c.colorE5E5E5>example we might discover the</c><c.colorCCCCCC> main king
+of<00:02:32.340><c> tax</c><00:02:32.610><c> cut</c><00:02:32.900><c> has</c><00:02:34.010><c> has</c><00:02:35.180><c> been</c><00:02:36.320><c> increasing</c><00:02:37.320><c> since</c></c>
+
+00:02:37.550 --> 00:02:37.560 align:start position:0%
+of tax cut has has been<c.colorCCCCCC> increasing since
+ </c>
+
+00:02:37.560 --> 00:02:41.000 align:start position:0%
+of tax cut has has been<c.colorCCCCCC> increasing since
+that<00:02:37.860><c> point</c><00:02:38.100><c> so</c><00:02:38.490><c> maybe</c><00:02:38.700><c> thats</c><00:02:39.360><c> related</c></c><c.colorE5E5E5><00:02:40.140><c> to</c><00:02:40.560><c> the</c></c>
+
+00:02:41.000 --> 00:02:41.010 align:start position:0%
+that point so maybe thats related<c.colorE5E5E5> to the
+ </c>
+
+00:02:41.010 --> 00:02:45.470 align:start position:0%
+that point so maybe thats related<c.colorE5E5E5> to the
+drop<00:02:41.250><c> of</c><00:02:41.280><c> the</c><00:02:41.490><c> price</c><00:02:43.160><c> so</c><00:02:44.160><c> all</c><00:02:44.430><c> these</c><00:02:44.730><c> cases</c><00:02:44.970><c> are</c></c>
+
+00:02:45.470 --> 00:02:45.480 align:start position:0%
+drop of the price so all these cases<c.colorE5E5E5> are
+ </c>
+
+00:02:45.480 --> 00:02:47.360 align:start position:0%
+drop of the price so all these cases<c.colorE5E5E5> are
+special<00:02:46.080><c> cases</c><00:02:46.200><c> of</c><00:02:46.410><c> a</c><00:02:46.620><c> general</c><00:02:47.010><c> problem</c><00:02:47.190><c> of</c></c>
+
+00:02:47.360 --> 00:02:47.370 align:start position:0%
+special cases of<c.colorE5E5E5> a general problem of
+ </c>
+
+00:02:47.370 --> 00:02:49.460 align:start position:0%
+special cases of<c.colorE5E5E5> a general problem of
+join<00:02:47.880><c> the</c><00:02:48.060><c> analysis</c><00:02:48.540><c> of</c><00:02:48.660><c> text</c><00:02:48.959><c> and</c><00:02:49.110><c> the</c><00:02:49.200><c> time</c></c>
+
+00:02:49.460 --> 00:02:49.470 align:start position:0%
+join the analysis of text and the time
+ 
+
+00:02:49.470 --> 00:02:51.890 align:start position:0%
+join the analysis of text and the time
+series<c.colorCCCCCC><00:02:49.709><c> data</c><00:02:49.830><c> to</c><00:02:50.400><c> discover</c><00:02:50.850><c> causal</c><00:02:51.540><c> topics</c></c>
+
+00:02:51.890 --> 00:02:51.900 align:start position:0%
+series<c.colorCCCCCC> data to discover causal topics
+ </c>
+
+00:02:51.900 --> 00:02:53.990 align:start position:0%
+series<c.colorCCCCCC> data to discover causal topics
+the<00:02:52.200><c> input</c><00:02:52.410><c> in</c><00:02:52.770><c> this</c><00:02:52.920><c> case</c><00:02:53.160><c> is</c><00:02:53.370><c> a</c><00:02:53.400><c> time</c><00:02:53.730><c> series</c></c>
+
+00:02:53.990 --> 00:02:54.000 align:start position:0%
+the input<c.colorCCCCCC> in this case is a time series
+ </c>
+
+00:02:54.000 --> 00:02:57.740 align:start position:0%
+the input<c.colorCCCCCC> in this case is a time series
+plus<00:02:55.280><c> text</c><00:02:56.280><c> data</c><00:02:56.550><c> that</c><00:02:56.850><c> are</c><00:02:56.880><c> produced</c><00:02:57.330><c> in</c><00:02:57.540><c> the</c></c>
+
+00:02:57.740 --> 00:02:57.750 align:start position:0%
+plus text data that are produced in the
+ 
+
+00:02:57.750 --> 00:03:00.229 align:start position:0%
+plus text data that are produced in the
+same<00:02:58.320><c> time</c><c.colorE5E5E5><00:02:58.530><c> period</c><00:02:58.590><c> the</c><00:02:59.310><c> companion</c></c><c.colorCCCCCC><00:02:59.850><c> texas</c></c>
+
+00:03:00.229 --> 00:03:00.239 align:start position:0%
+same time<c.colorE5E5E5> period the companion</c><c.colorCCCCCC> texas
+ </c>
+
+00:03:00.239 --> 00:03:03.979 align:start position:0%
+same time<c.colorE5E5E5> period the companion</c><c.colorCCCCCC> texas
+stream<00:03:00.510><c> and</c><00:03:02.180><c> this</c><00:03:03.180><c> is</c><00:03:03.390><c> to</c><00:03:03.480><c> see</c><00:03:03.630><c> this</c></c><c.colorE5E5E5><00:03:03.810><c> is</c></c>
+
+00:03:03.979 --> 00:03:03.989 align:start position:0%
+<c.colorCCCCCC>stream and this is to see this</c><c.colorE5E5E5> is
+ </c>
+
+00:03:03.989 --> 00:03:06.380 align:start position:0%
+<c.colorCCCCCC>stream and this is to see this</c><c.colorE5E5E5> is
+different<00:03:04.260><c> from</c><00:03:04.620><c> the</c><00:03:05.340><c> standard</c><00:03:05.550><c> topic</c><00:03:06.060><c> models</c></c>
+
+00:03:06.380 --> 00:03:06.390 align:start position:0%
+different<c.colorE5E5E5> from the standard topic models
+ </c>
+
+00:03:06.390 --> 00:03:07.940 align:start position:0%
+different<c.colorE5E5E5> from the standard topic models
+where<00:03:06.600><c> we</c><00:03:06.750><c> have</c><00:03:06.870><c> just</c><00:03:07.080><c> a</c><00:03:07.170><c> passive</c></c><c.colorCCCCCC><00:03:07.530><c> collection</c></c>
+
+00:03:07.940 --> 00:03:07.950 align:start position:0%
+where we have just<c.colorE5E5E5> a passive</c><c.colorCCCCCC> collection
+ </c>
+
+00:03:07.950 --> 00:03:09.979 align:start position:0%
+where we have just<c.colorE5E5E5> a passive</c><c.colorCCCCCC> collection
+again</c><c.colorE5E5E5><00:03:08.340><c> that's</c><00:03:08.880><c> why</c><00:03:09.090><c> we</c><00:03:09.270><c> said</c><00:03:09.540><c> help</c></c><c.colorCCCCCC><00:03:09.810><c> i'm</c></c>
+
+00:03:09.979 --> 00:03:09.989 align:start position:0%
+again<c.colorE5E5E5> that's why we said help</c><c.colorCCCCCC> i'm
+ </c>
+
+00:03:09.989 --> 00:03:13.220 align:start position:0%
+again<c.colorE5E5E5> that's why we said help</c><c.colorCCCCCC> i'm
+serious<00:03:10.320><c> here</c><00:03:10.590><c> services</c><00:03:11.310><c> comments</c><00:03:12.170><c> now</c><00:03:13.170><c> the</c></c>
+
+00:03:13.220 --> 00:03:13.230 align:start position:0%
+serious here services comments now the
+ 
+
+00:03:13.230 --> 00:03:15.740 align:start position:0%
+serious here services comments now the
+output<00:03:13.860><c> that</c><00:03:14.010><c> we</c><00:03:14.070><c> want</c><00:03:14.310><c> generator</c><00:03:14.760><c> is</c><00:03:15.060><c> the</c>
+
+00:03:15.740 --> 00:03:15.750 align:start position:0%
+output that we want generator is the
+ 
+
+00:03:15.750 --> 00:03:18.229 align:start position:0%
+output that we want generator is the
+topics<00:03:16.320><c> whose</c><00:03:17.130><c> coverage</c><00:03:17.640><c> in</c><00:03:17.790><c> the</c><00:03:17.880><c> text</c><00:03:18.150><c> of</c>
+
+00:03:18.229 --> 00:03:18.239 align:start position:0%
+topics whose coverage in the text of
+ 
+
+00:03:18.239 --> 00:03:20.539 align:start position:0%
+topics whose coverage in the text of
+stream<00:03:18.510><c> has</c><00:03:19.260><c> shown</c><00:03:19.590><c> correlations</c><00:03:20.190><c> with</c><00:03:20.430><c> the</c>
+
+00:03:20.539 --> 00:03:20.549 align:start position:0%
+stream has shown correlations with the
+ 
+
+00:03:20.549 --> 00:03:23.300 align:start position:0%
+stream has shown correlations with the
+time<00:03:20.760><c> series</c><00:03:21.530><c> for</c><00:03:22.530><c> example</c><00:03:22.860><c> whenever</c><00:03:23.040><c> the</c>
+
+00:03:23.300 --> 00:03:23.310 align:start position:0%
+time series for example whenever the
+ 
+
+00:03:23.310 --> 00:03:25.789 align:start position:0%
+time series for example whenever the
+<c.colorE5E5E5>public<00:03:23.670><c> is</c><00:03:23.760><c> managing</c><00:03:24.269><c> the</c><00:03:24.630><c> price</c><00:03:25.200><c> tends</c><00:03:25.530><c> to</c><00:03:25.650><c> go</c></c>
+
+00:03:25.789 --> 00:03:25.799 align:start position:0%
+<c.colorE5E5E5>public is managing the price tends to go
+ </c>
+
+00:03:25.799 --> 00:03:29.870 align:start position:0%
+<c.colorE5E5E5>public is managing the price tends to go
+down<00:03:26.010><c> etc</c><00:03:26.280><c> now</c></c><c.colorCCCCCC><00:03:27.769><c> we</c><00:03:28.769><c> call</c><00:03:29.130><c> these</c><00:03:29.310><c> topics</c><00:03:29.760><c> of</c></c>
+
+00:03:29.870 --> 00:03:29.880 align:start position:0%
+down etc now<c.colorCCCCCC> we call these topics of
+ </c>
+
+00:03:29.880 --> 00:03:32.330 align:start position:0%
+down etc now<c.colorCCCCCC> we call these topics of
+causal<00:03:30.360><c> topics</c><00:03:30.750><c> of</c><00:03:30.900><c> course</c><00:03:31.200><c> they</c><00:03:32.100><c> are</c><00:03:32.160><c> not</c></c>
+
+00:03:32.330 --> 00:03:32.340 align:start position:0%
+causal topics of course they are not
+ 
+
+00:03:32.340 --> 00:03:36.380 align:start position:0%
+causal topics of course they are not
+strictly<00:03:33.239><c> speaking</c><00:03:34.250><c> causal</c><00:03:35.250><c> topic</c><00:03:35.549><c> so</c><00:03:35.730><c> we</c><00:03:36.120><c> are</c>
+
+00:03:36.380 --> 00:03:36.390 align:start position:0%
+strictly speaking causal topic so we are
+ 
+
+00:03:36.390 --> 00:03:39.080 align:start position:0%
+strictly speaking causal topic so we are
+never<00:03:37.049><c> going</c><c.colorE5E5E5><00:03:37.260><c> to</c><00:03:37.380><c> be</c><00:03:37.500><c> able</c><00:03:37.530><c> to</c><00:03:37.799><c> verify</c><00:03:38.580><c> whether</c></c>
+
+00:03:39.080 --> 00:03:39.090 align:start position:0%
+never going<c.colorE5E5E5> to be able to verify whether
+ </c>
+
+00:03:39.090 --> 00:03:42.199 align:start position:0%
+never going<c.colorE5E5E5> to be able to verify whether
+they<00:03:39.299><c> are</c><00:03:39.330><c> causal</c><00:03:39.989><c> or</c><00:03:40.280><c> there's</c><00:03:41.280><c> a</c><00:03:41.400><c> true</c><00:03:41.730><c> causal</c></c>
+
+00:03:42.199 --> 00:03:42.209 align:start position:0%
+they are causal or there's a true causal
+ 
+
+00:03:42.209 --> 00:03:44.410 align:start position:0%
+they are causal or there's a true causal
+relationship<00:03:42.810><c> yeah</c><00:03:43.019><c> that's</c><00:03:43.260><c> why</c><c.colorCCCCCC><00:03:43.410><c> we</c><00:03:43.620><c> put</c></c>
+
+00:03:44.410 --> 00:03:44.420 align:start position:0%
+relationship yeah that's why<c.colorCCCCCC> we put
+ </c>
+
+00:03:44.420 --> 00:03:48.440 align:start position:0%
+relationship yeah that's why<c.colorCCCCCC> we put
+causal<00:03:45.420><c> in</c><00:03:46.200><c> quotation</c><00:03:46.739><c> marks</c><00:03:47.090><c> but</c><00:03:48.090><c> at</c><00:03:48.239><c> least</c></c>
+
+00:03:48.440 --> 00:03:48.450 align:start position:0%
+causal in quotation marks but at least
+ 
+
+00:03:48.450 --> 00:03:50.720 align:start position:0%
+causal in quotation marks but at least
+they<00:03:48.750><c> are</c><00:03:48.840><c> correlated</c><00:03:49.620><c> topics</c><00:03:50.310><c> that</c><00:03:50.489><c> might</c>
+
+00:03:50.720 --> 00:03:50.730 align:start position:0%
+they are correlated topics that might
+ 
+
+00:03:50.730 --> 00:03:53.569 align:start position:0%
+they are correlated topics that might
+potentially<00:03:51.060><c> explain</c><00:03:51.989><c> the</c><00:03:52.140><c> cause</c><00:03:52.380><c> and</c><00:03:52.680><c> humans</c>
+
+00:03:53.569 --> 00:03:53.579 align:start position:0%
+potentially explain the cause and humans
+ 
+
+00:03:53.579 --> 00:03:55.280 align:start position:0%
+potentially explain the cause and humans
+can<c.colorE5E5E5><00:03:53.700><c> certain</c><00:03:54.150><c> it</c><00:03:54.269><c> for</c><00:03:54.600><c> the</c><00:03:54.660><c> analyze</c><00:03:55.019><c> such</c></c>
+
+00:03:55.280 --> 00:03:55.290 align:start position:0%
+can<c.colorE5E5E5> certain it for the analyze such
+ </c>
+
+00:03:55.290 --> 00:03:57.620 align:start position:0%
+can<c.colorE5E5E5> certain it for the analyze such
+topics<00:03:55.530><c> to</c><00:03:55.980><c> to</c><00:03:56.579><c> understand</c><00:03:57.090><c> that</c><00:03:57.269><c> issue</c></c>
+
+00:03:57.620 --> 00:03:57.630 align:start position:0%
+topics to to understand that issue
+ 
+
+00:03:57.630 --> 00:04:02.330 align:start position:0%
+topics to to understand that issue
+better<00:03:57.959><c> and</c><00:03:59.060><c> the</c><00:04:00.060><c> output</c><00:04:00.570><c> is</c><00:04:00.600><c> 0</c><00:04:00.840><c> would</c><00:04:01.620><c> contain</c>
+
+00:04:02.330 --> 00:04:02.340 align:start position:0%
+better and the output is 0 would contain
+ 
+
+00:04:02.340 --> 00:04:04.699 align:start position:0%
+better and the output is 0 would contain
+topics<00:04:02.880><c> just</c><c.colorCCCCCC><00:04:02.970><c> like</c><00:04:03.329><c> in</c><00:04:03.480><c> topic</c><00:04:03.840><c> modeling</c><00:04:04.230><c> but</c></c>
+
+00:04:04.699 --> 00:04:04.709 align:start position:0%
+topics just<c.colorCCCCCC> like in topic modeling but
+ </c>
+
+00:04:04.709 --> 00:04:07.039 align:start position:0%
+topics just<c.colorCCCCCC> like in topic modeling but
+we<00:04:04.860><c> hope</c><00:04:05.100><c> these</c><00:04:05.519><c> topics</c><00:04:06.000><c> are</c><00:04:06.180><c> not</c><00:04:06.420><c> just</c><00:04:06.989><c> a</c></c>
+
+00:04:07.039 --> 00:04:07.049 align:start position:0%
+we hope these topics are not just a
+ 
+
+00:04:07.049 --> 00:04:09.289 align:start position:0%
+we hope these topics are not just a
+regular<00:04:07.290><c> topics</c><00:04:07.829><c> with</c><00:04:08.190><c> these</c><00:04:08.850><c> topics</c>
+
+00:04:09.289 --> 00:04:09.299 align:start position:0%
+regular topics with these topics
+ 
+
+00:04:09.299 --> 00:04:10.910 align:start position:0%
+regular topics with these topics
+certainly<00:04:09.930><c> don't</c><00:04:10.110><c> have</c><c.colorE5E5E5><00:04:10.260><c> to</c><00:04:10.320><c> explain</c><00:04:10.709><c> that</c></c>
+
+00:04:10.910 --> 00:04:10.920 align:start position:0%
+certainly don't have<c.colorE5E5E5> to explain that
+ </c>
+
+00:04:10.920 --> 00:04:13.580 align:start position:0%
+certainly don't have<c.colorE5E5E5> to explain that
+they<00:04:11.280><c> are</c><00:04:11.459><c> the</c><00:04:11.610><c> best</c></c><c.colorCCCCCC><00:04:11.790><c> in</c><00:04:12.450><c> text</c><00:04:12.900><c> but</c><00:04:13.410><c> rather</c></c>
+
+00:04:13.580 --> 00:04:13.590 align:start position:0%
+<c.colorE5E5E5>they are the best</c><c.colorCCCCCC> in text but rather
+ </c>
+
+00:04:13.590 --> 00:04:16.789 align:start position:0%
+<c.colorE5E5E5>they are the best</c><c.colorCCCCCC> in text but rather
+they<00:04:13.890><c> have</c><00:04:14.070><c> to</c><00:04:14.780><c> explain</c><00:04:15.780><c> the</c><00:04:16.019><c> data</c><00:04:16.200><c> in</c><00:04:16.650><c> the</c></c>
+
+00:04:16.789 --> 00:04:16.799 align:start position:0%
+they have to explain the data in the
+ 
+
+00:04:16.799 --> 00:04:18.560 align:start position:0%
+they have to explain the data in the
+text<c.colorE5E5E5><00:04:17.130><c> meaning</c><00:04:17.519><c> that</c><00:04:17.549><c> they</c><00:04:17.790><c> have</c><00:04:17.940><c> to</c><00:04:18.090><c> represent</c></c>
+
+00:04:18.560 --> 00:04:18.570 align:start position:0%
+text<c.colorE5E5E5> meaning that they have to represent
+ </c>
+
+00:04:18.570 --> 00:04:20.960 align:start position:0%
+text<c.colorE5E5E5> meaning that they have to represent
+a<00:04:18.810><c> meaningful</c><00:04:19.109><c> topics</c><00:04:19.590><c> in</c><00:04:19.769><c> text</c><00:04:20.100><c> Samantha</c></c>
+
+00:04:20.960 --> 00:04:20.970 align:start position:0%
+a meaningful topics in text Samantha
+ 
+
+00:04:20.970 --> 00:04:23.210 align:start position:0%
+a meaningful topics in text Samantha
+<c.colorCCCCCC>Kaliko<00:04:21.299><c> here</c><00:04:21.510><c> in</c><00:04:21.630><c> the</c><00:04:21.690><c> topics</c><00:04:22.049><c> but</c><00:04:22.590><c> also</c><00:04:22.800><c> more</c></c>
+
+00:04:23.210 --> 00:04:23.220 align:start position:0%
+<c.colorCCCCCC>Kaliko here in the topics but also more
+ </c>
+
+00:04:23.220 --> 00:04:25.490 align:start position:0%
+<c.colorCCCCCC>Kaliko here in the topics but also more
+importantly<00:04:23.280><c> they</c><00:04:23.970><c> should</c><00:04:24.240><c> be</c><00:04:24.500><c> correlated</c></c>
+
+00:04:25.490 --> 00:04:25.500 align:start position:0%
+importantly they should be correlated
+ 
+
+00:04:25.500 --> 00:04:26.350 align:start position:0%
+importantly they should be correlated
+with
+
+00:04:26.350 --> 00:04:26.360 align:start position:0%
+with
+ 
+
+00:04:26.360 --> 00:04:28.719 align:start position:0%
+with
+external<00:04:26.960><c> time</c><00:04:27.169><c> series</c><00:04:27.500><c> that</c><c.colorE5E5E5><00:04:27.919><c> is</c><00:04:28.250><c> given</c><00:04:28.580><c> as</c><00:04:28.699><c> a</c></c>
+
+00:04:28.719 --> 00:04:28.729 align:start position:0%
+external time series that<c.colorE5E5E5> is given as a
+ </c>
+
+00:04:28.729 --> 00:04:31.659 align:start position:0%
+external time series that<c.colorE5E5E5> is given as a</c>
+<c.colorE5E5E5>context<00:04:29.270><c> so</c><00:04:29.840><c> to</c><00:04:30.349><c> understand</c><00:04:31.129><c> how</c><00:04:31.250><c> we</c><00:04:31.310><c> solve</c></c>
+
+00:04:31.659 --> 00:04:31.669 align:start position:0%
+<c.colorE5E5E5>context so to understand how we solve
+ </c>
+
+00:04:31.669 --> 00:04:33.790 align:start position:0%
+<c.colorE5E5E5>context so to understand how we solve
+this<00:04:31.819><c> problem</c><00:04:32.240><c> let's</c><00:04:32.509><c> first</c><00:04:32.780><c> just</c><00:04:32.930><c> to</c><00:04:33.229><c> solve</c></c>
+
+00:04:33.790 --> 00:04:33.800 align:start position:0%
+this problem let's first just to solve
+ 
+
+00:04:33.800 --> 00:04:35.320 align:start position:0%
+this problem let's first just to solve
+the<00:04:33.919><c> problem</c><00:04:34.250><c> with</c><00:04:34.430><c> a</c><c.colorE5E5E5><00:04:34.460><c> record</c><00:04:34.729><c> atomic</c><00:04:35.180><c> model</c></c>
+
+00:04:35.320 --> 00:04:35.330 align:start position:0%
+the problem with a<c.colorE5E5E5> record atomic model
+ </c>
+
+00:04:35.330 --> 00:04:38.260 align:start position:0%
+the problem with a<c.colorE5E5E5> record atomic model
+for<00:04:35.990><c> example</c><00:04:36.319><c> pasa</c><00:04:36.800><c> and</c><00:04:37.039><c> we</c><00:04:37.099><c> apply</c><00:04:37.460><c> this</c><00:04:37.520><c> text</c></c>
+
+00:04:38.260 --> 00:04:38.270 align:start position:0%
+for example pasa and we apply this text
+ 
+
+00:04:38.270 --> 00:04:41.830 align:start position:0%
+for example pasa and we apply this text
+<c.colorCCCCCC>extremes<00:04:38.659><c> and</c><00:04:39.460><c> with</c><00:04:40.460><c> some</c><00:04:40.849><c> extending</c><00:04:41.659><c> like</c><00:04:41.810><c> a</c></c>
+
+00:04:41.830 --> 00:04:41.840 align:start position:0%
+<c.colorCCCCCC>extremes and with some extending like a
+ </c>
+
+00:04:41.840 --> 00:04:45.369 align:start position:0%
+<c.colorCCCCCC>extremes and with some extending like a
+CPR<00:04:42.620><c> essay</c><00:04:42.949><c> or</c><00:04:43.189><c> contextual</c><00:04:43.819><c> prsa</c><00:04:44.479><c> then</c><00:04:45.020><c> we</c><00:04:45.199><c> can</c></c>
+
+00:04:45.369 --> 00:04:45.379 align:start position:0%
+CPR essay or contextual<c.colorCCCCCC> prsa then we can
+ </c>
+
+00:04:45.379 --> 00:04:48.820 align:start position:0%
+CPR essay or contextual<c.colorCCCCCC> prsa then we can
+discover<00:04:46.479><c> these</c><00:04:47.479><c> topics</c><00:04:48.110><c> in</c><00:04:48.319><c> the</c><00:04:48.409><c> corruption</c></c>
+
+00:04:48.820 --> 00:04:48.830 align:start position:0%
+discover these topics in the corruption
+ 
+
+00:04:48.830 --> 00:04:51.219 align:start position:0%
+discover these topics in the corruption
+and<00:04:48.949><c> also</c><00:04:49.610><c> discover</c><00:04:50.060><c> they</c><00:04:50.419><c> are</c><00:04:50.509><c> coverage</c><00:04:50.870><c> over</c>
+
+00:04:51.219 --> 00:04:51.229 align:start position:0%
+and also discover they are coverage over
+ 
+
+00:04:51.229 --> 00:04:56.700 align:start position:0%
+and also discover they are coverage over
+time<00:04:52.360><c> so</c><00:04:53.469><c> one</c><00:04:54.469><c> simple</c><00:04:55.009><c> solution</c><00:04:55.400><c> is</c><00:04:55.580><c> to</c><00:04:56.300><c> choose</c>
+
+00:04:56.700 --> 00:04:56.710 align:start position:0%
+time so one simple solution is to choose
+ 
+
+00:04:56.710 --> 00:05:01.029 align:start position:0%
+time so one simple solution is to choose
+<c.colorE5E5E5>the<00:04:57.710><c> topics</c><00:04:58.490><c> from</c><00:04:58.819><c> this</c><00:04:59.419><c> set</c><00:04:59.750><c> that</c><00:05:00.650><c> have</c><00:05:00.889><c> the</c></c>
+
+00:05:01.029 --> 00:05:01.039 align:start position:0%
+<c.colorE5E5E5>the topics from this set that have the
+ </c>
+
+00:05:01.039 --> 00:05:02.830 align:start position:0%
+<c.colorE5E5E5>the topics from this set that have the
+strongest<00:05:01.460><c> of</c><00:05:01.550><c> the</c><00:05:01.639><c> correlation</c><00:05:02.180><c> with</c><00:05:02.659><c> the</c></c>
+
+00:05:02.830 --> 00:05:02.840 align:start position:0%
+strongest of the correlation with the
+ 
+
+00:05:02.840 --> 00:05:06.040 align:start position:0%
+strongest of the correlation with the
+external<00:05:03.110><c> time</c><00:05:03.529><c> series</c><00:05:04.330><c> but</c><00:05:05.330><c> this</c><00:05:05.449><c> approach</c>
+
+00:05:06.040 --> 00:05:06.050 align:start position:0%
+external time series but this approach
+ 
+
+00:05:06.050 --> 00:05:08.709 align:start position:0%
+external time series but this approach
+is<00:05:06.080><c> not</c><00:05:06.770><c> going</c><c.colorE5E5E5><00:05:07.039><c> to</c><00:05:07.189><c> be</c><00:05:07.340><c> very</c><00:05:07.370><c> good</c><00:05:07.849><c> why</c><00:05:08.180><c> because</c></c>
+
+00:05:08.709 --> 00:05:08.719 align:start position:0%
+is not going<c.colorE5E5E5> to be very good why because
+ </c>
+
+00:05:08.719 --> 00:05:10.570 align:start position:0%
+is not going<c.colorE5E5E5> to be very good why because</c>
+<c.colorCCCCCC>I<00:05:08.960><c> will</c><00:05:09.289><c> restricted</c><00:05:09.860><c> to</c><00:05:10.039><c> the</c><00:05:10.129><c> topics</c><00:05:10.490><c> that</c></c>
+
+00:05:10.570 --> 00:05:10.580 align:start position:0%
+<c.colorCCCCCC>I will restricted to the topics that
+ </c>
+
+00:05:10.580 --> 00:05:14.740 align:start position:0%
+<c.colorCCCCCC>I will restricted to the topics that</c>
+<c.colorE5E5E5>were<00:05:11.120><c> discovered</c><00:05:11.599><c> by</c></c><c.colorCCCCCC><00:05:11.629><c> PRSA</c><00:05:12.529><c> or</c><00:05:12.979><c> Lda</c><00:05:13.340><c> and</c><00:05:13.750><c> that</c></c>
+
+00:05:14.740 --> 00:05:14.750 align:start position:0%
+<c.colorE5E5E5>were discovered by</c><c.colorCCCCCC> PRSA or Lda and that
+ </c>
+
+00:05:14.750 --> 00:05:16.629 align:start position:0%
+<c.colorE5E5E5>were discovered by</c><c.colorCCCCCC> PRSA or Lda and that
+means<00:05:14.960><c> the</c><00:05:15.139><c> choice</c><00:05:15.379><c> of</c><00:05:15.650><c> topics</c><00:05:16.009><c> will</c><00:05:16.189><c> be</c></c><c.colorE5E5E5><00:05:16.219><c> very</c></c>
+
+00:05:16.629 --> 00:05:16.639 align:start position:0%
+means the choice of topics will be<c.colorE5E5E5> very
+ </c>
+
+00:05:16.639 --> 00:05:18.879 align:start position:0%
+means the choice of topics will be<c.colorE5E5E5> very
+limited<00:05:16.879><c> and</c><00:05:17.300><c> we</c><00:05:17.810><c> know</c><00:05:17.930><c> these</c><00:05:18.110><c> models</c><00:05:18.590><c> try</c><00:05:18.830><c> to</c></c>
+
+00:05:18.879 --> 00:05:18.889 align:start position:0%
+limited and<c.colorE5E5E5> we know these models try to
+ </c>
+
+00:05:18.889 --> 00:05:20.800 align:start position:0%
+limited and<c.colorE5E5E5> we know these models try to
+maximize<00:05:19.129><c> the</c><00:05:19.520><c> light</c><00:05:19.669><c> role</c><00:05:19.939><c> of</c><00:05:20.150><c> the</c><00:05:20.300><c> text</c><00:05:20.599><c> data</c></c>
+
+00:05:20.800 --> 00:05:20.810 align:start position:0%
+maximize the light role of the text data
+ 
+
+00:05:20.810 --> 00:05:22.689 align:start position:0%
+maximize the light role of the text data
+so<00:05:21.259><c> those</c><00:05:21.469><c> talking's</c><00:05:21.919><c> tend</c><00:05:22.129><c> to</c><00:05:22.279><c> be</c><00:05:22.400><c> the</c><00:05:22.520><c> major</c>
+
+00:05:22.689 --> 00:05:22.699 align:start position:0%
+so those talking's tend to be the major
+ 
+
+00:05:22.699 --> 00:05:24.730 align:start position:0%
+so those talking's tend to be the major
+topics<00:05:22.969><c> that</c><00:05:23.330><c> explain</c><c.colorCCCCCC><00:05:23.779><c> the</c><00:05:23.900><c> text</c><00:05:24.080><c> data</c><00:05:24.439><c> where</c></c>
+
+00:05:24.730 --> 00:05:24.740 align:start position:0%
+topics that explain<c.colorCCCCCC> the text data where
+ </c>
+
+00:05:24.740 --> 00:05:27.070 align:start position:0%
+topics that explain<c.colorCCCCCC> the text data where
+and<00:05:25.159><c> they</c><00:05:25.370><c> are</c><00:05:25.430><c> not</c><00:05:25.550><c> necessarily</c><00:05:26.150><c> correlated</c></c>
+
+00:05:27.070 --> 00:05:27.080 align:start position:0%
+and they are not necessarily correlated
+ 
+
+00:05:27.080 --> 00:05:29.709 align:start position:0%
+and they are not necessarily correlated
+with<00:05:27.409><c> time</c><00:05:27.800><c> series</c><00:05:28.159><c> even</c><00:05:28.909><c> forget</c><00:05:29.300><c> the</c><00:05:29.479><c> best</c>
+
+00:05:29.709 --> 00:05:29.719 align:start position:0%
+with time series even forget the best
+ 
+
+00:05:29.719 --> 00:05:32.320 align:start position:0%
+with time series even forget the best
+one<00:05:30.080><c> the</c><00:05:30.529><c> most</c><00:05:30.680><c> correlated</c><00:05:31.279><c> and</c><00:05:31.639><c> the</c><00:05:31.969><c> topics</c>
+
+00:05:32.320 --> 00:05:32.330 align:start position:0%
+one the most correlated and the topics
+ 
+
+00:05:32.330 --> 00:05:35.409 align:start position:0%
+one the most correlated and the topics
+might<00:05:32.569><c> still</c><00:05:32.930><c> not</c><00:05:33.110><c> be</c><00:05:33.319><c> so</c><00:05:34.240><c> interesting</c><c.colorE5E5E5><00:05:35.240><c> from</c></c>
+
+00:05:35.409 --> 00:05:35.419 align:start position:0%
+might still not be so interesting<c.colorE5E5E5> from
+ </c>
+
+00:05:35.419 --> 00:05:38.350 align:start position:0%
+might still not be so interesting<c.colorE5E5E5> from
+cause<00:05:35.690><c> of</c><00:05:35.839><c> perspective</c><00:05:36.909><c> so</c><00:05:37.909><c> here</c><00:05:38.210><c> in</c><00:05:38.330><c> this</c></c>
+
+00:05:38.350 --> 00:05:38.360 align:start position:0%
+<c.colorE5E5E5>cause of perspective so here in this
+ </c>
+
+00:05:38.360 --> 00:05:42.189 align:start position:0%
+<c.colorE5E5E5>cause of perspective so here in this
+work<00:05:38.690><c> site</c><00:05:38.930><c> here</c><00:05:39.349><c> a</c><00:05:40.539><c> better</c><00:05:41.539><c> approach</c><00:05:41.659><c> it</c><00:05:42.080><c> was</c></c>
+
+00:05:42.189 --> 00:05:42.199 align:start position:0%
+<c.colorE5E5E5>work site here a better approach it was
+ </c>
+
+00:05:42.199 --> 00:05:43.689 align:start position:0%
+<c.colorE5E5E5>work site here a better approach it was</c>
+<c.colorCCCCCC>proposed<00:05:42.560><c> and</c><00:05:42.860><c> this</c><00:05:43.039><c> approach</c><00:05:43.400><c> is</c><00:05:43.430><c> called</c></c>
+
+00:05:43.689 --> 00:05:43.699 align:start position:0%
+<c.colorCCCCCC>proposed and this approach is called
+ </c>
+
+00:05:43.699 --> 00:05:46.839 align:start position:0%
+<c.colorCCCCCC>proposed and this approach is called
+iterative<00:05:44.300><c> causal</c><00:05:44.900><c> topic</c></c><c.colorE5E5E5><00:05:45.199><c> model</c><00:05:45.560><c> the</c><00:05:46.400><c> idea</c><00:05:46.789><c> is</c></c>
+
+00:05:46.839 --> 00:05:46.849 align:start position:0%
+iterative causal topic<c.colorE5E5E5> model the idea is
+ </c>
+
+00:05:46.849 --> 00:05:50.730 align:start position:0%
+iterative causal topic<c.colorE5E5E5> model the idea is</c>
+<c.colorCCCCCC>to<00:05:47.240><c> do</c><00:05:47.870><c> a</c><00:05:47.900><c> iterative</c><00:05:49.029><c> adjustment</c><00:05:50.029><c> of</c><00:05:50.120><c> top</c></c>
+
+00:05:50.730 --> 00:05:50.740 align:start position:0%
+<c.colorCCCCCC>to do a iterative adjustment of top
+ </c>
+
+00:05:50.740 --> 00:05:54.159 align:start position:0%
+<c.colorCCCCCC>to do a iterative adjustment of top</c>
+<c.colorE5E5E5>topics<00:05:51.740><c> discovered</c><00:05:52.370><c> by</c><00:05:52.490><c> public</c><00:05:53.120><c> models</c><00:05:53.479><c> using</c></c>
+
+00:05:54.159 --> 00:05:54.169 align:start position:0%
+<c.colorE5E5E5>topics discovered by public models using
+ </c>
+
+00:05:54.169 --> 00:05:57.790 align:start position:0%
+<c.colorE5E5E5>topics discovered by public models using
+time<00:05:54.589><c> series</c><00:05:55.009><c> to</c><00:05:55.219><c> induce</c><00:05:55.550><c> a</c><00:05:55.729><c> prior</c><00:05:56.379><c> so</c><00:05:57.379><c> here's</c></c>
+
+00:05:57.790 --> 00:05:57.800 align:start position:0%
+time series to induce a prior so here's
+ 
+
+00:05:57.800 --> 00:05:59.649 align:start position:0%
+time series to induce a prior so here's
+an<00:05:57.919><c> illustration</c><00:05:58.009><c> of</c><00:05:58.520><c> how</c><00:05:58.789><c> this</c><00:05:58.969><c> world</c><00:05:59.270><c> how</c>
+
+00:05:59.649 --> 00:05:59.659 align:start position:0%
+an illustration of how this world how
+ 
+
+00:05:59.659 --> 00:06:02.050 align:start position:0%
+an illustration of how this world how
+this<00:05:59.900><c> works</c><00:06:00.139><c> take</c><00:06:00.710><c> the</c><c.colorE5E5E5><00:06:00.860><c> text</c><00:06:01.219><c> stream</c><00:06:01.520><c> as</c><00:06:01.699><c> input</c></c>
+
+00:06:02.050 --> 00:06:02.060 align:start position:0%
+this works take the<c.colorE5E5E5> text stream as input
+ </c>
+
+00:06:02.060 --> 00:06:04.540 align:start position:0%
+this works take the<c.colorE5E5E5> text stream as input
+of<00:06:02.330><c> an</c><00:06:02.719><c> apply</c><00:06:03.050><c> regular</c><00:06:03.710><c> topic</c><00:06:03.979><c> modeling</c><00:06:04.339><c> to</c></c>
+
+00:06:04.540 --> 00:06:04.550 align:start position:0%
+of an apply regular topic modeling to
+ 
+
+00:06:04.550 --> 00:06:06.399 align:start position:0%
+of an apply regular topic modeling to
+generate<00:06:04.909><c> a</c><00:06:04.939><c> number</c><00:06:05.449><c> of</c><00:06:05.509><c> topics</c><c.colorE5E5E5><00:06:05.659><c> let's</c><00:06:06.169><c> say</c></c>
+
+00:06:06.399 --> 00:06:06.409 align:start position:0%
+generate a number of topics<c.colorE5E5E5> let's say
+ </c>
+
+00:06:06.409 --> 00:06:09.850 align:start position:0%
+generate a number of topics<c.colorE5E5E5> let's say
+four<00:06:06.620><c> topics</c><00:06:06.979><c> shown</c></c><c.colorCCCCCC><00:06:07.490><c> here</c><00:06:07.729><c> and</c><00:06:08.319><c> then</c><00:06:09.319><c> we're</c></c>
+
+00:06:09.850 --> 00:06:09.860 align:start position:0%
+four topics shown<c.colorCCCCCC> here and then we're
+ </c>
+
+00:06:09.860 --> 00:06:13.290 align:start position:0%
+four topics shown<c.colorCCCCCC> here and then we're
+going<00:06:10.039><c> to</c><00:06:10.099><c> use</c><00:06:10.339><c> the</c><00:06:10.520><c> external</c><00:06:10.969><c> time</c><00:06:11.120><c> series</c><00:06:11.800><c> to</c></c>
+
+00:06:13.290 --> 00:06:13.300 align:start position:0%
+going to use the external time series to
+ 
+
+00:06:13.300 --> 00:06:15.999 align:start position:0%
+going to use the external time series to
+assess<00:06:14.300><c> which</c><00:06:14.599><c> topic</c><00:06:14.990><c> is</c><00:06:15.080><c> more</c><00:06:15.319><c> causal</c>
+
+00:06:15.999 --> 00:06:16.009 align:start position:0%
+assess which topic is more causal
+ 
+
+00:06:16.009 --> 00:06:18.279 align:start position:0%
+assess which topic is more causal
+related<00:06:16.669><c> or</c><00:06:16.969><c> correlated</c><00:06:17.479><c> with</c><c.colorCCCCCC><00:06:17.659><c> the</c><00:06:17.990><c> external</c></c>
+
+00:06:18.279 --> 00:06:18.289 align:start position:0%
+related or correlated with<c.colorCCCCCC> the external
+ </c>
+
+00:06:18.289 --> 00:06:20.110 align:start position:0%
+related or correlated with<c.colorCCCCCC> the external
+time<00:06:18.589><c> series</c><00:06:18.949><c> so</c><00:06:19.250><c> we</c><00:06:19.430><c> can</c><00:06:19.550><c> certainly</c><00:06:19.699><c> rank</c></c>
+
+00:06:20.110 --> 00:06:20.120 align:start position:0%
+time series so we can certainly rank
+ 
+
+00:06:20.120 --> 00:06:23.200 align:start position:0%
+time series so we can certainly rank
+them<00:06:20.330><c> and</c><00:06:20.830><c> we</c><00:06:21.830><c> might</c><00:06:22.039><c> pick</c><00:06:22.310><c> out</c><00:06:22.490><c> that</c><00:06:22.789><c> topic</c>
+
+00:06:23.200 --> 00:06:23.210 align:start position:0%
+them and we might pick out that topic
+ 
+
+00:06:23.210 --> 00:06:24.879 align:start position:0%
+them and we might pick out that topic
+wine<00:06:23.389><c> and</c><00:06:23.629><c> talk</c><00:06:23.750><c> for</c><c.colorCCCCCC><00:06:24.020><c> are</c><00:06:24.259><c> more</c><00:06:24.469><c> correlated</c></c>
+
+00:06:24.879 --> 00:06:24.889 align:start position:0%
+wine and talk for<c.colorCCCCCC> are more correlated
+ </c>
+
+00:06:24.889 --> 00:06:28.360 align:start position:0%
+wine and talk for<c.colorCCCCCC> are more correlated
+and<00:06:25.159><c> public</c><00:06:25.550><c> to</c><00:06:25.669><c> and</c><00:06:25.849><c> topics</c><00:06:26.150><c> we</c><00:06:26.240><c> are</c><00:06:26.389><c> not</c><00:06:27.370><c> now</c></c>
+
+00:06:28.360 --> 00:06:28.370 align:start position:0%
+and public to and<c.colorCCCCCC> topics we are not now
+ </c>
+
+00:06:28.370 --> 00:06:29.769 align:start position:0%
+and public to and<c.colorCCCCCC> topics we are not now
+we<00:06:28.430><c> could</c><00:06:28.759><c> have</c><00:06:28.879><c> stopped</c><00:06:29.210><c> here</c><00:06:29.479><c> and</c><00:06:29.629><c> that</c></c>
+
+00:06:29.769 --> 00:06:29.779 align:start position:0%
+we could have stopped here and that
+ 
+
+00:06:29.779 --> 00:06:31.540 align:start position:0%
+we could have stopped here and that
+would<00:06:29.900><c> be</c><c.colorE5E5E5><00:06:29.930><c> just</c><00:06:30.139><c> like</c><00:06:30.409><c> the</c><00:06:30.889><c> simple</c><00:06:31.219><c> ability</c></c>
+
+00:06:31.540 --> 00:06:31.550 align:start position:0%
+would be<c.colorE5E5E5> just like the simple ability
+ </c>
+
+00:06:31.550 --> 00:06:33.939 align:start position:0%
+would be<c.colorE5E5E5> just like the simple ability
+that<00:06:31.639><c> I</c><00:06:31.789><c> talked</c><00:06:32.060><c> about</c><00:06:32.150><c> earlier</c><00:06:32.680><c> then</c><00:06:33.680><c> we</c><00:06:33.800><c> can</c></c>
+
+00:06:33.939 --> 00:06:33.949 align:start position:0%
+that I talked about earlier then we can
+ 
+
+00:06:33.949 --> 00:06:36.760 align:start position:0%
+that I talked about earlier then we can
+get<00:06:34.069><c> these</c><00:06:34.339><c> topics</c><00:06:34.789><c> and</c><00:06:34.969><c> call</c><00:06:35.959><c> them</c><00:06:36.229><c> cause</c><00:06:36.620><c> all</c>
+
+00:06:36.760 --> 00:06:36.770 align:start position:0%
+get these topics and call them cause all
+ 
+
+00:06:36.770 --> 00:06:39.430 align:start position:0%
+get these topics and call them cause all
+topics<00:06:37.240><c> but</c><00:06:38.240><c> as</c><00:06:38.419><c> I</c><00:06:38.599><c> also</c><00:06:38.779><c> explained</c>
+
+00:06:39.430 --> 00:06:39.440 align:start position:0%
+topics but as I also explained
+ 
+
+00:06:39.440 --> 00:06:41.110 align:start position:0%
+topics but as I also explained
+these<c.colorE5E5E5><00:06:39.530><c> topics</c><00:06:39.890><c> are</c><00:06:40.010><c> and</c><00:06:40.250><c> neck</c><00:06:40.400><c> are</c><00:06:40.640><c> likely</c></c>
+
+00:06:41.110 --> 00:06:41.120 align:start position:0%
+these<c.colorE5E5E5> topics are and neck are likely
+ </c>
+
+00:06:41.120 --> 00:06:43.780 align:start position:0%
+these<c.colorE5E5E5> topics are and neck are likely</c>
+<c.colorE5E5E5>very<00:06:41.360><c> good</c><00:06:41.600><c> because</c><00:06:41.780><c> they</c><00:06:42.320><c> are</c><00:06:42.790><c> general</c></c>
+
+00:06:43.780 --> 00:06:43.790 align:start position:0%
+<c.colorE5E5E5>very good because they are general
+ </c>
+
+00:06:43.790 --> 00:06:45.250 align:start position:0%
+<c.colorE5E5E5>very good because they are general
+topics<00:06:44.120><c> that</c></c><c.colorCCCCCC><00:06:44.390><c> we</c></c><c.colorE5E5E5><00:06:44.510><c> spend</c><00:06:44.810><c> the</c><00:06:44.900><c> whole</c><00:06:45.020><c> tax</c></c>
+
+00:06:45.250 --> 00:06:45.260 align:start position:0%
+topics that<c.colorCCCCCC> we</c><c.colorE5E5E5> spend the whole tax
+ </c>
+
+00:06:45.260 --> 00:06:46.780 align:start position:0%
+topics that<c.colorCCCCCC> we</c><c.colorE5E5E5> spend the whole tax
+collection<00:06:45.770><c> they</c><00:06:45.920><c> are</c><00:06:46.010><c> not</c><00:06:46.130><c> necessary</c><00:06:46.640><c> in</c><00:06:46.700><c> the</c></c>
+
+00:06:46.780 --> 00:06:46.790 align:start position:0%
+<c.colorE5E5E5>collection they are not necessary in the
+ </c>
+
+00:06:46.790 --> 00:06:49.240 align:start position:0%
+<c.colorE5E5E5>collection they are not necessary in the
+best<00:06:47.000><c> topics</c><00:06:47.510><c> at</c><00:06:47.930><c> the</c><00:06:48.110><c> color</c><00:06:48.380><c> or</c><00:06:48.620><c> correlated</c></c>
+
+00:06:49.240 --> 00:06:49.250 align:start position:0%
+best topics at the color or correlated
+ 
+
+00:06:49.250 --> 00:06:52.480 align:start position:0%
+best topics at the color or correlated
+with<00:06:49.400><c> our</c><00:06:49.730><c> time</c><00:06:49.970><c> series</c><00:06:50.530><c> so</c><00:06:51.530><c> what</c><00:06:52.070><c> we</c><00:06:52.190><c> can</c><c.colorE5E5E5><00:06:52.340><c> do</c></c>
+
+00:06:52.480 --> 00:06:52.490 align:start position:0%
+with our time series so what we can<c.colorE5E5E5> do
+ </c>
+
+00:06:52.490 --> 00:06:55.390 align:start position:0%
+with our time series so what we can<c.colorE5E5E5> do
+in<00:06:52.670><c> this</c><00:06:52.790><c> approach</c><00:06:53.090><c> is</c><00:06:53.710><c> to</c><00:06:54.710><c> further</c><00:06:54.920><c> zooming</c></c>
+
+00:06:55.390 --> 00:06:55.400 align:start position:0%
+in this<c.colorE5E5E5> approach is to further zooming
+ </c>
+
+00:06:55.400 --> 00:06:58.000 align:start position:0%
+in this<c.colorE5E5E5> approach is to further zooming</c>
+<c.colorCCCCCC>the<00:06:55.520><c> word</c><00:06:55.790><c> level</c><00:06:56.090><c> and</c><00:06:56.620><c> we're</c><00:06:57.620><c> going</c></c><c.colorE5E5E5><00:06:57.770><c> to</c><00:06:57.830><c> look</c></c>
+
+00:06:58.000 --> 00:06:58.010 align:start position:0%
+<c.colorCCCCCC>the word level and we're going</c><c.colorE5E5E5> to look
+ </c>
+
+00:06:58.010 --> 00:07:00.430 align:start position:0%
+<c.colorCCCCCC>the word level and we're going</c><c.colorE5E5E5> to look</c>
+<c.colorE5E5E5>into<00:06:58.490><c> each</c><00:06:58.730><c> word</c><00:06:59.090><c> in</c><00:06:59.450><c> the</c><00:06:59.690><c> top-ranked</c><00:07:00.200><c> the</c></c>
+
+00:07:00.430 --> 00:07:00.440 align:start position:0%
+<c.colorE5E5E5>into each word in the top-ranked the
+ </c>
+
+00:07:00.440 --> 00:07:04.360 align:start position:0%
+<c.colorE5E5E5>into each word in the top-ranked the
+world<00:07:00.920><c> listed</c><00:07:01.670><c> for</c></c><c.colorCCCCCC><00:07:01.820><c> each</c><00:07:02.000><c> topic</c><00:07:02.300><c> let's</c><00:07:02.930><c> say</c></c><c.colorE5E5E5><00:07:03.370><c> we</c></c>
+
+00:07:04.360 --> 00:07:04.370 align:start position:0%
+world listed for<c.colorCCCCCC> each topic let's say</c><c.colorE5E5E5> we
+ </c>
+
+00:07:04.370 --> 00:07:07.900 align:start position:0%
+world listed for<c.colorCCCCCC> each topic let's say</c><c.colorE5E5E5> we
+take<00:07:04.550><c> top</c><00:07:04.790><c> 21</c><00:07:05.000><c> as</c><00:07:05.590><c> the</c><00:07:06.590><c> target</c><00:07:06.800><c> examine</c><00:07:07.430><c> we</c></c>
+
+00:07:07.900 --> 00:07:07.910 align:start position:0%
+take top 21 as the target examine we
+ 
+
+00:07:07.910 --> 00:07:11.470 align:start position:0%
+take top 21 as the target examine we
+know<00:07:08.030><c> topic</c><00:07:08.330><c> one</c><00:07:08.540><c> is</c><00:07:09.850><c> correlated</c><c.colorCCCCCC><00:07:10.850><c> with</c><00:07:10.880><c> the</c></c>
+
+00:07:11.470 --> 00:07:11.480 align:start position:0%
+know topic one is correlated<c.colorCCCCCC> with the
+ </c>
+
+00:07:11.480 --> 00:07:14.530 align:start position:0%
+know topic one is correlated<c.colorCCCCCC> with the
+time</c><c.colorE5E5E5><00:07:12.020><c> series</c><00:07:12.380><c> or</c><00:07:12.590><c> is</c><00:07:13.370><c> that</c><00:07:13.550><c> this</c></c><c.colorCCCCCC><00:07:14.060><c> is</c><00:07:14.210><c> the</c><00:07:14.300><c> best</c></c>
+
+00:07:14.530 --> 00:07:14.540 align:start position:0%
+time<c.colorE5E5E5> series or is that this</c><c.colorCCCCCC> is the best
+ </c>
+
+00:07:14.540 --> 00:07:16.270 align:start position:0%
+time<c.colorE5E5E5> series or is that this</c><c.colorCCCCCC> is the best</c>
+<c.colorE5E5E5>that<00:07:14.900><c> we</c><00:07:14.990><c> could</c><00:07:15.140><c> get</c></c><c.colorCCCCCC><00:07:15.350><c> from</c><00:07:15.740><c> this</c><00:07:15.920><c> set</c><00:07:16.160><c> of</c></c>
+
+00:07:16.270 --> 00:07:16.280 align:start position:0%
+<c.colorE5E5E5>that we could get</c><c.colorCCCCCC> from this set of
+ </c>
+
+00:07:16.280 --> 00:07:19.540 align:start position:0%
+<c.colorE5E5E5>that we could get</c><c.colorCCCCCC> from this set of
+topics<00:07:16.460><c> so</c><00:07:17.210><c> far</c><00:07:17.420><c> and</c><00:07:18.010><c> we're</c><00:07:19.010><c> going</c></c><c.colorE5E5E5><00:07:19.190><c> to</c><00:07:19.250><c> look</c><00:07:19.400><c> at</c></c>
+
+00:07:19.540 --> 00:07:19.550 align:start position:0%
+topics so far and we're going<c.colorE5E5E5> to look at
+ </c>
+
+00:07:19.550 --> 00:07:22.360 align:start position:0%
+topics so far and we're going<c.colorE5E5E5> to look at
+the</c><c.colorCCCCCC><00:07:19.760><c> the</c><00:07:20.210><c> words</c><00:07:20.480><c> in</c><00:07:20.930><c> this</c></c><c.colorE5E5E5><00:07:21.140><c> topic</c><00:07:21.560><c> the</c><00:07:21.890><c> top</c></c><c.colorCCCCCC><00:07:22.100><c> word</c></c>
+
+00:07:22.360 --> 00:07:22.370 align:start position:0%
+the<c.colorCCCCCC> the words in this</c><c.colorE5E5E5> topic the top</c><c.colorCCCCCC> word
+ </c>
+
+00:07:22.370 --> 00:07:25.420 align:start position:0%
+the<c.colorCCCCCC> the words in this</c><c.colorE5E5E5> topic the top</c><c.colorCCCCCC> word</c>
+<c.colorE5E5E5>and<00:07:23.170><c> if</c><00:07:24.170><c> the</c><00:07:24.320><c> topic</c><00:07:24.530><c> is</c><00:07:24.710><c> correlated</c></c><c.colorCCCCCC><00:07:25.310><c> with</c><00:07:25.340><c> the</c></c>
+
+00:07:25.420 --> 00:07:25.430 align:start position:0%
+<c.colorE5E5E5>and if the topic is correlated</c><c.colorCCCCCC> with the
+ </c>
+
+00:07:25.430 --> 00:07:27.130 align:start position:0%
+<c.colorE5E5E5>and if the topic is correlated</c><c.colorCCCCCC> with the
+time<00:07:25.640><c> series</c></c><c.colorE5E5E5><00:07:25.850><c> there</c><00:07:26.240><c> must</c><00:07:26.450><c> be</c><00:07:26.600><c> some</c><00:07:26.810><c> words</c></c>
+
+00:07:27.130 --> 00:07:27.140 align:start position:0%
+time series<c.colorE5E5E5> there must be some words
+ </c>
+
+00:07:27.140 --> 00:07:29.830 align:start position:0%
+time series<c.colorE5E5E5> there must be some words
+that<00:07:27.380><c> are</c><00:07:27.710><c> highly</c><00:07:28.130><c> correlated</c><00:07:28.280><c> with</c><00:07:28.970><c> the</c><00:07:29.510><c> time</c></c>
+
+00:07:29.830 --> 00:07:29.840 align:start position:0%
+that are highly correlated with the time
+ 
+
+00:07:29.840 --> 00:07:31.780 align:start position:0%
+that are highly correlated with the time
+series<c.colorE5E5E5><00:07:30.050><c> so</c><00:07:30.800><c> here</c><00:07:31.010><c> for</c><00:07:31.040><c> example</c><00:07:31.250><c> we</c><00:07:31.580><c> might</c></c>
+
+00:07:31.780 --> 00:07:31.790 align:start position:0%
+series<c.colorE5E5E5> so here for example we might
+ </c>
+
+00:07:31.790 --> 00:07:35.380 align:start position:0%
+series<c.colorE5E5E5> so here for example we might
+discover<00:07:32.210><c> w1</c><00:07:32.840><c> and</c><00:07:33.050><c> w2</c><00:07:33.680><c> three</c><00:07:34.100><c> are</c><00:07:34.430><c> positively</c></c>
+
+00:07:35.380 --> 00:07:35.390 align:start position:0%
+discover w1 and w2 three are positively
+ 
+
+00:07:35.390 --> 00:07:38.950 align:start position:0%
+discover w1 and w2 three are positively
+correlated<00:07:35.510><c> with</c><00:07:36.020><c> time</c><00:07:36.380><c> series</c><00:07:36.820><c> but</c><c.colorCCCCCC><00:07:37.820><c> w</c><00:07:38.480><c> to</c><00:07:38.690><c> end</c></c>
+
+00:07:38.950 --> 00:07:38.960 align:start position:0%
+correlated with time series but<c.colorCCCCCC> w to end
+ </c>
+
+00:07:38.960 --> 00:07:41.710 align:start position:0%
+correlated with time series but<c.colorCCCCCC> w to end
+up<00:07:39.110><c> before</c><00:07:39.440><c> are</c><00:07:39.620><c> negatively</c><00:07:40.100><c> correlated</c><00:07:40.720><c> so</c></c>
+
+00:07:41.710 --> 00:07:41.720 align:start position:0%
+up before are negatively correlated so
+ 
+
+00:07:41.720 --> 00:07:43.720 align:start position:0%
+up before are negatively correlated so
+as<00:07:41.930><c> a</c><00:07:41.960><c> topical</c><00:07:42.710><c> and</c><00:07:42.890><c> it's</c><00:07:43.040><c> not</c><00:07:43.190><c> good</c><00:07:43.400><c> to</c><00:07:43.430><c> mix</c>
+
+00:07:43.720 --> 00:07:43.730 align:start position:0%
+as a topical and it's not good to mix
+ 
+
+00:07:43.730 --> 00:07:46.320 align:start position:0%
+as a topical and it's not good to mix
+these<00:07:44.169><c> words</c><00:07:45.169><c> with</c><00:07:45.440><c> different</c><00:07:45.830><c> correlations</c>
+
+00:07:46.320 --> 00:07:46.330 align:start position:0%
+these words with different correlations
+ 
+
+00:07:46.330 --> 00:07:49.360 align:start position:0%
+these words with different correlations
+so<00:07:47.330><c> we</c><00:07:47.900><c> can</c><00:07:48.080><c> then</c><00:07:48.260><c> throw</c><00:07:48.470><c> the</c><00:07:48.620><c> Secretary's</c>
+
+00:07:49.360 --> 00:07:49.370 align:start position:0%
+so we can then throw the Secretary's
+ 
+
+00:07:49.370 --> 00:07:51.370 align:start position:0%
+so we can then throw the Secretary's
+words<00:07:49.400><c> we</c><00:07:50.330><c> are</c><00:07:50.480><c> going</c><c.colorE5E5E5><00:07:50.630><c> to</c><00:07:50.720><c> get</c><00:07:50.840><c> all</c><00:07:51.050><c> the</c><00:07:51.169><c> red</c></c>
+
+00:07:51.370 --> 00:07:51.380 align:start position:0%
+words we are going<c.colorE5E5E5> to get all the red
+ </c>
+
+00:07:51.380 --> 00:07:53.680 align:start position:0%
+words we are going<c.colorE5E5E5> to get all the red
+words<00:07:51.680><c> that</c><00:07:51.919><c> indicate</c><00:07:52.130><c> a</c><00:07:52.760><c> positive</c></c>
+
+00:07:53.680 --> 00:07:53.690 align:start position:0%
+words that indicate a positive
+ 
+
+00:07:53.690 --> 00:07:56.860 align:start position:0%
+words that indicate a positive
+correlations<00:07:54.470><c> w</c><00:07:55.250><c> windup</c><c.colorE5E5E5><00:07:55.640><c> three</c><00:07:56.000><c> and</c><00:07:56.210><c> we're</c></c>
+
+00:07:56.860 --> 00:07:56.870 align:start position:0%
+correlations w windup<c.colorE5E5E5> three and we're
+ </c>
+
+00:07:56.870 --> 00:07:58.960 align:start position:0%
+correlations w windup<c.colorE5E5E5> three and we're
+going</c><c.colorCCCCCC><00:07:56.900><c> to</c><00:07:57.050><c> also</c><00:07:57.169><c> get</c><00:07:57.410><c> another</c><00:07:57.800><c> sub</c><00:07:58.400><c> topic</c><00:07:58.760><c> if</c></c>
+
+00:07:58.960 --> 00:07:58.970 align:start position:0%
+going<c.colorCCCCCC> to also get another sub topic if
+ </c>
+
+00:07:58.970 --> 00:08:02.920 align:start position:0%
+going<c.colorCCCCCC> to also get another sub topic if
+you<00:07:59.890><c> if</c><00:08:00.890><c> you</c><00:08:01.040><c> want</c></c><c.colorE5E5E5><00:08:01.280><c> that</c><00:08:02.210><c> represents</c><00:08:02.840><c> the</c></c>
+
+00:08:02.920 --> 00:08:02.930 align:start position:0%
+you if you want<c.colorE5E5E5> that represents the
+ </c>
+
+00:08:02.930 --> 00:08:06.550 align:start position:0%
+you if you want<c.colorE5E5E5> that represents the
+negatively<00:08:03.590><c> correlated</c></c><c.colorCCCCCC><00:08:04.150><c> words</c><00:08:05.150><c> w</c><00:08:05.960><c> to</c><00:08:06.110><c> end</c><00:08:06.290><c> up</c></c>
+
+00:08:06.550 --> 00:08:06.560 align:start position:0%
+negatively correlated<c.colorCCCCCC> words w to end up
+ </c>
+
+00:08:06.560 --> 00:08:10.840 align:start position:0%
+negatively correlated<c.colorCCCCCC> words w to end up
+before<00:08:07.060><c> now</c><00:08:08.060><c> these</c><00:08:09.340><c> sub</c><00:08:10.340><c> pop</c></c><c.colorE5E5E5><00:08:10.550><c> because</c><00:08:10.760><c> all</c></c>
+
+00:08:10.840 --> 00:08:10.850 align:start position:0%
+before now these sub pop<c.colorE5E5E5> because all
+ </c>
+
+00:08:10.850 --> 00:08:13.390 align:start position:0%
+before now these sub pop<c.colorE5E5E5> because all
+these<00:08:11.000><c> variations</c><00:08:11.540><c> of</c><00:08:11.990><c> topics</c><00:08:12.440><c> based</c><00:08:12.919><c> on</c><00:08:13.220><c> the</c></c>
+
+00:08:13.390 --> 00:08:13.400 align:start position:0%
+these variations of topics based on the
+ 
+
+00:08:13.400 --> 00:08:17.350 align:start position:0%
+these variations of topics based on the
+correlation<00:08:14.030><c> analysis</c><00:08:14.650><c> are</c><00:08:16.150><c> topics</c><00:08:17.150><c> that</c><00:08:17.180><c> are</c>
+
+00:08:17.350 --> 00:08:17.360 align:start position:0%
+correlation analysis are topics that are
+ 
+
+00:08:17.360 --> 00:08:19.480 align:start position:0%
+correlation analysis are topics that are
+still<00:08:17.750><c> quite</c><00:08:17.990><c> related</c><00:08:18.530><c> to</c><00:08:18.919><c> the</c><00:08:19.100><c> original</c>
+
+00:08:19.480 --> 00:08:19.490 align:start position:0%
+still quite related to the original
+ 
+
+00:08:19.490 --> 00:08:20.980 align:start position:0%
+still quite related to the original
+topic<00:08:19.700><c> the</c><00:08:19.850><c> topic</c><c.colorCCCCCC><00:08:19.880><c> one</c><00:08:20.240><c> but</c><00:08:20.480><c> they</c><00:08:20.600><c> are</c><00:08:20.750><c> already</c></c>
+
+00:08:20.980 --> 00:08:20.990 align:start position:0%
+topic the topic<c.colorCCCCCC> one but they are already
+ </c>
+
+00:08:20.990 --> 00:08:24.430 align:start position:0%
+topic the topic<c.colorCCCCCC> one but they are already
+deviating<00:08:21.710><c> because</c><00:08:22.250><c> of</c><00:08:22.490><c> the</c><00:08:22.730><c> use</c><00:08:23.300><c> of</c><00:08:23.440><c> time</c></c>
+
+00:08:24.430 --> 00:08:24.440 align:start position:0%
+deviating because of the use of time
+ 
+
+00:08:24.440 --> 00:08:26.890 align:start position:0%
+deviating because of the use of time
+series<00:08:24.680><c> information</c><00:08:25.460><c> to</c><00:08:25.970><c> buy</c><00:08:26.150><c> us</c><00:08:26.390><c> a</c><00:08:26.419><c> selection</c>
+
+00:08:26.890 --> 00:08:26.900 align:start position:0%
+series information to buy us a selection
+ 
+
+00:08:26.900 --> 00:08:30.100 align:start position:0%
+series information to buy us a selection
+of<00:08:27.110><c> words</c><00:08:27.350><c> so</c><00:08:28.310><c> they're</c><00:08:28.700><c> in</c><00:08:28.880><c> some</c><00:08:29.150><c> sense</c><00:08:29.480><c> well</c>
+
+00:08:30.100 --> 00:08:30.110 align:start position:0%
+of words so they're in some sense well
+ 
+
+00:08:30.110 --> 00:08:32.829 align:start position:0%
+of words so they're in some sense well
+we<00:08:30.290><c> should</c><00:08:30.440><c> expect</c><00:08:30.770><c> so</c><c.colorE5E5E5><00:08:31.150><c> there</c><00:08:32.150><c> some</c><00:08:32.510><c> sense</c></c>
+
+00:08:32.829 --> 00:08:32.839 align:start position:0%
+we should expect so<c.colorE5E5E5> there some sense
+ </c>
+
+00:08:32.839 --> 00:08:35.440 align:start position:0%
+we should expect so<c.colorE5E5E5> there some sense
+more<00:08:33.469><c> correlated</c><00:08:34.070><c> with</c><00:08:34.280><c> the</c><00:08:34.729><c> time</c><00:08:35.150><c> series</c></c>
+
+00:08:35.440 --> 00:08:35.450 align:start position:0%
+more correlated with the time<c.colorE5E5E5> series
+ </c>
+
+00:08:35.450 --> 00:08:38.170 align:start position:0%
+more correlated with the time<c.colorE5E5E5> series
+then<00:08:35.839><c> the</c><00:08:36.320><c> original</c><00:08:36.919><c> topic</c><00:08:37.130><c> one</c><00:08:37.430><c> because</c><00:08:38.030><c> the</c></c>
+
+00:08:38.170 --> 00:08:38.180 align:start position:0%
+then the original topic one because the
+ 
+
+00:08:38.180 --> 00:08:40.990 align:start position:0%
+then the original topic one because the
+topic<00:08:38.479><c> one</c><00:08:38.630><c> has</c><00:08:38.839><c> mixed</c><00:08:39.110><c> the</c><00:08:39.349><c> world</c><00:08:40.099><c> here</c><c.colorCCCCCC><00:08:40.820><c> we</c></c>
+
+00:08:40.990 --> 00:08:41.000 align:start position:0%
+topic one has mixed the world here<c.colorCCCCCC> we
+ </c>
+
+00:08:41.000 --> 00:08:44.530 align:start position:0%
+topic one has mixed the world here<c.colorCCCCCC> we
+separate<00:08:41.419><c> them</c></c><c.colorE5E5E5><00:08:41.710><c> so</c><00:08:42.710><c> each</c><00:08:42.979><c> of</c></c><c.colorCCCCCC><00:08:43.190><c> these</c><00:08:43.370><c> two</c><00:08:43.849><c> sub</c></c>
+
+00:08:44.530 --> 00:08:44.540 align:start position:0%
+separate them<c.colorE5E5E5> so each of</c><c.colorCCCCCC> these two sub
+ </c>
+
+00:08:44.540 --> 00:08:47.710 align:start position:0%
+separate them<c.colorE5E5E5> so each of</c><c.colorCCCCCC> these two sub
+topics<00:08:45.339><c> can</c><00:08:46.339><c> be</c><00:08:46.400><c> expected</c></c><c.colorE5E5E5><00:08:46.760><c> to</c><00:08:47.060><c> be</c><00:08:47.089><c> better</c></c>
+
+00:08:47.710 --> 00:08:47.720 align:start position:0%
+topics can be expected<c.colorE5E5E5> to be better
+ </c>
+
+00:08:47.720 --> 00:08:50.290 align:start position:0%
+topics can be expected<c.colorE5E5E5> to be better
+correlated<00:08:48.230><c> with</c><00:08:48.380><c> time</c><00:08:48.680><c> series</c><00:08:48.980><c> however</c><00:08:49.940><c> they</c></c>
+
+00:08:50.290 --> 00:08:50.300 align:start position:0%
+correlated with time series however they
+ 
+
+00:08:50.300 --> 00:08:51.990 align:start position:0%
+correlated with time series however they
+may<c.colorE5E5E5><00:08:50.450><c> not</c></c><c.colorCCCCCC><00:08:50.630><c> be</c><00:08:50.810><c> so</c><00:08:51.230><c> coherent</c></c>
+
+00:08:51.990 --> 00:08:52.000 align:start position:0%
+may<c.colorE5E5E5> not</c><c.colorCCCCCC> be so coherent
+ </c>
+
+00:08:52.000 --> 00:08:54.870 align:start position:0%
+may<c.colorE5E5E5> not</c><c.colorCCCCCC> be so coherent
+cementery<00:08:52.570><c> so</c><00:08:53.080><c> the</c><00:08:53.560><c> idea</c><00:08:53.740><c> here</c><00:08:53.980><c> is</c><00:08:54.190><c> to</c><00:08:54.280><c> go</c></c><c.colorE5E5E5><00:08:54.430><c> back</c></c>
+
+00:08:54.870 --> 00:08:54.880 align:start position:0%
+cementery so the<c.colorCCCCCC> idea here is to go</c><c.colorE5E5E5> back
+ </c>
+
+00:08:54.880 --> 00:08:58.560 align:start position:0%
+cementery so the<c.colorCCCCCC> idea here is to go</c><c.colorE5E5E5> back
+to<00:08:55.180><c> top</c><00:08:55.330><c> model</c><00:08:55.750><c> by</c><00:08:56.110><c> using</c><00:08:56.140><c> these</c><00:08:56.790><c> each</c><00:08:57.790><c> as</c><00:08:58.090><c> a</c></c>
+
+00:08:58.560 --> 00:08:58.570 align:start position:0%
+to top model by using these each as a
+ 
+
+00:08:58.570 --> 00:09:01.530 align:start position:0%
+to top model by using these each as a
+prior<00:08:59.220><c> to</c><00:09:00.220><c> further</c><00:09:00.520><c> guide</c><00:09:00.880><c> the</c><00:09:01.210><c> topic</c>
+
+00:09:01.530 --> 00:09:01.540 align:start position:0%
+prior to further guide the topic
+ 
+
+00:09:01.540 --> 00:09:03.750 align:start position:0%
+prior to further guide the topic
+modeling<00:09:01.900><c> and</c><00:09:02.110><c> that's</c><00:09:02.620><c> to</c><00:09:02.860><c> say</c><00:09:03.100><c> we</c><c.colorCCCCCC><00:09:03.340><c> ask</c><00:09:03.520><c> our</c></c>
+
+00:09:03.750 --> 00:09:03.760 align:start position:0%
+modeling and that's to say we<c.colorCCCCCC> ask our
+ </c>
+
+00:09:03.760 --> 00:09:05.850 align:start position:0%
+modeling and that's to say we<c.colorCCCCCC> ask our
+topic<00:09:04.120><c> models</c><00:09:04.450><c> will</c><00:09:04.720><c> now</c><00:09:04.870><c> discover</c><00:09:05.380><c> topics</c></c>
+
+00:09:05.850 --> 00:09:05.860 align:start position:0%
+topic models will now discover topics
+ 
+
+00:09:05.860 --> 00:09:08.010 align:start position:0%
+topic models will now discover topics
+that<00:09:06.070><c> are</c><c.colorE5E5E5><00:09:06.100><c> very</c><00:09:06.640><c> similar</c></c><c.colorCCCCCC><00:09:06.880><c> to</c><00:09:07.420><c> each</c><00:09:07.630><c> of</c><00:09:07.870><c> these</c></c>
+
+00:09:08.010 --> 00:09:08.020 align:start position:0%
+that are<c.colorE5E5E5> very similar</c><c.colorCCCCCC> to each of these
+ </c>
+
+00:09:08.020 --> 00:09:11.640 align:start position:0%
+that are<c.colorE5E5E5> very similar</c><c.colorCCCCCC> to each of these
+two<00:09:08.290><c> sub</c><00:09:08.980><c> topics</c><00:09:09.370><c> and</c><00:09:09.550><c> this</c><00:09:10.300><c> will</c><00:09:10.510><c> cause</c><00:09:10.810><c> a</c></c>
+
+00:09:11.640 --> 00:09:11.650 align:start position:0%
+two sub topics and this will cause a
+ 
+
+00:09:11.650 --> 00:09:15.300 align:start position:0%
+two sub topics and this will cause a
+bias<00:09:12.340><c> toward</c><00:09:13.030><c> more</c><c.colorE5E5E5><00:09:13.960><c> correlative</c><00:09:14.680><c> topics</c><00:09:15.100><c> with</c></c>
+
+00:09:15.300 --> 00:09:15.310 align:start position:0%
+bias toward more<c.colorE5E5E5> correlative topics with
+ </c>
+
+00:09:15.310 --> 00:09:18.120 align:start position:0%
+bias toward more<c.colorE5E5E5> correlative topics with
+the<00:09:15.400><c> time</c><00:09:15.610><c> series</c><00:09:16.080><c> of</c><00:09:17.080><c> course</c><00:09:17.350><c> then</c><00:09:17.650><c> we</c><00:09:17.980><c> can</c></c>
+
+00:09:18.120 --> 00:09:18.130 align:start position:0%
+the time series of course then we can
+ 
+
+00:09:18.130 --> 00:09:19.770 align:start position:0%
+the time series of course then we can
+apply<c.colorCCCCCC><00:09:18.220><c> dropping</c><00:09:18.760><c> models</c><00:09:19.060><c> to</c><00:09:19.240><c> get</c><00:09:19.390><c> another</c></c>
+
+00:09:19.770 --> 00:09:19.780 align:start position:0%
+apply<c.colorCCCCCC> dropping models to get another
+ </c>
+
+00:09:19.780 --> 00:09:22.110 align:start position:0%
+apply<c.colorCCCCCC> dropping models to get another
+generation<00:09:20.260><c> of</c><00:09:20.470><c> topics</c><00:09:20.860><c> and</c><00:09:21.100><c> that</c><00:09:21.880><c> can</c><00:09:22.090><c> be</c></c>
+
+00:09:22.110 --> 00:09:22.120 align:start position:0%
+generation of topics and that can be
+ 
+
+00:09:22.120 --> 00:09:23.970 align:start position:0%
+generation of topics and that can be
+further<c.colorE5E5E5><00:09:22.450><c> ranked</c><00:09:22.930><c> the</c><00:09:23.020><c> based</c><00:09:23.200><c> on</c><00:09:23.410><c> the</c><00:09:23.740><c> time</c></c>
+
+00:09:23.970 --> 00:09:23.980 align:start position:0%
+further<c.colorE5E5E5> ranked the based on the time
+ </c>
+
+00:09:23.980 --> 00:09:26.400 align:start position:0%
+further<c.colorE5E5E5> ranked the based on the time
+series<00:09:24.220><c> to</c><00:09:24.580><c> select</c><00:09:24.910><c> the</c><00:09:25.210><c> highly</c><00:09:26.080><c> correlated</c></c>
+
+00:09:26.400 --> 00:09:26.410 align:start position:0%
+series<c.colorE5E5E5> to select the highly correlated
+ </c>
+
+00:09:26.410 --> 00:09:28.410 align:start position:0%
+series<c.colorE5E5E5> to select the highly correlated
+to<00:09:26.680><c> the</c><00:09:26.740><c> topics</c><00:09:27.160><c> then</c><00:09:27.760><c> we</c><00:09:27.880><c> can</c><00:09:28.060><c> further</c></c>
+
+00:09:28.410 --> 00:09:28.420 align:start position:0%
+to the topics then we can further
+ 
+
+00:09:28.420 --> 00:09:31.740 align:start position:0%
+to the topics then we can further
+analyze<00:09:29.340><c> the</c><00:09:30.340><c> component</c><00:09:30.910><c> words</c><00:09:31.180><c> in</c><00:09:31.450><c> the</c><00:09:31.570><c> topic</c>
+
+00:09:31.740 --> 00:09:31.750 align:start position:0%
+analyze the component words in the topic
+ 
+
+00:09:31.750 --> 00:09:33.780 align:start position:0%
+analyze the component words in the topic
+<c.colorE5E5E5>and<00:09:32.110><c> then</c><00:09:32.140><c> try</c><00:09:32.560><c> to</c><00:09:32.620><c> analyze</c></c><c.colorCCCCCC><00:09:33.160><c> word</c><00:09:33.490><c> level</c></c>
+
+00:09:33.780 --> 00:09:33.790 align:start position:0%
+<c.colorE5E5E5>and then try to analyze</c><c.colorCCCCCC> word level
+ </c>
+
+00:09:33.790 --> 00:09:37.170 align:start position:0%
+<c.colorE5E5E5>and then try to analyze</c><c.colorCCCCCC> word level
+correlation<00:09:34.450><c> and</c><00:09:34.650><c> then</c><00:09:35.650><c> get</c><00:09:36.010><c> even</c><00:09:36.520><c> more</c></c>
+
+00:09:37.170 --> 00:09:37.180 align:start position:0%
+correlation and then get even more
+ 
+
+00:09:37.180 --> 00:09:40.050 align:start position:0%
+correlation and then get even more
+correlated<00:09:37.950><c> subtopics</c><00:09:38.950><c> that</c><00:09:39.400><c> can</c><00:09:39.610><c> be</c><00:09:39.730><c> further</c>
+
+00:09:40.050 --> 00:09:40.060 align:start position:0%
+correlated subtopics that can be further
+ 
+
+00:09:40.060 --> 00:09:42.600 align:start position:0%
+correlated subtopics that can be further
+fair<00:09:40.390><c> into</c><c.colorCCCCCC><00:09:40.750><c> the</c><00:09:40.900><c> process</c><00:09:41.290><c> as</c><00:09:41.500><c> prior</c><00:09:41.800><c> to</c><00:09:42.310><c> drive</c></c>
+
+00:09:42.600 --> 00:09:42.610 align:start position:0%
+fair into<c.colorCCCCCC> the process as prior to drive
+ </c>
+
+00:09:42.610 --> 00:09:46.320 align:start position:0%
+fair into<c.colorCCCCCC> the process as prior to drive
+the<00:09:42.880><c> topical</c><00:09:43.270><c> model</c><00:09:43.960><c> discovery</c><00:09:45.090><c> so</c><00:09:46.090><c> this</c></c>
+
+00:09:46.320 --> 00:09:46.330 align:start position:0%
+the topical model discovery so this
+ 
+
+00:09:46.330 --> 00:09:48.810 align:start position:0%
+the topical model discovery so this
+whole<00:09:46.540><c> process</c><00:09:46.810><c> is</c><00:09:47.230><c> is</c><00:09:47.860><c> a</c><00:09:47.890><c> heuristic</c><00:09:48.280><c> way</c><00:09:48.580><c> of</c>
+
+00:09:48.810 --> 00:09:48.820 align:start position:0%
+whole process is is a heuristic way of
+ 
+
+00:09:48.820 --> 00:09:51.060 align:start position:0%
+whole process is is a heuristic way of
+optimizing<00:09:49.260><c> causality</c><00:09:50.260><c> and</c><00:09:50.290><c> coherence</c><00:09:50.920><c> and</c>
+
+00:09:51.060 --> 00:09:51.070 align:start position:0%
+optimizing causality and coherence and
+ 
+
+00:09:51.070 --> 00:09:54.330 align:start position:0%
+optimizing causality and coherence and
+that's<00:09:51.310><c> our</c><00:09:51.490><c> ultimate</c><00:09:51.910><c> goal</c><c.colorE5E5E5><00:09:52.510><c> right</c><00:09:52.950><c> so</c><00:09:53.950><c> here</c></c>
+
+00:09:54.330 --> 00:09:54.340 align:start position:0%
+that's our ultimate goal<c.colorE5E5E5> right so here
+ </c>
+
+00:09:54.340 --> 00:09:56.940 align:start position:0%
+that's our ultimate goal<c.colorE5E5E5> right so here
+you<00:09:54.460><c> see</c><00:09:54.490><c> the</c><00:09:55.060><c> pure</c><00:09:55.540><c> topic</c><00:09:55.900><c> models</c><00:09:56.260><c> will</c><00:09:56.530><c> be</c></c>
+
+00:09:56.940 --> 00:09:56.950 align:start position:0%
+you see the pure topic models will be
+ 
+
+00:09:56.950 --> 00:09:59.579 align:start position:0%
+you see the pure topic models will be
+<c.colorE5E5E5>very<00:09:57.760><c> good</c><00:09:57.970><c> at</c></c><c.colorCCCCCC><00:09:58.180><c> the</c><00:09:58.360><c> maximizing</c></c><c.colorE5E5E5><00:09:59.020><c> topical</c></c>
+
+00:09:59.579 --> 00:09:59.589 align:start position:0%
+<c.colorE5E5E5>very good at</c><c.colorCCCCCC> the maximizing</c><c.colorE5E5E5> topical
+ </c>
+
+00:09:59.589 --> 00:10:01.410 align:start position:0%
+<c.colorE5E5E5>very good at</c><c.colorCCCCCC> the maximizing</c><c.colorE5E5E5> topical
+coherence<00:10:00.160><c> the</c><00:10:00.520><c> topicals</c><00:10:00.940><c> would</c><00:10:01.150><c> be</c><00:10:01.270><c> all</c></c>
+
+00:10:01.410 --> 00:10:01.420 align:start position:0%
+coherence the<c.colorE5E5E5> topicals would be all
+ </c>
+
+00:10:01.420 --> 00:10:05.160 align:start position:0%
+coherence the<c.colorE5E5E5> topicals would be all
+meaningful<00:10:01.950><c> if</c><00:10:02.950><c> we</c><00:10:03.220><c> only</c><00:10:03.970><c> use</c><00:10:04.390><c> consolidate</c></c>
+
+00:10:05.160 --> 00:10:05.170 align:start position:0%
+meaningful if we only use consolidate
+ 
+
+00:10:05.170 --> 00:10:07.770 align:start position:0%
+meaningful if we only use consolidate
+the<00:10:05.410><c> test</c><00:10:05.770><c> or</c><00:10:06.070><c> correlation</c><00:10:06.730><c> measure</c><00:10:06.940><c> then</c><00:10:07.600><c> we</c>
+
+00:10:07.770 --> 00:10:07.780 align:start position:0%
+the test or correlation measure then we
+ 
+
+00:10:07.780 --> 00:10:09.300 align:start position:0%
+the test or correlation measure then we
+might<00:10:07.990><c> get</c><00:10:08.200><c> a</c><00:10:08.260><c> set</c><00:10:08.530><c> of</c><00:10:08.560><c> words</c><00:10:08.890><c> that</c><00:10:09.160><c> are</c>
+
+00:10:09.300 --> 00:10:09.310 align:start position:0%
+might get a set of words that are
+ 
+
+00:10:09.310 --> 00:10:12.240 align:start position:0%
+might get a set of words that are
+strongly<00:10:10.089><c> correlated</c><00:10:10.960><c> with</c><00:10:11.140><c> time</c><00:10:11.650><c> series</c><00:10:12.010><c> but</c>
+
+00:10:12.240 --> 00:10:12.250 align:start position:0%
+strongly correlated with time series but
+ 
+
+00:10:12.250 --> 00:10:14.370 align:start position:0%
+strongly correlated with time series but
+they<00:10:12.430><c> may</c><c.colorCCCCCC><00:10:12.580><c> not</c><00:10:12.700><c> necessarily</c><00:10:12.970><c> anything</c></c><c.colorE5E5E5><00:10:13.750><c> they</c></c>
+
+00:10:14.370 --> 00:10:14.380 align:start position:0%
+they may<c.colorCCCCCC> not necessarily anything</c><c.colorE5E5E5> they
+ </c>
+
+00:10:14.380 --> 00:10:17.880 align:start position:0%
+they may<c.colorCCCCCC> not necessarily anything</c><c.colorE5E5E5> they
+might<00:10:14.620><c> not</c><00:10:14.980><c> be</c></c><c.colorCCCCCC><00:10:15.370><c> seen</c><00:10:15.910><c> men</c><00:10:16.180><c> they</c><00:10:16.510><c> connected</c><00:10:17.050><c> so</c></c>
+
+00:10:17.880 --> 00:10:17.890 align:start position:0%
+might not be<c.colorCCCCCC> seen men they connected so
+ </c>
+
+00:10:17.890 --> 00:10:19.770 align:start position:0%
+might not be<c.colorCCCCCC> seen men they connected so
+that</c><c.colorE5E5E5><00:10:17.920><c> would</c><00:10:18.220><c> be</c><00:10:18.250><c> at</c><00:10:18.550><c> the</c><00:10:19.060><c> other</c><00:10:19.180><c> extreme</c><00:10:19.330><c> on</c></c>
+
+00:10:19.770 --> 00:10:19.780 align:start position:0%
+that<c.colorE5E5E5> would be at the other extreme on
+ </c>
+
+00:10:19.780 --> 00:10:23.550 align:start position:0%
+that<c.colorE5E5E5> would be at the other extreme on
+the<00:10:20.110><c> top</c><00:10:20.550><c> now</c><00:10:21.550><c> the</c><00:10:21.610><c> ideal</c><00:10:22.270><c> is</c><00:10:22.630><c> to</c><00:10:22.690><c> get</c><00:10:23.110><c> a</c><00:10:23.140><c> causal</c></c>
+
+00:10:23.550 --> 00:10:23.560 align:start position:0%
+the top now the<c.colorE5E5E5> ideal is to get a causal
+ </c>
+
+00:10:23.560 --> 00:10:26.250 align:start position:0%
+the top now the<c.colorE5E5E5> ideal is to get a causal
+topic<00:10:23.830><c> that's</c><00:10:24.070><c> sort</c><00:10:24.730><c> I</c><00:10:25.150><c> both</c><00:10:25.600><c> in</c><00:10:25.810><c> topical</c></c>
+
+00:10:26.250 --> 00:10:26.260 align:start position:0%
+topic that's sort I both in topical
+ 
+
+00:10:26.260 --> 00:10:28.860 align:start position:0%
+topic that's sort I both in topical
+coherence<00:10:26.710><c> and</c><00:10:26.890><c> also</c><00:10:27.520><c> causal</c><00:10:28.240><c> relation</c><00:10:28.690><c> and</c>
+
+00:10:28.860 --> 00:10:28.870 align:start position:0%
+coherence and also causal relation and
+ 
+
+00:10:28.870 --> 00:10:31.550 align:start position:0%
+coherence and also causal relation and
+this<00:10:29.650><c> apology</c><00:10:30.070><c> can</c><00:10:30.370><c> be</c><00:10:30.520><c> regarded</c><00:10:30.970><c> as</c><00:10:31.450><c> a</c>
+
+00:10:31.550 --> 00:10:31.560 align:start position:0%
+this apology can be regarded as a
+ 
+
+00:10:31.560 --> 00:10:34.440 align:start position:0%
+this apology can be regarded as a
+alternate<00:10:32.560><c> way</c><00:10:32.830><c> to</c><00:10:32.860><c> maximize</c><c.colorE5E5E5><00:10:33.430><c> both</c><00:10:34.120><c> I'm</c></c>
+
+00:10:34.440 --> 00:10:34.450 align:start position:0%
+alternate way to maximize<c.colorE5E5E5> both I'm
+ </c>
+
+00:10:34.450 --> 00:10:37.200 align:start position:0%
+alternate way to maximize<c.colorE5E5E5> both I'm
+engines<00:10:34.870><c> so</c><00:10:35.770><c> when</c><00:10:36.070><c> we</c><00:10:36.220><c> apply</c><00:10:36.550><c> the</c><00:10:36.610><c> topic</c></c>
+
+00:10:37.200 --> 00:10:37.210 align:start position:0%
+engines so when we apply the topic
+ 
+
+00:10:37.210 --> 00:10:39.570 align:start position:0%
+engines so when we apply the topic
+models<00:10:37.540><c> we're</c><00:10:37.810><c> maximizing</c><00:10:38.170><c> the</c><00:10:39.040><c> coherence</c>
+
+00:10:39.570 --> 00:10:39.580 align:start position:0%
+models we're maximizing the coherence
+ 
+
+00:10:39.580 --> 00:10:41.970 align:start position:0%
+models we're maximizing the coherence
+but<00:10:40.300><c> when</c><00:10:40.450><c> we</c><00:10:40.570><c> decomposes</c><00:10:41.230><c> of</c><00:10:41.350><c> having</c><00:10:41.650><c> model</c>
+
+00:10:41.970 --> 00:10:41.980 align:start position:0%
+but when we decomposes of having model
+ 
+
+00:10:41.980 --> 00:10:44.730 align:start position:0%
+but when we decomposes of having model
+words<00:10:42.310><c> in</c><00:10:42.940><c> two</c><00:10:43.210><c> sets</c><00:10:43.690><c> of</c><00:10:43.930><c> words</c><c.colorE5E5E5><00:10:44.230><c> that</c><00:10:44.560><c> are</c></c>
+
+00:10:44.730 --> 00:10:44.740 align:start position:0%
+words in two sets of words<c.colorE5E5E5> that are
+ </c>
+
+00:10:44.740 --> 00:10:46.500 align:start position:0%
+words in two sets of words<c.colorE5E5E5> that are
+strongly<00:10:45.220><c> various</c></c><c.colorCCCCCC><00:10:45.790><c> your</c><00:10:45.910><c> honor</c><00:10:45.970><c> correlated</c></c>
+
+00:10:46.500 --> 00:10:46.510 align:start position:0%
+strongly various<c.colorCCCCCC> your honor correlated
+ </c>
+
+00:10:46.510 --> 00:10:48.480 align:start position:0%
+strongly various<c.colorCCCCCC> your honor correlated
+with<00:10:46.540><c> time</c><00:10:46.839><c> series</c><00:10:47.170><c> we</c><00:10:47.830><c> select</c></c><c.colorE5E5E5><00:10:48.190><c> the</c><00:10:48.339><c> most</c></c>
+
+00:10:48.480 --> 00:10:48.490 align:start position:0%
+with time series we select<c.colorE5E5E5> the most
+ </c>
+
+00:10:48.490 --> 00:10:50.400 align:start position:0%
+with time series we select<c.colorE5E5E5> the most
+strongly<00:10:48.970><c> correlated</c><00:10:49.450><c> woods</c><00:10:49.780><c> with</c><00:10:50.110><c> the</c><00:10:50.200><c> time</c></c>
+
+00:10:50.400 --> 00:10:50.410 align:start position:0%
+strongly correlated woods with the time
+ 
+
+00:10:50.410 --> 00:10:53.340 align:start position:0%
+strongly correlated woods with the time
+<c.colorE5E5E5>series<00:10:50.710><c> we</c><00:10:51.280><c> are</c></c><c.colorCCCCCC><00:10:51.310><c> pushing</c><00:10:52.060><c> the</c><00:10:52.150><c> model</c><00:10:52.510><c> back</c><00:10:53.170><c> to</c></c>
+
+00:10:53.340 --> 00:10:53.350 align:start position:0%
+<c.colorE5E5E5>series we are</c><c.colorCCCCCC> pushing the model back to
+ </c>
+
+00:10:53.350 --> 00:10:55.980 align:start position:0%
+<c.colorE5E5E5>series we are</c><c.colorCCCCCC> pushing the model back to
+the<00:10:53.530><c> causal</c><00:10:54.100><c> by</c></c><c.colorE5E5E5><00:10:54.880><c> mention</c><00:10:55.330><c> to</c><00:10:55.540><c> make</c><00:10:55.720><c> it</c><00:10:55.870><c> a</c></c>
+
+00:10:55.980 --> 00:10:55.990 align:start position:0%
+the causal by<c.colorE5E5E5> mention to make it a
+ </c>
+
+00:10:55.990 --> 00:10:59.400 align:start position:0%
+the causal by<c.colorE5E5E5> mention to make it a</c>
+<c.colorE5E5E5>better<00:10:56.560><c> in</c><00:10:56.890><c> causal</c><00:10:57.460><c> scoring</c><00:10:58.060><c> and</c><00:10:58.240><c> then</c><00:10:59.080><c> when</c></c>
+
+00:10:59.400 --> 00:10:59.410 align:start position:0%
+<c.colorE5E5E5>better in causal scoring and then when
+ </c>
+
+00:10:59.410 --> 00:11:03.449 align:start position:0%
+<c.colorE5E5E5>better in causal scoring and then when
+we<00:10:59.440><c> apply</c><00:10:59.830><c> the</c><00:11:01.230><c> selected</c><00:11:02.230><c> words</c><00:11:02.440><c> as</c><00:11:02.680><c> a</c><00:11:02.740><c> prior</c></c>
+
+00:11:03.449 --> 00:11:03.459 align:start position:0%
+we<c.colorE5E5E5> apply the selected words as a prior
+ </c>
+
+00:11:03.459 --> 00:11:05.590 align:start position:0%
+we<c.colorE5E5E5> apply the selected words as a prior
+to<00:11:04.060><c> guide</c><00:11:04.300><c> the</c><00:11:04.480><c> topic</c><00:11:04.780><c> modeling</c></c>
+
+00:11:05.590 --> 00:11:05.600 align:start position:0%
+to guide the topic modeling
+ 
+
+00:11:05.600 --> 00:11:07.629 align:start position:0%
+to guide the topic modeling
+we<00:11:05.720><c> again</c><00:11:06.079><c> go</c><00:11:06.410><c> back</c><00:11:06.440><c> to</c><00:11:06.829><c> optimize</c><00:11:07.310><c> the</c>
+
+00:11:07.629 --> 00:11:07.639 align:start position:0%
+we again go back to optimize the
+ 
+
+00:11:07.639 --> 00:11:09.730 align:start position:0%
+we again go back to optimize the
+coherence<00:11:08.180><c> because</c><00:11:08.870><c> popular</c><00:11:09.259><c> models</c><00:11:09.589><c> we</c>
+
+00:11:09.730 --> 00:11:09.740 align:start position:0%
+coherence because popular models we
+ 
+
+00:11:09.740 --> 00:11:12.189 align:start position:0%
+coherence because popular models we
+ensure<00:11:10.100><c> the</c><00:11:10.399><c> next</c><00:11:11.060><c> generation</c><00:11:11.569><c> of</c><00:11:11.630><c> topics</c><00:11:12.019><c> to</c>
+
+00:11:12.189 --> 00:11:12.199 align:start position:0%
+ensure the next generation of topics to
+ 
+
+00:11:12.199 --> 00:11:14.199 align:start position:0%
+ensure the next generation of topics to
+be<00:11:12.230><c> coherent</c><00:11:12.709><c> and</c><00:11:13.040><c> we</c><00:11:13.639><c> can</c><00:11:13.790><c> iterate</c><c.colorE5E5E5><00:11:13.940><c> iterate</c></c>
+
+00:11:14.199 --> 00:11:14.209 align:start position:0%
+be coherent and we can iterate<c.colorE5E5E5> iterate
+ </c>
+
+00:11:14.209 --> 00:11:16.569 align:start position:0%
+be coherent and we can iterate<c.colorE5E5E5> iterate
+and<00:11:14.569><c> optimize</c><00:11:15.139><c> in</c><00:11:15.440><c> this</c><00:11:15.680><c> way</c><00:11:15.860><c> as</c><00:11:16.069><c> shown</c><00:11:16.430><c> on</c></c>
+
+00:11:16.569 --> 00:11:16.579 align:start position:0%
+<c.colorE5E5E5>and optimize in this way as shown on
+ </c>
+
+00:11:16.579 --> 00:11:22.329 align:start position:0%
+<c.colorE5E5E5>and optimize in this way as shown on
+this<00:11:16.940><c> picture</c><00:11:19.630><c> so</c></c><c.colorCCCCCC><00:11:20.630><c> the</c><00:11:20.990><c> only</c><00:11:21.350><c> I</c></c><c.colorE5E5E5><00:11:21.829><c> think</c></c>
+
+00:11:22.329 --> 00:11:22.339 align:start position:0%
+this picture so<c.colorCCCCCC> the only I</c><c.colorE5E5E5> think
+ </c>
+
+00:11:22.339 --> 00:11:24.460 align:start position:0%
+this picture so<c.colorCCCCCC> the only I</c><c.colorE5E5E5> think
+component<00:11:23.240><c> that</c><00:11:23.269><c> you</c><00:11:23.569><c> haven't</c><00:11:23.870><c> seen</c></c><c.colorCCCCCC><00:11:24.110><c> in</c><00:11:24.290><c> such</c></c>
+
+00:11:24.460 --> 00:11:24.470 align:start position:0%
+component that you haven't seen<c.colorCCCCCC> in such
+ </c>
+
+00:11:24.470 --> 00:11:26.650 align:start position:0%
+component that you haven't seen<c.colorCCCCCC> in such
+a<00:11:24.500><c> framework</c><00:11:24.800><c> is</c><00:11:25.120><c> how</c><00:11:26.120><c> to</c><00:11:26.180><c> measure</c><00:11:26.420><c> the</c></c>
+
+00:11:26.650 --> 00:11:26.660 align:start position:0%
+a framework is how to measure the
+ 
+
+00:11:26.660 --> 00:11:28.240 align:start position:0%
+a framework is how to measure the
+causality<00:11:27.230><c> because</c><00:11:27.589><c> the</c><00:11:27.769><c> rest</c><00:11:27.980><c> is</c><00:11:28.220><c> just</c>
+
+00:11:28.240 --> 00:11:28.250 align:start position:0%
+causality because the rest is just
+ 
+
+00:11:28.250 --> 00:11:32.110 align:start position:0%
+causality because the rest is just
+topping<00:11:28.790><c> model</c><00:11:29.860><c> so</c><00:11:30.860><c> let's</c><00:11:31.130><c> have</c><c.colorE5E5E5><00:11:31.430><c> a</c><00:11:31.519><c> little</c><00:11:31.970><c> bit</c></c>
+
+00:11:32.110 --> 00:11:32.120 align:start position:0%
+topping model so let's have<c.colorE5E5E5> a little bit
+ </c>
+
+00:11:32.120 --> 00:11:33.879 align:start position:0%
+topping model so let's have<c.colorE5E5E5> a little bit
+discussion<00:11:32.569><c> of</c><00:11:32.630><c> that</c><00:11:32.810><c> so</c><00:11:33.199><c> here</c><00:11:33.440><c> we</c><00:11:33.470><c> show</c><00:11:33.740><c> that</c></c>
+
+00:11:33.879 --> 00:11:33.889 align:start position:0%
+discussion of that so here we show that
+ 
+
+00:11:33.889 --> 00:11:35.379 align:start position:0%
+discussion of that so here we show that
+the<00:11:34.069><c> let's</c><00:11:34.279><c> say</c><00:11:34.459><c> we</c><00:11:34.579><c> have</c><00:11:34.670><c> a</c><00:11:34.699><c> topic</c><00:11:34.970><c> about</c>
+
+00:11:35.379 --> 00:11:35.389 align:start position:0%
+the let's say we have a topic about
+ 
+
+00:11:35.389 --> 00:11:37.030 align:start position:0%
+the let's say we have a topic about
+government<00:11:35.870><c> response</c><00:11:36.290><c> here</c><00:11:36.529><c> and</c><c.colorE5E5E5><00:11:36.740><c> then</c><00:11:36.860><c> who</c><00:11:36.980><c> is</c></c>
+
+00:11:37.030 --> 00:11:37.040 align:start position:0%
+government response here and<c.colorE5E5E5> then who is
+ </c>
+
+00:11:37.040 --> 00:11:39.220 align:start position:0%
+government response here and<c.colorE5E5E5> then who is</c>
+<c.colorE5E5E5>talking<00:11:37.279><c> model</c><00:11:37.730><c> we</c><00:11:37.910><c> can</c><00:11:38.089><c> get</c><00:11:38.569><c> the</c><00:11:38.690><c> coverage</c><00:11:39.019><c> of</c></c>
+
+00:11:39.220 --> 00:11:39.230 align:start position:0%
+<c.colorE5E5E5>talking model we can get the coverage of
+ </c>
+
+00:11:39.230 --> 00:11:41.259 align:start position:0%
+<c.colorE5E5E5>talking model we can get the coverage of
+the<00:11:39.529><c> topic</c><00:11:39.889><c> over</c><00:11:40.250><c> time</c><00:11:40.490><c> so</c><00:11:40.850><c> we</c><00:11:40.940><c> have</c><00:11:41.060><c> a</c><00:11:41.120><c> time</c></c>
+
+00:11:41.259 --> 00:11:41.269 align:start position:0%
+the topic over time so we have a time
+ 
+
+00:11:41.269 --> 00:11:44.439 align:start position:0%
+the topic over time so we have a time
+series<00:11:41.509><c> X</c><00:11:41.839><c> sub</c><00:11:42.079><c> T</c><00:11:42.430><c> now</c><00:11:43.430><c> we</c><00:11:43.819><c> also</c><c.colorE5E5E5><00:11:43.940><c> have</c><00:11:44.240><c> our</c></c>
+
+00:11:44.439 --> 00:11:44.449 align:start position:0%
+series X sub T now we also<c.colorE5E5E5> have our
+ </c>
+
+00:11:44.449 --> 00:11:47.259 align:start position:0%
+series X sub T now we also<c.colorE5E5E5> have our
+given<00:11:44.839><c> a</c><00:11:44.959><c> time</c><00:11:45.170><c> series</c><00:11:45.430><c> that</c><00:11:46.430><c> represents</c></c>
+
+00:11:47.259 --> 00:11:47.269 align:start position:0%
+given a time series that represents
+ 
+
+00:11:47.269 --> 00:11:49.300 align:start position:0%
+given a time series that represents
+external<00:11:47.899><c> information</c><00:11:48.170><c> it's</c><00:11:48.709><c> a</c><00:11:48.769><c> noun</c><00:11:48.949><c> text</c>
+
+00:11:49.300 --> 00:11:49.310 align:start position:0%
+external information it's a noun text
+ 
+
+00:11:49.310 --> 00:11:52.199 align:start position:0%
+external information it's a noun text
+time<00:11:49.519><c> series</c><00:11:49.880><c> y</c><00:11:50.240><c> sub</c><00:11:50.569><c> T</c><c.colorCCCCCC><00:11:50.779><c> it's</c><00:11:51.050><c> a</c><00:11:51.199><c> stock</c><00:11:51.440><c> prices</c></c>
+
+00:11:52.199 --> 00:11:52.209 align:start position:0%
+time series y sub T<c.colorCCCCCC> it's a stock prices
+ </c>
+
+00:11:52.209 --> 00:11:56.650 align:start position:0%
+time series y sub T<c.colorCCCCCC> it's a stock prices
+now<00:11:53.209><c> the</c><00:11:53.269><c> question</c></c><c.colorE5E5E5><00:11:53.449><c> here</c><00:11:53.959><c> is</c><00:11:53.990><c> does</c><00:11:55.089><c> xt</c><00:11:56.089><c> cause</c></c>
+
+00:11:56.650 --> 00:11:56.660 align:start position:0%
+now the question<c.colorE5E5E5> here is does xt cause
+ </c>
+
+00:11:56.660 --> 00:11:59.710 align:start position:0%
+now the question<c.colorE5E5E5> here is does xt cause
+white<00:11:57.579><c> or</c><00:11:58.579><c> in</c><00:11:58.880><c> other</c><00:11:59.060><c> words</c><00:11:59.149><c> we</c><00:11:59.449><c> want</c><00:11:59.600><c> to</c></c>
+
+00:11:59.710 --> 00:11:59.720 align:start position:0%
+white or in other words we want<c.colorE5E5E5> to
+ </c>
+
+00:11:59.720 --> 00:12:01.809 align:start position:0%
+white or in other words we want<c.colorE5E5E5> to
+measure<00:11:59.899><c> the</c><00:12:00.139><c> causality</c><00:12:00.769><c> relation</c><00:12:01.519><c> between</c></c>
+
+00:12:01.809 --> 00:12:01.819 align:start position:0%
+measure the causality relation between
+ 
+
+00:12:01.819 --> 00:12:05.290 align:start position:0%
+measure the causality relation between
+the<00:12:01.940><c> two</c><00:12:02.120><c> or</c><00:12:03.160><c> maybe</c><00:12:04.160><c> just</c><00:12:04.490><c> measure</c><00:12:05.120><c> the</c>
+
+00:12:05.290 --> 00:12:05.300 align:start position:0%
+the two or maybe just measure the
+ 
+
+00:12:05.300 --> 00:12:08.860 align:start position:0%
+the two or maybe just measure the
+<c.colorCCCCCC>college<00:12:05.660><c> of</c><00:12:06.040><c> the</c></c><c.colorE5E5E5><00:12:07.040><c> two</c><00:12:07.540><c> there</c><00:12:08.540><c> are</c><00:12:08.660><c> many</c></c>
+
+00:12:08.860 --> 00:12:08.870 align:start position:0%
+<c.colorCCCCCC>college of the</c><c.colorE5E5E5> two there are many
+ </c>
+
+00:12:08.870 --> 00:12:10.540 align:start position:0%
+<c.colorCCCCCC>college of the</c><c.colorE5E5E5> two there are many
+measures<00:12:09.230><c> that</c><00:12:09.410><c> we</c><00:12:09.560><c> can</c><00:12:09.709><c> use</c><00:12:09.740><c> in</c><00:12:10.130><c> this</c></c>
+
+00:12:10.540 --> 00:12:10.550 align:start position:0%
+measures that we can use in this
+ 
+
+00:12:10.550 --> 00:12:12.550 align:start position:0%
+measures that we can use in this
+<c.colorE5E5E5>framework<00:12:10.959><c> for</c><00:12:11.959><c> example</c><00:12:12.259><c> Pearson</c></c>
+
+00:12:12.550 --> 00:12:12.560 align:start position:0%
+<c.colorE5E5E5>framework for example Pearson
+ </c>
+
+00:12:12.560 --> 00:12:14.559 align:start position:0%
+<c.colorE5E5E5>framework for example Pearson
+correlation<00:12:12.680><c> is</c><00:12:13.100><c> a</c><00:12:13.130><c> common</c><00:12:13.550><c> a</c><00:12:13.610><c> user</c><00:12:13.819><c> make</c><00:12:14.540><c> sure</c></c>
+
+00:12:14.559 --> 00:12:14.569 align:start position:0%
+correlation<c.colorE5E5E5> is a common a user make sure
+ </c>
+
+00:12:14.569 --> 00:12:17.259 align:start position:0%
+correlation<c.colorE5E5E5> is a common a user make sure</c>
+<c.colorE5E5E5>and<00:12:15.110><c> we</c><00:12:15.170><c> had</c><00:12:15.290><c> considered</c><00:12:15.740><c> time</c><00:12:15.920><c> lag</c><00:12:16.279><c> here</c><00:12:16.699><c> so</c></c>
+
+00:12:17.259 --> 00:12:17.269 align:start position:0%
+<c.colorE5E5E5>and we had considered time lag here so
+ </c>
+
+00:12:17.269 --> 00:12:18.939 align:start position:0%
+<c.colorE5E5E5>and we had considered time lag here so
+that<00:12:17.449><c> we</c></c><c.colorCCCCCC><00:12:17.480><c> can</c><00:12:17.930><c> try</c></c><c.colorE5E5E5><00:12:18.079><c> to</c><00:12:18.139><c> capture</c><00:12:18.439><c> causal</c></c>
+
+00:12:18.939 --> 00:12:18.949 align:start position:0%
+that we<c.colorCCCCCC> can try</c><c.colorE5E5E5> to capture causal
+ </c>
+
+00:12:18.949 --> 00:12:21.730 align:start position:0%
+that we<c.colorCCCCCC> can try</c><c.colorE5E5E5> to capture causal
+relation<00:12:19.370><c> using</c><00:12:20.029><c> somewhat</c><00:12:20.990><c> the</c><00:12:21.139><c> past</c><00:12:21.439><c> data</c></c>
+
+00:12:21.730 --> 00:12:21.740 align:start position:0%
+relation using somewhat the past data
+ 
+
+00:12:21.740 --> 00:12:25.949 align:start position:0%
+relation using somewhat the past data
+that<00:12:22.730><c> are</c><00:12:22.759><c> in</c><00:12:23.569><c> using</c><00:12:24.380><c> the</c><00:12:24.439><c> data</c><00:12:24.620><c> in</c><00:12:24.769><c> the</c><00:12:24.860><c> past</c>
+
+00:12:25.949 --> 00:12:25.959 align:start position:0%
+that are in using the data in the past
+ 
+
+00:12:25.959 --> 00:12:30.370 align:start position:0%
+that are in using the data in the past
+to<00:12:26.959><c> try</c><00:12:27.199><c> to</c><00:12:27.259><c> call</c><00:12:28.220><c> it</c><c.colorCCCCCC><00:12:28.399><c> that</c><00:12:28.639><c> with</c><00:12:28.819><c> the</c></c><c.colorE5E5E5><00:12:29.420><c> data</c><00:12:29.630><c> on</c></c>
+
+00:12:30.370 --> 00:12:30.380 align:start position:0%
+to try to call it<c.colorCCCCCC> that with the</c><c.colorE5E5E5> data on
+ </c>
+
+00:12:30.380 --> 00:12:34.540 align:start position:0%
+to try to call it<c.colorCCCCCC> that with the</c><c.colorE5E5E5> data on
+points<00:12:31.310><c> on</c><00:12:31.459><c> why</c><00:12:31.850><c> that</c><00:12:32.949><c> that</c><00:12:33.949><c> represents</c><00:12:34.490><c> the</c></c>
+
+00:12:34.540 --> 00:12:34.550 align:start position:0%
+points on why that that represents the
+ 
+
+00:12:34.550 --> 00:12:36.999 align:start position:0%
+points on why that that represents the
+future<00:12:34.730><c> for</c><00:12:35.149><c> example</c><00:12:35.569><c> and</c><00:12:35.720><c> by</c><00:12:36.589><c> introducing</c>
+
+00:12:36.999 --> 00:12:37.009 align:start position:0%
+future for example and by introducing
+ 
+
+00:12:37.009 --> 00:12:39.730 align:start position:0%
+future for example and by introducing
+such<00:12:37.279><c> lag</c><00:12:37.610><c> we</c><00:12:37.970><c> can</c><00:12:38.149><c> hopefully</c><00:12:38.959><c> capture</c><00:12:39.470><c> some</c>
+
+00:12:39.730 --> 00:12:39.740 align:start position:0%
+such lag we can hopefully capture some
+ 
+
+00:12:39.740 --> 00:12:41.800 align:start position:0%
+such lag we can hopefully capture some
+causal<00:12:40.189><c> relation</c><00:12:40.519><c> by</c><00:12:40.699><c> even</c><00:12:41.449><c> using</c>
+
+00:12:41.800 --> 00:12:41.810 align:start position:0%
+causal relation by even using
+ 
+
+00:12:41.810 --> 00:12:43.480 align:start position:0%
+causal relation by even using
+correlation<00:12:42.470><c> measures</c><00:12:42.589><c> Mike</c><00:12:43.130><c> Pearson</c>
+
+00:12:43.480 --> 00:12:43.490 align:start position:0%
+correlation measures Mike Pearson
+ 
+
+00:12:43.490 --> 00:12:46.240 align:start position:0%
+correlation measures Mike Pearson
+correlation<00:12:44.139><c> but</c><00:12:45.139><c> a</c><00:12:45.350><c> commonly</c><00:12:45.860><c> used</c><00:12:45.889><c> to</c>
+
+00:12:46.240 --> 00:12:46.250 align:start position:0%
+correlation but a commonly used to
+ 
+
+00:12:46.250 --> 00:12:49.660 align:start position:0%
+correlation but a commonly used to
+measure<00:12:46.399><c> for</c><00:12:46.730><c> causality</c><00:12:47.470><c> here</c><00:12:48.470><c> is</c><00:12:48.670><c> grandeur</c>
+
+00:12:49.660 --> 00:12:49.670 align:start position:0%
+measure for causality here is grandeur
+ 
+
+00:12:49.670 --> 00:12:53.650 align:start position:0%
+measure for causality here is grandeur
+cause<00:12:50.029><c> I</c><00:12:50.149><c> detest</c><00:12:50.569><c> and</c><00:12:51.759><c> the</c><c.colorE5E5E5><00:12:52.759><c> idea</c><00:12:53.149><c> of</c><00:12:53.240><c> this</c><00:12:53.420><c> test</c></c>
+
+00:12:53.650 --> 00:12:53.660 align:start position:0%
+cause I detest and the<c.colorE5E5E5> idea of this test
+ </c>
+
+00:12:53.660 --> 00:12:55.540 align:start position:0%
+cause I detest and the<c.colorE5E5E5> idea of this test
+is<00:12:53.959><c> actually</c><00:12:54.290><c> quite</c><00:12:54.410><c> simple</c><00:12:54.740><c> basically</c></c>
+
+00:12:55.540 --> 00:12:55.550 align:start position:0%
+is actually quite simple basically
+ 
+
+00:12:55.550 --> 00:12:57.819 align:start position:0%
+is actually quite simple basically
+you're<00:12:56.149><c> going</c><00:12:56.329><c> to</c><00:12:56.420><c> have</c><00:12:56.829><c> autoregressive</c>
+
+00:12:57.819 --> 00:12:57.829 align:start position:0%
+you're going to have autoregressive
+ 
+
+00:12:57.829 --> 00:12:59.949 align:start position:0%
+you're going to have autoregressive
+model<00:12:58.519><c> to</c><00:12:58.639><c> use</c><00:12:58.880><c> the</c><00:12:59.089><c> history</c><00:12:59.420><c> information</c><00:12:59.630><c> on</c>
+
+00:12:59.949 --> 00:12:59.959 align:start position:0%
+model to use the history information on
+ 
+
+00:12:59.959 --> 00:13:03.550 align:start position:0%
+model to use the history information on
+why<00:13:00.259><c> to</c><00:13:01.040><c> predict</c><00:13:01.430><c> itself</c><00:13:01.910><c> and</c><00:13:02.230><c> this</c><00:13:03.230><c> is</c><00:13:03.439><c> the</c>
+
+00:13:03.550 --> 00:13:03.560 align:start position:0%
+why to predict itself and this is the
+ 
+
+00:13:03.560 --> 00:13:05.350 align:start position:0%
+why to predict itself and this is the
+best<00:13:03.709><c> we</c><00:13:04.009><c> could</c><00:13:04.160><c> do</c><00:13:04.339><c> without</c><00:13:04.670><c> any</c><00:13:05.120><c> other</c>
+
+00:13:05.350 --> 00:13:05.360 align:start position:0%
+best we could do without any other
+ 
+
+00:13:05.360 --> 00:13:06.939 align:start position:0%
+best we could do without any other
+information<00:13:05.600><c> so</c><00:13:06.319><c> we're</c><00:13:06.470><c> going</c><00:13:06.589><c> to</c><00:13:06.680><c> be</c><00:13:06.769><c> able</c><00:13:06.829><c> to</c>
+
+00:13:06.939 --> 00:13:06.949 align:start position:0%
+information so we're going to be able to
+ 
+
+00:13:06.949 --> 00:13:09.460 align:start position:0%
+information so we're going to be able to
+such<00:13:07.130><c> a</c><00:13:07.160><c> model</c><c.colorE5E5E5><00:13:07.579><c> and</c><00:13:07.790><c> then</c><00:13:08.750><c> we're</c><00:13:09.050><c> going</c><00:13:09.199><c> to</c><00:13:09.259><c> add</c></c>
+
+00:13:09.460 --> 00:13:09.470 align:start position:0%
+such a model<c.colorE5E5E5> and then we're going to add
+ </c>
+
+00:13:09.470 --> 00:13:11.829 align:start position:0%
+such a model<c.colorE5E5E5> and then we're going to add
+some<00:13:09.529><c> history</c><00:13:10.220><c> information</c><00:13:10.490><c> of</c><00:13:10.819><c> X</c><00:13:11.060><c> into</c><00:13:11.660><c> such</c></c>
+
+00:13:11.829 --> 00:13:11.839 align:start position:0%
+some history information of X into such
+ 
+
+00:13:11.839 --> 00:13:14.590 align:start position:0%
+some history information of X into such
+a<00:13:11.870><c> model</c><00:13:12.259><c> to</c><00:13:12.949><c> see</c><00:13:13.220><c> if</c><00:13:13.250><c> we</c><00:13:13.730><c> can</c><c.colorE5E5E5><00:13:13.910><c> improve</c><00:13:14.360><c> the</c></c>
+
+00:13:14.590 --> 00:13:14.600 align:start position:0%
+a model to see if we can<c.colorE5E5E5> improve the
+ </c>
+
+00:13:14.600 --> 00:13:17.310 align:start position:0%
+a model to see if we can<c.colorE5E5E5> improve the
+prediction<00:13:15.079><c> of</c><00:13:15.170><c> Y</c><00:13:15.410><c> if</c><00:13:15.920><c> we</c><00:13:16.550><c> can</c></c>
+
+00:13:17.310 --> 00:13:17.320 align:start position:0%
+prediction of Y if we can
+ 
+
+00:13:17.320 --> 00:13:19.470 align:start position:0%
+prediction of Y if we can
+if<00:13:17.500><c> we</c><00:13:17.650><c> went</c><00:13:17.740><c> do</c><00:13:17.860><c> that</c><00:13:18.010><c> with</c><00:13:18.670><c> statistically</c>
+
+00:13:19.470 --> 00:13:19.480 align:start position:0%
+if we went do that with statistically
+ 
+
+00:13:19.480 --> 00:13:22.590 align:start position:0%
+if we went do that with statistically
+significant<00:13:19.900><c> difference</c><00:13:20.310><c> then</c><00:13:21.310><c> we</c><00:13:22.090><c> just</c><00:13:22.300><c> say</c>
+
+00:13:22.590 --> 00:13:22.600 align:start position:0%
+significant difference then we just say
+ 
+
+00:13:22.600 --> 00:13:26.520 align:start position:0%
+significant difference then we just say
+X<00:13:22.900><c> has</c><00:13:23.380><c> some</c><00:13:23.740><c> causal</c><00:13:24.180><c> inference</c><00:13:25.180><c> and</c><c.colorE5E5E5><00:13:25.360><c> y</c><00:13:25.690><c> or</c></c>
+
+00:13:26.520 --> 00:13:26.530 align:start position:0%
+X has some causal inference and<c.colorE5E5E5> y or
+ </c>
+
+00:13:26.530 --> 00:13:28.920 align:start position:0%
+X has some causal inference and<c.colorE5E5E5> y or
+otherwise<00:13:27.040><c> wouldn't</c><00:13:27.730><c> have</c><00:13:27.820><c> caused</c><00:13:28.660><c> the</c></c>
+
+00:13:28.920 --> 00:13:28.930 align:start position:0%
+otherwise wouldn't have<c.colorE5E5E5> caused the
+ </c>
+
+00:13:28.930 --> 00:13:32.430 align:start position:0%
+otherwise wouldn't have<c.colorE5E5E5> caused the
+improvement<00:13:29.560><c> of</c><00:13:29.620><c> prediction</c><00:13:30.130><c> of</c><00:13:30.220><c> what</c><00:13:30.930><c> if</c><00:13:31.930><c> on</c></c>
+
+00:13:32.430 --> 00:13:32.440 align:start position:0%
+improvement of prediction of what if on
+ 
+
+00:13:32.440 --> 00:13:34.320 align:start position:0%
+improvement of prediction of what if on
+the<00:13:32.500><c> other</c><00:13:32.740><c> hand</c><00:13:32.860><c> the</c><00:13:33.340><c> difference</c><00:13:34.090><c> is</c>
+
+00:13:34.320 --> 00:13:34.330 align:start position:0%
+the other hand the difference is
+ 
+
+00:13:34.330 --> 00:13:37.230 align:start position:0%
+the other hand the difference is
+insignificant<00:13:34.810><c> and</c><00:13:35.590><c> that</c><00:13:35.860><c> would</c><00:13:36.130><c> mean</c><c.colorE5E5E5><00:13:36.310><c> X</c><00:13:36.640><c> does</c></c>
+
+00:13:37.230 --> 00:13:37.240 align:start position:0%
+insignificant and that would mean<c.colorE5E5E5> X does
+ </c>
+
+00:13:37.240 --> 00:13:38.910 align:start position:0%
+insignificant and that would mean<c.colorE5E5E5> X does
+not<00:13:37.270><c> really</c><00:13:37.690><c> have</c><00:13:37.840><c> a</c><00:13:37.900><c> causal</c><00:13:38.320><c> relation</c><00:13:38.650><c> with</c><00:13:38.770><c> y</c></c>
+
+00:13:38.910 --> 00:13:38.920 align:start position:0%
+not really have a causal relation with y
+ 
+
+00:13:38.920 --> 00:13:41.010 align:start position:0%
+not really have a causal relation with y
+and<00:13:39.190><c> so</c><00:13:39.280><c> that's</c><00:13:39.430><c> the</c><00:13:39.610><c> basic</c><00:13:39.880><c> idea</c><00:13:39.960><c> now</c><00:13:40.960><c> we</c>
+
+00:13:41.010 --> 00:13:41.020 align:start position:0%
+and so that's the basic idea now we
+ 
+
+00:13:41.020 --> 00:13:42.510 align:start position:0%
+and so that's the basic idea now we
+<c.colorCCCCCC>don't<00:13:41.230><c> have</c><00:13:41.380><c> time</c><00:13:41.560><c> to</c><00:13:41.740><c> explain</c><00:13:41.800><c> this</c><00:13:42.280><c> in</c></c>
+
+00:13:42.510 --> 00:13:42.520 align:start position:0%
+<c.colorCCCCCC>don't have time to explain this in
+ </c>
+
+00:13:42.520 --> 00:13:45.960 align:start position:0%
+<c.colorCCCCCC>don't have time to explain this in
+detail<00:13:42.550><c> so</c><00:13:43.380><c> you</c><00:13:44.380><c> could</c><00:13:44.830><c> read</c><00:13:45.400><c> but</c><00:13:45.640><c> you</c><00:13:45.790><c> will</c></c>
+
+00:13:45.960 --> 00:13:45.970 align:start position:0%
+detail so you could read but you will
+ 
+
+00:13:45.970 --> 00:13:48.240 align:start position:0%
+detail so you could read but you will
+read<00:13:46.120><c> this</c><00:13:46.420><c> cited</c><00:13:46.960><c> reference</c><00:13:47.350><c> here</c><00:13:47.590><c> to</c><00:13:48.070><c> know</c>
+
+00:13:48.240 --> 00:13:48.250 align:start position:0%
+read this cited reference here to know
+ 
+
+00:13:48.250 --> 00:13:49.950 align:start position:0%
+read this cited reference here to know
+more<c.colorCCCCCC><00:13:48.280><c> about</c></c><c.colorE5E5E5><00:13:48.490><c> this</c><00:13:48.880><c> measure</c><00:13:49.150><c> it's</c><00:13:49.450><c> very</c></c>
+
+00:13:49.950 --> 00:13:49.960 align:start position:0%
+more<c.colorCCCCCC> about</c><c.colorE5E5E5> this measure it's very
+ </c>
+
+00:13:49.960 --> 00:13:53.010 align:start position:0%
+more<c.colorCCCCCC> about</c><c.colorE5E5E5> this measure it's very
+frequently<00:13:50.800><c> used</c><00:13:51.400><c> measure</c><00:13:51.820><c> as</c><00:13:52.360><c> many</c></c>
+
+00:13:53.010 --> 00:13:53.020 align:start position:0%
+frequently used measure as many
+ 
+
+00:13:53.020 --> 00:13:57.330 align:start position:0%
+frequently used measure as many
+applications<00:13:54.900><c> so</c><00:13:55.900><c> next</c><00:13:56.380><c> let's</c><00:13:56.860><c> look</c><00:13:56.980><c> at</c><00:13:57.160><c> some</c>
+
+00:13:57.330 --> 00:13:57.340 align:start position:0%
+applications so next let's look at some
+ 
+
+00:13:57.340 --> 00:13:59.160 align:start position:0%
+applications so next let's look at some
+<c.colorCCCCCC>sample<00:13:57.550><c> results</c></c><c.colorE5E5E5><00:13:58.030><c> generated</c><00:13:58.750><c> by</c><00:13:59.110><c> this</c></c>
+
+00:13:59.160 --> 00:13:59.170 align:start position:0%
+<c.colorCCCCCC>sample results</c><c.colorE5E5E5> generated by this
+ </c>
+
+00:13:59.170 --> 00:14:01.260 align:start position:0%
+<c.colorCCCCCC>sample results</c><c.colorE5E5E5> generated by this
+approach<00:13:59.830><c> and</c><00:14:00.190><c> here</c><00:14:00.520><c> the</c><00:14:00.640><c> data</c><00:14:00.850><c> is</c><00:14:01.000><c> in</c><00:14:01.210><c> New</c></c>
+
+00:14:01.260 --> 00:14:01.270 align:start position:0%
+approach and here the data is in<c.colorE5E5E5> New
+ </c>
+
+00:14:01.270 --> 00:14:03.270 align:start position:0%
+approach and here the data is in<c.colorE5E5E5> New
+York<00:14:01.420><c> Times</c><00:14:01.600><c> and</c><00:14:02.020><c> in</c><00:14:02.470><c> the</c><00:14:02.710><c> time</c><00:14:02.860><c> period</c><00:14:02.890><c> of</c></c>
+
+00:14:03.270 --> 00:14:03.280 align:start position:0%
+<c.colorE5E5E5>York Times and in the time period of
+ </c>
+
+00:14:03.280 --> 00:14:09.060 align:start position:0%
+<c.colorE5E5E5>York Times and in the time period of
+june<00:14:03.520><c> 2003</c></c><c.colorCCCCCC><00:14:04.420><c> december</c></c><c.colorE5E5E5><00:14:04.990><c> of</c><00:14:06.000><c> 2011</c><00:14:07.000><c> and</c><00:14:07.560><c> here</c><00:14:08.560><c> the</c></c>
+
+00:14:09.060 --> 00:14:09.070 align:start position:0%
+june 2003<c.colorCCCCCC> december</c><c.colorE5E5E5> of 2011 and here the
+ </c>
+
+00:14:09.070 --> 00:14:11.610 align:start position:0%
+june 2003<c.colorCCCCCC> december</c><c.colorE5E5E5> of 2011 and here the
+time</c><c.colorCCCCCC><00:14:09.310><c> series</c><00:14:09.730><c> we</c><00:14:10.090><c> use</c><00:14:10.300><c> the</c><00:14:10.570><c> is</c><00:14:10.720><c> stock</c><00:14:11.320><c> prices</c></c>
+
+00:14:11.610 --> 00:14:11.620 align:start position:0%
+time<c.colorCCCCCC> series we use the is stock prices
+ </c>
+
+00:14:11.620 --> 00:14:13.890 align:start position:0%
+time<c.colorCCCCCC> series we use the is stock prices
+of<00:14:12.010><c> two</c><00:14:12.190><c> companies</c><00:14:12.640><c> american</c><00:14:13.360><c> airlines</c><00:14:13.630><c> and</c></c>
+
+00:14:13.890 --> 00:14:13.900 align:start position:0%
+of two companies american<c.colorCCCCCC> airlines and
+ </c>
+
+00:14:13.900 --> 00:14:17.340 align:start position:0%
+of two companies american<c.colorCCCCCC> airlines and
+apple<00:14:14.350><c> and</c><00:14:14.530><c> ago</c><00:14:15.310><c> he</c></c><c.colorE5E5E5><00:14:15.670><c> is</c><00:14:15.730><c> to</c><00:14:16.000><c> see</c><00:14:16.180><c> if</c><00:14:16.390><c> we</c><00:14:17.080><c> inject</c></c>
+
+00:14:17.340 --> 00:14:17.350 align:start position:0%
+apple and ago he<c.colorE5E5E5> is to see if we inject
+ </c>
+
+00:14:17.350 --> 00:14:19.980 align:start position:0%
+apple and ago he<c.colorE5E5E5> is to see if we inject
+the<00:14:17.770><c> some</c><00:14:17.980><c> time</c><00:14:18.370><c> series</c><00:14:18.730><c> bias</c><00:14:19.150><c> or</c><00:14:19.480><c> time</c><00:14:19.660><c> series</c></c>
+
+00:14:19.980 --> 00:14:19.990 align:start position:0%
+the some time series bias or time series
+ 
+
+00:14:19.990 --> 00:14:22.800 align:start position:0%
+the some time series bias or time series
+context<00:14:20.500><c> whether</c><00:14:21.340><c> we</c><00:14:21.640><c> can</c><c.colorCCCCCC><00:14:21.940><c> actually</c><00:14:22.630><c> get</c></c>
+
+00:14:22.800 --> 00:14:22.810 align:start position:0%
+context whether we can<c.colorCCCCCC> actually get
+ </c>
+
+00:14:22.810 --> 00:14:25.320 align:start position:0%
+context whether we can<c.colorCCCCCC> actually get
+topics<00:14:23.290><c> that</c><00:14:23.470><c> are</c><00:14:23.500><c> wires</c><00:14:24.280><c> towards</c><00:14:25.000><c> these</c><00:14:25.120><c> time</c></c>
+
+00:14:25.320 --> 00:14:25.330 align:start position:0%
+topics that are wires towards these time
+ 
+
+00:14:25.330 --> 00:14:28.140 align:start position:0%
+topics that are wires towards these time
+series<00:14:25.950><c> imagine</c><00:14:26.950><c> if</c><00:14:27.040><c> we</c><00:14:27.160><c> don't</c><00:14:27.340><c> use</c><00:14:27.550><c> any</c><00:14:27.790><c> input</c>
+
+00:14:28.140 --> 00:14:28.150 align:start position:0%
+series imagine if we don't use any input
+ 
+
+00:14:28.150 --> 00:14:30.180 align:start position:0%
+series imagine if we don't use any input
+<c.colorE5E5E5>we<00:14:28.480><c> don't</c><00:14:28.600><c> use</c><00:14:28.870><c> any</c><00:14:29.140><c> contacts</c><00:14:29.620><c> then</c><00:14:30.040><c> the</c></c>
+
+00:14:30.180 --> 00:14:30.190 align:start position:0%
+<c.colorE5E5E5>we don't use any contacts then the
+ </c>
+
+00:14:30.190 --> 00:14:32.730 align:start position:0%
+<c.colorE5E5E5>we don't use any contacts then the
+topics<00:14:30.550><c> from</c><00:14:31.360><c> New</c><00:14:31.540><c> York</c><00:14:31.690><c> Times</c><00:14:31.870><c> discover</c></c><c.colorCCCCCC><00:14:32.620><c> the</c></c>
+
+00:14:32.730 --> 00:14:32.740 align:start position:0%
+topics from New York Times discover<c.colorCCCCCC> the
+ </c>
+
+00:14:32.740 --> 00:14:35.670 align:start position:0%
+topics from New York Times discover<c.colorCCCCCC> the
+by<00:14:32.830><c> PSA</c><00:14:33.490><c> would</c><00:14:34.210><c> be</c><00:14:34.450><c> you</c><00:14:35.170><c> know</c><00:14:35.290><c> just</c><00:14:35.470><c> general</c></c>
+
+00:14:35.670 --> 00:14:35.680 align:start position:0%
+by PSA would be you know<c.colorCCCCCC> just general
+ </c>
+
+00:14:35.680 --> 00:14:38.070 align:start position:0%
+by PSA would be you know<c.colorCCCCCC> just general
+topics<00:14:36.220><c> that</c><00:14:36.430><c> people</c><00:14:36.460><c> talk</c><00:14:37.180><c> about</c><00:14:37.210><c> in</c><00:14:37.600><c> news</c><00:14:37.840><c> I</c></c>
+
+00:14:38.070 --> 00:14:38.080 align:start position:0%
+topics that people talk about in news I
+ 
+
+00:14:38.080 --> 00:14:41.910 align:start position:0%
+topics that people talk about in news I
+lose<00:14:38.530><c> major</c><00:14:39.160><c> topics</c><00:14:39.580><c> in</c><00:14:39.910><c> the</c><00:14:40.030><c> newest</c><00:14:40.300><c> band</c><00:14:40.920><c> but</c>
+
+00:14:41.910 --> 00:14:41.920 align:start position:0%
+lose major topics in the newest band but
+ 
+
+00:14:41.920 --> 00:14:44.810 align:start position:0%
+lose major topics in the newest band but
+here<00:14:42.100><c> you</c><00:14:42.250><c> see</c><00:14:42.280><c> these</c><00:14:42.760><c> topics</c><00:14:43.270><c> are</c><00:14:43.450><c> indeed</c>
+
+00:14:44.810 --> 00:14:44.820 align:start position:0%
+here you see these topics are indeed
+ 
+
+00:14:44.820 --> 00:14:47.880 align:start position:0%
+here you see these topics are indeed
+biased<00:14:45.820><c> toward</c><00:14:46.330><c> each</c><00:14:46.420><c> time</c><00:14:46.750><c> series</c><00:14:47.110><c> in</c>
+
+00:14:47.880 --> 00:14:47.890 align:start position:0%
+biased toward each time series in
+ 
+
+00:14:47.890 --> 00:14:49.050 align:start position:0%
+biased toward each time series in
+<c.colorE5E5E5>particular<00:14:48.040><c> if</c><00:14:48.370><c> you</c><00:14:48.460><c> look</c><00:14:48.610><c> at</c><00:14:48.700><c> the</c></c><c.colorCCCCCC><00:14:48.730><c> underlying</c></c>
+
+00:14:49.050 --> 00:14:49.060 align:start position:0%
+<c.colorE5E5E5>particular if you look at the</c><c.colorCCCCCC> underlying
+ </c>
+
+00:14:49.060 --> 00:14:51.780 align:start position:0%
+<c.colorE5E5E5>particular if you look at the</c><c.colorCCCCCC> underlying
+the<00:14:49.570><c> words</c><00:14:49.840><c> here</c><00:14:50.320><c> in</c><00:14:50.890><c> the</c><00:14:51.190><c> American</c><00:14:51.340><c> Airlines</c></c>
+
+00:14:51.780 --> 00:14:51.790 align:start position:0%
+the words here in the American Airlines
+ 
+
+00:14:51.790 --> 00:14:56.120 align:start position:0%
+the words here in the American Airlines
+<c.colorE5E5E5>without<00:14:52.660><c> and</c><00:14:52.960><c> you</c><00:14:53.140><c> see</c><00:14:53.350><c> Airlines</c><00:14:53.700><c> Airport</c><00:14:54.700><c> air</c></c>
+
+00:14:56.120 --> 00:14:56.130 align:start position:0%
+<c.colorE5E5E5>without and you see Airlines Airport air
+ </c>
+
+00:14:56.130 --> 00:14:59.160 align:start position:0%
+<c.colorE5E5E5>without and you see Airlines Airport air
+United<00:14:57.130><c> traded</c><00:14:57.580><c> terrorism</c><00:14:58.090><c> etc</c><00:14:58.660><c> so</c><00:14:59.140><c> it</c></c>
+
+00:14:59.160 --> 00:14:59.170 align:start position:0%
+United traded terrorism etc so it
+ 
+
+00:14:59.170 --> 00:15:02.160 align:start position:0%
+United traded terrorism etc so it
+<c.colorE5E5E5>clearly<00:15:00.130><c> has</c><00:15:00.310><c> topics</c><00:15:01.060><c> and</c><00:15:01.270><c> that</c><00:15:01.720><c> are</c><00:15:01.930><c> more</c></c>
+
+00:15:02.160 --> 00:15:02.170 align:start position:0%
+<c.colorE5E5E5>clearly has topics and that are more
+ </c>
+
+00:15:02.170 --> 00:15:04.550 align:start position:0%
+<c.colorE5E5E5>clearly has topics and that are more
+correlated<00:15:02.740><c> with</c><00:15:02.950><c> the</c><00:15:03.220><c> external</c><00:15:03.670><c> time</c><00:15:04.060><c> series</c></c>
+
+00:15:04.550 --> 00:15:04.560 align:start position:0%
+correlated with<c.colorE5E5E5> the external time series
+ </c>
+
+00:15:04.560 --> 00:15:07.740 align:start position:0%
+correlated with<c.colorE5E5E5> the external time series
+on<00:15:05.560><c> the</c><00:15:05.710><c> right</c><00:15:05.920><c> side</c><00:15:06.220><c> you</c></c><c.colorCCCCCC><00:15:06.250><c> see</c><00:15:06.640><c> some</c><00:15:07.450><c> of</c><00:15:07.480><c> the</c></c>
+
+00:15:07.740 --> 00:15:07.750 align:start position:0%
+on the right side you<c.colorCCCCCC> see some of the
+ </c>
+
+00:15:07.750 --> 00:15:09.870 align:start position:0%
+on the right side you<c.colorCCCCCC> see some of the
+topics<00:15:07.930><c> are</c><00:15:08.350><c> clearly</c><00:15:08.710><c> related</c><00:15:09.100><c> to</c><00:15:09.430><c> Apple</c></c>
+
+00:15:09.870 --> 00:15:09.880 align:start position:0%
+topics are clearly related to<c.colorCCCCCC> Apple
+ </c>
+
+00:15:09.880 --> 00:15:13.860 align:start position:0%
+topics are clearly related to<c.colorCCCCCC> Apple
+right<00:15:10.620><c> so</c><00:15:11.620><c> you</c><00:15:12.340><c> can</c><00:15:12.490><c> see</c><00:15:12.610><c> computer</c><00:15:13.120><c> technology</c></c>
+
+00:15:13.860 --> 00:15:13.870 align:start position:0%
+right so you can see computer technology
+ 
+
+00:15:13.870 --> 00:15:17.190 align:start position:0%
+right so you can see computer technology
+software<00:15:14.110><c> internet</c><00:15:14.980><c> con</c><00:15:15.580><c> web</c><00:15:15.970><c> etc</c><00:15:16.210><c> so</c><00:15:17.170><c> that</c>
+
+00:15:17.190 --> 00:15:17.200 align:start position:0%
+software internet con web etc so that
+ 
+
+00:15:17.200 --> 00:15:19.920 align:start position:0%
+software internet con web etc so that
+<c.colorE5E5E5>just<00:15:17.740><c> means</c><00:15:17.980><c> the</c><00:15:18.340><c> time</c><00:15:18.610><c> series</c><00:15:19.060><c> has</c></c>
+
+00:15:19.920 --> 00:15:19.930 align:start position:0%
+<c.colorE5E5E5>just means the time series has
+ </c>
+
+00:15:19.930 --> 00:15:21.990 align:start position:0%
+<c.colorE5E5E5>just means the time series has
+effectively<00:15:20.560><c> served</c><00:15:20.920><c> as</c><00:15:21.190><c> a</c><00:15:21.220><c> contact</c><00:15:21.790><c> to</c></c>
+
+00:15:21.990 --> 00:15:22.000 align:start position:0%
+effectively served as a contact<c.colorE5E5E5> to
+ </c>
+
+00:15:22.000 --> 00:15:24.060 align:start position:0%
+effectively served as a contact<c.colorE5E5E5> to</c>
+<c.colorCCCCCC>Tobias<00:15:22.390><c> the</c><00:15:22.840><c> discovery</c><00:15:23.320><c> of</c><00:15:23.380><c> topics</c><00:15:23.920><c> from</c></c>
+
+00:15:24.060 --> 00:15:24.070 align:start position:0%
+<c.colorCCCCCC>Tobias the discovery of topics from
+ </c>
+
+00:15:24.070 --> 00:15:26.880 align:start position:0%
+<c.colorCCCCCC>Tobias the discovery of topics from
+another<00:15:24.880><c> perspective</c><00:15:25.180><c> these</c></c><c.colorE5E5E5><00:15:25.960><c> results</c><00:15:26.590><c> help</c></c>
+
+00:15:26.880 --> 00:15:26.890 align:start position:0%
+another perspective these<c.colorE5E5E5> results help
+ </c>
+
+00:15:26.890 --> 00:15:30.180 align:start position:0%
+another perspective these<c.colorE5E5E5> results help
+us<00:15:27.070><c> what</c><00:15:27.790><c> people</c><00:15:28.030><c> have</c><00:15:28.150><c> talked</c><00:15:28.390><c> about</c><00:15:29.040><c> in</c><00:15:30.040><c> each</c></c>
+
+00:15:30.180 --> 00:15:30.190 align:start position:0%
+us what people have talked about in each
+ 
+
+00:15:30.190 --> 00:15:30.980 align:start position:0%
+us what people have talked about in each
+case
+
+00:15:30.980 --> 00:15:30.990 align:start position:0%
+case
+ 
+
+00:15:30.990 --> 00:15:34.560 align:start position:0%
+case
+so<00:15:31.990><c> in</c><00:15:32.320><c> the</c><00:15:32.500><c> or</c><00:15:33.279><c> not</c><c.colorE5E5E5><00:15:33.790><c> just</c><00:15:34.029><c> the</c><00:15:34.149><c> people</c><00:15:34.269><c> what</c></c>
+
+00:15:34.560 --> 00:15:34.570 align:start position:0%
+so in the or not<c.colorE5E5E5> just the people what
+ </c>
+
+00:15:34.570 --> 00:15:37.170 align:start position:0%
+so in the or not<c.colorE5E5E5> just the people what
+people<00:15:34.690><c> have</c><00:15:34.899><c> talked</c><00:15:35.140><c> about</c><00:15:35.410><c> but</c><00:15:36.180><c> what</c></c>
+
+00:15:37.170 --> 00:15:37.180 align:start position:0%
+people have talked<c.colorE5E5E5> about but what
+ </c>
+
+00:15:37.180 --> 00:15:39.120 align:start position:0%
+people have talked<c.colorE5E5E5> about but what
+awesome<00:15:37.390><c> topics</c></c><c.colorCCCCCC><00:15:37.930><c> then</c><00:15:38.110><c> might</c><00:15:38.410><c> be</c><00:15:38.649><c> correlated</c></c>
+
+00:15:39.120 --> 00:15:39.130 align:start position:0%
+awesome topics<c.colorCCCCCC> then might be correlated
+ </c>
+
+00:15:39.130 --> 00:15:41.730 align:start position:0%
+awesome topics<c.colorCCCCCC> then might be correlated
+with<00:15:39.399><c> their</c><00:15:39.970><c> stock</c><00:15:40.269><c> prices</c><00:15:40.600><c> and</c><00:15:41.050><c> so</c><00:15:41.440><c> these</c></c>
+
+00:15:41.730 --> 00:15:41.740 align:start position:0%
+with their stock prices and so these
+ 
+
+00:15:41.740 --> 00:15:43.620 align:start position:0%
+with their stock prices and so these
+topics<00:15:42.250><c> can</c><c.colorE5E5E5><00:15:42.339><c> serve</c><00:15:42.610><c> as</c><00:15:42.790><c> starting</c><00:15:43.180><c> point</c><00:15:43.360><c> for</c></c>
+
+00:15:43.620 --> 00:15:43.630 align:start position:0%
+topics can<c.colorE5E5E5> serve as starting point for
+ </c>
+
+00:15:43.630 --> 00:15:46.050 align:start position:0%
+topics can<c.colorE5E5E5> serve as starting point for
+people<00:15:43.839><c> to</c><00:15:44.170><c> further</c><00:15:44.380><c> look</c><00:15:44.589><c> into</c><00:15:44.740><c> the</c><00:15:45.700><c> issues</c></c>
+
+00:15:46.050 --> 00:15:46.060 align:start position:0%
+people<c.colorE5E5E5> to further look into the issues
+ </c>
+
+00:15:46.060 --> 00:15:47.910 align:start position:0%
+people<c.colorE5E5E5> to further look into the issues
+and<00:15:46.300><c> you'll</c><00:15:46.930><c> find</c><00:15:47.140><c> the</c><00:15:47.290><c> true</c><00:15:47.500><c> causal</c></c>
+
+00:15:47.910 --> 00:15:47.920 align:start position:0%
+and you'll<c.colorE5E5E5> find the true causal
+ </c>
+
+00:15:47.920 --> 00:15:52.139 align:start position:0%
+and you'll<c.colorE5E5E5> find the true causal
+relations<00:15:50.279><c> here</c><00:15:51.279><c> are</c><00:15:51.370><c> some</c><00:15:51.490><c> ugly</c><00:15:51.670><c> results</c></c>
+
+00:15:52.139 --> 00:15:52.149 align:start position:0%
+relations here are some ugly results
+ 
+
+00:15:52.149 --> 00:15:56.300 align:start position:0%
+relations here are some ugly results
+from<00:15:52.860><c> analyzing</c><00:15:53.860><c> presidential</c><00:15:54.779><c> election</c><00:15:55.779><c> and</c>
+
+00:15:56.300 --> 00:15:56.310 align:start position:0%
+from analyzing presidential election and
+ 
+
+00:15:56.310 --> 00:16:00.240 align:start position:0%
+from analyzing presidential election and
+<c.colorE5E5E5>time<00:15:57.310><c> series</c><00:15:58.140><c> the</c><00:15:59.140><c> time</c><00:15:59.620><c> series</c><00:15:59.829><c> there</c><00:16:00.130><c> are</c></c>
+
+00:16:00.240 --> 00:16:00.250 align:start position:0%
+<c.colorE5E5E5>time series the time series there are
+ </c>
+
+00:16:00.250 --> 00:16:02.639 align:start position:0%
+<c.colorE5E5E5>time series the time series there are
+here<00:16:00.459><c> is</c><00:16:00.700><c> from</c><00:16:01.089><c> Iowa</c><00:16:01.540><c> electronic</c><00:16:02.050><c> market</c><00:16:02.470><c> and</c></c>
+
+00:16:02.639 --> 00:16:02.649 align:start position:0%
+here is from Iowa<c.colorE5E5E5> electronic market and
+ </c>
+
+00:16:02.649 --> 00:16:05.370 align:start position:0%
+here is from Iowa<c.colorE5E5E5> electronic market and
+that's<00:16:03.010><c> a</c><00:16:03.130><c> prediction</c><00:16:03.490><c> market</c><00:16:03.910><c> and</c><00:16:04.140><c> the</c><00:16:05.140><c> data</c></c>
+
+00:16:05.370 --> 00:16:05.380 align:start position:0%
+that's a prediction market and the data
+ 
+
+00:16:05.380 --> 00:16:07.920 align:start position:0%
+that's a prediction market and the data
+is<00:16:05.649><c> the</c><00:16:05.740><c> same</c><00:16:05.920><c> New</c><00:16:06.160><c> York</c><00:16:06.339><c> Times</c><00:16:06.519><c> from</c><00:16:07.029><c> the</c><00:16:07.300><c> may</c>
+
+00:16:07.920 --> 00:16:07.930 align:start position:0%
+is the same New York Times from the may
+ 
+
+00:16:07.930 --> 00:16:11.040 align:start position:0%
+is the same New York Times from the may
+2002<00:16:08.800><c> october</c><00:16:09.310><c> two</c><00:16:09.430><c> thousand</c><00:16:09.850><c> ads</c><00:16:10.089><c> for</c><00:16:10.660><c> two</c>
+
+00:16:11.040 --> 00:16:11.050 align:start position:0%
+2002 october two thousand ads for two
+ 
+
+00:16:11.050 --> 00:16:14.000 align:start position:0%
+2002 october two thousand ads for two
+thousand<00:16:11.500><c> presidential</c><00:16:12.370><c> campaign</c><00:16:12.730><c> election</c>
+
+00:16:14.000 --> 00:16:14.010 align:start position:0%
+thousand presidential campaign election
+ 
+
+00:16:14.010 --> 00:16:17.430 align:start position:0%
+thousand presidential campaign election
+now<00:16:15.029><c> what</c><c.colorE5E5E5><00:16:16.029><c> you</c><00:16:16.180><c> see</c><00:16:16.329><c> here</c></c><c.colorCCCCCC><00:16:16.510><c> are</c><00:16:16.810><c> the</c><00:16:16.930><c> top</c><00:16:17.110><c> three</c></c>
+
+00:16:17.430 --> 00:16:17.440 align:start position:0%
+now what<c.colorE5E5E5> you see here</c><c.colorCCCCCC> are the top three
+ </c>
+
+00:16:17.440 --> 00:16:19.769 align:start position:0%
+now what<c.colorE5E5E5> you see here</c><c.colorCCCCCC> are the top three
+words<00:16:17.709><c> in</c><00:16:18.100><c> significant</c><00:16:18.910><c> topics</c><00:16:19.300><c> from</c></c><c.colorE5E5E5><00:16:19.600><c> New</c></c>
+
+00:16:19.769 --> 00:16:19.779 align:start position:0%
+words in significant topics from<c.colorE5E5E5> New
+ </c>
+
+00:16:19.779 --> 00:16:22.769 align:start position:0%
+words in significant topics from<c.colorE5E5E5> New
+York<00:16:19.930><c> Times</c><00:16:20.079><c> and</c><00:16:20.850><c> we</c><00:16:21.850><c> look</c><00:16:22.060><c> at</c><00:16:22.180><c> these</c><00:16:22.329><c> topics</c></c>
+
+00:16:22.769 --> 00:16:22.779 align:start position:0%
+<c.colorE5E5E5>York Times and we look at these topics
+ </c>
+
+00:16:22.779 --> 00:16:24.660 align:start position:0%
+<c.colorE5E5E5>York Times and we look at these topics
+and<00:16:23.019><c> they</c><00:16:23.140><c> are</c><00:16:23.230><c> indeed</c><00:16:23.500><c> are</c><00:16:23.740><c> quite</c><00:16:23.920><c> related</c><00:16:24.250><c> to</c></c>
+
+00:16:24.660 --> 00:16:24.670 align:start position:0%
+and they are indeed are quite related to
+ 
+
+00:16:24.670 --> 00:16:28.740 align:start position:0%
+and they are indeed are quite related to
+the<00:16:25.029><c> campaign</c><00:16:25.950><c> actually</c><c.colorE5E5E5><00:16:27.000><c> hear</c><00:16:28.000><c> the</c><00:16:28.329><c> issues</c></c>
+
+00:16:28.740 --> 00:16:28.750 align:start position:0%
+the campaign actually<c.colorE5E5E5> hear the issues
+ </c>
+
+00:16:28.750 --> 00:16:32.069 align:start position:0%
+the campaign actually<c.colorE5E5E5> hear the issues
+are<00:16:29.079><c> very</c><00:16:29.350><c> much</c><00:16:29.829><c> related</c><00:16:29.890><c> to</c><00:16:30.640><c> the</c><00:16:31.079><c> important</c></c>
+
+00:16:32.069 --> 00:16:32.079 align:start position:0%
+are very<c.colorE5E5E5> much related to the important
+ </c>
+
+00:16:32.079 --> 00:16:35.759 align:start position:0%
+are very<c.colorE5E5E5> much related to the important
+issues<00:16:32.470><c> of</c><00:16:32.649><c> this</c><00:16:33.339><c> presidential</c><00:16:34.240><c> election</c><00:16:34.899><c> now</c></c>
+
+00:16:35.759 --> 00:16:35.769 align:start position:0%
+issues of this presidential election now
+ 
+
+00:16:35.769 --> 00:16:38.370 align:start position:0%
+issues of this presidential election now
+here<c.colorCCCCCC><00:16:36.130><c> I</c><00:16:36.160><c> should</c><00:16:36.459><c> mention</c><00:16:36.670><c> that</c><00:16:36.880><c> the</c><00:16:37.449><c> the</c><00:16:38.050><c> text</c></c>
+
+00:16:38.370 --> 00:16:38.380 align:start position:0%
+here<c.colorCCCCCC> I should mention that the the text
+ </c>
+
+00:16:38.380 --> 00:16:40.590 align:start position:0%
+here<c.colorCCCCCC> I should mention that the the text
+data<00:16:38.560><c> has</c><00:16:38.740><c> been</c></c><c.colorE5E5E5><00:16:38.769><c> filtered</c><00:16:39.370><c> by</c><00:16:39.519><c> using</c><00:16:39.910><c> only</c><00:16:40.300><c> the</c></c>
+
+00:16:40.590 --> 00:16:40.600 align:start position:0%
+data has been<c.colorE5E5E5> filtered by using only the
+ </c>
+
+00:16:40.600 --> 00:16:42.389 align:start position:0%
+data has been<c.colorE5E5E5> filtered by using only the
+articles<00:16:40.990><c> that</c><00:16:41.170><c> mention</c><00:16:41.380><c> these</c><00:16:41.800><c> candidate</c></c>
+
+00:16:42.389 --> 00:16:42.399 align:start position:0%
+articles that mention these candidate
+ 
+
+00:16:42.399 --> 00:16:49.050 align:start position:0%
+articles that mention these candidate
+names<00:16:42.699><c> and</c><00:16:44.970><c> so</c><00:16:45.970><c> it's</c><00:16:46.930><c> a</c><00:16:47.079><c> subset</c><00:16:47.440><c> of</c><00:16:47.470><c> these</c><00:16:48.060><c> news</c>
+
+00:16:49.050 --> 00:16:49.060 align:start position:0%
+names and so it's a subset of these news
+ 
+
+00:16:49.060 --> 00:16:51.000 align:start position:0%
+names and so it's a subset of these news
+articles<00:16:49.510><c> very</c><00:16:50.199><c> different</c><00:16:50.620><c> from</c><00:16:50.800><c> the</c>
+
+00:16:51.000 --> 00:16:51.010 align:start position:0%
+articles very different from the
+ 
+
+00:16:51.010 --> 00:16:54.569 align:start position:0%
+articles very different from the
+previous<00:16:51.130><c> experiment</c><00:16:52.230><c> but</c><00:16:53.230><c> the</c><00:16:54.010><c> results</c><00:16:54.430><c> here</c>
+
+00:16:54.569 --> 00:16:54.579 align:start position:0%
+previous experiment but the results here
+ 
+
+00:16:54.579 --> 00:16:56.310 align:start position:0%
+previous experiment but the results here
+clearly<00:16:54.880><c> show</c><00:16:55.120><c> that</c><00:16:55.149><c> the</c><00:16:55.510><c> approach</c><00:16:55.899><c> can</c>
+
+00:16:56.310 --> 00:16:56.320 align:start position:0%
+clearly show that the approach can
+ 
+
+00:16:56.320 --> 00:16:59.970 align:start position:0%
+clearly show that the approach can
+uncover<00:16:56.769><c> some</c><00:16:57.660><c> important</c><00:16:58.660><c> issues</c><00:16:58.779><c> in</c><00:16:59.680><c> that</c>
+
+00:16:59.970 --> 00:16:59.980 align:start position:0%
+uncover some important issues in that
+ 
+
+00:16:59.980 --> 00:17:03.480 align:start position:0%
+uncover some important issues in that
+presidential<00:17:00.660><c> election</c><00:17:01.660><c> so</c><00:17:02.230><c> tax</c><00:17:02.769><c> cut</c><00:17:03.100><c> our</c>
+
+00:17:03.480 --> 00:17:03.490 align:start position:0%
+presidential election so tax cut our
+ 
+
+00:17:03.490 --> 00:17:06.539 align:start position:0%
+presidential election so tax cut our
+energy<00:17:04.299><c> abortion</c><00:17:05.169><c> and</c><c.colorCCCCCC><00:17:05.380><c> company</c></c><c.colorE5E5E5><00:17:05.919><c> are</c><00:17:06.160><c> all</c></c>
+
+00:17:06.539 --> 00:17:06.549 align:start position:0%
+energy abortion and<c.colorCCCCCC> company</c><c.colorE5E5E5> are all
+ </c>
+
+00:17:06.549 --> 00:17:10.280 align:start position:0%
+energy abortion and<c.colorCCCCCC> company</c><c.colorE5E5E5> are all
+known<00:17:06.910><c> to</c><00:17:07.750><c> be</c><00:17:07.900><c> important</c><00:17:08.530><c> issues</c><00:17:09.010><c> in</c><00:17:09.459><c> that</c></c>
+
+00:17:10.280 --> 00:17:10.290 align:start position:0%
+known to be important issues in that
+ 
+
+00:17:10.290 --> 00:17:12.720 align:start position:0%
+known to be important issues in that
+presidential<00:17:11.290><c> election</c><00:17:12.040><c> and</c><00:17:12.280><c> I</c><00:17:12.579><c> was</c>
+
+00:17:12.720 --> 00:17:12.730 align:start position:0%
+presidential election and I was
+ 
+
+00:17:12.730 --> 00:17:15.120 align:start position:0%
+presidential election and I was
+supported<00:17:13.209><c> by</c><00:17:13.240><c> some</c><00:17:13.419><c> literature</c><00:17:14.230><c> in</c>
+
+00:17:15.120 --> 00:17:15.130 align:start position:0%
+supported by some literature in
+ 
+
+00:17:15.130 --> 00:17:19.079 align:start position:0%
+supported by some literature in
+political<00:17:15.699><c> science</c><c.colorE5E5E5><00:17:15.880><c> and</c><00:17:16.860><c> also</c><00:17:17.860><c> I</c><00:17:18.520><c> was</c></c>
+
+00:17:19.079 --> 00:17:19.089 align:start position:0%
+political science<c.colorE5E5E5> and also I was
+ </c>
+
+00:17:19.089 --> 00:17:22.020 align:start position:0%
+political science<c.colorE5E5E5> and also I was
+discussed<00:17:19.510><c> in</c><00:17:19.720><c> Wikipedia</c><00:17:20.549><c> right</c><00:17:21.549><c> so</c></c>
+
+00:17:22.020 --> 00:17:22.030 align:start position:0%
+discussed in Wikipedia right so
+ 
+
+00:17:22.030 --> 00:17:24.299 align:start position:0%
+discussed in Wikipedia right so
+<c.colorE5E5E5>basically<00:17:22.390><c> the</c><00:17:22.600><c> results</c><00:17:23.049><c> show</c><00:17:23.260><c> that</c><00:17:23.309><c> the</c></c>
+
+00:17:24.299 --> 00:17:24.309 align:start position:0%
+<c.colorE5E5E5>basically the results show that the
+ </c>
+
+00:17:24.309 --> 00:17:26.750 align:start position:0%
+<c.colorE5E5E5>basically the results show that the
+approach<00:17:24.730><c> can</c><00:17:25.150><c> effectively</c><00:17:26.049><c> discover</c></c>
+
+00:17:26.750 --> 00:17:26.760 align:start position:0%
+approach can effectively discover
+ 
+
+00:17:26.760 --> 00:17:30.570 align:start position:0%
+approach can effectively discover
+possibly<00:17:27.760><c> causal</c><00:17:28.360><c> topics</c><00:17:28.990><c> based</c><00:17:29.950><c> on</c><c.colorCCCCCC><00:17:30.220><c> the</c><00:17:30.400><c> time</c></c>
+
+00:17:30.570 --> 00:17:30.580 align:start position:0%
+possibly causal topics based on<c.colorCCCCCC> the time
+ </c>
+
+00:17:30.580 --> 00:17:34.419 align:start position:0%
+possibly causal topics based on<c.colorCCCCCC> the time</c>
+<c.colorCCCCCC>series<00:17:31.030><c> data</c></c>
+
+00:17:34.419 --> 00:17:34.429 align:start position:0%
+ 
+ 
+
+00:17:34.429 --> 00:17:37.460 align:start position:0%
+ 
+so<00:17:35.429><c> there</c><c.colorE5E5E5><00:17:36.059><c> are</c><00:17:36.179><c> two</c><00:17:36.330><c> suggested</c><00:17:36.809><c> readings</c><00:17:37.230><c> here</c></c>
+
+00:17:37.460 --> 00:17:37.470 align:start position:0%
+so there<c.colorE5E5E5> are two suggested readings here
+ </c>
+
+00:17:37.470 --> 00:17:41.389 align:start position:0%
+so there<c.colorE5E5E5> are two suggested readings here
+one<00:17:37.799><c> is</c><00:17:38.240><c> the</c><00:17:39.240><c> paper</c><00:17:39.779><c> about</c><00:17:40.230><c> this</c><00:17:40.710><c> iterative</c></c>
+
+00:17:41.389 --> 00:17:41.399 align:start position:0%
+one<c.colorE5E5E5> is the paper about this iterative
+ </c>
+
+00:17:41.399 --> 00:17:43.870 align:start position:0%
+one<c.colorE5E5E5> is the paper about this iterative
+topic<00:17:42.330><c> modeling</c></c><c.colorCCCCCC><00:17:42.659><c> with</c><00:17:42.840><c> time</c><00:17:43.049><c> series</c><00:17:43.380><c> feedback</c></c>
+
+00:17:43.870 --> 00:17:43.880 align:start position:0%
+topic modeling<c.colorCCCCCC> with time series feedback
+ </c>
+
+00:17:43.880 --> 00:17:46.250 align:start position:0%
+topic modeling<c.colorCCCCCC> with time series feedback
+where<00:17:44.880><c> you</c><00:17:44.970><c> can</c></c><c.colorE5E5E5><00:17:45.120><c> find</c><00:17:45.360><c> more</c><00:17:45.600><c> details</c></c><c.colorCCCCCC><00:17:45.659><c> about</c></c>
+
+00:17:46.250 --> 00:17:46.260 align:start position:0%
+where you can<c.colorE5E5E5> find more details</c><c.colorCCCCCC> about
+ </c>
+
+00:17:46.260 --> 00:17:48.950 align:start position:0%
+where you can<c.colorE5E5E5> find more details</c><c.colorCCCCCC> about
+how<00:17:46.500><c> the</c><00:17:46.559><c> supportive</c><00:17:47.159><c> words</c><00:17:47.250><c> and</c><00:17:47.659><c> the</c><00:17:48.659><c> second</c></c>
+
+00:17:48.950 --> 00:17:48.960 align:start position:0%
+how the supportive words and the second
+ 
+
+00:17:48.960 --> 00:17:51.980 align:start position:0%
+how the supportive words and the second
+one<c.colorE5E5E5><00:17:49.140><c> is</c><00:17:49.350><c> reading</c><00:17:49.740><c> about</c><00:17:50.299><c> granule</c><00:17:51.299><c> causality</c></c>
+
+00:17:51.980 --> 00:17:51.990 align:start position:0%
+one<c.colorE5E5E5> is reading about granule causality
+ </c>
+
+00:17:51.990 --> 00:17:59.299 align:start position:0%
+one<c.colorE5E5E5> is reading about granule causality
+test<00:17:54.769><c> so</c><00:17:55.850><c> in</c><00:17:56.850><c> the</c><00:17:56.940><c> end</c><00:17:57.090><c> let's</c><00:17:57.390><c> summarize</c><00:17:58.309><c> the</c></c>
+
+00:17:59.299 --> 00:17:59.309 align:start position:0%
+test so in the<c.colorE5E5E5> end let's summarize the
+ </c>
+
+00:17:59.309 --> 00:18:01.330 align:start position:0%
+test so in the<c.colorE5E5E5> end let's summarize the
+discussion<00:17:59.909><c> of</c><00:18:00.029><c> text-based</c><00:18:00.360><c> the</c><00:18:00.750><c> prediction</c></c>
+
+00:18:01.330 --> 00:18:01.340 align:start position:0%
+discussion<c.colorE5E5E5> of text-based the prediction
+ </c>
+
+00:18:01.340 --> 00:18:05.509 align:start position:0%
+discussion<c.colorE5E5E5> of text-based the prediction
+now<00:18:02.750><c> tax</c><00:18:03.750><c> evasion</c><00:18:03.840><c> prediction</c><00:18:04.590><c> is</c><00:18:04.740><c> generally</c></c>
+
+00:18:05.509 --> 00:18:05.519 align:start position:0%
+now tax evasion prediction is generally
+ 
+
+00:18:05.519 --> 00:18:06.919 align:start position:0%
+now tax evasion prediction is generally
+<c.colorCCCCCC>very<00:18:05.789><c> useful</c><00:18:06.299><c> for</c><00:18:06.330><c> big</c><00:18:06.600><c> data</c><00:18:06.750><c> applications</c></c>
+
+00:18:06.919 --> 00:18:06.929 align:start position:0%
+<c.colorCCCCCC>very useful for big data applications
+ </c>
+
+00:18:06.929 --> 00:18:10.190 align:start position:0%
+<c.colorCCCCCC>very useful for big data applications
+that<00:18:07.679><c> involve</c><00:18:08.039><c> text</c><00:18:08.429><c> because</c><00:18:09.330><c> you</c><00:18:09.659><c> can</c><00:18:09.870><c> help</c></c>
+
+00:18:10.190 --> 00:18:10.200 align:start position:0%
+that involve text because you can help
+ 
+
+00:18:10.200 --> 00:18:12.230 align:start position:0%
+that involve text because you can help
+<c.colorE5E5E5>us<00:18:10.409><c> infer</c><00:18:10.860><c> new</c><00:18:11.190><c> knowledge</c><00:18:11.429><c> about</c><00:18:12.000><c> the</c><00:18:12.210><c> world</c></c>
+
+00:18:12.230 --> 00:18:12.240 align:start position:0%
+<c.colorE5E5E5>us infer new knowledge about the world
+ </c>
+
+00:18:12.240 --> 00:18:15.110 align:start position:0%
+<c.colorE5E5E5>us infer new knowledge about the world
+and<00:18:12.659><c> the</c><00:18:13.500><c> knowledge</c><00:18:13.679><c> can</c><00:18:14.039><c> go</c><00:18:14.190><c> beyond</c><00:18:14.730><c> what's</c></c>
+
+00:18:15.110 --> 00:18:15.120 align:start position:0%
+and the knowledge can go beyond what's
+ 
+
+00:18:15.120 --> 00:18:18.289 align:start position:0%
+and the knowledge can go beyond what's
+discussed<00:18:15.539><c> in</c><00:18:15.779><c> the</c><00:18:15.870><c> text</c><00:18:16.549><c> as</c><00:18:17.549><c> a</c><00:18:17.610><c> result</c><c.colorCCCCCC><00:18:17.880><c> they</c></c>
+
+00:18:18.289 --> 00:18:18.299 align:start position:0%
+discussed in the text as a result<c.colorCCCCCC> they
+ </c>
+
+00:18:18.299 --> 00:18:22.820 align:start position:0%
+discussed in the text as a result<c.colorCCCCCC> they
+can<00:18:18.480><c> also</c><00:18:19.010><c> support</c><00:18:21.380><c> optimizing</c><00:18:22.380><c> of</c><00:18:22.529><c> our</c></c>
+
+00:18:22.820 --> 00:18:22.830 align:start position:0%
+can also support optimizing of our
+ 
+
+00:18:22.830 --> 00:18:24.759 align:start position:0%
+can also support optimizing of our
+<c.colorE5E5E5>decision<00:18:23.279><c> making</c></c><c.colorCCCCCC><00:18:23.370><c> and</c><00:18:23.730><c> this</c><00:18:24.179><c> has</c><00:18:24.360><c> widespread</c></c>
+
+00:18:24.759 --> 00:18:24.769 align:start position:0%
+<c.colorE5E5E5>decision making</c><c.colorCCCCCC> and this has widespread
+ </c>
+
+00:18:24.769 --> 00:18:29.750 align:start position:0%
+<c.colorE5E5E5>decision making</c><c.colorCCCCCC> and this has widespread
+applications<00:18:27.380><c> text</c><00:18:28.380><c> data</c><00:18:28.590><c> is</c><00:18:28.889><c> often</c><00:18:29.100><c> combined</c></c>
+
+00:18:29.750 --> 00:18:29.760 align:start position:0%
+applications text data is often combined
+ 
+
+00:18:29.760 --> 00:18:31.460 align:start position:0%
+applications text data is often combined
+with<c.colorCCCCCC><00:18:29.880><c> numb</c><00:18:30.269><c> text</c><00:18:30.600><c> reader</c><00:18:30.809><c> for</c><00:18:30.990><c> prediction</c></c>
+
+00:18:31.460 --> 00:18:31.470 align:start position:0%
+with<c.colorCCCCCC> numb text reader for prediction
+ </c>
+
+00:18:31.470 --> 00:18:33.560 align:start position:0%
+with<c.colorCCCCCC> numb text reader for prediction
+those<00:18:31.769><c> for</c><00:18:32.010><c> this</c><00:18:32.250><c> purpose</c><00:18:32.490><c> the</c></c><c.colorE5E5E5><00:18:32.909><c> prediction</c></c>
+
+00:18:33.560 --> 00:18:33.570 align:start position:0%
+those for this purpose the<c.colorE5E5E5> prediction
+ </c>
+
+00:18:33.570 --> 00:18:35.090 align:start position:0%
+those for this purpose the<c.colorE5E5E5> prediction
+purpose<00:18:33.870><c> we</c></c><c.colorCCCCCC><00:18:34.289><c> generally</c><00:18:34.769><c> would</c><00:18:34.830><c> like</c><00:18:34.980><c> to</c></c>
+
+00:18:35.090 --> 00:18:35.100 align:start position:0%
+purpose we<c.colorCCCCCC> generally would like to
+ </c>
+
+00:18:35.100 --> 00:18:36.889 align:start position:0%
+purpose we<c.colorCCCCCC> generally would like to
+combine</c><c.colorE5E5E5><00:18:35.309><c> now</c><00:18:35.760><c> text</c><00:18:36.120><c> data</c><00:18:36.299><c> and</c><00:18:36.510><c> text</c><00:18:36.779><c> layer</c></c>
+
+00:18:36.889 --> 00:18:36.899 align:start position:0%
+combine<c.colorE5E5E5> now text data and text layer
+ </c>
+
+00:18:36.899 --> 00:18:39.830 align:start position:0%
+combine<c.colorE5E5E5> now text data and text layer
+together</c><c.colorCCCCCC><00:18:37.260><c> as</c><00:18:37.919><c> much</c><00:18:38.130><c> crew</c><00:18:38.460><c> as</c><00:18:38.639><c> possible</c><00:18:39.120><c> for</c></c>
+
+00:18:39.830 --> 00:18:39.840 align:start position:0%
+together<c.colorCCCCCC> as much crew as possible for
+ </c>
+
+00:18:39.840 --> 00:18:43.250 align:start position:0%
+together<c.colorCCCCCC> as much crew as possible for
+prediction<00:18:40.320><c> and</c><00:18:41.240><c> so</c><00:18:42.240><c> as</c><00:18:42.389><c> a</c><00:18:42.419><c> result</c><00:18:42.630><c> join</c><00:18:43.080><c> the</c></c>
+
+00:18:43.250 --> 00:18:43.260 align:start position:0%
+prediction and so as a result join the
+ 
+
+00:18:43.260 --> 00:18:46.519 align:start position:0%
+prediction and so as a result join the
+analysis<00:18:43.679><c> of</c><00:18:43.769><c> text</c><c.colorE5E5E5><00:18:44.130><c> and</c></c><c.colorCCCCCC><00:18:44.309><c> non-text</c></c><c.colorE5E5E5><00:18:44.610><c> is</c><00:18:45.529><c> very</c></c>
+
+00:18:46.519 --> 00:18:46.529 align:start position:0%
+analysis of text<c.colorE5E5E5> and</c><c.colorCCCCCC> non-text</c><c.colorE5E5E5> is very
+ </c>
+
+00:18:46.529 --> 00:18:49.549 align:start position:0%
+analysis of text<c.colorE5E5E5> and</c><c.colorCCCCCC> non-text</c><c.colorE5E5E5> is very
+necessary<00:18:46.919><c> and</c><00:18:47.519><c> it's</c><00:18:47.730><c> also</c><00:18:47.880><c> very</c><00:18:48.090><c> useful</c><00:18:48.559><c> then</c></c>
+
+00:18:49.549 --> 00:18:49.559 align:start position:0%
+necessary and it's also very useful then
+ 
+
+00:18:49.559 --> 00:18:51.680 align:start position:0%
+necessary and it's also very useful then
+when<00:18:49.769><c> we</c><00:18:49.950><c> analyze</c><00:18:50.460><c> text</c><00:18:50.820><c> data</c><00:18:51.000><c> together</c><00:18:51.389><c> with</c>
+
+00:18:51.680 --> 00:18:51.690 align:start position:0%
+when we analyze text data together with
+ 
+
+00:18:51.690 --> 00:18:55.730 align:start position:0%
+when we analyze text data together with
+numb<00:18:51.870><c> text</c><00:18:52.169><c> data</c><00:18:52.350><c> we</c><00:18:53.220><c> can</c><00:18:53.760><c> see</c><00:18:54.409><c> they</c><00:18:55.409><c> can</c><c.colorE5E5E5><00:18:55.590><c> help</c></c>
+
+00:18:55.730 --> 00:18:55.740 align:start position:0%
+numb text data we can see they can<c.colorE5E5E5> help
+ </c>
+
+00:18:55.740 --> 00:18:57.799 align:start position:0%
+numb text data we can see they can<c.colorE5E5E5> help
+each<00:18:55.919><c> other</c><00:18:56.039><c> so</c><00:18:56.340><c> numb</c><00:18:56.549><c> text</c><00:18:56.880><c> data</c><00:18:57.120><c> provide</c><00:18:57.779><c> a</c></c>
+
+00:18:57.799 --> 00:18:57.809 align:start position:0%
+each other so numb text data provide a
+ 
+
+00:18:57.809 --> 00:19:00.710 align:start position:0%
+each other so numb text data provide a
+context<00:18:58.409><c> for</c><00:18:58.649><c> mining</c><00:18:59.100><c> text</c><00:18:59.429><c> data</c><00:18:59.639><c> and</c><00:18:59.880><c> we</c>
+
+00:19:00.710 --> 00:19:00.720 align:start position:0%
+context for mining text data and we
+ 
+
+00:19:00.720 --> 00:19:02.210 align:start position:0%
+context for mining text data and we
+discussed<c.colorCCCCCC><00:19:01.080><c> a</c><00:19:01.289><c> number</c><00:19:01.409><c> of</c><00:19:01.710><c> techniques</c></c><c.colorE5E5E5><00:19:01.860><c> for</c></c>
+
+00:19:02.210 --> 00:19:02.220 align:start position:0%
+discussed<c.colorCCCCCC> a number of techniques</c><c.colorE5E5E5> for
+ </c>
+
+00:19:02.220 --> 00:19:05.299 align:start position:0%
+discussed<c.colorCCCCCC> a number of techniques</c><c.colorE5E5E5> for
+contextual<00:19:02.760><c> text</c><00:19:03.149><c> mining</c><00:19:03.419><c> and</c><00:19:03.799><c> on</c><00:19:04.799><c> the</c><00:19:05.190><c> other</c></c>
+
+00:19:05.299 --> 00:19:05.309 align:start position:0%
+contextual text mining and on the other
+ 
+
+00:19:05.309 --> 00:19:07.009 align:start position:0%
+contextual text mining and on the other
+hand<00:19:05.519><c> the</c><00:19:05.639><c> text</c><00:19:05.970><c> there</c><00:19:06.120><c> are</c><00:19:06.240><c> cows</c><00:19:06.510><c> will</c><00:19:06.840><c> help</c>
+
+00:19:07.009 --> 00:19:07.019 align:start position:0%
+hand the text there are cows will help
+ 
+
+00:19:07.019 --> 00:19:09.200 align:start position:0%
+hand the text there are cows will help
+interpret<00:19:07.769><c> the</c><00:19:07.889><c> patterns</c><00:19:08.429><c> discover</c><c.colorE5E5E5><00:19:08.909><c> the</c><00:19:09.059><c> from</c></c>
+
+00:19:09.200 --> 00:19:09.210 align:start position:0%
+interpret the patterns discover<c.colorE5E5E5> the from
+ </c>
+
+00:19:09.210 --> 00:19:11.600 align:start position:0%
+interpret the patterns discover<c.colorE5E5E5> the from
+nankatsu<00:19:09.630><c> data</c><00:19:09.990><c> and</c><00:19:10.350><c> this</c><00:19:10.889><c> is</c><00:19:11.039><c> gold</c><00:19:11.309><c> panning</c></c>
+
+00:19:11.600 --> 00:19:11.610 align:start position:0%
+nankatsu data and this is gold panning
+ 
+
+00:19:11.610 --> 00:19:15.919 align:start position:0%
+nankatsu data and this is gold panning
+annotation<00:19:12.510><c> and</c><00:19:13.760><c> in</c><00:19:14.760><c> general</c><00:19:14.970><c> this</c><c.colorCCCCCC><00:19:15.299><c> is</c><00:19:15.480><c> a</c><00:19:15.510><c> very</c></c>
+
+00:19:15.919 --> 00:19:15.929 align:start position:0%
+annotation and in general this<c.colorCCCCCC> is a very
+ </c>
+
+00:19:15.929 --> 00:19:17.810 align:start position:0%
+annotation and in general this<c.colorCCCCCC> is a very
+active<00:19:16.200><c> research</c><00:19:16.679><c> topic</c><00:19:17.100><c> and</c><00:19:17.309><c> there</c><00:19:17.700><c> are</c></c>
+
+00:19:17.810 --> 00:19:17.820 align:start position:0%
+active research topic and there are
+ 
+
+00:19:17.820 --> 00:19:20.450 align:start position:0%
+active research topic and there are
+still<00:19:18.090><c> new</c><00:19:18.330><c> papers</c><00:19:18.659><c> in</c><00:19:18.870><c> published</c><00:19:19.260><c> and</c><00:19:19.529><c> there</c>
+
+00:19:20.450 --> 00:19:20.460 align:start position:0%
+still new papers in published and there
+ 
+
+00:19:20.460 --> 00:19:22.430 align:start position:0%
+still new papers in published and there
+are<00:19:20.610><c> also</c><00:19:20.760><c> many</c><00:19:21.090><c> open</c><00:19:21.690><c> candidates</c><00:19:22.230><c> that</c><00:19:22.409><c> have</c>
+
+00:19:22.430 --> 00:19:22.440 align:start position:0%
+are also many open candidates that have
+ 
+
+00:19:22.440 --> 00:19:25.639 align:start position:0%
+are also many open candidates that have
+to<00:19:22.740><c> be</c><00:19:22.769><c> solved</c>
+

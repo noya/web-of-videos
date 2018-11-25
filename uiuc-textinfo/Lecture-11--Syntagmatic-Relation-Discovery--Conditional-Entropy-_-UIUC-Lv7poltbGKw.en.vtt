@@ -1,0 +1,1782 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:05.620 --> 00:00:08.009 align:start position:0%
+ 
+this<00:00:06.549><c> lecture</c><c.colorCCCCCC><00:00:06.819><c> is</c><00:00:07.000><c> about</c><00:00:07.270><c> the</c></c><c.colorE5E5E5><00:00:07.600><c> sin</c></c>
+
+00:00:08.009 --> 00:00:08.019 align:start position:0%
+this lecture<c.colorCCCCCC> is about the</c><c.colorE5E5E5> sin
+ </c>
+
+00:00:08.019 --> 00:00:09.770 align:start position:0%
+this lecture<c.colorCCCCCC> is about the</c><c.colorE5E5E5> sin
+mathematical<00:00:08.620><c> relation</c><00:00:08.980><c> discovery</c><00:00:09.490><c> and</c></c>
+
+00:00:09.770 --> 00:00:09.780 align:start position:0%
+mathematical relation discovery and
+ 
+
+00:00:09.780 --> 00:00:13.020 align:start position:0%
+mathematical relation discovery and
+conditional<00:00:10.780><c> entropy</c><c.colorE5E5E5><00:00:11.370><c> in</c><00:00:12.370><c> this</c><00:00:12.610><c> lecture</c></c>
+
+00:00:13.020 --> 00:00:13.030 align:start position:0%
+conditional entropy<c.colorE5E5E5> in this lecture
+ </c>
+
+00:00:13.030 --> 00:00:14.249 align:start position:0%
+conditional entropy<c.colorE5E5E5> in this lecture
+we're<00:00:13.420><c> going</c><00:00:13.570><c> to</c><00:00:13.630><c> continue</c><00:00:13.960><c> the</c><00:00:14.230><c> discussion</c></c>
+
+00:00:14.249 --> 00:00:14.259 align:start position:0%
+we're going<c.colorE5E5E5> to continue the discussion
+ </c>
+
+00:00:14.259 --> 00:00:17.150 align:start position:0%
+we're going<c.colorE5E5E5> to continue the discussion</c>
+<c.colorCCCCCC>of</c><c.colorE5E5E5><00:00:14.889><c> Water</c><00:00:15.219><c> Association</c><00:00:15.519><c> mining</c><00:00:16.180><c> and</c><00:00:16.360><c> analysis</c></c>
+
+00:00:17.150 --> 00:00:17.160 align:start position:0%
+<c.colorCCCCCC>of</c><c.colorE5E5E5> Water Association mining and analysis
+ </c>
+
+00:00:17.160 --> 00:00:19.580 align:start position:0%
+<c.colorCCCCCC>of</c><c.colorE5E5E5> Water Association mining and analysis</c>
+<c.colorE5E5E5>we're<00:00:18.160><c> going</c></c><c.colorCCCCCC><00:00:18.189><c> to</c><00:00:18.520><c> talk</c><00:00:18.939><c> about</c><00:00:19.180><c> the</c></c>
+
+00:00:19.580 --> 00:00:19.590 align:start position:0%
+<c.colorE5E5E5>we're going</c><c.colorCCCCCC> to talk about the
+ </c>
+
+00:00:19.590 --> 00:00:22.470 align:start position:0%
+<c.colorE5E5E5>we're going</c><c.colorCCCCCC> to talk about the
+conditional</c><c.colorE5E5E5><00:00:20.590><c> entropy</c><00:00:20.710><c> which</c><00:00:21.490><c> is</c><00:00:21.700><c> useful</c><00:00:22.210><c> for</c></c>
+
+00:00:22.470 --> 00:00:22.480 align:start position:0%
+conditional<c.colorE5E5E5> entropy which is useful for
+ </c>
+
+00:00:22.480 --> 00:00:24.859 align:start position:0%
+conditional<c.colorE5E5E5> entropy which is useful for
+discovering</c><c.colorCCCCCC><00:00:23.169><c> Signac</c><00:00:23.770><c> medical</c><00:00:24.160><c> relations</c></c>
+
+00:00:24.859 --> 00:00:24.869 align:start position:0%
+discovering<c.colorCCCCCC> Signac medical relations
+ </c>
+
+00:00:24.869 --> 00:00:27.240 align:start position:0%
+discovering<c.colorCCCCCC> Signac medical relations
+earlier<00:00:25.869><c> we</c><00:00:26.050><c> talked</c><00:00:26.290><c> about</c><00:00:26.410><c> the</c></c><c.colorE5E5E5><00:00:26.559><c> using</c></c>
+
+00:00:27.240 --> 00:00:27.250 align:start position:0%
+earlier we talked about the<c.colorE5E5E5> using
+ </c>
+
+00:00:27.250 --> 00:00:30.690 align:start position:0%
+earlier we talked about the<c.colorE5E5E5> using
+entropy<00:00:27.730><c> to</c><00:00:28.059><c> capture</c><00:00:28.689><c> how</c><00:00:29.410><c> easy</c><00:00:29.770><c> it</c><00:00:30.189><c> is</c><00:00:30.369><c> to</c></c>
+
+00:00:30.690 --> 00:00:30.700 align:start position:0%
+entropy to capture how easy it is to
+ 
+
+00:00:30.700 --> 00:00:32.700 align:start position:0%
+entropy to capture how easy it is to
+predict<00:00:31.090><c> the</c><c.colorCCCCCC><00:00:31.450><c> presence</c><00:00:31.930><c> or</c><00:00:32.020><c> absence</c></c><c.colorE5E5E5><00:00:32.140><c> of</c><00:00:32.529><c> a</c></c>
+
+00:00:32.700 --> 00:00:32.710 align:start position:0%
+predict the<c.colorCCCCCC> presence or absence</c><c.colorE5E5E5> of a
+ </c>
+
+00:00:32.710 --> 00:00:36.180 align:start position:0%
+predict the<c.colorCCCCCC> presence or absence</c><c.colorE5E5E5> of a
+world<00:00:33.210><c> now</c><00:00:34.210><c> we</c><00:00:34.270><c> address</c><00:00:34.870><c> the</c><00:00:35.440><c> different</c><00:00:36.100><c> the</c></c>
+
+00:00:36.180 --> 00:00:36.190 align:start position:0%
+world now we address the different the
+ 
+
+00:00:36.190 --> 00:00:38.490 align:start position:0%
+world now we address the different the
+scenario<00:00:36.610><c> where</c><00:00:37.030><c> we</c><c.colorE5E5E5><00:00:37.360><c> assume</c><00:00:38.019><c> that</c><00:00:38.050><c> we</c><00:00:38.469><c> know</c></c>
+
+00:00:38.490 --> 00:00:38.500 align:start position:0%
+scenario where we<c.colorE5E5E5> assume that we know
+ </c>
+
+00:00:38.500 --> 00:00:41.340 align:start position:0%
+scenario where we<c.colorE5E5E5> assume that we know</c>
+<c.colorCCCCCC>something<00:00:39.190><c> about</c></c><c.colorE5E5E5><00:00:39.280><c> the</c></c><c.colorCCCCCC><00:00:39.519><c> texture</c></c><c.colorE5E5E5><00:00:40.030><c> segment</c><00:00:40.449><c> so</c></c>
+
+00:00:41.340 --> 00:00:41.350 align:start position:0%
+<c.colorCCCCCC>something about</c><c.colorE5E5E5> the</c><c.colorCCCCCC> texture</c><c.colorE5E5E5> segment so
+ </c>
+
+00:00:41.350 --> 00:00:45.950 align:start position:0%
+<c.colorCCCCCC>something about</c><c.colorE5E5E5> the</c><c.colorCCCCCC> texture</c><c.colorE5E5E5> segment so
+now<00:00:41.559><c> the</c><00:00:41.620><c> question</c></c><c.colorCCCCCC><00:00:41.859><c> is</c><00:00:42.190><c> suppose</c></c><c.colorE5E5E5><00:00:43.530><c> we</c><00:00:44.530><c> know</c><00:00:44.820><c> it's</c></c>
+
+00:00:45.950 --> 00:00:45.960 align:start position:0%
+now the question<c.colorCCCCCC> is suppose</c><c.colorE5E5E5> we know it's
+ </c>
+
+00:00:45.960 --> 00:00:49.259 align:start position:0%
+now the question<c.colorCCCCCC> is suppose</c><c.colorE5E5E5> we know it's
+occurred<00:00:46.960><c> in</c><00:00:47.260><c> the</c><00:00:47.710><c> segment</c><00:00:48.190><c> how</c></c><c.colorCCCCCC><00:00:48.850><c> would</c></c><c.colorE5E5E5><00:00:49.089><c> that</c></c>
+
+00:00:49.259 --> 00:00:49.269 align:start position:0%
+occurred in the segment<c.colorE5E5E5> how</c><c.colorCCCCCC> would</c><c.colorE5E5E5> that
+ </c>
+
+00:00:49.269 --> 00:00:51.180 align:start position:0%
+occurred in the segment<c.colorE5E5E5> how</c><c.colorCCCCCC> would</c><c.colorE5E5E5> that
+help<00:00:49.570><c> us</c><00:00:49.870><c> predict</c><00:00:50.379><c> the</c></c><c.colorCCCCCC><00:00:50.559><c> presence</c><00:00:50.949><c> or</c><00:00:51.039><c> absence</c></c>
+
+00:00:51.180 --> 00:00:51.190 align:start position:0%
+help us predict the<c.colorCCCCCC> presence or absence
+ </c>
+
+00:00:51.190 --> 00:00:54.149 align:start position:0%
+help us predict the<c.colorCCCCCC> presence or absence
+of<00:00:51.489><c> a</c><00:00:52.059><c> word</c><00:00:52.390><c> and</c><00:00:52.570><c> I</c><00:00:52.629><c> can</c><00:00:52.659><c> meet</c><00:00:52.960><c> and</c><00:00:53.379><c> in</c></c>
+
+00:00:54.149 --> 00:00:54.159 align:start position:0%
+of a word and I can<c.colorCCCCCC> meet and in
+ </c>
+
+00:00:54.159 --> 00:00:56.369 align:start position:0%
+of a word and I can<c.colorCCCCCC> meet and in</c>
+<c.colorE5E5E5>particular<00:00:54.460><c> we</c><00:00:54.940><c> want</c><00:00:55.149><c> to</c><00:00:55.269><c> know</c><00:00:55.480><c> whether</c><00:00:55.929><c> the</c></c>
+
+00:00:56.369 --> 00:00:56.379 align:start position:0%
+<c.colorE5E5E5>particular we want to know whether the
+ </c>
+
+00:00:56.379 --> 00:00:59.639 align:start position:0%
+<c.colorE5E5E5>particular we want to know whether the
+presence<00:00:56.800><c> of</c><00:00:56.980><c> each</c><00:00:57.370><c> has</c><00:00:58.059><c> helped</c><00:00:58.539><c> us</c><00:00:58.659><c> predict</c></c>
+
+00:00:59.639 --> 00:00:59.649 align:start position:0%
+presence of<c.colorE5E5E5> each has helped us predict
+ </c>
+
+00:00:59.649 --> 00:01:02.520 align:start position:0%
+presence of<c.colorE5E5E5> each has helped us predict
+the<00:00:59.949><c> presence</c></c><c.colorCCCCCC><00:01:00.159><c> of</c></c><c.colorE5E5E5><00:01:00.489><c> meat</c><00:01:00.789><c> and</c><00:01:01.300><c> if</c><00:01:02.109><c> we</c><00:01:02.230><c> frame</c></c>
+
+00:01:02.520 --> 00:01:02.530 align:start position:0%
+the presence<c.colorCCCCCC> of</c><c.colorE5E5E5> meat and if we frame
+ </c>
+
+00:01:02.530 --> 00:01:07.560 align:start position:0%
+the presence<c.colorCCCCCC> of</c><c.colorE5E5E5> meat and if we frame
+this<00:01:02.940><c> using</c><00:01:03.940><c> entropy</c><00:01:04.420><c> then</c><00:01:05.080><c> with</c><00:01:05.320><c> me</c></c><c.colorCCCCCC><00:01:06.270><c> we</c><00:01:07.270><c> are</c></c>
+
+00:01:07.560 --> 00:01:07.570 align:start position:0%
+this using entropy<c.colorE5E5E5> then with me</c><c.colorCCCCCC> we are
+ </c>
+
+00:01:07.570 --> 00:01:09.740 align:start position:0%
+this using entropy<c.colorE5E5E5> then with me</c><c.colorCCCCCC> we are
+interested<00:01:08.020><c> in</c></c><c.colorE5E5E5><00:01:08.080><c> knowing</c><00:01:08.260><c> whether</c><00:01:08.640><c> knowing</c></c>
+
+00:01:09.740 --> 00:01:09.750 align:start position:0%
+interested in<c.colorE5E5E5> knowing whether knowing
+ </c>
+
+00:01:09.750 --> 00:01:12.830 align:start position:0%
+interested in<c.colorE5E5E5> knowing whether knowing
+the<00:01:10.750><c> presence</c><00:01:11.170><c> of</c><00:01:11.290><c> each</c><00:01:11.590><c> could</c><00:01:12.370><c> reduce</c></c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+the presence of each could reduce
+ 
+
+00:01:12.840 --> 00:01:15.840 align:start position:0%
+the presence of each could reduce
+uncertainty<00:01:13.840><c> about</c><00:01:14.140><c> the</c><00:01:14.650><c> meat</c><c.colorE5E5E5><00:01:14.860><c> or</c><00:01:15.100><c> reduce</c><00:01:15.580><c> the</c></c>
+
+00:01:15.840 --> 00:01:15.850 align:start position:0%
+uncertainty about the meat<c.colorE5E5E5> or reduce the
+ </c>
+
+00:01:15.850 --> 00:01:18.380 align:start position:0%
+uncertainty about the meat<c.colorE5E5E5> or reduce the
+entropy<00:01:16.270><c> of</c><00:01:16.510><c> the</c></c><c.colorCCCCCC><00:01:16.830><c> random</c><00:01:17.830><c> variable</c></c>
+
+00:01:18.380 --> 00:01:18.390 align:start position:0%
+entropy of the<c.colorCCCCCC> random variable
+ </c>
+
+00:01:18.390 --> 00:01:20.880 align:start position:0%
+entropy of the<c.colorCCCCCC> random variable
+corresponding<00:01:19.390><c> to</c><00:01:19.600><c> the</c><00:01:19.960><c> presence</c></c><c.colorE5E5E5><00:01:20.410><c> or</c><00:01:20.620><c> absence</c></c>
+
+00:01:20.880 --> 00:01:20.890 align:start position:0%
+corresponding to the presence<c.colorE5E5E5> or absence
+ </c>
+
+00:01:20.890 --> 00:01:24.740 align:start position:0%
+corresponding to the presence<c.colorE5E5E5> or absence
+of<00:01:21.240><c> meat</c><00:01:22.440><c> we</c></c><c.colorCCCCCC><00:01:23.440><c> can</c><00:01:23.620><c> also</c><00:01:23.770><c> ask</c><00:01:23.980><c> the</c><00:01:24.220><c> question</c></c>
+
+00:01:24.740 --> 00:01:24.750 align:start position:0%
+of<c.colorE5E5E5> meat we</c><c.colorCCCCCC> can also ask the question
+ </c>
+
+00:01:24.750 --> 00:01:28.010 align:start position:0%
+of<c.colorE5E5E5> meat we</c><c.colorCCCCCC> can also ask the question
+what<00:01:25.750><c> if</c><00:01:25.870><c> we</c><00:01:26.080><c> know</c><00:01:26.320><c> of</c><00:01:26.560><c> the</c><00:01:26.740><c> absence</c><00:01:27.220><c> of</c><00:01:27.460><c> eat</c></c>
+
+00:01:28.010 --> 00:01:28.020 align:start position:0%
+what if we know of the absence of<c.colorCCCCCC> eat
+ </c>
+
+00:01:28.020 --> 00:01:31.200 align:start position:0%
+what if we know of the absence of<c.colorCCCCCC> eat</c>
+<c.colorE5E5E5>would<00:01:29.020><c> that</c><00:01:29.200><c> also</c><00:01:29.470><c> help</c><00:01:29.860><c> us</c><00:01:30.060><c> predict</c><00:01:31.060><c> the</c></c>
+
+00:01:31.200 --> 00:01:31.210 align:start position:0%
+<c.colorE5E5E5>would that also help us predict the
+ </c>
+
+00:01:31.210 --> 00:01:34.800 align:start position:0%
+<c.colorE5E5E5>would that also help us predict the
+presence</c><c.colorCCCCCC><00:01:31.900><c> or</c><00:01:32.170><c> absence</c><00:01:32.290><c> of</c><00:01:32.710><c> meat</c><00:01:33.630><c> so</c><00:01:34.630><c> these</c></c>
+
+00:01:34.800 --> 00:01:34.810 align:start position:0%
+presence<c.colorCCCCCC> or absence of meat so these
+ </c>
+
+00:01:34.810 --> 00:01:39.080 align:start position:0%
+presence<c.colorCCCCCC> or absence of meat so these
+questions</c><c.colorE5E5E5><00:01:35.080><c> can</c><00:01:35.890><c> be</c></c><c.colorCCCCCC><00:01:35.950><c> addressed</c><00:01:36.280><c> by</c></c><c.colorE5E5E5><00:01:36.580><c> using</c></c>
+
+00:01:39.080 --> 00:01:39.090 align:start position:0%
+ 
+ 
+
+00:01:39.090 --> 00:01:41.700 align:start position:0%
+ 
+<c.colorE5E5E5>another<00:01:40.090><c> concept</c><00:01:40.630><c> called</c></c><c.colorCCCCCC><00:01:40.780><c> conditional</c></c>
+
+00:01:41.700 --> 00:01:41.710 align:start position:0%
+<c.colorE5E5E5>another concept called</c><c.colorCCCCCC> conditional
+ </c>
+
+00:01:41.710 --> 00:01:45.240 align:start position:0%
+<c.colorE5E5E5>another concept called</c><c.colorCCCCCC> conditional
+entropy</c><c.colorE5E5E5><00:01:42.180><c> so</c><00:01:43.180><c> to</c><00:01:43.270><c> explain</c><00:01:43.810><c> this</c><00:01:44.050><c> concept</c></c><c.colorCCCCCC><00:01:44.320><c> let's</c></c>
+
+00:01:45.240 --> 00:01:45.250 align:start position:0%
+entropy<c.colorE5E5E5> so to explain this concept</c><c.colorCCCCCC> let's
+ </c>
+
+00:01:45.250 --> 00:01:47.700 align:start position:0%
+entropy<c.colorE5E5E5> so to explain this concept</c><c.colorCCCCCC> let's
+first<00:01:45.580><c> look</c><00:01:45.790><c> at</c><00:01:45.940><c> the</c><00:01:46.360><c> scenario</c></c><c.colorE5E5E5><00:01:46.810><c> we</c><00:01:47.380><c> had</c><00:01:47.530><c> before</c></c>
+
+00:01:47.700 --> 00:01:47.710 align:start position:0%
+first look at the<c.colorCCCCCC> scenario</c><c.colorE5E5E5> we had before
+ </c>
+
+00:01:47.710 --> 00:01:50.580 align:start position:0%
+first look at the<c.colorCCCCCC> scenario</c><c.colorE5E5E5> we had before
+where<00:01:48.520><c> we</c><00:01:48.700><c> know</c><00:01:49.060><c> nothing</c><00:01:49.690><c> about</c><00:01:49.840><c> the</c></c><c.colorCCCCCC><00:01:50.140><c> segment</c></c>
+
+00:01:50.580 --> 00:01:50.590 align:start position:0%
+where we know<c.colorE5E5E5> nothing about the</c><c.colorCCCCCC> segment
+ </c>
+
+00:01:50.590 --> 00:01:52.620 align:start position:0%
+where we know<c.colorE5E5E5> nothing about the</c><c.colorCCCCCC> segment</c>
+<c.colorE5E5E5>so<00:01:51.340><c> we</c><00:01:51.460><c> have</c><00:01:51.640><c> these</c><00:01:51.850><c> probabilities</c></c>
+
+00:01:52.620 --> 00:01:52.630 align:start position:0%
+<c.colorE5E5E5>so we have these probabilities
+ </c>
+
+00:01:52.630 --> 00:01:55.140 align:start position:0%
+<c.colorE5E5E5>so we have these probabilities
+indicating<00:01:53.410><c> whether</c></c><c.colorCCCCCC><00:01:53.890><c> award</c><00:01:54.460><c> might</c><00:01:54.850><c> beat</c></c>
+
+00:01:55.140 --> 00:01:55.150 align:start position:0%
+indicating whether<c.colorCCCCCC> award might beat
+ </c>
+
+00:01:55.150 --> 00:01:58.290 align:start position:0%
+indicating whether<c.colorCCCCCC> award might beat
+occurs<00:01:55.720><c> or</c><00:01:56.020><c> doesn't</c><00:01:57.010><c> occur</c><00:01:57.250><c> in</c></c><c.colorE5E5E5><00:01:57.280><c> the</c><00:01:57.490><c> segment</c></c>
+
+00:01:58.290 --> 00:01:58.300 align:start position:0%
+occurs or<c.colorCCCCCC> doesn't occur in</c><c.colorE5E5E5> the segment
+ </c>
+
+00:01:58.300 --> 00:02:00.390 align:start position:0%
+occurs or<c.colorCCCCCC> doesn't occur in</c><c.colorE5E5E5> the segment
+and<00:01:58.540><c> we</c><00:01:58.990><c> have</c><00:01:59.110><c> an</c><00:01:59.230><c> entropy</c><00:01:59.560><c> function</c><00:01:59.830><c> that</c></c>
+
+00:02:00.390 --> 00:02:00.400 align:start position:0%
+<c.colorE5E5E5>and we have an entropy function that
+ </c>
+
+00:02:00.400 --> 00:02:03.540 align:start position:0%
+<c.colorE5E5E5>and we have an entropy function that
+looks<00:02:00.640><c> like</c><00:02:00.970><c> what</c><00:02:01.540><c> you</c><00:02:01.720><c> see</c><00:02:01.900><c> on</c><00:02:02.020><c> the</c><00:02:02.170><c> slide</c><00:02:02.550><c> as</c></c>
+
+00:02:03.540 --> 00:02:03.550 align:start position:0%
+<c.colorE5E5E5>looks like what you see on the slide as
+ </c>
+
+00:02:03.550 --> 00:02:07.470 align:start position:0%
+<c.colorE5E5E5>looks like what you see on the slide as
+suppose<00:02:04.180><c> we</c><00:02:04.450><c> know</c></c><c.colorCCCCCC><00:02:04.720><c> each</c><00:02:05.200><c> is</c><00:02:05.740><c> present</c><00:02:06.460><c> so</c><00:02:07.240><c> now</c></c>
+
+00:02:07.470 --> 00:02:07.480 align:start position:0%
+suppose we know<c.colorCCCCCC> each is present so now
+ </c>
+
+00:02:07.480 --> 00:02:09.180 align:start position:0%
+suppose we know<c.colorCCCCCC> each is present so now
+we<00:02:07.540><c> know</c><00:02:07.870><c> the</c><00:02:07.900><c> value</c><00:02:08.170><c> of</c><00:02:08.530><c> another</c><00:02:08.830><c> random</c></c>
+
+00:02:09.180 --> 00:02:09.190 align:start position:0%
+we know the<c.colorCCCCCC> value of another random
+ </c>
+
+00:02:09.190 --> 00:02:13.140 align:start position:0%
+we know the<c.colorCCCCCC> value of another random</c>
+<c.colorE5E5E5>variable</c><c.colorCCCCCC><00:02:09.369><c> that</c></c><c.colorE5E5E5><00:02:10.239><c> denotes</c><00:02:10.660><c> eat</c><00:02:11.700><c> now</c><00:02:12.700><c> that</c><00:02:12.940><c> would</c></c>
+
+00:02:13.140 --> 00:02:13.150 align:start position:0%
+<c.colorE5E5E5>variable</c><c.colorCCCCCC> that</c><c.colorE5E5E5> denotes eat now that would
+ </c>
+
+00:02:13.150 --> 00:02:15.119 align:start position:0%
+<c.colorE5E5E5>variable</c><c.colorCCCCCC> that</c><c.colorE5E5E5> denotes eat now that would
+change<00:02:13.510><c> all</c><00:02:13.959><c> these</c><00:02:14.170><c> probabilities</c><00:02:14.469><c> to</c></c>
+
+00:02:15.119 --> 00:02:15.129 align:start position:0%
+change all<c.colorE5E5E5> these probabilities to
+ </c>
+
+00:02:15.129 --> 00:02:18.500 align:start position:0%
+change all<c.colorE5E5E5> these probabilities to
+conditional<00:02:15.909><c> probabilities</c><00:02:16.650><c> where</c><00:02:17.650><c> we</c></c>
+
+00:02:18.500 --> 00:02:18.510 align:start position:0%
+conditional probabilities where we
+ 
+
+00:02:18.510 --> 00:02:21.070 align:start position:0%
+conditional probabilities where we
+look<00:02:18.629><c> at</c><00:02:18.780><c> the</c><00:02:19.019><c> presence</c><00:02:19.470><c> or</c><c.colorE5E5E5><00:02:19.590><c> absence</c><00:02:19.650><c> of</c><00:02:20.099><c> meat</c></c>
+
+00:02:21.070 --> 00:02:21.080 align:start position:0%
+look at the presence or<c.colorE5E5E5> absence of meat
+ </c>
+
+00:02:21.080 --> 00:02:25.100 align:start position:0%
+look at the presence or<c.colorE5E5E5> absence of meat</c>
+<c.colorCCCCCC>given<00:02:22.080><c> that</c><00:02:22.470><c> we</c><00:02:22.709><c> know</c></c><c.colorE5E5E5><00:02:22.920><c> it's</c><00:02:23.390><c> occurred</c><00:02:24.390><c> in</c><00:02:24.780><c> the</c></c>
+
+00:02:25.100 --> 00:02:25.110 align:start position:0%
+<c.colorCCCCCC>given that we know</c><c.colorE5E5E5> it's occurred in the
+ </c>
+
+00:02:25.110 --> 00:02:28.280 align:start position:0%
+<c.colorCCCCCC>given that we know</c><c.colorE5E5E5> it's occurred in the
+context<00:02:25.549><c> so</c><00:02:26.549><c> as</c><00:02:26.700><c> a</c><00:02:26.730><c> result</c><00:02:27.000><c> if</c></c><c.colorCCCCCC><00:02:27.480><c> we</c><00:02:27.720><c> replace</c></c>
+
+00:02:28.280 --> 00:02:28.290 align:start position:0%
+context so as a result if<c.colorCCCCCC> we replace
+ </c>
+
+00:02:28.290 --> 00:02:30.350 align:start position:0%
+context so as a result if<c.colorCCCCCC> we replace</c>
+<c.colorCCCCCC>these<00:02:29.099><c> probabilities</c><00:02:29.879><c> with</c><00:02:30.150><c> their</c></c>
+
+00:02:30.350 --> 00:02:30.360 align:start position:0%
+<c.colorCCCCCC>these probabilities with their
+ </c>
+
+00:02:30.360 --> 00:02:32.449 align:start position:0%
+<c.colorCCCCCC>these probabilities with their
+corresponding</c><c.colorE5E5E5><00:02:30.780><c> conditional</c><00:02:31.739><c> probabilities</c></c>
+
+00:02:32.449 --> 00:02:32.459 align:start position:0%
+corresponding<c.colorE5E5E5> conditional probabilities
+ </c>
+
+00:02:32.459 --> 00:02:34.160 align:start position:0%
+corresponding<c.colorE5E5E5> conditional probabilities</c>
+<c.colorE5E5E5>in<00:02:33.120><c> the</c><00:02:33.269><c> entropy</c><00:02:33.629><c> function</c></c>
+
+00:02:34.160 --> 00:02:34.170 align:start position:0%
+<c.colorE5E5E5>in the entropy function
+ </c>
+
+00:02:34.170 --> 00:02:37.640 align:start position:0%
+<c.colorE5E5E5>in the entropy function
+we'll<00:02:34.739><c> get</c><00:02:34.980><c> the</c><00:02:35.340><c> conditional</c><00:02:35.909><c> entropy</c></c><c.colorCCCCCC><00:02:36.650><c> so</c></c>
+
+00:02:37.640 --> 00:02:37.650 align:start position:0%
+we'll get the conditional entropy<c.colorCCCCCC> so
+ </c>
+
+00:02:37.650 --> 00:02:43.789 align:start position:0%
+we'll get the conditional entropy<c.colorCCCCCC> so
+this</c><c.colorE5E5E5><00:02:38.150><c> equation</c><00:02:39.150><c> now</c><00:02:39.329><c> here</c></c><c.colorCCCCCC><00:02:39.950><c> shown</c></c><c.colorE5E5E5><00:02:40.950><c> here</c><00:02:42.799><c> would</c></c>
+
+00:02:43.789 --> 00:02:43.799 align:start position:0%
+this<c.colorE5E5E5> equation now here</c><c.colorCCCCCC> shown</c><c.colorE5E5E5> here would
+ </c>
+
+00:02:43.799 --> 00:02:47.300 align:start position:0%
+this<c.colorE5E5E5> equation now here</c><c.colorCCCCCC> shown</c><c.colorE5E5E5> here would</c>
+<c.colorE5E5E5>be<00:02:44.450><c> the</c><00:02:45.450><c> conditional</c><00:02:46.019><c> entropy</c><00:02:46.310><c> conditioner</c></c>
+
+00:02:47.300 --> 00:02:47.310 align:start position:0%
+<c.colorE5E5E5>be the conditional entropy conditioner
+ </c>
+
+00:02:47.310 --> 00:02:52.970 align:start position:0%
+<c.colorE5E5E5>be the conditional entropy conditioner
+on<00:02:47.489><c> the</c><00:02:47.730><c> presence</c><00:02:48.299><c> of</c><00:02:48.540><c> each</c><00:02:49.400><c> right</c><00:02:51.200><c> so</c><00:02:52.200><c> you</c><00:02:52.799><c> can</c></c>
+
+00:02:52.970 --> 00:02:52.980 align:start position:0%
+on the<c.colorE5E5E5> presence of each right so you can
+ </c>
+
+00:02:52.980 --> 00:02:55.009 align:start position:0%
+on the<c.colorE5E5E5> presence of each right so you can
+see<00:02:53.159><c> this</c><00:02:53.430><c> is</c><00:02:53.609><c> essentially</c><00:02:54.120><c> the</c><00:02:54.420><c> same</c><00:02:54.569><c> entropy</c></c>
+
+00:02:55.009 --> 00:02:55.019 align:start position:0%
+see this<c.colorE5E5E5> is essentially the same entropy
+ </c>
+
+00:02:55.019 --> 00:02:57.259 align:start position:0%
+see this<c.colorE5E5E5> is essentially the same entropy
+function<00:02:55.170><c> as</c><00:02:55.530><c> you</c><00:02:55.829><c> have</c><00:02:55.950><c> seen</c><00:02:56.190><c> before</c><00:02:56.310><c> except</c></c>
+
+00:02:57.259 --> 00:02:57.269 align:start position:0%
+function as you have seen<c.colorE5E5E5> before except
+ </c>
+
+00:02:57.269 --> 00:03:00.140 align:start position:0%
+function as you have seen<c.colorE5E5E5> before except
+that<00:02:57.480><c> that</c><00:02:57.510><c> we</c><00:02:57.780><c> all</c><00:02:58.639><c> if</c><00:02:59.639><c> all</c><00:02:59.849><c> the</c></c>
+
+00:03:00.140 --> 00:03:00.150 align:start position:0%
+that that<c.colorE5E5E5> we all if all the
+ </c>
+
+00:03:00.150 --> 00:03:03.699 align:start position:0%
+that that<c.colorE5E5E5> we all if all the
+probabilities<00:03:00.329><c> now</c><00:03:00.930><c> have</c><00:03:01.200><c> a</c><00:03:01.230><c> condition</c><00:03:01.889><c> and</c></c>
+
+00:03:03.699 --> 00:03:03.709 align:start position:0%
+probabilities<c.colorE5E5E5> now have a condition and
+ </c>
+
+00:03:03.709 --> 00:03:08.509 align:start position:0%
+probabilities<c.colorE5E5E5> now have a condition and
+this<00:03:04.709><c> then</c><00:03:05.129><c> tells</c><00:03:05.639><c> us</c><00:03:05.879><c> the</c><00:03:06.810><c> entropy</c><00:03:07.560><c> of</c><00:03:07.889><c> meat</c></c>
+
+00:03:08.509 --> 00:03:08.519 align:start position:0%
+this then tells us the entropy of meat
+ 
+
+00:03:08.519 --> 00:03:12.410 align:start position:0%
+this then tells us the entropy of meat
+<c.colorE5E5E5>after</c><c.colorCCCCCC><00:03:09.329><c> we</c><00:03:09.959><c> have</c><00:03:10.139><c> known</c></c><c.colorE5E5E5><00:03:10.530><c> each</c><00:03:11.180><c> occurring</c><00:03:12.180><c> in</c></c>
+
+00:03:12.410 --> 00:03:12.420 align:start position:0%
+<c.colorE5E5E5>after</c><c.colorCCCCCC> we have known</c><c.colorE5E5E5> each occurring in
+ </c>
+
+00:03:12.420 --> 00:03:15.589 align:start position:0%
+<c.colorE5E5E5>after</c><c.colorCCCCCC> we have known</c><c.colorE5E5E5> each occurring in
+the<00:03:12.659><c> segment</c></c><c.colorCCCCCC><00:03:13.079><c> and</c><00:03:13.519><c> of</c><00:03:14.519><c> course</c><00:03:14.790><c> we</c><00:03:15.269><c> can</c><00:03:15.480><c> also</c></c>
+
+00:03:15.589 --> 00:03:15.599 align:start position:0%
+the segment<c.colorCCCCCC> and of course we can also
+ </c>
+
+00:03:15.599 --> 00:03:17.839 align:start position:0%
+the segment<c.colorCCCCCC> and of course we can also
+define<00:03:15.870><c> this</c><00:03:16.379><c> conditional</c><00:03:16.889><c> entropy</c><00:03:17.010><c> for</c><00:03:17.730><c> the</c></c>
+
+00:03:17.839 --> 00:03:17.849 align:start position:0%
+define this conditional entropy for the
+ 
+
+00:03:17.849 --> 00:03:20.899 align:start position:0%
+define this conditional entropy for the
+scenario<c.colorE5E5E5><00:03:18.120><c> where</c><00:03:18.569><c> we</c></c><c.colorCCCCCC><00:03:18.599><c> don't</c></c><c.colorE5E5E5><00:03:19.290><c> see</c><00:03:19.620><c> it</c><00:03:19.829><c> so</c></c><c.colorCCCCCC><00:03:20.129><c> if</c><00:03:20.760><c> we</c></c>
+
+00:03:20.899 --> 00:03:20.909 align:start position:0%
+scenario<c.colorE5E5E5> where we</c><c.colorCCCCCC> don't</c><c.colorE5E5E5> see it so</c><c.colorCCCCCC> if we
+ </c>
+
+00:03:20.909 --> 00:03:23.270 align:start position:0%
+scenario<c.colorE5E5E5> where we</c><c.colorCCCCCC> don't</c><c.colorE5E5E5> see it so</c><c.colorCCCCCC> if we
+know</c><c.colorE5E5E5><00:03:21.090><c> it</c><00:03:21.329><c> did</c><00:03:22.109><c> not</c><00:03:22.260><c> occur</c><00:03:22.620><c> in</c><00:03:22.769><c> the</c><00:03:22.889><c> segment</c></c>
+
+00:03:23.270 --> 00:03:23.280 align:start position:0%
+know<c.colorE5E5E5> it did not occur in the segment
+ </c>
+
+00:03:23.280 --> 00:03:26.059 align:start position:0%
+know<c.colorE5E5E5> it did not occur in the segment</c>
+<c.colorE5E5E5>then<00:03:23.970><c> this</c><00:03:24.269><c> end</c><00:03:24.540><c> conditional</c><00:03:25.169><c> entropy</c><00:03:25.260><c> would</c></c>
+
+00:03:26.059 --> 00:03:26.069 align:start position:0%
+<c.colorE5E5E5>then this end conditional entropy would
+ </c>
+
+00:03:26.069 --> 00:03:29.449 align:start position:0%
+<c.colorE5E5E5>then this end conditional entropy would
+capture<00:03:26.430><c> the</c><00:03:27.180><c> uncertainty</c></c><c.colorCCCCCC><00:03:27.720><c> of</c><00:03:27.870><c> meat</c></c><c.colorE5E5E5><00:03:28.470><c> in</c><00:03:29.160><c> that</c></c>
+
+00:03:29.449 --> 00:03:29.459 align:start position:0%
+capture<c.colorE5E5E5> the uncertainty</c><c.colorCCCCCC> of meat</c><c.colorE5E5E5> in that
+ </c>
+
+00:03:29.459 --> 00:03:30.939 align:start position:0%
+capture<c.colorE5E5E5> the uncertainty</c><c.colorCCCCCC> of meat</c><c.colorE5E5E5> in that</c>
+<c.colorCCCCCC>content<00:03:29.910><c> in</c><00:03:30.120><c> that</c></c><c.colorE5E5E5><00:03:30.180><c> condition</c></c>
+
+00:03:30.939 --> 00:03:30.949 align:start position:0%
+<c.colorCCCCCC>content in that</c><c.colorE5E5E5> condition
+ </c>
+
+00:03:30.949 --> 00:03:33.619 align:start position:0%
+<c.colorCCCCCC>content in that</c><c.colorE5E5E5> condition
+so<00:03:31.949><c> now</c><00:03:32.190><c> putting</c><00:03:32.549><c> different</c><00:03:33.180><c> scenarios</c></c>
+
+00:03:33.619 --> 00:03:33.629 align:start position:0%
+so now putting<c.colorE5E5E5> different scenarios
+ </c>
+
+00:03:33.629 --> 00:03:35.390 align:start position:0%
+so now putting<c.colorE5E5E5> different scenarios
+together<00:03:33.930><c> we</c><00:03:34.230><c> have</c><00:03:34.410><c> the</c><00:03:34.680><c> complete</c></c><c.colorCCCCCC><00:03:35.129><c> definition</c></c>
+
+00:03:35.390 --> 00:03:35.400 align:start position:0%
+together we have the complete<c.colorCCCCCC> definition
+ </c>
+
+00:03:35.400 --> 00:03:38.289 align:start position:0%
+together we have the complete<c.colorCCCCCC> definition
+of<00:03:35.910><c> conditional</c><00:03:36.180><c> entropy</c><00:03:36.660><c> as</c><00:03:37.049><c> follows</c></c>
+
+00:03:38.289 --> 00:03:38.299 align:start position:0%
+<c.colorCCCCCC>of conditional entropy as follows
+ </c>
+
+00:03:38.299 --> 00:03:42.589 align:start position:0%
+<c.colorCCCCCC>of conditional entropy as follows
+basically</c><c.colorE5E5E5><00:03:40.040><c> we're</c><00:03:41.040><c> going</c><00:03:41.190><c> to</c><00:03:41.250><c> consider</c><00:03:41.599><c> both</c></c>
+
+00:03:42.589 --> 00:03:42.599 align:start position:0%
+basically<c.colorE5E5E5> we're going to consider both
+ </c>
+
+00:03:42.599 --> 00:03:47.659 align:start position:0%
+basically<c.colorE5E5E5> we're going to consider both
+scenarios<00:03:43.049><c> of</c><00:03:43.940><c> the</c></c><c.colorCCCCCC><00:03:44.940><c> value</c><00:03:45.930><c> of</c><00:03:46.109><c> each</c><00:03:46.379><c> 0</c><00:03:47.190><c> or</c><00:03:47.430><c> 1</c></c>
+
+00:03:47.659 --> 00:03:47.669 align:start position:0%
+scenarios<c.colorE5E5E5> of the</c><c.colorCCCCCC> value of each 0 or 1
+ </c>
+
+00:03:47.669 --> 00:03:49.909 align:start position:0%
+scenarios<c.colorE5E5E5> of the</c><c.colorCCCCCC> value of each 0 or 1
+and<00:03:47.879><c> this</c><00:03:48.690><c> gives</c><00:03:48.989><c> us</c></c><c.colorE5E5E5><00:03:49.139><c> the</c></c><c.colorCCCCCC><00:03:49.290><c> probability</c><00:03:49.889><c> that</c></c>
+
+00:03:49.909 --> 00:03:49.919 align:start position:0%
+and this gives us<c.colorE5E5E5> the</c><c.colorCCCCCC> probability that
+ </c>
+
+00:03:49.919 --> 00:03:53.539 align:start position:0%
+and this gives us<c.colorE5E5E5> the</c><c.colorCCCCCC> probability that
+each<00:03:50.819><c> is</c><00:03:51.269><c> equal</c><00:03:52.079><c> to</c><00:03:52.260><c> 0</c><00:03:52.769><c> or</c><00:03:53.069><c> 1</c></c>
+
+00:03:53.539 --> 00:03:53.549 align:start position:0%
+each is equal to 0 or 1
+ 
+
+00:03:53.549 --> 00:03:56.270 align:start position:0%
+each is equal to 0 or 1
+basically<c.colorE5E5E5><00:03:54.510><c> whether</c><00:03:54.989><c> each</c><00:03:55.319><c> is</c><00:03:55.709><c> present</c><00:03:56.160><c> or</c></c>
+
+00:03:56.270 --> 00:03:56.280 align:start position:0%
+basically<c.colorE5E5E5> whether each is present or
+ </c>
+
+00:03:56.280 --> 00:04:00.170 align:start position:0%
+basically<c.colorE5E5E5> whether each is present or
+absent<00:03:56.669><c> and</c><00:03:57.359><c> this</c><00:03:58.290><c> of</c><00:03:58.590><c> course</c><00:03:58.620><c> is</c></c><c.colorCCCCCC><00:03:59.040><c> the</c><00:03:59.790><c> entropy</c></c>
+
+00:04:00.170 --> 00:04:00.180 align:start position:0%
+absent<c.colorE5E5E5> and this of course is</c><c.colorCCCCCC> the entropy
+ </c>
+
+00:04:00.180 --> 00:04:03.140 align:start position:0%
+absent<c.colorE5E5E5> and this of course is</c><c.colorCCCCCC> the entropy
+conditional<00:04:00.870><c> entropy</c><00:04:00.989><c> of</c><00:04:01.409><c> meat</c></c><c.colorE5E5E5><00:04:02.159><c> in</c><00:04:02.849><c> that</c></c>
+
+00:04:03.140 --> 00:04:03.150 align:start position:0%
+conditional entropy of meat<c.colorE5E5E5> in that
+ </c>
+
+00:04:03.150 --> 00:04:07.339 align:start position:0%
+conditional entropy of meat<c.colorE5E5E5> in that</c>
+<c.colorE5E5E5>particular<00:04:03.840><c> scenario</c><00:04:04.549><c> so</c><00:04:05.599><c> if</c><00:04:06.599><c> you</c><00:04:06.780><c> expand</c></c>
+
+00:04:07.339 --> 00:04:07.349 align:start position:0%
+<c.colorE5E5E5>particular scenario so if you expand
+ </c>
+
+00:04:07.349 --> 00:04:12.979 align:start position:0%
+<c.colorE5E5E5>particular scenario so if you expand</c>
+<c.colorCCCCCC>this<00:04:08.840><c> entropy</c><00:04:09.840><c> then</c><00:04:10.139><c> you</c><00:04:11.069><c> have</c><00:04:11.750><c> the</c><00:04:12.750><c> following</c></c>
+
+00:04:12.979 --> 00:04:12.989 align:start position:0%
+<c.colorCCCCCC>this entropy then you have the following
+ </c>
+
+00:04:12.989 --> 00:04:17.029 align:start position:0%
+<c.colorCCCCCC>this entropy then you have the following</c>
+<c.colorE5E5E5>the<00:04:13.949><c> question</c><00:04:14.840><c> where</c><00:04:15.840><c> you</c><00:04:15.959><c> see</c><00:04:16.470><c> the</c></c>
+
+00:04:17.029 --> 00:04:17.039 align:start position:0%
+<c.colorE5E5E5>the question where you see the
+ </c>
+
+00:04:17.039 --> 00:04:18.830 align:start position:0%
+<c.colorE5E5E5>the question where you see the
+involvement<00:04:17.459><c> of</c><00:04:17.669><c> those</c></c><c.colorCCCCCC><00:04:17.970><c> condition</c><00:04:18.449><c> about</c></c><c.colorE5E5E5><00:04:18.690><c> the</c></c>
+
+00:04:18.830 --> 00:04:18.840 align:start position:0%
+involvement of those<c.colorCCCCCC> condition about</c><c.colorE5E5E5> the
+ </c>
+
+00:04:18.840 --> 00:04:20.550 align:start position:0%
+involvement of those<c.colorCCCCCC> condition about</c><c.colorE5E5E5> the
+mayonnaise</c>
+
+00:04:20.550 --> 00:04:20.560 align:start position:0%
+<c.colorE5E5E5>mayonnaise
+ </c>
+
+00:04:20.560 --> 00:04:23.890 align:start position:0%
+<c.colorE5E5E5>mayonnaise
+now<00:04:21.560><c> in</c><00:04:21.769><c> general</c><00:04:22.069><c> for</c><00:04:22.819><c> any</c><00:04:22.849><c> discrete</c><00:04:23.479><c> random</c></c>
+
+00:04:23.890 --> 00:04:23.900 align:start position:0%
+now in general<c.colorE5E5E5> for any discrete random
+ </c>
+
+00:04:23.900 --> 00:04:27.999 align:start position:0%
+now in general<c.colorE5E5E5> for any discrete random
+variables<00:04:24.560><c> x</c><00:04:24.800><c> and</c><00:04:24.949><c> y</c><00:04:25.069><c> we</c></c><c.colorCCCCCC><00:04:25.849><c> have</c><00:04:27.009><c> the</c></c>
+
+00:04:27.999 --> 00:04:28.009 align:start position:0%
+variables x and<c.colorE5E5E5> y we</c><c.colorCCCCCC> have the
+ </c>
+
+00:04:28.009 --> 00:04:31.180 align:start position:0%
+variables x and<c.colorE5E5E5> y we</c><c.colorCCCCCC> have the
+conditional</c><c.colorE5E5E5><00:04:28.610><c> entropy</c><00:04:28.819><c> is</c><00:04:29.650><c> no</c><00:04:30.650><c> larger</c><00:04:31.159><c> than</c></c>
+
+00:04:31.180 --> 00:04:31.190 align:start position:0%
+conditional<c.colorE5E5E5> entropy is no larger than
+ </c>
+
+00:04:31.190 --> 00:04:35.040 align:start position:0%
+conditional<c.colorE5E5E5> entropy is no larger than
+the<00:04:31.729><c> entropy</c><00:04:32.270><c> of</c></c><c.colorCCCCCC><00:04:32.569><c> the</c><00:04:33.310><c> variable</c><00:04:34.310><c> X</c><00:04:34.550><c> so</c></c>
+
+00:04:35.040 --> 00:04:35.050 align:start position:0%
+<c.colorE5E5E5>the entropy of</c><c.colorCCCCCC> the variable X so
+ </c>
+
+00:04:35.050 --> 00:04:39.550 align:start position:0%
+<c.colorE5E5E5>the entropy of</c><c.colorCCCCCC> the variable X so</c>
+<c.colorE5E5E5>basically<00:04:36.050><c> this</c><00:04:36.710><c> is</c></c><c.colorCCCCCC><00:04:36.979><c> a</c><00:04:37.099><c> upper</c><00:04:37.849><c> bound</c></c><c.colorE5E5E5><00:04:37.879><c> for</c><00:04:38.560><c> the</c></c>
+
+00:04:39.550 --> 00:04:39.560 align:start position:0%
+<c.colorE5E5E5>basically this is</c><c.colorCCCCCC> a upper bound</c><c.colorE5E5E5> for the
+ </c>
+
+00:04:39.560 --> 00:04:43.270 align:start position:0%
+<c.colorE5E5E5>basically this is</c><c.colorCCCCCC> a upper bound</c><c.colorE5E5E5> for the
+conditional<00:04:40.520><c> entropy</c></c><c.colorCCCCCC><00:04:40.699><c> that</c><00:04:41.569><c> means</c><00:04:42.349><c> by</c></c>
+
+00:04:43.270 --> 00:04:43.280 align:start position:0%
+conditional entropy<c.colorCCCCCC> that means by
+ </c>
+
+00:04:43.280 --> 00:04:45.369 align:start position:0%
+conditional entropy<c.colorCCCCCC> that means by
+knowing<00:04:43.729><c> more</c><00:04:44.000><c> information</c><00:04:44.930><c> about</c></c><c.colorE5E5E5><00:04:45.050><c> the</c></c>
+
+00:04:45.369 --> 00:04:45.379 align:start position:0%
+knowing<c.colorCCCCCC> more information about</c><c.colorE5E5E5> the
+ </c>
+
+00:04:45.379 --> 00:04:48.490 align:start position:0%
+knowing<c.colorCCCCCC> more information about</c><c.colorE5E5E5> the</c>
+<c.colorCCCCCC>segment<00:04:45.800><c> we</c></c><c.colorE5E5E5><00:04:46.430><c> want</c><00:04:46.789><c> to</c><00:04:46.970><c> be</c></c><c.colorCCCCCC><00:04:47.060><c> able</c><00:04:47.300><c> to</c><00:04:47.509><c> increase</c></c>
+
+00:04:48.490 --> 00:04:48.500 align:start position:0%
+<c.colorCCCCCC>segment we</c><c.colorE5E5E5> want to be</c><c.colorCCCCCC> able to increase
+ </c>
+
+00:04:48.500 --> 00:04:50.950 align:start position:0%
+<c.colorCCCCCC>segment we</c><c.colorE5E5E5> want to be</c><c.colorCCCCCC> able to increase
+the<00:04:48.650><c> uncertainty</c><00:04:48.979><c> we</c><00:04:49.729><c> count</c><00:04:50.030><c> in</c><00:04:50.240><c> reduced</c><00:04:50.659><c> and</c></c>
+
+00:04:50.950 --> 00:04:50.960 align:start position:0%
+the<c.colorCCCCCC> uncertainty we count in reduced and
+ </c>
+
+00:04:50.960 --> 00:04:52.719 align:start position:0%
+the<c.colorCCCCCC> uncertainty we count in reduced and
+certainty<00:04:51.319><c> and</c></c><c.colorE5E5E5><00:04:51.470><c> that</c><00:04:51.530><c> intuitively</c><00:04:52.400><c> makes</c></c>
+
+00:04:52.719 --> 00:04:52.729 align:start position:0%
+<c.colorCCCCCC>certainty and</c><c.colorE5E5E5> that intuitively makes
+ </c>
+
+00:04:52.729 --> 00:04:54.610 align:start position:0%
+<c.colorCCCCCC>certainty and</c><c.colorE5E5E5> that intuitively makes
+sense<00:04:53.000><c> because</c></c><c.colorCCCCCC><00:04:53.690><c> as</c><00:04:54.050><c> we</c><00:04:54.229><c> know</c><00:04:54.409><c> more</c></c>
+
+00:04:54.610 --> 00:04:54.620 align:start position:0%
+sense because<c.colorCCCCCC> as we know more
+ </c>
+
+00:04:54.620 --> 00:04:57.749 align:start position:0%
+sense because<c.colorCCCCCC> as we know more</c>
+<c.colorCCCCCC>information<00:04:55.190><c> it</c><00:04:56.180><c> should</c><00:04:56.479><c> always</c><00:04:56.780><c> help</c><00:04:57.289><c> us</c></c>
+
+00:04:57.749 --> 00:04:57.759 align:start position:0%
+<c.colorCCCCCC>information it should always help us
+ </c>
+
+00:04:57.759 --> 00:05:01.659 align:start position:0%
+<c.colorCCCCCC>information it should always help us
+make<00:04:58.759><c> the</c><00:04:58.909><c> prediction</c></c><c.colorE5E5E5><00:04:59.419><c> and</c></c><c.colorCCCCCC><00:04:59.599><c> you</c><00:05:00.470><c> cannot</c><00:05:00.889><c> hurt</c></c>
+
+00:05:01.659 --> 00:05:01.669 align:start position:0%
+make the prediction<c.colorE5E5E5> and</c><c.colorCCCCCC> you cannot hurt
+ </c>
+
+00:05:01.669 --> 00:05:05.620 align:start position:0%
+make the prediction<c.colorE5E5E5> and</c><c.colorCCCCCC> you cannot hurt
+the<00:05:02.599><c> prediction</c><00:05:03.080><c> in</c><00:05:03.349><c> a</c><00:05:03.560><c> case</c></c><c.colorE5E5E5><00:05:04.419><c> now</c><00:05:05.419><c> what's</c></c>
+
+00:05:05.620 --> 00:05:05.630 align:start position:0%
+the prediction in a case<c.colorE5E5E5> now what's
+ </c>
+
+00:05:05.630 --> 00:05:07.390 align:start position:0%
+the prediction in a case<c.colorE5E5E5> now what's
+interesting<00:05:05.840><c> here</c><00:05:06.319><c> is</c></c><c.colorCCCCCC><00:05:06.380><c> also</c><00:05:06.830><c> to</c><00:05:07.009><c> think</c><00:05:07.190><c> about</c></c>
+
+00:05:07.390 --> 00:05:07.400 align:start position:0%
+interesting here is<c.colorCCCCCC> also to think about
+ </c>
+
+00:05:07.400 --> 00:05:09.279 align:start position:0%
+interesting here is<c.colorCCCCCC> also to think about
+what's<00:05:07.699><c> the</c><00:05:07.909><c> minimum</c></c><c.colorE5E5E5><00:05:08.300><c> possible</c><00:05:08.599><c> value</c><00:05:08.870><c> of</c></c>
+
+00:05:09.279 --> 00:05:09.289 align:start position:0%
+what's<c.colorCCCCCC> the minimum</c><c.colorE5E5E5> possible value of
+ </c>
+
+00:05:09.289 --> 00:05:12.070 align:start position:0%
+what's<c.colorCCCCCC> the minimum</c><c.colorE5E5E5> possible value of
+this<00:05:10.130><c> conditional</c><00:05:10.729><c> entropy</c><00:05:10.909><c> now</c><00:05:11.780><c> we</c><00:05:11.840><c> know</c></c>
+
+00:05:12.070 --> 00:05:12.080 align:start position:0%
+this conditional<c.colorE5E5E5> entropy now we know
+ </c>
+
+00:05:12.080 --> 00:05:15.309 align:start position:0%
+this conditional<c.colorE5E5E5> entropy now we know
+that<00:05:12.110><c> that</c><00:05:12.650><c> the</c><00:05:13.039><c> maximum</c><00:05:13.490><c> value</c><00:05:13.719><c> is</c><00:05:14.719><c> the</c></c>
+
+00:05:15.309 --> 00:05:15.319 align:start position:0%
+that that the maximum<c.colorE5E5E5> value is the
+ </c>
+
+00:05:15.319 --> 00:05:18.790 align:start position:0%
+that that the maximum<c.colorE5E5E5> value is the
+entropy<00:05:15.590><c> of</c><00:05:15.710><c> X</c><00:05:16.930><c> but</c><00:05:17.930><c> what</c><00:05:18.199><c> about</c><00:05:18.469><c> the</c><00:05:18.650><c> minimum</c></c>
+
+00:05:18.790 --> 00:05:18.800 align:start position:0%
+entropy of X but what about the minimum
+ 
+
+00:05:18.800 --> 00:05:23.379 align:start position:0%
+entropy of X but what about the minimum
+<c.colorE5E5E5>so<00:05:19.610><c> what</c><00:05:19.819><c> do</c><00:05:19.909><c> you</c><00:05:20.000><c> think</c><00:05:20.240><c> I</c><00:05:22.030><c> hope</c><00:05:23.030><c> you</c><00:05:23.240><c> can</c></c>
+
+00:05:23.379 --> 00:05:23.389 align:start position:0%
+<c.colorE5E5E5>so what do you think I hope you can
+ </c>
+
+00:05:23.389 --> 00:05:25.899 align:start position:0%
+<c.colorE5E5E5>so what do you think I hope you can
+reach<00:05:23.599><c> the</c><00:05:23.870><c> conclusion</c><00:05:24.590><c> that</c><00:05:24.620><c> the</c><00:05:25.340><c> the</c></c>
+
+00:05:25.899 --> 00:05:25.909 align:start position:0%
+reach the conclusion that the the
+ 
+
+00:05:25.909 --> 00:05:28.600 align:start position:0%
+reach the conclusion that the the
+<c.colorE5E5E5>minimum<00:05:26.360><c> possible</c><00:05:26.569><c> value</c><00:05:26.870><c> would</c><00:05:27.800><c> be</c></c><c.colorCCCCCC><00:05:27.860><c> zero</c><00:05:28.400><c> and</c></c>
+
+00:05:28.600 --> 00:05:28.610 align:start position:0%
+<c.colorE5E5E5>minimum possible value would be</c><c.colorCCCCCC> zero and
+ </c>
+
+00:05:28.610 --> 00:05:29.920 align:start position:0%
+<c.colorE5E5E5>minimum possible value would be</c><c.colorCCCCCC> zero and</c>
+<c.colorE5E5E5>it</c><c.colorCCCCCC><00:05:28.909><c> will</c><00:05:29.000><c> be</c><00:05:29.090><c> interesting</c><00:05:29.539><c> to</c></c><c.colorE5E5E5><00:05:29.569><c> think</c><00:05:29.719><c> about</c></c>
+
+00:05:29.920 --> 00:05:29.930 align:start position:0%
+<c.colorE5E5E5>it</c><c.colorCCCCCC> will be interesting to</c><c.colorE5E5E5> think about
+ </c>
+
+00:05:29.930 --> 00:05:33.180 align:start position:0%
+<c.colorE5E5E5>it</c><c.colorCCCCCC> will be interesting to</c><c.colorE5E5E5> think about
+and<00:05:30.440><c> the</c><00:05:30.949><c> word</c><00:05:31.099><c> situation</c><00:05:31.729><c> will</c><00:05:32.240><c> achieve</c><00:05:32.360><c> this</c></c>
+
+00:05:33.180 --> 00:05:33.190 align:start position:0%
+<c.colorE5E5E5>and the word situation will achieve this
+ </c>
+
+00:05:33.190 --> 00:05:35.860 align:start position:0%
+<c.colorE5E5E5>and the word situation will achieve this
+so<00:05:34.190><c> let's</c><00:05:34.639><c> see</c><00:05:34.880><c> how</c><00:05:35.120><c> we</c><00:05:35.180><c> can</c></c><c.colorCCCCCC><00:05:35.449><c> use</c><00:05:35.630><c> conditional</c></c>
+
+00:05:35.860 --> 00:05:35.870 align:start position:0%
+so let's see how we can<c.colorCCCCCC> use conditional
+ </c>
+
+00:05:35.870 --> 00:05:37.600 align:start position:0%
+so let's see how we can<c.colorCCCCCC> use conditional
+tomato<00:05:36.440><c> capitals</c><00:05:36.919><c> in</c><00:05:37.069><c> a</c><00:05:37.190><c> grammatical</c></c>
+
+00:05:37.600 --> 00:05:37.610 align:start position:0%
+tomato<c.colorCCCCCC> capitals in a grammatical
+ </c>
+
+00:05:37.610 --> 00:05:42.309 align:start position:0%
+tomato<c.colorCCCCCC> capitals in a grammatical
+relations<00:05:38.440><c> now</c><00:05:39.440><c> of</c><00:05:39.740><c> course</c><00:05:40.419><c> this</c><00:05:41.419><c> conditional</c></c>
+
+00:05:42.309 --> 00:05:42.319 align:start position:0%
+relations now of course this conditional
+ 
+
+00:05:42.319 --> 00:05:44.950 align:start position:0%
+relations now of course this conditional
+entropy<c.colorE5E5E5><00:05:42.590><c> gives</c><00:05:43.190><c> us</c><00:05:43.370><c> directly</c><00:05:43.880><c> one</c><00:05:44.300><c> way</c><00:05:44.539><c> to</c></c>
+
+00:05:44.950 --> 00:05:44.960 align:start position:0%
+entropy<c.colorE5E5E5> gives us directly one way to
+ </c>
+
+00:05:44.960 --> 00:05:47.490 align:start position:0%
+entropy<c.colorE5E5E5> gives us directly one way to
+measure<00:05:45.259><c> the</c></c><c.colorCCCCCC><00:05:45.500><c> association</c><00:05:46.130><c> of</c><00:05:46.219><c> two</c><00:05:46.759><c> words</c></c>
+
+00:05:47.490 --> 00:05:47.500 align:start position:0%
+measure the<c.colorCCCCCC> association of two words
+ </c>
+
+00:05:47.500 --> 00:05:52.089 align:start position:0%
+measure the<c.colorCCCCCC> association of two words</c>
+<c.colorE5E5E5>because<00:05:48.500><c> it</c><00:05:48.830><c> tells</c><00:05:49.099><c> us</c><00:05:49.430><c> to</c></c><c.colorCCCCCC><00:05:50.150><c> what</c><00:05:50.599><c> extent</c><00:05:51.099><c> we</c></c>
+
+00:05:52.089 --> 00:05:52.099 align:start position:0%
+<c.colorE5E5E5>because it tells us to</c><c.colorCCCCCC> what extent we
+ </c>
+
+00:05:52.099 --> 00:05:54.850 align:start position:0%
+<c.colorE5E5E5>because it tells us to</c><c.colorCCCCCC> what extent we
+can<00:05:52.310><c> predict</c></c><c.colorE5E5E5><00:05:53.210><c> the</c><00:05:53.360><c> one</c><00:05:53.599><c> word</c><00:05:53.840><c> given</c><00:05:54.500><c> that</c><00:05:54.650><c> we</c></c>
+
+00:05:54.850 --> 00:05:54.860 align:start position:0%
+can predict<c.colorE5E5E5> the one word given that we
+ </c>
+
+00:05:54.860 --> 00:05:56.980 align:start position:0%
+can predict<c.colorE5E5E5> the one word given that we
+know<00:05:55.099><c> the</c><00:05:55.520><c> presence</c><00:05:55.909><c> or</c><00:05:56.000><c> absence</c></c><c.colorCCCCCC><00:05:56.060><c> of</c><00:05:56.539><c> another</c></c>
+
+00:05:56.980 --> 00:05:56.990 align:start position:0%
+know the presence or<c.colorE5E5E5> absence</c><c.colorCCCCCC> of another
+ </c>
+
+00:05:56.990 --> 00:06:00.189 align:start position:0%
+know the presence or<c.colorE5E5E5> absence</c><c.colorCCCCCC> of another
+world<00:05:57.759><c> now</c><00:05:58.759><c> before</c></c><c.colorE5E5E5><00:05:59.750><c> we</c><00:05:59.840><c> look</c><00:05:59.960><c> at</c><00:06:00.080><c> the</c></c>
+
+00:06:00.189 --> 00:06:00.199 align:start position:0%
+world now before<c.colorE5E5E5> we look at the
+ </c>
+
+00:06:00.199 --> 00:06:03.189 align:start position:0%
+world now before<c.colorE5E5E5> we look at the
+intuition<00:06:00.770><c> of</c><00:06:01.630><c> conditional</c><00:06:02.630><c> entropy</c><00:06:02.750><c> in</c></c>
+
+00:06:03.189 --> 00:06:03.199 align:start position:0%
+intuition of conditional entropy in
+ 
+
+00:06:03.199 --> 00:06:05.469 align:start position:0%
+intuition of conditional entropy in
+<c.colorE5E5E5>capturing<00:06:03.770><c> cinematical</c><00:06:04.580><c> relations</c><00:06:04.940><c> it's</c></c>
+
+00:06:05.469 --> 00:06:05.479 align:start position:0%
+<c.colorE5E5E5>capturing cinematical relations it's
+ </c>
+
+00:06:05.479 --> 00:06:07.570 align:start position:0%
+<c.colorE5E5E5>capturing cinematical relations it's
+useful</c><c.colorCCCCCC><00:06:05.960><c> to</c><00:06:06.050><c> think</c><00:06:06.080><c> of</c><00:06:06.319><c> a</c></c><c.colorE5E5E5><00:06:06.500><c> very</c></c><c.colorCCCCCC><00:06:06.800><c> special</c><00:06:07.340><c> case</c></c>
+
+00:06:07.570 --> 00:06:07.580 align:start position:0%
+useful<c.colorCCCCCC> to think of a</c><c.colorE5E5E5> very</c><c.colorCCCCCC> special case
+ </c>
+
+00:06:07.580 --> 00:06:10.689 align:start position:0%
+useful<c.colorCCCCCC> to think of a</c><c.colorE5E5E5> very</c><c.colorCCCCCC> special case</c>
+<c.colorE5E5E5>listed<00:06:08.150><c> here</c><00:06:08.389><c> that</c></c><c.colorCCCCCC><00:06:08.630><c> is</c><00:06:09.319><c> the</c><00:06:10.039><c> conditional</c></c>
+
+00:06:10.689 --> 00:06:10.699 align:start position:0%
+<c.colorE5E5E5>listed here that</c><c.colorCCCCCC> is the conditional
+ </c>
+
+00:06:10.699 --> 00:06:21.689 align:start position:0%
+<c.colorE5E5E5>listed here that</c><c.colorCCCCCC> is the conditional
+entropy<00:06:10.909><c> of</c><00:06:13.479><c> the</c><00:06:14.479><c> word</c><00:06:14.919><c> given</c><00:06:15.969><c> itself</c><00:06:18.039><c> so</c><00:06:19.039><c> I</c></c>
+
+00:06:21.689 --> 00:06:21.699 align:start position:0%
+ 
+ 
+
+00:06:21.699 --> 00:06:27.430 align:start position:0%
+ 
+here<c.colorE5E5E5><00:06:22.699><c> we</c><00:06:23.120><c> listed</c><00:06:23.949><c> this</c><00:06:24.949><c> and</c><00:06:26.319><c> condition</c><00:06:27.319><c> might</c></c>
+
+00:06:27.430 --> 00:06:27.440 align:start position:0%
+here<c.colorE5E5E5> we listed this and condition might
+ </c>
+
+00:06:27.440 --> 00:06:32.590 align:start position:0%
+here<c.colorE5E5E5> we listed this and condition might
+be<00:06:27.710><c> in</c><00:06:27.919><c> the</c><00:06:28.069><c> middle</c><00:06:29.259><c> right</c><00:06:30.259><c> so</c><00:06:30.710><c> it's</c><00:06:30.919><c> here</c></c>
+
+00:06:32.590 --> 00:06:32.600 align:start position:0%
+be in the middle right<c.colorE5E5E5> so it's here
+ </c>
+
+00:06:32.600 --> 00:06:38.810 align:start position:0%
+be in the middle right<c.colorE5E5E5> so it's here
+so<00:06:33.600><c> what</c><00:06:33.840><c> is</c><00:06:33.930><c> the</c><00:06:34.080><c> value</c></c><c.colorCCCCCC><00:06:34.200><c> of</c><00:06:34.560><c> this</c></c><c.colorE5E5E5><00:06:35.420><c> now</c><00:06:37.820><c> this</c></c>
+
+00:06:38.810 --> 00:06:38.820 align:start position:0%
+so what is the value<c.colorCCCCCC> of this</c><c.colorE5E5E5> now this
+ </c>
+
+00:06:38.820 --> 00:06:42.440 align:start position:0%
+so what is the value<c.colorCCCCCC> of this</c><c.colorE5E5E5> now this
+means<00:06:39.090><c> we</c><00:06:39.960><c> know</c><00:06:40.290><c> whether</c><00:06:40.830><c> meat</c><00:06:41.220><c> occurs</c><00:06:41.850><c> in</c><00:06:42.210><c> the</c></c>
+
+00:06:42.440 --> 00:06:42.450 align:start position:0%
+means we know<c.colorE5E5E5> whether meat occurs in the
+ </c>
+
+00:06:42.450 --> 00:06:45.230 align:start position:0%
+means we know<c.colorE5E5E5> whether meat occurs in the
+sentence<00:06:42.840><c> and</c><00:06:43.020><c> we</c><00:06:43.530><c> hope</c><00:06:43.800><c> to</c><00:06:43.830><c> predict</c><00:06:44.580><c> whether</c></c>
+
+00:06:45.230 --> 00:06:45.240 align:start position:0%
+sentence<c.colorE5E5E5> and we hope to predict whether
+ </c>
+
+00:06:45.240 --> 00:06:47.690 align:start position:0%
+sentence<c.colorE5E5E5> and we hope to predict whether</c>
+<c.colorCCCCCC>the<00:06:45.450><c> meat</c><00:06:45.630><c> occurs</c><00:06:46.050><c> in</c><00:06:46.230><c> the</c><00:06:46.350><c> sentence</c><00:06:46.710><c> now</c><00:06:46.920><c> of</c></c>
+
+00:06:47.690 --> 00:06:47.700 align:start position:0%
+<c.colorCCCCCC>the meat occurs in the sentence now of
+ </c>
+
+00:06:47.700 --> 00:06:51.290 align:start position:0%
+<c.colorCCCCCC>the meat occurs in the sentence now of</c>
+<c.colorE5E5E5>course<00:06:48.180><c> this</c><00:06:48.840><c> is</c><00:06:49.050><c> zero</c><00:06:49.410><c> because</c><00:06:50.340><c> there's</c><00:06:51.180><c> no</c></c>
+
+00:06:51.290 --> 00:06:51.300 align:start position:0%
+<c.colorE5E5E5>course this is zero because there's no
+ </c>
+
+00:06:51.300 --> 00:06:52.580 align:start position:0%
+<c.colorE5E5E5>course this is zero because there's no</c>
+<c.colorCCCCCC>uncertainty</c><c.colorE5E5E5><00:06:51.660><c> anymore</c></c>
+
+00:06:52.580 --> 00:06:52.590 align:start position:0%
+<c.colorCCCCCC>uncertainty</c><c.colorE5E5E5> anymore
+ </c>
+
+00:06:52.590 --> 00:06:55.100 align:start position:0%
+<c.colorCCCCCC>uncertainty</c><c.colorE5E5E5> anymore
+once<00:06:52.770><c> we</c><00:06:53.010><c> know</c><00:06:53.220><c> whether</c><00:06:53.610><c> the</c><00:06:53.820><c> word</c><00:06:54.060><c> occurs</c><00:06:54.450><c> in</c></c>
+
+00:06:55.100 --> 00:06:55.110 align:start position:0%
+once we know whether<c.colorE5E5E5> the word occurs in
+ </c>
+
+00:06:55.110 --> 00:06:57.380 align:start position:0%
+once we know whether<c.colorE5E5E5> the word occurs in
+the<00:06:55.410><c> segment</c><00:06:55.920><c> we'll</c><00:06:56.760><c> already</c><00:06:56.940><c> know</c><00:06:57.330><c> the</c></c>
+
+00:06:57.380 --> 00:06:57.390 align:start position:0%
+the segment we'll already know the
+ 
+
+00:06:57.390 --> 00:07:00.140 align:start position:0%
+the segment we'll already know the
+answer<c.colorE5E5E5><00:06:57.840><c> of</c><00:06:58.020><c> the</c><00:06:58.200><c> prediction</c></c><c.colorCCCCCC><00:06:58.680><c> so</c><00:06:59.340><c> this</c><00:06:59.670><c> is</c><00:06:59.820><c> zero</c></c>
+
+00:07:00.140 --> 00:07:00.150 align:start position:0%
+answer<c.colorE5E5E5> of the prediction</c><c.colorCCCCCC> so this is zero
+ </c>
+
+00:07:00.150 --> 00:07:02.180 align:start position:0%
+answer<c.colorE5E5E5> of the prediction</c><c.colorCCCCCC> so this is zero</c>
+<c.colorE5E5E5>and<00:07:00.360><c> that's</c></c><c.colorCCCCCC><00:07:00.600><c> also</c><00:07:00.990><c> when</c><00:07:01.230><c> this</c><00:07:01.710><c> conditional</c></c>
+
+00:07:02.180 --> 00:07:02.190 align:start position:0%
+<c.colorE5E5E5>and that's</c><c.colorCCCCCC> also when this conditional
+ </c>
+
+00:07:02.190 --> 00:07:06.770 align:start position:0%
+<c.colorE5E5E5>and that's</c><c.colorCCCCCC> also when this conditional
+entropy<00:07:02.280><c> reaches</c><00:07:02.880><c> the</c><00:07:03.090><c> minimum</c><00:07:05.330><c> so</c><00:07:06.330><c> now</c><00:07:06.570><c> let's</c></c>
+
+00:07:06.770 --> 00:07:06.780 align:start position:0%
+entropy reaches the minimum so now let's
+ 
+
+00:07:06.780 --> 00:07:10.070 align:start position:0%
+entropy reaches the minimum so now let's
+look<00:07:06.870><c> at</c><c.colorCCCCCC><00:07:07.080><c> the</c><00:07:07.230><c> some</c><00:07:07.440><c> other</c><00:07:07.620><c> cases</c><00:07:08.570><c> so</c><00:07:09.570><c> this</c><00:07:09.900><c> is</c></c>
+
+00:07:10.070 --> 00:07:10.080 align:start position:0%
+look at<c.colorCCCCCC> the some other cases so this is
+ </c>
+
+00:07:10.080 --> 00:07:15.200 align:start position:0%
+look at<c.colorCCCCCC> the some other cases so this is
+the<00:07:10.290><c> case</c></c><c.colorE5E5E5><00:07:10.560><c> of</c><00:07:11.840><c> knowing</c><00:07:12.840><c> the</c><00:07:13.800><c> and</c><00:07:14.130><c> trying</c><00:07:15.090><c> to</c></c>
+
+00:07:15.200 --> 00:07:15.210 align:start position:0%
+the case<c.colorE5E5E5> of knowing the and trying to
+ </c>
+
+00:07:15.210 --> 00:07:17.420 align:start position:0%
+the case<c.colorE5E5E5> of knowing the and trying to
+predict<00:07:15.570><c> the</c><00:07:15.660><c> meat</c><00:07:15.930><c> and</c><00:07:16.200><c> this</c><00:07:16.620><c> is</c><00:07:16.770><c> the</c><00:07:16.890><c> case</c></c><c.colorCCCCCC><00:07:17.130><c> of</c></c>
+
+00:07:17.420 --> 00:07:17.430 align:start position:0%
+predict<c.colorE5E5E5> the meat and this is the case</c><c.colorCCCCCC> of
+ </c>
+
+00:07:17.430 --> 00:07:19.900 align:start position:0%
+predict<c.colorE5E5E5> the meat and this is the case</c><c.colorCCCCCC> of
+knowing<00:07:17.970><c> each</c><00:07:18.270><c> trying</c><00:07:19.050><c> to</c><00:07:19.140><c> predict</c><00:07:19.470><c> the</c><00:07:19.590><c> meat</c></c>
+
+00:07:19.900 --> 00:07:19.910 align:start position:0%
+knowing each<c.colorCCCCCC> trying to predict the meat
+ </c>
+
+00:07:19.910 --> 00:07:22.100 align:start position:0%
+knowing each<c.colorCCCCCC> trying to predict the meat
+which<00:07:20.910><c> one</c><00:07:21.180><c> do</c></c><c.colorE5E5E5><00:07:21.270><c> you</c><00:07:21.390><c> think</c><00:07:21.450><c> that</c><00:07:21.660><c> is</c><00:07:21.780><c> smaller</c></c>
+
+00:07:22.100 --> 00:07:22.110 align:start position:0%
+which one do<c.colorE5E5E5> you think that is smaller
+ </c>
+
+00:07:22.110 --> 00:07:26.600 align:start position:0%
+which one do<c.colorE5E5E5> you think that is smaller</c>
+<c.colorE5E5E5>note<00:07:22.950><c> that</c><00:07:23.160><c> a</c><00:07:23.340><c> smaller</c><00:07:23.760><c> entropy</c><00:07:24.720><c> means</c><00:07:25.610><c> easier</c></c>
+
+00:07:26.600 --> 00:07:26.610 align:start position:0%
+<c.colorE5E5E5>note that a smaller entropy means easier
+ </c>
+
+00:07:26.610 --> 00:07:32.600 align:start position:0%
+<c.colorE5E5E5>note that a smaller entropy means easier
+for<00:07:27.330><c> prediction</c><00:07:30.740><c> which</c><00:07:31.740><c> one</c><00:07:31.950><c> do</c><00:07:32.070><c> you</c><00:07:32.130><c> think</c><00:07:32.190><c> is</c></c>
+
+00:07:32.600 --> 00:07:32.610 align:start position:0%
+for prediction which one do you<c.colorE5E5E5> think is
+ </c>
+
+00:07:32.610 --> 00:07:37.190 align:start position:0%
+for prediction which one do you<c.colorE5E5E5> think is
+higher<00:07:32.970><c> which</c><00:07:33.330><c> lines</c><00:07:33.600><c> is</c><00:07:34.020><c> smaller</c><00:07:35.870><c> well</c><00:07:36.870><c> if</c></c>
+
+00:07:37.190 --> 00:07:37.200 align:start position:0%
+higher which lines is smaller<c.colorE5E5E5> well if
+ </c>
+
+00:07:37.200 --> 00:07:40.700 align:start position:0%
+higher which lines is smaller<c.colorE5E5E5> well if
+you<00:07:37.320><c> look</c><00:07:37.500><c> at</c><00:07:37.620><c> the</c><00:07:37.740><c> uncertainty</c><00:07:38.400><c> then</c><00:07:39.380><c> in</c><00:07:40.380><c> the</c></c>
+
+00:07:40.700 --> 00:07:40.710 align:start position:0%
+you look at<c.colorE5E5E5> the uncertainty then in the
+ </c>
+
+00:07:40.710 --> 00:07:43.850 align:start position:0%
+you look at<c.colorE5E5E5> the uncertainty then in the
+first<00:07:41.010><c> case</c><00:07:41.510><c> the</c><00:07:42.510><c> doesn't</c><00:07:43.080><c> really</c><00:07:43.350><c> tell</c></c><c.colorCCCCCC><00:07:43.680><c> us</c></c>
+
+00:07:43.850 --> 00:07:43.860 align:start position:0%
+first case the doesn't really tell<c.colorCCCCCC> us
+ </c>
+
+00:07:43.860 --> 00:07:46.520 align:start position:0%
+first case the doesn't really tell<c.colorCCCCCC> us
+much<00:07:44.100><c> about</c><00:07:44.280><c> the</c><00:07:44.730><c> meat</c><00:07:44.940><c> so</c><00:07:45.780><c> knowing</c></c><c.colorE5E5E5><00:07:46.290><c> the</c></c>
+
+00:07:46.520 --> 00:07:46.530 align:start position:0%
+much about the meat so knowing<c.colorE5E5E5> the
+ </c>
+
+00:07:46.530 --> 00:07:48.170 align:start position:0%
+much about the meat so knowing<c.colorE5E5E5> the
+occurrence<00:07:46.980><c> of</c><00:07:47.130><c> the</c><00:07:47.370><c> doesn't</c><00:07:47.790><c> and</c><00:07:47.910><c> really</c></c>
+
+00:07:48.170 --> 00:07:48.180 align:start position:0%
+occurrence of the<c.colorE5E5E5> doesn't and really
+ </c>
+
+00:07:48.180 --> 00:07:50.780 align:start position:0%
+occurrence of the<c.colorE5E5E5> doesn't and really</c>
+<c.colorE5E5E5>help<00:07:48.390><c> us</c><00:07:48.540><c> reduce</c></c><c.colorCCCCCC><00:07:49.500><c> the</c><00:07:49.920><c> entropy</c></c><c.colorE5E5E5><00:07:50.190><c> in</c><00:07:50.400><c> that</c><00:07:50.550><c> match</c></c>
+
+00:07:50.780 --> 00:07:50.790 align:start position:0%
+<c.colorE5E5E5>help us reduce</c><c.colorCCCCCC> the entropy</c><c.colorE5E5E5> in that match
+ </c>
+
+00:07:50.790 --> 00:07:54.200 align:start position:0%
+<c.colorE5E5E5>help us reduce</c><c.colorCCCCCC> the entropy</c><c.colorE5E5E5> in that match
+so<00:07:51.540><c> it</c><00:07:51.870><c> stays</c><00:07:52.230><c> as</c><00:07:52.620><c> fairly</c><00:07:53.460><c> close</c><00:07:53.790><c> to</c><00:07:54.090><c> the</c></c>
+
+00:07:54.200 --> 00:07:54.210 align:start position:0%
+so it stays as<c.colorE5E5E5> fairly close to the
+ </c>
+
+00:07:54.210 --> 00:07:57.950 align:start position:0%
+so it stays as<c.colorE5E5E5> fairly close to the
+original<00:07:54.840><c> entropy</c><00:07:55.590><c> of</c><00:07:55.740><c> meat</c><00:07:56.720><c> whereas</c><00:07:57.720><c> in</c><00:07:57.870><c> the</c></c>
+
+00:07:57.950 --> 00:07:57.960 align:start position:0%
+original entropy of meat whereas in the
+ 
+
+00:07:57.960 --> 00:08:01.130 align:start position:0%
+original entropy of meat whereas in the
+case<00:07:57.990><c> of</c><c.colorCCCCCC><00:07:58.170><c> eat</c><00:07:58.790><c> eat</c><00:07:59.790><c> is</c><00:08:00.120><c> related</c></c><c.colorE5E5E5><00:08:00.630><c> to</c><00:08:00.780><c> meat</c></c>
+
+00:08:01.130 --> 00:08:01.140 align:start position:0%
+case of<c.colorCCCCCC> eat eat is related</c><c.colorE5E5E5> to meat
+ </c>
+
+00:08:01.140 --> 00:08:03.830 align:start position:0%
+case of<c.colorCCCCCC> eat eat is related</c><c.colorE5E5E5> to meat
+so<00:08:01.230><c> knowing</c><00:08:01.620><c> presence</c><00:08:02.130><c> of</c></c><c.colorCCCCCC><00:08:02.280><c> meat</c><00:08:02.520><c> or</c><00:08:02.840><c> absence</c></c>
+
+00:08:03.830 --> 00:08:03.840 align:start position:0%
+so knowing presence of<c.colorCCCCCC> meat or absence
+ </c>
+
+00:08:03.840 --> 00:08:06.350 align:start position:0%
+so knowing presence of<c.colorCCCCCC> meat or absence
+of<00:08:03.930><c> meats</c><00:08:04.170><c> would</c><00:08:04.470><c> help</c><00:08:04.860><c> us</c><00:08:05.040><c> predict</c><00:08:05.730><c> whether</c></c>
+
+00:08:06.350 --> 00:08:06.360 align:start position:0%
+of meats would help us predict<c.colorCCCCCC> whether
+ </c>
+
+00:08:06.360 --> 00:08:09.320 align:start position:0%
+of meats would help us predict<c.colorCCCCCC> whether</c>
+<c.colorE5E5E5>meat<00:08:06.630><c> occurs</c><00:08:07.110><c> so</c><00:08:07.830><c> it</c><00:08:08.130><c> can</c><00:08:08.460><c> help</c><00:08:08.640><c> us</c><00:08:08.820><c> reduce</c><00:08:09.120><c> the</c></c>
+
+00:08:09.320 --> 00:08:09.330 align:start position:0%
+<c.colorE5E5E5>meat occurs so it can help us reduce the
+ </c>
+
+00:08:09.330 --> 00:08:15.200 align:start position:0%
+<c.colorE5E5E5>meat occurs so it can help us reduce the</c>
+<c.colorE5E5E5>entropy</c><c.colorCCCCCC><00:08:10.640><c> of</c><00:08:12.290><c> meat</c><00:08:13.370><c> so</c><00:08:14.370><c> we</c><00:08:14.580><c> should</c><00:08:14.760><c> expect</c><00:08:14.850><c> that</c></c>
+
+00:08:15.200 --> 00:08:15.210 align:start position:0%
+<c.colorE5E5E5>entropy</c><c.colorCCCCCC> of meat so we should expect that
+ </c>
+
+00:08:15.210 --> 00:08:18.950 align:start position:0%
+<c.colorE5E5E5>entropy</c><c.colorCCCCCC> of meat so we should expect that
+a</c><c.colorE5E5E5><00:08:15.390><c> signal</c><00:08:15.810><c> tone</c></c><c.colorCCCCCC><00:08:16.020><c> they</c><00:08:16.320><c> made</c><00:08:16.560><c> this</c><00:08:16.710><c> one</c></c><c.colorE5E5E5><00:08:17.720><c> to</c><00:08:18.720><c> have</c></c>
+
+00:08:18.950 --> 00:08:18.960 align:start position:0%
+<c.colorCCCCCC>a</c><c.colorE5E5E5> signal tone</c><c.colorCCCCCC> they made this one</c><c.colorE5E5E5> to have
+ </c>
+
+00:08:18.960 --> 00:08:23.060 align:start position:0%
+<c.colorCCCCCC>a</c><c.colorE5E5E5> signal tone</c><c.colorCCCCCC> they made this one</c><c.colorE5E5E5> to have
+a<00:08:18.990><c> smaller</c><00:08:19.680><c> entry</c><00:08:20.400><c> and</c><00:08:20.640><c> that</c></c><c.colorCCCCCC><00:08:21.080><c> means</c><00:08:22.080><c> there</c><00:08:22.950><c> is</c></c>
+
+00:08:23.060 --> 00:08:23.070 align:start position:0%
+a smaller entry and that<c.colorCCCCCC> means there is
+ </c>
+
+00:08:23.070 --> 00:08:25.160 align:start position:0%
+a smaller entry and that<c.colorCCCCCC> means there is
+a<00:08:23.100><c> stronger</c><00:08:23.520><c> association</c><00:08:24.210><c> between</c><00:08:24.510><c> meat</c><00:08:24.900><c> and</c></c>
+
+00:08:25.160 --> 00:08:25.170 align:start position:0%
+a stronger association between meat<c.colorCCCCCC> and
+ </c>
+
+00:08:25.170 --> 00:08:32.900 align:start position:0%
+a stronger association between meat<c.colorCCCCCC> and
+eat<00:08:28.100><c> so</c><00:08:29.100><c> will</c></c><c.colorE5E5E5><00:08:29.340><c> we</c><00:08:29.670><c> now</c><00:08:29.850><c> also</c><00:08:30.090><c> know</c><00:08:30.390><c> when</c><00:08:30.900><c> this</c><00:08:31.910><c> w</c></c>
+
+00:08:32.900 --> 00:08:32.910 align:start position:0%
+eat so will<c.colorE5E5E5> we now also know when this w
+ </c>
+
+00:08:32.910 --> 00:08:37.520 align:start position:0%
+eat so will<c.colorE5E5E5> we now also know when this w
+is<00:08:33.720><c> the</c><00:08:33.840><c> same</c><00:08:34.200><c> as</c><00:08:34.500><c> this</c><00:08:35.479><c> meat</c><00:08:36.479><c> then</c><00:08:37.229><c> the</c></c>
+
+00:08:37.520 --> 00:08:37.530 align:start position:0%
+is the<c.colorE5E5E5> same as this meat then the
+ </c>
+
+00:08:37.530 --> 00:08:39.200 align:start position:0%
+is the<c.colorE5E5E5> same as this meat then the
+entropy<00:08:37.860><c> conditional</c><00:08:38.580><c> entropy</c><00:08:38.669><c> would</c><00:08:39.000><c> reach</c></c>
+
+00:08:39.200 --> 00:08:39.210 align:start position:0%
+entropy conditional entropy would reach
+ 
+
+00:08:39.210 --> 00:08:42.469 align:start position:0%
+entropy conditional entropy would reach
+<c.colorE5E5E5>its<00:08:39.540><c> minimum</c><00:08:39.840><c> which</c></c><c.colorCCCCCC><00:08:40.320><c> is</c><00:08:40.440><c> zero</c></c><c.colorE5E5E5><00:08:40.710><c> and</c><00:08:41.330><c> for</c><00:08:42.330><c> what</c></c>
+
+00:08:42.469 --> 00:08:42.479 align:start position:0%
+<c.colorE5E5E5>its minimum which</c><c.colorCCCCCC> is zero</c><c.colorE5E5E5> and for what
+ </c>
+
+00:08:42.479 --> 00:08:44.150 align:start position:0%
+<c.colorE5E5E5>its minimum which</c><c.colorCCCCCC> is zero</c><c.colorE5E5E5> and for what
+kind<00:08:42.719><c> of</c></c><c.colorCCCCCC><00:08:42.780><c> words</c><00:08:43.050><c> would</c><00:08:43.410><c> be</c><00:08:43.560><c> the</c><00:08:43.710><c> rich</c><00:08:43.890><c> it's</c></c>
+
+00:08:44.150 --> 00:08:44.160 align:start position:0%
+kind of<c.colorCCCCCC> words would be the rich it's
+ </c>
+
+00:08:44.160 --> 00:08:44.570 align:start position:0%
+kind of<c.colorCCCCCC> words would be the rich it's
+matter</c>
+
+00:08:44.570 --> 00:08:44.580 align:start position:0%
+matter
+ 
+
+00:08:44.580 --> 00:08:48.320 align:start position:0%
+matter
+well<00:08:45.360><c> that's</c><00:08:46.200><c> when</c><00:08:46.529><c> this</c><00:08:46.740><c> w</c><00:08:47.250><c> is</c><00:08:47.490><c> not</c><c.colorE5E5E5><00:08:47.519><c> really</c></c>
+
+00:08:48.320 --> 00:08:48.330 align:start position:0%
+well that's when this w is not<c.colorE5E5E5> really
+ </c>
+
+00:08:48.330 --> 00:08:52.699 align:start position:0%
+well that's when this w is not<c.colorE5E5E5> really
+related<00:08:48.630><c> to</c></c><c.colorCCCCCC><00:08:48.870><c> meat</c></c><c.colorE5E5E5><00:08:49.680><c> and</c><00:08:50.630><c> like</c><00:08:51.630><c> a</c><00:08:51.660><c> for</c><00:08:52.290><c> example</c></c>
+
+00:08:52.699 --> 00:08:52.709 align:start position:0%
+<c.colorE5E5E5>related to</c><c.colorCCCCCC> meat</c><c.colorE5E5E5> and like a for example
+ </c>
+
+00:08:52.709 --> 00:08:55.370 align:start position:0%
+<c.colorE5E5E5>related to</c><c.colorCCCCCC> meat</c><c.colorE5E5E5> and like a for example
+and<00:08:53.459><c> it</c><00:08:53.670><c> would</c><00:08:53.790><c> be</c><00:08:53.940><c> very</c><00:08:54.240><c> close</c><00:08:54.630><c> to</c><00:08:55.050><c> the</c></c>
+
+00:08:55.370 --> 00:08:55.380 align:start position:0%
+<c.colorE5E5E5>and it would be very close to the
+ </c>
+
+00:08:55.380 --> 00:08:57.920 align:start position:0%
+<c.colorE5E5E5>and it would be very close to the
+maximum<00:08:55.680><c> which</c><00:08:56.339><c> is</c><00:08:56.399><c> the</c><00:08:57.149><c> entropy</c><00:08:57.450><c> of</c><00:08:57.570><c> meat</c></c>
+
+00:08:57.920 --> 00:08:57.930 align:start position:0%
+maximum<c.colorE5E5E5> which is the entropy of meat
+ </c>
+
+00:08:57.930 --> 00:09:01.610 align:start position:0%
+maximum<c.colorE5E5E5> which is the entropy of meat
+itself<00:08:59.000><c> so</c><00:09:00.000><c> this</c><00:09:00.330><c> suggests</c><00:09:00.899><c> that</c><00:09:01.019><c> we</c><00:09:01.200><c> can</c><00:09:01.470><c> use</c></c>
+
+00:09:01.610 --> 00:09:01.620 align:start position:0%
+itself<c.colorE5E5E5> so this suggests that we can use
+ </c>
+
+00:09:01.620 --> 00:09:04.040 align:start position:0%
+itself<c.colorE5E5E5> so this suggests that we can use
+conditional<00:09:01.829><c> entropy</c><00:09:02.160><c> for</c><00:09:02.970><c> mining</c><00:09:03.390><c> cinematic</c></c>
+
+00:09:04.040 --> 00:09:04.050 align:start position:0%
+conditional entropy<c.colorE5E5E5> for mining cinematic
+ </c>
+
+00:09:04.050 --> 00:09:07.160 align:start position:0%
+conditional entropy<c.colorE5E5E5> for mining cinematic</c>
+<c.colorE5E5E5>relations<00:09:04.709><c> the</c><00:09:05.579><c> algorithm</c><00:09:06.089><c> would</c><00:09:06.750><c> look</c><00:09:06.930><c> as</c></c>
+
+00:09:07.160 --> 00:09:07.170 align:start position:0%
+<c.colorE5E5E5>relations the algorithm would look as
+ </c>
+
+00:09:07.170 --> 00:09:12.800 align:start position:0%
+<c.colorE5E5E5>relations the algorithm would look as
+follows</c><c.colorCCCCCC><00:09:09.260><c> for</c></c><c.colorE5E5E5><00:09:10.260><c> each</c><00:09:10.410><c> word</c><00:09:10.709><c> w1</c><00:09:11.519><c> we're</c><00:09:12.480><c> going</c><00:09:12.660><c> to</c></c>
+
+00:09:12.800 --> 00:09:12.810 align:start position:0%
+follows<c.colorCCCCCC> for</c><c.colorE5E5E5> each word w1 we're going to
+ </c>
+
+00:09:12.810 --> 00:09:15.500 align:start position:0%
+follows<c.colorCCCCCC> for</c><c.colorE5E5E5> each word w1 we're going to
+enumerate</c><c.colorCCCCCC><00:09:13.140><c> over</c></c><c.colorE5E5E5><00:09:13.620><c> all</c><00:09:13.920><c> other</c><00:09:14.130><c> words</c><00:09:14.430><c> w2</c><00:09:15.149><c> and</c></c>
+
+00:09:15.500 --> 00:09:15.510 align:start position:0%
+enumerate<c.colorCCCCCC> over</c><c.colorE5E5E5> all other words w2 and
+ </c>
+
+00:09:15.510 --> 00:09:17.300 align:start position:0%
+enumerate<c.colorCCCCCC> over</c><c.colorE5E5E5> all other words w2 and
+then<00:09:16.050><c> we</c><00:09:16.110><c> can</c><00:09:16.260><c> compute</c><00:09:16.649><c> the</c><00:09:16.800><c> conditional</c></c>
+
+00:09:17.300 --> 00:09:17.310 align:start position:0%
+then we can<c.colorE5E5E5> compute the conditional
+ </c>
+
+00:09:17.310 --> 00:09:22.850 align:start position:0%
+then we can<c.colorE5E5E5> compute the conditional
+entropy<00:09:17.399><c> of</c><00:09:19.130><c> w1</c><00:09:20.130><c> given</c></c><c.colorCCCCCC><00:09:20.730><c> W</c></c><c.colorE5E5E5><00:09:21.140><c> and</c><00:09:22.140><c> we</c><00:09:22.290><c> thought</c><00:09:22.529><c> all</c></c>
+
+00:09:22.850 --> 00:09:22.860 align:start position:0%
+entropy<c.colorE5E5E5> of w1 given</c><c.colorCCCCCC> W</c><c.colorE5E5E5> and we thought all
+ </c>
+
+00:09:22.860 --> 00:09:25.220 align:start position:0%
+entropy<c.colorE5E5E5> of w1 given</c><c.colorCCCCCC> W</c><c.colorE5E5E5> and we thought all
+the<00:09:23.010><c> candidate</c><00:09:23.459><c> was</c><00:09:23.640><c> in</c><00:09:24.000><c> ascending</c><00:09:24.570><c> order</c><00:09:24.930><c> of</c></c>
+
+00:09:25.220 --> 00:09:25.230 align:start position:0%
+the candidate was in ascending order<c.colorE5E5E5> of
+ </c>
+
+00:09:25.230 --> 00:09:27.139 align:start position:0%
+the candidate was in ascending order<c.colorE5E5E5> of
+the<00:09:25.709><c> conditional</c><00:09:26.160><c> entropy</c><00:09:26.220><c> because</c><00:09:26.670><c> we</c><00:09:27.000><c> will</c></c>
+
+00:09:27.139 --> 00:09:27.149 align:start position:0%
+the conditional entropy<c.colorE5E5E5> because we will
+ </c>
+
+00:09:27.149 --> 00:09:29.480 align:start position:0%
+the conditional entropy<c.colorE5E5E5> because we will
+run<00:09:27.300><c> the</c><00:09:27.450><c> favor</c></c><c.colorCCCCCC><00:09:27.720><c> a</c><00:09:27.990><c> world</c><00:09:28.290><c> that</c></c><c.colorE5E5E5><00:09:28.410><c> has</c><00:09:28.680><c> a</c><00:09:28.950><c> small</c></c>
+
+00:09:29.480 --> 00:09:29.490 align:start position:0%
+run the favor<c.colorCCCCCC> a world that</c><c.colorE5E5E5> has a small
+ </c>
+
+00:09:29.490 --> 00:09:31.819 align:start position:0%
+run the favor<c.colorCCCCCC> a world that</c><c.colorE5E5E5> has a small
+entropy<00:09:29.910><c> meaning</c><00:09:30.360><c> that</c><00:09:30.570><c> it</c><00:09:30.810><c> helps</c><00:09:31.170><c> us</c><00:09:31.290><c> predict</c></c>
+
+00:09:31.819 --> 00:09:31.829 align:start position:0%
+entropy meaning that it helps us predict
+ 
+
+00:09:31.829 --> 00:09:35.389 align:start position:0%
+entropy meaning that it helps us predict
+the<00:09:32.730><c> target</c><c.colorCCCCCC><00:09:33.060><c> water</c><00:09:33.300><c> w1</c><00:09:33.839><c> and</c><00:09:34.170><c> then</c><00:09:35.010><c> we</c><00:09:35.100><c> can</c><00:09:35.250><c> take</c></c>
+
+00:09:35.389 --> 00:09:35.399 align:start position:0%
+the target<c.colorCCCCCC> water w1 and then we can take
+ </c>
+
+00:09:35.399 --> 00:09:37.040 align:start position:0%
+the target<c.colorCCCCCC> water w1 and then we can take
+the</c><c.colorE5E5E5><00:09:35.579><c> top</c></c><c.colorCCCCCC><00:09:35.790><c> ranked</c><00:09:36.029><c> the</c><00:09:36.209><c> candidate</c><00:09:36.630><c> words</c><00:09:36.839><c> as</c></c>
+
+00:09:37.040 --> 00:09:37.050 align:start position:0%
+the<c.colorE5E5E5> top</c><c.colorCCCCCC> ranked the candidate words as
+ </c>
+
+00:09:37.050 --> 00:09:39.079 align:start position:0%
+the<c.colorE5E5E5> top</c><c.colorCCCCCC> ranked the candidate words as
+words<00:09:37.350><c> that</c><00:09:37.680><c> have</c><00:09:37.860><c> potential</c><00:09:38.339><c> scenic</c><00:09:38.670><c> medical</c></c>
+
+00:09:39.079 --> 00:09:39.089 align:start position:0%
+words that have potential<c.colorCCCCCC> scenic medical
+ </c>
+
+00:09:39.089 --> 00:09:42.350 align:start position:0%
+words that have potential<c.colorCCCCCC> scenic medical
+relations</c><c.colorE5E5E5><00:09:39.480><c> we</c></c><c.colorCCCCCC><00:09:39.990><c> stopped</c><00:09:40.230><c> it</c><00:09:40.380><c> one</c><00:09:40.970><c> note</c><00:09:41.970><c> that</c><00:09:42.180><c> we</c></c>
+
+00:09:42.350 --> 00:09:42.360 align:start position:0%
+relations<c.colorE5E5E5> we</c><c.colorCCCCCC> stopped it one note that we
+ </c>
+
+00:09:42.360 --> 00:09:46.030 align:start position:0%
+relations<c.colorE5E5E5> we</c><c.colorCCCCCC> stopped it one note that we
+need<00:09:42.510><c> to</c><00:09:42.600><c> use</c><00:09:42.779><c> the</c><00:09:42.959><c> thrush</c><00:09:43.200><c> code</c><00:09:43.550><c> to</c><00:09:44.570><c> to</c><00:09:45.570><c> find</c></c>
+
+00:09:46.030 --> 00:09:46.040 align:start position:0%
+need to use the thrush code to to find
+ 
+
+00:09:46.040 --> 00:09:49.639 align:start position:0%
+need to use the thrush code to to find
+these<c.colorE5E5E5><00:09:47.040><c> words</c><00:09:47.339><c> the</c></c><c.colorCCCCCC><00:09:47.820><c> stretcher</c><00:09:48.360><c> can</c><00:09:48.630><c> be</c><00:09:48.779><c> at</c><00:09:49.410><c> the</c></c>
+
+00:09:49.639 --> 00:09:49.649 align:start position:0%
+these<c.colorE5E5E5> words the</c><c.colorCCCCCC> stretcher can be at the
+ </c>
+
+00:09:49.649 --> 00:09:51.590 align:start position:0%
+these<c.colorE5E5E5> words the</c><c.colorCCCCCC> stretcher can be at the
+number</c><c.colorE5E5E5><00:09:50.040><c> of</c><00:09:50.130><c> top</c><00:09:50.459><c> candidates</c><00:09:51.029><c> to</c><00:09:51.120><c> take</c><00:09:51.329><c> or</c></c>
+
+00:09:51.590 --> 00:09:51.600 align:start position:0%
+number<c.colorE5E5E5> of top candidates to take or
+ </c>
+
+00:09:51.600 --> 00:09:54.110 align:start position:0%
+number<c.colorE5E5E5> of top candidates to take or
+absolute<00:09:52.560><c> value</c><00:09:52.890><c> for</c><00:09:53.160><c> the</c><00:09:53.339><c> conditional</c></c>
+
+00:09:54.110 --> 00:09:54.120 align:start position:0%
+absolute<c.colorE5E5E5> value for the conditional
+ </c>
+
+00:09:54.120 --> 00:09:57.949 align:start position:0%
+absolute<c.colorE5E5E5> value for the conditional</c>
+<c.colorE5E5E5>entropy<00:09:54.920><c> now</c><00:09:55.920><c> this</c><00:09:56.190><c> would</c><00:09:56.370><c> allow</c><00:09:57.120><c> us</c></c><c.colorCCCCCC><00:09:57.149><c> to</c><00:09:57.690><c> mine</c></c>
+
+00:09:57.949 --> 00:09:57.959 align:start position:0%
+<c.colorE5E5E5>entropy now this would allow us</c><c.colorCCCCCC> to mine
+ </c>
+
+00:09:57.959 --> 00:10:01.760 align:start position:0%
+<c.colorE5E5E5>entropy now this would allow us</c><c.colorCCCCCC> to mine
+the<00:09:58.940><c> most</c><00:09:59.940><c> strongly</c><00:10:00.420><c> correlated</c><00:10:01.079><c> world</c></c><c.colorE5E5E5><00:10:01.410><c> with</c></c>
+
+00:10:01.760 --> 00:10:01.770 align:start position:0%
+the most strongly correlated world<c.colorE5E5E5> with
+ </c>
+
+00:10:01.770 --> 00:10:06.769 align:start position:0%
+the most strongly correlated world<c.colorE5E5E5> with
+the<00:10:01.950><c> particular</c></c><c.colorCCCCCC><00:10:02.240><c> w1</c><00:10:03.240><c> here</c><00:10:04.250><c> but</c><00:10:05.329><c> it</c></c><c.colorE5E5E5><00:10:06.329><c> this</c></c>
+
+00:10:06.769 --> 00:10:06.779 align:start position:0%
+the particular<c.colorCCCCCC> w1 here but it</c><c.colorE5E5E5> this
+ </c>
+
+00:10:06.779 --> 00:10:09.530 align:start position:0%
+the particular<c.colorCCCCCC> w1 here but it</c><c.colorE5E5E5> this
+algorithm<00:10:07.260><c> does</c><00:10:07.290><c> not</c><00:10:07.470><c> help</c><00:10:07.890><c> us</c><00:10:08.060><c> mind</c><00:10:09.060><c> the</c></c>
+
+00:10:09.530 --> 00:10:09.540 align:start position:0%
+algorithm does<c.colorE5E5E5> not help us mind the
+ </c>
+
+00:10:09.540 --> 00:10:11.810 align:start position:0%
+algorithm does<c.colorE5E5E5> not help us mind the
+strongest<00:10:10.079><c> case</c><00:10:10.770><c> in</c><00:10:11.279><c> a</c><00:10:11.399><c> grammatical</c></c>
+
+00:10:11.810 --> 00:10:11.820 align:start position:0%
+strongest case in a grammatical
+ 
+
+00:10:11.820 --> 00:10:15.019 align:start position:0%
+strongest case in a grammatical
+relations<c.colorE5E5E5><00:10:12.180><c> from</c><00:10:12.510><c> entire</c><00:10:13.350><c> collection</c><00:10:14.029><c> because</c></c>
+
+00:10:15.019 --> 00:10:15.029 align:start position:0%
+relations<c.colorE5E5E5> from entire collection because
+ </c>
+
+00:10:15.029 --> 00:10:17.480 align:start position:0%
+relations<c.colorE5E5E5> from entire collection because
+in<00:10:15.270><c> order</c><00:10:15.450><c> to</c><00:10:15.570><c> do</c><00:10:15.779><c> that</c><00:10:15.990><c> we</c><00:10:16.770><c> have</c><00:10:16.980><c> to</c></c><c.colorCCCCCC><00:10:17.130><c> ensure</c></c>
+
+00:10:17.480 --> 00:10:17.490 align:start position:0%
+in order<c.colorE5E5E5> to do that we have to</c><c.colorCCCCCC> ensure
+ </c>
+
+00:10:17.490 --> 00:10:19.340 align:start position:0%
+in order<c.colorE5E5E5> to do that we have to</c><c.colorCCCCCC> ensure
+that<00:10:17.520><c> these</c><00:10:18.029><c> conditional</c><00:10:18.750><c> entropies</c><00:10:18.959><c> are</c></c>
+
+00:10:19.340 --> 00:10:19.350 align:start position:0%
+that these conditional entropies are
+ 
+
+00:10:19.350 --> 00:10:23.440 align:start position:0%
+that these conditional entropies are
+<c.colorE5E5E5>comparable<00:10:20.100><c> across</c><00:10:20.550><c> different</c><00:10:21.120><c> world</c><00:10:22.100><c> in</c></c>
+
+00:10:23.440 --> 00:10:23.450 align:start position:0%
+<c.colorE5E5E5>comparable across different world in
+ </c>
+
+00:10:23.450 --> 00:10:26.810 align:start position:0%
+<c.colorE5E5E5>comparable across different world in
+this<00:10:24.450><c> case</c><00:10:24.870><c> of</c><00:10:25.399><c> discoveries</c><00:10:26.399><c> in</c><00:10:26.700><c> a</c></c>
+
+00:10:26.810 --> 00:10:26.820 align:start position:0%
+this case of<c.colorE5E5E5> discoveries in a
+ </c>
+
+00:10:26.820 --> 00:10:28.850 align:start position:0%
+this case of<c.colorE5E5E5> discoveries in a
+grammatical<00:10:27.300><c> relations</c><00:10:27.660><c> for</c><00:10:28.350><c> a</c><00:10:28.410><c> targeted</c></c>
+
+00:10:28.850 --> 00:10:28.860 align:start position:0%
+grammatical relations for<c.colorE5E5E5> a targeted
+ </c>
+
+00:10:28.860 --> 00:10:31.340 align:start position:0%
+grammatical relations for<c.colorE5E5E5> a targeted
+world<00:10:29.070><c> like</c><00:10:29.279><c> W</c></c><c.colorCCCCCC><00:10:29.640><c> one</c><00:10:29.850><c> we</c><00:10:30.209><c> only</c><00:10:30.390><c> need</c><00:10:30.720><c> to</c><00:10:30.839><c> compare</c></c>
+
+00:10:31.340 --> 00:10:31.350 align:start position:0%
+<c.colorE5E5E5>world like W</c><c.colorCCCCCC> one we only need to compare
+ </c>
+
+00:10:31.350 --> 00:10:36.800 align:start position:0%
+<c.colorE5E5E5>world like W</c><c.colorCCCCCC> one we only need to compare
+the<00:10:32.130><c> conditional</c><00:10:32.699><c> entropies</c><00:10:34.160><c> for</c><00:10:35.160><c> W</c><00:10:35.850><c> 1</c><00:10:36.029><c> given</c></c>
+
+00:10:36.800 --> 00:10:36.810 align:start position:0%
+the conditional entropies for<c.colorCCCCCC> W 1 given
+ </c>
+
+00:10:36.810 --> 00:10:39.769 align:start position:0%
+the conditional entropies for<c.colorCCCCCC> W 1 given
+different<00:10:37.110><c> words</c><00:10:37.440><c> and</c><00:10:37.820><c> in</c><00:10:38.820><c> this</c><00:10:38.970><c> case</c><00:10:39.329><c> they</c></c>
+
+00:10:39.769 --> 00:10:39.779 align:start position:0%
+different words and in this case they
+ 
+
+00:10:39.779 --> 00:10:43.910 align:start position:0%
+different words and in this case they
+are<c.colorE5E5E5><00:10:39.810><c> comparable</c></c><c.colorCCCCCC><00:10:40.680><c> right</c><00:10:41.550><c> so</c><00:10:42.500><c> the</c><00:10:43.500><c> conditional</c></c>
+
+00:10:43.910 --> 00:10:43.920 align:start position:0%
+are<c.colorE5E5E5> comparable</c><c.colorCCCCCC> right so the conditional
+ </c>
+
+00:10:43.920 --> 00:10:46.910 align:start position:0%
+are<c.colorE5E5E5> comparable</c><c.colorCCCCCC> right so the conditional</c>
+<c.colorE5E5E5>entropy<00:10:44.070><c> of</c><00:10:44.279><c> W</c><00:10:44.699><c> 1</c><00:10:44.790><c> given</c><00:10:45.149><c> W</c><00:10:45.329><c> and</c><00:10:45.990><c> conditional</c></c>
+
+00:10:46.910 --> 00:10:46.920 align:start position:0%
+<c.colorE5E5E5>entropy of W 1 given W and conditional
+ </c>
+
+00:10:46.920 --> 00:10:48.829 align:start position:0%
+<c.colorE5E5E5>entropy of W 1 given W and conditional
+entropy<00:10:47.040><c> of</c><00:10:47.250><c> W</c><00:10:47.640><c> 1</c><00:10:47.760><c> given</c><00:10:48.060><c> that</c><00:10:48.089><c> we</c><00:10:48.360><c> three</c><00:10:48.600><c> are</c></c>
+
+00:10:48.829 --> 00:10:48.839 align:start position:0%
+entropy of W<c.colorE5E5E5> 1 given that we three are
+ </c>
+
+00:10:48.839 --> 00:10:53.900 align:start position:0%
+entropy of W<c.colorE5E5E5> 1 given that we three are
+comfortable<00:10:50.120><c> they</c><00:10:51.120><c> all</c><00:10:51.510><c> match</c><00:10:51.839><c> you</c><00:10:52.050><c> how</c><00:10:52.910><c> how</c></c>
+
+00:10:53.900 --> 00:10:53.910 align:start position:0%
+comfortable they all match you how how
+ 
+
+00:10:53.910 --> 00:10:57.450 align:start position:0%
+comfortable they all match you how how
+hard<00:10:54.089><c> it</c><00:10:54.360><c> is</c><c.colorE5E5E5><00:10:54.420><c> to</c><00:10:54.750><c> predict</c></c><c.colorCCCCCC><00:10:55.079><c> every</c><00:10:55.440><c> one</c><00:10:55.699><c> but</c></c>
+
+00:10:57.450 --> 00:10:57.460 align:start position:0%
+hard it is<c.colorE5E5E5> to predict</c><c.colorCCCCCC> every one but
+ </c>
+
+00:10:57.460 --> 00:11:00.570 align:start position:0%
+hard it is<c.colorE5E5E5> to predict</c><c.colorCCCCCC> every one but
+if<00:10:57.700><c> we</c><00:10:57.880><c> think</c></c><c.colorE5E5E5><00:10:58.030><c> about</c><00:10:58.180><c> the</c><00:10:58.420><c> two</c><00:10:58.690><c> pairs</c><00:10:59.190><c> where</c><00:11:00.190><c> we</c></c>
+
+00:11:00.570 --> 00:11:00.580 align:start position:0%
+if we think<c.colorE5E5E5> about the two pairs where we
+ </c>
+
+00:11:00.580 --> 00:11:04.740 align:start position:0%
+if we think<c.colorE5E5E5> about the two pairs where we
+share</c><c.colorCCCCCC><00:11:01.050><c> w-2</c><00:11:02.050><c> in</c><00:11:02.320><c> the</c><00:11:02.590><c> same</c><00:11:02.890><c> condition</c><00:11:03.790><c> and</c><00:11:04.060><c> we</c></c>
+
+00:11:04.740 --> 00:11:04.750 align:start position:0%
+share<c.colorCCCCCC> w-2 in the same condition and we
+ </c>
+
+00:11:04.750 --> 00:11:08.130 align:start position:0%
+share<c.colorCCCCCC> w-2 in the same condition and we
+try</c><c.colorE5E5E5><00:11:04.900><c> to</c><00:11:04.960><c> predict</c><00:11:05.380><c> the</c></c><c.colorCCCCCC><00:11:05.440><c> WR</c></c><c.colorE5E5E5><00:11:05.980><c> and</c></c><c.colorCCCCCC><00:11:06.220><c> w3</c></c><c.colorE5E5E5><00:11:06.870><c> then</c><00:11:07.870><c> the</c></c>
+
+00:11:08.130 --> 00:11:08.140 align:start position:0%
+try<c.colorE5E5E5> to predict the</c><c.colorCCCCCC> WR</c><c.colorE5E5E5> and</c><c.colorCCCCCC> w3</c><c.colorE5E5E5> then the
+ </c>
+
+00:11:08.140 --> 00:11:10.320 align:start position:0%
+try<c.colorE5E5E5> to predict the</c><c.colorCCCCCC> WR</c><c.colorE5E5E5> and</c><c.colorCCCCCC> w3</c><c.colorE5E5E5> then the
+end<00:11:08.350><c> conditional</c><00:11:08.950><c> entropies</c><00:11:09.160><c> are</c><00:11:09.640><c> actually</c></c>
+
+00:11:10.320 --> 00:11:10.330 align:start position:0%
+end conditional entropies<c.colorE5E5E5> are actually
+ </c>
+
+00:11:10.330 --> 00:11:14.040 align:start position:0%
+end conditional entropies<c.colorE5E5E5> are actually
+not<00:11:10.660><c> comparable</c></c><c.colorCCCCCC><00:11:11.200><c> what</c><00:11:11.680><c> you</c><00:11:12.160><c> can</c><00:11:12.570><c> think</c><00:11:13.570><c> about</c></c>
+
+00:11:14.040 --> 00:11:14.050 align:start position:0%
+not comparable<c.colorCCCCCC> what you can think about
+ </c>
+
+00:11:14.050 --> 00:11:18.450 align:start position:0%
+not comparable<c.colorCCCCCC> what you can think about
+this<00:11:14.530><c> question</c><00:11:15.460><c> why</c></c><c.colorE5E5E5><00:11:16.180><c> so</c><00:11:16.570><c> why</c><00:11:17.470><c> why</c><00:11:18.040><c> are</c><00:11:18.340><c> they</c></c>
+
+00:11:18.450 --> 00:11:18.460 align:start position:0%
+this question why<c.colorE5E5E5> so why why are they
+ </c>
+
+00:11:18.460 --> 00:11:20.430 align:start position:0%
+this question why<c.colorE5E5E5> so why why are they
+not<00:11:18.700><c> comparable</c></c><c.colorCCCCCC><00:11:19.180><c> well</c><00:11:19.900><c> that</c><00:11:20.140><c> was</c><00:11:20.260><c> because</c></c>
+
+00:11:20.430 --> 00:11:20.440 align:start position:0%
+<c.colorE5E5E5>not comparable</c><c.colorCCCCCC> well that was because
+ </c>
+
+00:11:20.440 --> 00:11:23.100 align:start position:0%
+<c.colorE5E5E5>not comparable</c><c.colorCCCCCC> well that was because</c>
+<c.colorE5E5E5>they<00:11:21.190><c> have</c><00:11:21.400><c> a</c><00:11:21.430><c> different</c><00:11:21.700><c> upper</c><00:11:22.660><c> bounds</c><00:11:23.050><c> right</c></c>
+
+00:11:23.100 --> 00:11:23.110 align:start position:0%
+<c.colorE5E5E5>they have a different upper bounds right
+ </c>
+
+00:11:23.110 --> 00:11:25.500 align:start position:0%
+<c.colorE5E5E5>they have a different upper bounds right
+so<00:11:23.560><c> those</c><00:11:23.800><c> upper</c><00:11:24.040><c> bounds</c><00:11:24.430><c> are</c><00:11:24.610><c> precisely</c><00:11:25.240><c> the</c></c>
+
+00:11:25.500 --> 00:11:25.510 align:start position:0%
+<c.colorE5E5E5>so those upper bounds are precisely the
+ </c>
+
+00:11:25.510 --> 00:11:28.770 align:start position:0%
+<c.colorE5E5E5>so those upper bounds are precisely the
+entropy</c><c.colorCCCCCC><00:11:25.810><c> of</c><00:11:26.080><c> w1</c></c><c.colorE5E5E5><00:11:26.620><c> and</c><00:11:26.860><c> the</c><00:11:27.280><c> entity</c></c><c.colorCCCCCC><00:11:27.640><c> of</c><00:11:27.850><c> w3</c><00:11:28.510><c> and</c></c>
+
+00:11:28.770 --> 00:11:28.780 align:start position:0%
+entropy<c.colorCCCCCC> of w1</c><c.colorE5E5E5> and the entity</c><c.colorCCCCCC> of w3 and
+ </c>
+
+00:11:28.780 --> 00:11:31.530 align:start position:0%
+entropy<c.colorCCCCCC> of w1</c><c.colorE5E5E5> and the entity</c><c.colorCCCCCC> of w3 and
+they<00:11:29.410><c> have</c><00:11:29.560><c> different</c></c><c.colorE5E5E5><00:11:29.740><c> upper</c><00:11:30.070><c> bounds</c><00:11:30.520><c> so</c><00:11:31.180><c> we</c></c>
+
+00:11:31.530 --> 00:11:31.540 align:start position:0%
+they have different<c.colorE5E5E5> upper bounds so we
+ </c>
+
+00:11:31.540 --> 00:11:34.170 align:start position:0%
+they have different<c.colorE5E5E5> upper bounds so we
+cannot</c><c.colorCCCCCC><00:11:31.840><c> really</c><00:11:32.170><c> compare</c><00:11:32.590><c> them</c><00:11:33.010><c> in</c><00:11:33.760><c> this</c></c><c.colorE5E5E5><00:11:33.940><c> way</c></c>
+
+00:11:34.170 --> 00:11:34.180 align:start position:0%
+cannot<c.colorCCCCCC> really compare them in this</c><c.colorE5E5E5> way
+ </c>
+
+00:11:34.180 --> 00:11:38.180 align:start position:0%
+cannot<c.colorCCCCCC> really compare them in this</c><c.colorE5E5E5> way
+so<00:11:35.050><c> how</c><00:11:35.230><c> do</c><00:11:35.290><c> we</c><00:11:35.440><c> address</c><00:11:35.680><c> this</c><00:11:35.950><c> problem</c><00:11:37.050><c> well</c></c>
+
+00:11:38.180 --> 00:11:38.190 align:start position:0%
+<c.colorE5E5E5>so how do we address this problem well
+ </c>
+
+00:11:38.190 --> 00:11:41.880 align:start position:0%
+<c.colorE5E5E5>so how do we address this problem well
+later<00:11:39.190><c> we'll</c><00:11:39.400><c> discuss</c><00:11:39.820><c> we</c><00:11:40.150><c> can</c><00:11:40.360><c> use</c><00:11:40.890><c> mutual</c></c>
+
+00:11:41.880 --> 00:11:41.890 align:start position:0%
+later we'll discuss we can use<c.colorE5E5E5> mutual
+ </c>
+
+00:11:41.890 --> 00:11:51.560 align:start position:0%
+later we'll discuss we can use<c.colorE5E5E5> mutual</c>
+<c.colorCCCCCC>information</c><c.colorE5E5E5><00:11:42.250><c> to</c><00:11:42.940><c> solve</c><00:11:43.420><c> this</c><00:11:43.630><c> problem</c></c>
+
+00:11:51.560 --> 00:11:51.570 align:start position:0%
+ 
+ 
+
+00:11:51.570 --> 00:11:53.630 align:start position:0%
+ 
+you
+

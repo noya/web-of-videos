@@ -1,0 +1,2902 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:06.500 align:start position:0%
+ 
+<c.colorE5E5E5>you</c>
+
+00:00:06.500 --> 00:00:06.510 align:start position:0%
+ 
+ 
+
+00:00:06.510 --> 00:00:09.840 align:start position:0%
+ 
+this<00:00:07.510><c> lecture</c><c.colorE5E5E5><00:00:07.779><c> is</c><00:00:08.139><c> about</c><00:00:08.350><c> opinion</c><00:00:09.280><c> mining</c><00:00:09.670><c> and</c></c>
+
+00:00:09.840 --> 00:00:09.850 align:start position:0%
+this lecture<c.colorE5E5E5> is about opinion mining and
+ </c>
+
+00:00:09.850 --> 00:00:12.150 align:start position:0%
+this lecture<c.colorE5E5E5> is about opinion mining and</c>
+<c.colorE5E5E5>the<00:00:09.940><c> sentiment</c><00:00:10.420><c> analysis</c><00:00:11.020><c> covering</c><00:00:12.010><c> its</c></c>
+
+00:00:12.150 --> 00:00:12.160 align:start position:0%
+<c.colorE5E5E5>the sentiment analysis covering its
+ </c>
+
+00:00:12.160 --> 00:00:16.740 align:start position:0%
+<c.colorE5E5E5>the sentiment analysis covering its
+motivation<00:00:14.340><c> in</c><00:00:15.340><c> this</c><00:00:15.490><c> lecture</c><00:00:15.969><c> we're</c><00:00:16.630><c> going</c></c>
+
+00:00:16.740 --> 00:00:16.750 align:start position:0%
+motivation<c.colorE5E5E5> in this lecture we're going
+ </c>
+
+00:00:16.750 --> 00:00:19.050 align:start position:0%
+motivation<c.colorE5E5E5> in this lecture we're going
+to<00:00:16.810><c> start</c><00:00:17.170><c> talking</c></c><c.colorCCCCCC><00:00:17.590><c> about</c></c><c.colorE5E5E5><00:00:17.910><c> mining</c><00:00:18.910><c> a</c></c>
+
+00:00:19.050 --> 00:00:19.060 align:start position:0%
+to start talking<c.colorCCCCCC> about</c><c.colorE5E5E5> mining a
+ </c>
+
+00:00:19.060 --> 00:00:22.020 align:start position:0%
+to start talking<c.colorCCCCCC> about</c><c.colorE5E5E5> mining a
+different<00:00:19.480><c> kind</c><00:00:19.750><c> of</c><00:00:19.869><c> knowledge</c><00:00:20.550><c> namely</c><00:00:21.550><c> not</c></c>
+
+00:00:22.020 --> 00:00:22.030 align:start position:0%
+different kind of knowledge<c.colorE5E5E5> namely not
+ </c>
+
+00:00:22.030 --> 00:00:25.200 align:start position:0%
+different kind of knowledge<c.colorE5E5E5> namely not
+about<00:00:22.390><c> the</c><00:00:22.690><c> observer</c><00:00:23.200><c> or</c><00:00:23.920><c> humans</c><00:00:24.640><c> that</c></c><c.colorCCCCCC><00:00:24.910><c> have</c></c>
+
+00:00:25.200 --> 00:00:25.210 align:start position:0%
+about the observer<c.colorE5E5E5> or humans that</c><c.colorCCCCCC> have
+ </c>
+
+00:00:25.210 --> 00:00:27.450 align:start position:0%
+about the observer<c.colorE5E5E5> or humans that</c><c.colorCCCCCC> have
+generated</c><c.colorE5E5E5><00:00:25.600><c> the</c></c><c.colorCCCCCC><00:00:25.870><c> test</c></c><c.colorE5E5E5><00:00:26.080><c> data</c><00:00:26.410><c> in</c><00:00:27.190><c> particular</c></c>
+
+00:00:27.450 --> 00:00:27.460 align:start position:0%
+generated<c.colorE5E5E5> the</c><c.colorCCCCCC> test</c><c.colorE5E5E5> data in particular
+ </c>
+
+00:00:27.460 --> 00:00:29.100 align:start position:0%
+generated<c.colorE5E5E5> the</c><c.colorCCCCCC> test</c><c.colorE5E5E5> data in particular
+we're<00:00:27.820><c> going</c><00:00:27.850><c> to</c><00:00:27.970><c> talk</c></c><c.colorCCCCCC><00:00:28.060><c> about</c></c><c.colorE5E5E5><00:00:28.180><c> the</c><00:00:28.539><c> opinion</c></c>
+
+00:00:29.100 --> 00:00:29.110 align:start position:0%
+we're going<c.colorE5E5E5> to talk</c><c.colorCCCCCC> about</c><c.colorE5E5E5> the opinion
+ </c>
+
+00:00:29.110 --> 00:00:32.910 align:start position:0%
+we're going<c.colorE5E5E5> to talk</c><c.colorCCCCCC> about</c><c.colorE5E5E5> the opinion
+mining<00:00:29.560><c> and</c><00:00:29.740><c> sentiment</c><00:00:30.310><c> analysis</c><00:00:30.910><c> as</c><00:00:31.920><c> we</c></c>
+
+00:00:32.910 --> 00:00:32.920 align:start position:0%
+mining and sentiment analysis as we
+ 
+
+00:00:32.920 --> 00:00:35.100 align:start position:0%
+mining and sentiment analysis as we
+discussed<00:00:33.340><c> earlier</c><c.colorCCCCCC><00:00:33.719><c> taxpayer</c></c><c.colorE5E5E5><00:00:34.719><c> can</c><00:00:35.020><c> be</c></c>
+
+00:00:35.100 --> 00:00:35.110 align:start position:0%
+discussed earlier<c.colorCCCCCC> taxpayer</c><c.colorE5E5E5> can be
+ </c>
+
+00:00:35.110 --> 00:00:38.060 align:start position:0%
+discussed earlier<c.colorCCCCCC> taxpayer</c><c.colorE5E5E5> can be
+regarded<00:00:35.289><c> as</c><00:00:35.739><c> the</c></c><c.colorCCCCCC><00:00:36.160><c> data</c><00:00:36.579><c> generator</c><00:00:37.149><c> from</c></c>
+
+00:00:38.060 --> 00:00:38.070 align:start position:0%
+regarded<c.colorE5E5E5> as the</c><c.colorCCCCCC> data generator from
+ </c>
+
+00:00:38.070 --> 00:00:44.040 align:start position:0%
+regarded<c.colorE5E5E5> as the</c><c.colorCCCCCC> data generator from
+humans</c><c.colorE5E5E5><00:00:39.070><c> as</c><00:00:39.720><c> subjective</c></c><c.colorCCCCCC><00:00:40.720><c> senses</c><00:00:42.510><c> in</c><00:00:43.510><c> contrast</c></c>
+
+00:00:44.040 --> 00:00:44.050 align:start position:0%
+humans<c.colorE5E5E5> as subjective</c><c.colorCCCCCC> senses in contrast
+ </c>
+
+00:00:44.050 --> 00:00:47.700 align:start position:0%
+humans<c.colorE5E5E5> as subjective</c><c.colorCCCCCC> senses in contrast
+we<00:00:44.739><c> have</c><00:00:44.920><c> other</c><00:00:45.160><c> devices</c></c><c.colorE5E5E5><00:00:45.370><c> such</c><00:00:45.880><c> as</c><00:00:46.710><c> video</c></c>
+
+00:00:47.700 --> 00:00:47.710 align:start position:0%
+we<c.colorCCCCCC> have other devices</c><c.colorE5E5E5> such as video
+ </c>
+
+00:00:47.710 --> 00:00:50.760 align:start position:0%
+we<c.colorCCCCCC> have other devices</c><c.colorE5E5E5> such as video
+recorder<00:00:48.250><c> that</c><00:00:48.850><c> can</c><00:00:49.090><c> report</c><00:00:49.770><c> what's</c></c>
+
+00:00:50.760 --> 00:00:50.770 align:start position:0%
+recorder<c.colorE5E5E5> that can report what's
+ </c>
+
+00:00:50.770 --> 00:00:53.729 align:start position:0%
+recorder<c.colorE5E5E5> that can report what's
+happening<00:00:51.220><c> in</c><00:00:51.460><c> the</c><00:00:51.670><c> real</c><00:00:52.059><c> world</c></c><c.colorCCCCCC><00:00:52.739><c> objectively</c></c>
+
+00:00:53.729 --> 00:00:53.739 align:start position:0%
+happening in the real world<c.colorCCCCCC> objectively
+ </c>
+
+00:00:53.739 --> 00:00:57.350 align:start position:0%
+happening in the real world<c.colorCCCCCC> objectively
+to<00:00:54.340><c> generate</c><00:00:54.760><c> the</c><00:00:54.940><c> view</c><00:00:55.360><c> data</c><00:00:55.690><c> for</c><00:00:56.230><c> example</c></c>
+
+00:00:57.350 --> 00:00:57.360 align:start position:0%
+to generate the view data for example
+ 
+
+00:00:57.360 --> 00:01:00.660 align:start position:0%
+to generate the view data for example
+<c.colorE5E5E5>now<00:00:58.360><c> a</c><00:00:58.390><c> main</c><00:00:58.719><c> difference</c><00:00:59.350><c> between</c><00:00:59.649><c> text</c><00:01:00.460><c> data</c></c>
+
+00:01:00.660 --> 00:01:00.670 align:start position:0%
+<c.colorE5E5E5>now a main difference between text data
+ </c>
+
+00:01:00.670 --> 00:01:05.330 align:start position:0%
+<c.colorE5E5E5>now a main difference between text data
+and<00:01:01.000><c> other</c><00:01:01.719><c> data</c><00:01:02.290><c> like</c></c><c.colorCCCCCC><00:01:02.800><c> a</c><00:01:02.890><c> video</c><00:01:03.190><c> data</c><00:01:03.430><c> is</c><00:01:03.820><c> that</c></c>
+
+00:01:05.330 --> 00:01:05.340 align:start position:0%
+and other data like<c.colorCCCCCC> a video data is that
+ </c>
+
+00:01:05.340 --> 00:01:11.249 align:start position:0%
+and other data like<c.colorCCCCCC> a video data is that
+it<00:01:06.340><c> has</c><00:01:06.729><c> rich</c><00:01:07.719><c> and</c><00:01:08.310><c> rich</c><00:01:09.310><c> and</c><00:01:09.579><c> pinions</c></c><c.colorE5E5E5><00:01:10.030><c> and</c><00:01:10.270><c> the</c></c>
+
+00:01:11.249 --> 00:01:11.259 align:start position:0%
+it has rich and rich and pinions<c.colorE5E5E5> and the
+ </c>
+
+00:01:11.259 --> 00:01:13.949 align:start position:0%
+it has rich and rich and pinions<c.colorE5E5E5> and the
+content<00:01:11.770><c> tends</c><00:01:12.100><c> to</c><00:01:12.340><c> be</c><00:01:12.459><c> subjective</c><00:01:13.179><c> because</c></c>
+
+00:01:13.949 --> 00:01:13.959 align:start position:0%
+content tends<c.colorE5E5E5> to be subjective because
+ </c>
+
+00:01:13.959 --> 00:01:17.370 align:start position:0%
+content tends<c.colorE5E5E5> to be subjective because
+it's<00:01:14.170><c> generated</c><00:01:14.770><c> from</c><00:01:14.950><c> humans</c><00:01:15.780><c> now</c><00:01:16.780><c> this</c><00:01:17.170><c> is</c></c>
+
+00:01:17.370 --> 00:01:17.380 align:start position:0%
+it's generated from humans<c.colorE5E5E5> now this is
+ </c>
+
+00:01:17.380 --> 00:01:20.279 align:start position:0%
+it's generated from humans<c.colorE5E5E5> now this is
+actually</c><c.colorCCCCCC><00:01:17.829><c> a</c></c><c.colorE5E5E5><00:01:18.219><c> unique</c><00:01:18.729><c> advantage</c></c><c.colorCCCCCC><00:01:19.299><c> of</c><00:01:19.689><c> text</c><00:01:20.139><c> data</c></c>
+
+00:01:20.279 --> 00:01:20.289 align:start position:0%
+actually<c.colorCCCCCC> a</c><c.colorE5E5E5> unique advantage</c><c.colorCCCCCC> of text data
+ </c>
+
+00:01:20.289 --> 00:01:22.590 align:start position:0%
+actually<c.colorCCCCCC> a</c><c.colorE5E5E5> unique advantage</c><c.colorCCCCCC> of text data</c>
+<c.colorE5E5E5>as<00:01:20.740><c> compared</c></c><c.colorCCCCCC><00:01:21.399><c> with</c><00:01:21.520><c> other</c><00:01:21.759><c> data</c><00:01:21.999><c> because</c><00:01:22.420><c> it</c></c>
+
+00:01:22.590 --> 00:01:22.600 align:start position:0%
+<c.colorE5E5E5>as compared</c><c.colorCCCCCC> with other data because it
+ </c>
+
+00:01:22.600 --> 00:01:25.919 align:start position:0%
+<c.colorE5E5E5>as compared</c><c.colorCCCCCC> with other data because it
+offers<00:01:23.020><c> a</c><00:01:23.229><c> great</c><00:01:23.380><c> opportunity</c></c><c.colorE5E5E5><00:01:23.850><c> to</c><00:01:24.929><c> understand</c></c>
+
+00:01:25.919 --> 00:01:25.929 align:start position:0%
+offers a great<c.colorCCCCCC> opportunity</c><c.colorE5E5E5> to understand
+ </c>
+
+00:01:25.929 --> 00:01:29.399 align:start position:0%
+offers a great<c.colorCCCCCC> opportunity</c><c.colorE5E5E5> to understand</c>
+<c.colorE5E5E5>the<00:01:26.469><c> observers</c><00:01:27.179><c> we</c><00:01:28.179><c> have</c><00:01:28.359><c> mine</c><00:01:28.659><c> text</c><00:01:29.229><c> there</c></c>
+
+00:01:29.399 --> 00:01:29.409 align:start position:0%
+<c.colorE5E5E5>the observers we have mine text there
+ </c>
+
+00:01:29.409 --> 00:01:31.219 align:start position:0%
+<c.colorE5E5E5>the observers we have mine text there</c>
+<c.colorCCCCCC>are<00:01:29.560><c> to</c><00:01:29.709><c> understand</c></c><c.colorE5E5E5><00:01:30.279><c> that</c><00:01:30.429><c> opinions</c></c>
+
+00:01:31.219 --> 00:01:31.229 align:start position:0%
+<c.colorCCCCCC>are to understand</c><c.colorE5E5E5> that opinions
+ </c>
+
+00:01:31.229 --> 00:01:33.660 align:start position:0%
+<c.colorCCCCCC>are to understand</c><c.colorE5E5E5> that opinions</c>
+<c.colorE5E5E5>understand<00:01:32.229><c> the</c><00:01:32.350><c> people's</c><00:01:32.679><c> preferences</c><00:01:33.340><c> how</c></c>
+
+00:01:33.660 --> 00:01:33.670 align:start position:0%
+<c.colorE5E5E5>understand the people's preferences how
+ </c>
+
+00:01:33.670 --> 00:01:37.440 align:start position:0%
+<c.colorE5E5E5>understand the people's preferences how
+people<00:01:34.029><c> think</c><00:01:34.270><c> about</c><00:01:34.420><c> something</c><00:01:36.209><c> so</c><00:01:37.209><c> this</c></c>
+
+00:01:37.440 --> 00:01:37.450 align:start position:0%
+people think about<c.colorE5E5E5> something so this
+ </c>
+
+00:01:37.450 --> 00:01:39.089 align:start position:0%
+people think about<c.colorE5E5E5> something so this
+lecture<00:01:37.630><c> ended</c><00:01:38.049><c> following</c><00:01:38.259><c> lectures</c><00:01:38.740><c> will</c></c><c.colorCCCCCC><00:01:38.979><c> be</c></c>
+
+00:01:39.089 --> 00:01:39.099 align:start position:0%
+lecture<c.colorE5E5E5> ended following lectures will</c><c.colorCCCCCC> be
+ </c>
+
+00:01:39.099 --> 00:01:43.879 align:start position:0%
+lecture<c.colorE5E5E5> ended following lectures will</c><c.colorCCCCCC> be</c>
+<c.colorE5E5E5>main<00:01:39.310><c> about</c><00:01:40.109><c> how</c><00:01:41.109><c> we</c><00:01:41.619><c> can</c><00:01:41.889><c> mine</c><00:01:42.249><c> and</c><00:01:42.789><c> analyze</c></c>
+
+00:01:43.879 --> 00:01:43.889 align:start position:0%
+<c.colorE5E5E5>main about how we can mine and analyze
+ </c>
+
+00:01:43.889 --> 00:01:47.519 align:start position:0%
+<c.colorE5E5E5>main about how we can mine and analyze
+opinions<00:01:44.889><c> were</c><00:01:45.639><c> buried</c><00:01:46.240><c> in</c><00:01:46.479><c> a</c><00:01:46.840><c> lot</c><00:01:47.079><c> of</c><00:01:47.229><c> text</c></c>
+
+00:01:47.519 --> 00:01:47.529 align:start position:0%
+opinions were buried in a lot of text
+ 
+
+00:01:47.529 --> 00:01:51.569 align:start position:0%
+opinions were buried in a lot of text
+data<00:01:48.659><c> so</c><00:01:49.659><c> let's</c><00:01:49.840><c> start</c><00:01:50.139><c> with</c><00:01:50.409><c> the</c><00:01:50.950><c> concept</c><c.colorCCCCCC><00:01:51.189><c> of</c></c>
+
+00:01:51.569 --> 00:01:51.579 align:start position:0%
+data so let's start with the concept<c.colorCCCCCC> of
+ </c>
+
+00:01:51.579 --> 00:01:54.899 align:start position:0%
+data so let's start with the concept<c.colorCCCCCC> of
+opinion<00:01:52.359><c> but</c><00:01:53.049><c> it's</c><00:01:53.200><c> not</c><00:01:53.499><c> that</c></c><c.colorE5E5E5><00:01:54.279><c> easy</c><00:01:54.700><c> to</c></c>
+
+00:01:54.899 --> 00:01:54.909 align:start position:0%
+opinion but it's not that<c.colorE5E5E5> easy to
+ </c>
+
+00:01:54.909 --> 00:01:59.039 align:start position:0%
+opinion but it's not that<c.colorE5E5E5> easy to
+formally<00:01:55.599><c> define</c></c><c.colorCCCCCC><00:01:55.749><c> an</c><00:01:56.259><c> opinion</c></c><c.colorE5E5E5><00:01:56.649><c> but</c><00:01:57.490><c> mostly</c><00:01:58.049><c> we</c></c>
+
+00:01:59.039 --> 00:01:59.049 align:start position:0%
+formally define<c.colorCCCCCC> an opinion</c><c.colorE5E5E5> but mostly we
+ </c>
+
+00:01:59.049 --> 00:02:02.010 align:start position:0%
+formally define<c.colorCCCCCC> an opinion</c><c.colorE5E5E5> but mostly we
+would<00:01:59.349><c> define</c><00:01:59.740><c> opinion</c><00:02:00.459><c> as</c><00:02:00.669><c> a</c><00:02:01.020><c> subjective</c></c>
+
+00:02:02.010 --> 00:02:02.020 align:start position:0%
+would define opinion as a subjective
+ 
+
+00:02:02.020 --> 00:02:04.379 align:start position:0%
+would define opinion as a subjective
+statement<c.colorCCCCCC><00:02:02.679><c> that</c><00:02:03.039><c> describing</c></c><c.colorE5E5E5><00:02:03.489><c> what</c><00:02:03.819><c> a</c><00:02:03.849><c> person</c></c>
+
+00:02:04.379 --> 00:02:04.389 align:start position:0%
+statement<c.colorCCCCCC> that describing</c><c.colorE5E5E5> what a person
+ </c>
+
+00:02:04.389 --> 00:02:08.850 align:start position:0%
+statement<c.colorCCCCCC> that describing</c><c.colorE5E5E5> what a person
+believes<00:02:04.679><c> or</c><00:02:05.679><c> things</c><00:02:06.189><c> about</c><00:02:06.489><c> something</c><00:02:07.830><c> now</c><00:02:08.830><c> I</c></c>
+
+00:02:08.850 --> 00:02:08.860 align:start position:0%
+believes or things about something now I
+ 
+
+00:02:08.860 --> 00:02:11.040 align:start position:0%
+believes or things about something now I
+highlighted<00:02:09.489><c> a</c><00:02:09.700><c> quite</c><00:02:09.970><c> a</c><c.colorE5E5E5><00:02:10.000><c> few</c><00:02:10.270><c> words</c><00:02:10.509><c> here</c><00:02:10.899><c> and</c></c>
+
+00:02:11.040 --> 00:02:11.050 align:start position:0%
+highlighted a quite a<c.colorE5E5E5> few words here and
+ </c>
+
+00:02:11.050 --> 00:02:13.140 align:start position:0%
+highlighted a quite a<c.colorE5E5E5> few words here and
+that's<00:02:11.380><c> because</c><00:02:11.800><c> it's</c><00:02:12.160><c> was</c><00:02:12.580><c> thinking</c><00:02:13.090><c> a</c></c>
+
+00:02:13.140 --> 00:02:13.150 align:start position:0%
+that's<c.colorE5E5E5> because it's was thinking a
+ </c>
+
+00:02:13.150 --> 00:02:14.670 align:start position:0%
+that's<c.colorE5E5E5> because it's was thinking a
+little<00:02:13.270><c> more</c><00:02:13.480><c> about</c><00:02:13.870><c> these</c><00:02:14.140><c> words</c></c>
+
+00:02:14.670 --> 00:02:14.680 align:start position:0%
+little<c.colorE5E5E5> more about these words
+ </c>
+
+00:02:14.680 --> 00:02:18.200 align:start position:0%
+little<c.colorE5E5E5> more about these words
+and<00:02:15.220><c> that</c><00:02:16.180><c> will</c><00:02:16.330><c> help</c><00:02:16.510><c> us</c><00:02:16.780><c> balance</c><00:02:17.200><c> then</c><00:02:17.770><c> what</c></c>
+
+00:02:18.200 --> 00:02:18.210 align:start position:0%
+and that will help us balance then what
+ 
+
+00:02:18.210 --> 00:02:20.610 align:start position:0%
+and that will help us balance then what
+what's<00:02:19.210><c> in</c><c.colorCCCCCC><00:02:19.360><c> that</c><00:02:19.510><c> opinion</c></c><c.colorE5E5E5><00:02:19.720><c> and</c><00:02:20.080><c> this</c><00:02:20.380><c> further</c></c>
+
+00:02:20.610 --> 00:02:20.620 align:start position:0%
+what's in<c.colorCCCCCC> that opinion</c><c.colorE5E5E5> and this further
+ </c>
+
+00:02:20.620 --> 00:02:24.720 align:start position:0%
+what's in<c.colorCCCCCC> that opinion</c><c.colorE5E5E5> and this further
+helps<00:02:21.010><c> us</c><00:02:22.000><c> to</c><00:02:22.540><c> define</c><00:02:22.780><c> opinion</c><00:02:23.740><c> more</c><00:02:24.280><c> formally</c></c>
+
+00:02:24.720 --> 00:02:24.730 align:start position:0%
+helps us to define<c.colorE5E5E5> opinion more formally
+ </c>
+
+00:02:24.730 --> 00:02:26.880 align:start position:0%
+helps us to define<c.colorE5E5E5> opinion more formally
+which<00:02:25.480><c> is</c><00:02:25.630><c> always</c><00:02:25.960><c> needed</c></c><c.colorCCCCCC><00:02:26.170><c> to</c></c>
+
+00:02:26.880 --> 00:02:26.890 align:start position:0%
+<c.colorE5E5E5>which is always needed</c><c.colorCCCCCC> to
+ </c>
+
+00:02:26.890 --> 00:02:28.980 align:start position:0%
+<c.colorE5E5E5>which is always needed</c><c.colorCCCCCC> to
+computationally<00:02:27.820><c> solve</c><00:02:28.120><c> the</c><00:02:28.360><c> problem</c><00:02:28.780><c> of</c></c>
+
+00:02:28.980 --> 00:02:28.990 align:start position:0%
+computationally solve the problem of
+ 
+
+00:02:28.990 --> 00:02:32.280 align:start position:0%
+computationally solve the problem of
+opinion<00:02:29.740><c> mining</c><00:02:30.160><c> so</c><00:02:31.060><c> let's</c><00:02:31.510><c> first</c><00:02:31.960><c> look</c><00:02:32.050><c> at</c>
+
+00:02:32.280 --> 00:02:32.290 align:start position:0%
+opinion mining so let's first look at
+ 
+
+00:02:32.290 --> 00:02:35.640 align:start position:0%
+opinion mining so let's first look at
+<c.colorE5E5E5>the</c><c.colorCCCCCC><00:02:32.790><c> keyword</c><00:02:33.790><c> subjective</c><00:02:34.480><c> here</c></c><c.colorE5E5E5><00:02:34.660><c> now</c><00:02:35.320><c> this</c><00:02:35.500><c> is</c></c>
+
+00:02:35.640 --> 00:02:35.650 align:start position:0%
+<c.colorE5E5E5>the</c><c.colorCCCCCC> keyword subjective here</c><c.colorE5E5E5> now this is
+ </c>
+
+00:02:35.650 --> 00:02:38.850 align:start position:0%
+<c.colorE5E5E5>the</c><c.colorCCCCCC> keyword subjective here</c><c.colorE5E5E5> now this is
+in<00:02:35.830><c> contrast</c><00:02:36.340><c> with</c></c><c.colorCCCCCC><00:02:37.170><c> objective</c><00:02:38.170><c> statement</c><00:02:38.710><c> or</c></c>
+
+00:02:38.850 --> 00:02:38.860 align:start position:0%
+in contrast with<c.colorCCCCCC> objective statement or
+ </c>
+
+00:02:38.860 --> 00:02:42.240 align:start position:0%
+in contrast with<c.colorCCCCCC> objective statement or
+factual<00:02:39.250><c> statement</c></c><c.colorE5E5E5><00:02:39.930><c> those</c><00:02:40.930><c> statements</c><00:02:41.710><c> can</c></c>
+
+00:02:42.240 --> 00:02:42.250 align:start position:0%
+factual statement<c.colorE5E5E5> those statements can
+ </c>
+
+00:02:42.250 --> 00:02:45.660 align:start position:0%
+factual statement<c.colorE5E5E5> those statements can</c>
+<c.colorCCCCCC>be<00:02:42.400><c> proved</c></c><c.colorE5E5E5><00:02:42.820><c> a</c><00:02:42.850><c> right</c><00:02:43.330><c> or</c><00:02:43.660><c> wrong</c></c><c.colorCCCCCC><00:02:43.720><c> and</c><00:02:44.430><c> this</c></c><c.colorE5E5E5><00:02:45.430><c> is</c></c><c.colorCCCCCC><00:02:45.490><c> a</c></c>
+
+00:02:45.660 --> 00:02:45.670 align:start position:0%
+<c.colorCCCCCC>be proved</c><c.colorE5E5E5> a right or wrong</c><c.colorCCCCCC> and this</c><c.colorE5E5E5> is</c><c.colorCCCCCC> a
+ </c>
+
+00:02:45.670 --> 00:02:48.630 align:start position:0%
+<c.colorCCCCCC>be proved</c><c.colorE5E5E5> a right or wrong</c><c.colorCCCCCC> and this</c><c.colorE5E5E5> is</c><c.colorCCCCCC> a
+key<00:02:46.150><c> differentiating</c><00:02:46.870><c> factor</c><00:02:47.830><c> from</c><00:02:48.070><c> opinion</c></c>
+
+00:02:48.630 --> 00:02:48.640 align:start position:0%
+key differentiating factor from opinion
+ 
+
+00:02:48.640 --> 00:02:52.010 align:start position:0%
+key differentiating factor from opinion
+<c.colorE5E5E5>which<00:02:49.600><c> tends</c></c><c.colorCCCCCC><00:02:49.990><c> to</c></c><c.colorE5E5E5><00:02:50.230><c> be</c><00:02:50.380><c> not</c><00:02:50.770><c> easy</c><00:02:51.100><c> to</c><00:02:51.370><c> prove</c></c>
+
+00:02:52.010 --> 00:02:52.020 align:start position:0%
+<c.colorE5E5E5>which tends</c><c.colorCCCCCC> to</c><c.colorE5E5E5> be not easy to prove
+ </c>
+
+00:02:52.020 --> 00:02:54.720 align:start position:0%
+<c.colorE5E5E5>which tends</c><c.colorCCCCCC> to</c><c.colorE5E5E5> be not easy to prove</c>
+<c.colorCCCCCC>wrong<00:02:53.020><c> or</c><00:02:53.260><c> right</c><00:02:53.320><c> because</c><00:02:53.920><c> it</c><00:02:54.250><c> reflects</c><00:02:54.700><c> what</c></c>
+
+00:02:54.720 --> 00:02:54.730 align:start position:0%
+<c.colorCCCCCC>wrong or right because it reflects what
+ </c>
+
+00:02:54.730 --> 00:02:59.640 align:start position:0%
+<c.colorCCCCCC>wrong or right because it reflects what</c>
+<c.colorCCCCCC>the<00:02:54.880><c> person</c><00:02:55.300><c> thinks</c><00:02:55.510><c> about</c><00:02:55.960><c> something</c></c><c.colorE5E5E5><00:02:58.200><c> so</c><00:02:59.200><c> in</c></c>
+
+00:02:59.640 --> 00:02:59.650 align:start position:0%
+<c.colorCCCCCC>the person thinks about something</c><c.colorE5E5E5> so in
+ </c>
+
+00:02:59.650 --> 00:03:03.600 align:start position:0%
+<c.colorCCCCCC>the person thinks about something</c><c.colorE5E5E5> so in
+contrast<00:03:00.480><c> objective</c><00:03:01.480><c> statement</c><00:03:02.400><c> can</c><00:03:03.400><c> usually</c></c>
+
+00:03:03.600 --> 00:03:03.610 align:start position:0%
+contrast<c.colorE5E5E5> objective statement can usually
+ </c>
+
+00:03:03.610 --> 00:03:08.250 align:start position:0%
+contrast<c.colorE5E5E5> objective statement can usually
+be<00:03:04.060><c> proved</c><00:03:05.050><c> wrong</c><00:03:05.530><c> or</c><00:03:05.830><c> correct</c><00:03:06.780><c> for</c><00:03:07.780><c> example</c></c>
+
+00:03:08.250 --> 00:03:08.260 align:start position:0%
+be proved wrong or correct<c.colorE5E5E5> for example
+ </c>
+
+00:03:08.260 --> 00:03:13.740 align:start position:0%
+be proved wrong or correct<c.colorE5E5E5> for example
+you<00:03:08.470><c> might</c><00:03:08.710><c> say</c></c><c.colorCCCCCC><00:03:09.510><c> this</c><00:03:10.510><c> computer</c><00:03:11.110><c> has</c><00:03:11.910><c> a</c><00:03:12.910><c> screen</c></c>
+
+00:03:13.740 --> 00:03:13.750 align:start position:0%
+you might say<c.colorCCCCCC> this computer has a screen
+ </c>
+
+00:03:13.750 --> 00:03:17.460 align:start position:0%
+you might say<c.colorCCCCCC> this computer has a screen
+and<00:03:13.930><c> a</c><00:03:14.740><c> bad</c><00:03:14.950><c> word</c><00:03:15.780><c> now</c><00:03:16.780><c> that's</c><00:03:17.020><c> something</c><00:03:17.440><c> you</c></c>
+
+00:03:17.460 --> 00:03:17.470 align:start position:0%
+and a bad word now that's something you
+ 
+
+00:03:17.470 --> 00:03:21.480 align:start position:0%
+and a bad word now that's something you
+<c.colorE5E5E5>can<00:03:17.680><c> check</c></c><c.colorCCCCCC><00:03:17.980><c> it's</c><00:03:18.580><c> either</c></c><c.colorE5E5E5><00:03:19.830><c> having</c><00:03:20.830><c> a</c><00:03:20.950><c> battery</c></c>
+
+00:03:21.480 --> 00:03:21.490 align:start position:0%
+<c.colorE5E5E5>can check</c><c.colorCCCCCC> it's either</c><c.colorE5E5E5> having a battery
+ </c>
+
+00:03:21.490 --> 00:03:25.230 align:start position:0%
+<c.colorE5E5E5>can check</c><c.colorCCCCCC> it's either</c><c.colorE5E5E5> having a battery</c>
+<c.colorE5E5E5>or<00:03:21.850><c> not</c><00:03:22.530><c> but</c><00:03:23.530><c> in</c><00:03:24.070><c> contrast</c><00:03:24.490><c> if</c></c><c.colorCCCCCC><00:03:24.760><c> you</c><00:03:24.880><c> think</c></c>
+
+00:03:25.230 --> 00:03:25.240 align:start position:0%
+<c.colorE5E5E5>or not but in contrast if</c><c.colorCCCCCC> you think
+ </c>
+
+00:03:25.240 --> 00:03:27.990 align:start position:0%
+<c.colorE5E5E5>or not but in contrast if</c><c.colorCCCCCC> you think
+about</c><c.colorE5E5E5><00:03:25.330><c> the</c><00:03:25.570><c> sentence</c><00:03:25.960><c> such</c><00:03:26.260><c> as</c><00:03:26.640><c> this</c><00:03:27.640><c> laptop</c></c>
+
+00:03:27.990 --> 00:03:28.000 align:start position:0%
+about<c.colorE5E5E5> the sentence such as this laptop
+ </c>
+
+00:03:28.000 --> 00:03:33.300 align:start position:0%
+about<c.colorE5E5E5> the sentence such as this laptop
+has<00:03:28.600><c> the</c></c><c.colorCCCCCC><00:03:28.630><c> best</c></c><c.colorE5E5E5><00:03:29.110><c> battery</c><00:03:29.880><c> or</c><00:03:31.290><c> this</c></c><c.colorCCCCCC><00:03:32.290><c> laptop</c><00:03:32.950><c> has</c></c>
+
+00:03:33.300 --> 00:03:33.310 align:start position:0%
+has the<c.colorCCCCCC> best</c><c.colorE5E5E5> battery or this</c><c.colorCCCCCC> laptop has
+ </c>
+
+00:03:33.310 --> 00:03:36.030 align:start position:0%
+has the<c.colorCCCCCC> best</c><c.colorE5E5E5> battery or this</c><c.colorCCCCCC> laptop has
+a<00:03:33.340><c> nice</c><00:03:33.730><c> screen</c><00:03:34.120><c> and</c><00:03:35.020><c> these</c><00:03:35.200><c> stamens</c></c><c.colorE5E5E5><00:03:35.770><c> are</c><00:03:35.890><c> more</c></c>
+
+00:03:36.030 --> 00:03:36.040 align:start position:0%
+a nice screen and these<c.colorCCCCCC> stamens</c><c.colorE5E5E5> are more
+ </c>
+
+00:03:36.040 --> 00:03:39.120 align:start position:0%
+a nice screen and these<c.colorCCCCCC> stamens</c><c.colorE5E5E5> are more</c>
+<c.colorE5E5E5>subjective<00:03:36.640><c> and</c><00:03:37.630><c> it's</c><00:03:37.810><c> very</c><00:03:38.080><c> hard</c><00:03:38.380><c> to</c></c><c.colorCCCCCC><00:03:38.530><c> prove</c></c>
+
+00:03:39.120 --> 00:03:39.130 align:start position:0%
+<c.colorE5E5E5>subjective and it's very hard to</c><c.colorCCCCCC> prove
+ </c>
+
+00:03:39.130 --> 00:03:44.810 align:start position:0%
+<c.colorE5E5E5>subjective and it's very hard to</c><c.colorCCCCCC> prove
+whether<00:03:40.030><c> it's</c><00:03:40.180><c> wrong</c><00:03:41.170><c> or</c><00:03:42.300><c> correct</c></c>
+
+00:03:44.810 --> 00:03:44.820 align:start position:0%
+whether it's wrong or correct
+ 
+
+00:03:44.820 --> 00:03:50.240 align:start position:0%
+whether it's wrong or correct
+so<00:03:45.820><c> opinion</c><00:03:46.510><c> is</c><00:03:47.520><c> subjective</c><c.colorCCCCCC><00:03:48.520><c> statement</c><00:03:49.030><c> and</c></c>
+
+00:03:50.240 --> 00:03:50.250 align:start position:0%
+so opinion is subjective<c.colorCCCCCC> statement and
+ </c>
+
+00:03:50.250 --> 00:03:53.340 align:start position:0%
+so opinion is subjective<c.colorCCCCCC> statement and
+next<00:03:51.250><c> let's</c><00:03:51.550><c> look</c><00:03:51.790><c> at</c><00:03:51.970><c> the</c></c><c.colorE5E5E5><00:03:52.209><c> the</c></c><c.colorCCCCCC><00:03:52.930><c> keyword</c></c>
+
+00:03:53.340 --> 00:03:53.350 align:start position:0%
+next let's look at the<c.colorE5E5E5> the</c><c.colorCCCCCC> keyword
+ </c>
+
+00:03:53.350 --> 00:03:55.590 align:start position:0%
+next let's look at the<c.colorE5E5E5> the</c><c.colorCCCCCC> keyword
+person<00:03:54.130><c> here</c></c><c.colorE5E5E5><00:03:54.400><c> and</c><00:03:54.670><c> that</c><00:03:54.910><c> mean</c><00:03:55.090><c> because</c><00:03:55.240><c> this</c></c>
+
+00:03:55.590 --> 00:03:55.600 align:start position:0%
+person here<c.colorE5E5E5> and that mean because this
+ </c>
+
+00:03:55.600 --> 00:03:57.540 align:start position:0%
+person here<c.colorE5E5E5> and that mean because this
+opinion<00:03:56.140><c> holder</c><00:03:56.470><c> because</c><00:03:57.130><c> when</c><00:03:57.310><c> we</c><00:03:57.400><c> talk</c></c>
+
+00:03:57.540 --> 00:03:57.550 align:start position:0%
+opinion holder<c.colorE5E5E5> because when we talk
+ </c>
+
+00:03:57.550 --> 00:03:59.970 align:start position:0%
+opinion holder<c.colorE5E5E5> because when we talk
+about<00:03:57.580><c> opinion</c><00:03:58.330><c> it's</c><00:03:58.510><c> about</c><00:03:58.720><c> the</c><00:03:58.990><c> opinion</c></c>
+
+00:03:59.970 --> 00:03:59.980 align:start position:0%
+about opinion it's<c.colorE5E5E5> about the opinion
+ </c>
+
+00:03:59.980 --> 00:04:03.210 align:start position:0%
+about opinion it's<c.colorE5E5E5> about the opinion</c>
+<c.colorE5E5E5>held<00:04:00.880><c> by</c><00:04:01.150><c> someone</c><00:04:01.420><c> and</c><00:04:02.350><c> then</c><00:04:02.500><c> we</c><00:04:02.620><c> notice</c><00:04:02.980><c> that</c></c>
+
+00:04:03.210 --> 00:04:03.220 align:start position:0%
+<c.colorE5E5E5>held by someone and then we notice that
+ </c>
+
+00:04:03.220 --> 00:04:05.280 align:start position:0%
+<c.colorE5E5E5>held by someone and then we notice that
+there</c><c.colorCCCCCC><00:04:03.850><c> is</c><00:04:03.970><c> something</c></c><c.colorE5E5E5><00:04:04.240><c> here</c><00:04:04.600><c> so</c><00:04:04.810><c> that's</c><00:04:05.020><c> the</c></c>
+
+00:04:05.280 --> 00:04:05.290 align:start position:0%
+there<c.colorCCCCCC> is something</c><c.colorE5E5E5> here so that's the
+ </c>
+
+00:04:05.290 --> 00:04:07.380 align:start position:0%
+there<c.colorCCCCCC> is something</c><c.colorE5E5E5> here so that's the
+target<00:04:05.620><c> of</c><00:04:05.950><c> the</c><00:04:06.100><c> opinion</c><00:04:06.459><c> the</c></c><c.colorCCCCCC><00:04:06.670><c> opinion</c><00:04:07.300><c> is</c></c>
+
+00:04:07.380 --> 00:04:07.390 align:start position:0%
+target<c.colorE5E5E5> of the opinion the</c><c.colorCCCCCC> opinion is
+ </c>
+
+00:04:07.390 --> 00:04:11.730 align:start position:0%
+target<c.colorE5E5E5> of the opinion the</c><c.colorCCCCCC> opinion is
+expressed</c><c.colorE5E5E5><00:04:08.320><c> on</c><00:04:08.770><c> this</c><00:04:09.190><c> something</c><00:04:10.440><c> and</c><00:04:11.440><c> then</c><00:04:11.620><c> of</c></c>
+
+00:04:11.730 --> 00:04:11.740 align:start position:0%
+expressed<c.colorE5E5E5> on this something and then of
+ </c>
+
+00:04:11.740 --> 00:04:14.820 align:start position:0%
+expressed<c.colorE5E5E5> on this something and then of
+course<00:04:11.770><c> believes</c><00:04:12.580><c> all</c><00:04:13.000><c> things</c><00:04:13.470><c> implies</c><00:04:14.470><c> that</c></c>
+
+00:04:14.820 --> 00:04:14.830 align:start position:0%
+course<c.colorE5E5E5> believes all things implies that
+ </c>
+
+00:04:14.830 --> 00:04:18.000 align:start position:0%
+course<c.colorE5E5E5> believes all things implies that
+the<00:04:15.760><c> opinion</c><00:04:16.209><c> would</c><00:04:16.330><c> depend</c><00:04:16.810><c> on</c><00:04:17.109><c> the</c></c><c.colorCCCCCC><00:04:17.500><c> culture</c></c>
+
+00:04:18.000 --> 00:04:18.010 align:start position:0%
+the opinion would depend on the<c.colorCCCCCC> culture
+ </c>
+
+00:04:18.010 --> 00:04:20.670 align:start position:0%
+the opinion would depend on the<c.colorCCCCCC> culture
+or<00:04:18.250><c> background</c><00:04:18.420><c> and</c><00:04:19.420><c> context</c><00:04:20.109><c> in</c><00:04:20.260><c> general</c></c>
+
+00:04:20.670 --> 00:04:20.680 align:start position:0%
+or background and context in general
+ 
+
+00:04:20.680 --> 00:04:23.070 align:start position:0%
+or background and context in general
+because<00:04:21.220><c> a</c><00:04:21.250><c> person</c><00:04:21.790><c> might</c><c.colorCCCCCC><00:04:22.330><c> think</c><00:04:22.630><c> differently</c></c>
+
+00:04:23.070 --> 00:04:23.080 align:start position:0%
+because a person might<c.colorCCCCCC> think differently
+ </c>
+
+00:04:23.080 --> 00:04:25.290 align:start position:0%
+because a person might<c.colorCCCCCC> think differently
+in<00:04:23.290><c> the</c><00:04:23.350><c> different</c><00:04:23.680><c> context</c><00:04:24.190><c> people</c><00:04:24.880><c> from</c></c>
+
+00:04:25.290 --> 00:04:25.300 align:start position:0%
+in the different context people<c.colorCCCCCC> from
+ </c>
+
+00:04:25.300 --> 00:04:28.260 align:start position:0%
+in the different context people<c.colorCCCCCC> from
+different<00:04:25.510><c> background</c><00:04:26.140><c> and</c><00:04:26.770><c> they</c><00:04:26.950><c> also</c></c><c.colorE5E5E5><00:04:27.100><c> think</c></c>
+
+00:04:28.260 --> 00:04:28.270 align:start position:0%
+different<c.colorCCCCCC> background and they also</c><c.colorE5E5E5> think
+ </c>
+
+00:04:28.270 --> 00:04:31.170 align:start position:0%
+different<c.colorCCCCCC> background and they also</c><c.colorE5E5E5> think</c>
+<c.colorCCCCCC>in<00:04:28.419><c> Wales</c><00:04:28.629><c> so</c><00:04:28.990><c> this</c><00:04:29.919><c> analysis</c><00:04:30.580><c> shows</c><00:04:31.150><c> that</c></c>
+
+00:04:31.170 --> 00:04:31.180 align:start position:0%
+<c.colorCCCCCC>in Wales so this analysis shows that
+ </c>
+
+00:04:31.180 --> 00:04:33.390 align:start position:0%
+<c.colorCCCCCC>in Wales so this analysis shows that</c>
+<c.colorE5E5E5>there</c><c.colorCCCCCC><00:04:31.750><c> are</c><00:04:31.870><c> multiple</c><00:04:32.050><c> elements</c><00:04:32.770><c> that</c><00:04:32.919><c> we</c><00:04:33.190><c> need</c></c>
+
+00:04:33.390 --> 00:04:33.400 align:start position:0%
+<c.colorE5E5E5>there</c><c.colorCCCCCC> are multiple elements that we need
+ </c>
+
+00:04:33.400 --> 00:04:35.570 align:start position:0%
+<c.colorE5E5E5>there</c><c.colorCCCCCC> are multiple elements that we need
+to<00:04:33.520><c> improve</c><00:04:33.669><c> the</c><00:04:34.060><c> in</c><00:04:34.210><c> order</c></c><c.colorE5E5E5><00:04:34.509><c> to</c><00:04:34.660><c> characterize</c></c>
+
+00:04:35.570 --> 00:04:35.580 align:start position:0%
+to improve<c.colorCCCCCC> the in order</c><c.colorE5E5E5> to characterize
+ </c>
+
+00:04:35.580 --> 00:04:40.619 align:start position:0%
+to improve<c.colorCCCCCC> the in order</c><c.colorE5E5E5> to characterize
+opinion<00:04:37.319><c> so</c><00:04:38.319><c> what's</c><00:04:39.220><c> a</c><00:04:39.370><c> basic</c><00:04:39.819><c> opinion</c></c>
+
+00:04:40.619 --> 00:04:40.629 align:start position:0%
+opinion so what's<c.colorE5E5E5> a basic opinion
+ </c>
+
+00:04:40.629 --> 00:04:43.379 align:start position:0%
+opinion so what's<c.colorE5E5E5> a basic opinion
+recommendation<00:04:41.440><c> like</c><00:04:41.770><c> well</c><00:04:42.610><c> it</c><00:04:43.120><c> should</c></c>
+
+00:04:43.379 --> 00:04:43.389 align:start position:0%
+recommendation like well it should
+ 
+
+00:04:43.389 --> 00:04:46.589 align:start position:0%
+recommendation like well it should
+<c.colorE5E5E5>include<00:04:43.750><c> at</c><00:04:43.990><c> least</c></c><c.colorCCCCCC><00:04:44.020><c> three</c><00:04:44.500><c> amendments</c><00:04:44.849><c> right</c></c>
+
+00:04:46.589 --> 00:04:46.599 align:start position:0%
+<c.colorE5E5E5>include at least</c><c.colorCCCCCC> three amendments right
+ </c>
+
+00:04:46.599 --> 00:04:48.659 align:start position:0%
+<c.colorE5E5E5>include at least</c><c.colorCCCCCC> three amendments right</c>
+<c.colorE5E5E5>especially<00:04:47.229><c> it</c><00:04:47.319><c> has</c><00:04:47.560><c> to</c><00:04:47.770><c> specify</c><00:04:48.099><c> what's</c><00:04:48.520><c> the</c></c>
+
+00:04:48.659 --> 00:04:48.669 align:start position:0%
+<c.colorE5E5E5>especially it has to specify what's the
+ </c>
+
+00:04:48.669 --> 00:04:50.580 align:start position:0%
+<c.colorE5E5E5>especially it has to specify what's the
+opinion<00:04:48.909><c> holder</c><00:04:49.389><c> so</c><00:04:49.659><c> whose</c><00:04:49.870><c> opinion</c><00:04:50.349><c> this</c></c>
+
+00:04:50.580 --> 00:04:50.590 align:start position:0%
+opinion holder so whose opinion<c.colorE5E5E5> this
+ </c>
+
+00:04:50.590 --> 00:04:53.969 align:start position:0%
+opinion holder so whose opinion<c.colorE5E5E5> this
+second<00:04:51.580><c> must</c><00:04:52.300><c> also</c><00:04:52.539><c> specify</c><00:04:53.080><c> the</c><00:04:53.110><c> target</c></c>
+
+00:04:53.969 --> 00:04:53.979 align:start position:0%
+second must also<c.colorE5E5E5> specify the target
+ </c>
+
+00:04:53.979 --> 00:04:58.140 align:start position:0%
+second must also<c.colorE5E5E5> specify the target
+what's<00:04:54.819><c> this</c><00:04:55.000><c> opinion</c><00:04:55.449><c> part</c><00:04:55.690><c> and</c><00:04:56.819><c> third</c><00:04:57.819><c> of</c></c>
+
+00:04:58.140 --> 00:04:58.150 align:start position:0%
+what's this opinion<c.colorE5E5E5> part and third of
+ </c>
+
+00:04:58.150 --> 00:05:01.740 align:start position:0%
+what's this opinion<c.colorE5E5E5> part and third of
+course<00:04:59.020><c> we</c><00:04:59.319><c> want</c><00:04:59.560><c> opinion</c><00:05:00.430><c> content</c><00:05:00.940><c> and</c><00:05:01.569><c> so</c></c>
+
+00:05:01.740 --> 00:05:01.750 align:start position:0%
+course we want opinion content and so
+ 
+
+00:05:01.750 --> 00:05:04.080 align:start position:0%
+course we want opinion content and so
+what<00:05:01.930><c> exactly</c><c.colorE5E5E5><00:05:02.050><c> is</c><00:05:02.440><c> the</c><00:05:02.680><c> opinion</c></c><c.colorCCCCCC><00:05:03.009><c> you</c><00:05:03.940><c> can</c></c>
+
+00:05:04.080 --> 00:05:04.090 align:start position:0%
+what exactly<c.colorE5E5E5> is the opinion</c><c.colorCCCCCC> you can
+ </c>
+
+00:05:04.090 --> 00:05:05.969 align:start position:0%
+what exactly<c.colorE5E5E5> is the opinion</c><c.colorCCCCCC> you can
+identify<00:05:04.240><c> these</c><00:05:04.750><c> we</c><00:05:05.199><c> get</c><00:05:05.470><c> a</c><00:05:05.500><c> basic</c></c>
+
+00:05:05.969 --> 00:05:05.979 align:start position:0%
+identify these we get a basic
+ 
+
+00:05:05.979 --> 00:05:08.939 align:start position:0%
+identify these we get a basic
+understanding<00:05:06.039><c> of</c><00:05:06.690><c> opinion</c><c.colorCCCCCC><00:05:07.690><c> and</c></c><c.colorE5E5E5><00:05:08.229><c> calorie</c><00:05:08.770><c> to</c></c>
+
+00:05:08.939 --> 00:05:08.949 align:start position:0%
+understanding of opinion<c.colorCCCCCC> and</c><c.colorE5E5E5> calorie to
+ </c>
+
+00:05:08.949 --> 00:05:11.070 align:start position:0%
+understanding of opinion<c.colorCCCCCC> and</c><c.colorE5E5E5> calorie to
+be<00:05:09.039><c> used</c><00:05:09.280><c> for</c><00:05:09.520><c> sometimes</c><00:05:09.970><c> you</c><00:05:10.810><c> want</c><00:05:10.990><c> to</c></c>
+
+00:05:11.070 --> 00:05:11.080 align:start position:0%
+be used<c.colorE5E5E5> for sometimes you want to
+ </c>
+
+00:05:11.080 --> 00:05:13.080 align:start position:0%
+be used<c.colorE5E5E5> for sometimes you want to
+understand<00:05:11.560><c> further</c><00:05:11.830><c> we</c><00:05:12.280><c> want</c><00:05:12.490><c> to</c><00:05:12.550><c> enrich</c><00:05:12.849><c> the</c></c>
+
+00:05:13.080 --> 00:05:13.090 align:start position:0%
+understand further<c.colorE5E5E5> we want to enrich the
+ </c>
+
+00:05:13.090 --> 00:05:15.839 align:start position:0%
+understand further<c.colorE5E5E5> we want to enrich the
+opinion<00:05:13.419><c> representation</c><00:05:14.110><c> and</c><00:05:14.770><c> that</c><00:05:15.430><c> means</c><00:05:15.639><c> we</c></c>
+
+00:05:15.839 --> 00:05:15.849 align:start position:0%
+opinion representation and<c.colorE5E5E5> that means we
+ </c>
+
+00:05:15.849 --> 00:05:17.339 align:start position:0%
+opinion representation and<c.colorE5E5E5> that means we
+also<00:05:16.000><c> want</c><00:05:16.330><c> to</c><00:05:16.389><c> understand</c><00:05:16.840><c> that</c><00:05:16.990><c> for</c></c><c.colorCCCCCC><00:05:17.080><c> example</c></c>
+
+00:05:17.339 --> 00:05:17.349 align:start position:0%
+also want to understand<c.colorE5E5E5> that for</c><c.colorCCCCCC> example
+ </c>
+
+00:05:17.349 --> 00:05:20.219 align:start position:0%
+also want to understand<c.colorE5E5E5> that for</c><c.colorCCCCCC> example</c>
+<c.colorE5E5E5>context<00:05:18.190><c> of</c><00:05:18.310><c> the</c><00:05:18.490><c> pinion</c><00:05:18.759><c> and</c><00:05:19.150><c> what</c><00:05:19.509><c> situation</c></c>
+
+00:05:20.219 --> 00:05:20.229 align:start position:0%
+<c.colorE5E5E5>context of the pinion and what situation
+ </c>
+
+00:05:20.229 --> 00:05:23.790 align:start position:0%
+<c.colorE5E5E5>context of the pinion and what situation
+was<00:05:21.039><c> the</c><00:05:21.219><c> opinion</c><00:05:21.639><c> expressed</c><00:05:21.810><c> for</c><00:05:22.810><c> example</c><00:05:23.259><c> in</c></c>
+
+00:05:23.790 --> 00:05:23.800 align:start position:0%
+was the<c.colorE5E5E5> opinion expressed for example in
+ </c>
+
+00:05:23.800 --> 00:05:27.149 align:start position:0%
+was the<c.colorE5E5E5> opinion expressed for example in
+what<00:05:24.009><c> time</c><00:05:24.310><c> was</c><00:05:24.819><c> it</c><00:05:24.849><c> expressed</c><00:05:25.659><c> we</c><00:05:26.379><c> also</c><00:05:26.530><c> would</c></c>
+
+00:05:27.149 --> 00:05:27.159 align:start position:0%
+what time was it expressed we also would
+ 
+
+00:05:27.159 --> 00:05:29.969 align:start position:0%
+what time was it expressed we also would
+<c.colorCCCCCC>like<00:05:27.310><c> to</c><00:05:27.370><c> people</c><00:05:28.180><c> understand</c><00:05:28.750><c> the</c><00:05:29.560><c> opinion</c></c>
+
+00:05:29.969 --> 00:05:29.979 align:start position:0%
+<c.colorCCCCCC>like to people understand the opinion
+ </c>
+
+00:05:29.979 --> 00:05:35.040 align:start position:0%
+<c.colorCCCCCC>like to people understand the opinion
+sentiment<00:05:30.639><c> and</c><00:05:31.020><c> this</c><00:05:32.020><c> is</c><00:05:32.199><c> to</c><00:05:32.440><c> understand</c><00:05:34.050><c> what</c></c>
+
+00:05:35.040 --> 00:05:35.050 align:start position:0%
+sentiment and this is to understand what
+ 
+
+00:05:35.050 --> 00:05:37.709 align:start position:0%
+sentiment and this is to understand what
+<c.colorE5E5E5>the<00:05:35.259><c> opinion</c><00:05:35.680><c> tells</c><00:05:35.919><c> us</c><00:05:36.099><c> about</c><00:05:36.310><c> the</c><00:05:37.270><c> opinion</c></c>
+
+00:05:37.709 --> 00:05:37.719 align:start position:0%
+<c.colorE5E5E5>the opinion tells us about the opinion
+ </c>
+
+00:05:37.719 --> 00:05:40.589 align:start position:0%
+<c.colorE5E5E5>the opinion tells us about the opinion
+holders<00:05:38.169><c> feeling</c><00:05:38.710><c> for</c><00:05:39.490><c> example</c><00:05:39.940><c> is</c><00:05:40.389><c> this</c></c>
+
+00:05:40.589 --> 00:05:40.599 align:start position:0%
+holders feeling for example is this
+ 
+
+00:05:40.599 --> 00:05:43.920 align:start position:0%
+holders feeling for example is this
+opinion<00:05:41.020><c> positive</c><00:05:41.620><c> or</c><00:05:41.919><c> negative</c><c.colorE5E5E5><00:05:42.669><c> or</c><00:05:43.210><c> perhaps</c></c>
+
+00:05:43.920 --> 00:05:43.930 align:start position:0%
+opinion positive or negative<c.colorE5E5E5> or perhaps
+ </c>
+
+00:05:43.930 --> 00:05:47.850 align:start position:0%
+opinion positive or negative<c.colorE5E5E5> or perhaps
+the<00:05:44.560><c> opinion</c><00:05:45.490><c> holder</c><00:05:45.880><c> it</c><00:05:46.150><c> was</c><00:05:46.719><c> happy</c><00:05:47.169><c> or</c><00:05:47.409><c> was</c></c>
+
+00:05:47.850 --> 00:05:47.860 align:start position:0%
+the opinion holder it was happy or was
+ 
+
+00:05:47.860 --> 00:05:50.159 align:start position:0%
+the opinion holder it was happy or was
+said<00:05:48.150><c> and</c><00:05:49.150><c> so</c><00:05:49.330><c> such</c><00:05:49.509><c> an</c><c.colorE5E5E5><00:05:49.630><c> understanding</c></c>
+
+00:05:50.159 --> 00:05:50.169 align:start position:0%
+said and so such an<c.colorE5E5E5> understanding
+ </c>
+
+00:05:50.169 --> 00:05:53.159 align:start position:0%
+said and so such an<c.colorE5E5E5> understanding</c>
+<c.colorCCCCCC>obviously<00:05:50.620><c> goes</c><00:05:50.740><c> beyond</c><00:05:51.279><c> just</c><00:05:52.169><c> extracting</c></c>
+
+00:05:53.159 --> 00:05:53.169 align:start position:0%
+<c.colorCCCCCC>obviously goes beyond just extracting
+ </c>
+
+00:05:53.169 --> 00:05:55.469 align:start position:0%
+<c.colorCCCCCC>obviously goes beyond just extracting
+the<00:05:53.289><c> opinion</c><00:05:53.710><c> content</c><00:05:54.219><c> and</c><00:05:54.490><c> needs</c><00:05:54.789><c> some</c></c>
+
+00:05:55.469 --> 00:05:55.479 align:start position:0%
+the opinion content and needs some
+ 
+
+00:05:55.479 --> 00:06:01.980 align:start position:0%
+the opinion content and needs some
+analysis<00:05:59.550><c> so</c><00:06:00.550><c> let's</c><00:06:00.819><c> take</c><00:06:00.969><c> a</c><00:06:01.000><c> simple</c><c.colorE5E5E5><00:06:01.779><c> example</c></c>
+
+00:06:01.980 --> 00:06:01.990 align:start position:0%
+analysis so let's take a simple<c.colorE5E5E5> example
+ </c>
+
+00:06:01.990 --> 00:06:04.620 align:start position:0%
+analysis so let's take a simple<c.colorE5E5E5> example
+of<00:06:02.469><c> a</c><00:06:02.800><c> product</c><00:06:03.069><c> review</c></c><c.colorCCCCCC><00:06:03.430><c> in</c><00:06:03.849><c> this</c><00:06:04.029><c> case</c><00:06:04.330><c> this</c></c>
+
+00:06:04.620 --> 00:06:04.630 align:start position:0%
+of a product<c.colorE5E5E5> review</c><c.colorCCCCCC> in this case this
+ </c>
+
+00:06:04.630 --> 00:06:07.200 align:start position:0%
+of a product<c.colorE5E5E5> review</c><c.colorCCCCCC> in this case this
+actually</c><c.colorE5E5E5><00:06:04.870><c> explicit</c><00:06:05.770><c> opinion</c><00:06:06.639><c> holder</c><00:06:06.969><c> and</c></c>
+
+00:06:07.200 --> 00:06:07.210 align:start position:0%
+actually<c.colorE5E5E5> explicit opinion holder and
+ </c>
+
+00:06:07.210 --> 00:06:10.170 align:start position:0%
+actually<c.colorE5E5E5> explicit opinion holder and</c>
+<c.colorE5E5E5>express<00:06:07.900><c> the</c><00:06:08.080><c> target</c><00:06:08.469><c> and</c><00:06:09.009><c> so</c><00:06:09.250><c> it's</c><00:06:09.370><c> all</c><00:06:09.610><c> it's</c></c>
+
+00:06:10.170 --> 00:06:10.180 align:start position:0%
+<c.colorE5E5E5>express the target and so it's all it's
+ </c>
+
+00:06:10.180 --> 00:06:11.909 align:start position:0%
+<c.colorE5E5E5>express the target and so it's all it's
+obviously<00:06:10.630><c> what's</c><00:06:10.900><c> the</c><00:06:11.050><c> opinion</c><00:06:11.259><c> holder</c><00:06:11.740><c> and</c></c>
+
+00:06:11.909 --> 00:06:11.919 align:start position:0%
+obviously what's the opinion holder and
+ 
+
+00:06:11.919 --> 00:06:13.860 align:start position:0%
+obviously what's the opinion holder and
+that's<00:06:12.250><c> just</c><00:06:12.430><c> a</c><00:06:12.520><c> reviewer</c><c.colorE5E5E5><00:06:12.909><c> and</c><00:06:13.569><c> it's</c><00:06:13.690><c> also</c></c>
+
+00:06:13.860 --> 00:06:13.870 align:start position:0%
+that's just a reviewer<c.colorE5E5E5> and it's also
+ </c>
+
+00:06:13.870 --> 00:06:15.990 align:start position:0%
+that's just a reviewer<c.colorE5E5E5> and it's also
+often</c><c.colorCCCCCC><00:06:14.139><c> very</c><00:06:15.009><c> clear</c><00:06:15.340><c> what's</c><00:06:15.610><c> the</c><00:06:15.789><c> opinion</c></c>
+
+00:06:15.990 --> 00:06:16.000 align:start position:0%
+often<c.colorCCCCCC> very clear what's the opinion
+ </c>
+
+00:06:16.000 --> 00:06:18.689 align:start position:0%
+often<c.colorCCCCCC> very clear what's the opinion</c>
+<c.colorE5E5E5>targeted<00:06:16.599><c> and</c><00:06:16.810><c> that's</c><00:06:16.990><c> the</c><00:06:17.310><c> product</c><00:06:18.310><c> in</c></c>
+
+00:06:18.689 --> 00:06:18.699 align:start position:0%
+<c.colorE5E5E5>targeted and that's the product in
+ </c>
+
+00:06:18.699 --> 00:06:22.290 align:start position:0%
+<c.colorE5E5E5>targeted and that's the product in
+revealed<00:06:19.090><c> for</c><00:06:19.360><c> example</c><00:06:19.750><c> iPhone</c><00:06:20.080><c> 6</c><00:06:20.349><c> and</c><00:06:21.340><c> when</c></c>
+
+00:06:22.290 --> 00:06:22.300 align:start position:0%
+<c.colorE5E5E5>revealed for example iPhone 6 and when
+ </c>
+
+00:06:22.300 --> 00:06:24.450 align:start position:0%
+<c.colorE5E5E5>revealed for example iPhone 6 and when
+the<00:06:22.479><c> review</c><00:06:22.840><c> was</c><00:06:22.960><c> posted</c><00:06:23.440><c> usually</c><00:06:24.219><c> you</c><00:06:24.310><c> can</c></c>
+
+00:06:24.450 --> 00:06:24.460 align:start position:0%
+the review<c.colorE5E5E5> was posted usually you can
+ </c>
+
+00:06:24.460 --> 00:06:26.390 align:start position:0%
+the review<c.colorE5E5E5> was posted usually you can
+extract<00:06:24.759><c> those</c><00:06:24.909><c> such</c><00:06:25.270><c> information</c><00:06:25.810><c> easily</c></c>
+
+00:06:26.390 --> 00:06:26.400 align:start position:0%
+extract those<c.colorE5E5E5> such information easily
+ </c>
+
+00:06:26.400 --> 00:06:28.860 align:start position:0%
+extract those<c.colorE5E5E5> such information easily
+now<00:06:27.400><c> the</c><00:06:27.460><c> content</c><00:06:27.969><c> of</c></c><c.colorCCCCCC><00:06:28.090><c> course</c><00:06:28.240><c> is</c><00:06:28.419><c> the</c><00:06:28.539><c> review</c></c>
+
+00:06:28.860 --> 00:06:28.870 align:start position:0%
+now the content of<c.colorCCCCCC> course is the review
+ </c>
+
+00:06:28.870 --> 00:06:31.019 align:start position:0%
+now the content of<c.colorCCCCCC> course is the review
+text<00:06:29.289><c> that's</c><00:06:29.620><c> in</c><00:06:29.979><c> general</c><00:06:30.279><c> also</c><00:06:30.699><c> easy</c><00:06:30.849><c> to</c></c>
+
+00:06:31.019 --> 00:06:31.029 align:start position:0%
+text that's in general<c.colorCCCCCC> also easy to
+ </c>
+
+00:06:31.029 --> 00:06:34.200 align:start position:0%
+text that's in general<c.colorCCCCCC> also easy to</c>
+<c.colorE5E5E5>obtain</c><c.colorCCCCCC><00:06:31.409><c> so</c><00:06:32.409><c> you</c><00:06:32.529><c> can</c><00:06:32.770><c> see</c><00:06:32.919><c> product</c><00:06:33.789><c> reviews</c></c>
+
+00:06:34.200 --> 00:06:34.210 align:start position:0%
+<c.colorE5E5E5>obtain</c><c.colorCCCCCC> so you can see product reviews
+ </c>
+
+00:06:34.210 --> 00:06:37.379 align:start position:0%
+<c.colorE5E5E5>obtain</c><c.colorCCCCCC> so you can see product reviews</c>
+<c.colorE5E5E5>are<00:06:34.740><c> fairly</c></c><c.colorCCCCCC><00:06:35.740><c> easy</c><00:06:35.979><c> to</c><00:06:36.099><c> analyze</c><00:06:36.550><c> in</c><00:06:36.909><c> terms</c><00:06:37.120><c> of</c></c>
+
+00:06:37.379 --> 00:06:37.389 align:start position:0%
+<c.colorE5E5E5>are fairly</c><c.colorCCCCCC> easy to analyze in terms of
+ </c>
+
+00:06:37.389 --> 00:06:39.749 align:start position:0%
+<c.colorE5E5E5>are fairly</c><c.colorCCCCCC> easy to analyze in terms of
+obtaining<00:06:37.839><c> a</c><00:06:38.289><c> basic</c><00:06:38.620><c> opinion</c><00:06:38.889><c> representation</c></c>
+
+00:06:39.749 --> 00:06:39.759 align:start position:0%
+obtaining<c.colorCCCCCC> a basic opinion representation
+ </c>
+
+00:06:39.759 --> 00:06:42.060 align:start position:0%
+obtaining<c.colorCCCCCC> a basic opinion representation
+but</c><c.colorE5E5E5><00:06:40.719><c> of</c><00:06:40.839><c> course</c><00:06:41.110><c> if</c></c>
+
+00:06:42.060 --> 00:06:42.070 align:start position:0%
+but<c.colorE5E5E5> of course if
+ </c>
+
+00:06:42.070 --> 00:06:44.310 align:start position:0%
+but<c.colorE5E5E5> of course if
+to<00:06:42.340><c> get</c><00:06:42.760><c> more</c><00:06:42.940><c> information</c><00:06:43.210><c> we</c><00:06:43.780><c> might</c><00:06:43.960><c> want</c><00:06:44.260><c> to</c></c>
+
+00:06:44.310 --> 00:06:44.320 align:start position:0%
+to get more information we might want to
+ 
+
+00:06:44.320 --> 00:06:46.680 align:start position:0%
+to get more information we might want to
+<c.colorE5E5E5>know<00:06:44.740><c> the</c><00:06:45.070><c> context</c><00:06:45.580><c> for</c></c><c.colorCCCCCC><00:06:45.820><c> example</c><00:06:46.210><c> the</c><00:06:46.330><c> review</c></c>
+
+00:06:46.680 --> 00:06:46.690 align:start position:0%
+<c.colorE5E5E5>know the context for</c><c.colorCCCCCC> example the review
+ </c>
+
+00:06:46.690 --> 00:06:53.040 align:start position:0%
+<c.colorE5E5E5>know the context for</c><c.colorCCCCCC> example the review
+was</c><c.colorE5E5E5><00:06:46.840><c> written</c><00:06:47.470><c> in</c><00:06:49.140><c> 2015</c><00:06:50.140><c> or</c><00:06:51.270><c> we</c><00:06:52.270><c> want</c><00:06:52.450><c> to</c><00:06:52.570><c> know</c></c>
+
+00:06:53.040 --> 00:06:53.050 align:start position:0%
+was<c.colorE5E5E5> written in 2015 or we want to know
+ </c>
+
+00:06:53.050 --> 00:06:55.890 align:start position:0%
+was<c.colorE5E5E5> written in 2015 or we want to know
+that<00:06:53.770><c> the</c><00:06:54.550><c> settlement</c><00:06:55.000><c> of</c><00:06:55.090><c> this</c><00:06:55.330><c> review</c><00:06:55.720><c> is</c></c>
+
+00:06:55.890 --> 00:06:55.900 align:start position:0%
+that<c.colorE5E5E5> the settlement of this review is
+ </c>
+
+00:06:55.900 --> 00:06:58.020 align:start position:0%
+that<c.colorE5E5E5> the settlement of this review is
+positive<00:06:56.620><c> and</c></c><c.colorCCCCCC><00:06:56.830><c> so</c><00:06:57.340><c> this</c><00:06:57.520><c> additional</c></c>
+
+00:06:58.020 --> 00:06:58.030 align:start position:0%
+positive and<c.colorCCCCCC> so this additional
+ </c>
+
+00:06:58.030 --> 00:06:59.580 align:start position:0%
+positive and<c.colorCCCCCC> so this additional
+understanding<00:06:58.540><c> of</c><00:06:58.630><c> course</c><00:06:58.840><c> adds</c><00:06:59.080><c> value</c><00:06:59.410><c> to</c></c>
+
+00:06:59.580 --> 00:06:59.590 align:start position:0%
+understanding of course adds value to
+ 
+
+00:06:59.590 --> 00:07:04.680 align:start position:0%
+understanding of course adds value to
+<c.colorE5E5E5>mine</c><c.colorCCCCCC><00:07:00.490><c> to</c><00:07:01.150><c> mining</c><00:07:01.750><c> the</c><00:07:01.900><c> opinions</c><00:07:03.390><c> now</c><00:07:04.390><c> you</c><00:07:04.450><c> can</c></c>
+
+00:07:04.680 --> 00:07:04.690 align:start position:0%
+<c.colorE5E5E5>mine</c><c.colorCCCCCC> to mining the opinions now you can
+ </c>
+
+00:07:04.690 --> 00:07:08.040 align:start position:0%
+<c.colorE5E5E5>mine</c><c.colorCCCCCC> to mining the opinions now you can
+see<00:07:04.960><c> in</c></c><c.colorE5E5E5><00:07:05.680><c> this</c><00:07:05.950><c> case</c><00:07:06.220><c> the</c><00:07:06.880><c> task</c><00:07:07.150><c> is</c><00:07:07.480><c> relatively</c></c>
+
+00:07:08.040 --> 00:07:08.050 align:start position:0%
+see in<c.colorE5E5E5> this case the task is relatively
+ </c>
+
+00:07:08.050 --> 00:07:11.100 align:start position:0%
+see in<c.colorE5E5E5> this case the task is relatively
+easy<00:07:08.350><c> and</c><00:07:08.620><c> that's</c><00:07:08.980><c> because</c><00:07:09.340><c> the</c><00:07:10.120><c> opinion</c></c>
+
+00:07:11.100 --> 00:07:11.110 align:start position:0%
+easy and<c.colorE5E5E5> that's because the opinion
+ </c>
+
+00:07:11.110 --> 00:07:12.570 align:start position:0%
+easy and<c.colorE5E5E5> that's because the opinion
+holder<00:07:11.380><c> and</c><00:07:11.530><c> the</c><00:07:11.680><c> opinion</c><00:07:12.040><c> target</c></c><c.colorCCCCCC><00:07:12.370><c> that</c><00:07:12.460><c> have</c></c>
+
+00:07:12.570 --> 00:07:12.580 align:start position:0%
+holder and the opinion target<c.colorCCCCCC> that have
+ </c>
+
+00:07:12.580 --> 00:07:15.300 align:start position:0%
+holder and the opinion target<c.colorCCCCCC> that have
+already</c><c.colorE5E5E5><00:07:12.790><c> been</c><00:07:13.060><c> identified</c></c><c.colorCCCCCC><00:07:13.860><c> now</c><00:07:14.860><c> let's</c><00:07:15.100><c> take</c><00:07:15.280><c> a</c></c>
+
+00:07:15.300 --> 00:07:15.310 align:start position:0%
+already<c.colorE5E5E5> been identified</c><c.colorCCCCCC> now let's take a
+ </c>
+
+00:07:15.310 --> 00:07:17.400 align:start position:0%
+already<c.colorE5E5E5> been identified</c><c.colorCCCCCC> now let's take a</c>
+<c.colorE5E5E5>look<00:07:15.520><c> at</c><00:07:15.640><c> the</c><00:07:15.760><c> sentence</c><00:07:16.120><c> in</c><00:07:16.300><c> the</c><00:07:16.420><c> news</c><00:07:16.570><c> in</c><00:07:17.230><c> this</c></c>
+
+00:07:17.400 --> 00:07:17.410 align:start position:0%
+<c.colorE5E5E5>look at the sentence in the news in this
+ </c>
+
+00:07:17.410 --> 00:07:19.590 align:start position:0%
+<c.colorE5E5E5>look at the sentence in the news in this
+case<00:07:17.710><c> we</c><00:07:18.040><c> have</c><00:07:18.160><c> implicit</c><00:07:18.640><c> holder</c><00:07:19.210><c> and</c></c>
+
+00:07:19.590 --> 00:07:19.600 align:start position:0%
+case we have<c.colorE5E5E5> implicit holder and
+ </c>
+
+00:07:19.600 --> 00:07:22.350 align:start position:0%
+case we have<c.colorE5E5E5> implicit holder and</c>
+<c.colorCCCCCC>imprison<00:07:20.140><c> target</c><00:07:20.500><c> and</c><00:07:20.740><c> the</c><00:07:21.550><c> task</c><00:07:21.850><c> is</c><00:07:22.180><c> in</c></c>
+
+00:07:22.350 --> 00:07:22.360 align:start position:0%
+<c.colorCCCCCC>imprison target and the task is in
+ </c>
+
+00:07:22.360 --> 00:07:28.100 align:start position:0%
+<c.colorCCCCCC>imprison target and the task is in
+general</c><c.colorE5E5E5><00:07:22.980><c> harder</c><00:07:24.120><c> so</c><00:07:25.120><c> we</c><00:07:25.810><c> can</c><00:07:26.020><c> identify</c></c>
+
+00:07:28.100 --> 00:07:28.110 align:start position:0%
+general<c.colorE5E5E5> harder so we can identify
+ </c>
+
+00:07:28.110 --> 00:07:30.810 align:start position:0%
+general<c.colorE5E5E5> harder so we can identify
+opinion<00:07:29.110><c> holder</c><00:07:29.380><c> here</c><00:07:29.560><c> and</c><00:07:29.830><c> that's</c><00:07:30.130><c> governor</c></c>
+
+00:07:30.810 --> 00:07:30.820 align:start position:0%
+opinion holder here and that's governor
+ 
+
+00:07:30.820 --> 00:07:34.020 align:start position:0%
+opinion holder here and that's governor
+of<00:07:31.000><c> Connecticut</c><c.colorE5E5E5><00:07:31.830><c> we</c><00:07:32.830><c> can</c><00:07:33.040><c> also</c><00:07:33.190><c> identify</c><00:07:33.610><c> the</c></c>
+
+00:07:34.020 --> 00:07:34.030 align:start position:0%
+of Connecticut<c.colorE5E5E5> we can also identify the
+ </c>
+
+00:07:34.030 --> 00:07:38.120 align:start position:0%
+of Connecticut<c.colorE5E5E5> we can also identify the
+target<00:07:34.830><c> so</c><00:07:35.830><c> one</c><00:07:36.340><c> target</c><00:07:36.610><c> is</c><00:07:36.730><c> hurricane</c><00:07:37.210><c> sandy</c></c>
+
+00:07:38.120 --> 00:07:38.130 align:start position:0%
+target<c.colorE5E5E5> so one target is hurricane sandy
+ </c>
+
+00:07:38.130 --> 00:07:40.740 align:start position:0%
+target<c.colorE5E5E5> so one target is hurricane sandy</c>
+<c.colorCCCCCC>but<00:07:39.130><c> there</c><00:07:39.280><c> is</c><00:07:39.430><c> also</c></c><c.colorE5E5E5><00:07:39.580><c> another</c><00:07:39.910><c> target</c><00:07:40.210><c> imagina</c></c>
+
+00:07:40.740 --> 00:07:40.750 align:start position:0%
+<c.colorCCCCCC>but there is also</c><c.colorE5E5E5> another target imagina
+ </c>
+
+00:07:40.750 --> 00:07:45.180 align:start position:0%
+<c.colorCCCCCC>but there is also</c><c.colorE5E5E5> another target imagina
+which<00:07:40.900><c> is</c><00:07:41.020><c> a</c><00:07:41.050><c> hurricane</c></c><c.colorCCCCCC><00:07:41.470><c> of</c><00:07:41.890><c> 1938</c></c><c.colorE5E5E5><00:07:43.650><c> so</c><00:07:44.650><c> what's</c></c>
+
+00:07:45.180 --> 00:07:45.190 align:start position:0%
+which is a hurricane<c.colorCCCCCC> of 1938</c><c.colorE5E5E5> so what's
+ </c>
+
+00:07:45.190 --> 00:07:47.390 align:start position:0%
+which is a hurricane<c.colorCCCCCC> of 1938</c><c.colorE5E5E5> so what's
+the<00:07:45.400><c> opinion</c><00:07:45.580><c> well</c><00:07:46.000><c> there's</c><00:07:46.630><c> negative</c></c>
+
+00:07:47.390 --> 00:07:47.400 align:start position:0%
+the opinion<c.colorE5E5E5> well there's negative
+ </c>
+
+00:07:47.400 --> 00:07:50.460 align:start position:0%
+the opinion<c.colorE5E5E5> well there's negative
+sentiment<00:07:48.400><c> here</c><00:07:48.640><c> and</c><00:07:49.390><c> that's</c><00:07:49.780><c> indicated</c><00:07:50.110><c> by</c></c>
+
+00:07:50.460 --> 00:07:50.470 align:start position:0%
+sentiment here<c.colorE5E5E5> and that's indicated by
+ </c>
+
+00:07:50.470 --> 00:07:54.180 align:start position:0%
+sentiment here<c.colorE5E5E5> and that's indicated by
+was</c><c.colorCCCCCC><00:07:50.710><c> not</c><00:07:50.980><c> a</c><00:07:51.010><c> bad</c><00:07:51.250><c> and</c><00:07:51.580><c> worst</c><00:07:51.820><c> and</c><00:07:52.860><c> we</c><00:07:53.860><c> can</c><00:07:54.070><c> also</c></c>
+
+00:07:54.180 --> 00:07:54.190 align:start position:0%
+was<c.colorCCCCCC> not a bad and worst and we can also
+ </c>
+
+00:07:54.190 --> 00:07:58.890 align:start position:0%
+was<c.colorCCCCCC> not a bad and worst and we can also
+then<00:07:55.410><c> identify</c><00:07:56.410><c> context</c></c><c.colorE5E5E5><00:07:57.310><c> New</c><00:07:57.910><c> England</c><00:07:58.360><c> in</c></c>
+
+00:07:58.890 --> 00:07:58.900 align:start position:0%
+then identify context<c.colorE5E5E5> New England in
+ </c>
+
+00:07:58.900 --> 00:08:02.310 align:start position:0%
+then identify context<c.colorE5E5E5> New England in
+this<00:07:59.050><c> case</c><00:07:59.490><c> now</c><00:08:00.660><c> unlike</c><00:08:01.660><c> in</c></c><c.colorCCCCCC><00:08:01.870><c> the</c><00:08:01.960><c> product</c></c>
+
+00:08:02.310 --> 00:08:02.320 align:start position:0%
+this case now unlike<c.colorE5E5E5> in</c><c.colorCCCCCC> the product
+ </c>
+
+00:08:02.320 --> 00:08:04.460 align:start position:0%
+this case now unlike<c.colorE5E5E5> in</c><c.colorCCCCCC> the product</c>
+<c.colorE5E5E5>review<00:08:02.770><c> all</c><00:08:03.160><c> these</c><00:08:03.520><c> elements</c><00:08:03.910><c> must</c><00:08:04.300><c> be</c></c>
+
+00:08:04.460 --> 00:08:04.470 align:start position:0%
+<c.colorE5E5E5>review all these elements must be
+ </c>
+
+00:08:04.470 --> 00:08:06.360 align:start position:0%
+<c.colorE5E5E5>review all these elements must be
+extracted</c><c.colorCCCCCC><00:08:05.470><c> by</c><00:08:05.560><c> using</c><00:08:05.770><c> natural</c><00:08:05.950><c> language</c></c>
+
+00:08:06.360 --> 00:08:06.370 align:start position:0%
+<c.colorE5E5E5>extracted</c><c.colorCCCCCC> by using natural language
+ </c>
+
+00:08:06.370 --> 00:08:10.110 align:start position:0%
+<c.colorE5E5E5>extracted</c><c.colorCCCCCC> by using natural language
+processing<00:08:06.400><c> techniques</c><00:08:07.410><c> so</c><00:08:08.410><c> the</c><00:08:08.830><c> task</c><00:08:09.160><c> is</c><00:08:09.550><c> is</c></c>
+
+00:08:10.110 --> 00:08:10.120 align:start position:0%
+processing techniques so the task is is
+ 
+
+00:08:10.120 --> 00:08:12.300 align:start position:0%
+processing techniques so the task is is
+much<00:08:10.450><c> harder</c><c.colorE5E5E5><00:08:10.720><c> and</c><00:08:10.960><c> we</c><00:08:11.260><c> need</c><00:08:11.410><c> a</c><00:08:11.440><c> deeper</c></c><c.colorCCCCCC><00:08:11.890><c> natural</c></c>
+
+00:08:12.300 --> 00:08:12.310 align:start position:0%
+much harder<c.colorE5E5E5> and we need a deeper</c><c.colorCCCCCC> natural
+ </c>
+
+00:08:12.310 --> 00:08:16.940 align:start position:0%
+much harder<c.colorE5E5E5> and we need a deeper</c><c.colorCCCCCC> natural
+dairy<00:08:12.430><c> processing</c></c><c.colorE5E5E5><00:08:13.860><c> and</c><00:08:14.860><c> these</c><00:08:15.130><c> examples</c></c><c.colorCCCCCC><00:08:15.340><c> also</c></c>
+
+00:08:16.940 --> 00:08:16.950 align:start position:0%
+<c.colorCCCCCC>dairy processing</c><c.colorE5E5E5> and these examples</c><c.colorCCCCCC> also
+ </c>
+
+00:08:16.950 --> 00:08:20.430 align:start position:0%
+<c.colorCCCCCC>dairy processing</c><c.colorE5E5E5> and these examples</c><c.colorCCCCCC> also
+suggest<00:08:17.950><c> that</c><00:08:18.250><c> a</c><00:08:19.000><c> lot</c><00:08:19.480><c> of</c><00:08:19.630><c> work</c><00:08:19.750><c> can</c></c><c.colorE5E5E5><00:08:19.990><c> be</c><00:08:20.140><c> easily</c></c>
+
+00:08:20.430 --> 00:08:20.440 align:start position:0%
+suggest<c.colorCCCCCC> that a lot of work can</c><c.colorE5E5E5> be easily
+ </c>
+
+00:08:20.440 --> 00:08:22.380 align:start position:0%
+suggest<c.colorCCCCCC> that a lot of work can</c><c.colorE5E5E5> be easily
+done<00:08:20.830><c> for</c><00:08:21.130><c> product</c><00:08:21.520><c> reviews</c><00:08:21.940><c> and</c><00:08:22.240><c> that's</c></c>
+
+00:08:22.380 --> 00:08:22.390 align:start position:0%
+done for product reviews<c.colorE5E5E5> and that's
+ </c>
+
+00:08:22.390 --> 00:08:25.280 align:start position:0%
+done for product reviews<c.colorE5E5E5> and that's</c>
+<c.colorE5E5E5>indeed<00:08:22.840><c> what</c></c><c.colorCCCCCC><00:08:23.140><c> has</c><00:08:23.470><c> happened</c></c><c.colorE5E5E5><00:08:24.180><c> analyzing</c></c>
+
+00:08:25.280 --> 00:08:25.290 align:start position:0%
+<c.colorE5E5E5>indeed what</c><c.colorCCCCCC> has happened</c><c.colorE5E5E5> analyzing
+ </c>
+
+00:08:25.290 --> 00:08:28.260 align:start position:0%
+<c.colorE5E5E5>indeed what</c><c.colorCCCCCC> has happened</c><c.colorE5E5E5> analyzing
+settlement<00:08:26.290><c> in</c><00:08:26.410><c> news</c><00:08:26.650><c> is</c></c><c.colorCCCCCC><00:08:27.430><c> clear</c><00:08:27.910><c> quite</c></c>
+
+00:08:28.260 --> 00:08:28.270 align:start position:0%
+<c.colorE5E5E5>settlement in news is</c><c.colorCCCCCC> clear quite
+ </c>
+
+00:08:28.270 --> 00:08:31.590 align:start position:0%
+<c.colorE5E5E5>settlement in news is</c><c.colorCCCCCC> clear quite</c>
+<c.colorCCCCCC>difficulty<00:08:29.050><c> it's</c><00:08:29.260><c> more</c><00:08:29.440><c> difficulty</c><00:08:29.890><c> than</c><00:08:30.600><c> the</c></c>
+
+00:08:31.590 --> 00:08:31.600 align:start position:0%
+<c.colorCCCCCC>difficulty it's more difficulty than the
+ </c>
+
+00:08:31.600 --> 00:08:35.870 align:start position:0%
+<c.colorCCCCCC>difficulty it's more difficulty than the
+analysis<00:08:32.080><c> of</c><00:08:32.260><c> opinions</c></c><c.colorE5E5E5><00:08:32.979><c> in</c><00:08:33.219><c> product</c><00:08:33.580><c> reviews</c></c>
+
+00:08:35.870 --> 00:08:35.880 align:start position:0%
+analysis of opinions<c.colorE5E5E5> in product reviews
+ </c>
+
+00:08:35.880 --> 00:08:37.920 align:start position:0%
+analysis of opinions<c.colorE5E5E5> in product reviews
+now<00:08:36.880><c> there</c><00:08:37.090><c> are</c><00:08:37.180><c> also</c><00:08:37.270><c> some</c><00:08:37.810><c> other</c></c>
+
+00:08:37.920 --> 00:08:37.930 align:start position:0%
+now there are also<c.colorE5E5E5> some other
+ </c>
+
+00:08:37.930 --> 00:08:39.930 align:start position:0%
+now there are also<c.colorE5E5E5> some other</c>
+<c.colorCCCCCC>interesting<00:08:38.530><c> variations</c><00:08:39.099><c> in</c><00:08:39.370><c> fact</c><00:08:39.640><c> here</c></c>
+
+00:08:39.930 --> 00:08:39.940 align:start position:0%
+<c.colorCCCCCC>interesting variations in fact here
+ </c>
+
+00:08:39.940 --> 00:08:42.180 align:start position:0%
+<c.colorCCCCCC>interesting variations in fact here</c>
+<c.colorCCCCCC>we're<00:08:40.120><c> going</c></c><c.colorE5E5E5><00:08:40.270><c> to</c><00:08:40.330><c> examine</c><00:08:40.570><c> the</c><00:08:41.260><c> variations</c><00:08:42.070><c> of</c></c>
+
+00:08:42.180 --> 00:08:42.190 align:start position:0%
+<c.colorCCCCCC>we're going</c><c.colorE5E5E5> to examine the variations of
+ </c>
+
+00:08:42.190 --> 00:08:44.219 align:start position:0%
+<c.colorCCCCCC>we're going</c><c.colorE5E5E5> to examine the variations of
+opinions<00:08:42.640><c> more</c><00:08:42.820><c> systematically</c><00:08:43.479><c> first</c></c>
+
+00:08:44.219 --> 00:08:44.229 align:start position:0%
+opinions<c.colorE5E5E5> more systematically first
+ </c>
+
+00:08:44.229 --> 00:08:46.400 align:start position:0%
+opinions<c.colorE5E5E5> more systematically first
+listing</c><c.colorCCCCCC><00:08:44.620><c> I</c><00:08:44.800><c> think</c><00:08:45.190><c> about</c></c><c.colorE5E5E5><00:08:45.310><c> the</c><00:08:45.490><c> opinion</c><00:08:45.820><c> holder</c></c>
+
+00:08:46.400 --> 00:08:46.410 align:start position:0%
+listing<c.colorCCCCCC> I think about</c><c.colorE5E5E5> the opinion holder
+ </c>
+
+00:08:46.410 --> 00:08:49.290 align:start position:0%
+listing<c.colorCCCCCC> I think about</c><c.colorE5E5E5> the opinion holder
+the<00:08:47.410><c> holder</c><00:08:47.770><c> could</c><00:08:48.010><c> be</c><00:08:48.130><c> a</c><00:08:48.160><c> individual</c><00:08:48.790><c> or</c></c>
+
+00:08:49.290 --> 00:08:49.300 align:start position:0%
+the holder could be<c.colorE5E5E5> a individual or
+ </c>
+
+00:08:49.300 --> 00:08:51.060 align:start position:0%
+the holder could be<c.colorE5E5E5> a individual or
+could<00:08:49.510><c> be</c><00:08:49.630><c> a</c></c><c.colorCCCCCC><00:08:49.660><c> group</c><00:08:49.930><c> of</c><00:08:50.110><c> people</c><00:08:50.380><c> and</c><00:08:50.890><c> sometimes</c></c>
+
+00:08:51.060 --> 00:08:51.070 align:start position:0%
+could be a<c.colorCCCCCC> group of people and sometimes
+ </c>
+
+00:08:51.070 --> 00:08:53.700 align:start position:0%
+could be a<c.colorCCCCCC> group of people and sometimes
+opinion<00:08:51.730><c> was</c><00:08:52.090><c> from</c><00:08:52.360><c> a</c><00:08:52.390><c> committee</c></c><c.colorE5E5E5><00:08:52.780><c> or</c><00:08:53.020><c> from</c><00:08:53.500><c> a</c></c>
+
+00:08:53.700 --> 00:08:53.710 align:start position:0%
+opinion was from a committee<c.colorE5E5E5> or from a
+ </c>
+
+00:08:53.710 --> 00:08:54.530 align:start position:0%
+opinion was from a committee<c.colorE5E5E5> or from a
+whole<00:08:53.920><c> country</c></c>
+
+00:08:54.530 --> 00:08:54.540 align:start position:0%
+whole<c.colorE5E5E5> country
+ </c>
+
+00:08:54.540 --> 00:08:57.620 align:start position:0%
+whole<c.colorE5E5E5> country
+of<00:08:54.690><c> people</c><00:08:55.760><c> opinion</c><00:08:56.760><c> target</c><00:08:57.120><c> the</c><00:08:57.210><c> council</c></c>
+
+00:08:57.620 --> 00:08:57.630 align:start position:0%
+of people<c.colorE5E5E5> opinion target the council
+ </c>
+
+00:08:57.630 --> 00:09:01.010 align:start position:0%
+of people<c.colorE5E5E5> opinion target the council
+very<00:08:57.870><c> a</c><00:08:58.320><c> lot</c><00:08:58.740><c> it</c><00:08:59.340><c> can</c><00:08:59.550><c> be</c><00:08:59.700><c> about</c><00:09:00.060><c> one</c><00:09:00.390><c> entity</c><00:09:00.840><c> a</c></c>
+
+00:09:01.010 --> 00:09:01.020 align:start position:0%
+very a lot<c.colorE5E5E5> it can be about one entity a
+ </c>
+
+00:09:01.020 --> 00:09:03.290 align:start position:0%
+very a lot<c.colorE5E5E5> it can be about one entity a
+particular<00:09:01.560><c> person</c><00:09:01.950><c> particular</c><00:09:02.520><c> act</c><00:09:03.030><c> up</c><00:09:03.270><c> to</c></c>
+
+00:09:03.290 --> 00:09:03.300 align:start position:0%
+particular person<c.colorE5E5E5> particular act up to
+ </c>
+
+00:09:03.300 --> 00:09:06.620 align:start position:0%
+particular person<c.colorE5E5E5> particular act up to</c>
+<c.colorCCCCCC>the</c><c.colorE5E5E5><00:09:03.600><c> policy</c><00:09:04.170><c> etc</c><00:09:04.790><c> but</c><00:09:05.790><c> it</c><00:09:05.910><c> could</c><00:09:06.060><c> be</c><00:09:06.180><c> about</c><00:09:06.570><c> a</c></c>
+
+00:09:06.620 --> 00:09:06.630 align:start position:0%
+<c.colorCCCCCC>the</c><c.colorE5E5E5> policy etc but it could be about a
+ </c>
+
+00:09:06.630 --> 00:09:08.660 align:start position:0%
+<c.colorCCCCCC>the</c><c.colorE5E5E5> policy etc but it could be about a
+group<00:09:07.020><c> of</c><00:09:07.200><c> products</c><00:09:07.650><c> could</c></c><c.colorCCCCCC><00:09:08.130><c> be</c><00:09:08.250><c> about</c><00:09:08.490><c> the</c></c>
+
+00:09:08.660 --> 00:09:08.670 align:start position:0%
+group of products<c.colorE5E5E5> could</c><c.colorCCCCCC> be about the
+ </c>
+
+00:09:08.670 --> 00:09:11.930 align:start position:0%
+group of products<c.colorE5E5E5> could</c><c.colorCCCCCC> be about the
+products</c><c.colorE5E5E5><00:09:09.150><c> from</c><00:09:09.360><c> a</c><00:09:09.510><c> company</c><00:09:09.930><c> in</c><00:09:10.110><c> general</c><00:09:10.940><c> could</c></c>
+
+00:09:11.930 --> 00:09:11.940 align:start position:0%
+products<c.colorE5E5E5> from a company in general could
+ </c>
+
+00:09:11.940 --> 00:09:13.910 align:start position:0%
+products<c.colorE5E5E5> from a company in general could
+also<00:09:12.120><c> be</c><00:09:12.390><c> very</c><00:09:12.570><c> specific</c><00:09:13.200><c> about</c><00:09:13.290><c> one</c><00:09:13.710><c> edge</c></c>
+
+00:09:13.910 --> 00:09:13.920 align:start position:0%
+<c.colorE5E5E5>also be very specific about one edge
+ </c>
+
+00:09:13.920 --> 00:09:16.220 align:start position:0%
+<c.colorE5E5E5>also be very specific about one edge</c>
+<c.colorE5E5E5>Victor<00:09:14.370><c> attribute</c><00:09:15.090><c> of</c><00:09:15.240><c> the</c><00:09:15.540><c> entity</c><00:09:15.720><c> for</c></c>
+
+00:09:16.220 --> 00:09:16.230 align:start position:0%
+<c.colorE5E5E5>Victor attribute of the entity for
+ </c>
+
+00:09:16.230 --> 00:09:18.080 align:start position:0%
+<c.colorE5E5E5>Victor attribute of the entity for
+example</c><c.colorCCCCCC><00:09:16.260><c> it's</c></c><c.colorE5E5E5><00:09:16.890><c> just</c><00:09:17.130><c> above</c><00:09:17.370><c> the</c><00:09:17.520><c> battery</c><00:09:17.730><c> of</c></c>
+
+00:09:18.080 --> 00:09:18.090 align:start position:0%
+example<c.colorCCCCCC> it's</c><c.colorE5E5E5> just above the battery of
+ </c>
+
+00:09:18.090 --> 00:09:22.310 align:start position:0%
+example<c.colorCCCCCC> it's</c><c.colorE5E5E5> just above the battery of
+iPhone<00:09:19.640><c> it</c><00:09:20.640><c> could</c><00:09:20.880><c> be</c><00:09:21.030><c> about</c></c><c.colorCCCCCC><00:09:21.420><c> someone</c><00:09:21.900><c> else's</c></c>
+
+00:09:22.310 --> 00:09:22.320 align:start position:0%
+iPhone<c.colorE5E5E5> it could be about</c><c.colorCCCCCC> someone else's
+ </c>
+
+00:09:22.320 --> 00:09:25.070 align:start position:0%
+iPhone<c.colorE5E5E5> it could be about</c><c.colorCCCCCC> someone else's
+opinion</c><c.colorE5E5E5><00:09:22.620><c> and</c><00:09:23.100><c> one</c><00:09:23.580><c> person</c><00:09:23.970><c> might</c><00:09:24.150><c> comment</c><00:09:24.780><c> on</c></c>
+
+00:09:25.070 --> 00:09:25.080 align:start position:0%
+opinion<c.colorE5E5E5> and one person might comment on
+ </c>
+
+00:09:25.080 --> 00:09:27.680 align:start position:0%
+opinion<c.colorE5E5E5> and one person might comment on</c>
+<c.colorE5E5E5>another<00:09:25.500><c> person's</c><00:09:25.890><c> opinion</c><00:09:26.280><c> etc</c><00:09:26.790><c> so</c><00:09:27.210><c> you</c><00:09:27.540><c> can</c></c>
+
+00:09:27.680 --> 00:09:27.690 align:start position:0%
+<c.colorE5E5E5>another person's opinion etc so you can
+ </c>
+
+00:09:27.690 --> 00:09:30.200 align:start position:0%
+<c.colorE5E5E5>another person's opinion etc so you can
+see<00:09:27.870><c> there's</c><00:09:28.170><c> a</c><00:09:28.320><c> lot</c><00:09:28.740><c> of</c><00:09:28.950><c> variation</c></c><c.colorCCCCCC><00:09:29.580><c> here</c><00:09:29.880><c> that</c></c>
+
+00:09:30.200 --> 00:09:30.210 align:start position:0%
+see there's a lot of variation<c.colorCCCCCC> here that
+ </c>
+
+00:09:30.210 --> 00:09:33.410 align:start position:0%
+see there's a lot of variation<c.colorCCCCCC> here that
+will<00:09:30.360><c> cause</c><00:09:30.770><c> the</c><00:09:31.770><c> problem</c><00:09:32.250><c> to</c><00:09:32.520><c> vary</c><00:09:32.760><c> a</c></c><c.colorE5E5E5><00:09:32.880><c> lot</c></c>
+
+00:09:33.410 --> 00:09:33.420 align:start position:0%
+will cause the problem to vary a<c.colorE5E5E5> lot
+ </c>
+
+00:09:33.420 --> 00:09:36.680 align:start position:0%
+will cause the problem to vary a<c.colorE5E5E5> lot
+now<00:09:34.370><c> opinion</c><00:09:35.370><c> content</c><00:09:35.820><c> of</c><00:09:35.940><c> course</c><00:09:36.180><c> can</c><00:09:36.540><c> also</c></c>
+
+00:09:36.680 --> 00:09:36.690 align:start position:0%
+now<c.colorE5E5E5> opinion content of course can also
+ </c>
+
+00:09:36.690 --> 00:09:38.900 align:start position:0%
+now<c.colorE5E5E5> opinion content of course can also
+vary<00:09:36.960><c> a</c><00:09:37.080><c> lot</c><00:09:37.230><c> on</c><00:09:37.470><c> the</c><00:09:37.680><c> surface</c><00:09:38.070><c> you</c><00:09:38.730><c> can</c></c>
+
+00:09:38.900 --> 00:09:38.910 align:start position:0%
+vary a lot on the surface you<c.colorE5E5E5> can
+ </c>
+
+00:09:38.910 --> 00:09:40.820 align:start position:0%
+vary a lot on the surface you<c.colorE5E5E5> can
+identify<00:09:39.060><c> one</c><00:09:39.720><c> sentence</c><00:09:40.200><c> opinion</c><00:09:40.590><c> or</c><00:09:40.680><c> one</c></c>
+
+00:09:40.820 --> 00:09:40.830 align:start position:0%
+identify<c.colorE5E5E5> one sentence opinion or one
+ </c>
+
+00:09:40.830 --> 00:09:42.940 align:start position:0%
+identify<c.colorE5E5E5> one sentence opinion or one
+phrase<00:09:41.130><c> opinion</c><00:09:41.610><c> but</c><00:09:42.090><c> you</c><00:09:42.210><c> can</c><00:09:42.330><c> also</c><00:09:42.510><c> have</c></c>
+
+00:09:42.940 --> 00:09:42.950 align:start position:0%
+phrase opinion<c.colorE5E5E5> but you can also have
+ </c>
+
+00:09:42.950 --> 00:09:45.800 align:start position:0%
+phrase opinion<c.colorE5E5E5> but you can also have
+longer<00:09:43.950><c> text</c></c><c.colorCCCCCC><00:09:44.580><c> to</c></c><c.colorE5E5E5><00:09:44.940><c> express</c><00:09:45.270><c> their</c><00:09:45.450><c> opinion</c></c>
+
+00:09:45.800 --> 00:09:45.810 align:start position:0%
+longer<c.colorE5E5E5> text</c><c.colorCCCCCC> to</c><c.colorE5E5E5> express their opinion
+ </c>
+
+00:09:45.810 --> 00:09:49.070 align:start position:0%
+longer<c.colorE5E5E5> text</c><c.colorCCCCCC> to</c><c.colorE5E5E5> express their opinion</c>
+<c.colorE5E5E5>like<00:09:45.930><c> a</c><00:09:45.960><c> whole</c><00:09:46.260><c> article</c></c><c.colorCCCCCC><00:09:46.530><c> and</c><00:09:47.810><c> furthermore</c><00:09:48.810><c> we</c></c>
+
+00:09:49.070 --> 00:09:49.080 align:start position:0%
+<c.colorE5E5E5>like a whole article</c><c.colorCCCCCC> and furthermore we
+ </c>
+
+00:09:49.080 --> 00:09:51.230 align:start position:0%
+<c.colorE5E5E5>like a whole article</c><c.colorCCCCCC> and furthermore we
+identify<00:09:49.740><c> the</c><00:09:49.800><c> variation</c><00:09:50.430><c> in</c><00:09:50.610><c> the</c><00:09:50.760><c> sentiment</c></c>
+
+00:09:51.230 --> 00:09:51.240 align:start position:0%
+identify the variation in the sentiment
+ 
+
+00:09:51.240 --> 00:09:53.990 align:start position:0%
+identify the variation in the sentiment
+or<c.colorE5E5E5><00:09:51.510><c> emotion</c></c><c.colorCCCCCC><00:09:51.620><c> dimension</c><00:09:52.620><c> that's</c><00:09:53.580><c> about</c><00:09:53.820><c> the</c></c>
+
+00:09:53.990 --> 00:09:54.000 align:start position:0%
+or<c.colorE5E5E5> emotion</c><c.colorCCCCCC> dimension that's about the
+ </c>
+
+00:09:54.000 --> 00:09:56.840 align:start position:0%
+or<c.colorE5E5E5> emotion</c><c.colorCCCCCC> dimension that's about the
+feeling<00:09:54.270><c> of</c></c><c.colorE5E5E5><00:09:54.390><c> the</c><00:09:54.690><c> opinion</c><00:09:55.680><c> holder</c><00:09:56.010><c> so</c><00:09:56.580><c> we</c><00:09:56.670><c> can</c></c>
+
+00:09:56.840 --> 00:09:56.850 align:start position:0%
+feeling of<c.colorE5E5E5> the opinion holder so we can
+ </c>
+
+00:09:56.850 --> 00:09:58.580 align:start position:0%
+feeling of<c.colorE5E5E5> the opinion holder so we can
+distinguish<00:09:57.330><c> the</c><00:09:57.420><c> positive</c><00:09:57.560><c> versus</c><00:09:58.560><c> negative</c></c>
+
+00:09:58.580 --> 00:09:58.590 align:start position:0%
+distinguish<c.colorE5E5E5> the positive versus negative
+ </c>
+
+00:09:58.590 --> 00:10:03.220 align:start position:0%
+distinguish<c.colorE5E5E5> the positive versus negative
+or<00:09:59.340><c> neutral</c><00:09:59.520><c> or</c><00:10:00.000><c> happy</c><00:10:00.810><c> versus</c><00:10:01.410><c> sad</c><00:10:01.770><c> etc</c><00:10:02.130><c> and</c></c>
+
+00:10:03.220 --> 00:10:03.230 align:start position:0%
+or neutral or happy<c.colorE5E5E5> versus sad etc and
+ </c>
+
+00:10:03.230 --> 00:10:05.600 align:start position:0%
+or neutral or happy<c.colorE5E5E5> versus sad etc and</c>
+<c.colorCCCCCC>finally<00:10:04.230><c> the</c><00:10:04.410><c> opinion</c></c><c.colorE5E5E5><00:10:04.740><c> context</c><00:10:05.160><c> becomes</c><00:10:05.460><c> a</c></c>
+
+00:10:05.600 --> 00:10:05.610 align:start position:0%
+<c.colorCCCCCC>finally the opinion</c><c.colorE5E5E5> context becomes a
+ </c>
+
+00:10:05.610 --> 00:10:08.270 align:start position:0%
+<c.colorCCCCCC>finally the opinion</c><c.colorE5E5E5> context becomes a
+very</c><c.colorCCCCCC><00:10:05.820><c> we</c><00:10:06.300><c> have</c><00:10:06.480><c> a</c><00:10:06.510><c> simple</c><00:10:06.930><c> context</c><00:10:07.470><c> like</c></c><c.colorE5E5E5><00:10:08.250><c> a</c></c>
+
+00:10:08.270 --> 00:10:08.280 align:start position:0%
+very<c.colorCCCCCC> we have a simple context like</c><c.colorE5E5E5> a
+ </c>
+
+00:10:08.280 --> 00:10:09.650 align:start position:0%
+very<c.colorCCCCCC> we have a simple context like</c><c.colorE5E5E5> a
+different<00:10:08.670><c> the</c><00:10:08.730><c> time</c><00:10:08.940><c> or</c><00:10:09.390><c> different</c></c>
+
+00:10:09.650 --> 00:10:09.660 align:start position:0%
+different the time or different
+ 
+
+00:10:09.660 --> 00:10:11.930 align:start position:0%
+different the time or different
+<c.colorCCCCCC>locations<00:10:10.140><c> but</c><00:10:10.460><c> there</c><00:10:11.460><c> could</c><00:10:11.640><c> be</c></c><c.colorE5E5E5><00:10:11.670><c> also</c></c>
+
+00:10:11.930 --> 00:10:11.940 align:start position:0%
+<c.colorCCCCCC>locations but there could be</c><c.colorE5E5E5> also
+ </c>
+
+00:10:11.940 --> 00:10:15.590 align:start position:0%
+<c.colorCCCCCC>locations but there could be</c><c.colorE5E5E5> also
+complex</c><c.colorCCCCCC><00:10:12.330><c> texts</c><00:10:12.870><c> such</c><00:10:13.500><c> as</c><00:10:14.210><c> some</c><00:10:15.210><c> background</c></c>
+
+00:10:15.590 --> 00:10:15.600 align:start position:0%
+complex<c.colorCCCCCC> texts such as some background
+ </c>
+
+00:10:15.600 --> 00:10:18.230 align:start position:0%
+complex<c.colorCCCCCC> texts such as some background
+topical</c><c.colorE5E5E5><00:10:16.380><c> being</c><00:10:16.590><c> discussed</c><00:10:17.100><c> so</c><00:10:17.940><c> when</c><00:10:18.120><c> the</c></c>
+
+00:10:18.230 --> 00:10:18.240 align:start position:0%
+topical<c.colorE5E5E5> being discussed so when the
+ </c>
+
+00:10:18.240 --> 00:10:19.730 align:start position:0%
+topical<c.colorE5E5E5> being discussed so when the
+opinion<00:10:18.630><c> expressed</c><00:10:18.960><c> in</c><00:10:19.320><c> the</c><00:10:19.440><c> particular</c></c>
+
+00:10:19.730 --> 00:10:19.740 align:start position:0%
+opinion<c.colorE5E5E5> expressed in the particular
+ </c>
+
+00:10:19.740 --> 00:10:22.490 align:start position:0%
+opinion<c.colorE5E5E5> expressed in the particular
+discourse<00:10:20.280><c> context</c><00:10:21.020><c> it</c><00:10:22.020><c> has</c><00:10:22.080><c> to</c><00:10:22.410><c> be</c></c>
+
+00:10:22.490 --> 00:10:22.500 align:start position:0%
+discourse<c.colorE5E5E5> context it has to be
+ </c>
+
+00:10:22.500 --> 00:10:24.590 align:start position:0%
+discourse<c.colorE5E5E5> context it has to be</c>
+<c.colorE5E5E5>interpreted<00:10:23.010><c> in</c><00:10:23.190><c> different</c><00:10:23.250><c> ways</c><00:10:23.610><c> then</c><00:10:24.090><c> when</c></c>
+
+00:10:24.590 --> 00:10:24.600 align:start position:0%
+<c.colorE5E5E5>interpreted in different ways then when
+ </c>
+
+00:10:24.600 --> 00:10:27.260 align:start position:0%
+<c.colorE5E5E5>interpreted in different ways then when
+it's<00:10:24.750><c> expressed</c></c><c.colorCCCCCC><00:10:25.230><c> in</c><00:10:25.380><c> another</c><00:10:25.770><c> context</c><00:10:26.310><c> so</c><00:10:27.060><c> the</c></c>
+
+00:10:27.260 --> 00:10:27.270 align:start position:0%
+it's<c.colorE5E5E5> expressed</c><c.colorCCCCCC> in another context so the
+ </c>
+
+00:10:27.270 --> 00:10:29.360 align:start position:0%
+it's<c.colorE5E5E5> expressed</c><c.colorCCCCCC> in another context so the
+context<00:10:27.690><c> can</c><00:10:27.870><c> be</c><00:10:27.990><c> very</c><00:10:28.290><c> rich</c><00:10:28.650><c> to</c><00:10:28.890><c> improve</c><00:10:29.190><c> the</c></c>
+
+00:10:29.360 --> 00:10:29.370 align:start position:0%
+context<c.colorCCCCCC> can be very rich to improve the
+ </c>
+
+00:10:29.370 --> 00:10:32.440 align:start position:0%
+context<c.colorCCCCCC> can be very rich to improve the
+entire<00:10:29.820><c> discourse</c><00:10:30.630><c> context</c><00:10:31.200><c> of</c><00:10:31.380><c> opinion</c></c><c.colorE5E5E5><00:10:31.890><c> from</c></c>
+
+00:10:32.440 --> 00:10:32.450 align:start position:0%
+entire discourse context of opinion<c.colorE5E5E5> from
+ </c>
+
+00:10:32.450 --> 00:10:34.580 align:start position:0%
+entire discourse context of opinion<c.colorE5E5E5> from</c>
+<c.colorCCCCCC>computational<00:10:33.450><c> perspective</c><00:10:33.720><c> and</c><00:10:34.410><c> we're</c></c>
+
+00:10:34.580 --> 00:10:34.590 align:start position:0%
+<c.colorCCCCCC>computational perspective and we're
+ </c>
+
+00:10:34.590 --> 00:10:37.160 align:start position:0%
+<c.colorCCCCCC>computational perspective and we're
+mostly<00:10:34.740><c> interested</c></c><c.colorE5E5E5><00:10:35.010><c> in</c><00:10:35.550><c> what</c><00:10:36.210><c> opinions</c><00:10:36.690><c> can</c></c>
+
+00:10:37.160 --> 00:10:37.170 align:start position:0%
+mostly<c.colorCCCCCC> interested</c><c.colorE5E5E5> in what opinions can
+ </c>
+
+00:10:37.170 --> 00:10:39.560 align:start position:0%
+mostly<c.colorCCCCCC> interested</c><c.colorE5E5E5> in what opinions can
+be<00:10:37.200><c> extracted</c><00:10:37.560><c> from</c><00:10:37.770><c> text</c><00:10:38.160><c> data</c><00:10:38.400><c> so</c><00:10:39.240><c> it</c><00:10:39.330><c> turns</c></c>
+
+00:10:39.560 --> 00:10:39.570 align:start position:0%
+be<c.colorE5E5E5> extracted from text data so it turns
+ </c>
+
+00:10:39.570 --> 00:10:41.440 align:start position:0%
+be<c.colorE5E5E5> extracted from text data so it turns
+out</c><c.colorCCCCCC><00:10:39.720><c> that</c><00:10:39.960><c> we</c><00:10:40.170><c> also</c><00:10:40.380><c> differentiate</c></c>
+
+00:10:41.440 --> 00:10:41.450 align:start position:0%
+out<c.colorCCCCCC> that we also differentiate
+ </c>
+
+00:10:41.450 --> 00:10:43.280 align:start position:0%
+out<c.colorCCCCCC> that we also differentiate</c>
+<c.colorE5E5E5>distinguish</c><c.colorCCCCCC><00:10:42.450><c> you</c><00:10:42.540><c> have</c><00:10:42.660><c> different</c><00:10:42.960><c> kinds</c><00:10:43.260><c> of</c></c>
+
+00:10:43.280 --> 00:10:43.290 align:start position:0%
+<c.colorE5E5E5>distinguish</c><c.colorCCCCCC> you have different kinds of
+ </c>
+
+00:10:43.290 --> 00:10:45.410 align:start position:0%
+<c.colorE5E5E5>distinguish</c><c.colorCCCCCC> you have different kinds of</c>
+<c.colorE5E5E5>opinions<00:10:43.770><c> in</c></c><c.colorCCCCCC><00:10:43.950><c> texted</c><00:10:44.400><c> are</c><00:10:44.550><c> from</c></c><c.colorE5E5E5><00:10:44.760><c> computation</c></c>
+
+00:10:45.410 --> 00:10:45.420 align:start position:0%
+<c.colorE5E5E5>opinions in</c><c.colorCCCCCC> texted are from</c><c.colorE5E5E5> computation
+ </c>
+
+00:10:45.420 --> 00:10:48.110 align:start position:0%
+<c.colorE5E5E5>opinions in</c><c.colorCCCCCC> texted are from</c><c.colorE5E5E5> computation
+perspective<00:10:46.130><c> firstly</c><00:10:47.130><c> the</c><00:10:47.220><c> observer</c><00:10:47.640><c> might</c></c>
+
+00:10:48.110 --> 00:10:48.120 align:start position:0%
+perspective firstly the observer might
+ 
+
+00:10:48.120 --> 00:10:49.790 align:start position:0%
+perspective firstly the observer might
+make<00:10:48.450><c> a</c><00:10:48.480><c> comment</c><c.colorE5E5E5><00:10:48.750><c> about</c><00:10:48.990><c> the</c><00:10:49.350><c> opinion</c></c>
+
+00:10:49.790 --> 00:10:49.800 align:start position:0%
+make a comment<c.colorE5E5E5> about the opinion
+ </c>
+
+00:10:49.800 --> 00:10:52.040 align:start position:0%
+make a comment<c.colorE5E5E5> about the opinion</c>
+<c.colorCCCCCC>targeting<00:10:50.370><c> observe</c><00:10:50.760><c> the</c><00:10:50.970><c> world</c><00:10:51.150><c> so</c><00:10:51.840><c> in</c><00:10:51.930><c> this</c></c>
+
+00:10:52.040 --> 00:10:52.050 align:start position:0%
+<c.colorCCCCCC>targeting observe the world so in this
+ </c>
+
+00:10:52.050 --> 00:10:54.320 align:start position:0%
+<c.colorCCCCCC>targeting observe the world so in this
+case<00:10:52.290><c> we</c><00:10:52.500><c> have</c><00:10:52.680><c> the</c><00:10:52.920><c> author's</c><00:10:53.250><c> opinion</c></c><c.colorE5E5E5><00:10:53.430><c> for</c></c>
+
+00:10:54.320 --> 00:10:54.330 align:start position:0%
+case we have the author's opinion<c.colorE5E5E5> for
+ </c>
+
+00:10:54.330 --> 00:10:56.450 align:start position:0%
+case we have the author's opinion<c.colorE5E5E5> for
+example</c><c.colorCCCCCC><00:10:54.360><c> I</c></c><c.colorE5E5E5><00:10:54.990><c> don't</c><00:10:55.530><c> like</c><00:10:55.680><c> this</c><00:10:55.920><c> form</c><00:10:56.130><c> at</c></c><c.colorCCCCCC><00:10:56.250><c> all</c></c>
+
+00:10:56.450 --> 00:10:56.460 align:start position:0%
+example<c.colorCCCCCC> I</c><c.colorE5E5E5> don't like this form at</c><c.colorCCCCCC> all
+ </c>
+
+00:10:56.460 --> 00:10:58.960 align:start position:0%
+example<c.colorCCCCCC> I</c><c.colorE5E5E5> don't like this form at</c><c.colorCCCCCC> all
+and<00:10:56.700><c> that's</c></c><c.colorE5E5E5><00:10:57.090><c> a</c><00:10:57.390><c> opinion</c><00:10:57.750><c> of</c><00:10:57.840><c> this</c><00:10:58.020><c> author</c></c>
+
+00:10:58.960 --> 00:10:58.970 align:start position:0%
+<c.colorCCCCCC>and that's</c><c.colorE5E5E5> a opinion of this author
+ </c>
+
+00:10:58.970 --> 00:11:05.540 align:start position:0%
+<c.colorCCCCCC>and that's</c><c.colorE5E5E5> a opinion of this author
+in<00:10:59.970><c> contrast</c><00:11:00.510><c> the</c><00:11:01.380><c> text</c><00:11:01.890><c> might</c><00:11:02.880><c> also</c><00:11:04.340><c> report</c></c>
+
+00:11:05.540 --> 00:11:05.550 align:start position:0%
+in contrast the text might also report
+ 
+
+00:11:05.550 --> 00:11:07.980 align:start position:0%
+in contrast the text might also report
+opinions<00:11:06.270><c> about</c><00:11:06.480><c> others</c>
+
+00:11:07.980 --> 00:11:07.990 align:start position:0%
+opinions about others
+ 
+
+00:11:07.990 --> 00:11:10.470 align:start position:0%
+opinions about others
+so<00:11:08.110><c> the</c><00:11:08.470><c> person</c><00:11:08.830><c> could</c><c.colorE5E5E5><00:11:09.160><c> also</c><00:11:09.480><c> make</c></c>
+
+00:11:10.470 --> 00:11:10.480 align:start position:0%
+so the person could<c.colorE5E5E5> also make
+ </c>
+
+00:11:10.480 --> 00:11:12.240 align:start position:0%
+so the person could<c.colorE5E5E5> also make
+observation<00:11:11.170><c> about</c><00:11:11.290><c> another</c><00:11:11.830><c> person's</c></c>
+
+00:11:12.240 --> 00:11:12.250 align:start position:0%
+observation about<c.colorE5E5E5> another person's
+ </c>
+
+00:11:12.250 --> 00:11:15.720 align:start position:0%
+observation about<c.colorE5E5E5> another person's
+opinion<00:11:12.700><c> and</c><00:11:13.290><c> report</c><00:11:14.290><c> this</c><00:11:14.529><c> opinion</c></c><c.colorCCCCCC><00:11:14.920><c> so</c><00:11:15.459><c> for</c></c>
+
+00:11:15.720 --> 00:11:15.730 align:start position:0%
+opinion and<c.colorE5E5E5> report this opinion</c><c.colorCCCCCC> so for
+ </c>
+
+00:11:15.730 --> 00:11:19.019 align:start position:0%
+opinion and<c.colorE5E5E5> report this opinion</c><c.colorCCCCCC> so for</c>
+<c.colorE5E5E5>example<00:11:16.149><c> I</c><00:11:16.390><c> believe</c><00:11:16.810><c> he</c><00:11:17.560><c> loves</c><00:11:17.890><c> the</c><00:11:18.339><c> painting</c></c>
+
+00:11:19.019 --> 00:11:19.029 align:start position:0%
+<c.colorE5E5E5>example I believe he loves the painting
+ </c>
+
+00:11:19.029 --> 00:11:24.449 align:start position:0%
+<c.colorE5E5E5>example I believe he loves the painting
+and<00:11:19.180><c> that</c><00:11:20.140><c> opinion</c><00:11:20.529><c> is</c><00:11:21.370><c> really</c><00:11:21.850><c> about</c><00:11:23.459><c> is</c></c>
+
+00:11:24.449 --> 00:11:24.459 align:start position:0%
+and that opinion is<c.colorE5E5E5> really about is
+ </c>
+
+00:11:24.459 --> 00:11:26.780 align:start position:0%
+and that opinion is<c.colorE5E5E5> really about is
+really<00:11:24.640><c> expressed</c><00:11:25.120><c> to</c><00:11:25.240><c> by</c><00:11:25.420><c> another</c></c><c.colorCCCCCC><00:11:25.839><c> person</c></c>
+
+00:11:26.780 --> 00:11:26.790 align:start position:0%
+really<c.colorE5E5E5> expressed to by another</c><c.colorCCCCCC> person
+ </c>
+
+00:11:26.790 --> 00:11:30.300 align:start position:0%
+really<c.colorE5E5E5> expressed to by another</c><c.colorCCCCCC> person
+here<00:11:27.790><c> so</c><00:11:28.510><c> it</c><00:11:29.080><c> doesn't</c><00:11:29.140><c> mean</c><00:11:29.560><c> this</c><00:11:29.950><c> author</c></c>
+
+00:11:30.300 --> 00:11:30.310 align:start position:0%
+here<c.colorCCCCCC> so it doesn't mean this author
+ </c>
+
+00:11:30.310 --> 00:11:32.720 align:start position:0%
+here<c.colorCCCCCC> so it doesn't mean this author</c>
+<c.colorE5E5E5>loves<00:11:30.970><c> that</c><00:11:31.600><c> painting</c></c>
+
+00:11:32.720 --> 00:11:32.730 align:start position:0%
+<c.colorE5E5E5>loves that painting
+ </c>
+
+00:11:32.730 --> 00:11:35.160 align:start position:0%
+<c.colorE5E5E5>loves that painting
+so<00:11:33.730><c> clearly</c><00:11:34.120><c> the</c><00:11:34.330><c> two</c><00:11:34.540><c> kinds</c></c><c.colorCCCCCC><00:11:34.870><c> of</c><00:11:34.930><c> opinions</c></c>
+
+00:11:35.160 --> 00:11:35.170 align:start position:0%
+so clearly the two kinds<c.colorCCCCCC> of opinions
+ </c>
+
+00:11:35.170 --> 00:11:38.340 align:start position:0%
+so clearly the two kinds<c.colorCCCCCC> of opinions
+need<00:11:35.589><c> to</c><00:11:35.740><c> be</c></c><c.colorE5E5E5><00:11:36.600><c> analyzed</c><00:11:37.600><c> in</c><00:11:37.810><c> different</c><00:11:38.140><c> ways</c></c>
+
+00:11:38.340 --> 00:11:38.350 align:start position:0%
+need to be<c.colorE5E5E5> analyzed in different ways
+ </c>
+
+00:11:38.350 --> 00:11:40.500 align:start position:0%
+need to be<c.colorE5E5E5> analyzed in different ways
+and<00:11:38.680><c> sometimes</c><00:11:39.220><c> in</c><00:11:39.580><c> product</c><00:11:39.910><c> reviews</c><00:11:40.300><c> you</c><00:11:40.480><c> can</c></c>
+
+00:11:40.500 --> 00:11:40.510 align:start position:0%
+and sometimes<c.colorE5E5E5> in product reviews you can
+ </c>
+
+00:11:40.510 --> 00:11:43.230 align:start position:0%
+and sometimes<c.colorE5E5E5> in product reviews you can</c>
+<c.colorE5E5E5>see<00:11:40.839><c> although</c><00:11:41.260><c> mostly</c><00:11:42.220><c> the</c><00:11:42.520><c> opinions</c><00:11:43.000><c> are</c></c>
+
+00:11:43.230 --> 00:11:43.240 align:start position:0%
+<c.colorE5E5E5>see although mostly the opinions are
+ </c>
+
+00:11:43.240 --> 00:11:45.990 align:start position:0%
+<c.colorE5E5E5>see although mostly the opinions are</c>
+<c.colorE5E5E5>from<00:11:43.600><c> this</c><00:11:43.990><c> reviewer</c><00:11:44.620><c> sometimes</c><00:11:45.550><c> a</c><00:11:45.670><c> reviewer</c></c>
+
+00:11:45.990 --> 00:11:46.000 align:start position:0%
+<c.colorE5E5E5>from this reviewer sometimes a reviewer
+ </c>
+
+00:11:46.000 --> 00:11:48.389 align:start position:0%
+<c.colorE5E5E5>from this reviewer sometimes a reviewer
+might<00:11:46.209><c> managing</c><00:11:46.690><c> opinions</c><00:11:47.140><c> of</c><00:11:47.290><c> his</c><00:11:47.709><c> friend</c><00:11:48.040><c> or</c></c>
+
+00:11:48.389 --> 00:11:48.399 align:start position:0%
+might managing opinions of his friend or
+ 
+
+00:11:48.399 --> 00:11:52.019 align:start position:0%
+might managing opinions of his friend or
+her<00:11:48.580><c> friend</c><c.colorE5E5E5><00:11:48.880><c> right</c><00:11:49.860><c> and</c><00:11:51.029><c> another</c></c>
+
+00:11:52.019 --> 00:11:52.029 align:start position:0%
+her friend<c.colorE5E5E5> right and another
+ </c>
+
+00:11:52.029 --> 00:11:54.570 align:start position:0%
+her friend<c.colorE5E5E5> right and another
+complication<00:11:52.630><c> is</c></c><c.colorCCCCCC><00:11:52.990><c> that</c><00:11:53.649><c> they</c><00:11:54.399><c> may</c><00:11:54.550><c> be</c></c>
+
+00:11:54.570 --> 00:11:54.580 align:start position:0%
+complication is<c.colorCCCCCC> that they may be
+ </c>
+
+00:11:54.580 --> 00:11:57.180 align:start position:0%
+complication is<c.colorCCCCCC> that they may be</c>
+<c.colorCCCCCC>indirect<00:11:55.240><c> opinions</c><00:11:55.750><c> or</c></c><c.colorE5E5E5><00:11:55.930><c> inferred</c><00:11:56.620><c> opinions</c></c>
+
+00:11:57.180 --> 00:11:57.190 align:start position:0%
+<c.colorCCCCCC>indirect opinions or</c><c.colorE5E5E5> inferred opinions
+ </c>
+
+00:11:57.190 --> 00:12:01.440 align:start position:0%
+<c.colorCCCCCC>indirect opinions or</c><c.colorE5E5E5> inferred opinions
+that<00:11:57.670><c> can</c><00:11:57.970><c> be</c><00:11:58.320><c> obtained</c><00:11:59.320><c> by</c><00:12:00.450><c> making</c></c>
+
+00:12:01.440 --> 00:12:01.450 align:start position:0%
+that can be obtained by<c.colorE5E5E5> making
+ </c>
+
+00:12:01.450 --> 00:12:03.389 align:start position:0%
+that can be obtained by<c.colorE5E5E5> making
+inferences<00:12:01.660><c> on</c><00:12:02.020><c> what's</c><00:12:02.620><c> expressed</c><00:12:03.100><c> in</c><00:12:03.279><c> the</c></c>
+
+00:12:03.389 --> 00:12:03.399 align:start position:0%
+inferences on what's expressed in the
+ 
+
+00:12:03.399 --> 00:12:05.760 align:start position:0%
+inferences on what's expressed in the
+text<c.colorE5E5E5><00:12:03.730><c> that</c><00:12:04.300><c> might</c><00:12:04.630><c> not</c></c><c.colorCCCCCC><00:12:05.110><c> necessarily</c><00:12:05.649><c> look</c></c>
+
+00:12:05.760 --> 00:12:05.770 align:start position:0%
+text<c.colorE5E5E5> that might not</c><c.colorCCCCCC> necessarily look
+ </c>
+
+00:12:05.770 --> 00:12:09.210 align:start position:0%
+text<c.colorE5E5E5> that might not</c><c.colorCCCCCC> necessarily look
+like<00:12:05.800><c> opinion</c><00:12:06.370><c> for</c><00:12:06.640><c> example</c><00:12:07.589><c> one</c><00:12:08.589><c> statement</c></c>
+
+00:12:09.210 --> 00:12:09.220 align:start position:0%
+like opinion for<c.colorCCCCCC> example one statement
+ </c>
+
+00:12:09.220 --> 00:12:11.100 align:start position:0%
+like opinion for<c.colorCCCCCC> example one statement</c>
+<c.colorE5E5E5>that<00:12:09.370><c> might</c><00:12:09.550><c> be</c><00:12:09.850><c> this</c><00:12:10.300><c> phone</c><00:12:10.630><c> ran</c><00:12:10.930><c> out</c><00:12:10.959><c> of</c></c>
+
+00:12:11.100 --> 00:12:11.110 align:start position:0%
+<c.colorE5E5E5>that might be this phone ran out of
+ </c>
+
+00:12:11.110 --> 00:12:16.530 align:start position:0%
+<c.colorE5E5E5>that might be this phone ran out of
+battery</c><c.colorCCCCCC><00:12:11.290><c> in</c><00:12:12.040><c> just</c><00:12:12.430><c> one</c></c><c.colorE5E5E5><00:12:12.670><c> hour</c><00:12:13.140><c> now</c><00:12:14.140><c> this</c><00:12:15.100><c> is</c><00:12:15.540><c> in</c></c>
+
+00:12:16.530 --> 00:12:16.540 align:start position:0%
+battery<c.colorCCCCCC> in just one</c><c.colorE5E5E5> hour now this is in
+ </c>
+
+00:12:16.540 --> 00:12:19.860 align:start position:0%
+battery<c.colorCCCCCC> in just one</c><c.colorE5E5E5> hour now this is in
+a<00:12:16.720><c> way</c><00:12:16.959><c> a</c><00:12:17.290><c> factual</c><00:12:17.980><c> statement</c></c><c.colorCCCCCC><00:12:18.220><c> because</c><00:12:19.060><c> you</c></c>
+
+00:12:19.860 --> 00:12:19.870 align:start position:0%
+a way a factual statement<c.colorCCCCCC> because you
+ </c>
+
+00:12:19.870 --> 00:12:22.710 align:start position:0%
+a way a factual statement<c.colorCCCCCC> because you
+know<00:12:19.990><c> it's</c><00:12:20.140><c> in</c><00:12:20.320><c> the</c><00:12:20.410><c> true</c><00:12:20.649><c> or</c><00:12:20.890><c> false</c></c><c.colorE5E5E5><00:12:21.450><c> right</c></c><c.colorCCCCCC><00:12:22.450><c> and</c></c>
+
+00:12:22.710 --> 00:12:22.720 align:start position:0%
+know it's in the true or false<c.colorE5E5E5> right</c><c.colorCCCCCC> and
+ </c>
+
+00:12:22.720 --> 00:12:26.819 align:start position:0%
+know it's in the true or false<c.colorE5E5E5> right</c><c.colorCCCCCC> and
+you<00:12:23.320><c> can</c><00:12:23.529><c> verify</c><00:12:23.950><c> that</c></c><c.colorE5E5E5><00:12:24.779><c> but</c><00:12:25.779><c> from</c><00:12:26.260><c> this</c><00:12:26.470><c> then</c></c>
+
+00:12:26.819 --> 00:12:26.829 align:start position:0%
+you can verify that<c.colorE5E5E5> but from this then
+ </c>
+
+00:12:26.829 --> 00:12:28.740 align:start position:0%
+you can verify that<c.colorE5E5E5> but from this then
+one<00:12:27.160><c> can</c><00:12:27.339><c> also</c><00:12:27.459><c> infer</c><00:12:27.910><c> some</c><00:12:28.329><c> negative</c></c>
+
+00:12:28.740 --> 00:12:28.750 align:start position:0%
+one can<c.colorE5E5E5> also infer some negative
+ </c>
+
+00:12:28.750 --> 00:12:31.380 align:start position:0%
+one can<c.colorE5E5E5> also infer some negative
+opinions<00:12:29.230><c> about</c><00:12:29.430><c> the</c><00:12:30.430><c> quality</c></c><c.colorCCCCCC><00:12:31.149><c> of</c><00:12:31.270><c> the</c></c>
+
+00:12:31.380 --> 00:12:31.390 align:start position:0%
+opinions about the quality<c.colorCCCCCC> of the
+ </c>
+
+00:12:31.390 --> 00:12:34.139 align:start position:0%
+opinions about the quality<c.colorCCCCCC> of the
+battery<00:12:31.779><c> of</c><00:12:31.930><c> this</c><00:12:32.110><c> phone</c></c><c.colorE5E5E5><00:12:32.380><c> or</c><00:12:32.589><c> the</c><00:12:33.250><c> feeling</c></c><c.colorCCCCCC><00:12:34.029><c> of</c></c>
+
+00:12:34.139 --> 00:12:34.149 align:start position:0%
+battery of this phone<c.colorE5E5E5> or the feeling</c><c.colorCCCCCC> of
+ </c>
+
+00:12:34.149 --> 00:12:37.139 align:start position:0%
+battery of this phone<c.colorE5E5E5> or the feeling</c><c.colorCCCCCC> of
+the<00:12:34.750><c> opinion</c><00:12:35.170><c> holder</c><00:12:35.470><c> about</c><00:12:35.589><c> the</c><00:12:35.950><c> battery</c><00:12:36.370><c> you</c></c>
+
+00:12:37.139 --> 00:12:37.149 align:start position:0%
+the opinion holder about<c.colorCCCCCC> the battery you
+ </c>
+
+00:12:37.149 --> 00:12:39.150 align:start position:0%
+the opinion holder about<c.colorCCCCCC> the battery you
+know<00:12:37.240><c> the</c><00:12:37.390><c> opinion</c><00:12:38.020><c> holder</c></c><c.colorE5E5E5><00:12:38.410><c> clearly</c><00:12:38.770><c> wish</c><00:12:38.950><c> to</c></c>
+
+00:12:39.150 --> 00:12:39.160 align:start position:0%
+know the opinion holder<c.colorE5E5E5> clearly wish to
+ </c>
+
+00:12:39.160 --> 00:12:43.230 align:start position:0%
+know the opinion holder<c.colorE5E5E5> clearly wish to</c>
+<c.colorE5E5E5>the<00:12:39.279><c> battery</c><00:12:39.730><c> to</c><00:12:39.880><c> last</c><00:12:39.910><c> longer</c><00:12:40.390><c> so</c></c><c.colorCCCCCC><00:12:41.970><c> these</c><00:12:42.970><c> are</c></c>
+
+00:12:43.230 --> 00:12:43.240 align:start position:0%
+<c.colorE5E5E5>the battery to last longer so</c><c.colorCCCCCC> these are
+ </c>
+
+00:12:43.240 --> 00:12:44.819 align:start position:0%
+<c.colorE5E5E5>the battery to last longer so</c><c.colorCCCCCC> these are
+interesting</c><c.colorE5E5E5><00:12:43.420><c> variations</c><00:12:44.230><c> that</c><00:12:44.470><c> we</c><00:12:44.620><c> need</c><00:12:44.770><c> to</c></c>
+
+00:12:44.819 --> 00:12:44.829 align:start position:0%
+interesting<c.colorE5E5E5> variations that we need to
+ </c>
+
+00:12:44.829 --> 00:12:46.680 align:start position:0%
+interesting<c.colorE5E5E5> variations that we need to
+pay<00:12:44.980><c> attention</c><00:12:45.010><c> to</c><00:12:45.490><c> when</c><00:12:45.820><c> we</c><00:12:45.970><c> extract</c></c>
+
+00:12:46.680 --> 00:12:46.690 align:start position:0%
+pay attention<c.colorE5E5E5> to when we extract
+ </c>
+
+00:12:46.690 --> 00:12:51.120 align:start position:0%
+pay attention<c.colorE5E5E5> to when we extract</c>
+<c.colorE5E5E5>opinions<00:12:47.170><c> also</c><00:12:48.130><c> for</c><00:12:48.310><c> this</c><00:12:48.459><c> reason</c><00:12:49.500><c> about</c><00:12:50.500><c> the</c></c>
+
+00:12:51.120 --> 00:12:51.130 align:start position:0%
+<c.colorE5E5E5>opinions also for this reason about the
+ </c>
+
+00:12:51.130 --> 00:12:55.110 align:start position:0%
+<c.colorE5E5E5>opinions also for this reason about the
+indirect<00:12:51.459><c> opinions</c><00:12:52.829><c> it's</c><00:12:53.829><c> often</c><00:12:54.459><c> also</c><00:12:54.910><c> very</c></c>
+
+00:12:55.110 --> 00:12:55.120 align:start position:0%
+indirect opinions it's often<c.colorE5E5E5> also very
+ </c>
+
+00:12:55.120 --> 00:12:57.240 align:start position:0%
+indirect opinions it's often<c.colorE5E5E5> also very
+useful<00:12:55.420><c> to</c></c><c.colorCCCCCC><00:12:55.720><c> instruct</c><00:12:56.170><c> that</c><00:12:56.320><c> whatever</c><00:12:57.040><c> the</c></c>
+
+00:12:57.240 --> 00:12:57.250 align:start position:0%
+useful to<c.colorCCCCCC> instruct that whatever the
+ </c>
+
+00:12:57.250 --> 00:12:59.069 align:start position:0%
+useful to<c.colorCCCCCC> instruct that whatever the
+person<00:12:57.579><c> has</c><00:12:57.700><c> said</c><00:12:57.910><c> about</c><00:12:58.270><c> the</c><00:12:58.420><c> product</c><00:12:58.839><c> and</c></c>
+
+00:12:59.069 --> 00:12:59.079 align:start position:0%
+person has said<c.colorCCCCCC> about the product and
+ </c>
+
+00:12:59.079 --> 00:13:01.740 align:start position:0%
+person has said<c.colorCCCCCC> about the product and
+sometimes</c><c.colorE5E5E5><00:12:59.500><c> factual</c><00:13:00.339><c> sentences</c><00:13:00.850><c> like</c></c><c.colorCCCCCC><00:13:01.510><c> this</c></c>
+
+00:13:01.740 --> 00:13:01.750 align:start position:0%
+sometimes<c.colorE5E5E5> factual sentences like</c><c.colorCCCCCC> this
+ </c>
+
+00:13:01.750 --> 00:13:04.050 align:start position:0%
+sometimes<c.colorE5E5E5> factual sentences like</c><c.colorCCCCCC> this</c>
+<c.colorE5E5E5>are<00:13:02.110><c> also</c><00:13:02.260><c> very</c><00:13:02.589><c> useful</c></c><c.colorCCCCCC><00:13:02.800><c> so</c><00:13:03.640><c> for</c><00:13:03.850><c> practical</c></c>
+
+00:13:04.050 --> 00:13:04.060 align:start position:0%
+<c.colorE5E5E5>are also very useful</c><c.colorCCCCCC> so for practical
+ </c>
+
+00:13:04.060 --> 00:13:06.740 align:start position:0%
+<c.colorE5E5E5>are also very useful</c><c.colorCCCCCC> so for practical
+viewpoint<00:13:04.870><c> sometimes</c><00:13:05.770><c> we</c><00:13:05.980><c> don't</c><00:13:06.100><c> necessarily</c></c>
+
+00:13:06.740 --> 00:13:06.750 align:start position:0%
+viewpoint<c.colorCCCCCC> sometimes we don't necessarily
+ </c>
+
+00:13:06.750 --> 00:13:08.910 align:start position:0%
+viewpoint<c.colorCCCCCC> sometimes we don't necessarily</c>
+<c.colorE5E5E5>instruct<00:13:07.750><c> the</c><00:13:07.870><c> subjective</c><00:13:08.350><c> sentences</c></c>
+
+00:13:08.910 --> 00:13:08.920 align:start position:0%
+<c.colorE5E5E5>instruct the subjective sentences
+ </c>
+
+00:13:08.920 --> 00:13:11.579 align:start position:0%
+<c.colorE5E5E5>instruct the subjective sentences
+instead</c><c.colorCCCCCC><00:13:09.160><c> what</c><00:13:09.610><c> you</c><00:13:09.700><c> could</c><00:13:09.850><c> just</c><00:13:10.240><c> get</c><00:13:11.170><c> all</c><00:13:11.350><c> the</c></c>
+
+00:13:11.579 --> 00:13:11.589 align:start position:0%
+instead<c.colorCCCCCC> what you could just get all the
+ </c>
+
+00:13:11.589 --> 00:13:13.680 align:start position:0%
+instead<c.colorCCCCCC> what you could just get all the
+sentences<00:13:11.890><c> that</c></c><c.colorE5E5E5><00:13:12.040><c> are</c><00:13:12.310><c> about</c><00:13:12.850><c> opinions</c><00:13:13.390><c> that</c></c>
+
+00:13:13.680 --> 00:13:13.690 align:start position:0%
+sentences<c.colorCCCCCC> that</c><c.colorE5E5E5> are about opinions that
+ </c>
+
+00:13:13.690 --> 00:13:16.260 align:start position:0%
+sentences<c.colorCCCCCC> that</c><c.colorE5E5E5> are about opinions that
+are<00:13:13.839><c> useful</c><00:13:14.079><c> for</c><00:13:14.380><c> understanding</c><00:13:15.250><c> the</c></c><c.colorCCCCCC><00:13:15.880><c> person</c></c>
+
+00:13:16.260 --> 00:13:16.270 align:start position:0%
+are useful for understanding<c.colorE5E5E5> the</c><c.colorCCCCCC> person
+ </c>
+
+00:13:16.270 --> 00:13:18.230 align:start position:0%
+are useful for understanding<c.colorE5E5E5> the</c><c.colorCCCCCC> person
+or<00:13:16.420><c> understanding</c></c><c.colorE5E5E5><00:13:17.050><c> the</c><00:13:17.170><c> product</c></c><c.colorCCCCCC><00:13:17.470><c> income</c></c>
+
+00:13:18.230 --> 00:13:18.240 align:start position:0%
+or understanding<c.colorE5E5E5> the product</c><c.colorCCCCCC> income
+ </c>
+
+00:13:18.240 --> 00:13:21.710 align:start position:0%
+or understanding<c.colorE5E5E5> the product</c><c.colorCCCCCC> income
+and</c><c.colorE5E5E5><00:13:18.620><c> so</c><00:13:19.620><c> the</c><00:13:19.860><c> task</c><00:13:20.040><c> of</c><00:13:20.279><c> opinion</c><00:13:20.760><c> mining</c><00:13:21.420><c> can</c><00:13:21.690><c> be</c></c>
+
+00:13:21.710 --> 00:13:21.720 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> so the task of opinion mining can be
+ </c>
+
+00:13:21.720 --> 00:13:24.620 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> so the task of opinion mining can be
+defined<00:13:22.080><c> as</c><00:13:22.320><c> taking</c></c><c.colorCCCCCC><00:13:22.830><c> text</c></c><c.colorE5E5E5><00:13:23.279><c> as</c><00:13:23.580><c> input</c><00:13:24.029><c> to</c></c>
+
+00:13:24.620 --> 00:13:24.630 align:start position:0%
+defined<c.colorE5E5E5> as taking</c><c.colorCCCCCC> text</c><c.colorE5E5E5> as input to
+ </c>
+
+00:13:24.630 --> 00:13:26.030 align:start position:0%
+defined<c.colorE5E5E5> as taking</c><c.colorCCCCCC> text</c><c.colorE5E5E5> as input to
+generate<00:13:25.110><c> a</c><00:13:25.140><c> set</c></c><c.colorCCCCCC><00:13:25.440><c> of</c><00:13:25.500><c> opinion</c></c>
+
+00:13:26.030 --> 00:13:26.040 align:start position:0%
+generate a set<c.colorCCCCCC> of opinion
+ </c>
+
+00:13:26.040 --> 00:13:28.490 align:start position:0%
+generate a set<c.colorCCCCCC> of opinion
+representations<00:13:26.730><c> in</c><00:13:27.510><c> each</c><00:13:27.660><c> representation</c></c>
+
+00:13:28.490 --> 00:13:28.500 align:start position:0%
+representations in each representation
+ 
+
+00:13:28.500 --> 00:13:32.360 align:start position:0%
+representations in each representation
+we<00:13:28.880><c> should</c><00:13:29.880><c> identify</c><00:13:30.480><c> opinion</c><00:13:31.380><c> holder</c><00:13:31.770><c> target</c>
+
+00:13:32.360 --> 00:13:32.370 align:start position:0%
+we should identify opinion holder target
+ 
+
+00:13:32.370 --> 00:13:35.690 align:start position:0%
+we should identify opinion holder target
+<c.colorE5E5E5>content<00:13:33.300><c> and</c><00:13:33.450><c> context</c><00:13:34.100><c> ideally</c><00:13:35.100><c> we</c><00:13:35.339><c> can</c><00:13:35.520><c> also</c></c>
+
+00:13:35.690 --> 00:13:35.700 align:start position:0%
+<c.colorE5E5E5>content and context ideally we can also
+ </c>
+
+00:13:35.700 --> 00:13:38.780 align:start position:0%
+<c.colorE5E5E5>content and context ideally we can also
+infer<00:13:36.270><c> opinion</c><00:13:37.110><c> sentiment</c><00:13:37.890><c> from</c></c><c.colorCCCCCC><00:13:38.190><c> the</c><00:13:38.399><c> content</c></c>
+
+00:13:38.780 --> 00:13:38.790 align:start position:0%
+infer opinion<c.colorE5E5E5> sentiment from</c><c.colorCCCCCC> the content
+ </c>
+
+00:13:38.790 --> 00:13:43.220 align:start position:0%
+infer opinion<c.colorE5E5E5> sentiment from</c><c.colorCCCCCC> the content
+and<00:13:39.000><c> context</c><00:13:39.570><c> to</c><00:13:40.320><c> better</c><00:13:40.560><c> understand</c><00:13:42.230><c> the</c></c>
+
+00:13:43.220 --> 00:13:43.230 align:start position:0%
+and context<c.colorCCCCCC> to better understand the
+ </c>
+
+00:13:43.230 --> 00:13:46.760 align:start position:0%
+and context<c.colorCCCCCC> to better understand the
+opinion</c><c.colorE5E5E5><00:13:43.730><c> now</c><00:13:44.730><c> often</c><00:13:45.180><c> some</c><00:13:45.570><c> elements</c><00:13:46.260><c> of</c><00:13:46.470><c> the</c></c>
+
+00:13:46.760 --> 00:13:46.770 align:start position:0%
+opinion<c.colorE5E5E5> now often some elements of the
+ </c>
+
+00:13:46.770 --> 00:13:48.740 align:start position:0%
+opinion<c.colorE5E5E5> now often some elements of the
+replenishing<00:13:47.370><c> are</c><00:13:47.520><c> already</c><00:13:47.760><c> known</c><00:13:48.060><c> I</c><00:13:48.240><c> just</c></c>
+
+00:13:48.740 --> 00:13:48.750 align:start position:0%
+replenishing are<c.colorE5E5E5> already known I just
+ </c>
+
+00:13:48.750 --> 00:13:50.240 align:start position:0%
+replenishing are<c.colorE5E5E5> already known I just
+gave<00:13:48.899><c> a</c><00:13:48.959><c> good</c></c><c.colorCCCCCC><00:13:49.230><c> example</c></c><c.colorE5E5E5><00:13:49.589><c> in</c><00:13:49.950><c> the</c><00:13:50.070><c> case</c><00:13:50.190><c> of</c></c>
+
+00:13:50.240 --> 00:13:50.250 align:start position:0%
+gave a<c.colorE5E5E5> good</c><c.colorCCCCCC> example</c><c.colorE5E5E5> in the case of
+ </c>
+
+00:13:50.250 --> 00:13:53.300 align:start position:0%
+gave a<c.colorE5E5E5> good</c><c.colorCCCCCC> example</c><c.colorE5E5E5> in the case of
+product<00:13:50.910><c> reviews</c><00:13:51.330><c> where</c><00:13:52.320><c> the</c><00:13:52.529><c> opinion</c><00:13:52.950><c> holder</c></c>
+
+00:13:53.300 --> 00:13:53.310 align:start position:0%
+<c.colorE5E5E5>product reviews where the opinion holder
+ </c>
+
+00:13:53.310 --> 00:13:56.300 align:start position:0%
+<c.colorE5E5E5>product reviews where the opinion holder</c>
+<c.colorE5E5E5>and<00:13:53.459><c> opinion</c><00:13:53.970><c> target</c><00:13:54.300><c> are</c><00:13:55.140><c> often</c><00:13:55.589><c> explicitly</c></c>
+
+00:13:56.300 --> 00:13:56.310 align:start position:0%
+<c.colorE5E5E5>and opinion target are often explicitly
+ </c>
+
+00:13:56.310 --> 00:14:00.800 align:start position:0%
+<c.colorE5E5E5>and opinion target are often explicitly
+identified<00:13:56.910><c> and</c><00:13:57.360><c> that's</c><00:13:57.990><c> not</c><00:13:58.230><c> why</c><00:13:59.180><c> this</c><00:14:00.180><c> turns</c></c>
+
+00:14:00.800 --> 00:14:00.810 align:start position:0%
+identified<c.colorE5E5E5> and that's not why this turns
+ </c>
+
+00:14:00.810 --> 00:14:02.980 align:start position:0%
+identified<c.colorE5E5E5> and that's not why this turns</c>
+<c.colorE5E5E5>out</c><c.colorCCCCCC><00:14:00.990><c> to</c><00:14:01.230><c> be</c><00:14:01.260><c> one</c></c><c.colorE5E5E5><00:14:01.500><c> of</c><00:14:01.620><c> the</c><00:14:01.770><c> simplest</c><00:14:02.100><c> opinion</c></c>
+
+00:14:02.980 --> 00:14:02.990 align:start position:0%
+<c.colorE5E5E5>out</c><c.colorCCCCCC> to be one</c><c.colorE5E5E5> of the simplest opinion
+ </c>
+
+00:14:02.990 --> 00:14:06.320 align:start position:0%
+<c.colorE5E5E5>out</c><c.colorCCCCCC> to be one</c><c.colorE5E5E5> of the simplest opinion
+mining<00:14:03.990><c> tasks</c><00:14:04.350><c> now</c><00:14:05.190><c> it's</c><00:14:05.670><c> interesting</c></c><c.colorCCCCCC><00:14:05.970><c> new</c></c>
+
+00:14:06.320 --> 00:14:06.330 align:start position:0%
+mining tasks<c.colorE5E5E5> now it's interesting</c><c.colorCCCCCC> new
+ </c>
+
+00:14:06.330 --> 00:14:08.180 align:start position:0%
+mining tasks<c.colorE5E5E5> now it's interesting</c><c.colorCCCCCC> new
+thing</c><c.colorE5E5E5><00:14:06.510><c> about</c><00:14:06.690><c> the</c><00:14:06.870><c> other</c><00:14:07.110><c> tasks</c><00:14:07.740><c> that</c><00:14:07.770><c> might</c></c>
+
+00:14:08.180 --> 00:14:08.190 align:start position:0%
+thing<c.colorE5E5E5> about the other tasks that might
+ </c>
+
+00:14:08.190 --> 00:14:10.880 align:start position:0%
+thing<c.colorE5E5E5> about the other tasks that might
+be</c><c.colorCCCCCC><00:14:08.250><c> also</c><00:14:08.670><c> simple</c><00:14:09.209><c> because</c></c><c.colorE5E5E5><00:14:09.990><c> those</c><00:14:10.470><c> are</c><00:14:10.649><c> cases</c></c>
+
+00:14:10.880 --> 00:14:10.890 align:start position:0%
+<c.colorE5E5E5>be</c><c.colorCCCCCC> also simple because</c><c.colorE5E5E5> those are cases
+ </c>
+
+00:14:10.890 --> 00:14:12.829 align:start position:0%
+<c.colorE5E5E5>be</c><c.colorCCCCCC> also simple because</c><c.colorE5E5E5> those are cases
+where</c><c.colorCCCCCC><00:14:11.250><c> you</c><00:14:11.399><c> can</c><00:14:11.580><c> easily</c></c><c.colorE5E5E5><00:14:11.820><c> build</c><00:14:12.120><c> applications</c></c>
+
+00:14:12.829 --> 00:14:12.839 align:start position:0%
+where<c.colorCCCCCC> you can easily</c><c.colorE5E5E5> build applications
+ </c>
+
+00:14:12.839 --> 00:14:18.019 align:start position:0%
+where<c.colorCCCCCC> you can easily</c><c.colorE5E5E5> build applications
+by<00:14:13.800><c> using</c><00:14:13.830><c> opinion</c><00:14:14.610><c> mining</c><00:14:15.000><c> techniques</c><00:14:17.029><c> so</c></c>
+
+00:14:18.019 --> 00:14:18.029 align:start position:0%
+by using<c.colorE5E5E5> opinion mining techniques so
+ </c>
+
+00:14:18.029 --> 00:14:20.480 align:start position:0%
+by using<c.colorE5E5E5> opinion mining techniques so
+now<00:14:18.959><c> that</c><00:14:19.020><c> we</c><00:14:19.410><c> have</c><00:14:19.440><c> talked</c><00:14:19.800><c> about</c><00:14:19.920><c> the</c><00:14:20.250><c> what</c></c>
+
+00:14:20.480 --> 00:14:20.490 align:start position:0%
+now that we have<c.colorE5E5E5> talked about the what
+ </c>
+
+00:14:20.490 --> 00:14:22.160 align:start position:0%
+now that we have<c.colorE5E5E5> talked about the what
+is<00:14:20.580><c> the</c><00:14:20.700><c> opinion</c><00:14:20.880><c> mining</c><00:14:21.420><c> and</c><00:14:21.540><c> we</c><00:14:22.080><c> have</c></c>
+
+00:14:22.160 --> 00:14:22.170 align:start position:0%
+is the opinion mining and<c.colorE5E5E5> we have
+ </c>
+
+00:14:22.170 --> 00:14:24.920 align:start position:0%
+is the opinion mining and<c.colorE5E5E5> we have</c>
+<c.colorE5E5E5>defined<00:14:22.529><c> the</c><00:14:22.800><c> task</c><00:14:23.089><c> let's</c><00:14:24.089><c> also</c><00:14:24.270><c> just</c><00:14:24.450><c> talk</c></c><c.colorCCCCCC><00:14:24.870><c> a</c></c>
+
+00:14:24.920 --> 00:14:24.930 align:start position:0%
+<c.colorE5E5E5>defined the task let's also just talk</c><c.colorCCCCCC> a
+ </c>
+
+00:14:24.930 --> 00:14:26.780 align:start position:0%
+<c.colorE5E5E5>defined the task let's also just talk</c><c.colorCCCCCC> a
+little<00:14:25.170><c> bit</c><00:14:25.290><c> about</c><00:14:25.350><c> the</c><00:14:25.680><c> why</c><00:14:25.920><c> opinion</c><00:14:26.430><c> mining</c></c>
+
+00:14:26.780 --> 00:14:26.790 align:start position:0%
+little bit about the why opinion mining
+ 
+
+00:14:26.790 --> 00:14:29.750 align:start position:0%
+little bit about the why opinion mining
+is<00:14:26.970><c> very</c><00:14:27.329><c> important</c><00:14:27.899><c> and</c><00:14:28.339><c> why</c><00:14:29.339><c> it's</c><00:14:29.550><c> very</c>
+
+00:14:29.750 --> 00:14:29.760 align:start position:0%
+is very important and why it's very
+ 
+
+00:14:29.760 --> 00:14:33.620 align:start position:0%
+is very important and why it's very
+useful<c.colorE5E5E5><00:14:30.329><c> so</c><00:14:31.230><c> here</c><00:14:31.770><c> I</c><00:14:31.970><c> identified</c><00:14:32.970><c> three</c><00:14:33.329><c> major</c></c>
+
+00:14:33.620 --> 00:14:33.630 align:start position:0%
+useful<c.colorE5E5E5> so here I identified three major
+ </c>
+
+00:14:33.630 --> 00:14:36.050 align:start position:0%
+useful<c.colorE5E5E5> so here I identified three major</c>
+<c.colorCCCCCC>reasons<00:14:34.200><c> three</c><00:14:34.680><c> product</c><00:14:35.220><c> reasons</c><00:14:35.550><c> the</c><00:14:35.880><c> first</c></c>
+
+00:14:36.050 --> 00:14:36.060 align:start position:0%
+<c.colorCCCCCC>reasons three product reasons the first
+ </c>
+
+00:14:36.060 --> 00:14:39.530 align:start position:0%
+<c.colorCCCCCC>reasons three product reasons the first
+is<00:14:36.360><c> it</c><00:14:36.870><c> can</c><00:14:37.110><c> help</c><00:14:37.140><c> a</c><00:14:37.380><c> decision</c></c><c.colorE5E5E5><00:14:37.770><c> support</c><00:14:38.270><c> it</c></c><c.colorCCCCCC><00:14:39.270><c> can</c></c>
+
+00:14:39.530 --> 00:14:39.540 align:start position:0%
+is it can help<c.colorCCCCCC> a decision</c><c.colorE5E5E5> support it</c><c.colorCCCCCC> can
+ </c>
+
+00:14:39.540 --> 00:14:42.290 align:start position:0%
+is it can help<c.colorCCCCCC> a decision</c><c.colorE5E5E5> support it</c><c.colorCCCCCC> can
+help<00:14:39.720><c> us</c><00:14:39.930><c> optimize</c><00:14:40.440><c> our</c><00:14:40.890><c> decisions</c></c><c.colorE5E5E5><00:14:41.399><c> we</c><00:14:41.970><c> often</c></c>
+
+00:14:42.290 --> 00:14:42.300 align:start position:0%
+help us optimize our decisions<c.colorE5E5E5> we often
+ </c>
+
+00:14:42.300 --> 00:14:45.350 align:start position:0%
+help us optimize our decisions<c.colorE5E5E5> we often</c>
+<c.colorE5E5E5>look<00:14:43.230><c> after</c><00:14:43.529><c> other</c><00:14:43.709><c> people's</c><00:14:44.070><c> opinions</c><00:14:44.550><c> and</c></c>
+
+00:14:45.350 --> 00:14:45.360 align:start position:0%
+<c.colorE5E5E5>look after other people's opinions and
+ </c>
+
+00:14:45.360 --> 00:14:47.510 align:start position:0%
+<c.colorE5E5E5>look after other people's opinions and
+look<00:14:45.450><c> at</c><00:14:45.570><c> the</c><00:14:45.720><c> reader</c><00:14:45.990><c> reviews</c><00:14:46.260><c> in</c><00:14:47.160><c> order</c></c><c.colorCCCCCC><00:14:47.339><c> to</c></c>
+
+00:14:47.510 --> 00:14:47.520 align:start position:0%
+look at the reader reviews<c.colorE5E5E5> in order</c><c.colorCCCCCC> to
+ </c>
+
+00:14:47.520 --> 00:14:49.639 align:start position:0%
+look at the reader reviews<c.colorE5E5E5> in order</c><c.colorCCCCCC> to
+make<00:14:47.670><c> a</c><00:14:47.700><c> decision</c></c><c.colorE5E5E5><00:14:48.000><c> like</c><00:14:48.540><c> a</c></c><c.colorCCCCCC><00:14:48.570><c> pioneer</c></c><c.colorE5E5E5><00:14:49.140><c> buying</c><00:14:49.470><c> a</c></c>
+
+00:14:49.639 --> 00:14:49.649 align:start position:0%
+make a decision<c.colorE5E5E5> like a</c><c.colorCCCCCC> pioneer</c><c.colorE5E5E5> buying a
+ </c>
+
+00:14:49.649 --> 00:14:54.260 align:start position:0%
+make a decision<c.colorE5E5E5> like a</c><c.colorCCCCCC> pioneer</c><c.colorE5E5E5> buying a</c>
+<c.colorCCCCCC>product<00:14:50.070><c> or</c><00:14:50.279><c> using</c><00:14:50.520><c> a</c><00:14:50.579><c> service</c><00:14:51.260><c> we</c><00:14:52.260><c> also</c><00:14:53.270><c> would</c></c>
+
+00:14:54.260 --> 00:14:54.270 align:start position:0%
+<c.colorCCCCCC>product or using a service we also would
+ </c>
+
+00:14:54.270 --> 00:14:57.050 align:start position:0%
+<c.colorCCCCCC>product or using a service we also would</c>
+<c.colorCCCCCC>be<00:14:54.420><c> interesting</c><00:14:54.959><c> others</c><00:14:55.290><c> opinions</c><00:14:55.950><c> when</c><00:14:56.910><c> we</c></c>
+
+00:14:57.050 --> 00:14:57.060 align:start position:0%
+<c.colorCCCCCC>be interesting others opinions when we
+ </c>
+
+00:14:57.060 --> 00:15:01.030 align:start position:0%
+<c.colorCCCCCC>be interesting others opinions when we
+decide<00:14:57.390><c> whom</c><00:14:57.839><c> to</c></c><c.colorE5E5E5><00:14:57.870><c> vote</c></c><c.colorCCCCCC><00:14:58.410><c> for</c><00:14:58.829><c> example</c></c><c.colorE5E5E5><00:14:58.950><c> and</c></c>
+
+00:15:01.030 --> 00:15:01.040 align:start position:0%
+decide whom to<c.colorE5E5E5> vote</c><c.colorCCCCCC> for example</c><c.colorE5E5E5> and
+ </c>
+
+00:15:01.040 --> 00:15:03.829 align:start position:0%
+decide whom to<c.colorE5E5E5> vote</c><c.colorCCCCCC> for example</c><c.colorE5E5E5> and
+policy<00:15:02.040><c> makers</c><00:15:02.220><c> may</c><00:15:02.700><c> also</c><00:15:02.910><c> want</c></c><c.colorCCCCCC><00:15:03.390><c> to</c><00:15:03.630><c> know</c></c>
+
+00:15:03.829 --> 00:15:03.839 align:start position:0%
+policy makers<c.colorE5E5E5> may also want</c><c.colorCCCCCC> to know
+ </c>
+
+00:15:03.839 --> 00:15:06.650 align:start position:0%
+policy makers<c.colorE5E5E5> may also want</c><c.colorCCCCCC> to know
+people's<00:15:04.709><c> opinions</c><00:15:05.220><c> and</c><00:15:06.000><c> when</c><00:15:06.149><c> designing</c><00:15:06.510><c> a</c></c>
+
+00:15:06.650 --> 00:15:06.660 align:start position:0%
+people's opinions<c.colorCCCCCC> and when designing a
+ </c>
+
+00:15:06.660 --> 00:15:09.680 align:start position:0%
+people's opinions<c.colorCCCCCC> and when designing a
+new<00:15:06.779><c> policy</c><00:15:07.170><c> so</c><00:15:07.920><c> that's</c><00:15:08.160><c> one</c><00:15:08.459><c> general</c><00:15:09.060><c> kind</c></c><c.colorE5E5E5><00:15:09.600><c> of</c></c>
+
+00:15:09.680 --> 00:15:09.690 align:start position:0%
+new policy so that's one general kind<c.colorE5E5E5> of
+ </c>
+
+00:15:09.690 --> 00:15:11.389 align:start position:0%
+new policy so that's one general kind<c.colorE5E5E5> of
+applications</c><c.colorCCCCCC><00:15:10.230><c> and</c><00:15:10.500><c> it's</c><00:15:10.649><c> very</c><00:15:10.890><c> proud</c><00:15:11.190><c> of</c></c>
+
+00:15:11.389 --> 00:15:11.399 align:start position:0%
+applications<c.colorCCCCCC> and it's very proud of
+ </c>
+
+00:15:11.399 --> 00:15:14.120 align:start position:0%
+applications<c.colorCCCCCC> and it's very proud of
+course<00:15:11.670><c> the</c><00:15:12.600><c> second</c><00:15:12.959><c> application</c></c><c.colorE5E5E5><00:15:13.079><c> is</c><00:15:13.620><c> to</c></c>
+
+00:15:14.120 --> 00:15:14.130 align:start position:0%
+course the second application<c.colorE5E5E5> is to
+ </c>
+
+00:15:14.130 --> 00:15:16.250 align:start position:0%
+course the second application<c.colorE5E5E5> is to
+understand<00:15:14.850><c> people</c><00:15:15.240><c> and</c></c><c.colorCCCCCC><00:15:15.270><c> this</c><00:15:15.630><c> is</c><00:15:15.839><c> also</c></c><c.colorE5E5E5><00:15:16.020><c> very</c></c>
+
+00:15:16.250 --> 00:15:16.260 align:start position:0%
+understand people and<c.colorCCCCCC> this is also</c><c.colorE5E5E5> very
+ </c>
+
+00:15:16.260 --> 00:15:19.040 align:start position:0%
+understand people and<c.colorCCCCCC> this is also</c><c.colorE5E5E5> very
+important<00:15:16.829><c> and</c><00:15:17.550><c> for</c></c><c.colorCCCCCC><00:15:17.820><c> example</c></c><c.colorE5E5E5><00:15:18.450><c> the</c><00:15:18.600><c> helper</c></c>
+
+00:15:19.040 --> 00:15:19.050 align:start position:0%
+important<c.colorE5E5E5> and for</c><c.colorCCCCCC> example</c><c.colorE5E5E5> the helper
+ </c>
+
+00:15:19.050 --> 00:15:21.829 align:start position:0%
+important<c.colorE5E5E5> and for</c><c.colorCCCCCC> example</c><c.colorE5E5E5> the helper
+understand</c><c.colorCCCCCC><00:15:19.620><c> the</c><00:15:19.800><c> people's</c><00:15:20.430><c> preferences</c><00:15:21.060><c> so</c></c>
+
+00:15:21.829 --> 00:15:21.839 align:start position:0%
+understand<c.colorCCCCCC> the people's preferences so
+ </c>
+
+00:15:21.839 --> 00:15:23.780 align:start position:0%
+understand<c.colorCCCCCC> the people's preferences so
+and<00:15:22.050><c> this</c><00:15:22.500><c> could</c><00:15:22.829><c> help</c></c><c.colorE5E5E5><00:15:22.980><c> us</c><00:15:23.190><c> better</c><00:15:23.490><c> serve</c></c>
+
+00:15:23.780 --> 00:15:23.790 align:start position:0%
+and this could help<c.colorE5E5E5> us better serve
+ </c>
+
+00:15:23.790 --> 00:15:26.420 align:start position:0%
+and this could help<c.colorE5E5E5> us better serve</c>
+<c.colorCCCCCC>people</c><c.colorE5E5E5><00:15:24.240><c> for</c></c><c.colorCCCCCC><00:15:24.540><c> example</c></c><c.colorE5E5E5><00:15:24.860><c> we</c><00:15:25.860><c> can</c><00:15:26.010><c> optimize</c><00:15:26.160><c> a</c></c>
+
+00:15:26.420 --> 00:15:26.430 align:start position:0%
+<c.colorCCCCCC>people</c><c.colorE5E5E5> for</c><c.colorCCCCCC> example</c><c.colorE5E5E5> we can optimize a
+ </c>
+
+00:15:26.430 --> 00:15:28.970 align:start position:0%
+<c.colorCCCCCC>people</c><c.colorE5E5E5> for</c><c.colorCCCCCC> example</c><c.colorE5E5E5> we can optimize a
+product<00:15:26.910><c> such</c><00:15:27.120><c> engine</c><00:15:27.829><c> optimize</c><00:15:28.829><c> the</c></c>
+
+00:15:28.970 --> 00:15:28.980 align:start position:0%
+product such engine optimize<c.colorE5E5E5> the
+ </c>
+
+00:15:28.980 --> 00:15:30.650 align:start position:0%
+product such engine optimize<c.colorE5E5E5> the</c>
+<c.colorCCCCCC>recommender</c><c.colorE5E5E5><00:15:29.490><c> system</c><00:15:29.880><c> if</c><00:15:30.060><c> we</c><00:15:30.120><c> know</c><00:15:30.420><c> what</c></c>
+
+00:15:30.650 --> 00:15:30.660 align:start position:0%
+<c.colorCCCCCC>recommender</c><c.colorE5E5E5> system if we know what
+ </c>
+
+00:15:30.660 --> 00:15:31.879 align:start position:0%
+<c.colorCCCCCC>recommender</c><c.colorE5E5E5> system if we know what</c>
+<c.colorCCCCCC>people<00:15:31.020><c> are</c><00:15:31.199><c> interested</c><00:15:31.230><c> in</c></c>
+
+00:15:31.879 --> 00:15:31.889 align:start position:0%
+<c.colorCCCCCC>people are interested in
+ </c>
+
+00:15:31.889 --> 00:15:35.989 align:start position:0%
+<c.colorCCCCCC>people are interested in
+what<00:15:32.069><c> people</c></c><c.colorE5E5E5><00:15:32.449><c> think</c></c><c.colorCCCCCC><00:15:33.449><c> about</c><00:15:33.809><c> products</c><00:15:34.759><c> it</c><00:15:35.759><c> can</c></c>
+
+00:15:35.989 --> 00:15:35.999 align:start position:0%
+what people<c.colorE5E5E5> think</c><c.colorCCCCCC> about products it can
+ </c>
+
+00:15:35.999 --> 00:15:38.689 align:start position:0%
+what people<c.colorE5E5E5> think</c><c.colorCCCCCC> about products it can
+also<00:15:36.149><c> help</c><00:15:36.660><c> with</c><00:15:37.109><c> advertising</c><00:15:37.889><c> of</c><00:15:38.160><c> course</c></c><c.colorE5E5E5><00:15:38.189><c> and</c></c>
+
+00:15:38.689 --> 00:15:38.699 align:start position:0%
+also help with advertising<c.colorCCCCCC> of course</c><c.colorE5E5E5> and
+ </c>
+
+00:15:38.699 --> 00:15:40.729 align:start position:0%
+also help with advertising<c.colorCCCCCC> of course</c><c.colorE5E5E5> and
+we<00:15:38.879><c> can</c><00:15:39.029><c> have</c><00:15:39.209><c> targeted</c><00:15:39.839><c> advertising</c><00:15:40.379><c> if</c><00:15:40.619><c> we</c></c>
+
+00:15:40.729 --> 00:15:40.739 align:start position:0%
+we can have targeted advertising if we
+ 
+
+00:15:40.739 --> 00:15:45.099 align:start position:0%
+we can have targeted advertising if we
+know<00:15:40.949><c> what</c><00:15:41.279><c> kind</c><c.colorCCCCCC><00:15:41.489><c> of</c><00:15:41.609><c> people</c><00:15:42.230><c> tend</c><00:15:43.230><c> to</c><00:15:43.470><c> know</c><00:15:43.769><c> to</c></c>
+
+00:15:45.099 --> 00:15:45.109 align:start position:0%
+know what kind<c.colorCCCCCC> of people tend to know to
+ </c>
+
+00:15:45.109 --> 00:15:47.590 align:start position:0%
+know what kind<c.colorCCCCCC> of people tend to know to
+like<00:15:46.109><c> what</c><00:15:46.559><c> kind</c><00:15:46.769><c> of</c></c><c.colorE5E5E5><00:15:46.829><c> product</c></c>
+
+00:15:47.590 --> 00:15:47.600 align:start position:0%
+like what<c.colorCCCCCC> kind of</c><c.colorE5E5E5> product
+ </c>
+
+00:15:47.600 --> 00:15:50.809 align:start position:0%
+like what<c.colorCCCCCC> kind of</c><c.colorE5E5E5> product
+now<00:15:48.600><c> the</c><00:15:48.660><c> third</c><00:15:49.049><c> kind</c><00:15:49.319><c> of</c><00:15:49.470><c> applications</c><00:15:50.040><c> can</c></c>
+
+00:15:50.809 --> 00:15:50.819 align:start position:0%
+now the third kind of applications can
+ 
+
+00:15:50.819 --> 00:15:54.319 align:start position:0%
+now the third kind of applications can
+<c.colorCCCCCC>be<00:15:51.139><c> called</c><00:15:52.139><c> voluntary</c><00:15:53.100><c> survey</c></c><c.colorE5E5E5><00:15:53.549><c> now</c><00:15:53.879><c> this</c><00:15:54.179><c> is</c></c>
+
+00:15:54.319 --> 00:15:54.329 align:start position:0%
+<c.colorCCCCCC>be called voluntary survey</c><c.colorE5E5E5> now this is
+ </c>
+
+00:15:54.329 --> 00:15:56.960 align:start position:0%
+<c.colorCCCCCC>be called voluntary survey</c><c.colorE5E5E5> now this is
+mostly<00:15:54.749><c> to</c><00:15:54.929><c> support</c></c><c.colorCCCCCC><00:15:55.259><c> a</c></c><c.colorE5E5E5><00:15:55.350><c> research</c><00:15:55.649><c> that</c><00:15:56.519><c> used</c></c>
+
+00:15:56.960 --> 00:15:56.970 align:start position:0%
+mostly<c.colorE5E5E5> to support</c><c.colorCCCCCC> a</c><c.colorE5E5E5> research that used
+ </c>
+
+00:15:56.970 --> 00:15:59.539 align:start position:0%
+mostly<c.colorE5E5E5> to support</c><c.colorCCCCCC> a</c><c.colorE5E5E5> research that used
+to<00:15:57.149><c> be</c><00:15:57.389><c> done</c><00:15:57.660><c> by</c><00:15:57.989><c> doing</c><00:15:58.049><c> surveys</c><00:15:58.769><c> from</c><00:15:59.189><c> doing</c></c>
+
+00:15:59.539 --> 00:15:59.549 align:start position:0%
+to<c.colorE5E5E5> be done by doing surveys from doing
+ </c>
+
+00:15:59.549 --> 00:16:01.489 align:start position:0%
+to<c.colorE5E5E5> be done by doing surveys from doing</c>
+<c.colorCCCCCC>annual<00:15:59.759><c> surveys</c></c><c.colorE5E5E5><00:16:00.239><c> question</c><00:16:00.839><c> answering</c></c><c.colorCCCCCC><00:16:01.139><c> you</c></c>
+
+00:16:01.489 --> 00:16:01.499 align:start position:0%
+<c.colorCCCCCC>annual surveys</c><c.colorE5E5E5> question answering</c><c.colorCCCCCC> you
+ </c>
+
+00:16:01.499 --> 00:16:05.720 align:start position:0%
+<c.colorCCCCCC>annual surveys</c><c.colorE5E5E5> question answering</c><c.colorCCCCCC> you
+know<00:16:02.959><c> people</c></c><c.colorE5E5E5><00:16:03.959><c> need</c><00:16:04.139><c> to</c><00:16:04.350><c> fill</c><00:16:04.559><c> in</c><00:16:04.739><c> forms</c><00:16:05.129><c> to</c><00:16:05.459><c> you</c></c>
+
+00:16:05.720 --> 00:16:05.730 align:start position:0%
+know people<c.colorE5E5E5> need to fill in forms to you
+ </c>
+
+00:16:05.730 --> 00:16:07.909 align:start position:0%
+know people<c.colorE5E5E5> need to fill in forms to you
+know<00:16:05.879><c> to</c></c><c.colorCCCCCC><00:16:05.999><c> answer</c><00:16:06.269><c> some</c><00:16:06.389><c> questions</c><00:16:06.419><c> now</c><00:16:07.049><c> this</c></c>
+
+00:16:07.909 --> 00:16:07.919 align:start position:0%
+know to<c.colorCCCCCC> answer some questions now this
+ </c>
+
+00:16:07.919 --> 00:16:10.909 align:start position:0%
+know to<c.colorCCCCCC> answer some questions now this
+is<00:16:08.100><c> directly</c><00:16:08.519><c> related</c></c><c.colorE5E5E5><00:16:08.730><c> to</c><00:16:09.109><c> humans</c><00:16:10.109><c> as</c><00:16:10.350><c> sensors</c></c>
+
+00:16:10.909 --> 00:16:10.919 align:start position:0%
+is directly<c.colorCCCCCC> related</c><c.colorE5E5E5> to humans as sensors
+ </c>
+
+00:16:10.919 --> 00:16:13.999 align:start position:0%
+is directly<c.colorCCCCCC> related</c><c.colorE5E5E5> to humans as sensors
+and<00:16:11.850><c> we</c><00:16:12.059><c> can</c><00:16:12.269><c> usually</c><00:16:12.540><c> aggregate</c><00:16:13.529><c> opinions</c></c>
+
+00:16:13.999 --> 00:16:14.009 align:start position:0%
+and we can usually aggregate opinions
+ 
+
+00:16:14.009 --> 00:16:16.340 align:start position:0%
+and we can usually aggregate opinions
+from<c.colorCCCCCC><00:16:14.249><c> a</c><00:16:14.399><c> lot</c></c><c.colorE5E5E5><00:16:14.549><c> of</c><00:16:14.699><c> documents</c></c><c.colorCCCCCC><00:16:15.179><c> to</c><00:16:15.779><c> kind</c><00:16:16.199><c> of</c></c>
+
+00:16:16.340 --> 00:16:16.350 align:start position:0%
+from<c.colorCCCCCC> a lot</c><c.colorE5E5E5> of documents</c><c.colorCCCCCC> to kind of
+ </c>
+
+00:16:16.350 --> 00:16:18.949 align:start position:0%
+from<c.colorCCCCCC> a lot</c><c.colorE5E5E5> of documents</c><c.colorCCCCCC> to kind of
+assess<00:16:16.769><c> the</c><00:16:17.040><c> general</c><00:16:17.489><c> opinion</c><00:16:17.759><c> now</c><00:16:18.749><c> this</c></c>
+
+00:16:18.949 --> 00:16:18.959 align:start position:0%
+assess the general opinion now this
+ 
+
+00:16:18.959 --> 00:16:21.199 align:start position:0%
+assess the general opinion now this
+would<00:16:19.290><c> be</c><c.colorCCCCCC><00:16:19.319><c> very</c><00:16:19.649><c> useful</c><00:16:20.100><c> for</c></c><c.colorE5E5E5><00:16:20.209><c> business</c></c>
+
+00:16:21.199 --> 00:16:21.209 align:start position:0%
+would be<c.colorCCCCCC> very useful for</c><c.colorE5E5E5> business
+ </c>
+
+00:16:21.209 --> 00:16:23.679 align:start position:0%
+would be<c.colorCCCCCC> very useful for</c><c.colorE5E5E5> business
+intelligence</c><c.colorCCCCCC><00:16:21.569><c> where</c></c><c.colorE5E5E5><00:16:22.189><c> party</c><00:16:23.189><c> manufacturers</c></c>
+
+00:16:23.679 --> 00:16:23.689 align:start position:0%
+<c.colorE5E5E5>intelligence</c><c.colorCCCCCC> where</c><c.colorE5E5E5> party manufacturers
+ </c>
+
+00:16:23.689 --> 00:16:28.340 align:start position:0%
+<c.colorE5E5E5>intelligence</c><c.colorCCCCCC> where</c><c.colorE5E5E5> party manufacturers
+want<00:16:24.689><c> to</c><00:16:24.869><c> know</c><00:16:26.329><c> where</c><00:16:27.329><c> their</c><00:16:27.509><c> products</c><00:16:28.049><c> have</c></c>
+
+00:16:28.340 --> 00:16:28.350 align:start position:0%
+want<c.colorE5E5E5> to know where their products have
+ </c>
+
+00:16:28.350 --> 00:16:30.220 align:start position:0%
+want<c.colorE5E5E5> to know where their products have
+advantages<00:16:28.919><c> over</c><00:16:29.160><c> others</c></c>
+
+00:16:30.220 --> 00:16:30.230 align:start position:0%
+advantages<c.colorE5E5E5> over others
+ </c>
+
+00:16:30.230 --> 00:16:32.389 align:start position:0%
+advantages<c.colorE5E5E5> over others
+what<00:16:31.230><c> are</c><00:16:31.379><c> winning</c><00:16:31.769><c> features</c><00:16:32.040><c> of</c><00:16:32.220><c> their</c></c>
+
+00:16:32.389 --> 00:16:32.399 align:start position:0%
+what are winning features of their
+ 
+
+00:16:32.399 --> 00:16:34.460 align:start position:0%
+what are winning features of their
+product<c.colorE5E5E5><00:16:32.759><c> or</c><00:16:33.419><c> winning</c><00:16:33.989><c> features</c><00:16:34.290><c> of</c></c>
+
+00:16:34.460 --> 00:16:34.470 align:start position:0%
+product<c.colorE5E5E5> or winning features of
+ </c>
+
+00:16:34.470 --> 00:16:37.759 align:start position:0%
+product<c.colorE5E5E5> or winning features of
+competitive<00:16:35.160><c> products</c><00:16:36.439><c> marketing</c><00:16:37.439><c> research</c></c>
+
+00:16:37.759 --> 00:16:37.769 align:start position:0%
+competitive products marketing research
+ 
+
+00:16:37.769 --> 00:16:39.739 align:start position:0%
+competitive products marketing research
+has<00:16:38.279><c> to</c><00:16:38.399><c> do</c><00:16:38.519><c> with</c><c.colorCCCCCC><00:16:38.579><c> understanding</c><00:16:39.269><c> consumers</c></c>
+
+00:16:39.739 --> 00:16:39.749 align:start position:0%
+has to do with<c.colorCCCCCC> understanding consumers
+ </c>
+
+00:16:39.749 --> 00:16:42.409 align:start position:0%
+has to do with<c.colorCCCCCC> understanding consumers
+opinions<00:16:40.230><c> and</c><00:16:40.439><c> this</c><00:16:40.889><c> is</c></c><c.colorE5E5E5><00:16:41.069><c> clearly</c><00:16:41.549><c> very</c><00:16:41.850><c> useful</c></c>
+
+00:16:42.409 --> 00:16:42.419 align:start position:0%
+opinions and this is<c.colorE5E5E5> clearly very useful
+ </c>
+
+00:16:42.419 --> 00:16:44.389 align:start position:0%
+opinions and this is<c.colorE5E5E5> clearly very useful
+directed<00:16:43.110><c> for</c><00:16:43.259><c> that</c><00:16:43.410><c> they</c><00:16:43.860><c> don't</c></c><c.colorCCCCCC><00:16:44.100><c> driven</c></c>
+
+00:16:44.389 --> 00:16:44.399 align:start position:0%
+directed for that they don't<c.colorCCCCCC> driven
+ </c>
+
+00:16:44.399 --> 00:16:45.949 align:start position:0%
+directed for that they don't<c.colorCCCCCC> driven
+social<00:16:44.730><c> science</c><00:16:44.999><c> research</c></c><c.colorE5E5E5><00:16:45.329><c> you</c><00:16:45.449><c> can</c><00:16:45.629><c> benefit</c></c>
+
+00:16:45.949 --> 00:16:45.959 align:start position:0%
+social science research<c.colorE5E5E5> you can benefit
+ </c>
+
+00:16:45.959 --> 00:16:49.369 align:start position:0%
+social science research<c.colorE5E5E5> you can benefit
+from<00:16:46.019><c> this</c><00:16:46.350><c> because</c><00:16:46.819><c> they</c><00:16:47.819><c> can</c><00:16:48.089><c> do</c><00:16:48.929><c> text</c></c>
+
+00:16:49.369 --> 00:16:49.379 align:start position:0%
+from this because<c.colorE5E5E5> they can do text
+ </c>
+
+00:16:49.379 --> 00:16:51.229 align:start position:0%
+from this because<c.colorE5E5E5> they can do text
+mining<00:16:49.980><c> to</c><00:16:50.279><c> understand</c><00:16:50.759><c> the</c><00:16:50.910><c> people's</c></c>
+
+00:16:51.229 --> 00:16:51.239 align:start position:0%
+mining to understand the people's
+ 
+
+00:16:51.239 --> 00:16:53.539 align:start position:0%
+mining to understand the people's
+opinions<00:16:51.749><c> and</c><00:16:51.959><c> if</c><00:16:52.439><c> you</c><00:16:52.529><c> can</c><c.colorCCCCCC><00:16:52.679><c> operate</c><00:16:53.100><c> a</c><00:16:53.129><c> lot</c><00:16:53.429><c> of</c></c>
+
+00:16:53.539 --> 00:16:53.549 align:start position:0%
+opinions and if you can<c.colorCCCCCC> operate a lot of
+ </c>
+
+00:16:53.549 --> 00:16:55.809 align:start position:0%
+opinions and if you can<c.colorCCCCCC> operate a lot of
+opinions<00:16:53.939><c> from</c><00:16:54.149><c> social</c><00:16:54.540><c> media</c></c><c.colorE5E5E5><00:16:54.569><c> from</c><00:16:55.019><c> a</c><00:16:55.230><c> lot</c><00:16:55.679><c> of</c></c>
+
+00:16:55.809 --> 00:16:55.819 align:start position:0%
+opinions from social media<c.colorE5E5E5> from a lot of
+ </c>
+
+00:16:55.819 --> 00:17:00.340 align:start position:0%
+opinions from social media<c.colorE5E5E5> from a lot of
+public<00:16:57.470><c> information</c><00:16:58.470><c> then</c><00:16:59.429><c> you</c><00:16:59.759><c> can</c><00:17:00.029><c> actually</c></c>
+
+00:17:00.340 --> 00:17:00.350 align:start position:0%
+public information<c.colorE5E5E5> then you can actually
+ </c>
+
+00:17:00.350 --> 00:17:04.610 align:start position:0%
+public information<c.colorE5E5E5> then you can actually
+do<00:17:01.350><c> some</c><00:17:01.759><c> study</c><00:17:02.759><c> of</c><00:17:03.029><c> some</c><00:17:03.389><c> questions</c></c><c.colorCCCCCC><00:17:03.620><c> for</c></c>
+
+00:17:04.610 --> 00:17:04.620 align:start position:0%
+do some study<c.colorE5E5E5> of some questions</c><c.colorCCCCCC> for
+ </c>
+
+00:17:04.620 --> 00:17:06.500 align:start position:0%
+do some study<c.colorE5E5E5> of some questions</c><c.colorCCCCCC> for</c>
+<c.colorE5E5E5>example</c><c.colorCCCCCC><00:17:04.740><c> we</c><00:17:05.339><c> can</c><00:17:05.459><c> study</c><00:17:05.699><c> the</c><00:17:05.880><c> behavior</c></c><c.colorE5E5E5><00:17:06.029><c> of</c></c>
+
+00:17:06.500 --> 00:17:06.510 align:start position:0%
+<c.colorE5E5E5>example</c><c.colorCCCCCC> we can study the behavior</c><c.colorE5E5E5> of
+ </c>
+
+00:17:06.510 --> 00:17:10.429 align:start position:0%
+<c.colorE5E5E5>example</c><c.colorCCCCCC> we can study the behavior</c><c.colorE5E5E5> of
+people<00:17:06.860><c> on</c><00:17:08.269><c> social</c><00:17:09.269><c> media</c><00:17:09.510><c> on</c><00:17:09.929><c> social</c></c>
+
+00:17:10.429 --> 00:17:10.439 align:start position:0%
+people on social media<c.colorE5E5E5> on social
+ </c>
+
+00:17:10.439 --> 00:17:13.699 align:start position:0%
+people on social media<c.colorE5E5E5> on social</c>
+<c.colorE5E5E5>networks<00:17:11.370><c> and</c><00:17:11.669><c> these</c><00:17:12.569><c> can</c><00:17:12.929><c> be</c><00:17:13.049><c> regarded</c><00:17:13.260><c> as</c><00:17:13.649><c> a</c></c>
+
+00:17:13.699 --> 00:17:13.709 align:start position:0%
+<c.colorE5E5E5>networks and these can be regarded as a
+ </c>
+
+00:17:13.709 --> 00:17:17.329 align:start position:0%
+<c.colorE5E5E5>networks and these can be regarded as a
+voluntary<00:17:14.339><c> survey</c><00:17:15.350><c> but</c></c><c.colorCCCCCC><00:17:16.350><c> down</c><00:17:16.919><c> by</c><00:17:17.130><c> those</c></c>
+
+00:17:17.329 --> 00:17:17.339 align:start position:0%
+voluntary<c.colorE5E5E5> survey but</c><c.colorCCCCCC> down by those
+ </c>
+
+00:17:17.339 --> 00:17:20.539 align:start position:0%
+voluntary<c.colorE5E5E5> survey but</c><c.colorCCCCCC> down by those</c>
+<c.colorE5E5E5>people<00:17:18.260><c> in</c><00:17:19.260><c> general</c></c><c.colorCCCCCC><00:17:19.649><c> we</c></c><c.colorE5E5E5><00:17:19.980><c> can</c><00:17:20.100><c> gain</c><00:17:20.279><c> a</c><00:17:20.309><c> lot</c></c><c.colorCCCCCC><00:17:20.429><c> of</c></c>
+
+00:17:20.539 --> 00:17:20.549 align:start position:0%
+<c.colorE5E5E5>people in general</c><c.colorCCCCCC> we</c><c.colorE5E5E5> can gain a lot</c><c.colorCCCCCC> of
+ </c>
+
+00:17:20.549 --> 00:17:22.669 align:start position:0%
+<c.colorE5E5E5>people in general</c><c.colorCCCCCC> we</c><c.colorE5E5E5> can gain a lot</c><c.colorCCCCCC> of</c>
+<c.colorE5E5E5>advantage<00:17:21.089><c> in</c><00:17:21.209><c> any</c><00:17:21.449><c> prediction</c><00:17:22.049><c> tasks</c></c>
+
+00:17:22.669 --> 00:17:22.679 align:start position:0%
+<c.colorE5E5E5>advantage in any prediction tasks
+ </c>
+
+00:17:22.679 --> 00:17:25.069 align:start position:0%
+<c.colorE5E5E5>advantage in any prediction tasks
+because<00:17:23.639><c> we</c><00:17:23.909><c> can</c><00:17:24.089><c> leverage</c><00:17:24.299><c> the</c></c><c.colorCCCCCC><00:17:24.569><c> text</c><00:17:24.899><c> there</c></c>
+
+00:17:25.069 --> 00:17:25.079 align:start position:0%
+<c.colorE5E5E5>because we can leverage the</c><c.colorCCCCCC> text there
+ </c>
+
+00:17:25.079 --> 00:17:28.690 align:start position:0%
+<c.colorE5E5E5>because we can leverage the</c><c.colorCCCCCC> text there
+are</c><c.colorE5E5E5><00:17:25.110><c> as</c><00:17:25.699><c> extra</c><00:17:26.699><c> there</c><00:17:27.209><c> are</c><00:17:27.329><c> about</c><00:17:27.600><c> any</c><00:17:28.019><c> problem</c></c>
+
+00:17:28.690 --> 00:17:28.700 align:start position:0%
+are<c.colorE5E5E5> as extra there are about any problem
+ </c>
+
+00:17:28.700 --> 00:17:33.169 align:start position:0%
+are<c.colorE5E5E5> as extra there are about any problem
+and<00:17:29.700><c> so</c><00:17:30.389><c> we</c></c><c.colorCCCCCC><00:17:30.779><c> can</c></c><c.colorE5E5E5><00:17:31.590><c> use</c></c><c.colorCCCCCC><00:17:31.769><c> text</c><00:17:32.130><c> based</c></c><c.colorE5E5E5><00:17:32.429><c> prediction</c></c>
+
+00:17:33.169 --> 00:17:33.179 align:start position:0%
+and so we<c.colorCCCCCC> can</c><c.colorE5E5E5> use</c><c.colorCCCCCC> text based</c><c.colorE5E5E5> prediction
+ </c>
+
+00:17:33.179 --> 00:17:35.299 align:start position:0%
+and so we<c.colorCCCCCC> can</c><c.colorE5E5E5> use</c><c.colorCCCCCC> text based</c><c.colorE5E5E5> prediction
+techniques<00:17:33.539><c> to</c><00:17:33.779><c> help</c><00:17:34.230><c> you</c><00:17:34.409><c> make</c><00:17:34.649><c> prediction</c></c>
+
+00:17:35.299 --> 00:17:35.309 align:start position:0%
+techniques to help<c.colorE5E5E5> you make prediction
+ </c>
+
+00:17:35.309 --> 00:17:39.440 align:start position:0%
+techniques to help<c.colorE5E5E5> you make prediction
+or<00:17:35.460><c> improve</c><00:17:36.179><c> the</c><00:17:36.360><c> accuracy</c><00:17:36.659><c> of</c><00:17:36.870><c> prediction</c></c>
+

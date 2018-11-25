@@ -408,6 +408,8 @@ if __name__ == '__main__':
     
     ]
     
+    get_course_data('coursera-uiuc-cs410', 'coursera-uiuc-cs410', skip_download=True)
+    
     # download you tube files 
     for playlist in playlists:
         # download and create coursera data files
@@ -415,6 +417,8 @@ if __name__ == '__main__':
         # testing : try reading the created coursera data files
         test_metapy_files(playlist['dir_name'], playlist['dir_name'])
     
+    # download cs-410
+    #coursera-dl --skip-download -u cindy.s.tseng@gmail.com -p <> class_names cs-410 -sl en
     # merge all the course data into one file
     full_corpus = "dataset-full-corpus.txt"
     full_metadata = "metadata.dat"

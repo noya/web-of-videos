@@ -1,5 +1,5 @@
 type = "file-corpus"
-list = "dataset"
+list = "uiuc-textinfo"
 encoding = "utf-8"
 #num-docs = 93
 metadata = [{name = "title", type = "string"},

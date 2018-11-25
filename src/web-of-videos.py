@@ -9,139 +9,109 @@ import metapy
 import re
 import os
 
-#curr_dir = os.getcwd()
-#os.chdir('..')
-#def load_textinfo(text_config_file):
-txt_fwd_idx = metapy.index.make_forward_index('uiuc-textinfo-config.toml')
-
-# load data
-
-fwd_idx = metapy.index.make_forward_index('config.toml')
-inv_idx = metapy.index.make_inverted_index('config.toml')
-fwd_idx.num_docs()
-fwd_idx.unique_terms()
-fwd_idx.metadata(0).get("title")
-fwd_idx.metadata(0).get("path")
-fwd_idx.metadata(0).get("url")
-fwd_idx.metadata(0).get("description")
-fwd_idx.metadata(0).get("content")
-
-query = metapy.index.Document()
-doc_id = 0
-title = txt_fwd_idx.metadata(doc_id).get('title')
-description = txt_fwd_idx.metadata(doc_id).get('description')
-
-query_content = re.sub(r'(-|\. | \|)', r' ', title)
-query.content(query_content)
-#query.content("lagrange multipler")
-
-print(query_content)
-
-# find ranker
-bm25 = metapy.index.OkapiBM25()
-rocchio = metapy.index.Rocchio(fwd_idx, bm25)
-top_docs = rocchio.score(inv_idx, query, num_results=10)
-
-for num, (d_id, score) in enumerate(top_docs):
-    content = inv_idx.metadata(d_id).get('description')
-    print("{}. {}...\n".format(d_id, content))
-    print ("{}. {}..\n".format(inv_idx.label(d_id), score))
-
-
-
-dset = metapy.learn.Dataset(txt_fwd_idx)
-
-
-#alpha	The hyperparameter for the Dirichlet prior over \(\phi\)
-#beta	The hyperparameter for the Dirichlet prior over \(\theta\)
-#
-
-lda_inf = metapy.topics.LDACollapsedVB(dset, num_topics=2, alpha=1.0, beta=0.01)
-lda_inf.run(num_iters=1000)
-lda_inf.save('lda-cvb0-textinfo')
-
-model = metapy.topics.TopicModel('lda-cvb0-textinfo')
-model.top_k(tid=0)
-[(fwd_idx.term_text(pr[0]), pr[1]) for pr in model.top_k(tid=0)]
-[(fwd_idx.term_text(pr[0]), pr[1]) for pr in model.top_k(tid=1)]
-#[(fwd_idx.term_text(pr[0]), pr[1]) for pr in model.top_k(tid=2)]
-
-scorer = metapy.topics.BLTermScorer(model)
-[(fwd_idx.term_text(pr[0]), pr[1]) for pr in model.top_k(tid=0, scorer=scorer)]
-
-[(fwd_idx.term_text(pr[0]), pr[1]) for pr in model.top_k(tid=1, scorer=scorer)]
-
-# use the top ranked term as query
-
-
-
-
-# view fwd idx
-fwd_idx.num_docs()
-fwd_idx.unique_terms()
-#fwd_idx.avg_doc_length()
-#fwd_idx.total_corpus_terms()
-
-# try to extract sequences
-with open("data/cs-410/02_week-1/02_week-1-lessons/05_lesson-1-5-vector-space-model-basic-idea.en.txt") as f:
-    vs = f.readlines()
-vs[0].strip()
-
-def extract_sequences(tok):
-    sequences = []
-    for token in tok:
-        if token == '<s>' or len(sequences) == 0:
-            sequences.append(metapy.sequence.Sequence())
-        elif token != '</s>':
-            print ("length",len(sequences))
-            sequences[-1].add_symbol(token)            
-    return sequences
-
-#tok.set_content(doc.content())
-for seq in extract_sequences(vs[0].strip()):
-    print(seq)
-
-fwd_idx.metadata(0).get('content')
-
-
-
-ana = metapy.analyzers.load("config.toml")
-doc = metapy.index.Document()
-doc.content("the both querying nad browsing. If you want to know more about")
-ana.analyze(doc)
-
-
-###############
-# classification
-###############
-# get label for each class
-dset = metapy.classify.MulticlassDataset(fwd_idx)
-labels = set([dset.label(instance) for instance in dset])
-labels = list(labels)
-label = labels[0]
-label = re.sub(r'-', r' ', label)
-query = metapy.index.Document()
-#query.content(label)
-query.content("langrange multiplier")
-bm25 = metapy.index.OkapiBM25()
-rocchio = metapy.index.Rocchio(fwd_idx, bm25)
-top_docs = rocchio.score(inv_idx, query, num_results=5)
-
-for num, (d_id, score) in enumerate(top_docs):
-    #content = inv_idx.metadata(d_id).get('content')
-    #print("{}. {}...\n".format(num + 1, content[0:250]))
-    print ("{}. {}..\n".format(inv_idx.label(d_id), score))
+def init(text_config, config):
+    txt_fwd_idx = metapy.index.make_forward_index('uiuc-textinfo-config.toml')
     
-###############
-# topic model
-###############
-# load documents into our memory
+def load_naive_question(txt_fwd_idx, doc_id):
+    """ The naive question simply uses the lecture titles to search for matching videos
+    The next steps will be to use lecture descriptions or even lecture transcripts for query
+    Args:
+        idx - uiuc text info document index
+        doc_id - document id, matches with lecture number
+    Returns:
+        query
+    """
+    query = metapy.index.Document()
+    title = txt_fwd_idx.metadata(doc_id).get('title')
+    #description = txt_fwd_idx.metadata(doc_id).get('description')
+    
+    query_content = re.sub(r'(-|\. | \|)', r' ', title)
+    query.content(query_content)
+    
+    return query
 
+def get_docid(videoid_to_docid, video_id):
+    """
+    Given the video id, return the document ID in the index 
+    Args:
+        video_id - the unique video id the youtube uses to identify videos
+    Returns:
+        doc_id - the document id in the index list
+    """
+    if video_id not in videoid_to_docid:
+        print("Video id", video_id, "Not found in UIUC text information playlist")
+    
+    return videoid_to_docid[video_id]
 
-#alpha = 1.0    # original query weight parameter
-#beta = 1.0     # feedback document weight parameter
-#k = 10         # number of feedback documents to retrieve
-#max-terms = 50 # maximum number of feedback terms to use
-#[ranker.feedback]
-#method = # whatever ranker method you want to wrap
-# other parameters for that ranker
+def get_videoid(url):
+    video_id = re.sub(r'https://www.youtube.com/.*v=(\S+)&.*', r'\1', url)
+    return video_id
+
+def create_videoid_to_docid(txt_fwd_idx):
+    """
+    Create video_id to doc_id map
+    """
+    videoid_to_docid = {}
+    
+    for doc_id in range(txt_fwd_idx.num_docs()):
+        url = txt_fwd_idx.metadata(doc_id).get('url')
+        video_id = get_videoid(url)
+        videoid_to_docid[video_id] = doc_id
+        
+    return videoid_to_docid
+        
+    
+def get_related_url(fwd_idx, inv_idx, query, num_results):
+    """
+    find url similar to query from corpus
+    Args:
+        fwd_idx: corpus's forward index
+        inv_idx: corpus's inverse index
+    Return:
+        list of document ids
+    """
+    # find ranker
+    bm25 = metapy.index.OkapiBM25()
+    rocchio = metapy.index.Rocchio(fwd_idx, bm25)
+    top_docs = rocchio.score(inv_idx, query, num_results=num_results)
+    
+    results = []
+    for num, (d_id, score) in enumerate(top_docs):
+        content = inv_idx.metadata(d_id).get('description')
+        print("{}. {}...\n".format(d_id, content))
+        print ("{}. {}..\n".format(inv_idx.label(d_id), score))
+        results.append(d_id)
+        
+    return results
+        
+def make_index(config):
+    """
+    config - the config.toml file that specifies dataset
+    """
+    fwd_idx = metapy.index.make_forward_index(config)
+    inv_idx = metapy.index.make_inverted_index(config)
+    
+    return fwd_idx, inv_idx
+    
+if __name__ == '__main__':  
+    text_config = 'uiuc-textinfo-config.toml'
+    corpus_config = 'config.toml'
+
+    # build indexes 
+    fwd_idx, inv_idx = make_index(corpus_config)
+    txt_fwd_idx, txt_inv_idx = make_index(text_config)
+    videoid_to_docid = create_videoid_to_docid(txt_fwd_idx)
+    
+    # replace url
+    #url =  'https://www.youtube.com/watch?v=Sss2EA4hhBQ'
+    url = 'https://www.youtube.com/watch?v=0VDDehxzBYU'
+    video_id = get_videoid(url)
+    doc_id = get_docid(videoid_to_docid, video_id)
+    
+    # get query from index
+    query = load_naive_question(txt_fwd_idx, doc_id)
+    
+    # find video matches
+    video_matches = get_related_url(fwd_idx, inv_idx, query, num_results=10)
+    for doc_id in video_matches:
+        print(fwd_idx.metadata(doc_id).get('title'), fwd_idx.metadata(doc_id).get('url'))
