@@ -1,0 +1,2398 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:06.010 align:start position:0%
+ 
+<c.colorE5E5E5>you</c>
+
+00:00:06.010 --> 00:00:06.020 align:start position:0%
+ 
+ 
+
+00:00:06.020 --> 00:00:08.720 align:start position:0%
+ 
+this<c.colorE5E5E5><00:00:07.020><c> lecture</c><00:00:07.439><c> is</c><00:00:07.589><c> about</c><00:00:07.740><c> the</c><00:00:08.040><c> texture</c></c>
+
+00:00:08.720 --> 00:00:08.730 align:start position:0%
+this<c.colorE5E5E5> lecture is about the texture
+ </c>
+
+00:00:08.730 --> 00:00:12.560 align:start position:0%
+this<c.colorE5E5E5> lecture is about the texture
+categorization<00:00:10.400><c> in</c><00:00:11.400><c> this</c><00:00:11.610><c> lecture</c><00:00:11.969><c> we're</c></c>
+
+00:00:12.560 --> 00:00:12.570 align:start position:0%
+categorization<c.colorE5E5E5> in this lecture we're
+ </c>
+
+00:00:12.570 --> 00:00:14.510 align:start position:0%
+categorization<c.colorE5E5E5> in this lecture we're
+going<00:00:12.750><c> to</c><00:00:12.870><c> talk</c></c><c.colorCCCCCC><00:00:13.200><c> about</c></c><c.colorE5E5E5><00:00:13.559><c> the</c><00:00:13.830><c> text</c></c><c.colorCCCCCC><00:00:14.250><c> of</c></c>
+
+00:00:14.510 --> 00:00:14.520 align:start position:0%
+going to talk<c.colorCCCCCC> about</c><c.colorE5E5E5> the text</c><c.colorCCCCCC> of
+ </c>
+
+00:00:14.520 --> 00:00:17.779 align:start position:0%
+going to talk<c.colorCCCCCC> about</c><c.colorE5E5E5> the text</c><c.colorCCCCCC> of
+categorization</c><c.colorE5E5E5><00:00:15.529><c> this</c><00:00:16.529><c> is</c><00:00:16.710><c> a</c><00:00:16.740><c> very</c><00:00:17.190><c> important</c></c>
+
+00:00:17.779 --> 00:00:17.789 align:start position:0%
+categorization<c.colorE5E5E5> this is a very important
+ </c>
+
+00:00:17.789 --> 00:00:20.179 align:start position:0%
+categorization<c.colorE5E5E5> this is a very important
+technique<00:00:18.300><c> for</c><00:00:18.420><c> text</c></c><c.colorCCCCCC><00:00:19.380><c> to</c><00:00:19.410><c> data</c><00:00:19.650><c> mining</c></c><c.colorE5E5E5><00:00:19.920><c> and</c></c>
+
+00:00:20.179 --> 00:00:20.189 align:start position:0%
+technique for text<c.colorCCCCCC> to data mining</c><c.colorE5E5E5> and
+ </c>
+
+00:00:20.189 --> 00:00:25.419 align:start position:0%
+technique for text<c.colorCCCCCC> to data mining</c><c.colorE5E5E5> and
+analytics<00:00:21.470><c> it</c><00:00:22.470><c> is</c><00:00:23.060><c> relevant</c><00:00:24.060><c> to</c><00:00:24.480><c> discovery</c><00:00:25.169><c> of</c></c>
+
+00:00:25.419 --> 00:00:25.429 align:start position:0%
+analytics<c.colorE5E5E5> it is relevant to discovery of
+ </c>
+
+00:00:25.429 --> 00:00:28.009 align:start position:0%
+analytics<c.colorE5E5E5> it is relevant to discovery of
+various<00:00:26.429><c> different</c><00:00:26.820><c> kinds</c></c><c.colorCCCCCC><00:00:27.329><c> of</c><00:00:27.419><c> knowledge</c><00:00:27.779><c> as</c></c>
+
+00:00:28.009 --> 00:00:28.019 align:start position:0%
+various different<c.colorE5E5E5> kinds</c><c.colorCCCCCC> of knowledge as
+ </c>
+
+00:00:28.019 --> 00:00:31.189 align:start position:0%
+various different<c.colorE5E5E5> kinds</c><c.colorCCCCCC> of knowledge as
+shown<00:00:28.589><c> here</c></c><c.colorE5E5E5><00:00:28.859><c> first</c><00:00:29.609><c> is</c><00:00:29.909><c> related</c></c><c.colorCCCCCC><00:00:30.300><c> to</c></c><c.colorE5E5E5><00:00:30.659><c> top</c></c><c.colorCCCCCC><00:00:31.019><c> two</c></c>
+
+00:00:31.189 --> 00:00:31.199 align:start position:0%
+shown here<c.colorE5E5E5> first is related</c><c.colorCCCCCC> to</c><c.colorE5E5E5> top</c><c.colorCCCCCC> two
+ </c>
+
+00:00:31.199 --> 00:00:34.340 align:start position:0%
+shown here<c.colorE5E5E5> first is related</c><c.colorCCCCCC> to</c><c.colorE5E5E5> top</c><c.colorCCCCCC> two
+mining<00:00:31.560><c> and</c><00:00:31.710><c> analysis</c><00:00:32.400><c> and</c><00:00:32.840><c> that's</c><00:00:33.840><c> because</c></c>
+
+00:00:34.340 --> 00:00:34.350 align:start position:0%
+mining and analysis and that's because
+ 
+
+00:00:34.350 --> 00:00:37.819 align:start position:0%
+mining and analysis and that's because
+it<c.colorE5E5E5><00:00:34.680><c> has</c><00:00:35.010><c> to</c><00:00:35.160><c> do</c><00:00:35.280><c> with</c><00:00:35.450><c> analyzing</c><00:00:36.590><c> text</c><00:00:37.590><c> data</c></c>
+
+00:00:37.819 --> 00:00:37.829 align:start position:0%
+it<c.colorE5E5E5> has to do with analyzing text data
+ </c>
+
+00:00:37.829 --> 00:00:40.360 align:start position:0%
+it<c.colorE5E5E5> has to do with analyzing text data
+based<00:00:38.160><c> on</c><00:00:38.370><c> some</c><00:00:38.730><c> predefined</c><00:00:39.270><c> the</c><00:00:39.480><c> topics</c></c>
+
+00:00:40.360 --> 00:00:40.370 align:start position:0%
+based on some predefined the topics
+ 
+
+00:00:40.370 --> 00:00:43.279 align:start position:0%
+based on some predefined the topics
+secondly<c.colorE5E5E5><00:00:41.370><c> it's</c><00:00:41.879><c> also</c><00:00:42.120><c> related</c></c><c.colorCCCCCC><00:00:42.359><c> to</c><00:00:42.690><c> opinion</c></c>
+
+00:00:43.279 --> 00:00:43.289 align:start position:0%
+secondly<c.colorE5E5E5> it's also related</c><c.colorCCCCCC> to opinion
+ </c>
+
+00:00:43.289 --> 00:00:45.950 align:start position:0%
+secondly<c.colorE5E5E5> it's also related</c><c.colorCCCCCC> to opinion
+mining<00:00:43.680><c> and</c><00:00:43.829><c> sentiment</c><00:00:44.609><c> analysis</c><00:00:45.180><c> which</c><00:00:45.750><c> has</c></c>
+
+00:00:45.950 --> 00:00:45.960 align:start position:0%
+mining and sentiment analysis which has
+ 
+
+00:00:45.960 --> 00:00:48.709 align:start position:0%
+mining and sentiment analysis which has
+to<00:00:46.140><c> do</c><00:00:46.289><c> is</c><00:00:46.500><c> discovering</c><c.colorE5E5E5><00:00:47.340><c> knowledge</c><00:00:47.699><c> about</c><00:00:48.030><c> the</c></c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+to do is discovering<c.colorE5E5E5> knowledge about the
+ </c>
+
+00:00:48.719 --> 00:00:53.090 align:start position:0%
+to do is discovering<c.colorE5E5E5> knowledge about the
+observer<00:00:49.170><c> the</c><00:00:50.039><c> human</c><00:00:50.340><c> sensor</c><00:00:51.469><c> because</c><00:00:52.469><c> we</c><00:00:52.829><c> can</c></c>
+
+00:00:53.090 --> 00:00:53.100 align:start position:0%
+observer the human sensor<c.colorE5E5E5> because we can
+ </c>
+
+00:00:53.100 --> 00:00:56.900 align:start position:0%
+observer the human sensor<c.colorE5E5E5> because we can
+categorize<00:00:53.989><c> the</c><00:00:54.989><c> authors</c><00:00:55.739><c> for</c><00:00:56.039><c> example</c><00:00:56.579><c> based</c></c>
+
+00:00:56.900 --> 00:00:56.910 align:start position:0%
+categorize the<c.colorE5E5E5> authors for example based
+ </c>
+
+00:00:56.910 --> 00:01:00.049 align:start position:0%
+categorize the<c.colorE5E5E5> authors for example based
+on</c><c.colorCCCCCC><00:00:57.179><c> the</c><00:00:57.629><c> content</c><00:00:58.320><c> of</c></c><c.colorE5E5E5><00:00:58.410><c> the</c><00:00:58.949><c> articles</c><00:00:59.519><c> that</c><00:00:59.760><c> they</c></c>
+
+00:01:00.049 --> 00:01:00.059 align:start position:0%
+on<c.colorCCCCCC> the content of</c><c.colorE5E5E5> the articles that they
+ </c>
+
+00:01:00.059 --> 00:01:02.810 align:start position:0%
+on<c.colorCCCCCC> the content of</c><c.colorE5E5E5> the articles that they</c>
+<c.colorE5E5E5>have<00:01:00.149><c> written</c><00:01:01.160><c> we</c><00:01:02.160><c> can</c><00:01:02.339><c> in</c><00:01:02.519><c> general</c></c>
+
+00:01:02.810 --> 00:01:02.820 align:start position:0%
+<c.colorE5E5E5>have written we can in general
+ </c>
+
+00:01:02.820 --> 00:01:08.270 align:start position:0%
+<c.colorE5E5E5>have written we can in general
+categorize<00:01:04.250><c> the</c><00:01:05.480><c> observer</c></c><c.colorCCCCCC><00:01:06.480><c> based</c><00:01:07.410><c> on</c><00:01:07.680><c> the</c></c>
+
+00:01:08.270 --> 00:01:08.280 align:start position:0%
+categorize the<c.colorE5E5E5> observer</c><c.colorCCCCCC> based on the
+ </c>
+
+00:01:08.280 --> 00:01:12.859 align:start position:0%
+categorize the<c.colorE5E5E5> observer</c><c.colorCCCCCC> based on the
+content<00:01:09.000><c> that</c><00:01:09.930><c> they</c><00:01:10.290><c> produce</c><00:01:11.659><c> finally</c><00:01:12.659><c> it's</c></c>
+
+00:01:12.859 --> 00:01:12.869 align:start position:0%
+content<c.colorCCCCCC> that they produce finally it's
+ </c>
+
+00:01:12.869 --> 00:01:15.969 align:start position:0%
+content<c.colorCCCCCC> that they produce finally it's
+also</c><c.colorE5E5E5><00:01:13.049><c> related</c><00:01:13.770><c> to</c><00:01:13.890><c> text</c><00:01:14.850><c> based</c><00:01:15.119><c> or</c><00:01:15.329><c> prediction</c></c>
+
+00:01:15.969 --> 00:01:15.979 align:start position:0%
+also<c.colorE5E5E5> related to text based or prediction
+ </c>
+
+00:01:15.979 --> 00:01:18.590 align:start position:0%
+also<c.colorE5E5E5> related to text based or prediction
+because<00:01:16.979><c> we</c><00:01:17.400><c> can</c><00:01:17.610><c> often</c><00:01:17.880><c> use</c><00:01:17.909><c> text</c></c><c.colorCCCCCC><00:01:18.479><c> or</c></c>
+
+00:01:18.590 --> 00:01:18.600 align:start position:0%
+because we can<c.colorE5E5E5> often use text</c><c.colorCCCCCC> or
+ </c>
+
+00:01:18.600 --> 00:01:21.050 align:start position:0%
+because we can<c.colorE5E5E5> often use text</c><c.colorCCCCCC> or</c>
+<c.colorE5E5E5>categorization<00:01:18.930><c> techniques</c><00:01:19.670><c> to</c><00:01:20.670><c> predict</c></c>
+
+00:01:21.050 --> 00:01:21.060 align:start position:0%
+<c.colorE5E5E5>categorization techniques to predict
+ </c>
+
+00:01:21.060 --> 00:01:23.630 align:start position:0%
+<c.colorE5E5E5>categorization techniques to predict</c>
+<c.colorE5E5E5>some<00:01:21.450><c> variables</c></c><c.colorCCCCCC><00:01:22.259><c> in</c><00:01:22.530><c> the</c><00:01:22.950><c> real</c></c><c.colorE5E5E5><00:01:23.130><c> world</c><00:01:23.399><c> that</c></c>
+
+00:01:23.630 --> 00:01:23.640 align:start position:0%
+<c.colorE5E5E5>some variables</c><c.colorCCCCCC> in the real</c><c.colorE5E5E5> world that
+ </c>
+
+00:01:23.640 --> 00:01:26.090 align:start position:0%
+<c.colorE5E5E5>some variables</c><c.colorCCCCCC> in the real</c><c.colorE5E5E5> world that
+are</c><c.colorCCCCCC><00:01:23.880><c> only</c><00:01:24.180><c> remotely</c></c><c.colorE5E5E5><00:01:24.570><c> related</c><00:01:25.049><c> to</c><00:01:25.320><c> text</c><00:01:25.890><c> data</c></c>
+
+00:01:26.090 --> 00:01:26.100 align:start position:0%
+are<c.colorCCCCCC> only remotely</c><c.colorE5E5E5> related to text data
+ </c>
+
+00:01:26.100 --> 00:01:30.109 align:start position:0%
+are<c.colorCCCCCC> only remotely</c><c.colorE5E5E5> related to text data
+and<00:01:26.930><c> so</c><00:01:27.930><c> this</c><00:01:28.259><c> is</c><00:01:28.470><c> a</c><00:01:28.500><c> very</c><00:01:29.430><c> important</c></c>
+
+00:01:30.109 --> 00:01:30.119 align:start position:0%
+and so this is a very important
+ 
+
+00:01:30.119 --> 00:01:34.880 align:start position:0%
+and so this is a very important
+<c.colorE5E5E5>technique<00:01:30.630><c> for</c><00:01:30.930><c> text</c></c><c.colorCCCCCC><00:01:31.920><c> of</c></c><c.colorE5E5E5><00:01:32.040><c> data</c><00:01:32.159><c> mining</c><00:01:33.890><c> this</c></c>
+
+00:01:34.880 --> 00:01:34.890 align:start position:0%
+<c.colorE5E5E5>technique for text</c><c.colorCCCCCC> of</c><c.colorE5E5E5> data mining this
+ </c>
+
+00:01:34.890 --> 00:01:36.590 align:start position:0%
+<c.colorE5E5E5>technique for text</c><c.colorCCCCCC> of</c><c.colorE5E5E5> data mining this
+is<00:01:35.070><c> the</c><00:01:35.159><c> overall</c><00:01:35.520><c> plan</c></c><c.colorCCCCCC><00:01:35.729><c> for</c><00:01:35.850><c> covering</c><00:01:36.450><c> the</c></c>
+
+00:01:36.590 --> 00:01:36.600 align:start position:0%
+is the overall plan<c.colorCCCCCC> for covering the
+ </c>
+
+00:01:36.600 --> 00:01:38.749 align:start position:0%
+is the overall plan<c.colorCCCCCC> for covering the
+topic<00:01:37.009><c> first</c><00:01:38.009><c> we're</c><00:01:38.280><c> going</c></c><c.colorE5E5E5><00:01:38.399><c> to</c><00:01:38.460><c> talk</c></c><c.colorCCCCCC><00:01:38.640><c> about</c></c>
+
+00:01:38.749 --> 00:01:38.759 align:start position:0%
+topic first we're going<c.colorE5E5E5> to talk</c><c.colorCCCCCC> about
+ </c>
+
+00:01:38.759 --> 00:01:40.899 align:start position:0%
+topic first we're going<c.colorE5E5E5> to talk</c><c.colorCCCCCC> about
+what<00:01:39.090><c> is</c><00:01:39.210><c> text</c></c><c.colorE5E5E5><00:01:39.600><c> a</c><00:01:39.689><c> category</c><00:01:40.140><c> dishing</c><00:01:40.439><c> and</c><00:01:40.619><c> why</c></c>
+
+00:01:40.899 --> 00:01:40.909 align:start position:0%
+what is text<c.colorE5E5E5> a category dishing and why
+ </c>
+
+00:01:40.909 --> 00:01:43.429 align:start position:0%
+what is text<c.colorE5E5E5> a category dishing and why
+we<00:01:41.909><c> are</c></c><c.colorCCCCCC><00:01:41.939><c> interested</c><00:01:42.479><c> in</c><00:01:42.570><c> doing</c><00:01:42.689><c> that</c><00:01:42.960><c> in</c></c><c.colorE5E5E5><00:01:43.229><c> this</c></c>
+
+00:01:43.429 --> 00:01:43.439 align:start position:0%
+we are<c.colorCCCCCC> interested in doing that in</c><c.colorE5E5E5> this
+ </c>
+
+00:01:43.439 --> 00:01:45.200 align:start position:0%
+we are<c.colorCCCCCC> interested in doing that in</c><c.colorE5E5E5> this
+lecture<00:01:43.829><c> and</c><00:01:44.159><c> now</c><00:01:44.670><c> we're</c><00:01:44.850><c> going</c><00:01:44.969><c> to</c><00:01:45.030><c> talk</c></c>
+
+00:01:45.200 --> 00:01:45.210 align:start position:0%
+<c.colorE5E5E5>lecture and now we're going to talk
+ </c>
+
+00:01:45.210 --> 00:01:46.690 align:start position:0%
+<c.colorE5E5E5>lecture and now we're going to talk</c>
+<c.colorCCCCCC>about<00:01:45.329><c> how</c></c><c.colorE5E5E5><00:01:45.600><c> to</c><00:01:45.659><c> do</c><00:01:45.869><c> text</c><00:01:46.110><c> categorization</c></c>
+
+00:01:46.690 --> 00:01:46.700 align:start position:0%
+<c.colorCCCCCC>about how</c><c.colorE5E5E5> to do text categorization
+ </c>
+
+00:01:46.700 --> 00:01:48.859 align:start position:0%
+<c.colorCCCCCC>about how</c><c.colorE5E5E5> to do text categorization
+followed<00:01:47.700><c> by</c><00:01:47.790><c> how</c><00:01:48.090><c> to</c></c><c.colorCCCCCC><00:01:48.119><c> evaluate</c><00:01:48.719><c> the</c></c>
+
+00:01:48.859 --> 00:01:48.869 align:start position:0%
+<c.colorE5E5E5>followed by how to</c><c.colorCCCCCC> evaluate the
+ </c>
+
+00:01:48.869 --> 00:01:52.730 align:start position:0%
+<c.colorE5E5E5>followed by how to</c><c.colorCCCCCC> evaluate the</c>
+<c.colorCCCCCC>categorization</c><c.colorE5E5E5><00:01:49.289><c> results</c><00:01:50.189><c> so</c><00:01:51.140><c> the</c><00:01:52.140><c> problem</c><00:01:52.590><c> of</c></c>
+
+00:01:52.730 --> 00:01:52.740 align:start position:0%
+<c.colorCCCCCC>categorization</c><c.colorE5E5E5> results so the problem of
+ </c>
+
+00:01:52.740 --> 00:01:55.130 align:start position:0%
+<c.colorCCCCCC>categorization</c><c.colorE5E5E5> results so the problem of
+text<00:01:53.039><c> categorization</c><00:01:53.340><c> is</c><00:01:54.030><c> defined</c><00:01:54.689><c> as</c></c>
+
+00:01:55.130 --> 00:01:55.140 align:start position:0%
+text categorization<c.colorE5E5E5> is defined as
+ </c>
+
+00:01:55.140 --> 00:01:55.850 align:start position:0%
+text categorization<c.colorE5E5E5> is defined as</c>
+<c.colorCCCCCC>follows</c>
+
+00:01:55.850 --> 00:01:55.860 align:start position:0%
+<c.colorCCCCCC>follows
+ </c>
+
+00:01:55.860 --> 00:01:58.219 align:start position:0%
+<c.colorCCCCCC>follows</c>
+<c.colorE5E5E5>we're<00:01:56.250><c> given</c><00:01:56.610><c> a</c><00:01:56.729><c> set</c><00:01:57.030><c> of</c><00:01:57.229><c> predefined</c></c>
+
+00:01:58.219 --> 00:01:58.229 align:start position:0%
+<c.colorE5E5E5>we're given a set of predefined
+ </c>
+
+00:01:58.229 --> 00:02:01.370 align:start position:0%
+<c.colorE5E5E5>we're given a set of predefined
+categories</c><c.colorCCCCCC><00:01:59.810><c> possible</c><00:02:00.810><c> forming</c><00:02:01.229><c> our</c></c>
+
+00:02:01.370 --> 00:02:01.380 align:start position:0%
+categories<c.colorCCCCCC> possible forming our
+ </c>
+
+00:02:01.380 --> 00:02:05.560 align:start position:0%
+categories<c.colorCCCCCC> possible forming our
+hierarchy<00:02:01.890><c> also</c><00:02:02.609><c> and</c><00:02:03.049><c> often</c><00:02:04.049><c> also</c><00:02:04.320><c> a</c><00:02:04.500><c> set</c></c><c.colorE5E5E5><00:02:05.159><c> of</c></c>
+
+00:02:05.560 --> 00:02:05.570 align:start position:0%
+hierarchy<c.colorCCCCCC> also and often also a set</c><c.colorE5E5E5> of
+ </c>
+
+00:02:05.570 --> 00:02:08.900 align:start position:0%
+hierarchy<c.colorCCCCCC> also and often also a set</c><c.colorE5E5E5> of
+training</c><c.colorCCCCCC><00:02:06.570><c> examples</c></c><c.colorE5E5E5><00:02:07.009><c> or</c><00:02:08.009><c> training</c><00:02:08.580><c> set</c><00:02:08.729><c> of</c></c>
+
+00:02:08.900 --> 00:02:08.910 align:start position:0%
+training<c.colorCCCCCC> examples</c><c.colorE5E5E5> or training set of
+ </c>
+
+00:02:08.910 --> 00:02:12.290 align:start position:0%
+training<c.colorCCCCCC> examples</c><c.colorE5E5E5> or training set of</c>
+<c.colorE5E5E5>labeled<00:02:09.450><c> text</c><00:02:09.960><c> objects</c><00:02:10.640><c> which</c><00:02:11.640><c> means</c><00:02:11.880><c> the</c></c>
+
+00:02:12.290 --> 00:02:12.300 align:start position:0%
+<c.colorE5E5E5>labeled text objects which means the
+ </c>
+
+00:02:12.300 --> 00:02:14.869 align:start position:0%
+<c.colorE5E5E5>labeled text objects which means the
+text<00:02:12.630><c> objects</c><00:02:13.560><c> have</c><00:02:13.739><c> already</c><00:02:14.160><c> been</c><00:02:14.370><c> labeled</c></c>
+
+00:02:14.869 --> 00:02:14.879 align:start position:0%
+text objects have already been labeled
+ 
+
+00:02:14.879 --> 00:02:18.650 align:start position:0%
+text objects have already been labeled
+<c.colorE5E5E5>with<00:02:15.290><c> known</c><00:02:16.290><c> categories</c><00:02:16.950><c> and</c><00:02:17.280><c> then</c><00:02:18.060><c> the</c></c><c.colorCCCCCC><00:02:18.300><c> task</c></c>
+
+00:02:18.650 --> 00:02:18.660 align:start position:0%
+<c.colorE5E5E5>with known categories and then the</c><c.colorCCCCCC> task
+ </c>
+
+00:02:18.660 --> 00:02:22.760 align:start position:0%
+<c.colorE5E5E5>with known categories and then the</c><c.colorCCCCCC> task
+is<00:02:18.720><c> to</c><00:02:18.900><c> classify</c><00:02:19.260><c> any</c><00:02:19.860><c> text</c><00:02:20.370><c> object</c><00:02:21.440><c> into</c><00:02:22.440><c> one</c></c>
+
+00:02:22.760 --> 00:02:22.770 align:start position:0%
+is to classify any text object<c.colorCCCCCC> into one
+ </c>
+
+00:02:22.770 --> 00:02:25.420 align:start position:0%
+is to classify any text object<c.colorCCCCCC> into one
+or<00:02:23.010><c> more</c><00:02:23.040><c> of</c><00:02:23.550><c> these</c><00:02:23.820><c> predefined</c><00:02:24.720><c> categories</c></c>
+
+00:02:25.420 --> 00:02:25.430 align:start position:0%
+or more<c.colorCCCCCC> of these predefined categories
+ </c>
+
+00:02:25.430 --> 00:02:28.490 align:start position:0%
+or more<c.colorCCCCCC> of these predefined categories</c>
+<c.colorE5E5E5>so<00:02:26.430><c> the</c><00:02:26.550><c> picture</c><00:02:26.880><c> on</c><00:02:27.030><c> this</c><00:02:27.180><c> slide</c></c><c.colorCCCCCC><00:02:27.240><c> shows</c><00:02:27.900><c> what</c></c>
+
+00:02:28.490 --> 00:02:28.500 align:start position:0%
+<c.colorE5E5E5>so the picture on this slide</c><c.colorCCCCCC> shows what
+ </c>
+
+00:02:28.500 --> 00:02:31.370 align:start position:0%
+<c.colorE5E5E5>so the picture on this slide</c><c.colorCCCCCC> shows what
+happens<00:02:28.950><c> when</c><00:02:29.600><c> we</c><00:02:30.600><c> do</c></c><c.colorE5E5E5><00:02:30.900><c> texture</c></c>
+
+00:02:31.370 --> 00:02:31.380 align:start position:0%
+happens when<c.colorCCCCCC> we do</c><c.colorE5E5E5> texture
+ </c>
+
+00:02:31.380 --> 00:02:33.200 align:start position:0%
+happens when<c.colorCCCCCC> we do</c><c.colorE5E5E5> texture
+categorization</c><c.colorCCCCCC><00:02:31.740><c> we</c><00:02:32.190><c> have</c><00:02:32.370><c> a</c><00:02:32.400><c> lot</c><00:02:32.640><c> of</c><00:02:32.670><c> textural</c></c>
+
+00:02:33.200 --> 00:02:33.210 align:start position:0%
+categorization<c.colorCCCCCC> we have a lot of textural
+ </c>
+
+00:02:33.210 --> 00:02:35.060 align:start position:0%
+categorization<c.colorCCCCCC> we have a lot of textural
+objects<00:02:33.600><c> to</c><00:02:34.140><c> be</c><00:02:34.260><c> processed</c><00:02:34.740><c> by</c><00:02:35.040><c> a</c></c>
+
+00:02:35.060 --> 00:02:35.070 align:start position:0%
+objects to be processed by a
+ 
+
+00:02:35.070 --> 00:02:37.940 align:start position:0%
+objects to be processed by a
+categorization<c.colorE5E5E5><00:02:35.790><c> system</c><00:02:36.450><c> and</c><00:02:36.740><c> the</c><00:02:37.740><c> system</c></c>
+
+00:02:37.940 --> 00:02:37.950 align:start position:0%
+categorization<c.colorE5E5E5> system and the system
+ </c>
+
+00:02:37.950 --> 00:02:41.960 align:start position:0%
+categorization<c.colorE5E5E5> system and the system</c>
+<c.colorCCCCCC>will<00:02:38.490><c> in</c><00:02:38.880><c> general</c></c><c.colorE5E5E5><00:02:39.350><c> assign</c><00:02:40.350><c> categories</c><00:02:40.970><c> to</c></c>
+
+00:02:41.960 --> 00:02:41.970 align:start position:0%
+<c.colorCCCCCC>will in general</c><c.colorE5E5E5> assign categories to
+ </c>
+
+00:02:41.970 --> 00:02:46.160 align:start position:0%
+<c.colorCCCCCC>will in general</c><c.colorE5E5E5> assign categories to
+these<00:02:42.300><c> documents</c><00:02:43.020><c> as</c><00:02:44.010><c> soon</c><00:02:44.070><c> on</c><00:02:44.760><c> the</c><00:02:45.360><c> right</c><00:02:45.840><c> and</c></c>
+
+00:02:46.160 --> 00:02:46.170 align:start position:0%
+these<c.colorE5E5E5> documents as soon on the right and
+ </c>
+
+00:02:46.170 --> 00:02:50.480 align:start position:0%
+these<c.colorE5E5E5> documents as soon on the right and
+the<00:02:47.100><c> categorization</c></c><c.colorCCCCCC><00:02:47.490><c> results</c><00:02:48.210><c> and</c><00:02:49.220><c> we</c><00:02:50.220><c> often</c></c>
+
+00:02:50.480 --> 00:02:50.490 align:start position:0%
+the<c.colorE5E5E5> categorization</c><c.colorCCCCCC> results and we often
+ </c>
+
+00:02:50.490 --> 00:02:53.330 align:start position:0%
+the<c.colorE5E5E5> categorization</c><c.colorCCCCCC> results and we often
+assume<00:02:51.000><c> the</c><00:02:51.570><c> availability</c><00:02:52.080><c> of</c><00:02:52.350><c> training</c></c>
+
+00:02:53.330 --> 00:02:53.340 align:start position:0%
+assume the availability of training
+ 
+
+00:02:53.340 --> 00:02:55.280 align:start position:0%
+assume the availability of training
+<c.colorE5E5E5>examples<00:02:53.850><c> and</c><00:02:54.090><c> these</c><00:02:54.390><c> are</c><00:02:54.690><c> the</c><00:02:54.840><c> documents</c></c>
+
+00:02:55.280 --> 00:02:55.290 align:start position:0%
+<c.colorE5E5E5>examples and these are the documents
+ </c>
+
+00:02:55.290 --> 00:02:58.490 align:start position:0%
+<c.colorE5E5E5>examples and these are the documents</c>
+<c.colorCCCCCC>that<00:02:55.890><c> are</c><00:02:56.370><c> tagged</c></c><c.colorE5E5E5><00:02:57.180><c> with</c><00:02:57.330><c> known</c><00:02:57.840><c> categories</c></c>
+
+00:02:58.490 --> 00:02:58.500 align:start position:0%
+<c.colorCCCCCC>that are tagged</c><c.colorE5E5E5> with known categories
+ </c>
+
+00:02:58.500 --> 00:03:01.340 align:start position:0%
+<c.colorCCCCCC>that are tagged</c><c.colorE5E5E5> with known categories
+and<00:02:58.770><c> these</c><00:02:59.430><c> examples</c></c><c.colorCCCCCC><00:02:59.850><c> are</c><00:03:00.600><c> very</c></c><c.colorE5E5E5><00:03:00.630><c> important</c></c>
+
+00:03:01.340 --> 00:03:01.350 align:start position:0%
+and these examples<c.colorCCCCCC> are very</c><c.colorE5E5E5> important
+ </c>
+
+00:03:01.350 --> 00:03:03.410 align:start position:0%
+and these examples<c.colorCCCCCC> are very</c><c.colorE5E5E5> important
+for</c><c.colorCCCCCC><00:03:01.590><c> helping</c><00:03:01.980><c> the</c><00:03:02.130><c> system</c></c><c.colorE5E5E5><00:03:02.310><c> to</c><00:03:02.730><c> learn</c><00:03:02.970><c> patterns</c></c>
+
+00:03:03.410 --> 00:03:03.420 align:start position:0%
+for<c.colorCCCCCC> helping the system</c><c.colorE5E5E5> to learn patterns
+ </c>
+
+00:03:03.420 --> 00:03:06.770 align:start position:0%
+for<c.colorCCCCCC> helping the system</c><c.colorE5E5E5> to learn patterns
+in<00:03:04.290><c> different</c><00:03:04.710><c> categories</c><00:03:04.920><c> and</c><00:03:05.510><c> this</c><00:03:06.510><c> would</c></c>
+
+00:03:06.770 --> 00:03:06.780 align:start position:0%
+in<c.colorE5E5E5> different categories and this would
+ </c>
+
+00:03:06.780 --> 00:03:09.440 align:start position:0%
+in<c.colorE5E5E5> different categories and this would
+further<00:03:07.110><c> help</c><00:03:07.470><c> the</c><00:03:07.740><c> system</c><00:03:07.950><c> then</c><00:03:08.490><c> know</c><00:03:09.180><c> how</c></c><c.colorCCCCCC><00:03:09.210><c> to</c></c>
+
+00:03:09.440 --> 00:03:09.450 align:start position:0%
+further help the system<c.colorE5E5E5> then know how</c><c.colorCCCCCC> to
+ </c>
+
+00:03:09.450 --> 00:03:13.640 align:start position:0%
+further help the system<c.colorE5E5E5> then know how</c><c.colorCCCCCC> to
+recognize<00:03:10.340><c> the</c><00:03:11.340><c> categories</c><00:03:12.000><c> of</c></c><c.colorE5E5E5><00:03:12.030><c> new</c></c><c.colorCCCCCC><00:03:12.750><c> texture</c></c>
+
+00:03:13.640 --> 00:03:13.650 align:start position:0%
+<c.colorCCCCCC>recognize the categories of</c><c.colorE5E5E5> new</c><c.colorCCCCCC> texture
+ </c>
+
+00:03:13.650 --> 00:03:17.600 align:start position:0%
+<c.colorCCCCCC>recognize the categories of</c><c.colorE5E5E5> new</c><c.colorCCCCCC> texture
+objects</c><c.colorE5E5E5><00:03:14.130><c> that</c><00:03:14.340><c> it</c><00:03:14.790><c> has</c><00:03:15.000><c> not</c><00:03:15.210><c> seen</c><00:03:15.710><c> so</c><00:03:16.710><c> here</c><00:03:17.490><c> are</c></c>
+
+00:03:17.600 --> 00:03:17.610 align:start position:0%
+objects<c.colorE5E5E5> that it has not seen so here are
+ </c>
+
+00:03:17.610 --> 00:03:19.520 align:start position:0%
+objects<c.colorE5E5E5> that it has not seen so here are</c>
+<c.colorE5E5E5>some<00:03:17.730><c> specific</c><00:03:18.420><c> examples</c></c><c.colorCCCCCC><00:03:18.540><c> of</c><00:03:19.170><c> text</c></c>
+
+00:03:19.520 --> 00:03:19.530 align:start position:0%
+<c.colorE5E5E5>some specific examples</c><c.colorCCCCCC> of text
+ </c>
+
+00:03:19.530 --> 00:03:23.180 align:start position:0%
+<c.colorE5E5E5>some specific examples</c><c.colorCCCCCC> of text
+categorization</c><c.colorE5E5E5><00:03:19.800><c> and</c><00:03:21.620><c> in</c><00:03:22.620><c> fact</c><00:03:22.920><c> there</c><00:03:23.160><c> are</c></c>
+
+00:03:23.180 --> 00:03:23.190 align:start position:0%
+categorization<c.colorE5E5E5> and in fact there are
+ </c>
+
+00:03:23.190 --> 00:03:26.290 align:start position:0%
+categorization<c.colorE5E5E5> and in fact there are</c>
+<c.colorE5E5E5>many<00:03:23.520><c> examples</c><00:03:24.180><c> here</c><00:03:25.080><c> are</c><00:03:25.200><c> just</c><00:03:25.380><c> a</c></c><c.colorCCCCCC><00:03:25.680><c> few</c></c>
+
+00:03:26.290 --> 00:03:26.300 align:start position:0%
+<c.colorE5E5E5>many examples here are just a</c><c.colorCCCCCC> few
+ </c>
+
+00:03:26.300 --> 00:03:30.380 align:start position:0%
+<c.colorE5E5E5>many examples here are just a</c><c.colorCCCCCC> few
+so<00:03:27.300><c> first</c><00:03:27.570><c> text</c><00:03:28.500><c> objects</c><00:03:28.980><c> can</c><00:03:29.280><c> vary</c></c><c.colorE5E5E5><00:03:29.520><c> so</c><00:03:29.970><c> we</c><00:03:30.150><c> can</c></c>
+
+00:03:30.380 --> 00:03:30.390 align:start position:0%
+so first text objects can vary<c.colorE5E5E5> so we can
+ </c>
+
+00:03:30.390 --> 00:03:34.280 align:start position:0%
+so first text objects can vary<c.colorE5E5E5> so we can
+categorize<00:03:30.870><c> a</c><00:03:31.350><c> document</c><00:03:31.980><c> or</c><00:03:32.570><c> a</c><00:03:33.570><c> passage</c><00:03:34.050><c> or</c></c>
+
+00:03:34.280 --> 00:03:34.290 align:start position:0%
+categorize<c.colorE5E5E5> a document or a passage or
+ </c>
+
+00:03:34.290 --> 00:03:36.949 align:start position:0%
+categorize<c.colorE5E5E5> a document or a passage or
+sentence<00:03:34.980><c> or</c><00:03:35.220><c> collections</c><00:03:35.820><c> of</c><00:03:36.000><c> text</c><00:03:36.360><c> as</c><00:03:36.540><c> in</c></c>
+
+00:03:36.949 --> 00:03:36.959 align:start position:0%
+sentence<c.colorE5E5E5> or collections of text as in
+ </c>
+
+00:03:36.959 --> 00:03:39.260 align:start position:0%
+sentence<c.colorE5E5E5> or collections of text as in
+the<00:03:37.050><c> case</c><00:03:37.200><c> of</c><00:03:37.380><c> clustering</c><00:03:37.860><c> the</c><00:03:38.220><c> units</c><00:03:38.610><c> to</c><00:03:39.240><c> be</c></c>
+
+00:03:39.260 --> 00:03:39.270 align:start position:0%
+the case<c.colorE5E5E5> of clustering the units to be
+ </c>
+
+00:03:39.270 --> 00:03:42.020 align:start position:0%
+the case<c.colorE5E5E5> of clustering the units to be
+analyzed<00:03:39.750><c> can</c><00:03:40.110><c> vary</c><00:03:40.350><c> a</c><00:03:40.470><c> lot</c><00:03:40.680><c> so</c><00:03:41.340><c> this</c><00:03:41.580><c> creates</c></c>
+
+00:03:42.020 --> 00:03:42.030 align:start position:0%
+analyzed<c.colorE5E5E5> can vary a lot so this creates
+ </c>
+
+00:03:42.030 --> 00:03:44.480 align:start position:0%
+analyzed<c.colorE5E5E5> can vary a lot so this creates
+a<00:03:42.180><c> lot</c><00:03:42.390><c> of</c><00:03:42.570><c> possibilities</c></c><c.colorCCCCCC><00:03:43.490><c> secondly</c></c>
+
+00:03:44.480 --> 00:03:44.490 align:start position:0%
+a<c.colorE5E5E5> lot of possibilities</c><c.colorCCCCCC> secondly
+ </c>
+
+00:03:44.490 --> 00:03:47.000 align:start position:0%
+a<c.colorE5E5E5> lot of possibilities</c><c.colorCCCCCC> secondly
+categories<00:03:45.390><c> can</c><00:03:45.630><c> also</c><00:03:45.750><c> vary</c><00:03:46.050><c> and</c><00:03:46.709><c> we</c><00:03:46.860><c> can</c></c>
+
+00:03:47.000 --> 00:03:47.010 align:start position:0%
+categories can also vary and<c.colorCCCCCC> we can
+ </c>
+
+00:03:47.010 --> 00:03:48.530 align:start position:0%
+categories can also vary and<c.colorCCCCCC> we can</c>
+<c.colorCCCCCC>generate<00:03:47.489><c> distinguish</c><00:03:47.970><c> two</c><00:03:48.180><c> kinds</c><00:03:48.480><c> of</c></c>
+
+00:03:48.530 --> 00:03:48.540 align:start position:0%
+<c.colorCCCCCC>generate distinguish two kinds of
+ </c>
+
+00:03:48.540 --> 00:03:51.260 align:start position:0%
+<c.colorCCCCCC>generate distinguish two kinds of
+categories<00:03:49.110><c> one</c></c><c.colorE5E5E5><00:03:49.950><c> is</c><00:03:50.070><c> internal</c><00:03:50.550><c> categories</c></c>
+
+00:03:51.260 --> 00:03:51.270 align:start position:0%
+categories one<c.colorE5E5E5> is internal categories
+ </c>
+
+00:03:51.270 --> 00:03:52.760 align:start position:0%
+categories one<c.colorE5E5E5> is internal categories
+and<00:03:51.630><c> these</c><00:03:51.780><c> are</c></c><c.colorCCCCCC><00:03:51.959><c> categories</c><00:03:52.470><c> that</c></c>
+
+00:03:52.760 --> 00:03:52.770 align:start position:0%
+and these are<c.colorCCCCCC> categories that
+ </c>
+
+00:03:52.770 --> 00:03:54.770 align:start position:0%
+and these are<c.colorCCCCCC> categories that</c>
+<c.colorCCCCCC>characterize<00:03:53.670><c> the</c><00:03:53.910><c> content</c><00:03:54.360><c> of</c><00:03:54.480><c> the</c><00:03:54.570><c> text</c></c>
+
+00:03:54.770 --> 00:03:54.780 align:start position:0%
+<c.colorCCCCCC>characterize the content of the text
+ </c>
+
+00:03:54.780 --> 00:03:58.910 align:start position:0%
+<c.colorCCCCCC>characterize the content of the text
+object</c><c.colorE5E5E5><00:03:55.040><c> for</c><00:03:56.040><c> example</c><00:03:56.130><c> topic</c><00:03:56.700><c> categories</c><00:03:57.920><c> or</c></c>
+
+00:03:58.910 --> 00:03:58.920 align:start position:0%
+object<c.colorE5E5E5> for example topic categories or
+ </c>
+
+00:03:58.920 --> 00:04:00.949 align:start position:0%
+object<c.colorE5E5E5> for example topic categories or</c>
+<c.colorCCCCCC>sentiment<00:03:59.640><c> the</c><00:03:59.730><c> categories</c><00:04:00.180><c> and</c><00:04:00.450><c> they</c></c>
+
+00:04:00.949 --> 00:04:00.959 align:start position:0%
+<c.colorCCCCCC>sentiment the categories and they
+ </c>
+
+00:04:00.959 --> 00:04:03.170 align:start position:0%
+<c.colorCCCCCC>sentiment the categories and they
+generally</c><c.colorE5E5E5><00:04:01.800><c> have</c><00:04:02.040><c> to</c><00:04:02.190><c> do</c><00:04:02.310><c> with</c><00:04:02.430><c> the</c><00:04:02.550><c> content</c><00:04:03.000><c> of</c></c>
+
+00:04:03.170 --> 00:04:03.180 align:start position:0%
+generally<c.colorE5E5E5> have to do with the content of
+ </c>
+
+00:04:03.180 --> 00:04:05.350 align:start position:0%
+generally<c.colorE5E5E5> have to do with the content of
+the<00:04:03.420><c> text</c><00:04:03.930><c> objects</c></c><c.colorCCCCCC><00:04:04.530><c> direct</c><00:04:05.100><c> the</c></c>
+
+00:04:05.350 --> 00:04:05.360 align:start position:0%
+the text<c.colorE5E5E5> objects</c><c.colorCCCCCC> direct the
+ </c>
+
+00:04:05.360 --> 00:04:08.240 align:start position:0%
+the text<c.colorE5E5E5> objects</c><c.colorCCCCCC> direct the
+characterization<00:04:06.360><c> of</c><00:04:06.420><c> the</c><00:04:06.570><c> content</c><00:04:07.250><c> there</c></c>
+
+00:04:08.240 --> 00:04:08.250 align:start position:0%
+characterization of the content<c.colorCCCCCC> there
+ </c>
+
+00:04:08.250 --> 00:04:11.240 align:start position:0%
+characterization of the content<c.colorCCCCCC> there
+kind</c><c.colorE5E5E5><00:04:08.640><c> of</c><00:04:08.820><c> external</c><00:04:09.720><c> categories</c><00:04:10.500><c> that</c><00:04:10.950><c> can</c></c>
+
+00:04:11.240 --> 00:04:11.250 align:start position:0%
+kind<c.colorE5E5E5> of external categories that can
+ </c>
+
+00:04:11.250 --> 00:04:14.360 align:start position:0%
+kind<c.colorE5E5E5> of external categories that can</c>
+<c.colorE5E5E5>characterize<00:04:11.850><c> the</c><00:04:11.880><c> entity</c><00:04:13.160><c> associated</c></c><c.colorCCCCCC><00:04:14.160><c> with</c></c>
+
+00:04:14.360 --> 00:04:14.370 align:start position:0%
+<c.colorE5E5E5>characterize the entity associated</c><c.colorCCCCCC> with
+ </c>
+
+00:04:14.370 --> 00:04:18.199 align:start position:0%
+<c.colorE5E5E5>characterize the entity associated</c><c.colorCCCCCC> with
+the<00:04:14.550><c> text</c><00:04:14.730><c> object</c><00:04:15.230><c> for</c><00:04:16.230><c> example</c><00:04:16.910><c> authors</c></c><c.colorE5E5E5><00:04:17.910><c> are</c></c>
+
+00:04:18.199 --> 00:04:18.209 align:start position:0%
+the text<c.colorCCCCCC> object for example authors</c><c.colorE5E5E5> are
+ </c>
+
+00:04:18.209 --> 00:04:20.810 align:start position:0%
+the text<c.colorCCCCCC> object for example authors</c><c.colorE5E5E5> are
+entities<00:04:18.600><c> associated</c><00:04:19.410><c> with</c><00:04:19.620><c> the</c><00:04:20.190><c> content</c></c>
+
+00:04:20.810 --> 00:04:20.820 align:start position:0%
+entities<c.colorE5E5E5> associated with the content
+ </c>
+
+00:04:20.820 --> 00:04:23.750 align:start position:0%
+entities<c.colorE5E5E5> associated with the content
+that<00:04:21.090><c> they</c><00:04:21.330><c> produce</c><00:04:21.630><c> and</c><00:04:22.200><c> so</c><00:04:23.070><c> we</c><00:04:23.250><c> can</c><00:04:23.460><c> use</c></c>
+
+00:04:23.750 --> 00:04:23.760 align:start position:0%
+<c.colorE5E5E5>that they produce and so we can use
+ </c>
+
+00:04:23.760 --> 00:04:26.990 align:start position:0%
+<c.colorE5E5E5>that they produce and so we can use
+their<00:04:24.090><c> content</c></c><c.colorCCCCCC><00:04:24.330><c> determining</c><00:04:25.640><c> which</c><00:04:26.640><c> author</c></c>
+
+00:04:26.990 --> 00:04:27.000 align:start position:0%
+their content<c.colorCCCCCC> determining which author
+ </c>
+
+00:04:27.000 --> 00:04:29.540 align:start position:0%
+their content<c.colorCCCCCC> determining which author
+has<00:04:27.330><c> written</c></c><c.colorE5E5E5><00:04:27.440><c> which</c><00:04:28.440><c> part</c><00:04:28.740><c> for</c><00:04:29.010><c> example</c></c>
+
+00:04:29.540 --> 00:04:29.550 align:start position:0%
+has written<c.colorE5E5E5> which part for example
+ </c>
+
+00:04:29.550 --> 00:04:34.160 align:start position:0%
+has written<c.colorE5E5E5> which part for example
+and<00:04:29.640><c> that's</c><00:04:30.360><c> called</c><00:04:30.720><c> Arthur</c><00:04:31.110><c> HP</c><00:04:31.470><c> she</c><00:04:32.420><c> or</c><00:04:33.420><c> we</c></c>
+
+00:04:34.160 --> 00:04:34.170 align:start position:0%
+and that's called<c.colorE5E5E5> Arthur HP she or we
+ </c>
+
+00:04:34.170 --> 00:04:36.800 align:start position:0%
+and that's called<c.colorE5E5E5> Arthur HP she or we
+can<00:04:34.380><c> have</c><00:04:35.070><c> any</c><00:04:35.310><c> other</c><00:04:35.640><c> meaningful</c><00:04:36.480><c> categories</c></c>
+
+00:04:36.800 --> 00:04:36.810 align:start position:0%
+can have any<c.colorE5E5E5> other meaningful categories
+ </c>
+
+00:04:36.810 --> 00:04:40.720 align:start position:0%
+can have any<c.colorE5E5E5> other meaningful categories</c>
+<c.colorCCCCCC>associated<00:04:37.680><c> with</c><00:04:37.830><c> text</c><00:04:38.190><c> data</c><00:04:38.490><c> as</c><00:04:38.820><c> long</c></c><c.colorE5E5E5><00:04:39.570><c> as</c></c>
+
+00:04:40.720 --> 00:04:40.730 align:start position:0%
+<c.colorCCCCCC>associated with text data as long</c><c.colorE5E5E5> as
+ </c>
+
+00:04:40.730 --> 00:04:45.650 align:start position:0%
+<c.colorCCCCCC>associated with text data as long</c><c.colorE5E5E5> as
+there<00:04:41.730><c> is</c><00:04:41.910><c> a</c><00:04:42.860><c> direct</c><00:04:43.860><c> there</c><00:04:44.280><c> was</c><00:04:44.400><c> a</c><00:04:44.660><c> meaningful</c></c>
+
+00:04:45.650 --> 00:04:45.660 align:start position:0%
+there is a direct there was a meaningful
+ 
+
+00:04:45.660 --> 00:04:47.660 align:start position:0%
+there is a direct there was a meaningful
+<c.colorE5E5E5>connection<00:04:46.230><c> between</c><00:04:46.590><c> the</c><00:04:46.830><c> entity</c><00:04:47.190><c> and</c><00:04:47.370><c> text</c></c>
+
+00:04:47.660 --> 00:04:47.670 align:start position:0%
+<c.colorE5E5E5>connection between the entity and text
+ </c>
+
+00:04:47.670 --> 00:04:49.610 align:start position:0%
+<c.colorE5E5E5>connection between the entity and text
+data<00:04:47.880><c> for</c><00:04:48.210><c> example</c></c><c.colorCCCCCC><00:04:48.270><c> we</c><00:04:48.780><c> might</c><00:04:48.990><c> collect</c><00:04:49.260><c> a</c><00:04:49.470><c> lot</c></c>
+
+00:04:49.610 --> 00:04:49.620 align:start position:0%
+data for example<c.colorCCCCCC> we might collect a lot
+ </c>
+
+00:04:49.620 --> 00:04:53.120 align:start position:0%
+data for example<c.colorCCCCCC> we might collect a lot</c>
+<c.colorE5E5E5>of<00:04:49.770><c> reviews</c><00:04:50.160><c> about</c><00:04:50.460><c> a</c><00:04:51.000><c> restaurant</c><00:04:51.480><c> or</c><00:04:51.950><c> a</c><00:04:52.950><c> lot</c></c>
+
+00:04:53.120 --> 00:04:53.130 align:start position:0%
+<c.colorE5E5E5>of reviews about a restaurant or a lot
+ </c>
+
+00:04:53.130 --> 00:04:56.000 align:start position:0%
+<c.colorE5E5E5>of reviews about a restaurant or a lot
+of<00:04:53.280><c> reviews</c><00:04:53.640><c> about</c><00:04:53.670><c> a</c><00:04:54.390><c> product</c><00:04:54.840><c> and</c><00:04:55.110><c> then</c></c>
+
+00:04:56.000 --> 00:04:56.010 align:start position:0%
+of reviews about<c.colorE5E5E5> a product and then
+ </c>
+
+00:04:56.010 --> 00:04:58.760 align:start position:0%
+of reviews about<c.colorE5E5E5> a product and then
+these<00:04:56.400><c> text</c><00:04:57.030><c> there</c><00:04:57.240><c> are</c><00:04:57.390><c> can</c><00:04:57.630><c> help</c><00:04:57.930><c> us</c><00:04:58.170><c> infer</c></c>
+
+00:04:58.760 --> 00:04:58.770 align:start position:0%
+<c.colorE5E5E5>these text there are can help us infer
+ </c>
+
+00:04:58.770 --> 00:05:03.940 align:start position:0%
+<c.colorE5E5E5>these text there are can help us infer
+properties<00:04:59.340><c> of</c><00:04:59.580><c> a</c><00:05:00.180><c> product</c><00:05:00.900><c> or</c><00:05:01.550><c> a</c><00:05:02.550><c> restaurant</c></c>
+
+00:05:03.940 --> 00:05:03.950 align:start position:0%
+properties of<c.colorE5E5E5> a product or a restaurant
+ </c>
+
+00:05:03.950 --> 00:05:06.470 align:start position:0%
+properties of<c.colorE5E5E5> a product or a restaurant</c>
+<c.colorE5E5E5>in<00:05:04.950><c> that</c><00:05:05.160><c> case</c><00:05:05.430><c> we</c><00:05:05.670><c> can</c><00:05:05.820><c> treat</c><00:05:06.030><c> this</c><00:05:06.210><c> as</c><00:05:06.450><c> a</c></c>
+
+00:05:06.470 --> 00:05:06.480 align:start position:0%
+<c.colorE5E5E5>in that case we can treat this as a
+ </c>
+
+00:05:06.480 --> 00:05:08.300 align:start position:0%
+<c.colorE5E5E5>in that case we can treat this as a
+categorization<00:05:06.990><c> problem</c><00:05:07.680><c> we</c><00:05:07.860><c> can</c><00:05:07.980><c> categorize</c></c>
+
+00:05:08.300 --> 00:05:08.310 align:start position:0%
+categorization problem<c.colorE5E5E5> we can categorize
+ </c>
+
+00:05:08.310 --> 00:05:10.730 align:start position:0%
+categorization problem<c.colorE5E5E5> we can categorize
+restaurants<00:05:09.090><c> or</c><00:05:09.270><c> categorized</c><00:05:09.750><c> products</c></c>
+
+00:05:10.730 --> 00:05:10.740 align:start position:0%
+restaurants or categorized products
+ 
+
+00:05:10.740 --> 00:05:14.270 align:start position:0%
+restaurants or categorized products
+based<00:05:11.370><c> on</c><00:05:11.610><c> their</c><00:05:11.850><c> corresponding</c><00:05:12.570><c> reviews</c><00:05:13.280><c> so</c>
+
+00:05:14.270 --> 00:05:14.280 align:start position:0%
+based on their corresponding reviews so
+ 
+
+00:05:14.280 --> 00:05:16.600 align:start position:0%
+based on their corresponding reviews so
+this<00:05:14.490><c> is</c><00:05:14.640><c> example</c><c.colorCCCCCC><00:05:14.940><c> of</c><00:05:15.150><c> a</c><00:05:15.270><c> Nostromo</c><00:05:15.690><c> category</c></c>
+
+00:05:16.600 --> 00:05:16.610 align:start position:0%
+this is example<c.colorCCCCCC> of a Nostromo category
+ </c>
+
+00:05:16.610 --> 00:05:19.070 align:start position:0%
+this is example<c.colorCCCCCC> of a Nostromo category
+here<00:05:17.610><c> are</c><00:05:17.670><c> some</c></c><c.colorE5E5E5><00:05:17.850><c> specific</c></c><c.colorCCCCCC><00:05:18.090><c> examples</c></c><c.colorE5E5E5><00:05:18.930><c> of</c></c>
+
+00:05:19.070 --> 00:05:19.080 align:start position:0%
+here are some<c.colorE5E5E5> specific</c><c.colorCCCCCC> examples</c><c.colorE5E5E5> of
+ </c>
+
+00:05:19.080 --> 00:05:21.710 align:start position:0%
+here are some<c.colorE5E5E5> specific</c><c.colorCCCCCC> examples</c><c.colorE5E5E5> of
+applications<00:05:19.770><c> news</c><00:05:20.640><c> categorization</c><00:05:21.120><c> is</c><00:05:21.480><c> very</c></c>
+
+00:05:21.710 --> 00:05:21.720 align:start position:0%
+applications news categorization is very
+ 
+
+00:05:21.720 --> 00:05:25.370 align:start position:0%
+applications news categorization is very
+common<00:05:22.110><c> has</c><00:05:22.440><c> been</c><00:05:22.820><c> started</c><00:05:23.820><c> a</c><00:05:23.970><c> lot</c><c.colorCCCCCC><00:05:24.380><c> news</c></c>
+
+00:05:25.370 --> 00:05:25.380 align:start position:0%
+common has been started a lot<c.colorCCCCCC> news
+ </c>
+
+00:05:25.380 --> 00:05:28.460 align:start position:0%
+common has been started a lot<c.colorCCCCCC> news
+agencies<00:05:25.860><c> would</c><00:05:26.430><c> like</c><00:05:26.610><c> to</c><00:05:26.790><c> assign</c><00:05:27.470><c> predefined</c></c>
+
+00:05:28.460 --> 00:05:28.470 align:start position:0%
+agencies would like to assign predefined
+ 
+
+00:05:28.470 --> 00:05:32.710 align:start position:0%
+agencies would like to assign predefined
+categories<00:05:28.740><c> to</c><00:05:29.750><c> to</c><00:05:30.750><c> categorize</c><c.colorCCCCCC><00:05:31.230><c> news</c></c>
+
+00:05:32.710 --> 00:05:32.720 align:start position:0%
+categories to to categorize<c.colorCCCCCC> news
+ </c>
+
+00:05:32.720 --> 00:05:37.550 align:start position:0%
+categories to to categorize<c.colorCCCCCC> news</c>
+<c.colorE5E5E5>generator</c><c.colorCCCCCC><00:05:33.720><c> every</c></c><c.colorE5E5E5><00:05:34.050><c> day</c><00:05:34.200><c> and</c><00:05:36.560><c> literature</c></c>
+
+00:05:37.550 --> 00:05:37.560 align:start position:0%
+<c.colorE5E5E5>generator</c><c.colorCCCCCC> every</c><c.colorE5E5E5> day and literature
+ </c>
+
+00:05:37.560 --> 00:05:38.900 align:start position:0%
+<c.colorE5E5E5>generator</c><c.colorCCCCCC> every</c><c.colorE5E5E5> day and literature
+article<00:05:37.950><c> categorizations</c><00:05:38.430><c> are</c><00:05:38.760><c> not</c></c>
+
+00:05:38.900 --> 00:05:38.910 align:start position:0%
+article categorizations<c.colorE5E5E5> are not
+ </c>
+
+00:05:38.910 --> 00:05:40.910 align:start position:0%
+article categorizations<c.colorE5E5E5> are not
+important<00:05:39.390><c> tasks</c><00:05:39.600><c> for</c><00:05:40.200><c> example</c></c><c.colorCCCCCC><00:05:40.230><c> in</c></c>
+
+00:05:40.910 --> 00:05:40.920 align:start position:0%
+important tasks for example<c.colorCCCCCC> in
+ </c>
+
+00:05:40.920 --> 00:05:42.860 align:start position:0%
+important tasks for example<c.colorCCCCCC> in
+biomedical<00:05:41.670><c> domain</c></c><c.colorE5E5E5><00:05:42.030><c> this</c><00:05:42.210><c> is</c><00:05:42.510><c> mash</c></c>
+
+00:05:42.860 --> 00:05:42.870 align:start position:0%
+biomedical domain<c.colorE5E5E5> this is mash
+ </c>
+
+00:05:42.870 --> 00:05:44.720 align:start position:0%
+biomedical domain<c.colorE5E5E5> this is mash
+annotations<00:05:43.650><c> mesh</c><00:05:44.040><c> stands</c><00:05:44.490><c> for</c><00:05:44.580><c> medical</c></c>
+
+00:05:44.720 --> 00:05:44.730 align:start position:0%
+annotations<c.colorE5E5E5> mesh stands for medical
+ </c>
+
+00:05:44.730 --> 00:05:47.060 align:start position:0%
+annotations<c.colorE5E5E5> mesh stands for medical
+subject<00:05:45.180><c> heading</c><00:05:45.960><c> and</c></c><c.colorCCCCCC><00:05:46.110><c> it's</c><00:05:46.380><c> LAN</c><00:05:46.590><c> ecology</c><00:05:47.040><c> of</c></c>
+
+00:05:47.060 --> 00:05:47.070 align:start position:0%
+subject heading<c.colorE5E5E5> and</c><c.colorCCCCCC> it's LAN ecology of
+ </c>
+
+00:05:47.070 --> 00:05:50.500 align:start position:0%
+subject heading<c.colorE5E5E5> and</c><c.colorCCCCCC> it's LAN ecology of</c>
+<c.colorCCCCCC>terms<00:05:47.610><c> to</c></c><c.colorE5E5E5><00:05:48.560><c> characterize</c><00:05:49.560><c> content</c><00:05:50.070><c> of</c></c>
+
+00:05:50.500 --> 00:05:50.510 align:start position:0%
+<c.colorCCCCCC>terms to</c><c.colorE5E5E5> characterize content of
+ </c>
+
+00:05:50.510 --> 00:05:53.890 align:start position:0%
+<c.colorCCCCCC>terms to</c><c.colorE5E5E5> characterize content of
+literature<00:05:51.510><c> articles</c><00:05:51.750><c> in</c><00:05:52.080><c> detail</c></c>
+
+00:05:53.890 --> 00:05:53.900 align:start position:0%
+literature articles in detail
+ 
+
+00:05:53.900 --> 00:05:58.010 align:start position:0%
+literature articles in detail
+another<00:05:54.900><c> example</c><c.colorCCCCCC><00:05:55.830><c> work</c><00:05:56.460><c> aging</c><00:05:56.850><c> spam</c><00:05:57.240><c> email</c><00:05:57.870><c> or</c></c>
+
+00:05:58.010 --> 00:05:58.020 align:start position:0%
+another example<c.colorCCCCCC> work aging spam email or
+ </c>
+
+00:05:58.020 --> 00:06:03.050 align:start position:0%
+another example<c.colorCCCCCC> work aging spam email or
+detection</c><c.colorE5E5E5><00:05:58.410><c> or</c><00:05:58.740><c> filtering</c><00:05:59.310><c> so</c><00:06:00.060><c> we</c><00:06:00.450><c> often</c><00:06:02.060><c> have</c></c>
+
+00:06:03.050 --> 00:06:03.060 align:start position:0%
+detection<c.colorE5E5E5> or filtering so we often have
+ </c>
+
+00:06:03.060 --> 00:06:06.970 align:start position:0%
+detection<c.colorE5E5E5> or filtering so we often have
+a<00:06:03.090><c> spam</c><00:06:03.780><c> filter</c><00:06:04.200><c> to</c></c><c.colorCCCCCC><00:06:05.040><c> help</c><00:06:05.250><c> us</c><00:06:05.570><c> distinguish</c></c>
+
+00:06:06.970 --> 00:06:06.980 align:start position:0%
+a spam filter to<c.colorCCCCCC> help us distinguish
+ </c>
+
+00:06:06.980 --> 00:06:10.520 align:start position:0%
+a spam filter to<c.colorCCCCCC> help us distinguish</c>
+<c.colorE5E5E5>spams<00:06:07.980><c> from</c><00:06:08.400><c> legitimate</c><00:06:08.940><c> emails</c><00:06:09.450><c> and</c><00:06:09.780><c> this</c><00:06:10.380><c> is</c></c>
+
+00:06:10.520 --> 00:06:10.530 align:start position:0%
+<c.colorE5E5E5>spams from legitimate emails and this is
+ </c>
+
+00:06:10.530 --> 00:06:12.200 align:start position:0%
+<c.colorE5E5E5>spams from legitimate emails and this is
+a<00:06:10.560><c> clearly</c></c><c.colorCCCCCC><00:06:11.010><c> a</c><00:06:11.160><c> binary</c><00:06:11.550><c> classification</c></c>
+
+00:06:12.200 --> 00:06:12.210 align:start position:0%
+a clearly<c.colorCCCCCC> a binary classification
+ </c>
+
+00:06:12.210 --> 00:06:14.080 align:start position:0%
+a clearly<c.colorCCCCCC> a binary classification
+problem</c>
+
+00:06:14.080 --> 00:06:14.090 align:start position:0%
+problem
+ 
+
+00:06:14.090 --> 00:06:16.400 align:start position:0%
+problem
+sentimental<00:06:15.090><c> categorization</c><00:06:15.420><c> of</c><00:06:15.900><c> product</c>
+
+00:06:16.400 --> 00:06:16.410 align:start position:0%
+sentimental categorization of product
+ 
+
+00:06:16.410 --> 00:06:19.100 align:start position:0%
+sentimental categorization of product
+reviews<00:06:16.800><c> or</c><00:06:17.070><c> tweets</c><c.colorE5E5E5><00:06:17.430><c> is</c><00:06:18.030><c> yet</c><00:06:18.390><c> another</c><00:06:18.540><c> kind</c><00:06:18.990><c> of</c></c>
+
+00:06:19.100 --> 00:06:19.110 align:start position:0%
+reviews or tweets<c.colorE5E5E5> is yet another kind of
+ </c>
+
+00:06:19.110 --> 00:06:20.950 align:start position:0%
+reviews or tweets<c.colorE5E5E5> is yet another kind of
+applications<00:06:19.680><c> where</c><00:06:19.860><c> we</c><00:06:20.070><c> can</c><00:06:20.190><c> categorize</c></c>
+
+00:06:20.950 --> 00:06:20.960 align:start position:0%
+<c.colorE5E5E5>applications where we can categorize
+ </c>
+
+00:06:20.960 --> 00:06:23.720 align:start position:0%
+<c.colorE5E5E5>applications where we can categorize</c>
+<c.colorCCCCCC>company</c><c.colorE5E5E5><00:06:21.960><c> to</c><00:06:22.230><c> positive</c><00:06:22.770><c> or</c></c><c.colorCCCCCC><00:06:23.010><c> negative</c></c><c.colorE5E5E5><00:06:23.550><c> or</c></c>
+
+00:06:23.720 --> 00:06:23.730 align:start position:0%
+<c.colorCCCCCC>company</c><c.colorE5E5E5> to positive or</c><c.colorCCCCCC> negative</c><c.colorE5E5E5> or
+ </c>
+
+00:06:23.730 --> 00:06:26.390 align:start position:0%
+<c.colorCCCCCC>company</c><c.colorE5E5E5> to positive or</c><c.colorCCCCCC> negative</c><c.colorE5E5E5> or
+positive<00:06:23.910><c> and</c><00:06:24.300><c> negative</c></c><c.colorCCCCCC><00:06:24.690><c> and/or</c><00:06:25.050><c> or</c><00:06:25.470><c> neutral</c></c>
+
+00:06:26.390 --> 00:06:26.400 align:start position:0%
+positive and<c.colorE5E5E5> negative</c><c.colorCCCCCC> and/or or neutral
+ </c>
+
+00:06:26.400 --> 00:06:29.060 align:start position:0%
+positive and<c.colorE5E5E5> negative</c><c.colorCCCCCC> and/or or neutral</c>
+<c.colorE5E5E5>right<00:06:27.390><c> so</c><00:06:27.660><c> you</c><00:06:27.810><c> can</c><00:06:27.990><c> have</c></c><c.colorCCCCCC><00:06:28.080><c> seven</c></c><c.colorE5E5E5><00:06:28.500><c> sentiment</c></c>
+
+00:06:29.060 --> 00:06:29.070 align:start position:0%
+<c.colorE5E5E5>right so you can have</c><c.colorCCCCCC> seven</c><c.colorE5E5E5> sentiment
+ </c>
+
+00:06:29.070 --> 00:06:34.970 align:start position:0%
+<c.colorE5E5E5>right so you can have</c><c.colorCCCCCC> seven</c><c.colorE5E5E5> sentiment
+categories<00:06:29.630><c> assign</c><00:06:30.630><c> the</c><00:06:30.870><c> true</c><00:06:31.250><c> text</c><00:06:32.250><c> content</c></c>
+
+00:06:34.970 --> 00:06:34.980 align:start position:0%
+ 
+ 
+
+00:06:34.980 --> 00:06:36.740 align:start position:0%
+ 
+another<00:06:35.730><c> application</c><c.colorE5E5E5><00:06:35.940><c> is</c><00:06:36.300><c> the</c><00:06:36.390><c> automatic</c></c>
+
+00:06:36.740 --> 00:06:36.750 align:start position:0%
+another application<c.colorE5E5E5> is the automatic
+ </c>
+
+00:06:36.750 --> 00:06:39.740 align:start position:0%
+another application<c.colorE5E5E5> is the automatic
+email<00:06:37.320><c> routing</c><00:06:37.590><c> or</c><00:06:38.100><c> sorting</c><00:06:38.670><c> so</c><00:06:39.180><c> you</c><00:06:39.570><c> might</c></c>
+
+00:06:39.740 --> 00:06:39.750 align:start position:0%
+<c.colorE5E5E5>email routing or sorting so you might
+ </c>
+
+00:06:39.750 --> 00:06:41.450 align:start position:0%
+<c.colorE5E5E5>email routing or sorting so you might
+want<00:06:39.960><c> to</c><00:06:40.020><c> automatic</c><00:06:40.530><c> result</c><00:06:40.920><c> your</c><00:06:41.130><c> emails</c></c>
+
+00:06:41.450 --> 00:06:41.460 align:start position:0%
+want to automatic result your emails
+ 
+
+00:06:41.460 --> 00:06:43.850 align:start position:0%
+want to automatic result your emails
+into<00:06:41.760><c> different</c><00:06:42.030><c> folders</c><c.colorCCCCCC><00:06:42.270><c> and</c><00:06:42.900><c> that's</c><00:06:43.200><c> one</c></c>
+
+00:06:43.850 --> 00:06:43.860 align:start position:0%
+into different folders<c.colorCCCCCC> and that's one
+ </c>
+
+00:06:43.860 --> 00:06:45.080 align:start position:0%
+into different folders<c.colorCCCCCC> and that's one</c>
+<c.colorCCCCCC>application<00:06:44.370><c> of</c><00:06:44.430><c> the</c><00:06:44.550><c> text</c><00:06:44.820><c> categorization</c></c>
+
+00:06:45.080 --> 00:06:45.090 align:start position:0%
+<c.colorCCCCCC>application of the text categorization
+ </c>
+
+00:06:45.090 --> 00:06:48.560 align:start position:0%
+<c.colorCCCCCC>application of the text categorization</c>
+<c.colorCCCCCC>where<00:06:45.900><c> each</c><00:06:46.080><c> folder</c><00:06:46.530><c> is</c><00:06:46.680><c> a</c><00:06:46.710><c> category</c><00:06:47.540><c> there</c><00:06:48.540><c> is</c></c>
+
+00:06:48.560 --> 00:06:48.570 align:start position:0%
+<c.colorCCCCCC>where each folder is a category there is
+ </c>
+
+00:06:48.570 --> 00:06:50.150 align:start position:0%
+<c.colorCCCCCC>where each folder is a category there is</c>
+<c.colorCCCCCC>also</c><c.colorE5E5E5><00:06:48.960><c> another</c><00:06:49.170><c> important</c><00:06:49.740><c> kind</c><00:06:50.040><c> of</c></c>
+
+00:06:50.150 --> 00:06:50.160 align:start position:0%
+<c.colorCCCCCC>also</c><c.colorE5E5E5> another important kind of
+ </c>
+
+00:06:50.160 --> 00:06:52.850 align:start position:0%
+<c.colorCCCCCC>also</c><c.colorE5E5E5> another important kind of
+applications<00:06:50.730><c> of</c><00:06:51.000><c> routing</c><00:06:51.420><c> emails</c><00:06:52.110><c> to</c><00:06:52.680><c> the</c></c>
+
+00:06:52.850 --> 00:06:52.860 align:start position:0%
+applications of routing<c.colorE5E5E5> emails to the
+ </c>
+
+00:06:52.860 --> 00:06:55.150 align:start position:0%
+applications of routing<c.colorE5E5E5> emails to the
+right<00:06:53.040><c> person</c><00:06:53.520><c> to</c><00:06:53.550><c> handle</c></c><c.colorCCCCCC><00:06:53.850><c> so</c><00:06:54.360><c> in</c></c><c.colorE5E5E5><00:06:54.630><c> help</c><00:06:54.900><c> desk</c></c>
+
+00:06:55.150 --> 00:06:55.160 align:start position:0%
+right<c.colorE5E5E5> person to handle</c><c.colorCCCCCC> so in</c><c.colorE5E5E5> help desk
+ </c>
+
+00:06:55.160 --> 00:06:58.820 align:start position:0%
+right<c.colorE5E5E5> person to handle</c><c.colorCCCCCC> so in</c><c.colorE5E5E5> help desk
+email<00:06:56.160><c> message</c><00:06:56.550><c> here</c><00:06:56.730><c> is</c><00:06:57.030><c> generally</c></c><c.colorCCCCCC><00:06:57.830><c> routed</c></c>
+
+00:06:58.820 --> 00:06:58.830 align:start position:0%
+<c.colorE5E5E5>email message here is generally</c><c.colorCCCCCC> routed
+ </c>
+
+00:06:58.830 --> 00:07:01.490 align:start position:0%
+<c.colorE5E5E5>email message here is generally</c><c.colorCCCCCC> routed</c>
+<c.colorE5E5E5>to<00:06:59.130><c> a</c><00:06:59.790><c> particular</c></c><c.colorCCCCCC><00:07:00.420><c> person</c><00:07:00.810><c> to</c></c><c.colorE5E5E5><00:07:01.050><c> handle</c></c>
+
+00:07:01.490 --> 00:07:01.500 align:start position:0%
+<c.colorE5E5E5>to a particular</c><c.colorCCCCCC> person to</c><c.colorE5E5E5> handle
+ </c>
+
+00:07:01.500 --> 00:07:03.110 align:start position:0%
+<c.colorE5E5E5>to a particular</c><c.colorCCCCCC> person to</c><c.colorE5E5E5> handle
+different<00:07:02.010><c> people</c><00:07:02.490><c> tend</c><00:07:02.790><c> to</c><00:07:02.940><c> handle</c></c>
+
+00:07:03.110 --> 00:07:03.120 align:start position:0%
+<c.colorE5E5E5>different people tend to handle
+ </c>
+
+00:07:03.120 --> 00:07:06.140 align:start position:0%
+<c.colorE5E5E5>different people tend to handle</c>
+<c.colorE5E5E5>different<00:07:03.450><c> kind</c><00:07:04.260><c> of</c><00:07:04.350><c> requests</c><00:07:04.980><c> and</c><00:07:05.460><c> in</c><00:07:05.970><c> many</c></c>
+
+00:07:06.140 --> 00:07:06.150 align:start position:0%
+<c.colorE5E5E5>different kind of requests and in many
+ </c>
+
+00:07:06.150 --> 00:07:09.320 align:start position:0%
+<c.colorE5E5E5>different kind of requests and in many
+cases<00:07:06.420><c> a</c><00:07:07.110><c> person</c><00:07:07.260><c> would</c><00:07:07.860><c> manually</c><00:07:08.280><c> assign</c><00:07:08.850><c> the</c></c>
+
+00:07:09.320 --> 00:07:09.330 align:start position:0%
+cases a person<c.colorE5E5E5> would manually assign the
+ </c>
+
+00:07:09.330 --> 00:07:11.870 align:start position:0%
+cases a person<c.colorE5E5E5> would manually assign the
+messages<00:07:09.900><c> to</c><00:07:10.470><c> the</c><00:07:10.650><c> right</c><00:07:10.800><c> people</c></c><c.colorCCCCCC><00:07:11.040><c> but</c><00:07:11.670><c> you</c><00:07:11.730><c> can</c></c>
+
+00:07:11.870 --> 00:07:11.880 align:start position:0%
+messages to the right people<c.colorCCCCCC> but you can
+ </c>
+
+00:07:11.880 --> 00:07:13.820 align:start position:0%
+messages to the right people<c.colorCCCCCC> but you can</c>
+<c.colorCCCCCC>imagine<00:07:12.330><c> you</c><00:07:12.420><c> can</c></c><c.colorE5E5E5><00:07:12.450><c> build</c><00:07:12.750><c> a</c><00:07:12.930><c> automatic</c><00:07:13.560><c> attack</c></c>
+
+00:07:13.820 --> 00:07:13.830 align:start position:0%
+<c.colorCCCCCC>imagine you can</c><c.colorE5E5E5> build a automatic attack
+ </c>
+
+00:07:13.830 --> 00:07:16.100 align:start position:0%
+<c.colorCCCCCC>imagine you can</c><c.colorE5E5E5> build a automatic attack
+stroke</c><c.colorCCCCCC><00:07:14.070><c> air-conditioning</c><00:07:14.760><c> system</c><00:07:15.270><c> to</c><00:07:15.900><c> help</c></c>
+
+00:07:16.100 --> 00:07:16.110 align:start position:0%
+stroke<c.colorCCCCCC> air-conditioning system to help
+ </c>
+
+00:07:16.110 --> 00:07:19.910 align:start position:0%
+stroke<c.colorCCCCCC> air-conditioning system to help</c>
+<c.colorE5E5E5>routing<00:07:17.060><c> requests</c><00:07:18.060><c> and</c><00:07:18.390><c> this</c><00:07:19.380><c> is</c><00:07:19.530><c> to</c><00:07:19.650><c> classify</c></c>
+
+00:07:19.910 --> 00:07:19.920 align:start position:0%
+<c.colorE5E5E5>routing requests and this is to classify
+ </c>
+
+00:07:19.920 --> 00:07:22.640 align:start position:0%
+<c.colorE5E5E5>routing requests and this is to classify</c>
+<c.colorCCCCCC>the<00:07:20.250><c> incoming</c></c><c.colorE5E5E5><00:07:20.850><c> requests</c><00:07:21.360><c> into</c><00:07:22.050><c> one</c><00:07:22.350><c> of</c><00:07:22.500><c> the</c></c>
+
+00:07:22.640 --> 00:07:22.650 align:start position:0%
+<c.colorCCCCCC>the incoming</c><c.colorE5E5E5> requests into one of the
+ </c>
+
+00:07:22.650 --> 00:07:24.500 align:start position:0%
+<c.colorCCCCCC>the incoming</c><c.colorE5E5E5> requests into one of the
+categories<00:07:23.040><c> where</c><00:07:23.490><c> each</c><00:07:23.670><c> category</c><00:07:24.330><c> actually</c></c>
+
+00:07:24.500 --> 00:07:24.510 align:start position:0%
+<c.colorE5E5E5>categories where each category actually
+ </c>
+
+00:07:24.510 --> 00:07:27.310 align:start position:0%
+<c.colorE5E5E5>categories where each category actually</c>
+<c.colorCCCCCC>cause</c><c.colorE5E5E5><00:07:24.990><c> corresponds</c><00:07:25.830><c> to</c><00:07:25.890><c> a</c><00:07:26.190><c> person</c><00:07:26.760><c> to</c><00:07:26.940><c> handle</c></c>
+
+00:07:27.310 --> 00:07:27.320 align:start position:0%
+<c.colorCCCCCC>cause</c><c.colorE5E5E5> corresponds to a person to handle
+ </c>
+
+00:07:27.320 --> 00:07:32.990 align:start position:0%
+<c.colorCCCCCC>cause</c><c.colorE5E5E5> corresponds to a person to handle
+the</c><c.colorCCCCCC><00:07:28.320><c> request</c></c><c.colorE5E5E5><00:07:29.630><c> and</c><00:07:30.920><c> finally</c><00:07:31.920><c> after</c></c><c.colorCCCCCC><00:07:32.280><c> each</c><00:07:32.580><c> being</c></c>
+
+00:07:32.990 --> 00:07:33.000 align:start position:0%
+the<c.colorCCCCCC> request</c><c.colorE5E5E5> and finally after</c><c.colorCCCCCC> each being
+ </c>
+
+00:07:33.000 --> 00:07:34.520 align:start position:0%
+the<c.colorCCCCCC> request</c><c.colorE5E5E5> and finally after</c><c.colorCCCCCC> each being
+as<00:07:33.120><c> I</c><00:07:33.240><c> just</c><00:07:33.420><c> mentioned</c><00:07:33.780><c> is</c><00:07:33.870><c> yet</c><00:07:34.380><c> another</c></c>
+
+00:07:34.520 --> 00:07:34.530 align:start position:0%
+as I just<c.colorCCCCCC> mentioned is yet another
+ </c>
+
+00:07:34.530 --> 00:07:36.920 align:start position:0%
+as I just<c.colorCCCCCC> mentioned is yet another
+application</c><c.colorE5E5E5><00:07:35.040><c> and</c><00:07:35.370><c> and</c><00:07:35.880><c> it's</c><00:07:36.060><c> another</c></c><c.colorCCCCCC><00:07:36.420><c> example</c></c>
+
+00:07:36.920 --> 00:07:36.930 align:start position:0%
+application<c.colorE5E5E5> and and it's another</c><c.colorCCCCCC> example
+ </c>
+
+00:07:36.930 --> 00:07:38.840 align:start position:0%
+application<c.colorE5E5E5> and and it's another</c><c.colorCCCCCC> example
+of<00:07:37.050><c> using</c></c><c.colorE5E5E5><00:07:37.410><c> text</c><00:07:37.890><c> to</c><00:07:38.130><c> actually</c><00:07:38.550><c> infer</c></c>
+
+00:07:38.840 --> 00:07:38.850 align:start position:0%
+<c.colorCCCCCC>of using</c><c.colorE5E5E5> text to actually infer
+ </c>
+
+00:07:38.850 --> 00:07:42.520 align:start position:0%
+<c.colorCCCCCC>of using</c><c.colorE5E5E5> text to actually infer
+properties<00:07:38.880><c> of</c><00:07:40.640><c> some</c><00:07:41.640><c> other</c><00:07:41.790><c> entities</c><00:07:42.270><c> and</c></c>
+
+00:07:42.520 --> 00:07:42.530 align:start position:0%
+properties of some other entities<c.colorE5E5E5> and
+ </c>
+
+00:07:42.530 --> 00:07:44.990 align:start position:0%
+properties of some other entities<c.colorE5E5E5> and
+there<00:07:43.530><c> are</c><00:07:43.710><c> also</c><00:07:43.830><c> many</c><00:07:44.040><c> variants</c><00:07:44.640><c> of</c><00:07:44.790><c> the</c></c>
+
+00:07:44.990 --> 00:07:45.000 align:start position:0%
+there are also many<c.colorE5E5E5> variants of the
+ </c>
+
+00:07:45.000 --> 00:07:48.170 align:start position:0%
+there are also many<c.colorE5E5E5> variants of the
+problem<00:07:45.360><c> formulation</c><00:07:46.350><c> and</c><00:07:46.560><c> so</c><00:07:47.490><c> first</c><00:07:47.790><c> we</c><00:07:48.060><c> have</c></c>
+
+00:07:48.170 --> 00:07:48.180 align:start position:0%
+problem<c.colorE5E5E5> formulation and so first we have
+ </c>
+
+00:07:48.180 --> 00:07:49.910 align:start position:0%
+problem<c.colorE5E5E5> formulation and so first we have</c>
+<c.colorE5E5E5>the<00:07:48.330><c> simplest</c><00:07:48.750><c> case</c><00:07:49.050><c> which</c><00:07:49.410><c> is</c><00:07:49.560><c> a</c><00:07:49.590><c> binary</c></c>
+
+00:07:49.910 --> 00:07:49.920 align:start position:0%
+<c.colorE5E5E5>the simplest case which is a binary
+ </c>
+
+00:07:49.920 --> 00:07:51.920 align:start position:0%
+<c.colorE5E5E5>the simplest case which is a binary
+calculation<00:07:50.910><c> where</c><00:07:51.060><c> there</c><00:07:51.270><c> are</c><00:07:51.420><c> like</c><00:07:51.660><c> two</c></c>
+
+00:07:51.920 --> 00:07:51.930 align:start position:0%
+calculation where there are<c.colorE5E5E5> like two
+ </c>
+
+00:07:51.930 --> 00:07:54.320 align:start position:0%
+calculation where there are<c.colorE5E5E5> like two
+categories<00:07:52.530><c> and</c><00:07:52.830><c> there</c><00:07:53.700><c> are</c><00:07:53.820><c> many</c></c><c.colorCCCCCC><00:07:54.000><c> examples</c></c>
+
+00:07:54.320 --> 00:07:54.330 align:start position:0%
+categories and there are many<c.colorCCCCCC> examples
+ </c>
+
+00:07:54.330 --> 00:07:56.300 align:start position:0%
+categories and there are many<c.colorCCCCCC> examples
+like</c><c.colorE5E5E5><00:07:54.570><c> that</c><00:07:54.690><c> information</c><00:07:55.680><c> retrieval</c><00:07:56.130><c> or</c></c>
+
+00:07:56.300 --> 00:07:56.310 align:start position:0%
+like<c.colorE5E5E5> that information retrieval or
+ </c>
+
+00:07:56.310 --> 00:08:00.530 align:start position:0%
+like<c.colorE5E5E5> that information retrieval or</c>
+<c.colorCCCCCC>search<00:07:57.060><c> engine</c><00:07:58.520><c> applications</c><00:07:59.520><c> would</c><00:08:00.180><c> want</c></c><c.colorE5E5E5><00:08:00.420><c> to</c></c>
+
+00:08:00.530 --> 00:08:00.540 align:start position:0%
+<c.colorCCCCCC>search engine applications would want</c><c.colorE5E5E5> to
+ </c>
+
+00:08:00.540 --> 00:08:03.170 align:start position:0%
+<c.colorCCCCCC>search engine applications would want</c><c.colorE5E5E5> to
+distinguish<00:08:01.500><c> relevant</c><00:08:02.100><c> documents</c><00:08:02.640><c> from</c><00:08:02.910><c> non</c></c>
+
+00:08:03.170 --> 00:08:03.180 align:start position:0%
+distinguish<c.colorE5E5E5> relevant documents from non
+ </c>
+
+00:08:03.180 --> 00:08:04.610 align:start position:0%
+distinguish<c.colorE5E5E5> relevant documents from non
+relevant<00:08:03.510><c> documents</c><00:08:04.020><c> for</c><00:08:04.200><c> to</c><00:08:04.350><c> keep</c></c><c.colorCCCCCC><00:08:04.470><c> track</c></c>
+
+00:08:04.610 --> 00:08:04.620 align:start position:0%
+relevant<c.colorE5E5E5> documents for to keep</c><c.colorCCCCCC> track
+ </c>
+
+00:08:04.620 --> 00:08:07.760 align:start position:0%
+relevant<c.colorE5E5E5> documents for to keep</c><c.colorCCCCCC> track</c>
+<c.colorE5E5E5>we're<00:08:04.830><c> a</c><00:08:05.270><c> spam</c><00:08:06.270><c> filter</c><00:08:06.510><c> is</c></c><c.colorCCCCCC><00:08:07.230><c> interested</c><00:08:07.740><c> in</c></c>
+
+00:08:07.760 --> 00:08:07.770 align:start position:0%
+<c.colorE5E5E5>we're a spam filter is</c><c.colorCCCCCC> interested in
+ </c>
+
+00:08:07.770 --> 00:08:10.130 align:start position:0%
+<c.colorE5E5E5>we're a spam filter is</c><c.colorCCCCCC> interested in
+distinguishing<00:08:08.220><c> spans</c><00:08:08.910><c> from</c><00:08:09.300><c> non</c><00:08:09.600><c> spams</c></c>
+
+00:08:10.130 --> 00:08:10.140 align:start position:0%
+distinguishing<c.colorCCCCCC> spans from non spams
+ </c>
+
+00:08:10.140 --> 00:08:13.570 align:start position:0%
+distinguishing<c.colorCCCCCC> spans from non spams
+so<00:08:10.380><c> also</c><00:08:10.560><c> two</c><00:08:10.890><c> categories</c><00:08:11.720><c> sometimes</c></c>
+
+00:08:13.570 --> 00:08:13.580 align:start position:0%
+so also<c.colorCCCCCC> two categories sometimes
+ </c>
+
+00:08:13.580 --> 00:08:15.440 align:start position:0%
+so also<c.colorCCCCCC> two categories sometimes</c>
+<c.colorE5E5E5>classification<00:08:14.580><c> of</c><00:08:14.670><c> opinions</c><00:08:15.150><c> can</c><00:08:15.420><c> be</c></c>
+
+00:08:15.440 --> 00:08:15.450 align:start position:0%
+<c.colorE5E5E5>classification of opinions can be
+ </c>
+
+00:08:15.450 --> 00:08:17.450 align:start position:0%
+<c.colorE5E5E5>classification of opinions can be</c>
+<c.colorE5E5E5>integrated<00:08:15.960><c> with</c><00:08:16.350><c> positive</c><00:08:17.190><c> and</c><00:08:17.370><c> a</c><00:08:17.430><c> negative</c></c>
+
+00:08:17.450 --> 00:08:17.460 align:start position:0%
+<c.colorE5E5E5>integrated with positive and a negative
+ </c>
+
+00:08:17.460 --> 00:08:20.660 align:start position:0%
+<c.colorE5E5E5>integrated with positive and a negative</c>
+<c.colorCCCCCC>a<00:08:18.380><c> more</c></c><c.colorE5E5E5><00:08:19.380><c> general</c><00:08:19.830><c> case</c><00:08:19.950><c> would</c><00:08:20.220><c> be</c></c><c.colorCCCCCC><00:08:20.250><c> key</c></c>
+
+00:08:20.660 --> 00:08:20.670 align:start position:0%
+<c.colorCCCCCC>a more</c><c.colorE5E5E5> general case would be</c><c.colorCCCCCC> key
+ </c>
+
+00:08:20.670 --> 00:08:22.340 align:start position:0%
+<c.colorCCCCCC>a more</c><c.colorE5E5E5> general case would be</c><c.colorCCCCCC> key
+category<00:08:21.210><c> categorization</c></c><c.colorE5E5E5><00:08:21.630><c> and</c><00:08:22.050><c> there</c><00:08:22.200><c> are</c></c>
+
+00:08:22.340 --> 00:08:22.350 align:start position:0%
+category categorization<c.colorE5E5E5> and there are
+ </c>
+
+00:08:22.350 --> 00:08:24.440 align:start position:0%
+category categorization<c.colorE5E5E5> and there are
+also<00:08:22.530><c> many</c><00:08:22.620><c> applications</c><00:08:23.400><c> like</c><00:08:23.670><c> that</c><00:08:23.910><c> there</c></c>
+
+00:08:24.440 --> 00:08:24.450 align:start position:0%
+also many<c.colorE5E5E5> applications like that there
+ </c>
+
+00:08:24.450 --> 00:08:26.810 align:start position:0%
+also many<c.colorE5E5E5> applications like that there
+could<00:08:24.600><c> be</c><00:08:24.630><c> more</c><00:08:24.900><c> than</c><00:08:24.960><c> two</c></c><c.colorCCCCCC><00:08:25.320><c> categories</c><00:08:25.920><c> so</c></c>
+
+00:08:26.810 --> 00:08:26.820 align:start position:0%
+could be more<c.colorE5E5E5> than two</c><c.colorCCCCCC> categories so
+ </c>
+
+00:08:26.820 --> 00:08:28.820 align:start position:0%
+could be more<c.colorE5E5E5> than two</c><c.colorCCCCCC> categories so</c>
+<c.colorCCCCCC>topical<00:08:27.330><c> categorization</c><00:08:27.660><c> is</c><00:08:28.140><c> often</c><00:08:28.620><c> such</c></c>
+
+00:08:28.820 --> 00:08:28.830 align:start position:0%
+<c.colorCCCCCC>topical categorization is often such
+ </c>
+
+00:08:28.830 --> 00:08:31.150 align:start position:0%
+<c.colorCCCCCC>topical categorization is often such
+example<00:08:29.490><c> where</c><00:08:29.730><c> you</c></c><c.colorE5E5E5><00:08:29.790><c> have</c><00:08:29.970><c> multiple</c><00:08:30.270><c> topics</c></c>
+
+00:08:31.150 --> 00:08:31.160 align:start position:0%
+example where you<c.colorE5E5E5> have multiple topics
+ </c>
+
+00:08:31.160 --> 00:08:32.900 align:start position:0%
+example where you<c.colorE5E5E5> have multiple topics
+email<00:08:32.160><c> routing</c></c>
+
+00:08:32.900 --> 00:08:32.910 align:start position:0%
+email routing
+ 
+
+00:08:32.910 --> 00:08:34.790 align:start position:0%
+email routing
+would<00:08:33.240><c> be</c><00:08:33.360><c> another</c><c.colorE5E5E5><00:08:33.600><c> example</c><00:08:33.780><c> when</c><00:08:34.350><c> you</c><00:08:34.680><c> may</c></c>
+
+00:08:34.790 --> 00:08:34.800 align:start position:0%
+would be another<c.colorE5E5E5> example when you may
+ </c>
+
+00:08:34.800 --> 00:08:36.620 align:start position:0%
+would be another<c.colorE5E5E5> example when you may
+have<00:08:34.920><c> multiple</c><00:08:35.100><c> folders</c></c><c.colorCCCCCC><00:08:35.729><c> or</c><00:08:36.000><c> if</c><00:08:36.240><c> you</c><00:08:36.360><c> route</c></c>
+
+00:08:36.620 --> 00:08:36.630 align:start position:0%
+have multiple folders<c.colorCCCCCC> or if you route
+ </c>
+
+00:08:36.630 --> 00:08:38.480 align:start position:0%
+have multiple folders<c.colorCCCCCC> or if you route
+the</c><c.colorE5E5E5><00:08:36.660><c> email</c><00:08:37.110><c> to</c><00:08:37.320><c> the</c><00:08:37.470><c> right</c><00:08:37.650><c> person</c></c><c.colorCCCCCC><00:08:37.920><c> to</c></c><c.colorE5E5E5><00:08:38.160><c> handle</c></c>
+
+00:08:38.480 --> 00:08:38.490 align:start position:0%
+the<c.colorE5E5E5> email to the right person</c><c.colorCCCCCC> to</c><c.colorE5E5E5> handle
+ </c>
+
+00:08:38.490 --> 00:08:42.520 align:start position:0%
+the<c.colorE5E5E5> email to the right person</c><c.colorCCCCCC> to</c><c.colorE5E5E5> handle
+it<00:08:38.790><c> then</c><00:08:39.420><c> there</c><00:08:39.690><c> are</c><00:08:39.840><c> multiple</c><00:08:40.410><c> people</c></c><c.colorCCCCCC><00:08:41.400><c> to</c></c>
+
+00:08:42.520 --> 00:08:42.530 align:start position:0%
+<c.colorE5E5E5>it then there are multiple people</c><c.colorCCCCCC> to
+ </c>
+
+00:08:42.530 --> 00:08:46.640 align:start position:0%
+<c.colorE5E5E5>it then there are multiple people</c><c.colorCCCCCC> to
+classify<00:08:43.880><c> so</c><00:08:44.880><c> in</c><00:08:45.630><c> all</c><00:08:45.810><c> these</c><00:08:45.960><c> cases</c><00:08:46.260><c> there</c><00:08:46.560><c> are</c></c>
+
+00:08:46.640 --> 00:08:46.650 align:start position:0%
+classify so in all these<c.colorCCCCCC> cases there are
+ </c>
+
+00:08:46.650 --> 00:08:47.050 align:start position:0%
+classify so in all these<c.colorCCCCCC> cases there are
+more<00:08:46.860><c> than</c></c>
+
+00:08:47.050 --> 00:08:47.060 align:start position:0%
+more than
+ 
+
+00:08:47.060 --> 00:08:50.140 align:start position:0%
+more than
+<c.colorE5E5E5>two<00:08:47.180><c> categories</c><00:08:48.460><c> another</c><00:08:49.460><c> variation</c><00:08:49.850><c> is</c></c><c.colorCCCCCC><00:08:50.060><c> to</c></c>
+
+00:08:50.140 --> 00:08:50.150 align:start position:0%
+<c.colorE5E5E5>two categories another variation is</c><c.colorCCCCCC> to
+ </c>
+
+00:08:50.150 --> 00:08:52.480 align:start position:0%
+<c.colorE5E5E5>two categories another variation is</c><c.colorCCCCCC> to</c>
+<c.colorE5E5E5>have<00:08:50.420><c> hierarchical</c><00:08:51.140><c> categorization</c><00:08:51.560><c> where</c></c>
+
+00:08:52.480 --> 00:08:52.490 align:start position:0%
+<c.colorE5E5E5>have hierarchical categorization where
+ </c>
+
+00:08:52.490 --> 00:08:54.820 align:start position:0%
+<c.colorE5E5E5>have hierarchical categorization where
+category<00:08:53.000><c> is</c><00:08:53.060><c> a</c><00:08:53.120><c> form</c><00:08:53.360><c> of</c><00:08:53.480><c> hierarchy</c><00:08:53.830><c> again</c></c>
+
+00:08:54.820 --> 00:08:54.830 align:start position:0%
+category is a form of<c.colorE5E5E5> hierarchy again
+ </c>
+
+00:08:54.830 --> 00:08:58.300 align:start position:0%
+category is a form of<c.colorE5E5E5> hierarchy again
+topical<00:08:55.430><c> hierarchy</c><00:08:55.850><c> is</c></c><c.colorCCCCCC><00:08:55.940><c> very</c><00:08:56.180><c> common</c><00:08:57.310><c> yet</c></c>
+
+00:08:58.300 --> 00:08:58.310 align:start position:0%
+<c.colorE5E5E5>topical hierarchy is</c><c.colorCCCCCC> very common yet
+ </c>
+
+00:08:58.310 --> 00:08:59.860 align:start position:0%
+<c.colorE5E5E5>topical hierarchy is</c><c.colorCCCCCC> very common yet</c>
+<c.colorE5E5E5>another</c><c.colorCCCCCC><00:08:58.640><c> variations</c><00:08:59.300><c> join</c><00:08:59.690><c> the</c></c>
+
+00:08:59.860 --> 00:08:59.870 align:start position:0%
+<c.colorE5E5E5>another</c><c.colorCCCCCC> variations join the
+ </c>
+
+00:08:59.870 --> 00:09:01.630 align:start position:0%
+<c.colorE5E5E5>another</c><c.colorCCCCCC> variations join the
+categorization<00:09:00.230><c> that's</c><00:09:00.890><c> when</c><00:09:01.279><c> you</c><00:09:01.490><c> have</c></c>
+
+00:09:01.630 --> 00:09:01.640 align:start position:0%
+categorization<c.colorCCCCCC> that's when you have
+ </c>
+
+00:09:01.640 --> 00:09:03.400 align:start position:0%
+categorization<c.colorCCCCCC> that's when you have
+multiple<00:09:01.820><c> categorization</c><00:09:02.450><c> tasker's</c></c><c.colorE5E5E5><00:09:03.140><c> about</c></c>
+
+00:09:03.400 --> 00:09:03.410 align:start position:0%
+multiple categorization<c.colorCCCCCC> tasker's</c><c.colorE5E5E5> about
+ </c>
+
+00:09:03.410 --> 00:09:05.890 align:start position:0%
+multiple categorization<c.colorCCCCCC> tasker's</c><c.colorE5E5E5> about
+related<00:09:03.980><c> and</c><00:09:04.250><c> then</c><00:09:04.730><c> you</c><00:09:04.850><c> hope</c><00:09:05.029><c> to</c><00:09:05.060><c> kind</c><00:09:05.510><c> of</c><00:09:05.690><c> do</c></c>
+
+00:09:05.890 --> 00:09:05.900 align:start position:0%
+related and then you hope to<c.colorE5E5E5> kind of do
+ </c>
+
+00:09:05.900 --> 00:09:09.310 align:start position:0%
+related and then you hope to<c.colorE5E5E5> kind of do
+join<00:09:06.290><c> the</c><00:09:06.610><c> categories</c><00:09:07.610><c> try</c><00:09:08.240><c> to</c><00:09:08.300><c> leverage</c></c><c.colorCCCCCC><00:09:08.600><c> the</c></c>
+
+00:09:09.310 --> 00:09:09.320 align:start position:0%
+join the<c.colorE5E5E5> categories try to leverage</c><c.colorCCCCCC> the
+ </c>
+
+00:09:09.320 --> 00:09:11.800 align:start position:0%
+join the<c.colorE5E5E5> categories try to leverage</c><c.colorCCCCCC> the
+dependency<00:09:09.980><c> of</c><00:09:10.100><c> these</c><00:09:10.550><c> tasks</c><00:09:11.089><c> to</c></c><c.colorE5E5E5><00:09:11.270><c> improve</c></c>
+
+00:09:11.800 --> 00:09:11.810 align:start position:0%
+dependency of these tasks to<c.colorE5E5E5> improve
+ </c>
+
+00:09:11.810 --> 00:09:15.250 align:start position:0%
+dependency of these tasks to<c.colorE5E5E5> improve
+accuracy</c><c.colorCCCCCC><00:09:12.310><c> for</c></c><c.colorE5E5E5><00:09:13.310><c> each</c><00:09:13.430><c> individual</c><00:09:13.970><c> task</c><00:09:14.260><c> now</c></c>
+
+00:09:15.250 --> 00:09:15.260 align:start position:0%
+accuracy<c.colorCCCCCC> for</c><c.colorE5E5E5> each individual task now
+ </c>
+
+00:09:15.260 --> 00:09:17.800 align:start position:0%
+accuracy<c.colorCCCCCC> for</c><c.colorE5E5E5> each individual task now
+among<00:09:15.620><c> all</c><00:09:16.010><c> these</c><00:09:16.250><c> binary</c><00:09:16.700><c> categorization</c><00:09:17.330><c> is</c></c>
+
+00:09:17.800 --> 00:09:17.810 align:start position:0%
+among all these binary categorization is
+ 
+
+00:09:17.810 --> 00:09:21.000 align:start position:0%
+among all these binary categorization is
+most<00:09:18.170><c> fundamental</c><00:09:18.860><c> and</c><00:09:19.240><c> partly</c><00:09:20.240><c> also</c><c.colorCCCCCC><00:09:20.270><c> because</c></c>
+
+00:09:21.000 --> 00:09:21.010 align:start position:0%
+most fundamental and partly also<c.colorCCCCCC> because
+ </c>
+
+00:09:21.010 --> 00:09:25.120 align:start position:0%
+most fundamental and partly also<c.colorCCCCCC> because
+it's</c><c.colorE5E5E5><00:09:22.010><c> a</c><00:09:22.520><c> simple</c><00:09:23.270><c> and</c><00:09:23.420><c> partly</c><00:09:23.870><c> it's</c><00:09:24.230><c> because</c><00:09:24.320><c> it</c></c>
+
+00:09:25.120 --> 00:09:25.130 align:start position:0%
+it's<c.colorE5E5E5> a simple and partly it's because it
+ </c>
+
+00:09:25.130 --> 00:09:28.390 align:start position:0%
+it's<c.colorE5E5E5> a simple and partly it's because it
+can</c><c.colorCCCCCC><00:09:25.520><c> actually</c></c><c.colorE5E5E5><00:09:25.760><c> be</c><00:09:26.180><c> used</c></c><c.colorCCCCCC><00:09:26.210><c> to</c></c><c.colorE5E5E5><00:09:26.830><c> perform</c><00:09:27.830><c> all</c><00:09:28.220><c> the</c></c>
+
+00:09:28.390 --> 00:09:28.400 align:start position:0%
+can<c.colorCCCCCC> actually</c><c.colorE5E5E5> be used</c><c.colorCCCCCC> to</c><c.colorE5E5E5> perform all the
+ </c>
+
+00:09:28.400 --> 00:09:31.780 align:start position:0%
+can<c.colorCCCCCC> actually</c><c.colorE5E5E5> be used</c><c.colorCCCCCC> to</c><c.colorE5E5E5> perform all the
+other<00:09:28.550><c> categories</c><00:09:29.150><c> in</c><00:09:29.600><c> tasks</c><00:09:30.100><c> for</c><00:09:31.100><c> example</c><00:09:31.130><c> on</c></c>
+
+00:09:31.780 --> 00:09:31.790 align:start position:0%
+other categories in tasks for example on
+ 
+
+00:09:31.790 --> 00:09:34.210 align:start position:0%
+other categories in tasks for example on
+<c.colorCCCCCC>K<00:09:32.120><c> category</c><00:09:32.690><c> categorization</c><00:09:33.170><c> task</c><00:09:33.710><c> can</c><00:09:34.190><c> be</c></c>
+
+00:09:34.210 --> 00:09:34.220 align:start position:0%
+<c.colorCCCCCC>K category categorization task can be
+ </c>
+
+00:09:34.220 --> 00:09:37.690 align:start position:0%
+<c.colorCCCCCC>K category categorization task can be</c>
+<c.colorE5E5E5>actually<00:09:34.640><c> performed</c><00:09:35.360><c> by</c></c><c.colorCCCCCC><00:09:36.010><c> using</c><00:09:37.010><c> binary</c></c>
+
+00:09:37.690 --> 00:09:37.700 align:start position:0%
+<c.colorE5E5E5>actually performed by</c><c.colorCCCCCC> using binary
+ </c>
+
+00:09:37.700 --> 00:09:41.140 align:start position:0%
+<c.colorE5E5E5>actually performed by</c><c.colorCCCCCC> using binary
+calculation<00:09:38.660><c> and</c><00:09:39.370><c> basically</c></c><c.colorE5E5E5><00:09:40.370><c> we</c><00:09:40.640><c> can</c><00:09:40.790><c> look</c><00:09:40.970><c> at</c></c>
+
+00:09:41.140 --> 00:09:41.150 align:start position:0%
+calculation and basically<c.colorE5E5E5> we can look at
+ </c>
+
+00:09:41.150 --> 00:09:43.810 align:start position:0%
+calculation and basically<c.colorE5E5E5> we can look at
+each<00:09:41.300><c> category</c><00:09:41.990><c> separately</c><00:09:42.740><c> and</c><00:09:42.920><c> then</c><00:09:43.490><c> the</c></c>
+
+00:09:43.810 --> 00:09:43.820 align:start position:0%
+each category<c.colorE5E5E5> separately and then the
+ </c>
+
+00:09:43.820 --> 00:09:46.450 align:start position:0%
+each category<c.colorE5E5E5> separately and then the
+binary</c><c.colorCCCCCC><00:09:44.060><c> catherization</c><00:09:44.630><c> problem</c><00:09:45.230><c> is</c><00:09:45.500><c> whether</c></c>
+
+00:09:46.450 --> 00:09:46.460 align:start position:0%
+binary<c.colorCCCCCC> catherization problem is whether
+ </c>
+
+00:09:46.460 --> 00:09:49.380 align:start position:0%
+binary<c.colorCCCCCC> catherization problem is whether
+object<00:09:47.240><c> is</c><00:09:47.540><c> in</c><00:09:48.020><c> this</c></c><c.colorE5E5E5><00:09:48.290><c> category</c><00:09:48.680><c> or</c><00:09:48.980><c> not</c></c>
+
+00:09:49.380 --> 00:09:49.390 align:start position:0%
+object is in this<c.colorE5E5E5> category or not
+ </c>
+
+00:09:49.390 --> 00:09:53.890 align:start position:0%
+object is in this<c.colorE5E5E5> category or not</c>
+<c.colorCCCCCC>meaning<00:09:50.390><c> in</c><00:09:50.660><c> other</c></c><c.colorE5E5E5><00:09:50.960><c> categories</c><00:09:52.240><c> and</c><00:09:53.240><c> the</c></c>
+
+00:09:53.890 --> 00:09:53.900 align:start position:0%
+<c.colorCCCCCC>meaning in other</c><c.colorE5E5E5> categories and the
+ </c>
+
+00:09:53.900 --> 00:09:56.560 align:start position:0%
+<c.colorCCCCCC>meaning in other</c><c.colorE5E5E5> categories and the
+hierarchical<00:09:54.500><c> category</c><00:09:55.400><c> categorization</c><00:09:55.970><c> can</c></c>
+
+00:09:56.560 --> 00:09:56.570 align:start position:0%
+hierarchical category<c.colorE5E5E5> categorization can
+ </c>
+
+00:09:56.570 --> 00:10:00.579 align:start position:0%
+hierarchical category<c.colorE5E5E5> categorization can
+also<00:09:56.750><c> be</c><00:09:57.020><c> done</c></c><c.colorCCCCCC><00:09:57.290><c> by</c><00:09:57.700><c> progressively</c><00:09:59.110><c> doing</c><00:10:00.110><c> a</c></c>
+
+00:10:00.579 --> 00:10:00.589 align:start position:0%
+also be done<c.colorCCCCCC> by progressively doing a
+ </c>
+
+00:10:00.589 --> 00:10:04.480 align:start position:0%
+also be done<c.colorCCCCCC> by progressively doing a
+flat</c><c.colorE5E5E5><00:10:01.280><c> categorization</c></c><c.colorCCCCCC><00:10:01.820><c> at</c><00:10:02.300><c> each</c><00:10:03.140><c> level</c></c><c.colorE5E5E5><00:10:03.440><c> so</c><00:10:04.370><c> we</c></c>
+
+00:10:04.480 --> 00:10:04.490 align:start position:0%
+flat<c.colorE5E5E5> categorization</c><c.colorCCCCCC> at each level</c><c.colorE5E5E5> so we
+ </c>
+
+00:10:04.490 --> 00:10:06.340 align:start position:0%
+flat<c.colorE5E5E5> categorization</c><c.colorCCCCCC> at each level</c><c.colorE5E5E5> so we</c>
+<c.colorCCCCCC>can<00:10:04.640><c> first</c><00:10:04.850><c> categorize</c><00:10:05.450><c> all</c><00:10:05.750><c> the</c><00:10:05.900><c> objects</c><00:10:06.230><c> in</c></c>
+
+00:10:06.340 --> 00:10:06.350 align:start position:0%
+<c.colorCCCCCC>can first categorize all the objects in
+ </c>
+
+00:10:06.350 --> 00:10:08.170 align:start position:0%
+<c.colorCCCCCC>can first categorize all the objects in
+tune<00:10:06.589><c> it's</c></c><c.colorE5E5E5><00:10:06.800><c> a</c><00:10:07.040><c> small</c><00:10:07.339><c> number</c><00:10:07.520><c> of</c></c><c.colorCCCCCC><00:10:07.730><c> high-level</c></c>
+
+00:10:08.170 --> 00:10:08.180 align:start position:0%
+<c.colorCCCCCC>tune it's</c><c.colorE5E5E5> a small number of</c><c.colorCCCCCC> high-level
+ </c>
+
+00:10:08.180 --> 00:10:10.720 align:start position:0%
+<c.colorCCCCCC>tune it's</c><c.colorE5E5E5> a small number of</c><c.colorCCCCCC> high-level
+categories</c><c.colorE5E5E5><00:10:08.600><c> and</c><00:10:09.170><c> then</c><00:10:09.350><c> inside</c><00:10:09.830><c> each</c><00:10:09.890><c> category</c></c>
+
+00:10:10.720 --> 00:10:10.730 align:start position:0%
+<c.colorCCCCCC>categories</c><c.colorE5E5E5> and then inside each category
+ </c>
+
+00:10:10.730 --> 00:10:12.520 align:start position:0%
+<c.colorCCCCCC>categories</c><c.colorE5E5E5> and then inside each category
+we<00:10:11.120><c> can</c><00:10:11.210><c> further</c><00:10:11.480><c> categorize</c><00:10:12.080><c> into</c></c>
+
+00:10:12.520 --> 00:10:12.530 align:start position:0%
+we can<c.colorE5E5E5> further categorize into
+ </c>
+
+00:10:12.530 --> 00:10:15.970 align:start position:0%
+we can<c.colorE5E5E5> further categorize into
+subcategories<00:10:12.950><c> etc</c><00:10:14.080><c> so</c><00:10:15.080><c> why</c><00:10:15.380><c> is</c><00:10:15.440><c> text</c></c>
+
+00:10:15.970 --> 00:10:15.980 align:start position:0%
+<c.colorE5E5E5>subcategories etc so why is text
+ </c>
+
+00:10:15.980 --> 00:10:17.980 align:start position:0%
+<c.colorE5E5E5>subcategories etc so why is text
+conversion<00:10:16.370><c> important</c></c><c.colorCCCCCC><00:10:16.940><c> I</c><00:10:17.150><c> already</c><00:10:17.600><c> show</c><00:10:17.810><c> that</c></c>
+
+00:10:17.980 --> 00:10:17.990 align:start position:0%
+conversion important<c.colorCCCCCC> I already show that
+ </c>
+
+00:10:17.990 --> 00:10:20.410 align:start position:0%
+conversion important<c.colorCCCCCC> I already show that
+you<00:10:18.050><c> are</c><00:10:18.080><c> several</c></c><c.colorE5E5E5><00:10:18.800><c> applications</c><00:10:19.339><c> but</c><00:10:20.270><c> in</c></c>
+
+00:10:20.410 --> 00:10:20.420 align:start position:0%
+you are several<c.colorE5E5E5> applications but in
+ </c>
+
+00:10:20.420 --> 00:10:23.850 align:start position:0%
+you are several<c.colorE5E5E5> applications but in
+general<00:10:21.020><c> there</c><00:10:21.260><c> are</c><00:10:21.760><c> several</c><00:10:22.760><c> reasons</c><00:10:23.210><c> one</c><00:10:23.540><c> is</c></c>
+
+00:10:23.850 --> 00:10:23.860 align:start position:0%
+general there are several<c.colorE5E5E5> reasons one is
+ </c>
+
+00:10:23.860 --> 00:10:26.440 align:start position:0%
+general there are several<c.colorE5E5E5> reasons one is</c>
+<c.colorCCCCCC>textile</c><c.colorE5E5E5><00:10:24.860><c> categorization</c><00:10:25.250><c> helps</c><00:10:25.850><c> us</c><00:10:26.000><c> enrich</c></c>
+
+00:10:26.440 --> 00:10:26.450 align:start position:0%
+<c.colorCCCCCC>textile</c><c.colorE5E5E5> categorization helps us enrich
+ </c>
+
+00:10:26.450 --> 00:10:29.079 align:start position:0%
+<c.colorCCCCCC>textile</c><c.colorE5E5E5> categorization helps us enrich
+attacks<00:10:26.780><c> of</c><00:10:26.930><c> representation</c><00:10:27.560><c> and</c><00:10:27.740><c> that's</c><00:10:28.580><c> to</c></c>
+
+00:10:29.079 --> 00:10:29.089 align:start position:0%
+<c.colorE5E5E5>attacks of representation and that's to
+ </c>
+
+00:10:29.089 --> 00:10:31.180 align:start position:0%
+<c.colorE5E5E5>attacks of representation and that's to
+achieve<00:10:29.600><c> more</c><00:10:29.900><c> understanding</c><00:10:30.500><c> of</c><00:10:30.589><c> text</c><00:10:31.010><c> data</c></c>
+
+00:10:31.180 --> 00:10:31.190 align:start position:0%
+achieve more understanding of text data
+ 
+
+00:10:31.190 --> 00:10:34.050 align:start position:0%
+achieve more understanding of text data
+<c.colorCCCCCC>that's<00:10:31.730><c> always</c></c><c.colorE5E5E5><00:10:31.940><c> useful</c><00:10:32.270><c> for</c><00:10:32.720><c> text</c><00:10:33.020><c> analysis</c></c>
+
+00:10:34.050 --> 00:10:34.060 align:start position:0%
+<c.colorCCCCCC>that's always</c><c.colorE5E5E5> useful for text analysis
+ </c>
+
+00:10:34.060 --> 00:10:36.910 align:start position:0%
+<c.colorCCCCCC>that's always</c><c.colorE5E5E5> useful for text analysis
+so<00:10:35.060><c> now</c><00:10:35.390><c> with</c><00:10:35.660><c> categorization</c><00:10:36.080><c> text</c><00:10:36.650><c> can</c><00:10:36.890><c> be</c></c>
+
+00:10:36.910 --> 00:10:36.920 align:start position:0%
+so now with categorization text can be
+ 
+
+00:10:36.920 --> 00:10:39.340 align:start position:0%
+so now with categorization text can be
+<c.colorE5E5E5>represented<00:10:37.820><c> in</c><00:10:37.880><c> multiple</c><00:10:38.120><c> levels</c><00:10:38.570><c> meaning</c></c>
+
+00:10:39.340 --> 00:10:39.350 align:start position:0%
+<c.colorE5E5E5>represented in multiple levels meaning
+ </c>
+
+00:10:39.350 --> 00:10:42.400 align:start position:0%
+<c.colorE5E5E5>represented in multiple levels meaning
+keyword<00:10:40.100><c> a</c><00:10:40.459><c> bag</c><00:10:41.209><c> of</c><00:10:41.390><c> words</c><00:10:41.630><c> replenishing</c></c>
+
+00:10:42.400 --> 00:10:42.410 align:start position:0%
+<c.colorE5E5E5>keyword a bag of words replenishing
+ </c>
+
+00:10:42.410 --> 00:10:45.940 align:start position:0%
+<c.colorE5E5E5>keyword a bag of words replenishing
+that's<00:10:42.740><c> often</c><00:10:43.070><c> used</c><00:10:43.100><c> for</c><00:10:43.540><c> a</c><00:10:44.540><c> lot</c><00:10:44.720><c> of</c><00:10:44.750><c> text</c><00:10:45.170><c> text</c></c>
+
+00:10:45.940 --> 00:10:45.950 align:start position:0%
+that's often used<c.colorE5E5E5> for a lot of text text
+ </c>
+
+00:10:45.950 --> 00:10:48.430 align:start position:0%
+that's often used<c.colorE5E5E5> for a lot of text text
+processing<00:10:46.130><c> tasks</c><00:10:46.820><c> but</c><00:10:47.420><c> we</c><00:10:47.540><c> can</c><00:10:47.720><c> also</c><00:10:48.080><c> add</c></c><c.colorCCCCCC><00:10:48.410><c> a</c></c>
+
+00:10:48.430 --> 00:10:48.440 align:start position:0%
+processing tasks<c.colorE5E5E5> but we can also add</c><c.colorCCCCCC> a
+ </c>
+
+00:10:48.440 --> 00:10:51.160 align:start position:0%
+processing tasks<c.colorE5E5E5> but we can also add</c><c.colorCCCCCC> a
+categories<00:10:49.070><c> and</c><00:10:49.310><c> they</c><00:10:49.640><c> provide</c></c><c.colorE5E5E5><00:10:50.029><c> a</c><00:10:50.060><c> two</c><00:10:50.779><c> levels</c></c>
+
+00:10:51.160 --> 00:10:51.170 align:start position:0%
+categories and they provide<c.colorE5E5E5> a two levels
+ </c>
+
+00:10:51.170 --> 00:10:55.009 align:start position:0%
+categories and they provide<c.colorE5E5E5> a two levels
+of</c><c.colorCCCCCC><00:10:51.459><c> representation</c></c>
+
+00:10:55.009 --> 00:10:55.019 align:start position:0%
+ 
+ 
+
+00:10:55.019 --> 00:10:57.540 align:start position:0%
+ 
+<c.colorCCCCCC>cementec<00:10:56.019><c> your</c><00:10:56.110><c> categories</c><00:10:56.620><c> assigned</c><00:10:57.220><c> that</c></c>
+
+00:10:57.540 --> 00:10:57.550 align:start position:0%
+<c.colorCCCCCC>cementec your categories assigned that
+ </c>
+
+00:10:57.550 --> 00:10:59.220 align:start position:0%
+<c.colorCCCCCC>cementec your categories assigned that
+can<00:10:57.759><c> also</c><00:10:57.939><c> be</c><00:10:58.089><c> directly</c><00:10:58.749><c> or</c><00:10:58.899><c> indirectly</c></c>
+
+00:10:59.220 --> 00:10:59.230 align:start position:0%
+can also be<c.colorCCCCCC> directly or indirectly
+ </c>
+
+00:10:59.230 --> 00:11:01.799 align:start position:0%
+can also be<c.colorCCCCCC> directly or indirectly
+useful<00:10:59.889><c> for</c><00:11:00.069><c> application</c></c><c.colorE5E5E5><00:11:00.610><c> so</c><00:11:01.209><c> for</c><00:11:01.389><c> example</c></c>
+
+00:11:01.799 --> 00:11:01.809 align:start position:0%
+useful for application<c.colorE5E5E5> so for example
+ </c>
+
+00:11:01.809 --> 00:11:03.329 align:start position:0%
+useful for application<c.colorE5E5E5> so for example
+sending<00:11:02.259><c> in</c><00:11:02.350><c> the</c><00:11:02.439><c> categories</c><00:11:02.860><c> could</c><00:11:03.189><c> be</c></c>
+
+00:11:03.329 --> 00:11:03.339 align:start position:0%
+sending in the categories could be
+ 
+
+00:11:03.339 --> 00:11:06.780 align:start position:0%
+sending in the categories could be
+already<c.colorE5E5E5><00:11:03.759><c> very</c><00:11:04.059><c> useful</c><00:11:04.540><c> or</c><00:11:04.949><c> also</c><00:11:05.949><c> attribution</c></c>
+
+00:11:06.780 --> 00:11:06.790 align:start position:0%
+already<c.colorE5E5E5> very useful or also attribution
+ </c>
+
+00:11:06.790 --> 00:11:12.689 align:start position:0%
+already<c.colorE5E5E5> very useful or also attribution
+might<00:11:07.059><c> be</c><00:11:07.629><c> directly</c><00:11:08.079><c> useful</c><00:11:08.879><c> and</c><00:11:11.699><c> another</c></c>
+
+00:11:12.689 --> 00:11:12.699 align:start position:0%
+<c.colorE5E5E5>might be directly useful and another
+ </c>
+
+00:11:12.699 --> 00:11:16.139 align:start position:0%
+<c.colorE5E5E5>might be directly useful and another
+example</c><c.colorCCCCCC><00:11:12.819><c> is</c><00:11:13.559><c> when</c><00:11:14.639><c> semantical</c><00:11:15.639><c> categories</c></c>
+
+00:11:16.139 --> 00:11:16.149 align:start position:0%
+example<c.colorCCCCCC> is when semantical categories
+ </c>
+
+00:11:16.149 --> 00:11:19.139 align:start position:0%
+example<c.colorCCCCCC> is when semantical categories</c>
+<c.colorE5E5E5>can<00:11:17.110><c> facilitate</c><00:11:17.579><c> aggregation</c><00:11:18.579><c> of</c><00:11:18.699><c> text</c></c>
+
+00:11:19.139 --> 00:11:19.149 align:start position:0%
+<c.colorE5E5E5>can facilitate aggregation of text
+ </c>
+
+00:11:19.149 --> 00:11:22.280 align:start position:0%
+<c.colorE5E5E5>can facilitate aggregation of text
+content<00:11:19.600><c> and</c><00:11:19.809><c> this</c><00:11:20.050><c> is</c><00:11:20.199><c> another</c><00:11:20.439><c> case</c><00:11:20.709><c> of</c></c>
+
+00:11:22.280 --> 00:11:22.290 align:start position:0%
+content and this is another<c.colorE5E5E5> case of
+ </c>
+
+00:11:22.290 --> 00:11:26.069 align:start position:0%
+content and this is another<c.colorE5E5E5> case of
+applications<00:11:23.290><c> of</c><00:11:23.499><c> text</c><00:11:24.069><c> categorization</c></c><c.colorCCCCCC><00:11:25.079><c> for</c></c>
+
+00:11:26.069 --> 00:11:26.079 align:start position:0%
+applications of text categorization<c.colorCCCCCC> for
+ </c>
+
+00:11:26.079 --> 00:11:27.960 align:start position:0%
+applications of text categorization<c.colorCCCCCC> for
+example<00:11:26.529><c> we</c><00:11:26.800><c> if</c><00:11:27.220><c> we</c></c><c.colorE5E5E5><00:11:27.399><c> want</c><00:11:27.550><c> to</c><00:11:27.670><c> know</c><00:11:27.790><c> the</c></c>
+
+00:11:27.960 --> 00:11:27.970 align:start position:0%
+example we if we<c.colorE5E5E5> want to know the
+ </c>
+
+00:11:27.970 --> 00:11:31.160 align:start position:0%
+example we if we<c.colorE5E5E5> want to know the
+overall<00:11:28.300><c> opinions</c><00:11:28.809><c> about</c></c><c.colorCCCCCC><00:11:29.079><c> a</c></c><c.colorE5E5E5><00:11:29.290><c> product</c><00:11:29.980><c> we</c></c>
+
+00:11:31.160 --> 00:11:31.170 align:start position:0%
+overall opinions about<c.colorCCCCCC> a</c><c.colorE5E5E5> product we
+ </c>
+
+00:11:31.170 --> 00:11:35.220 align:start position:0%
+overall opinions about<c.colorCCCCCC> a</c><c.colorE5E5E5> product we
+could<00:11:32.170><c> first</c><00:11:32.879><c> categorize</c><00:11:33.879><c> the</c><00:11:34.540><c> opinions</c><00:11:35.110><c> in</c></c>
+
+00:11:35.220 --> 00:11:35.230 align:start position:0%
+could first<c.colorE5E5E5> categorize the opinions in
+ </c>
+
+00:11:35.230 --> 00:11:38.939 align:start position:0%
+could first<c.colorE5E5E5> categorize the opinions in</c>
+<c.colorE5E5E5>each<00:11:35.620><c> individual</c><00:11:36.309><c> review</c><00:11:36.819><c> as</c><00:11:37.800><c> positive</c><00:11:38.800><c> or</c></c>
+
+00:11:38.939 --> 00:11:38.949 align:start position:0%
+<c.colorE5E5E5>each individual review as positive or
+ </c>
+
+00:11:38.949 --> 00:11:41.369 align:start position:0%
+<c.colorE5E5E5>each individual review as positive or
+negative<00:11:39.370><c> and</c><00:11:39.730><c> then</c><00:11:40.029><c> that</c><00:11:40.449><c> would</c><00:11:40.629><c> allow</c></c><c.colorCCCCCC><00:11:41.050><c> us</c><00:11:41.170><c> to</c></c>
+
+00:11:41.369 --> 00:11:41.379 align:start position:0%
+negative and then that would allow<c.colorCCCCCC> us to
+ </c>
+
+00:11:41.379 --> 00:11:45.090 align:start position:0%
+negative and then that would allow<c.colorCCCCCC> us to
+easily<00:11:41.529><c> aggregate</c><00:11:42.339><c> all</c><00:11:42.610><c> the</c><00:11:43.139><c> sentiments</c></c><c.colorE5E5E5><00:11:44.139><c> and</c></c>
+
+00:11:45.090 --> 00:11:45.100 align:start position:0%
+easily aggregate all the sentiments<c.colorE5E5E5> and
+ </c>
+
+00:11:45.100 --> 00:11:49.920 align:start position:0%
+easily aggregate all the sentiments<c.colorE5E5E5> and
+the</c><c.colorCCCCCC><00:11:45.939><c> hotels</c><00:11:46.589><c> about</c><00:11:47.589><c> the</c><00:11:47.740><c> 70%</c></c><c.colorE5E5E5><00:11:48.129><c> of</c><00:11:48.550><c> the</c><00:11:48.970><c> reviews</c></c>
+
+00:11:49.920 --> 00:11:49.930 align:start position:0%
+<c.colorE5E5E5>the</c><c.colorCCCCCC> hotels about the 70%</c><c.colorE5E5E5> of the reviews
+ </c>
+
+00:11:49.930 --> 00:11:51.780 align:start position:0%
+<c.colorE5E5E5>the</c><c.colorCCCCCC> hotels about the 70%</c><c.colorE5E5E5> of the reviews
+are<00:11:50.199><c> positive</c><00:11:50.410><c> and</c></c><c.colorCCCCCC><00:11:50.920><c> Phillips</c><00:11:51.399><c> and</c><00:11:51.610><c> not</c></c>
+
+00:11:51.780 --> 00:11:51.790 align:start position:0%
+are positive and<c.colorCCCCCC> Phillips and not
+ </c>
+
+00:11:51.790 --> 00:11:54.809 align:start position:0%
+are positive and<c.colorCCCCCC> Phillips and not</c>
+<c.colorE5E5E5>negative</c><c.colorCCCCCC><00:11:52.300><c> etc</c><00:11:52.930><c> so</c><00:11:53.889><c> without</c></c><c.colorE5E5E5><00:11:54.339><c> doing</c></c>
+
+00:11:54.809 --> 00:11:54.819 align:start position:0%
+<c.colorE5E5E5>negative</c><c.colorCCCCCC> etc so without</c><c.colorE5E5E5> doing
+ </c>
+
+00:11:54.819 --> 00:11:56.790 align:start position:0%
+<c.colorE5E5E5>negative</c><c.colorCCCCCC> etc so without</c><c.colorE5E5E5> doing
+categorization<00:11:55.329><c> will</c><00:11:55.720><c> be</c><00:11:55.870><c> much</c><00:11:56.350><c> harder</c><00:11:56.649><c> to</c></c>
+
+00:11:56.790 --> 00:11:56.800 align:start position:0%
+categorization will be much<c.colorE5E5E5> harder to
+ </c>
+
+00:11:56.800 --> 00:12:01.199 align:start position:0%
+categorization will be much<c.colorE5E5E5> harder to
+aggregate<00:11:57.730><c> such</c><00:11:58.180><c> opinions</c><00:11:59.459><c> so</c><00:12:00.459><c> it</c><00:12:00.550><c> provides</c><00:12:00.939><c> a</c></c>
+
+00:12:01.199 --> 00:12:01.209 align:start position:0%
+aggregate such opinions so it provides a
+ 
+
+00:12:01.209 --> 00:12:04.889 align:start position:0%
+aggregate such opinions so it provides a
+concise<c.colorCCCCCC><00:12:02.019><c> way</c><00:12:02.350><c> of</c><00:12:02.579><c> coding</c></c><c.colorE5E5E5><00:12:03.579><c> text</c><00:12:04.179><c> in</c><00:12:04.449><c> some</c><00:12:04.660><c> sense</c></c>
+
+00:12:04.889 --> 00:12:04.899 align:start position:0%
+concise<c.colorCCCCCC> way of coding</c><c.colorE5E5E5> text in some sense
+ </c>
+
+00:12:04.899 --> 00:12:08.369 align:start position:0%
+concise<c.colorCCCCCC> way of coding</c><c.colorE5E5E5> text in some sense
+based<00:12:05.589><c> on</c><00:12:05.800><c> our</c><00:12:06.009><c> vocabulary</c><00:12:06.790><c> and</c><00:12:07.720><c> sometimes</c></c>
+
+00:12:08.369 --> 00:12:08.379 align:start position:0%
+based on<c.colorE5E5E5> our vocabulary and sometimes
+ </c>
+
+00:12:08.379 --> 00:12:11.100 align:start position:0%
+based on<c.colorE5E5E5> our vocabulary and sometimes
+you<00:12:08.529><c> may</c></c><c.colorCCCCCC><00:12:08.709><c> see</c><00:12:08.769><c> in</c><00:12:09.040><c> some</c><00:12:09.220><c> applications</c><00:12:10.019><c> text</c></c><c.colorE5E5E5><00:12:11.019><c> of</c></c>
+
+00:12:11.100 --> 00:12:11.110 align:start position:0%
+you may<c.colorCCCCCC> see in some applications text</c><c.colorE5E5E5> of
+ </c>
+
+00:12:11.110 --> 00:12:13.350 align:start position:0%
+you may<c.colorCCCCCC> see in some applications text</c><c.colorE5E5E5> of
+categorization<00:12:11.470><c> is</c><00:12:11.829><c> called</c><00:12:12.069><c> a</c><00:12:12.160><c> text</c><00:12:12.699><c> coded</c></c>
+
+00:12:13.350 --> 00:12:13.360 align:start position:0%
+categorization is called a text coded
+ 
+
+00:12:13.360 --> 00:12:18.139 align:start position:0%
+categorization is called a text coded
+<c.colorE5E5E5>encoding<00:12:14.170><c> with</c><00:12:14.829><c> some</c><00:12:15.100><c> controlled</c><00:12:15.730><c> vocabulary</c></c>
+
+00:12:18.139 --> 00:12:18.149 align:start position:0%
+ 
+ 
+
+00:12:18.149 --> 00:12:23.759 align:start position:0%
+ 
+<c.colorCCCCCC>the<00:12:19.149><c> Sigma</c></c><c.colorE5E5E5><00:12:19.509><c> kind</c><00:12:19.779><c> of</c><00:12:20.249><c> reasons</c><00:12:21.249><c> is</c><00:12:22.149><c> to</c><00:12:22.569><c> use</c><00:12:23.410><c> text</c></c>
+
+00:12:23.759 --> 00:12:23.769 align:start position:0%
+<c.colorCCCCCC>the Sigma</c><c.colorE5E5E5> kind of reasons is to use text
+ </c>
+
+00:12:23.769 --> 00:12:27.090 align:start position:0%
+<c.colorCCCCCC>the Sigma</c><c.colorE5E5E5> kind of reasons is to use text</c>
+<c.colorE5E5E5>categorization<00:12:24.749><c> to</c><00:12:25.749><c> infer</c><00:12:26.230><c> properties</c><00:12:26.259><c> of</c></c>
+
+00:12:27.090 --> 00:12:27.100 align:start position:0%
+<c.colorE5E5E5>categorization to infer properties of
+ </c>
+
+00:12:27.100 --> 00:12:30.239 align:start position:0%
+<c.colorE5E5E5>categorization to infer properties of
+entities<00:12:27.670><c> and</c></c><c.colorCCCCCC><00:12:28.860><c> textual</c><00:12:29.860><c> categorization</c></c>
+
+00:12:30.239 --> 00:12:30.249 align:start position:0%
+entities and<c.colorCCCCCC> textual categorization
+ </c>
+
+00:12:30.249 --> 00:12:32.790 align:start position:0%
+entities and<c.colorCCCCCC> textual categorization</c>
+<c.colorE5E5E5>allows<00:12:30.759><c> us</c><00:12:30.970><c> to</c><00:12:31.120><c> infer</c></c><c.colorCCCCCC><00:12:31.329><c> the</c></c><c.colorE5E5E5><00:12:31.649><c> properties</c></c><c.colorCCCCCC><00:12:32.649><c> of</c></c>
+
+00:12:32.790 --> 00:12:32.800 align:start position:0%
+<c.colorE5E5E5>allows us to infer</c><c.colorCCCCCC> the</c><c.colorE5E5E5> properties</c><c.colorCCCCCC> of
+ </c>
+
+00:12:32.800 --> 00:12:36.059 align:start position:0%
+<c.colorE5E5E5>allows us to infer</c><c.colorCCCCCC> the</c><c.colorE5E5E5> properties</c><c.colorCCCCCC> of
+such<00:12:33.069><c> entities</c><00:12:34.110><c> that</c><00:12:35.110><c> are</c><00:12:35.410><c> associated</c></c><c.colorE5E5E5><00:12:35.800><c> with</c></c>
+
+00:12:36.059 --> 00:12:36.069 align:start position:0%
+such<c.colorCCCCCC> entities that are associated</c><c.colorE5E5E5> with
+ </c>
+
+00:12:36.069 --> 00:12:40.259 align:start position:0%
+such<c.colorCCCCCC> entities that are associated</c><c.colorE5E5E5> with
+text<00:12:36.459><c> data</c></c><c.colorCCCCCC><00:12:36.670><c> so</c><00:12:37.120><c> this</c><00:12:38.309><c> means</c><00:12:39.309><c> we</c><00:12:39.670><c> can</c><00:12:39.699><c> use</c><00:12:39.970><c> text</c></c>
+
+00:12:40.259 --> 00:12:40.269 align:start position:0%
+text data<c.colorCCCCCC> so this means we can use text
+ </c>
+
+00:12:40.269 --> 00:12:42.600 align:start position:0%
+text data<c.colorCCCCCC> so this means we can use text
+categorization</c><c.colorE5E5E5><00:12:40.600><c> to</c><00:12:41.319><c> discover</c><00:12:41.829><c> knowledge</c></c>
+
+00:12:42.600 --> 00:12:42.610 align:start position:0%
+categorization<c.colorE5E5E5> to discover knowledge
+ </c>
+
+00:12:42.610 --> 00:12:45.360 align:start position:0%
+categorization<c.colorE5E5E5> to discover knowledge</c>
+<c.colorE5E5E5>about<00:12:42.999><c> the</c><00:12:43.209><c> world</c><00:12:43.420><c> in</c><00:12:44.110><c> general</c></c><c.colorCCCCCC><00:12:44.170><c> as</c></c><c.colorE5E5E5><00:12:44.800><c> long</c><00:12:44.980><c> as</c><00:12:45.160><c> we</c></c>
+
+00:12:45.360 --> 00:12:45.370 align:start position:0%
+<c.colorE5E5E5>about the world in general</c><c.colorCCCCCC> as</c><c.colorE5E5E5> long as we
+ </c>
+
+00:12:45.370 --> 00:12:47.850 align:start position:0%
+<c.colorE5E5E5>about the world in general</c><c.colorCCCCCC> as</c><c.colorE5E5E5> long as we
+can<00:12:45.550><c> associate</c><00:12:46.269><c> the</c><00:12:46.449><c> entity</c><00:12:46.929><c> with</c><00:12:47.259><c> text</c><00:12:47.620><c> data</c></c>
+
+00:12:47.850 --> 00:12:47.860 align:start position:0%
+can associate the entity with text data
+ 
+
+00:12:47.860 --> 00:12:50.460 align:start position:0%
+can associate the entity with text data
+<c.colorE5E5E5>we<00:12:48.459><c> can</c><00:12:48.610><c> always</c><00:12:48.879><c> use</c></c><c.colorCCCCCC><00:12:48.910><c> the</c><00:12:49.120><c> text</c><00:12:49.629><c> data</c><00:12:49.899><c> to</c><00:12:50.230><c> help</c></c>
+
+00:12:50.460 --> 00:12:50.470 align:start position:0%
+<c.colorE5E5E5>we can always use</c><c.colorCCCCCC> the text data to help
+ </c>
+
+00:12:50.470 --> 00:12:53.759 align:start position:0%
+<c.colorE5E5E5>we can always use</c><c.colorCCCCCC> the text data to help
+categorize<00:12:51.009><c> the</c><00:12:51.370><c> corresponding</c><00:12:52.029><c> entities</c></c><c.colorE5E5E5><00:12:52.769><c> so</c></c>
+
+00:12:53.759 --> 00:12:53.769 align:start position:0%
+categorize the corresponding entities<c.colorE5E5E5> so
+ </c>
+
+00:12:53.769 --> 00:12:55.410 align:start position:0%
+categorize the corresponding entities<c.colorE5E5E5> so
+it's<00:12:54.009><c> useful</c></c><c.colorCCCCCC><00:12:54.249><c> think</c></c><c.colorE5E5E5><00:12:54.759><c> about</c><00:12:54.999><c> the</c><00:12:55.149><c> information</c></c>
+
+00:12:55.410 --> 00:12:55.420 align:start position:0%
+it's useful<c.colorCCCCCC> think</c><c.colorE5E5E5> about the information
+ </c>
+
+00:12:55.420 --> 00:12:57.179 align:start position:0%
+it's useful<c.colorCCCCCC> think</c><c.colorE5E5E5> about the information</c>
+<c.colorE5E5E5>network<00:12:56.050><c> that</c><00:12:56.290><c> will</c><00:12:56.439><c> connect</c><00:12:56.860><c> the</c><00:12:57.009><c> other</c></c>
+
+00:12:57.179 --> 00:12:57.189 align:start position:0%
+<c.colorE5E5E5>network that will connect the other
+ </c>
+
+00:12:57.189 --> 00:12:59.939 align:start position:0%
+<c.colorE5E5E5>network that will connect the other</c>
+<c.colorE5E5E5>entities</c><c.colorCCCCCC><00:12:57.699><c> whose</c></c><c.colorE5E5E5><00:12:57.939><c> text</c><00:12:58.329><c> data</c></c><c.colorCCCCCC><00:12:58.569><c> the</c><00:12:59.529><c> obvious</c></c>
+
+00:12:59.939 --> 00:12:59.949 align:start position:0%
+<c.colorE5E5E5>entities</c><c.colorCCCCCC> whose</c><c.colorE5E5E5> text data</c><c.colorCCCCCC> the obvious
+ </c>
+
+00:12:59.949 --> 00:13:02.249 align:start position:0%
+<c.colorE5E5E5>entities</c><c.colorCCCCCC> whose</c><c.colorE5E5E5> text data</c><c.colorCCCCCC> the obvious
+entities<00:13:00.459><c> that</c><00:13:01.269><c> can</c><00:13:01.509><c> be</c><00:13:01.600><c> directly</c><00:13:01.929><c> connected</c></c>
+
+00:13:02.249 --> 00:13:02.259 align:start position:0%
+entities that can be directly connected
+ 
+
+00:13:02.259 --> 00:13:05.309 align:start position:0%
+entities that can be directly connected
+<c.colorE5E5E5>are<00:13:02.559><c> authors</c><00:13:03.069><c> but</c><00:13:03.850><c> you</c><00:13:04.240><c> can</c><00:13:04.420><c> also</c><00:13:04.540><c> imagine</c></c><c.colorCCCCCC><00:13:04.689><c> the</c></c>
+
+00:13:05.309 --> 00:13:05.319 align:start position:0%
+<c.colorE5E5E5>are authors but you can also imagine</c><c.colorCCCCCC> the
+ </c>
+
+00:13:05.319 --> 00:13:07.340 align:start position:0%
+<c.colorE5E5E5>are authors but you can also imagine</c><c.colorCCCCCC> the
+author's<00:13:05.709><c> affiliations</c><00:13:05.949><c> or</c><00:13:06.699><c> those</c></c>
+
+00:13:07.340 --> 00:13:07.350 align:start position:0%
+author's affiliations or<c.colorCCCCCC> those
+ </c>
+
+00:13:07.350 --> 00:13:10.600 align:start position:0%
+author's affiliations or<c.colorCCCCCC> those
+ages<00:13:08.100><c> and</c><00:13:08.310><c> other</c><00:13:08.490><c> things</c></c><c.colorE5E5E5><00:13:08.790><c> can</c></c><c.colorCCCCCC><00:13:09.300><c> be</c><00:13:09.480><c> actually</c></c>
+
+00:13:10.600 --> 00:13:10.610 align:start position:0%
+ages and other things<c.colorE5E5E5> can</c><c.colorCCCCCC> be actually
+ </c>
+
+00:13:10.610 --> 00:13:13.280 align:start position:0%
+ages and other things<c.colorE5E5E5> can</c><c.colorCCCCCC> be actually
+connected<00:13:11.610><c> to</c><00:13:11.820><c> texts</c><00:13:12.300><c> that</c></c><c.colorE5E5E5><00:13:12.540><c> are</c><00:13:12.600><c> indirectly</c></c>
+
+00:13:13.280 --> 00:13:13.290 align:start position:0%
+connected<c.colorCCCCCC> to texts that</c><c.colorE5E5E5> are indirectly
+ </c>
+
+00:13:13.290 --> 00:13:15.830 align:start position:0%
+connected<c.colorCCCCCC> to texts that</c><c.colorE5E5E5> are indirectly</c>
+<c.colorE5E5E5>once<00:13:14.220><c> we</c><00:13:14.490><c> have</c><00:13:14.640><c> make</c><00:13:14.820><c> the</c><00:13:15.000><c> connection</c><00:13:15.480><c> then</c><00:13:15.720><c> we</c></c>
+
+00:13:15.830 --> 00:13:15.840 align:start position:0%
+<c.colorE5E5E5>once we have make the connection then we
+ </c>
+
+00:13:15.840 --> 00:13:17.660 align:start position:0%
+<c.colorE5E5E5>once we have make the connection then we
+can<00:13:15.990><c> make</c><00:13:16.140><c> prediction</c><00:13:16.710><c> about</c><00:13:16.890><c> those</c><00:13:17.400><c> and</c></c>
+
+00:13:17.660 --> 00:13:17.670 align:start position:0%
+can make<c.colorE5E5E5> prediction about those and
+ </c>
+
+00:13:17.670 --> 00:13:21.530 align:start position:0%
+can make<c.colorE5E5E5> prediction about those and
+values</c><c.colorCCCCCC><00:13:18.210><c> so</c><00:13:19.130><c> this</c><00:13:20.130><c> is</c><00:13:20.430><c> a</c><00:13:20.460><c> general</c><00:13:21.030><c> way</c></c><c.colorE5E5E5><00:13:21.150><c> to</c><00:13:21.210><c> allow</c></c>
+
+00:13:21.530 --> 00:13:21.540 align:start position:0%
+values<c.colorCCCCCC> so this is a general way</c><c.colorE5E5E5> to allow
+ </c>
+
+00:13:21.540 --> 00:13:23.870 align:start position:0%
+values<c.colorCCCCCC> so this is a general way</c><c.colorE5E5E5> to allow
+us<00:13:21.690><c> to</c></c><c.colorCCCCCC><00:13:21.840><c> use</c><00:13:22.020><c> text</c><00:13:22.290><c> mining</c><00:13:22.710><c> -</c><00:13:22.890><c> sorry</c><00:13:23.520><c> text</c></c>
+
+00:13:23.870 --> 00:13:23.880 align:start position:0%
+us<c.colorE5E5E5> to</c><c.colorCCCCCC> use text mining - sorry text
+ </c>
+
+00:13:23.880 --> 00:13:25.250 align:start position:0%
+us<c.colorE5E5E5> to</c><c.colorCCCCCC> use text mining - sorry text</c>
+<c.colorCCCCCC>categorization<00:13:24.150><c> to</c><00:13:24.690><c> discover</c><00:13:25.050><c> knowledge</c></c>
+
+00:13:25.250 --> 00:13:25.260 align:start position:0%
+<c.colorCCCCCC>categorization to discover knowledge
+ </c>
+
+00:13:25.260 --> 00:13:28.460 align:start position:0%
+<c.colorCCCCCC>categorization to discover knowledge</c>
+<c.colorE5E5E5>about<00:13:25.620><c> the</c><00:13:25.800><c> world</c><00:13:26.060><c> very</c></c><c.colorCCCCCC><00:13:27.060><c> useful</c><00:13:27.630><c> especially</c></c>
+
+00:13:28.460 --> 00:13:28.470 align:start position:0%
+<c.colorE5E5E5>about the world very</c><c.colorCCCCCC> useful especially
+ </c>
+
+00:13:28.470 --> 00:13:31.910 align:start position:0%
+<c.colorE5E5E5>about the world very</c><c.colorCCCCCC> useful especially
+in<00:13:29.070><c> big</c><00:13:29.460><c> data</c><00:13:30.300><c> analytics</c></c><c.colorE5E5E5><00:13:30.650><c> where</c><00:13:31.650><c> we</c><00:13:31.770><c> are</c></c>
+
+00:13:31.910 --> 00:13:31.920 align:start position:0%
+in big data analytics<c.colorE5E5E5> where we are
+ </c>
+
+00:13:31.920 --> 00:13:35.180 align:start position:0%
+in big data analytics<c.colorE5E5E5> where we are
+interested</c><c.colorCCCCCC><00:13:32.370><c> in</c><00:13:32.790><c> using</c><00:13:33.000><c> text</c><00:13:33.810><c> there</c></c><c.colorE5E5E5><00:13:34.050><c> is</c><00:13:34.190><c> extra</c></c>
+
+00:13:35.180 --> 00:13:35.190 align:start position:0%
+interested<c.colorCCCCCC> in using text there</c><c.colorE5E5E5> is extra
+ </c>
+
+00:13:35.190 --> 00:13:38.330 align:start position:0%
+interested<c.colorCCCCCC> in using text there</c><c.colorE5E5E5> is extra
+census<00:13:35.640><c> data</c><00:13:35.820><c> factor</c><00:13:36.780><c> from</c><00:13:36.990><c> humans</c><00:13:37.470><c> through</c></c>
+
+00:13:38.330 --> 00:13:38.340 align:start position:0%
+census data<c.colorE5E5E5> factor from humans through
+ </c>
+
+00:13:38.340 --> 00:13:41.380 align:start position:0%
+census data<c.colorE5E5E5> factor from humans through
+infer<00:13:38.850><c> sorting</c><00:13:39.450><c> decision</c><00:13:39.990><c> factors</c><00:13:40.860><c> often</c></c>
+
+00:13:41.380 --> 00:13:41.390 align:start position:0%
+infer<c.colorE5E5E5> sorting decision factors often
+ </c>
+
+00:13:41.390 --> 00:13:44.600 align:start position:0%
+infer<c.colorE5E5E5> sorting decision factors often</c>
+<c.colorCCCCCC>together<00:13:42.390><c> with</c><00:13:42.660><c> natural</c><00:13:43.350><c> data</c><00:13:43.610><c> specifically</c></c>
+
+00:13:44.600 --> 00:13:44.610 align:start position:0%
+<c.colorCCCCCC>together with natural data specifically
+ </c>
+
+00:13:44.610 --> 00:13:46.460 align:start position:0%
+<c.colorCCCCCC>together with natural data specifically</c>
+<c.colorCCCCCC>tax</c><c.colorE5E5E5><00:13:44.940><c> sort</c><00:13:45.120><c> of</c><00:13:45.180><c> example</c><00:13:45.660><c> we</c><00:13:45.780><c> can</c><00:13:45.960><c> also</c><00:13:46.080><c> think</c><00:13:46.380><c> of</c></c>
+
+00:13:46.460 --> 00:13:46.470 align:start position:0%
+<c.colorCCCCCC>tax</c><c.colorE5E5E5> sort of example we can also think of
+ </c>
+
+00:13:46.470 --> 00:13:48.500 align:start position:0%
+<c.colorCCCCCC>tax</c><c.colorE5E5E5> sort of example we can also think of
+examples<00:13:47.100><c> of</c><00:13:47.220><c> inferring</c></c><c.colorCCCCCC><00:13:47.850><c> Popular's</c><00:13:48.330><c> of</c></c>
+
+00:13:48.500 --> 00:13:48.510 align:start position:0%
+<c.colorE5E5E5>examples of inferring</c><c.colorCCCCCC> Popular's of
+ </c>
+
+00:13:48.510 --> 00:13:50.330 align:start position:0%
+<c.colorE5E5E5>examples of inferring</c><c.colorCCCCCC> Popular's of
+entities</c><c.colorE5E5E5><00:13:48.960><c> for</c><00:13:49.320><c> example</c><00:13:49.680><c> discovery</c><00:13:50.190><c> of</c></c>
+
+00:13:50.330 --> 00:13:50.340 align:start position:0%
+entities<c.colorE5E5E5> for example discovery of
+ </c>
+
+00:13:50.340 --> 00:13:52.910 align:start position:0%
+entities<c.colorE5E5E5> for example discovery of</c>
+<c.colorE5E5E5>non-native<00:13:50.820><c> speakers</c></c><c.colorCCCCCC><00:13:51.480><c> of</c><00:13:51.840><c> a</c><00:13:52.200><c> language</c></c><c.colorE5E5E5><00:13:52.230><c> and</c></c>
+
+00:13:52.910 --> 00:13:52.920 align:start position:0%
+<c.colorE5E5E5>non-native speakers</c><c.colorCCCCCC> of a language</c><c.colorE5E5E5> and
+ </c>
+
+00:13:52.920 --> 00:13:55.910 align:start position:0%
+<c.colorE5E5E5>non-native speakers</c><c.colorCCCCCC> of a language</c><c.colorE5E5E5> and
+this<00:13:53.340><c> can</c><00:13:53.550><c> be</c><00:13:53.670><c> done</c></c><c.colorCCCCCC><00:13:53.820><c> by</c><00:13:54.050><c> categorizing</c></c><c.colorE5E5E5><00:13:55.050><c> the</c></c>
+
+00:13:55.910 --> 00:13:55.920 align:start position:0%
+this can be<c.colorE5E5E5> done</c><c.colorCCCCCC> by categorizing</c><c.colorE5E5E5> the
+ </c>
+
+00:13:55.920 --> 00:14:01.400 align:start position:0%
+this can be<c.colorE5E5E5> done</c><c.colorCCCCCC> by categorizing</c><c.colorE5E5E5> the
+content<00:13:56.400><c> of</c><00:13:58.310><c> speakers</c><00:13:59.840><c> another</c></c><c.colorCCCCCC><00:14:00.840><c> example</c><00:14:01.320><c> is</c></c>
+
+00:14:01.400 --> 00:14:01.410 align:start position:0%
+content of speakers another<c.colorCCCCCC> example is
+ </c>
+
+00:14:01.410 --> 00:14:04.430 align:start position:0%
+content of speakers another<c.colorCCCCCC> example is
+to<00:14:01.440><c> predict</c></c><c.colorE5E5E5><00:14:02.160><c> the</c><00:14:02.520><c> party</c><00:14:03.030><c> affiliation</c><00:14:03.750><c> of</c><00:14:03.870><c> a</c></c>
+
+00:14:04.430 --> 00:14:04.440 align:start position:0%
+to predict<c.colorE5E5E5> the party affiliation of a
+ </c>
+
+00:14:04.440 --> 00:14:06.980 align:start position:0%
+to predict<c.colorE5E5E5> the party affiliation of a
+partition<00:14:04.830><c> based</c><00:14:05.160><c> on</c><00:14:05.430><c> the</c><00:14:05.880><c> political</c><00:14:06.180><c> speech</c></c>
+
+00:14:06.980 --> 00:14:06.990 align:start position:0%
+partition based on the political<c.colorE5E5E5> speech
+ </c>
+
+00:14:06.990 --> 00:14:09.470 align:start position:0%
+partition based on the political<c.colorE5E5E5> speech</c>
+<c.colorCCCCCC>and<00:14:07.260><c> this</c></c><c.colorE5E5E5><00:14:07.800><c> is</c><00:14:08.010><c> again</c><00:14:08.340><c> an</c><00:14:08.580><c> example</c><00:14:08.730><c> of</c><00:14:09.210><c> using</c></c>
+
+00:14:09.470 --> 00:14:09.480 align:start position:0%
+<c.colorCCCCCC>and this</c><c.colorE5E5E5> is again an example of using
+ </c>
+
+00:14:09.480 --> 00:14:13.130 align:start position:0%
+<c.colorCCCCCC>and this</c><c.colorE5E5E5> is again an example of using
+text<00:14:10.020><c> data</c><00:14:10.290><c> to</c><00:14:10.620><c> infer</c><00:14:11.750><c> some</c><00:14:12.750><c> knowledge</c><00:14:12.930><c> about</c></c>
+
+00:14:13.130 --> 00:14:13.140 align:start position:0%
+text data to infer some knowledge about
+ 
+
+00:14:13.140 --> 00:14:17.270 align:start position:0%
+text data to infer some knowledge about
+<c.colorE5E5E5>the<00:14:13.320><c> world</c><00:14:14.480><c> in</c><00:14:15.480><c> nature</c><00:14:16.080><c> this</c><00:14:16.590><c> all</c></c><c.colorCCCCCC><00:14:16.860><c> but</c></c><c.colorE5E5E5><00:14:17.160><c> the</c></c>
+
+00:14:17.270 --> 00:14:17.280 align:start position:0%
+<c.colorE5E5E5>the world in nature this all</c><c.colorCCCCCC> but</c><c.colorE5E5E5> the
+ </c>
+
+00:14:17.280 --> 00:14:20.120 align:start position:0%
+<c.colorE5E5E5>the world in nature this all</c><c.colorCCCCCC> but</c><c.colorE5E5E5> the
+problems<00:14:17.700><c> are</c><00:14:17.880><c> all</c><00:14:18.150><c> the</c><00:14:18.480><c> same</c></c><c.colorCCCCCC><00:14:18.660><c> and</c></c><c.colorE5E5E5><00:14:19.020><c> that's</c><00:14:19.560><c> as</c></c>
+
+00:14:20.120 --> 00:14:20.130 align:start position:0%
+problems are all the same<c.colorCCCCCC> and</c><c.colorE5E5E5> that's as
+ </c>
+
+00:14:20.130 --> 00:14:22.280 align:start position:0%
+problems are all the same<c.colorCCCCCC> and</c><c.colorE5E5E5> that's as
+we</c><c.colorCCCCCC><00:14:20.460><c> defined</c><00:14:20.820><c> and</c><00:14:21.450><c> it's</c><00:14:21.660><c> a</c><00:14:21.810><c> text</c></c>
+
+00:14:22.280 --> 00:14:22.290 align:start position:0%
+we<c.colorCCCCCC> defined and it's a text
+ </c>
+
+00:14:22.290 --> 00:14:25.070 align:start position:0%
+we<c.colorCCCCCC> defined and it's a text
+categorization</c>
+

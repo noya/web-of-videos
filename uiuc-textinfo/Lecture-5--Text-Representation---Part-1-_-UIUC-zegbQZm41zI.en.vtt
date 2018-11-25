@@ -1,0 +1,1590 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:06.600 --> 00:00:09.330 align:start position:0%
+ 
+this<c.colorCCCCCC><00:00:07.600><c> lecture</c></c><c.colorE5E5E5><00:00:08.049><c> is</c><00:00:08.230><c> about</c><00:00:08.410><c> the</c><00:00:08.740><c> textual</c></c>
+
+00:00:09.330 --> 00:00:09.340 align:start position:0%
+this<c.colorCCCCCC> lecture</c><c.colorE5E5E5> is about the textual
+ </c>
+
+00:00:09.340 --> 00:00:13.980 align:start position:0%
+this<c.colorCCCCCC> lecture</c><c.colorE5E5E5> is about the textual
+representation<00:00:12.059><c> in</c><00:00:13.059><c> this</c><00:00:13.299><c> lecture</c><00:00:13.719><c> we're</c></c>
+
+00:00:13.980 --> 00:00:13.990 align:start position:0%
+representation in this lecture we're
+ 
+
+00:00:13.990 --> 00:00:15.660 align:start position:0%
+representation in this lecture we're
+going<00:00:14.139><c> to</c><00:00:14.200><c> discuss</c><c.colorE5E5E5><00:00:14.339><c> textual</c><00:00:15.339><c> representation</c></c>
+
+00:00:15.660 --> 00:00:15.670 align:start position:0%
+going to discuss<c.colorE5E5E5> textual representation
+ </c>
+
+00:00:15.670 --> 00:00:20.040 align:start position:0%
+going to discuss<c.colorE5E5E5> textual representation</c>
+<c.colorE5E5E5>and<00:00:17.040><c> discuss</c><00:00:18.040><c> how</c><00:00:18.820><c> natural</c><00:00:19.210><c> angle</c><00:00:19.360><c> processing</c></c>
+
+00:00:20.040 --> 00:00:20.050 align:start position:0%
+<c.colorE5E5E5>and discuss how natural angle processing
+ </c>
+
+00:00:20.050 --> 00:00:22.889 align:start position:0%
+<c.colorE5E5E5>and discuss how natural angle processing
+can<00:00:20.439><c> allow</c></c><c.colorCCCCCC><00:00:20.770><c> us</c></c><c.colorE5E5E5><00:00:20.950><c> to</c><00:00:21.250><c> represent</c><00:00:21.520><c> text</c><00:00:22.419><c> in</c><00:00:22.660><c> many</c></c>
+
+00:00:22.889 --> 00:00:22.899 align:start position:0%
+can allow<c.colorCCCCCC> us</c><c.colorE5E5E5> to represent text in many
+ </c>
+
+00:00:22.899 --> 00:00:26.130 align:start position:0%
+can allow<c.colorCCCCCC> us</c><c.colorE5E5E5> to represent text in many
+different<00:00:23.140><c> ways</c><00:00:24.270><c> let's</c><00:00:25.270><c> take</c><00:00:25.540><c> a</c><00:00:25.570><c> look</c><00:00:25.750><c> at</c><00:00:25.869><c> this</c></c>
+
+00:00:26.130 --> 00:00:26.140 align:start position:0%
+different<c.colorE5E5E5> ways let's take a look at this
+ </c>
+
+00:00:26.140 --> 00:00:30.269 align:start position:0%
+different<c.colorE5E5E5> ways let's take a look at this
+example<00:00:26.559><c> sentence</c><00:00:27.160><c> again</c><00:00:28.739><c> we</c><00:00:29.739><c> can</c><00:00:29.919><c> represent</c></c>
+
+00:00:30.269 --> 00:00:30.279 align:start position:0%
+<c.colorE5E5E5>example sentence again we can represent
+ </c>
+
+00:00:30.279 --> 00:00:33.950 align:start position:0%
+<c.colorE5E5E5>example sentence again we can represent
+this<00:00:30.849><c> sentence</c><00:00:31.360><c> in</c><00:00:31.899><c> many</c><00:00:32.200><c> different</c><00:00:32.410><c> ways</c></c>
+
+00:00:33.950 --> 00:00:33.960 align:start position:0%
+this sentence in many different<c.colorE5E5E5> ways
+ </c>
+
+00:00:33.960 --> 00:00:38.549 align:start position:0%
+this sentence in many different<c.colorE5E5E5> ways
+first<00:00:35.640><c> we</c><00:00:36.640><c> can</c><00:00:36.880><c> always</c><00:00:37.629><c> represent</c><00:00:37.870><c> in</c><00:00:38.320><c> such</c><00:00:38.530><c> a</c></c>
+
+00:00:38.549 --> 00:00:38.559 align:start position:0%
+first we can always represent in such a
+ 
+
+00:00:38.559 --> 00:00:42.959 align:start position:0%
+first we can always represent in such a
+sentence<00:00:39.100><c> as</c><00:00:39.280><c> a</c><00:00:39.390><c> string</c><00:00:40.390><c> of</c><00:00:40.570><c> characters</c><c.colorE5E5E5><00:00:41.969><c> this</c></c>
+
+00:00:42.959 --> 00:00:42.969 align:start position:0%
+sentence as a string of characters<c.colorE5E5E5> this
+ </c>
+
+00:00:42.969 --> 00:00:45.660 align:start position:0%
+sentence as a string of characters<c.colorE5E5E5> this</c>
+<c.colorCCCCCC>is</c><c.colorE5E5E5><00:00:43.030><c> true</c><00:00:43.420><c> for</c><00:00:43.629><c> all</c><00:00:43.870><c> the</c><00:00:44.260><c> languages</c><00:00:44.649><c> when</c><00:00:45.489><c> we</c></c>
+
+00:00:45.660 --> 00:00:45.670 align:start position:0%
+<c.colorCCCCCC>is</c><c.colorE5E5E5> true for all the languages when we
+ </c>
+
+00:00:45.670 --> 00:00:51.110 align:start position:0%
+<c.colorCCCCCC>is</c><c.colorE5E5E5> true for all the languages when we
+store<00:00:45.969><c> them</c><00:00:46.210><c> in</c><00:00:47.019><c> the</c><00:00:47.620><c> computer</c><00:00:49.499><c> when</c><00:00:50.499><c> we</c><00:00:50.620><c> store</c></c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+store them in the computer when we store
+ 
+
+00:00:51.120 --> 00:00:53.759 align:start position:0%
+store them in the computer when we store
+<c.colorCCCCCC>natural<00:00:52.120><c> language</c></c><c.colorE5E5E5><00:00:52.600><c> the</c><00:00:52.629><c> sentence</c></c><c.colorCCCCCC><00:00:53.079><c> as</c><00:00:53.260><c> a</c></c>
+
+00:00:53.759 --> 00:00:53.769 align:start position:0%
+<c.colorCCCCCC>natural language</c><c.colorE5E5E5> the sentence</c><c.colorCCCCCC> as a
+ </c>
+
+00:00:53.769 --> 00:00:57.599 align:start position:0%
+<c.colorCCCCCC>natural language</c><c.colorE5E5E5> the sentence</c><c.colorCCCCCC> as a
+string<00:00:54.249><c> of</c><00:00:54.429><c> characters</c></c><c.colorE5E5E5><00:00:55.230><c> we</c></c><c.colorCCCCCC><00:00:56.230><c> have</c><00:00:56.469><c> perhaps</c><00:00:57.100><c> the</c></c>
+
+00:00:57.599 --> 00:00:57.609 align:start position:0%
+string of characters<c.colorE5E5E5> we</c><c.colorCCCCCC> have perhaps the
+ </c>
+
+00:00:57.609 --> 00:01:00.119 align:start position:0%
+string of characters<c.colorE5E5E5> we</c><c.colorCCCCCC> have perhaps the</c>
+<c.colorCCCCCC>most<00:00:58.120><c> general</c><00:00:58.659><c> way</c><00:00:58.690><c> of</c><00:00:58.960><c> representing</c></c><c.colorE5E5E5><00:00:59.739><c> text</c></c>
+
+00:01:00.119 --> 00:01:00.129 align:start position:0%
+<c.colorCCCCCC>most general way of representing</c><c.colorE5E5E5> text
+ </c>
+
+00:01:00.129 --> 00:01:03.059 align:start position:0%
+<c.colorCCCCCC>most general way of representing</c><c.colorE5E5E5> text
+since<00:01:00.760><c> we</c><00:01:01.449><c> always</c><00:01:01.929><c> use</c><00:01:02.140><c> this</c><00:01:02.409><c> approach</c></c><c.colorCCCCCC><00:01:02.800><c> to</c></c>
+
+00:01:03.059 --> 00:01:03.069 align:start position:0%
+since we<c.colorE5E5E5> always use this approach</c><c.colorCCCCCC> to
+ </c>
+
+00:01:03.069 --> 00:01:06.060 align:start position:0%
+since we<c.colorE5E5E5> always use this approach</c><c.colorCCCCCC> to
+represent<00:01:03.670><c> any</c><00:01:03.999><c> text</c><00:01:04.420><c> data</c></c><c.colorE5E5E5><00:01:05.070><c> but</c></c>
+
+00:01:06.060 --> 00:01:06.070 align:start position:0%
+represent any text data<c.colorE5E5E5> but
+ </c>
+
+00:01:06.070 --> 00:01:07.950 align:start position:0%
+represent any text data<c.colorE5E5E5> but
+unfortunately<00:01:06.880><c> using</c><00:01:07.720><c> such</c><00:01:07.930><c> a</c></c>
+
+00:01:07.950 --> 00:01:07.960 align:start position:0%
+<c.colorE5E5E5>unfortunately using such a
+ </c>
+
+00:01:07.960 --> 00:01:11.210 align:start position:0%
+<c.colorE5E5E5>unfortunately using such a
+representation</c><c.colorCCCCCC><00:01:08.760><c> would</c><00:01:09.760><c> not</c><00:01:10.000><c> help</c><00:01:10.330><c> us</c><00:01:10.510><c> to</c></c>
+
+00:01:11.210 --> 00:01:11.220 align:start position:0%
+representation<c.colorCCCCCC> would not help us to
+ </c>
+
+00:01:11.220 --> 00:01:13.980 align:start position:0%
+representation<c.colorCCCCCC> would not help us to
+semantic<00:01:12.220><c> analysis</c><00:01:12.790><c> which</c><00:01:13.120><c> is</c><00:01:13.270><c> often</c><00:01:13.600><c> needed</c></c>
+
+00:01:13.980 --> 00:01:13.990 align:start position:0%
+semantic analysis which<c.colorCCCCCC> is often needed
+ </c>
+
+00:01:13.990 --> 00:01:18.180 align:start position:0%
+semantic analysis which<c.colorCCCCCC> is often needed
+for<00:01:14.580><c> many</c><00:01:15.580><c> applications</c><00:01:15.730><c> of</c><00:01:16.390><c> text</c></c><c.colorE5E5E5><00:01:16.660><c> mining</c><00:01:17.190><c> the</c></c>
+
+00:01:18.180 --> 00:01:18.190 align:start position:0%
+for many applications<c.colorCCCCCC> of text</c><c.colorE5E5E5> mining the
+ </c>
+
+00:01:18.190 --> 00:01:20.070 align:start position:0%
+for many applications<c.colorCCCCCC> of text</c><c.colorE5E5E5> mining the
+reason<00:01:18.580><c> is</c><00:01:18.670><c> because</c><00:01:18.790><c> we're</c></c><c.colorCCCCCC><00:01:19.600><c> not</c><00:01:19.750><c> even</c></c>
+
+00:01:20.070 --> 00:01:20.080 align:start position:0%
+reason is because we're<c.colorCCCCCC> not even
+ </c>
+
+00:01:20.080 --> 00:01:23.070 align:start position:0%
+reason is because we're<c.colorCCCCCC> not even
+recognizing</c><c.colorE5E5E5><00:01:20.860><c> words</c><00:01:21.100><c> so</c><00:01:22.060><c> as</c><00:01:22.210><c> a</c></c><c.colorCCCCCC><00:01:22.240><c> stream</c><00:01:22.690><c> we're</c></c>
+
+00:01:23.070 --> 00:01:23.080 align:start position:0%
+recognizing<c.colorE5E5E5> words so as a</c><c.colorCCCCCC> stream we're
+ </c>
+
+00:01:23.080 --> 00:01:26.600 align:start position:0%
+recognizing<c.colorE5E5E5> words so as a</c><c.colorCCCCCC> stream we're</c>
+<c.colorE5E5E5>going<00:01:23.290><c> to</c><00:01:23.350><c> keep</c><00:01:23.530><c> all</c><00:01:23.800><c> the</c><00:01:24.010><c> spaces</c><00:01:24.370><c> and</c><00:01:24.940><c> these</c></c>
+
+00:01:26.600 --> 00:01:26.610 align:start position:0%
+<c.colorE5E5E5>going to keep all the spaces and these
+ </c>
+
+00:01:26.610 --> 00:01:30.870 align:start position:0%
+<c.colorE5E5E5>going to keep all the spaces and these
+asking<00:01:27.610><c> symbols</c><00:01:28.530><c> we</c><00:01:29.530><c> can</c><00:01:29.740><c> perhaps</c></c><c.colorCCCCCC><00:01:29.950><c> count</c></c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+asking symbols we can perhaps<c.colorCCCCCC> count
+ </c>
+
+00:01:30.880 --> 00:01:33.630 align:start position:0%
+asking symbols we can perhaps<c.colorCCCCCC> count
+how<00:01:31.360><c> what's</c><00:01:32.080><c> the</c><00:01:32.200><c> most</c><00:01:32.380><c> frequent</c><00:01:32.980><c> character</c></c>
+
+00:01:33.630 --> 00:01:33.640 align:start position:0%
+how what's the most frequent character
+ 
+
+00:01:33.640 --> 00:01:36.750 align:start position:0%
+how what's the most frequent character
+in<00:01:33.790><c> English</c><c.colorE5E5E5><00:01:34.120><c> text</c><00:01:34.720><c> or</c><00:01:35.400><c> the</c><00:01:36.400><c> correlation</c></c>
+
+00:01:36.750 --> 00:01:36.760 align:start position:0%
+in English<c.colorE5E5E5> text or the correlation
+ </c>
+
+00:01:36.760 --> 00:01:40.470 align:start position:0%
+in English<c.colorE5E5E5> text or the correlation</c>
+<c.colorCCCCCC>between<00:01:37.030><c> those</c></c><c.colorE5E5E5><00:01:37.530><c> characters</c><00:01:38.530><c> but</c><00:01:39.340><c> we</c><00:01:40.180><c> can't</c></c>
+
+00:01:40.470 --> 00:01:40.480 align:start position:0%
+<c.colorCCCCCC>between those</c><c.colorE5E5E5> characters but we can't
+ </c>
+
+00:01:40.480 --> 00:01:44.280 align:start position:0%
+<c.colorCCCCCC>between those</c><c.colorE5E5E5> characters but we can't
+really<00:01:40.930><c> analyze</c><00:01:41.290><c> the</c><00:01:41.830><c> semantics</c><00:01:42.810><c> yet</c><00:01:43.810><c> this</c><00:01:44.080><c> is</c></c>
+
+00:01:44.280 --> 00:01:44.290 align:start position:0%
+<c.colorE5E5E5>really analyze the semantics yet this is
+ </c>
+
+00:01:44.290 --> 00:01:47.250 align:start position:0%
+<c.colorE5E5E5>really analyze the semantics yet this is
+the<00:01:45.040><c> most</c><00:01:45.190><c> general</c></c><c.colorCCCCCC><00:01:45.670><c> way</c><00:01:45.760><c> of</c><00:01:46.260><c> representing</c></c>
+
+00:01:47.250 --> 00:01:47.260 align:start position:0%
+<c.colorE5E5E5>the most general</c><c.colorCCCCCC> way of representing
+ </c>
+
+00:01:47.260 --> 00:01:50.070 align:start position:0%
+<c.colorE5E5E5>the most general</c><c.colorCCCCCC> way of representing</c>
+<c.colorE5E5E5>text<00:01:47.650><c> because</c><00:01:48.430><c> we</c><00:01:48.700><c> can</c><00:01:48.910><c> use</c><00:01:49.150><c> this</c><00:01:49.420><c> to</c></c>
+
+00:01:50.070 --> 00:01:50.080 align:start position:0%
+<c.colorE5E5E5>text because we can use this to
+ </c>
+
+00:01:50.080 --> 00:01:53.000 align:start position:0%
+<c.colorE5E5E5>text because we can use this to</c>
+<c.colorCCCCCC>represent<00:01:50.620><c> any</c><00:01:50.830><c> natural</c></c><c.colorE5E5E5><00:01:51.460><c> language</c></c><c.colorCCCCCC><00:01:51.730><c> text</c></c><c.colorE5E5E5><00:01:52.330><c> if</c></c>
+
+00:01:53.000 --> 00:01:53.010 align:start position:0%
+<c.colorCCCCCC>represent any natural</c><c.colorE5E5E5> language</c><c.colorCCCCCC> text</c><c.colorE5E5E5> if
+ </c>
+
+00:01:53.010 --> 00:01:56.370 align:start position:0%
+<c.colorCCCCCC>represent any natural</c><c.colorE5E5E5> language</c><c.colorCCCCCC> text</c><c.colorE5E5E5> if
+we<00:01:54.010><c> try</c><00:01:54.730><c> to</c><00:01:54.790><c> do</c><00:01:55.060><c> a</c><00:01:55.240><c> little</c><00:01:55.540><c> bit</c><00:01:55.780><c> more</c></c><c.colorCCCCCC><00:01:55.810><c> natural</c></c>
+
+00:01:56.370 --> 00:01:56.380 align:start position:0%
+we try<c.colorE5E5E5> to do a little bit more</c><c.colorCCCCCC> natural
+ </c>
+
+00:01:56.380 --> 00:01:59.160 align:start position:0%
+we try<c.colorE5E5E5> to do a little bit more</c><c.colorCCCCCC> natural</c>
+<c.colorE5E5E5>language<00:01:56.830><c> processing</c><00:01:57.000><c> by</c><00:01:58.000><c> doing</c></c><c.colorCCCCCC><00:01:58.840><c> water</c></c>
+
+00:01:59.160 --> 00:01:59.170 align:start position:0%
+<c.colorE5E5E5>language processing by doing</c><c.colorCCCCCC> water
+ </c>
+
+00:01:59.170 --> 00:02:02.610 align:start position:0%
+<c.colorE5E5E5>language processing by doing</c><c.colorCCCCCC> water</c>
+<c.colorE5E5E5>segmentation<00:02:00.270><c> then</c><00:02:01.270><c> we</c><00:02:01.570><c> can</c><00:02:01.810><c> obtain</c></c><c.colorCCCCCC><00:02:02.020><c> a</c></c>
+
+00:02:02.610 --> 00:02:02.620 align:start position:0%
+<c.colorE5E5E5>segmentation then we can obtain</c><c.colorCCCCCC> a
+ </c>
+
+00:02:02.620 --> 00:02:05.700 align:start position:0%
+<c.colorE5E5E5>segmentation then we can obtain</c><c.colorCCCCCC> a
+representation</c><c.colorE5E5E5><00:02:03.070><c> of</c><00:02:03.550><c> the</c><00:02:04.120><c> same</c><00:02:04.390><c> text</c><00:02:04.810><c> but</c><00:02:05.050><c> in</c></c>
+
+00:02:05.700 --> 00:02:05.710 align:start position:0%
+representation<c.colorE5E5E5> of the same text but in
+ </c>
+
+00:02:05.710 --> 00:02:09.180 align:start position:0%
+representation<c.colorE5E5E5> of the same text but in
+the<00:02:05.800><c> form</c><00:02:06.070><c> of</c><00:02:06.250><c> a</c><00:02:06.430><c> sequence</c><00:02:06.730><c> of</c></c><c.colorCCCCCC><00:02:07.030><c> words</c><00:02:07.979><c> so</c><00:02:08.979><c> here</c></c>
+
+00:02:09.180 --> 00:02:09.190 align:start position:0%
+the form of a sequence<c.colorE5E5E5> of</c><c.colorCCCCCC> words so here
+ </c>
+
+00:02:09.190 --> 00:02:12.750 align:start position:0%
+the form of a sequence<c.colorE5E5E5> of</c><c.colorCCCCCC> words so here
+we<00:02:09.310><c> see</c></c><c.colorE5E5E5><00:02:09.519><c> that</c><00:02:09.700><c> we</c><00:02:10.030><c> can</c><00:02:10.569><c> identify</c><00:02:11.370><c> words</c><00:02:12.370><c> like</c><00:02:12.730><c> a</c></c>
+
+00:02:12.750 --> 00:02:12.760 align:start position:0%
+we see<c.colorE5E5E5> that we can identify words like a
+ </c>
+
+00:02:12.760 --> 00:02:19.220 align:start position:0%
+we see<c.colorE5E5E5> that we can identify words like a
+dog<00:02:13.209><c> is</c><00:02:13.890><c> chasing</c><00:02:14.939><c> etc</c><00:02:17.400><c> now</c><00:02:18.400><c> with</c><00:02:18.609><c> this</c></c>
+
+00:02:19.220 --> 00:02:19.230 align:start position:0%
+dog is chasing<c.colorE5E5E5> etc now with this
+ </c>
+
+00:02:19.230 --> 00:02:23.099 align:start position:0%
+dog is chasing<c.colorE5E5E5> etc now with this</c>
+<c.colorCCCCCC>replenishing<00:02:20.230><c> we</c><00:02:20.920><c> certainly</c><00:02:21.659><c> can</c><00:02:22.659><c> do</c><00:02:22.840><c> a</c><00:02:22.870><c> lot</c></c>
+
+00:02:23.099 --> 00:02:23.109 align:start position:0%
+<c.colorCCCCCC>replenishing we certainly can do a lot
+ </c>
+
+00:02:23.109 --> 00:02:25.020 align:start position:0%
+<c.colorCCCCCC>replenishing we certainly can do a lot</c>
+<c.colorCCCCCC>of<00:02:23.260><c> things</c></c><c.colorE5E5E5><00:02:23.500><c> and</c><00:02:23.890><c> this</c><00:02:24.489><c> is</c><00:02:24.640><c> mainly</c><00:02:24.849><c> because</c></c>
+
+00:02:25.020 --> 00:02:25.030 align:start position:0%
+<c.colorCCCCCC>of things</c><c.colorE5E5E5> and this is mainly because
+ </c>
+
+00:02:25.030 --> 00:02:27.839 align:start position:0%
+<c.colorCCCCCC>of things</c><c.colorE5E5E5> and this is mainly because
+words<00:02:25.810><c> are</c><00:02:26.200><c> the</c><00:02:26.349><c> basic</c><00:02:26.680><c> units</c><00:02:27.010><c> of</c><00:02:27.250><c> human</c></c>
+
+00:02:27.839 --> 00:02:27.849 align:start position:0%
+words<c.colorE5E5E5> are the basic units of human
+ </c>
+
+00:02:27.849 --> 00:02:30.990 align:start position:0%
+words<c.colorE5E5E5> are the basic units of human
+communication<00:02:28.629><c> in</c><00:02:29.200><c> natural</c><00:02:29.620><c> remedy</c><00:02:30.010><c> so</c><00:02:30.760><c> they</c></c>
+
+00:02:30.990 --> 00:02:31.000 align:start position:0%
+communication<c.colorE5E5E5> in natural remedy so they
+ </c>
+
+00:02:31.000 --> 00:02:32.670 align:start position:0%
+communication<c.colorE5E5E5> in natural remedy so they
+are<00:02:31.150><c> very</c><00:02:31.480><c> powerful</c></c>
+
+00:02:32.670 --> 00:02:32.680 align:start position:0%
+are very powerful
+ 
+
+00:02:32.680 --> 00:02:36.179 align:start position:0%
+are very powerful
+by<00:02:33.670><c> identifying</c><00:02:34.269><c> words</c><00:02:35.230><c> we</c><00:02:35.650><c> can</c><00:02:35.859><c> for</c><c.colorE5E5E5><00:02:36.129><c> example</c></c>
+
+00:02:36.179 --> 00:02:36.189 align:start position:0%
+by identifying words we can for<c.colorE5E5E5> example
+ </c>
+
+00:02:36.189 --> 00:02:39.660 align:start position:0%
+by identifying words we can for<c.colorE5E5E5> example
+easily<00:02:37.000><c> count</c></c><c.colorCCCCCC><00:02:37.650><c> what</c><00:02:38.650><c> are</c><00:02:38.769><c> the</c><00:02:38.950><c> most</c><00:02:39.489><c> frequent</c></c>
+
+00:02:39.660 --> 00:02:39.670 align:start position:0%
+<c.colorE5E5E5>easily count</c><c.colorCCCCCC> what are the most frequent
+ </c>
+
+00:02:39.670 --> 00:02:42.869 align:start position:0%
+<c.colorE5E5E5>easily count</c><c.colorCCCCCC> what are the most frequent
+words<00:02:40.329><c> in</c><00:02:40.750><c> this</c><00:02:41.069><c> document</c></c><c.colorE5E5E5><00:02:42.069><c> or</c><00:02:42.400><c> in</c><00:02:42.639><c> the</c><00:02:42.730><c> whole</c></c>
+
+00:02:42.869 --> 00:02:42.879 align:start position:0%
+words in this document<c.colorE5E5E5> or in the whole
+ </c>
+
+00:02:42.879 --> 00:02:46.979 align:start position:0%
+words in this document<c.colorE5E5E5> or in the whole
+collection</c><c.colorCCCCCC><00:02:43.500><c> etc</c></c><c.colorE5E5E5><00:02:44.730><c> and</c><00:02:45.730><c> these</c><00:02:45.939><c> words</c><00:02:46.420><c> can</c><00:02:46.959><c> be</c></c>
+
+00:02:46.979 --> 00:02:46.989 align:start position:0%
+collection<c.colorCCCCCC> etc</c><c.colorE5E5E5> and these words can be
+ </c>
+
+00:02:46.989 --> 00:02:50.280 align:start position:0%
+collection<c.colorCCCCCC> etc</c><c.colorE5E5E5> and these words can be</c>
+<c.colorCCCCCC>used<00:02:47.170><c> to</c><00:02:47.799><c> form</c><00:02:48.099><c> topics</c></c><c.colorE5E5E5><00:02:48.780><c> when</c><00:02:49.780><c> we</c><00:02:49.900><c> combine</c></c>
+
+00:02:50.280 --> 00:02:50.290 align:start position:0%
+<c.colorCCCCCC>used to form topics</c><c.colorE5E5E5> when we combine
+ </c>
+
+00:02:50.290 --> 00:02:52.800 align:start position:0%
+<c.colorCCCCCC>used to form topics</c><c.colorE5E5E5> when we combine
+related<00:02:50.889><c> words</c><00:02:51.099><c> together</c><00:02:51.370><c> and</c><00:02:51.849><c> some</c><00:02:52.450><c> words</c></c>
+
+00:02:52.800 --> 00:02:52.810 align:start position:0%
+related words together<c.colorE5E5E5> and some words
+ </c>
+
+00:02:52.810 --> 00:02:55.140 align:start position:0%
+related words together<c.colorE5E5E5> and some words
+are<00:02:53.019><c> positive</c><00:02:53.799><c> some</c><00:02:54.250><c> words</c></c><c.colorCCCCCC><00:02:54.519><c> are</c><00:02:54.669><c> negative</c><00:02:55.120><c> so</c></c>
+
+00:02:55.140 --> 00:02:55.150 align:start position:0%
+are positive<c.colorE5E5E5> some words</c><c.colorCCCCCC> are negative so
+ </c>
+
+00:02:55.150 --> 00:02:59.879 align:start position:0%
+are positive<c.colorE5E5E5> some words</c><c.colorCCCCCC> are negative so
+we<00:02:55.540><c> can</c><00:02:55.750><c> also</c><00:02:55.900><c> do</c><00:02:56.049><c> sentiment</c><00:02:56.530><c> analysis</c><00:02:58.889><c> so</c></c>
+
+00:02:59.879 --> 00:02:59.889 align:start position:0%
+<c.colorCCCCCC>we can also do sentiment analysis so
+ </c>
+
+00:02:59.889 --> 00:03:02.039 align:start position:0%
+<c.colorCCCCCC>we can also do sentiment analysis so
+representing</c><c.colorE5E5E5><00:03:00.700><c> text</c><00:03:01.000><c> data</c><00:03:01.209><c> as</c><00:03:01.480><c> a</c><00:03:01.510><c> sequence</c><00:03:01.930><c> of</c></c>
+
+00:03:02.039 --> 00:03:02.049 align:start position:0%
+representing<c.colorE5E5E5> text data as a sequence of
+ </c>
+
+00:03:02.049 --> 00:03:04.409 align:start position:0%
+representing<c.colorE5E5E5> text data as a sequence of
+words</c><c.colorCCCCCC><00:03:02.129><c> opens</c><00:03:03.129><c> wrapped</c><00:03:03.430><c> a</c></c><c.colorE5E5E5><00:03:03.609><c> lot</c><00:03:03.790><c> of</c><00:03:03.939><c> interesting</c></c>
+
+00:03:04.409 --> 00:03:04.419 align:start position:0%
+<c.colorE5E5E5>words</c><c.colorCCCCCC> opens wrapped a</c><c.colorE5E5E5> lot of interesting
+ </c>
+
+00:03:04.419 --> 00:03:08.490 align:start position:0%
+<c.colorE5E5E5>words</c><c.colorCCCCCC> opens wrapped a</c><c.colorE5E5E5> lot of interesting
+analysis<00:03:05.049><c> possibilities</c><00:03:06.900><c> however</c><00:03:07.900><c> this</c></c>
+
+00:03:08.490 --> 00:03:08.500 align:start position:0%
+analysis possibilities<c.colorE5E5E5> however this
+ </c>
+
+00:03:08.500 --> 00:03:10.860 align:start position:0%
+analysis possibilities<c.colorE5E5E5> however this
+level<00:03:08.980><c> of</c></c><c.colorCCCCCC><00:03:09.040><c> representation</c></c><c.colorE5E5E5><00:03:09.400><c> is</c><00:03:09.969><c> slightly</c><00:03:10.450><c> less</c></c>
+
+00:03:10.860 --> 00:03:10.870 align:start position:0%
+level of<c.colorCCCCCC> representation</c><c.colorE5E5E5> is slightly less
+ </c>
+
+00:03:10.870 --> 00:03:12.599 align:start position:0%
+level of<c.colorCCCCCC> representation</c><c.colorE5E5E5> is slightly less
+general<00:03:11.500><c> than</c><00:03:11.530><c> string</c><00:03:12.069><c> of</c><00:03:12.219><c> characters</c></c>
+
+00:03:12.599 --> 00:03:12.609 align:start position:0%
+general than string of characters
+ 
+
+00:03:12.609 --> 00:03:15.479 align:start position:0%
+general than string of characters
+<c.colorE5E5E5>because<00:03:13.359><c> in</c><00:03:13.599><c> some</c><00:03:13.900><c> languages</c></c><c.colorCCCCCC><00:03:14.459><c> such</c><00:03:15.459><c> as</c></c>
+
+00:03:15.479 --> 00:03:15.489 align:start position:0%
+<c.colorE5E5E5>because in some languages</c><c.colorCCCCCC> such as
+ </c>
+
+00:03:15.489 --> 00:03:19.649 align:start position:0%
+<c.colorE5E5E5>because in some languages</c><c.colorCCCCCC> such as
+Chinese</c><c.colorE5E5E5><00:03:16.919><c> it's</c><00:03:17.919><c> not</c><00:03:18.250><c> actually</c><00:03:18.639><c> not</c></c><c.colorCCCCCC><00:03:18.819><c> that</c><00:03:19.299><c> easy</c></c>
+
+00:03:19.649 --> 00:03:19.659 align:start position:0%
+Chinese<c.colorE5E5E5> it's not actually not</c><c.colorCCCCCC> that easy
+ </c>
+
+00:03:19.659 --> 00:03:22.559 align:start position:0%
+Chinese<c.colorE5E5E5> it's not actually not</c><c.colorCCCCCC> that easy</c>
+<c.colorCCCCCC>to<00:03:19.989><c> identify</c></c><c.colorE5E5E5><00:03:20.829><c> all</c><00:03:21.549><c> the</c><00:03:21.700><c> world</c><00:03:21.969><c> batteries</c></c>
+
+00:03:22.559 --> 00:03:22.569 align:start position:0%
+<c.colorCCCCCC>to identify</c><c.colorE5E5E5> all the world batteries
+ </c>
+
+00:03:22.569 --> 00:03:26.789 align:start position:0%
+<c.colorCCCCCC>to identify</c><c.colorE5E5E5> all the world batteries
+because<00:03:23.379><c> in</c><00:03:23.739><c> such</c><00:03:23.979><c> a</c><00:03:24.010><c> language</c><00:03:24.459><c> you</c><00:03:25.209><c> see</c><00:03:25.799><c> text</c></c>
+
+00:03:26.789 --> 00:03:26.799 align:start position:0%
+because in such a<c.colorE5E5E5> language you see text
+ </c>
+
+00:03:26.799 --> 00:03:29.520 align:start position:0%
+because in such a<c.colorE5E5E5> language you see text
+as<00:03:27.040><c> a</c><00:03:27.069><c> sequence</c><00:03:27.519><c> of</c><00:03:27.609><c> characters</c><00:03:27.970><c> with</c><00:03:28.870><c> with</c><00:03:29.260><c> no</c></c>
+
+00:03:29.520 --> 00:03:29.530 align:start position:0%
+as a sequence of characters with with no
+ 
+
+00:03:29.530 --> 00:03:33.000 align:start position:0%
+as a sequence of characters with with no
+space<00:03:30.040><c> in</c><00:03:30.340><c> between</c><c.colorCCCCCC><00:03:31.109><c> so</c><00:03:32.109><c> you</c></c><c.colorE5E5E5><00:03:32.139><c> have</c><00:03:32.530><c> to</c><00:03:32.650><c> rely</c><00:03:32.979><c> on</c></c>
+
+00:03:33.000 --> 00:03:33.010 align:start position:0%
+space in between<c.colorCCCCCC> so you</c><c.colorE5E5E5> have to rely on
+ </c>
+
+00:03:33.010 --> 00:03:35.009 align:start position:0%
+space in between<c.colorCCCCCC> so you</c><c.colorE5E5E5> have to rely on
+some<00:03:33.370><c> special</c></c><c.colorCCCCCC><00:03:33.609><c> techniques</c><00:03:34.180><c> to</c><00:03:34.389><c> identify</c></c>
+
+00:03:35.009 --> 00:03:35.019 align:start position:0%
+some special<c.colorCCCCCC> techniques to identify
+ </c>
+
+00:03:35.019 --> 00:03:39.539 align:start position:0%
+some special<c.colorCCCCCC> techniques to identify
+words<00:03:36.959><c> in</c><00:03:37.959><c> such</c><00:03:38.319><c> a</c><00:03:38.349><c> language</c><00:03:38.650><c> of</c></c><c.colorE5E5E5><00:03:38.919><c> course</c><00:03:39.280><c> then</c></c>
+
+00:03:39.539 --> 00:03:39.549 align:start position:0%
+words in such a language<c.colorCCCCCC> of</c><c.colorE5E5E5> course then
+ </c>
+
+00:03:39.549 --> 00:03:42.929 align:start position:0%
+words in such a language<c.colorCCCCCC> of</c><c.colorE5E5E5> course then</c>
+<c.colorCCCCCC>we<00:03:40.299><c> might</c></c><c.colorE5E5E5><00:03:40.599><c> make</c><00:03:41.379><c> mistakes</c><00:03:41.560><c> in</c><00:03:42.099><c> segmenting</c></c>
+
+00:03:42.929 --> 00:03:42.939 align:start position:0%
+<c.colorCCCCCC>we might</c><c.colorE5E5E5> make mistakes in segmenting
+ </c>
+
+00:03:42.939 --> 00:03:44.939 align:start position:0%
+<c.colorCCCCCC>we might</c><c.colorE5E5E5> make mistakes in segmenting
+words<00:03:43.180><c> so</c><00:03:43.930><c> the</c><00:03:44.049><c> sequence</c><00:03:44.290><c> of</c><00:03:44.560><c> words</c></c>
+
+00:03:44.939 --> 00:03:44.949 align:start position:0%
+words so the sequence<c.colorE5E5E5> of words
+ </c>
+
+00:03:44.949 --> 00:03:48.569 align:start position:0%
+words so the sequence<c.colorE5E5E5> of words
+representation<00:03:45.549><c> is</c></c><c.colorCCCCCC><00:03:46.419><c> not</c><00:03:46.659><c> as</c><00:03:47.439><c> robust</c><00:03:48.069><c> as</c><00:03:48.280><c> a</c></c>
+
+00:03:48.569 --> 00:03:48.579 align:start position:0%
+representation is<c.colorCCCCCC> not as robust as a
+ </c>
+
+00:03:48.579 --> 00:03:52.649 align:start position:0%
+representation is<c.colorCCCCCC> not as robust as a
+string<00:03:48.879><c> of</c></c><c.colorE5E5E5><00:03:49.030><c> characters</c></c><c.colorCCCCCC><00:03:49.739><c> but</c><00:03:50.739><c> in</c><00:03:50.829><c> English</c><00:03:51.659><c> it's</c></c>
+
+00:03:52.649 --> 00:03:52.659 align:start position:0%
+string of<c.colorE5E5E5> characters</c><c.colorCCCCCC> but in English it's
+ </c>
+
+00:03:52.659 --> 00:03:55.140 align:start position:0%
+string of<c.colorE5E5E5> characters</c><c.colorCCCCCC> but in English it's
+very<00:03:53.109><c> easy</c></c><c.colorE5E5E5><00:03:53.409><c> to</c><00:03:53.650><c> obtain</c><00:03:53.769><c> this</c><00:03:54.669><c> level</c><00:03:55.090><c> of</c></c>
+
+00:03:55.140 --> 00:03:55.150 align:start position:0%
+very easy<c.colorE5E5E5> to obtain this level of
+ </c>
+
+00:03:55.150 --> 00:03:57.569 align:start position:0%
+very easy<c.colorE5E5E5> to obtain this level of</c>
+<c.colorE5E5E5>representation</c><c.colorCCCCCC><00:03:55.569><c> so</c><00:03:56.259><c> we</c><00:03:56.439><c> can</c><00:03:56.620><c> do</c><00:03:57.040><c> that</c></c><c.colorE5E5E5><00:03:57.220><c> all</c><00:03:57.519><c> the</c></c>
+
+00:03:57.569 --> 00:03:57.579 align:start position:0%
+<c.colorE5E5E5>representation</c><c.colorCCCCCC> so we can do that</c><c.colorE5E5E5> all the
+ </c>
+
+00:03:57.579 --> 00:04:03.569 align:start position:0%
+<c.colorE5E5E5>representation</c><c.colorCCCCCC> so we can do that</c><c.colorE5E5E5> all the</c>
+<c.colorCCCCCC>time</c><c.colorE5E5E5><00:04:01.049><c> now</c><00:04:02.049><c> if</c><00:04:02.349><c> we</c><00:04:02.530><c> go</c><00:04:02.799><c> further</c><00:04:03.069><c> to</c><00:04:03.459><c> do</c></c>
+
+00:04:03.569 --> 00:04:03.579 align:start position:0%
+<c.colorCCCCCC>time</c><c.colorE5E5E5> now if we go further to do
+ </c>
+
+00:04:03.579 --> 00:04:06.330 align:start position:0%
+<c.colorCCCCCC>time</c><c.colorE5E5E5> now if we go further to do</c>
+<c.colorCCCCCC>naturally<00:04:04.090><c> processing</c><00:04:04.599><c> we</c><00:04:04.840><c> can</c><00:04:05.079><c> add</c><00:04:05.769><c> a</c><00:04:05.829><c> part</c></c>
+
+00:04:06.330 --> 00:04:06.340 align:start position:0%
+<c.colorCCCCCC>naturally processing we can add a part
+ </c>
+
+00:04:06.340 --> 00:04:10.140 align:start position:0%
+<c.colorCCCCCC>naturally processing we can add a part
+of<00:04:06.400><c> speech</c><00:04:06.759><c> tags</c><00:04:07.979><c> now</c><00:04:08.979><c> once</c><00:04:09.310><c> we</c><00:04:09.489><c> do</c><00:04:09.639><c> that</c><00:04:09.669><c> we</c></c>
+
+00:04:10.140 --> 00:04:10.150 align:start position:0%
+of speech tags now once we do that we
+ 
+
+00:04:10.150 --> 00:04:12.960 align:start position:0%
+of speech tags now once we do that we
+<c.colorE5E5E5>can<00:04:10.359><c> count</c><00:04:11.079><c> for</c><00:04:11.409><c> example</c><00:04:11.859><c> the</c><00:04:12.009><c> most</c><00:04:12.220><c> frequent</c></c>
+
+00:04:12.960 --> 00:04:12.970 align:start position:0%
+<c.colorE5E5E5>can count for example the most frequent
+ </c>
+
+00:04:12.970 --> 00:04:15.330 align:start position:0%
+<c.colorE5E5E5>can count for example the most frequent
+nouns<00:04:13.209><c> or</c><00:04:13.720><c> what</c></c><c.colorCCCCCC><00:04:13.959><c> kind</c><00:04:14.560><c> of</c><00:04:14.650><c> nouns</c><00:04:14.949><c> are</c></c>
+
+00:04:15.330 --> 00:04:15.340 align:start position:0%
+nouns or what<c.colorCCCCCC> kind of nouns are
+ </c>
+
+00:04:15.340 --> 00:04:17.909 align:start position:0%
+nouns or what<c.colorCCCCCC> kind of nouns are
+associated<00:04:15.939><c> with</c><00:04:15.970><c> what</c><00:04:16.329><c> kind</c><00:04:16.599><c> of</c><00:04:16.659><c> verbs</c><00:04:17.019><c> etc</c></c>
+
+00:04:17.909 --> 00:04:17.919 align:start position:0%
+associated with what kind of verbs<c.colorCCCCCC> etc
+ </c>
+
+00:04:17.919 --> 00:04:20.430 align:start position:0%
+associated with what kind of verbs<c.colorCCCCCC> etc
+so<00:04:18.430><c> this</c></c><c.colorE5E5E5><00:04:18.820><c> opens</c><00:04:19.269><c> up</c><00:04:19.449><c> a</c><00:04:19.750><c> little</c><00:04:19.989><c> bit</c><00:04:20.229><c> more</c></c>
+
+00:04:20.430 --> 00:04:20.440 align:start position:0%
+so this<c.colorE5E5E5> opens up a little bit more
+ </c>
+
+00:04:20.440 --> 00:04:23.580 align:start position:0%
+so this<c.colorE5E5E5> opens up a little bit more
+interesting<00:04:21.570><c> opportunities</c><00:04:22.570><c> for</c><00:04:23.349><c> further</c></c>
+
+00:04:23.580 --> 00:04:23.590 align:start position:0%
+interesting opportunities<c.colorE5E5E5> for further
+ </c>
+
+00:04:23.590 --> 00:04:26.640 align:start position:0%
+interesting opportunities<c.colorE5E5E5> for further</c>
+<c.colorCCCCCC>analysis<00:04:24.190><c> note</c><00:04:25.150><c> that</c></c><c.colorE5E5E5><00:04:25.389><c> I</c></c><c.colorCCCCCC><00:04:25.599><c> use</c><00:04:25.780><c> a</c><00:04:25.810><c> plus</c><00:04:26.289><c> sign</c></c>
+
+00:04:26.640 --> 00:04:26.650 align:start position:0%
+<c.colorCCCCCC>analysis note that</c><c.colorE5E5E5> I</c><c.colorCCCCCC> use a plus sign
+ </c>
+
+00:04:26.650 --> 00:04:29.610 align:start position:0%
+<c.colorCCCCCC>analysis note that</c><c.colorE5E5E5> I</c><c.colorCCCCCC> use a plus sign</c>
+<c.colorE5E5E5>because<00:04:27.310><c> by</c><00:04:28.180><c> representing</c><00:04:29.050><c> text</c><00:04:29.380><c> as</c><00:04:29.590><c> a</c></c>
+
+00:04:29.610 --> 00:04:29.620 align:start position:0%
+<c.colorE5E5E5>because by representing text as a
+ </c>
+
+00:04:29.620 --> 00:04:32.560 align:start position:0%
+<c.colorE5E5E5>because by representing text as a
+sequence<00:04:30.279><c> of</c><00:04:30.370><c> part</c><00:04:31.000><c> of</c><00:04:31.090><c> speech</c><00:04:31.479><c> tags</c></c>
+
+00:04:32.560 --> 00:04:32.570 align:start position:0%
+<c.colorE5E5E5>sequence of part of speech tags
+ </c>
+
+00:04:32.570 --> 00:04:36.130 align:start position:0%
+<c.colorE5E5E5>sequence of part of speech tags
+we<00:04:32.810><c> don't</c><00:04:33.050><c> necessary</c><00:04:34.060><c> replace</c><00:04:35.060><c> the</c><00:04:35.540><c> original</c></c>
+
+00:04:36.130 --> 00:04:36.140 align:start position:0%
+we don't<c.colorE5E5E5> necessary replace the original
+ </c>
+
+00:04:36.140 --> 00:04:39.400 align:start position:0%
+we don't<c.colorE5E5E5> necessary replace the original
+water<00:04:36.500><c> sequence</c></c><c.colorCCCCCC><00:04:37.010><c> written</c></c><c.colorE5E5E5><00:04:37.430><c> dish</c></c><c.colorCCCCCC><00:04:37.610><c> instead</c></c><c.colorE5E5E5><00:04:38.510><c> we</c></c>
+
+00:04:39.400 --> 00:04:39.410 align:start position:0%
+water sequence<c.colorCCCCCC> written</c><c.colorE5E5E5> dish</c><c.colorCCCCCC> instead</c><c.colorE5E5E5> we
+ </c>
+
+00:04:39.410 --> 00:04:42.430 align:start position:0%
+water sequence<c.colorCCCCCC> written</c><c.colorE5E5E5> dish</c><c.colorCCCCCC> instead</c><c.colorE5E5E5> we</c>
+<c.colorCCCCCC>add<00:04:39.650><c> this</c><00:04:40.190><c> as</c><00:04:40.400><c> an</c><00:04:41.060><c> additional</c><00:04:41.930><c> way</c></c><c.colorE5E5E5><00:04:41.990><c> of</c></c>
+
+00:04:42.430 --> 00:04:42.440 align:start position:0%
+<c.colorCCCCCC>add this as an additional way</c><c.colorE5E5E5> of
+ </c>
+
+00:04:42.440 --> 00:04:44.710 align:start position:0%
+<c.colorCCCCCC>add this as an additional way</c><c.colorE5E5E5> of
+representing<00:04:43.370><c> text</c><00:04:43.730><c> data</c><00:04:43.940><c> so</c><00:04:44.240><c> that</c><00:04:44.270><c> now</c><00:04:44.660><c> the</c></c>
+
+00:04:44.710 --> 00:04:44.720 align:start position:0%
+representing text data<c.colorE5E5E5> so that now the
+ </c>
+
+00:04:44.720 --> 00:04:47.200 align:start position:0%
+representing text data<c.colorE5E5E5> so that now the
+data<00:04:45.200><c> is</c><00:04:45.470><c> represented</c><00:04:45.770><c> as</c><00:04:46.280><c> both</c><00:04:46.610><c> the</c><00:04:46.880><c> sequence</c></c>
+
+00:04:47.200 --> 00:04:47.210 align:start position:0%
+data is represented<c.colorE5E5E5> as both the sequence
+ </c>
+
+00:04:47.210 --> 00:04:49.510 align:start position:0%
+data is represented<c.colorE5E5E5> as both the sequence
+of<00:04:47.330><c> words</c><00:04:47.660><c> and</c><00:04:47.900><c> the</c><00:04:48.590><c> sequence</c><00:04:48.950><c> of</c><00:04:49.040><c> part</c><00:04:49.460><c> of</c></c>
+
+00:04:49.510 --> 00:04:49.520 align:start position:0%
+of<c.colorE5E5E5> words and the sequence of part of
+ </c>
+
+00:04:49.520 --> 00:04:52.330 align:start position:0%
+of<c.colorE5E5E5> words and the sequence of part of
+speech<00:04:49.880><c> tags</c><00:04:50.470><c> this</c><00:04:51.470><c> enriches</c><00:04:52.310><c> a</c></c>
+
+00:04:52.330 --> 00:04:52.340 align:start position:0%
+speech tags this enriches a
+ 
+
+00:04:52.340 --> 00:04:54.460 align:start position:0%
+speech tags this enriches a
+representation<c.colorE5E5E5><00:04:52.760><c> of</c><00:04:53.150><c> text</c><00:04:53.480><c> data</c><00:04:53.600><c> and</c><00:04:53.930><c> thus</c></c>
+
+00:04:54.460 --> 00:04:54.470 align:start position:0%
+representation<c.colorE5E5E5> of text data and thus
+ </c>
+
+00:04:54.470 --> 00:05:00.360 align:start position:0%
+representation<c.colorE5E5E5> of text data and thus</c>
+<c.colorCCCCCC>also<00:04:55.190><c> enables</c><00:04:55.940><c> more</c><00:04:56.750><c> interesting</c><00:04:57.320><c> analysis</c></c>
+
+00:05:00.360 --> 00:05:00.370 align:start position:0%
+ 
+ 
+
+00:05:00.370 --> 00:05:03.130 align:start position:0%
+ 
+if<00:05:01.370><c> we</c><00:05:01.640><c> go</c><00:05:01.790><c> further</c><00:05:02.060><c> then</c><00:05:02.480><c> we'll</c><00:05:02.630><c> be</c><00:05:02.810><c> pausing</c>
+
+00:05:03.130 --> 00:05:03.140 align:start position:0%
+if we go further then we'll be pausing
+ 
+
+00:05:03.140 --> 00:05:05.670 align:start position:0%
+if we go further then we'll be pausing
+<c.colorCCCCCC>the<00:05:03.500><c> sentence</c><00:05:03.950><c> for</c><00:05:04.190><c> thinning</c></c><c.colorE5E5E5><00:05:04.670><c> to</c><00:05:05.030><c> obtain</c><00:05:05.330><c> a</c></c>
+
+00:05:05.670 --> 00:05:05.680 align:start position:0%
+<c.colorCCCCCC>the sentence for thinning</c><c.colorE5E5E5> to obtain a
+ </c>
+
+00:05:05.680 --> 00:05:09.340 align:start position:0%
+<c.colorCCCCCC>the sentence for thinning</c><c.colorE5E5E5> to obtain a
+syntactic<00:05:06.680><c> structure</c><00:05:07.810><c> now</c><00:05:08.810><c> this</c><00:05:09.140><c> of</c><00:05:09.320><c> course</c></c>
+
+00:05:09.340 --> 00:05:09.350 align:start position:0%
+syntactic structure<c.colorE5E5E5> now this of course
+ </c>
+
+00:05:09.350 --> 00:05:11.650 align:start position:0%
+syntactic structure<c.colorE5E5E5> now this of course
+further<00:05:09.950><c> open</c><00:05:10.430><c> up</c><00:05:10.610><c> more</c><00:05:11.120><c> interesting</c></c>
+
+00:05:11.650 --> 00:05:11.660 align:start position:0%
+further<c.colorE5E5E5> open up more interesting
+ </c>
+
+00:05:11.660 --> 00:05:16.480 align:start position:0%
+further<c.colorE5E5E5> open up more interesting
+analysis<00:05:12.170><c> of</c><00:05:13.240><c> for</c><00:05:14.240><c> example</c></c><c.colorCCCCCC><00:05:14.330><c> the</c></c><c.colorE5E5E5><00:05:15.490><c> writing</c></c>
+
+00:05:16.480 --> 00:05:16.490 align:start position:0%
+analysis of for example<c.colorCCCCCC> the</c><c.colorE5E5E5> writing
+ </c>
+
+00:05:16.490 --> 00:05:23.290 align:start position:0%
+analysis of for example<c.colorCCCCCC> the</c><c.colorE5E5E5> writing
+styles<00:05:17.060><c> or</c><00:05:19.300><c> correcting</c><00:05:20.300><c> grammar</c><00:05:20.690><c> mistakes</c><00:05:22.300><c> if</c></c>
+
+00:05:23.290 --> 00:05:23.300 align:start position:0%
+<c.colorE5E5E5>styles or correcting grammar mistakes if
+ </c>
+
+00:05:23.300 --> 00:05:25.840 align:start position:0%
+<c.colorE5E5E5>styles or correcting grammar mistakes if
+we<00:05:23.450><c> could</c><00:05:23.690><c> put</c><00:05:24.230><c> a</c></c><c.colorCCCCCC><00:05:24.410><c> call</c><00:05:24.620><c> further</c><00:05:24.890><c> for</c><00:05:25.370><c> semantic</c></c>
+
+00:05:25.840 --> 00:05:25.850 align:start position:0%
+we could put a<c.colorCCCCCC> call further for semantic
+ </c>
+
+00:05:25.850 --> 00:05:27.700 align:start position:0%
+we could put a<c.colorCCCCCC> call further for semantic
+analysis<00:05:26.360><c> then</c><00:05:26.690><c> we</c></c><c.colorE5E5E5><00:05:26.900><c> might</c></c><c.colorCCCCCC><00:05:27.230><c> be</c></c><c.colorE5E5E5><00:05:27.410><c> able</c></c><c.colorCCCCCC><00:05:27.530><c> to</c></c>
+
+00:05:27.700 --> 00:05:27.710 align:start position:0%
+analysis then we<c.colorE5E5E5> might</c><c.colorCCCCCC> be</c><c.colorE5E5E5> able</c><c.colorCCCCCC> to
+ </c>
+
+00:05:27.710 --> 00:05:32.620 align:start position:0%
+analysis then we<c.colorE5E5E5> might</c><c.colorCCCCCC> be</c><c.colorE5E5E5> able</c><c.colorCCCCCC> to
+recognize</c><c.colorE5E5E5><00:05:28.930><c> dog</c><00:05:29.930><c> as</c><00:05:30.260><c> an</c><00:05:30.770><c> animal</c><00:05:31.220><c> and</c><00:05:32.030><c> we</c><00:05:32.240><c> also</c></c>
+
+00:05:32.620 --> 00:05:32.630 align:start position:0%
+recognize<c.colorE5E5E5> dog as an animal and we also
+ </c>
+
+00:05:32.630 --> 00:05:35.400 align:start position:0%
+recognize<c.colorE5E5E5> dog as an animal and we also</c>
+<c.colorCCCCCC>can<00:05:33.440><c> recognize</c><00:05:33.890><c> a</c></c><c.colorE5E5E5><00:05:33.920><c> boy</c><00:05:34.310><c> as</c><00:05:34.610><c> a</c><00:05:34.640><c> person</c><00:05:35.150><c> and</c></c>
+
+00:05:35.400 --> 00:05:35.410 align:start position:0%
+<c.colorCCCCCC>can recognize a</c><c.colorE5E5E5> boy as a person and
+ </c>
+
+00:05:35.410 --> 00:05:38.980 align:start position:0%
+<c.colorCCCCCC>can recognize a</c><c.colorE5E5E5> boy as a person and
+playground<00:05:36.410><c> as</c><00:05:36.680><c> a</c><00:05:36.740><c> location</c><00:05:37.750><c> and</c><00:05:38.750><c> we</c></c><c.colorCCCCCC><00:05:38.840><c> can</c></c>
+
+00:05:38.980 --> 00:05:38.990 align:start position:0%
+playground as a location<c.colorE5E5E5> and we</c><c.colorCCCCCC> can
+ </c>
+
+00:05:38.990 --> 00:05:40.810 align:start position:0%
+playground as a location<c.colorE5E5E5> and we</c><c.colorCCCCCC> can
+further</c><c.colorE5E5E5><00:05:39.230><c> analyze</c><00:05:39.500><c> their</c><00:05:40.040><c> relations</c><00:05:40.550><c> for</c></c>
+
+00:05:40.810 --> 00:05:40.820 align:start position:0%
+further<c.colorE5E5E5> analyze their relations for
+ </c>
+
+00:05:40.820 --> 00:05:44.050 align:start position:0%
+further<c.colorE5E5E5> analyze their relations for
+example<00:05:41.240><c> dog</c><00:05:41.570><c> is</c><00:05:41.780><c> chasing</c><00:05:42.230><c> the</c><00:05:42.860><c> boy</c><00:05:43.040><c> and</c><00:05:43.370><c> boys</c></c>
+
+00:05:44.050 --> 00:05:44.060 align:start position:0%
+example dog is chasing the boy and boys
+ 
+
+00:05:44.060 --> 00:05:47.140 align:start position:0%
+example dog is chasing the boy and boys
+on<00:05:44.570><c> the</c><00:05:44.690><c> playground</c><c.colorCCCCCC><00:05:45.230><c> now</c><00:05:45.640><c> this</c><00:05:46.640><c> is</c><00:05:46.820><c> to</c><00:05:46.940><c> add</c></c>
+
+00:05:47.140 --> 00:05:47.150 align:start position:0%
+on the playground<c.colorCCCCCC> now this is to add
+ </c>
+
+00:05:47.150 --> 00:05:50.680 align:start position:0%
+on the playground<c.colorCCCCCC> now this is to add
+more</c><c.colorE5E5E5><00:05:47.260><c> entities</c><00:05:48.260><c> and</c><00:05:48.500><c> relations</c><00:05:49.690><c> through</c></c>
+
+00:05:50.680 --> 00:05:50.690 align:start position:0%
+<c.colorCCCCCC>more</c><c.colorE5E5E5> entities and relations through
+ </c>
+
+00:05:50.690 --> 00:05:54.400 align:start position:0%
+<c.colorCCCCCC>more</c><c.colorE5E5E5> entities and relations through
+entity<00:05:51.230><c> relation</c><00:05:51.710><c> regulation</c><00:05:52.780><c> at</c><00:05:53.780><c> this</c><00:05:54.080><c> level</c></c>
+
+00:05:54.400 --> 00:05:54.410 align:start position:0%
+entity relation regulation at this level
+ 
+
+00:05:54.410 --> 00:05:57.220 align:start position:0%
+entity relation regulation at this level
+<c.colorE5E5E5>then<00:05:55.070><c> we</c><00:05:55.940><c> can</c><00:05:56.120><c> do</c><00:05:56.270><c> even</c></c><c.colorCCCCCC><00:05:56.420><c> more</c><00:05:56.720><c> interesting</c></c>
+
+00:05:57.220 --> 00:05:57.230 align:start position:0%
+<c.colorE5E5E5>then we can do even</c><c.colorCCCCCC> more interesting
+ </c>
+
+00:05:57.230 --> 00:05:59.140 align:start position:0%
+<c.colorE5E5E5>then we can do even</c><c.colorCCCCCC> more interesting
+things<00:05:57.470><c> for</c><00:05:57.860><c> example</c></c><c.colorE5E5E5><00:05:57.950><c> now</c><00:05:58.430><c> we</c><00:05:58.490><c> can</c></c><c.colorCCCCCC><00:05:58.730><c> counter</c></c>
+
+00:05:59.140 --> 00:05:59.150 align:start position:0%
+things for example<c.colorE5E5E5> now we can</c><c.colorCCCCCC> counter
+ </c>
+
+00:05:59.150 --> 00:06:02.200 align:start position:0%
+things for example<c.colorE5E5E5> now we can</c><c.colorCCCCCC> counter
+easily<00:05:59.600><c> the</c><00:05:59.960><c> most</c><00:06:00.200><c> frequent</c><00:06:00.710><c> person</c><00:06:01.340><c> that's</c></c>
+
+00:06:02.200 --> 00:06:02.210 align:start position:0%
+easily the<c.colorCCCCCC> most frequent person that's
+ </c>
+
+00:06:02.210 --> 00:06:05.230 align:start position:0%
+easily the<c.colorCCCCCC> most frequent person that's
+mentioning</c><c.colorE5E5E5><00:06:03.050><c> this</c><00:06:03.350><c> whole</c><00:06:03.730><c> collection</c></c><c.colorCCCCCC><00:06:04.730><c> of</c><00:06:05.030><c> news</c></c>
+
+00:06:05.230 --> 00:06:05.240 align:start position:0%
+mentioning<c.colorE5E5E5> this whole collection</c><c.colorCCCCCC> of news
+ </c>
+
+00:06:05.240 --> 00:06:08.170 align:start position:0%
+mentioning<c.colorE5E5E5> this whole collection</c><c.colorCCCCCC> of news</c>
+<c.colorE5E5E5>articles<00:06:05.780><c> or</c><00:06:06.190><c> whenever</c></c><c.colorCCCCCC><00:06:07.190><c> you</c><00:06:07.340><c> mention</c><00:06:07.580><c> this</c></c>
+
+00:06:08.170 --> 00:06:08.180 align:start position:0%
+<c.colorE5E5E5>articles or whenever</c><c.colorCCCCCC> you mention this
+ </c>
+
+00:06:08.180 --> 00:06:11.260 align:start position:0%
+<c.colorE5E5E5>articles or whenever</c><c.colorCCCCCC> you mention this
+person</c><c.colorE5E5E5><00:06:08.740><c> you</c><00:06:09.740><c> also</c><00:06:09.950><c> tend</c></c><c.colorCCCCCC><00:06:10.340><c> to</c><00:06:10.550><c> see</c><00:06:10.730><c> mention</c><00:06:11.150><c> of</c></c>
+
+00:06:11.260 --> 00:06:11.270 align:start position:0%
+person<c.colorE5E5E5> you also tend</c><c.colorCCCCCC> to see mention of
+ </c>
+
+00:06:11.270 --> 00:06:17.110 align:start position:0%
+person<c.colorE5E5E5> you also tend</c><c.colorCCCCCC> to see mention of
+another</c><c.colorE5E5E5><00:06:11.420><c> person</c><00:06:12.140><c> etc</c><00:06:13.240><c> so</c><00:06:14.240><c> this</c><00:06:14.720><c> is</c><00:06:16.120><c> very</c></c>
+
+00:06:17.110 --> 00:06:17.120 align:start position:0%
+another<c.colorE5E5E5> person etc so this is very
+ </c>
+
+00:06:17.120 --> 00:06:21.040 align:start position:0%
+another<c.colorE5E5E5> person etc so this is very
+useful<00:06:18.280><c> representation</c><00:06:19.280><c> and</c><00:06:19.630><c> it's</c><00:06:20.630><c> also</c></c>
+
+00:06:21.040 --> 00:06:21.050 align:start position:0%
+useful<c.colorE5E5E5> representation and it's also
+ </c>
+
+00:06:21.050 --> 00:06:23.500 align:start position:0%
+useful<c.colorE5E5E5> representation and it's also
+related</c><c.colorCCCCCC><00:06:21.410><c> to</c><00:06:21.740><c> the</c><00:06:21.980><c> knowledge</c></c><c.colorE5E5E5><00:06:22.250><c> graph</c><00:06:22.580><c> that</c><00:06:23.060><c> some</c></c>
+
+00:06:23.500 --> 00:06:23.510 align:start position:0%
+related<c.colorCCCCCC> to the knowledge</c><c.colorE5E5E5> graph that some
+ </c>
+
+00:06:23.510 --> 00:06:26.230 align:start position:0%
+related<c.colorCCCCCC> to the knowledge</c><c.colorE5E5E5> graph that some
+of<00:06:23.660><c> you</c><00:06:23.840><c> may</c><00:06:24.020><c> have</c><00:06:24.050><c> heard</c><00:06:24.410><c> of</c><00:06:24.650><c> that</c></c><c.colorCCCCCC><00:06:25.120><c> Google</c><00:06:26.120><c> is</c></c>
+
+00:06:26.230 --> 00:06:26.240 align:start position:0%
+<c.colorE5E5E5>of you may have heard of that</c><c.colorCCCCCC> Google is
+ </c>
+
+00:06:26.240 --> 00:06:29.500 align:start position:0%
+<c.colorE5E5E5>of you may have heard of that</c><c.colorCCCCCC> Google is</c>
+<c.colorCCCCCC>doing</c><c.colorE5E5E5><00:06:26.480><c> as</c><00:06:26.840><c> a</c><00:06:27.640><c> more</c><00:06:28.640><c> cinematic</c><00:06:28.970><c> way</c><00:06:29.330><c> of</c></c>
+
+00:06:29.500 --> 00:06:29.510 align:start position:0%
+<c.colorCCCCCC>doing</c><c.colorE5E5E5> as a more cinematic way of
+ </c>
+
+00:06:29.510 --> 00:06:33.790 align:start position:0%
+<c.colorCCCCCC>doing</c><c.colorE5E5E5> as a more cinematic way of
+representing<00:06:30.140><c> text</c><00:06:30.620><c> data</c><00:06:31.630><c> however</c><00:06:32.630><c> it's</c><00:06:33.500><c> also</c></c>
+
+00:06:33.790 --> 00:06:33.800 align:start position:0%
+representing<c.colorE5E5E5> text data however it's also
+ </c>
+
+00:06:33.800 --> 00:06:38.500 align:start position:0%
+representing<c.colorE5E5E5> text data however it's also
+less<00:06:34.550><c> robust</c><00:06:35.030><c> than</c><00:06:36.820><c> sequence</c><00:06:37.820><c> of</c><00:06:37.970><c> words</c><00:06:38.270><c> or</c></c>
+
+00:06:38.500 --> 00:06:38.510 align:start position:0%
+less robust than sequence of<c.colorE5E5E5> words or
+ </c>
+
+00:06:38.510 --> 00:06:42.310 align:start position:0%
+less robust than sequence of<c.colorE5E5E5> words or
+even<00:06:39.070><c> syntactic</c><00:06:40.070><c> analysis</c><00:06:40.690><c> because</c><00:06:41.690><c> it's</c><00:06:42.110><c> not</c></c>
+
+00:06:42.310 --> 00:06:42.320 align:start position:0%
+even<c.colorE5E5E5> syntactic analysis because it's not
+ </c>
+
+00:06:42.320 --> 00:06:45.200 align:start position:0%
+even<c.colorE5E5E5> syntactic analysis because it's not</c>
+<c.colorCCCCCC>always<00:06:42.890><c> easy</c><00:06:43.100><c> to</c><00:06:43.280><c> identify</c></c><c.colorE5E5E5><00:06:43.550><c> all</c><00:06:44.120><c> the</c><00:06:44.360><c> entities</c></c>
+
+00:06:45.200 --> 00:06:45.210 align:start position:0%
+<c.colorCCCCCC>always easy to identify</c><c.colorE5E5E5> all the entities
+ </c>
+
+00:06:45.210 --> 00:06:46.640 align:start position:0%
+<c.colorCCCCCC>always easy to identify</c><c.colorE5E5E5> all the entities
+with<00:06:45.300><c> the</c><00:06:45.419><c> right</c><00:06:45.630><c> types</c><00:06:45.960><c> and</c><00:06:46.289><c> we</c><00:06:46.440><c> might</c><00:06:46.620><c> make</c></c>
+
+00:06:46.640 --> 00:06:46.650 align:start position:0%
+with the right types<c.colorE5E5E5> and we might make
+ </c>
+
+00:06:46.650 --> 00:06:49.340 align:start position:0%
+with the right types<c.colorE5E5E5> and we might make</c>
+<c.colorCCCCCC>mistakes</c><c.colorE5E5E5><00:06:47.070><c> and</c><00:06:47.940><c> relations</c><00:06:48.570><c> are</c><00:06:48.840><c> even</c><00:06:49.050><c> harder</c></c>
+
+00:06:49.340 --> 00:06:49.350 align:start position:0%
+<c.colorCCCCCC>mistakes</c><c.colorE5E5E5> and relations are even harder
+ </c>
+
+00:06:49.350 --> 00:06:53.029 align:start position:0%
+<c.colorCCCCCC>mistakes</c><c.colorE5E5E5> and relations are even harder
+to</c><c.colorCCCCCC><00:06:49.500><c> find</c></c><c.colorE5E5E5><00:06:49.740><c> and</c><00:06:50.610><c> we</c><00:06:51.120><c> might</c><00:06:51.360><c> make</c><00:06:51.570><c> mistakes</c></c><c.colorCCCCCC><00:06:52.039><c> so</c></c>
+
+00:06:53.029 --> 00:06:53.039 align:start position:0%
+to<c.colorCCCCCC> find</c><c.colorE5E5E5> and we might make mistakes</c><c.colorCCCCCC> so
+ </c>
+
+00:06:53.039 --> 00:06:54.710 align:start position:0%
+to<c.colorCCCCCC> find</c><c.colorE5E5E5> and we might make mistakes</c><c.colorCCCCCC> so
+this<00:06:53.340><c> makes</c><00:06:53.610><c> this</c><00:06:53.820><c> level</c><00:06:54.240><c> of</c><00:06:54.300><c> representation</c></c>
+
+00:06:54.710 --> 00:06:54.720 align:start position:0%
+this makes this level of representation
+ 
+
+00:06:54.720 --> 00:06:59.270 align:start position:0%
+this makes this level of representation
+less<00:06:55.320><c> robust</c><00:06:55.770><c> yet</c><00:06:56.400><c> it's</c><00:06:56.580><c> very</c><c.colorE5E5E5><00:06:56.699><c> useful</c><00:06:58.100><c> now</c><00:06:59.100><c> if</c></c>
+
+00:06:59.270 --> 00:06:59.280 align:start position:0%
+less robust yet it's very<c.colorE5E5E5> useful now if
+ </c>
+
+00:06:59.280 --> 00:07:01.070 align:start position:0%
+less robust yet it's very<c.colorE5E5E5> useful now if
+we<00:06:59.490><c> move</c><00:06:59.699><c> further</c><00:07:00.090><c> to</c><00:07:00.509><c> logical</c></c>
+
+00:07:01.070 --> 00:07:01.080 align:start position:0%
+we move<c.colorE5E5E5> further to logical
+ </c>
+
+00:07:01.080 --> 00:07:02.210 align:start position:0%
+we move<c.colorE5E5E5> further to logical
+representation</c><c.colorCCCCCC><00:07:01.350><c> then</c><00:07:01.860><c> we'll</c><00:07:02.009><c> have</c></c>
+
+00:07:02.210 --> 00:07:02.220 align:start position:0%
+representation<c.colorCCCCCC> then we'll have
+ </c>
+
+00:07:02.220 --> 00:07:05.379 align:start position:0%
+representation<c.colorCCCCCC> then we'll have
+predicates</c><c.colorE5E5E5><00:07:02.850><c> and</c><00:07:03.060><c> even</c><00:07:03.509><c> inference</c><00:07:04.169><c> rules</c><00:07:04.470><c> and</c></c>
+
+00:07:05.379 --> 00:07:05.389 align:start position:0%
+predicates<c.colorE5E5E5> and even inference rules and
+ </c>
+
+00:07:05.389 --> 00:07:08.270 align:start position:0%
+predicates<c.colorE5E5E5> and even inference rules and
+with<00:07:06.389><c> the</c><00:07:06.509><c> inference</c><00:07:06.960><c> inference</c><00:07:07.680><c> rules</c><00:07:07.949><c> we</c></c>
+
+00:07:08.270 --> 00:07:08.280 align:start position:0%
+with the inference<c.colorE5E5E5> inference rules we
+ </c>
+
+00:07:08.280 --> 00:07:12.020 align:start position:0%
+with the inference<c.colorE5E5E5> inference rules we
+can<00:07:08.460><c> infer</c><00:07:09.710><c> interesting</c><00:07:10.710><c> derived</c></c><c.colorCCCCCC><00:07:11.340><c> effects</c></c>
+
+00:07:12.020 --> 00:07:12.030 align:start position:0%
+can infer interesting derived<c.colorCCCCCC> effects
+ </c>
+
+00:07:12.030 --> 00:07:15.200 align:start position:0%
+can infer interesting derived<c.colorCCCCCC> effects
+from</c><c.colorE5E5E5><00:07:12.810><c> the</c><00:07:13.050><c> text</c><00:07:13.440><c> so</c><00:07:14.009><c> that's</c><00:07:14.190><c> very</c><00:07:14.460><c> useful</c></c><c.colorCCCCCC><00:07:14.580><c> but</c></c>
+
+00:07:15.200 --> 00:07:15.210 align:start position:0%
+from<c.colorE5E5E5> the text so that's very useful</c><c.colorCCCCCC> but
+ </c>
+
+00:07:15.210 --> 00:07:17.360 align:start position:0%
+from<c.colorE5E5E5> the text so that's very useful</c><c.colorCCCCCC> but
+unfortunately</c><c.colorE5E5E5><00:07:16.110><c> and</c><00:07:16.680><c> this</c><00:07:16.830><c> level</c></c><c.colorCCCCCC><00:07:17.130><c> of</c></c>
+
+00:07:17.360 --> 00:07:17.370 align:start position:0%
+unfortunately<c.colorE5E5E5> and this level</c><c.colorCCCCCC> of
+ </c>
+
+00:07:17.370 --> 00:07:21.110 align:start position:0%
+unfortunately<c.colorE5E5E5> and this level</c><c.colorCCCCCC> of
+repetition<00:07:18.120><c> is</c><00:07:18.650><c> even</c><00:07:19.650><c> less</c><00:07:19.860><c> robust</c><00:07:20.340><c> and</c><00:07:20.789><c> we</c></c>
+
+00:07:21.110 --> 00:07:21.120 align:start position:0%
+<c.colorCCCCCC>repetition is even less robust and we
+ </c>
+
+00:07:21.120 --> 00:07:25.129 align:start position:0%
+<c.colorCCCCCC>repetition is even less robust and we
+can<00:07:21.330><c> make</c><00:07:21.930><c> mistakes</c><00:07:22.169><c> and</c><00:07:23.660><c> we</c><00:07:24.660><c> can't</c><00:07:24.900><c> do</c><00:07:25.110><c> that</c></c>
+
+00:07:25.129 --> 00:07:25.139 align:start position:0%
+can make mistakes<c.colorCCCCCC> and we can't do that
+ </c>
+
+00:07:25.139 --> 00:07:28.159 align:start position:0%
+can make mistakes<c.colorCCCCCC> and we can't do that</c>
+<c.colorE5E5E5>all<00:07:26.130><c> the</c></c><c.colorCCCCCC><00:07:26.190><c> time</c></c><c.colorE5E5E5><00:07:26.370><c> for</c><00:07:26.940><c> all</c></c><c.colorCCCCCC><00:07:26.970><c> kinds</c><00:07:27.479><c> of</c><00:07:27.509><c> sentences</c></c>
+
+00:07:28.159 --> 00:07:28.169 align:start position:0%
+<c.colorE5E5E5>all the</c><c.colorCCCCCC> time</c><c.colorE5E5E5> for all</c><c.colorCCCCCC> kinds of sentences
+ </c>
+
+00:07:28.169 --> 00:07:32.719 align:start position:0%
+<c.colorE5E5E5>all the</c><c.colorCCCCCC> time</c><c.colorE5E5E5> for all</c><c.colorCCCCCC> kinds of sentences</c>
+<c.colorE5E5E5>and<00:07:28.849><c> finally</c><00:07:29.849><c> speech</c><00:07:30.690><c> acts</c><00:07:31.020><c> would</c><00:07:31.979><c> add</c><00:07:32.250><c> a</c><00:07:32.280><c> yet</c></c>
+
+00:07:32.719 --> 00:07:32.729 align:start position:0%
+<c.colorE5E5E5>and finally speech acts would add a yet
+ </c>
+
+00:07:32.729 --> 00:07:35.330 align:start position:0%
+<c.colorE5E5E5>and finally speech acts would add a yet</c>
+<c.colorE5E5E5>another<00:07:33.120><c> level</c><00:07:33.539><c> of</c><00:07:33.900><c> recognition</c><00:07:34.500><c> of</c><00:07:34.830><c> the</c></c>
+
+00:07:35.330 --> 00:07:35.340 align:start position:0%
+<c.colorE5E5E5>another level of recognition of the
+ </c>
+
+00:07:35.340 --> 00:07:39.409 align:start position:0%
+<c.colorE5E5E5>another level of recognition of the
+intent<00:07:35.820><c> of</c><00:07:36.349><c> saying</c><00:07:37.349><c> this</c><00:07:37.590><c> sentence</c><00:07:38.099><c> so</c><00:07:39.060><c> in</c></c>
+
+00:07:39.409 --> 00:07:39.419 align:start position:0%
+intent of saying this sentence<c.colorE5E5E5> so in
+ </c>
+
+00:07:39.419 --> 00:07:41.930 align:start position:0%
+intent of saying this sentence<c.colorE5E5E5> so in
+this<00:07:39.539><c> case</c><00:07:39.780><c> it</c><00:07:40.080><c> might</c><00:07:40.349><c> be</c><00:07:40.410><c> a</c><00:07:40.560><c> request</c></c><c.colorCCCCCC><00:07:41.009><c> so</c></c>
+
+00:07:41.930 --> 00:07:41.940 align:start position:0%
+this case it might be a request<c.colorCCCCCC> so
+ </c>
+
+00:07:41.940 --> 00:07:43.879 align:start position:0%
+this case it might be a request<c.colorCCCCCC> so
+knowing<00:07:42.330><c> that</c><00:07:42.360><c> would</c><00:07:42.870><c> allow</c><00:07:43.139><c> us</c></c><c.colorE5E5E5><00:07:43.169><c> to</c><00:07:43.560><c> you</c><00:07:43.830><c> know</c></c>
+
+00:07:43.879 --> 00:07:43.889 align:start position:0%
+knowing that would allow us<c.colorE5E5E5> to you know
+ </c>
+
+00:07:43.889 --> 00:07:45.920 align:start position:0%
+knowing that would allow us<c.colorE5E5E5> to you know
+analyze<00:07:44.490><c> more</c><00:07:44.880><c> even</c></c><c.colorCCCCCC><00:07:45.180><c> more</c><00:07:45.360><c> interesting</c></c>
+
+00:07:45.920 --> 00:07:45.930 align:start position:0%
+analyze<c.colorE5E5E5> more even</c><c.colorCCCCCC> more interesting
+ </c>
+
+00:07:45.930 --> 00:07:50.180 align:start position:0%
+analyze<c.colorE5E5E5> more even</c><c.colorCCCCCC> more interesting
+things<00:07:46.590><c> about</c><00:07:46.830><c> the</c><00:07:47.250><c> observer</c></c><c.colorE5E5E5><00:07:47.849><c> or</c><00:07:48.840><c> the</c><00:07:49.260><c> author</c></c>
+
+00:07:50.180 --> 00:07:50.190 align:start position:0%
+things about the observer<c.colorE5E5E5> or the author
+ </c>
+
+00:07:50.190 --> 00:07:52.399 align:start position:0%
+things about the observer<c.colorE5E5E5> or the author
+of<00:07:50.550><c> the</c><00:07:50.699><c> sentence</c><00:07:51.210><c> you</c><00:07:51.930><c> know</c><00:07:52.020><c> what's</c><00:07:52.260><c> the</c></c>
+
+00:07:52.399 --> 00:07:52.409 align:start position:0%
+<c.colorE5E5E5>of the sentence you know what's the
+ </c>
+
+00:07:52.409 --> 00:07:54.770 align:start position:0%
+<c.colorE5E5E5>of the sentence you know what's the
+intention<00:07:52.800><c> of</c><00:07:53.070><c> saying</c><00:07:53.460><c> that</c><00:07:53.729><c> what</c><00:07:54.120><c> scenarios</c></c>
+
+00:07:54.770 --> 00:07:54.780 align:start position:0%
+intention<c.colorE5E5E5> of saying that what scenarios
+ </c>
+
+00:07:54.780 --> 00:07:57.830 align:start position:0%
+intention<c.colorE5E5E5> of saying that what scenarios
+what<00:07:55.199><c> kind</c><00:07:55.470><c> of</c><00:07:55.530><c> actions</c></c><c.colorCCCCCC><00:07:55.949><c> will</c></c><c.colorE5E5E5><00:07:56.220><c> be</c><00:07:56.340><c> made</c><00:07:56.840><c> so</c></c>
+
+00:07:57.830 --> 00:07:57.840 align:start position:0%
+<c.colorE5E5E5>what kind of actions</c><c.colorCCCCCC> will</c><c.colorE5E5E5> be made so
+ </c>
+
+00:07:57.840 --> 00:08:03.860 align:start position:0%
+<c.colorE5E5E5>what kind of actions</c><c.colorCCCCCC> will</c><c.colorE5E5E5> be made so
+this<00:07:58.229><c> is</c><00:08:01.250><c> another</c><00:08:02.250><c> level</c><00:08:02.490><c> of</c><00:08:02.820><c> analysis</c></c><c.colorCCCCCC><00:08:03.479><c> that</c></c>
+
+00:08:03.860 --> 00:08:03.870 align:start position:0%
+this is another level<c.colorE5E5E5> of analysis</c><c.colorCCCCCC> that
+ </c>
+
+00:08:03.870 --> 00:08:06.620 align:start position:0%
+this is another level<c.colorE5E5E5> of analysis</c><c.colorCCCCCC> that
+would</c><c.colorE5E5E5><00:08:04.620><c> be</c><00:08:04.770><c> very</c><00:08:04.919><c> interesting</c></c><c.colorCCCCCC><00:08:05.180><c> so</c><00:08:06.180><c> this</c></c>
+
+00:08:06.620 --> 00:08:06.630 align:start position:0%
+would<c.colorE5E5E5> be very interesting</c><c.colorCCCCCC> so this
+ </c>
+
+00:08:06.630 --> 00:08:10.399 align:start position:0%
+would<c.colorE5E5E5> be very interesting</c><c.colorCCCCCC> so this
+picture<00:08:06.870><c> shows</c><00:08:07.289><c> that</c><00:08:07.680><c> if</c><00:08:08.610><c> we</c><00:08:09.060><c> move</c><00:08:09.570><c> down</c></c><c.colorE5E5E5><00:08:09.599><c> we</c></c>
+
+00:08:10.399 --> 00:08:10.409 align:start position:0%
+picture<c.colorCCCCCC> shows that if we move down</c><c.colorE5E5E5> we
+ </c>
+
+00:08:10.409 --> 00:08:12.920 align:start position:0%
+picture<c.colorCCCCCC> shows that if we move down</c><c.colorE5E5E5> we
+generally<00:08:10.919><c> see</c><00:08:11.130><c> more</c><00:08:11.490><c> sophisticated</c><00:08:12.360><c> natural</c></c>
+
+00:08:12.920 --> 00:08:12.930 align:start position:0%
+generally see more sophisticated natural
+ 
+
+00:08:12.930 --> 00:08:14.600 align:start position:0%
+generally see more sophisticated natural
+diamond<c.colorCCCCCC><00:08:13.139><c> processing</c><00:08:13.650><c> techniques</c><00:08:14.070><c> to</c><00:08:14.250><c> be</c><00:08:14.340><c> used</c></c>
+
+00:08:14.600 --> 00:08:14.610 align:start position:0%
+diamond<c.colorCCCCCC> processing techniques to be used
+ </c>
+
+00:08:14.610 --> 00:08:18.050 align:start position:0%
+diamond<c.colorCCCCCC> processing techniques to be used</c>
+<c.colorE5E5E5>and<00:08:15.860><c> unfortunately</c><00:08:16.860><c> such</c><00:08:17.370><c> techniques</c><00:08:17.849><c> would</c></c>
+
+00:08:18.050 --> 00:08:18.060 align:start position:0%
+<c.colorE5E5E5>and unfortunately such techniques would
+ </c>
+
+00:08:18.060 --> 00:08:21.620 align:start position:0%
+<c.colorE5E5E5>and unfortunately such techniques would
+require<00:08:18.479><c> more</c><00:08:18.840><c> human</c><00:08:19.259><c> effort</c><00:08:19.650><c> and</c><00:08:20.479><c> they</c><00:08:21.479><c> are</c></c>
+
+00:08:21.620 --> 00:08:21.630 align:start position:0%
+require more human effort and they are
+ 
+
+00:08:21.630 --> 00:08:24.820 align:start position:0%
+require more human effort and they are
+less<00:08:21.900><c> accurate</c><c.colorE5E5E5><00:08:22.639><c> that</c><00:08:23.639><c> means</c><00:08:23.970><c> there</c></c><c.colorCCCCCC><00:08:24.389><c> are</c></c>
+
+00:08:24.820 --> 00:08:24.830 align:start position:0%
+less accurate<c.colorE5E5E5> that means there</c><c.colorCCCCCC> are
+ </c>
+
+00:08:24.830 --> 00:08:29.450 align:start position:0%
+less accurate<c.colorE5E5E5> that means there</c><c.colorCCCCCC> are
+mistakes<00:08:26.150><c> so</c><00:08:27.150><c> if</c><00:08:27.539><c> we</c><00:08:27.810><c> analyze</c><00:08:28.130><c> text</c></c><c.colorE5E5E5><00:08:29.130><c> there</c><00:08:29.430><c> are</c></c>
+
+00:08:29.450 --> 00:08:29.460 align:start position:0%
+mistakes so if we analyze text<c.colorE5E5E5> there are
+ </c>
+
+00:08:29.460 --> 00:08:32.959 align:start position:0%
+mistakes so if we analyze text<c.colorE5E5E5> there are</c>
+<c.colorE5E5E5>at<00:08:29.699><c> the</c><00:08:30.180><c> levels</c></c><c.colorCCCCCC><00:08:30.570><c> that</c><00:08:31.380><c> are</c><00:08:31.969><c> representing</c></c>
+
+00:08:32.959 --> 00:08:32.969 align:start position:0%
+<c.colorE5E5E5>at the levels</c><c.colorCCCCCC> that are representing
+ </c>
+
+00:08:32.969 --> 00:08:35.659 align:start position:0%
+<c.colorE5E5E5>at the levels</c><c.colorCCCCCC> that are representing</c>
+<c.colorCCCCCC>deeper<00:08:33.300><c> analysis</c></c><c.colorE5E5E5><00:08:33.870><c> of</c><00:08:34.140><c> language</c></c><c.colorCCCCCC><00:08:34.469><c> then</c><00:08:35.370><c> we</c><00:08:35.400><c> have</c></c>
+
+00:08:35.659 --> 00:08:35.669 align:start position:0%
+<c.colorCCCCCC>deeper analysis</c><c.colorE5E5E5> of language</c><c.colorCCCCCC> then we have
+ </c>
+
+00:08:35.669 --> 00:08:39.709 align:start position:0%
+<c.colorCCCCCC>deeper analysis</c><c.colorE5E5E5> of language</c><c.colorCCCCCC> then we have
+to<00:08:35.789><c> tolerate</c></c><c.colorE5E5E5><00:08:36.060><c> the</c><00:08:36.750><c> errors</c><00:08:37.400><c> so</c><00:08:38.400><c> that</c><00:08:39.360><c> also</c></c>
+
+00:08:39.709 --> 00:08:39.719 align:start position:0%
+to tolerate<c.colorE5E5E5> the errors so that also
+ </c>
+
+00:08:39.719 --> 00:08:42.019 align:start position:0%
+to tolerate<c.colorE5E5E5> the errors so that also
+means<00:08:39.990><c> it's</c><00:08:40.589><c> still</c><00:08:40.829><c> necessary</c><00:08:41.250><c> to</c><00:08:41.820><c> combine</c></c>
+
+00:08:42.019 --> 00:08:42.029 align:start position:0%
+means it's still<c.colorE5E5E5> necessary to combine
+ </c>
+
+00:08:42.029 --> 00:08:46.190 align:start position:0%
+means it's still<c.colorE5E5E5> necessary to combine
+such<00:08:42.570><c> deep</c><00:08:42.810><c> analysis</c><00:08:43.440><c> with</c></c><c.colorCCCCCC><00:08:44.510><c> zero</c></c><c.colorE5E5E5><00:08:45.510><c> analysis</c></c>
+
+00:08:46.190 --> 00:08:46.200 align:start position:0%
+such deep analysis with<c.colorCCCCCC> zero</c><c.colorE5E5E5> analysis
+ </c>
+
+00:08:46.200 --> 00:08:48.170 align:start position:0%
+such deep analysis with<c.colorCCCCCC> zero</c><c.colorE5E5E5> analysis
+based<00:08:46.470><c> on</c><00:08:46.709><c> for</c><00:08:47.070><c> example</c><00:08:47.130><c> sequence</c><00:08:47.790><c> of</c><00:08:47.940><c> words</c></c>
+
+00:08:48.170 --> 00:08:48.180 align:start position:0%
+based on for<c.colorE5E5E5> example sequence of words
+ </c>
+
+00:08:48.180 --> 00:08:51.680 align:start position:0%
+based on for<c.colorE5E5E5> example sequence of words
+on<00:08:48.810><c> the</c><00:08:49.170><c> right</c><00:08:49.520><c> side</c><00:08:50.520><c> you</c><00:08:50.850><c> see</c></c><c.colorCCCCCC><00:08:50.880><c> the</c><00:08:51.420><c> arrow</c></c>
+
+00:08:51.680 --> 00:08:51.690 align:start position:0%
+on the right side you see<c.colorCCCCCC> the arrow
+ </c>
+
+00:08:51.690 --> 00:08:56.090 align:start position:0%
+on the right side you see<c.colorCCCCCC> the arrow
+points<00:08:52.649><c> down</c><00:08:52.890><c> to</c></c><c.colorE5E5E5><00:08:53.720><c> indicate</c><00:08:54.720><c> that</c><00:08:54.779><c> as</c><00:08:55.320><c> we</c><00:08:55.860><c> go</c></c>
+
+00:08:56.090 --> 00:08:56.100 align:start position:0%
+points down to<c.colorE5E5E5> indicate that as we go
+ </c>
+
+00:08:56.100 --> 00:08:58.550 align:start position:0%
+points down to<c.colorE5E5E5> indicate that as we go
+down<00:08:56.540><c> without</c></c><c.colorCCCCCC><00:08:57.540><c> representation</c></c>
+
+00:08:58.550 --> 00:08:58.560 align:start position:0%
+down<c.colorE5E5E5> without</c><c.colorCCCCCC> representation
+ </c>
+
+00:08:58.560 --> 00:09:00.290 align:start position:0%
+down<c.colorE5E5E5> without</c><c.colorCCCCCC> representation</c>
+<c.colorE5E5E5>text<00:08:58.860><c> is</c><00:08:59.070><c> closer</c><00:08:59.640><c> to</c><00:08:59.820><c> knowledge</c></c>
+
+00:09:00.290 --> 00:09:00.300 align:start position:0%
+<c.colorE5E5E5>text is closer to knowledge
+ </c>
+
+00:09:00.300 --> 00:09:04.880 align:start position:0%
+<c.colorE5E5E5>text is closer to knowledge
+representation<00:09:01.050><c> in</c><00:09:01.800><c> our</c><00:09:01.950><c> mind</c><00:09:02.340><c> and</c></c><c.colorCCCCCC><00:09:03.890><c> needed</c></c>
+
+00:09:04.880 --> 00:09:04.890 align:start position:0%
+representation in our<c.colorE5E5E5> mind and</c><c.colorCCCCCC> needed
+ </c>
+
+00:09:04.890 --> 00:09:09.140 align:start position:0%
+representation in our<c.colorE5E5E5> mind and</c><c.colorCCCCCC> needed</c>
+<c.colorE5E5E5>for<00:09:05.600><c> solving</c><00:09:06.600><c> a</c><00:09:06.660><c> lot</c><00:09:06.750><c> of</c><00:09:06.810><c> problems</c></c><c.colorCCCCCC><00:09:07.910><c> now</c><00:09:08.910><c> this</c></c>
+
+00:09:09.140 --> 00:09:09.150 align:start position:0%
+<c.colorE5E5E5>for solving a lot of problems</c><c.colorCCCCCC> now this
+ </c>
+
+00:09:09.150 --> 00:09:12.500 align:start position:0%
+<c.colorE5E5E5>for solving a lot of problems</c><c.colorCCCCCC> now this
+is<00:09:09.300><c> desirable</c><00:09:10.260><c> because</c></c><c.colorE5E5E5><00:09:10.560><c> as</c><00:09:11.070><c> we</c><00:09:11.940><c> can</c><00:09:12.240><c> represent</c></c>
+
+00:09:12.500 --> 00:09:12.510 align:start position:0%
+is desirable because<c.colorE5E5E5> as we can represent
+ </c>
+
+00:09:12.510 --> 00:09:15.440 align:start position:0%
+is desirable because<c.colorE5E5E5> as we can represent
+text<00:09:13.200><c> at</c><00:09:13.470><c> the</c><00:09:13.770><c> level</c><00:09:14.100><c> of</c></c><c.colorCCCCCC><00:09:14.160><c> knowledge</c><00:09:14.670><c> we</c><00:09:15.270><c> can</c></c>
+
+00:09:15.440 --> 00:09:15.450 align:start position:0%
+text<c.colorE5E5E5> at the level of</c><c.colorCCCCCC> knowledge we can
+ </c>
+
+00:09:15.450 --> 00:09:17.900 align:start position:0%
+text<c.colorE5E5E5> at the level of</c><c.colorCCCCCC> knowledge we can</c>
+<c.colorCCCCCC>easily<00:09:15.960><c> extract</c><00:09:16.290><c> the</c><00:09:16.620><c> knowledge</c><00:09:16.950><c> that's</c><00:09:17.700><c> the</c></c>
+
+00:09:17.900 --> 00:09:17.910 align:start position:0%
+<c.colorCCCCCC>easily extract the knowledge that's the
+ </c>
+
+00:09:17.910 --> 00:09:20.930 align:start position:0%
+<c.colorCCCCCC>easily extract the knowledge that's the
+purpose<00:09:18.270><c> of</c><00:09:18.420><c> text</c></c><c.colorE5E5E5><00:09:18.720><c> mining</c><00:09:19.140><c> so</c><00:09:19.730><c> there</c><00:09:20.730><c> is</c><00:09:20.910><c> a</c></c>
+
+00:09:20.930 --> 00:09:20.940 align:start position:0%
+purpose of text<c.colorE5E5E5> mining so there is a
+ </c>
+
+00:09:20.940 --> 00:09:23.930 align:start position:0%
+purpose of text<c.colorE5E5E5> mining so there is a
+trade-off<00:09:21.630><c> here</c><00:09:22.200><c> between</c><00:09:23.040><c> doing</c><00:09:23.550><c> deep</c></c>
+
+00:09:23.930 --> 00:09:23.940 align:start position:0%
+trade-off<c.colorE5E5E5> here between doing deep
+ </c>
+
+00:09:23.940 --> 00:09:26.570 align:start position:0%
+trade-off<c.colorE5E5E5> here between doing deep
+analysis<00:09:24.630><c> that</c><00:09:24.839><c> might</c><00:09:25.140><c> have</c><00:09:25.350><c> errors</c><00:09:25.800><c> but</c></c>
+
+00:09:26.570 --> 00:09:26.580 align:start position:0%
+analysis that might have errors<c.colorE5E5E5> but
+ </c>
+
+00:09:26.580 --> 00:09:29.570 align:start position:0%
+analysis that might have errors<c.colorE5E5E5> but
+would<00:09:27.029><c> give</c><00:09:27.240><c> us</c><00:09:27.420><c> direct</c></c><c.colorCCCCCC><00:09:28.380><c> knowledge</c><00:09:28.680><c> that</c><00:09:29.310><c> can</c></c>
+
+00:09:29.570 --> 00:09:29.580 align:start position:0%
+<c.colorE5E5E5>would give us direct</c><c.colorCCCCCC> knowledge that can
+ </c>
+
+00:09:29.580 --> 00:09:32.329 align:start position:0%
+<c.colorE5E5E5>would give us direct</c><c.colorCCCCCC> knowledge that can
+be</c><c.colorE5E5E5><00:09:29.610><c> extracted</c><00:09:29.970><c> from</c><00:09:30.270><c> this</c><00:09:30.510><c> and</c><00:09:31.010><c> doing</c><00:09:32.010><c> shallow</c></c>
+
+00:09:32.329 --> 00:09:32.339 align:start position:0%
+be<c.colorE5E5E5> extracted from this and doing shallow
+ </c>
+
+00:09:32.339 --> 00:09:35.350 align:start position:0%
+be<c.colorE5E5E5> extracted from this and doing shallow
+analysis<00:09:33.060><c> which</c><00:09:33.420><c> is</c><00:09:34.350><c> more</c><00:09:34.650><c> robust</c><00:09:35.100><c> but</c></c>
+
+00:09:35.350 --> 00:09:35.360 align:start position:0%
+analysis<c.colorE5E5E5> which is more robust but
+ </c>
+
+00:09:35.360 --> 00:09:39.260 align:start position:0%
+analysis<c.colorE5E5E5> which is more robust but
+wouldn't<00:09:36.360><c> actually</c><00:09:36.630><c> give</c><00:09:37.230><c> us</c><00:09:37.440><c> the</c><00:09:38.270><c> necessary</c></c>
+
+00:09:39.260 --> 00:09:39.270 align:start position:0%
+<c.colorE5E5E5>wouldn't actually give us the necessary
+ </c>
+
+00:09:39.270 --> 00:09:42.560 align:start position:0%
+<c.colorE5E5E5>wouldn't actually give us the necessary
+the<00:09:39.870><c> deeper</c><00:09:40.230><c> representation</c><00:09:40.980><c> of</c><00:09:41.300><c> knowledge</c></c><c.colorCCCCCC><00:09:42.300><c> I</c></c>
+
+00:09:42.560 --> 00:09:42.570 align:start position:0%
+<c.colorE5E5E5>the deeper representation of knowledge</c><c.colorCCCCCC> I
+ </c>
+
+00:09:42.570 --> 00:09:45.590 align:start position:0%
+<c.colorE5E5E5>the deeper representation of knowledge</c><c.colorCCCCCC> I
+should<00:09:43.170><c> also</c><00:09:43.320><c> say</c><00:09:43.470><c> that</c><00:09:43.850><c> there</c><00:09:44.850><c> are</c><00:09:44.970><c> generated</c></c>
+
+00:09:45.590 --> 00:09:45.600 align:start position:0%
+should also say<c.colorCCCCCC> that there are generated
+ </c>
+
+00:09:45.600 --> 00:09:47.960 align:start position:0%
+should also say<c.colorCCCCCC> that there are generated
+by<00:09:45.720><c> humans</c><00:09:46.140><c> and</c><00:09:46.470><c> are</c><00:09:46.890><c> meant</c><00:09:47.190><c> to</c><00:09:47.400><c> be</c><00:09:47.580><c> consumed</c></c>
+
+00:09:47.960 --> 00:09:47.970 align:start position:0%
+by humans and are meant to be consumed
+ 
+
+00:09:47.970 --> 00:09:51.769 align:start position:0%
+by humans and are meant to be consumed
+by<00:09:48.240><c> humans</c><c.colorE5E5E5><00:09:48.660><c> so</c><00:09:49.529><c> as</c><00:09:49.710><c> a</c><00:09:49.740><c> result</c><00:09:49.980><c> in</c><00:09:50.520><c> text</c><00:09:51.510><c> data</c></c>
+
+00:09:51.769 --> 00:09:51.779 align:start position:0%
+by humans<c.colorE5E5E5> so as a result in text data
+ </c>
+
+00:09:51.779 --> 00:09:55.040 align:start position:0%
+by humans<c.colorE5E5E5> so as a result in text data
+analysis<00:09:52.350><c> text</c><00:09:52.650><c> mining</c><00:09:53.070><c> humans</c><00:09:54.060><c> play</c><00:09:54.600><c> a</c><00:09:54.630><c> very</c></c>
+
+00:09:55.040 --> 00:09:55.050 align:start position:0%
+analysis text mining humans<c.colorE5E5E5> play a very
+ </c>
+
+00:09:55.050 --> 00:09:57.290 align:start position:0%
+analysis text mining humans<c.colorE5E5E5> play a very
+important<00:09:55.620><c> role</c></c><c.colorCCCCCC><00:09:55.710><c> they</c></c><c.colorE5E5E5><00:09:56.279><c> are</c></c><c.colorCCCCCC><00:09:56.430><c> always</c><00:09:57.000><c> in</c></c><c.colorE5E5E5><00:09:57.180><c> the</c></c>
+
+00:09:57.290 --> 00:09:57.300 align:start position:0%
+important role<c.colorCCCCCC> they</c><c.colorE5E5E5> are</c><c.colorCCCCCC> always in</c><c.colorE5E5E5> the
+ </c>
+
+00:09:57.300 --> 00:10:00.740 align:start position:0%
+important role<c.colorCCCCCC> they</c><c.colorE5E5E5> are</c><c.colorCCCCCC> always in</c><c.colorE5E5E5> the
+loop<00:09:57.740><c> meaning</c></c><c.colorCCCCCC><00:09:58.740><c> that</c><00:09:58.920><c> we</c><00:09:59.850><c> should</c><00:10:00.029><c> optimize</c></c><c.colorE5E5E5><00:10:00.420><c> the</c></c>
+
+00:10:00.740 --> 00:10:00.750 align:start position:0%
+loop<c.colorE5E5E5> meaning</c><c.colorCCCCCC> that we should optimize</c><c.colorE5E5E5> the
+ </c>
+
+00:10:00.750 --> 00:10:04.310 align:start position:0%
+loop<c.colorE5E5E5> meaning</c><c.colorCCCCCC> that we should optimize</c><c.colorE5E5E5> the
+collaboration<00:10:01.410><c> of</c><00:10:01.589><c> humans</c><00:10:02.100><c> and</c><00:10:02.400><c> computers</c><00:10:03.320><c> so</c></c>
+
+00:10:04.310 --> 00:10:04.320 align:start position:0%
+collaboration<c.colorE5E5E5> of humans and computers so
+ </c>
+
+00:10:04.320 --> 00:10:07.820 align:start position:0%
+collaboration<c.colorE5E5E5> of humans and computers so
+in<00:10:04.740><c> that</c><00:10:05.010><c> sense</c><00:10:05.400><c> it's</c></c><c.colorCCCCCC><00:10:05.700><c> okay</c><00:10:06.150><c> that</c><00:10:06.830><c> computers</c></c>
+
+00:10:07.820 --> 00:10:07.830 align:start position:0%
+in that sense it's<c.colorCCCCCC> okay that computers
+ </c>
+
+00:10:07.830 --> 00:10:10.820 align:start position:0%
+in that sense it's<c.colorCCCCCC> okay that computers
+may<00:10:08.010><c> not</c><00:10:08.160><c> be</c><00:10:08.339><c> able</c></c><c.colorE5E5E5><00:10:08.460><c> to</c><00:10:09.080><c> have</c><00:10:10.080><c> a</c><00:10:10.110><c> completely</c></c>
+
+00:10:10.820 --> 00:10:10.830 align:start position:0%
+may not be<c.colorCCCCCC> able</c><c.colorE5E5E5> to have a completely
+ </c>
+
+00:10:10.830 --> 00:10:13.040 align:start position:0%
+may not be<c.colorCCCCCC> able</c><c.colorE5E5E5> to have a completely
+accurate<00:10:10.980><c> representation</c><00:10:11.970><c> of</c><00:10:12.060><c> text</c><00:10:12.420><c> data</c><00:10:12.570><c> and</c></c>
+
+00:10:13.040 --> 00:10:13.050 align:start position:0%
+accurate representation of text data<c.colorE5E5E5> and
+ </c>
+
+00:10:13.050 --> 00:10:15.290 align:start position:0%
+accurate representation of text data<c.colorE5E5E5> and
+the<00:10:13.560><c> patterns</c><00:10:14.370><c> that</c><00:10:14.460><c> are</c><00:10:14.730><c> extracted</c></c><c.colorCCCCCC><00:10:15.060><c> from</c></c>
+
+00:10:15.290 --> 00:10:15.300 align:start position:0%
+the patterns that<c.colorE5E5E5> are extracted</c><c.colorCCCCCC> from
+ </c>
+
+00:10:15.300 --> 00:10:17.600 align:start position:0%
+the patterns that<c.colorE5E5E5> are extracted</c><c.colorCCCCCC> from
+text</c><c.colorE5E5E5><00:10:15.750><c> data</c><00:10:15.960><c> can</c><00:10:16.260><c> be</c><00:10:16.290><c> interpreted</c><00:10:16.830><c> by</c><00:10:17.130><c> humans</c></c>
+
+00:10:17.600 --> 00:10:17.610 align:start position:0%
+text<c.colorE5E5E5> data can be interpreted by humans
+ </c>
+
+00:10:17.610 --> 00:10:20.300 align:start position:0%
+text<c.colorE5E5E5> data can be interpreted by humans</c>
+<c.colorE5E5E5>and<00:10:17.910><c> the</c><00:10:18.390><c> humans</c><00:10:18.780><c> can</c><00:10:19.110><c> guide</c><00:10:19.560><c> the</c><00:10:19.860><c> computers</c></c>
+
+00:10:20.300 --> 00:10:20.310 align:start position:0%
+<c.colorE5E5E5>and the humans can guide the computers
+ </c>
+
+00:10:20.310 --> 00:10:22.940 align:start position:0%
+<c.colorE5E5E5>and the humans can guide the computers
+to<00:10:21.270><c> do</c><00:10:21.420><c> more</c><00:10:21.630><c> accurate</c><00:10:22.200><c> analysis</c><00:10:22.530><c> by</c></c>
+
+00:10:22.940 --> 00:10:22.950 align:start position:0%
+to do more accurate analysis<c.colorE5E5E5> by
+ </c>
+
+00:10:22.950 --> 00:10:26.410 align:start position:0%
+to do more accurate analysis<c.colorE5E5E5> by
+annotating<00:10:23.490><c> more</c><00:10:23.850><c> data</c><00:10:24.170><c> by</c><00:10:25.170><c> providing</c></c>
+
+00:10:26.410 --> 00:10:26.420 align:start position:0%
+annotating more data by providing
+ 
+
+00:10:26.420 --> 00:10:28.790 align:start position:0%
+annotating more data by providing
+features<00:10:27.420><c> to</c><00:10:27.660><c> guide</c><c.colorCCCCCC><00:10:28.170><c> the</c><00:10:28.350><c> machine</c><00:10:28.650><c> learning</c></c>
+
+00:10:28.790 --> 00:10:28.800 align:start position:0%
+features to guide<c.colorCCCCCC> the machine learning
+ </c>
+
+00:10:28.800 --> 00:10:31.850 align:start position:0%
+features to guide<c.colorCCCCCC> the machine learning</c>
+<c.colorE5E5E5>programs<00:10:29.490><c> to</c><00:10:30.180><c> make</c><00:10:30.420><c> them</c><00:10:31.410><c> work</c><00:10:31.830><c> more</c></c>
+
+00:10:31.850 --> 00:10:31.860 align:start position:0%
+<c.colorE5E5E5>programs to make them work more
+ </c>
+
+00:10:31.860 --> 00:10:38.700 align:start position:0%
+<c.colorE5E5E5>programs to make them work more</c>
+<c.colorE5E5E5>effectively</c>
+
+00:10:38.700 --> 00:10:38.710 align:start position:0%
+ 
+ 
+
+00:10:38.710 --> 00:10:40.770 align:start position:0%
+ 
+you
+

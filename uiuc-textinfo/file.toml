@@ -1,0 +1,9 @@
+type = "file-corpus"
+list = "uiuc-textinfo"
+encoding = "utf-8"
+#num-docs = 93
+metadata = [{name = "title", type = "string"},
+			{name = "path", type = "string"},
+			{name = "url", type = "string"},
+			{name = "playlist_id", type = "string"},
+			{name = "description", type = "string"}]  

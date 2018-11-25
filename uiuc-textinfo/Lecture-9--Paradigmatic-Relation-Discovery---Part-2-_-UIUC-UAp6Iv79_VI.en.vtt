@@ -1,0 +1,2630 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:06.080 --> 00:00:09.049 align:start position:0%
+ 
+in<00:00:07.080><c> this</c><00:00:07.230><c> lecture</c><c.colorE5E5E5><00:00:07.500><c> we</c><00:00:07.950><c> continue</c><00:00:08.059><c> discussing</c></c>
+
+00:00:09.049 --> 00:00:09.059 align:start position:0%
+in this lecture<c.colorE5E5E5> we continue discussing
+ </c>
+
+00:00:09.059 --> 00:00:11.330 align:start position:0%
+in this lecture<c.colorE5E5E5> we continue discussing</c>
+<c.colorCCCCCC>parity</c><c.colorE5E5E5><00:00:09.750><c> Comerica</c><00:00:10.260><c> relation</c><00:00:10.860><c> discovery</c></c>
+
+00:00:11.330 --> 00:00:11.340 align:start position:0%
+<c.colorCCCCCC>parity</c><c.colorE5E5E5> Comerica relation discovery
+ </c>
+
+00:00:11.340 --> 00:00:14.120 align:start position:0%
+<c.colorCCCCCC>parity</c><c.colorE5E5E5> Comerica relation discovery
+earlier<00:00:11.969><c> we</c><00:00:12.210><c> introduced</c><00:00:12.719><c> a</c><00:00:13.080><c> method</c><00:00:13.830><c> called</c></c>
+
+00:00:14.120 --> 00:00:14.130 align:start position:0%
+earlier we introduced a<c.colorE5E5E5> method called
+ </c>
+
+00:00:14.130 --> 00:00:17.120 align:start position:0%
+earlier we introduced a<c.colorE5E5E5> method called</c>
+<c.colorE5E5E5>expected<00:00:14.700><c> overlap</c><00:00:15.180><c> Awards</c><00:00:15.870><c> in</c><00:00:16.080><c> context</c><00:00:16.710><c> in</c></c>
+
+00:00:17.120 --> 00:00:17.130 align:start position:0%
+<c.colorE5E5E5>expected overlap Awards in context in
+ </c>
+
+00:00:17.130 --> 00:00:20.960 align:start position:0%
+<c.colorE5E5E5>expected overlap Awards in context in
+this<00:00:17.520><c> method</c></c><c.colorCCCCCC><00:00:17.820><c> we</c></c><c.colorE5E5E5><00:00:18.390><c> represent</c><00:00:19.050><c> each</c><00:00:19.290><c> context</c><00:00:20.279><c> by</c></c>
+
+00:00:20.960 --> 00:00:20.970 align:start position:0%
+this method<c.colorCCCCCC> we</c><c.colorE5E5E5> represent each context by
+ </c>
+
+00:00:20.970 --> 00:00:23.210 align:start position:0%
+this method<c.colorCCCCCC> we</c><c.colorE5E5E5> represent each context by
+a<00:00:21.000><c> word</c><00:00:21.420><c> vector</c></c><c.colorCCCCCC><00:00:21.900><c> that</c><00:00:22.110><c> represents</c><00:00:22.380><c> the</c></c>
+
+00:00:23.210 --> 00:00:23.220 align:start position:0%
+a word vector<c.colorCCCCCC> that represents the
+ </c>
+
+00:00:23.220 --> 00:00:26.269 align:start position:0%
+a word vector<c.colorCCCCCC> that represents the</c>
+<c.colorCCCCCC>probability<00:00:23.880><c> of</c><00:00:24.060><c> a</c><00:00:24.360><c> word</c><00:00:24.600><c> in</c><00:00:25.020><c> the</c><00:00:25.560><c> context</c><00:00:26.130><c> and</c></c>
+
+00:00:26.269 --> 00:00:26.279 align:start position:0%
+<c.colorCCCCCC>probability of a word in the context and
+ </c>
+
+00:00:26.279 --> 00:00:29.269 align:start position:0%
+<c.colorCCCCCC>probability of a word in the context and
+we<00:00:26.940><c> measure</c><00:00:27.240><c> the</c></c><c.colorE5E5E5><00:00:27.359><c> similarity</c><00:00:27.630><c> by</c><00:00:28.320><c> using</c><00:00:28.680><c> the</c></c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+we measure the<c.colorE5E5E5> similarity by using the
+ </c>
+
+00:00:29.279 --> 00:00:32.089 align:start position:0%
+we measure the<c.colorE5E5E5> similarity by using the
+dot<00:00:29.460><c> product</c><00:00:29.970><c> which</c><00:00:30.750><c> can</c><00:00:31.050><c> be</c><00:00:31.230><c> interpreted</c><00:00:31.800><c> as</c></c>
+
+00:00:32.089 --> 00:00:32.099 align:start position:0%
+dot product which can be interpreted<c.colorE5E5E5> as
+ </c>
+
+00:00:32.099 --> 00:00:35.030 align:start position:0%
+dot product which can be interpreted<c.colorE5E5E5> as
+the<00:00:32.720><c> probability</c><00:00:33.720><c> that</c><00:00:33.960><c> to</c><00:00:34.290><c> randomly</c><00:00:34.800><c> pick</c></c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+the<c.colorE5E5E5> probability that to randomly pick
+ </c>
+
+00:00:35.040 --> 00:00:37.369 align:start position:0%
+the<c.colorE5E5E5> probability that to randomly pick
+the<00:00:35.220><c> words</c><00:00:35.430><c> from</c><00:00:36.210><c> the</c><00:00:36.390><c> two</c><00:00:36.510><c> contexts</c><00:00:37.199><c> are</c></c>
+
+00:00:37.369 --> 00:00:37.379 align:start position:0%
+the words from the two contexts<c.colorE5E5E5> are
+ </c>
+
+00:00:37.379 --> 00:00:39.860 align:start position:0%
+the words from the two contexts<c.colorE5E5E5> are
+identical<00:00:38.370><c> we</c><00:00:38.909><c> also</c><00:00:39.059><c> discussed</c><00:00:39.540><c> the</c><00:00:39.659><c> two</c></c>
+
+00:00:39.860 --> 00:00:39.870 align:start position:0%
+identical<c.colorE5E5E5> we also discussed the two
+ </c>
+
+00:00:39.870 --> 00:00:43.789 align:start position:0%
+identical<c.colorE5E5E5> we also discussed the two</c>
+<c.colorE5E5E5>problems<00:00:40.379><c> of</c><00:00:40.650><c> this</c><00:00:41.640><c> method</c><00:00:42.059><c> the</c><00:00:42.930><c> first</c><00:00:43.170><c> is</c></c>
+
+00:00:43.789 --> 00:00:43.799 align:start position:0%
+<c.colorE5E5E5>problems of this method the first is
+ </c>
+
+00:00:43.799 --> 00:00:46.549 align:start position:0%
+<c.colorE5E5E5>problems of this method the first is
+that<00:00:44.760><c> it</c><00:00:45.059><c> favors</c><00:00:45.540><c> matching</c><00:00:45.930><c> one</c><00:00:46.140><c> frequent</c></c>
+
+00:00:46.549 --> 00:00:46.559 align:start position:0%
+that it<c.colorE5E5E5> favors matching one frequent
+ </c>
+
+00:00:46.559 --> 00:00:48.530 align:start position:0%
+that it<c.colorE5E5E5> favors matching one frequent
+term<00:00:46.830><c> very</c><00:00:47.250><c> well</c><00:00:47.460><c> over</c><00:00:47.909><c> matching</c><00:00:48.299><c> more</c></c>
+
+00:00:48.530 --> 00:00:48.540 align:start position:0%
+term very well<c.colorE5E5E5> over matching more
+ </c>
+
+00:00:48.540 --> 00:00:51.770 align:start position:0%
+term very well<c.colorE5E5E5> over matching more
+distinct</c><c.colorCCCCCC><00:00:49.140><c> two</c><00:00:49.260><c> terms</c><00:00:49.970><c> it</c><00:00:50.970><c> put</c><00:00:51.269><c> too</c><00:00:51.600><c> much</c></c>
+
+00:00:51.770 --> 00:00:51.780 align:start position:0%
+distinct<c.colorCCCCCC> two terms it put too much
+ </c>
+
+00:00:51.780 --> 00:00:54.880 align:start position:0%
+distinct<c.colorCCCCCC> two terms it put too much
+emphasis<00:00:52.140><c> on</c></c><c.colorE5E5E5><00:00:52.860><c> matching</c><00:00:53.430><c> one</c></c><c.colorCCCCCC><00:00:53.699><c> tone</c><00:00:53.970><c> very</c><00:00:54.210><c> well</c></c>
+
+00:00:54.880 --> 00:00:54.890 align:start position:0%
+emphasis on<c.colorE5E5E5> matching one</c><c.colorCCCCCC> tone very well
+ </c>
+
+00:00:54.890 --> 00:00:59.090 align:start position:0%
+emphasis on<c.colorE5E5E5> matching one</c><c.colorCCCCCC> tone very well</c>
+<c.colorE5E5E5>the<00:00:55.890><c> second</c><00:00:56.309><c> is</c><00:00:56.780><c> that</c><00:00:57.780><c> it</c><00:00:58.049><c> treats</c><00:00:58.409><c> every</c><00:00:58.860><c> word</c></c>
+
+00:00:59.090 --> 00:00:59.100 align:start position:0%
+<c.colorE5E5E5>the second is that it treats every word
+ </c>
+
+00:00:59.100 --> 00:01:02.390 align:start position:0%
+<c.colorE5E5E5>the second is that it treats every word
+equally<00:01:00.260><c> even</c><00:01:01.260><c> a</c><00:01:01.350><c> common</c><00:01:01.710><c> water</c><00:01:01.920><c> like</c><00:01:02.129><c> the</c></c>
+
+00:01:02.390 --> 00:01:02.400 align:start position:0%
+equally even a common water like the
+ 
+
+00:01:02.400 --> 00:01:07.430 align:start position:0%
+equally even a common water like the
+<c.colorE5E5E5>would<00:01:03.030><c> contribute</c><00:01:03.530><c> equally</c><00:01:04.530><c> as</c><00:01:05.420><c> a</c><00:01:06.440><c> Content</c></c>
+
+00:01:07.430 --> 00:01:07.440 align:start position:0%
+<c.colorE5E5E5>would contribute equally as a Content
+ </c>
+
+00:01:07.440 --> 00:01:08.450 align:start position:0%
+<c.colorE5E5E5>would contribute equally as a Content
+word<00:01:07.619><c> like</c><00:01:07.920><c> eat</c></c>
+
+00:01:08.450 --> 00:01:08.460 align:start position:0%
+<c.colorE5E5E5>word like eat
+ </c>
+
+00:01:08.460 --> 00:01:12.349 align:start position:0%
+<c.colorE5E5E5>word like eat
+so<00:01:09.450><c> now</c><00:01:09.840><c> we</c><00:01:09.950><c> are</c><00:01:10.950><c> going</c><00:01:11.490><c> to</c><00:01:11.609><c> talk</c><00:01:11.820><c> about</c><00:01:11.969><c> how</c><00:01:12.299><c> to</c></c>
+
+00:01:12.349 --> 00:01:12.359 align:start position:0%
+so now we are going<c.colorE5E5E5> to talk about how to
+ </c>
+
+00:01:12.359 --> 00:01:14.810 align:start position:0%
+so now we are going<c.colorE5E5E5> to talk about how to
+solve<00:01:12.630><c> these</c></c><c.colorCCCCCC><00:01:12.810><c> problems</c></c><c.colorE5E5E5><00:01:13.259><c> most</c><00:01:14.189><c> specifically</c></c>
+
+00:01:14.810 --> 00:01:14.820 align:start position:0%
+solve<c.colorE5E5E5> these</c><c.colorCCCCCC> problems</c><c.colorE5E5E5> most specifically
+ </c>
+
+00:01:14.820 --> 00:01:17.029 align:start position:0%
+solve<c.colorE5E5E5> these</c><c.colorCCCCCC> problems</c><c.colorE5E5E5> most specifically
+we're<00:01:15.119><c> going</c><00:01:15.240><c> to</c><00:01:15.299><c> introduce</c><00:01:15.570><c> some</c><00:01:16.039><c> retrieval</c></c>
+
+00:01:17.029 --> 00:01:17.039 align:start position:0%
+we're going<c.colorE5E5E5> to introduce some retrieval
+ </c>
+
+00:01:17.039 --> 00:01:19.580 align:start position:0%
+we're going<c.colorE5E5E5> to introduce some retrieval
+heuristics<00:01:17.759><c> used</c><00:01:18.329><c> in</c></c><c.colorCCCCCC><00:01:18.600><c> text</c><00:01:18.840><c> retrieval</c></c><c.colorE5E5E5><00:01:19.380><c> and</c></c>
+
+00:01:19.580 --> 00:01:19.590 align:start position:0%
+heuristics used in<c.colorCCCCCC> text retrieval</c><c.colorE5E5E5> and
+ </c>
+
+00:01:19.590 --> 00:01:22.880 align:start position:0%
+heuristics used in<c.colorCCCCCC> text retrieval</c><c.colorE5E5E5> and
+these<00:01:20.280><c> heuristics</c><00:01:21.140><c> can</c><00:01:22.140><c> effectively</c><00:01:22.500><c> solve</c></c>
+
+00:01:22.880 --> 00:01:22.890 align:start position:0%
+these heuristics<c.colorE5E5E5> can effectively solve
+ </c>
+
+00:01:22.890 --> 00:01:25.219 align:start position:0%
+these heuristics<c.colorE5E5E5> can effectively solve
+these<00:01:23.070><c> problems</c><00:01:23.549><c> as</c><00:01:23.700><c> these</c><00:01:24.390><c> problems</c><00:01:24.990><c> also</c></c>
+
+00:01:25.219 --> 00:01:25.229 align:start position:0%
+these problems as these problems also
+ 
+
+00:01:25.229 --> 00:01:27.620 align:start position:0%
+these problems as these problems also
+<c.colorE5E5E5>occur<00:01:25.679><c> in</c><00:01:25.950><c> text</c><00:01:26.429><c> retrieval</c><00:01:26.939><c> when</c><00:01:27.149><c> we</c><00:01:27.270><c> match</c><00:01:27.509><c> a</c></c>
+
+00:01:27.620 --> 00:01:27.630 align:start position:0%
+<c.colorE5E5E5>occur in text retrieval when we match a
+ </c>
+
+00:01:27.630 --> 00:01:31.279 align:start position:0%
+<c.colorE5E5E5>occur in text retrieval when we match a
+query<00:01:27.929><c> vector</c><00:01:28.829><c> with</c><00:01:29.100><c> a</c></c><c.colorCCCCCC><00:01:29.399><c> token</c><00:01:29.759><c> collector</c><00:01:30.289><c> so</c></c>
+
+00:01:31.279 --> 00:01:31.289 align:start position:0%
+query<c.colorE5E5E5> vector with a</c><c.colorCCCCCC> token collector so
+ </c>
+
+00:01:31.289 --> 00:01:33.529 align:start position:0%
+query<c.colorE5E5E5> vector with a</c><c.colorCCCCCC> token collector so
+to</c><c.colorE5E5E5><00:01:31.350><c> address</c><00:01:31.740><c> the</c><00:01:31.950><c> first</c><00:01:32.100><c> problem</c><00:01:32.729><c> we</c><00:01:33.210><c> can</c></c><c.colorCCCCCC><00:01:33.390><c> use</c></c>
+
+00:01:33.529 --> 00:01:33.539 align:start position:0%
+to<c.colorE5E5E5> address the first problem we can</c><c.colorCCCCCC> use
+ </c>
+
+00:01:33.539 --> 00:01:35.630 align:start position:0%
+to<c.colorE5E5E5> address the first problem we can</c><c.colorCCCCCC> use
+a<00:01:33.570><c> sub</c><00:01:33.960><c> linear</c><00:01:34.170><c> transformation</c><00:01:35.159><c> of</c><00:01:35.310><c> turn</c></c>
+
+00:01:35.630 --> 00:01:35.640 align:start position:0%
+a sub linear transformation of<c.colorCCCCCC> turn
+ </c>
+
+00:01:35.640 --> 00:01:37.880 align:start position:0%
+a sub linear transformation of<c.colorCCCCCC> turn</c>
+<c.colorE5E5E5>frequency<00:01:36.119><c> that</c><00:01:36.780><c> is</c><00:01:36.960><c> we</c><00:01:37.170><c> don't</c><00:01:37.350><c> have</c><00:01:37.530><c> to</c><00:01:37.710><c> use</c></c>
+
+00:01:37.880 --> 00:01:37.890 align:start position:0%
+<c.colorE5E5E5>frequency that is we don't have to use
+ </c>
+
+00:01:37.890 --> 00:01:40.160 align:start position:0%
+<c.colorE5E5E5>frequency that is we don't have to use
+the<00:01:38.100><c> raw</c><00:01:38.310><c> frequency</c><00:01:39.060><c> count</c><00:01:39.299><c> of</c><00:01:39.539><c> a</c><00:01:39.600><c> term</c><00:01:39.929><c> to</c></c>
+
+00:01:40.160 --> 00:01:40.170 align:start position:0%
+the raw frequency count of a term to
+ 
+
+00:01:40.170 --> 00:01:43.219 align:start position:0%
+the raw frequency count of a term to
+<c.colorCCCCCC>represent<00:01:40.740><c> the</c><00:01:41.219><c> context</c></c><c.colorE5E5E5><00:01:41.759><c> we</c><00:01:42.509><c> can</c><00:01:42.659><c> transform</c></c>
+
+00:01:43.219 --> 00:01:43.229 align:start position:0%
+<c.colorCCCCCC>represent the context</c><c.colorE5E5E5> we can transform
+ </c>
+
+00:01:43.229 --> 00:01:46.010 align:start position:0%
+<c.colorCCCCCC>represent the context</c><c.colorE5E5E5> we can transform
+it<00:01:43.409><c> to</c><00:01:43.530><c> some</c><00:01:44.249><c> form</c><00:01:44.609><c> that</c><00:01:44.969><c> wouldn't</c><00:01:45.600><c> emphasize</c></c>
+
+00:01:46.010 --> 00:01:46.020 align:start position:0%
+it<c.colorE5E5E5> to some form that wouldn't emphasize
+ </c>
+
+00:01:46.020 --> 00:01:48.830 align:start position:0%
+it<c.colorE5E5E5> to some form that wouldn't emphasize
+so<00:01:46.259><c> much</c><00:01:46.439><c> on</c><00:01:46.710><c> the</c><00:01:46.920><c> raw</c><00:01:47.100><c> frequency</c><00:01:47.670><c> to</c><00:01:48.479><c> adjust</c></c>
+
+00:01:48.830 --> 00:01:48.840 align:start position:0%
+so much on the raw frequency<c.colorE5E5E5> to adjust
+ </c>
+
+00:01:48.840 --> 00:01:51.169 align:start position:0%
+so much on the raw frequency<c.colorE5E5E5> to adjust
+the<00:01:48.990><c> signal</c><00:01:49.229><c> problem</c></c><c.colorCCCCCC><00:01:49.619><c> we</c><00:01:50.429><c> can</c><00:01:50.670><c> put</c><00:01:51.149><c> more</c></c>
+
+00:01:51.169 --> 00:01:51.179 align:start position:0%
+the signal<c.colorE5E5E5> problem</c><c.colorCCCCCC> we can put more
+ </c>
+
+00:01:51.179 --> 00:01:54.080 align:start position:0%
+the signal<c.colorE5E5E5> problem</c><c.colorCCCCCC> we can put more</c>
+<c.colorCCCCCC>weight<00:01:51.630><c> on</c></c><c.colorE5E5E5><00:01:51.689><c> rare</c><00:01:52.289><c> times</c></c><c.colorCCCCCC><00:01:52.679><c> there</c></c><c.colorE5E5E5><00:01:53.640><c> is</c><00:01:53.729><c> a</c></c><c.colorCCCCCC><00:01:53.759><c> weekend</c></c>
+
+00:01:54.080 --> 00:01:54.090 align:start position:0%
+<c.colorCCCCCC>weight on</c><c.colorE5E5E5> rare times</c><c.colorCCCCCC> there</c><c.colorE5E5E5> is a</c><c.colorCCCCCC> weekend
+ </c>
+
+00:01:54.090 --> 00:01:56.870 align:start position:0%
+<c.colorCCCCCC>weight on</c><c.colorE5E5E5> rare times</c><c.colorCCCCCC> there</c><c.colorE5E5E5> is a</c><c.colorCCCCCC> weekend
+reward<00:01:54.539><c> and</c><00:01:54.749><c> matching</c><00:01:55.049><c> a</c></c><c.colorE5E5E5><00:01:55.170><c> real</c><00:01:55.499><c> word</c><00:01:55.829><c> and</c><00:01:56.039><c> this</c></c>
+
+00:01:56.870 --> 00:01:56.880 align:start position:0%
+reward and matching a<c.colorE5E5E5> real word and this
+ </c>
+
+00:01:56.880 --> 00:01:59.779 align:start position:0%
+reward and matching a<c.colorE5E5E5> real word and this
+heuristic<00:01:57.149><c> is</c><00:01:57.600><c> called</c><00:01:57.869><c> IDF</c></c><c.colorCCCCCC><00:01:58.590><c> term</c><00:01:59.039><c> waiting</c></c><c.colorE5E5E5><00:01:59.460><c> in</c></c>
+
+00:01:59.779 --> 00:01:59.789 align:start position:0%
+heuristic<c.colorE5E5E5> is called IDF</c><c.colorCCCCCC> term waiting</c><c.colorE5E5E5> in
+ </c>
+
+00:01:59.789 --> 00:02:02.929 align:start position:0%
+heuristic<c.colorE5E5E5> is called IDF</c><c.colorCCCCCC> term waiting</c><c.colorE5E5E5> in</c>
+<c.colorCCCCCC>text<00:02:00.359><c> retrieval</c><00:02:00.899><c> IDF</c><00:02:01.710><c> stands</c><00:02:02.280><c> for</c><00:02:02.460><c> inverse</c></c>
+
+00:02:02.929 --> 00:02:02.939 align:start position:0%
+<c.colorCCCCCC>text retrieval IDF stands for inverse
+ </c>
+
+00:02:02.939 --> 00:02:06.410 align:start position:0%
+<c.colorCCCCCC>text retrieval IDF stands for inverse
+talking<00:02:03.659><c> in</c><00:02:03.749><c> the</c><00:02:03.810><c> frequency</c><00:02:05.060><c> so</c><00:02:06.060><c> now</c><00:02:06.210><c> we're</c></c>
+
+00:02:06.410 --> 00:02:06.420 align:start position:0%
+talking in the frequency so now<c.colorCCCCCC> we're
+ </c>
+
+00:02:06.420 --> 00:02:08.359 align:start position:0%
+talking in the frequency so now<c.colorCCCCCC> we're
+going<00:02:06.509><c> to</c><00:02:06.569><c> talk</c><00:02:06.719><c> about</c><00:02:06.840><c> the</c><00:02:07.109><c> two</c><00:02:07.369><c> heuristics</c></c>
+
+00:02:08.359 --> 00:02:08.369 align:start position:0%
+going to talk<c.colorCCCCCC> about the two heuristics
+ </c>
+
+00:02:08.369 --> 00:02:11.690 align:start position:0%
+going to talk<c.colorCCCCCC> about the two heuristics
+in<00:02:09.060><c> more</c><00:02:09.360><c> detail</c><00:02:09.750><c> first</c><00:02:10.679><c> let's</c><00:02:11.039><c> talk</c><00:02:11.640><c> about</c></c>
+
+00:02:11.690 --> 00:02:11.700 align:start position:0%
+in more detail first let's talk about
+ 
+
+00:02:11.700 --> 00:02:15.110 align:start position:0%
+in more detail first let's talk about
+the<c.colorE5E5E5><00:02:12.420><c> TF</c><00:02:12.840><c> transformation</c><00:02:13.650><c> that</c></c><c.colorCCCCCC><00:02:14.430><c> is</c><00:02:14.580><c> to</c><00:02:14.730><c> convert</c></c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+the<c.colorE5E5E5> TF transformation that</c><c.colorCCCCCC> is to convert
+ </c>
+
+00:02:15.120 --> 00:02:18.140 align:start position:0%
+the<c.colorE5E5E5> TF transformation that</c><c.colorCCCCCC> is to convert
+the<00:02:15.390><c> raw</c></c><c.colorE5E5E5><00:02:15.599><c> count</c><00:02:15.989><c> of</c><00:02:16.319><c> a</c><00:02:16.470><c> word</c><00:02:16.709><c> in</c><00:02:16.980><c> the</c><00:02:17.190><c> document</c></c>
+
+00:02:18.140 --> 00:02:18.150 align:start position:0%
+the raw<c.colorE5E5E5> count of a word in the document
+ </c>
+
+00:02:18.150 --> 00:02:22.339 align:start position:0%
+the raw<c.colorE5E5E5> count of a word in the document
+into<00:02:18.510><c> some</c><00:02:18.780><c> weight</c><00:02:19.110><c> that</c><00:02:20.239><c> reflects</c></c><c.colorCCCCCC><00:02:21.349><c> our</c></c>
+
+00:02:22.339 --> 00:02:22.349 align:start position:0%
+into some weight<c.colorE5E5E5> that reflects</c><c.colorCCCCCC> our
+ </c>
+
+00:02:22.349 --> 00:02:25.070 align:start position:0%
+into some weight<c.colorE5E5E5> that reflects</c><c.colorCCCCCC> our
+belief<00:02:23.010><c> about</c><00:02:23.310><c> how</c></c><c.colorE5E5E5><00:02:23.550><c> important</c><00:02:24.360><c> this</c><00:02:24.569><c> were</c><00:02:24.810><c> in</c></c>
+
+00:02:25.070 --> 00:02:25.080 align:start position:0%
+belief about how<c.colorE5E5E5> important this were in
+ </c>
+
+00:02:25.080 --> 00:02:28.880 align:start position:0%
+belief about how<c.colorE5E5E5> important this were in
+the<00:02:25.860><c> document</c><00:02:26.400><c> and</c><00:02:27.110><c> so</c><00:02:28.110><c> that</c></c><c.colorCCCCCC><00:02:28.590><c> would</c><00:02:28.830><c> be</c></c>
+
+00:02:28.880 --> 00:02:28.890 align:start position:0%
+the document<c.colorE5E5E5> and so that</c><c.colorCCCCCC> would be
+ </c>
+
+00:02:28.890 --> 00:02:33.910 align:start position:0%
+the document<c.colorE5E5E5> and so that</c><c.colorCCCCCC> would be
+denoted<00:02:29.250><c> by</c><00:02:29.760><c> T</c><00:02:30.480><c> F</c><00:02:30.599><c> of</c><00:02:30.870><c> W</c><00:02:31.290><c> and</c><00:02:31.590><c> D</c><00:02:31.830><c> as</c><00:02:32.790><c> shown</c><00:02:33.300><c> in</c></c>
+
+00:02:33.910 --> 00:02:33.920 align:start position:0%
+denoted by<c.colorCCCCCC> T F of W and D as shown in
+ </c>
+
+00:02:33.920 --> 00:02:38.059 align:start position:0%
+denoted by<c.colorCCCCCC> T F of W and D as shown in
+the<00:02:34.920><c> y-axis</c><00:02:35.930><c> now</c></c><c.colorE5E5E5><00:02:36.930><c> in</c><00:02:37.260><c> general</c></c><c.colorCCCCCC><00:02:37.470><c> there</c><00:02:37.739><c> are</c></c><c.colorE5E5E5><00:02:37.769><c> many</c></c>
+
+00:02:38.059 --> 00:02:38.069 align:start position:0%
+the<c.colorCCCCCC> y-axis now</c><c.colorE5E5E5> in general</c><c.colorCCCCCC> there are</c><c.colorE5E5E5> many
+ </c>
+
+00:02:38.069 --> 00:02:41.539 align:start position:0%
+the<c.colorCCCCCC> y-axis now</c><c.colorE5E5E5> in general</c><c.colorCCCCCC> there are</c><c.colorE5E5E5> many
+ways<00:02:38.340><c> to</c><00:02:38.370><c> map</c><00:02:38.879><c> that</c><00:02:39.150><c> and</c><00:02:39.720><c> let's</c><00:02:40.709><c> first</c><00:02:40.980><c> look</c><00:02:41.400><c> at</c></c>
+
+00:02:41.539 --> 00:02:41.549 align:start position:0%
+<c.colorE5E5E5>ways to map that and let's first look at
+ </c>
+
+00:02:41.549 --> 00:02:45.140 align:start position:0%
+<c.colorE5E5E5>ways to map that and let's first look at
+a<00:02:41.610><c> simple</c><00:02:42.390><c> way</c><00:02:42.569><c> of</c><00:02:42.780><c> mapping</c><00:02:43.410><c> and</c></c><c.colorCCCCCC><00:02:43.849><c> then</c><00:02:44.849><c> in</c><00:02:45.000><c> this</c></c>
+
+00:02:45.140 --> 00:02:45.150 align:start position:0%
+a simple way of mapping<c.colorE5E5E5> and</c><c.colorCCCCCC> then in this
+ </c>
+
+00:02:45.150 --> 00:02:48.470 align:start position:0%
+a simple way of mapping<c.colorE5E5E5> and</c><c.colorCCCCCC> then in this
+case</c><c.colorE5E5E5><00:02:45.209><c> we're</c><00:02:46.200><c> going</c><00:02:46.379><c> to</c><00:02:46.440><c> say</c><00:02:46.769><c> well</c><00:02:47.480><c> any</c></c>
+
+00:02:48.470 --> 00:02:48.480 align:start position:0%
+case<c.colorE5E5E5> we're going to say well any
+ </c>
+
+00:02:48.480 --> 00:02:51.710 align:start position:0%
+case<c.colorE5E5E5> we're going to say well any
+non-zero<00:02:49.610><c> counts</c><00:02:50.610><c> will</c><00:02:50.819><c> be</c><00:02:50.940><c> mapped</c><00:02:51.239><c> to</c><00:02:51.510><c> one</c></c>
+
+00:02:51.710 --> 00:02:51.720 align:start position:0%
+non-zero<c.colorE5E5E5> counts will be mapped to one
+ </c>
+
+00:02:51.720 --> 00:02:54.589 align:start position:0%
+non-zero<c.colorE5E5E5> counts will be mapped to one
+and<00:02:52.400><c> the</c><00:02:53.400><c> zero</c></c><c.colorCCCCCC><00:02:53.670><c> column</c><00:02:54.090><c> will</c><00:02:54.180><c> be</c><00:02:54.269><c> mapped</c><00:02:54.510><c> to</c></c>
+
+00:02:54.589 --> 00:02:54.599 align:start position:0%
+and the<c.colorE5E5E5> zero</c><c.colorCCCCCC> column will be mapped to
+ </c>
+
+00:02:54.599 --> 00:02:57.850 align:start position:0%
+and the<c.colorE5E5E5> zero</c><c.colorCCCCCC> column will be mapped to</c>
+<c.colorCCCCCC>zero</c><c.colorE5E5E5><00:02:55.049><c> so</c><00:02:55.860><c> with</c><00:02:56.099><c> this</c><00:02:56.280><c> mapping</c><00:02:56.760><c> all</c><00:02:57.030><c> the</c></c>
+
+00:02:57.850 --> 00:02:57.860 align:start position:0%
+<c.colorCCCCCC>zero</c><c.colorE5E5E5> so with this mapping all the
+ </c>
+
+00:02:57.860 --> 00:03:00.620 align:start position:0%
+<c.colorCCCCCC>zero</c><c.colorE5E5E5> so with this mapping all the</c>
+<c.colorE5E5E5>frequencies<00:02:58.860><c> will</c><00:02:59.160><c> be</c><00:02:59.190><c> mapped</c><00:02:59.519><c> to</c><00:02:59.700><c> only</c><00:03:00.480><c> two</c></c>
+
+00:03:00.620 --> 00:03:00.630 align:start position:0%
+<c.colorE5E5E5>frequencies will be mapped to only two
+ </c>
+
+00:03:00.630 --> 00:03:04.490 align:start position:0%
+<c.colorE5E5E5>frequencies will be mapped to only two</c>
+<c.colorCCCCCC>values</c><c.colorE5E5E5><00:03:00.989><c> 0</c><00:03:01.500><c> or</c><00:03:01.739><c> 1</c><00:03:01.950><c> and</c><00:03:02.390><c> the</c><00:03:03.390><c> mapping</c></c><c.colorCCCCCC><00:03:04.079><c> function</c></c>
+
+00:03:04.490 --> 00:03:04.500 align:start position:0%
+<c.colorCCCCCC>values</c><c.colorE5E5E5> 0 or 1 and the mapping</c><c.colorCCCCCC> function
+ </c>
+
+00:03:04.500 --> 00:03:12.069 align:start position:0%
+<c.colorCCCCCC>values</c><c.colorE5E5E5> 0 or 1 and the mapping</c><c.colorCCCCCC> function
+is<00:03:04.709><c> shown</c><00:03:05.010><c> here</c></c><c.colorE5E5E5><00:03:05.310><c> as</c><00:03:05.519><c> a</c><00:03:06.620><c> flat</c><00:03:08.480><c> line</c></c><c.colorCCCCCC><00:03:09.480><c> here</c><00:03:10.280><c> now</c></c>
+
+00:03:12.069 --> 00:03:12.079 align:start position:0%
+is shown here<c.colorE5E5E5> as a flat line</c><c.colorCCCCCC> here now
+ </c>
+
+00:03:12.079 --> 00:03:15.259 align:start position:0%
+is shown here<c.colorE5E5E5> as a flat line</c><c.colorCCCCCC> here now</c>
+<c.colorCCCCCC>this<00:03:13.079><c> is</c></c><c.colorE5E5E5><00:03:13.349><c> not</c><00:03:13.799><c> even</c><00:03:14.069><c> because</c><00:03:14.370><c> it</c><00:03:14.579><c> nor</c><00:03:14.940><c> the</c></c>
+
+00:03:15.259 --> 00:03:15.269 align:start position:0%
+<c.colorCCCCCC>this is</c><c.colorE5E5E5> not even because it nor the
+ </c>
+
+00:03:15.269 --> 00:03:16.369 align:start position:0%
+<c.colorCCCCCC>this is</c><c.colorE5E5E5> not even because it nor the
+frequency<00:03:15.810><c> of</c><00:03:15.930><c> words</c></c>
+
+00:03:16.369 --> 00:03:16.379 align:start position:0%
+frequency of words
+ 
+
+00:03:16.379 --> 00:03:19.130 align:start position:0%
+frequency of words
+however<c.colorE5E5E5><00:03:17.190><c> this</c><00:03:17.549><c> actually</c><00:03:18.209><c> has</c><00:03:18.360><c> the</c><00:03:18.599><c> advantage</c></c>
+
+00:03:19.130 --> 00:03:19.140 align:start position:0%
+however<c.colorE5E5E5> this actually has the advantage
+ </c>
+
+00:03:19.140 --> 00:03:24.559 align:start position:0%
+however<c.colorE5E5E5> this actually has the advantage
+of<00:03:20.239><c> emphasizing</c><00:03:22.340><c> matching</c><00:03:23.340><c> all</c><00:03:23.519><c> the</c><00:03:23.760><c> words</c></c><c.colorCCCCCC><00:03:24.000><c> in</c></c>
+
+00:03:24.559 --> 00:03:24.569 align:start position:0%
+of emphasizing matching all<c.colorE5E5E5> the words</c><c.colorCCCCCC> in
+ </c>
+
+00:03:24.569 --> 00:03:27.770 align:start position:0%
+of emphasizing matching all<c.colorE5E5E5> the words</c><c.colorCCCCCC> in</c>
+<c.colorE5E5E5>the<00:03:24.750><c> context</c></c><c.colorCCCCCC><00:03:25.139><c> ok</c><00:03:25.950><c> so</c><00:03:26.010><c> it</c><00:03:26.489><c> does</c></c><c.colorE5E5E5><00:03:26.700><c> not</c><00:03:26.880><c> allow</c><00:03:27.480><c> a</c></c>
+
+00:03:27.770 --> 00:03:27.780 align:start position:0%
+<c.colorE5E5E5>the context</c><c.colorCCCCCC> ok so it does</c><c.colorE5E5E5> not allow a
+ </c>
+
+00:03:27.780 --> 00:03:30.830 align:start position:0%
+<c.colorE5E5E5>the context</c><c.colorCCCCCC> ok so it does</c><c.colorE5E5E5> not allow a
+frequent<00:03:28.410><c> word</c><00:03:28.560><c> to</c><00:03:28.799><c> dominate</c><00:03:29.579><c> the</c><00:03:29.940><c> match</c></c><c.colorCCCCCC><00:03:30.090><c> now</c></c>
+
+00:03:30.830 --> 00:03:30.840 align:start position:0%
+frequent word to dominate the match<c.colorCCCCCC> now
+ </c>
+
+00:03:30.840 --> 00:03:33.259 align:start position:0%
+frequent word to dominate the match<c.colorCCCCCC> now
+the<00:03:31.200><c> approach</c><00:03:31.590><c> that</c></c><c.colorE5E5E5><00:03:31.620><c> we</c><00:03:32.190><c> have</c><00:03:32.220><c> taken</c><00:03:32.400><c> earlier</c></c>
+
+00:03:33.259 --> 00:03:33.269 align:start position:0%
+the approach that<c.colorE5E5E5> we have taken earlier
+ </c>
+
+00:03:33.269 --> 00:03:36.199 align:start position:0%
+the approach that<c.colorE5E5E5> we have taken earlier
+in<00:03:33.540><c> the</c><00:03:33.989><c> expected</c><00:03:34.709><c> overlap</c><00:03:35.160><c> account</c><00:03:35.670><c> approach</c></c>
+
+00:03:36.199 --> 00:03:36.209 align:start position:0%
+in the expected overlap account<c.colorE5E5E5> approach
+ </c>
+
+00:03:36.209 --> 00:03:38.390 align:start position:0%
+in the expected overlap account<c.colorE5E5E5> approach
+is<00:03:36.599><c> the</c><00:03:37.200><c> linear</c><00:03:37.530><c> transformation</c></c><c.colorCCCCCC><00:03:37.709><c> we</c></c>
+
+00:03:38.390 --> 00:03:38.400 align:start position:0%
+is the linear transformation<c.colorCCCCCC> we
+ </c>
+
+00:03:38.400 --> 00:03:42.289 align:start position:0%
+is the linear transformation<c.colorCCCCCC> we</c>
+<c.colorE5E5E5>basically<00:03:38.730><c> take</c><00:03:39.060><c> Y</c><00:03:39.450><c> as</c><00:03:39.810><c> the</c></c><c.colorCCCCCC><00:03:39.870><c> same</c><00:03:40.709><c> as</c><00:03:41.010><c> X</c><00:03:41.340><c> so</c><00:03:42.180><c> we</c></c>
+
+00:03:42.289 --> 00:03:42.299 align:start position:0%
+<c.colorE5E5E5>basically take Y as the</c><c.colorCCCCCC> same as X so we
+ </c>
+
+00:03:42.299 --> 00:03:44.270 align:start position:0%
+<c.colorE5E5E5>basically take Y as the</c><c.colorCCCCCC> same as X so we
+use<00:03:42.450><c> the</c><00:03:42.660><c> raw</c><00:03:42.930><c> count</c><00:03:43.290><c> as</c><00:03:43.560><c> a</c><00:03:43.620><c> representation</c></c>
+
+00:03:44.270 --> 00:03:44.280 align:start position:0%
+use the raw count as a representation
+ 
+
+00:03:44.280 --> 00:03:48.500 align:start position:0%
+use the raw count as a representation
+<c.colorE5E5E5>and<00:03:44.819><c> that</c></c><c.colorCCCCCC><00:03:45.859><c> created</c></c><c.colorE5E5E5><00:03:46.859><c> the</c><00:03:47.220><c> problem</c><00:03:48.000><c> that</c><00:03:48.239><c> we</c></c>
+
+00:03:48.500 --> 00:03:48.510 align:start position:0%
+<c.colorE5E5E5>and that</c><c.colorCCCCCC> created</c><c.colorE5E5E5> the problem that we
+ </c>
+
+00:03:48.510 --> 00:03:51.349 align:start position:0%
+<c.colorE5E5E5>and that</c><c.colorCCCCCC> created</c><c.colorE5E5E5> the problem that we
+just<00:03:48.720><c> talked</c><00:03:49.200><c> about</c><00:03:49.290><c> namely</c><00:03:49.829><c> it</c><00:03:50.700><c> answers</c><00:03:51.150><c> too</c></c>
+
+00:03:51.349 --> 00:03:51.359 align:start position:0%
+just<c.colorE5E5E5> talked about namely it answers too
+ </c>
+
+00:03:51.359 --> 00:03:54.229 align:start position:0%
+just<c.colorE5E5E5> talked about namely it answers too
+much<00:03:51.510><c> on</c><00:03:51.810><c> just</c><00:03:52.380><c> matching</c><00:03:53.340><c> one</c><00:03:53.549><c> frequent</c><00:03:54.180><c> the</c></c>
+
+00:03:54.229 --> 00:03:54.239 align:start position:0%
+much on just matching one frequent the
+ 
+
+00:03:54.239 --> 00:03:56.629 align:start position:0%
+much on just matching one frequent the
+term<00:03:54.620><c> matching</c><00:03:55.620><c> one</c><c.colorE5E5E5><00:03:55.799><c> free</c></c><c.colorCCCCCC><00:03:56.010><c> clinton</c><00:03:56.459><c> can</c></c>
+
+00:03:56.629 --> 00:03:56.639 align:start position:0%
+term matching one<c.colorE5E5E5> free</c><c.colorCCCCCC> clinton can
+ </c>
+
+00:03:56.639 --> 00:04:02.690 align:start position:0%
+term matching one<c.colorE5E5E5> free</c><c.colorCCCCCC> clinton can</c>
+<c.colorCCCCCC>contribute<00:03:56.910><c> a</c></c><c.colorE5E5E5><00:03:57.209><c> lot</c><00:03:58.639><c> so</c><00:04:00.440><c> we</c><00:04:01.440><c> can</c><00:04:01.709><c> have</c><00:04:02.190><c> a</c><00:04:02.430><c> lot</c><00:04:02.669><c> of</c></c>
+
+00:04:02.690 --> 00:04:02.700 align:start position:0%
+<c.colorCCCCCC>contribute a</c><c.colorE5E5E5> lot so we can have a lot of
+ </c>
+
+00:04:02.700 --> 00:04:04.610 align:start position:0%
+<c.colorCCCCCC>contribute a</c><c.colorE5E5E5> lot so we can have a lot of</c>
+<c.colorCCCCCC>other<00:04:03.120><c> interesting</c><00:04:03.720><c> transformations</c><00:04:04.440><c> in</c></c>
+
+00:04:04.610 --> 00:04:04.620 align:start position:0%
+<c.colorCCCCCC>other interesting transformations in
+ </c>
+
+00:04:04.620 --> 00:04:07.670 align:start position:0%
+<c.colorCCCCCC>other interesting transformations in
+between<00:04:05.099><c> the</c><00:04:05.549><c> two</c><00:04:05.730><c> extremes</c><00:04:05.760><c> and</c><00:04:06.680><c> they</c></c>
+
+00:04:07.670 --> 00:04:07.680 align:start position:0%
+between the two extremes<c.colorCCCCCC> and they
+ </c>
+
+00:04:07.680 --> 00:04:09.229 align:start position:0%
+between the two extremes<c.colorCCCCCC> and they</c>
+<c.colorE5E5E5>generally<00:04:08.250><c> form</c><00:04:08.549><c> a</c><00:04:08.790><c> sub</c><00:04:09.060><c> linear</c></c>
+
+00:04:09.229 --> 00:04:09.239 align:start position:0%
+<c.colorE5E5E5>generally form a sub linear
+ </c>
+
+00:04:09.239 --> 00:04:12.319 align:start position:0%
+<c.colorE5E5E5>generally form a sub linear
+transformation<00:04:10.310><c> so</c><00:04:11.310><c> for</c><00:04:11.489><c> example</c><00:04:11.940><c> one</c></c>
+
+00:04:12.319 --> 00:04:12.329 align:start position:0%
+transformation so for<c.colorE5E5E5> example one
+ </c>
+
+00:04:12.329 --> 00:04:14.140 align:start position:0%
+transformation so for<c.colorE5E5E5> example one
+possibility<00:04:12.720><c> is</c><00:04:12.959><c> to</c><00:04:13.079><c> take</c><00:04:13.349><c> a</c><00:04:13.380><c> logarithm</c><00:04:13.620><c> of</c></c>
+
+00:04:14.140 --> 00:04:14.150 align:start position:0%
+possibility is<c.colorE5E5E5> to take a logarithm of
+ </c>
+
+00:04:14.150 --> 00:04:16.909 align:start position:0%
+possibility is<c.colorE5E5E5> to take a logarithm of
+the<00:04:15.150><c> row</c><00:04:15.389><c> count</c><00:04:15.720><c> and</c><00:04:15.989><c> this</c><00:04:16.500><c> will</c><00:04:16.709><c> give</c><00:04:16.889><c> us</c></c>
+
+00:04:16.909 --> 00:04:16.919 align:start position:0%
+the row<c.colorE5E5E5> count and this will give us
+ </c>
+
+00:04:16.919 --> 00:04:19.819 align:start position:0%
+the row<c.colorE5E5E5> count and this will give us
+curve<00:04:17.400><c> that</c><00:04:18.030><c> looks</c><00:04:18.090><c> like</c><00:04:18.510><c> this</c></c><c.colorCCCCCC><00:04:18.630><c> right</c><00:04:19.049><c> that</c></c>
+
+00:04:19.819 --> 00:04:19.829 align:start position:0%
+curve that looks like this<c.colorCCCCCC> right that
+ </c>
+
+00:04:19.829 --> 00:04:22.760 align:start position:0%
+curve that looks like this<c.colorCCCCCC> right that</c>
+<c.colorE5E5E5>you<00:04:20.010><c> are</c><00:04:20.130><c> seeing</c><00:04:20.310><c> here</c><00:04:20.989><c> in</c><00:04:21.989><c> this</c><00:04:22.109><c> case</c><00:04:22.410><c> you</c><00:04:22.620><c> can</c></c>
+
+00:04:22.760 --> 00:04:22.770 align:start position:0%
+<c.colorE5E5E5>you are seeing here in this case you can
+ </c>
+
+00:04:22.770 --> 00:04:25.640 align:start position:0%
+<c.colorE5E5E5>you are seeing here in this case you can
+see<00:04:23.010><c> the</c><00:04:23.580><c> high</c><00:04:23.880><c> frequency</c></c><c.colorCCCCCC><00:04:24.539><c> counts</c></c><c.colorE5E5E5><00:04:25.169><c> the</c><00:04:25.440><c> high</c></c>
+
+00:04:25.640 --> 00:04:25.650 align:start position:0%
+see the high frequency<c.colorCCCCCC> counts</c><c.colorE5E5E5> the high
+ </c>
+
+00:04:25.650 --> 00:04:29.570 align:start position:0%
+see the high frequency<c.colorCCCCCC> counts</c><c.colorE5E5E5> the high
+counts<00:04:26.130><c> are</c><00:04:27.289><c> penalized</c><00:04:28.289><c> a</c><00:04:28.469><c> little</c><00:04:28.740><c> bit</c></c><c.colorCCCCCC><00:04:28.860><c> right</c></c>
+
+00:04:29.570 --> 00:04:29.580 align:start position:0%
+counts are penalized a little bit<c.colorCCCCCC> right
+ </c>
+
+00:04:29.580 --> 00:04:31.730 align:start position:0%
+counts are penalized a little bit<c.colorCCCCCC> right
+so<00:04:29.820><c> the</c><00:04:30.000><c> curve</c><00:04:30.270><c> is</c><00:04:30.419><c> a</c><00:04:30.450><c> sub</c><00:04:30.750><c> linear</c><00:04:30.930><c> curve</c></c>
+
+00:04:31.730 --> 00:04:31.740 align:start position:0%
+so the curve is a sub linear curve
+ 
+
+00:04:31.740 --> 00:04:35.240 align:start position:0%
+so the curve is a sub linear curve
+and<00:04:31.830><c> it</c><00:04:32.310><c> brings</c><00:04:32.820><c> down</c><c.colorCCCCCC><00:04:33.180><c> the</c><00:04:33.630><c> weight</c><00:04:33.930><c> of</c><00:04:34.260><c> really</c></c>
+
+00:04:35.240 --> 00:04:35.250 align:start position:0%
+and it brings down<c.colorCCCCCC> the weight of really
+ </c>
+
+00:04:35.250 --> 00:04:40.040 align:start position:0%
+and it brings down<c.colorCCCCCC> the weight of really
+hot<00:04:36.240><c> those</c><00:04:36.860><c> really</c><00:04:37.860><c> high</c></c><c.colorE5E5E5><00:04:38.040><c> accounts</c><00:04:38.780><c> and</c><00:04:39.780><c> this</c></c>
+
+00:04:40.040 --> 00:04:40.050 align:start position:0%
+hot those really high<c.colorE5E5E5> accounts and this
+ </c>
+
+00:04:40.050 --> 00:04:42.590 align:start position:0%
+hot those really high<c.colorE5E5E5> accounts and this
+is<00:04:40.200><c> what</c><00:04:40.410><c> we</c><00:04:40.530><c> want</c></c><c.colorCCCCCC><00:04:40.770><c> because</c><00:04:41.160><c> it</c><00:04:41.340><c> prevents</c><00:04:41.850><c> that</c></c>
+
+00:04:42.590 --> 00:04:42.600 align:start position:0%
+is what we want<c.colorCCCCCC> because it prevents that
+ </c>
+
+00:04:42.600 --> 00:04:45.350 align:start position:0%
+is what we want<c.colorCCCCCC> because it prevents that
+kind</c><c.colorE5E5E5><00:04:42.930><c> of</c><00:04:43.050><c> terms</c><00:04:43.320><c> from</c></c><c.colorCCCCCC><00:04:43.980><c> dominating</c><00:04:44.700><c> the</c></c>
+
+00:04:45.350 --> 00:04:45.360 align:start position:0%
+kind<c.colorE5E5E5> of terms from</c><c.colorCCCCCC> dominating the
+ </c>
+
+00:04:45.360 --> 00:04:50.750 align:start position:0%
+kind<c.colorE5E5E5> of terms from</c><c.colorCCCCCC> dominating the
+scoring<00:04:45.870><c> function</c><00:04:48.770><c> now</c></c><c.colorE5E5E5><00:04:49.770><c> there</c><00:04:50.430><c> is</c><00:04:50.580><c> also</c></c>
+
+00:04:50.750 --> 00:04:50.760 align:start position:0%
+scoring function now<c.colorE5E5E5> there is also
+ </c>
+
+00:04:50.760 --> 00:04:52.160 align:start position:0%
+scoring function now<c.colorE5E5E5> there is also
+another<00:04:51.150><c> interesting</c><00:04:51.870><c> transformation</c></c>
+
+00:04:52.160 --> 00:04:52.170 align:start position:0%
+another<c.colorE5E5E5> interesting transformation
+ </c>
+
+00:04:52.170 --> 00:04:56.140 align:start position:0%
+another<c.colorE5E5E5> interesting transformation</c>
+<c.colorE5E5E5>called</c><c.colorCCCCCC><00:04:52.710><c> PM</c><00:04:53.280><c> 25</c><00:04:53.850><c> transformation</c><00:04:54.750><c> which</c><00:04:55.350><c> has</c></c>
+
+00:04:56.140 --> 00:04:56.150 align:start position:0%
+<c.colorE5E5E5>called</c><c.colorCCCCCC> PM 25 transformation which has
+ </c>
+
+00:04:56.150 --> 00:04:58.630 align:start position:0%
+<c.colorE5E5E5>called</c><c.colorCCCCCC> PM 25 transformation which has
+been<00:04:57.150><c> shown</c><00:04:57.450><c> to</c><00:04:57.480><c> be</c><00:04:57.750><c> very</c><00:04:57.960><c> effective</c></c><c.colorE5E5E5><00:04:58.110><c> for</c></c>
+
+00:04:58.630 --> 00:04:58.640 align:start position:0%
+been<c.colorCCCCCC> shown to be very effective</c><c.colorE5E5E5> for
+ </c>
+
+00:04:58.640 --> 00:05:02.300 align:start position:0%
+been<c.colorCCCCCC> shown to be very effective</c><c.colorE5E5E5> for
+retrieval<00:04:59.640><c> and</c><00:05:00.000><c> in</c><00:05:00.540><c> this</c></c><c.colorCCCCCC><00:05:00.690><c> transformation</c><00:05:01.650><c> we</c></c>
+
+00:05:02.300 --> 00:05:02.310 align:start position:0%
+retrieval and in this<c.colorCCCCCC> transformation we
+ </c>
+
+00:05:02.310 --> 00:05:08.030 align:start position:0%
+retrieval and in this<c.colorCCCCCC> transformation we
+have</c><c.colorE5E5E5><00:05:02.340><c> a</c><00:05:02.790><c> form</c><00:05:03.240><c> that</c></c><c.colorCCCCCC><00:05:05.180><c> looks</c></c><c.colorE5E5E5><00:05:06.180><c> like</c><00:05:06.420><c> this</c><00:05:06.770><c> so</c><00:05:07.770><c> it's</c></c>
+
+00:05:08.030 --> 00:05:08.040 align:start position:0%
+have<c.colorE5E5E5> a form that</c><c.colorCCCCCC> looks</c><c.colorE5E5E5> like this so it's
+ </c>
+
+00:05:08.040 --> 00:05:10.850 align:start position:0%
+have<c.colorE5E5E5> a form that</c><c.colorCCCCCC> looks</c><c.colorE5E5E5> like this so it's
+K<00:05:08.430><c> plus</c></c><c.colorCCCCCC><00:05:08.760><c> 1</c><00:05:08.970><c> multiplied</c><00:05:09.390><c> by</c><00:05:09.420><c> X</c><00:05:09.780><c> divided</c><00:05:10.470><c> by</c><00:05:10.500><c> X</c></c>
+
+00:05:10.850 --> 00:05:10.860 align:start position:0%
+K<c.colorE5E5E5> plus</c><c.colorCCCCCC> 1 multiplied by X divided by X
+ </c>
+
+00:05:10.860 --> 00:05:15.920 align:start position:0%
+K<c.colorE5E5E5> plus</c><c.colorCCCCCC> 1 multiplied by X divided by X</c>
+<c.colorCCCCCC>plus<00:05:11.160><c> K</c><00:05:11.400><c> where</c><00:05:11.940><c> K</c><00:05:11.970><c> is</c><00:05:12.450><c> a</c><00:05:12.510><c> parameter</c><00:05:13.460><c> X</c><00:05:14.460><c> is</c><00:05:15.360><c> the</c></c>
+
+00:05:15.920 --> 00:05:15.930 align:start position:0%
+<c.colorCCCCCC>plus K where K is a parameter X is the
+ </c>
+
+00:05:15.930 --> 00:05:19.480 align:start position:0%
+<c.colorCCCCCC>plus K where K is a parameter X is the
+count</c><c.colorE5E5E5><00:05:16.200><c> the</c><00:05:16.710><c> raw</c><00:05:16.860><c> account</c><00:05:17.220><c> of</c><00:05:17.460><c> a</c></c><c.colorCCCCCC><00:05:17.790><c> word</c><00:05:18.350><c> now</c><00:05:19.350><c> the</c></c>
+
+00:05:19.480 --> 00:05:19.490 align:start position:0%
+count<c.colorE5E5E5> the raw account of a</c><c.colorCCCCCC> word now the
+ </c>
+
+00:05:19.490 --> 00:05:22.040 align:start position:0%
+count<c.colorE5E5E5> the raw account of a</c><c.colorCCCCCC> word now the</c>
+<c.colorCCCCCC>transformation<00:05:20.490><c> is</c><00:05:20.670><c> very</c><00:05:20.730><c> interesting</c><00:05:21.690><c> in</c></c>
+
+00:05:22.040 --> 00:05:22.050 align:start position:0%
+<c.colorCCCCCC>transformation is very interesting in
+ </c>
+
+00:05:22.050 --> 00:05:25.880 align:start position:0%
+<c.colorCCCCCC>transformation is very interesting in
+that<00:05:22.110><c> it</c><00:05:22.740><c> can</c></c><c.colorE5E5E5><00:05:23.010><c> truly</c><00:05:23.370><c> kind</c><00:05:24.210><c> of</c><00:05:24.390><c> go</c><00:05:24.570><c> from</c><00:05:24.900><c> one</c></c>
+
+00:05:25.880 --> 00:05:25.890 align:start position:0%
+that it can<c.colorE5E5E5> truly kind of go from one
+ </c>
+
+00:05:25.890 --> 00:05:28.880 align:start position:0%
+that it can<c.colorE5E5E5> truly kind of go from one
+extreme</c><c.colorCCCCCC><00:05:26.130><c> to</c><00:05:26.490><c> the</c><00:05:27.180><c> other</c><00:05:27.450><c> extreme</c><00:05:27.690><c> by</c><00:05:28.230><c> varying</c></c>
+
+00:05:28.880 --> 00:05:28.890 align:start position:0%
+extreme<c.colorCCCCCC> to the other extreme by varying
+ </c>
+
+00:05:28.890 --> 00:05:33.500 align:start position:0%
+extreme<c.colorCCCCCC> to the other extreme by varying
+K<00:05:29.660><c> and</c><00:05:30.660><c> it</c><00:05:31.470><c> also</c><00:05:31.650><c> is</c><00:05:32.100><c> interesting</c><00:05:32.640><c> that</c></c><c.colorE5E5E5><00:05:32.880><c> it</c><00:05:33.330><c> has</c></c>
+
+00:05:33.500 --> 00:05:33.510 align:start position:0%
+K and it also is<c.colorCCCCCC> interesting that</c><c.colorE5E5E5> it has
+ </c>
+
+00:05:33.510 --> 00:05:37.640 align:start position:0%
+K and it also is<c.colorCCCCCC> interesting that</c><c.colorE5E5E5> it has
+upper<00:05:33.870><c> bound</c></c><c.colorCCCCCC><00:05:34.370><c> K</c><00:05:35.370><c> plus</c><00:05:35.610><c> 1</c><00:05:35.640><c> in</c><00:05:36.120><c> this</c><00:05:36.240><c> case</c></c><c.colorE5E5E5><00:05:36.650><c> so</c></c>
+
+00:05:37.640 --> 00:05:37.650 align:start position:0%
+upper bound<c.colorCCCCCC> K plus 1 in this case</c><c.colorE5E5E5> so
+ </c>
+
+00:05:37.650 --> 00:05:41.600 align:start position:0%
+upper bound<c.colorCCCCCC> K plus 1 in this case</c><c.colorE5E5E5> so
+this<00:05:38.330><c> puts</c><00:05:39.330><c> a</c><00:05:39.570><c> very</c><00:05:39.810><c> strict</c><00:05:40.340><c> constraint</c><00:05:41.340><c> on</c></c>
+
+00:05:41.600 --> 00:05:41.610 align:start position:0%
+this puts a very strict constraint on
+ 
+
+00:05:41.610 --> 00:05:43.760 align:start position:0%
+this puts a very strict constraint on
+high<00:05:41.940><c> frequency</c><00:05:42.510><c> terms</c><00:05:42.750><c> because</c><00:05:43.350><c> their</c>
+
+00:05:43.760 --> 00:05:43.770 align:start position:0%
+high frequency terms because their
+ 
+
+00:05:43.770 --> 00:05:46.070 align:start position:0%
+high frequency terms because their
+weight<00:05:44.070><c> would</c><00:05:44.490><c> never</c><00:05:44.850><c> exceed</c><c.colorCCCCCC><00:05:45.270><c> the</c><00:05:45.450><c> k</c><00:05:45.600><c> plus</c><00:05:45.630><c> 1</c></c>
+
+00:05:46.070 --> 00:05:46.080 align:start position:0%
+weight would never exceed<c.colorCCCCCC> the k plus 1
+ </c>
+
+00:05:46.080 --> 00:05:50.060 align:start position:0%
+weight would never exceed<c.colorCCCCCC> the k plus 1
+as<00:05:46.260><c> we</c><00:05:47.100><c> vary</c><00:05:47.370><c> care</c><00:05:47.850><c> if</c><00:05:48.090><c> we</c><00:05:49.050><c> can</c><00:05:49.260><c> simulate</c></c><c.colorE5E5E5><00:05:49.590><c> the</c></c>
+
+00:05:50.060 --> 00:05:50.070 align:start position:0%
+as we<c.colorCCCCCC> vary care if we can simulate</c><c.colorE5E5E5> the
+ </c>
+
+00:05:50.070 --> 00:05:52.790 align:start position:0%
+as we<c.colorCCCCCC> vary care if we can simulate</c><c.colorE5E5E5> the
+two<00:05:50.190><c> extremes</c><00:05:50.580><c> so</c><00:05:51.180><c> when</c><00:05:51.330><c> K</c><00:05:51.540><c> is</c><00:05:51.570><c> set</c><00:05:51.870><c> to</c></c><c.colorCCCCCC><00:05:52.020><c> 0</c><00:05:52.260><c> we</c></c>
+
+00:05:52.790 --> 00:05:52.800 align:start position:0%
+two extremes<c.colorE5E5E5> so when K is set to</c><c.colorCCCCCC> 0 we
+ </c>
+
+00:05:52.800 --> 00:05:56.870 align:start position:0%
+two extremes<c.colorE5E5E5> so when K is set to</c><c.colorCCCCCC> 0 we
+roughly<00:05:53.220><c> have</c><00:05:53.730><c> the</c><00:05:54.060><c> 0</c></c><c.colorE5E5E5><00:05:54.330><c> 1</c><00:05:54.630><c> vector</c><00:05:55.580><c> whereas</c><00:05:56.580><c> when</c></c>
+
+00:05:56.870 --> 00:05:56.880 align:start position:0%
+roughly<c.colorCCCCCC> have the 0</c><c.colorE5E5E5> 1 vector whereas when
+ </c>
+
+00:05:56.880 --> 00:05:59.240 align:start position:0%
+roughly<c.colorCCCCCC> have the 0</c><c.colorE5E5E5> 1 vector whereas when</c>
+<c.colorCCCCCC>we<00:05:57.030><c> set</c><00:05:57.330><c> the</c></c><c.colorE5E5E5><00:05:57.480><c> K</c><00:05:57.660><c> to</c><00:05:57.720><c> a</c><00:05:57.930><c> very</c><00:05:58.170><c> large</c><00:05:58.530><c> value</c><00:05:58.890><c> it</c></c>
+
+00:05:59.240 --> 00:05:59.250 align:start position:0%
+<c.colorCCCCCC>we set the</c><c.colorE5E5E5> K to a very large value it
+ </c>
+
+00:05:59.250 --> 00:06:00.710 align:start position:0%
+<c.colorCCCCCC>we set the</c><c.colorE5E5E5> K to a very large value it
+would<00:05:59.370><c> behave</c><00:05:59.670><c> more</c><00:06:00.030><c> like</c><00:06:00.060><c> the</c><00:06:00.420><c> linear</c></c>
+
+00:06:00.710 --> 00:06:00.720 align:start position:0%
+would<c.colorE5E5E5> behave more like the linear
+ </c>
+
+00:06:00.720 --> 00:06:03.800 align:start position:0%
+would<c.colorE5E5E5> behave more like the linear
+transformation</c><c.colorCCCCCC><00:06:01.850><c> so</c><00:06:02.850><c> this</c><00:06:03.180><c> transformation</c></c>
+
+00:06:03.800 --> 00:06:03.810 align:start position:0%
+transformation<c.colorCCCCCC> so this transformation
+ </c>
+
+00:06:03.810 --> 00:06:06.310 align:start position:0%
+transformation<c.colorCCCCCC> so this transformation</c>
+<c.colorCCCCCC>function<00:06:04.380><c> is</c><00:06:04.830><c> by</c><00:06:05.190><c> far</c><00:06:05.490><c> the</c></c><c.colorE5E5E5><00:06:05.520><c> most</c><00:06:05.850><c> effective</c></c>
+
+00:06:06.310 --> 00:06:06.320 align:start position:0%
+<c.colorCCCCCC>function is by far the</c><c.colorE5E5E5> most effective
+ </c>
+
+00:06:06.320 --> 00:06:08.090 align:start position:0%
+<c.colorCCCCCC>function is by far the</c><c.colorE5E5E5> most effective</c>
+<c.colorE5E5E5>transformation<00:06:07.320><c> function</c><00:06:07.680><c> for</c><00:06:07.890><c> tax</c></c>
+
+00:06:08.090 --> 00:06:08.100 align:start position:0%
+<c.colorE5E5E5>transformation function for tax
+ </c>
+
+00:06:08.100 --> 00:06:11.540 align:start position:0%
+<c.colorE5E5E5>transformation function for tax
+retrieval</c><c.colorCCCCCC><00:06:08.640><c> and</c><00:06:09.320><c> it</c><00:06:10.320><c> also</c><00:06:10.560><c> makes</c></c><c.colorE5E5E5><00:06:10.830><c> sense</c><00:06:10.980><c> for</c></c>
+
+00:06:11.540 --> 00:06:11.550 align:start position:0%
+retrieval<c.colorCCCCCC> and it also makes</c><c.colorE5E5E5> sense for
+ </c>
+
+00:06:11.550 --> 00:06:15.350 align:start position:0%
+retrieval<c.colorCCCCCC> and it also makes</c><c.colorE5E5E5> sense for
+our<00:06:12.350><c> problem</c></c><c.colorCCCCCC><00:06:13.350><c> setup</c></c><c.colorE5E5E5><00:06:13.820><c> so</c><00:06:14.820><c> we</c><00:06:14.940><c> just</c><00:06:15.090><c> talked</c></c>
+
+00:06:15.350 --> 00:06:15.360 align:start position:0%
+<c.colorE5E5E5>our problem</c><c.colorCCCCCC> setup</c><c.colorE5E5E5> so we just talked
+ </c>
+
+00:06:15.360 --> 00:06:17.200 align:start position:0%
+<c.colorE5E5E5>our problem</c><c.colorCCCCCC> setup</c><c.colorE5E5E5> so we just talked</c>
+<c.colorE5E5E5>about<00:06:15.420><c> how</c><00:06:15.780><c> to</c><00:06:15.840><c> solve</c><00:06:16.230><c> the</c><00:06:16.380><c> problem</c><00:06:16.740><c> of</c></c>
+
+00:06:17.200 --> 00:06:17.210 align:start position:0%
+<c.colorE5E5E5>about how to solve the problem of
+ </c>
+
+00:06:17.210 --> 00:06:20.000 align:start position:0%
+<c.colorE5E5E5>about how to solve the problem of</c>
+<c.colorCCCCCC>overemphasizing</c><c.colorE5E5E5><00:06:18.210><c> a</c><00:06:18.480><c> frequently</c><00:06:19.350><c> a</c><00:06:19.560><c> frequent</c></c>
+
+00:06:20.000 --> 00:06:20.010 align:start position:0%
+<c.colorCCCCCC>overemphasizing</c><c.colorE5E5E5> a frequently a frequent
+ </c>
+
+00:06:20.010 --> 00:06:22.190 align:start position:0%
+<c.colorCCCCCC>overemphasizing</c><c.colorE5E5E5> a frequently a frequent</c>
+<c.colorE5E5E5>the</c><c.colorCCCCCC><00:06:20.100><c> term</c><00:06:20.280><c> now</c><00:06:21.060><c> let's</c><00:06:21.240><c> look</c></c><c.colorE5E5E5><00:06:21.570><c> at</c><00:06:21.720><c> the</c><00:06:21.870><c> second</c></c>
+
+00:06:22.190 --> 00:06:22.200 align:start position:0%
+<c.colorE5E5E5>the</c><c.colorCCCCCC> term now let's look</c><c.colorE5E5E5> at the second
+ </c>
+
+00:06:22.200 --> 00:06:24.710 align:start position:0%
+<c.colorE5E5E5>the</c><c.colorCCCCCC> term now let's look</c><c.colorE5E5E5> at the second</c>
+<c.colorE5E5E5>problem<00:06:22.440><c> and</c><00:06:22.860><c> that</c><00:06:23.370><c> is</c><00:06:23.490><c> how</c><00:06:23.670><c> we</c><00:06:23.700><c> can</c><00:06:24.060><c> paralyze</c></c>
+
+00:06:24.710 --> 00:06:24.720 align:start position:0%
+<c.colorE5E5E5>problem and that is how we can paralyze
+ </c>
+
+00:06:24.720 --> 00:06:28.280 align:start position:0%
+<c.colorE5E5E5>problem and that is how we can paralyze
+popular<00:06:25.560><c> terms</c><00:06:25.910><c> no</c><00:06:26.910><c> matching</c><00:06:27.570><c> there</c><00:06:27.840><c> is</c><00:06:28.050><c> not</c><00:06:28.260><c> a</c></c>
+
+00:06:28.280 --> 00:06:28.290 align:start position:0%
+popular terms no matching<c.colorE5E5E5> there is not a
+ </c>
+
+00:06:28.290 --> 00:06:30.410 align:start position:0%
+popular terms no matching<c.colorE5E5E5> there is not a</c>
+<c.colorE5E5E5>surprise<00:06:28.740><c> because</c><00:06:29.100><c> the</c><00:06:29.280><c> occurs</c><00:06:29.850><c> everywhere</c></c>
+
+00:06:30.410 --> 00:06:30.420 align:start position:0%
+<c.colorE5E5E5>surprise because the occurs everywhere
+ </c>
+
+00:06:30.420 --> 00:06:33.290 align:start position:0%
+<c.colorE5E5E5>surprise because the occurs everywhere
+but<00:06:30.960><c> matching</c></c><c.colorCCCCCC><00:06:31.140><c> eats</c><00:06:31.560><c> would</c><00:06:32.130><c> count</c><00:06:32.460><c> a</c><00:06:32.580><c> lot</c></c><c.colorE5E5E5><00:06:32.760><c> so</c></c>
+
+00:06:33.290 --> 00:06:33.300 align:start position:0%
+but matching<c.colorCCCCCC> eats would count a lot</c><c.colorE5E5E5> so
+ </c>
+
+00:06:33.300 --> 00:06:35.570 align:start position:0%
+but matching<c.colorCCCCCC> eats would count a lot</c><c.colorE5E5E5> so
+how<00:06:33.540><c> can</c><00:06:33.600><c> we</c><00:06:33.870><c> address</c><00:06:34.050><c> that</c><00:06:34.320><c> problem</c></c><c.colorCCCCCC><00:06:34.560><c> now</c><00:06:35.460><c> in</c></c>
+
+00:06:35.570 --> 00:06:35.580 align:start position:0%
+how can we address that problem<c.colorCCCCCC> now in
+ </c>
+
+00:06:35.580 --> 00:06:38.200 align:start position:0%
+how can we address that problem<c.colorCCCCCC> now in
+this<00:06:35.700><c> case</c><00:06:35.970><c> we</c><00:06:36.360><c> can</c><00:06:36.570><c> use</c><00:06:36.600><c> the</c><00:06:37.140><c> IDF</c><00:06:37.710><c> weighting</c></c>
+
+00:06:38.200 --> 00:06:38.210 align:start position:0%
+this case we can use<c.colorCCCCCC> the IDF weighting
+ </c>
+
+00:06:38.210 --> 00:06:41.960 align:start position:0%
+this case we can use<c.colorCCCCCC> the IDF weighting</c>
+<c.colorE5E5E5>pop<00:06:39.210><c> that's</c><00:06:39.930><c> commonly</c></c><c.colorCCCCCC><00:06:40.560><c> used</c><00:06:40.860><c> in</c><00:06:41.160><c> retrieval</c></c>
+
+00:06:41.960 --> 00:06:41.970 align:start position:0%
+<c.colorE5E5E5>pop that's commonly</c><c.colorCCCCCC> used in retrieval
+ </c>
+
+00:06:41.970 --> 00:06:44.030 align:start position:0%
+<c.colorE5E5E5>pop that's commonly</c><c.colorCCCCCC> used in retrieval
+idea<00:06:42.510><c> for</c><00:06:42.720><c> stands</c><00:06:43.080><c> for</c><00:06:43.290><c> inverse</c><00:06:43.740><c> document</c></c>
+
+00:06:44.030 --> 00:06:44.040 align:start position:0%
+idea<c.colorCCCCCC> for stands for inverse document
+ </c>
+
+00:06:44.040 --> 00:06:44.810 align:start position:0%
+idea<c.colorCCCCCC> for stands for inverse document
+frequency</c>
+
+00:06:44.810 --> 00:06:44.820 align:start position:0%
+frequency
+ 
+
+00:06:44.820 --> 00:06:47.210 align:start position:0%
+frequency
+now<00:06:45.300><c> if</c><c.colorCCCCCC><00:06:45.360><c> doctor</c><00:06:45.660><c> the</c><00:06:45.810><c> frequency</c><00:06:46.320><c> means</c><00:06:46.830><c> the</c></c>
+
+00:06:47.210 --> 00:06:47.220 align:start position:0%
+now if<c.colorCCCCCC> doctor the frequency means the
+ </c>
+
+00:06:47.220 --> 00:06:49.820 align:start position:0%
+now if<c.colorCCCCCC> doctor the frequency means the
+counter<00:06:47.730><c> of</c><00:06:47.880><c> the</c><00:06:48.750><c> total</c><00:06:49.020><c> number</c><00:06:49.320><c> of</c></c><c.colorE5E5E5><00:06:49.350><c> documents</c></c>
+
+00:06:49.820 --> 00:06:49.830 align:start position:0%
+counter of the total number of<c.colorE5E5E5> documents
+ </c>
+
+00:06:49.830 --> 00:06:53.360 align:start position:0%
+counter of the total number of<c.colorE5E5E5> documents
+that<00:06:49.950><c> contain</c><00:06:50.430><c> a</c></c><c.colorCCCCCC><00:06:50.460><c> particular</c><00:06:51.060><c> world</c></c><c.colorE5E5E5><00:06:52.100><c> so</c><00:06:53.100><c> here</c></c>
+
+00:06:53.360 --> 00:06:53.370 align:start position:0%
+<c.colorE5E5E5>that contain a</c><c.colorCCCCCC> particular world</c><c.colorE5E5E5> so here
+ </c>
+
+00:06:53.370 --> 00:06:56.750 align:start position:0%
+<c.colorE5E5E5>that contain a</c><c.colorCCCCCC> particular world</c><c.colorE5E5E5> so here
+we<00:06:53.550><c> show</c><00:06:54.330><c> that</c></c><c.colorCCCCCC><00:06:54.360><c> the</c><00:06:54.660><c> IDF</c><00:06:55.530><c> measure</c></c><c.colorE5E5E5><00:06:56.040><c> is</c><00:06:56.310><c> defined</c></c>
+
+00:06:56.750 --> 00:06:56.760 align:start position:0%
+we show that<c.colorCCCCCC> the IDF measure</c><c.colorE5E5E5> is defined
+ </c>
+
+00:06:56.760 --> 00:07:00.340 align:start position:0%
+we show that<c.colorCCCCCC> the IDF measure</c><c.colorE5E5E5> is defined
+as<00:06:57.090><c> a</c></c><c.colorCCCCCC><00:06:57.120><c> logarithm</c><00:06:57.810><c> function</c><00:06:58.440><c> of</c><00:06:58.790><c> the</c></c><c.colorE5E5E5><00:06:59.790><c> number</c></c><c.colorCCCCCC><00:07:00.240><c> of</c></c>
+
+00:07:00.340 --> 00:07:00.350 align:start position:0%
+as a<c.colorCCCCCC> logarithm function of the</c><c.colorE5E5E5> number</c><c.colorCCCCCC> of
+ </c>
+
+00:07:00.350 --> 00:07:03.800 align:start position:0%
+as a<c.colorCCCCCC> logarithm function of the</c><c.colorE5E5E5> number</c><c.colorCCCCCC> of</c>
+<c.colorE5E5E5>documents<00:07:01.350><c> that</c><00:07:01.530><c> match</c><00:07:01.770><c> a</c><00:07:01.980><c> tone</c><00:07:02.220><c> or</c><00:07:02.810><c> document</c></c>
+
+00:07:03.800 --> 00:07:03.810 align:start position:0%
+<c.colorE5E5E5>documents that match a tone or document
+ </c>
+
+00:07:03.810 --> 00:07:07.220 align:start position:0%
+<c.colorE5E5E5>documents that match a tone or document
+frequency<00:07:05.000><c> so</c></c><c.colorCCCCCC><00:07:06.000><c> K</c></c><c.colorE5E5E5><00:07:06.390><c> is</c><00:07:06.630><c> the</c><00:07:06.810><c> number</c><00:07:06.840><c> of</c></c>
+
+00:07:07.220 --> 00:07:07.230 align:start position:0%
+frequency so<c.colorCCCCCC> K</c><c.colorE5E5E5> is the number of
+ </c>
+
+00:07:07.230 --> 00:07:09.320 align:start position:0%
+frequency so<c.colorCCCCCC> K</c><c.colorE5E5E5> is the number of
+documents<00:07:07.470><c> containing</c><00:07:08.280><c> world</c></c><c.colorCCCCCC><00:07:08.610><c> or</c><00:07:08.850><c> document</c></c>
+
+00:07:09.320 --> 00:07:09.330 align:start position:0%
+<c.colorE5E5E5>documents containing world</c><c.colorCCCCCC> or document
+ </c>
+
+00:07:09.330 --> 00:07:12.920 align:start position:0%
+<c.colorE5E5E5>documents containing world</c><c.colorCCCCCC> or document
+frequency</c><c.colorE5E5E5><00:07:09.510><c> and</c><00:07:10.310><c> M</c><00:07:11.310><c> here</c><00:07:11.940><c> is</c><00:07:12.150><c> the</c><00:07:12.360><c> total</c></c><c.colorCCCCCC><00:07:12.510><c> number</c></c>
+
+00:07:12.920 --> 00:07:12.930 align:start position:0%
+frequency<c.colorE5E5E5> and M here is the total</c><c.colorCCCCCC> number
+ </c>
+
+00:07:12.930 --> 00:07:15.800 align:start position:0%
+frequency<c.colorE5E5E5> and M here is the total</c><c.colorCCCCCC> number
+of</c><c.colorE5E5E5><00:07:12.960><c> documents</c><00:07:13.440><c> in</c><00:07:13.530><c> the</c><00:07:13.620><c> collection</c><00:07:14.300><c> the</c><00:07:15.300><c> IDF</c></c>
+
+00:07:15.800 --> 00:07:15.810 align:start position:0%
+of<c.colorE5E5E5> documents in the collection the IDF
+ </c>
+
+00:07:15.810 --> 00:07:19.880 align:start position:0%
+of<c.colorE5E5E5> documents in the collection the IDF
+function<00:07:16.400><c> is</c><00:07:17.690><c> giving</c><00:07:18.690><c> a</c><00:07:18.810><c> higher</c><00:07:19.140><c> value</c><00:07:19.650><c> for</c></c>
+
+00:07:19.880 --> 00:07:19.890 align:start position:0%
+function is giving a higher value for
+ 
+
+00:07:19.890 --> 00:07:23.780 align:start position:0%
+function is giving a higher value for
+<c.colorCCCCCC>allo</c><c.colorE5E5E5><00:07:20.430><c> okay</c><00:07:20.880><c> meaning</c></c><c.colorCCCCCC><00:07:21.810><c> that</c><00:07:22.110><c> it</c><00:07:22.350><c> rewards</c></c><c.colorE5E5E5><00:07:23.070><c> real</c></c>
+
+00:07:23.780 --> 00:07:23.790 align:start position:0%
+<c.colorCCCCCC>allo</c><c.colorE5E5E5> okay meaning</c><c.colorCCCCCC> that it rewards</c><c.colorE5E5E5> real
+ </c>
+
+00:07:23.790 --> 00:07:27.680 align:start position:0%
+<c.colorCCCCCC>allo</c><c.colorE5E5E5> okay meaning</c><c.colorCCCCCC> that it rewards</c><c.colorE5E5E5> real
+time<00:07:24.120><c> and</c><00:07:24.500><c> the</c><00:07:25.500><c> maximum</c><00:07:25.860><c> value</c></c><c.colorCCCCCC><00:07:25.950><c> is</c><00:07:26.460><c> log</c><00:07:27.240><c> of</c><00:07:27.270><c> M</c></c>
+
+00:07:27.680 --> 00:07:27.690 align:start position:0%
+<c.colorE5E5E5>time and the maximum value</c><c.colorCCCCCC> is log of M
+ </c>
+
+00:07:27.690 --> 00:07:31.520 align:start position:0%
+<c.colorE5E5E5>time and the maximum value</c><c.colorCCCCCC> is log of M</c>
+<c.colorE5E5E5>plus<00:07:28.080><c> 1</c><00:07:28.440><c> that's</c><00:07:29.220><c> when</c><00:07:29.610><c> the</c><00:07:30.480><c> word</c></c><c.colorCCCCCC><00:07:30.690><c> occurs</c></c><c.colorE5E5E5><00:07:31.110><c> just</c></c>
+
+00:07:31.520 --> 00:07:31.530 align:start position:0%
+<c.colorE5E5E5>plus 1 that's when the word</c><c.colorCCCCCC> occurs</c><c.colorE5E5E5> just
+ </c>
+
+00:07:31.530 --> 00:07:36.020 align:start position:0%
+<c.colorE5E5E5>plus 1 that's when the word</c><c.colorCCCCCC> occurs</c><c.colorE5E5E5> just
+once<00:07:31.860><c> in</c><00:07:32.220><c> the</c><00:07:32.370><c> context</c><00:07:33.530><c> so</c><00:07:34.530><c> that's</c><00:07:34.800><c> a</c><00:07:35.040><c> very</c></c>
+
+00:07:36.020 --> 00:07:36.030 align:start position:0%
+once<c.colorE5E5E5> in the context so that's a very
+ </c>
+
+00:07:36.030 --> 00:07:39.530 align:start position:0%
+once<c.colorE5E5E5> in the context so that's a very
+rare<00:07:36.390><c> term</c><00:07:36.830><c> the</c><00:07:37.830><c> rarest</c></c><c.colorCCCCCC><00:07:38.220><c> utam</c></c><c.colorE5E5E5><00:07:38.520><c> in</c><00:07:38.940><c> the</c><00:07:39.180><c> whole</c></c>
+
+00:07:39.530 --> 00:07:39.540 align:start position:0%
+rare<c.colorE5E5E5> term the rarest</c><c.colorCCCCCC> utam</c><c.colorE5E5E5> in the whole
+ </c>
+
+00:07:39.540 --> 00:07:43.160 align:start position:0%
+rare<c.colorE5E5E5> term the rarest</c><c.colorCCCCCC> utam</c><c.colorE5E5E5> in the whole
+collection</c><c.colorCCCCCC><00:07:40.280><c> the</c></c><c.colorE5E5E5><00:07:41.280><c> lowest</c><00:07:42.000><c> value</c><00:07:42.540><c> you</c><00:07:42.750><c> can</c><00:07:42.930><c> see</c></c>
+
+00:07:43.160 --> 00:07:43.170 align:start position:0%
+collection<c.colorCCCCCC> the</c><c.colorE5E5E5> lowest value you can see
+ </c>
+
+00:07:43.170 --> 00:07:47.810 align:start position:0%
+collection<c.colorCCCCCC> the</c><c.colorE5E5E5> lowest value you can see
+here<00:07:43.800><c> is</c><00:07:44.070><c> when</c><00:07:44.990><c> K</c><00:07:45.990><c> reaches</c><00:07:46.650><c> its</c><00:07:46.860><c> maximum</c><00:07:47.310><c> which</c></c>
+
+00:07:47.810 --> 00:07:47.820 align:start position:0%
+here is when K reaches its maximum<c.colorE5E5E5> which
+ </c>
+
+00:07:47.820 --> 00:07:51.590 align:start position:0%
+here is when K reaches its maximum<c.colorE5E5E5> which
+would<00:07:48.030><c> be</c><00:07:48.210><c> M</c><00:07:48.890><c> so</c><00:07:49.890><c> that's</c><00:07:50.340><c> that</c><00:07:50.850><c> that</c><00:07:51.300><c> would</c><00:07:51.480><c> be</c></c>
+
+00:07:51.590 --> 00:07:51.600 align:start position:0%
+would be M<c.colorE5E5E5> so that's that that would be
+ </c>
+
+00:07:51.600 --> 00:07:57.430 align:start position:0%
+would be M<c.colorE5E5E5> so that's that that would be
+a<00:07:51.630><c> very</c><00:07:51.930><c> low</c><00:07:52.260><c> value</c><00:07:54.230><c> close</c><00:07:55.230><c> to</c><00:07:55.440><c> zero</c><00:07:55.680><c> in</c><00:07:55.920><c> fact</c></c>
+
+00:07:57.430 --> 00:07:57.440 align:start position:0%
+a very<c.colorE5E5E5> low value close to zero in fact
+ </c>
+
+00:07:57.440 --> 00:08:02.510 align:start position:0%
+a very<c.colorE5E5E5> low value close to zero in fact
+right<00:07:58.440><c> so</c><00:07:58.740><c> this</c><00:08:00.500><c> this</c><00:08:01.500><c> of</c><00:08:01.680><c> course</c><00:08:01.710><c> measure</c><00:08:02.220><c> is</c></c>
+
+00:08:02.510 --> 00:08:02.520 align:start position:0%
+right so this this of course<c.colorE5E5E5> measure is
+ </c>
+
+00:08:02.520 --> 00:08:05.600 align:start position:0%
+right so this this of course<c.colorE5E5E5> measure is
+used</c><c.colorCCCCCC><00:08:02.940><c> in</c><00:08:03.840><c> search</c><00:08:04.320><c> where</c><00:08:04.770><c> we</c><00:08:04.800><c> naturally</c><00:08:05.400><c> have</c><00:08:05.460><c> a</c></c>
+
+00:08:05.600 --> 00:08:05.610 align:start position:0%
+used<c.colorCCCCCC> in search where we naturally have a
+ </c>
+
+00:08:05.610 --> 00:08:09.110 align:start position:0%
+used<c.colorCCCCCC> in search where we naturally have a</c>
+<c.colorE5E5E5>collection<00:08:06.290><c> in</c><00:08:07.290><c> our</c><00:08:07.590><c> case</c><00:08:07.950><c> what</c><00:08:08.820><c> will</c></c><c.colorCCCCCC><00:08:08.970><c> be</c><00:08:09.090><c> our</c></c>
+
+00:08:09.110 --> 00:08:09.120 align:start position:0%
+<c.colorE5E5E5>collection in our case what will</c><c.colorCCCCCC> be our
+ </c>
+
+00:08:09.120 --> 00:08:12.170 align:start position:0%
+<c.colorE5E5E5>collection in our case what will</c><c.colorCCCCCC> be our
+collection<00:08:09.810><c> well</c><00:08:10.290><c> we</c><00:08:11.160><c> can</c><00:08:11.340><c> also</c><00:08:11.490><c> use</c><00:08:11.850><c> the</c></c>
+
+00:08:12.170 --> 00:08:12.180 align:start position:0%
+collection well we can also use the
+ 
+
+00:08:12.180 --> 00:08:14.210 align:start position:0%
+collection well we can also use the
+contacts<00:08:12.780><c> that</c><c.colorE5E5E5><00:08:12.930><c> we</c><00:08:13.170><c> can</c><00:08:13.320><c> collect</c><00:08:13.620><c> for</c><00:08:13.890><c> all</c><00:08:14.070><c> the</c></c>
+
+00:08:14.210 --> 00:08:14.220 align:start position:0%
+contacts that<c.colorE5E5E5> we can collect for all the
+ </c>
+
+00:08:14.220 --> 00:08:17.780 align:start position:0%
+contacts that<c.colorE5E5E5> we can collect for all the
+words<00:08:14.460><c> as</c><00:08:14.790><c> our</c></c><c.colorCCCCCC><00:08:15.540><c> connection</c></c><c.colorE5E5E5><00:08:16.080><c> and</c><00:08:16.260><c> that</c></c><c.colorCCCCCC><00:08:16.430><c> is</c><00:08:17.430><c> to</c></c>
+
+00:08:17.780 --> 00:08:17.790 align:start position:0%
+words<c.colorE5E5E5> as our</c><c.colorCCCCCC> connection</c><c.colorE5E5E5> and that</c><c.colorCCCCCC> is to
+ </c>
+
+00:08:17.790 --> 00:08:20.420 align:start position:0%
+words<c.colorE5E5E5> as our</c><c.colorCCCCCC> connection</c><c.colorE5E5E5> and that</c><c.colorCCCCCC> is to
+say<00:08:18.030><c> a</c><00:08:18.330><c> word</c><00:08:18.960><c> that's</c></c><c.colorE5E5E5><00:08:19.710><c> popular</c><00:08:20.190><c> in</c><00:08:20.340><c> the</c></c>
+
+00:08:20.420 --> 00:08:20.430 align:start position:0%
+say a word that's<c.colorE5E5E5> popular in the
+ </c>
+
+00:08:20.430 --> 00:08:24.080 align:start position:0%
+say a word that's<c.colorE5E5E5> popular in the
+collection<00:08:20.850><c> in</c></c><c.colorCCCCCC><00:08:20.970><c> general</c><00:08:21.920><c> would</c><00:08:22.920><c> also</c><00:08:23.130><c> have</c><00:08:23.700><c> a</c></c>
+
+00:08:24.080 --> 00:08:24.090 align:start position:0%
+collection in<c.colorCCCCCC> general would also have a
+ </c>
+
+00:08:24.090 --> 00:08:28.940 align:start position:0%
+collection in<c.colorCCCCCC> general would also have a
+low<00:08:24.510><c> IDF</c><00:08:25.370><c> because</c><00:08:26.870><c> depending</c></c><c.colorE5E5E5><00:08:27.870><c> on</c><00:08:28.170><c> the</c></c><c.colorCCCCCC><00:08:28.230><c> data</c></c>
+
+00:08:28.940 --> 00:08:28.950 align:start position:0%
+low IDF because depending<c.colorE5E5E5> on the</c><c.colorCCCCCC> data
+ </c>
+
+00:08:28.950 --> 00:08:33.200 align:start position:0%
+low IDF because depending<c.colorE5E5E5> on the</c><c.colorCCCCCC> data
+set<00:08:29.280><c> we</c></c><c.colorE5E5E5><00:08:29.460><c> can</c><00:08:31.340><c> construct</c><00:08:32.340><c> the</c><00:08:32.669><c> contacts</c></c>
+
+00:08:33.200 --> 00:08:33.210 align:start position:0%
+set we<c.colorE5E5E5> can construct the contacts
+ </c>
+
+00:08:33.210 --> 00:08:36.080 align:start position:0%
+set we<c.colorE5E5E5> can construct the contacts
+vectors<00:08:33.720><c> in</c><00:08:33.930><c> different</c><00:08:34.410><c> ways</c><00:08:34.620><c> but</c><00:08:35.520><c> in</c><00:08:35.790><c> the</c><00:08:35.910><c> end</c></c>
+
+00:08:36.080 --> 00:08:36.090 align:start position:0%
+vectors<c.colorE5E5E5> in different ways but in the end
+ </c>
+
+00:08:36.090 --> 00:08:38.930 align:start position:0%
+vectors<c.colorE5E5E5> in different ways but in the end
+if<00:08:36.810><c> a</c><00:08:37.080><c> term</c><00:08:37.349><c> is</c><00:08:37.680><c> very</c><00:08:37.950><c> frequently</c><00:08:38.700><c> in</c><00:08:38.790><c> the</c></c>
+
+00:08:38.930 --> 00:08:38.940 align:start position:0%
+if a term is very<c.colorE5E5E5> frequently in the
+ </c>
+
+00:08:38.940 --> 00:08:42.219 align:start position:0%
+if a term is very<c.colorE5E5E5> frequently in the
+original</c><c.colorCCCCCC><00:08:39.510><c> dataset</c><00:08:40.500><c> then</c></c><c.colorE5E5E5><00:08:41.340><c> it</c><00:08:41.520><c> was</c></c><c.colorCCCCCC><00:08:41.700><c> DB</c></c>
+
+00:08:42.219 --> 00:08:42.229 align:start position:0%
+original<c.colorCCCCCC> dataset then</c><c.colorE5E5E5> it was</c><c.colorCCCCCC> DB
+ </c>
+
+00:08:42.229 --> 00:08:45.080 align:start position:0%
+original<c.colorCCCCCC> dataset then</c><c.colorE5E5E5> it was</c><c.colorCCCCCC> DB
+frequently<00:08:43.229><c> in</c><00:08:43.380><c> the</c><00:08:43.950><c> collective</c><00:08:44.400><c> the</c><00:08:44.520><c> context</c></c>
+
+00:08:45.080 --> 00:08:45.090 align:start position:0%
+frequently in the<c.colorCCCCCC> collective the context
+ </c>
+
+00:08:45.090 --> 00:08:50.390 align:start position:0%
+frequently in the<c.colorCCCCCC> collective the context
+documents<00:08:47.840><c> so</c><00:08:48.840><c> how</c><00:08:48.990><c> can</c><00:08:49.050><c> we</c><00:08:49.290><c> add</c><00:08:49.500><c> these</c></c>
+
+00:08:50.390 --> 00:08:50.400 align:start position:0%
+documents so how can we add these
+ 
+
+00:08:50.400 --> 00:08:54.740 align:start position:0%
+documents so how can we add these
+heuristics<c.colorE5E5E5><00:08:51.390><c> to</c><00:08:51.900><c> improve</c><00:08:52.800><c> our</c></c>
+
+00:08:54.740 --> 00:08:54.750 align:start position:0%
+heuristics<c.colorE5E5E5> to improve our
+ </c>
+
+00:08:54.750 --> 00:08:57.720 align:start position:0%
+heuristics<c.colorE5E5E5> to improve our
+our<00:08:55.750><c> similarity</c><00:08:56.320><c> function</c><00:08:56.650><c> well</c><00:08:57.250><c> here's</c><00:08:57.490><c> one</c></c>
+
+00:08:57.720 --> 00:08:57.730 align:start position:0%
+our similarity function well here's one
+ 
+
+00:08:57.730 --> 00:08:59.940 align:start position:0%
+our similarity function well here's one
+way<c.colorE5E5E5><00:08:57.760><c> and</c><00:08:58.150><c> there</c><00:08:58.300><c> are</c><00:08:58.330><c> many</c><00:08:58.990><c> other</c></c><c.colorCCCCCC><00:08:59.320><c> ways</c><00:08:59.530><c> that</c></c>
+
+00:08:59.940 --> 00:08:59.950 align:start position:0%
+way<c.colorE5E5E5> and there are many other</c><c.colorCCCCCC> ways that
+ </c>
+
+00:08:59.950 --> 00:09:02.280 align:start position:0%
+way<c.colorE5E5E5> and there are many other</c><c.colorCCCCCC> ways that</c>
+<c.colorE5E5E5>are<00:09:00.160><c> possible</c><00:09:00.610><c> but</c><00:09:01.270><c> this</c></c><c.colorCCCCCC><00:09:01.450><c> is</c><00:09:01.510><c> a</c><00:09:01.690><c> reasonable</c></c>
+
+00:09:02.280 --> 00:09:02.290 align:start position:0%
+<c.colorE5E5E5>are possible but this</c><c.colorCCCCCC> is a reasonable
+ </c>
+
+00:09:02.290 --> 00:09:04.560 align:start position:0%
+<c.colorE5E5E5>are possible but this</c><c.colorCCCCCC> is a reasonable</c>
+<c.colorE5E5E5>way<00:09:02.440><c> where</c><00:09:02.800><c> we</c><00:09:02.950><c> can</c><00:09:03.070><c> adapt</c></c><c.colorCCCCCC><00:09:03.400><c> that</c></c><c.colorE5E5E5><00:09:03.520><c> the</c></c><c.colorCCCCCC><00:09:03.760><c> be</c><00:09:03.970><c> m25</c></c>
+
+00:09:04.560 --> 00:09:04.570 align:start position:0%
+<c.colorE5E5E5>way where we can adapt</c><c.colorCCCCCC> that</c><c.colorE5E5E5> the</c><c.colorCCCCCC> be m25
+ </c>
+
+00:09:04.570 --> 00:09:06.990 align:start position:0%
+<c.colorE5E5E5>way where we can adapt</c><c.colorCCCCCC> that</c><c.colorE5E5E5> the</c><c.colorCCCCCC> be m25
+retrieval<00:09:05.230><c> model</c><00:09:05.590><c> for</c><00:09:06.160><c> paradigmatically</c></c>
+
+00:09:06.990 --> 00:09:07.000 align:start position:0%
+retrieval model for paradigmatically
+ 
+
+00:09:07.000 --> 00:09:15.240 align:start position:0%
+retrieval model for paradigmatically
+<c.colorE5E5E5>relation<00:09:07.510><c> mining</c><00:09:09.540><c> so</c><00:09:11.040><c> here</c><00:09:13.200><c> we</c><00:09:14.200><c> define</c><00:09:14.410><c> in</c></c>
+
+00:09:15.240 --> 00:09:15.250 align:start position:0%
+<c.colorE5E5E5>relation mining so here we define in
+ </c>
+
+00:09:15.250 --> 00:09:18.360 align:start position:0%
+<c.colorE5E5E5>relation mining so here we define in
+this<00:09:15.460><c> case</c><00:09:15.700><c> we</c><00:09:16.000><c> define</c><00:09:16.210><c> the</c><00:09:16.990><c> document</c><00:09:17.950><c> vector</c></c>
+
+00:09:18.360 --> 00:09:18.370 align:start position:0%
+this case we define<c.colorE5E5E5> the document vector
+ </c>
+
+00:09:18.370 --> 00:09:23.190 align:start position:0%
+this case we define<c.colorE5E5E5> the document vector
+as<00:09:19.380><c> containing</c><00:09:20.380><c> elements</c><00:09:22.200><c> representing</c></c>
+
+00:09:23.190 --> 00:09:23.200 align:start position:0%
+as containing elements representing
+ 
+
+00:09:23.200 --> 00:09:27.840 align:start position:0%
+as containing elements representing
+normalized<c.colorE5E5E5><00:09:23.950><c> the</c><00:09:24.250><c> PM</c><00:09:24.610><c> 25</c><00:09:25.270><c> values</c><00:09:26.610><c> so</c><00:09:27.610><c> in</c><00:09:27.760><c> this</c></c>
+
+00:09:27.840 --> 00:09:27.850 align:start position:0%
+normalized<c.colorE5E5E5> the PM 25 values so in this
+ </c>
+
+00:09:27.850 --> 00:09:30.600 align:start position:0%
+normalized<c.colorE5E5E5> the PM 25 values so in this
+normalization<00:09:28.300><c> function</c><00:09:29.200><c> we</c><00:09:29.620><c> see</c><00:09:29.890><c> we</c><00:09:30.430><c> take</c></c>
+
+00:09:30.600 --> 00:09:30.610 align:start position:0%
+normalization<c.colorE5E5E5> function we see we take
+ </c>
+
+00:09:30.610 --> 00:09:35.640 align:start position:0%
+normalization<c.colorE5E5E5> function we see we take
+some<00:09:31.030><c> over</c></c><c.colorCCCCCC><00:09:31.620><c> sum</c><00:09:32.620><c> of</c></c><c.colorE5E5E5><00:09:32.800><c> all</c><00:09:33.220><c> the</c><00:09:33.460><c> words</c><00:09:34.180><c> and</c><00:09:34.650><c> and</c></c>
+
+00:09:35.640 --> 00:09:35.650 align:start position:0%
+some over<c.colorCCCCCC> sum of</c><c.colorE5E5E5> all the words and and
+ </c>
+
+00:09:35.650 --> 00:09:41.520 align:start position:0%
+some over<c.colorCCCCCC> sum of</c><c.colorE5E5E5> all the words and and
+we<00:09:37.230><c> normalize</c><00:09:38.230><c> the</c><00:09:39.220><c> weight</c><00:09:39.520><c> of</c><00:09:39.940><c> each</c><00:09:40.600><c> word</c><00:09:40.960><c> by</c></c>
+
+00:09:41.520 --> 00:09:41.530 align:start position:0%
+we normalize the weight of each word by
+ 
+
+00:09:41.530 --> 00:09:46.130 align:start position:0%
+we normalize the weight of each word by
+the<00:09:41.590><c> sum</c><c.colorCCCCCC><00:09:41.980><c> of</c></c><c.colorE5E5E5><00:09:42.190><c> the</c></c><c.colorCCCCCC><00:09:42.730><c> weights</c><00:09:42.940><c> of</c></c><c.colorE5E5E5><00:09:43.210><c> all</c><00:09:43.600><c> the</c><00:09:45.060><c> other</c></c>
+
+00:09:46.130 --> 00:09:46.140 align:start position:0%
+the sum<c.colorCCCCCC> of</c><c.colorE5E5E5> the</c><c.colorCCCCCC> weights of</c><c.colorE5E5E5> all the other
+ </c>
+
+00:09:46.140 --> 00:09:50.820 align:start position:0%
+the sum<c.colorCCCCCC> of</c><c.colorE5E5E5> the</c><c.colorCCCCCC> weights of</c><c.colorE5E5E5> all the other
+words<00:09:47.140><c> and</c><00:09:48.120><c> this</c><00:09:49.120><c> is</c><00:09:49.300><c> to</c><00:09:49.540><c> again</c><00:09:50.110><c> ensure</c><00:09:50.500><c> all</c></c>
+
+00:09:50.820 --> 00:09:50.830 align:start position:0%
+words and this is to again ensure all
+ 
+
+00:09:50.830 --> 00:09:53.310 align:start position:0%
+words and this is to again ensure all
+<c.colorCCCCCC>the<00:09:51.040><c> excise</c><00:09:51.520><c> was</c><00:09:51.940><c> something</c><00:09:52.330><c> 1</c><00:09:52.480><c> in</c><00:09:53.050><c> this</c></c>
+
+00:09:53.310 --> 00:09:53.320 align:start position:0%
+<c.colorCCCCCC>the excise was something 1 in this
+ </c>
+
+00:09:53.320 --> 00:09:56.250 align:start position:0%
+<c.colorCCCCCC>the excise was something 1 in this</c>
+<c.colorE5E5E5>vector<00:09:53.740><c> so</c><00:09:54.340><c> this</c><00:09:54.520><c> would</c><00:09:54.730><c> be</c><00:09:54.910><c> very</c><00:09:55.180><c> similar</c></c><c.colorCCCCCC><00:09:55.510><c> to</c></c>
+
+00:09:56.250 --> 00:09:56.260 align:start position:0%
+<c.colorE5E5E5>vector so this would be very similar</c><c.colorCCCCCC> to
+ </c>
+
+00:09:56.260 --> 00:09:59.220 align:start position:0%
+<c.colorE5E5E5>vector so this would be very similar</c><c.colorCCCCCC> to</c>
+<c.colorE5E5E5>what<00:09:56.650><c> we</c><00:09:56.830><c> had</c><00:09:56.980><c> before</c><00:09:57.010><c> in</c><00:09:57.880><c> that</c><00:09:58.210><c> this</c></c><c.colorCCCCCC><00:09:58.810><c> vector</c></c>
+
+00:09:59.220 --> 00:09:59.230 align:start position:0%
+<c.colorE5E5E5>what we had before in that this</c><c.colorCCCCCC> vector
+ </c>
+
+00:09:59.230 --> 00:10:02.760 align:start position:0%
+<c.colorE5E5E5>what we had before in that this</c><c.colorCCCCCC> vector</c>
+<c.colorE5E5E5>is<00:09:59.380><c> actually</c><00:10:00.450><c> something</c><00:10:01.450><c> similar</c><00:10:01.840><c> to</c><00:10:02.500><c> a</c><00:10:02.530><c> word</c></c>
+
+00:10:02.760 --> 00:10:02.770 align:start position:0%
+<c.colorE5E5E5>is actually something similar to a word
+ </c>
+
+00:10:02.770 --> 00:10:05.520 align:start position:0%
+<c.colorE5E5E5>is actually something similar to a word
+distribution<00:10:03.550><c> all</c><00:10:04.480><c> the</c><00:10:04.810><c> excise</c><00:10:05.200><c> was</c></c>
+
+00:10:05.520 --> 00:10:05.530 align:start position:0%
+distribution<c.colorE5E5E5> all the excise was
+ </c>
+
+00:10:05.530 --> 00:10:10.170 align:start position:0%
+distribution<c.colorE5E5E5> all the excise was
+something</c><c.colorCCCCCC><00:10:05.890><c> 1</c><00:10:06.510><c> now</c><00:10:07.510><c> the</c><00:10:07.570><c> weight</c><00:10:08.260><c> of</c><00:10:09.040><c> BM</c><00:10:09.400><c> 25</c></c><c.colorE5E5E5><00:10:09.880><c> for</c></c>
+
+00:10:10.170 --> 00:10:10.180 align:start position:0%
+something<c.colorCCCCCC> 1 now the weight of BM 25</c><c.colorE5E5E5> for
+ </c>
+
+00:10:10.180 --> 00:10:15.690 align:start position:0%
+something<c.colorCCCCCC> 1 now the weight of BM 25</c><c.colorE5E5E5> for
+each<00:10:10.240><c> word</c><00:10:10.540><c> is</c><00:10:10.810><c> defined</c><00:10:11.400><c> here</c><00:10:12.990><c> and</c><00:10:14.580><c> if</c><00:10:15.580><c> you</c></c>
+
+00:10:15.690 --> 00:10:15.700 align:start position:0%
+<c.colorE5E5E5>each word is defined here and if you
+ </c>
+
+00:10:15.700 --> 00:10:17.460 align:start position:0%
+<c.colorE5E5E5>each word is defined here and if you
+compare<00:10:16.090><c> this</c></c><c.colorCCCCCC><00:10:16.270><c> with</c><00:10:16.540><c> our</c><00:10:16.900><c> old</c><00:10:17.260><c> definition</c></c>
+
+00:10:17.460 --> 00:10:17.470 align:start position:0%
+compare this<c.colorCCCCCC> with our old definition
+ </c>
+
+00:10:17.470 --> 00:10:22.050 align:start position:0%
+compare this<c.colorCCCCCC> with our old definition</c>
+<c.colorCCCCCC>where<00:10:18.430><c> we</c><00:10:18.610><c> just</c><00:10:18.850><c> have</c><00:10:19.180><c> normalized</c></c><c.colorE5E5E5><00:10:20.130><c> count</c><00:10:21.130><c> on</c></c>
+
+00:10:22.050 --> 00:10:22.060 align:start position:0%
+<c.colorCCCCCC>where we just have normalized</c><c.colorE5E5E5> count on
+ </c>
+
+00:10:22.060 --> 00:10:24.120 align:start position:0%
+<c.colorCCCCCC>where we just have normalized</c><c.colorE5E5E5> count on
+this<00:10:22.390><c> one</c><00:10:22.630><c> right</c><00:10:22.900><c> so</c><00:10:23.110><c> we</c><00:10:23.320><c> only</c><00:10:23.530><c> have</c><00:10:23.830><c> this</c><00:10:24.070><c> one</c></c>
+
+00:10:24.120 --> 00:10:24.130 align:start position:0%
+this<c.colorE5E5E5> one right so we only have this one
+ </c>
+
+00:10:24.130 --> 00:10:26.670 align:start position:0%
+this<c.colorE5E5E5> one right so we only have this one</c>
+<c.colorE5E5E5>and<00:10:24.520><c> the</c><00:10:24.970><c> talking</c></c><c.colorCCCCCC><00:10:25.150><c> in</c><00:10:25.390><c> the</c><00:10:25.420><c> lens</c><00:10:25.660><c> or</c><00:10:26.260><c> the</c><00:10:26.350><c> total</c></c>
+
+00:10:26.670 --> 00:10:26.680 align:start position:0%
+<c.colorE5E5E5>and the talking</c><c.colorCCCCCC> in the lens or the total
+ </c>
+
+00:10:26.680 --> 00:10:30.630 align:start position:0%
+<c.colorE5E5E5>and the talking</c><c.colorCCCCCC> in the lens or the total
+count</c><c.colorE5E5E5><00:10:27.070><c> of</c><00:10:27.780><c> words</c><00:10:28.780><c> in</c><00:10:29.140><c> that</c><00:10:29.200><c> context</c><00:10:30.100><c> document</c></c>
+
+00:10:30.630 --> 00:10:30.640 align:start position:0%
+<c.colorCCCCCC>count</c><c.colorE5E5E5> of words in that context document
+ </c>
+
+00:10:30.640 --> 00:10:33.960 align:start position:0%
+<c.colorCCCCCC>count</c><c.colorE5E5E5> of words in that context document
+and<00:10:31.540><c> that's</c><00:10:31.780><c> what</c><00:10:32.350><c> we</c><00:10:32.500><c> had</c><00:10:32.650><c> before</c><00:10:32.860><c> but</c><00:10:33.760><c> now</c></c>
+
+00:10:33.960 --> 00:10:33.970 align:start position:0%
+and that's what we had before but<c.colorE5E5E5> now
+ </c>
+
+00:10:33.970 --> 00:10:36.180 align:start position:0%
+and that's what we had before but<c.colorE5E5E5> now</c>
+<c.colorCCCCCC>with<00:10:34.330><c> the</c><00:10:34.510><c> BM</c><00:10:34.780><c> 25</c></c><c.colorE5E5E5><00:10:35.290><c> transformation</c><00:10:36.040><c> we</c></c>
+
+00:10:36.180 --> 00:10:36.190 align:start position:0%
+<c.colorCCCCCC>with the BM 25</c><c.colorE5E5E5> transformation we
+ </c>
+
+00:10:36.190 --> 00:10:39.480 align:start position:0%
+<c.colorCCCCCC>with the BM 25</c><c.colorE5E5E5> transformation we
+introduced</c><c.colorCCCCCC><00:10:36.640><c> something</c><00:10:37.030><c> else</c><00:10:38.250><c> first</c></c><c.colorE5E5E5><00:10:39.250><c> of</c></c>
+
+00:10:39.480 --> 00:10:39.490 align:start position:0%
+introduced<c.colorCCCCCC> something else first</c><c.colorE5E5E5> of
+ </c>
+
+00:10:39.490 --> 00:10:42.150 align:start position:0%
+introduced<c.colorCCCCCC> something else first</c><c.colorE5E5E5> of
+course<00:10:39.730><c> this</c><00:10:40.060><c> extra</c><00:10:40.900><c> occurrence</c><00:10:41.680><c> of</c><00:10:41.920><c> this</c></c>
+
+00:10:42.150 --> 00:10:42.160 align:start position:0%
+<c.colorE5E5E5>course this extra occurrence of this
+ </c>
+
+00:10:42.160 --> 00:10:44.280 align:start position:0%
+<c.colorE5E5E5>course this extra occurrence of this</c>
+<c.colorE5E5E5>count<00:10:42.520><c> is</c></c><c.colorCCCCCC><00:10:42.760><c> just</c><00:10:43.150><c> to</c><00:10:43.420><c> achieve</c><00:10:43.720><c> the</c><00:10:43.930><c> sub</c><00:10:44.110><c> linear</c></c>
+
+00:10:44.280 --> 00:10:44.290 align:start position:0%
+<c.colorE5E5E5>count is</c><c.colorCCCCCC> just to achieve the sub linear
+ </c>
+
+00:10:44.290 --> 00:10:47.490 align:start position:0%
+<c.colorE5E5E5>count is</c><c.colorCCCCCC> just to achieve the sub linear</c>
+<c.colorCCCCCC>non<00:10:44.620><c> normalization</c><00:10:45.720><c> but</c><00:10:46.720><c> we</c><00:10:46.840><c> also</c><00:10:46.960><c> see</c><00:10:47.260><c> we</c></c>
+
+00:10:47.490 --> 00:10:47.500 align:start position:0%
+<c.colorCCCCCC>non normalization but we also see we
+ </c>
+
+00:10:47.500 --> 00:10:51.180 align:start position:0%
+<c.colorCCCCCC>non normalization but we also see we</c>
+<c.colorE5E5E5>introduced<00:10:47.830><c> the</c><00:10:48.100><c> parameter</c><00:10:48.580><c> K</c><00:10:48.850><c> here</c><00:10:49.390><c> and</c><00:10:50.190><c> this</c></c>
+
+00:10:51.180 --> 00:10:51.190 align:start position:0%
+<c.colorE5E5E5>introduced the parameter K here and this
+ </c>
+
+00:10:51.190 --> 00:10:55.860 align:start position:0%
+<c.colorE5E5E5>introduced the parameter K here and this
+parameter<00:10:51.550><c> is</c><00:10:52.440><c> generally</c><00:10:53.520><c> not</c><00:10:54.520><c> active</c><00:10:54.940><c> number</c></c>
+
+00:10:55.860 --> 00:10:55.870 align:start position:0%
+parameter<c.colorE5E5E5> is generally not active number
+ </c>
+
+00:10:55.870 --> 00:10:59.970 align:start position:0%
+parameter<c.colorE5E5E5> is generally not active number
+although<00:10:56.110><c> 0</c><00:10:56.860><c> is</c><00:10:57.130><c> also</c><00:10:57.400><c> possible</c><00:10:58.770><c> right</c><00:10:59.770><c> this</c></c>
+
+00:10:59.970 --> 00:10:59.980 align:start position:0%
+although<c.colorE5E5E5> 0 is also possible right this
+ </c>
+
+00:10:59.980 --> 00:11:03.270 align:start position:0%
+although<c.colorE5E5E5> 0 is also possible right this
+controls<00:11:00.520><c> the</c><00:11:01.330><c> the</c><00:11:02.170><c> upper</c><00:11:02.440><c> bound</c><00:11:02.650><c> and</c><00:11:02.920><c> the</c></c>
+
+00:11:03.270 --> 00:11:03.280 align:start position:0%
+controls the the upper bound<c.colorE5E5E5> and the
+ </c>
+
+00:11:03.280 --> 00:11:05.640 align:start position:0%
+controls the the upper bound<c.colorE5E5E5> and the
+kinds<00:11:03.610><c> of</c><00:11:03.700><c> kind</c><00:11:04.180><c> of</c></c><c.colorCCCCCC><00:11:04.330><c> voice</c><00:11:04.540><c> controls</c></c>
+
+00:11:05.640 --> 00:11:05.650 align:start position:0%
+kinds of kind of<c.colorCCCCCC> voice controls
+ </c>
+
+00:11:05.650 --> 00:11:06.940 align:start position:0%
+kinds of kind of<c.colorCCCCCC> voice controls
+twat<00:11:06.070><c> explained</c></c><c.colorE5E5E5><00:11:06.430><c> it</c></c><c.colorCCCCCC><00:11:06.670><c> is</c></c>
+
+00:11:06.940 --> 00:11:06.950 align:start position:0%
+<c.colorCCCCCC>twat explained</c><c.colorE5E5E5> it</c><c.colorCCCCCC> is
+ </c>
+
+00:11:06.950 --> 00:11:10.590 align:start position:0%
+<c.colorCCCCCC>twat explained</c><c.colorE5E5E5> it</c><c.colorCCCCCC> is
+relates<00:11:07.250><c> the</c><00:11:08.140><c> the</c><00:11:09.140><c> menial</c><00:11:09.500><c> transformation</c></c>
+
+00:11:10.590 --> 00:11:10.600 align:start position:0%
+relates the the menial transformation
+ 
+
+00:11:10.600 --> 00:11:15.310 align:start position:0%
+relates the the menial transformation
+and<c.colorE5E5E5><00:11:11.600><c> so</c><00:11:12.440><c> this</c><00:11:13.040><c> is</c><00:11:14.030><c> one</c><00:11:14.390><c> parameter</c><00:11:14.630><c> but</c><00:11:14.990><c> we</c><00:11:15.170><c> also</c></c>
+
+00:11:15.310 --> 00:11:15.320 align:start position:0%
+and<c.colorE5E5E5> so this is one parameter but we also
+ </c>
+
+00:11:15.320 --> 00:11:17.410 align:start position:0%
+and<c.colorE5E5E5> so this is one parameter but we also
+see<00:11:15.590><c> there</c><00:11:15.920><c> is</c><00:11:16.040><c> another</c><00:11:16.400><c> parameter</c><00:11:16.700><c> here</c><00:11:17.090><c> P</c></c>
+
+00:11:17.410 --> 00:11:17.420 align:start position:0%
+see there is another parameter<c.colorE5E5E5> here P
+ </c>
+
+00:11:17.420 --> 00:11:20.920 align:start position:0%
+see there is another parameter<c.colorE5E5E5> here P
+and<00:11:17.870><c> this</c><00:11:18.530><c> will</c><00:11:19.010><c> be</c><00:11:19.160><c> within</c></c><c.colorCCCCCC><00:11:19.490><c> zero</c></c><c.colorE5E5E5><00:11:20.030><c> and</c></c><c.colorCCCCCC><00:11:20.300><c> one</c><00:11:20.600><c> and</c></c>
+
+00:11:20.920 --> 00:11:20.930 align:start position:0%
+and this will be within<c.colorCCCCCC> zero</c><c.colorE5E5E5> and</c><c.colorCCCCCC> one and
+ </c>
+
+00:11:20.930 --> 00:11:23.560 align:start position:0%
+and this will be within<c.colorCCCCCC> zero</c><c.colorE5E5E5> and</c><c.colorCCCCCC> one and
+this</c><c.colorE5E5E5><00:11:21.530><c> is</c></c><c.colorCCCCCC><00:11:21.590><c> a</c><00:11:21.710><c> parameter</c><00:11:22.040><c> to</c><00:11:22.400><c> control</c></c><c.colorE5E5E5><00:11:22.610><c> length</c></c>
+
+00:11:23.560 --> 00:11:23.570 align:start position:0%
+this<c.colorE5E5E5> is</c><c.colorCCCCCC> a parameter to control</c><c.colorE5E5E5> length
+ </c>
+
+00:11:23.570 --> 00:11:27.490 align:start position:0%
+this<c.colorE5E5E5> is</c><c.colorCCCCCC> a parameter to control</c><c.colorE5E5E5> length
+normalization<00:11:24.350><c> and</c></c><c.colorCCCCCC><00:11:25.300><c> in</c><00:11:26.300><c> this</c><00:11:26.450><c> case</c><00:11:26.780><c> the</c></c>
+
+00:11:27.490 --> 00:11:27.500 align:start position:0%
+normalization<c.colorE5E5E5> and</c><c.colorCCCCCC> in this case the
+ </c>
+
+00:11:27.500 --> 00:11:30.040 align:start position:0%
+normalization<c.colorE5E5E5> and</c><c.colorCCCCCC> in this case the
+normalization<00:11:28.190><c> formula</c><00:11:28.790><c> has</c><00:11:29.000><c> averaged</c><00:11:29.930><c> to</c></c>
+
+00:11:30.040 --> 00:11:30.050 align:start position:0%
+normalization formula has averaged to
+ 
+
+00:11:30.050 --> 00:11:32.740 align:start position:0%
+normalization formula has averaged to
+document<c.colorE5E5E5><00:11:30.470><c> a</c><00:11:30.500><c> length</c><00:11:30.710><c> here</c><00:11:31.190><c> and</c><00:11:31.570><c> this</c><00:11:32.570><c> is</c></c>
+
+00:11:32.740 --> 00:11:32.750 align:start position:0%
+document<c.colorE5E5E5> a length here and this is
+ </c>
+
+00:11:32.750 --> 00:11:37.300 align:start position:0%
+document<c.colorE5E5E5> a length here and this is
+computed<00:11:33.440><c> by</c><00:11:33.800><c> taking</c></c><c.colorCCCCCC><00:11:34.580><c> the</c><00:11:35.120><c> average</c><00:11:35.270><c> of</c><00:11:36.310><c> the</c></c>
+
+00:11:37.300 --> 00:11:37.310 align:start position:0%
+computed<c.colorE5E5E5> by taking</c><c.colorCCCCCC> the average of the
+ </c>
+
+00:11:37.310 --> 00:11:39.520 align:start position:0%
+computed<c.colorE5E5E5> by taking</c><c.colorCCCCCC> the average of the
+lenses<00:11:37.820><c> of</c><00:11:37.970><c> all</c><00:11:38.300><c> the</c><00:11:38.450><c> documents</c><00:11:38.630><c> in</c></c><c.colorE5E5E5><00:11:39.140><c> the</c></c>
+
+00:11:39.520 --> 00:11:39.530 align:start position:0%
+lenses of all the documents<c.colorCCCCCC> in</c><c.colorE5E5E5> the
+ </c>
+
+00:11:39.530 --> 00:11:41.260 align:start position:0%
+lenses of all the documents<c.colorCCCCCC> in</c><c.colorE5E5E5> the
+connection</c><c.colorCCCCCC><00:11:39.770><c> in</c></c><c.colorE5E5E5><00:11:40.040><c> this</c><00:11:40.190><c> case</c><00:11:40.400><c> all</c><00:11:40.640><c> the</c></c><c.colorCCCCCC><00:11:40.700><c> lenses</c></c>
+
+00:11:41.260 --> 00:11:41.270 align:start position:0%
+connection<c.colorCCCCCC> in</c><c.colorE5E5E5> this case all the</c><c.colorCCCCCC> lenses
+ </c>
+
+00:11:41.270 --> 00:11:43.150 align:start position:0%
+connection<c.colorCCCCCC> in</c><c.colorE5E5E5> this case all the</c><c.colorCCCCCC> lenses
+of<00:11:41.330><c> all</c><00:11:41.810><c> the</c><00:11:41.990><c> contacts</c></c><c.colorE5E5E5><00:11:42.380><c> the</c><00:11:42.500><c> documents</c><00:11:43.010><c> that</c></c>
+
+00:11:43.150 --> 00:11:43.160 align:start position:0%
+<c.colorCCCCCC>of all the contacts</c><c.colorE5E5E5> the documents that
+ </c>
+
+00:11:43.160 --> 00:11:47.680 align:start position:0%
+<c.colorCCCCCC>of all the contacts</c><c.colorE5E5E5> the documents that
+we<00:11:43.820><c> are</c><00:11:43.940><c> considering</c><00:11:45.340><c> so</c><00:11:46.340><c> this</c><00:11:46.970><c> every</c><00:11:47.570><c> two</c></c>
+
+00:11:47.680 --> 00:11:47.690 align:start position:0%
+we are considering so this every two
+ 
+
+00:11:47.690 --> 00:11:49.480 align:start position:0%
+we are considering so this every two
+documents<c.colorE5E5E5><00:11:48.020><c> will</c><00:11:48.380><c> be</c></c><c.colorCCCCCC><00:11:48.410><c> a</c><00:11:48.500><c> constant</c><00:11:48.860><c> or</c><00:11:49.130><c> for</c><00:11:49.280><c> any</c></c>
+
+00:11:49.480 --> 00:11:49.490 align:start position:0%
+documents<c.colorE5E5E5> will be</c><c.colorCCCCCC> a constant or for any
+ </c>
+
+00:11:49.490 --> 00:11:52.390 align:start position:0%
+documents<c.colorE5E5E5> will be</c><c.colorCCCCCC> a constant or for any
+given<00:11:49.760><c> connection</c></c><c.colorE5E5E5><00:11:50.210><c> so</c><00:11:50.750><c> it</c></c><c.colorCCCCCC><00:11:50.930><c> actually</c></c><c.colorE5E5E5><00:11:51.680><c> is</c><00:11:51.890><c> only</c></c>
+
+00:11:52.390 --> 00:11:52.400 align:start position:0%
+given<c.colorCCCCCC> connection</c><c.colorE5E5E5> so it</c><c.colorCCCCCC> actually</c><c.colorE5E5E5> is only
+ </c>
+
+00:11:52.400 --> 00:11:56.770 align:start position:0%
+given<c.colorCCCCCC> connection</c><c.colorE5E5E5> so it</c><c.colorCCCCCC> actually</c><c.colorE5E5E5> is only
+affecting<00:11:53.390><c> the</c><00:11:53.830><c> effect</c><00:11:54.830><c> of</c><00:11:55.160><c> the</c><00:11:55.910><c> parameter</c></c><c.colorCCCCCC><00:11:56.510><c> P</c></c>
+
+00:11:56.770 --> 00:11:56.780 align:start position:0%
+affecting the<c.colorE5E5E5> effect of the parameter</c><c.colorCCCCCC> P
+ </c>
+
+00:11:56.780 --> 00:12:01.960 align:start position:0%
+affecting the<c.colorE5E5E5> effect of the parameter</c><c.colorCCCCCC> P
+here<00:11:57.200><c> and</c><00:11:58.240><c> because</c><00:11:59.240><c> this</c></c><c.colorE5E5E5><00:11:59.510><c> is</c></c><c.colorCCCCCC><00:11:59.570><c> a</c></c><c.colorE5E5E5><00:11:59.720><c> constant</c><00:12:00.970><c> but</c></c>
+
+00:12:01.960 --> 00:12:01.970 align:start position:0%
+here and<c.colorCCCCCC> because this</c><c.colorE5E5E5> is</c><c.colorCCCCCC> a</c><c.colorE5E5E5> constant but
+ </c>
+
+00:12:01.970 --> 00:12:06.580 align:start position:0%
+here and<c.colorCCCCCC> because this</c><c.colorE5E5E5> is</c><c.colorCCCCCC> a</c><c.colorE5E5E5> constant but</c>
+<c.colorE5E5E5>I<00:12:02.180><c> kept</c><00:12:02.570><c> it</c><00:12:02.780><c> here</c></c><c.colorCCCCCC><00:12:03.850><c> because</c><00:12:04.850><c> it's</c><00:12:05.590><c> constant</c></c>
+
+00:12:06.580 --> 00:12:06.590 align:start position:0%
+<c.colorE5E5E5>I kept it here</c><c.colorCCCCCC> because it's constant
+ </c>
+
+00:12:06.590 --> 00:12:10.330 align:start position:0%
+<c.colorE5E5E5>I kept it here</c><c.colorCCCCCC> because it's constant</c>
+<c.colorE5E5E5>that's<00:12:06.980><c> used</c></c><c.colorCCCCCC><00:12:07.670><c> for</c><00:12:08.060><c> in</c><00:12:08.600><c> retrieval</c></c><c.colorE5E5E5><00:12:09.290><c> well</c><00:12:09.590><c> it</c></c>
+
+00:12:10.330 --> 00:12:10.340 align:start position:0%
+<c.colorE5E5E5>that's used</c><c.colorCCCCCC> for in retrieval</c><c.colorE5E5E5> well it
+ </c>
+
+00:12:10.340 --> 00:12:12.610 align:start position:0%
+<c.colorE5E5E5>that's used</c><c.colorCCCCCC> for in retrieval</c><c.colorE5E5E5> well it
+would<00:12:10.520><c> give</c><00:12:11.270><c> us</c><00:12:11.420><c> a</c><00:12:11.620><c> stabilized</c></c>
+
+00:12:12.610 --> 00:12:12.620 align:start position:0%
+would give us a stabilized
+ 
+
+00:12:12.620 --> 00:12:15.190 align:start position:0%
+would give us a stabilized
+<c.colorE5E5E5>interpretation<00:12:13.580><c> of</c><00:12:13.700><c> parameter</c><00:12:14.300><c> B</c><00:12:14.450><c> but</c><00:12:15.170><c> for</c></c>
+
+00:12:15.190 --> 00:12:15.200 align:start position:0%
+<c.colorE5E5E5>interpretation of parameter B but for
+ </c>
+
+00:12:15.200 --> 00:12:17.950 align:start position:0%
+<c.colorE5E5E5>interpretation of parameter B but for</c>
+<c.colorCCCCCC>our<00:12:15.740><c> purpose</c></c><c.colorE5E5E5><00:12:16.280><c> this</c><00:12:16.760><c> will</c><00:12:17.000><c> be</c><00:12:17.120><c> a</c></c><c.colorCCCCCC><00:12:17.150><c> constant</c><00:12:17.660><c> so</c></c>
+
+00:12:17.950 --> 00:12:17.960 align:start position:0%
+<c.colorCCCCCC>our purpose</c><c.colorE5E5E5> this will be a</c><c.colorCCCCCC> constant so
+ </c>
+
+00:12:17.960 --> 00:12:22.930 align:start position:0%
+<c.colorCCCCCC>our purpose</c><c.colorE5E5E5> this will be a</c><c.colorCCCCCC> constant so
+it<00:12:18.140><c> would</c><00:12:18.320><c> only</c></c><c.colorE5E5E5><00:12:18.530><c> be</c><00:12:20.170><c> affecting</c><00:12:21.170><c> the</c><00:12:21.730><c> lens</c></c><c.colorCCCCCC><00:12:22.730><c> from</c></c>
+
+00:12:22.930 --> 00:12:22.940 align:start position:0%
+it would only<c.colorE5E5E5> be affecting the lens</c><c.colorCCCCCC> from
+ </c>
+
+00:12:22.940 --> 00:12:30.550 align:start position:0%
+it would only<c.colorE5E5E5> be affecting the lens</c><c.colorCCCCCC> from
+relation<00:12:25.150><c> together</c><00:12:26.150><c> with</c><00:12:26.480><c> parameter</c><00:12:27.230><c> B</c><00:12:29.560><c> now</c></c>
+
+00:12:30.550 --> 00:12:30.560 align:start position:0%
+<c.colorCCCCCC>relation together with parameter B now
+ </c>
+
+00:12:30.560 --> 00:12:34.180 align:start position:0%
+<c.colorCCCCCC>relation together with parameter B now
+with<00:12:30.860><c> this</c></c><c.colorE5E5E5><00:12:31.210><c> this</c><00:12:32.210><c> definition</c><00:12:32.810><c> then</c><00:12:33.200><c> we</c><00:12:33.500><c> have</c><00:12:33.860><c> a</c></c>
+
+00:12:34.180 --> 00:12:34.190 align:start position:0%
+with this<c.colorE5E5E5> this definition then we have a
+ </c>
+
+00:12:34.190 --> 00:12:37.630 align:start position:0%
+with this<c.colorE5E5E5> this definition then we have a
+new<00:12:34.670><c> way</c><00:12:35.240><c> to</c><00:12:35.270><c> define</c><00:12:35.660><c> our</c><00:12:36.250><c> document</c><00:12:37.250><c> vectors</c></c>
+
+00:12:37.630 --> 00:12:37.640 align:start position:0%
+new way to define<c.colorE5E5E5> our document vectors
+ </c>
+
+00:12:37.640 --> 00:12:40.990 align:start position:0%
+new way to define<c.colorE5E5E5> our document vectors
+and<00:12:37.820><c> we</c><00:12:38.210><c> can</c><00:12:38.420><c> compute</c><00:12:39.290><c> the</c><00:12:39.620><c> vector</c><00:12:39.890><c> e</c><00:12:40.310><c> 2</c><00:12:40.610><c> in</c><00:12:40.910><c> the</c></c>
+
+00:12:40.990 --> 00:12:41.000 align:start position:0%
+and we can compute the vector<c.colorE5E5E5> e 2 in the
+ </c>
+
+00:12:41.000 --> 00:12:43.600 align:start position:0%
+and we can compute the vector<c.colorE5E5E5> e 2 in the
+same<00:12:41.180><c> way</c><00:12:41.390><c> the</c><00:12:42.110><c> difference</c><00:12:42.530><c> is</c><00:12:42.740><c> that</c><00:12:42.770><c> the</c><00:12:43.430><c> high</c></c>
+
+00:12:43.600 --> 00:12:43.610 align:start position:0%
+same<c.colorE5E5E5> way the difference is that the high
+ </c>
+
+00:12:43.610 --> 00:12:45.730 align:start position:0%
+same<c.colorE5E5E5> way the difference is that the high
+frequency<00:12:44.210><c> terms</c><00:12:44.480><c> will</c><00:12:44.780><c> now</c><00:12:44.930><c> have</c><00:12:45.140><c> somewhat</c></c>
+
+00:12:45.730 --> 00:12:45.740 align:start position:0%
+frequency terms will now have somewhat
+ 
+
+00:12:45.740 --> 00:12:48.690 align:start position:0%
+frequency terms will now have somewhat
+lower<c.colorCCCCCC><00:12:46.040><c> weights</c><00:12:46.430><c> and</c><00:12:47.240><c> this</c><00:12:47.390><c> would</c><00:12:47.570><c> help</c></c>
+
+00:12:48.690 --> 00:12:48.700 align:start position:0%
+lower<c.colorCCCCCC> weights and this would help
+ </c>
+
+00:12:48.700 --> 00:12:51.970 align:start position:0%
+lower<c.colorCCCCCC> weights and this would help
+control<00:12:49.700><c> the</c><00:12:49.820><c> influence</c><00:12:50.240><c> of</c><00:12:50.590><c> these</c><00:12:51.590><c> high</c></c>
+
+00:12:51.970 --> 00:12:51.980 align:start position:0%
+control the influence of these high
+ 
+
+00:12:51.980 --> 00:12:55.900 align:start position:0%
+control the influence of these high
+frequency<00:12:52.520><c> terms</c><00:12:53.110><c> now</c><00:12:54.110><c> the</c><c.colorCCCCCC><00:12:54.170><c> IDF</c></c><c.colorE5E5E5><00:12:54.830><c> can</c><00:12:55.310><c> be</c><00:12:55.460><c> added</c></c>
+
+00:12:55.900 --> 00:12:55.910 align:start position:0%
+frequency terms now the<c.colorCCCCCC> IDF</c><c.colorE5E5E5> can be added
+ </c>
+
+00:12:55.910 --> 00:12:58.630 align:start position:0%
+frequency terms now the<c.colorCCCCCC> IDF</c><c.colorE5E5E5> can be added</c>
+<c.colorCCCCCC>here<00:12:56.240><c> in</c><00:12:56.690><c> the</c><00:12:56.960><c> scoring</c></c><c.colorE5E5E5><00:12:57.260><c> function</c><00:12:57.770><c> that</c><00:12:58.370><c> means</c></c>
+
+00:12:58.630 --> 00:12:58.640 align:start position:0%
+<c.colorCCCCCC>here in the scoring</c><c.colorE5E5E5> function that means
+ </c>
+
+00:12:58.640 --> 00:13:00.700 align:start position:0%
+<c.colorCCCCCC>here in the scoring</c><c.colorE5E5E5> function that means
+we'll<00:12:58.850><c> introduce</c><00:12:59.090><c> a</c></c><c.colorCCCCCC><00:12:59.450><c> weight</c><00:12:59.690><c> for</c><00:13:00.200><c> matching</c></c>
+
+00:13:00.700 --> 00:13:00.710 align:start position:0%
+we'll introduce a<c.colorCCCCCC> weight for matching
+ </c>
+
+00:13:00.710 --> 00:13:03.870 align:start position:0%
+we'll introduce a<c.colorCCCCCC> weight for matching
+each<00:13:01.160><c> term</c><00:13:01.550><c> so</c><00:13:02.420><c> you</c></c><c.colorE5E5E5><00:13:02.450><c> may</c><00:13:02.660><c> recall</c><00:13:03.110><c> this</c></c><c.colorCCCCCC><00:13:03.380><c> sum</c></c>
+
+00:13:03.870 --> 00:13:03.880 align:start position:0%
+each<c.colorCCCCCC> term so you</c><c.colorE5E5E5> may recall this</c><c.colorCCCCCC> sum
+ </c>
+
+00:13:03.880 --> 00:13:07.540 align:start position:0%
+each<c.colorCCCCCC> term so you</c><c.colorE5E5E5> may recall this</c><c.colorCCCCCC> sum
+indicates<00:13:05.110><c> all</c><00:13:06.110><c> the</c><00:13:06.410><c> possible</c><00:13:06.950><c> words</c><00:13:07.250><c> that</c></c>
+
+00:13:07.540 --> 00:13:07.550 align:start position:0%
+indicates all the possible words that
+ 
+
+00:13:07.550 --> 00:13:10.570 align:start position:0%
+indicates all the possible words that
+can<c.colorE5E5E5><00:13:07.820><c> be</c><00:13:08.180><c> overlap</c><00:13:08.930><c> between</c><00:13:09.230><c> the</c><00:13:09.620><c> two</c><00:13:09.650><c> contexts</c></c>
+
+00:13:10.570 --> 00:13:10.580 align:start position:0%
+can<c.colorE5E5E5> be overlap between the two contexts
+ </c>
+
+00:13:10.580 --> 00:13:15.520 align:start position:0%
+can<c.colorE5E5E5> be overlap between the two contexts
+and<00:13:11.110><c> the</c><00:13:12.110><c> X</c><00:13:12.380><c> I</c><00:13:12.740><c> and</c><00:13:13.250><c> why</c><00:13:13.970><c> I</c></c><c.colorCCCCCC><00:13:14.000><c> are</c><00:13:14.660><c> probabilities</c></c>
+
+00:13:15.520 --> 00:13:15.530 align:start position:0%
+<c.colorE5E5E5>and the X I and why I</c><c.colorCCCCCC> are probabilities
+ </c>
+
+00:13:15.530 --> 00:13:16.730 align:start position:0%
+<c.colorE5E5E5>and the X I and why I</c><c.colorCCCCCC> are probabilities</c>
+<c.colorCCCCCC>of</c>
+
+00:13:16.730 --> 00:13:16.740 align:start position:0%
+<c.colorCCCCCC>of
+ </c>
+
+00:13:16.740 --> 00:13:20.120 align:start position:0%
+<c.colorCCCCCC>of
+of<00:13:17.390><c> picking</c><00:13:18.390><c> the</c><00:13:18.690><c> word</c><00:13:18.870><c> from</c><00:13:19.260><c> both</c><00:13:19.470><c> contacts</c></c>
+
+00:13:20.120 --> 00:13:20.130 align:start position:0%
+of picking the word from both<c.colorCCCCCC> contacts
+ </c>
+
+00:13:20.130 --> 00:13:22.610 align:start position:0%
+of picking the word from both<c.colorCCCCCC> contacts</c>
+<c.colorE5E5E5>therefore<00:13:20.670><c> it</c><00:13:20.760><c> indicates</c><00:13:21.270><c> how</c><00:13:21.510><c> likely</c><00:13:21.960><c> we'll</c></c>
+
+00:13:22.610 --> 00:13:22.620 align:start position:0%
+<c.colorE5E5E5>therefore it indicates how likely we'll
+ </c>
+
+00:13:22.620 --> 00:13:26.120 align:start position:0%
+<c.colorE5E5E5>therefore it indicates how likely we'll</c>
+<c.colorCCCCCC>see<00:13:22.920><c> a</c><00:13:22.950><c> match</c><00:13:23.279><c> on</c><00:13:23.610><c> this</c><00:13:24.120><c> world</c><00:13:24.420><c> now</c><00:13:25.200><c> IDF</c><00:13:25.800><c> would</c></c>
+
+00:13:26.120 --> 00:13:26.130 align:start position:0%
+<c.colorCCCCCC>see a match on this world now IDF would
+ </c>
+
+00:13:26.130 --> 00:13:28.430 align:start position:0%
+<c.colorCCCCCC>see a match on this world now IDF would
+give<00:13:26.370><c> us</c><00:13:26.520><c> the</c><00:13:26.880><c> importance</c><00:13:27.450><c> of</c><00:13:27.690><c> matching</c></c><c.colorE5E5E5><00:13:28.290><c> this</c></c>
+
+00:13:28.430 --> 00:13:28.440 align:start position:0%
+give us the importance of matching<c.colorE5E5E5> this
+ </c>
+
+00:13:28.440 --> 00:13:31.700 align:start position:0%
+give us the importance of matching<c.colorE5E5E5> this
+world</c><c.colorCCCCCC><00:13:28.740><c> a</c><00:13:29.010><c> common</c><00:13:30.000><c> world</c><00:13:30.180><c> will</c><00:13:30.510><c> be</c><00:13:31.080><c> worth</c><00:13:31.320><c> less</c></c>
+
+00:13:31.700 --> 00:13:31.710 align:start position:0%
+world<c.colorCCCCCC> a common world will be worth less
+ </c>
+
+00:13:31.710 --> 00:13:34.880 align:start position:0%
+world<c.colorCCCCCC> a common world will be worth less
+than<00:13:32.180><c> rare</c><00:13:33.180><c> world</c><00:13:33.570><c> so</c><00:13:33.839><c> we</c><00:13:33.930><c> emphasize</c><00:13:34.110><c> more</c><00:13:34.649><c> on</c></c>
+
+00:13:34.880 --> 00:13:34.890 align:start position:0%
+than<c.colorCCCCCC> rare world so we emphasize more on
+ </c>
+
+00:13:34.890 --> 00:13:37.550 align:start position:0%
+than<c.colorCCCCCC> rare world so we emphasize more on
+matching</c><c.colorE5E5E5><00:13:35.399><c> real</c><00:13:35.760><c> words</c><00:13:36.029><c> now</c><00:13:36.300><c> so</c><00:13:37.140><c> with</c><00:13:37.350><c> this</c></c>
+
+00:13:37.550 --> 00:13:37.560 align:start position:0%
+matching<c.colorE5E5E5> real words now so with this
+ </c>
+
+00:13:37.560 --> 00:13:40.639 align:start position:0%
+matching<c.colorE5E5E5> real words now so with this
+modification</c><c.colorCCCCCC><00:13:38.120><c> then</c><00:13:39.120><c> the</c><00:13:39.300><c> new</c><00:13:39.450><c> function</c><00:13:40.050><c> will</c></c>
+
+00:13:40.639 --> 00:13:40.649 align:start position:0%
+modification<c.colorCCCCCC> then the new function will
+ </c>
+
+00:13:40.649 --> 00:13:43.579 align:start position:0%
+modification<c.colorCCCCCC> then the new function will
+likely<00:13:40.890><c> address</c><00:13:41.700><c> those</c><00:13:41.970><c> two</c></c><c.colorE5E5E5><00:13:42.180><c> problems</c><00:13:42.750><c> now</c></c>
+
+00:13:43.579 --> 00:13:43.589 align:start position:0%
+likely address those two<c.colorE5E5E5> problems now
+ </c>
+
+00:13:43.589 --> 00:13:45.440 align:start position:0%
+likely address those two<c.colorE5E5E5> problems now
+interestingly<00:13:43.950><c> we</c><00:13:44.670><c> can</c><00:13:44.850><c> also</c><00:13:45.000><c> use</c><00:13:45.240><c> this</c></c>
+
+00:13:45.440 --> 00:13:45.450 align:start position:0%
+interestingly we can also use this
+ 
+
+00:13:45.450 --> 00:13:48.470 align:start position:0%
+interestingly we can also use this
+approach<c.colorCCCCCC><00:13:45.950><c> to</c><00:13:46.950><c> discover</c></c><c.colorE5E5E5><00:13:47.520><c> seen</c><00:13:47.910><c> a</c><00:13:47.940><c> grammatical</c></c>
+
+00:13:48.470 --> 00:13:48.480 align:start position:0%
+approach<c.colorCCCCCC> to discover</c><c.colorE5E5E5> seen a grammatical
+ </c>
+
+00:13:48.480 --> 00:13:51.380 align:start position:0%
+approach<c.colorCCCCCC> to discover</c><c.colorE5E5E5> seen a grammatical
+relations<00:13:49.250><c> now</c><00:13:50.250><c> in</c><00:13:50.459><c> general</c><00:13:51.000><c> when</c><00:13:51.240><c> we</c></c>
+
+00:13:51.380 --> 00:13:51.390 align:start position:0%
+relations now in<c.colorE5E5E5> general when we
+ </c>
+
+00:13:51.390 --> 00:13:55.540 align:start position:0%
+relations now in<c.colorE5E5E5> general when we</c>
+<c.colorCCCCCC>represent<00:13:51.990><c> a</c><00:13:52.230><c> term</c><00:13:52.890><c> vector</c><00:13:53.480><c> to</c><00:13:54.480><c> represent</c><00:13:54.660><c> the</c></c>
+
+00:13:55.540 --> 00:13:55.550 align:start position:0%
+<c.colorCCCCCC>represent a term vector to represent the
+ </c>
+
+00:13:55.550 --> 00:13:58.550 align:start position:0%
+<c.colorCCCCCC>represent a term vector to represent the</c>
+<c.colorE5E5E5>sorry<00:13:56.550><c> to</c><00:13:56.760><c> rebrand</c></c><c.colorCCCCCC><00:13:57.240><c> context</c></c><c.colorE5E5E5><00:13:57.959><c> with</c><00:13:58.230><c> the</c><00:13:58.350><c> term</c></c>
+
+00:13:58.550 --> 00:13:58.560 align:start position:0%
+<c.colorE5E5E5>sorry to rebrand</c><c.colorCCCCCC> context</c><c.colorE5E5E5> with the term
+ </c>
+
+00:13:58.560 --> 00:14:02.510 align:start position:0%
+<c.colorE5E5E5>sorry to rebrand</c><c.colorCCCCCC> context</c><c.colorE5E5E5> with the term
+vector<00:13:59.010><c> we</c><00:13:59.850><c> would</c><00:14:00.260><c> likely</c><00:14:01.260><c> see</c><00:14:01.800><c> some</c><00:14:01.830><c> terms</c></c>
+
+00:14:02.510 --> 00:14:02.520 align:start position:0%
+vector we would likely see some terms
+ 
+
+00:14:02.520 --> 00:14:05.329 align:start position:0%
+vector we would likely see some terms
+have<00:14:03.360><c> highways</c><00:14:03.930><c> and</c><00:14:04.170><c> other</c><00:14:04.560><c> terms</c><c.colorE5E5E5><00:14:04.800><c> have</c><00:14:05.070><c> lower</c></c>
+
+00:14:05.329 --> 00:14:05.339 align:start position:0%
+have highways and other terms<c.colorE5E5E5> have lower
+ </c>
+
+00:14:05.339 --> 00:14:08.030 align:start position:0%
+have highways and other terms<c.colorE5E5E5> have lower
+weights<00:14:05.640><c> depending</c></c><c.colorCCCCCC><00:14:06.420><c> on</c><00:14:06.839><c> how</c><00:14:07.020><c> we</c><00:14:07.080><c> assign</c></c>
+
+00:14:08.030 --> 00:14:08.040 align:start position:0%
+weights depending<c.colorCCCCCC> on how we assign
+ </c>
+
+00:14:08.040 --> 00:14:10.370 align:start position:0%
+weights depending<c.colorCCCCCC> on how we assign
+weights<00:14:08.399><c> to</c><00:14:08.550><c> these</c><00:14:08.820><c> terms</c></c><c.colorE5E5E5><00:14:09.149><c> we</c></c><c.colorCCCCCC><00:14:09.750><c> might</c><00:14:10.050><c> be</c><00:14:10.260><c> able</c></c>
+
+00:14:10.370 --> 00:14:10.380 align:start position:0%
+weights to these terms<c.colorE5E5E5> we</c><c.colorCCCCCC> might be able
+ </c>
+
+00:14:10.380 --> 00:14:12.949 align:start position:0%
+weights to these terms<c.colorE5E5E5> we</c><c.colorCCCCCC> might be able</c>
+<c.colorE5E5E5>to<00:14:10.560><c> use</c><00:14:10.770><c> these</c><00:14:11.040><c> weights</c><00:14:11.370><c> to</c><00:14:11.640><c> discover</c><00:14:12.120><c> the</c></c>
+
+00:14:12.949 --> 00:14:12.959 align:start position:0%
+<c.colorE5E5E5>to use these weights to discover the
+ </c>
+
+00:14:12.959 --> 00:14:15.470 align:start position:0%
+<c.colorE5E5E5>to use these weights to discover the
+words<00:14:13.230><c> that</c><00:14:13.649><c> are</c><00:14:13.920><c> strongly</c><00:14:14.580><c> associated</c></c><c.colorCCCCCC><00:14:15.029><c> with</c></c>
+
+00:14:15.470 --> 00:14:15.480 align:start position:0%
+words that<c.colorE5E5E5> are strongly associated</c><c.colorCCCCCC> with
+ </c>
+
+00:14:15.480 --> 00:14:19.130 align:start position:0%
+words that<c.colorE5E5E5> are strongly associated</c><c.colorCCCCCC> with
+the<00:14:15.870><c> candidate</c><00:14:16.320><c> award</c></c><c.colorE5E5E5><00:14:16.709><c> in</c><00:14:17.100><c> the</c><00:14:17.220><c> context</c><00:14:18.140><c> so</c></c>
+
+00:14:19.130 --> 00:14:19.140 align:start position:0%
+the candidate<c.colorCCCCCC> award</c><c.colorE5E5E5> in the context so
+ </c>
+
+00:14:19.140 --> 00:14:21.829 align:start position:0%
+the candidate<c.colorCCCCCC> award</c><c.colorE5E5E5> in the context so
+let's<00:14:19.890><c> take</c><00:14:20.130><c> a</c><00:14:20.160><c> look</c><00:14:20.399><c> at</c><00:14:20.520><c> the</c></c><c.colorCCCCCC><00:14:20.820><c> convector</c><00:14:21.660><c> in</c></c>
+
+00:14:21.829 --> 00:14:21.839 align:start position:0%
+let's take a look at the<c.colorCCCCCC> convector in
+ </c>
+
+00:14:21.839 --> 00:14:29.290 align:start position:0%
+let's take a look at the<c.colorCCCCCC> convector in
+more<00:14:22.110><c> detail</c><00:14:22.560><c> here</c><00:14:22.860><c> and</c><00:14:23.810><c> we</c><00:14:24.810><c> have</c><00:14:25.610><c> each</c><00:14:26.870><c> x</c><00:14:27.870><c> i</c></c>
+
+00:14:29.290 --> 00:14:29.300 align:start position:0%
+more detail here<c.colorCCCCCC> and we have each x i
+ </c>
+
+00:14:29.300 --> 00:14:33.550 align:start position:0%
+more detail here<c.colorCCCCCC> and we have each x i</c>
+<c.colorE5E5E5>defined<00:14:30.300><c> as</c><00:14:30.570><c> the</c><00:14:30.870><c> normal</c><00:14:31.170><c> is</c><00:14:31.320><c> weight</c><00:14:31.560><c> of</c></c><c.colorCCCCCC><00:14:31.800><c> b</c><00:14:32.040><c> m25</c></c>
+
+00:14:33.550 --> 00:14:33.560 align:start position:0%
+<c.colorE5E5E5>defined as the normal is weight of</c><c.colorCCCCCC> b m25
+ </c>
+
+00:14:33.560 --> 00:14:38.269 align:start position:0%
+<c.colorE5E5E5>defined as the normal is weight of</c><c.colorCCCCCC> b m25</c>
+<c.colorE5E5E5>now<00:14:34.560><c> this</c><00:14:35.000><c> weight</c><00:14:36.000><c> alone</c><00:14:36.480><c> only</c><00:14:37.010><c> reflects</c><00:14:38.010><c> how</c></c>
+
+00:14:38.269 --> 00:14:38.279 align:start position:0%
+<c.colorE5E5E5>now this weight alone only reflects how
+ </c>
+
+00:14:38.279 --> 00:14:39.980 align:start position:0%
+<c.colorE5E5E5>now this weight alone only reflects how
+frequently<00:14:38.790><c> the</c><00:14:38.970><c> word</c><00:14:39.180><c> occurs</c><00:14:39.660><c> in</c><00:14:39.870><c> the</c></c>
+
+00:14:39.980 --> 00:14:39.990 align:start position:0%
+frequently the word occurs in the
+ 
+
+00:14:39.990 --> 00:14:43.610 align:start position:0%
+frequently the word occurs in the
+context<00:14:40.730><c> but</c><c.colorE5E5E5><00:14:41.730><c> we</c></c><c.colorCCCCCC><00:14:41.790><c> can't</c></c><c.colorE5E5E5><00:14:42.180><c> just</c><00:14:42.720><c> say</c><00:14:43.050><c> any</c></c>
+
+00:14:43.610 --> 00:14:43.620 align:start position:0%
+context but<c.colorE5E5E5> we</c><c.colorCCCCCC> can't</c><c.colorE5E5E5> just say any
+ </c>
+
+00:14:43.620 --> 00:14:45.199 align:start position:0%
+context but<c.colorE5E5E5> we</c><c.colorCCCCCC> can't</c><c.colorE5E5E5> just say any
+frequent<00:14:44.070><c> term</c><00:14:44.279><c> in</c><00:14:44.520><c> the</c><00:14:44.610><c> context</c></c><c.colorCCCCCC><00:14:44.940><c> that</c></c><c.colorE5E5E5><00:14:45.089><c> will</c></c>
+
+00:14:45.199 --> 00:14:45.209 align:start position:0%
+frequent term in the<c.colorE5E5E5> context</c><c.colorCCCCCC> that</c><c.colorE5E5E5> will
+ </c>
+
+00:14:45.209 --> 00:14:48.550 align:start position:0%
+frequent term in the<c.colorE5E5E5> context</c><c.colorCCCCCC> that</c><c.colorE5E5E5> will
+be<00:14:45.360><c> correlated</c></c><c.colorCCCCCC><00:14:46.110><c> with</c></c><c.colorE5E5E5><00:14:46.500><c> the</c><00:14:46.709><c> candidate</c></c><c.colorCCCCCC><00:14:47.190><c> word</c></c>
+
+00:14:48.550 --> 00:14:48.560 align:start position:0%
+be correlated<c.colorCCCCCC> with</c><c.colorE5E5E5> the candidate</c><c.colorCCCCCC> word
+ </c>
+
+00:14:48.560 --> 00:14:51.769 align:start position:0%
+be correlated<c.colorCCCCCC> with</c><c.colorE5E5E5> the candidate</c><c.colorCCCCCC> word
+because<00:14:49.760><c> many</c><00:14:50.760><c> common</c><00:14:51.150><c> words</c><00:14:51.300><c> like</c><00:14:51.390><c> adder</c></c>
+
+00:14:51.769 --> 00:14:51.779 align:start position:0%
+because many common words like<c.colorCCCCCC> adder
+ </c>
+
+00:14:51.779 --> 00:14:54.460 align:start position:0%
+because many common words like<c.colorCCCCCC> adder
+will<00:14:52.020><c> occur</c><00:14:52.290><c> frequently</c><00:14:52.470><c> in</c><00:14:52.800><c> all</c></c><c.colorE5E5E5><00:14:52.980><c> the</c><00:14:53.160><c> context</c></c>
+
+00:14:54.460 --> 00:14:54.470 align:start position:0%
+will occur frequently<c.colorCCCCCC> in all</c><c.colorE5E5E5> the context
+ </c>
+
+00:14:54.470 --> 00:14:58.880 align:start position:0%
+will occur frequently<c.colorCCCCCC> in all</c><c.colorE5E5E5> the context
+but<00:14:55.470><c> if</c><00:14:55.650><c> we</c><00:14:55.830><c> apply</c><00:14:56.310><c> IDF</c><00:14:57.060><c> weighting</c><00:14:57.540><c> as</c><00:14:57.720><c> you</c><00:14:58.680><c> see</c></c>
+
+00:14:58.880 --> 00:14:58.890 align:start position:0%
+but if we<c.colorE5E5E5> apply IDF weighting as you see
+ </c>
+
+00:14:58.890 --> 00:15:04.819 align:start position:0%
+but if we<c.colorE5E5E5> apply IDF weighting as you see
+here<00:14:59.220><c> we</c></c><c.colorCCCCCC><00:15:00.180><c> can</c><00:15:00.480><c> then</c></c><c.colorE5E5E5><00:15:03.020><c> reweighed</c><00:15:04.050><c> these</c><00:15:04.410><c> terms</c></c>
+
+00:15:04.819 --> 00:15:04.829 align:start position:0%
+here we<c.colorCCCCCC> can then</c><c.colorE5E5E5> reweighed these terms
+ </c>
+
+00:15:04.829 --> 00:15:08.960 align:start position:0%
+here we<c.colorCCCCCC> can then</c><c.colorE5E5E5> reweighed these terms
+based<00:15:05.820><c> on</c><00:15:06.089><c> IDF</c><00:15:06.690><c> that</c><00:15:07.560><c> means</c><00:15:07.800><c> the</c><00:15:08.190><c> words</c><00:15:08.490><c> that</c></c>
+
+00:15:08.960 --> 00:15:08.970 align:start position:0%
+based on IDF<c.colorE5E5E5> that means the words that
+ </c>
+
+00:15:08.970 --> 00:15:11.269 align:start position:0%
+based on IDF<c.colorE5E5E5> that means the words that
+are<00:15:09.000><c> common</c><00:15:09.660><c> like</c><00:15:09.870><c> the</c><00:15:10.170><c> will</c><00:15:10.890><c> get</c><00:15:11.070><c> penalized</c></c>
+
+00:15:11.269 --> 00:15:11.279 align:start position:0%
+are<c.colorE5E5E5> common like the will get penalized
+ </c>
+
+00:15:11.279 --> 00:15:14.630 align:start position:0%
+are<c.colorE5E5E5> common like the will get penalized</c>
+<c.colorCCCCCC>so<00:15:12.180><c> now</c><00:15:12.360><c> the</c></c><c.colorE5E5E5><00:15:12.420><c> highest</c></c><c.colorCCCCCC><00:15:12.959><c> waiter</c></c><c.colorE5E5E5><00:15:13.260><c> terms</c><00:15:13.649><c> will</c></c><c.colorCCCCCC><00:15:14.370><c> not</c></c>
+
+00:15:14.630 --> 00:15:14.640 align:start position:0%
+<c.colorCCCCCC>so now the</c><c.colorE5E5E5> highest</c><c.colorCCCCCC> waiter</c><c.colorE5E5E5> terms will</c><c.colorCCCCCC> not
+ </c>
+
+00:15:14.640 --> 00:15:16.670 align:start position:0%
+<c.colorCCCCCC>so now the</c><c.colorE5E5E5> highest</c><c.colorCCCCCC> waiter</c><c.colorE5E5E5> terms will</c><c.colorCCCCCC> not
+be</c><c.colorE5E5E5><00:15:14.880><c> those</c><00:15:15.120><c> common</c><00:15:15.660><c> terms</c><00:15:15.870><c> because</c><00:15:16.380><c> they</c><00:15:16.560><c> have</c></c>
+
+00:15:16.670 --> 00:15:16.680 align:start position:0%
+be<c.colorE5E5E5> those common terms because they have
+ </c>
+
+00:15:16.680 --> 00:15:21.139 align:start position:0%
+be<c.colorE5E5E5> those common terms because they have
+lower</c><c.colorCCCCCC><00:15:17.130><c> ideas</c><00:15:17.899><c> instead</c><00:15:18.899><c> those</c><00:15:19.350><c> terms</c><00:15:19.940><c> would</c><00:15:20.940><c> be</c></c>
+
+00:15:21.139 --> 00:15:21.149 align:start position:0%
+lower<c.colorCCCCCC> ideas instead those terms would be
+ </c>
+
+00:15:21.149 --> 00:15:23.090 align:start position:0%
+lower<c.colorCCCCCC> ideas instead those terms would be
+the<00:15:21.540><c> terms</c><00:15:21.810><c> that</c><00:15:21.930><c> are</c></c><c.colorE5E5E5><00:15:22.079><c> frequent</c><00:15:22.740><c> in</c><00:15:22.980><c> the</c></c>
+
+00:15:23.090 --> 00:15:23.100 align:start position:0%
+the terms that are<c.colorE5E5E5> frequent in the
+ </c>
+
+00:15:23.100 --> 00:15:25.579 align:start position:0%
+the terms that are<c.colorE5E5E5> frequent in the
+context<00:15:23.640><c> but</c><00:15:24.300><c> not</c><00:15:24.600><c> frequent</c><00:15:25.140><c> in</c><00:15:25.440><c> the</c></c>
+
+00:15:25.579 --> 00:15:25.589 align:start position:0%
+context but not<c.colorE5E5E5> frequent in the
+ </c>
+
+00:15:25.589 --> 00:15:27.650 align:start position:0%
+context but not<c.colorE5E5E5> frequent in the
+collection</c><c.colorCCCCCC><00:15:25.980><c> so</c><00:15:26.160><c> those</c><00:15:26.490><c> are</c><00:15:26.880><c> clearly</c><00:15:27.390><c> the</c></c>
+
+00:15:27.650 --> 00:15:27.660 align:start position:0%
+collection<c.colorCCCCCC> so those are clearly the
+ </c>
+
+00:15:27.660 --> 00:15:28.500 align:start position:0%
+collection<c.colorCCCCCC> so those are clearly the
+words<00:15:27.930><c> that</c></c>
+
+00:15:28.500 --> 00:15:28.510 align:start position:0%
+words that
+ 
+
+00:15:28.510 --> 00:15:31.230 align:start position:0%
+words that
+tend<c.colorE5E5E5><00:15:28.750><c> to</c><00:15:28.930><c> occur</c></c><c.colorCCCCCC><00:15:29.260><c> in</c><00:15:29.590><c> the</c><00:15:29.680><c> context</c><00:15:30.160><c> of</c><00:15:30.370><c> the</c></c>
+
+00:15:31.230 --> 00:15:31.240 align:start position:0%
+tend<c.colorE5E5E5> to occur</c><c.colorCCCCCC> in the context of the
+ </c>
+
+00:15:31.240 --> 00:15:34.620 align:start position:0%
+tend<c.colorE5E5E5> to occur</c><c.colorCCCCCC> in the context of the
+candidate<00:15:31.690><c> world</c></c><c.colorE5E5E5><00:15:32.020><c> for</c><00:15:32.890><c> example</c></c><c.colorCCCCCC><00:15:32.950><c> cat</c></c><c.colorE5E5E5><00:15:33.490><c> so</c><00:15:34.210><c> for</c></c>
+
+00:15:34.620 --> 00:15:34.630 align:start position:0%
+candidate world<c.colorE5E5E5> for example</c><c.colorCCCCCC> cat</c><c.colorE5E5E5> so for
+ </c>
+
+00:15:34.630 --> 00:15:37.200 align:start position:0%
+candidate world<c.colorE5E5E5> for example</c><c.colorCCCCCC> cat</c><c.colorE5E5E5> so for
+this<00:15:34.780><c> reason</c><00:15:35.080><c> the</c><00:15:35.530><c> highly</c><00:15:35.950><c> weighted</c><00:15:36.340><c> terms</c><00:15:36.610><c> in</c></c>
+
+00:15:37.200 --> 00:15:37.210 align:start position:0%
+this reason<c.colorE5E5E5> the highly weighted terms in
+ </c>
+
+00:15:37.210 --> 00:15:41.400 align:start position:0%
+this reason<c.colorE5E5E5> the highly weighted terms in
+this<00:15:37.540><c> idea</c><00:15:38.380><c> of</c><00:15:38.470><c> weighted</c><00:15:38.890><c> vector</c><00:15:39.540><c> can</c><00:15:40.540><c> also</c><00:15:41.020><c> be</c></c>
+
+00:15:41.400 --> 00:15:41.410 align:start position:0%
+this idea of weighted vector can also be
+ 
+
+00:15:41.410 --> 00:15:45.120 align:start position:0%
+this idea of weighted vector can also be
+assumed<00:15:41.920><c> to</c><c.colorE5E5E5><00:15:42.250><c> be</c><00:15:42.720><c> candidates</c><00:15:43.720><c> for</c><00:15:44.130><c> cinematical</c></c>
+
+00:15:45.120 --> 00:15:45.130 align:start position:0%
+assumed to<c.colorE5E5E5> be candidates for cinematical
+ </c>
+
+00:15:45.130 --> 00:15:47.520 align:start position:0%
+assumed to<c.colorE5E5E5> be candidates for cinematical
+relations<00:15:45.580><c> now</c><00:15:46.150><c> of</c><00:15:46.300><c> course</c><00:15:46.510><c> this</c><00:15:46.960><c> is</c><00:15:47.170><c> only</c></c><c.colorCCCCCC><00:15:47.350><c> a</c></c>
+
+00:15:47.520 --> 00:15:47.530 align:start position:0%
+relations<c.colorE5E5E5> now of course this is only</c><c.colorCCCCCC> a
+ </c>
+
+00:15:47.530 --> 00:15:50.220 align:start position:0%
+relations<c.colorE5E5E5> now of course this is only</c><c.colorCCCCCC> a
+byproduct<00:15:47.770><c> of</c><00:15:48.460><c> our</c><00:15:48.910><c> approach</c><00:15:49.810><c> for</c></c>
+
+00:15:50.220 --> 00:15:50.230 align:start position:0%
+byproduct of our<c.colorCCCCCC> approach for
+ </c>
+
+00:15:50.230 --> 00:15:52.740 align:start position:0%
+byproduct of our<c.colorCCCCCC> approach for
+discovering<00:15:51.100><c> para</c></c><c.colorE5E5E5><00:15:51.730><c> dramatical</c><00:15:52.330><c> relations</c></c>
+
+00:15:52.740 --> 00:15:52.750 align:start position:0%
+discovering<c.colorCCCCCC> para</c><c.colorE5E5E5> dramatical relations
+ </c>
+
+00:15:52.750 --> 00:15:55.320 align:start position:0%
+discovering<c.colorCCCCCC> para</c><c.colorE5E5E5> dramatical relations</c>
+<c.colorE5E5E5>and<00:15:53.290><c> in</c><00:15:54.250><c> the</c><00:15:54.370><c> next</c><00:15:54.550><c> lecture</c><00:15:54.820><c> we're</c><00:15:55.150><c> going</c><00:15:55.270><c> to</c></c>
+
+00:15:55.320 --> 00:15:55.330 align:start position:0%
+<c.colorE5E5E5>and in the next lecture we're going to
+ </c>
+
+00:15:55.330 --> 00:15:59.130 align:start position:0%
+<c.colorE5E5E5>and in the next lecture we're going to</c>
+<c.colorCCCCCC>talk<00:15:55.510><c> more</c><00:15:55.780><c> about</c></c><c.colorE5E5E5><00:15:56.580><c> how</c></c><c.colorCCCCCC><00:15:57.580><c> to</c><00:15:57.690><c> discover</c><00:15:58.690><c> cynic</c></c>
+
+00:15:59.130 --> 00:15:59.140 align:start position:0%
+<c.colorCCCCCC>talk more about</c><c.colorE5E5E5> how</c><c.colorCCCCCC> to discover cynic
+ </c>
+
+00:15:59.140 --> 00:16:04.290 align:start position:0%
+<c.colorCCCCCC>talk more about</c><c.colorE5E5E5> how</c><c.colorCCCCCC> to discover cynic
+matica<00:15:59.680><c> relations</c><00:16:02.490><c> but</c><00:16:03.490><c> it</c><00:16:03.640><c> clearly</c><00:16:03.970><c> shows</c></c>
+
+00:16:04.290 --> 00:16:04.300 align:start position:0%
+<c.colorCCCCCC>matica relations but it clearly shows
+ </c>
+
+00:16:04.300 --> 00:16:07.770 align:start position:0%
+<c.colorCCCCCC>matica relations but it clearly shows</c>
+<c.colorCCCCCC>the<00:16:04.600><c> relation</c><00:16:05.080><c> between</c><00:16:05.580><c> discovering</c><00:16:06.600><c> the</c><00:16:07.600><c> two</c></c>
+
+00:16:07.770 --> 00:16:07.780 align:start position:0%
+<c.colorCCCCCC>the relation between discovering the two
+ </c>
+
+00:16:07.780 --> 00:16:10.530 align:start position:0%
+<c.colorCCCCCC>the relation between discovering the two</c>
+<c.colorE5E5E5>relations<00:16:08.370><c> and</c><00:16:09.370><c> indeed</c></c><c.colorCCCCCC><00:16:09.640><c> they</c><00:16:10.090><c> can</c><00:16:10.330><c> be</c></c>
+
+00:16:10.530 --> 00:16:10.540 align:start position:0%
+<c.colorE5E5E5>relations and indeed</c><c.colorCCCCCC> they can be
+ </c>
+
+00:16:10.540 --> 00:16:13.410 align:start position:0%
+<c.colorE5E5E5>relations and indeed</c><c.colorCCCCCC> they can be
+discussed<00:16:11.080><c> discovered</c></c><c.colorE5E5E5><00:16:12.040><c> in</c><00:16:12.580><c> the</c><00:16:12.760><c> joint</c><00:16:13.060><c> manner</c></c>
+
+00:16:13.410 --> 00:16:13.420 align:start position:0%
+discussed discovered<c.colorE5E5E5> in the joint manner
+ </c>
+
+00:16:13.420 --> 00:16:19.200 align:start position:0%
+discussed discovered<c.colorE5E5E5> in the joint manner</c>
+<c.colorE5E5E5>by<00:16:13.900><c> leveraging</c><00:16:14.430><c> such</c><00:16:16.470><c> associations</c><00:16:18.120><c> so</c><00:16:19.120><c> to</c></c>
+
+00:16:19.200 --> 00:16:19.210 align:start position:0%
+<c.colorE5E5E5>by leveraging such associations so to
+ </c>
+
+00:16:19.210 --> 00:16:22.530 align:start position:0%
+<c.colorE5E5E5>by leveraging such associations so to
+summarize<00:16:20.250><c> the</c><00:16:21.250><c> main</c><00:16:21.280><c> idea</c><00:16:21.850><c> for</c><00:16:21.910><c> discovering</c></c>
+
+00:16:22.530 --> 00:16:22.540 align:start position:0%
+summarize the main<c.colorE5E5E5> idea for discovering
+ </c>
+
+00:16:22.540 --> 00:16:26.880 align:start position:0%
+summarize the main<c.colorE5E5E5> idea for discovering</c>
+<c.colorCCCCCC>paramedical<00:16:23.410><c> relations</c></c><c.colorE5E5E5><00:16:23.880><c> is</c><00:16:25.020><c> to</c><00:16:26.020><c> collect</c><00:16:26.500><c> the</c></c>
+
+00:16:26.880 --> 00:16:26.890 align:start position:0%
+<c.colorCCCCCC>paramedical relations</c><c.colorE5E5E5> is to collect the
+ </c>
+
+00:16:26.890 --> 00:16:29.340 align:start position:0%
+<c.colorCCCCCC>paramedical relations</c><c.colorE5E5E5> is to collect the
+context<00:16:27.370><c> of</c><00:16:27.580><c> a</c><00:16:27.700><c> candidate</c></c><c.colorCCCCCC><00:16:28.150><c> world</c><00:16:28.420><c> to</c><00:16:28.930><c> form</c><00:16:29.200><c> a</c></c>
+
+00:16:29.340 --> 00:16:29.350 align:start position:0%
+context of a candidate<c.colorCCCCCC> world to form a
+ </c>
+
+00:16:29.350 --> 00:16:31.290 align:start position:0%
+context of a candidate<c.colorCCCCCC> world to form a
+pseudo<00:16:29.650><c> document</c></c><c.colorE5E5E5><00:16:30.160><c> and</c><00:16:30.460><c> this</c></c><c.colorCCCCCC><00:16:30.820><c> was</c><00:16:30.970><c> typically</c></c>
+
+00:16:31.290 --> 00:16:31.300 align:start position:0%
+pseudo document<c.colorE5E5E5> and this</c><c.colorCCCCCC> was typically
+ </c>
+
+00:16:31.300 --> 00:16:34.230 align:start position:0%
+pseudo document<c.colorE5E5E5> and this</c><c.colorCCCCCC> was typically</c>
+<c.colorE5E5E5>represented<00:16:31.960><c> as</c><00:16:32.050><c> a</c><00:16:32.080><c> bag</c><00:16:32.530><c> of</c><00:16:32.710><c> words</c><00:16:32.980><c> and</c><00:16:33.490><c> then</c></c>
+
+00:16:34.230 --> 00:16:34.240 align:start position:0%
+<c.colorE5E5E5>represented as a bag of words and then
+ </c>
+
+00:16:34.240 --> 00:16:36.000 align:start position:0%
+<c.colorE5E5E5>represented as a bag of words and then
+compute</c><c.colorCCCCCC><00:16:34.780><c> the</c><00:16:34.960><c> similarity</c><00:16:35.230><c> of</c></c><c.colorE5E5E5><00:16:35.650><c> the</c></c>
+
+00:16:36.000 --> 00:16:36.010 align:start position:0%
+compute<c.colorCCCCCC> the similarity of</c><c.colorE5E5E5> the
+ </c>
+
+00:16:36.010 --> 00:16:38.490 align:start position:0%
+compute<c.colorCCCCCC> the similarity of</c><c.colorE5E5E5> the
+corresponding<00:16:36.700><c> contacts</c><00:16:37.150><c> documents</c><00:16:37.810><c> of</c></c><c.colorCCCCCC><00:16:37.930><c> true</c></c>
+
+00:16:38.490 --> 00:16:38.500 align:start position:0%
+corresponding<c.colorE5E5E5> contacts documents of</c><c.colorCCCCCC> true
+ </c>
+
+00:16:38.500 --> 00:16:42.900 align:start position:0%
+corresponding<c.colorE5E5E5> contacts documents of</c><c.colorCCCCCC> true
+candidate<00:16:38.950><c> words</c><00:16:39.280><c> and</c><00:16:40.770><c> then</c><00:16:41.770><c> we</c><00:16:41.980><c> can</c><00:16:42.160><c> take</c><00:16:42.580><c> the</c></c>
+
+00:16:42.900 --> 00:16:42.910 align:start position:0%
+candidate words and then we can take the
+ 
+
+00:16:42.910 --> 00:16:46.890 align:start position:0%
+candidate words and then we can take the
+highly<00:16:43.570><c> similar</c><c.colorE5E5E5><00:16:43.990><c> word</c><00:16:44.830><c> pairs</c><00:16:45.220><c> and</c><00:16:45.690><c> treat</c><00:16:46.690><c> them</c></c>
+
+00:16:46.890 --> 00:16:46.900 align:start position:0%
+highly similar<c.colorE5E5E5> word pairs and treat them
+ </c>
+
+00:16:46.900 --> 00:16:49.880 align:start position:0%
+highly similar<c.colorE5E5E5> word pairs and treat them
+as<00:16:47.130><c> having</c></c><c.colorCCCCCC><00:16:48.130><c> priority</c></c><c.colorE5E5E5><00:16:48.580><c> grammatical</c><00:16:49.210><c> relations</c></c>
+
+00:16:49.880 --> 00:16:49.890 align:start position:0%
+as having<c.colorCCCCCC> priority</c><c.colorE5E5E5> grammatical relations
+ </c>
+
+00:16:49.890 --> 00:16:52.260 align:start position:0%
+as having<c.colorCCCCCC> priority</c><c.colorE5E5E5> grammatical relations
+these<00:16:50.890><c> are</c><00:16:51.130><c> the</c><00:16:51.220><c> words</c><00:16:51.400><c> that</c><00:16:51.550><c> share</c></c><c.colorCCCCCC><00:16:51.880><c> similar</c></c>
+
+00:16:52.260 --> 00:16:52.270 align:start position:0%
+these are the words that share<c.colorCCCCCC> similar
+ </c>
+
+00:16:52.270 --> 00:16:55.140 align:start position:0%
+these are the words that share<c.colorCCCCCC> similar</c>
+<c.colorE5E5E5>contacts</c><c.colorCCCCCC><00:16:53.160><c> there</c><00:16:54.160><c> are</c><00:16:54.280><c> many</c><00:16:54.490><c> different</c></c><c.colorE5E5E5><00:16:54.910><c> ways</c></c>
+
+00:16:55.140 --> 00:16:55.150 align:start position:0%
+<c.colorE5E5E5>contacts</c><c.colorCCCCCC> there are many different</c><c.colorE5E5E5> ways
+ </c>
+
+00:16:55.150 --> 00:16:58.650 align:start position:0%
+<c.colorE5E5E5>contacts</c><c.colorCCCCCC> there are many different</c><c.colorE5E5E5> ways</c>
+<c.colorCCCCCC>to<00:16:55.540><c> implement</c></c><c.colorE5E5E5><00:16:55.840><c> this</c><00:16:56.440><c> general</c></c><c.colorCCCCCC><00:16:57.130><c> idea</c><00:16:57.610><c> and</c><00:16:58.030><c> we</c></c>
+
+00:16:58.650 --> 00:16:58.660 align:start position:0%
+<c.colorCCCCCC>to implement</c><c.colorE5E5E5> this general</c><c.colorCCCCCC> idea and we
+ </c>
+
+00:16:58.660 --> 00:17:00.030 align:start position:0%
+<c.colorCCCCCC>to implement</c><c.colorE5E5E5> this general</c><c.colorCCCCCC> idea and we</c>
+<c.colorE5E5E5>just</c><c.colorCCCCCC><00:16:58.870><c> talked</c><00:16:59.050><c> about</c></c><c.colorE5E5E5><00:16:59.080><c> the</c><00:16:59.440><c> some</c><00:16:59.650><c> of</c><00:16:59.680><c> the</c></c>
+
+00:17:00.030 --> 00:17:00.040 align:start position:0%
+<c.colorE5E5E5>just</c><c.colorCCCCCC> talked about</c><c.colorE5E5E5> the some of the
+ </c>
+
+00:17:00.040 --> 00:17:03.030 align:start position:0%
+<c.colorE5E5E5>just</c><c.colorCCCCCC> talked about</c><c.colorE5E5E5> the some of the
+approaches<00:17:00.700><c> and</c><00:17:01.110><c> more</c><00:17:02.110><c> specifically</c><00:17:02.710><c> we</c></c>
+
+00:17:03.030 --> 00:17:03.040 align:start position:0%
+approaches and more specifically we
+ 
+
+00:17:03.040 --> 00:17:05.900 align:start position:0%
+approaches and more specifically we
+talked<00:17:03.250><c> about</c><c.colorCCCCCC><00:17:03.540><c> using</c><00:17:04.540><c> tax</c><00:17:04.780><c> retrieval</c><00:17:05.380><c> models</c></c>
+
+00:17:05.900 --> 00:17:05.910 align:start position:0%
+talked about<c.colorCCCCCC> using tax retrieval models
+ </c>
+
+00:17:05.910 --> 00:17:09.900 align:start position:0%
+talked about<c.colorCCCCCC> using tax retrieval models
+to<00:17:06.910><c> help</c><00:17:07.390><c> us</c><00:17:07.570><c> design</c><00:17:07.959><c> effective</c><00:17:08.949><c> similarity</c></c>
+
+00:17:09.900 --> 00:17:09.910 align:start position:0%
+to<c.colorCCCCCC> help us design effective similarity
+ </c>
+
+00:17:09.910 --> 00:17:12.990 align:start position:0%
+to<c.colorCCCCCC> help us design effective similarity
+function<00:17:10.270><c> to</c></c><c.colorE5E5E5><00:17:10.690><c> compute</c><00:17:11.339><c> the</c><00:17:12.339><c> parity</c></c>
+
+00:17:12.990 --> 00:17:13.000 align:start position:0%
+function to<c.colorE5E5E5> compute the parity
+ </c>
+
+00:17:13.000 --> 00:17:16.560 align:start position:0%
+function to<c.colorE5E5E5> compute the parity
+chimerical<00:17:13.510><c> relations</c></c>
+
+00:17:16.560 --> 00:17:16.570 align:start position:0%
+ 
+ 
+
+00:17:16.570 --> 00:17:20.310 align:start position:0%
+ 
+more<00:17:17.170><c> specifically</c><00:17:17.770><c> we</c><00:17:18.490><c> have</c><00:17:18.700><c> used</c><00:17:19.210><c> the</c><c.colorE5E5E5><00:17:19.450><c> PM</c><00:17:19.780><c> 25</c></c>
+
+00:17:20.310 --> 00:17:20.320 align:start position:0%
+more specifically we have used the<c.colorE5E5E5> PM 25
+ </c>
+
+00:17:20.320 --> 00:17:25.220 align:start position:0%
+more specifically we have used the<c.colorE5E5E5> PM 25</c>
+<c.colorE5E5E5>an<00:17:20.620><c> idea</c><00:17:21.430><c> of</c><00:17:21.520><c> waiting</c><00:17:21.970><c> to</c><00:17:22.570><c> read</c><00:17:23.190><c> to</c><00:17:24.190><c> discover</c></c>
+
+00:17:25.220 --> 00:17:25.230 align:start position:0%
+<c.colorE5E5E5>an idea of waiting to read to discover
+ </c>
+
+00:17:25.230 --> 00:17:27.710 align:start position:0%
+<c.colorE5E5E5>an idea of waiting to read to discover</c>
+<c.colorE5E5E5>paralegal<00:17:26.230><c> medical</c><00:17:26.560><c> relation</c><00:17:26.950><c> and</c><00:17:27.070><c> these</c></c>
+
+00:17:27.710 --> 00:17:27.720 align:start position:0%
+<c.colorE5E5E5>paralegal medical relation and these
+ </c>
+
+00:17:27.720 --> 00:17:30.600 align:start position:0%
+<c.colorE5E5E5>paralegal medical relation and these
+approaches<00:17:28.720><c> also</c><00:17:29.350><c> represent</c><00:17:30.070><c> the</c><00:17:30.340><c> state</c><00:17:30.580><c> of</c></c>
+
+00:17:30.600 --> 00:17:30.610 align:start position:0%
+approaches also<c.colorE5E5E5> represent the state of
+ </c>
+
+00:17:30.610 --> 00:17:32.990 align:start position:0%
+approaches also<c.colorE5E5E5> represent the state of</c>
+<c.colorCCCCCC>the<00:17:30.880><c> art</c><00:17:31.030><c> in</c><00:17:31.420><c> text</c><00:17:31.900><c> retrieval</c><00:17:32.410><c> techniques</c></c>
+
+00:17:32.990 --> 00:17:33.000 align:start position:0%
+<c.colorCCCCCC>the art in text retrieval techniques
+ </c>
+
+00:17:33.000 --> 00:17:35.610 align:start position:0%
+<c.colorCCCCCC>the art in text retrieval techniques</c>
+<c.colorE5E5E5>finally</c><c.colorCCCCCC><00:17:34.000><c> cynic</c><00:17:34.540><c> medical</c><00:17:34.960><c> Relations</c><00:17:35.350><c> Council</c></c>
+
+00:17:35.610 --> 00:17:35.620 align:start position:0%
+<c.colorE5E5E5>finally</c><c.colorCCCCCC> cynic medical Relations Council
+ </c>
+
+00:17:35.620 --> 00:17:38.640 align:start position:0%
+<c.colorE5E5E5>finally</c><c.colorCCCCCC> cynic medical Relations Council
+be<00:17:36.220><c> discovered</c><00:17:36.850><c> as</c><00:17:37.120><c> a</c><00:17:37.360><c> byproduct</c><00:17:37.900><c> when</c><00:17:38.500><c> we</c></c>
+
+00:17:38.640 --> 00:17:38.650 align:start position:0%
+<c.colorCCCCCC>be discovered as a byproduct when we
+ </c>
+
+00:17:38.650 --> 00:17:49.640 align:start position:0%
+<c.colorCCCCCC>be discovered as a byproduct when we
+discover</c><c.colorE5E5E5><00:17:39.400><c> parody</c><00:17:39.820><c> compatible</c><00:17:40.450><c> relations</c></c>
+
+00:17:49.640 --> 00:17:49.650 align:start position:0%
+ 
+ 
+
+00:17:49.650 --> 00:17:51.710 align:start position:0%
+ 
+you
+
