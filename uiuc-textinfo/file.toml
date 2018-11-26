@@ -1,4 +1,5 @@
 type = "file-corpus"
+store-full-text = true
 list = "uiuc-text-mining-analytics"
 encoding = "utf-8"
 #num-docs = 93

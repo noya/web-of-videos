@@ -77,10 +77,14 @@ def get_related_url(fwd_idx, inv_idx, query, num_results):
     top_docs = bm25.score(inv_idx, query, num_results=num_results)
     results = []
     for num, (d_id, score) in enumerate(top_docs):
-#        content = inv_idx.metadata(d_id).get('description')
-        #print(d_id)
-        print ("{}\t{}..\n".format(fwd_idx.metadata(d_id).get('title'), fwd_idx.metadata(d_id).get('url')))
-        results.append(d_id)
+        d = {
+            'title' : fwd_idx.metadata(d_id).get('title'), 
+            'url': fwd_idx.metadata(d_id).get('url')
+        }
+        print(d)
+        #print ("{}\t{}..\n".format(fwd_idx.metadata(d_id).get('title'), fwd_idx.metadata(d_id).get('url')))
+        results.append(d)
+        
         
     return results
         
@@ -100,14 +104,10 @@ def get_wov(url):
     corpus_config = 'config.toml'
 
     # build indexes 
-    #print(os.getcwd())
     fwd_idx, inv_idx = make_index(corpus_config)
-    #print("load txt")
     txt_fwd_idx, txt_inv_idx = make_index(text_config)
     videoid_to_docid = create_videoid_to_docid(txt_fwd_idx)
-    
 
-    #url = 'https://www.youtube.com/watch?v=0VDDehxzBYU'
     video_id = get_videoid(url)
     doc_id = get_docid(videoid_to_docid, video_id)
     
@@ -126,3 +126,4 @@ def get_test():
 if __name__ == '__main__':  
     url = 'https://www.youtube.com/watch?list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO&t=10&v=A6NEmoeqUnU'
     results = get_wov(url)
+    

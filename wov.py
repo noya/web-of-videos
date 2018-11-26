@@ -31,7 +31,7 @@ def getSimVideos():
              
             results = check_output(["python", "web_of_videos.py", url]) 
             video_matches = results.decode("utf-8")
-            #video_matches = wovpy.get_wov(url)
+#            video_matches = wovpy.get_wov(url)
 #            fwd_idx, inv_idx = wovpy.make_index(corpus_config)
 #            txt_fwd_idx, txt_inv_idx = wovpy.make_index(text_config)
 #            videoid_to_docid = wovpy.create_videoid_to_docid(txt_fwd_idx)
@@ -47,8 +47,39 @@ def getSimVideos():
 #            # find video matches
 #            video_matches = wovpy.get_related_url(fwd_idx, inv_idx, query, num_results=10)
             print("matches", video_matches)
-            return jsonify(result=video_matches)    
-            #return jsonify(result="not hang")
+            video_dl = [
+                    {
+                            'title' : 'title0',
+                            'url' : 'url0'
+                    },
+                                                {
+                            'title' : 'title1',
+                            'url' : 'url1'
+                    },
+                                                                            {
+                            'title' : 'title2',
+                            'url' : 'url2'
+                    },
+                                                                                                        {
+                            'title' : 'title3',
+                            'url' : 'url3'
+                    },
+                                                                                                                                    {
+                            'title' : 'title4',
+                            'url' : 'url5'
+                    },
+                                                                                                                                                                {
+                            'title' : 'title6',
+                            'url' : 'url7'
+                    },
+                                                                                                                                                                                            {
+                            'title' : 'title8',
+                            'url' : 'url9'
+                    },
+
+            ]
+            #return jsonify(result=video_matches)    
+            return jsonify(result=video_dl)
     else:
         print("Getting GET requets")
         return "Getting GET requests\n"

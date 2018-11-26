@@ -403,15 +403,14 @@ if __name__ == '__main__':
         },
         {
                 "dir_name" : "uiuc-text-mining-analytics",
-                #"playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt"
                 "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO"
         },
     
     ]
     
-    get_course_data(playlists[5]['dir_name'], playlists[5]['playlist_name'], skip_download=False)
-    test_metapy_files(playlists[5]['dir_name'], playlists[5]['dir_name'])
-    
+#    get_course_data(playlists[5]['dir_name'], playlists[5]['playlist_name'], skip_download=False)
+#    test_metapy_files(playlists[5]['dir_name'], playlists[5]['dir_name'])
+#    
     # download you tube files 
     for playlist in playlists:
         # download and create coursera data files
@@ -433,5 +432,10 @@ if __name__ == '__main__':
     # test merged file
     test_metapy_files("", "merge")
     
-
-    
+    # read en.vtt and use it to create sub categories
+#    import webvtt
+#
+#    for caption in webvtt.read('captions.vtt'):
+#        print(caption.start)
+#        print(caption.end)
+#        print(caption.text)
