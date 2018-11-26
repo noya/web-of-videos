@@ -403,12 +403,14 @@ if __name__ == '__main__':
         },
         {
                 "dir_name" : "uiuc-text-mining-analytics",
-                "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt"
+                #"playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt"
+                "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO"
         },
     
     ]
     
-    get_course_data('coursera-uiuc-cs410', 'coursera-uiuc-cs410', skip_download=True)
+    get_course_data(playlists[5]['dir_name'], playlists[5]['playlist_name'], skip_download=False)
+    test_metapy_files(playlists[5]['dir_name'], playlists[5]['dir_name'])
     
     # download you tube files 
     for playlist in playlists:
@@ -420,11 +422,13 @@ if __name__ == '__main__':
     # download cs-410
     #coursera-dl --skip-download -u cindy.s.tseng@gmail.com -p <> class_names cs-410 -sl en
     # merge all the course data into one file
-    full_corpus = "dataset-full-corpus.txt"
-    full_metadata = "metadata.dat"
     full_prefix = "merge"
     
     merge_course_data(full_prefix, "data", playlists)
+    os.remove("data/dataset-full-corpus.txt")
+    os.rename("data/merge-full-corpus.txt", "data/dataset-full-corpus.txt")
+    os.remove("data/metadata.dat")
+    os.rename("data/merge-metadata.dat", "data/metadata.dat")
     
     # test merged file
     test_metapy_files("", "merge")

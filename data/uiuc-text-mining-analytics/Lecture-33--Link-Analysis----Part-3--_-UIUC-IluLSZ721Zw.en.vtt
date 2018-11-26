@@ -1,0 +1,998 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:05.180 --> 00:00:09.759 align:start position:0%
+ 
+so<00:00:06.180><c> we</c><00:00:06.899><c> talked</c><c.colorE5E5E5><00:00:07.170><c> about</c><00:00:07.290><c> PageRank</c><00:00:08.250><c> as</c><00:00:08.519><c> a</c><00:00:08.580><c> way</c><00:00:08.910><c> to</c></c>
+
+00:00:09.759 --> 00:00:09.769 align:start position:0%
+so we talked<c.colorE5E5E5> about PageRank as a way to
+ </c>
+
+00:00:09.769 --> 00:00:14.959 align:start position:0%
+so we talked<c.colorE5E5E5> about PageRank as a way to
+to<00:00:11.330><c> capture</c><00:00:12.330><c> the</c><00:00:12.630><c> authorities</c><00:00:13.230><c> now</c><00:00:14.190><c> we</c><00:00:14.849><c> also</c></c>
+
+00:00:14.959 --> 00:00:14.969 align:start position:0%
+to capture<c.colorE5E5E5> the authorities now we also
+ </c>
+
+00:00:14.969 --> 00:00:18.470 align:start position:0%
+to capture<c.colorE5E5E5> the authorities now we also
+looked<00:00:15.240><c> at</c><00:00:15.389><c> the</c><00:00:15.890><c> some</c><00:00:16.890><c> other</c><00:00:17.580><c> examples</c><00:00:18.270><c> where</c></c>
+
+00:00:18.470 --> 00:00:18.480 align:start position:0%
+looked<c.colorE5E5E5> at the some other examples where
+ </c>
+
+00:00:18.480 --> 00:00:22.340 align:start position:0%
+looked<c.colorE5E5E5> at the some other examples where
+a<00:00:18.779><c> hub</c><00:00:19.350><c> might</c><00:00:19.770><c> be</c><00:00:20.010><c> interesting</c><00:00:20.520><c> so</c><00:00:21.359><c> there</c><00:00:22.230><c> is</c></c>
+
+00:00:22.340 --> 00:00:22.350 align:start position:0%
+a hub might be interesting<c.colorE5E5E5> so there is
+ </c>
+
+00:00:22.350 --> 00:00:24.500 align:start position:0%
+a hub might be interesting<c.colorE5E5E5> so there is</c>
+<c.colorE5E5E5>another<00:00:22.650><c> algorithm</c><00:00:23.100><c> called</c><00:00:23.310><c> hits</c><00:00:23.609><c> and</c><00:00:23.880><c> that's</c></c>
+
+00:00:24.500 --> 00:00:24.510 align:start position:0%
+<c.colorE5E5E5>another algorithm called hits and that's
+ </c>
+
+00:00:24.510 --> 00:00:26.240 align:start position:0%
+<c.colorE5E5E5>another algorithm called hits and that's
+going<00:00:24.810><c> to</c><00:00:24.900><c> compute</c><00:00:25.650><c> the</c><00:00:25.710><c> scores</c><00:00:25.980><c> for</c></c>
+
+00:00:26.240 --> 00:00:26.250 align:start position:0%
+<c.colorE5E5E5>going to compute the scores for
+ </c>
+
+00:00:26.250 --> 00:00:28.880 align:start position:0%
+<c.colorE5E5E5>going to compute the scores for
+authorities<00:00:26.820><c> and</c><00:00:27.060><c> hubs</c></c><c.colorCCCCCC><00:00:27.420><c> the</c><00:00:28.109><c> intuitions</c><00:00:28.680><c> are</c></c>
+
+00:00:28.880 --> 00:00:28.890 align:start position:0%
+authorities and hubs<c.colorCCCCCC> the intuitions are
+ </c>
+
+00:00:28.890 --> 00:00:31.939 align:start position:0%
+authorities and hubs<c.colorCCCCCC> the intuitions are
+pages<00:00:29.880><c> that</c><00:00:30.150><c> are</c><00:00:30.300><c> widely</c><00:00:30.539><c> cite</c></c><c.colorE5E5E5><00:00:30.929><c> are</c><00:00:31.199><c> good</c></c>
+
+00:00:31.939 --> 00:00:31.949 align:start position:0%
+pages<c.colorCCCCCC> that are widely cite</c><c.colorE5E5E5> are good
+ </c>
+
+00:00:31.949 --> 00:00:34.370 align:start position:0%
+pages<c.colorCCCCCC> that are widely cite</c><c.colorE5E5E5> are good
+holidays<00:00:32.610><c> and</c><00:00:32.940><c> whereas</c><00:00:33.390><c> pages</c><00:00:33.930><c> that</c><00:00:34.079><c> decide</c></c>
+
+00:00:34.370 --> 00:00:34.380 align:start position:0%
+holidays and whereas pages that<c.colorE5E5E5> decide
+ </c>
+
+00:00:34.380 --> 00:00:37.040 align:start position:0%
+holidays and whereas pages that<c.colorE5E5E5> decide
+many<00:00:34.680><c> other</c><00:00:34.860><c> pages</c><00:00:35.160><c> are</c><00:00:35.460><c> good</c><00:00:35.760><c> hops</c><00:00:35.969><c> right</c><00:00:36.239><c> but</c></c>
+
+00:00:37.040 --> 00:00:37.050 align:start position:0%
+many other pages are good hops<c.colorE5E5E5> right but
+ </c>
+
+00:00:37.050 --> 00:00:41.389 align:start position:0%
+many other pages are good hops<c.colorE5E5E5> right but
+I<00:00:37.770><c> think</c><00:00:38.460><c> the</c><00:00:39.500><c> most</c><00:00:40.500><c> interesting</c><00:00:40.739><c> idea</c><00:00:41.250><c> of</c></c>
+
+00:00:41.389 --> 00:00:41.399 align:start position:0%
+I think<c.colorE5E5E5> the most interesting idea of
+ </c>
+
+00:00:41.399 --> 00:00:44.180 align:start position:0%
+I think<c.colorE5E5E5> the most interesting idea of
+this<00:00:41.550><c> algorithm</c><00:00:41.910><c> hits</c><00:00:42.329><c> is</c><00:00:42.649><c> it's</c><00:00:43.649><c> going</c><00:00:43.860><c> to</c><00:00:43.920><c> use</c></c>
+
+00:00:44.180 --> 00:00:44.190 align:start position:0%
+this algorithm hits is it's<c.colorE5E5E5> going to use
+ </c>
+
+00:00:44.190 --> 00:00:47.450 align:start position:0%
+this algorithm hits is it's<c.colorE5E5E5> going to use
+a<00:00:45.050><c> reinforcement</c><00:00:46.050><c> mechanism</c><00:00:46.200><c> to</c><00:00:46.980><c> kind</c><00:00:47.280><c> of</c></c>
+
+00:00:47.450 --> 00:00:47.460 align:start position:0%
+a<c.colorE5E5E5> reinforcement mechanism to kind of
+ </c>
+
+00:00:47.460 --> 00:00:49.670 align:start position:0%
+a<c.colorE5E5E5> reinforcement mechanism to kind of
+help<00:00:47.879><c> her</c><00:00:48.059><c> improve</c><00:00:48.239><c> the</c><00:00:48.750><c> scoring</c><00:00:49.230><c> for</c><00:00:49.260><c> hubs</c></c>
+
+00:00:49.670 --> 00:00:49.680 align:start position:0%
+help her improve the scoring for hubs
+ 
+
+00:00:49.680 --> 00:00:53.150 align:start position:0%
+help her improve the scoring for hubs
+and<00:00:49.920><c> authorities</c><00:00:50.070><c> and</c><00:00:51.649><c> him</c><00:00:52.649><c> so</c><00:00:52.800><c> here's</c><00:00:53.010><c> the</c>
+
+00:00:53.150 --> 00:00:53.160 align:start position:0%
+and authorities and him so here's the
+ 
+
+00:00:53.160 --> 00:00:53.540 align:start position:0%
+and authorities and him so here's the
+idea
+
+00:00:53.540 --> 00:00:53.550 align:start position:0%
+idea
+ 
+
+00:00:53.550 --> 00:00:56.180 align:start position:0%
+idea
+<c.colorCCCCCC>it<00:00:54.270><c> would</c><00:00:54.449><c> assume</c><00:00:54.690><c> that</c><00:00:54.750><c> good</c><00:00:55.260><c> authorities</c><00:00:55.949><c> on</c></c>
+
+00:00:56.180 --> 00:00:56.190 align:start position:0%
+<c.colorCCCCCC>it would assume that good authorities on
+ </c>
+
+00:00:56.190 --> 00:01:00.470 align:start position:0%
+<c.colorCCCCCC>it would assume that good authorities on
+site<00:00:56.699><c> by</c></c><c.colorE5E5E5><00:00:57.090><c> good</c><00:00:57.329><c> hubs</c><00:00:57.770><c> that</c><00:00:58.770><c> means</c><00:00:59.270><c> if</c><00:01:00.270><c> you</c></c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+site by<c.colorE5E5E5> good hubs that means if you
+ </c>
+
+00:01:00.480 --> 00:01:03.470 align:start position:0%
+site by<c.colorE5E5E5> good hubs that means if you
+excited<00:01:00.989><c> by</c><00:01:01.140><c> many</c><00:01:01.440><c> pages</c><00:01:02.309><c> with</c><00:01:02.969><c> good</c><00:01:03.210><c> hops</c></c>
+
+00:01:03.470 --> 00:01:03.480 align:start position:0%
+excited by many pages with good hops
+ 
+
+00:01:03.480 --> 00:01:05.630 align:start position:0%
+excited by many pages with good hops
+<c.colorE5E5E5>course<00:01:03.809><c> then</c><00:01:04.379><c> that</c></c><c.colorCCCCCC><00:01:04.949><c> increases</c><00:01:05.610><c> your</c></c>
+
+00:01:05.630 --> 00:01:05.640 align:start position:0%
+<c.colorE5E5E5>course then that</c><c.colorCCCCCC> increases your
+ </c>
+
+00:01:05.640 --> 00:01:08.960 align:start position:0%
+<c.colorE5E5E5>course then that</c><c.colorCCCCCC> increases your
+authority</c><c.colorE5E5E5><00:01:06.450><c> score</c><00:01:06.990><c> and</c><00:01:07.229><c> similarly</c></c><c.colorCCCCCC><00:01:07.979><c> could</c><00:01:08.729><c> hubs</c></c>
+
+00:01:08.960 --> 00:01:08.970 align:start position:0%
+authority<c.colorE5E5E5> score and similarly</c><c.colorCCCCCC> could hubs
+ </c>
+
+00:01:08.970 --> 00:01:10.550 align:start position:0%
+authority<c.colorE5E5E5> score and similarly</c><c.colorCCCCCC> could hubs
+are<00:01:09.330><c> those</c><00:01:09.600><c> that</c></c><c.colorE5E5E5><00:01:09.840><c> pointed</c><00:01:10.229><c> who</c><00:01:10.350><c> could</c></c>
+
+00:01:10.550 --> 00:01:10.560 align:start position:0%
+<c.colorCCCCCC>are those that</c><c.colorE5E5E5> pointed who could
+ </c>
+
+00:01:10.560 --> 00:01:13.460 align:start position:0%
+<c.colorCCCCCC>are those that</c><c.colorE5E5E5> pointed who could</c>
+<c.colorE5E5E5>authorities<00:01:11.189><c> so</c><00:01:11.820><c> if</c><00:01:11.939><c> you</c><00:01:12.090><c> get</c><00:01:12.299><c> you</c><00:01:12.840><c> pointed</c></c><c.colorCCCCCC><00:01:13.380><c> to</c></c>
+
+00:01:13.460 --> 00:01:13.470 align:start position:0%
+<c.colorE5E5E5>authorities so if you get you pointed</c><c.colorCCCCCC> to
+ </c>
+
+00:01:13.470 --> 00:01:15.980 align:start position:0%
+<c.colorE5E5E5>authorities so if you get you pointed</c><c.colorCCCCCC> to
+a<00:01:13.500><c> lot</c></c><c.colorE5E5E5><00:01:13.830><c> of</c><00:01:13.979><c> good</c></c><c.colorCCCCCC><00:01:14.159><c> authority</c></c><c.colorE5E5E5><00:01:14.310><c> pages</c><00:01:15.090><c> then</c><00:01:15.720><c> your</c></c>
+
+00:01:15.980 --> 00:01:15.990 align:start position:0%
+a lot<c.colorE5E5E5> of good</c><c.colorCCCCCC> authority</c><c.colorE5E5E5> pages then your
+ </c>
+
+00:01:15.990 --> 00:01:18.350 align:start position:0%
+a lot<c.colorE5E5E5> of good</c><c.colorCCCCCC> authority</c><c.colorE5E5E5> pages then your
+hub<00:01:16.259><c> score</c><00:01:16.590><c> will</c><00:01:16.770><c> be</c><00:01:16.799><c> increased</c><00:01:17.280><c> so</c><00:01:17.970><c> is</c><00:01:18.090><c> then</c></c>
+
+00:01:18.350 --> 00:01:18.360 align:start position:0%
+hub score will be increased so is then
+ 
+
+00:01:18.360 --> 00:01:20.210 align:start position:0%
+hub score will be increased so is then
+we<00:01:18.630><c> can</c><00:01:18.780><c> iterate</c><c.colorE5E5E5><00:01:18.930><c> to</c><00:01:19.229><c> really</c><00:01:19.470><c> reinforce</c><00:01:19.860><c> each</c></c>
+
+00:01:20.210 --> 00:01:20.220 align:start position:0%
+we can iterate<c.colorE5E5E5> to really reinforce each
+ </c>
+
+00:01:20.220 --> 00:01:22.340 align:start position:0%
+we can iterate<c.colorE5E5E5> to really reinforce each
+other<00:01:20.369><c> because</c><00:01:20.850><c> you</c><00:01:21.299><c> can</c><00:01:21.479><c> point</c></c><c.colorCCCCCC><00:01:21.659><c> to</c><00:01:21.960><c> some</c><00:01:22.170><c> good</c></c>
+
+00:01:22.340 --> 00:01:22.350 align:start position:0%
+other<c.colorE5E5E5> because you can point</c><c.colorCCCCCC> to some good
+ </c>
+
+00:01:22.350 --> 00:01:24.289 align:start position:0%
+other<c.colorE5E5E5> because you can point</c><c.colorCCCCCC> to some good
+hubs<00:01:22.590><c> all</c><00:01:23.009><c> sorry</c></c><c.colorE5E5E5><00:01:23.369><c> you</c><00:01:23.520><c> can</c><00:01:23.700><c> point</c><00:01:23.880><c> to</c><00:01:24.119><c> some</c></c>
+
+00:01:24.289 --> 00:01:24.299 align:start position:0%
+hubs<c.colorCCCCCC> all sorry</c><c.colorE5E5E5> you can point to some
+ </c>
+
+00:01:24.299 --> 00:01:26.570 align:start position:0%
+hubs<c.colorCCCCCC> all sorry</c><c.colorE5E5E5> you can point to some
+good<00:01:24.450><c> authorities</c><00:01:25.080><c> to</c><00:01:25.560><c> get</c><00:01:25.740><c> a</c><00:01:25.770><c> good</c><00:01:26.009><c> hop</c><00:01:26.250><c> score</c></c>
+
+00:01:26.570 --> 00:01:26.580 align:start position:0%
+good<c.colorE5E5E5> authorities to get a good hop score
+ </c>
+
+00:01:26.580 --> 00:01:29.810 align:start position:0%
+good<c.colorE5E5E5> authorities to get a good hop score
+whereas<00:01:27.210><c> those</c></c><c.colorCCCCCC><00:01:27.479><c> authority</c><00:01:28.110><c> scores</c><00:01:28.890><c> would</c><00:01:29.759><c> be</c></c>
+
+00:01:29.810 --> 00:01:29.820 align:start position:0%
+whereas those<c.colorCCCCCC> authority scores would be
+ </c>
+
+00:01:29.820 --> 00:01:32.300 align:start position:0%
+whereas those<c.colorCCCCCC> authority scores would be
+also<00:01:30.119><c> improved</c></c><c.colorE5E5E5><00:01:30.750><c> because</c><00:01:31.380><c> they</c><00:01:31.799><c> are</c></c><c.colorCCCCCC><00:01:31.890><c> pointed</c></c>
+
+00:01:32.300 --> 00:01:32.310 align:start position:0%
+also improved<c.colorE5E5E5> because they are</c><c.colorCCCCCC> pointed
+ </c>
+
+00:01:32.310 --> 00:01:35.840 align:start position:0%
+also improved<c.colorE5E5E5> because they are</c><c.colorCCCCCC> pointed
+to</c><c.colorE5E5E5><00:01:32.579><c> by</c><00:01:33.090><c> a</c><00:01:33.390><c> good</c><00:01:33.630><c> hub</c><00:01:33.840><c> and</c><00:01:34.170><c> this</c><00:01:35.009><c> album</c><00:01:35.280><c> is</c><00:01:35.640><c> also</c></c>
+
+00:01:35.840 --> 00:01:35.850 align:start position:0%
+<c.colorCCCCCC>to</c><c.colorE5E5E5> by a good hub and this album is also
+ </c>
+
+00:01:35.850 --> 00:01:38.480 align:start position:0%
+<c.colorCCCCCC>to</c><c.colorE5E5E5> by a good hub and this album is also
+general<00:01:36.390><c> it</c><00:01:36.570><c> can</c><00:01:36.810><c> have</c><00:01:36.960><c> many</c><00:01:37.320><c> applications</c><00:01:37.530><c> in</c></c>
+
+00:01:38.480 --> 00:01:38.490 align:start position:0%
+general it can have many applications<c.colorE5E5E5> in
+ </c>
+
+00:01:38.490 --> 00:01:41.030 align:start position:0%
+general it can have many applications<c.colorE5E5E5> in
+graph<00:01:38.909><c> and</c><00:01:39.210><c> network</c><00:01:39.630><c> analysis</c><00:01:40.170><c> so</c><00:01:40.770><c> just</c></c>
+
+00:01:41.030 --> 00:01:41.040 align:start position:0%
+graph and network analysis so just
+ 
+
+00:01:41.040 --> 00:01:43.520 align:start position:0%
+graph and network analysis so just
+briefly<c.colorCCCCCC><00:01:41.340><c> here's</c><00:01:41.880><c> how</c><00:01:42.090><c> it</c><00:01:42.210><c> works</c></c><c.colorE5E5E5><00:01:42.479><c> we</c><00:01:43.229><c> first</c><00:01:43.439><c> of</c></c>
+
+00:01:43.520 --> 00:01:43.530 align:start position:0%
+briefly<c.colorCCCCCC> here's how it works</c><c.colorE5E5E5> we first of
+ </c>
+
+00:01:43.530 --> 00:01:45.139 align:start position:0%
+briefly<c.colorCCCCCC> here's how it works</c><c.colorE5E5E5> we first of
+all<00:01:43.590><c> so</c><00:01:43.770><c> construct</c><00:01:44.189><c> the</c><00:01:44.310><c> matrix</c><00:01:44.460><c> but</c><00:01:45.000><c> this</c></c>
+
+00:01:45.139 --> 00:01:45.149 align:start position:0%
+all<c.colorE5E5E5> so construct the matrix but this
+ </c>
+
+00:01:45.149 --> 00:01:46.370 align:start position:0%
+all<c.colorE5E5E5> so construct the matrix but this
+time<00:01:45.420><c> we're</c><00:01:45.720><c> going</c><00:01:45.840><c> to</c></c><c.colorCCCCCC><00:01:45.930><c> construct</c><00:01:46.229><c> the</c></c>
+
+00:01:46.370 --> 00:01:46.380 align:start position:0%
+time we're<c.colorE5E5E5> going to</c><c.colorCCCCCC> construct the
+ </c>
+
+00:01:46.380 --> 00:01:48.530 align:start position:0%
+time we're<c.colorE5E5E5> going to</c><c.colorCCCCCC> construct the
+adjacency<00:01:46.950><c> matrix</c><00:01:47.119><c> we're</c><00:01:48.119><c> not</c><00:01:48.270><c> going</c></c><c.colorE5E5E5><00:01:48.479><c> to</c></c>
+
+00:01:48.530 --> 00:01:48.540 align:start position:0%
+adjacency matrix<c.colorCCCCCC> we're not going</c><c.colorE5E5E5> to
+ </c>
+
+00:01:48.540 --> 00:01:50.420 align:start position:0%
+adjacency matrix<c.colorCCCCCC> we're not going</c><c.colorE5E5E5> to
+normalize<00:01:48.899><c> the</c><00:01:49.140><c> values</c><00:01:49.530><c> so</c><00:01:49.920><c> if</c><00:01:50.130><c> there's</c><00:01:50.369><c> a</c></c>
+
+00:01:50.420 --> 00:01:50.430 align:start position:0%
+normalize<c.colorE5E5E5> the values so if there's a
+ </c>
+
+00:01:50.430 --> 00:01:52.370 align:start position:0%
+normalize<c.colorE5E5E5> the values so if there's a
+link<00:01:50.700><c> there's</c><00:01:51.060><c> a</c></c><c.colorCCCCCC><00:01:51.119><c> Y</c><00:01:51.390><c> if</c><00:01:51.720><c> there's</c><00:01:51.960><c> no</c><00:01:52.170><c> link</c></c>
+
+00:01:52.370 --> 00:01:52.380 align:start position:0%
+link<c.colorE5E5E5> there's a</c><c.colorCCCCCC> Y if there's no link
+ </c>
+
+00:01:52.380 --> 00:01:55.569 align:start position:0%
+link<c.colorE5E5E5> there's a</c><c.colorCCCCCC> Y if there's no link</c>
+<c.colorCCCCCC>that's</c><c.colorE5E5E5><00:01:52.799><c> zero</c><00:01:53.390><c> against</c><00:01:54.390><c> the</c><00:01:54.570><c> same</c><00:01:54.780><c> graph</c><00:01:55.079><c> and</c></c>
+
+00:01:55.569 --> 00:01:55.579 align:start position:0%
+<c.colorCCCCCC>that's</c><c.colorE5E5E5> zero against the same graph and
+ </c>
+
+00:01:55.579 --> 00:01:58.969 align:start position:0%
+<c.colorCCCCCC>that's</c><c.colorE5E5E5> zero against the same graph and
+then<00:01:56.579><c> we're</c><00:01:57.000><c> going</c><00:01:57.119><c> to</c><00:01:57.210><c> define</c><00:01:57.600><c> the</c></c><c.colorCCCCCC><00:01:58.079><c> cup</c><00:01:58.590><c> score</c></c>
+
+00:01:58.969 --> 00:01:58.979 align:start position:0%
+then we're going<c.colorE5E5E5> to define the</c><c.colorCCCCCC> cup score
+ </c>
+
+00:01:58.979 --> 00:02:04.219 align:start position:0%
+then we're going<c.colorE5E5E5> to define the</c><c.colorCCCCCC> cup score
+of</c><c.colorE5E5E5><00:01:59.390><c> page</c><00:02:00.390><c> as</c><00:02:00.799><c> the</c><00:02:01.799><c> sum</c><00:02:02.159><c> of</c><00:02:02.490><c> the</c><00:02:03.299><c> authority</c></c>
+
+00:02:04.219 --> 00:02:04.229 align:start position:0%
+of<c.colorE5E5E5> page as the sum of the authority
+ </c>
+
+00:02:04.229 --> 00:02:06.770 align:start position:0%
+of<c.colorE5E5E5> page as the sum of the authority
+scores<00:02:04.619><c> of</c><00:02:04.890><c> all</c><00:02:05.280><c> the</c><00:02:05.549><c> pages</c><00:02:05.759><c> that</c><00:02:05.969><c> it</c><00:02:06.329><c> points</c></c>
+
+00:02:06.770 --> 00:02:06.780 align:start position:0%
+scores of all<c.colorE5E5E5> the pages that it points
+ </c>
+
+00:02:06.780 --> 00:02:09.740 align:start position:0%
+scores of all<c.colorE5E5E5> the pages that it points
+to<00:02:07.399><c> so</c><00:02:08.399><c> whether</c><00:02:08.729><c> you</c><00:02:08.910><c> are</c><00:02:08.940><c> happy</c><00:02:09.420><c> really</c></c>
+
+00:02:09.740 --> 00:02:09.750 align:start position:0%
+to so whether you are<c.colorE5E5E5> happy really
+ </c>
+
+00:02:09.750 --> 00:02:11.510 align:start position:0%
+to so whether you are<c.colorE5E5E5> happy really
+depends<00:02:10.229><c> on</c><00:02:10.289><c> whether</c><00:02:10.500><c> you're</c><00:02:10.709><c> pointing</c><00:02:11.160><c> to</c><00:02:11.190><c> a</c></c>
+
+00:02:11.510 --> 00:02:11.520 align:start position:0%
+<c.colorE5E5E5>depends on whether you're pointing to a
+ </c>
+
+00:02:11.520 --> 00:02:12.410 align:start position:0%
+<c.colorE5E5E5>depends on whether you're pointing to a
+lot</c>
+
+00:02:12.410 --> 00:02:12.420 align:start position:0%
+lot
+ 
+
+00:02:12.420 --> 00:02:15.110 align:start position:0%
+lot
+good<00:02:12.840><c> authority</c><00:02:13.319><c> pages</c><00:02:14.069><c> that's</c><00:02:14.519><c> what</c><00:02:14.760><c> it</c><00:02:14.909><c> says</c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+good authority pages that's what it says
+ 
+
+00:02:15.120 --> 00:02:17.539 align:start position:0%
+good authority pages that's what it says
+in<c.colorE5E5E5><00:02:15.420><c> the</c><00:02:15.510><c> first</c></c><c.colorCCCCCC><00:02:15.719><c> equation</c><00:02:16.200><c> in</c><00:02:17.099><c> the</c><00:02:17.219><c> second</c></c>
+
+00:02:17.539 --> 00:02:17.549 align:start position:0%
+in<c.colorE5E5E5> the first</c><c.colorCCCCCC> equation in the second
+ </c>
+
+00:02:17.549 --> 00:02:21.349 align:start position:0%
+in<c.colorE5E5E5> the first</c><c.colorCCCCCC> equation in the second
+equation<00:02:18.200><c> we</c><00:02:19.200><c> define</c><00:02:19.620><c> the</c><00:02:19.950><c> authorities</c></c><c.colorE5E5E5><00:02:20.609><c> of</c><00:02:21.209><c> a</c></c>
+
+00:02:21.349 --> 00:02:21.359 align:start position:0%
+equation<c.colorCCCCCC> we define the authorities</c><c.colorE5E5E5> of a
+ </c>
+
+00:02:21.359 --> 00:02:24.559 align:start position:0%
+equation<c.colorCCCCCC> we define the authorities</c><c.colorE5E5E5> of a
+page<00:02:21.599><c> as</c><00:02:21.840><c> the</c><00:02:22.439><c> sum</c><00:02:22.739><c> of</c><00:02:23.010><c> the</c></c><c.colorCCCCCC><00:02:23.700><c> happ's</c><00:02:23.969><c> cause</c><00:02:24.269><c> of</c></c>
+
+00:02:24.559 --> 00:02:24.569 align:start position:0%
+page as the sum of<c.colorE5E5E5> the</c><c.colorCCCCCC> happ's cause of
+ </c>
+
+00:02:24.569 --> 00:02:26.839 align:start position:0%
+page as the sum of<c.colorE5E5E5> the</c><c.colorCCCCCC> happ's cause of
+all<00:02:24.900><c> those</c><00:02:25.140><c> pages</c><00:02:25.439><c> that</c><00:02:25.680><c> are</c><00:02:26.069><c> pointed</c><00:02:26.579><c> to</c><00:02:26.670><c> you</c></c>
+
+00:02:26.839 --> 00:02:26.849 align:start position:0%
+all those pages that<c.colorCCCCCC> are pointed to you
+ </c>
+
+00:02:26.849 --> 00:02:28.759 align:start position:0%
+all those pages that<c.colorCCCCCC> are pointed to you
+so<00:02:27.390><c> whether</c><00:02:27.629><c> you</c><00:02:27.810><c> are</c></c><c.colorE5E5E5><00:02:27.959><c> good</c><00:02:28.109><c> authority</c><00:02:28.290><c> would</c></c>
+
+00:02:28.759 --> 00:02:28.769 align:start position:0%
+so whether you<c.colorCCCCCC> are</c><c.colorE5E5E5> good authority would
+ </c>
+
+00:02:28.769 --> 00:02:31.009 align:start position:0%
+so whether you<c.colorCCCCCC> are</c><c.colorE5E5E5> good authority would
+depend<00:02:29.129><c> on</c><00:02:29.340><c> whether</c><00:02:29.819><c> those</c><00:02:30.120><c> pages</c></c><c.colorCCCCCC><00:02:30.480><c> that</c><00:02:30.840><c> are</c></c>
+
+00:02:31.009 --> 00:02:31.019 align:start position:0%
+depend on whether those pages<c.colorCCCCCC> that are
+ </c>
+
+00:02:31.019 --> 00:02:33.709 align:start position:0%
+depend on whether those pages<c.colorCCCCCC> that are
+pointing<00:02:31.439><c> to</c><00:02:31.530><c> you</c><00:02:31.680><c> are</c><00:02:31.980><c> good</c><00:02:32.219><c> hubs</c></c><c.colorE5E5E5><00:02:32.489><c> so</c><00:02:33.480><c> you</c><00:02:33.569><c> can</c></c>
+
+00:02:33.709 --> 00:02:33.719 align:start position:0%
+pointing to you are good hubs<c.colorE5E5E5> so you can
+ </c>
+
+00:02:33.719 --> 00:02:36.800 align:start position:0%
+pointing to you are good hubs<c.colorE5E5E5> so you can
+see<00:02:33.900><c> this</c><00:02:34.170><c> forms</c><00:02:34.620><c> a</c><00:02:34.680><c> iterative</c></c><c.colorCCCCCC><00:02:35.810><c> reinforcement</c></c>
+
+00:02:36.800 --> 00:02:36.810 align:start position:0%
+see this forms<c.colorE5E5E5> a iterative</c><c.colorCCCCCC> reinforcement
+ </c>
+
+00:02:36.810 --> 00:02:40.429 align:start position:0%
+see this forms<c.colorE5E5E5> a iterative</c><c.colorCCCCCC> reinforcement
+mechanism<00:02:37.819><c> now</c><00:02:38.819><c> these</c><00:02:39.150><c> two</c><00:02:39.569><c> equations</c><00:02:40.049><c> can</c><00:02:40.409><c> be</c></c>
+
+00:02:40.429 --> 00:02:40.439 align:start position:0%
+mechanism now these two<c.colorCCCCCC> equations can be
+ </c>
+
+00:02:40.439 --> 00:02:43.099 align:start position:0%
+mechanism now these two<c.colorCCCCCC> equations can be
+also<00:02:40.889><c> written</c></c><c.colorE5E5E5><00:02:41.250><c> in</c><00:02:41.790><c> the</c><00:02:42.329><c> matrix</c></c><c.colorCCCCCC><00:02:42.689><c> form</c></c>
+
+00:02:43.099 --> 00:02:43.109 align:start position:0%
+also written<c.colorE5E5E5> in the matrix</c><c.colorCCCCCC> form
+ </c>
+
+00:02:43.109 --> 00:02:47.449 align:start position:0%
+also written<c.colorE5E5E5> in the matrix</c><c.colorCCCCCC> form
+format</c><c.colorE5E5E5><00:02:43.760><c> so</c><00:02:44.760><c> what</c><00:02:45.060><c> we</c><00:02:45.209><c> get</c><00:02:45.599><c> here</c><00:02:46.049><c> is</c><00:02:46.409><c> then</c><00:02:47.220><c> the</c></c>
+
+00:02:47.449 --> 00:02:47.459 align:start position:0%
+format<c.colorE5E5E5> so what we get here is then the
+ </c>
+
+00:02:47.459 --> 00:02:51.559 align:start position:0%
+format<c.colorE5E5E5> so what we get here is then the
+hub<00:02:47.700><c> vector</c><00:02:48.269><c> is</c><00:02:48.530><c> equal</c><00:02:49.530><c> to</c><00:02:49.829><c> the</c></c><c.colorCCCCCC><00:02:50.310><c> product</c><00:02:51.299><c> of</c></c>
+
+00:02:51.559 --> 00:02:51.569 align:start position:0%
+hub vector is equal to<c.colorE5E5E5> the</c><c.colorCCCCCC> product of
+ </c>
+
+00:02:51.569 --> 00:02:55.990 align:start position:0%
+hub vector is equal to<c.colorE5E5E5> the</c><c.colorCCCCCC> product of
+the</c><c.colorE5E5E5><00:02:51.959><c> adjacency</c></c><c.colorCCCCCC><00:02:52.889><c> matrix</c><00:02:53.519><c> and</c><00:02:53.790><c> the</c><00:02:54.540><c> authority</c></c>
+
+00:02:55.990 --> 00:02:56.000 align:start position:0%
+the<c.colorE5E5E5> adjacency</c><c.colorCCCCCC> matrix and the authority
+ </c>
+
+00:02:56.000 --> 00:02:58.670 align:start position:0%
+the<c.colorE5E5E5> adjacency</c><c.colorCCCCCC> matrix and the authority
+vector<00:02:57.000><c> and</c><00:02:57.450><c> this</c></c><c.colorE5E5E5><00:02:57.750><c> is</c><00:02:57.900><c> basically</c><00:02:58.200><c> the</c><00:02:58.560><c> first</c></c>
+
+00:02:58.670 --> 00:02:58.680 align:start position:0%
+vector and this<c.colorE5E5E5> is basically the first
+ </c>
+
+00:02:58.680 --> 00:03:01.429 align:start position:0%
+vector and this<c.colorE5E5E5> is basically the first</c>
+<c.colorCCCCCC>equation<00:02:59.219><c> right</c></c><c.colorE5E5E5><00:02:59.430><c> and</c><00:02:59.849><c> similarly</c></c><c.colorCCCCCC><00:03:00.750><c> the</c><00:03:01.079><c> second</c></c>
+
+00:03:01.429 --> 00:03:01.439 align:start position:0%
+<c.colorCCCCCC>equation right</c><c.colorE5E5E5> and similarly</c><c.colorCCCCCC> the second
+ </c>
+
+00:03:01.439 --> 00:03:04.429 align:start position:0%
+<c.colorCCCCCC>equation right</c><c.colorE5E5E5> and similarly</c><c.colorCCCCCC> the second
+equation<00:03:01.500><c> can</c><00:03:02.159><c> be</c><00:03:02.189><c> written</c><00:03:02.549><c> as</c><00:03:02.879><c> the</c><00:03:03.659><c> authority</c></c>
+
+00:03:04.429 --> 00:03:04.439 align:start position:0%
+equation can be written as the authority
+ 
+
+00:03:04.439 --> 00:03:06.979 align:start position:0%
+equation can be written as the authority
+vector<00:03:05.069><c> is</c><00:03:05.310><c> equal</c><00:03:05.609><c> to</c><c.colorE5E5E5><00:03:05.790><c> the</c><00:03:05.939><c> product</c><00:03:06.419><c> of</c><00:03:06.569><c> a</c></c>
+
+00:03:06.979 --> 00:03:06.989 align:start position:0%
+vector is equal to<c.colorE5E5E5> the product of a
+ </c>
+
+00:03:06.989 --> 00:03:10.490 align:start position:0%
+vector is equal to<c.colorE5E5E5> the product of a
+transpose<00:03:07.760><c> multiplied</c><00:03:08.760><c> by</c><00:03:09.030><c> the</c><00:03:09.090><c> top</c><00:03:09.930><c> vector</c></c>
+
+00:03:10.490 --> 00:03:10.500 align:start position:0%
+transpose multiplied by the top vector
+ 
+
+00:03:10.500 --> 00:03:13.039 align:start position:0%
+transpose multiplied by the top vector
+and<00:03:10.799><c> these</c><00:03:11.430><c> are</c><00:03:11.609><c> just</c><00:03:11.790><c> different</c><00:03:12.359><c> ways</c><c.colorE5E5E5><00:03:12.599><c> of</c></c>
+
+00:03:13.039 --> 00:03:13.049 align:start position:0%
+and these are just different ways<c.colorE5E5E5> of
+ </c>
+
+00:03:13.049 --> 00:03:16.129 align:start position:0%
+and these are just different ways<c.colorE5E5E5> of
+expressing<00:03:13.889><c> these</c><00:03:14.250><c> situations</c><00:03:14.939><c> but</c><00:03:15.930><c> what's</c></c>
+
+00:03:16.129 --> 00:03:16.139 align:start position:0%
+<c.colorE5E5E5>expressing these situations but what's
+ </c>
+
+00:03:16.139 --> 00:03:18.619 align:start position:0%
+<c.colorE5E5E5>expressing these situations but what's
+interesting<00:03:16.290><c> is</c><00:03:16.769><c> that</c><00:03:16.799><c> if</c><00:03:17.220><c> you</c><00:03:17.400><c> look</c><00:03:18.269><c> at</c><00:03:18.389><c> the</c></c>
+
+00:03:18.619 --> 00:03:18.629 align:start position:0%
+interesting<c.colorE5E5E5> is that if you look at the
+ </c>
+
+00:03:18.629 --> 00:03:21.559 align:start position:0%
+interesting<c.colorE5E5E5> is that if you look at the
+matrix<00:03:18.930><c> form</c></c><c.colorCCCCCC><00:03:19.560><c> you</c><00:03:20.310><c> can</c><00:03:20.519><c> also</c></c><c.colorE5E5E5><00:03:20.549><c> plug</c><00:03:20.940><c> in</c><00:03:21.000><c> the</c></c>
+
+00:03:21.559 --> 00:03:21.569 align:start position:0%
+matrix<c.colorE5E5E5> form</c><c.colorCCCCCC> you can also</c><c.colorE5E5E5> plug in the
+ </c>
+
+00:03:21.569 --> 00:03:26.719 align:start position:0%
+matrix<c.colorE5E5E5> form</c><c.colorCCCCCC> you can also</c><c.colorE5E5E5> plug in the</c>
+<c.colorE5E5E5>authority<00:03:22.489><c> equation</c><00:03:24.260><c> into</c><00:03:25.260><c> the</c><00:03:25.470><c> first</c><00:03:25.709><c> one</c><00:03:26.010><c> so</c></c>
+
+00:03:26.719 --> 00:03:26.729 align:start position:0%
+<c.colorE5E5E5>authority equation into the first one so
+ </c>
+
+00:03:26.729 --> 00:03:29.509 align:start position:0%
+<c.colorE5E5E5>authority equation into the first one so
+if<00:03:26.849><c> you</c><00:03:26.909><c> do</c><00:03:27.180><c> that</c><00:03:27.419><c> you</c></c><c.colorCCCCCC><00:03:28.139><c> have</c></c><c.colorE5E5E5><00:03:28.379><c> to</c></c><c.colorCCCCCC><00:03:28.409><c> eliminate</c><00:03:29.099><c> the</c></c>
+
+00:03:29.509 --> 00:03:29.519 align:start position:0%
+if you<c.colorE5E5E5> do that you</c><c.colorCCCCCC> have</c><c.colorE5E5E5> to</c><c.colorCCCCCC> eliminate the
+ </c>
+
+00:03:29.519 --> 00:03:31.670 align:start position:0%
+if you<c.colorE5E5E5> do that you</c><c.colorCCCCCC> have</c><c.colorE5E5E5> to</c><c.colorCCCCCC> eliminate the
+authority<00:03:30.060><c> vector</c><00:03:30.479><c> completely</c><00:03:31.079><c> and</c><00:03:31.290><c> you'll</c></c>
+
+00:03:31.670 --> 00:03:31.680 align:start position:0%
+authority vector completely and<c.colorCCCCCC> you'll
+ </c>
+
+00:03:31.680 --> 00:03:35.179 align:start position:0%
+authority vector completely and<c.colorCCCCCC> you'll
+get</c><c.colorE5E5E5><00:03:31.799><c> the</c><00:03:31.949><c> equation</c><00:03:32.370><c> of</c><00:03:32.579><c> only</c><00:03:32.939><c> half</c><00:03:33.419><c> scores</c><00:03:34.189><c> the</c></c>
+
+00:03:35.179 --> 00:03:35.189 align:start position:0%
+get<c.colorE5E5E5> the equation of only half scores the
+ </c>
+
+00:03:35.189 --> 00:03:37.069 align:start position:0%
+get<c.colorE5E5E5> the equation of only half scores the
+happ's<00:03:35.489><c> core</c><00:03:35.879><c> vector</c><00:03:36.299><c> is</c><00:03:36.479><c> equal</c></c><c.colorCCCCCC><00:03:36.659><c> to</c><00:03:36.840><c> ay</c></c>
+
+00:03:37.069 --> 00:03:37.079 align:start position:0%
+happ's core vector is equal<c.colorCCCCCC> to ay
+ </c>
+
+00:03:37.079 --> 00:03:39.979 align:start position:0%
+happ's core vector is equal<c.colorCCCCCC> to ay
+multiplied<00:03:37.859><c> by</c><00:03:37.889><c> a</c><00:03:38.489><c> transpose</c><00:03:39.000><c> multiplied</c><00:03:39.810><c> by</c></c>
+
+00:03:39.979 --> 00:03:39.989 align:start position:0%
+multiplied by a transpose multiplied by
+ 
+
+00:03:39.989 --> 00:03:44.149 align:start position:0%
+multiplied by a transpose multiplied by
+the<00:03:40.859><c> top</c><00:03:41.189><c> score</c><00:03:41.489><c> vector</c><00:03:41.790><c> again</c><00:03:42.709><c> and</c><00:03:43.709><c> similarly</c>
+
+00:03:44.149 --> 00:03:44.159 align:start position:0%
+the top score vector again and similarly
+ 
+
+00:03:44.159 --> 00:03:46.670 align:start position:0%
+the top score vector again and similarly
+we<00:03:44.370><c> can</c><00:03:44.519><c> do</c><00:03:44.699><c> a</c><00:03:44.970><c> transformation</c><c.colorE5E5E5><00:03:45.509><c> to</c><00:03:45.930><c> have</c><00:03:46.650><c> a</c></c>
+
+00:03:46.670 --> 00:03:46.680 align:start position:0%
+we can do a transformation<c.colorE5E5E5> to have a
+ </c>
+
+00:03:46.680 --> 00:03:48.949 align:start position:0%
+we can do a transformation<c.colorE5E5E5> to have a</c>
+<c.colorE5E5E5>question<00:03:47.129><c> for</c><00:03:47.370><c> just</c><00:03:47.790><c> the</c></c><c.colorCCCCCC><00:03:48.120><c> authority</c><00:03:48.780><c> it's</c></c>
+
+00:03:48.949 --> 00:03:48.959 align:start position:0%
+<c.colorE5E5E5>question for just the</c><c.colorCCCCCC> authority it's
+ </c>
+
+00:03:48.959 --> 00:03:50.749 align:start position:0%
+<c.colorE5E5E5>question for just the</c><c.colorCCCCCC> authority it's</c>
+<c.colorE5E5E5>called<00:03:49.199><c> so</c><00:03:49.500><c> although</c></c><c.colorCCCCCC><00:03:49.680><c> we</c><00:03:50.009><c> frame</c></c><c.colorE5E5E5><00:03:50.370><c> the</c></c><c.colorCCCCCC><00:03:50.639><c> problem</c></c>
+
+00:03:50.749 --> 00:03:50.759 align:start position:0%
+<c.colorE5E5E5>called so although</c><c.colorCCCCCC> we frame</c><c.colorE5E5E5> the</c><c.colorCCCCCC> problem
+ </c>
+
+00:03:50.759 --> 00:03:54.439 align:start position:0%
+<c.colorE5E5E5>called so although</c><c.colorCCCCCC> we frame</c><c.colorE5E5E5> the</c><c.colorCCCCCC> problem</c>
+<c.colorE5E5E5>as<00:03:51.349><c> computing</c><00:03:52.349><c> hubs</c><00:03:52.590><c> and</c><00:03:52.949><c> authorities</c><00:03:53.449><c> we</c></c>
+
+00:03:54.439 --> 00:03:54.449 align:start position:0%
+<c.colorE5E5E5>as computing hubs and authorities we
+ </c>
+
+00:03:54.449 --> 00:03:56.149 align:start position:0%
+<c.colorE5E5E5>as computing hubs and authorities we
+have<00:03:54.659><c> to</c><00:03:54.810><c> eliminate</c><00:03:55.139><c> the</c><00:03:55.349><c> one</c><00:03:55.560><c> of</c><00:03:55.739><c> them</c><00:03:55.919><c> to</c></c>
+
+00:03:56.149 --> 00:03:56.159 align:start position:0%
+have to eliminate the<c.colorE5E5E5> one of them to
+ </c>
+
+00:03:56.159 --> 00:03:58.569 align:start position:0%
+have to eliminate the<c.colorE5E5E5> one of them to
+obtain<00:03:56.430><c> a</c><00:03:56.609><c> question</c><00:03:57.120><c> just</c><00:03:57.540><c> for</c><00:03:57.720><c> one</c><00:03:58.139><c> of</c><00:03:58.259><c> them</c></c>
+
+00:03:58.569 --> 00:03:58.579 align:start position:0%
+obtain<c.colorE5E5E5> a question just for one of them
+ </c>
+
+00:03:58.579 --> 00:04:00.740 align:start position:0%
+obtain<c.colorE5E5E5> a question just for one of them
+now<00:03:59.579><c> the</c><00:03:59.609><c> difference</c><00:04:00.090><c> between</c><00:04:00.150><c> this</c><00:04:00.509><c> and</c></c>
+
+00:04:00.740 --> 00:04:00.750 align:start position:0%
+now the<c.colorE5E5E5> difference between this and
+ </c>
+
+00:04:00.750 --> 00:04:03.259 align:start position:0%
+now the<c.colorE5E5E5> difference between this and</c>
+<c.colorCCCCCC>PageRank<00:04:01.439><c> is</c><00:04:01.709><c> that</c><00:04:01.979><c> now</c><00:04:02.579><c> the</c><00:04:02.639><c> matrix</c><00:04:03.060><c> is</c></c>
+
+00:04:03.259 --> 00:04:03.269 align:start position:0%
+<c.colorCCCCCC>PageRank is that now the matrix is
+ </c>
+
+00:04:03.269 --> 00:04:04.939 align:start position:0%
+<c.colorCCCCCC>PageRank is that now the matrix is
+actually<00:04:03.449><c> a</c></c><c.colorE5E5E5><00:04:03.780><c> multiplication</c><00:04:04.560><c> of</c><00:04:04.680><c> the</c><00:04:04.799><c> map</c></c>
+
+00:04:04.939 --> 00:04:04.949 align:start position:0%
+actually<c.colorCCCCCC> a</c><c.colorE5E5E5> multiplication of the map
+ </c>
+
+00:04:04.949 --> 00:04:06.969 align:start position:0%
+actually<c.colorCCCCCC> a</c><c.colorE5E5E5> multiplication of the map
+edges<00:04:05.459><c> in</c><00:04:05.579><c> the</c><00:04:05.699><c> matrix</c><00:04:06.030><c> and</c><00:04:06.239><c> it's</c><00:04:06.389><c> transpose</c></c>
+
+00:04:06.969 --> 00:04:06.979 align:start position:0%
+edges in the matrix<c.colorE5E5E5> and it's transpose
+ </c>
+
+00:04:06.979 --> 00:04:11.390 align:start position:0%
+edges in the matrix<c.colorE5E5E5> and it's transpose</c>
+<c.colorE5E5E5>so<00:04:07.979><c> this</c><00:04:08.250><c> was</c><00:04:08.400><c> different</c><00:04:08.639><c> from</c></c><c.colorCCCCCC><00:04:08.970><c> PageRank</c><00:04:10.400><c> but</c></c>
+
+00:04:11.390 --> 00:04:11.400 align:start position:0%
+<c.colorE5E5E5>so this was different from</c><c.colorCCCCCC> PageRank but
+ </c>
+
+00:04:11.400 --> 00:04:14.119 align:start position:0%
+<c.colorE5E5E5>so this was different from</c><c.colorCCCCCC> PageRank but
+mathematically<00:04:12.180><c> then</c><00:04:12.689><c> we</c><00:04:13.290><c> will</c><00:04:13.470><c> be</c></c><c.colorE5E5E5><00:04:13.590><c> computing</c></c>
+
+00:04:14.119 --> 00:04:14.129 align:start position:0%
+mathematically then we will be<c.colorE5E5E5> computing
+ </c>
+
+00:04:14.129 --> 00:04:17.270 align:start position:0%
+mathematically then we will be<c.colorE5E5E5> computing
+the<00:04:14.159><c> same</c><00:04:14.430><c> problem</c><00:04:15.000><c> so</c><00:04:15.750><c> in</c><00:04:15.959><c> happen</c><00:04:16.500><c> hits</c><00:04:16.769><c> we</c></c>
+
+00:04:17.270 --> 00:04:17.280 align:start position:0%
+the<c.colorE5E5E5> same problem so in happen hits we
+ </c>
+
+00:04:17.280 --> 00:04:19.399 align:start position:0%
+the<c.colorE5E5E5> same problem so in happen hits we
+typically<00:04:17.639><c> would</c><00:04:17.789><c> initialize</c><00:04:18.449><c> the</c><00:04:19.019><c> values</c></c>
+
+00:04:19.399 --> 00:04:19.409 align:start position:0%
+typically would<c.colorE5E5E5> initialize the values
+ </c>
+
+00:04:19.409 --> 00:04:21.769 align:start position:0%
+typically would<c.colorE5E5E5> initialize the values
+that<00:04:19.859><c> say</c></c><c.colorCCCCCC><00:04:20.190><c> one</c></c><c.colorE5E5E5><00:04:20.549><c> for</c><00:04:20.820><c> all</c><00:04:21.060><c> these</c><00:04:21.239><c> values</c></c><c.colorCCCCCC><00:04:21.450><c> and</c></c>
+
+00:04:21.769 --> 00:04:21.779 align:start position:0%
+that say<c.colorCCCCCC> one</c><c.colorE5E5E5> for all these values</c><c.colorCCCCCC> and
+ </c>
+
+00:04:21.779 --> 00:04:24.730 align:start position:0%
+that say<c.colorCCCCCC> one</c><c.colorE5E5E5> for all these values</c><c.colorCCCCCC> and
+then<00:04:22.500><c> we</c></c><c.colorE5E5E5><00:04:22.590><c> would</c><00:04:22.740><c> iteratively</c><00:04:23.219><c> apply</c><00:04:23.610><c> these</c></c>
+
+00:04:24.730 --> 00:04:24.740 align:start position:0%
+then<c.colorCCCCCC> we</c><c.colorE5E5E5> would iteratively apply these
+ </c>
+
+00:04:24.740 --> 00:04:27.730 align:start position:0%
+then<c.colorCCCCCC> we</c><c.colorE5E5E5> would iteratively apply these</c>
+<c.colorCCCCCC>using<00:04:25.009><c> questions</c><00:04:25.340><c> essentially</c></c><c.colorE5E5E5><00:04:25.880><c> and</c><00:04:26.560><c> this</c><00:04:27.560><c> is</c></c>
+
+00:04:27.730 --> 00:04:27.740 align:start position:0%
+<c.colorCCCCCC>using questions essentially</c><c.colorE5E5E5> and this is
+ </c>
+
+00:04:27.740 --> 00:04:29.950 align:start position:0%
+<c.colorCCCCCC>using questions essentially</c><c.colorE5E5E5> and this is
+the</c><c.colorCCCCCC><00:04:27.830><c> equipment</c></c><c.colorE5E5E5><00:04:28.280><c> will</c><00:04:28.400><c> multiply</c><00:04:28.789><c> that</c><00:04:29.030><c> by</c><00:04:29.300><c> by</c></c>
+
+00:04:29.950 --> 00:04:29.960 align:start position:0%
+the<c.colorCCCCCC> equipment</c><c.colorE5E5E5> will multiply that by by
+ </c>
+
+00:04:29.960 --> 00:04:34.210 align:start position:0%
+the<c.colorCCCCCC> equipment</c><c.colorE5E5E5> will multiply that by by
+the<00:04:30.020><c> matrix</c><00:04:30.530><c> a</c><00:04:31.000><c> and</c><00:04:32.000><c> a</c><00:04:32.240><c> transpose</c><00:04:32.979><c> right</c><00:04:33.979><c> and</c></c>
+
+00:04:34.210 --> 00:04:34.220 align:start position:0%
+the matrix a<c.colorE5E5E5> and a transpose right and
+ </c>
+
+00:04:34.220 --> 00:04:36.159 align:start position:0%
+the matrix a<c.colorE5E5E5> and a transpose right and
+so<00:04:34.789><c> the</c><00:04:34.910><c> algorithm</c><00:04:35.150><c> means</c><00:04:35.419><c> the</c><00:04:35.599><c> exactly</c></c><c.colorCCCCCC><00:04:36.080><c> the</c></c>
+
+00:04:36.159 --> 00:04:36.169 align:start position:0%
+so the algorithm<c.colorE5E5E5> means the exactly</c><c.colorCCCCCC> the
+ </c>
+
+00:04:36.169 --> 00:04:38.409 align:start position:0%
+so the algorithm<c.colorE5E5E5> means the exactly</c><c.colorCCCCCC> the
+similar</c><c.colorE5E5E5><00:04:36.380><c> to</c><00:04:36.620><c> break</c><00:04:36.800><c> rank</c><00:04:37.099><c> but</c><00:04:37.789><c> here</c><00:04:38.030><c> because</c></c>
+
+00:04:38.409 --> 00:04:38.419 align:start position:0%
+similar<c.colorE5E5E5> to break rank but here because
+ </c>
+
+00:04:38.419 --> 00:04:39.909 align:start position:0%
+similar<c.colorE5E5E5> to break rank but here because
+the<00:04:38.720><c> edges</c><00:04:39.169><c> in</c><00:04:39.349><c> the</c><00:04:39.440><c> matrix</c><00:04:39.770><c> is</c><00:04:39.889><c> not</c></c>
+
+00:04:39.909 --> 00:04:39.919 align:start position:0%
+the edges in the matrix is not
+ 
+
+00:04:39.919 --> 00:04:44.170 align:start position:0%
+the edges in the matrix is not
+<c.colorE5E5E5>normalized<00:04:40.729><c> so</c><00:04:41.569><c> what</c><00:04:42.199><c> we</c><00:04:42.289><c> have</c></c><c.colorCCCCCC><00:04:42.500><c> to</c><00:04:42.620><c> is</c></c><c.colorE5E5E5><00:04:42.770><c> to</c><00:04:43.400><c> what</c></c>
+
+00:04:44.170 --> 00:04:44.180 align:start position:0%
+<c.colorE5E5E5>normalized so what we have</c><c.colorCCCCCC> to is</c><c.colorE5E5E5> to what
+ </c>
+
+00:04:44.180 --> 00:04:45.969 align:start position:0%
+<c.colorE5E5E5>normalized so what we have</c><c.colorCCCCCC> to is</c><c.colorE5E5E5> to what
+we<00:04:44.300><c> have</c><00:04:44.449><c> to</c><00:04:44.539><c> do</c><00:04:44.660><c> is</c><00:04:44.870><c> after</c><00:04:45.349><c> each</c></c><c.colorCCCCCC><00:04:45.710><c> iteration</c></c>
+
+00:04:45.969 --> 00:04:45.979 align:start position:0%
+we have to do is after<c.colorE5E5E5> each</c><c.colorCCCCCC> iteration
+ </c>
+
+00:04:45.979 --> 00:04:48.279 align:start position:0%
+we have to do is after<c.colorE5E5E5> each</c><c.colorCCCCCC> iteration</c>
+<c.colorE5E5E5>we're<00:04:46.520><c> going</c><00:04:46.550><c> to</c><00:04:46.699><c> normalize</c><00:04:47.120><c> and</c><00:04:47.479><c> this</c><00:04:48.110><c> would</c></c>
+
+00:04:48.279 --> 00:04:48.289 align:start position:0%
+<c.colorE5E5E5>we're going to normalize and this would
+ </c>
+
+00:04:48.289 --> 00:04:50.499 align:start position:0%
+<c.colorE5E5E5>we're going to normalize and this would
+allow</c><c.colorCCCCCC><00:04:48.470><c> us</c><00:04:48.650><c> to</c><00:04:49.069><c> continue</c></c><c.colorE5E5E5><00:04:49.430><c> the</c><00:04:49.610><c> growth</c><00:04:49.819><c> of</c><00:04:49.880><c> value</c></c>
+
+00:04:50.499 --> 00:04:50.509 align:start position:0%
+allow<c.colorCCCCCC> us to continue</c><c.colorE5E5E5> the growth of value
+ </c>
+
+00:04:50.509 --> 00:04:52.779 align:start position:0%
+allow<c.colorCCCCCC> us to continue</c><c.colorE5E5E5> the growth of value
+otherwise<00:04:51.199><c> they</c><00:04:51.470><c> would</c><00:04:51.590><c> accrue</c><00:04:51.800><c> larger</c><00:04:52.669><c> and</c></c>
+
+00:04:52.779 --> 00:04:52.789 align:start position:0%
+otherwise they would accrue larger and
+ 
+
+00:04:52.789 --> 00:04:55.270 align:start position:0%
+otherwise they would accrue larger and
+larger<c.colorE5E5E5><00:04:53.000><c> and</c><00:04:53.479><c> if</c><00:04:54.110><c> we</c><00:04:54.259><c> do</c><00:04:54.410><c> that</c><00:04:54.560><c> and</c><00:04:54.889><c> then</c><00:04:55.130><c> we</c></c>
+
+00:04:55.270 --> 00:04:55.280 align:start position:0%
+larger<c.colorE5E5E5> and if we do that and then we
+ </c>
+
+00:04:55.280 --> 00:04:58.870 align:start position:0%
+larger<c.colorE5E5E5> and if we do that and then we
+were<00:04:55.370><c> basically</c><00:04:55.880><c> get</c><00:04:56.060><c> hits</c></c><c.colorCCCCCC><00:04:57.729><c> algorithm</c><00:04:58.729><c> to</c></c>
+
+00:04:58.870 --> 00:04:58.880 align:start position:0%
+were basically get hits<c.colorCCCCCC> algorithm to
+ </c>
+
+00:04:58.880 --> 00:05:00.730 align:start position:0%
+were basically get hits<c.colorCCCCCC> algorithm to
+computer<00:04:59.330><c> the</c><00:04:59.449><c> haps</c><00:04:59.660><c> goals</c><00:05:00.020><c> and</c><00:05:00.320><c> all</c><00:05:00.470><c> sort</c><00:05:00.710><c> of</c></c>
+
+00:05:00.730 --> 00:05:00.740 align:start position:0%
+computer the<c.colorCCCCCC> haps goals and all sort of
+ </c>
+
+00:05:00.740 --> 00:05:04.089 align:start position:0%
+computer the<c.colorCCCCCC> haps goals and all sort of</c>
+<c.colorE5E5E5>the<00:05:00.860><c> scores</c><00:05:01.130><c> for</c><00:05:01.340><c> all</c></c><c.colorCCCCCC><00:05:01.370><c> the</c><00:05:01.639><c> pages</c><00:05:01.849><c> and</c></c><c.colorE5E5E5><00:05:03.099><c> these</c></c>
+
+00:05:04.089 --> 00:05:04.099 align:start position:0%
+<c.colorE5E5E5>the scores for all</c><c.colorCCCCCC> the pages and</c><c.colorE5E5E5> these
+ </c>
+
+00:05:04.099 --> 00:05:07.420 align:start position:0%
+<c.colorE5E5E5>the scores for all</c><c.colorCCCCCC> the pages and</c><c.colorE5E5E5> these
+scores<00:05:04.490><c> can</c><00:05:04.729><c> then</c><00:05:04.940><c> be</c></c><c.colorCCCCCC><00:05:05.120><c> used</c><00:05:05.630><c> in</c><00:05:06.349><c> ranking</c><00:05:07.250><c> just</c></c>
+
+00:05:07.420 --> 00:05:07.430 align:start position:0%
+<c.colorE5E5E5>scores can then be</c><c.colorCCCCCC> used in ranking just
+ </c>
+
+00:05:07.430 --> 00:05:09.969 align:start position:0%
+<c.colorE5E5E5>scores can then be</c><c.colorCCCCCC> used in ranking just</c>
+<c.colorE5E5E5>like<00:05:07.610><c> a</c><00:05:07.639><c> page</c><00:05:07.880><c> where</c><00:05:08.060><c> any</c><00:05:08.150><c> scores</c><00:05:08.919><c> so</c><00:05:09.919><c> to</c></c>
+
+00:05:09.969 --> 00:05:09.979 align:start position:0%
+<c.colorE5E5E5>like a page where any scores so to
+ </c>
+
+00:05:09.979 --> 00:05:12.339 align:start position:0%
+<c.colorE5E5E5>like a page where any scores so to
+summarize<00:05:10.550><c> in</c><00:05:11.210><c> this</c><00:05:11.270><c> lecture</c><00:05:11.660><c> we</c></c><c.colorCCCCCC><00:05:12.050><c> have</c><00:05:12.169><c> seen</c></c>
+
+00:05:12.339 --> 00:05:12.349 align:start position:0%
+summarize in this lecture we<c.colorCCCCCC> have seen
+ </c>
+
+00:05:12.349 --> 00:05:15.040 align:start position:0%
+summarize in this lecture we<c.colorCCCCCC> have seen
+that<00:05:12.410><c> linking</c></c><c.colorE5E5E5><00:05:12.889><c> formation</c><00:05:13.250><c> is</c><00:05:13.310><c> very</c></c><c.colorCCCCCC><00:05:13.520><c> useful</c><00:05:14.050><c> in</c></c>
+
+00:05:15.040 --> 00:05:15.050 align:start position:0%
+that<c.colorCCCCCC> linking</c><c.colorE5E5E5> formation is very</c><c.colorCCCCCC> useful in
+ </c>
+
+00:05:15.050 --> 00:05:16.600 align:start position:0%
+that<c.colorCCCCCC> linking</c><c.colorE5E5E5> formation is very</c><c.colorCCCCCC> useful in</c>
+<c.colorE5E5E5>particular<00:05:15.289><c> the</c><00:05:15.590><c> anchor</c><00:05:15.860><c> text</c></c><c.colorCCCCCC><00:05:16.039><c> is</c><00:05:16.400><c> very</c></c>
+
+00:05:16.600 --> 00:05:16.610 align:start position:0%
+<c.colorE5E5E5>particular the anchor text</c><c.colorCCCCCC> is very
+ </c>
+
+00:05:16.610 --> 00:05:21.700 align:start position:0%
+<c.colorE5E5E5>particular the anchor text</c><c.colorCCCCCC> is very</c>
+<c.colorE5E5E5>useful<00:05:17.180><c> to</c><00:05:18.139><c> increase</c><00:05:18.620><c> the</c><00:05:20.289><c> the</c></c><c.colorCCCCCC><00:05:21.289><c> tacks</c></c>
+
+00:05:21.700 --> 00:05:21.710 align:start position:0%
+<c.colorE5E5E5>useful to increase the the</c><c.colorCCCCCC> tacks
+ </c>
+
+00:05:21.710 --> 00:05:24.640 align:start position:0%
+<c.colorE5E5E5>useful to increase the the</c><c.colorCCCCCC> tacks
+recommendation<00:05:22.430><c> of</c><00:05:22.610><c> a</c><00:05:22.729><c> page</c><00:05:22.970><c> and</c><00:05:23.349><c> we'll</c><00:05:24.349><c> talk</c></c>
+
+00:05:24.640 --> 00:05:24.650 align:start position:0%
+recommendation of a page and we'll talk
+ 
+
+00:05:24.650 --> 00:05:26.950 align:start position:0%
+recommendation of a page and we'll talk
+about<00:05:24.740><c> page</c><00:05:25.130><c> rank</c><00:05:25.159><c> and</c><00:05:25.580><c> hits</c><c.colorCCCCCC><00:05:25.940><c> almond</c><00:05:26.419><c> has</c><00:05:26.599><c> two</c></c>
+
+00:05:26.950 --> 00:05:26.960 align:start position:0%
+about page rank and hits<c.colorCCCCCC> almond has two
+ </c>
+
+00:05:26.960 --> 00:05:29.860 align:start position:0%
+about page rank and hits<c.colorCCCCCC> almond has two
+major<00:05:27.199><c> link</c><00:05:27.800><c> analysis</c><00:05:28.310><c> algorithms</c><00:05:28.849><c> both</c><00:05:29.449><c> can</c></c>
+
+00:05:29.860 --> 00:05:29.870 align:start position:0%
+major link analysis algorithms both can
+ 
+
+00:05:29.870 --> 00:05:33.279 align:start position:0%
+major link analysis algorithms both can
+generate<c.colorE5E5E5><00:05:30.740><c> scores</c><00:05:31.580><c> for</c><00:05:31.940><c> web</c><00:05:32.539><c> pages</c><00:05:32.750><c> that</c><00:05:33.139><c> can</c></c>
+
+00:05:33.279 --> 00:05:33.289 align:start position:0%
+generate<c.colorE5E5E5> scores for web pages that can
+ </c>
+
+00:05:33.289 --> 00:05:36.010 align:start position:0%
+generate<c.colorE5E5E5> scores for web pages that can
+be<00:05:33.409><c> used</c><00:05:33.620><c> in</c><00:05:33.979><c> in</c><00:05:34.310><c> ranking</c><00:05:34.880><c> function</c><00:05:35.300><c> note</c><00:05:35.990><c> that</c></c>
+
+00:05:36.010 --> 00:05:36.020 align:start position:0%
+be used in in ranking function note that
+ 
+
+00:05:36.020 --> 00:05:38.620 align:start position:0%
+be used in in ranking function note that
+page<c.colorE5E5E5><00:05:36.530><c> rank</c><00:05:36.800><c> and</c></c><c.colorCCCCCC><00:05:36.949><c> hits</c></c><c.colorE5E5E5><00:05:37.250><c> also</c><00:05:37.729><c> very</c><00:05:38.000><c> general</c></c>
+
+00:05:38.620 --> 00:05:38.630 align:start position:0%
+page<c.colorE5E5E5> rank and</c><c.colorCCCCCC> hits</c><c.colorE5E5E5> also very general
+ </c>
+
+00:05:38.630 --> 00:05:40.330 align:start position:0%
+page<c.colorE5E5E5> rank and</c><c.colorCCCCCC> hits</c><c.colorE5E5E5> also very general
+algorithms</c><c.colorCCCCCC><00:05:39.139><c> so</c><00:05:39.650><c> they</c><00:05:39.830><c> have</c></c><c.colorE5E5E5><00:05:40.039><c> many</c></c>
+
+00:05:40.330 --> 00:05:40.340 align:start position:0%
+algorithms<c.colorCCCCCC> so they have</c><c.colorE5E5E5> many
+ </c>
+
+00:05:40.340 --> 00:05:42.700 align:start position:0%
+algorithms<c.colorCCCCCC> so they have</c><c.colorE5E5E5> many
+applications<00:05:40.550><c> in</c><00:05:41.120><c> analyzing</c><00:05:41.840><c> other</c><00:05:41.990><c> graphs</c></c>
+
+00:05:42.700 --> 00:05:42.710 align:start position:0%
+applications<c.colorE5E5E5> in analyzing other graphs
+ </c>
+
+00:05:42.710 --> 00:05:51.490 align:start position:0%
+applications<c.colorE5E5E5> in analyzing other graphs
+on<00:05:43.039><c> networks</c></c>
+
+00:05:51.490 --> 00:05:51.500 align:start position:0%
+ 
+ 
+
+00:05:51.500 --> 00:05:53.560 align:start position:0%
+ 
+you
+

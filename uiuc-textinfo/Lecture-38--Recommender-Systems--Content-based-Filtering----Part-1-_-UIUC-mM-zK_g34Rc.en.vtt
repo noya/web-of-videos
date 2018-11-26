@@ -1,0 +1,2198 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:06.550 align:start position:0%
+ 
+<c.colorCCCCCC>you</c>
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+ 
+ 
+
+00:00:06.560 --> 00:00:09.020 align:start position:0%
+ 
+this<c.colorE5E5E5><00:00:07.560><c> lecture</c><00:00:07.950><c> is</c><00:00:08.099><c> about</c><00:00:08.250><c> the</c><00:00:08.460><c> recommender</c></c>
+
+00:00:09.020 --> 00:00:09.030 align:start position:0%
+this<c.colorE5E5E5> lecture is about the recommender
+ </c>
+
+00:00:09.030 --> 00:00:15.470 align:start position:0%
+this<c.colorE5E5E5> lecture is about the recommender
+systems<00:00:12.019><c> so</c><00:00:13.019><c> so</c><00:00:13.320><c> far</c><00:00:13.559><c> we</c><00:00:13.830><c> have</c><00:00:14.070><c> talked</c><00:00:14.849><c> about</c><00:00:14.880><c> a</c></c>
+
+00:00:15.470 --> 00:00:15.480 align:start position:0%
+systems so so<c.colorE5E5E5> far we have talked about a
+ </c>
+
+00:00:15.480 --> 00:00:19.730 align:start position:0%
+systems so so<c.colorE5E5E5> far we have talked about a
+lot</c><c.colorCCCCCC><00:00:15.509><c> of</c><00:00:15.990><c> aspects</c><00:00:16.800><c> of</c><00:00:17.070><c> search</c><00:00:17.580><c> engines</c><00:00:18.000><c> and</c><00:00:18.740><c> we</c></c>
+
+00:00:19.730 --> 00:00:19.740 align:start position:0%
+lot<c.colorCCCCCC> of aspects of search engines and we
+ </c>
+
+00:00:19.740 --> 00:00:22.040 align:start position:0%
+lot<c.colorCCCCCC> of aspects of search engines and we
+have<00:00:19.980><c> talked</c><00:00:20.580><c> about</c></c><c.colorE5E5E5><00:00:20.669><c> the</c><00:00:21.060><c> problem</c><00:00:21.480><c> of</c><00:00:21.630><c> search</c></c>
+
+00:00:22.040 --> 00:00:22.050 align:start position:0%
+have talked about<c.colorE5E5E5> the problem of search
+ </c>
+
+00:00:22.050 --> 00:00:24.859 align:start position:0%
+have talked about<c.colorE5E5E5> the problem of search
+and<00:00:22.560><c> ranking</c><00:00:23.310><c> problem</c><00:00:23.579><c> different</c><00:00:24.360><c> methods</c></c>
+
+00:00:24.859 --> 00:00:24.869 align:start position:0%
+and ranking problem<c.colorE5E5E5> different methods
+ </c>
+
+00:00:24.869 --> 00:00:27.740 align:start position:0%
+and ranking problem<c.colorE5E5E5> different methods
+for<00:00:24.960><c> any</c><00:00:25.520><c> implementation</c></c><c.colorCCCCCC><00:00:26.520><c> of</c><00:00:27.059><c> search</c><00:00:27.360><c> engine</c></c>
+
+00:00:27.740 --> 00:00:27.750 align:start position:0%
+for<c.colorE5E5E5> any implementation</c><c.colorCCCCCC> of search engine
+ </c>
+
+00:00:27.750 --> 00:00:31.819 align:start position:0%
+for<c.colorE5E5E5> any implementation</c><c.colorCCCCCC> of search engine
+and<00:00:28.460><c> how</c><00:00:29.460><c> to</c><00:00:29.809><c> evaluate</c></c><c.colorE5E5E5><00:00:30.809><c> the</c><00:00:31.169><c> search</c><00:00:31.410><c> engine</c></c>
+
+00:00:31.819 --> 00:00:31.829 align:start position:0%
+and how to evaluate<c.colorE5E5E5> the search engine
+ </c>
+
+00:00:31.829 --> 00:00:39.410 align:start position:0%
+and how to evaluate<c.colorE5E5E5> the search engine
+etc<00:00:35.360><c> this</c></c><c.colorCCCCCC><00:00:36.360><c> is</c><00:00:36.420><c> a</c></c><c.colorE5E5E5><00:00:36.630><c> part</c><00:00:36.840><c> because</c><00:00:37.260><c> we</c><00:00:38.390><c> know</c><00:00:39.390><c> that</c></c>
+
+00:00:39.410 --> 00:00:39.420 align:start position:0%
+etc<c.colorE5E5E5> this</c><c.colorCCCCCC> is a</c><c.colorE5E5E5> part because we know that
+ </c>
+
+00:00:39.420 --> 00:00:42.229 align:start position:0%
+etc<c.colorE5E5E5> this</c><c.colorCCCCCC> is a</c><c.colorE5E5E5> part because we know that</c>
+<c.colorE5E5E5>web<00:00:40.109><c> search</c><00:00:40.320><c> engines</c><00:00:40.710><c> are</c><00:00:40.949><c> by</c><00:00:41.339><c> far</c><00:00:41.609><c> the</c><00:00:42.059><c> most</c></c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+<c.colorE5E5E5>web search engines are by far the most
+ </c>
+
+00:00:42.239 --> 00:00:44.450 align:start position:0%
+<c.colorE5E5E5>web search engines are by far the most
+important<00:00:42.839><c> applications</c><00:00:43.410><c> of</c><00:00:43.530><c> tax</c><00:00:43.829><c> retrieval</c></c>
+
+00:00:44.450 --> 00:00:44.460 align:start position:0%
+important applications of<c.colorE5E5E5> tax retrieval
+ </c>
+
+00:00:44.460 --> 00:00:46.610 align:start position:0%
+important applications of<c.colorE5E5E5> tax retrieval</c>
+<c.colorE5E5E5>and<00:00:44.730><c> they</c><00:00:45.120><c> are</c><00:00:45.239><c> the</c><00:00:45.329><c> most</c><00:00:45.480><c> useful</c><00:00:45.899><c> tools</c><00:00:46.350><c> to</c></c>
+
+00:00:46.610 --> 00:00:46.620 align:start position:0%
+<c.colorE5E5E5>and they are the most useful tools to
+ </c>
+
+00:00:46.620 --> 00:00:49.910 align:start position:0%
+<c.colorE5E5E5>and they are the most useful tools to</c>
+<c.colorE5E5E5>help<00:00:46.890><c> people</c><00:00:47.210><c> convert</c><00:00:48.210><c> a</c><00:00:48.239><c> big</c><00:00:48.929><c> raw</c><00:00:49.230><c> text</c><00:00:49.710><c> data</c></c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+<c.colorE5E5E5>help people convert a big raw text data
+ </c>
+
+00:00:49.920 --> 00:00:55.569 align:start position:0%
+<c.colorE5E5E5>help people convert a big raw text data
+into<00:00:50.370><c> a</c><00:00:50.820><c> small</c><00:00:51.510><c> set</c><00:00:52.440><c> of</c><00:00:52.469><c> relevant</c></c><c.colorCCCCCC><00:00:53.370><c> documents</c></c>
+
+00:00:55.569 --> 00:00:55.579 align:start position:0%
+into a small set of<c.colorE5E5E5> relevant</c><c.colorCCCCCC> documents
+ </c>
+
+00:00:55.579 --> 00:00:57.979 align:start position:0%
+into a small set of<c.colorE5E5E5> relevant</c><c.colorCCCCCC> documents
+another</c><c.colorE5E5E5><00:00:56.579><c> reason</c><00:00:56.909><c> why</c><00:00:57.059><c> we</c><00:00:57.239><c> spend</c><00:00:57.539><c> so</c></c><c.colorCCCCCC><00:00:57.719><c> many</c></c>
+
+00:00:57.979 --> 00:00:57.989 align:start position:0%
+another<c.colorE5E5E5> reason why we spend so</c><c.colorCCCCCC> many
+ </c>
+
+00:00:57.989 --> 00:01:00.829 align:start position:0%
+another<c.colorE5E5E5> reason why we spend so</c><c.colorCCCCCC> many
+lectures<00:00:58.499><c> on</c><00:00:58.710><c> search</c><00:00:58.949><c> engines</c><00:00:59.339><c> is</c><00:00:59.839><c> because</c></c>
+
+00:01:00.829 --> 00:01:00.839 align:start position:0%
+lectures on search engines is because
+ 
+
+00:01:00.839 --> 00:01:03.709 align:start position:0%
+lectures on search engines is because
+many<00:01:01.620><c> techniques</c><00:01:02.069><c> used</c><c.colorE5E5E5><00:01:02.489><c> in</c><00:01:02.789><c> search</c><00:01:03.300><c> engines</c></c>
+
+00:01:03.709 --> 00:01:03.719 align:start position:0%
+many techniques used<c.colorE5E5E5> in search engines
+ </c>
+
+00:01:03.719 --> 00:01:06.520 align:start position:0%
+many techniques used<c.colorE5E5E5> in search engines
+are<00:01:04.440><c> actually</c><00:01:05.370><c> also</c><00:01:05.519><c> very</c><00:01:05.820><c> useful</c><00:01:06.120><c> for</c></c>
+
+00:01:06.520 --> 00:01:06.530 align:start position:0%
+are actually also<c.colorE5E5E5> very useful for
+ </c>
+
+00:01:06.530 --> 00:01:09.110 align:start position:0%
+are actually also<c.colorE5E5E5> very useful for
+recommender<00:01:07.530><c> systems</c><00:01:07.979><c> which</c><00:01:08.610><c> is</c><00:01:08.760><c> the</c><00:01:08.909><c> topic</c></c>
+
+00:01:09.110 --> 00:01:09.120 align:start position:0%
+recommender systems which is the topic
+ 
+
+00:01:09.120 --> 00:01:14.240 align:start position:0%
+recommender systems which is the topic
+<c.colorCCCCCC>of<00:01:09.360><c> this</c><00:01:09.600><c> lecture</c><00:01:10.050><c> and</c></c><c.colorE5E5E5><00:01:11.000><c> so</c><00:01:12.350><c> overall</c><00:01:13.350><c> the</c><00:01:13.890><c> two</c></c>
+
+00:01:14.240 --> 00:01:14.250 align:start position:0%
+<c.colorCCCCCC>of this lecture and</c><c.colorE5E5E5> so overall the two
+ </c>
+
+00:01:14.250 --> 00:01:16.940 align:start position:0%
+<c.colorCCCCCC>of this lecture and</c><c.colorE5E5E5> so overall the two
+systems<00:01:15.000><c> are</c><00:01:15.300><c> actually</c><00:01:15.540><c> well</c><00:01:16.290><c> connected</c><00:01:16.770><c> and</c></c>
+
+00:01:16.940 --> 00:01:16.950 align:start position:0%
+systems are actually<c.colorE5E5E5> well connected and
+ </c>
+
+00:01:16.950 --> 00:01:18.230 align:start position:0%
+systems are actually<c.colorE5E5E5> well connected and
+there<00:01:17.100><c> are</c><00:01:17.220><c> many</c><00:01:17.400><c> techniques</c><00:01:17.640><c> that</c><00:01:18.150><c> are</c></c>
+
+00:01:18.230 --> 00:01:18.240 align:start position:0%
+there are many techniques<c.colorE5E5E5> that are
+ </c>
+
+00:01:18.240 --> 00:01:23.810 align:start position:0%
+there are many techniques<c.colorE5E5E5> that are
+shared<00:01:18.570><c> by</c><00:01:19.100><c> them</c><00:01:21.740><c> so</c><00:01:22.740><c> this</c><00:01:22.980><c> was</c><00:01:23.130><c> a</c><00:01:23.160><c> slide</c></c><c.colorCCCCCC><00:01:23.490><c> that</c></c>
+
+00:01:23.810 --> 00:01:23.820 align:start position:0%
+shared by<c.colorE5E5E5> them so this was a slide</c><c.colorCCCCCC> that
+ </c>
+
+00:01:23.820 --> 00:01:25.490 align:start position:0%
+shared by<c.colorE5E5E5> them so this was a slide</c><c.colorCCCCCC> that</c>
+<c.colorE5E5E5>you<00:01:24.000><c> have</c><00:01:24.150><c> seen</c><00:01:24.360><c> before</c></c><c.colorCCCCCC><00:01:24.510><c> when</c><00:01:25.050><c> we</c><00:01:25.230><c> talked</c></c>
+
+00:01:25.490 --> 00:01:25.500 align:start position:0%
+<c.colorE5E5E5>you have seen before</c><c.colorCCCCCC> when we talked
+ </c>
+
+00:01:25.500 --> 00:01:28.010 align:start position:0%
+<c.colorE5E5E5>you have seen before</c><c.colorCCCCCC> when we talked
+about<00:01:25.620><c> the</c><00:01:26.520><c> two</c><00:01:26.700><c> different</c><00:01:27.000><c> modes</c></c><c.colorE5E5E5><00:01:27.240><c> of</c><00:01:27.690><c> text</c></c>
+
+00:01:28.010 --> 00:01:28.020 align:start position:0%
+about the two<c.colorCCCCCC> different modes</c><c.colorE5E5E5> of text
+ </c>
+
+00:01:28.020 --> 00:01:33.380 align:start position:0%
+about the two<c.colorCCCCCC> different modes</c><c.colorE5E5E5> of text
+access<00:01:28.260><c> poor</c><00:01:29.190><c> and</c><00:01:29.490><c> push</c><00:01:30.030><c> and</c><00:01:31.100><c> we</c><00:01:32.390><c> mentioned</c></c>
+
+00:01:33.380 --> 00:01:33.390 align:start position:0%
+access<c.colorE5E5E5> poor and push and we mentioned
+ </c>
+
+00:01:33.390 --> 00:01:35.600 align:start position:0%
+access<c.colorE5E5E5> poor and push and we mentioned</c>
+<c.colorCCCCCC>that</c><c.colorE5E5E5><00:01:33.770><c> recommender</c><00:01:34.770><c> systems</c><00:01:35.160><c> are</c><00:01:35.340><c> the</c><00:01:35.460><c> main</c></c>
+
+00:01:35.600 --> 00:01:35.610 align:start position:0%
+<c.colorCCCCCC>that</c><c.colorE5E5E5> recommender systems are the main
+ </c>
+
+00:01:35.610 --> 00:01:38.450 align:start position:0%
+<c.colorCCCCCC>that</c><c.colorE5E5E5> recommender systems are the main
+systems<00:01:36.150><c> to</c><00:01:36.420><c> serve</c><00:01:36.660><c> users</c><00:01:36.960><c> in</c><00:01:37.680><c> the</c><00:01:37.890><c> push</c><00:01:38.130><c> mode</c></c>
+
+00:01:38.450 --> 00:01:38.460 align:start position:0%
+systems<c.colorE5E5E5> to serve users in the push mode
+ </c>
+
+00:01:38.460 --> 00:01:41.330 align:start position:0%
+systems<c.colorE5E5E5> to serve users in the push mode
+where<00:01:39.120><c> the</c><00:01:39.270><c> systems</c><00:01:39.750><c> would</c><00:01:40.140><c> take</c><00:01:40.740><c> initiative</c></c>
+
+00:01:41.330 --> 00:01:41.340 align:start position:0%
+where the<c.colorE5E5E5> systems would take initiative
+ </c>
+
+00:01:41.340 --> 00:01:43.400 align:start position:0%
+where the<c.colorE5E5E5> systems would take initiative
+through<00:01:42.060><c> recommend</c><00:01:42.570><c> the</c><00:01:42.690><c> information</c><00:01:43.260><c> to</c></c>
+
+00:01:43.400 --> 00:01:43.410 align:start position:0%
+through recommend the information to
+ 
+
+00:01:43.410 --> 00:01:45.650 align:start position:0%
+through recommend the information to
+<c.colorE5E5E5>user<00:01:43.620><c> or</c></c><c.colorCCCCCC><00:01:43.830><c> to</c><00:01:43.860><c> pushes</c><00:01:44.280><c> a</c><00:01:44.310><c> relevant</c><00:01:45.120><c> information</c></c>
+
+00:01:45.650 --> 00:01:45.660 align:start position:0%
+<c.colorE5E5E5>user or</c><c.colorCCCCCC> to pushes a relevant information
+ </c>
+
+00:01:45.660 --> 00:01:48.410 align:start position:0%
+<c.colorE5E5E5>user or</c><c.colorCCCCCC> to pushes a relevant information
+to</c><c.colorE5E5E5><00:01:45.690><c> the</c><00:01:45.930><c> user</c><00:01:46.110><c> and</c><00:01:47.040><c> this</c><00:01:47.670><c> often</c><00:01:47.880><c> works</c><00:01:48.120><c> well</c></c>
+
+00:01:48.410 --> 00:01:48.420 align:start position:0%
+to<c.colorE5E5E5> the user and this often works well
+ </c>
+
+00:01:48.420 --> 00:01:50.660 align:start position:0%
+to<c.colorE5E5E5> the user and this often works well
+when<00:01:48.690><c> the</c><00:01:49.380><c> user</c><00:01:49.560><c> has</c><00:01:49.740><c> a</c><00:01:49.800><c> relatively</c><00:01:50.370><c> stable</c></c>
+
+00:01:50.660 --> 00:01:50.670 align:start position:0%
+when the user has<c.colorE5E5E5> a relatively stable
+ </c>
+
+00:01:50.670 --> 00:01:52.730 align:start position:0%
+when the user has<c.colorE5E5E5> a relatively stable
+information<00:01:51.360><c> either</c><00:01:51.540><c> when</c><00:01:52.020><c> the</c><00:01:52.050><c> system</c></c><c.colorCCCCCC><00:01:52.560><c> has</c><00:01:52.710><c> a</c></c>
+
+00:01:52.730 --> 00:01:52.740 align:start position:0%
+information<c.colorE5E5E5> either when the system</c><c.colorCCCCCC> has a
+ </c>
+
+00:01:52.740 --> 00:01:55.690 align:start position:0%
+information<c.colorE5E5E5> either when the system</c><c.colorCCCCCC> has a
+good<00:01:52.980><c> knowledge</c><00:01:53.190><c> about</c></c><c.colorE5E5E5><00:01:53.400><c> what</c><00:01:53.910><c> the</c><00:01:54.030><c> user</c><00:01:54.180><c> wants</c></c>
+
+00:01:55.690 --> 00:01:55.700 align:start position:0%
+good knowledge about<c.colorE5E5E5> what the user wants
+ </c>
+
+00:01:55.700 --> 00:01:58.760 align:start position:0%
+good knowledge about<c.colorE5E5E5> what the user wants
+so<00:01:56.700><c> a</c><00:01:56.730><c> recommender</c><00:01:57.390><c> system</c></c><c.colorCCCCCC><00:01:57.780><c> sometimes</c><00:01:58.440><c> called</c></c>
+
+00:01:58.760 --> 00:01:58.770 align:start position:0%
+so a recommender system<c.colorCCCCCC> sometimes called
+ </c>
+
+00:01:58.770 --> 00:02:01.150 align:start position:0%
+so a recommender system<c.colorCCCCCC> sometimes called
+a<00:01:58.890><c> filtering</c><00:01:59.400><c> system</c></c><c.colorE5E5E5><00:01:59.430><c> and</c><00:02:00.180><c> because</c></c>
+
+00:02:01.150 --> 00:02:01.160 align:start position:0%
+a filtering system<c.colorE5E5E5> and because
+ </c>
+
+00:02:01.160 --> 00:02:04.730 align:start position:0%
+a filtering system<c.colorE5E5E5> and because</c>
+<c.colorE5E5E5>recommending<00:02:02.160><c> useful</c><00:02:02.780><c> items</c><00:02:03.780><c> to</c><00:02:04.170><c> people</c><00:02:04.320><c> is</c></c>
+
+00:02:04.730 --> 00:02:04.740 align:start position:0%
+<c.colorE5E5E5>recommending useful items to people is
+ </c>
+
+00:02:04.740 --> 00:02:07.670 align:start position:0%
+<c.colorE5E5E5>recommending useful items to people is
+like<00:02:05.300><c> discarding</c><00:02:06.300><c> or</c><00:02:06.450><c> filtering</c><00:02:06.900><c> out</c></c><c.colorCCCCCC><00:02:07.050><c> the</c></c>
+
+00:02:07.670 --> 00:02:07.680 align:start position:0%
+like discarding or<c.colorE5E5E5> filtering out</c><c.colorCCCCCC> the
+ </c>
+
+00:02:07.680 --> 00:02:11.869 align:start position:0%
+like discarding or<c.colorE5E5E5> filtering out</c><c.colorCCCCCC> the
+useless<00:02:08.280><c> articles</c></c><c.colorE5E5E5><00:02:09.229><c> and</c><00:02:10.229><c> so</c><00:02:10.530><c> in</c><00:02:11.370><c> this</c><00:02:11.519><c> sense</c></c>
+
+00:02:11.869 --> 00:02:11.879 align:start position:0%
+useless articles<c.colorE5E5E5> and so in this sense
+ </c>
+
+00:02:11.879 --> 00:02:15.380 align:start position:0%
+useless articles<c.colorE5E5E5> and so in this sense
+they<00:02:12.450><c> are</c></c><c.colorCCCCCC><00:02:12.480><c> kind</c><00:02:12.870><c> of</c><00:02:13.189><c> similar</c></c>
+
+00:02:15.380 --> 00:02:15.390 align:start position:0%
+they are<c.colorCCCCCC> kind of similar
+ </c>
+
+00:02:15.390 --> 00:02:18.080 align:start position:0%
+they are<c.colorCCCCCC> kind of similar
+and<00:02:15.540><c> in</c><00:02:16.410><c> all</c><00:02:16.620><c> the</c><00:02:16.830><c> cases</c><00:02:17.190><c> the</c><00:02:17.400><c> system</c><00:02:17.910><c> must</c></c>
+
+00:02:18.080 --> 00:02:18.090 align:start position:0%
+and in all the cases the<c.colorCCCCCC> system must
+ </c>
+
+00:02:18.090 --> 00:02:21.260 align:start position:0%
+and in all the cases the<c.colorCCCCCC> system must
+make<00:02:18.360><c> a</c><00:02:18.390><c> binary</c></c><c.colorE5E5E5><00:02:18.900><c> decision</c><00:02:19.260><c> and</c><00:02:19.880><c> usually</c><00:02:20.880><c> there</c></c>
+
+00:02:21.260 --> 00:02:21.270 align:start position:0%
+make a<c.colorCCCCCC> binary</c><c.colorE5E5E5> decision and usually there
+ </c>
+
+00:02:21.270 --> 00:02:24.680 align:start position:0%
+make a<c.colorCCCCCC> binary</c><c.colorE5E5E5> decision and usually there
+is<00:02:21.300><c> a</c><00:02:21.420><c> dynamic</c><00:02:22.550><c> source</c><00:02:23.550><c> of</c><00:02:23.820><c> information</c><00:02:24.150><c> items</c></c>
+
+00:02:24.680 --> 00:02:24.690 align:start position:0%
+is<c.colorE5E5E5> a dynamic source of information items
+ </c>
+
+00:02:24.690 --> 00:02:27.530 align:start position:0%
+is<c.colorE5E5E5> a dynamic source of information items
+and<00:02:25.250><c> you</c><00:02:26.250><c> have</c><00:02:26.400><c> some</c><00:02:26.610><c> knowledge</c></c><c.colorCCCCCC><00:02:27.060><c> about</c><00:02:27.390><c> this</c></c>
+
+00:02:27.530 --> 00:02:27.540 align:start position:0%
+<c.colorE5E5E5>and you have some knowledge</c><c.colorCCCCCC> about this
+ </c>
+
+00:02:27.540 --> 00:02:30.200 align:start position:0%
+<c.colorE5E5E5>and you have some knowledge</c><c.colorCCCCCC> about this
+users<00:02:27.960><c> interest</c><00:02:28.410><c> and</c><00:02:28.680><c> then</c><00:02:29.520><c> the</c><00:02:29.670><c> system</c><00:02:30.060><c> would</c></c>
+
+00:02:30.200 --> 00:02:30.210 align:start position:0%
+users interest and then the system would
+ 
+
+00:02:30.210 --> 00:02:32.480 align:start position:0%
+users interest and then the system would
+make<c.colorE5E5E5><00:02:30.660><c> a</c><00:02:30.900><c> deliberate</c></c><c.colorCCCCCC><00:02:31.410><c> decision</c></c><c.colorE5E5E5><00:02:31.530><c> whether</c><00:02:32.190><c> this</c></c>
+
+00:02:32.480 --> 00:02:32.490 align:start position:0%
+make<c.colorE5E5E5> a deliberate</c><c.colorCCCCCC> decision</c><c.colorE5E5E5> whether this
+ </c>
+
+00:02:32.490 --> 00:02:34.910 align:start position:0%
+make<c.colorE5E5E5> a deliberate</c><c.colorCCCCCC> decision</c><c.colorE5E5E5> whether this
+item<00:02:32.940><c> is</c><00:02:33.150><c> interesting</c><00:02:33.870><c> to</c><00:02:34.050><c> the</c><00:02:34.230><c> user</c><00:02:34.410><c> and</c><00:02:34.710><c> then</c></c>
+
+00:02:34.910 --> 00:02:34.920 align:start position:0%
+item is interesting to the user and then
+ 
+
+00:02:34.920 --> 00:02:37.970 align:start position:0%
+item is interesting to the user and then
+if<00:02:35.790><c> it's</c><00:02:36.000><c> an</c><00:02:36.120><c> interest</c><00:02:36.480><c> in</c><00:02:36.840><c> then</c><00:02:37.380><c> the</c><00:02:37.650><c> system</c>
+
+00:02:37.970 --> 00:02:37.980 align:start position:0%
+if it's an interest in then the system
+ 
+
+00:02:37.980 --> 00:02:42.310 align:start position:0%
+if it's an interest in then the system
+would<00:02:38.100><c> recommend</c><00:02:38.610><c> the</c><00:02:38.790><c> article</c><00:02:39.210><c> to</c><00:02:39.420><c> the</c><c.colorE5E5E5><00:02:39.450><c> user</c></c>
+
+00:02:42.310 --> 00:02:42.320 align:start position:0%
+ 
+ 
+
+00:02:42.320 --> 00:02:45.380 align:start position:0%
+ 
+<c.colorE5E5E5>so<00:02:43.320><c> the</c><00:02:43.470><c> basic</c><00:02:43.890><c> filtering</c><00:02:44.340><c> question</c><00:02:44.880><c> here</c><00:02:45.210><c> is</c></c>
+
+00:02:45.380 --> 00:02:45.390 align:start position:0%
+<c.colorE5E5E5>so the basic filtering question here is
+ </c>
+
+00:02:45.390 --> 00:02:49.130 align:start position:0%
+<c.colorE5E5E5>so the basic filtering question here is</c>
+<c.colorE5E5E5>really<00:02:46.170><c> we</c><00:02:46.590><c> have</c><00:02:46.710><c> this</c><00:02:46.740><c> user</c><00:02:47.220><c> like</c><00:02:47.720><c> this</c><00:02:48.720><c> item</c></c>
+
+00:02:49.130 --> 00:02:49.140 align:start position:0%
+<c.colorE5E5E5>really we have this user like this item
+ </c>
+
+00:02:49.140 --> 00:02:53.090 align:start position:0%
+<c.colorE5E5E5>really we have this user like this item
+where<00:02:49.560><c> you</c><00:02:49.830><c> like</c><00:02:50.340><c> item</c><00:02:51.030><c> X</c><00:02:51.300><c> and</c><00:02:51.830><c> there</c><00:02:52.830><c> are</c><00:02:52.920><c> two</c></c>
+
+00:02:53.090 --> 00:02:53.100 align:start position:0%
+<c.colorE5E5E5>where you like item X and there are two
+ </c>
+
+00:02:53.100 --> 00:02:55.190 align:start position:0%
+<c.colorE5E5E5>where you like item X and there are two</c>
+<c.colorE5E5E5>ways<00:02:53.280><c> to</c></c><c.colorCCCCCC><00:02:53.310><c> enter</c><00:02:53.580><c> this</c><00:02:53.970><c> question</c></c><c.colorE5E5E5><00:02:54.450><c> if</c><00:02:54.630><c> you</c><00:02:54.930><c> think</c></c>
+
+00:02:55.190 --> 00:02:55.200 align:start position:0%
+<c.colorE5E5E5>ways to</c><c.colorCCCCCC> enter this question</c><c.colorE5E5E5> if you think
+ </c>
+
+00:02:55.200 --> 00:02:58.190 align:start position:0%
+<c.colorE5E5E5>ways to</c><c.colorCCCCCC> enter this question</c><c.colorE5E5E5> if you think</c>
+<c.colorCCCCCC>about<00:02:55.380><c> it</c><00:02:55.910><c> one</c><00:02:56.910><c> is</c><00:02:57.030><c> look</c><00:02:57.240><c> at</c><00:02:57.390><c> what</c><00:02:57.600><c> items</c><00:02:57.990><c> you</c></c>
+
+00:02:58.190 --> 00:02:58.200 align:start position:0%
+<c.colorCCCCCC>about it one is look at what items you
+ </c>
+
+00:02:58.200 --> 00:03:01.760 align:start position:0%
+<c.colorCCCCCC>about it one is look at what items you</c>
+<c.colorE5E5E5>likes<00:02:58.740><c> and</c><00:02:59.190><c> then</c><00:03:00.120><c> we</c><00:03:00.420><c> can</c><00:03:00.570><c> see</c><00:03:00.810><c> if</c><00:03:01.080><c> X</c><00:03:01.380><c> is</c></c>
+
+00:03:01.760 --> 00:03:01.770 align:start position:0%
+<c.colorE5E5E5>likes and then we can see if X is
+ </c>
+
+00:03:01.770 --> 00:03:06.020 align:start position:0%
+<c.colorE5E5E5>likes and then we can see if X is</c>
+<c.colorE5E5E5>actually<00:03:02.550><c> like</c><00:03:02.730><c> those</c><00:03:03.000><c> items</c><00:03:04.640><c> the</c><00:03:05.640><c> other</c><00:03:05.820><c> is</c></c>
+
+00:03:06.020 --> 00:03:06.030 align:start position:0%
+<c.colorE5E5E5>actually like those items the other is
+ </c>
+
+00:03:06.030 --> 00:03:09.500 align:start position:0%
+<c.colorE5E5E5>actually like those items the other is</c>
+<c.colorE5E5E5>to<00:03:06.180><c> look</c><00:03:06.300><c> at</c><00:03:06.480><c> the</c><00:03:06.630><c> whole</c></c><c.colorCCCCCC><00:03:07.260><c> likes</c><00:03:07.530><c> X</c></c><c.colorE5E5E5><00:03:07.890><c> and</c><00:03:08.390><c> we</c><00:03:09.390><c> can</c></c>
+
+00:03:09.500 --> 00:03:09.510 align:start position:0%
+<c.colorE5E5E5>to look at the whole</c><c.colorCCCCCC> likes X</c><c.colorE5E5E5> and we can
+ </c>
+
+00:03:09.510 --> 00:03:12.140 align:start position:0%
+<c.colorE5E5E5>to look at the whole</c><c.colorCCCCCC> likes X</c><c.colorE5E5E5> and we can</c>
+<c.colorCCCCCC>see<00:03:09.720><c> if</c><00:03:09.900><c> this</c></c><c.colorE5E5E5><00:03:10.260><c> user</c><00:03:10.560><c> looks</c><00:03:10.920><c> like</c><00:03:11.160><c> one</c></c><c.colorCCCCCC><00:03:11.820><c> of</c></c><c.colorE5E5E5><00:03:11.940><c> those</c></c>
+
+00:03:12.140 --> 00:03:12.150 align:start position:0%
+<c.colorCCCCCC>see if this</c><c.colorE5E5E5> user looks like one</c><c.colorCCCCCC> of</c><c.colorE5E5E5> those
+ </c>
+
+00:03:12.150 --> 00:03:15.470 align:start position:0%
+<c.colorCCCCCC>see if this</c><c.colorE5E5E5> user looks like one</c><c.colorCCCCCC> of</c><c.colorE5E5E5> those
+users<00:03:12.560><c> or</c><00:03:13.560><c> like</c><00:03:13.920><c> most</c><00:03:14.460><c> of</c><00:03:14.640><c> those</c></c><c.colorCCCCCC><00:03:14.790><c> users</c><00:03:15.300><c> and</c></c>
+
+00:03:15.470 --> 00:03:15.480 align:start position:0%
+users or like<c.colorE5E5E5> most of those</c><c.colorCCCCCC> users and
+ </c>
+
+00:03:15.480 --> 00:03:18.770 align:start position:0%
+users or like<c.colorE5E5E5> most of those</c><c.colorCCCCCC> users and</c>
+<c.colorE5E5E5>these<00:03:16.140><c> strategies</c><00:03:16.650><c> can</c><00:03:16.920><c> be</c><00:03:16.950><c> combined</c><00:03:17.600><c> if</c><00:03:18.600><c> we</c></c>
+
+00:03:18.770 --> 00:03:18.780 align:start position:0%
+<c.colorE5E5E5>these strategies can be combined if we
+ </c>
+
+00:03:18.780 --> 00:03:20.930 align:start position:0%
+<c.colorE5E5E5>these strategies can be combined if we
+follow<00:03:19.020><c> the</c><00:03:19.200><c> first</c><00:03:19.440><c> two</c><00:03:19.560><c> strategy</c><00:03:20.130><c> and</c><00:03:20.700><c> look</c></c>
+
+00:03:20.930 --> 00:03:20.940 align:start position:0%
+follow the<c.colorE5E5E5> first two strategy and look
+ </c>
+
+00:03:20.940 --> 00:03:23.210 align:start position:0%
+follow the<c.colorE5E5E5> first two strategy and look</c>
+<c.colorE5E5E5>at<00:03:21.090><c> item</c><00:03:21.480><c> similarity</c><00:03:22.170><c> in</c><00:03:22.440><c> the</c><00:03:22.860><c> case</c><00:03:23.010><c> of</c></c>
+
+00:03:23.210 --> 00:03:23.220 align:start position:0%
+<c.colorE5E5E5>at item similarity in the case of
+ </c>
+
+00:03:23.220 --> 00:03:26.840 align:start position:0%
+<c.colorE5E5E5>at item similarity in the case of
+recommending</c><c.colorCCCCCC><00:03:23.910><c> text</c><00:03:24.270><c> objects</c><00:03:25.250><c> then</c><00:03:26.250><c> we</c><00:03:26.760><c> are</c></c>
+
+00:03:26.840 --> 00:03:26.850 align:start position:0%
+recommending<c.colorCCCCCC> text objects then we are
+ </c>
+
+00:03:26.850 --> 00:03:28.430 align:start position:0%
+recommending<c.colorCCCCCC> text objects then we are</c>
+<c.colorE5E5E5>talking<00:03:27.150><c> about</c><00:03:27.209><c> the</c></c><c.colorCCCCCC><00:03:27.450><c> content-based</c><00:03:28.020><c> or</c></c>
+
+00:03:28.430 --> 00:03:28.440 align:start position:0%
+<c.colorE5E5E5>talking about the</c><c.colorCCCCCC> content-based or
+ </c>
+
+00:03:28.440 --> 00:03:29.990 align:start position:0%
+<c.colorE5E5E5>talking about the</c><c.colorCCCCCC> content-based or
+filtering<00:03:28.800><c> or</c></c><c.colorE5E5E5><00:03:29.040><c> content-based</c><00:03:29.670><c> of</c></c>
+
+00:03:29.990 --> 00:03:30.000 align:start position:0%
+filtering or<c.colorE5E5E5> content-based of
+ </c>
+
+00:03:30.000 --> 00:03:32.890 align:start position:0%
+filtering or<c.colorE5E5E5> content-based of
+recommendation<00:03:30.600><c> if</c><00:03:31.410><c> we</c><00:03:31.560><c> look</c><00:03:31.709><c> at</c><00:03:31.830><c> the</c><00:03:32.070><c> second</c></c>
+
+00:03:32.890 --> 00:03:32.900 align:start position:0%
+recommendation if we look at the second
+ 
+
+00:03:32.900 --> 00:03:37.010 align:start position:0%
+recommendation if we look at the second
+strategy<c.colorE5E5E5><00:03:33.900><c> then</c><00:03:34.320><c> it</c><00:03:34.500><c> will</c><00:03:34.950><c> compare</c><00:03:35.720><c> users</c><00:03:36.720><c> and</c></c>
+
+00:03:37.010 --> 00:03:37.020 align:start position:0%
+strategy<c.colorE5E5E5> then it will compare users and
+ </c>
+
+00:03:37.020 --> 00:03:39.800 align:start position:0%
+strategy<c.colorE5E5E5> then it will compare users and
+in<00:03:37.290><c> this</c><00:03:37.440><c> case</c><00:03:37.770><c> we</c></c><c.colorCCCCCC><00:03:38.670><c> are</c><00:03:38.730><c> exploiting</c></c><c.colorE5E5E5><00:03:39.150><c> user</c></c>
+
+00:03:39.800 --> 00:03:39.810 align:start position:0%
+in this case<c.colorE5E5E5> we</c><c.colorCCCCCC> are exploiting</c><c.colorE5E5E5> user
+ </c>
+
+00:03:39.810 --> 00:03:41.660 align:start position:0%
+in this case<c.colorE5E5E5> we</c><c.colorCCCCCC> are exploiting</c><c.colorE5E5E5> user
+similarity<00:03:40.500><c> and</c><00:03:40.680><c> the</c><00:03:40.709><c> technique</c><00:03:41.280><c> is</c><00:03:41.430><c> often</c></c>
+
+00:03:41.660 --> 00:03:41.670 align:start position:0%
+similarity and the<c.colorE5E5E5> technique is often
+ </c>
+
+00:03:41.670 --> 00:03:46.100 align:start position:0%
+similarity and the<c.colorE5E5E5> technique is often
+called<00:03:41.970><c> a</c><00:03:42.060><c> collaborative</c><00:03:42.420><c> filtering</c><00:03:45.110><c> so</c></c>
+
+00:03:46.100 --> 00:03:46.110 align:start position:0%
+<c.colorE5E5E5>called a collaborative filtering so
+ </c>
+
+00:03:46.110 --> 00:03:47.840 align:start position:0%
+<c.colorE5E5E5>called a collaborative filtering so
+let's<00:03:46.350><c> first</c><00:03:46.530><c> look</c></c><c.colorCCCCCC><00:03:46.620><c> at</c><00:03:46.890><c> the</c><00:03:47.190><c> content-based</c></c>
+
+00:03:47.840 --> 00:03:47.850 align:start position:0%
+let's first<c.colorE5E5E5> look</c><c.colorCCCCCC> at the content-based
+ </c>
+
+00:03:47.850 --> 00:03:50.330 align:start position:0%
+let's first<c.colorE5E5E5> look</c><c.colorCCCCCC> at the content-based
+filtering<00:03:48.209><c> system</c></c><c.colorE5E5E5><00:03:48.989><c> this</c><00:03:49.260><c> is</c><00:03:49.440><c> what</c><00:03:49.680><c> the</c></c><c.colorCCCCCC><00:03:49.830><c> system</c></c>
+
+00:03:50.330 --> 00:03:50.340 align:start position:0%
+filtering system<c.colorE5E5E5> this is what the</c><c.colorCCCCCC> system
+ </c>
+
+00:03:50.340 --> 00:03:53.690 align:start position:0%
+filtering system<c.colorE5E5E5> this is what the</c><c.colorCCCCCC> system
+would</c><c.colorE5E5E5><00:03:50.880><c> look</c><00:03:50.940><c> like</c><00:03:51.680><c> inside</c></c><c.colorCCCCCC><00:03:52.680><c> the</c></c><c.colorE5E5E5><00:03:53.040><c> system</c><00:03:53.489><c> there</c></c>
+
+00:03:53.690 --> 00:03:53.700 align:start position:0%
+would<c.colorE5E5E5> look like inside</c><c.colorCCCCCC> the</c><c.colorE5E5E5> system there
+ </c>
+
+00:03:53.700 --> 00:03:55.640 align:start position:0%
+would<c.colorE5E5E5> look like inside</c><c.colorCCCCCC> the</c><c.colorE5E5E5> system there
+will</c><c.colorCCCCCC><00:03:53.790><c> be</c><00:03:53.850><c> a</c><00:03:53.970><c> binary</c><00:03:54.239><c> classifier</c></c><c.colorE5E5E5><00:03:55.080><c> that</c><00:03:55.380><c> would</c></c>
+
+00:03:55.640 --> 00:03:55.650 align:start position:0%
+will<c.colorCCCCCC> be a binary classifier</c><c.colorE5E5E5> that would
+ </c>
+
+00:03:55.650 --> 00:03:57.530 align:start position:0%
+will<c.colorCCCCCC> be a binary classifier</c><c.colorE5E5E5> that would
+have<00:03:56.160><c> some</c><00:03:56.340><c> knowledge</c></c><c.colorCCCCCC><00:03:56.550><c> about</c></c><c.colorE5E5E5><00:03:56.970><c> the</c><00:03:57.209><c> users</c></c>
+
+00:03:57.530 --> 00:03:57.540 align:start position:0%
+have some knowledge<c.colorCCCCCC> about</c><c.colorE5E5E5> the users
+ </c>
+
+00:03:57.540 --> 00:03:59.750 align:start position:0%
+have some knowledge<c.colorCCCCCC> about</c><c.colorE5E5E5> the users
+interest<00:03:57.989><c> and</c><00:03:58.230><c> this</c><00:03:59.160><c> is</c><00:03:59.250><c> called</c><00:03:59.430><c> a</c><00:03:59.520><c> user</c></c>
+
+00:03:59.750 --> 00:03:59.760 align:start position:0%
+interest and this is called a user
+ 
+
+00:03:59.760 --> 00:04:02.990 align:start position:0%
+interest and this is called a user
+interest<00:04:00.300><c> profile</c><c.colorE5E5E5><00:04:00.810><c> it</c><00:04:01.700><c> maintains</c><00:04:02.700><c> this</c></c>
+
+00:04:02.990 --> 00:04:03.000 align:start position:0%
+interest profile<c.colorE5E5E5> it maintains this
+ </c>
+
+00:04:03.000 --> 00:04:04.670 align:start position:0%
+interest profile<c.colorE5E5E5> it maintains this
+profile<00:04:03.420><c> to</c><00:04:03.630><c> keep</c><00:04:03.810><c> track</c><00:04:04.020><c> of</c></c><c.colorCCCCCC><00:04:04.050><c> the</c><00:04:04.380><c> users</c></c>
+
+00:04:04.670 --> 00:04:04.680 align:start position:0%
+profile to keep track of<c.colorCCCCCC> the users
+ </c>
+
+00:04:04.680 --> 00:04:07.550 align:start position:0%
+profile to keep track of<c.colorCCCCCC> the users
+interest</c><c.colorE5E5E5><00:04:05.100><c> and</c><00:04:05.630><c> then</c><00:04:06.630><c> there</c><00:04:07.080><c> was</c><00:04:07.200><c> a</c><00:04:07.230><c> utility</c></c>
+
+00:04:07.550 --> 00:04:07.560 align:start position:0%
+interest<c.colorE5E5E5> and then there was a utility
+ </c>
+
+00:04:07.560 --> 00:04:09.650 align:start position:0%
+interest<c.colorE5E5E5> and then there was a utility</c>
+<c.colorE5E5E5>function<00:04:07.860><c> to</c><00:04:08.250><c> guide</c><00:04:08.550><c> the</c><00:04:08.820><c> user</c><00:04:09.000><c> to</c><00:04:09.510><c> make</c></c>
+
+00:04:09.650 --> 00:04:09.660 align:start position:0%
+<c.colorE5E5E5>function to guide the user to make
+ </c>
+
+00:04:09.660 --> 00:04:12.050 align:start position:0%
+<c.colorE5E5E5>function to guide the user to make
+decisions<00:04:10.230><c> and</c><00:04:10.500><c> I</c><00:04:11.040><c> explained</c><00:04:11.430><c> the</c><00:04:11.610><c> utility</c></c>
+
+00:04:12.050 --> 00:04:12.060 align:start position:0%
+decisions<c.colorE5E5E5> and I explained the utility
+ </c>
+
+00:04:12.060 --> 00:04:14.720 align:start position:0%
+decisions<c.colorE5E5E5> and I explained the utility
+function<00:04:12.420><c> in</c><00:04:12.510><c> a</c><00:04:12.540><c> moment</c></c><c.colorCCCCCC><00:04:12.900><c> and</c><00:04:13.230><c> it</c><00:04:14.130><c> helps</c><00:04:14.519><c> the</c></c>
+
+00:04:14.720 --> 00:04:14.730 align:start position:0%
+function in a moment<c.colorCCCCCC> and it helps the
+ </c>
+
+00:04:14.730 --> 00:04:16.940 align:start position:0%
+function in a moment<c.colorCCCCCC> and it helps the
+system<00:04:15.060><c> decide</c></c><c.colorE5E5E5><00:04:15.720><c> where</c><00:04:15.959><c> a</c><00:04:15.989><c> certain</c></c><c.colorCCCCCC><00:04:16.290><c> threshold</c></c>
+
+00:04:16.940 --> 00:04:16.950 align:start position:0%
+system<c.colorCCCCCC> decide</c><c.colorE5E5E5> where a certain</c><c.colorCCCCCC> threshold
+ </c>
+
+00:04:16.950 --> 00:04:19.310 align:start position:0%
+system<c.colorCCCCCC> decide</c><c.colorE5E5E5> where a certain</c><c.colorCCCCCC> threshold</c>
+<c.colorE5E5E5>and<00:04:17.190><c> then</c><00:04:18.150><c> the</c></c><c.colorCCCCCC><00:04:18.239><c> accept</c></c><c.colorE5E5E5><00:04:18.600><c> this</c><00:04:18.750><c> document</c><00:04:19.200><c> will</c></c>
+
+00:04:19.310 --> 00:04:19.320 align:start position:0%
+<c.colorE5E5E5>and then the</c><c.colorCCCCCC> accept</c><c.colorE5E5E5> this document will
+ </c>
+
+00:04:19.320 --> 00:04:20.870 align:start position:0%
+<c.colorE5E5E5>and then the</c><c.colorCCCCCC> accept</c><c.colorE5E5E5> this document will</c>
+<c.colorCCCCCC>be<00:04:19.410><c> those</c><00:04:19.620><c> that</c><00:04:19.890><c> have</c><00:04:20.100><c> passed</c><00:04:20.310><c> the</c><00:04:20.669><c> threshold</c></c>
+
+00:04:20.870 --> 00:04:20.880 align:start position:0%
+<c.colorCCCCCC>be those that have passed the threshold
+ </c>
+
+00:04:20.880 --> 00:04:22.730 align:start position:0%
+<c.colorCCCCCC>be those that have passed the threshold</c>
+<c.colorE5E5E5>according<00:04:21.690><c> to</c><00:04:21.810><c> the</c><00:04:21.959><c> classify</c></c>
+
+00:04:22.730 --> 00:04:22.740 align:start position:0%
+<c.colorE5E5E5>according to the classify
+ </c>
+
+00:04:22.740 --> 00:04:24.440 align:start position:0%
+<c.colorE5E5E5>according to the classify
+there<00:04:23.550><c> should</c><00:04:23.760><c> be</c><00:04:23.880><c> also</c><00:04:24.030><c> in</c><00:04:24.330><c> an</c></c>
+
+00:04:24.440 --> 00:04:24.450 align:start position:0%
+there should be also<c.colorE5E5E5> in an
+ </c>
+
+00:04:24.450 --> 00:04:26.690 align:start position:0%
+there should be also<c.colorE5E5E5> in an
+initialization<00:04:25.050><c> module</c><00:04:25.740><c> that</c><00:04:25.919><c> would</c><00:04:26.070><c> take</c><00:04:26.340><c> a</c></c>
+
+00:04:26.690 --> 00:04:26.700 align:start position:0%
+initialization module that would take a
+ 
+
+00:04:26.700 --> 00:04:28.520 align:start position:0%
+initialization module that would take a
+<c.colorE5E5E5>user's<00:04:27.390><c> input</c></c>
+
+00:04:28.520 --> 00:04:28.530 align:start position:0%
+<c.colorE5E5E5>user's input
+ </c>
+
+00:04:28.530 --> 00:04:33.410 align:start position:0%
+<c.colorE5E5E5>user's input
+from<00:04:29.130><c> users</c><00:04:30.860><c> specified</c><00:04:31.860><c> keywords</c><00:04:32.400><c> or</c><00:04:33.090><c> chosen</c></c>
+
+00:04:33.410 --> 00:04:33.420 align:start position:0%
+from users specified keywords or chosen
+ 
+
+00:04:33.420 --> 00:04:36.290 align:start position:0%
+from users specified keywords or chosen
+category<c.colorE5E5E5><00:04:33.750><c> etc</c><00:04:34.560><c> and</c><00:04:34.770><c> this</c><00:04:35.220><c> would</c><00:04:35.430><c> be</c></c><c.colorCCCCCC><00:04:35.640><c> through</c></c>
+
+00:04:36.290 --> 00:04:36.300 align:start position:0%
+category<c.colorE5E5E5> etc and this would be</c><c.colorCCCCCC> through
+ </c>
+
+00:04:36.300 --> 00:04:38.000 align:start position:0%
+category<c.colorE5E5E5> etc and this would be</c><c.colorCCCCCC> through
+feed<00:04:36.540><c> in</c><00:04:36.690><c> the</c><00:04:36.780><c> system</c><00:04:37.110><c> with</c><00:04:37.290><c> the</c><00:04:37.380><c> initial</c><00:04:37.830><c> user</c></c>
+
+00:04:38.000 --> 00:04:38.010 align:start position:0%
+feed in the system with the initial user
+ 
+
+00:04:38.010 --> 00:04:40.940 align:start position:0%
+feed in the system with the initial user
+profile<c.colorE5E5E5><00:04:38.990><c> there</c><00:04:39.990><c> is</c><00:04:40.140><c> also</c><00:04:40.350><c> typically</c><00:04:40.920><c> a</c></c>
+
+00:04:40.940 --> 00:04:40.950 align:start position:0%
+profile<c.colorE5E5E5> there is also typically a
+ </c>
+
+00:04:40.950 --> 00:04:42.500 align:start position:0%
+profile<c.colorE5E5E5> there is also typically a
+learning<00:04:41.460><c> module</c></c><c.colorCCCCCC><00:04:41.670><c> that</c></c><c.colorE5E5E5><00:04:42.060><c> would</c><00:04:42.240><c> learn</c><00:04:42.480><c> from</c></c>
+
+00:04:42.500 --> 00:04:42.510 align:start position:0%
+learning module<c.colorCCCCCC> that</c><c.colorE5E5E5> would learn from
+ </c>
+
+00:04:42.510 --> 00:04:45.500 align:start position:0%
+learning module<c.colorCCCCCC> that</c><c.colorE5E5E5> would learn from
+users<00:04:43.440><c> feedback</c><00:04:43.890><c> over</c><00:04:44.220><c> time</c><00:04:44.430><c> now</c><00:04:45.300><c> note</c><00:04:45.480><c> that</c></c>
+
+00:04:45.500 --> 00:04:45.510 align:start position:0%
+users feedback<c.colorE5E5E5> over time now note that
+ </c>
+
+00:04:45.510 --> 00:04:47.450 align:start position:0%
+users feedback<c.colorE5E5E5> over time now note that</c>
+<c.colorE5E5E5>in<00:04:45.900><c> this</c></c><c.colorCCCCCC><00:04:46.050><c> case</c><00:04:46.290><c> typically</c><00:04:46.740><c> users</c><00:04:47.190><c> information</c></c>
+
+00:04:47.450 --> 00:04:47.460 align:start position:0%
+<c.colorE5E5E5>in this</c><c.colorCCCCCC> case typically users information
+ </c>
+
+00:04:47.460 --> 00:04:49.850 align:start position:0%
+<c.colorE5E5E5>in this</c><c.colorCCCCCC> case typically users information</c>
+<c.colorE5E5E5>either<00:04:47.880><c> is</c><00:04:48.120><c> stable</c><00:04:48.660><c> so</c></c><c.colorCCCCCC><00:04:48.810><c> the</c><00:04:49.380><c> system</c></c><c.colorE5E5E5><00:04:49.740><c> would</c></c>
+
+00:04:49.850 --> 00:04:49.860 align:start position:0%
+<c.colorE5E5E5>either is stable so</c><c.colorCCCCCC> the system</c><c.colorE5E5E5> would
+ </c>
+
+00:04:49.860 --> 00:04:51.710 align:start position:0%
+<c.colorE5E5E5>either is stable so</c><c.colorCCCCCC> the system</c><c.colorE5E5E5> would
+have<00:04:49.890><c> a</c><00:04:50.100><c> lot</c></c><c.colorCCCCCC><00:04:50.310><c> of</c><00:04:50.490><c> opportunities</c><00:04:51.060><c> to</c><00:04:51.090><c> observe</c></c>
+
+00:04:51.710 --> 00:04:51.720 align:start position:0%
+have<c.colorE5E5E5> a lot</c><c.colorCCCCCC> of opportunities to observe
+ </c>
+
+00:04:51.720 --> 00:04:54.530 align:start position:0%
+have<c.colorE5E5E5> a lot</c><c.colorCCCCCC> of opportunities to observe
+the<00:04:51.990><c> users</c></c><c.colorE5E5E5><00:04:52.380><c> you</c></c><c.colorCCCCCC><00:04:52.590><c> know</c><00:04:53.160><c> if</c><00:04:53.340><c> the</c><00:04:53.550><c> user</c><00:04:53.730><c> has</c></c><c.colorE5E5E5><00:04:53.970><c> taken</c></c>
+
+00:04:54.530 --> 00:04:54.540 align:start position:0%
+the users<c.colorE5E5E5> you</c><c.colorCCCCCC> know if the user has</c><c.colorE5E5E5> taken
+ </c>
+
+00:04:54.540 --> 00:04:58.130 align:start position:0%
+the users<c.colorE5E5E5> you</c><c.colorCCCCCC> know if the user has</c><c.colorE5E5E5> taken
+a<00:04:54.650><c> recommended</c><00:04:55.650><c> item</c><00:04:56.040><c> has</c><00:04:56.670><c> viewed</c><00:04:57.360><c> that</c></c><c.colorCCCCCC><00:04:57.660><c> and</c></c>
+
+00:04:58.130 --> 00:04:58.140 align:start position:0%
+a recommended item has viewed that<c.colorCCCCCC> and
+ </c>
+
+00:04:58.140 --> 00:05:01.670 align:start position:0%
+a recommended item has viewed that<c.colorCCCCCC> and
+this</c><c.colorE5E5E5><00:04:58.650><c> is</c></c><c.colorCCCCCC><00:04:58.830><c> a</c><00:04:59.060><c> signal</c><00:05:00.060><c> to</c></c><c.colorE5E5E5><00:05:00.420><c> indicate</c></c><c.colorCCCCCC><00:05:00.870><c> that</c><00:05:01.110><c> the</c></c>
+
+00:05:01.670 --> 00:05:01.680 align:start position:0%
+this<c.colorE5E5E5> is</c><c.colorCCCCCC> a signal to</c><c.colorE5E5E5> indicate</c><c.colorCCCCCC> that the
+ </c>
+
+00:05:01.680 --> 00:05:04.160 align:start position:0%
+this<c.colorE5E5E5> is</c><c.colorCCCCCC> a signal to</c><c.colorE5E5E5> indicate</c><c.colorCCCCCC> that the</c>
+<c.colorE5E5E5>recommend<00:05:02.130><c> item</c><00:05:02.550><c> may</c><00:05:02.790><c> be</c><00:05:02.850><c> relevant</c></c><c.colorCCCCCC><00:05:03.210><c> if</c><00:05:03.990><c> the</c></c>
+
+00:05:04.160 --> 00:05:04.170 align:start position:0%
+<c.colorE5E5E5>recommend item may be relevant</c><c.colorCCCCCC> if the
+ </c>
+
+00:05:04.170 --> 00:05:06.770 align:start position:0%
+<c.colorE5E5E5>recommend item may be relevant</c><c.colorCCCCCC> if the
+user</c><c.colorE5E5E5><00:05:04.380><c> discarded</c><00:05:05.310><c> it</c></c><c.colorCCCCCC><00:05:05.460><c> oh</c></c><c.colorE5E5E5><00:05:05.640><c> it's</c><00:05:06.240><c> not</c><00:05:06.420><c> relevant</c></c>
+
+00:05:06.770 --> 00:05:06.780 align:start position:0%
+user<c.colorE5E5E5> discarded it</c><c.colorCCCCCC> oh</c><c.colorE5E5E5> it's not relevant
+ </c>
+
+00:05:06.780 --> 00:05:09.230 align:start position:0%
+user<c.colorE5E5E5> discarded it</c><c.colorCCCCCC> oh</c><c.colorE5E5E5> it's not relevant</c>
+<c.colorE5E5E5>and<00:05:07.560><c> so</c><00:05:07.770><c> such</c><00:05:08.040><c> feedback</c></c><c.colorCCCCCC><00:05:08.310><c> can</c><00:05:08.760><c> be</c><00:05:08.910><c> a</c><00:05:08.940><c> long-term</c></c>
+
+00:05:09.230 --> 00:05:09.240 align:start position:0%
+<c.colorE5E5E5>and so such feedback</c><c.colorCCCCCC> can be a long-term
+ </c>
+
+00:05:09.240 --> 00:05:11.450 align:start position:0%
+<c.colorE5E5E5>and so such feedback</c><c.colorCCCCCC> can be a long-term</c>
+<c.colorE5E5E5>feedback<00:05:09.900><c> and</c><00:05:10.170><c> can</c><00:05:10.350><c> last</c><00:05:10.500><c> for</c><00:05:10.860><c> a</c><00:05:10.890><c> long</c><00:05:11.190><c> time</c></c>
+
+00:05:11.450 --> 00:05:11.460 align:start position:0%
+<c.colorE5E5E5>feedback and can last for a long time
+ </c>
+
+00:05:11.460 --> 00:05:14.210 align:start position:0%
+<c.colorE5E5E5>feedback and can last for a long time</c>
+<c.colorE5E5E5>and<00:05:11.940><c> the</c><00:05:12.630><c> system</c></c><c.colorCCCCCC><00:05:12.810><c> can</c><00:05:13.080><c> collect</c><00:05:13.890><c> a</c><00:05:13.980><c> lot</c><00:05:14.190><c> of</c></c>
+
+00:05:14.210 --> 00:05:14.220 align:start position:0%
+<c.colorE5E5E5>and the system</c><c.colorCCCCCC> can collect a lot of
+ </c>
+
+00:05:14.220 --> 00:05:16.100 align:start position:0%
+<c.colorE5E5E5>and the system</c><c.colorCCCCCC> can collect a lot of
+information<00:05:14.400><c> about</c><00:05:14.880><c> the</c><00:05:15.120><c> users</c><00:05:15.510><c> interest</c><00:05:15.900><c> and</c></c>
+
+00:05:16.100 --> 00:05:16.110 align:start position:0%
+information<c.colorCCCCCC> about the users interest and
+ </c>
+
+00:05:16.110 --> 00:05:18.350 align:start position:0%
+information<c.colorCCCCCC> about the users interest and
+this<00:05:16.770><c> can</c><00:05:17.010><c> then</c></c><c.colorE5E5E5><00:05:17.160><c> be</c></c><c.colorCCCCCC><00:05:17.220><c> used</c><00:05:17.700><c> to</c></c><c.colorE5E5E5><00:05:17.910><c> improve</c><00:05:18.300><c> the</c></c>
+
+00:05:18.350 --> 00:05:18.360 align:start position:0%
+this can then<c.colorE5E5E5> be</c><c.colorCCCCCC> used to</c><c.colorE5E5E5> improve the
+ </c>
+
+00:05:18.360 --> 00:05:19.220 align:start position:0%
+this can then<c.colorE5E5E5> be</c><c.colorCCCCCC> used to</c><c.colorE5E5E5> improve the
+classifier</c>
+
+00:05:19.220 --> 00:05:19.230 align:start position:0%
+classifier
+ 
+
+00:05:19.230 --> 00:05:22.940 align:start position:0%
+classifier
+now<00:05:19.560><c> what's</c><00:05:20.010><c> the</c><00:05:20.450><c> criteria</c><00:05:21.450><c> for</c><c.colorE5E5E5><00:05:21.950><c> evaluating</c></c>
+
+00:05:22.940 --> 00:05:22.950 align:start position:0%
+now what's the criteria for<c.colorE5E5E5> evaluating
+ </c>
+
+00:05:22.950 --> 00:05:25.550 align:start position:0%
+now what's the criteria for<c.colorE5E5E5> evaluating
+such<00:05:23.280><c> a</c><00:05:23.370><c> system</c><00:05:23.930><c> how</c><00:05:24.930><c> do</c><00:05:24.990><c> we</c><00:05:25.169><c> know</c><00:05:25.290><c> this</c></c>
+
+00:05:25.550 --> 00:05:25.560 align:start position:0%
+such a system how do we know this
+ 
+
+00:05:25.560 --> 00:05:29.920 align:start position:0%
+such a system how do we know this
+<c.colorE5E5E5>filtering<00:05:26.190><c> system</c><00:05:26.580><c> actually</c><00:05:27.680><c> performs</c><00:05:28.680><c> well</c></c>
+
+00:05:29.920 --> 00:05:29.930 align:start position:0%
+<c.colorE5E5E5>filtering system actually performs well
+ </c>
+
+00:05:29.930 --> 00:05:33.230 align:start position:0%
+<c.colorE5E5E5>filtering system actually performs well
+now<00:05:30.930><c> in</c><00:05:31.320><c> this</c><00:05:31.470><c> case</c><00:05:31.710><c> we</c><00:05:32.130><c> cannot</c><00:05:32.490><c> use</c><00:05:32.910><c> the</c></c>
+
+00:05:33.230 --> 00:05:33.240 align:start position:0%
+now in<c.colorE5E5E5> this case we cannot use the
+ </c>
+
+00:05:33.240 --> 00:05:35.780 align:start position:0%
+now in<c.colorE5E5E5> this case we cannot use the
+ranking<00:05:33.720><c> evaluation</c><00:05:34.680><c> measures</c><00:05:35.190><c> like</c><00:05:35.430><c> a</c><00:05:35.460><c> map</c></c>
+
+00:05:35.780 --> 00:05:35.790 align:start position:0%
+ranking evaluation measures like a map
+ 
+
+00:05:35.790 --> 00:05:38.510 align:start position:0%
+ranking evaluation measures like a map
+<c.colorE5E5E5>because<00:05:36.660><c> we</c></c><c.colorCCCCCC><00:05:36.840><c> can</c></c><c.colorE5E5E5><00:05:37.080><c> afford</c><00:05:37.650><c> waiting</c><00:05:38.160><c> for</c><00:05:38.310><c> a</c><00:05:38.340><c> lot</c></c>
+
+00:05:38.510 --> 00:05:38.520 align:start position:0%
+<c.colorE5E5E5>because we</c><c.colorCCCCCC> can</c><c.colorE5E5E5> afford waiting for a lot
+ </c>
+
+00:05:38.520 --> 00:05:40.430 align:start position:0%
+<c.colorE5E5E5>because we</c><c.colorCCCCCC> can</c><c.colorE5E5E5> afford waiting for a lot
+of<00:05:38.669><c> documents</c></c><c.colorCCCCCC><00:05:39.150><c> and</c><00:05:39.300><c> then</c><00:05:39.419><c> rank</c><00:05:39.660><c> the</c><00:05:39.930><c> documents</c></c>
+
+00:05:40.430 --> 00:05:40.440 align:start position:0%
+<c.colorE5E5E5>of documents</c><c.colorCCCCCC> and then rank the documents
+ </c>
+
+00:05:40.440 --> 00:05:43.730 align:start position:0%
+<c.colorE5E5E5>of documents</c><c.colorCCCCCC> and then rank the documents
+to<00:05:40.530><c> make</c><00:05:40.919><c> a</c><00:05:40.980><c> decision</c><00:05:41.310><c> for</c><00:05:41.490><c> the</c><00:05:41.760><c> user</c><00:05:41.940><c> and</c><00:05:42.740><c> so</c></c>
+
+00:05:43.730 --> 00:05:43.740 align:start position:0%
+to make<c.colorCCCCCC> a decision for the user and so
+ </c>
+
+00:05:43.740 --> 00:05:46.400 align:start position:0%
+to make<c.colorCCCCCC> a decision for the user and so
+the<00:05:44.340><c> system</c></c><c.colorE5E5E5><00:05:44.520><c> must</c></c><c.colorCCCCCC><00:05:44.790><c> be</c><00:05:44.880><c> make</c><00:05:45.090><c> a</c><00:05:45.120><c> decision</c><00:05:45.630><c> in</c></c>
+
+00:05:46.400 --> 00:05:46.410 align:start position:0%
+the system<c.colorE5E5E5> must</c><c.colorCCCCCC> be make a decision in
+ </c>
+
+00:05:46.410 --> 00:05:48.980 align:start position:0%
+the system<c.colorE5E5E5> must</c><c.colorCCCCCC> be make a decision in</c>
+<c.colorCCCCCC>real-time<00:05:46.680><c> in</c><00:05:47.220><c> general</c><00:05:47.610><c> to</c><00:05:47.970><c> decide</c><00:05:48.330><c> whether</c></c>
+
+00:05:48.980 --> 00:05:48.990 align:start position:0%
+<c.colorCCCCCC>real-time in general to decide whether
+ </c>
+
+00:05:48.990 --> 00:05:51.440 align:start position:0%
+<c.colorCCCCCC>real-time in general to decide whether
+the<00:05:49.229><c> item</c><00:05:49.650><c> is</c><00:05:49.860><c> above</c><00:05:50.550><c> the</c><00:05:50.729><c> threshold</c><00:05:50.910><c> or</c><00:05:51.210><c> not</c></c>
+
+00:05:51.440 --> 00:05:51.450 align:start position:0%
+the item is above the threshold or not
+ 
+
+00:05:51.450 --> 00:05:54.140 align:start position:0%
+the item is above the threshold or not
+<c.colorE5E5E5>so<00:05:51.930><c> in</c><00:05:52.200><c> other</c><00:05:52.470><c> words</c></c><c.colorCCCCCC><00:05:52.710><c> we're</c><00:05:52.979><c> trying</c><00:05:53.160><c> to</c><00:05:53.400><c> decide</c></c>
+
+00:05:54.140 --> 00:05:54.150 align:start position:0%
+<c.colorE5E5E5>so in other words</c><c.colorCCCCCC> we're trying to decide
+ </c>
+
+00:05:54.150 --> 00:05:57.380 align:start position:0%
+<c.colorE5E5E5>so in other words</c><c.colorCCCCCC> we're trying to decide
+an<00:05:54.330><c> absolute</c><00:05:54.780><c> the</c><00:05:54.870><c> red</c><00:05:55.050><c> ones</c><00:05:55.850><c> so</c><00:05:56.850><c> in</c><00:05:57.030><c> this</c><00:05:57.150><c> case</c></c>
+
+00:05:57.380 --> 00:05:57.390 align:start position:0%
+an absolute the red ones so in this case
+ 
+
+00:05:57.390 --> 00:05:59.659 align:start position:0%
+an absolute the red ones so in this case
+one<00:05:58.110><c> commonly</c><00:05:58.590><c> used</c><00:05:58.770><c> is</c><00:05:58.979><c> where</c><00:05:59.220><c> the</c><00:05:59.340><c> user</c><c.colorE5E5E5><00:05:59.460><c> to</c></c>
+
+00:05:59.659 --> 00:05:59.669 align:start position:0%
+one commonly used is where the user<c.colorE5E5E5> to
+ </c>
+
+00:05:59.669 --> 00:06:02.600 align:start position:0%
+one commonly used is where the user<c.colorE5E5E5> to
+use</c><c.colorCCCCCC><00:05:59.910><c> a</c><00:05:59.970><c> utility</c><00:06:00.570><c> function</c><00:06:00.960><c> to</c><00:06:01.770><c> evaluate</c><00:06:02.520><c> the</c></c>
+
+00:06:02.600 --> 00:06:02.610 align:start position:0%
+use<c.colorCCCCCC> a utility function to evaluate the
+ </c>
+
+00:06:02.610 --> 00:06:05.630 align:start position:0%
+use<c.colorCCCCCC> a utility function to evaluate the
+system<00:06:02.820><c> so</c><00:06:03.660><c> here</c><00:06:03.900><c> I</c><00:06:03.960><c> show</c><00:06:04.080><c> a</c></c><c.colorE5E5E5><00:06:04.320><c> medium</c><00:06:05.190><c> utility</c></c>
+
+00:06:05.630 --> 00:06:05.640 align:start position:0%
+system<c.colorCCCCCC> so here I show a</c><c.colorE5E5E5> medium utility
+ </c>
+
+00:06:05.640 --> 00:06:08.480 align:start position:0%
+system<c.colorCCCCCC> so here I show a</c><c.colorE5E5E5> medium utility
+function<00:06:06.030><c> that's</c><00:06:06.660><c> defined</c><00:06:06.810><c> as</c><00:06:07.290><c> for</c></c><c.colorCCCCCC><00:06:07.770><c> example</c></c><c.colorE5E5E5><00:06:08.130><c> 3</c></c>
+
+00:06:08.480 --> 00:06:08.490 align:start position:0%
+function that's defined as for<c.colorCCCCCC> example</c><c.colorE5E5E5> 3
+ </c>
+
+00:06:08.490 --> 00:06:11.210 align:start position:0%
+function that's defined as for<c.colorCCCCCC> example</c><c.colorE5E5E5> 3
+multiplied</c><c.colorCCCCCC><00:06:09.300><c> by</c><00:06:09.600><c> the</c><00:06:10.110><c> number</c><00:06:10.500><c> of</c><00:06:10.530><c> good</c><00:06:10.800><c> items</c></c>
+
+00:06:11.210 --> 00:06:11.220 align:start position:0%
+multiplied<c.colorCCCCCC> by the number of good items
+ </c>
+
+00:06:11.220 --> 00:06:14.030 align:start position:0%
+multiplied<c.colorCCCCCC> by the number of good items
+that<00:06:11.460><c> you</c><00:06:11.610><c> delivered</c></c><c.colorE5E5E5><00:06:12.030><c> minus</c><00:06:12.780><c> 2</c><00:06:13.110><c> multiplied</c></c><c.colorCCCCCC><00:06:13.800><c> by</c></c>
+
+00:06:14.030 --> 00:06:14.040 align:start position:0%
+that you delivered<c.colorE5E5E5> minus 2 multiplied</c><c.colorCCCCCC> by
+ </c>
+
+00:06:14.040 --> 00:06:16.219 align:start position:0%
+that you delivered<c.colorE5E5E5> minus 2 multiplied</c><c.colorCCCCCC> by
+the<00:06:14.100><c> number</c><00:06:14.400><c> of</c></c><c.colorE5E5E5><00:06:14.580><c> bad</c><00:06:14.820><c> items</c></c><c.colorCCCCCC><00:06:15.300><c> you</c><00:06:15.570><c> delay</c></c><c.colorE5E5E5><00:06:15.900><c> can</c></c>
+
+00:06:16.219 --> 00:06:16.229 align:start position:0%
+the number<c.colorCCCCCC> of</c><c.colorE5E5E5> bad items</c><c.colorCCCCCC> you delay</c><c.colorE5E5E5> can
+ </c>
+
+00:06:16.229 --> 00:06:18.770 align:start position:0%
+the number<c.colorCCCCCC> of</c><c.colorE5E5E5> bad items</c><c.colorCCCCCC> you delay</c><c.colorE5E5E5> can
+you<00:06:16.350><c> deliver</c><00:06:16.560><c> so</c><00:06:17.550><c> in</c><00:06:17.669><c> other</c><00:06:17.790><c> words</c><00:06:18.090><c> we</c><00:06:18.390><c> could</c></c>
+
+00:06:18.770 --> 00:06:18.780 align:start position:0%
+you deliver<c.colorE5E5E5> so in other words we could
+ </c>
+
+00:06:18.780 --> 00:06:24.760 align:start position:0%
+you deliver<c.colorE5E5E5> so in other words we could
+kind<00:06:19.380><c> of</c><00:06:19.530><c> just</c><00:06:21.380><c> treat</c><00:06:22.380><c> this</c><00:06:22.560><c> as</c><00:06:22.880><c> almost</c><00:06:23.880><c> a</c><00:06:24.270><c> in</c></c>
+
+00:06:24.760 --> 00:06:24.770 align:start position:0%
+kind of just<c.colorE5E5E5> treat this as almost a in
+ </c>
+
+00:06:24.770 --> 00:06:28.100 align:start position:0%
+kind of just<c.colorE5E5E5> treat this as almost a in</c>
+<c.colorCCCCCC>gamboling<00:06:25.770><c> game</c></c><c.colorE5E5E5><00:06:26.040><c> if</c><00:06:26.729><c> you</c><00:06:26.910><c> delete</c><00:06:27.270><c> if</c><00:06:27.960><c> you</c></c>
+
+00:06:28.100 --> 00:06:28.110 align:start position:0%
+<c.colorCCCCCC>gamboling game</c><c.colorE5E5E5> if you delete if you
+ </c>
+
+00:06:28.110 --> 00:06:30.980 align:start position:0%
+<c.colorCCCCCC>gamboling game</c><c.colorE5E5E5> if you delete if you
+deliver<00:06:28.440><c> one</c><00:06:29.220><c> good</c><00:06:29.460><c> item</c></c><c.colorCCCCCC><00:06:29.700><c> let's</c><00:06:30.330><c> say</c><00:06:30.540><c> you</c><00:06:30.600><c> win</c></c>
+
+00:06:30.980 --> 00:06:30.990 align:start position:0%
+deliver one good item<c.colorCCCCCC> let's say you win
+ </c>
+
+00:06:30.990 --> 00:06:34.730 align:start position:0%
+deliver one good item<c.colorCCCCCC> let's say you win</c>
+<c.colorCCCCCC>$3<00:06:31.650><c> you</c><00:06:32.100><c> gain</c><00:06:32.340><c> three</c><00:06:32.640><c> down</c><00:06:32.820><c> to</c><00:06:33.060><c> the</c><00:06:33.180><c> $3</c></c><c.colorE5E5E5><00:06:33.690><c> but</c><00:06:34.650><c> if</c></c>
+
+00:06:34.730 --> 00:06:34.740 align:start position:0%
+<c.colorCCCCCC>$3 you gain three down to the $3</c><c.colorE5E5E5> but if
+ </c>
+
+00:06:34.740 --> 00:06:36.710 align:start position:0%
+<c.colorCCCCCC>$3 you gain three down to the $3</c><c.colorE5E5E5> but if
+you<00:06:34.830><c> deliver</c><00:06:35.190><c> a</c></c><c.colorCCCCCC><00:06:35.340><c> bad</c><00:06:35.700><c> one</c><00:06:35.970><c> and</c></c><c.colorE5E5E5><00:06:36.300><c> you</c><00:06:36.450><c> will</c><00:06:36.570><c> lose</c></c>
+
+00:06:36.710 --> 00:06:36.720 align:start position:0%
+you deliver a<c.colorCCCCCC> bad one and</c><c.colorE5E5E5> you will lose
+ </c>
+
+00:06:36.720 --> 00:06:39.440 align:start position:0%
+you deliver a<c.colorCCCCCC> bad one and</c><c.colorE5E5E5> you will lose
+$2<00:06:37.349><c> and</c><00:06:37.560><c> this</c><00:06:37.860><c> utility</c><00:06:38.370><c> function</c><00:06:38.450><c> basically</c></c>
+
+00:06:39.440 --> 00:06:39.450 align:start position:0%
+$2 and this utility function<c.colorE5E5E5> basically
+ </c>
+
+00:06:39.450 --> 00:06:40.300 align:start position:0%
+$2 and this utility function<c.colorE5E5E5> basically
+kind<00:06:39.810><c> of</c></c><c.colorCCCCCC><00:06:39.900><c> mash</c></c>
+
+00:06:40.300 --> 00:06:40.310 align:start position:0%
+kind of<c.colorCCCCCC> mash
+ </c>
+
+00:06:40.310 --> 00:06:43.420 align:start position:0%
+kind of<c.colorCCCCCC> mash
+how<00:06:41.210><c> much</c><00:06:41.389><c> money</c></c><c.colorE5E5E5><00:06:41.600><c> you</c><00:06:41.930><c> get</c><00:06:42.590><c> by</c><00:06:42.860><c> doing</c></c><c.colorCCCCCC><00:06:42.920><c> this</c></c>
+
+00:06:43.420 --> 00:06:43.430 align:start position:0%
+how much money<c.colorE5E5E5> you get by doing</c><c.colorCCCCCC> this
+ </c>
+
+00:06:43.430 --> 00:06:49.090 align:start position:0%
+how much money<c.colorE5E5E5> you get by doing</c><c.colorCCCCCC> this</c>
+<c.colorE5E5E5>kind<00:06:43.730><c> of</c><00:06:43.880><c> game</c><00:06:44.240><c> I</c><00:06:44.980><c> and</c><00:06:45.980><c> so</c><00:06:46.700><c> it's</c><00:06:47.510><c> clear</c><00:06:47.900><c> that</c><00:06:48.260><c> if</c></c>
+
+00:06:49.090 --> 00:06:49.100 align:start position:0%
+<c.colorE5E5E5>kind of game I and so it's clear that if
+ </c>
+
+00:06:49.100 --> 00:06:51.370 align:start position:0%
+<c.colorE5E5E5>kind of game I and so it's clear that if
+you</c><c.colorCCCCCC><00:06:49.790><c> want</c><00:06:50.090><c> to</c></c><c.colorE5E5E5><00:06:50.210><c> maximize</c><00:06:50.660><c> this</c><00:06:50.870><c> utility</c></c>
+
+00:06:51.370 --> 00:06:51.380 align:start position:0%
+you<c.colorCCCCCC> want to</c><c.colorE5E5E5> maximize this utility
+ </c>
+
+00:06:51.380 --> 00:06:53.650 align:start position:0%
+you<c.colorCCCCCC> want to</c><c.colorE5E5E5> maximize this utility
+function</c><c.colorCCCCCC><00:06:51.490><c> your</c><00:06:52.490><c> strategy</c><00:06:53.120><c> should</c><00:06:53.150><c> be</c><00:06:53.330><c> to</c></c>
+
+00:06:53.650 --> 00:06:53.660 align:start position:0%
+function<c.colorCCCCCC> your strategy should be to
+ </c>
+
+00:06:53.660 --> 00:06:56.500 align:start position:0%
+function<c.colorCCCCCC> your strategy should be to
+deliver</c><c.colorE5E5E5><00:06:53.900><c> as</c><00:06:54.380><c> many</c><00:06:55.070><c> good</c><00:06:55.730><c> articles</c><00:06:56.120><c> as</c></c>
+
+00:06:56.500 --> 00:06:56.510 align:start position:0%
+deliver<c.colorE5E5E5> as many good articles as
+ </c>
+
+00:06:56.510 --> 00:06:59.200 align:start position:0%
+deliver<c.colorE5E5E5> as many good articles as
+possible<00:06:56.990><c> and</c><00:06:57.400><c> minimize</c><00:06:58.400><c> the</c><00:06:58.669><c> delivery</c><00:06:59.120><c> of</c></c>
+
+00:06:59.200 --> 00:06:59.210 align:start position:0%
+possible<c.colorE5E5E5> and minimize the delivery of
+ </c>
+
+00:06:59.210 --> 00:07:02.520 align:start position:0%
+possible<c.colorE5E5E5> and minimize the delivery of
+bad<00:06:59.780><c> articles</c><00:07:00.350><c> now</c><00:07:01.100><c> that's</c><00:07:01.370><c> obvious</c><00:07:01.850><c> right</c></c>
+
+00:07:02.520 --> 00:07:02.530 align:start position:0%
+bad articles<c.colorE5E5E5> now that's obvious right
+ </c>
+
+00:07:02.530 --> 00:07:06.250 align:start position:0%
+bad articles<c.colorE5E5E5> now that's obvious right
+now<00:07:03.530><c> one</c></c><c.colorCCCCCC><00:07:03.710><c> interesting</c><00:07:04.130><c> question</c></c><c.colorE5E5E5><00:07:04.250><c> here</c><00:07:04.850><c> is</c><00:07:05.260><c> how</c></c>
+
+00:07:06.250 --> 00:07:06.260 align:start position:0%
+now one<c.colorCCCCCC> interesting question</c><c.colorE5E5E5> here is how
+ </c>
+
+00:07:06.260 --> 00:07:08.140 align:start position:0%
+now one<c.colorCCCCCC> interesting question</c><c.colorE5E5E5> here is how
+should<00:07:06.530><c> we</c><00:07:06.710><c> set</c><00:07:06.980><c> these</c><00:07:07.220><c> coefficients</c><00:07:07.910><c> now</c><00:07:08.120><c> I</c></c>
+
+00:07:08.140 --> 00:07:08.150 align:start position:0%
+should we set<c.colorE5E5E5> these coefficients now I
+ </c>
+
+00:07:08.150 --> 00:07:10.750 align:start position:0%
+should we set<c.colorE5E5E5> these coefficients now I</c>
+<c.colorCCCCCC>just<00:07:08.419><c> show</c><00:07:08.600><c> the</c><00:07:08.720><c> three</c></c><c.colorE5E5E5><00:07:08.960><c> and</c><00:07:09.350><c> the</c><00:07:09.919><c> negative</c><00:07:10.400><c> two</c></c>
+
+00:07:10.750 --> 00:07:10.760 align:start position:0%
+<c.colorCCCCCC>just show the three</c><c.colorE5E5E5> and the negative two
+ </c>
+
+00:07:10.760 --> 00:07:14.560 align:start position:0%
+<c.colorCCCCCC>just show the three</c><c.colorE5E5E5> and the negative two
+as<00:07:11.630><c> is</c><00:07:11.930><c> the</c><00:07:12.050><c> possible</c><00:07:12.470><c> coefficients</c><00:07:13.210><c> but</c><00:07:14.210><c> one</c></c>
+
+00:07:14.560 --> 00:07:14.570 align:start position:0%
+as is the<c.colorE5E5E5> possible coefficients but one
+ </c>
+
+00:07:14.570 --> 00:07:17.070 align:start position:0%
+as is the<c.colorE5E5E5> possible coefficients but one
+can<00:07:14.780><c> ask</c><00:07:14.990><c> the</c></c><c.colorCCCCCC><00:07:15.200><c> question</c><00:07:15.680><c> are</c><00:07:15.830><c> they</c><00:07:16.280><c> reasonable</c></c>
+
+00:07:17.070 --> 00:07:17.080 align:start position:0%
+can ask the<c.colorCCCCCC> question are they reasonable
+ </c>
+
+00:07:17.080 --> 00:07:21.610 align:start position:0%
+can ask the<c.colorCCCCCC> question are they reasonable</c>
+<c.colorE5E5E5>so<00:07:18.080><c> what</c><00:07:18.560><c> do</c><00:07:18.650><c> you</c><00:07:18.710><c> think</c><00:07:20.140><c> do</c><00:07:21.140><c> you</c><00:07:21.200><c> think</c></c><c.colorCCCCCC><00:07:21.290><c> of</c></c>
+
+00:07:21.610 --> 00:07:21.620 align:start position:0%
+<c.colorE5E5E5>so what do you think do you think</c><c.colorCCCCCC> of
+ </c>
+
+00:07:21.620 --> 00:07:23.530 align:start position:0%
+<c.colorE5E5E5>so what do you think do you think</c><c.colorCCCCCC> of
+that<00:07:21.710><c> sort</c><00:07:22.010><c> of</c><00:07:22.040><c> reasonable</c><00:07:22.460><c> choice</c></c><c.colorE5E5E5><00:07:22.700><c> what</c></c>
+
+00:07:23.530 --> 00:07:23.540 align:start position:0%
+<c.colorCCCCCC>that sort of reasonable choice</c><c.colorE5E5E5> what
+ </c>
+
+00:07:23.540 --> 00:07:26.530 align:start position:0%
+<c.colorCCCCCC>that sort of reasonable choice</c><c.colorE5E5E5> what
+about<00:07:23.750><c> the</c><00:07:23.870><c> other</c><00:07:24.020><c> choices</c></c><c.colorCCCCCC><00:07:24.320><c> you</c><00:07:25.210><c> know</c><00:07:26.210><c> so</c></c><c.colorE5E5E5><00:07:26.390><c> for</c></c>
+
+00:07:26.530 --> 00:07:26.540 align:start position:0%
+<c.colorE5E5E5>about the other choices</c><c.colorCCCCCC> you know so</c><c.colorE5E5E5> for
+ </c>
+
+00:07:26.540 --> 00:07:30.310 align:start position:0%
+<c.colorE5E5E5>about the other choices</c><c.colorCCCCCC> you know so</c><c.colorE5E5E5> for
+example<00:07:27.020><c> we</c><00:07:27.440><c> can</c><00:07:27.590><c> have</c></c><c.colorCCCCCC><00:07:27.620><c> ten</c><00:07:28.160><c> and</c><00:07:28.190><c> a</c><00:07:28.490><c> minus</c><00:07:28.820><c> 1</c><00:07:29.320><c> or</c></c>
+
+00:07:30.310 --> 00:07:30.320 align:start position:0%
+example we can have<c.colorCCCCCC> ten and a minus 1 or
+ </c>
+
+00:07:30.320 --> 00:07:34.870 align:start position:0%
+example we can have<c.colorCCCCCC> ten and a minus 1 or
+1<00:07:30.950><c> minus</c><00:07:31.910><c> 10</c><00:07:32.410><c> what's</c><00:07:33.410><c> the</c></c><c.colorE5E5E5><00:07:33.560><c> difference</c><00:07:34.070><c> what</c><00:07:34.790><c> do</c></c>
+
+00:07:34.870 --> 00:07:34.880 align:start position:0%
+1 minus 10 what's the<c.colorE5E5E5> difference what do
+ </c>
+
+00:07:34.880 --> 00:07:38.050 align:start position:0%
+1 minus 10 what's the<c.colorE5E5E5> difference what do
+you<00:07:34.970><c> think</c><00:07:35.950><c> how</c></c><c.colorCCCCCC><00:07:36.950><c> would</c><00:07:37.160><c> this</c><00:07:37.370><c> utility</c></c>
+
+00:07:38.050 --> 00:07:38.060 align:start position:0%
+you think how<c.colorCCCCCC> would this utility
+ </c>
+
+00:07:38.060 --> 00:07:41.260 align:start position:0%
+you think how<c.colorCCCCCC> would this utility
+function</c><c.colorE5E5E5><00:07:38.090><c> affect</c><00:07:38.780><c> the</c><00:07:39.100><c> system's</c><00:07:40.270><c> threshold</c></c>
+
+00:07:41.260 --> 00:07:41.270 align:start position:0%
+function<c.colorE5E5E5> affect the system's threshold
+ </c>
+
+00:07:41.270 --> 00:07:44.620 align:start position:0%
+function<c.colorE5E5E5> affect the system's threshold
+decision<00:07:42.639><c> right</c><00:07:43.639><c> you</c><00:07:44.000><c> can</c><00:07:44.150><c> think</c><00:07:44.330><c> of</c><00:07:44.419><c> these</c></c>
+
+00:07:44.620 --> 00:07:44.630 align:start position:0%
+decision<c.colorE5E5E5> right you can think of these
+ </c>
+
+00:07:44.630 --> 00:07:48.820 align:start position:0%
+decision<c.colorE5E5E5> right you can think of these
+two<00:07:44.870><c> extreme</c><00:07:45.229><c> cases</c></c><c.colorCCCCCC><00:07:45.440><c> 10</c></c><c.colorE5E5E5><00:07:45.919><c> minus</c><00:07:46.340><c> 1</c></c><c.colorCCCCCC><00:07:46.370><c> vs.</c></c><c.colorE5E5E5><00:07:47.290><c> 1</c><00:07:48.290><c> minus</c></c>
+
+00:07:48.820 --> 00:07:48.830 align:start position:0%
+two extreme cases<c.colorCCCCCC> 10</c><c.colorE5E5E5> minus 1</c><c.colorCCCCCC> vs.</c><c.colorE5E5E5> 1 minus
+ </c>
+
+00:07:48.830 --> 00:07:50.860 align:start position:0%
+two extreme cases<c.colorCCCCCC> 10</c><c.colorE5E5E5> minus 1</c><c.colorCCCCCC> vs.</c><c.colorE5E5E5> 1 minus
+10<00:07:49.070><c> which</c><00:07:49.970><c> one</c><00:07:50.240><c> do</c><00:07:50.360><c> you</c><00:07:50.419><c> think</c><00:07:50.510><c> I</c><00:07:50.750><c> would</c></c>
+
+00:07:50.860 --> 00:07:50.870 align:start position:0%
+10 which one do you<c.colorE5E5E5> think I would
+ </c>
+
+00:07:50.870 --> 00:07:53.890 align:start position:0%
+10 which one do you<c.colorE5E5E5> think I would
+encourage<00:07:51.290><c> in</c><00:07:51.560><c> a</c><00:07:51.650><c> system</c><00:07:52.100><c> to</c></c><c.colorCCCCCC><00:07:52.550><c> over-deliver</c></c>
+
+00:07:53.890 --> 00:07:53.900 align:start position:0%
+<c.colorE5E5E5>encourage in a system to</c><c.colorCCCCCC> over-deliver
+ </c>
+
+00:07:53.900 --> 00:07:56.230 align:start position:0%
+<c.colorE5E5E5>encourage in a system to</c><c.colorCCCCCC> over-deliver
+which<00:07:54.380><c> one</c><00:07:54.680><c> would</c><00:07:55.130><c> encourage</c><00:07:55.520><c> the</c><00:07:55.700><c> system</c><00:07:56.060><c> to</c></c>
+
+00:07:56.230 --> 00:07:56.240 align:start position:0%
+which one would encourage the system to
+ 
+
+00:07:56.240 --> 00:07:58.750 align:start position:0%
+which one would encourage the system to
+be<00:07:56.360><c> conservative</c><c.colorCCCCCC><00:07:56.800><c> yeah</c><00:07:57.800><c> if</c><00:07:58.340><c> you</c><00:07:58.490><c> think</c><00:07:58.520><c> about</c></c>
+
+00:07:58.750 --> 00:07:58.760 align:start position:0%
+be conservative<c.colorCCCCCC> yeah if you think about
+ </c>
+
+00:07:58.760 --> 00:08:01.420 align:start position:0%
+be conservative<c.colorCCCCCC> yeah if you think about</c>
+<c.colorE5E5E5>that<00:07:59.030><c> they</c><00:07:59.120><c> will</c><00:07:59.300><c> see</c><00:07:59.510><c> that</c><00:07:59.919><c> when</c><00:08:00.919><c> we</c><00:08:01.190><c> get</c><00:08:01.400><c> a</c></c>
+
+00:08:01.420 --> 00:08:01.430 align:start position:0%
+<c.colorE5E5E5>that they will see that when we get a
+ </c>
+
+00:08:01.430 --> 00:08:04.270 align:start position:0%
+<c.colorE5E5E5>that they will see that when we get a
+big<00:08:01.520><c> award</c><00:08:02.150><c> for</c><00:08:02.720><c> delivering</c><00:08:03.289><c> a</c><00:08:03.410><c> good</c><00:08:03.650><c> document</c></c>
+
+00:08:04.270 --> 00:08:04.280 align:start position:0%
+big<c.colorE5E5E5> award for delivering a good document
+ </c>
+
+00:08:04.280 --> 00:08:06.790 align:start position:0%
+big<c.colorE5E5E5> award for delivering a good document
+you<00:08:04.820><c> incur</c><00:08:05.479><c> only</c><00:08:05.750><c> a</c><00:08:05.810><c> small</c><00:08:06.169><c> penalty</c><00:08:06.440><c> for</c></c>
+
+00:08:06.790 --> 00:08:06.800 align:start position:0%
+you incur only a small penalty<c.colorE5E5E5> for
+ </c>
+
+00:08:06.800 --> 00:08:09.250 align:start position:0%
+you incur only a small penalty<c.colorE5E5E5> for
+delivering<00:08:07.280><c> a</c><00:08:07.340><c> better</c><00:08:07.550><c> one</c><00:08:07.930><c> intuitively</c><00:08:08.930><c> you</c></c>
+
+00:08:09.250 --> 00:08:09.260 align:start position:0%
+delivering a<c.colorE5E5E5> better one intuitively you
+ </c>
+
+00:08:09.260 --> 00:08:10.659 align:start position:0%
+delivering a<c.colorE5E5E5> better one intuitively you
+would<00:08:09.289><c> be</c><00:08:09.530><c> encouraging</c><00:08:10.010><c> to</c><00:08:10.100><c> deliver</c><00:08:10.430><c> more</c></c>
+
+00:08:10.659 --> 00:08:10.669 align:start position:0%
+would be encouraging<c.colorE5E5E5> to deliver more
+ </c>
+
+00:08:10.669 --> 00:08:13.690 align:start position:0%
+would be encouraging<c.colorE5E5E5> to deliver more</c>
+<c.colorE5E5E5>right<00:08:11.060><c> and</c><00:08:11.270><c> you</c><00:08:12.020><c> can</c><00:08:12.200><c> try</c><00:08:12.530><c> to</c><00:08:12.590><c> deliver</c><00:08:12.950><c> more</c><00:08:13.190><c> in</c></c>
+
+00:08:13.690 --> 00:08:13.700 align:start position:0%
+<c.colorE5E5E5>right and you can try to deliver more in
+ </c>
+
+00:08:13.700 --> 00:08:16.240 align:start position:0%
+<c.colorE5E5E5>right and you can try to deliver more in
+hope<00:08:13.970><c> of</c><00:08:14.120><c> getting</c><00:08:14.750><c> a</c><00:08:15.020><c> good</c><00:08:15.169><c> one</c><00:08:15.380><c> delivered</c><00:08:16.039><c> and</c></c>
+
+00:08:16.240 --> 00:08:16.250 align:start position:0%
+hope of getting a good one<c.colorE5E5E5> delivered and
+ </c>
+
+00:08:16.250 --> 00:08:19.810 align:start position:0%
+hope of getting a good one<c.colorE5E5E5> delivered and
+then</c><c.colorCCCCCC><00:08:16.580><c> will</c><00:08:16.789><c> get</c></c><c.colorE5E5E5><00:08:16.910><c> a</c><00:08:16.970><c> big</c><00:08:17.210><c> reward</c></c><c.colorCCCCCC><00:08:18.430><c> all</c><00:08:19.430><c> right</c><00:08:19.520><c> so</c></c>
+
+00:08:19.810 --> 00:08:19.820 align:start position:0%
+then<c.colorCCCCCC> will get</c><c.colorE5E5E5> a big reward</c><c.colorCCCCCC> all right so
+ </c>
+
+00:08:19.820 --> 00:08:22.600 align:start position:0%
+then<c.colorCCCCCC> will get</c><c.colorE5E5E5> a big reward</c><c.colorCCCCCC> all right so
+on<00:08:20.600><c> the</c><00:08:20.810><c> other</c><00:08:20.900><c> hand</c><00:08:21.200><c> if</c><00:08:21.380><c> you</c><00:08:21.500><c> choose</c><00:08:21.770><c> 1</c><00:08:22.130><c> minus</c></c>
+
+00:08:22.600 --> 00:08:22.610 align:start position:0%
+on the other hand if you choose<c.colorCCCCCC> 1 minus
+ </c>
+
+00:08:22.610 --> 00:08:25.210 align:start position:0%
+on the other hand if you choose<c.colorCCCCCC> 1 minus
+10</c><c.colorE5E5E5><00:08:22.850><c> you</c><00:08:23.300><c> don't</c><00:08:23.450><c> really</c><00:08:23.660><c> get</c><00:08:23.960><c> such</c><00:08:24.620><c> a</c><00:08:24.650><c> big</c><00:08:24.979><c> price</c></c>
+
+00:08:25.210 --> 00:08:25.220 align:start position:0%
+10<c.colorE5E5E5> you don't really get such a big price
+ </c>
+
+00:08:25.220 --> 00:08:28.240 align:start position:0%
+10<c.colorE5E5E5> you don't really get such a big price</c>
+<c.colorE5E5E5>if<00:08:25.580><c> you</c><00:08:25.760><c> didn't</c><00:08:26.060><c> deliver</c><00:08:26.600><c> a</c><00:08:26.780><c> good</c><00:08:27.229><c> document</c><00:08:28.010><c> on</c></c>
+
+00:08:28.240 --> 00:08:28.250 align:start position:0%
+<c.colorE5E5E5>if you didn't deliver a good document on
+ </c>
+
+00:08:28.250 --> 00:08:30.040 align:start position:0%
+<c.colorE5E5E5>if you didn't deliver a good document on
+the<00:08:28.640><c> other</c><00:08:28.760><c> hand</c><00:08:29.120><c> you</c><00:08:29.210><c> will</c><00:08:29.360><c> have</c><00:08:29.600><c> a</c><00:08:29.630><c> big</c><00:08:29.840><c> loss</c></c>
+
+00:08:30.040 --> 00:08:30.050 align:start position:0%
+the other hand you will have a big loss
+ 
+
+00:08:30.050 --> 00:08:31.840 align:start position:0%
+the other hand you will have a big loss
+if<c.colorE5E5E5><00:08:30.320><c> you</c><00:08:30.440><c> deliver</c><00:08:30.740><c> better</c><00:08:31.070><c> one</c><00:08:31.340><c> you</c><00:08:31.669><c> can</c></c>
+
+00:08:31.840 --> 00:08:31.850 align:start position:0%
+if<c.colorE5E5E5> you deliver better one you can
+ </c>
+
+00:08:31.850 --> 00:08:33.820 align:start position:0%
+if<c.colorE5E5E5> you deliver better one you can
+imagine<00:08:32.089><c> that</c><00:08:32.330><c> the</c><00:08:32.780><c> system</c><00:08:33.169><c> would</c></c><c.colorCCCCCC><00:08:33.320><c> be</c><00:08:33.500><c> very</c></c>
+
+00:08:33.820 --> 00:08:33.830 align:start position:0%
+imagine that the system<c.colorE5E5E5> would</c><c.colorCCCCCC> be very
+ </c>
+
+00:08:33.830 --> 00:08:36.520 align:start position:0%
+imagine that the system<c.colorE5E5E5> would</c><c.colorCCCCCC> be very
+reluctant</c><c.colorE5E5E5><00:08:34.400><c> to</c><00:08:34.820><c> deliver</c><00:08:35.599><c> a</c><00:08:35.719><c> lot</c><00:08:35.810><c> of</c><00:08:36.020><c> documents</c></c>
+
+00:08:36.520 --> 00:08:36.530 align:start position:0%
+reluctant<c.colorE5E5E5> to deliver a lot of documents
+ </c>
+
+00:08:36.530 --> 00:08:38.950 align:start position:0%
+reluctant<c.colorE5E5E5> to deliver a lot of documents</c>
+<c.colorE5E5E5>it</c><c.colorCCCCCC><00:08:36.680><c> has</c><00:08:36.950><c> to</c><00:08:37.070><c> be</c><00:08:37.159><c> absolutely</c><00:08:37.760><c> sure</c><00:08:37.849><c> that</c><00:08:38.690><c> it's</c></c>
+
+00:08:38.950 --> 00:08:38.960 align:start position:0%
+<c.colorE5E5E5>it</c><c.colorCCCCCC> has to be absolutely sure that it's
+ </c>
+
+00:08:38.960 --> 00:08:42.219 align:start position:0%
+<c.colorE5E5E5>it</c><c.colorCCCCCC> has to be absolutely sure that it's
+not<00:08:39.370><c> another</c></c><c.colorE5E5E5><00:08:40.370><c> than</c><00:08:40.550><c> the</c></c><c.colorCCCCCC><00:08:40.640><c> one</c><00:08:40.760><c> so</c></c><c.colorE5E5E5><00:08:41.510><c> this</c><00:08:41.659><c> utility</c></c>
+
+00:08:42.219 --> 00:08:42.229 align:start position:0%
+not<c.colorCCCCCC> another</c><c.colorE5E5E5> than the</c><c.colorCCCCCC> one so</c><c.colorE5E5E5> this utility
+ </c>
+
+00:08:42.229 --> 00:08:43.930 align:start position:0%
+not<c.colorCCCCCC> another</c><c.colorE5E5E5> than the</c><c.colorCCCCCC> one so</c><c.colorE5E5E5> this utility
+function<00:08:42.260><c> has</c><00:08:42.740><c> to</c><00:08:42.860><c> be</c><00:08:42.890><c> designed</c><00:08:43.099><c> based</c><00:08:43.669><c> on</c></c><c.colorCCCCCC><00:08:43.880><c> a</c></c>
+
+00:08:43.930 --> 00:08:43.940 align:start position:0%
+function has to be<c.colorE5E5E5> designed based on</c><c.colorCCCCCC> a
+ </c>
+
+00:08:43.940 --> 00:08:46.600 align:start position:0%
+function has to be<c.colorE5E5E5> designed based on</c><c.colorCCCCCC> a
+specific<00:08:44.600><c> application</c><00:08:45.010><c> this</c><00:08:46.010><c> replaced</c><00:08:46.460><c> the</c></c>
+
+00:08:46.600 --> 00:08:46.610 align:start position:0%
+specific application<c.colorCCCCCC> this replaced the
+ </c>
+
+00:08:46.610 --> 00:08:48.420 align:start position:0%
+specific application<c.colorCCCCCC> this replaced the
+problems<00:08:47.000><c> in</c><00:08:47.210><c> content-based</c><00:08:47.810><c> filtering</c></c>
+
+00:08:48.420 --> 00:08:48.430 align:start position:0%
+problems in content-based filtering
+ 
+
+00:08:48.430 --> 00:08:52.140 align:start position:0%
+problems in content-based filtering
+<c.colorCCCCCC>Artforum<00:08:49.430><c> first</c><00:08:49.850><c> it</c><00:08:50.839><c> has</c></c><c.colorE5E5E5><00:08:51.050><c> to</c></c>
+
+00:08:52.140 --> 00:08:52.150 align:start position:0%
+<c.colorCCCCCC>Artforum first it has</c><c.colorE5E5E5> to
+ </c>
+
+00:08:52.150 --> 00:08:54.180 align:start position:0%
+<c.colorCCCCCC>Artforum first it has</c><c.colorE5E5E5> to
+make<00:08:52.450><c> a</c><00:08:52.480><c> filtering</c><00:08:52.990><c> decision</c><00:08:53.410><c> so</c><00:08:53.740><c> it</c><00:08:53.860><c> has</c><00:08:54.040><c> to</c></c>
+
+00:08:54.180 --> 00:08:54.190 align:start position:0%
+make a filtering decision<c.colorE5E5E5> so it has to
+ </c>
+
+00:08:54.190 --> 00:08:56.970 align:start position:0%
+make a filtering decision<c.colorE5E5E5> so it has to
+be<00:08:54.279><c> a</c><00:08:54.310><c> binary</c><00:08:54.610><c> decision</c><00:08:55.380><c> maker</c><00:08:56.380><c> a</c><00:08:56.680><c> binary</c></c>
+
+00:08:56.970 --> 00:08:56.980 align:start position:0%
+be a binary decision<c.colorE5E5E5> maker a binary
+ </c>
+
+00:08:56.980 --> 00:09:00.870 align:start position:0%
+be a binary decision<c.colorE5E5E5> maker a binary
+classifier<00:08:57.640><c> given</c><00:08:58.420><c> a</c><00:08:58.540><c> text</c><00:08:59.400><c> text</c><00:09:00.400><c> document</c></c>
+
+00:09:00.870 --> 00:09:00.880 align:start position:0%
+classifier<c.colorE5E5E5> given a text text document
+ </c>
+
+00:09:00.880 --> 00:09:03.570 align:start position:0%
+classifier<c.colorE5E5E5> given a text text document
+and<00:09:00.940><c> a</c><00:09:01.390><c> profile</c></c><c.colorCCCCCC><00:09:01.810><c> description</c><00:09:02.620><c> of</c><00:09:02.770><c> the</c><00:09:02.890><c> user</c><00:09:03.070><c> it</c></c>
+
+00:09:03.570 --> 00:09:03.580 align:start position:0%
+and<c.colorE5E5E5> a profile</c><c.colorCCCCCC> description of the user it
+ </c>
+
+00:09:03.580 --> 00:09:05.880 align:start position:0%
+and<c.colorE5E5E5> a profile</c><c.colorCCCCCC> description of the user it
+has<00:09:03.820><c> to</c><00:09:04.000><c> say</c><00:09:04.180><c> yes</c></c><c.colorE5E5E5><00:09:04.450><c> or</c><00:09:04.750><c> no</c><00:09:04.810><c> whether</c></c><c.colorCCCCCC><00:09:05.589><c> this</c></c>
+
+00:09:05.880 --> 00:09:05.890 align:start position:0%
+has to say yes<c.colorE5E5E5> or no whether</c><c.colorCCCCCC> this
+ </c>
+
+00:09:05.890 --> 00:09:08.070 align:start position:0%
+has to say yes<c.colorE5E5E5> or no whether</c><c.colorCCCCCC> this</c>
+<c.colorE5E5E5>document<00:09:06.310><c> should</c><00:09:06.400><c> be</c></c><c.colorCCCCCC><00:09:06.460><c> deleted</c></c><c.colorE5E5E5><00:09:06.940><c> or</c><00:09:07.060><c> not</c><00:09:07.240><c> so</c></c>
+
+00:09:08.070 --> 00:09:08.080 align:start position:0%
+<c.colorE5E5E5>document should be</c><c.colorCCCCCC> deleted</c><c.colorE5E5E5> or not so
+ </c>
+
+00:09:08.080 --> 00:09:11.280 align:start position:0%
+<c.colorE5E5E5>document should be</c><c.colorCCCCCC> deleted</c><c.colorE5E5E5> or not so
+that's<00:09:08.290><c> a</c><00:09:08.470><c> decision</c></c><c.colorCCCCCC><00:09:09.060><c> module</c><00:09:10.060><c> and</c><00:09:10.330><c> they</c><00:09:11.140><c> should</c></c>
+
+00:09:11.280 --> 00:09:11.290 align:start position:0%
+that's<c.colorE5E5E5> a decision</c><c.colorCCCCCC> module and they should
+ </c>
+
+00:09:11.290 --> 00:09:13.050 align:start position:0%
+that's<c.colorE5E5E5> a decision</c><c.colorCCCCCC> module and they should
+be<00:09:11.440><c> initialization</c><00:09:12.310><c> module</c><00:09:12.580><c> as</c><00:09:12.790><c> you</c><00:09:12.940><c> have</c></c>
+
+00:09:13.050 --> 00:09:13.060 align:start position:0%
+be initialization module as you have
+ 
+
+00:09:13.060 --> 00:09:15.180 align:start position:0%
+be initialization module as you have
+seen<c.colorE5E5E5><00:09:13.270><c> earlier</c><00:09:13.420><c> and</c><00:09:13.779><c> this</c><00:09:14.320><c> is</c><00:09:14.620><c> a</c><00:09:14.650><c> recap</c><00:09:15.010><c> the</c></c>
+
+00:09:15.180 --> 00:09:15.190 align:start position:0%
+seen<c.colorE5E5E5> earlier and this is a recap the
+ </c>
+
+00:09:15.190 --> 00:09:18.269 align:start position:0%
+seen<c.colorE5E5E5> earlier and this is a recap the
+system<00:09:15.580><c> started</c><00:09:16.210><c> and</c><00:09:16.589><c> we</c><00:09:17.589><c> have</c><00:09:17.740><c> to</c><00:09:17.890><c> initialize</c></c>
+
+00:09:18.269 --> 00:09:18.279 align:start position:0%
+system started and we have to initialize
+ 
+
+00:09:18.279 --> 00:09:21.530 align:start position:0%
+system started and we have to initialize
+<c.colorCCCCCC>the<00:09:18.520><c> system</c><00:09:19.240><c> based</c><00:09:19.810><c> on</c><00:09:20.080><c> only</c></c><c.colorE5E5E5><00:09:20.380><c> very</c><00:09:21.160><c> limited</c></c>
+
+00:09:21.530 --> 00:09:21.540 align:start position:0%
+<c.colorCCCCCC>the system based on only</c><c.colorE5E5E5> very limited
+ </c>
+
+00:09:21.540 --> 00:09:24.480 align:start position:0%
+<c.colorCCCCCC>the system based on only</c><c.colorE5E5E5> very limited</c>
+<c.colorCCCCCC>taxes<00:09:22.540><c> description</c><00:09:23.020><c> or</c><00:09:23.200><c> very</c><00:09:23.620><c> few</c><00:09:23.830><c> examples</c></c>
+
+00:09:24.480 --> 00:09:24.490 align:start position:0%
+<c.colorCCCCCC>taxes description or very few examples
+ </c>
+
+00:09:24.490 --> 00:09:28.260 align:start position:0%
+<c.colorCCCCCC>taxes description or very few examples
+from<00:09:24.790><c> the</c><00:09:25.000><c> user</c><00:09:25.180><c> and</c><00:09:26.520><c> the</c><00:09:27.520><c> third</c></c><c.colorE5E5E5><00:09:27.700><c> component</c><00:09:28.029><c> is</c></c>
+
+00:09:28.260 --> 00:09:28.270 align:start position:0%
+from the user<c.colorCCCCCC> and the third</c><c.colorE5E5E5> component is
+ </c>
+
+00:09:28.270 --> 00:09:30.540 align:start position:0%
+from the user<c.colorCCCCCC> and the third</c><c.colorE5E5E5> component is</c>
+<c.colorCCCCCC>the<00:09:28.330><c> learning</c></c><c.colorE5E5E5><00:09:28.750><c> module</c><00:09:29.080><c> which</c><00:09:29.470><c> he</c><00:09:29.650><c> had</c><00:09:29.830><c> has</c><00:09:30.430><c> to</c></c>
+
+00:09:30.540 --> 00:09:30.550 align:start position:0%
+<c.colorCCCCCC>the learning</c><c.colorE5E5E5> module which he had has to
+ </c>
+
+00:09:30.550 --> 00:09:32.280 align:start position:0%
+<c.colorCCCCCC>the learning</c><c.colorE5E5E5> module which he had has to
+be<00:09:30.640><c> able</c><00:09:30.730><c> to</c><00:09:30.880><c> learn</c><00:09:31.060><c> from</c><00:09:31.300><c> limited</c><00:09:31.930><c> relevance</c></c>
+
+00:09:32.280 --> 00:09:32.290 align:start position:0%
+be able<c.colorE5E5E5> to learn from limited relevance
+ </c>
+
+00:09:32.290 --> 00:09:36.930 align:start position:0%
+be able<c.colorE5E5E5> to learn from limited relevance</c>
+<c.colorCCCCCC>judgment<00:09:33.570><c> because</c><00:09:34.570><c> we</c></c><c.colorE5E5E5><00:09:35.200><c> count</c><00:09:35.680><c> and</c><00:09:35.890><c> learn</c><00:09:36.100><c> from</c></c>
+
+00:09:36.930 --> 00:09:36.940 align:start position:0%
+<c.colorCCCCCC>judgment because we</c><c.colorE5E5E5> count and learn from
+ </c>
+
+00:09:36.940 --> 00:09:39.780 align:start position:0%
+<c.colorCCCCCC>judgment because we</c><c.colorE5E5E5> count and learn from
+the<00:09:37.150><c> user</c><00:09:37.380><c> about</c><00:09:38.380><c> their</c><00:09:38.860><c> preferences</c><00:09:39.339><c> on</c><00:09:39.580><c> the</c></c>
+
+00:09:39.780 --> 00:09:39.790 align:start position:0%
+the user about<c.colorE5E5E5> their preferences on the
+ </c>
+
+00:09:39.790 --> 00:09:41.550 align:start position:0%
+the user about<c.colorE5E5E5> their preferences on the
+deliver<00:09:40.150><c> documents</c></c><c.colorCCCCCC><00:09:40.510><c> if</c><00:09:41.050><c> we</c><00:09:41.230><c> don't</c><00:09:41.410><c> deliver</c></c>
+
+00:09:41.550 --> 00:09:41.560 align:start position:0%
+deliver documents<c.colorCCCCCC> if we don't deliver
+ </c>
+
+00:09:41.560 --> 00:09:45.090 align:start position:0%
+deliver documents<c.colorCCCCCC> if we don't deliver
+document<00:09:42.220><c> to</c><00:09:42.279><c> the</c><00:09:42.370><c> user</c><00:09:42.550><c> would</c><00:09:43.120><c> never</c><00:09:43.450><c> know</c><00:09:44.100><c> we</c></c>
+
+00:09:45.090 --> 00:09:45.100 align:start position:0%
+document to the user would never know we
+ 
+
+00:09:45.100 --> 00:09:47.310 align:start position:0%
+document to the user would never know we
+would<00:09:45.220><c> never</c><00:09:45.460><c> be</c><c.colorCCCCCC><00:09:46.029><c> able</c><00:09:46.420><c> to</c></c><c.colorE5E5E5><00:09:46.480><c> know</c><00:09:46.690><c> whether</c><00:09:47.080><c> the</c></c>
+
+00:09:47.310 --> 00:09:47.320 align:start position:0%
+would never be<c.colorCCCCCC> able to</c><c.colorE5E5E5> know whether the
+ </c>
+
+00:09:47.320 --> 00:09:51.090 align:start position:0%
+would never be<c.colorCCCCCC> able to</c><c.colorE5E5E5> know whether the
+user<00:09:47.589><c> likes</c><00:09:48.339><c> it</c><00:09:48.520><c> or</c><00:09:48.670><c> not</c><00:09:48.750><c> right</c><00:09:49.750><c> and</c><00:09:49.990><c> we</c><00:09:50.920><c> can</c></c>
+
+00:09:51.090 --> 00:09:51.100 align:start position:0%
+user likes it or not<c.colorE5E5E5> right and we can
+ </c>
+
+00:09:51.100 --> 00:09:52.860 align:start position:0%
+user likes it or not<c.colorE5E5E5> right and we can
+accumulate<00:09:51.430><c> a</c><00:09:51.610><c> lot</c><00:09:51.850><c> of</c><00:09:51.970><c> documents</c></c><c.colorCCCCCC><00:09:52.630><c> you</c><00:09:52.720><c> can</c></c>
+
+00:09:52.860 --> 00:09:52.870 align:start position:0%
+accumulate a<c.colorE5E5E5> lot of documents</c><c.colorCCCCCC> you can
+ </c>
+
+00:09:52.870 --> 00:09:56.370 align:start position:0%
+accumulate a<c.colorE5E5E5> lot of documents</c><c.colorCCCCCC> you can</c>
+<c.colorE5E5E5>learn<00:09:53.080><c> from</c><00:09:53.500><c> the</c><00:09:54.190><c> entire</c><00:09:54.490><c> history</c></c><c.colorCCCCCC><00:09:55.200><c> and</c><00:09:56.200><c> all</c></c>
+
+00:09:56.370 --> 00:09:56.380 align:start position:0%
+<c.colorE5E5E5>learn from the entire history</c><c.colorCCCCCC> and all
+ </c>
+
+00:09:56.380 --> 00:09:59.040 align:start position:0%
+<c.colorE5E5E5>learn from the entire history</c><c.colorCCCCCC> and all
+these</c><c.colorE5E5E5><00:09:56.589><c> modules</c><00:09:57.070><c> would</c><00:09:57.490><c> have</c><00:09:57.850><c> to</c><00:09:58.029><c> be</c><00:09:58.540><c> optimized</c></c>
+
+00:09:59.040 --> 00:09:59.050 align:start position:0%
+these<c.colorE5E5E5> modules would have to be optimized
+ </c>
+
+00:09:59.050 --> 00:10:02.130 align:start position:0%
+these<c.colorE5E5E5> modules would have to be optimized</c>
+<c.colorCCCCCC>to<00:09:59.320><c> maximize</c><00:10:00.010><c> the</c><00:10:00.279><c> utility</c><00:10:00.580><c> so</c><00:10:01.540><c> how</c><00:10:01.720><c> can</c></c><c.colorE5E5E5><00:10:01.779><c> we</c><00:10:01.990><c> be</c></c>
+
+00:10:02.130 --> 00:10:02.140 align:start position:0%
+<c.colorCCCCCC>to maximize the utility so how can</c><c.colorE5E5E5> we be
+ </c>
+
+00:10:02.140 --> 00:10:03.540 align:start position:0%
+<c.colorCCCCCC>to maximize the utility so how can</c><c.colorE5E5E5> we be
+all<00:10:02.230><c> such</c><00:10:02.470><c> a</c><00:10:02.500><c> system</c><00:10:02.920><c> and</c></c><c.colorCCCCCC><00:10:02.980><c> there</c></c><c.colorE5E5E5><00:10:03.250><c> are</c><00:10:03.370><c> many</c></c>
+
+00:10:03.540 --> 00:10:03.550 align:start position:0%
+all such a system<c.colorE5E5E5> and</c><c.colorCCCCCC> there</c><c.colorE5E5E5> are many
+ </c>
+
+00:10:03.550 --> 00:10:06.240 align:start position:0%
+all such a system<c.colorE5E5E5> and</c><c.colorCCCCCC> there</c><c.colorE5E5E5> are many
+different<00:10:03.940><c> approaches</c><00:10:04.450><c> here</c></c><c.colorCCCCCC><00:10:05.320><c> we're</c></c><c.colorE5E5E5><00:10:06.070><c> going</c><00:10:06.190><c> to</c></c>
+
+00:10:06.240 --> 00:10:06.250 align:start position:0%
+different approaches here<c.colorCCCCCC> we're</c><c.colorE5E5E5> going to
+ </c>
+
+00:10:06.250 --> 00:10:08.490 align:start position:0%
+different approaches here<c.colorCCCCCC> we're</c><c.colorE5E5E5> going to
+talk<00:10:06.400><c> about</c><00:10:06.550><c> how</c><00:10:07.240><c> to</c><00:10:07.270><c> extend</c><00:10:07.870><c> a</c><00:10:08.020><c> retrieval</c></c>
+
+00:10:08.490 --> 00:10:08.500 align:start position:0%
+talk<c.colorE5E5E5> about how to extend a retrieval
+ </c>
+
+00:10:08.500 --> 00:10:11.010 align:start position:0%
+talk<c.colorE5E5E5> about how to extend a retrieval</c>
+<c.colorE5E5E5>system<00:10:09.070><c> a</c><00:10:09.310><c> search</c></c><c.colorCCCCCC><00:10:09.820><c> engine</c><00:10:10.180><c> for</c><00:10:10.390><c> information</c></c>
+
+00:10:11.010 --> 00:10:11.020 align:start position:0%
+<c.colorE5E5E5>system a search</c><c.colorCCCCCC> engine for information
+ </c>
+
+00:10:11.020 --> 00:10:14.010 align:start position:0%
+<c.colorE5E5E5>system a search</c><c.colorCCCCCC> engine for information
+filtering<00:10:11.350><c> again</c><00:10:12.250><c> here's</c><00:10:12.520><c> why</c><00:10:12.910><c> we've</c></c><c.colorE5E5E5><00:10:13.540><c> spent</c><00:10:13.930><c> a</c></c>
+
+00:10:14.010 --> 00:10:14.020 align:start position:0%
+filtering again here's why we've<c.colorE5E5E5> spent a
+ </c>
+
+00:10:14.020 --> 00:10:15.329 align:start position:0%
+filtering again here's why we've<c.colorE5E5E5> spent a</c>
+<c.colorCCCCCC>lot<00:10:14.170><c> of</c><00:10:14.200><c> time</c></c><c.colorE5E5E5><00:10:14.500><c> to</c><00:10:14.680><c> talk</c></c><c.colorCCCCCC><00:10:14.830><c> about</c><00:10:15.070><c> the</c><00:10:15.160><c> search</c></c>
+
+00:10:15.329 --> 00:10:15.339 align:start position:0%
+<c.colorCCCCCC>lot of time</c><c.colorE5E5E5> to talk</c><c.colorCCCCCC> about the search
+ </c>
+
+00:10:15.339 --> 00:10:17.970 align:start position:0%
+<c.colorCCCCCC>lot of time</c><c.colorE5E5E5> to talk</c><c.colorCCCCCC> about the search
+engines</c><c.colorE5E5E5><00:10:15.730><c> because</c><00:10:16.120><c> it's</c><00:10:16.779><c> actually</c><00:10:16.959><c> not</c></c><c.colorCCCCCC><00:10:17.380><c> very</c></c>
+
+00:10:17.970 --> 00:10:17.980 align:start position:0%
+engines<c.colorE5E5E5> because it's actually not</c><c.colorCCCCCC> very
+ </c>
+
+00:10:17.980 --> 00:10:20.760 align:start position:0%
+engines<c.colorE5E5E5> because it's actually not</c><c.colorCCCCCC> very
+hard</c><c.colorE5E5E5><00:10:18.250><c> to</c><00:10:18.730><c> extend</c><00:10:19.120><c> the</c><00:10:19.270><c> search</c><00:10:19.480><c> engine</c><00:10:19.839><c> for</c></c>
+
+00:10:20.760 --> 00:10:20.770 align:start position:0%
+hard<c.colorE5E5E5> to extend the search engine for
+ </c>
+
+00:10:20.770 --> 00:10:23.340 align:start position:0%
+hard<c.colorE5E5E5> to extend the search engine for
+information<00:10:21.279><c> filtering</c><00:10:21.730><c> so</c><00:10:22.480><c> here's</c><00:10:23.020><c> the</c></c>
+
+00:10:23.340 --> 00:10:23.350 align:start position:0%
+information filtering so here's the
+ 
+
+00:10:23.350 --> 00:10:25.710 align:start position:0%
+information filtering so here's the
+basic<c.colorCCCCCC><00:10:23.500><c> idea</c><00:10:23.770><c> for</c><00:10:24.520><c> extending</c><00:10:25.060><c> a</c><00:10:25.150><c> retrieval</c></c>
+
+00:10:25.710 --> 00:10:25.720 align:start position:0%
+basic<c.colorCCCCCC> idea for extending a retrieval
+ </c>
+
+00:10:25.720 --> 00:10:28.110 align:start position:0%
+basic<c.colorCCCCCC> idea for extending a retrieval
+system<00:10:26.140><c> for</c><00:10:26.380><c> information</c><00:10:26.860><c> filtering</c></c><c.colorE5E5E5><00:10:27.250><c> first</c></c>
+
+00:10:28.110 --> 00:10:28.120 align:start position:0%
+system for information filtering<c.colorE5E5E5> first
+ </c>
+
+00:10:28.120 --> 00:10:29.730 align:start position:0%
+system for information filtering<c.colorE5E5E5> first
+we<00:10:28.360><c> can</c><00:10:28.510><c> we</c><00:10:28.630><c> used</c><00:10:28.870><c> a</c><00:10:28.990><c> lot</c><00:10:29.110><c> of</c><00:10:29.260><c> retrieval</c></c>
+
+00:10:29.730 --> 00:10:29.740 align:start position:0%
+we can<c.colorE5E5E5> we used a lot of retrieval
+ </c>
+
+00:10:29.740 --> 00:10:31.560 align:start position:0%
+we can<c.colorE5E5E5> we used a lot of retrieval
+techniques<00:10:29.920><c> to</c><00:10:30.370><c> do</c><00:10:30.490><c> scoring</c><00:10:30.880><c> right</c><00:10:31.240><c> so</c><00:10:31.450><c> we</c></c>
+
+00:10:31.560 --> 00:10:31.570 align:start position:0%
+techniques to do scoring<c.colorE5E5E5> right so we
+ </c>
+
+00:10:31.570 --> 00:10:33.180 align:start position:0%
+techniques to do scoring<c.colorE5E5E5> right so we
+know<00:10:31.660><c> how</c><00:10:31.779><c> to</c><00:10:31.839><c> score</c><00:10:32.170><c> documents</c><00:10:32.770><c> against</c></c>
+
+00:10:33.180 --> 00:10:33.190 align:start position:0%
+know how<c.colorE5E5E5> to score documents against
+ </c>
+
+00:10:33.190 --> 00:10:35.670 align:start position:0%
+know how<c.colorE5E5E5> to score documents against
+queries<00:10:33.990><c> etcetera</c><00:10:34.990><c> we</c><00:10:35.170><c> measure</c><00:10:35.470><c> the</c></c>
+
+00:10:35.670 --> 00:10:35.680 align:start position:0%
+queries<c.colorE5E5E5> etcetera we measure the
+ </c>
+
+00:10:35.680 --> 00:10:37.890 align:start position:0%
+queries<c.colorE5E5E5> etcetera we measure the
+similarity<00:10:35.860><c> between</c><00:10:36.720><c> profile</c></c>
+
+00:10:37.890 --> 00:10:37.900 align:start position:0%
+similarity<c.colorE5E5E5> between profile
+ </c>
+
+00:10:37.900 --> 00:10:41.340 align:start position:0%
+similarity<c.colorE5E5E5> between profile
+text<00:10:38.260><c> description</c><00:10:38.860><c> and</c><00:10:39.270><c> document</c><00:10:40.270><c> and</c><00:10:41.140><c> then</c></c>
+
+00:10:41.340 --> 00:10:41.350 align:start position:0%
+text description and document and then
+ 
+
+00:10:41.350 --> 00:10:43.199 align:start position:0%
+text description and document and then
+<c.colorE5E5E5>we<00:10:41.529><c> can</c><00:10:41.680><c> use</c><00:10:41.830><c> a</c><00:10:41.860><c> score</c><00:10:42.250><c> threshold</c><00:10:42.490><c> for</c><00:10:43.029><c> the</c></c>
+
+00:10:43.199 --> 00:10:43.209 align:start position:0%
+<c.colorE5E5E5>we can use a score threshold for the
+ </c>
+
+00:10:43.209 --> 00:10:45.690 align:start position:0%
+<c.colorE5E5E5>we can use a score threshold for the
+filtering<00:10:43.540><c> decision</c><00:10:44.020><c> we</c><00:10:44.470><c> we</c><00:10:44.920><c> do</c><00:10:45.070><c> retrieval</c></c>
+
+00:10:45.690 --> 00:10:45.700 align:start position:0%
+filtering decision we we do retrieval
+ 
+
+00:10:45.700 --> 00:10:48.150 align:start position:0%
+filtering decision we we do retrieval
+<c.colorE5E5E5>and<00:10:46.060><c> then</c><00:10:46.360><c> we</c><00:10:46.540><c> kind</c><00:10:46.900><c> of</c><00:10:46.990><c> find</c><00:10:47.350><c> the</c><00:10:47.560><c> scores</c><00:10:47.860><c> of</c></c>
+
+00:10:48.150 --> 00:10:48.160 align:start position:0%
+<c.colorE5E5E5>and then we kind of find the scores of
+ </c>
+
+00:10:48.160 --> 00:10:50.460 align:start position:0%
+<c.colorE5E5E5>and then we kind of find the scores of
+documents<00:10:48.670><c> and</c><00:10:48.790><c> then</c></c><c.colorCCCCCC><00:10:48.940><c> we</c><00:10:49.060><c> apply</c><00:10:49.600><c> threshold</c></c><c.colorE5E5E5><00:10:50.260><c> to</c></c>
+
+00:10:50.460 --> 00:10:50.470 align:start position:0%
+documents<c.colorE5E5E5> and then</c><c.colorCCCCCC> we apply threshold</c><c.colorE5E5E5> to
+ </c>
+
+00:10:50.470 --> 00:10:53.460 align:start position:0%
+documents<c.colorE5E5E5> and then</c><c.colorCCCCCC> we apply threshold</c><c.colorE5E5E5> to
+to<00:10:50.920><c> say</c><00:10:51.330><c> to</c><00:10:52.330><c> see</c><00:10:52.510><c> whether</c></c>
+
+00:10:53.460 --> 00:10:53.470 align:start position:0%
+to say to see whether
+ 
+
+00:10:53.470 --> 00:10:55.949 align:start position:0%
+to say to see whether
+document<00:10:54.250><c> is</c><00:10:54.310><c> passing</c><00:10:54.790><c> the</c><00:10:54.910><c> threshold</c><c.colorCCCCCC><00:10:54.940><c> or</c><00:10:55.720><c> not</c></c>
+
+00:10:55.949 --> 00:10:55.959 align:start position:0%
+document is passing the threshold<c.colorCCCCCC> or not
+ </c>
+
+00:10:55.959 --> 00:10:58.530 align:start position:0%
+document is passing the threshold<c.colorCCCCCC> or not</c>
+<c.colorCCCCCC>and<00:10:56.320><c> if</c><00:10:57.010><c> it's</c><00:10:57.220><c> passing</c><00:10:57.640><c> the</c><00:10:57.730><c> threshold</c><00:10:57.760><c> within</c></c>
+
+00:10:58.530 --> 00:10:58.540 align:start position:0%
+<c.colorCCCCCC>and if it's passing the threshold within
+ </c>
+
+00:10:58.540 --> 00:10:59.070 align:start position:0%
+<c.colorCCCCCC>and if it's passing the threshold within
+the</c><c.colorE5E5E5><00:10:58.630><c> state's</c></c>
+
+00:10:59.070 --> 00:10:59.080 align:start position:0%
+the<c.colorE5E5E5> state's
+ </c>
+
+00:10:59.080 --> 00:11:00.720 align:start position:0%
+the<c.colorE5E5E5> state's
+relevant<00:10:59.770><c> and</c><00:10:59.950><c> we're</c><00:11:00.130><c> going</c><00:11:00.250><c> to</c><00:11:00.310><c> deliver</c><00:11:00.579><c> it</c></c>
+
+00:11:00.720 --> 00:11:00.730 align:start position:0%
+relevant and we're going<c.colorE5E5E5> to deliver it
+ </c>
+
+00:11:00.730 --> 00:11:04.180 align:start position:0%
+relevant and we're going<c.colorE5E5E5> to deliver it
+to</c><c.colorCCCCCC><00:11:01.089><c> the</c><00:11:01.450><c> user</c></c><c.colorE5E5E5><00:11:01.860><c> and</c><00:11:02.860><c> another</c><00:11:03.430><c> component</c></c>
+
+00:11:04.180 --> 00:11:04.190 align:start position:0%
+to<c.colorCCCCCC> the user</c><c.colorE5E5E5> and another component
+ </c>
+
+00:11:04.190 --> 00:11:06.730 align:start position:0%
+to<c.colorCCCCCC> the user</c><c.colorE5E5E5> and another component
+there<00:11:04.460><c> is</c><00:11:04.640><c> of</c><00:11:05.300><c> course</c><00:11:05.360><c> to</c><00:11:05.750><c> learn</c><00:11:06.050><c> from</c><00:11:06.470><c> the</c></c>
+
+00:11:06.730 --> 00:11:06.740 align:start position:0%
+<c.colorE5E5E5>there is of course to learn from the
+ </c>
+
+00:11:06.740 --> 00:11:09.520 align:start position:0%
+<c.colorE5E5E5>there is of course to learn from the</c>
+<c.colorE5E5E5>history<00:11:07.190><c> and</c><00:11:07.700><c> here</c><00:11:08.180><c> we</c><00:11:08.330><c> can</c><00:11:08.510><c> use</c><00:11:08.810><c> the</c></c>
+
+00:11:09.520 --> 00:11:09.530 align:start position:0%
+<c.colorE5E5E5>history and here we can use the
+ </c>
+
+00:11:09.530 --> 00:11:11.530 align:start position:0%
+<c.colorE5E5E5>history and here we can use the
+traditional<00:11:09.710><c> feedback</c><00:11:10.370><c> techniques</c><00:11:10.850><c> to</c><00:11:11.390><c> learn</c></c>
+
+00:11:11.530 --> 00:11:11.540 align:start position:0%
+<c.colorE5E5E5>traditional feedback techniques to learn
+ </c>
+
+00:11:11.540 --> 00:11:14.080 align:start position:0%
+<c.colorE5E5E5>traditional feedback techniques to learn
+to<00:11:11.780><c> improve</c><00:11:12.080><c> scoring</c><00:11:12.680><c> and</c><00:11:12.920><c> we</c><00:11:13.340><c> know</c></c><c.colorCCCCCC><00:11:13.490><c> rockeo</c></c>
+
+00:11:14.080 --> 00:11:14.090 align:start position:0%
+to improve scoring and we know<c.colorCCCCCC> rockeo
+ </c>
+
+00:11:14.090 --> 00:11:16.720 align:start position:0%
+to improve scoring and we know<c.colorCCCCCC> rockeo
+can<00:11:14.300><c> be</c><00:11:14.390><c> used</c><00:11:14.570><c> for</c><00:11:14.900><c> scoring</c><00:11:15.730><c> improvement</c></c>
+
+00:11:16.720 --> 00:11:16.730 align:start position:0%
+can be used for scoring improvement
+ 
+
+00:11:16.730 --> 00:11:21.160 align:start position:0%
+can be used for scoring improvement
+<c.colorE5E5E5>right<00:11:19.270><c> but</c><00:11:20.270><c> we</c><00:11:20.450><c> have</c><00:11:20.600><c> to</c><00:11:20.720><c> develop</c><00:11:20.960><c> new</c></c>
+
+00:11:21.160 --> 00:11:21.170 align:start position:0%
+<c.colorE5E5E5>right but we have to develop new
+ </c>
+
+00:11:21.170 --> 00:11:23.890 align:start position:0%
+<c.colorE5E5E5>right but we have to develop new
+approaches<00:11:21.860><c> to</c><00:11:22.010><c> learn</c><00:11:22.400><c> how</c><00:11:22.790><c> to</c><00:11:22.820><c> set</c><00:11:23.660><c> the</c></c>
+
+00:11:23.890 --> 00:11:23.900 align:start position:0%
+approaches to learn how to set the
+ 
+
+00:11:23.900 --> 00:11:27.280 align:start position:0%
+approaches to learn how to set the
+<c.colorCCCCCC>threshold<00:11:24.050><c> and</c><00:11:24.910><c> you</c><00:11:25.910><c> know</c><00:11:26.510><c> we</c></c><c.colorE5E5E5><00:11:26.660><c> need</c><00:11:26.840><c> to</c><00:11:26.870><c> set</c><00:11:27.140><c> it</c></c>
+
+00:11:27.280 --> 00:11:27.290 align:start position:0%
+<c.colorCCCCCC>threshold and you know we</c><c.colorE5E5E5> need to set it
+ </c>
+
+00:11:27.290 --> 00:11:29.200 align:start position:0%
+<c.colorCCCCCC>threshold and you know we</c><c.colorE5E5E5> need to set it
+initially<00:11:27.890><c> and</c></c><c.colorCCCCCC><00:11:27.920><c> then</c><00:11:28.430><c> we</c><00:11:28.580><c> have</c><00:11:28.670><c> to</c><00:11:28.820><c> learn</c></c><c.colorE5E5E5><00:11:29.030><c> how</c></c>
+
+00:11:29.200 --> 00:11:29.210 align:start position:0%
+initially and<c.colorCCCCCC> then we have to learn</c><c.colorE5E5E5> how
+ </c>
+
+00:11:29.210 --> 00:11:32.260 align:start position:0%
+initially and<c.colorCCCCCC> then we have to learn</c><c.colorE5E5E5> how
+to<00:11:29.240><c> update</c><00:11:29.540><c> the</c><00:11:29.900><c> threshold</c><00:11:30.410><c> all</c><00:11:30.740><c> the</c><00:11:31.070><c> time</c><00:11:31.280><c> so</c></c>
+
+00:11:32.260 --> 00:11:32.270 align:start position:0%
+to update<c.colorE5E5E5> the threshold all the time so
+ </c>
+
+00:11:32.270 --> 00:11:36.340 align:start position:0%
+to update<c.colorE5E5E5> the threshold all the time so
+here's<00:11:32.600><c> what</c><00:11:33.380><c> the</c><00:11:34.480><c> system</c><00:11:35.480><c> might</c></c><c.colorCCCCCC><00:11:36.110><c> look</c><00:11:36.290><c> like</c></c>
+
+00:11:36.340 --> 00:11:36.350 align:start position:0%
+here's what the system might<c.colorCCCCCC> look like
+ </c>
+
+00:11:36.350 --> 00:11:39.370 align:start position:0%
+here's what the system might<c.colorCCCCCC> look like</c>
+<c.colorE5E5E5>if<00:11:36.680><c> we</c></c><c.colorCCCCCC><00:11:36.710><c> just</c><00:11:37.690><c> generalized</c><00:11:38.690><c> the</c><00:11:38.870><c> vector</c></c><c.colorE5E5E5><00:11:39.140><c> space</c></c>
+
+00:11:39.370 --> 00:11:39.380 align:start position:0%
+<c.colorE5E5E5>if we</c><c.colorCCCCCC> just generalized the vector</c><c.colorE5E5E5> space
+ </c>
+
+00:11:39.380 --> 00:11:45.130 align:start position:0%
+<c.colorE5E5E5>if we</c><c.colorCCCCCC> just generalized the vector</c><c.colorE5E5E5> space
+model<00:11:39.620><c> for</c><00:11:40.630><c> filtering</c><00:11:42.610><c> problems</c><00:11:43.610><c> right</c><00:11:44.540><c> so</c></c>
+
+00:11:45.130 --> 00:11:45.140 align:start position:0%
+model for filtering problems<c.colorE5E5E5> right so
+ </c>
+
+00:11:45.140 --> 00:11:46.630 align:start position:0%
+model for filtering problems<c.colorE5E5E5> right so
+you<00:11:45.200><c> can</c><00:11:45.410><c> see</c><00:11:45.560><c> the</c><00:11:45.680><c> document</c><00:11:46.070><c> vector</c><00:11:46.370><c> could</c><00:11:46.520><c> be</c></c>
+
+00:11:46.630 --> 00:11:46.640 align:start position:0%
+you can see the<c.colorE5E5E5> document vector could be
+ </c>
+
+00:11:46.640 --> 00:11:48.460 align:start position:0%
+you can see the<c.colorE5E5E5> document vector could be
+fed<00:11:47.000><c> into</c><00:11:47.210><c> a</c><00:11:47.330><c> scoring</c><00:11:47.810><c> module</c><00:11:48.140><c> which</c></c><c.colorCCCCCC><00:11:48.350><c> is</c></c>
+
+00:11:48.460 --> 00:11:48.470 align:start position:0%
+fed into<c.colorE5E5E5> a scoring module which</c><c.colorCCCCCC> is
+ </c>
+
+00:11:48.470 --> 00:11:51.610 align:start position:0%
+fed into<c.colorE5E5E5> a scoring module which</c><c.colorCCCCCC> is
+already</c><c.colorE5E5E5><00:11:48.860><c> existing</c></c><c.colorCCCCCC><00:11:49.930><c> in</c><00:11:50.930><c> a</c><00:11:51.080><c> search</c><00:11:51.320><c> engine</c><00:11:51.440><c> that</c></c>
+
+00:11:51.610 --> 00:11:51.620 align:start position:0%
+already<c.colorE5E5E5> existing</c><c.colorCCCCCC> in a search engine that
+ </c>
+
+00:11:51.620 --> 00:11:54.130 align:start position:0%
+already<c.colorE5E5E5> existing</c><c.colorCCCCCC> in a search engine that
+implements<00:11:52.280><c> back</c><00:11:52.430><c> to</c><00:11:52.580><c> space</c><00:11:52.790><c> model</c><00:11:53.000><c> and</c><00:11:53.420><c> the</c></c>
+
+00:11:54.130 --> 00:11:54.140 align:start position:0%
+implements back to space model<c.colorCCCCCC> and the
+ </c>
+
+00:11:54.140 --> 00:11:57.190 align:start position:0%
+implements back to space model<c.colorCCCCCC> and the
+profile<00:11:54.590><c> will</c><00:11:55.400><c> be</c><00:11:55.630><c> treated</c><00:11:56.630><c> as</c><00:11:56.660><c> a</c><00:11:56.780><c> query</c></c>
+
+00:11:57.190 --> 00:11:57.200 align:start position:0%
+profile will<c.colorCCCCCC> be treated as a query
+ </c>
+
+00:11:57.200 --> 00:11:59.410 align:start position:0%
+profile will<c.colorCCCCCC> be treated as a query
+essentially<00:11:57.830><c> and</c><00:11:58.070><c> then</c><00:11:58.580><c> the</c><00:11:58.700><c> profile</c><00:11:59.060><c> vector</c></c>
+
+00:11:59.410 --> 00:11:59.420 align:start position:0%
+essentially and then the profile vector
+ 
+
+00:11:59.420 --> 00:12:01.090 align:start position:0%
+essentially and then the profile vector
+can<c.colorCCCCCC><00:11:59.570><c> be</c><00:11:59.690><c> matched</c><00:11:59.870><c> with</c><00:12:00.230><c> the</c><00:12:00.410><c> document</c><00:12:00.830><c> vector</c></c>
+
+00:12:01.090 --> 00:12:01.100 align:start position:0%
+can<c.colorCCCCCC> be matched with the document vector
+ </c>
+
+00:12:01.100 --> 00:12:03.490 align:start position:0%
+can<c.colorCCCCCC> be matched with the document vector
+to<00:12:01.220><c> generate</c><00:12:01.610><c> the</c><00:12:01.730><c> score</c></c><c.colorE5E5E5><00:12:02.030><c> and</c><00:12:02.360><c> then</c><00:12:03.290><c> this</c></c>
+
+00:12:03.490 --> 00:12:03.500 align:start position:0%
+to<c.colorCCCCCC> generate the score</c><c.colorE5E5E5> and then this
+ </c>
+
+00:12:03.500 --> 00:12:05.500 align:start position:0%
+to<c.colorCCCCCC> generate the score</c><c.colorE5E5E5> and then this
+score</c><c.colorCCCCCC><00:12:03.890><c> would</c><00:12:04.040><c> be</c><00:12:04.100><c> fed</c></c><c.colorE5E5E5><00:12:04.580><c> into</c><00:12:04.730><c> a</c><00:12:04.850><c> threshold</c><00:12:05.180><c> in</c></c>
+
+00:12:05.500 --> 00:12:05.510 align:start position:0%
+score<c.colorCCCCCC> would be fed</c><c.colorE5E5E5> into a threshold in
+ </c>
+
+00:12:05.510 --> 00:12:07.380 align:start position:0%
+score<c.colorCCCCCC> would be fed</c><c.colorE5E5E5> into a threshold in
+module<00:12:05.810><c> that</c><00:12:05.990><c> would</c><00:12:06.110><c> say</c><00:12:06.380><c> yes</c><00:12:06.590><c> or</c><00:12:06.860><c> no</c><00:12:07.040><c> and</c><00:12:07.340><c> then</c></c>
+
+00:12:07.380 --> 00:12:07.390 align:start position:0%
+module that would say yes or<c.colorE5E5E5> no and then
+ </c>
+
+00:12:07.390 --> 00:12:10.420 align:start position:0%
+module that would say yes or<c.colorE5E5E5> no and then</c>
+<c.colorE5E5E5>the<00:12:08.390><c> evaluation</c><00:12:08.660><c> would</c><00:12:09.350><c> be</c><00:12:09.530><c> based</c><00:12:09.710><c> on</c></c><c.colorCCCCCC><00:12:09.860><c> utility</c></c>
+
+00:12:10.420 --> 00:12:10.430 align:start position:0%
+<c.colorE5E5E5>the evaluation would be based on</c><c.colorCCCCCC> utility
+ </c>
+
+00:12:10.430 --> 00:12:14.680 align:start position:0%
+<c.colorE5E5E5>the evaluation would be based on</c><c.colorCCCCCC> utility
+for<00:12:11.300><c> the</c></c><c.colorE5E5E5><00:12:11.330><c> filtering</c><00:12:12.140><c> results</c><00:12:12.680><c> if</c><00:12:13.640><c> it</c><00:12:14.030><c> says</c><00:12:14.330><c> yes</c></c>
+
+00:12:14.680 --> 00:12:14.690 align:start position:0%
+for the<c.colorE5E5E5> filtering results if it says yes
+ </c>
+
+00:12:14.690 --> 00:12:16.210 align:start position:0%
+for the<c.colorE5E5E5> filtering results if it says yes
+and<00:12:14.990><c> then</c><00:12:15.140><c> the</c><00:12:15.260><c> document</c><00:12:15.650><c> will</c><00:12:15.770><c> be</c><00:12:15.800><c> sent</c><00:12:15.890><c> into</c></c>
+
+00:12:16.210 --> 00:12:16.220 align:start position:0%
+and then the document will be sent<c.colorE5E5E5> into
+ </c>
+
+00:12:16.220 --> 00:12:18.220 align:start position:0%
+and then the document will be sent<c.colorE5E5E5> into
+the<00:12:16.370><c> user</c><00:12:16.580><c> and</c><00:12:16.880><c> then</c><00:12:17.060><c> the</c><00:12:17.150><c> user</c></c><c.colorCCCCCC><00:12:17.300><c> keeps</c><00:12:17.930><c> some</c></c>
+
+00:12:18.220 --> 00:12:18.230 align:start position:0%
+<c.colorE5E5E5>the user and then the user</c><c.colorCCCCCC> keeps some
+ </c>
+
+00:12:18.230 --> 00:12:20.380 align:start position:0%
+<c.colorE5E5E5>the user and then the user</c><c.colorCCCCCC> keeps some
+feedback<00:12:18.710><c> and</c><00:12:19.010><c> the</c><00:12:19.760><c> feedback</c></c><c.colorE5E5E5><00:12:19.790><c> information</c></c>
+
+00:12:20.380 --> 00:12:20.390 align:start position:0%
+feedback and the feedback<c.colorE5E5E5> information
+ </c>
+
+00:12:20.390 --> 00:12:22.720 align:start position:0%
+feedback and the feedback<c.colorE5E5E5> information</c>
+<c.colorCCCCCC>would</c><c.colorE5E5E5><00:12:20.840><c> have</c></c><c.colorCCCCCC><00:12:21.080><c> been</c><00:12:21.290><c> you</c><00:12:21.560><c> would</c><00:12:22.010><c> be</c><00:12:22.160><c> used</c><00:12:22.370><c> to</c></c>
+
+00:12:22.720 --> 00:12:22.730 align:start position:0%
+<c.colorCCCCCC>would</c><c.colorE5E5E5> have</c><c.colorCCCCCC> been you would be used to
+ </c>
+
+00:12:22.730 --> 00:12:25.600 align:start position:0%
+<c.colorCCCCCC>would</c><c.colorE5E5E5> have</c><c.colorCCCCCC> been you would be used to</c>
+<c.colorCCCCCC>both<00:12:23.180><c> adjust</c><00:12:24.140><c> to</c><00:12:24.290><c> the</c><00:12:24.410><c> threshold</c></c><c.colorE5E5E5><00:12:24.980><c> and</c><00:12:25.190><c> to</c></c>
+
+00:12:25.600 --> 00:12:25.610 align:start position:0%
+<c.colorCCCCCC>both adjust to the threshold</c><c.colorE5E5E5> and to
+ </c>
+
+00:12:25.610 --> 00:12:28.690 align:start position:0%
+<c.colorCCCCCC>both adjust to the threshold</c><c.colorE5E5E5> and to</c>
+<c.colorE5E5E5>adjust<00:12:25.970><c> to</c><00:12:26.150><c> the</c><00:12:26.330><c> vector</c><00:12:26.990><c> representation</c><00:12:27.700><c> so</c></c>
+
+00:12:28.690 --> 00:12:28.700 align:start position:0%
+<c.colorE5E5E5>adjust to the vector representation so
+ </c>
+
+00:12:28.700 --> 00:12:30.790 align:start position:0%
+<c.colorE5E5E5>adjust to the vector representation so
+the<00:12:29.060><c> vector</c><00:12:29.390><c> learning</c><00:12:29.750><c> is</c></c><c.colorCCCCCC><00:12:29.960><c> recenter</c><00:12:30.440><c> the</c></c><c.colorE5E5E5><00:12:30.470><c> same</c></c>
+
+00:12:30.790 --> 00:12:30.800 align:start position:0%
+the vector learning is<c.colorCCCCCC> recenter the</c><c.colorE5E5E5> same
+ </c>
+
+00:12:30.800 --> 00:12:34.960 align:start position:0%
+the vector learning is<c.colorCCCCCC> recenter the</c><c.colorE5E5E5> same
+as<00:12:31.780><c> query</c><00:12:32.780><c> modification</c><00:12:33.530><c> or</c><00:12:34.100><c> feedback</c><00:12:34.460><c> in</c><00:12:34.730><c> the</c></c>
+
+00:12:34.960 --> 00:12:34.970 align:start position:0%
+as query modification or<c.colorE5E5E5> feedback in the
+ </c>
+
+00:12:34.970 --> 00:12:37.600 align:start position:0%
+as query modification or<c.colorE5E5E5> feedback in the
+case<00:12:35.120><c> of</c><00:12:35.300><c> search</c><00:12:35.600><c> the</c><00:12:36.500><c> threshold</c><00:12:37.040><c> learning</c><00:12:37.460><c> is</c></c>
+
+00:12:37.600 --> 00:12:37.610 align:start position:0%
+case of search the threshold learning is
+ 
+
+00:12:37.610 --> 00:12:40.120 align:start position:0%
+case of search the threshold learning is
+a<00:12:38.210><c> new</c><00:12:38.750><c> component</c><c.colorE5E5E5><00:12:39.170><c> that</c><00:12:39.560><c> we</c><00:12:39.710><c> need</c><00:12:39.830><c> to</c><00:12:39.920><c> talk</c><00:12:40.100><c> a</c></c>
+
+00:12:40.120 --> 00:12:40.130 align:start position:0%
+a new component<c.colorE5E5E5> that we need to talk a
+ </c>
+
+00:12:40.130 --> 00:12:46.000 align:start position:0%
+a new component<c.colorE5E5E5> that we need to talk a
+little<00:12:40.310><c> bit</c></c><c.colorCCCCCC><00:12:40.430><c> more</c><00:12:40.760><c> about</c></c>
+
+00:12:46.000 --> 00:12:46.010 align:start position:0%
+ 
+ 
+
+00:12:46.010 --> 00:12:51.170 align:start position:0%
+ 
+you
+
+00:12:51.170 --> 00:12:51.180 align:start position:0%
+ 
+ 
+
+00:12:51.180 --> 00:12:54.320 align:start position:0%
+ 
+[Music]
+

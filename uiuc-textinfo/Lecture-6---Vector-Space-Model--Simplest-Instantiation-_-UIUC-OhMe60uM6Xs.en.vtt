@@ -1,0 +1,2550 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:10.259 align:start position:0%
+ 
+<c.colorCCCCCC>you</c>
+
+00:00:10.259 --> 00:00:10.269 align:start position:0%
+ 
+ 
+
+00:00:10.269 --> 00:00:12.730 align:start position:0%
+ 
+in<00:00:11.269><c> this</c><c.colorE5E5E5><00:00:11.539><c> lecture</c><00:00:11.959><c> we're</c><00:00:12.320><c> going</c><00:00:12.440><c> to</c></c><c.colorCCCCCC><00:00:12.500><c> talk</c></c>
+
+00:00:12.730 --> 00:00:12.740 align:start position:0%
+in this<c.colorE5E5E5> lecture we're going to</c><c.colorCCCCCC> talk
+ </c>
+
+00:00:12.740 --> 00:00:15.699 align:start position:0%
+in this<c.colorE5E5E5> lecture we're going to</c><c.colorCCCCCC> talk
+about</c><c.colorE5E5E5><00:00:12.769><c> how</c><00:00:13.340><c> to</c><00:00:13.400><c> instantiate</c><00:00:14.029><c> a</c><00:00:14.869><c> vector</c></c><c.colorCCCCCC><00:00:15.500><c> space</c></c>
+
+00:00:15.699 --> 00:00:15.709 align:start position:0%
+about<c.colorE5E5E5> how to instantiate a vector</c><c.colorCCCCCC> space
+ </c>
+
+00:00:15.709 --> 00:00:18.279 align:start position:0%
+about<c.colorE5E5E5> how to instantiate a vector</c><c.colorCCCCCC> space
+model</c><c.colorE5E5E5><00:00:15.949><c> so</c></c><c.colorCCCCCC><00:00:16.609><c> that</c></c><c.colorE5E5E5><00:00:16.820><c> we</c><00:00:17.060><c> can</c><00:00:17.240><c> get</c><00:00:17.420><c> a</c><00:00:17.449><c> very</c><00:00:17.869><c> specific</c></c>
+
+00:00:18.279 --> 00:00:18.289 align:start position:0%
+model<c.colorE5E5E5> so</c><c.colorCCCCCC> that</c><c.colorE5E5E5> we can get a very specific
+ </c>
+
+00:00:18.289 --> 00:00:25.240 align:start position:0%
+model<c.colorE5E5E5> so</c><c.colorCCCCCC> that</c><c.colorE5E5E5> we can get a very specific</c>
+<c.colorE5E5E5>ranking<00:00:19.220><c> function</c><00:00:22.150><c> so</c><00:00:23.150><c> this</c><00:00:23.600><c> is</c><00:00:23.780><c> to</c><00:00:24.710><c> continue</c></c>
+
+00:00:25.240 --> 00:00:25.250 align:start position:0%
+<c.colorE5E5E5>ranking function so this is to continue
+ </c>
+
+00:00:25.250 --> 00:00:27.070 align:start position:0%
+<c.colorE5E5E5>ranking function so this is to continue
+the<00:00:25.430><c> discussion</c></c><c.colorCCCCCC><00:00:25.580><c> of</c><00:00:26.060><c> the</c><00:00:26.210><c> vector</c><00:00:26.539><c> space</c></c><c.colorE5E5E5><00:00:26.600><c> model</c></c>
+
+00:00:27.070 --> 00:00:27.080 align:start position:0%
+the discussion<c.colorCCCCCC> of the vector space</c><c.colorE5E5E5> model
+ </c>
+
+00:00:27.080 --> 00:00:30.430 align:start position:0%
+the discussion<c.colorCCCCCC> of the vector space</c><c.colorE5E5E5> model
+which<00:00:27.830><c> is</c><00:00:28.070><c> one</c><00:00:28.490><c> particular</c></c><c.colorCCCCCC><00:00:29.480><c> approach</c><00:00:30.140><c> to</c></c>
+
+00:00:30.430 --> 00:00:30.440 align:start position:0%
+<c.colorE5E5E5>which is one particular</c><c.colorCCCCCC> approach to
+ </c>
+
+00:00:30.440 --> 00:00:34.900 align:start position:0%
+<c.colorE5E5E5>which is one particular</c><c.colorCCCCCC> approach to
+design<00:00:31.390><c> ranking</c><00:00:32.390><c> function</c></c><c.colorE5E5E5><00:00:32.809><c> and</c><00:00:33.730><c> we're</c><00:00:34.730><c> going</c></c>
+
+00:00:34.900 --> 00:00:34.910 align:start position:0%
+design ranking function<c.colorE5E5E5> and we're going
+ </c>
+
+00:00:34.910 --> 00:00:37.900 align:start position:0%
+design ranking function<c.colorE5E5E5> and we're going
+to<00:00:34.940><c> talk</c></c><c.colorCCCCCC><00:00:35.539><c> about</c><00:00:35.690><c> how</c><00:00:36.620><c> we</c><00:00:36.680><c> use</c><00:00:36.890><c> the</c><00:00:37.489><c> general</c></c>
+
+00:00:37.900 --> 00:00:37.910 align:start position:0%
+to talk<c.colorCCCCCC> about how we use the general
+ </c>
+
+00:00:37.910 --> 00:00:40.020 align:start position:0%
+to talk<c.colorCCCCCC> about how we use the general
+framework<00:00:38.149><c> of</c><00:00:38.450><c> the</c><00:00:38.780><c> vector</c><00:00:39.110><c> space</c></c><c.colorE5E5E5><00:00:39.170><c> model</c><00:00:39.590><c> as</c><00:00:39.920><c> a</c></c>
+
+00:00:40.020 --> 00:00:40.030 align:start position:0%
+framework of the vector space<c.colorE5E5E5> model as a
+ </c>
+
+00:00:40.030 --> 00:00:45.430 align:start position:0%
+framework of the vector space<c.colorE5E5E5> model as a
+guidance<00:00:41.030><c> to</c><00:00:42.160><c> instantiate</c><00:00:43.180><c> the</c><00:00:44.180><c> framework</c><00:00:44.750><c> to</c></c>
+
+00:00:45.430 --> 00:00:45.440 align:start position:0%
+guidance to<c.colorE5E5E5> instantiate the framework to
+ </c>
+
+00:00:45.440 --> 00:00:48.310 align:start position:0%
+guidance to<c.colorE5E5E5> instantiate the framework to
+derive<00:00:45.800><c> a</c><00:00:45.829><c> specific</c><00:00:46.579><c> arranging</c><00:00:47.000><c> function</c><00:00:47.390><c> and</c></c>
+
+00:00:48.310 --> 00:00:48.320 align:start position:0%
+derive a specific arranging function and
+ 
+
+00:00:48.320 --> 00:00:50.340 align:start position:0%
+derive a specific arranging function and
+we're<c.colorE5E5E5><00:00:48.590><c> going</c><00:00:48.739><c> to</c><00:00:48.770><c> cover</c><00:00:48.980><c> the</c><00:00:49.579><c> simplest</c></c>
+
+00:00:50.340 --> 00:00:50.350 align:start position:0%
+we're<c.colorE5E5E5> going to cover the simplest
+ </c>
+
+00:00:50.350 --> 00:00:55.780 align:start position:0%
+we're<c.colorE5E5E5> going to cover the simplest
+instantiation<00:00:51.350><c> of</c></c><c.colorCCCCCC><00:00:51.700><c> the</c><00:00:52.700><c> framework</c><00:00:54.430><c> so</c><00:00:55.430><c> as</c><00:00:55.640><c> we</c></c>
+
+00:00:55.780 --> 00:00:55.790 align:start position:0%
+instantiation of<c.colorCCCCCC> the framework so as we
+ </c>
+
+00:00:55.790 --> 00:00:58.420 align:start position:0%
+instantiation of<c.colorCCCCCC> the framework so as we
+discussed<00:00:56.210><c> in</c></c><c.colorE5E5E5><00:00:56.750><c> the</c><00:00:56.989><c> previous</c><00:00:57.020><c> lecture</c><00:00:57.770><c> the</c></c>
+
+00:00:58.420 --> 00:00:58.430 align:start position:0%
+discussed in<c.colorE5E5E5> the previous lecture the
+ </c>
+
+00:00:58.430 --> 00:01:00.280 align:start position:0%
+discussed in<c.colorE5E5E5> the previous lecture the
+vector<00:00:58.760><c> space</c><00:00:58.820><c> model</c><00:00:59.239><c> is</c><00:00:59.450><c> really</c><00:00:59.780><c> a</c></c><c.colorCCCCCC><00:00:59.809><c> framework</c></c>
+
+00:01:00.280 --> 00:01:00.290 align:start position:0%
+vector space<c.colorE5E5E5> model is really a</c><c.colorCCCCCC> framework
+ </c>
+
+00:01:00.290 --> 00:01:06.340 align:start position:0%
+vector space<c.colorE5E5E5> model is really a</c><c.colorCCCCCC> framework</c>
+<c.colorE5E5E5>it<00:01:00.620><c> didn't</c><00:01:00.980><c> didn't</c><00:01:01.820><c> say</c><00:01:03.250><c> as</c><00:01:04.630><c> we</c><00:01:05.630><c> discussed</c><00:01:06.049><c> in</c></c>
+
+00:01:06.340 --> 00:01:06.350 align:start position:0%
+<c.colorE5E5E5>it didn't didn't say as we discussed in
+ </c>
+
+00:01:06.350 --> 00:01:08.889 align:start position:0%
+<c.colorE5E5E5>it didn't didn't say as we discussed in
+the</c><c.colorCCCCCC><00:01:06.380><c> previous</c><00:01:06.649><c> lecture</c><00:01:07.420><c> vector</c></c><c.colorE5E5E5><00:01:08.420><c> space</c><00:01:08.659><c> model</c></c>
+
+00:01:08.889 --> 00:01:08.899 align:start position:0%
+the<c.colorCCCCCC> previous lecture vector</c><c.colorE5E5E5> space model
+ </c>
+
+00:01:08.899 --> 00:01:11.680 align:start position:0%
+the<c.colorCCCCCC> previous lecture vector</c><c.colorE5E5E5> space model</c>
+<c.colorE5E5E5>is<00:01:09.380><c> really</c></c><c.colorCCCCCC><00:01:09.680><c> a</c><00:01:09.890><c> framework</c><00:01:10.460><c> it</c><00:01:11.030><c> doesn't</c><00:01:11.479><c> say</c></c>
+
+00:01:11.680 --> 00:01:11.690 align:start position:0%
+<c.colorE5E5E5>is really</c><c.colorCCCCCC> a framework it doesn't say
+ </c>
+
+00:01:11.690 --> 00:01:15.910 align:start position:0%
+<c.colorE5E5E5>is really</c><c.colorCCCCCC> a framework it doesn't say
+many<00:01:12.530><c> things</c><00:01:13.810><c> so</c><00:01:14.810><c> for</c></c><c.colorE5E5E5><00:01:15.020><c> example</c><00:01:15.380><c> here</c><00:01:15.590><c> it</c><00:01:15.710><c> shows</c></c>
+
+00:01:15.910 --> 00:01:15.920 align:start position:0%
+many things so for<c.colorE5E5E5> example here it shows
+ </c>
+
+00:01:15.920 --> 00:01:18.670 align:start position:0%
+many things so for<c.colorE5E5E5> example here it shows</c>
+<c.colorE5E5E5>that</c><c.colorCCCCCC><00:01:15.979><c> it</c><00:01:16.490><c> did</c><00:01:16.670><c> not</c></c><c.colorE5E5E5><00:01:16.700><c> say</c><00:01:17.180><c> how</c><00:01:17.900><c> we</c><00:01:17.960><c> should</c><00:01:18.350><c> define</c></c>
+
+00:01:18.670 --> 00:01:18.680 align:start position:0%
+<c.colorE5E5E5>that</c><c.colorCCCCCC> it did not</c><c.colorE5E5E5> say how we should define
+ </c>
+
+00:01:18.680 --> 00:01:22.780 align:start position:0%
+<c.colorE5E5E5>that</c><c.colorCCCCCC> it did not</c><c.colorE5E5E5> say how we should define
+that<00:01:18.920><c> I</c><00:01:19.040><c> mentioned</c><00:01:19.780><c> it</c><00:01:20.780><c> also</c><00:01:20.990><c> did</c><00:01:21.290><c> not</c><00:01:21.320><c> say</c><00:01:21.799><c> how</c></c>
+
+00:01:22.780 --> 00:01:22.790 align:start position:0%
+that I mentioned it also did not<c.colorE5E5E5> say how
+ </c>
+
+00:01:22.790 --> 00:01:25.570 align:start position:0%
+that I mentioned it also did not<c.colorE5E5E5> say how
+we<00:01:23.080><c> place</c><00:01:24.080><c> a</c><00:01:24.110><c> document</c></c><c.colorCCCCCC><00:01:24.740><c> a</c><00:01:24.770><c> vector</c><00:01:25.100><c> English</c></c>
+
+00:01:25.570 --> 00:01:25.580 align:start position:0%
+we place a document<c.colorCCCCCC> a vector English
+ </c>
+
+00:01:25.580 --> 00:01:28.630 align:start position:0%
+we place a document<c.colorCCCCCC> a vector English
+space</c><c.colorE5E5E5><00:01:25.909><c> he</c><00:01:26.810><c> did</c><00:01:27.290><c> not</c><00:01:27.439><c> say</c><00:01:27.860><c> how</c><00:01:28.220><c> we</c><00:01:28.280><c> place</c><00:01:28.610><c> a</c></c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+space<c.colorE5E5E5> he did not say how we place a
+ </c>
+
+00:01:28.640 --> 00:01:32.039 align:start position:0%
+space<c.colorE5E5E5> he did not say how we place a
+query<00:01:29.150><c> vector</c><00:01:29.600><c> in</c><00:01:30.110><c> this</c><00:01:30.439><c> vector</c><00:01:30.860><c> space</c><00:01:31.100><c> and</c></c>
+
+00:01:32.039 --> 00:01:32.049 align:start position:0%
+query vector in this vector<c.colorE5E5E5> space and
+ </c>
+
+00:01:32.049 --> 00:01:34.840 align:start position:0%
+query vector in this vector<c.colorE5E5E5> space and
+finally<00:01:33.049><c> he</c><00:01:33.380><c> did</c><00:01:33.560><c> not</c><00:01:33.710><c> say</c><00:01:33.920><c> how</c><00:01:34.490><c> we</c><00:01:34.549><c> should</c></c>
+
+00:01:34.840 --> 00:01:34.850 align:start position:0%
+finally he did<c.colorE5E5E5> not say how we should
+ </c>
+
+00:01:34.850 --> 00:01:37.570 align:start position:0%
+finally he did<c.colorE5E5E5> not say how we should
+measure<00:01:35.119><c> the</c><00:01:35.360><c> similarity</c><00:01:35.540><c> between</c><00:01:36.310><c> the</c><00:01:37.310><c> query</c></c>
+
+00:01:37.570 --> 00:01:37.580 align:start position:0%
+measure<c.colorE5E5E5> the similarity between the query
+ </c>
+
+00:01:37.580 --> 00:01:40.719 align:start position:0%
+measure<c.colorE5E5E5> the similarity between the query
+vector<00:01:38.000><c> and</c><00:01:38.150><c> the</c><00:01:38.270><c> document</c><00:01:38.720><c> vector</c><00:01:39.670><c> so</c><00:01:40.670><c> you</c></c>
+
+00:01:40.719 --> 00:01:40.729 align:start position:0%
+vector and the document vector so you
+ 
+
+00:01:40.729 --> 00:01:43.499 align:start position:0%
+vector and the document vector so you
+can<00:01:41.060><c> imagine</c><c.colorE5E5E5><00:01:41.299><c> in</c><00:01:41.689><c> order</c><00:01:41.930><c> to</c></c><c.colorCCCCCC><00:01:42.020><c> implement</c><00:01:42.560><c> this</c></c>
+
+00:01:43.499 --> 00:01:43.509 align:start position:0%
+can imagine<c.colorE5E5E5> in order to</c><c.colorCCCCCC> implement this
+ </c>
+
+00:01:43.509 --> 00:01:49.690 align:start position:0%
+can imagine<c.colorE5E5E5> in order to</c><c.colorCCCCCC> implement this
+model<00:01:45.159><c> we</c><00:01:46.159><c> have</c></c><c.colorE5E5E5><00:01:46.430><c> to</c><00:01:46.700><c> say</c><00:01:48.250><c> specifically</c><00:01:49.250><c> how</c></c><c.colorCCCCCC><00:01:49.640><c> we</c></c>
+
+00:01:49.690 --> 00:01:49.700 align:start position:0%
+model we have<c.colorE5E5E5> to say specifically how</c><c.colorCCCCCC> we
+ </c>
+
+00:01:49.700 --> 00:01:54.160 align:start position:0%
+model we have<c.colorE5E5E5> to say specifically how</c><c.colorCCCCCC> we
+compute<00:01:50.420><c> these</c><00:01:51.200><c> vectors</c><00:01:52.090><c> what</c><00:01:53.090><c> is</c><00:01:53.210><c> exactly</c><00:01:53.659><c> X</c></c>
+
+00:01:54.160 --> 00:01:54.170 align:start position:0%
+<c.colorCCCCCC>compute these vectors what is exactly X
+ </c>
+
+00:01:54.170 --> 00:01:58.719 align:start position:0%
+<c.colorCCCCCC>compute these vectors what is exactly X
+I<00:01:54.470><c> and</c></c><c.colorE5E5E5><00:01:55.220><c> what</c></c><c.colorCCCCCC><00:01:55.579><c> is</c></c><c.colorE5E5E5><00:01:55.729><c> exactly</c><00:01:56.060><c> why</c><00:01:56.540><c> I</c><00:01:57.520><c> this</c><00:01:58.520><c> would</c></c>
+
+00:01:58.719 --> 00:01:58.729 align:start position:0%
+I and<c.colorE5E5E5> what</c><c.colorCCCCCC> is</c><c.colorE5E5E5> exactly why I this would
+ </c>
+
+00:01:58.729 --> 00:02:01.840 align:start position:0%
+I and<c.colorE5E5E5> what</c><c.colorCCCCCC> is</c><c.colorE5E5E5> exactly why I this would</c>
+<c.colorCCCCCC>determine<00:01:59.299><c> where</c><00:02:00.259><c> we</c><00:02:00.530><c> place</c><00:02:00.920><c> a</c><00:02:01.310><c> document</c></c>
+
+00:02:01.840 --> 00:02:01.850 align:start position:0%
+<c.colorCCCCCC>determine where we place a document
+ </c>
+
+00:02:01.850 --> 00:02:03.819 align:start position:0%
+<c.colorCCCCCC>determine where we place a document
+vector</c><c.colorE5E5E5><00:02:02.180><c> where</c><00:02:02.420><c> we</c><00:02:02.570><c> place</c><00:02:02.780><c> a</c><00:02:02.899><c> query</c><00:02:03.200><c> vector</c><00:02:03.619><c> and</c></c>
+
+00:02:03.819 --> 00:02:03.829 align:start position:0%
+vector<c.colorE5E5E5> where we place a query vector and
+ </c>
+
+00:02:03.829 --> 00:02:06.580 align:start position:0%
+vector<c.colorE5E5E5> where we place a query vector and
+of<00:02:04.790><c> course</c><00:02:05.060><c> we</c><00:02:05.240><c> also</c><00:02:05.390><c> need</c><00:02:05.659><c> to</c><00:02:05.810><c> say</c><00:02:05.990><c> exactly</c></c>
+
+00:02:06.580 --> 00:02:06.590 align:start position:0%
+of course we also need to say exactly
+ 
+
+00:02:06.590 --> 00:02:10.229 align:start position:0%
+of course we also need to say exactly
+<c.colorCCCCCC>what<00:02:07.159><c> should</c><00:02:07.759><c> be</c><00:02:07.909><c> the</c><00:02:08.060><c> similarity</c><00:02:08.629><c> function</c></c>
+
+00:02:10.229 --> 00:02:10.239 align:start position:0%
+<c.colorCCCCCC>what should be the similarity function
+ </c>
+
+00:02:10.239 --> 00:02:13.720 align:start position:0%
+<c.colorCCCCCC>what should be the similarity function
+so<00:02:11.239><c> if</c><00:02:11.569><c> we</c><00:02:11.720><c> can</c></c><c.colorE5E5E5><00:02:11.900><c> provide</c><00:02:12.290><c> a</c><00:02:12.349><c> definition</c><00:02:12.650><c> of</c><00:02:13.159><c> the</c></c>
+
+00:02:13.720 --> 00:02:13.730 align:start position:0%
+so if we can<c.colorE5E5E5> provide a definition of the
+ </c>
+
+00:02:13.730 --> 00:02:15.220 align:start position:0%
+so if we can<c.colorE5E5E5> provide a definition of the
+concepts</c><c.colorCCCCCC><00:02:14.299><c> that</c><00:02:14.419><c> would</c><00:02:14.599><c> define</c></c><c.colorE5E5E5><00:02:15.169><c> the</c></c>
+
+00:02:15.220 --> 00:02:15.230 align:start position:0%
+concepts<c.colorCCCCCC> that would define</c><c.colorE5E5E5> the
+ </c>
+
+00:02:15.230 --> 00:02:19.350 align:start position:0%
+concepts<c.colorCCCCCC> that would define</c><c.colorE5E5E5> the
+dimensions<00:02:15.950><c> and</c><00:02:16.219><c> these</c><00:02:17.209><c> x</c><00:02:17.569><c> i's</c><00:02:17.840><c> or</c></c><c.colorCCCCCC><00:02:18.230><c> Y</c><00:02:18.469><c> eyes</c></c>
+
+00:02:19.350 --> 00:02:19.360 align:start position:0%
+<c.colorE5E5E5>dimensions and these x i's or</c><c.colorCCCCCC> Y eyes
+ </c>
+
+00:02:19.360 --> 00:02:22.080 align:start position:0%
+<c.colorE5E5E5>dimensions and these x i's or</c><c.colorCCCCCC> Y eyes
+and<00:02:19.930><c> then</c><00:02:20.170><c> the</c><00:02:20.410><c> weights</c><00:02:20.680><c> of</c><00:02:21.040><c> terms</c><00:02:21.400><c> for</c><00:02:21.790><c> query</c></c>
+
+00:02:22.080 --> 00:02:22.090 align:start position:0%
+and<c.colorCCCCCC> then the weights of terms for query
+ </c>
+
+00:02:22.090 --> 00:02:26.210 align:start position:0%
+and<c.colorCCCCCC> then the weights of terms for query
+and<00:02:22.420><c> document</c><00:02:23.940><c> then</c><00:02:24.940><c> we</c><00:02:25.150><c> will</c><00:02:25.330><c> be</c></c><c.colorE5E5E5><00:02:25.420><c> able</c><00:02:25.510><c> to</c></c>
+
+00:02:26.210 --> 00:02:26.220 align:start position:0%
+and document then we will be<c.colorE5E5E5> able to
+ </c>
+
+00:02:26.220 --> 00:02:30.270 align:start position:0%
+and document then we will be<c.colorE5E5E5> able to
+place<00:02:27.640><c> directors</c><00:02:28.240><c> and</c><00:02:28.450><c> query</c></c><c.colorCCCCCC><00:02:29.280><c> vector</c></c>
+
+00:02:30.270 --> 00:02:30.280 align:start position:0%
+place<c.colorE5E5E5> directors and query</c><c.colorCCCCCC> vector
+ </c>
+
+00:02:30.280 --> 00:02:33.420 align:start position:0%
+place<c.colorE5E5E5> directors and query</c><c.colorCCCCCC> vector</c>
+<c.colorE5E5E5>in<00:02:30.520><c> this</c><00:02:30.820><c> way</c><00:02:31.270><c> define</c><00:02:31.600><c> the</c><00:02:31.810><c> space</c><00:02:32.080><c> and</c><00:02:32.440><c> then</c><00:02:33.250><c> if</c></c>
+
+00:02:33.420 --> 00:02:33.430 align:start position:0%
+<c.colorE5E5E5>in this way define the space and then if
+ </c>
+
+00:02:33.430 --> 00:02:36.480 align:start position:0%
+<c.colorE5E5E5>in this way define the space and then if
+we<00:02:33.640><c> also</c><00:02:34.120><c> specify</c><00:02:34.570><c> similarity</c><00:02:35.410><c> function</c><00:02:35.770><c> then</c></c>
+
+00:02:36.480 --> 00:02:36.490 align:start position:0%
+we also<c.colorE5E5E5> specify similarity function then
+ </c>
+
+00:02:36.490 --> 00:02:38.880 align:start position:0%
+we also<c.colorE5E5E5> specify similarity function then
+we'll<00:02:36.700><c> have</c><00:02:37.080><c> where</c><00:02:38.080><c> define</c><00:02:38.410><c> the</c><00:02:38.560><c> ranking</c></c>
+
+00:02:38.880 --> 00:02:38.890 align:start position:0%
+we'll have where define the ranking
+ 
+
+00:02:38.890 --> 00:02:42.960 align:start position:0%
+we'll have where define the ranking
+function<00:02:40.770><c> so</c><00:02:41.770><c> let's</c><00:02:41.950><c> see</c><00:02:42.130><c> how</c><00:02:42.370><c> we</c><00:02:42.430><c> can</c><00:02:42.670><c> do</c><00:02:42.790><c> that</c>
+
+00:02:42.960 --> 00:02:42.970 align:start position:0%
+function so let's see how we can do that
+ 
+
+00:02:42.970 --> 00:02:45.540 align:start position:0%
+function so let's see how we can do that
+<c.colorE5E5E5>and<00:02:43.300><c> think</c></c><c.colorCCCCCC><00:02:44.110><c> about</c></c><c.colorE5E5E5><00:02:44.230><c> the</c></c><c.colorCCCCCC><00:02:44.800><c> simplicity</c></c>
+
+00:02:45.540 --> 00:02:45.550 align:start position:0%
+<c.colorE5E5E5>and think</c><c.colorCCCCCC> about</c><c.colorE5E5E5> the</c><c.colorCCCCCC> simplicity
+ </c>
+
+00:02:45.550 --> 00:02:48.450 align:start position:0%
+<c.colorE5E5E5>and think</c><c.colorCCCCCC> about</c><c.colorE5E5E5> the</c><c.colorCCCCCC> simplicity
+instantiation</c><c.colorE5E5E5><00:02:46.920><c> actually</c><00:02:47.920><c> I</c><00:02:48.070><c> would</c><00:02:48.220><c> suggest</c></c>
+
+00:02:48.450 --> 00:02:48.460 align:start position:0%
+instantiation<c.colorE5E5E5> actually I would suggest
+ </c>
+
+00:02:48.460 --> 00:02:51.710 align:start position:0%
+instantiation<c.colorE5E5E5> actually I would suggest
+you<00:02:48.880><c> to</c><00:02:49.150><c> pause</c><00:02:50.020><c> the</c><00:02:50.410><c> lecture</c><00:02:50.590><c> at</c><00:02:51.340><c> this</c><00:02:51.490><c> point</c></c>
+
+00:02:51.710 --> 00:02:51.720 align:start position:0%
+you to pause the lecture at this point
+ 
+
+00:02:51.720 --> 00:02:54.390 align:start position:0%
+you to pause the lecture at this point
+<c.colorCCCCCC>spend<00:02:52.720><c> a</c><00:02:52.840><c> couple</c></c><c.colorE5E5E5><00:02:52.990><c> minutes</c></c><c.colorCCCCCC><00:02:53.290><c> to</c><00:02:53.650><c> think</c></c><c.colorE5E5E5><00:02:53.830><c> about</c><00:02:53.890><c> it</c></c>
+
+00:02:54.390 --> 00:02:54.400 align:start position:0%
+<c.colorCCCCCC>spend a couple</c><c.colorE5E5E5> minutes</c><c.colorCCCCCC> to think</c><c.colorE5E5E5> about it
+ </c>
+
+00:02:54.400 --> 00:02:57.870 align:start position:0%
+<c.colorCCCCCC>spend a couple</c><c.colorE5E5E5> minutes</c><c.colorCCCCCC> to think</c><c.colorE5E5E5> about it
+suppose<00:02:55.330><c> you</c><00:02:55.750><c> are</c><00:02:55.780><c> asked</c></c><c.colorCCCCCC><00:02:56.410><c> to</c><00:02:56.680><c> implement</c></c><c.colorE5E5E5><00:02:57.040><c> this</c></c>
+
+00:02:57.870 --> 00:02:57.880 align:start position:0%
+suppose you are asked<c.colorCCCCCC> to implement</c><c.colorE5E5E5> this
+ </c>
+
+00:02:57.880 --> 00:03:01.260 align:start position:0%
+suppose you are asked<c.colorCCCCCC> to implement</c><c.colorE5E5E5> this
+idea<00:02:58.710><c> you've</c><00:02:59.710><c> come</c><00:03:00.040><c> up</c><00:03:00.070><c> with</c><00:03:00.610><c> the</c><00:03:00.850><c> idea</c><00:03:01.210><c> of</c></c>
+
+00:03:01.260 --> 00:03:01.270 align:start position:0%
+idea<c.colorE5E5E5> you've come up with the idea of
+ </c>
+
+00:03:01.270 --> 00:03:05.160 align:start position:0%
+idea<c.colorE5E5E5> you've come up with the idea of
+vector<00:03:01.750><c> space</c><00:03:01.960><c> model</c><00:03:02.910><c> but</c><00:03:03.910><c> you</c><00:03:04.720><c> still</c><00:03:04.990><c> haven't</c></c>
+
+00:03:05.160 --> 00:03:05.170 align:start position:0%
+vector space model but<c.colorE5E5E5> you still haven't
+ </c>
+
+00:03:05.170 --> 00:03:07.590 align:start position:0%
+vector space model but<c.colorE5E5E5> you still haven't</c>
+<c.colorCCCCCC>figured<00:03:05.560><c> out</c><00:03:05.620><c> how</c></c><c.colorE5E5E5><00:03:06.370><c> to</c><00:03:06.430><c> compute</c><00:03:06.850><c> these</c><00:03:07.120><c> vectors</c></c>
+
+00:03:07.590 --> 00:03:07.600 align:start position:0%
+<c.colorCCCCCC>figured out how</c><c.colorE5E5E5> to compute these vectors
+ </c>
+
+00:03:07.600 --> 00:03:09.360 align:start position:0%
+<c.colorCCCCCC>figured out how</c><c.colorE5E5E5> to compute these vectors
+exactly<00:03:08.260><c> how</c><00:03:08.530><c> to</c><00:03:08.590><c> define</c><00:03:09.040><c> the</c><00:03:09.220><c> similarity</c></c>
+
+00:03:09.360 --> 00:03:09.370 align:start position:0%
+exactly how to define the similarity
+ 
+
+00:03:09.370 --> 00:03:11.600 align:start position:0%
+exactly how to define the similarity
+function<c.colorE5E5E5><00:03:10.090><c> what</c><00:03:10.420><c> would</c><00:03:10.570><c> you</c><00:03:10.690><c> do</c></c>
+
+00:03:11.600 --> 00:03:11.610 align:start position:0%
+function<c.colorE5E5E5> what would you do
+ </c>
+
+00:03:11.610 --> 00:03:14.940 align:start position:0%
+function<c.colorE5E5E5> what would you do
+so<00:03:12.610><c> think</c><00:03:12.820><c> for</c></c><c.colorCCCCCC><00:03:12.880><c> a</c></c><c.colorE5E5E5><00:03:13.440><c> couple</c><00:03:14.440><c> of</c><00:03:14.470><c> minutes</c><00:03:14.800><c> and</c></c>
+
+00:03:14.940 --> 00:03:14.950 align:start position:0%
+so think for<c.colorCCCCCC> a</c><c.colorE5E5E5> couple of minutes and
+ </c>
+
+00:03:14.950 --> 00:03:22.190 align:start position:0%
+so think for<c.colorCCCCCC> a</c><c.colorE5E5E5> couple of minutes and
+then<00:03:15.160><c> proceed</c><00:03:19.770><c> so</c><00:03:20.770><c> let's</c><00:03:21.070><c> think</c><00:03:21.190><c> about</c><00:03:21.310><c> some</c></c>
+
+00:03:22.190 --> 00:03:22.200 align:start position:0%
+then proceed so let's think about some
+ 
+
+00:03:22.200 --> 00:03:25.740 align:start position:0%
+then proceed so let's think about some
+<c.colorE5E5E5>simple<00:03:23.200><c> ways</c><00:03:23.560><c> of</c><00:03:23.860><c> instantiating</c><00:03:24.850><c> this</c><00:03:25.390><c> vector</c></c>
+
+00:03:25.740 --> 00:03:25.750 align:start position:0%
+<c.colorE5E5E5>simple ways of instantiating this vector
+ </c>
+
+00:03:25.750 --> 00:03:28.170 align:start position:0%
+<c.colorE5E5E5>simple ways of instantiating this vector
+space</c><c.colorCCCCCC><00:03:25.810><c> model</c></c><c.colorE5E5E5><00:03:26.170><c> first</c><00:03:26.590><c> how</c><00:03:27.550><c> do</c><00:03:27.610><c> we</c><00:03:27.760><c> define</c><00:03:28.030><c> the</c></c>
+
+00:03:28.170 --> 00:03:28.180 align:start position:0%
+space<c.colorCCCCCC> model</c><c.colorE5E5E5> first how do we define the
+ </c>
+
+00:03:28.180 --> 00:03:30.360 align:start position:0%
+space<c.colorCCCCCC> model</c><c.colorE5E5E5> first how do we define the
+dimension<00:03:28.660><c> where</c><00:03:28.840><c> the</c><00:03:28.900><c> obvious</c><00:03:29.410><c> choice</c><00:03:29.709><c> is</c><00:03:30.070><c> to</c></c>
+
+00:03:30.360 --> 00:03:30.370 align:start position:0%
+dimension where<c.colorE5E5E5> the obvious choice is to
+ </c>
+
+00:03:30.370 --> 00:03:33.630 align:start position:0%
+dimension where<c.colorE5E5E5> the obvious choice is to</c>
+<c.colorCCCCCC>use<00:03:30.580><c> each</c><00:03:31.420><c> word</c><00:03:31.810><c> in</c><00:03:32.140><c> our</c><00:03:32.350><c> vocabulary</c><00:03:32.650><c> the</c></c>
+
+00:03:33.630 --> 00:03:33.640 align:start position:0%
+<c.colorCCCCCC>use each word in our vocabulary the
+ </c>
+
+00:03:33.640 --> 00:03:36.000 align:start position:0%
+<c.colorCCCCCC>use each word in our vocabulary the
+defining</c><c.colorE5E5E5><00:03:34.000><c> that</c><00:03:34.090><c> I</c><00:03:34.239><c> mention</c><00:03:34.600><c> and</c><00:03:34.780><c> who</c></c><c.colorCCCCCC><00:03:35.650><c> issue</c></c>
+
+00:03:36.000 --> 00:03:36.010 align:start position:0%
+<c.colorCCCCCC>defining</c><c.colorE5E5E5> that I mention and who</c><c.colorCCCCCC> issue
+ </c>
+
+00:03:36.010 --> 00:03:39.270 align:start position:0%
+<c.colorCCCCCC>defining</c><c.colorE5E5E5> that I mention and who</c><c.colorCCCCCC> issue
+that<00:03:36.280><c> there</c><00:03:37.090><c> are</c><00:03:37.239><c> n</c><00:03:37.420><c> words</c><00:03:37.810><c> in</c><00:03:38.200><c> our</c><00:03:38.440><c> vocabulary</c></c>
+
+00:03:39.270 --> 00:03:39.280 align:start position:0%
+that there are n words in our vocabulary
+ 
+
+00:03:39.280 --> 00:03:41.130 align:start position:0%
+that there are n words in our vocabulary
+therefore<00:03:39.730><c> there</c><c.colorE5E5E5><00:03:40.000><c> are</c><00:03:40.120><c> n</c><00:03:40.300><c> dimensions</c><00:03:40.959><c> each</c></c>
+
+00:03:41.130 --> 00:03:41.140 align:start position:0%
+therefore there<c.colorE5E5E5> are n dimensions each
+ </c>
+
+00:03:41.140 --> 00:03:43.830 align:start position:0%
+therefore there<c.colorE5E5E5> are n dimensions each
+word<00:03:41.530><c> defines</c><00:03:41.950><c> one</c></c><c.colorCCCCCC><00:03:42.250><c> dimension</c><00:03:42.760><c> and</c><00:03:42.850><c> this</c><00:03:43.660><c> is</c></c>
+
+00:03:43.830 --> 00:03:43.840 align:start position:0%
+word defines<c.colorE5E5E5> one</c><c.colorCCCCCC> dimension and this is
+ </c>
+
+00:03:43.840 --> 00:03:46.050 align:start position:0%
+word defines<c.colorE5E5E5> one</c><c.colorCCCCCC> dimension and this is
+basically</c><c.colorE5E5E5><00:03:44.130><c> the</c><00:03:45.130><c> bag</c><00:03:45.340><c> of</c><00:03:45.550><c> words</c></c><c.colorCCCCCC><00:03:45.580><c> with</c></c>
+
+00:03:46.050 --> 00:03:46.060 align:start position:0%
+basically<c.colorE5E5E5> the bag of words</c><c.colorCCCCCC> with
+ </c>
+
+00:03:46.060 --> 00:03:49.890 align:start position:0%
+basically<c.colorE5E5E5> the bag of words</c><c.colorCCCCCC> with</c>
+<c.colorE5E5E5>temptation<00:03:48.150><c> now</c><00:03:49.150><c> let's</c><00:03:49.390><c> look</c><00:03:49.510><c> at</c><00:03:49.660><c> how</c><00:03:49.840><c> we</c></c>
+
+00:03:49.890 --> 00:03:49.900 align:start position:0%
+<c.colorE5E5E5>temptation now let's look at how we
+ </c>
+
+00:03:49.900 --> 00:03:54.780 align:start position:0%
+<c.colorE5E5E5>temptation now let's look at how we
+place<00:03:50.380><c> vectors</c><00:03:51.040><c> in</c><00:03:51.610><c> this</c><00:03:51.940><c> space</c><00:03:53.550><c> again</c><00:03:54.550><c> here</c></c>
+
+00:03:54.780 --> 00:03:54.790 align:start position:0%
+place vectors in this space again here
+ 
+
+00:03:54.790 --> 00:03:59.280 align:start position:0%
+place vectors in this space again here
+the<00:03:54.970><c> simplest</c><c.colorCCCCCC><00:03:55.390><c> strategy</c><00:03:55.840><c> is</c><00:03:56.410><c> to</c><00:03:57.040><c> use</c><00:03:57.840><c> a</c><00:03:58.840><c> bit</c></c>
+
+00:03:59.280 --> 00:03:59.290 align:start position:0%
+the simplest<c.colorCCCCCC> strategy is to use a bit
+ </c>
+
+00:03:59.290 --> 00:04:02.940 align:start position:0%
+the simplest<c.colorCCCCCC> strategy is to use a bit
+vector<00:03:59.709><c> to</c><00:04:00.280><c> represent</c><00:04:00.430><c> both</c><00:04:01.360><c> the</c></c><c.colorE5E5E5><00:04:01.420><c> query</c><00:04:01.959><c> and</c><00:04:02.290><c> a</c></c>
+
+00:04:02.940 --> 00:04:02.950 align:start position:0%
+vector to represent both the<c.colorE5E5E5> query and a
+ </c>
+
+00:04:02.950 --> 00:04:06.030 align:start position:0%
+vector to represent both the<c.colorE5E5E5> query and a
+document<00:04:03.520><c> and</c><00:04:03.900><c> that</c><00:04:04.900><c> means</c><00:04:05.140><c> each</c><00:04:05.410><c> element</c><00:04:05.950><c> the</c></c>
+
+00:04:06.030 --> 00:04:06.040 align:start position:0%
+document<c.colorE5E5E5> and that means each element the
+ </c>
+
+00:04:06.040 --> 00:04:10.350 align:start position:0%
+document<c.colorE5E5E5> and that means each element the
+X<00:04:06.250><c> I</c><00:04:06.640><c> and</c><00:04:07.060><c> why</c><00:04:07.750><c> I</c><00:04:08.220><c> would</c></c><c.colorCCCCCC><00:04:09.220><c> be</c></c><c.colorE5E5E5><00:04:09.280><c> taking</c><00:04:09.790><c> a</c><00:04:09.880><c> value</c><00:04:10.209><c> of</c></c>
+
+00:04:10.350 --> 00:04:10.360 align:start position:0%
+X I and why I would<c.colorCCCCCC> be</c><c.colorE5E5E5> taking a value of
+ </c>
+
+00:04:10.360 --> 00:04:15.270 align:start position:0%
+X I and why I would<c.colorCCCCCC> be</c><c.colorE5E5E5> taking a value of</c>
+<c.colorE5E5E5>either<00:04:10.780><c> 0</c><00:04:11.320><c> or</c><00:04:11.590><c> 1</c><00:04:12.390><c> when</c><00:04:13.390><c> it's</c><00:04:13.750><c> 1</c><00:04:14.230><c> it</c><00:04:14.500><c> means</c><00:04:14.739><c> the</c></c>
+
+00:04:15.270 --> 00:04:15.280 align:start position:0%
+<c.colorE5E5E5>either 0 or 1 when it's 1 it means the
+ </c>
+
+00:04:15.280 --> 00:04:18.870 align:start position:0%
+<c.colorE5E5E5>either 0 or 1 when it's 1 it means the
+corresponding<00:04:15.550><c> word</c><00:04:16.299><c> is</c><00:04:17.109><c> present</c><00:04:18.040><c> in</c><00:04:18.669><c> the</c></c>
+
+00:04:18.870 --> 00:04:18.880 align:start position:0%
+corresponding<c.colorE5E5E5> word is present in the
+ </c>
+
+00:04:18.880 --> 00:04:21.690 align:start position:0%
+corresponding<c.colorE5E5E5> word is present in the
+document</c><c.colorCCCCCC><00:04:19.330><c> or</c></c><c.colorE5E5E5><00:04:19.419><c> in</c><00:04:19.570><c> query</c><00:04:19.900><c> when</c><00:04:20.830><c> it's</c><00:04:20.950><c> 0</c></c><c.colorCCCCCC><00:04:21.250><c> it's</c></c>
+
+00:04:21.690 --> 00:04:21.700 align:start position:0%
+document<c.colorCCCCCC> or</c><c.colorE5E5E5> in query when it's 0</c><c.colorCCCCCC> it's
+ </c>
+
+00:04:21.700 --> 00:04:27.180 align:start position:0%
+document<c.colorCCCCCC> or</c><c.colorE5E5E5> in query when it's 0</c><c.colorCCCCCC> it's
+going<00:04:22.419><c> to</c><00:04:22.840><c> mean</c><00:04:23.800><c> that</c></c><c.colorE5E5E5><00:04:23.830><c> it's</c><00:04:24.550><c> absent</c><00:04:26.130><c> so</c><00:04:27.130><c> you</c></c>
+
+00:04:27.180 --> 00:04:27.190 align:start position:0%
+going<c.colorCCCCCC> to mean that</c><c.colorE5E5E5> it's absent so you
+ </c>
+
+00:04:27.190 --> 00:04:30.180 align:start position:0%
+going<c.colorCCCCCC> to mean that</c><c.colorE5E5E5> it's absent so you
+can</c><c.colorCCCCCC><00:04:27.400><c> imagine</c><00:04:27.820><c> if</c><00:04:28.030><c> the</c><00:04:28.300><c> user</c></c><c.colorE5E5E5><00:04:28.479><c> typed</c><00:04:29.410><c> in</c><00:04:29.620><c> a</c><00:04:29.890><c> few</c></c>
+
+00:04:30.180 --> 00:04:30.190 align:start position:0%
+can<c.colorCCCCCC> imagine if the user</c><c.colorE5E5E5> typed in a few
+ </c>
+
+00:04:30.190 --> 00:04:31.620 align:start position:0%
+can<c.colorCCCCCC> imagine if the user</c><c.colorE5E5E5> typed in a few
+words<00:04:30.400><c> in</c><00:04:30.580><c> the</c><00:04:30.669><c> query</c><00:04:30.850><c> then</c><00:04:31.330><c> the</c></c>
+
+00:04:31.620 --> 00:04:31.630 align:start position:0%
+words in the query<c.colorE5E5E5> then the
+ </c>
+
+00:04:31.630 --> 00:04:33.030 align:start position:0%
+words in the query<c.colorE5E5E5> then the</c>
+<c.colorCCCCCC>queer<00:04:31.840><c> effect</c></c><c.colorE5E5E5><00:04:32.140><c> that</c><00:04:32.290><c> we</c></c><c.colorCCCCCC><00:04:32.380><c> only</c></c><c.colorE5E5E5><00:04:32.590><c> have</c><00:04:32.890><c> a</c><00:04:32.920><c> few</c></c>
+
+00:04:33.030 --> 00:04:33.040 align:start position:0%
+<c.colorCCCCCC>queer effect</c><c.colorE5E5E5> that we</c><c.colorCCCCCC> only</c><c.colorE5E5E5> have a few
+ </c>
+
+00:04:33.040 --> 00:04:38.160 align:start position:0%
+<c.colorCCCCCC>queer effect</c><c.colorE5E5E5> that we</c><c.colorCCCCCC> only</c><c.colorE5E5E5> have a few</c>
+<c.colorE5E5E5>ones<00:04:33.600><c> many</c><00:04:34.600><c> many</c></c><c.colorCCCCCC><00:04:34.960><c> zeros</c><00:04:36.690><c> the</c><00:04:37.690><c> Dakin</c></c><c.colorE5E5E5><00:04:38.020><c> the</c></c>
+
+00:04:38.160 --> 00:04:38.170 align:start position:0%
+<c.colorE5E5E5>ones many many</c><c.colorCCCCCC> zeros the Dakin</c><c.colorE5E5E5> the
+ </c>
+
+00:04:38.170 --> 00:04:40.110 align:start position:0%
+<c.colorE5E5E5>ones many many</c><c.colorCCCCCC> zeros the Dakin</c><c.colorE5E5E5> the</c>
+<c.colorCCCCCC>vector<00:04:38.530><c> generally</c><00:04:38.980><c> we</c><00:04:39.100><c> have</c></c><c.colorE5E5E5><00:04:39.130><c> more</c><00:04:39.520><c> ones</c><00:04:39.790><c> of</c></c>
+
+00:04:40.110 --> 00:04:40.120 align:start position:0%
+<c.colorCCCCCC>vector generally we have</c><c.colorE5E5E5> more ones of
+ </c>
+
+00:04:40.120 --> 00:04:43.080 align:start position:0%
+<c.colorCCCCCC>vector generally we have</c><c.colorE5E5E5> more ones of
+course<00:04:40.560><c> but</c><00:04:41.560><c> it</c><00:04:41.800><c> will</c></c><c.colorCCCCCC><00:04:41.950><c> also</c><00:04:42.220><c> have</c><00:04:42.400><c> many</c><00:04:42.670><c> zeros</c></c>
+
+00:04:43.080 --> 00:04:43.090 align:start position:0%
+course<c.colorE5E5E5> but it will</c><c.colorCCCCCC> also have many zeros
+ </c>
+
+00:04:43.090 --> 00:04:45.750 align:start position:0%
+course<c.colorE5E5E5> but it will</c><c.colorCCCCCC> also have many zeros</c>
+<c.colorCCCCCC>since<00:04:43.480><c> the</c><00:04:44.410><c> vocabulary</c><00:04:44.680><c> is</c><00:04:45.100><c> generally</c><00:04:45.580><c> very</c></c>
+
+00:04:45.750 --> 00:04:45.760 align:start position:0%
+<c.colorCCCCCC>since the vocabulary is generally very
+ </c>
+
+00:04:45.760 --> 00:04:49.250 align:start position:0%
+<c.colorCCCCCC>since the vocabulary is generally very
+large<00:04:46.090><c> many</c><00:04:46.840><c> words</c><00:04:47.140><c> don't</c><00:04:47.920><c> really</c></c><c.colorE5E5E5><00:04:48.220><c> occur</c><00:04:48.730><c> in</c></c>
+
+00:04:49.250 --> 00:04:49.260 align:start position:0%
+large many words don't really<c.colorE5E5E5> occur in
+ </c>
+
+00:04:49.260 --> 00:04:53.090 align:start position:0%
+large many words don't really<c.colorE5E5E5> occur in</c>
+<c.colorCCCCCC>any<00:04:50.260><c> document</c></c><c.colorE5E5E5><00:04:51.240><c> many</c><00:04:52.240><c> words</c><00:04:52.540><c> we</c><00:04:52.930><c> only</c></c>
+
+00:04:53.090 --> 00:04:53.100 align:start position:0%
+<c.colorCCCCCC>any document</c><c.colorE5E5E5> many words we only
+ </c>
+
+00:04:53.100 --> 00:04:58.830 align:start position:0%
+<c.colorCCCCCC>any document</c><c.colorE5E5E5> many words we only
+occasionally<00:04:54.100><c> occur</c><00:04:54.640><c> in</c><00:04:55.000><c> the</c><00:04:55.810><c> document</c><00:04:56.470><c> a</c><00:04:57.840><c> lot</c></c>
+
+00:04:58.830 --> 00:04:58.840 align:start position:0%
+occasionally occur in the document a lot
+ 
+
+00:04:58.840 --> 00:05:01.290 align:start position:0%
+occasionally occur in the document a lot
+<c.colorE5E5E5>of<00:04:58.990><c> words</c><00:04:59.200><c> will</c><00:04:59.620><c> be</c><00:04:59.710><c> absent</c></c><c.colorCCCCCC><00:05:00.130><c> in</c><00:05:00.850><c> a</c><00:05:01.030><c> particular</c></c>
+
+00:05:01.290 --> 00:05:01.300 align:start position:0%
+<c.colorE5E5E5>of words will be absent</c><c.colorCCCCCC> in a particular
+ </c>
+
+00:05:01.300 --> 00:05:07.140 align:start position:0%
+<c.colorE5E5E5>of words will be absent</c><c.colorCCCCCC> in a particular</c>
+<c.colorE5E5E5>document<00:05:03.450><c> so</c><00:05:04.450><c> now</c><00:05:04.750><c> we</c><00:05:04.810><c> have</c><00:05:05.200><c> placed</c></c><c.colorCCCCCC><00:05:06.150><c> the</c></c>
+
+00:05:07.140 --> 00:05:07.150 align:start position:0%
+<c.colorE5E5E5>document so now we have placed</c><c.colorCCCCCC> the
+ </c>
+
+00:05:07.150 --> 00:05:09.300 align:start position:0%
+<c.colorE5E5E5>document so now we have placed</c><c.colorCCCCCC> the
+documents<00:05:07.690><c> and</c><00:05:07.870><c> the</c><00:05:08.200><c> query</c><00:05:08.440><c> in</c><00:05:08.770><c> the</c><00:05:09.010><c> vector</c></c>
+
+00:05:09.300 --> 00:05:09.310 align:start position:0%
+documents and the query in the<c.colorCCCCCC> vector
+ </c>
+
+00:05:09.310 --> 00:05:13.740 align:start position:0%
+documents and the query in the<c.colorCCCCCC> vector</c>
+<c.colorE5E5E5>space<00:05:10.470><c> let's</c><00:05:11.470><c> look</c><00:05:11.680><c> at</c><00:05:11.830><c> how</c><00:05:11.980><c> we</c><00:05:12.510><c> measure</c><00:05:13.510><c> the</c></c>
+
+00:05:13.740 --> 00:05:13.750 align:start position:0%
+<c.colorE5E5E5>space let's look at how we measure the
+ </c>
+
+00:05:13.750 --> 00:05:17.100 align:start position:0%
+<c.colorE5E5E5>space let's look at how we measure the
+similarity<00:05:14.850><c> so</c><00:05:15.850><c> a</c><00:05:16.150><c> commonly</c></c><c.colorCCCCCC><00:05:16.690><c> used</c><00:05:16.900><c> to</c></c>
+
+00:05:17.100 --> 00:05:17.110 align:start position:0%
+similarity so a commonly<c.colorCCCCCC> used to
+ </c>
+
+00:05:17.110 --> 00:05:19.760 align:start position:0%
+similarity so a commonly<c.colorCCCCCC> used to
+similarity<00:05:17.620><c> measure</c><00:05:17.800><c> here</c><00:05:18.160><c> is</c><00:05:18.340><c> dot</c><00:05:18.940><c> product</c></c>
+
+00:05:19.760 --> 00:05:19.770 align:start position:0%
+similarity measure here is dot product
+ 
+
+00:05:19.770 --> 00:05:24.000 align:start position:0%
+similarity measure here is dot product
+<c.colorE5E5E5>the<00:05:20.770><c> dot</c><00:05:21.040><c> product</c><00:05:21.580><c> of</c></c><c.colorCCCCCC><00:05:21.700><c> two</c><00:05:22.030><c> vectors</c><00:05:22.060><c> is</c><00:05:23.010><c> simply</c></c>
+
+00:05:24.000 --> 00:05:24.010 align:start position:0%
+<c.colorE5E5E5>the dot product of</c><c.colorCCCCCC> two vectors is simply
+ </c>
+
+00:05:24.010 --> 00:05:27.150 align:start position:0%
+<c.colorE5E5E5>the dot product of</c><c.colorCCCCCC> two vectors is simply</c>
+<c.colorCCCCCC>defined<00:05:24.370><c> as</c><00:05:24.660><c> the</c><00:05:25.660><c> sum</c><00:05:25.930><c> of</c></c><c.colorE5E5E5><00:05:26.200><c> the</c><00:05:26.590><c> products</c></c><c.colorCCCCCC><00:05:27.070><c> of</c></c>
+
+00:05:27.150 --> 00:05:27.160 align:start position:0%
+<c.colorCCCCCC>defined as the sum of</c><c.colorE5E5E5> the products</c><c.colorCCCCCC> of
+ </c>
+
+00:05:27.160 --> 00:05:29.130 align:start position:0%
+<c.colorCCCCCC>defined as the sum of</c><c.colorE5E5E5> the products</c><c.colorCCCCCC> of
+the</c><c.colorE5E5E5><00:05:27.250><c> corresponding</c><00:05:27.670><c> elements</c></c><c.colorCCCCCC><00:05:28.390><c> of</c><00:05:28.930><c> the</c><00:05:28.990><c> two</c></c>
+
+00:05:29.130 --> 00:05:29.140 align:start position:0%
+the<c.colorE5E5E5> corresponding elements</c><c.colorCCCCCC> of the two
+ </c>
+
+00:05:29.140 --> 00:05:34.140 align:start position:0%
+the<c.colorE5E5E5> corresponding elements</c><c.colorCCCCCC> of the two
+vectors<00:05:29.700><c> so</c><00:05:30.700><c> here</c><00:05:31.000><c> we</c><00:05:31.150><c> see</c><00:05:31.420><c> that</c></c><c.colorE5E5E5><00:05:31.560><c> it's</c><00:05:33.150><c> the</c></c>
+
+00:05:34.140 --> 00:05:34.150 align:start position:0%
+vectors so here we see that<c.colorE5E5E5> it's the
+ </c>
+
+00:05:34.150 --> 00:05:42.030 align:start position:0%
+vectors so here we see that<c.colorE5E5E5> it's the
+product<00:05:34.720><c> of</c><00:05:35.220><c> x1</c><00:05:36.220><c> and</c><00:05:37.080><c> y1</c><00:05:38.080><c> so</c><00:05:39.010><c> here</c><00:05:39.520><c> and</c><00:05:40.080><c> then</c><00:05:41.080><c> X</c></c>
+
+00:05:42.030 --> 00:05:42.040 align:start position:0%
+product of<c.colorE5E5E5> x1 and y1 so here and then X
+ </c>
+
+00:05:42.040 --> 00:05:44.640 align:start position:0%
+product of<c.colorE5E5E5> x1 and y1 so here and then X
+2<00:05:42.460><c> multiplied</c><00:05:42.940><c> by</c></c><c.colorCCCCCC><00:05:42.970><c> Y</c></c><c.colorE5E5E5><00:05:43.450><c> 2</c><00:05:43.510><c> and</c><00:05:43.990><c> then</c><00:05:44.470><c> finally</c></c>
+
+00:05:44.640 --> 00:05:44.650 align:start position:0%
+2 multiplied by<c.colorCCCCCC> Y</c><c.colorE5E5E5> 2 and then finally
+ </c>
+
+00:05:44.650 --> 00:05:47.310 align:start position:0%
+2 multiplied by<c.colorCCCCCC> Y</c><c.colorE5E5E5> 2 and then finally</c>
+<c.colorCCCCCC>eggs<00:05:45.100><c> and</c><00:05:45.460><c> multiplied</c><00:05:46.120><c> by</c><00:05:46.300><c> Y</c></c><c.colorE5E5E5><00:05:46.540><c> N</c><00:05:46.750><c> and</c><00:05:47.020><c> then</c><00:05:47.290><c> we</c></c>
+
+00:05:47.310 --> 00:05:47.320 align:start position:0%
+<c.colorCCCCCC>eggs and multiplied by Y</c><c.colorE5E5E5> N and then we
+ </c>
+
+00:05:47.320 --> 00:05:51.240 align:start position:0%
+<c.colorCCCCCC>eggs and multiplied by Y</c><c.colorE5E5E5> N and then we</c>
+<c.colorCCCCCC>take<00:05:47.650><c> a</c><00:05:47.710><c> son</c><00:05:48.040><c> yeah</c><00:05:49.680><c> so</c><00:05:50.680><c> that's</c><00:05:50.890><c> the</c><00:05:51.070><c> dot</c></c>
+
+00:05:51.240 --> 00:05:51.250 align:start position:0%
+<c.colorCCCCCC>take a son yeah so that's the dot
+ </c>
+
+00:05:51.250 --> 00:05:54.900 align:start position:0%
+<c.colorCCCCCC>take a son yeah so that's the dot
+product<00:05:51.700><c> now</c><00:05:52.660><c> we</c><00:05:52.720><c> can</c><00:05:53.050><c> represent</c><00:05:53.980><c> this</c><00:05:54.520><c> in</c></c><c.colorE5E5E5><00:05:54.790><c> a</c></c>
+
+00:05:54.900 --> 00:05:54.910 align:start position:0%
+product now we can represent this in<c.colorE5E5E5> a
+ </c>
+
+00:05:54.910 --> 00:05:58.800 align:start position:0%
+product now we can represent this in<c.colorE5E5E5> a
+more</c><c.colorCCCCCC><00:05:55.060><c> general</c><00:05:55.330><c> way</c><00:05:55.860><c> using</c><00:05:56.860><c> a</c><00:05:56.950><c> sum</c><00:05:57.190><c> here</c></c><c.colorE5E5E5><00:05:57.810><c> so</c></c>
+
+00:05:58.800 --> 00:05:58.810 align:start position:0%
+<c.colorE5E5E5>more</c><c.colorCCCCCC> general way using a sum here</c><c.colorE5E5E5> so
+ </c>
+
+00:05:58.810 --> 00:06:00.960 align:start position:0%
+<c.colorE5E5E5>more</c><c.colorCCCCCC> general way using a sum here</c><c.colorE5E5E5> so
+this<00:05:59.050><c> is</c><00:05:59.200><c> only</c><00:05:59.320><c> one</c></c><c.colorCCCCCC><00:05:59.620><c> of</c><00:05:59.770><c> the</c><00:06:00.040><c> many</c><00:06:00.610><c> different</c></c>
+
+00:06:00.960 --> 00:06:00.970 align:start position:0%
+this<c.colorE5E5E5> is only one</c><c.colorCCCCCC> of the many different
+ </c>
+
+00:06:00.970 --> 00:06:04.500 align:start position:0%
+this<c.colorE5E5E5> is only one</c><c.colorCCCCCC> of the many different
+ways<00:06:01.030><c> of</c><00:06:01.480><c> measuring</c></c><c.colorE5E5E5><00:06:02.260><c> the</c><00:06:02.620><c> similarity</c><00:06:03.220><c> so</c><00:06:04.210><c> now</c></c>
+
+00:06:04.500 --> 00:06:04.510 align:start position:0%
+ways<c.colorCCCCCC> of measuring</c><c.colorE5E5E5> the similarity so now
+ </c>
+
+00:06:04.510 --> 00:06:09.240 align:start position:0%
+ways<c.colorCCCCCC> of measuring</c><c.colorE5E5E5> the similarity so now
+we<00:06:04.570><c> see</c><00:06:04.930><c> that</c><00:06:05.170><c> we</c></c><c.colorCCCCCC><00:06:05.620><c> have</c></c><c.colorE5E5E5><00:06:06.300><c> defined</c><00:06:08.250><c> the</c></c>
+
+00:06:09.240 --> 00:06:09.250 align:start position:0%
+we see that<c.colorE5E5E5> we</c><c.colorCCCCCC> have</c><c.colorE5E5E5> defined the
+ </c>
+
+00:06:09.250 --> 00:06:12.630 align:start position:0%
+we see that<c.colorE5E5E5> we</c><c.colorCCCCCC> have</c><c.colorE5E5E5> defined the
+dimensions<00:06:09.880><c> we</c><00:06:10.660><c> have</c><00:06:10.690><c> defined</c><00:06:11.410><c> the</c><00:06:12.220><c> vectors</c></c>
+
+00:06:12.630 --> 00:06:12.640 align:start position:0%
+dimensions<c.colorE5E5E5> we have defined the vectors
+ </c>
+
+00:06:12.640 --> 00:06:14.940 align:start position:0%
+dimensions<c.colorE5E5E5> we have defined the vectors
+and<00:06:12.850><c> we</c><00:06:13.420><c> have</c><00:06:13.600><c> also</c><00:06:13.810><c> defined</c><00:06:14.050><c> the</c><00:06:14.350><c> similarity</c></c>
+
+00:06:14.940 --> 00:06:14.950 align:start position:0%
+and we have also defined the similarity
+ 
+
+00:06:14.950 --> 00:06:17.820 align:start position:0%
+and we have also defined the similarity
+function<00:06:15.340><c> so</c><c.colorE5E5E5><00:06:16.120><c> now</c><00:06:16.300><c> we</c><00:06:16.360><c> finally</c></c><c.colorCCCCCC><00:06:16.840><c> have</c><00:06:17.320><c> the</c></c>
+
+00:06:17.820 --> 00:06:17.830 align:start position:0%
+function so<c.colorE5E5E5> now we finally</c><c.colorCCCCCC> have the
+ </c>
+
+00:06:17.830 --> 00:06:21.060 align:start position:0%
+function so<c.colorE5E5E5> now we finally</c><c.colorCCCCCC> have the
+simplest</c><c.colorE5E5E5><00:06:18.220><c> vector</c><00:06:18.700><c> space</c><00:06:19.030><c> model</c><00:06:19.710><c> which</c><00:06:20.710><c> is</c></c>
+
+00:06:21.060 --> 00:06:21.070 align:start position:0%
+simplest<c.colorE5E5E5> vector space model which is
+ </c>
+
+00:06:21.070 --> 00:06:22.950 align:start position:0%
+simplest<c.colorE5E5E5> vector space model which is
+based</c><c.colorCCCCCC><00:06:21.100><c> on</c><00:06:21.520><c> the</c><00:06:21.730><c> bit</c><00:06:21.880><c> vector</c><00:06:22.090><c> reconditioning</c></c>
+
+00:06:22.950 --> 00:06:22.960 align:start position:0%
+based<c.colorCCCCCC> on the bit vector reconditioning
+ </c>
+
+00:06:22.960 --> 00:06:24.890 align:start position:0%
+based<c.colorCCCCCC> on the bit vector reconditioning</c>
+<c.colorE5E5E5>dot<00:06:23.290><c> products</c><00:06:23.890><c> in</c><00:06:24.010><c> our</c><00:06:24.190><c> day</c><00:06:24.370><c> and</c></c><c.colorCCCCCC><00:06:24.520><c> bag-of-words</c></c>
+
+00:06:24.890 --> 00:06:24.900 align:start position:0%
+<c.colorE5E5E5>dot products in our day and</c><c.colorCCCCCC> bag-of-words
+ </c>
+
+00:06:24.900 --> 00:06:28.020 align:start position:0%
+<c.colorE5E5E5>dot products in our day and</c><c.colorCCCCCC> bag-of-words
+recommendation<00:06:25.900><c> and</c><00:06:26.190><c> the</c><00:06:27.190><c> formula</c><00:06:27.730><c> looks</c></c>
+
+00:06:28.020 --> 00:06:28.030 align:start position:0%
+<c.colorCCCCCC>recommendation and the formula looks
+ </c>
+
+00:06:28.030 --> 00:06:32.160 align:start position:0%
+<c.colorCCCCCC>recommendation and the formula looks</c>
+<c.colorCCCCCC>like<00:06:28.780><c> this</c><00:06:29.340><c> so</c><00:06:30.340><c> this</c></c><c.colorE5E5E5><00:06:30.670><c> is</c><00:06:30.730><c> our</c><00:06:31.420><c> formula</c><00:06:31.840><c> and</c></c>
+
+00:06:32.160 --> 00:06:32.170 align:start position:0%
+<c.colorCCCCCC>like this so this</c><c.colorE5E5E5> is our formula and
+ </c>
+
+00:06:32.170 --> 00:06:35.340 align:start position:0%
+<c.colorCCCCCC>like this so this</c><c.colorE5E5E5> is our formula and
+that's<00:06:32.740><c> actually</c><00:06:33.220><c> a</c><00:06:33.700><c> particular</c><00:06:34.350><c> retrieval</c></c>
+
+00:06:35.340 --> 00:06:35.350 align:start position:0%
+that's actually<c.colorE5E5E5> a particular retrieval
+ </c>
+
+00:06:35.350 --> 00:06:37.770 align:start position:0%
+that's actually<c.colorE5E5E5> a particular retrieval
+function<00:06:35.710><c> a</c><00:06:35.800><c> ranking</c><00:06:36.250><c> function</c><00:06:36.640><c> right</c><00:06:37.060><c> now</c></c><c.colorCCCCCC><00:06:37.330><c> we</c></c>
+
+00:06:37.770 --> 00:06:37.780 align:start position:0%
+function a ranking function right<c.colorE5E5E5> now</c><c.colorCCCCCC> we
+ </c>
+
+00:06:37.780 --> 00:06:40.710 align:start position:0%
+function a ranking function right<c.colorE5E5E5> now</c><c.colorCCCCCC> we
+can<00:06:38.140><c> finally</c><00:06:38.700><c> implement</c><00:06:39.700><c> this</c><00:06:40.030><c> function</c></c>
+
+00:06:40.710 --> 00:06:40.720 align:start position:0%
+can finally implement this function
+ 
+
+00:06:40.720 --> 00:06:42.870 align:start position:0%
+can finally implement this function
+using<c.colorCCCCCC><00:06:41.560><c> a</c><00:06:41.740><c> program</c><00:06:42.160><c> learning</c></c><c.colorE5E5E5><00:06:42.430><c> it</c></c>
+
+00:06:42.870 --> 00:06:42.880 align:start position:0%
+using<c.colorCCCCCC> a program learning</c><c.colorE5E5E5> it
+ </c>
+
+00:06:42.880 --> 00:06:45.780 align:start position:0%
+using<c.colorCCCCCC> a program learning</c><c.colorE5E5E5> it
+then<00:06:43.030><c> rank</c><00:06:43.330><c> documents</c><00:06:43.930><c> for</c></c><c.colorCCCCCC><00:06:44.170><c> appearing</c></c><c.colorE5E5E5><00:06:44.620><c> now</c><00:06:45.430><c> at</c></c>
+
+00:06:45.780 --> 00:06:45.790 align:start position:0%
+then<c.colorE5E5E5> rank documents for</c><c.colorCCCCCC> appearing</c><c.colorE5E5E5> now at
+ </c>
+
+00:06:45.790 --> 00:06:49.140 align:start position:0%
+then<c.colorE5E5E5> rank documents for</c><c.colorCCCCCC> appearing</c><c.colorE5E5E5> now at
+this<00:06:46.270><c> point</c><00:06:46.620><c> you</c><00:06:47.620><c> should</c><00:06:47.650><c> again</c><00:06:48.460><c> pause</c></c><c.colorCCCCCC><00:06:48.820><c> the</c></c>
+
+00:06:49.140 --> 00:06:49.150 align:start position:0%
+this<c.colorE5E5E5> point you should again pause</c><c.colorCCCCCC> the
+ </c>
+
+00:06:49.150 --> 00:06:51.450 align:start position:0%
+this<c.colorE5E5E5> point you should again pause</c><c.colorCCCCCC> the
+lecture</c><c.colorE5E5E5><00:06:49.300><c> to</c><00:06:50.200><c> think</c><00:06:50.440><c> about</c><00:06:50.680><c> how</c><00:06:51.070><c> we</c><00:06:51.130><c> had</c></c>
+
+00:06:51.450 --> 00:06:51.460 align:start position:0%
+lecture<c.colorE5E5E5> to think about how we had
+ </c>
+
+00:06:51.460 --> 00:06:54.180 align:start position:0%
+lecture<c.colorE5E5E5> to think about how we had
+interpreted<00:06:52.120><c> school</c><00:06:52.500><c> so</c><00:06:53.500><c> we</c><00:06:53.770><c> have</c><00:06:53.950><c> gone</c></c>
+
+00:06:54.180 --> 00:06:54.190 align:start position:0%
+interpreted<c.colorE5E5E5> school so we have gone
+ </c>
+
+00:06:54.190 --> 00:06:55.980 align:start position:0%
+interpreted<c.colorE5E5E5> school so we have gone</c>
+<c.colorCCCCCC>through<00:06:54.250><c> the</c><00:06:54.670><c> process</c></c><c.colorE5E5E5><00:06:54.850><c> of</c><00:06:55.210><c> modeling</c><00:06:55.840><c> the</c></c>
+
+00:06:55.980 --> 00:06:55.990 align:start position:0%
+<c.colorCCCCCC>through the process</c><c.colorE5E5E5> of modeling the
+ </c>
+
+00:06:55.990 --> 00:06:59.610 align:start position:0%
+<c.colorCCCCCC>through the process</c><c.colorE5E5E5> of modeling the
+retrieval<00:06:56.590><c> problem</c><00:06:58.020><c> using</c></c><c.colorCCCCCC><00:06:59.020><c> a</c><00:06:59.230><c> vector</c><00:06:59.560><c> space</c></c>
+
+00:06:59.610 --> 00:06:59.620 align:start position:0%
+retrieval problem using<c.colorCCCCCC> a vector space
+ </c>
+
+00:06:59.620 --> 00:07:03.870 align:start position:0%
+retrieval problem using<c.colorCCCCCC> a vector space</c>
+<c.colorE5E5E5>model<00:07:00.010><c> and</c><00:07:00.370><c> then</c><00:07:00.880><c> we</c><00:07:01.210><c> make</c><00:07:01.570><c> assumptions</c></c><c.colorCCCCCC><00:07:02.880><c> about</c></c>
+
+00:07:03.870 --> 00:07:03.880 align:start position:0%
+<c.colorE5E5E5>model and then we make assumptions</c><c.colorCCCCCC> about
+ </c>
+
+00:07:03.880 --> 00:07:06.780 align:start position:0%
+<c.colorE5E5E5>model and then we make assumptions</c><c.colorCCCCCC> about
+how<00:07:04.510><c> we</c></c><c.colorE5E5E5><00:07:04.540><c> place</c><00:07:04.990><c> vectors</c><00:07:05.500><c> in</c><00:07:06.220><c> the</c><00:07:06.460><c> vector</c><00:07:06.490><c> space</c></c>
+
+00:07:06.780 --> 00:07:06.790 align:start position:0%
+how we<c.colorE5E5E5> place vectors in the vector space
+ </c>
+
+00:07:06.790 --> 00:07:09.990 align:start position:0%
+how we<c.colorE5E5E5> place vectors in the vector space</c>
+<c.colorE5E5E5>and<00:07:07.420><c> how</c><00:07:07.900><c> we</c><00:07:07.960><c> define</c><00:07:08.440><c> the</c><00:07:08.590><c> similarity</c></c><c.colorCCCCCC><00:07:08.850><c> so</c><00:07:09.850><c> in</c></c>
+
+00:07:09.990 --> 00:07:10.000 align:start position:0%
+<c.colorE5E5E5>and how we define the similarity</c><c.colorCCCCCC> so in
+ </c>
+
+00:07:10.000 --> 00:07:11.670 align:start position:0%
+<c.colorE5E5E5>and how we define the similarity</c><c.colorCCCCCC> so in
+the<00:07:10.090><c> end</c></c><c.colorE5E5E5><00:07:10.270><c> that</c><00:07:10.630><c> we've</c><00:07:10.780><c> got</c><00:07:11.020><c> a</c><00:07:11.050><c> specific</c></c>
+
+00:07:11.670 --> 00:07:11.680 align:start position:0%
+the end<c.colorE5E5E5> that we've got a specific
+ </c>
+
+00:07:11.680 --> 00:07:15.450 align:start position:0%
+the end<c.colorE5E5E5> that we've got a specific
+electrical<00:07:12.400><c> function</c><00:07:12.930><c> shown</c><00:07:13.930><c> here</c><00:07:14.400><c> now</c><00:07:15.400><c> the</c></c>
+
+00:07:15.450 --> 00:07:15.460 align:start position:0%
+<c.colorE5E5E5>electrical function shown here now the
+ </c>
+
+00:07:15.460 --> 00:07:17.370 align:start position:0%
+<c.colorE5E5E5>electrical function shown here now the</c>
+<c.colorE5E5E5>next<00:07:15.760><c> step</c><00:07:16.090><c> is</c><00:07:16.120><c> to</c><00:07:16.390><c> think</c></c><c.colorCCCCCC><00:07:16.420><c> about</c></c><c.colorE5E5E5><00:07:16.660><c> whether</c><00:07:17.170><c> this</c></c>
+
+00:07:17.370 --> 00:07:17.380 align:start position:0%
+<c.colorE5E5E5>next step is to think</c><c.colorCCCCCC> about</c><c.colorE5E5E5> whether this
+ </c>
+
+00:07:17.380 --> 00:07:19.610 align:start position:0%
+<c.colorE5E5E5>next step is to think</c><c.colorCCCCCC> about</c><c.colorE5E5E5> whether this
+material<00:07:17.620><c> function</c><00:07:18.250><c> actually</c><00:07:18.520><c> makes</c><00:07:18.970><c> sense</c></c>
+
+00:07:19.610 --> 00:07:19.620 align:start position:0%
+material function actually<c.colorE5E5E5> makes sense
+ </c>
+
+00:07:19.620 --> 00:07:22.710 align:start position:0%
+material function actually<c.colorE5E5E5> makes sense
+right<00:07:20.620><c> can</c><00:07:21.310><c> we</c><00:07:21.340><c> expect</c><00:07:21.790><c> this</c><00:07:22.150><c> function</c><00:07:22.570><c> to</c></c>
+
+00:07:22.710 --> 00:07:22.720 align:start position:0%
+right can we<c.colorE5E5E5> expect this function to
+ </c>
+
+00:07:22.720 --> 00:07:25.530 align:start position:0%
+right can we<c.colorE5E5E5> expect this function to</c>
+<c.colorE5E5E5>actor</c><c.colorCCCCCC><00:07:22.990><c> to</c></c><c.colorE5E5E5><00:07:23.140><c> form</c><00:07:23.380><c> where</c><00:07:23.590><c> when</c><00:07:24.250><c> we</c><00:07:24.370><c> use</c></c><c.colorCCCCCC><00:07:24.760><c> it</c><00:07:24.970><c> to</c></c>
+
+00:07:25.530 --> 00:07:25.540 align:start position:0%
+<c.colorE5E5E5>actor</c><c.colorCCCCCC> to</c><c.colorE5E5E5> form where when we use</c><c.colorCCCCCC> it to
+ </c>
+
+00:07:25.540 --> 00:07:28.860 align:start position:0%
+<c.colorE5E5E5>actor</c><c.colorCCCCCC> to</c><c.colorE5E5E5> form where when we use</c><c.colorCCCCCC> it to</c>
+<c.colorCCCCCC>render</c><c.colorE5E5E5><00:07:25.750><c> documents</c><00:07:26.290><c> for</c><00:07:26.470><c> users</c><00:07:26.770><c> queries</c><00:07:27.870><c> so</c></c>
+
+00:07:28.860 --> 00:07:28.870 align:start position:0%
+<c.colorCCCCCC>render</c><c.colorE5E5E5> documents for users queries so
+ </c>
+
+00:07:28.870 --> 00:07:33.660 align:start position:0%
+<c.colorCCCCCC>render</c><c.colorE5E5E5> documents for users queries so
+it's<00:07:29.110><c> worth</c><00:07:29.350><c> thinking</c></c><c.colorCCCCCC><00:07:29.380><c> about</c><00:07:31.320><c> what</c><00:07:32.320><c> is</c><00:07:32.670><c> this</c></c>
+
+00:07:33.660 --> 00:07:33.670 align:start position:0%
+it's worth thinking<c.colorCCCCCC> about what is this
+ </c>
+
+00:07:33.670 --> 00:07:36.240 align:start position:0%
+it's worth thinking<c.colorCCCCCC> about what is this
+value<00:07:34.090><c> that</c><00:07:34.570><c> we</c></c><c.colorE5E5E5><00:07:34.720><c> are</c><00:07:34.810><c> calculating</c><00:07:35.080><c> so</c><00:07:35.950><c> in</c><00:07:36.130><c> the</c></c>
+
+00:07:36.240 --> 00:07:36.250 align:start position:0%
+value<c.colorCCCCCC> that we</c><c.colorE5E5E5> are calculating so in the
+ </c>
+
+00:07:36.250 --> 00:07:38.610 align:start position:0%
+value<c.colorCCCCCC> that we</c><c.colorE5E5E5> are calculating so in the
+end<00:07:36.460><c> we'll</c><00:07:36.820><c> get</c><00:07:36.970><c> a</c><00:07:37.000><c> number</c><00:07:37.320><c> but</c><00:07:38.320><c> what</c><00:07:38.440><c> does</c></c>
+
+00:07:38.610 --> 00:07:38.620 align:start position:0%
+end we'll get a number<c.colorE5E5E5> but what does
+ </c>
+
+00:07:38.620 --> 00:07:42.300 align:start position:0%
+end we'll get a number<c.colorE5E5E5> but what does
+this<00:07:38.800><c> number</c><00:07:39.070><c> mean</c><00:07:39.280><c> is</c><00:07:39.700><c> it</c><00:07:40.450><c> meaningful</c><00:07:41.310><c> so</c></c>
+
+00:07:42.300 --> 00:07:42.310 align:start position:0%
+this number mean is it meaningful<c.colorE5E5E5> so
+ </c>
+
+00:07:42.310 --> 00:07:43.980 align:start position:0%
+this number mean is it meaningful<c.colorE5E5E5> so
+spend<00:07:42.640><c> a</c><00:07:42.940><c> couple</c><00:07:43.150><c> of</c><00:07:43.330><c> minutes</c></c><c.colorCCCCCC><00:07:43.450><c> to</c></c><c.colorE5E5E5><00:07:43.690><c> think</c><00:07:43.930><c> about</c></c>
+
+00:07:43.980 --> 00:07:43.990 align:start position:0%
+spend a couple of minutes<c.colorCCCCCC> to</c><c.colorE5E5E5> think about
+ </c>
+
+00:07:43.990 --> 00:07:47.190 align:start position:0%
+spend a couple of minutes<c.colorCCCCCC> to</c><c.colorE5E5E5> think about</c>
+<c.colorCCCCCC>that</c><c.colorE5E5E5><00:07:44.320><c> and</c><00:07:45.030><c> of</c><00:07:46.030><c> course</c><00:07:46.330><c> the</c><00:07:46.510><c> general</c><00:07:46.660><c> question</c></c>
+
+00:07:47.190 --> 00:07:47.200 align:start position:0%
+<c.colorCCCCCC>that</c><c.colorE5E5E5> and of course the general question
+ </c>
+
+00:07:47.200 --> 00:07:51.150 align:start position:0%
+<c.colorCCCCCC>that</c><c.colorE5E5E5> and of course the general question</c>
+<c.colorCCCCCC>here<00:07:47.440><c> is</c><00:07:47.940><c> do</c><00:07:48.940><c> you</c><00:07:49.090><c> believe</c><00:07:49.450><c> this</c><00:07:49.930><c> is</c><00:07:50.200><c> a</c></c><c.colorE5E5E5><00:07:50.560><c> good</c></c>
+
+00:07:51.150 --> 00:07:51.160 align:start position:0%
+<c.colorCCCCCC>here is do you believe this is a</c><c.colorE5E5E5> good
+ </c>
+
+00:07:51.160 --> 00:07:53.040 align:start position:0%
+<c.colorCCCCCC>here is do you believe this is a</c><c.colorE5E5E5> good
+random<00:07:51.430><c> function</c><00:07:52.000><c> what</c><00:07:52.690><c> did</c><00:07:52.840><c> they</c><00:07:52.960><c> actually</c></c>
+
+00:07:53.040 --> 00:07:53.050 align:start position:0%
+random<c.colorE5E5E5> function what did they actually
+ </c>
+
+00:07:53.050 --> 00:07:55.980 align:start position:0%
+random<c.colorE5E5E5> function what did they actually
+work<00:07:53.470><c> well</c><00:07:53.710><c> so</c><00:07:54.580><c> again</c><00:07:54.820><c> think</c><00:07:55.150><c> about</c><00:07:55.240><c> how</c><00:07:55.930><c> to</c></c>
+
+00:07:55.980 --> 00:07:55.990 align:start position:0%
+<c.colorE5E5E5>work well so again think about how to
+ </c>
+
+00:07:55.990 --> 00:07:59.610 align:start position:0%
+<c.colorE5E5E5>work well so again think about how to
+interpret<00:07:56.550><c> this</c><00:07:57.550><c> value</c><00:07:58.090><c> is</c><00:07:58.300><c> it</c><00:07:58.810><c> actually</c></c>
+
+00:07:59.610 --> 00:07:59.620 align:start position:0%
+interpret this value is it actually
+ 
+
+00:07:59.620 --> 00:08:03.330 align:start position:0%
+interpret this value is it actually
+meaningful<c.colorE5E5E5><00:08:00.300><c> does</c><00:08:01.300><c> it</c><00:08:01.510><c> mean</c></c><c.colorCCCCCC><00:08:01.780><c> something</c></c><c.colorE5E5E5><00:08:02.340><c> so</c></c>
+
+00:08:03.330 --> 00:08:03.340 align:start position:0%
+meaningful<c.colorE5E5E5> does it mean</c><c.colorCCCCCC> something</c><c.colorE5E5E5> so
+ </c>
+
+00:08:03.340 --> 00:08:05.730 align:start position:0%
+meaningful<c.colorE5E5E5> does it mean</c><c.colorCCCCCC> something</c><c.colorE5E5E5> so
+related<00:08:03.820><c> to</c><00:08:03.850><c> how</c><00:08:04.150><c> well</c><00:08:04.330><c> the</c><00:08:04.600><c> document</c><00:08:05.110><c> matches</c></c>
+
+00:08:05.730 --> 00:08:05.740 align:start position:0%
+<c.colorE5E5E5>related to how well the document matches
+ </c>
+
+00:08:05.740 --> 00:08:09.540 align:start position:0%
+<c.colorE5E5E5>related to how well the document matches
+the<00:08:06.250><c> query</c><00:08:07.320><c> so</c><00:08:08.320><c> in</c><00:08:08.560><c> order</c><00:08:08.830><c> to</c><00:08:08.950><c> assess</c><00:08:09.250><c> whether</c></c>
+
+00:08:09.540 --> 00:08:09.550 align:start position:0%
+the query so in<c.colorE5E5E5> order to assess whether
+ </c>
+
+00:08:09.550 --> 00:08:12.120 align:start position:0%
+the query so in<c.colorE5E5E5> order to assess whether
+this<00:08:09.850><c> simplest</c><00:08:10.810><c> the</c><00:08:10.870><c> vector</c><00:08:11.710><c> space</c><00:08:11.920><c> model</c></c>
+
+00:08:12.120 --> 00:08:12.130 align:start position:0%
+this<c.colorE5E5E5> simplest the vector space model
+ </c>
+
+00:08:12.130 --> 00:08:15.000 align:start position:0%
+this<c.colorE5E5E5> simplest the vector space model
+actually<00:08:12.790><c> works</c><00:08:13.150><c> well</c><00:08:13.570><c> let's</c><00:08:14.530><c> look</c><00:08:14.680><c> at</c><00:08:14.890><c> an</c></c>
+
+00:08:15.000 --> 00:08:15.010 align:start position:0%
+actually works<c.colorE5E5E5> well let's look at an
+ </c>
+
+00:08:15.010 --> 00:08:19.890 align:start position:0%
+actually works<c.colorE5E5E5> well let's look at an
+example<00:08:16.260><c> so</c><00:08:17.260><c> here</c><00:08:17.620><c> I</c><00:08:17.680><c> show</c><00:08:18.130><c> some</c><00:08:19.090><c> sample</c></c>
+
+00:08:19.890 --> 00:08:19.900 align:start position:0%
+example<c.colorE5E5E5> so here I show some sample
+ </c>
+
+00:08:19.900 --> 00:08:23.040 align:start position:0%
+example<c.colorE5E5E5> so here I show some sample
+documents<00:08:20.410><c> and</c><00:08:20.850><c> a</c><00:08:21.850><c> simple</c><00:08:22.240><c> query</c><00:08:22.420><c> the</c><00:08:22.840><c> query</c></c>
+
+00:08:23.040 --> 00:08:23.050 align:start position:0%
+documents<c.colorE5E5E5> and a simple query the query
+ </c>
+
+00:08:23.050 --> 00:08:25.710 align:start position:0%
+documents<c.colorE5E5E5> and a simple query the query
+is<00:08:23.260><c> news</c></c><c.colorCCCCCC><00:08:24.220><c> above</c><00:08:24.640><c> the</c></c><c.colorE5E5E5><00:08:24.790><c> presidential</c><00:08:25.330><c> campaign</c></c>
+
+00:08:25.710 --> 00:08:25.720 align:start position:0%
+is news<c.colorCCCCCC> above the</c><c.colorE5E5E5> presidential campaign
+ </c>
+
+00:08:25.720 --> 00:08:28.620 align:start position:0%
+is news<c.colorCCCCCC> above the</c><c.colorE5E5E5> presidential campaign
+and<00:08:25.960><c> we</c><00:08:26.620><c> have</c><00:08:26.800><c> five</c></c><c.colorCCCCCC><00:08:27.190><c> documents</c><00:08:27.790><c> here</c></c><c.colorE5E5E5><00:08:28.030><c> they</c></c>
+
+00:08:28.620 --> 00:08:28.630 align:start position:0%
+and we have five<c.colorCCCCCC> documents here</c><c.colorE5E5E5> they
+ </c>
+
+00:08:28.630 --> 00:08:33.950 align:start position:0%
+and we have five<c.colorCCCCCC> documents here</c><c.colorE5E5E5> they
+cover<00:08:28.960><c> different</c><00:08:30.030><c> terms</c><00:08:31.030><c> in</c><00:08:31.360><c> the</c><00:08:31.840><c> query</c><00:08:32.190><c> and</c></c>
+
+00:08:33.950 --> 00:08:33.960 align:start position:0%
+cover different terms<c.colorE5E5E5> in the query and
+ </c>
+
+00:08:33.960 --> 00:08:37.290 align:start position:0%
+cover different terms<c.colorE5E5E5> in the query and
+if<00:08:34.960><c> you</c><00:08:35.140><c> look</c><00:08:35.440><c> at</c></c><c.colorCCCCCC><00:08:35.590><c> the</c><00:08:35.770><c> these</c><00:08:36.340><c> documents</c><00:08:37.030><c> for</c><00:08:37.270><c> a</c></c>
+
+00:08:37.290 --> 00:08:37.300 align:start position:0%
+if you look at<c.colorCCCCCC> the these documents for a
+ </c>
+
+00:08:37.300 --> 00:08:42.150 align:start position:0%
+if you look at<c.colorCCCCCC> the these documents for a
+moment<00:08:37.800><c> you</c><00:08:38.800><c> may</c><00:08:38.950><c> realize</c><00:08:39.370><c> that</c><00:08:41.160><c> some</c></c>
+
+00:08:42.150 --> 00:08:42.160 align:start position:0%
+moment you may realize that some
+ 
+
+00:08:42.160 --> 00:08:44.730 align:start position:0%
+moment you may realize that some
+<c.colorE5E5E5>documents<00:08:42.729><c> are</c></c><c.colorCCCCCC><00:08:42.910><c> properly</c></c><c.colorE5E5E5><00:08:43.539><c> relevant</c><00:08:44.200><c> and</c><00:08:44.440><c> some</c></c>
+
+00:08:44.730 --> 00:08:44.740 align:start position:0%
+<c.colorE5E5E5>documents are</c><c.colorCCCCCC> properly</c><c.colorE5E5E5> relevant and some
+ </c>
+
+00:08:44.740 --> 00:08:48.540 align:start position:0%
+<c.colorE5E5E5>documents are</c><c.colorCCCCCC> properly</c><c.colorE5E5E5> relevant and some</c>
+<c.colorCCCCCC>others<00:08:45.160><c> are</c></c><c.colorE5E5E5><00:08:45.580><c> probably</c><00:08:46.150><c> not</c><00:08:46.450><c> relevant</c><00:08:47.310><c> now</c><00:08:48.310><c> if</c></c>
+
+00:08:48.540 --> 00:08:48.550 align:start position:0%
+<c.colorCCCCCC>others are</c><c.colorE5E5E5> probably not relevant now if
+ </c>
+
+00:08:48.550 --> 00:08:51.480 align:start position:0%
+<c.colorCCCCCC>others are</c><c.colorE5E5E5> probably not relevant now if
+I<00:08:48.700><c> ask</c><00:08:48.880><c> you</c><00:08:49.150><c> to</c><00:08:49.180><c> rank</c><00:08:49.510><c> these</c><00:08:49.780><c> documents</c><00:08:50.490><c> how</c></c>
+
+00:08:51.480 --> 00:08:51.490 align:start position:0%
+I<c.colorE5E5E5> ask you to rank these documents how
+ </c>
+
+00:08:51.490 --> 00:08:53.799 align:start position:0%
+I<c.colorE5E5E5> ask you to rank these documents how</c>
+<c.colorE5E5E5>would<00:08:51.730><c> you</c><00:08:51.880><c> rank</c><00:08:52.060><c> them</c></c>
+
+00:08:53.799 --> 00:08:53.809 align:start position:0%
+<c.colorE5E5E5>would you rank them
+ </c>
+
+00:08:53.809 --> 00:08:57.139 align:start position:0%
+<c.colorE5E5E5>would you rank them
+this<00:08:54.809><c> is</c><00:08:54.959><c> basically</c><00:08:55.350><c> our</c></c><c.colorCCCCCC><00:08:55.529><c> ideal</c><00:08:56.069><c> ranking</c><00:08:56.519><c> like</c></c>
+
+00:08:57.139 --> 00:08:57.149 align:start position:0%
+this is basically our<c.colorCCCCCC> ideal ranking like
+ </c>
+
+00:08:57.149 --> 00:08:59.749 align:start position:0%
+this is basically our<c.colorCCCCCC> ideal ranking like
+when<00:08:57.420><c> humans</c><00:08:58.019><c> can</c><00:08:58.439><c> examine</c><00:08:58.949><c> the</c><00:08:59.160><c> documents</c></c>
+
+00:08:59.749 --> 00:08:59.759 align:start position:0%
+when humans can examine the<c.colorCCCCCC> documents
+ </c>
+
+00:08:59.759 --> 00:09:04.039 align:start position:0%
+when humans can examine the<c.colorCCCCCC> documents
+and<00:08:59.910><c> then</c><00:09:00.420><c> try</c></c><c.colorE5E5E5><00:09:00.600><c> to</c><00:09:00.660><c> rank</c><00:09:00.929><c> them</c><00:09:02.449><c> now</c><00:09:03.449><c> so</c><00:09:03.749><c> think</c></c>
+
+00:09:04.039 --> 00:09:04.049 align:start position:0%
+and then try<c.colorE5E5E5> to rank them now so think
+ </c>
+
+00:09:04.049 --> 00:09:05.829 align:start position:0%
+and then try<c.colorE5E5E5> to rank them now so think
+for<00:09:04.290><c> a</c><00:09:04.350><c> moment</c><00:09:04.470><c> and</c><00:09:04.799><c> take</c><00:09:05.009><c> a</c><00:09:05.069><c> look</c><00:09:05.279><c> at</c><00:09:05.399><c> this</c></c>
+
+00:09:05.829 --> 00:09:05.839 align:start position:0%
+for<c.colorE5E5E5> a moment and take a look at this
+ </c>
+
+00:09:05.839 --> 00:09:11.559 align:start position:0%
+for<c.colorE5E5E5> a moment and take a look at this
+slide<00:09:06.839><c> and</c></c><c.colorCCCCCC><00:09:07.350><c> perhaps</c><00:09:07.799><c> by</c><00:09:08.720><c> pausing</c><00:09:09.720><c> the</c><00:09:09.749><c> rapture</c></c>
+
+00:09:11.559 --> 00:09:11.569 align:start position:0%
+slide<c.colorE5E5E5> and</c><c.colorCCCCCC> perhaps by pausing the rapture
+ </c>
+
+00:09:11.569 --> 00:09:14.769 align:start position:0%
+slide<c.colorE5E5E5> and</c><c.colorCCCCCC> perhaps by pausing the rapture
+so<00:09:12.569><c> I</c><00:09:12.600><c> think</c><00:09:12.749><c> most</c><00:09:13.439><c> of</c><00:09:13.529><c> you</c><00:09:13.769><c> would</c><00:09:14.069><c> agree</c><00:09:14.189><c> that</c></c>
+
+00:09:14.769 --> 00:09:14.779 align:start position:0%
+so I think most of you would agree that
+ 
+
+00:09:14.779 --> 00:09:19.039 align:start position:0%
+so I think most of you would agree that
+<c.colorCCCCCC>t4<00:09:15.779><c> and</c></c><c.colorE5E5E5><00:09:16.079><c> t3</c><00:09:16.259><c> are</c><00:09:16.859><c> probably</c><00:09:17.839><c> better</c><00:09:18.839><c> than</c></c>
+
+00:09:19.039 --> 00:09:19.049 align:start position:0%
+<c.colorCCCCCC>t4 and</c><c.colorE5E5E5> t3 are probably better than
+ </c>
+
+00:09:19.049 --> 00:09:22.039 align:start position:0%
+<c.colorCCCCCC>t4 and</c><c.colorE5E5E5> t3 are probably better than
+others<00:09:19.410><c> because</c></c><c.colorCCCCCC><00:09:19.679><c> they</c><00:09:20.189><c> really</c><00:09:20.579><c> cover</c><00:09:21.049><c> the</c></c>
+
+00:09:22.039 --> 00:09:22.049 align:start position:0%
+others<c.colorE5E5E5> because</c><c.colorCCCCCC> they really cover the
+ </c>
+
+00:09:22.049 --> 00:09:26.299 align:start position:0%
+others<c.colorE5E5E5> because</c><c.colorCCCCCC> they really cover the
+query</c><c.colorE5E5E5><00:09:22.350><c> well</c><00:09:22.699><c> they</c><00:09:23.699><c> match</c><00:09:24.739><c> news-press</c><00:09:25.739><c> genuine</c></c>
+
+00:09:26.299 --> 00:09:26.309 align:start position:0%
+query<c.colorE5E5E5> well they match news-press genuine
+ </c>
+
+00:09:26.309 --> 00:09:28.970 align:start position:0%
+query<c.colorE5E5E5> well they match news-press genuine
+campaign<00:09:26.989><c> so</c><00:09:27.989><c> it</c><00:09:28.199><c> looks</c></c><c.colorCCCCCC><00:09:28.350><c> like</c></c><c.colorE5E5E5><00:09:28.529><c> these</c></c><c.colorCCCCCC><00:09:28.919><c> three</c></c>
+
+00:09:28.970 --> 00:09:28.980 align:start position:0%
+campaign<c.colorE5E5E5> so it looks</c><c.colorCCCCCC> like</c><c.colorE5E5E5> these</c><c.colorCCCCCC> three
+ </c>
+
+00:09:28.980 --> 00:09:32.269 align:start position:0%
+campaign<c.colorE5E5E5> so it looks</c><c.colorCCCCCC> like</c><c.colorE5E5E5> these</c><c.colorCCCCCC> three
+documents</c><c.colorE5E5E5><00:09:29.339><c> are</c><00:09:29.759><c> probably</c><00:09:31.009><c> better</c><00:09:32.009><c> than</c><00:09:32.220><c> the</c></c>
+
+00:09:32.269 --> 00:09:32.279 align:start position:0%
+<c.colorCCCCCC>documents</c><c.colorE5E5E5> are probably better than the
+ </c>
+
+00:09:32.279 --> 00:09:34.369 align:start position:0%
+<c.colorCCCCCC>documents</c><c.colorE5E5E5> are probably better than the</c>
+<c.colorE5E5E5>others</c><c.colorCCCCCC><00:09:32.730><c> they</c><00:09:33.119><c> should</c><00:09:33.299><c> be</c><00:09:33.419><c> ranking</c><00:09:33.720><c> on</c><00:09:34.019><c> the</c></c><c.colorE5E5E5><00:09:34.049><c> top</c></c>
+
+00:09:34.369 --> 00:09:34.379 align:start position:0%
+<c.colorE5E5E5>others</c><c.colorCCCCCC> they should be ranking on the</c><c.colorE5E5E5> top
+ </c>
+
+00:09:34.379 --> 00:09:39.400 align:start position:0%
+<c.colorE5E5E5>others</c><c.colorCCCCCC> they should be ranking on the</c><c.colorE5E5E5> top
+and<00:09:35.629><c> the</c><00:09:36.629><c> other</c><00:09:36.660><c> three</c><00:09:37.139><c> t2</c><00:09:37.739><c> t1</c><00:09:38.100><c> and</c><00:09:38.519><c> d5</c><00:09:38.939><c> are</c></c>
+
+00:09:39.400 --> 00:09:39.410 align:start position:0%
+and the other<c.colorE5E5E5> three t2 t1 and d5 are
+ </c>
+
+00:09:39.410 --> 00:09:42.799 align:start position:0%
+and the other<c.colorE5E5E5> three t2 t1 and d5 are
+really<00:09:40.410><c> non</c><00:09:40.649><c> relevant</c><00:09:41.009><c> so</c></c><c.colorCCCCCC><00:09:41.939><c> we</c><00:09:42.179><c> can</c><00:09:42.419><c> also</c><00:09:42.569><c> say</c></c>
+
+00:09:42.799 --> 00:09:42.809 align:start position:0%
+really<c.colorE5E5E5> non relevant so</c><c.colorCCCCCC> we can also say
+ </c>
+
+00:09:42.809 --> 00:09:46.129 align:start position:0%
+really<c.colorE5E5E5> non relevant so</c><c.colorCCCCCC> we can also say
+p4<00:09:43.439><c> and</c><00:09:43.559><c> d3</c><00:09:43.709><c> are</c><00:09:44.100><c> relevant</c><00:09:44.429><c> documents</c><00:09:44.999><c> and</c></c><c.colorE5E5E5><00:09:45.179><c> d1</c></c>
+
+00:09:46.129 --> 00:09:46.139 align:start position:0%
+p4 and<c.colorCCCCCC> d3 are relevant documents and</c><c.colorE5E5E5> d1
+ </c>
+
+00:09:46.139 --> 00:09:50.599 align:start position:0%
+p4 and<c.colorCCCCCC> d3 are relevant documents and</c><c.colorE5E5E5> d1
+d2<00:09:46.379><c> and</c><00:09:46.529><c> e5</c><00:09:47.249><c> are</c><00:09:47.609><c> now</c><00:09:48.029><c> relevant</c><00:09:49.249><c> so</c><00:09:50.249><c> now</c><00:09:50.399><c> let's</c></c>
+
+00:09:50.599 --> 00:09:50.609 align:start position:0%
+d2 and e5 are now relevant so<c.colorE5E5E5> now let's
+ </c>
+
+00:09:50.609 --> 00:09:53.720 align:start position:0%
+d2 and e5 are now relevant so<c.colorE5E5E5> now let's
+see<00:09:50.879><c> if</c><00:09:51.149><c> our</c><00:09:52.160><c> simplest</c></c><c.colorCCCCCC><00:09:53.160><c> the</c><00:09:53.369><c> vector</c><00:09:53.669><c> space</c></c>
+
+00:09:53.720 --> 00:09:53.730 align:start position:0%
+see if our simplest<c.colorCCCCCC> the vector space
+ </c>
+
+00:09:53.730 --> 00:09:55.669 align:start position:0%
+see if our simplest<c.colorCCCCCC> the vector space</c>
+<c.colorE5E5E5>model<00:09:54.059><c> could</c><00:09:54.569><c> do</c><00:09:54.720><c> the</c><00:09:54.899><c> same</c><00:09:55.079><c> or</c><00:09:55.410><c> could</c><00:09:55.559><c> do</c></c>
+
+00:09:55.669 --> 00:09:55.679 align:start position:0%
+<c.colorE5E5E5>model could do the same or could do
+ </c>
+
+00:09:55.679 --> 00:09:58.369 align:start position:0%
+<c.colorE5E5E5>model could do the same or could do
+something<00:09:56.009><c> closer</c><00:09:56.480><c> so</c><00:09:57.480><c> let's</c><00:09:57.959><c> first</c></c><c.colorCCCCCC><00:09:58.230><c> think</c></c>
+
+00:09:58.369 --> 00:09:58.379 align:start position:0%
+something<c.colorE5E5E5> closer so let's first</c><c.colorCCCCCC> think
+ </c>
+
+00:09:58.379 --> 00:10:01.039 align:start position:0%
+something<c.colorE5E5E5> closer so let's first</c><c.colorCCCCCC> think
+about<00:09:58.619><c> how</c><00:09:59.069><c> we</c><00:09:59.129><c> actually</c><00:09:59.639><c> use</c><00:09:59.850><c> this</c><00:10:00.149><c> model</c><00:10:00.720><c> to</c></c>
+
+00:10:01.039 --> 00:10:01.049 align:start position:0%
+<c.colorCCCCCC>about how we actually use this model to
+ </c>
+
+00:10:01.049 --> 00:10:04.699 align:start position:0%
+<c.colorCCCCCC>about how we actually use this model to
+score<00:10:01.619><c> document</c><00:10:02.839><c> right</c><00:10:03.839><c> here</c><00:10:03.869><c> I</c><00:10:04.199><c> shoot</c><00:10:04.529><c> two</c></c>
+
+00:10:04.699 --> 00:10:04.709 align:start position:0%
+score document right here<c.colorCCCCCC> I shoot two
+ </c>
+
+00:10:04.709 --> 00:10:08.539 align:start position:0%
+score document right here<c.colorCCCCCC> I shoot two
+documents<00:10:05.129><c> d1</c><00:10:06.059><c> and</c><00:10:06.299><c> d3</c></c><c.colorE5E5E5><00:10:06.480><c> and</c><00:10:06.959><c> we</c><00:10:07.799><c> have</c><00:10:08.040><c> the</c></c>
+
+00:10:08.539 --> 00:10:08.549 align:start position:0%
+documents d1 and d3<c.colorE5E5E5> and we have the
+ </c>
+
+00:10:08.549 --> 00:10:10.939 align:start position:0%
+documents d1 and d3<c.colorE5E5E5> and we have the
+query<00:10:08.819><c> also</c><00:10:09.239><c> here</c><00:10:09.419><c> in</c><00:10:10.379><c> the</c></c><c.colorCCCCCC><00:10:10.589><c> vector</c></c><c.colorE5E5E5><00:10:10.889><c> space</c></c>
+
+00:10:10.939 --> 00:10:10.949 align:start position:0%
+query<c.colorE5E5E5> also here in the</c><c.colorCCCCCC> vector</c><c.colorE5E5E5> space
+ </c>
+
+00:10:10.949 --> 00:10:13.189 align:start position:0%
+query<c.colorE5E5E5> also here in the</c><c.colorCCCCCC> vector</c><c.colorE5E5E5> space
+model<00:10:11.279><c> of</c><00:10:11.579><c> course</c><00:10:11.999><c> we</c><00:10:12.179><c> want</c><00:10:12.389><c> to</c><00:10:12.480><c> first</c><00:10:12.689><c> compute</c></c>
+
+00:10:13.189 --> 00:10:13.199 align:start position:0%
+<c.colorE5E5E5>model of course we want to first compute
+ </c>
+
+00:10:13.199 --> 00:10:16.220 align:start position:0%
+<c.colorE5E5E5>model of course we want to first compute
+the<00:10:14.160><c> vectors</c><00:10:14.610><c> for</c><00:10:15.059><c> these</c><00:10:15.239><c> documents</c><00:10:15.779><c> and</c><00:10:15.929><c> the</c></c>
+
+00:10:16.220 --> 00:10:16.230 align:start position:0%
+the vectors for these<c.colorE5E5E5> documents and the
+ </c>
+
+00:10:16.230 --> 00:10:18.259 align:start position:0%
+the vectors for these<c.colorE5E5E5> documents and the
+query</c><c.colorCCCCCC><00:10:16.470><c> now</c><00:10:16.860><c> I</c><00:10:16.889><c> show</c><00:10:17.249><c> you</c></c><c.colorE5E5E5><00:10:17.279><c> the</c><00:10:17.429><c> vocabulary</c><00:10:17.579><c> here</c></c>
+
+00:10:18.259 --> 00:10:18.269 align:start position:0%
+query<c.colorCCCCCC> now I show you</c><c.colorE5E5E5> the vocabulary here
+ </c>
+
+00:10:18.269 --> 00:10:21.319 align:start position:0%
+query<c.colorCCCCCC> now I show you</c><c.colorE5E5E5> the vocabulary here
+as<00:10:18.419><c> well</c></c><c.colorCCCCCC><00:10:18.629><c> so</c><00:10:19.049><c> these</c><00:10:19.319><c> are</c><00:10:19.589><c> the</c><00:10:19.860><c> n</c><00:10:20.329><c> dimensions</c></c>
+
+00:10:21.319 --> 00:10:21.329 align:start position:0%
+<c.colorE5E5E5>as well</c><c.colorCCCCCC> so these are the n dimensions
+ </c>
+
+00:10:21.329 --> 00:10:23.179 align:start position:0%
+<c.colorE5E5E5>as well</c><c.colorCCCCCC> so these are the n dimensions
+that<00:10:21.600><c> will</c><00:10:21.779><c> be</c><00:10:21.899><c> thinking</c><00:10:22.199><c> about</c></c><c.colorE5E5E5><00:10:22.350><c> so</c><00:10:22.949><c> what</c><00:10:23.129><c> do</c></c>
+
+00:10:23.179 --> 00:10:23.189 align:start position:0%
+that<c.colorCCCCCC> will be thinking about</c><c.colorE5E5E5> so what do
+ </c>
+
+00:10:23.189 --> 00:10:26.179 align:start position:0%
+that<c.colorCCCCCC> will be thinking about</c><c.colorE5E5E5> so what do
+you<00:10:23.279><c> think</c><00:10:23.429><c> is</c><00:10:24.209><c> the</c><00:10:24.689><c> factory</c><00:10:25.499><c> condition</c><00:10:26.040><c> for</c></c>
+
+00:10:26.179 --> 00:10:26.189 align:start position:0%
+you think is the factory condition for
+ 
+
+00:10:26.189 --> 00:10:28.999 align:start position:0%
+you think is the factory condition for
+the<00:10:26.279><c> query</c><c.colorE5E5E5><00:10:26.809><c> note</c></c><c.colorCCCCCC><00:10:27.809><c> that</c><00:10:28.049><c> we</c><00:10:28.290><c> are</c></c><c.colorE5E5E5><00:10:28.350><c> assuming</c><00:10:28.949><c> that</c></c>
+
+00:10:28.999 --> 00:10:29.009 align:start position:0%
+the query<c.colorE5E5E5> note</c><c.colorCCCCCC> that we are</c><c.colorE5E5E5> assuming that
+ </c>
+
+00:10:29.009 --> 00:10:33.590 align:start position:0%
+the query<c.colorE5E5E5> note</c><c.colorCCCCCC> that we are</c><c.colorE5E5E5> assuming that
+we<00:10:29.519><c> only</c><00:10:30.149><c> use</c><00:10:30.540><c> 0</c><00:10:31.259><c> and</c><00:10:31.529><c> 1</c><00:10:32.100><c> to</c></c><c.colorCCCCCC><00:10:32.399><c> indicate</c></c><c.colorE5E5E5><00:10:33.089><c> whether</c></c>
+
+00:10:33.590 --> 00:10:33.600 align:start position:0%
+we<c.colorE5E5E5> only use 0 and 1 to</c><c.colorCCCCCC> indicate</c><c.colorE5E5E5> whether
+ </c>
+
+00:10:33.600 --> 00:10:37.639 align:start position:0%
+we<c.colorE5E5E5> only use 0 and 1 to</c><c.colorCCCCCC> indicate</c><c.colorE5E5E5> whether</c>
+<c.colorCCCCCC>a<00:10:33.720><c> term</c><00:10:33.989><c> is</c><00:10:35.209><c> absent</c><00:10:36.209><c> or</c></c><c.colorE5E5E5><00:10:36.329><c> present</c><00:10:36.389><c> in</c><00:10:37.169><c> the</c><00:10:37.410><c> query</c></c>
+
+00:10:37.639 --> 00:10:37.649 align:start position:0%
+<c.colorCCCCCC>a term is absent or</c><c.colorE5E5E5> present in the query
+ </c>
+
+00:10:37.649 --> 00:10:41.749 align:start position:0%
+<c.colorCCCCCC>a term is absent or</c><c.colorE5E5E5> present in the query
+or<00:10:37.860><c> in</c><00:10:38.039><c> the</c><00:10:38.189><c> document</c><00:10:38.639><c> so</c><00:10:39.299><c> these</c><00:10:39.480><c> are</c><00:10:39.809><c> 0</c><00:10:40.709><c> 1</c><00:10:40.949><c> bit</c></c>
+
+00:10:41.749 --> 00:10:41.759 align:start position:0%
+or<c.colorE5E5E5> in the document so these are 0 1 bit
+ </c>
+
+00:10:41.759 --> 00:10:45.350 align:start position:0%
+or<c.colorE5E5E5> in the document so these are 0 1 bit
+vectors<00:10:42.949><c> so</c><00:10:43.949><c> what</c><00:10:44.129><c> do</c><00:10:44.220><c> you</c><00:10:44.309><c> think</c><00:10:44.489><c> is</c><00:10:44.789><c> a</c><00:10:45.059><c> query</c></c>
+
+00:10:45.350 --> 00:10:45.360 align:start position:0%
+vectors so what do you think is a query
+ 
+
+00:10:45.360 --> 00:10:50.119 align:start position:0%
+vectors so what do you think is a query
+vector<00:10:46.939><c> well</c><00:10:47.939><c> the</c><00:10:48.779><c> query</c><c.colorE5E5E5><00:10:49.079><c> has</c><00:10:49.289><c> four</c><00:10:49.859><c> words</c></c>
+
+00:10:50.119 --> 00:10:50.129 align:start position:0%
+vector well the query<c.colorE5E5E5> has four words
+ </c>
+
+00:10:50.129 --> 00:10:53.539 align:start position:0%
+vector well the query<c.colorE5E5E5> has four words
+here<00:10:50.609><c> so</c><00:10:51.299><c> for</c><00:10:51.569><c> these</c><00:10:51.959><c> four</c><00:10:52.379><c> words</c><00:10:52.619><c> there</c><00:10:53.429><c> will</c></c>
+
+00:10:53.539 --> 00:10:53.549 align:start position:0%
+here<c.colorE5E5E5> so for these four words there will
+ </c>
+
+00:10:53.549 --> 00:10:57.859 align:start position:0%
+here<c.colorE5E5E5> so for these four words there will
+be<00:10:53.579><c> one</c><00:10:53.910><c> and</c><00:10:54.149><c> for</c><00:10:54.600><c> the</c><00:10:54.689><c> rest</c><00:10:54.869><c> to</c><00:10:55.529><c> be</c></c><c.colorCCCCCC><00:10:55.559><c> 0</c><00:10:56.720><c> now</c><00:10:57.720><c> what</c></c>
+
+00:10:57.859 --> 00:10:57.869 align:start position:0%
+be one and for the rest to be<c.colorCCCCCC> 0 now what
+ </c>
+
+00:10:57.869 --> 00:11:00.650 align:start position:0%
+be one and for the rest to be<c.colorCCCCCC> 0 now what</c>
+<c.colorCCCCCC>about<00:10:58.139><c> the</c><00:10:58.350><c> documents</c><00:10:58.709><c> it's</c><00:10:59.249><c> the</c><00:10:59.429><c> same</c><00:10:59.669><c> so</c><00:11:00.419><c> t1</c></c>
+
+00:11:00.650 --> 00:11:00.660 align:start position:0%
+<c.colorCCCCCC>about the documents it's the same so t1
+ </c>
+
+00:11:00.660 --> 00:11:03.829 align:start position:0%
+<c.colorCCCCCC>about the documents it's the same so t1</c>
+<c.colorE5E5E5>has<00:11:01.169><c> two</c><00:11:01.529><c> O's</c><00:11:01.709><c> news</c><00:11:02.160><c> and</c><00:11:02.489><c> about</c><00:11:02.910><c> so</c><00:11:03.569><c> there</c><00:11:03.749><c> are</c></c>
+
+00:11:03.829 --> 00:11:03.839 align:start position:0%
+<c.colorE5E5E5>has two O's news and about so there are
+ </c>
+
+00:11:03.839 --> 00:11:06.600 align:start position:0%
+<c.colorE5E5E5>has two O's news and about so there are</c>
+<c.colorE5E5E5>two<00:11:04.019><c> ones</c><00:11:04.259><c> here</c><00:11:04.529><c> and</c><00:11:04.709><c> the</c><00:11:04.919><c> rest</c><00:11:05.100><c> of</c></c>
+
+00:11:06.600 --> 00:11:06.610 align:start position:0%
+<c.colorE5E5E5>two ones here and the rest of
+ </c>
+
+00:11:06.610 --> 00:11:13.450 align:start position:0%
+<c.colorE5E5E5>two ones here and the rest of
+similarly<00:11:08.020><c> so</c><00:11:11.290><c> now</c><00:11:12.290><c> that</c><00:11:12.350><c> we</c></c><c.colorCCCCCC><00:11:12.740><c> have</c><00:11:12.950><c> the</c><00:11:13.310><c> two</c></c>
+
+00:11:13.450 --> 00:11:13.460 align:start position:0%
+similarly so now that<c.colorE5E5E5> we</c><c.colorCCCCCC> have the two
+ </c>
+
+00:11:13.460 --> 00:11:16.420 align:start position:0%
+similarly so now that<c.colorE5E5E5> we</c><c.colorCCCCCC> have the two
+vectors</c><c.colorE5E5E5><00:11:14.200><c> let's</c></c><c.colorCCCCCC><00:11:15.200><c> compute</c><00:11:15.620><c> to</c></c><c.colorE5E5E5><00:11:15.770><c> the</c><00:11:15.860><c> similarity</c></c>
+
+00:11:16.420 --> 00:11:16.430 align:start position:0%
+vectors<c.colorE5E5E5> let's</c><c.colorCCCCCC> compute to</c><c.colorE5E5E5> the similarity
+ </c>
+
+00:11:16.430 --> 00:11:18.970 align:start position:0%
+vectors<c.colorE5E5E5> let's</c><c.colorCCCCCC> compute to</c><c.colorE5E5E5> the similarity
+and<00:11:16.820><c> we're</c><00:11:17.690><c> going</c><00:11:17.840><c> to</c><00:11:17.900><c> use</c><00:11:18.020><c> dot</c><00:11:18.290><c> product</c><00:11:18.740><c> so</c></c>
+
+00:11:18.970 --> 00:11:18.980 align:start position:0%
+and we're going<c.colorE5E5E5> to use dot product so
+ </c>
+
+00:11:18.980 --> 00:11:21.610 align:start position:0%
+and we're going<c.colorE5E5E5> to use dot product so</c>
+<c.colorCCCCCC>you</c><c.colorE5E5E5><00:11:19.670><c> can</c><00:11:19.850><c> see</c><00:11:20.090><c> when</c><00:11:20.420><c> we</c><00:11:20.450><c> use</c><00:11:20.660><c> dot</c><00:11:20.960><c> product</c><00:11:21.410><c> we</c></c>
+
+00:11:21.610 --> 00:11:21.620 align:start position:0%
+<c.colorCCCCCC>you</c><c.colorE5E5E5> can see when we use dot product we
+ </c>
+
+00:11:21.620 --> 00:11:25.000 align:start position:0%
+<c.colorCCCCCC>you</c><c.colorE5E5E5> can see when we use dot product we
+just<00:11:22.090><c> multiply</c><00:11:23.090><c> the</c><00:11:23.150><c> corresponding</c><00:11:24.010><c> elements</c></c>
+
+00:11:25.000 --> 00:11:25.010 align:start position:0%
+just<c.colorE5E5E5> multiply the corresponding elements
+ </c>
+
+00:11:25.010 --> 00:11:29.580 align:start position:0%
+just<c.colorE5E5E5> multiply the corresponding elements
+right<00:11:25.790><c> so</c><00:11:26.240><c> these</c><00:11:26.450><c> two</c></c><c.colorCCCCCC><00:11:26.780><c> would</c><00:11:27.170><c> be</c></c><c.colorE5E5E5><00:11:28.030><c> formal</c></c>
+
+00:11:29.580 --> 00:11:29.590 align:start position:0%
+right<c.colorE5E5E5> so these two</c><c.colorCCCCCC> would be</c><c.colorE5E5E5> formal
+ </c>
+
+00:11:29.590 --> 00:11:32.500 align:start position:0%
+right<c.colorE5E5E5> so these two</c><c.colorCCCCCC> would be</c><c.colorE5E5E5> formal
+performing<00:11:30.590><c> product</c><00:11:31.100><c> and</c><00:11:31.370><c> these</c><00:11:31.880><c> two</c><00:11:32.150><c> will</c></c>
+
+00:11:32.500 --> 00:11:32.510 align:start position:0%
+performing product and these two will
+ 
+
+00:11:32.510 --> 00:11:34.480 align:start position:0%
+performing product and these two will
+generate<00:11:32.930><c> another</c><00:11:33.200><c> product</c><c.colorE5E5E5><00:11:33.530><c> and</c><00:11:34.010><c> these</c><00:11:34.190><c> two</c></c>
+
+00:11:34.480 --> 00:11:34.490 align:start position:0%
+generate another product<c.colorE5E5E5> and these two
+ </c>
+
+00:11:34.490 --> 00:11:37.630 align:start position:0%
+generate another product<c.colorE5E5E5> and these two
+which<00:11:35.330><c> ended</c><00:11:35.630><c> yet</c><00:11:35.870><c> another</c><00:11:36.230><c> product</c><00:11:36.650><c> and</c><00:11:36.950><c> so</c></c>
+
+00:11:37.630 --> 00:11:37.640 align:start position:0%
+which ended yet another product and so
+ 
+
+00:11:37.640 --> 00:11:39.060 align:start position:0%
+which ended yet another product and so
+<c.colorCCCCCC>on<00:11:37.760><c> so</c><00:11:37.880><c> forth</c></c>
+
+00:11:39.060 --> 00:11:39.070 align:start position:0%
+<c.colorCCCCCC>on so forth
+ </c>
+
+00:11:39.070 --> 00:11:44.530 align:start position:0%
+<c.colorCCCCCC>on so forth
+now<00:11:40.070><c> you</c><00:11:40.130><c> can</c><00:11:40.520><c> easily</c><00:11:40.760><c> see</c><00:11:41.000><c> if</c><00:11:41.510><c> we</c><00:11:41.720><c> do</c><00:11:41.870><c> that</c><00:11:43.540><c> we</c></c>
+
+00:11:44.530 --> 00:11:44.540 align:start position:0%
+now you can easily see<c.colorCCCCCC> if we do that we
+ </c>
+
+00:11:44.540 --> 00:11:47.520 align:start position:0%
+now you can easily see<c.colorCCCCCC> if we do that we</c>
+<c.colorE5E5E5>actually<00:11:44.660><c> don't</c><00:11:45.020><c> have</c></c><c.colorCCCCCC><00:11:45.170><c> to</c><00:11:45.500><c> care</c><00:11:45.740><c> about</c><00:11:46.510><c> these</c></c>
+
+00:11:47.520 --> 00:11:47.530 align:start position:0%
+<c.colorE5E5E5>actually don't have</c><c.colorCCCCCC> to care about these
+ </c>
+
+00:11:47.530 --> 00:11:52.390 align:start position:0%
+<c.colorE5E5E5>actually don't have</c><c.colorCCCCCC> to care about these</c>
+<c.colorE5E5E5>zeros<00:11:49.390><c> because</c></c><c.colorCCCCCC><00:11:50.390><c> if</c><00:11:50.990><c> whenever</c></c><c.colorE5E5E5><00:11:51.560><c> we</c><00:11:51.860><c> have</c><00:11:52.010><c> a</c><00:11:52.040><c> zero</c></c>
+
+00:11:52.390 --> 00:11:52.400 align:start position:0%
+<c.colorE5E5E5>zeros because</c><c.colorCCCCCC> if whenever</c><c.colorE5E5E5> we have a zero
+ </c>
+
+00:11:52.400 --> 00:11:55.330 align:start position:0%
+<c.colorE5E5E5>zeros because</c><c.colorCCCCCC> if whenever</c><c.colorE5E5E5> we have a zero
+the<00:11:52.730><c> product</c><00:11:53.150><c> will</c><00:11:53.420><c> be</c></c><c.colorCCCCCC><00:11:53.450><c> zero</c><00:11:53.780><c> so</c><00:11:54.320><c> when</c><00:11:55.010><c> we</c><00:11:55.160><c> take</c></c>
+
+00:11:55.330 --> 00:11:55.340 align:start position:0%
+the product will be<c.colorCCCCCC> zero so when we take
+ </c>
+
+00:11:55.340 --> 00:12:01.240 align:start position:0%
+the product will be<c.colorCCCCCC> zero so when we take
+a<00:11:55.400><c> sum</c><00:11:55.760><c> over</c><00:11:56.480><c> all</c><00:11:56.510><c> these</c><00:11:56.840><c> pairs</c><00:11:58.300><c> then</c><00:11:59.800><c> the</c></c><c.colorE5E5E5><00:12:00.800><c> Euro</c></c>
+
+00:12:01.240 --> 00:12:01.250 align:start position:0%
+a sum<c.colorCCCCCC> over all these pairs then the</c><c.colorE5E5E5> Euro
+ </c>
+
+00:12:01.250 --> 00:12:05.020 align:start position:0%
+a sum<c.colorCCCCCC> over all these pairs then the</c><c.colorE5E5E5> Euro
+entries<00:12:01.790><c> will</c><00:12:02.510><c> be</c><00:12:02.600><c> gone</c><00:12:02.840><c> as</c><00:12:03.550><c> long</c><00:12:04.550><c> as</c><00:12:04.700><c> you</c><00:12:04.850><c> have</c></c>
+
+00:12:05.020 --> 00:12:05.030 align:start position:0%
+<c.colorE5E5E5>entries will be gone as long as you have
+ </c>
+
+00:12:05.030 --> 00:12:07.540 align:start position:0%
+<c.colorE5E5E5>entries will be gone as long as you have
+one<00:12:05.210><c> zero</c><00:12:05.540><c> then</c><00:12:06.470><c> the</c><00:12:06.650><c> product</c></c><c.colorCCCCCC><00:12:07.010><c> will</c><00:12:07.190><c> be</c><00:12:07.220><c> zero</c></c>
+
+00:12:07.540 --> 00:12:07.550 align:start position:0%
+one<c.colorE5E5E5> zero then the product</c><c.colorCCCCCC> will be zero
+ </c>
+
+00:12:07.550 --> 00:12:12.000 align:start position:0%
+one<c.colorE5E5E5> zero then the product</c><c.colorCCCCCC> will be zero</c>
+<c.colorE5E5E5>so</c><c.colorCCCCCC><00:12:07.820><c> in</c><00:12:08.660><c> fact</c></c><c.colorE5E5E5><00:12:09.170><c> we're</c><00:12:10.010><c> just</c><00:12:10.040><c> counting</c><00:12:10.520><c> how</c></c><c.colorCCCCCC><00:12:10.970><c> many</c></c>
+
+00:12:12.000 --> 00:12:12.010 align:start position:0%
+<c.colorE5E5E5>so</c><c.colorCCCCCC> in fact</c><c.colorE5E5E5> we're just counting how</c><c.colorCCCCCC> many
+ </c>
+
+00:12:12.010 --> 00:12:15.970 align:start position:0%
+<c.colorE5E5E5>so</c><c.colorCCCCCC> in fact</c><c.colorE5E5E5> we're just counting how</c><c.colorCCCCCC> many
+pairs<00:12:13.010><c> of</c><00:12:13.310><c> 1</c><00:12:13.760><c> &amp;</c><00:12:13.910><c> 1</c><00:12:14.180><c> but</c><00:12:15.110><c> in</c><00:12:15.200><c> this</c><00:12:15.350><c> case</c><00:12:15.560><c> we</c><00:12:15.830><c> have</c></c>
+
+00:12:15.970 --> 00:12:15.980 align:start position:0%
+pairs of<c.colorCCCCCC> 1 &amp; 1 but in this case we have
+ </c>
+
+00:12:15.980 --> 00:12:19.120 align:start position:0%
+pairs of<c.colorCCCCCC> 1 &amp; 1 but in this case we have
+seen<00:12:16.220><c> two</c><00:12:16.580><c> so</c><00:12:17.270><c> the</c><00:12:17.390><c> result</c><00:12:17.750><c> would</c><00:12:17.870><c> be</c><00:12:17.930><c> two</c><00:12:18.290><c> so</c></c>
+
+00:12:19.120 --> 00:12:19.130 align:start position:0%
+seen<c.colorCCCCCC> two so the result would be two so
+ </c>
+
+00:12:19.130 --> 00:12:21.640 align:start position:0%
+seen<c.colorCCCCCC> two so the result would be two so
+what<00:12:19.280><c> does</c><00:12:19.430><c> that</c><00:12:19.460><c> mean</c></c><c.colorE5E5E5><00:12:19.790><c> well</c><00:12:20.330><c> that</c><00:12:20.570><c> means</c><00:12:20.840><c> this</c></c>
+
+00:12:21.640 --> 00:12:21.650 align:start position:0%
+what does that mean<c.colorE5E5E5> well that means this
+ </c>
+
+00:12:21.650 --> 00:12:24.220 align:start position:0%
+what does that mean<c.colorE5E5E5> well that means this</c>
+<c.colorCCCCCC>number<00:12:22.160><c> or</c><00:12:22.730><c> the</c><00:12:22.880><c> value</c><00:12:23.210><c> of</c><00:12:23.390><c> this</c><00:12:23.570><c> scoring</c></c>
+
+00:12:24.220 --> 00:12:24.230 align:start position:0%
+<c.colorCCCCCC>number or the value of this scoring
+ </c>
+
+00:12:24.230 --> 00:12:27.310 align:start position:0%
+<c.colorCCCCCC>number or the value of this scoring
+function<00:12:24.680><c> is</c><00:12:25.160><c> simply</c></c><c.colorE5E5E5><00:12:25.490><c> the</c><00:12:25.760><c> candle</c><00:12:26.420><c> of</c><00:12:26.510><c> how</c></c>
+
+00:12:27.310 --> 00:12:27.320 align:start position:0%
+function is simply<c.colorE5E5E5> the candle of how
+ </c>
+
+00:12:27.320 --> 00:12:29.680 align:start position:0%
+function is simply<c.colorE5E5E5> the candle of how
+many<00:12:27.590><c> unique</c><00:12:28.160><c> query</c><00:12:28.520><c> terms</c><00:12:28.820><c> are</c><00:12:29.030><c> matched</c><00:12:29.270><c> in</c></c>
+
+00:12:29.680 --> 00:12:29.690 align:start position:0%
+many unique query terms are matched<c.colorE5E5E5> in
+ </c>
+
+00:12:29.690 --> 00:12:33.550 align:start position:0%
+many unique query terms are matched<c.colorE5E5E5> in</c>
+<c.colorCCCCCC>the<00:12:29.960><c> document</c></c><c.colorE5E5E5><00:12:31.300><c> because</c><00:12:32.300><c> if</c><00:12:32.570><c> a</c><00:12:32.690><c> document</c></c><c.colorCCCCCC><00:12:32.900><c> if</c><00:12:33.350><c> a</c></c>
+
+00:12:33.550 --> 00:12:33.560 align:start position:0%
+<c.colorCCCCCC>the document</c><c.colorE5E5E5> because if a document</c><c.colorCCCCCC> if a
+ </c>
+
+00:12:33.560 --> 00:12:37.000 align:start position:0%
+<c.colorCCCCCC>the document</c><c.colorE5E5E5> because if a document</c><c.colorCCCCCC> if a
+term<00:12:33.860><c> is</c><00:12:34.070><c> matched</c></c><c.colorE5E5E5><00:12:34.880><c> in</c><00:12:35.240><c> the</c><00:12:35.300><c> document</c><00:12:36.290><c> then</c></c>
+
+00:12:37.000 --> 00:12:37.010 align:start position:0%
+term is matched<c.colorE5E5E5> in the document then
+ </c>
+
+00:12:37.010 --> 00:12:39.690 align:start position:0%
+term is matched<c.colorE5E5E5> in the document then
+there<00:12:37.760><c> will</c><00:12:37.880><c> be</c><00:12:37.940><c> two</c><00:12:38.720><c> ones</c></c>
+
+00:12:39.690 --> 00:12:39.700 align:start position:0%
+there will be two ones
+ 
+
+00:12:39.700 --> 00:12:43.300 align:start position:0%
+there will be two ones
+if<00:12:40.700><c> it's</c><00:12:41.600><c> not</c><00:12:41.750><c> then</c><00:12:42.410><c> there</c><c.colorCCCCCC><00:12:42.590><c> will</c><00:12:42.710><c> be</c></c><c.colorE5E5E5><00:12:42.740><c> zero</c></c><c.colorCCCCCC><00:12:42.830><c> on</c></c>
+
+00:12:43.300 --> 00:12:43.310 align:start position:0%
+if it's not then there<c.colorCCCCCC> will be</c><c.colorE5E5E5> zero</c><c.colorCCCCCC> on
+ </c>
+
+00:12:43.310 --> 00:12:47.650 align:start position:0%
+if it's not then there<c.colorCCCCCC> will be</c><c.colorE5E5E5> zero</c><c.colorCCCCCC> on
+the<00:12:43.580><c> talking</c><00:12:44.240><c> decide</c></c><c.colorE5E5E5><00:12:45.820><c> similarly</c><00:12:46.820><c> if</c><00:12:47.420><c> the</c></c>
+
+00:12:47.650 --> 00:12:47.660 align:start position:0%
+the talking<c.colorCCCCCC> decide</c><c.colorE5E5E5> similarly if the
+ </c>
+
+00:12:47.660 --> 00:12:49.840 align:start position:0%
+the talking<c.colorCCCCCC> decide</c><c.colorE5E5E5> similarly if the
+document<00:12:48.080><c> has</c><00:12:48.230><c> a</c><00:12:48.260><c> term</c><00:12:48.590><c> but</c><00:12:49.280><c> the</c><00:12:49.370><c> term</c><00:12:49.580><c> is</c><00:12:49.610><c> not</c></c>
+
+00:12:49.840 --> 00:12:49.850 align:start position:0%
+document has a term but the term is<c.colorE5E5E5> not
+ </c>
+
+00:12:49.850 --> 00:12:52.060 align:start position:0%
+document has a term but the term is<c.colorE5E5E5> not
+in<00:12:50.030><c> the</c><00:12:50.120><c> query</c><00:12:50.360><c> there</c><00:12:50.780><c> will</c><00:12:50.900><c> be</c><00:12:50.930><c> a</c><00:12:51.050><c> zero</c><00:12:51.350><c> in</c><00:12:51.890><c> the</c></c>
+
+00:12:52.060 --> 00:12:52.070 align:start position:0%
+<c.colorE5E5E5>in the query there will be a zero in the
+ </c>
+
+00:12:52.070 --> 00:12:55.210 align:start position:0%
+<c.colorE5E5E5>in the query there will be a zero in the
+query<00:12:52.310><c> vector</c><00:12:52.730><c> so</c><00:12:53.300><c> those</c><00:12:53.540><c> don't</c><00:12:53.840><c> count</c></c><c.colorCCCCCC><00:12:54.110><c> so</c><00:12:54.470><c> as</c></c>
+
+00:12:55.210 --> 00:12:55.220 align:start position:0%
+query vector so those don't<c.colorE5E5E5> count</c><c.colorCCCCCC> so as
+ </c>
+
+00:12:55.220 --> 00:12:58.080 align:start position:0%
+query vector so those don't<c.colorE5E5E5> count</c><c.colorCCCCCC> so as
+a<00:12:55.250><c> result</c><00:12:55.520><c> this</c><00:12:56.180><c> scoring</c></c><c.colorE5E5E5><00:12:56.600><c> function</c><00:12:57.170><c> basically</c></c>
+
+00:12:58.080 --> 00:12:58.090 align:start position:0%
+a result this scoring<c.colorE5E5E5> function basically
+ </c>
+
+00:12:58.090 --> 00:13:01.930 align:start position:0%
+a result this scoring<c.colorE5E5E5> function basically</c>
+<c.colorCCCCCC>meshes<00:12:59.090><c> how</c></c><c.colorE5E5E5><00:12:59.510><c> many</c><00:12:59.750><c> unique</c><00:13:00.500><c> query</c><00:13:01.310><c> terms</c><00:13:01.670><c> are</c></c>
+
+00:13:01.930 --> 00:13:01.940 align:start position:0%
+<c.colorCCCCCC>meshes how</c><c.colorE5E5E5> many unique query terms are
+ </c>
+
+00:13:01.940 --> 00:13:04.330 align:start position:0%
+<c.colorCCCCCC>meshes how</c><c.colorE5E5E5> many unique query terms are
+matched<00:13:02.330><c> in</c><00:13:02.870><c> the</c><00:13:02.930><c> document</c><00:13:03.530><c> this</c><00:13:03.920><c> is</c><00:13:04.100><c> how</c><00:13:04.280><c> we</c></c>
+
+00:13:04.330 --> 00:13:04.340 align:start position:0%
+matched<c.colorE5E5E5> in the document this is how we
+ </c>
+
+00:13:04.340 --> 00:13:06.180 align:start position:0%
+matched<c.colorE5E5E5> in the document this is how we
+interpreted</c><c.colorCCCCCC><00:13:05.240><c> this</c></c><c.colorE5E5E5><00:13:05.390><c> scope</c></c>
+
+00:13:06.180 --> 00:13:06.190 align:start position:0%
+interpreted<c.colorCCCCCC> this</c><c.colorE5E5E5> scope
+ </c>
+
+00:13:06.190 --> 00:13:10.540 align:start position:0%
+interpreted<c.colorCCCCCC> this</c><c.colorE5E5E5> scope
+now<00:13:07.190><c> we</c><00:13:07.580><c> can</c><00:13:07.790><c> also</c><00:13:08.000><c> take</c><00:13:08.300><c> a</c><00:13:08.360><c> look</c><00:13:08.510><c> at</c><00:13:08.660><c> the</c><00:13:08.840><c> d3</c><00:13:09.550><c> in</c></c>
+
+00:13:10.540 --> 00:13:10.550 align:start position:0%
+now we can also<c.colorE5E5E5> take a look at the d3 in
+ </c>
+
+00:13:10.550 --> 00:13:15.400 align:start position:0%
+now we can also<c.colorE5E5E5> take a look at the d3 in
+this<00:13:10.730><c> case</c><00:13:12.130><c> you</c><00:13:13.130><c> can</c><00:13:13.340><c> see</c><00:13:13.660><c> the</c><00:13:14.660><c> result</c><00:13:15.020><c> is</c></c><c.colorCCCCCC><00:13:15.140><c> 3</c></c>
+
+00:13:15.400 --> 00:13:15.410 align:start position:0%
+this case you can see the result is<c.colorCCCCCC> 3
+ </c>
+
+00:13:15.410 --> 00:13:18.310 align:start position:0%
+this case you can see the result is<c.colorCCCCCC> 3</c>
+<c.colorE5E5E5>because<00:13:16.040><c> III</c><00:13:16.730><c> match</c><00:13:17.150><c> the</c><00:13:17.420><c> three</c></c><c.colorCCCCCC><00:13:17.690><c> distinctive</c></c>
+
+00:13:18.310 --> 00:13:18.320 align:start position:0%
+<c.colorE5E5E5>because III match the three</c><c.colorCCCCCC> distinctive
+ </c>
+
+00:13:18.320 --> 00:13:18.910 align:start position:0%
+<c.colorE5E5E5>because III match the three</c><c.colorCCCCCC> distinctive
+queryable</c>
+
+00:13:18.910 --> 00:13:18.920 align:start position:0%
+<c.colorCCCCCC>queryable
+ </c>
+
+00:13:18.920 --> 00:13:22.300 align:start position:0%
+<c.colorCCCCCC>queryable</c>
+<c.colorE5E5E5>News<00:13:19.370><c> presidential</c><00:13:20.209><c> campaign</c></c><c.colorCCCCCC><00:13:20.930><c> whereas</c><00:13:21.920><c> dwow</c></c>
+
+00:13:22.300 --> 00:13:22.310 align:start position:0%
+<c.colorE5E5E5>News presidential campaign</c><c.colorCCCCCC> whereas dwow
+ </c>
+
+00:13:22.310 --> 00:13:25.150 align:start position:0%
+<c.colorE5E5E5>News presidential campaign</c><c.colorCCCCCC> whereas dwow</c>
+<c.colorE5E5E5>only<00:13:22.610><c> match</c><00:13:22.790><c> the</c><00:13:22.970><c> two</c><00:13:23.120><c> now</c><00:13:24.019><c> in</c><00:13:24.170><c> this</c><00:13:24.320><c> case</c><00:13:24.589><c> it</c></c>
+
+00:13:25.150 --> 00:13:25.160 align:start position:0%
+<c.colorE5E5E5>only match the two now in this case it
+ </c>
+
+00:13:25.160 --> 00:13:27.190 align:start position:0%
+<c.colorE5E5E5>only match the two now in this case it
+seems<00:13:25.459><c> reasonable</c></c><c.colorCCCCCC><00:13:25.760><c> to</c><00:13:26.120><c> rank</c><00:13:26.540><c> these</c><00:13:26.750><c> three</c><00:13:27.019><c> on</c></c>
+
+00:13:27.190 --> 00:13:27.200 align:start position:0%
+seems reasonable<c.colorCCCCCC> to rank these three on
+ </c>
+
+00:13:27.200 --> 00:13:30.699 align:start position:0%
+seems reasonable<c.colorCCCCCC> to rank these three on
+top<00:13:27.440><c> of</c></c><c.colorE5E5E5><00:13:27.620><c> D</c><00:13:28.160><c> 1</c><00:13:28.399><c> and</c><00:13:28.670><c> this</c><00:13:29.570><c> simplest</c><00:13:30.260><c> of</c></c><c.colorCCCCCC><00:13:30.350><c> exes</c></c>
+
+00:13:30.699 --> 00:13:30.709 align:start position:0%
+top of<c.colorE5E5E5> D 1 and this simplest of</c><c.colorCCCCCC> exes
+ </c>
+
+00:13:30.709 --> 00:13:33.759 align:start position:0%
+top of<c.colorE5E5E5> D 1 and this simplest of</c><c.colorCCCCCC> exes
+base<00:13:31.040><c> model</c></c><c.colorE5E5E5><00:13:31.550><c> indeed</c><00:13:32.240><c> it</c></c><c.colorCCCCCC><00:13:32.420><c> does</c><00:13:32.570><c> that</c><00:13:32.870><c> so</c><00:13:33.529><c> that</c></c>
+
+00:13:33.759 --> 00:13:33.769 align:start position:0%
+<c.colorCCCCCC>base model</c><c.colorE5E5E5> indeed it</c><c.colorCCCCCC> does that so that
+ </c>
+
+00:13:33.769 --> 00:13:34.509 align:start position:0%
+<c.colorCCCCCC>base model</c><c.colorE5E5E5> indeed it</c><c.colorCCCCCC> does that so that
+looks<00:13:33.980><c> pretty</c><00:13:34.190><c> good</c></c>
+
+00:13:34.509 --> 00:13:34.519 align:start position:0%
+looks<c.colorCCCCCC> pretty good
+ </c>
+
+00:13:34.519 --> 00:13:37.000 align:start position:0%
+looks<c.colorCCCCCC> pretty good
+however</c><c.colorE5E5E5><00:13:35.269><c> if</c><00:13:35.480><c> we</c><00:13:35.660><c> examine</c></c><c.colorCCCCCC><00:13:35.899><c> this</c><00:13:36.440><c> model</c><00:13:36.860><c> in</c></c>
+
+00:13:37.000 --> 00:13:37.010 align:start position:0%
+however<c.colorE5E5E5> if we examine</c><c.colorCCCCCC> this model in
+ </c>
+
+00:13:37.010 --> 00:13:39.519 align:start position:0%
+however<c.colorE5E5E5> if we examine</c><c.colorCCCCCC> this model in
+detail<00:13:37.360><c> we</c><00:13:38.360><c> likely</c><00:13:38.600><c> will</c><00:13:38.839><c> find</c><00:13:39.079><c> some</c><00:13:39.320><c> problems</c></c>
+
+00:13:39.519 --> 00:13:39.529 align:start position:0%
+detail<c.colorCCCCCC> we likely will find some problems
+ </c>
+
+00:13:39.529 --> 00:13:43.540 align:start position:0%
+detail<c.colorCCCCCC> we likely will find some problems</c>
+<c.colorCCCCCC>so<00:13:40.160><c> here</c><00:13:40.370><c> I'm</c></c><c.colorE5E5E5><00:13:40.519><c> going</c></c><c.colorCCCCCC><00:13:40.760><c> to</c></c><c.colorE5E5E5><00:13:40.850><c> show</c><00:13:41.029><c> all</c><00:13:41.990><c> the</c><00:13:42.550><c> scores</c></c>
+
+00:13:43.540 --> 00:13:43.550 align:start position:0%
+<c.colorCCCCCC>so here I'm</c><c.colorE5E5E5> going</c><c.colorCCCCCC> to</c><c.colorE5E5E5> show all the scores
+ </c>
+
+00:13:43.550 --> 00:13:47.050 align:start position:0%
+<c.colorCCCCCC>so here I'm</c><c.colorE5E5E5> going</c><c.colorCCCCCC> to</c><c.colorE5E5E5> show all the scores
+for<00:13:43.880><c> these</c><00:13:44.089><c> five</c><00:13:44.480><c> documents</c></c><c.colorCCCCCC><00:13:44.810><c> and</c><00:13:46.029><c> you</c><00:13:47.029><c> can</c></c>
+
+00:13:47.050 --> 00:13:47.060 align:start position:0%
+for<c.colorE5E5E5> these five documents</c><c.colorCCCCCC> and you can
+ </c>
+
+00:13:47.060 --> 00:13:49.110 align:start position:0%
+for<c.colorE5E5E5> these five documents</c><c.colorCCCCCC> and you can</c>
+<c.colorCCCCCC>easily<00:13:47.540><c> verify</c><00:13:47.690><c> they</c><00:13:48.410><c> are</c><00:13:48.500><c> correct</c><00:13:48.769><c> because</c></c>
+
+00:13:49.110 --> 00:13:49.120 align:start position:0%
+<c.colorCCCCCC>easily verify they are correct because
+ </c>
+
+00:13:49.120 --> 00:13:52.090 align:start position:0%
+<c.colorCCCCCC>easily verify they are correct because
+we<00:13:50.120><c> are</c><00:13:50.209><c> basically</c><00:13:50.570><c> counting</c><00:13:51.170><c> the</c><00:13:51.709><c> number</c><00:13:52.070><c> of</c></c>
+
+00:13:52.090 --> 00:13:52.100 align:start position:0%
+we are basically counting the number of
+ 
+
+00:13:52.100 --> 00:13:54.519 align:start position:0%
+we are basically counting the number of
+unique<00:13:52.399><c> query</c><00:13:52.820><c> terms</c><00:13:53.120><c> match</c><00:13:53.420><c> the</c><00:13:53.720><c> in</c><00:13:53.870><c> each</c>
+
+00:13:54.519 --> 00:13:54.529 align:start position:0%
+unique query terms match the in each
+ 
+
+00:13:54.529 --> 00:13:57.670 align:start position:0%
+unique query terms match the in each
+document<c.colorE5E5E5><00:13:55.480><c> now</c><00:13:56.480><c> note</c><00:13:56.690><c> that</c><00:13:56.720><c> this</c><00:13:57.260><c> measure</c></c>
+
+00:13:57.670 --> 00:13:57.680 align:start position:0%
+document<c.colorE5E5E5> now note that this measure
+ </c>
+
+00:13:57.680 --> 00:13:59.560 align:start position:0%
+document<c.colorE5E5E5> now note that this measure</c>
+<c.colorCCCCCC>after</c><c.colorE5E5E5><00:13:58.010><c> the</c><00:13:58.100><c> makes</c><00:13:58.279><c> sense</c><00:13:58.579><c> right</c><00:13:59.089><c> it</c><00:13:59.329><c> basically</c></c>
+
+00:13:59.560 --> 00:13:59.570 align:start position:0%
+<c.colorCCCCCC>after</c><c.colorE5E5E5> the makes sense right it basically
+ </c>
+
+00:13:59.570 --> 00:14:02.139 align:start position:0%
+<c.colorCCCCCC>after</c><c.colorE5E5E5> the makes sense right it basically
+means<00:14:00.019><c> if</c><00:14:00.410><c> the</c><00:14:01.010><c> document</c><00:14:01.430><c> matches</c><00:14:01.820><c> more</c></c>
+
+00:14:02.139 --> 00:14:02.149 align:start position:0%
+means if the document matches<c.colorE5E5E5> more
+ </c>
+
+00:14:02.149 --> 00:14:04.509 align:start position:0%
+means if the document matches<c.colorE5E5E5> more
+unique<00:14:02.540><c> query</c><00:14:03.019><c> terms</c><00:14:03.380><c> then</c><00:14:03.829><c> the</c><00:14:04.010><c> document</c></c>
+
+00:14:04.509 --> 00:14:04.519 align:start position:0%
+unique query terms<c.colorE5E5E5> then the document
+ </c>
+
+00:14:04.519 --> 00:14:06.879 align:start position:0%
+unique query terms<c.colorE5E5E5> then the document
+will<00:14:04.639><c> be</c><00:14:04.670><c> assuming</c><00:14:05.120><c> to</c><00:14:05.240><c> be</c><00:14:05.269><c> more</c><00:14:06.230><c> relevant</c></c><c.colorCCCCCC><00:14:06.440><c> and</c></c>
+
+00:14:06.879 --> 00:14:06.889 align:start position:0%
+will be<c.colorE5E5E5> assuming to be more relevant</c><c.colorCCCCCC> and
+ </c>
+
+00:14:06.889 --> 00:14:08.530 align:start position:0%
+will be<c.colorE5E5E5> assuming to be more relevant</c><c.colorCCCCCC> and
+that<00:14:06.920><c> seems</c></c><c.colorE5E5E5><00:14:07.730><c> to</c><00:14:07.880><c> make</c><00:14:08.029><c> sense</c></c>
+
+00:14:08.530 --> 00:14:08.540 align:start position:0%
+that<c.colorCCCCCC> seems</c><c.colorE5E5E5> to make sense
+ </c>
+
+00:14:08.540 --> 00:14:12.310 align:start position:0%
+that<c.colorCCCCCC> seems</c><c.colorE5E5E5> to make sense
+the<00:14:09.199><c> only</c><00:14:09.320><c> problem</c><00:14:09.860><c> is</c><00:14:10.100><c> here</c><00:14:11.029><c> we</c><00:14:11.779><c> can</c><00:14:11.959><c> notice</c></c>
+
+00:14:12.310 --> 00:14:12.320 align:start position:0%
+the only problem<c.colorE5E5E5> is here we can notice
+ </c>
+
+00:14:12.320 --> 00:14:15.220 align:start position:0%
+the only problem<c.colorE5E5E5> is here we can notice
+that</c><c.colorCCCCCC><00:14:12.350><c> there</c></c><c.colorE5E5E5><00:14:13.070><c> are</c><00:14:13.279><c> three</c><00:14:13.310><c> documents</c><00:14:13.940><c> D</c><00:14:14.630><c> 2</c><00:14:14.870><c> D</c><00:14:15.199><c> 3</c></c>
+
+00:14:15.220 --> 00:14:15.230 align:start position:0%
+that<c.colorCCCCCC> there</c><c.colorE5E5E5> are three documents D 2 D 3
+ </c>
+
+00:14:15.230 --> 00:14:21.699 align:start position:0%
+that<c.colorCCCCCC> there</c><c.colorE5E5E5> are three documents D 2 D 3
+and<00:14:15.500><c> d</c><00:14:15.680><c> 4</c><00:14:15.829><c> and</c><00:14:16.399><c> they</c><00:14:17.230><c> tied</c><00:14:18.279><c> with</c><00:14:19.279><c> a</c><00:14:19.699><c> 3</c><00:14:20.570><c> as</c><00:14:20.899><c> a</c></c>
+
+00:14:21.699 --> 00:14:21.709 align:start position:0%
+and d 4<c.colorE5E5E5> and they tied with a 3 as a
+ </c>
+
+00:14:21.709 --> 00:14:26.949 align:start position:0%
+and d 4<c.colorE5E5E5> and they tied with a 3 as a
+score<00:14:22.250><c> so</c></c><c.colorCCCCCC><00:14:24.699><c> that's</c><00:14:25.699><c> problem</c></c><c.colorE5E5E5><00:14:26.269><c> because</c><00:14:26.690><c> if</c><00:14:26.870><c> you</c></c>
+
+00:14:26.949 --> 00:14:26.959 align:start position:0%
+score so<c.colorCCCCCC> that's problem</c><c.colorE5E5E5> because if you
+ </c>
+
+00:14:26.959 --> 00:14:28.240 align:start position:0%
+score so<c.colorCCCCCC> that's problem</c><c.colorE5E5E5> because if you
+look<00:14:27.079><c> at</c><00:14:27.230><c> them</c><00:14:27.440><c> carefully</c></c>
+
+00:14:28.240 --> 00:14:28.250 align:start position:0%
+look at them carefully
+ 
+
+00:14:28.250 --> 00:14:35.079 align:start position:0%
+look at them carefully
+it<00:14:28.970><c> seems</c><00:14:29.390><c> that</c><c.colorE5E5E5><00:14:29.890><c> d</c><00:14:30.890><c> 4</c><00:14:31.570><c> should</c><00:14:32.570><c> be</c><00:14:33.519><c> ranked</c><00:14:34.519><c> above</c></c>
+
+00:14:35.079 --> 00:14:35.089 align:start position:0%
+it seems that<c.colorE5E5E5> d 4 should be ranked above
+ </c>
+
+00:14:35.089 --> 00:14:37.750 align:start position:0%
+it seems that<c.colorE5E5E5> d 4 should be ranked above
+D<00:14:35.420><c> 3</c><00:14:35.720><c> because</c><00:14:36.140><c> these</c><00:14:36.560><c> we</c><00:14:36.860><c> only</c></c><c.colorCCCCCC><00:14:37.070><c> mentioned</c><00:14:37.670><c> that</c></c>
+
+00:14:37.750 --> 00:14:37.760 align:start position:0%
+D 3 because these we only<c.colorCCCCCC> mentioned that
+ </c>
+
+00:14:37.760 --> 00:14:39.759 align:start position:0%
+D 3 because these we only<c.colorCCCCCC> mentioned that
+person<00:14:38.390><c> is</c><00:14:38.480><c> young</c></c><c.colorE5E5E5><00:14:38.570><c> once</c><00:14:38.870><c> but</c></c><c.colorCCCCCC><00:14:39.199><c> the</c></c>
+
+00:14:39.759 --> 00:14:39.769 align:start position:0%
+person<c.colorCCCCCC> is young</c><c.colorE5E5E5> once but</c><c.colorCCCCCC> the
+ </c>
+
+00:14:39.769 --> 00:14:42.009 align:start position:0%
+person<c.colorCCCCCC> is young</c><c.colorE5E5E5> once but</c><c.colorCCCCCC> the</c>
+<c.colorE5E5E5>aforementioned<00:14:40.040><c> later</c><00:14:40.550><c> multiple</c><00:14:41.209><c> times</c><00:14:41.449><c> in</c></c>
+
+00:14:42.009 --> 00:14:42.019 align:start position:0%
+<c.colorE5E5E5>aforementioned later multiple times in
+ </c>
+
+00:14:42.019 --> 00:14:44.680 align:start position:0%
+<c.colorE5E5E5>aforementioned later multiple times in
+the<00:14:42.230><c> case</c><00:14:42.410><c> of</c><00:14:42.620><c> D</c><00:14:42.829><c> 3</c><00:14:43.130><c> president</c></c><c.colorCCCCCC><00:14:44.089><c> you</c><00:14:44.180><c> could</c><00:14:44.480><c> be</c></c>
+
+00:14:44.680 --> 00:14:44.690 align:start position:0%
+the case of D 3<c.colorE5E5E5> president</c><c.colorCCCCCC> you could be
+ </c>
+
+00:14:44.690 --> 00:14:48.220 align:start position:0%
+the case of D 3<c.colorE5E5E5> president</c><c.colorCCCCCC> you could be
+an<00:14:44.930><c> extended</c></c><c.colorE5E5E5><00:14:45.709><c> mention</c><00:14:46.690><c> but</c><00:14:47.690><c> if</c><00:14:47.870><c> all</c><00:14:48.110><c> is</c></c>
+
+00:14:48.220 --> 00:14:48.230 align:start position:0%
+an<c.colorCCCCCC> extended</c><c.colorE5E5E5> mention but if all is
+ </c>
+
+00:14:48.230 --> 00:14:50.550 align:start position:0%
+an<c.colorCCCCCC> extended</c><c.colorE5E5E5> mention but if all is
+clearly<00:14:48.620><c> about</c><00:14:48.970><c> presidential</c><00:14:49.970><c> campaign</c></c>
+
+00:14:50.550 --> 00:14:50.560 align:start position:0%
+clearly about<c.colorE5E5E5> presidential campaign
+ </c>
+
+00:14:50.560 --> 00:14:55.750 align:start position:0%
+clearly about<c.colorE5E5E5> presidential campaign</c>
+<c.colorE5E5E5>another<00:14:51.560><c> problem</c><00:14:52.070><c> is</c><00:14:52.279><c> that</c><00:14:53.140><c> D</c></c><c.colorCCCCCC><00:14:54.140><c> 2</c><00:14:54.410><c> and</c><00:14:54.560><c> D</c><00:14:54.649><c> 3</c></c><c.colorE5E5E5><00:14:54.800><c> also</c></c>
+
+00:14:55.750 --> 00:14:55.760 align:start position:0%
+<c.colorE5E5E5>another problem is that D</c><c.colorCCCCCC> 2 and D 3</c><c.colorE5E5E5> also
+ </c>
+
+00:14:55.760 --> 00:14:58.750 align:start position:0%
+<c.colorE5E5E5>another problem is that D</c><c.colorCCCCCC> 2 and D 3</c><c.colorE5E5E5> also
+have<00:14:56.029><c> the</c><00:14:56.510><c> same</c><00:14:56.750><c> score</c><00:14:57.279><c> but</c><00:14:58.279><c> if</c><00:14:58.370><c> you</c><00:14:58.430><c> look</c><00:14:58.579><c> at</c></c>
+
+00:14:58.750 --> 00:14:58.760 align:start position:0%
+have the same score but if you look at
+ 
+
+00:14:58.760 --> 00:15:01.300 align:start position:0%
+have the same score but if you look at
+the<00:14:59.120><c> three</c><00:14:59.420><c> words</c><00:14:59.720><c> that</c><c.colorCCCCCC><00:15:00.050><c> are</c><00:15:00.350><c> matched</c><00:15:00.589><c> in</c><00:15:00.949><c> the</c></c>
+
+00:15:01.300 --> 00:15:01.310 align:start position:0%
+the three words that<c.colorCCCCCC> are matched in the
+ </c>
+
+00:15:01.310 --> 00:15:05.139 align:start position:0%
+the three words that<c.colorCCCCCC> are matched in the
+case<00:15:01.490><c> of</c><00:15:01.699><c> D</c><00:15:01.910><c> 2</c></c><c.colorE5E5E5><00:15:02.620><c> it</c><00:15:03.620><c> matched</c><00:15:03.949><c> the</c><00:15:04.160><c> news</c><00:15:04.370><c> about</c></c>
+
+00:15:05.139 --> 00:15:05.149 align:start position:0%
+case of D 2<c.colorE5E5E5> it matched the news about
+ </c>
+
+00:15:05.149 --> 00:15:08.769 align:start position:0%
+case of D 2<c.colorE5E5E5> it matched the news about</c>
+<c.colorE5E5E5>and<00:15:05.510><c> campaign</c><00:15:06.319><c> but</c><00:15:07.069><c> in</c><00:15:07.190><c> the</c><00:15:07.250><c> case</c></c><c.colorCCCCCC><00:15:07.430><c> of</c><00:15:07.640><c> D</c><00:15:07.819><c> 3</c><00:15:08.149><c> it</c></c>
+
+00:15:08.769 --> 00:15:08.779 align:start position:0%
+<c.colorE5E5E5>and campaign but in the case</c><c.colorCCCCCC> of D 3 it
+ </c>
+
+00:15:08.779 --> 00:15:10.809 align:start position:0%
+<c.colorE5E5E5>and campaign but in the case</c><c.colorCCCCCC> of D 3 it
+matched<00:15:09.079><c> the</c></c><c.colorE5E5E5><00:15:09.199><c> news</c></c><c.colorCCCCCC><00:15:09.529><c> press</c><00:15:10.279><c> ledger</c><00:15:10.550><c> and</c></c>
+
+00:15:10.809 --> 00:15:10.819 align:start position:0%
+matched the<c.colorE5E5E5> news</c><c.colorCCCCCC> press ledger and
+ </c>
+
+00:15:10.819 --> 00:15:14.319 align:start position:0%
+matched the<c.colorE5E5E5> news</c><c.colorCCCCCC> press ledger and
+campaign<00:15:11.649><c> so</c><00:15:12.649><c> intuitively</c><00:15:13.459><c> this</c><00:15:13.940><c> reads</c></c>
+
+00:15:14.319 --> 00:15:14.329 align:start position:0%
+campaign so intuitively<c.colorCCCCCC> this reads
+ </c>
+
+00:15:14.329 --> 00:15:18.629 align:start position:0%
+campaign so intuitively<c.colorCCCCCC> this reads
+better<00:15:14.709><c> because</c><00:15:15.709><c> matching</c><00:15:16.279><c> presidential</c><00:15:17.029><c> is</c></c>
+
+00:15:18.629 --> 00:15:18.639 align:start position:0%
+better because matching presidential is
+ 
+
+00:15:18.639 --> 00:15:22.059 align:start position:0%
+better because matching presidential is
+more<00:15:19.639><c> important</c><00:15:20.149><c> than</c><00:15:20.389><c> matching</c><00:15:20.959><c> about</c><00:15:21.380><c> even</c>
+
+00:15:22.059 --> 00:15:22.069 align:start position:0%
+more important than matching about even
+ 
+
+00:15:22.069 --> 00:15:23.740 align:start position:0%
+more important than matching about even
+though<00:15:22.190><c> about</c><c.colorE5E5E5><00:15:22.550><c> and</c><00:15:22.880><c> the</c><00:15:23.149><c> president</c><00:15:23.630><c> you're</c></c>
+
+00:15:23.740 --> 00:15:23.750 align:start position:0%
+though about<c.colorE5E5E5> and the president you're
+ </c>
+
+00:15:23.750 --> 00:15:27.189 align:start position:0%
+though about<c.colorE5E5E5> and the president you're
+opposed<00:15:24.110><c> in</c><00:15:24.410><c> the</c><00:15:24.560><c> query</c><00:15:25.240><c> so</c><00:15:26.240><c> intuitively</c><00:15:26.899><c> we</c></c>
+
+00:15:27.189 --> 00:15:27.199 align:start position:0%
+opposed in the query<c.colorE5E5E5> so intuitively we
+ </c>
+
+00:15:27.199 --> 00:15:29.230 align:start position:0%
+opposed in the query<c.colorE5E5E5> so intuitively we
+would<00:15:27.319><c> like</c><00:15:27.500><c> these</c><00:15:27.800><c> reads</c><00:15:28.160><c> we</c><00:15:28.459><c> rank</c><00:15:28.699><c> the</c><00:15:28.910><c> above</c></c>
+
+00:15:29.230 --> 00:15:29.240 align:start position:0%
+would like these<c.colorE5E5E5> reads we rank the above
+ </c>
+
+00:15:29.240 --> 00:15:32.300 align:start position:0%
+would like these<c.colorE5E5E5> reads we rank the above
+D</c><c.colorCCCCCC><00:15:29.569><c> 2</c><00:15:29.829><c> but</c><00:15:30.829><c> this</c><00:15:31.010><c> model</c></c><c.colorE5E5E5><00:15:31.310><c> does</c></c>
+
+00:15:32.300 --> 00:15:32.310 align:start position:0%
+D<c.colorCCCCCC> 2 but this model</c><c.colorE5E5E5> does
+ </c>
+
+00:15:32.310 --> 00:15:35.540 align:start position:0%
+D<c.colorCCCCCC> 2 but this model</c><c.colorE5E5E5> does
+do<00:15:32.520><c> that</c><00:15:32.930><c> so</c><00:15:33.930><c> that</c><00:15:34.200><c> means</c><00:15:34.500><c> this</c><00:15:34.890><c> model</c><00:15:35.370><c> is</c></c>
+
+00:15:35.540 --> 00:15:35.550 align:start position:0%
+do that so that means this model is
+ 
+
+00:15:35.550 --> 00:15:38.210 align:start position:0%
+do that so that means this model is
+<c.colorE5E5E5>they're<00:15:35.970><c> not</c><00:15:36.120><c> good</c></c><c.colorCCCCCC><00:15:36.810><c> enough</c></c><c.colorE5E5E5><00:15:37.080><c> we</c><00:15:37.710><c> have</c><00:15:37.860><c> to</c><00:15:38.010><c> solve</c></c>
+
+00:15:38.210 --> 00:15:38.220 align:start position:0%
+<c.colorE5E5E5>they're not good</c><c.colorCCCCCC> enough</c><c.colorE5E5E5> we have to solve
+ </c>
+
+00:15:38.220 --> 00:15:42.260 align:start position:0%
+<c.colorE5E5E5>they're not good</c><c.colorCCCCCC> enough</c><c.colorE5E5E5> we have to solve
+these<00:15:38.460><c> problems</c><00:15:40.430><c> to</c><00:15:41.430><c> summarize</c><00:15:41.850><c> in</c><00:15:42.210><c> this</c></c>
+
+00:15:42.260 --> 00:15:42.270 align:start position:0%
+these problems<c.colorE5E5E5> to summarize in this
+ </c>
+
+00:15:42.270 --> 00:15:43.760 align:start position:0%
+these problems<c.colorE5E5E5> to summarize in this
+lecture<00:15:42.630><c> we</c><00:15:43.020><c> talked</c><00:15:43.290><c> about</c><00:15:43.380><c> how</c></c><c.colorCCCCCC><00:15:43.529><c> to</c></c>
+
+00:15:43.760 --> 00:15:43.770 align:start position:0%
+lecture we talked about how<c.colorCCCCCC> to
+ </c>
+
+00:15:43.770 --> 00:15:47.630 align:start position:0%
+lecture we talked about how<c.colorCCCCCC> to
+instantiate</c><c.colorE5E5E5><00:15:44.340><c> a</c><00:15:44.700><c> vector</c><00:15:45.150><c> space</c><00:15:45.210><c> model</c><00:15:46.640><c> we</c></c>
+
+00:15:47.630 --> 00:15:47.640 align:start position:0%
+instantiate<c.colorE5E5E5> a vector space model we
+ </c>
+
+00:15:47.640 --> 00:15:50.290 align:start position:0%
+instantiate<c.colorE5E5E5> a vector space model we
+mainly<00:15:47.940><c> need</c></c><c.colorCCCCCC><00:15:48.150><c> to</c><00:15:48.450><c> do</c><00:15:48.570><c> three</c><00:15:48.960><c> things</c><00:15:49.110><c> one</c><00:15:49.589><c> is</c><00:15:49.770><c> to</c></c>
+
+00:15:50.290 --> 00:15:50.300 align:start position:0%
+mainly need<c.colorCCCCCC> to do three things one is to
+ </c>
+
+00:15:50.300 --> 00:15:55.150 align:start position:0%
+mainly need<c.colorCCCCCC> to do three things one is to</c>
+<c.colorE5E5E5>define</c><c.colorCCCCCC><00:15:51.300><c> the</c><00:15:51.510><c> dimension</c></c><c.colorE5E5E5><00:15:52.640><c> the</c><00:15:53.640><c> second</c><00:15:54.000><c> is</c><00:15:54.330><c> to</c></c>
+
+00:15:55.150 --> 00:15:55.160 align:start position:0%
+<c.colorE5E5E5>define</c><c.colorCCCCCC> the dimension</c><c.colorE5E5E5> the second is to
+ </c>
+
+00:15:55.160 --> 00:15:59.720 align:start position:0%
+<c.colorE5E5E5>define</c><c.colorCCCCCC> the dimension</c><c.colorE5E5E5> the second is to
+decide<00:15:56.160><c> how</c></c><c.colorCCCCCC><00:15:56.220><c> to</c><00:15:56.490><c> place</c></c><c.colorE5E5E5><00:15:57.410><c> documents</c><00:15:58.410><c> as</c><00:15:58.730><c> vectors</c></c>
+
+00:15:59.720 --> 00:15:59.730 align:start position:0%
+decide<c.colorE5E5E5> how</c><c.colorCCCCCC> to place</c><c.colorE5E5E5> documents as vectors
+ </c>
+
+00:15:59.730 --> 00:16:03.470 align:start position:0%
+decide<c.colorE5E5E5> how</c><c.colorCCCCCC> to place</c><c.colorE5E5E5> documents as vectors
+in<00:15:59.970><c> the</c><00:16:00.089><c> vector</c><00:16:00.120><c> space</c><00:16:00.390><c> and</c><00:16:01.130><c> to</c><00:16:02.130><c> also</c><00:16:02.670><c> place</c><00:16:03.150><c> a</c></c>
+
+00:16:03.470 --> 00:16:03.480 align:start position:0%
+in the vector space<c.colorE5E5E5> and to also place a
+ </c>
+
+00:16:03.480 --> 00:16:05.980 align:start position:0%
+in the vector space<c.colorE5E5E5> and to also place a
+query<00:16:03.810><c> in</c><00:16:04.050><c> the</c></c><c.colorCCCCCC><00:16:04.230><c> vector</c><00:16:04.500><c> space</c></c><c.colorE5E5E5><00:16:04.650><c> as</c><00:16:05.040><c> a</c></c><c.colorCCCCCC><00:16:05.250><c> vector</c></c>
+
+00:16:05.980 --> 00:16:05.990 align:start position:0%
+query in the<c.colorCCCCCC> vector space</c><c.colorE5E5E5> as a</c><c.colorCCCCCC> vector
+ </c>
+
+00:16:05.990 --> 00:16:10.970 align:start position:0%
+query in the<c.colorCCCCCC> vector space</c><c.colorE5E5E5> as a</c><c.colorCCCCCC> vector</c>
+<c.colorE5E5E5>and<00:16:07.339><c> third</c><00:16:08.450><c> is</c><00:16:09.450><c> to</c><00:16:10.050><c> define</c><00:16:10.589><c> the</c><00:16:10.800><c> similarity</c></c>
+
+00:16:10.970 --> 00:16:10.980 align:start position:0%
+<c.colorE5E5E5>and third is to define the similarity
+ </c>
+
+00:16:10.980 --> 00:16:14.570 align:start position:0%
+<c.colorE5E5E5>and third is to define the similarity
+between<00:16:11.810><c> two</c><00:16:12.810><c> vectors</c><00:16:13.430><c> particularly</c><00:16:14.430><c> the</c></c>
+
+00:16:14.570 --> 00:16:14.580 align:start position:0%
+between two vectors<c.colorE5E5E5> particularly the
+ </c>
+
+00:16:14.580 --> 00:16:17.150 align:start position:0%
+between two vectors<c.colorE5E5E5> particularly the
+query<00:16:14.850><c> left</c><00:16:15.089><c> and</c><00:16:15.360><c> the</c><00:16:15.450><c> document</c><00:16:15.839><c> vector</c><00:16:16.160><c> we</c></c>
+
+00:16:17.150 --> 00:16:17.160 align:start position:0%
+query left and the document vector we
+ 
+
+00:16:17.160 --> 00:16:20.200 align:start position:0%
+query left and the document vector we
+also<c.colorE5E5E5><00:16:17.339><c> talked</c><00:16:17.790><c> about</c><00:16:17.820><c> a</c><00:16:18.200><c> very</c><00:16:19.200><c> simple</c></c><c.colorCCCCCC><00:16:19.710><c> way</c><00:16:20.130><c> to</c></c>
+
+00:16:20.200 --> 00:16:20.210 align:start position:0%
+also<c.colorE5E5E5> talked about a very simple</c><c.colorCCCCCC> way to
+ </c>
+
+00:16:20.210 --> 00:16:22.700 align:start position:0%
+also<c.colorE5E5E5> talked about a very simple</c><c.colorCCCCCC> way to</c>
+<c.colorE5E5E5>instantiate<00:16:21.210><c> a</c><00:16:21.270><c> vector</c></c><c.colorCCCCCC><00:16:21.660><c> space</c><00:16:21.870><c> model</c></c><c.colorE5E5E5><00:16:22.110><c> indeed</c></c>
+
+00:16:22.700 --> 00:16:22.710 align:start position:0%
+<c.colorE5E5E5>instantiate a vector</c><c.colorCCCCCC> space model</c><c.colorE5E5E5> indeed
+ </c>
+
+00:16:22.710 --> 00:16:24.980 align:start position:0%
+<c.colorE5E5E5>instantiate a vector</c><c.colorCCCCCC> space model</c><c.colorE5E5E5> indeed
+that's<00:16:23.520><c> probably</c><00:16:24.240><c> the</c><00:16:24.390><c> simplest</c><00:16:24.720><c> of</c><00:16:24.900><c> the</c></c>
+
+00:16:24.980 --> 00:16:24.990 align:start position:0%
+<c.colorE5E5E5>that's probably the simplest of the
+ </c>
+
+00:16:24.990 --> 00:16:27.829 align:start position:0%
+<c.colorE5E5E5>that's probably the simplest of the
+vector</c><c.colorCCCCCC><00:16:25.320><c> space</c><00:16:25.620><c> model</c><00:16:25.830><c> that</c><00:16:26.160><c> we</c><00:16:26.339><c> can</c><00:16:26.550><c> derive</c><00:16:26.940><c> in</c></c>
+
+00:16:27.829 --> 00:16:27.839 align:start position:0%
+vector<c.colorCCCCCC> space model that we can derive in
+ </c>
+
+00:16:27.839 --> 00:16:30.829 align:start position:0%
+vector<c.colorCCCCCC> space model that we can derive in
+this<00:16:28.140><c> case</c><00:16:28.410><c> we</c><00:16:29.279><c> use</c><00:16:29.520><c> each</c><00:16:29.730><c> word</c><00:16:30.029><c> defined</c></c><c.colorE5E5E5><00:16:30.630><c> by</c></c>
+
+00:16:30.829 --> 00:16:30.839 align:start position:0%
+this case we use each word<c.colorCCCCCC> defined</c><c.colorE5E5E5> by
+ </c>
+
+00:16:30.839 --> 00:16:33.950 align:start position:0%
+this case we use each word<c.colorCCCCCC> defined</c><c.colorE5E5E5> by
+mention<00:16:31.230><c> we</c><00:16:31.529><c> use</c><00:16:31.770><c> the</c></c><c.colorCCCCCC><00:16:32.040><c> 0</c><00:16:32.400><c> 1</c><00:16:32.670><c> bit</c><00:16:32.910><c> vector</c><00:16:33.360><c> to</c></c>
+
+00:16:33.950 --> 00:16:33.960 align:start position:0%
+<c.colorE5E5E5>mention we use the</c><c.colorCCCCCC> 0 1 bit vector to
+ </c>
+
+00:16:33.960 --> 00:16:37.610 align:start position:0%
+<c.colorE5E5E5>mention we use the</c><c.colorCCCCCC> 0 1 bit vector to
+represent</c><c.colorE5E5E5><00:16:34.170><c> a</c><00:16:34.830><c> document</c><00:16:35.430><c> or</c><00:16:35.700><c> a</c><00:16:35.790><c> query</c><00:16:36.410><c> in</c><00:16:37.410><c> this</c></c>
+
+00:16:37.610 --> 00:16:37.620 align:start position:0%
+represent<c.colorE5E5E5> a document or a query in this
+ </c>
+
+00:16:37.620 --> 00:16:40.400 align:start position:0%
+represent<c.colorE5E5E5> a document or a query in this</c>
+<c.colorE5E5E5>case<00:16:37.890><c> we</c><00:16:38.310><c> basically</c><00:16:38.700><c> only</c><00:16:39.660><c> care</c><00:16:39.930><c> about</c><00:16:39.960><c> the</c></c>
+
+00:16:40.400 --> 00:16:40.410 align:start position:0%
+<c.colorE5E5E5>case we basically only care about the
+ </c>
+
+00:16:40.410 --> 00:16:43.340 align:start position:0%
+<c.colorE5E5E5>case we basically only care about the
+word<00:16:40.650><c> presence</c><00:16:41.220><c> or</c><00:16:41.400><c> absence</c><00:16:41.760><c> we</c><00:16:42.720><c> ignore</c><00:16:43.080><c> the</c></c>
+
+00:16:43.340 --> 00:16:43.350 align:start position:0%
+word presence or absence we ignore the
+ 
+
+00:16:43.350 --> 00:16:47.210 align:start position:0%
+word presence or absence we ignore the
+frequency<00:16:43.800><c> and</c><00:16:44.570><c> we</c><c.colorCCCCCC><00:16:45.570><c> use</c><00:16:46.020><c> the</c><00:16:46.290><c> dot</c><00:16:46.589><c> product</c><00:16:47.010><c> as</c></c>
+
+00:16:47.210 --> 00:16:47.220 align:start position:0%
+frequency and we<c.colorCCCCCC> use the dot product as
+ </c>
+
+00:16:47.220 --> 00:16:51.340 align:start position:0%
+frequency and we<c.colorCCCCCC> use the dot product as
+the<00:16:47.690><c> similarity</c><00:16:48.690><c> function</c></c><c.colorE5E5E5><00:16:49.370><c> and</c><00:16:50.370><c> with</c><00:16:50.610><c> such</c><00:16:50.910><c> a</c></c>
+
+00:16:51.340 --> 00:16:51.350 align:start position:0%
+the similarity function<c.colorE5E5E5> and with such a
+ </c>
+
+00:16:51.350 --> 00:16:55.250 align:start position:0%
+the similarity function<c.colorE5E5E5> and with such a
+in<00:16:52.350><c> situation</c><00:16:53.040><c> and</c><00:16:53.820><c> we</c><00:16:53.910><c> show</c></c><c.colorCCCCCC><00:16:54.089><c> that</c><00:16:54.330><c> the</c></c>
+
+00:16:55.250 --> 00:16:55.260 align:start position:0%
+in situation and we show<c.colorCCCCCC> that the
+ </c>
+
+00:16:55.260 --> 00:16:58.880 align:start position:0%
+in situation and we show<c.colorCCCCCC> that the</c>
+<c.colorE5E5E5>scoring<00:16:55.740><c> function</c><00:16:56.220><c> is</c><00:16:57.000><c> basically</c><00:16:57.360><c> to</c><00:16:58.200><c> score</c><00:16:58.650><c> a</c></c>
+
+00:16:58.880 --> 00:16:58.890 align:start position:0%
+<c.colorE5E5E5>scoring function is basically to score a
+ </c>
+
+00:16:58.890 --> 00:17:00.770 align:start position:0%
+<c.colorE5E5E5>scoring function is basically to score a
+document<00:16:59.339><c> based</c><00:16:59.580><c> on</c><00:16:59.790><c> the</c><00:16:59.850><c> number</c></c><c.colorCCCCCC><00:17:00.300><c> of</c><00:17:00.360><c> distinct</c></c>
+
+00:17:00.770 --> 00:17:00.780 align:start position:0%
+document<c.colorE5E5E5> based on the number</c><c.colorCCCCCC> of distinct
+ </c>
+
+00:17:00.780 --> 00:17:03.699 align:start position:0%
+document<c.colorE5E5E5> based on the number</c><c.colorCCCCCC> of distinct
+the<00:17:00.930><c> query</c><00:17:01.260><c> words</c></c><c.colorE5E5E5><00:17:01.730><c> matching</c><00:17:02.730><c> in</c><00:17:02.850><c> the</c><00:17:02.940><c> document</c></c>
+
+00:17:03.699 --> 00:17:03.709 align:start position:0%
+the query words<c.colorE5E5E5> matching in the document
+ </c>
+
+00:17:03.709 --> 00:17:06.919 align:start position:0%
+the query words<c.colorE5E5E5> matching in the document
+we<00:17:04.709><c> also</c><00:17:04.860><c> show</c><00:17:05.130><c> that</c><00:17:05.160><c> such</c><00:17:06.120><c> a</c><00:17:06.150><c> simple</c><00:17:06.660><c> vector</c></c>
+
+00:17:06.919 --> 00:17:06.929 align:start position:0%
+we also show that such a<c.colorE5E5E5> simple vector
+ </c>
+
+00:17:06.929 --> 00:17:09.410 align:start position:0%
+we also show that such a<c.colorE5E5E5> simple vector
+space<00:17:07.290><c> model</c><00:17:07.500><c> still</c><00:17:08.310><c> doesn't</c><00:17:08.640><c> work</c><00:17:08.819><c> well</c><00:17:09.120><c> and</c></c>
+
+00:17:09.410 --> 00:17:09.420 align:start position:0%
+space model<c.colorE5E5E5> still doesn't work well and
+ </c>
+
+00:17:09.420 --> 00:17:13.010 align:start position:0%
+space model<c.colorE5E5E5> still doesn't work well and
+we<00:17:09.839><c> need</c><00:17:10.020><c> to</c><00:17:10.170><c> improve</c><00:17:10.560><c> it</c></c><c.colorCCCCCC><00:17:10.800><c> and</c><00:17:11.780><c> this</c><00:17:12.780><c> is</c><00:17:12.990><c> the</c></c>
+
+00:17:13.010 --> 00:17:13.020 align:start position:0%
+we need to<c.colorE5E5E5> improve it</c><c.colorCCCCCC> and this is the
+ </c>
+
+00:17:13.020 --> 00:17:15.050 align:start position:0%
+we need to<c.colorE5E5E5> improve it</c><c.colorCCCCCC> and this is the</c>
+<c.colorCCCCCC>topic<00:17:13.589><c> that</c><00:17:13.800><c> we're</c><00:17:14.100><c> going</c><00:17:14.339><c> to</c><00:17:14.459><c> cover</c><00:17:14.670><c> in</c><00:17:14.970><c> the</c></c>
+
+00:17:15.050 --> 00:17:15.060 align:start position:0%
+<c.colorCCCCCC>topic that we're going to cover in the
+ </c>
+
+00:17:15.060 --> 00:17:23.520 align:start position:0%
+<c.colorCCCCCC>topic that we're going to cover in the
+next<00:17:15.089><c> lecture</c></c>
+
+00:17:23.520 --> 00:17:23.530 align:start position:0%
+ 
+ 
+
+00:17:23.530 --> 00:17:25.590 align:start position:0%
+ 
+<c.colorE5E5E5>you</c>
+

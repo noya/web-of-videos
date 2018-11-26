@@ -1,0 +1,2790 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:06.500 align:start position:0%
+ 
+<c.colorCCCCCC>you</c>
+
+00:00:06.500 --> 00:00:06.510 align:start position:0%
+ 
+ 
+
+00:00:06.510 --> 00:00:10.260 align:start position:0%
+ 
+this<00:00:07.510><c> lecture</c><c.colorE5E5E5><00:00:07.780><c> is</c><00:00:08.170><c> about</c><00:00:08.440><c> the</c><00:00:09.060><c> inverted</c><00:00:10.060><c> index</c></c>
+
+00:00:10.260 --> 00:00:10.270 align:start position:0%
+this lecture<c.colorE5E5E5> is about the inverted index
+ </c>
+
+00:00:10.270 --> 00:00:15.090 align:start position:0%
+this lecture<c.colorE5E5E5> is about the inverted index
+construction<00:00:12.870><c> in</c><00:00:13.870><c> this</c><00:00:14.050><c> lecture</c><00:00:14.469><c> we</c><00:00:15.070><c> will</c></c>
+
+00:00:15.090 --> 00:00:15.100 align:start position:0%
+construction in this lecture we will
+ 
+
+00:00:15.100 --> 00:00:16.860 align:start position:0%
+construction in this lecture we will
+<c.colorCCCCCC>continue<00:00:15.610><c> the</c><00:00:15.789><c> discussion</c><00:00:15.910><c> of</c><00:00:16.420><c> system</c></c>
+
+00:00:16.860 --> 00:00:16.870 align:start position:0%
+<c.colorCCCCCC>continue the discussion of system
+ </c>
+
+00:00:16.870 --> 00:00:19.470 align:start position:0%
+<c.colorCCCCCC>continue the discussion of system
+implementation<00:00:17.740><c> in</c><00:00:18.520><c> particular</c></c><c.colorE5E5E5><00:00:18.850><c> we're</c><00:00:19.270><c> gonna</c></c>
+
+00:00:19.470 --> 00:00:19.480 align:start position:0%
+implementation in particular<c.colorE5E5E5> we're gonna
+ </c>
+
+00:00:19.480 --> 00:00:21.180 align:start position:0%
+implementation in particular<c.colorE5E5E5> we're gonna
+discuss<00:00:19.840><c> how</c><00:00:20.230><c> to</c><00:00:20.260><c> construct</c><00:00:20.710><c> it</c><00:00:20.890><c> in</c><00:00:20.980><c> word</c></c>
+
+00:00:21.180 --> 00:00:21.190 align:start position:0%
+discuss how to construct<c.colorE5E5E5> it in word
+ </c>
+
+00:00:21.190 --> 00:00:26.249 align:start position:0%
+discuss how to construct<c.colorE5E5E5> it in word
+learning<00:00:21.400><c> that</c><00:00:24.179><c> the</c><00:00:25.179><c> construction</c><00:00:25.599><c> of</c></c><c.colorCCCCCC><00:00:25.840><c> the</c></c>
+
+00:00:26.249 --> 00:00:26.259 align:start position:0%
+learning that the construction of<c.colorCCCCCC> the
+ </c>
+
+00:00:26.259 --> 00:00:28.560 align:start position:0%
+learning that the construction of<c.colorCCCCCC> the
+inverted<00:00:26.740><c> index</c><00:00:27.070><c> is</c><00:00:27.279><c> actually</c></c><c.colorE5E5E5><00:00:27.490><c> very</c><00:00:28.150><c> easy</c><00:00:28.359><c> if</c></c>
+
+00:00:28.560 --> 00:00:28.570 align:start position:0%
+inverted<c.colorCCCCCC> index is actually</c><c.colorE5E5E5> very easy if
+ </c>
+
+00:00:28.570 --> 00:00:30.870 align:start position:0%
+inverted<c.colorCCCCCC> index is actually</c><c.colorE5E5E5> very easy if
+the<00:00:28.750><c> data</c><00:00:28.929><c> set</c><00:00:29.199><c> is</c><00:00:29.349><c> very</c><00:00:29.410><c> small</c><00:00:29.890><c> it's</c><00:00:30.519><c> very</c></c>
+
+00:00:30.870 --> 00:00:30.880 align:start position:0%
+the data<c.colorE5E5E5> set is very small it's very
+ </c>
+
+00:00:30.880 --> 00:00:33.780 align:start position:0%
+the data<c.colorE5E5E5> set is very small it's very</c>
+<c.colorCCCCCC>easy<00:00:31.660><c> to</c><00:00:31.810><c> construct</c><00:00:32.290><c> a</c><00:00:32.439><c> dictionary</c><00:00:33.190><c> and</c><00:00:33.460><c> then</c></c>
+
+00:00:33.780 --> 00:00:33.790 align:start position:0%
+<c.colorCCCCCC>easy to construct a dictionary and then
+ </c>
+
+00:00:33.790 --> 00:00:36.960 align:start position:0%
+<c.colorCCCCCC>easy to construct a dictionary and then</c>
+<c.colorCCCCCC>store<00:00:34.150><c> the</c><00:00:34.300><c> postings</c></c><c.colorE5E5E5><00:00:34.720><c> in</c><00:00:35.020><c> a</c><00:00:35.140><c> fire</c><00:00:35.520><c> the</c><00:00:36.520><c> problem</c></c>
+
+00:00:36.960 --> 00:00:36.970 align:start position:0%
+<c.colorCCCCCC>store the postings</c><c.colorE5E5E5> in a fire the problem
+ </c>
+
+00:00:36.970 --> 00:00:40.860 align:start position:0%
+<c.colorCCCCCC>store the postings</c><c.colorE5E5E5> in a fire the problem
+is<00:00:37.120><c> that</c><00:00:37.300><c> when</c><00:00:38.230><c> our</c><00:00:38.530><c> data</c><00:00:39.039><c> is</c><00:00:39.460><c> not</c><00:00:39.879><c> able</c><00:00:40.510><c> to</c><00:00:40.570><c> fit</c></c>
+
+00:00:40.860 --> 00:00:40.870 align:start position:0%
+is that when our<c.colorE5E5E5> data is not able to fit
+ </c>
+
+00:00:40.870 --> 00:00:43.619 align:start position:0%
+is that when our<c.colorE5E5E5> data is not able to fit
+to<00:00:41.050><c> the</c><00:00:41.079><c> memory</c><00:00:41.500><c> then</c><00:00:42.399><c> we</c><00:00:42.969><c> have</c><00:00:43.120><c> to</c><00:00:43.239><c> use</c><00:00:43.390><c> some</c></c>
+
+00:00:43.619 --> 00:00:43.629 align:start position:0%
+to the<c.colorE5E5E5> memory then we have to use some
+ </c>
+
+00:00:43.629 --> 00:00:46.729 align:start position:0%
+to the<c.colorE5E5E5> memory then we have to use some
+special<00:00:43.899><c> method</c></c><c.colorCCCCCC><00:00:44.410><c> to</c><00:00:44.649><c> deal</c></c><c.colorE5E5E5><00:00:44.829><c> with</c><00:00:45.010><c> it</c><00:00:45.360><c> and</c></c>
+
+00:00:46.729 --> 00:00:46.739 align:start position:0%
+special<c.colorE5E5E5> method</c><c.colorCCCCCC> to deal</c><c.colorE5E5E5> with it and
+ </c>
+
+00:00:46.739 --> 00:00:49.439 align:start position:0%
+special<c.colorE5E5E5> method</c><c.colorCCCCCC> to deal</c><c.colorE5E5E5> with it and</c>
+<c.colorCCCCCC>unfortunately<00:00:47.739><c> in</c><00:00:48.309><c> most</c><00:00:48.520><c> retrieval</c></c>
+
+00:00:49.439 --> 00:00:49.449 align:start position:0%
+<c.colorCCCCCC>unfortunately in most retrieval
+ </c>
+
+00:00:49.449 --> 00:00:51.360 align:start position:0%
+<c.colorCCCCCC>unfortunately in most retrieval
+applications<00:00:50.079><c> that</c><00:00:50.379><c> data</c><00:00:50.590><c> set</c><00:00:50.920><c> would</c><00:00:51.250><c> be</c></c>
+
+00:00:51.360 --> 00:00:51.370 align:start position:0%
+applications that data set would<c.colorCCCCCC> be
+ </c>
+
+00:00:51.370 --> 00:00:53.910 align:start position:0%
+applications that data set would<c.colorCCCCCC> be
+large</c><c.colorE5E5E5><00:00:51.609><c> and</c><00:00:51.910><c> they</c><00:00:52.300><c> generally</c><00:00:52.870><c> cannot</c><00:00:53.170><c> be</c><00:00:53.350><c> load</c></c>
+
+00:00:53.910 --> 00:00:53.920 align:start position:0%
+large<c.colorE5E5E5> and they generally cannot be load
+ </c>
+
+00:00:53.920 --> 00:00:57.180 align:start position:0%
+large<c.colorE5E5E5> and they generally cannot be load
+into</c><c.colorCCCCCC><00:00:54.399><c> the</c><00:00:54.489><c> memory</c><00:00:54.670><c> at</c><00:00:55.210><c> once</c></c><c.colorE5E5E5><00:00:55.829><c> and</c><00:00:56.829><c> there</c><00:00:57.070><c> are</c></c>
+
+00:00:57.180 --> 00:00:57.190 align:start position:0%
+into<c.colorCCCCCC> the memory at once</c><c.colorE5E5E5> and there are
+ </c>
+
+00:00:57.190 --> 00:00:58.920 align:start position:0%
+into<c.colorCCCCCC> the memory at once</c><c.colorE5E5E5> and there are
+many<00:00:57.370><c> approaches</c><00:00:57.940><c> to</c><00:00:57.969><c> solve</c><00:00:58.390><c> another</c><00:00:58.660><c> problem</c></c>
+
+00:00:58.920 --> 00:00:58.930 align:start position:0%
+many approaches to<c.colorE5E5E5> solve another problem
+ </c>
+
+00:00:58.930 --> 00:01:03.270 align:start position:0%
+many approaches to<c.colorE5E5E5> solve another problem
+and<00:00:59.670><c> sorting</c><00:01:00.670><c> based</c><00:01:00.820><c> the</c><00:01:01.090><c> method</c><00:01:01.710><c> is</c><00:01:02.710><c> quite</c></c>
+
+00:01:03.270 --> 00:01:03.280 align:start position:0%
+<c.colorE5E5E5>and sorting based the method is quite
+ </c>
+
+00:01:03.280 --> 00:01:06.060 align:start position:0%
+<c.colorE5E5E5>and sorting based the method is quite
+common<00:01:03.730><c> it</c><00:01:03.910><c> works</c><00:01:04.120><c> in</c><00:01:04.330><c> four</c><00:01:04.930><c> steps</c><00:01:05.170><c> as</c><00:01:05.530><c> shown</c></c>
+
+00:01:06.060 --> 00:01:06.070 align:start position:0%
+common<c.colorE5E5E5> it works in four steps as shown
+ </c>
+
+00:01:06.070 --> 00:01:08.910 align:start position:0%
+common<c.colorE5E5E5> it works in four steps as shown</c>
+<c.colorCCCCCC>here<00:01:06.580><c> first</c><00:01:06.910><c> you</c><00:01:07.150><c> cracked</c><00:01:07.720><c> the</c><00:01:07.870><c> local</c></c><c.colorE5E5E5><00:01:08.410><c> comedy</c></c>
+
+00:01:08.910 --> 00:01:08.920 align:start position:0%
+<c.colorCCCCCC>here first you cracked the local</c><c.colorE5E5E5> comedy
+ </c>
+
+00:01:08.920 --> 00:01:10.890 align:start position:0%
+<c.colorCCCCCC>here first you cracked the local</c><c.colorE5E5E5> comedy
+document<00:01:09.670><c> ID</c><00:01:09.790><c> and</c><00:01:10.090><c> frequency</c><00:01:10.540><c> doubles</c></c>
+
+00:01:10.890 --> 00:01:10.900 align:start position:0%
+document ID and frequency doubles
+ 
+
+00:01:10.900 --> 00:01:13.800 align:start position:0%
+document ID and frequency doubles
+<c.colorE5E5E5>basically<00:01:11.830><c> you</c><00:01:11.920><c> will</c><00:01:12.040><c> count</c><00:01:12.490><c> the</c><00:01:12.729><c> terms</c><00:01:12.939><c> in</c><00:01:13.330><c> a</c></c>
+
+00:01:13.800 --> 00:01:13.810 align:start position:0%
+<c.colorE5E5E5>basically you will count the terms in a
+ </c>
+
+00:01:13.810 --> 00:01:17.670 align:start position:0%
+<c.colorE5E5E5>basically you will count the terms in a
+small<00:01:14.409><c> set</c></c><c.colorCCCCCC><00:01:14.650><c> of</c><00:01:14.860><c> documents</c><00:01:15.540><c> right</c><00:01:16.540><c> and</c><00:01:17.320><c> then</c></c>
+
+00:01:17.670 --> 00:01:17.680 align:start position:0%
+small set<c.colorCCCCCC> of documents right and then
+ </c>
+
+00:01:17.680 --> 00:01:19.499 align:start position:0%
+small set<c.colorCCCCCC> of documents right and then
+once<00:01:18.009><c> you</c></c><c.colorE5E5E5><00:01:18.130><c> crank</c><00:01:18.400><c> those</c><00:01:18.700><c> counts</c></c><c.colorCCCCCC><00:01:19.180><c> you</c><00:01:19.330><c> have</c></c>
+
+00:01:19.499 --> 00:01:19.509 align:start position:0%
+once you<c.colorE5E5E5> crank those counts</c><c.colorCCCCCC> you have
+ </c>
+
+00:01:19.509 --> 00:01:24.510 align:start position:0%
+once you<c.colorE5E5E5> crank those counts</c><c.colorCCCCCC> you have</c>
+<c.colorCCCCCC>sought<00:01:19.810><c> those</c><00:01:20.850><c> counts</c><00:01:21.850><c> based</c><00:01:22.689><c> on</c><00:01:23.110><c> terms</c><00:01:23.920><c> so</c></c>
+
+00:01:24.510 --> 00:01:24.520 align:start position:0%
+<c.colorCCCCCC>sought those counts based on terms so
+ </c>
+
+00:01:24.520 --> 00:01:27.120 align:start position:0%
+<c.colorCCCCCC>sought those counts based on terms so</c>
+<c.colorCCCCCC>that<00:01:24.700><c> you</c><00:01:24.820><c> build</c><00:01:25.000><c> a</c><00:01:25.240><c> local</c></c><c.colorE5E5E5><00:01:25.570><c> a</c><00:01:26.350><c> partial</c></c>
+
+00:01:27.120 --> 00:01:27.130 align:start position:0%
+<c.colorCCCCCC>that you build a local</c><c.colorE5E5E5> a partial
+ </c>
+
+00:01:27.130 --> 00:01:30.929 align:start position:0%
+<c.colorCCCCCC>that you build a local</c><c.colorE5E5E5> a partial</c>
+<c.colorE5E5E5>inverted<00:01:27.579><c> index</c></c><c.colorCCCCCC><00:01:27.880><c> and</c><00:01:28.270><c> these</c><00:01:28.900><c> are</c><00:01:29.229><c> called</c></c><c.colorE5E5E5><00:01:29.939><c> runs</c></c>
+
+00:01:30.929 --> 00:01:30.939 align:start position:0%
+<c.colorE5E5E5>inverted index</c><c.colorCCCCCC> and these are called</c><c.colorE5E5E5> runs
+ </c>
+
+00:01:30.939 --> 00:01:34.440 align:start position:0%
+<c.colorE5E5E5>inverted index</c><c.colorCCCCCC> and these are called</c><c.colorE5E5E5> runs
+and<00:01:31.360><c> then</c><00:01:31.509><c> you</c><00:01:31.600><c> write</c><00:01:31.840><c> them</c><00:01:32.740><c> into</c><00:01:33.009><c> a</c><00:01:33.700><c> temporary</c></c>
+
+00:01:34.440 --> 00:01:34.450 align:start position:0%
+<c.colorE5E5E5>and then you write them into a temporary
+ </c>
+
+00:01:34.450 --> 00:01:37.800 align:start position:0%
+<c.colorE5E5E5>and then you write them into a temporary
+file<00:01:34.869><c> on</c><00:01:35.409><c> the</c><00:01:35.890><c> disk</c><00:01:36.040><c> and</c><00:01:36.399><c> then</c><00:01:37.000><c> you</c><00:01:37.149><c> merge</c><00:01:37.450><c> in</c></c>
+
+00:01:37.800 --> 00:01:37.810 align:start position:0%
+file on the disk<c.colorE5E5E5> and then you merge in
+ </c>
+
+00:01:37.810 --> 00:01:40.139 align:start position:0%
+file on the disk<c.colorE5E5E5> and then you merge in
+step<00:01:38.049><c> 3</c></c><c.colorCCCCCC><00:01:38.320><c> you</c><00:01:38.439><c> would</c><00:01:38.530><c> do</c><00:01:39.100><c> paralyze</c><00:01:39.549><c> merging</c><00:01:39.970><c> of</c></c>
+
+00:01:40.139 --> 00:01:40.149 align:start position:0%
+step<c.colorE5E5E5> 3</c><c.colorCCCCCC> you would do paralyze merging of
+ </c>
+
+00:01:40.149 --> 00:01:42.719 align:start position:0%
+step<c.colorE5E5E5> 3</c><c.colorCCCCCC> you would do paralyze merging of
+these<00:01:40.390><c> runs</c></c><c.colorE5E5E5><00:01:40.780><c> and</c><00:01:41.140><c> here</c><00:01:41.829><c> you</c></c><c.colorCCCCCC><00:01:41.950><c> eventually</c><00:01:42.490><c> merge</c></c>
+
+00:01:42.719 --> 00:01:42.729 align:start position:0%
+these<c.colorCCCCCC> runs</c><c.colorE5E5E5> and here you</c><c.colorCCCCCC> eventually merge
+ </c>
+
+00:01:42.729 --> 00:01:45.420 align:start position:0%
+these<c.colorCCCCCC> runs</c><c.colorE5E5E5> and here you</c><c.colorCCCCCC> eventually merge
+all<00:01:43.060><c> the</c><00:01:43.240><c> runs</c><00:01:43.869><c> we</c><00:01:44.110><c> generate</c></c><c.colorE5E5E5><00:01:44.560><c> a</c><00:01:44.710><c> single</c></c>
+
+00:01:45.420 --> 00:01:45.430 align:start position:0%
+all the runs we generate<c.colorE5E5E5> a single
+ </c>
+
+00:01:45.430 --> 00:01:48.810 align:start position:0%
+all the runs we generate<c.colorE5E5E5> a single
+inverted<00:01:45.729><c> index</c><00:01:46.590><c> so</c><00:01:47.590><c> this</c><00:01:48.490><c> is</c><00:01:48.670><c> an</c></c>
+
+00:01:48.810 --> 00:01:48.820 align:start position:0%
+inverted<c.colorE5E5E5> index so this is an
+ </c>
+
+00:01:48.820 --> 00:01:51.300 align:start position:0%
+inverted<c.colorE5E5E5> index so this is an</c>
+<c.colorCCCCCC>illustration<00:01:49.240><c> of</c><00:01:49.509><c> this</c><00:01:49.780><c> method</c><00:01:50.229><c> on</c><00:01:50.920><c> the</c><00:01:51.130><c> left</c></c>
+
+00:01:51.300 --> 00:01:51.310 align:start position:0%
+<c.colorCCCCCC>illustration of this method on the left
+ </c>
+
+00:01:51.310 --> 00:01:54.300 align:start position:0%
+<c.colorCCCCCC>illustration of this method on the left
+you<00:01:51.520><c> see</c><00:01:51.549><c> some</c><00:01:51.909><c> documents</c></c><c.colorE5E5E5><00:01:52.420><c> and</c><00:01:52.950><c> on</c><00:01:53.950><c> the</c><00:01:54.100><c> right</c></c>
+
+00:01:54.300 --> 00:01:54.310 align:start position:0%
+you see some documents<c.colorE5E5E5> and on the right
+ </c>
+
+00:01:54.310 --> 00:01:58.350 align:start position:0%
+you see some documents<c.colorE5E5E5> and on the right
+we<00:01:54.670><c> have</c><00:01:54.700><c> shown</c><00:01:55.540><c> a</c><00:01:55.719><c> complex</c><00:01:56.530><c> code</c><00:01:56.829><c> and</c><00:01:57.360><c> a</c></c>
+
+00:01:58.350 --> 00:01:58.360 align:start position:0%
+we have shown a complex<c.colorE5E5E5> code and a
+ </c>
+
+00:01:58.360 --> 00:02:00.749 align:start position:0%
+we have shown a complex<c.colorE5E5E5> code and a</c>
+<c.colorE5E5E5>document<00:01:58.840><c> I</c><00:01:58.930><c> need</c><00:01:59.200><c> accident</c><00:01:59.680><c> these</c><00:02:00.250><c> lessons</c></c>
+
+00:02:00.749 --> 00:02:00.759 align:start position:0%
+<c.colorE5E5E5>document I need accident these lessons
+ </c>
+
+00:02:00.759 --> 00:02:04.920 align:start position:0%
+<c.colorE5E5E5>document I need accident these lessons
+are<00:02:00.880><c> to</c><00:02:01.710><c> map</c></c><c.colorCCCCCC><00:02:02.710><c> string</c></c><c.colorE5E5E5><00:02:03.640><c> based</c><00:02:04.030><c> or</c><00:02:04.329><c> plantations</c></c>
+
+00:02:04.920 --> 00:02:04.930 align:start position:0%
+are to map<c.colorCCCCCC> string</c><c.colorE5E5E5> based or plantations
+ </c>
+
+00:02:04.930 --> 00:02:08.010 align:start position:0%
+are to map<c.colorCCCCCC> string</c><c.colorE5E5E5> based or plantations</c>
+<c.colorE5E5E5>of<00:02:05.110><c> document</c><00:02:05.560><c> IDs</c><00:02:05.829><c> or</c><00:02:06.159><c> terms</c><00:02:06.539><c> into</c><00:02:07.539><c> integer</c></c>
+
+00:02:08.010 --> 00:02:08.020 align:start position:0%
+<c.colorE5E5E5>of document IDs or terms into integer
+ </c>
+
+00:02:08.020 --> 00:02:14.850 align:start position:0%
+<c.colorE5E5E5>of document IDs or terms into integer
+plantations<00:02:09.090><c> and</c><00:02:11.790><c> not</c><00:02:12.790><c> back</c><00:02:13.120><c> from</c><00:02:13.860><c> integers</c></c>
+
+00:02:14.850 --> 00:02:14.860 align:start position:0%
+plantations and not back from integers
+ 
+
+00:02:14.860 --> 00:02:17.290 align:start position:0%
+plantations and not back from integers
+<c.colorE5E5E5>to<00:02:15.250><c> the</c><00:02:15.610><c> stream</c><00:02:15.880><c> with</c><00:02:16.090><c> annotation</c></c>
+
+00:02:17.290 --> 00:02:17.300 align:start position:0%
+<c.colorE5E5E5>to the stream with annotation
+ </c>
+
+00:02:17.300 --> 00:02:19.240 align:start position:0%
+<c.colorE5E5E5>to the stream with annotation
+and<00:02:17.810><c> the</c><00:02:18.290><c> reason</c><00:02:18.590><c> why</c><00:02:18.710><c> we</c><00:02:18.890><c> want</c><00:02:19.100><c> are</c></c>
+
+00:02:19.240 --> 00:02:19.250 align:start position:0%
+and the reason why we want are
+ 
+
+00:02:19.250 --> 00:02:20.920 align:start position:0%
+and the reason why we want are
+interested<00:02:19.730><c> in</c><00:02:19.850><c> using</c><00:02:20.150><c> integers</c><c.colorCCCCCC><00:02:20.720><c> we</c></c>
+
+00:02:20.920 --> 00:02:20.930 align:start position:0%
+interested in using integers<c.colorCCCCCC> we
+ </c>
+
+00:02:20.930 --> 00:02:25.030 align:start position:0%
+interested in using integers<c.colorCCCCCC> we
+represent</c><c.colorE5E5E5><00:02:21.380><c> these</c><00:02:21.620><c> IDs</c><00:02:22.040><c> is</c><00:02:22.820><c> because</c><00:02:24.040><c> integers</c></c>
+
+00:02:25.030 --> 00:02:25.040 align:start position:0%
+represent<c.colorE5E5E5> these IDs is because integers
+ </c>
+
+00:02:25.040 --> 00:02:27.370 align:start position:0%
+represent<c.colorE5E5E5> these IDs is because integers
+are<00:02:25.250><c> often</c><00:02:26.030><c> easier</c><00:02:26.390><c> to</c><00:02:26.450><c> handle</c><00:02:26.840><c> for</c><00:02:26.990><c> example</c></c>
+
+00:02:27.370 --> 00:02:27.380 align:start position:0%
+are often<c.colorE5E5E5> easier to handle for example
+ </c>
+
+00:02:27.380 --> 00:02:29.980 align:start position:0%
+are often<c.colorE5E5E5> easier to handle for example
+integers<00:02:27.740><c> can</c><00:02:27.950><c> be</c><00:02:28.010><c> used</c><00:02:28.370><c> as</c><00:02:28.670><c> index</c><00:02:29.360><c> for</c><00:02:29.660><c> array</c></c>
+
+00:02:29.980 --> 00:02:29.990 align:start position:0%
+integers can be<c.colorE5E5E5> used as index for array
+ </c>
+
+00:02:29.990 --> 00:02:34.330 align:start position:0%
+integers can be<c.colorE5E5E5> used as index for array</c>
+<c.colorE5E5E5>and<00:02:30.350><c> they</c><00:02:31.190><c> are</c><00:02:31.310><c> also</c><00:02:31.490><c> easy</c><00:02:31.850><c> to</c><00:02:32.000><c> compress</c><00:02:33.340><c> and</c></c>
+
+00:02:34.330 --> 00:02:34.340 align:start position:0%
+<c.colorE5E5E5>and they are also easy to compress and
+ </c>
+
+00:02:34.340 --> 00:02:38.830 align:start position:0%
+<c.colorE5E5E5>and they are also easy to compress and</c>
+<c.colorE5E5E5>so<00:02:34.580><c> this</c><00:02:34.850><c> is</c><00:02:36.010><c> one</c><00:02:37.010><c> reason</c><00:02:37.160><c> why</c><00:02:37.460><c> we</c><00:02:37.520><c> tend</c><00:02:38.330><c> to</c><00:02:38.480><c> map</c></c>
+
+00:02:38.830 --> 00:02:38.840 align:start position:0%
+<c.colorE5E5E5>so this is one reason why we tend to map
+ </c>
+
+00:02:38.840 --> 00:02:42.460 align:start position:0%
+<c.colorE5E5E5>so this is one reason why we tend to map
+these<00:02:39.050><c> strings</c><00:02:39.470><c> into</c><00:02:39.860><c> integers</c><00:02:40.310><c> and</c><00:02:41.260><c> so</c><00:02:42.260><c> lot</c></c>
+
+00:02:42.460 --> 00:02:42.470 align:start position:0%
+these strings into integers and so<c.colorE5E5E5> lot
+ </c>
+
+00:02:42.470 --> 00:02:44.890 align:start position:0%
+these strings into integers and so<c.colorE5E5E5> lot
+well<00:02:42.710><c> so</c><00:02:43.160><c> that</c><00:02:43.280><c> we</c><00:02:43.430><c> don't</c><00:02:43.550><c> have</c><00:02:43.760><c> to</c><00:02:43.940><c> carry</c></c>
+
+00:02:44.890 --> 00:02:44.900 align:start position:0%
+well<c.colorE5E5E5> so that we don't have to carry
+ </c>
+
+00:02:44.900 --> 00:02:47.170 align:start position:0%
+well<c.colorE5E5E5> so that we don't have to carry
+these<00:02:45.050><c> strings</c><00:02:45.440><c> around</c></c><c.colorCCCCCC><00:02:45.860><c> so</c><00:02:46.790><c> how</c><00:02:46.940><c> does</c><00:02:47.000><c> this</c></c>
+
+00:02:47.170 --> 00:02:47.180 align:start position:0%
+these<c.colorE5E5E5> strings around</c><c.colorCCCCCC> so how does this
+ </c>
+
+00:02:47.180 --> 00:02:49.300 align:start position:0%
+these<c.colorE5E5E5> strings around</c><c.colorCCCCCC> so how does this
+approach<00:02:47.480><c> work</c><00:02:47.870><c> well</c><00:02:48.170><c> it's</c></c><c.colorE5E5E5><00:02:48.440><c> very</c><00:02:48.620><c> simple</c></c>
+
+00:02:49.300 --> 00:02:49.310 align:start position:0%
+approach<c.colorCCCCCC> work well it's</c><c.colorE5E5E5> very simple
+ </c>
+
+00:02:49.310 --> 00:02:51.220 align:start position:0%
+approach<c.colorCCCCCC> work well it's</c><c.colorE5E5E5> very simple
+we're<00:02:49.880><c> going</c><00:02:50.030><c> to</c><00:02:50.090><c> scan</c><00:02:50.360><c> these</c><00:02:50.660><c> documents</c></c>
+
+00:02:51.220 --> 00:02:51.230 align:start position:0%
+we're<c.colorE5E5E5> going to scan these documents
+ </c>
+
+00:02:51.230 --> 00:02:55.030 align:start position:0%
+we're<c.colorE5E5E5> going to scan these documents
+signature<00:02:52.220><c> and</c><00:02:52.520><c> then</c><00:02:53.180><c> pause</c><00:02:53.570><c> the</c><00:02:54.560><c> document</c></c>
+
+00:02:55.030 --> 00:02:55.040 align:start position:0%
+signature and then pause<c.colorE5E5E5> the document
+ </c>
+
+00:02:55.040 --> 00:02:57.720 align:start position:0%
+signature and then pause<c.colorE5E5E5> the document
+and<00:02:55.220><c> account</c><00:02:55.670><c> the</c><00:02:55.940><c> frequencies</c><00:02:56.540><c> of</c><00:02:56.570><c> terms</c><00:02:57.020><c> and</c></c>
+
+00:02:57.720 --> 00:02:57.730 align:start position:0%
+and account<c.colorE5E5E5> the frequencies of terms and
+ </c>
+
+00:02:57.730 --> 00:03:02.410 align:start position:0%
+and account<c.colorE5E5E5> the frequencies of terms and
+in<00:02:58.730><c> this</c><00:02:59.680><c> state</c><00:03:00.680><c> we</c><00:03:01.100><c> generally</c><00:03:01.790><c> sort</c><00:03:02.060><c> the</c></c>
+
+00:03:02.410 --> 00:03:02.420 align:start position:0%
+in this state we generally sort the
+ 
+
+00:03:02.420 --> 00:03:04.540 align:start position:0%
+in this state we generally sort the
+frequencies<00:03:03.080><c> by</c><00:03:03.230><c> document</c><00:03:03.740><c> IDs</c><00:03:03.980><c> because</c><c.colorCCCCCC><00:03:04.220><c> we</c></c>
+
+00:03:04.540 --> 00:03:04.550 align:start position:0%
+frequencies by document IDs because<c.colorCCCCCC> we
+ </c>
+
+00:03:04.550 --> 00:03:07.360 align:start position:0%
+frequencies by document IDs because<c.colorCCCCCC> we
+process<00:03:05.060><c> each</c><00:03:05.300><c> document</c></c><c.colorE5E5E5><00:03:05.920><c> sequentially</c><00:03:06.920><c> so</c><00:03:07.220><c> we</c></c>
+
+00:03:07.360 --> 00:03:07.370 align:start position:0%
+<c.colorCCCCCC>process each document</c><c.colorE5E5E5> sequentially so we
+ </c>
+
+00:03:07.370 --> 00:03:09.850 align:start position:0%
+<c.colorCCCCCC>process each document</c><c.colorE5E5E5> sequentially so we
+first<00:03:07.610><c> encounter</c></c><c.colorCCCCCC><00:03:07.820><c> all</c><00:03:08.330><c> the</c><00:03:08.450><c> terms</c><00:03:08.720><c> in</c><00:03:08.960><c> the</c></c>
+
+00:03:09.850 --> 00:03:09.860 align:start position:0%
+first encounter<c.colorCCCCCC> all the terms in the
+ </c>
+
+00:03:09.860 --> 00:03:10.990 align:start position:0%
+first encounter<c.colorCCCCCC> all the terms in the
+first</c><c.colorE5E5E5><00:03:09.890><c> document</c></c>
+
+00:03:10.990 --> 00:03:11.000 align:start position:0%
+first<c.colorE5E5E5> document
+ </c>
+
+00:03:11.000 --> 00:03:14.830 align:start position:0%
+first<c.colorE5E5E5> document
+therefore<00:03:11.570><c> the</c><00:03:11.720><c> document</c><00:03:12.170><c> IDs</c><00:03:13.180><c> are</c><00:03:14.180><c> all</c><00:03:14.420><c> ones</c></c>
+
+00:03:14.830 --> 00:03:14.840 align:start position:0%
+therefore the document IDs are all ones
+ 
+
+00:03:14.840 --> 00:03:20.980 align:start position:0%
+therefore the document IDs are all ones
+<c.colorCCCCCC>in<00:03:15.440><c> this</c></c><c.colorE5E5E5><00:03:15.800><c> case</c><00:03:17.230><c> and</c><00:03:19.420><c> this</c><00:03:20.420><c> will</c><00:03:20.660><c> be</c><00:03:20.780><c> followed</c></c>
+
+00:03:20.980 --> 00:03:20.990 align:start position:0%
+<c.colorCCCCCC>in this</c><c.colorE5E5E5> case and this will be followed
+ </c>
+
+00:03:20.990 --> 00:03:26.620 align:start position:0%
+<c.colorCCCCCC>in this</c><c.colorE5E5E5> case and this will be followed</c>
+<c.colorCCCCCC>by<00:03:21.230><c> document</c><00:03:22.130><c> IDs</c><00:03:22.570><c> to</c><00:03:23.830><c> tools</c><00:03:24.830><c> and</c><00:03:25.600><c> they</c><00:03:26.600><c> are</c></c>
+
+00:03:26.620 --> 00:03:26.630 align:start position:0%
+<c.colorCCCCCC>by document IDs to tools and they are
+ </c>
+
+00:03:26.630 --> 00:03:28.210 align:start position:0%
+<c.colorCCCCCC>by document IDs to tools and they are</c>
+<c.colorCCCCCC>natural</c><c.colorE5E5E5><00:03:27.020><c> results</c><00:03:27.440><c> in</c><00:03:27.560><c> this</c><00:03:27.740><c> order</c><00:03:28.040><c> just</c></c>
+
+00:03:28.210 --> 00:03:28.220 align:start position:0%
+<c.colorCCCCCC>natural</c><c.colorE5E5E5> results in this order just
+ </c>
+
+00:03:28.220 --> 00:03:29.920 align:start position:0%
+<c.colorCCCCCC>natural</c><c.colorE5E5E5> results in this order just
+because<00:03:28.550><c> we</c></c><c.colorCCCCCC><00:03:28.730><c> process</c><00:03:29.180><c> the</c><00:03:29.330><c> data</c></c><c.colorE5E5E5><00:03:29.360><c> in</c><00:03:29.780><c> the</c></c>
+
+00:03:29.920 --> 00:03:29.930 align:start position:0%
+because we<c.colorCCCCCC> process the data</c><c.colorE5E5E5> in the
+ </c>
+
+00:03:29.930 --> 00:03:32.830 align:start position:0%
+because we<c.colorCCCCCC> process the data</c><c.colorE5E5E5> in the</c>
+<c.colorE5E5E5>second</c><c.colorCCCCCC><00:03:30.230><c> jorah</c><00:03:30.470><c> at</c><00:03:30.950><c> some</c><00:03:31.580><c> point</c><00:03:31.850><c> we</c><00:03:32.480><c> will</c><00:03:32.630><c> run</c></c>
+
+00:03:32.830 --> 00:03:32.840 align:start position:0%
+<c.colorE5E5E5>second</c><c.colorCCCCCC> jorah at some point we will run
+ </c>
+
+00:03:32.840 --> 00:03:35.760 align:start position:0%
+<c.colorE5E5E5>second</c><c.colorCCCCCC> jorah at some point we will run
+out<00:03:33.050><c> of</c><00:03:33.080><c> memory</c></c><c.colorE5E5E5><00:03:33.440><c> and</c><00:03:33.890><c> then</c><00:03:34.490><c> we</c><00:03:34.700><c> would</c><00:03:34.820><c> have</c><00:03:35.060><c> to</c></c>
+
+00:03:35.760 --> 00:03:35.770 align:start position:0%
+out of memory<c.colorE5E5E5> and then we would have to
+ </c>
+
+00:03:35.770 --> 00:03:39.580 align:start position:0%
+out of memory<c.colorE5E5E5> and then we would have to
+to<00:03:36.770><c> write</c><00:03:37.040><c> them</c><00:03:37.460><c> into</c><00:03:37.940><c> the</c></c><c.colorCCCCCC><00:03:38.090><c> disk</c></c><c.colorE5E5E5><00:03:38.300><c> before</c><00:03:39.230><c> we</c><00:03:39.470><c> do</c></c>
+
+00:03:39.580 --> 00:03:39.590 align:start position:0%
+to write them<c.colorE5E5E5> into the</c><c.colorCCCCCC> disk</c><c.colorE5E5E5> before we do
+ </c>
+
+00:03:39.590 --> 00:03:43.180 align:start position:0%
+to write them<c.colorE5E5E5> into the</c><c.colorCCCCCC> disk</c><c.colorE5E5E5> before we do
+that<00:03:39.620><c> we're</c><00:03:40.040><c> going</c><00:03:40.190><c> to</c></c><c.colorCCCCCC><00:03:40.250><c> salt</c><00:03:40.910><c> them</c><00:03:41.950><c> just</c><00:03:42.950><c> to</c></c>
+
+00:03:43.180 --> 00:03:43.190 align:start position:0%
+that we're going to<c.colorCCCCCC> salt them just to
+ </c>
+
+00:03:43.190 --> 00:03:46.330 align:start position:0%
+that we're going to<c.colorCCCCCC> salt them just to
+use<00:03:44.120><c> whatever</c><00:03:44.690><c> memory</c></c><c.colorE5E5E5><00:03:45.020><c> we</c><00:03:45.350><c> have</c><00:03:45.560><c> we</c><00:03:45.860><c> can</c><00:03:46.040><c> sort</c></c>
+
+00:03:46.330 --> 00:03:46.340 align:start position:0%
+use whatever memory<c.colorE5E5E5> we have we can sort
+ </c>
+
+00:03:46.340 --> 00:03:50.110 align:start position:0%
+use whatever memory<c.colorE5E5E5> we have we can sort
+them<00:03:46.580><c> and</c><00:03:46.900><c> and</c><00:03:47.900><c> then</c><00:03:48.430><c> this</c><00:03:49.430><c> time</c><00:03:49.700><c> open</c><00:03:50.090><c> the</c></c>
+
+00:03:50.110 --> 00:03:50.120 align:start position:0%
+them and and then this time<c.colorE5E5E5> open the
+ </c>
+
+00:03:50.120 --> 00:03:52.390 align:start position:0%
+them and and then this time<c.colorE5E5E5> open the</c>
+<c.colorCCCCCC>salt</c><c.colorE5E5E5><00:03:50.390><c> based</c><00:03:50.660><c> on</c></c><c.colorCCCCCC><00:03:50.900><c> term</c></c><c.colorE5E5E5><00:03:51.200><c> Islands</c><00:03:51.650><c> note</c><00:03:52.130><c> that</c></c>
+
+00:03:52.390 --> 00:03:52.400 align:start position:0%
+<c.colorCCCCCC>salt</c><c.colorE5E5E5> based on</c><c.colorCCCCCC> term</c><c.colorE5E5E5> Islands note that
+ </c>
+
+00:03:52.400 --> 00:03:58.690 align:start position:0%
+<c.colorCCCCCC>salt</c><c.colorE5E5E5> based on</c><c.colorCCCCCC> term</c><c.colorE5E5E5> Islands note that
+here<00:03:52.790><c> we're</c></c><c.colorCCCCCC><00:03:53.570><c> using</c><00:03:53.810><c> this</c><00:03:55.540><c> term</c><00:03:56.540><c> IDs</c><00:03:56.900><c> as</c><00:03:57.280><c> a</c><00:03:58.280><c> key</c></c>
+
+00:03:58.690 --> 00:03:58.700 align:start position:0%
+here we're<c.colorCCCCCC> using this term IDs as a key
+ </c>
+
+00:03:58.700 --> 00:04:01.750 align:start position:0%
+here we're<c.colorCCCCCC> using this term IDs as a key
+to</c><c.colorE5E5E5><00:03:58.850><c> sort</c><00:03:59.150><c> so</c><00:03:59.690><c> all</c><00:03:59.930><c> the</c><00:04:00.200><c> entries</c><00:04:00.770><c> that</c></c><c.colorCCCCCC><00:04:01.070><c> share</c></c>
+
+00:04:01.750 --> 00:04:01.760 align:start position:0%
+to<c.colorE5E5E5> sort so all the entries that</c><c.colorCCCCCC> share
+ </c>
+
+00:04:01.760 --> 00:04:03.310 align:start position:0%
+to<c.colorE5E5E5> sort so all the entries that</c><c.colorCCCCCC> share
+the<00:04:01.910><c> same</c><00:04:01.940><c> term</c><00:04:02.390><c> would</c><00:04:02.660><c> be</c><00:04:02.690><c> grouped</c><00:04:03.080><c> together</c></c>
+
+00:04:03.310 --> 00:04:03.320 align:start position:0%
+the same term would be grouped together
+ 
+
+00:04:03.320 --> 00:04:08.110 align:start position:0%
+the same term would be grouped together
+in<00:04:03.920><c> this</c><00:04:04.100><c> case</c><00:04:04.340><c> we</c><00:04:04.640><c> can</c><00:04:04.820><c> see</c><c.colorCCCCCC><00:04:05.000><c> order</c><00:04:06.430><c> all</c><00:04:07.430><c> the</c></c>
+
+00:04:08.110 --> 00:04:08.120 align:start position:0%
+in this case we can see<c.colorCCCCCC> order all the
+ </c>
+
+00:04:08.120 --> 00:04:12.280 align:start position:0%
+in this case we can see<c.colorCCCCCC> order all the
+IDS<00:04:08.660><c> of</c></c><c.colorE5E5E5><00:04:09.050><c> talking</c><00:04:10.040><c> that</c><00:04:10.280><c> match</c><00:04:10.550><c> come</c><00:04:11.450><c> one</c><00:04:11.870><c> will</c></c>
+
+00:04:12.280 --> 00:04:12.290 align:start position:0%
+IDS of<c.colorE5E5E5> talking that match come one will
+ </c>
+
+00:04:12.290 --> 00:04:14.500 align:start position:0%
+IDS of<c.colorE5E5E5> talking that match come one will
+be<00:04:12.410><c> grouped</c><00:04:12.710><c> together</c></c><c.colorCCCCCC><00:04:13.090><c> and</c><00:04:14.090><c> we're</c><00:04:14.270><c> going</c><00:04:14.390><c> to</c></c>
+
+00:04:14.500 --> 00:04:14.510 align:start position:0%
+be grouped together<c.colorCCCCCC> and we're going to
+ </c>
+
+00:04:14.510 --> 00:04:17.560 align:start position:0%
+be grouped together<c.colorCCCCCC> and we're going to
+write<00:04:14.900><c> this</c><00:04:15.230><c> into</c><00:04:15.860><c> the</c><00:04:16.580><c> disk</c><00:04:16.820><c> as</c><00:04:17.090><c> a</c><00:04:17.150><c> temporary</c></c>
+
+00:04:17.560 --> 00:04:17.570 align:start position:0%
+write this into the disk as a temporary
+ 
+
+00:04:17.570 --> 00:04:21.460 align:start position:0%
+write this into the disk as a temporary
+file<00:04:17.900><c> and</c><00:04:18.230><c> that</c><c.colorCCCCCC><00:04:18.400><c> would</c><00:04:19.400><c> allow</c><00:04:20.030><c> you</c><00:04:20.209><c> to</c></c><c.colorE5E5E5><00:04:20.390><c> use</c></c><c.colorCCCCCC><00:04:20.720><c> the</c></c>
+
+00:04:21.460 --> 00:04:21.470 align:start position:0%
+file and that<c.colorCCCCCC> would allow you to</c><c.colorE5E5E5> use</c><c.colorCCCCCC> the
+ </c>
+
+00:04:21.470 --> 00:04:23.410 align:start position:0%
+file and that<c.colorCCCCCC> would allow you to</c><c.colorE5E5E5> use</c><c.colorCCCCCC> the
+memory<00:04:21.650><c> to</c><00:04:21.980><c> process</c><00:04:22.520><c> an</c><00:04:22.790><c> extra</c><00:04:23.060><c> batch</c></c><c.colorE5E5E5><00:04:23.210><c> of</c></c>
+
+00:04:23.410 --> 00:04:23.420 align:start position:0%
+memory<c.colorCCCCCC> to process an extra batch</c><c.colorE5E5E5> of
+ </c>
+
+00:04:23.420 --> 00:04:25.690 align:start position:0%
+memory<c.colorCCCCCC> to process an extra batch</c><c.colorE5E5E5> of
+documents</c><c.colorCCCCCC><00:04:23.570><c> and</c><00:04:24.110><c> we're</c><00:04:24.290><c> going</c><00:04:24.470><c> to</c></c><c.colorE5E5E5><00:04:24.530><c> do</c><00:04:24.830><c> that</c><00:04:25.040><c> for</c></c>
+
+00:04:25.690 --> 00:04:25.700 align:start position:0%
+documents<c.colorCCCCCC> and we're going to</c><c.colorE5E5E5> do that for
+ </c>
+
+00:04:25.700 --> 00:04:27.159 align:start position:0%
+documents<c.colorCCCCCC> and we're going to</c><c.colorE5E5E5> do that for
+all</c><c.colorCCCCCC><00:04:25.820><c> the</c><00:04:26.000><c> documents</c></c><c.colorE5E5E5><00:04:26.479><c> so</c><00:04:26.780><c> we're</c><00:04:26.990><c> going</c><00:04:27.110><c> to</c></c>
+
+00:04:27.159 --> 00:04:27.169 align:start position:0%
+all<c.colorCCCCCC> the documents</c><c.colorE5E5E5> so we're going to
+ </c>
+
+00:04:27.169 --> 00:04:28.770 align:start position:0%
+all<c.colorCCCCCC> the documents</c><c.colorE5E5E5> so we're going to</c>
+<c.colorE5E5E5>write<00:04:27.470><c> a</c><00:04:27.500><c> lot</c><00:04:27.919><c> of</c><00:04:28.160><c> temporary</c></c>
+
+00:04:28.770 --> 00:04:28.780 align:start position:0%
+<c.colorE5E5E5>write a lot of temporary
+ </c>
+
+00:04:28.780 --> 00:04:33.330 align:start position:0%
+<c.colorE5E5E5>write a lot of temporary
+fires<00:04:28.960><c> into</c><00:04:29.530><c> the</c><00:04:30.280><c> disco</c></c><c.colorCCCCCC><00:04:31.120><c> and</c><00:04:31.920><c> then</c><00:04:32.920><c> the</c><00:04:33.100><c> next</c></c>
+
+00:04:33.330 --> 00:04:33.340 align:start position:0%
+fires<c.colorE5E5E5> into the disco</c><c.colorCCCCCC> and then the next
+ </c>
+
+00:04:33.340 --> 00:04:35.340 align:start position:0%
+fires<c.colorE5E5E5> into the disco</c><c.colorCCCCCC> and then the next
+of<00:04:33.460><c> stages</c></c><c.colorE5E5E5><00:04:33.850><c> would</c><00:04:34.030><c> emerge</c></c><c.colorCCCCCC><00:04:34.360><c> assault</c><00:04:34.750><c> basically</c></c>
+
+00:04:35.340 --> 00:04:35.350 align:start position:0%
+of stages<c.colorE5E5E5> would emerge</c><c.colorCCCCCC> assault basically
+ </c>
+
+00:04:35.350 --> 00:04:37.620 align:start position:0%
+of stages<c.colorE5E5E5> would emerge</c><c.colorCCCCCC> assault basically
+we're<00:04:35.500><c> going</c></c><c.colorE5E5E5><00:04:35.620><c> to</c><00:04:35.710><c> merge</c></c><c.colorCCCCCC><00:04:36.460><c> them</c><00:04:36.850><c> and</c></c><c.colorE5E5E5><00:04:36.880><c> assault</c></c>
+
+00:04:37.620 --> 00:04:37.630 align:start position:0%
+we're going<c.colorE5E5E5> to merge</c><c.colorCCCCCC> them and</c><c.colorE5E5E5> assault
+ </c>
+
+00:04:37.630 --> 00:04:40.080 align:start position:0%
+we're going<c.colorE5E5E5> to merge</c><c.colorCCCCCC> them and</c><c.colorE5E5E5> assault
+them<00:04:37.870><c> eventually</c><00:04:38.470><c> we</c><00:04:39.040><c> will</c><00:04:39.190><c> get</c></c><c.colorCCCCCC><00:04:39.430><c> single</c></c>
+
+00:04:40.080 --> 00:04:40.090 align:start position:0%
+them eventually<c.colorE5E5E5> we will get</c><c.colorCCCCCC> single
+ </c>
+
+00:04:40.090 --> 00:04:43.440 align:start position:0%
+them eventually<c.colorE5E5E5> we will get</c><c.colorCCCCCC> single
+inverted</c><c.colorE5E5E5><00:04:40.600><c> index</c></c><c.colorCCCCCC><00:04:41.050><c> whether</c></c><c.colorE5E5E5><00:04:42.000><c> their</c><00:04:43.000><c> injuries</c></c>
+
+00:04:43.440 --> 00:04:43.450 align:start position:0%
+inverted<c.colorE5E5E5> index</c><c.colorCCCCCC> whether</c><c.colorE5E5E5> their injuries
+ </c>
+
+00:04:43.450 --> 00:04:47.370 align:start position:0%
+inverted<c.colorE5E5E5> index</c><c.colorCCCCCC> whether</c><c.colorE5E5E5> their injuries
+are<00:04:43.600><c> sorted</c><00:04:43.960><c> based</c><00:04:44.139><c> on</c><00:04:44.350><c> term</c><00:04:44.650><c> IDs</c><00:04:45.040><c> and</c><00:04:46.290><c> on</c><00:04:47.290><c> the</c></c>
+
+00:04:47.370 --> 00:04:47.380 align:start position:0%
+are<c.colorE5E5E5> sorted based on term IDs and on the
+ </c>
+
+00:04:47.380 --> 00:04:49.680 align:start position:0%
+are<c.colorE5E5E5> sorted based on term IDs and on the
+top<00:04:47.560><c> we</c></c><c.colorCCCCCC><00:04:47.590><c> can</c><00:04:47.919><c> see</c><00:04:48.070><c> these</c></c><c.colorE5E5E5><00:04:48.340><c> are</c><00:04:48.580><c> all</c><00:04:48.610><c> the</c><00:04:49.120><c> entries</c></c>
+
+00:04:49.680 --> 00:04:49.690 align:start position:0%
+top we<c.colorCCCCCC> can see these</c><c.colorE5E5E5> are all the entries
+ </c>
+
+00:04:49.690 --> 00:04:52.470 align:start position:0%
+top we<c.colorCCCCCC> can see these</c><c.colorE5E5E5> are all the entries
+for<00:04:50.110><c> the</c><00:04:50.800><c> documents</c><00:04:51.430><c> that</c><00:04:51.460><c> match</c><00:04:51.820><c> determine</c></c>
+
+00:04:52.470 --> 00:04:52.480 align:start position:0%
+for the documents that<c.colorE5E5E5> match determine
+ </c>
+
+00:04:52.480 --> 00:04:56.510 align:start position:0%
+for the documents that<c.colorE5E5E5> match determine
+ID</c><c.colorCCCCCC><00:04:52.690><c> 1</c><00:04:53.200><c> so</c><00:04:53.710><c> this</c></c><c.colorE5E5E5><00:04:54.070><c> is</c><00:04:54.250><c> basically</c></c><c.colorCCCCCC><00:04:54.669><c> how</c><00:04:55.030><c> we</c><00:04:55.090><c> can</c><00:04:55.419><c> do</c></c>
+
+00:04:56.510 --> 00:04:56.520 align:start position:0%
+ID<c.colorCCCCCC> 1 so this</c><c.colorE5E5E5> is basically</c><c.colorCCCCCC> how we can do
+ </c>
+
+00:04:56.520 --> 00:05:00.450 align:start position:0%
+ID<c.colorCCCCCC> 1 so this</c><c.colorE5E5E5> is basically</c><c.colorCCCCCC> how we can do</c>
+<c.colorE5E5E5>the<00:04:57.520><c> construction</c><00:04:58.090><c> of</c><00:04:58.240><c> inverted</c><00:04:58.960><c> index</c><00:04:59.470><c> even</c></c>
+
+00:05:00.450 --> 00:05:00.460 align:start position:0%
+<c.colorE5E5E5>the construction of inverted index even
+ </c>
+
+00:05:00.460 --> 00:05:04.770 align:start position:0%
+<c.colorE5E5E5>the construction of inverted index even
+though<00:05:00.580><c> the</c><00:05:00.730><c> data</c><00:05:00.880><c> cannot</c></c><c.colorCCCCCC><00:05:01.240><c> be</c><00:05:03.210><c> loaded</c></c><c.colorE5E5E5><00:05:04.210><c> into</c></c>
+
+00:05:04.770 --> 00:05:04.780 align:start position:0%
+though the data cannot<c.colorCCCCCC> be loaded</c><c.colorE5E5E5> into
+ </c>
+
+00:05:04.780 --> 00:05:10.430 align:start position:0%
+though the data cannot<c.colorCCCCCC> be loaded</c><c.colorE5E5E5> into
+the<00:05:04.900><c> memory</c><00:05:05.700><c> now</c><00:05:07.770><c> we</c><00:05:08.770><c> mentioned</c><00:05:09.220><c> earlier</c><00:05:09.850><c> that</c></c>
+
+00:05:10.430 --> 00:05:10.440 align:start position:0%
+the<c.colorE5E5E5> memory now we mentioned earlier that
+ </c>
+
+00:05:10.440 --> 00:05:13.950 align:start position:0%
+the<c.colorE5E5E5> memory now we mentioned earlier that</c>
+<c.colorE5E5E5>because<00:05:11.440><c> the</c><00:05:11.610><c> postings</c><00:05:12.610><c> are</c><00:05:12.970><c> very</c><00:05:13.300><c> large</c><00:05:13.540><c> it's</c></c>
+
+00:05:13.950 --> 00:05:13.960 align:start position:0%
+<c.colorE5E5E5>because the postings are very large it's
+ </c>
+
+00:05:13.960 --> 00:05:16.800 align:start position:0%
+<c.colorE5E5E5>because the postings are very large it's
+desirable<00:05:14.500><c> to</c><00:05:14.710><c> compress</c><00:05:15.160><c> them</c><00:05:15.370><c> so</c><00:05:16.360><c> let's</c><00:05:16.570><c> now</c></c>
+
+00:05:16.800 --> 00:05:16.810 align:start position:0%
+desirable to<c.colorE5E5E5> compress them so let's now
+ </c>
+
+00:05:16.810 --> 00:05:19.050 align:start position:0%
+desirable to<c.colorE5E5E5> compress them so let's now
+talk<00:05:16.870><c> a</c><00:05:17.110><c> little</c><00:05:17.320><c> bit</c><00:05:17.470><c> about</c><00:05:17.500><c> how</c><00:05:18.070><c> we</c><00:05:18.130><c> compress</c></c>
+
+00:05:19.050 --> 00:05:19.060 align:start position:0%
+talk a little bit about how we compress
+ 
+
+00:05:19.060 --> 00:05:21.900 align:start position:0%
+talk a little bit about how we compress
+inverted<00:05:19.600><c> index</c><00:05:20.190><c> well</c><00:05:21.190><c> the</c><00:05:21.340><c> idea</c><00:05:21.820><c> of</c>
+
+00:05:21.900 --> 00:05:21.910 align:start position:0%
+inverted index well the idea of
+ 
+
+00:05:21.910 --> 00:05:24.960 align:start position:0%
+inverted index well the idea of
+<c.colorE5E5E5>compression<00:05:22.630><c> in</c><00:05:23.260><c> general</c><00:05:23.800><c> is</c><00:05:24.280><c> the</c></c><c.colorCCCCCC><00:05:24.340><c> leverage</c></c>
+
+00:05:24.960 --> 00:05:24.970 align:start position:0%
+<c.colorE5E5E5>compression in general is the</c><c.colorCCCCCC> leverage
+ </c>
+
+00:05:24.970 --> 00:05:28.500 align:start position:0%
+<c.colorE5E5E5>compression in general is the</c><c.colorCCCCCC> leverage
+steward<00:05:25.810><c> distributions</c><00:05:26.440><c> of</c><00:05:26.650><c> values</c></c><c.colorE5E5E5><00:05:27.190><c> and</c><00:05:27.510><c> we</c></c>
+
+00:05:28.500 --> 00:05:28.510 align:start position:0%
+<c.colorCCCCCC>steward distributions of values</c><c.colorE5E5E5> and we
+ </c>
+
+00:05:28.510 --> 00:05:29.850 align:start position:0%
+<c.colorCCCCCC>steward distributions of values</c><c.colorE5E5E5> and we
+generally<00:05:28.810><c> have</c><00:05:28.990><c> to</c><00:05:29.110><c> use</c><00:05:29.260><c> variable</c><00:05:29.830><c> length</c></c>
+
+00:05:29.850 --> 00:05:29.860 align:start position:0%
+generally<c.colorE5E5E5> have to use variable length
+ </c>
+
+00:05:29.860 --> 00:05:32.370 align:start position:0%
+generally<c.colorE5E5E5> have to use variable length</c>
+<c.colorE5E5E5>encoding<00:05:30.360><c> instead</c><00:05:31.360><c> of</c><00:05:31.510><c> the</c><00:05:31.750><c> fixed</c><00:05:32.080><c> event</c></c>
+
+00:05:32.370 --> 00:05:32.380 align:start position:0%
+<c.colorE5E5E5>encoding instead of the fixed event
+ </c>
+
+00:05:32.380 --> 00:05:36.360 align:start position:0%
+<c.colorE5E5E5>encoding instead of the fixed event
+encoding<00:05:32.890><c> as</c><00:05:33.040><c> we</c><00:05:33.310><c> use</c><00:05:34.150><c> in</c><00:05:34.540><c> a</c><00:05:34.960><c> by</c><00:05:35.530><c> default</c><00:05:35.919><c> in</c><00:05:36.040><c> a</c></c>
+
+00:05:36.360 --> 00:05:36.370 align:start position:0%
+encoding as we use in a by default in a
+ 
+
+00:05:36.370 --> 00:05:41.730 align:start position:0%
+encoding as we use in a by default in a
+programming<c.colorCCCCCC><00:05:37.300><c> language</c><00:05:37.419><c> like</c><00:05:37.780><c> C++</c><00:05:39.180><c> and</c><00:05:40.470><c> so</c><00:05:41.470><c> how</c></c>
+
+00:05:41.730 --> 00:05:41.740 align:start position:0%
+programming<c.colorCCCCCC> language like C++ and so how
+ </c>
+
+00:05:41.740 --> 00:05:43.440 align:start position:0%
+programming<c.colorCCCCCC> language like C++ and so how</c>
+<c.colorCCCCCC>can<00:05:41.950><c> we</c><00:05:42.040><c> leverage</c><00:05:42.220><c> the</c><00:05:42.729><c> skill</c><00:05:43.300><c> the</c></c>
+
+00:05:43.440 --> 00:05:43.450 align:start position:0%
+<c.colorCCCCCC>can we leverage the skill the
+ </c>
+
+00:05:43.450 --> 00:05:46.409 align:start position:0%
+<c.colorCCCCCC>can we leverage the skill the
+distributions<00:05:44.050><c> of</c><00:05:44.200><c> values</c></c><c.colorE5E5E5><00:05:44.740><c> to</c><00:05:45.419><c> compress</c></c>
+
+00:05:46.409 --> 00:05:46.419 align:start position:0%
+distributions of values<c.colorE5E5E5> to compress
+ </c>
+
+00:05:46.419 --> 00:05:50.070 align:start position:0%
+distributions of values<c.colorE5E5E5> to compress
+these<00:05:46.750><c> values</c><00:05:47.250><c> well</c><00:05:48.270><c> in</c><00:05:49.270><c> general</c></c><c.colorCCCCCC><00:05:49.510><c> we</c><00:05:50.050><c> would</c></c>
+
+00:05:50.070 --> 00:05:50.080 align:start position:0%
+these values well in general<c.colorCCCCCC> we would
+ </c>
+
+00:05:50.080 --> 00:05:53.700 align:start position:0%
+these values well in general<c.colorCCCCCC> we would
+use<00:05:50.830><c> fewer</c><00:05:51.669><c> bits</c><00:05:51.910><c> to</c><00:05:52.270><c> encode</c><00:05:52.300><c> those</c><00:05:53.140><c> frequent</c></c>
+
+00:05:53.700 --> 00:05:53.710 align:start position:0%
+use fewer bits to encode those frequent
+ 
+
+00:05:53.710 --> 00:05:57.420 align:start position:0%
+use fewer bits to encode those frequent
+words<00:05:54.039><c> at</c><00:05:54.340><c> the</c><00:05:54.610><c> cost</c><00:05:54.820><c> of</c><c.colorCCCCCC><00:05:55.000><c> using</c><00:05:56.130><c> longer</c><00:05:57.130><c> bits</c></c>
+
+00:05:57.420 --> 00:05:57.430 align:start position:0%
+words at the cost of<c.colorCCCCCC> using longer bits
+ </c>
+
+00:05:57.430 --> 00:06:01.290 align:start position:0%
+words at the cost of<c.colorCCCCCC> using longer bits
+to<00:05:57.640><c> encode</c></c><c.colorE5E5E5><00:05:57.669><c> those</c><00:05:58.390><c> rare</c><00:05:59.380><c> values</c><00:05:59.860><c> so</c><00:06:00.700><c> in</c><00:06:01.000><c> our</c></c>
+
+00:06:01.290 --> 00:06:01.300 align:start position:0%
+to encode<c.colorE5E5E5> those rare values so in our
+ </c>
+
+00:06:01.300 --> 00:06:02.730 align:start position:0%
+to encode<c.colorE5E5E5> those rare values so in our
+case<00:06:01.600><c> let's</c><00:06:01.900><c> think</c><00:06:02.050><c> about</c><00:06:02.169><c> how</c><00:06:02.440><c> we</c><00:06:02.500><c> can</c></c>
+
+00:06:02.730 --> 00:06:02.740 align:start position:0%
+case let's<c.colorE5E5E5> think about how we can
+ </c>
+
+00:06:02.740 --> 00:06:05.850 align:start position:0%
+case let's<c.colorE5E5E5> think about how we can
+compress<00:06:03.190><c> the</c><00:06:03.250><c> TF</c></c><c.colorCCCCCC><00:06:03.700><c> from</c><00:06:04.090><c> frequency</c></c><c.colorE5E5E5><00:06:04.680><c> now</c><00:06:05.680><c> if</c></c>
+
+00:06:05.850 --> 00:06:05.860 align:start position:0%
+compress the<c.colorE5E5E5> TF</c><c.colorCCCCCC> from frequency</c><c.colorE5E5E5> now if
+ </c>
+
+00:06:05.860 --> 00:06:08.100 align:start position:0%
+compress the<c.colorE5E5E5> TF</c><c.colorCCCCCC> from frequency</c><c.colorE5E5E5> now if
+you<00:06:06.070><c> can</c><00:06:06.580><c> picture</c><00:06:06.820><c> what</c><00:06:07.000><c> the</c><00:06:07.510><c> inverted</c><00:06:07.990><c> index</c></c>
+
+00:06:08.100 --> 00:06:08.110 align:start position:0%
+you can picture what<c.colorE5E5E5> the inverted index
+ </c>
+
+00:06:08.110 --> 00:06:10.710 align:start position:0%
+you can picture what<c.colorE5E5E5> the inverted index</c>
+<c.colorE5E5E5>would<00:06:08.919><c> look</c><00:06:09.130><c> like</c><00:06:09.310><c> and</c></c><c.colorCCCCCC><00:06:09.610><c> you'll</c><00:06:09.820><c> see</c></c><c.colorE5E5E5><00:06:10.060><c> things</c></c>
+
+00:06:10.710 --> 00:06:10.720 align:start position:0%
+<c.colorE5E5E5>would look like and</c><c.colorCCCCCC> you'll see</c><c.colorE5E5E5> things
+ </c>
+
+00:06:10.720 --> 00:06:13.469 align:start position:0%
+<c.colorE5E5E5>would look like and</c><c.colorCCCCCC> you'll see</c><c.colorE5E5E5> things
+there<00:06:11.169><c> are</c><00:06:11.260><c> a</c><00:06:11.289><c> lot</c><00:06:11.590><c> of</c><00:06:11.970><c> come</c><00:06:12.970><c> frequencies</c></c>
+
+00:06:13.469 --> 00:06:13.479 align:start position:0%
+there are a lot of come frequencies
+ 
+
+00:06:13.479 --> 00:06:16.950 align:start position:0%
+there are a lot of come frequencies
+those<00:06:13.990><c> are</c><00:06:14.289><c> the</c><00:06:14.979><c> frequencies</c><00:06:15.580><c> of</c><00:06:15.729><c> terms</c><c.colorE5E5E5><00:06:16.030><c> in</c></c>
+
+00:06:16.950 --> 00:06:16.960 align:start position:0%
+those are the frequencies of terms<c.colorE5E5E5> in
+ </c>
+
+00:06:16.960 --> 00:06:22.680 align:start position:0%
+those are the frequencies of terms<c.colorE5E5E5> in
+all<00:06:17.530><c> those</c><00:06:17.860><c> documents</c><00:06:18.630><c> now</c><00:06:20.520><c> we</c><00:06:21.520><c> you</c><00:06:22.450><c> think</c></c>
+
+00:06:22.680 --> 00:06:22.690 align:start position:0%
+all those<c.colorE5E5E5> documents now we you think
+ </c>
+
+00:06:22.690 --> 00:06:24.450 align:start position:0%
+all those<c.colorE5E5E5> documents now we you think</c>
+<c.colorE5E5E5>about<00:06:22.870><c> what</c><00:06:23.229><c> kind</c><00:06:23.470><c> of</c><00:06:23.530><c> values</c><00:06:23.919><c> are</c><00:06:24.190><c> most</c></c>
+
+00:06:24.450 --> 00:06:24.460 align:start position:0%
+<c.colorE5E5E5>about what kind of values are most
+ </c>
+
+00:06:24.460 --> 00:06:26.580 align:start position:0%
+<c.colorE5E5E5>about what kind of values are most</c>
+<c.colorCCCCCC>frequently<00:06:25.030><c> there</c><00:06:25.180><c> you</c></c><c.colorE5E5E5><00:06:25.660><c> probably</c><00:06:26.050><c> will</c><00:06:26.320><c> be</c></c>
+
+00:06:26.580 --> 00:06:26.590 align:start position:0%
+<c.colorCCCCCC>frequently there you</c><c.colorE5E5E5> probably will be
+ </c>
+
+00:06:26.590 --> 00:06:28.140 align:start position:0%
+<c.colorCCCCCC>frequently there you</c><c.colorE5E5E5> probably will be</c>
+<c.colorCCCCCC>able</c><c.colorE5E5E5><00:06:27.310><c> to</c></c><c.colorCCCCCC><00:06:27.520><c> guess</c><00:06:27.669><c> that</c></c>
+
+00:06:28.140 --> 00:06:28.150 align:start position:0%
+<c.colorCCCCCC>able</c><c.colorE5E5E5> to</c><c.colorCCCCCC> guess that
+ </c>
+
+00:06:28.150 --> 00:06:30.240 align:start position:0%
+<c.colorCCCCCC>able</c><c.colorE5E5E5> to</c><c.colorCCCCCC> guess that
+small<00:06:28.450><c> numbers</c><00:06:28.810><c> tend</c><00:06:29.110><c> to</c><00:06:29.260><c> occur</c><00:06:29.530><c> far</c><00:06:30.100><c> more</c></c>
+
+00:06:30.240 --> 00:06:30.250 align:start position:0%
+small numbers tend to occur far more
+ 
+
+00:06:30.250 --> 00:06:34.100 align:start position:0%
+small numbers tend to occur far more
+frequently<00:06:30.729><c> than</c><00:06:30.910><c> large</c><c.colorCCCCCC><00:06:31.210><c> numbers</c><00:06:31.690><c> why</c><00:06:33.090><c> well</c></c>
+
+00:06:34.100 --> 00:06:34.110 align:start position:0%
+frequently than large<c.colorCCCCCC> numbers why well
+ </c>
+
+00:06:34.110 --> 00:06:36.420 align:start position:0%
+frequently than large<c.colorCCCCCC> numbers why well
+think<00:06:35.110><c> about</c><00:06:35.289><c> the</c><00:06:35.440><c> distribution</c><00:06:35.770><c> of</c><00:06:36.220><c> words</c></c>
+
+00:06:36.420 --> 00:06:36.430 align:start position:0%
+think<c.colorCCCCCC> about the distribution of words
+ </c>
+
+00:06:36.430 --> 00:06:39.440 align:start position:0%
+think<c.colorCCCCCC> about the distribution of words</c>
+<c.colorE5E5E5>and<00:06:36.760><c> this</c></c><c.colorCCCCCC><00:06:37.390><c> is</c></c><c.colorE5E5E5><00:06:37.570><c> due</c><00:06:37.900><c> to</c><00:06:37.930><c> the</c></c><c.colorCCCCCC><00:06:38.320><c> Zipf's</c><00:06:38.680><c> law</c><00:06:38.830><c> and</c></c>
+
+00:06:39.440 --> 00:06:39.450 align:start position:0%
+<c.colorE5E5E5>and this</c><c.colorCCCCCC> is</c><c.colorE5E5E5> due to the</c><c.colorCCCCCC> Zipf's law and
+ </c>
+
+00:06:39.450 --> 00:06:42.480 align:start position:0%
+<c.colorE5E5E5>and this</c><c.colorCCCCCC> is</c><c.colorE5E5E5> due to the</c><c.colorCCCCCC> Zipf's law and
+many<00:06:40.450><c> words</c><00:06:40.750><c> occur</c><00:06:41.200><c> just</c></c><c.colorE5E5E5><00:06:41.740><c> rare</c></c>
+
+00:06:42.480 --> 00:06:42.490 align:start position:0%
+many words occur<c.colorCCCCCC> just</c><c.colorE5E5E5> rare
+ </c>
+
+00:06:42.490 --> 00:06:44.550 align:start position:0%
+many words occur<c.colorCCCCCC> just</c><c.colorE5E5E5> rare
+so<00:06:42.850><c> we</c><00:06:43.030><c> see</c><00:06:43.180><c> a</c><00:06:43.210><c> lot</c><00:06:43.360><c> of</c><00:06:43.389><c> small</c></c><c.colorCCCCCC><00:06:44.080><c> animals</c></c>
+
+00:06:44.550 --> 00:06:44.560 align:start position:0%
+so we see a lot of small<c.colorCCCCCC> animals
+ </c>
+
+00:06:44.560 --> 00:06:47.010 align:start position:0%
+so we see a lot of small<c.colorCCCCCC> animals</c>
+<c.colorE5E5E5>therefore<00:06:45.130><c> we</c><00:06:45.220><c> can</c><00:06:45.400><c> use</c></c><c.colorCCCCCC><00:06:45.430><c> a</c><00:06:45.550><c> fewer</c><00:06:45.910><c> bits</c><00:06:46.180><c> for</c></c>
+
+00:06:47.010 --> 00:06:47.020 align:start position:0%
+<c.colorE5E5E5>therefore we can use</c><c.colorCCCCCC> a fewer bits for
+ </c>
+
+00:06:47.020 --> 00:06:51.890 align:start position:0%
+<c.colorE5E5E5>therefore we can use</c><c.colorCCCCCC> a fewer bits for
+the<00:06:47.169><c> small</c><00:06:48.330><c> but</c><00:06:49.330><c> highly</c></c><c.colorE5E5E5><00:06:49.600><c> frequent</c><00:06:50.520><c> integers</c></c>
+
+00:06:51.890 --> 00:06:51.900 align:start position:0%
+the small but highly<c.colorE5E5E5> frequent integers
+ </c>
+
+00:06:51.900 --> 00:06:56.070 align:start position:0%
+the small but highly<c.colorE5E5E5> frequent integers</c>
+<c.colorCCCCCC>and</c><c.colorE5E5E5><00:06:52.949><c> at</c><00:06:53.949><c> the</c><00:06:54.130><c> cost</c><00:06:54.370><c> of</c><00:06:54.550><c> using</c><00:06:54.970><c> more</c><00:06:55.120><c> bits</c><00:06:55.419><c> for</c></c>
+
+00:06:56.070 --> 00:06:56.080 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> at the cost of using more bits for
+ </c>
+
+00:06:56.080 --> 00:06:59.040 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> at the cost of using more bits for
+large<00:06:56.319><c> integers</c><00:06:57.389><c> now</c><00:06:58.389><c> this</c><00:06:58.569><c> is</c><00:06:58.720><c> a</c></c><c.colorCCCCCC><00:06:58.750><c> trade-off</c></c>
+
+00:06:59.040 --> 00:06:59.050 align:start position:0%
+large integers now this is a<c.colorCCCCCC> trade-off
+ </c>
+
+00:06:59.050 --> 00:07:01.110 align:start position:0%
+large integers now this is a<c.colorCCCCCC> trade-off</c>
+<c.colorE5E5E5>of<00:06:59.199><c> course</c><00:06:59.680><c> if</c><00:06:59.860><c> the</c><00:07:00.039><c> values</c><00:07:00.460><c> are</c></c><c.colorCCCCCC><00:07:00.580><c> distributed</c></c>
+
+00:07:01.110 --> 00:07:01.120 align:start position:0%
+<c.colorE5E5E5>of course if the values are</c><c.colorCCCCCC> distributed
+ </c>
+
+00:07:01.120 --> 00:07:03.540 align:start position:0%
+<c.colorE5E5E5>of course if the values are</c><c.colorCCCCCC> distributed
+in<00:07:01.210><c> uniform</c><00:07:01.720><c> and</c></c><c.colorE5E5E5><00:07:01.870><c> this</c><00:07:02.080><c> one</c><00:07:02.319><c> will</c><00:07:02.500><c> save</c><00:07:02.680><c> us</c><00:07:02.860><c> any</c></c>
+
+00:07:03.540 --> 00:07:03.550 align:start position:0%
+in uniform and<c.colorE5E5E5> this one will save us any
+ </c>
+
+00:07:03.550 --> 00:07:07.439 align:start position:0%
+in uniform and<c.colorE5E5E5> this one will save us any
+space<00:07:04.680><c> but</c><00:07:05.680><c> because</c><00:07:06.099><c> we</c><00:07:06.460><c> tend</c><00:07:06.759><c> to</c><00:07:06.880><c> see</c><00:07:07.120><c> many</c></c>
+
+00:07:07.439 --> 00:07:07.449 align:start position:0%
+space<c.colorE5E5E5> but because we tend to see many
+ </c>
+
+00:07:07.449 --> 00:07:11.070 align:start position:0%
+space<c.colorE5E5E5> but because we tend to see many
+small<00:07:07.960><c> values</c><00:07:08.620><c> they</c><00:07:09.310><c> are</c><00:07:09.340><c> very</c><00:07:09.699><c> frequent</c></c><c.colorCCCCCC><00:07:10.210><c> we</c></c>
+
+00:07:11.070 --> 00:07:11.080 align:start position:0%
+small values<c.colorE5E5E5> they are very frequent</c><c.colorCCCCCC> we
+ </c>
+
+00:07:11.080 --> 00:07:13.890 align:start position:0%
+small values<c.colorE5E5E5> they are very frequent</c><c.colorCCCCCC> we
+can<00:07:11.319><c> save</c><00:07:11.710><c> on</c><00:07:12.039><c> average</c><00:07:12.780><c> even</c><00:07:13.780><c> though</c></c>
+
+00:07:13.890 --> 00:07:13.900 align:start position:0%
+can save on average<c.colorCCCCCC> even though
+ </c>
+
+00:07:13.900 --> 00:07:16.469 align:start position:0%
+can save on average<c.colorCCCCCC> even though
+sometimes<00:07:14.280><c> when</c><00:07:15.280><c> we</c><00:07:15.400><c> see</c><00:07:15.430><c> a</c><00:07:15.639><c> large</c><00:07:15.940><c> number</c></c><c.colorE5E5E5><00:07:16.090><c> we</c></c>
+
+00:07:16.469 --> 00:07:16.479 align:start position:0%
+sometimes when we see<c.colorCCCCCC> a large number</c><c.colorE5E5E5> we
+ </c>
+
+00:07:16.479 --> 00:07:20.189 align:start position:0%
+sometimes when we see<c.colorCCCCCC> a large number</c><c.colorE5E5E5> we
+have</c><c.colorCCCCCC><00:07:16.599><c> to</c></c><c.colorE5E5E5><00:07:16.720><c> use</c><00:07:16.870><c> a</c><00:07:16.900><c> lot</c></c><c.colorCCCCCC><00:07:17.169><c> of</c><00:07:17.320><c> bits</c></c><c.colorE5E5E5><00:07:18.840><c> what</c><00:07:19.840><c> about</c><00:07:20.080><c> the</c></c>
+
+00:07:20.189 --> 00:07:20.199 align:start position:0%
+have<c.colorCCCCCC> to</c><c.colorE5E5E5> use a lot</c><c.colorCCCCCC> of bits</c><c.colorE5E5E5> what about the
+ </c>
+
+00:07:20.199 --> 00:07:22.320 align:start position:0%
+have<c.colorCCCCCC> to</c><c.colorE5E5E5> use a lot</c><c.colorCCCCCC> of bits</c><c.colorE5E5E5> what about the
+document<00:07:20.590><c> IDs</c></c><c.colorCCCCCC><00:07:20.889><c> that</c><00:07:21.430><c> we</c><00:07:21.699><c> also</c><00:07:21.820><c> saw</c><00:07:22.180><c> in</c></c>
+
+00:07:22.320 --> 00:07:22.330 align:start position:0%
+document IDs<c.colorCCCCCC> that we also saw in
+ </c>
+
+00:07:22.330 --> 00:07:25.350 align:start position:0%
+document IDs<c.colorCCCCCC> that we also saw in
+postings</c><c.colorE5E5E5><00:07:22.810><c> well</c><00:07:23.800><c> they</c><00:07:24.340><c> are</c><00:07:24.550><c> not</c></c><c.colorCCCCCC><00:07:24.669><c> distributed</c></c>
+
+00:07:25.350 --> 00:07:25.360 align:start position:0%
+postings<c.colorE5E5E5> well they are not</c><c.colorCCCCCC> distributed
+ </c>
+
+00:07:25.360 --> 00:07:27.120 align:start position:0%
+postings<c.colorE5E5E5> well they are not</c><c.colorCCCCCC> distributed
+in</c><c.colorE5E5E5><00:07:25.750><c> the</c></c><c.colorCCCCCC><00:07:25.900><c> school</c><00:07:26.229><c> weight</c><00:07:26.560><c> right</c></c>
+
+00:07:27.120 --> 00:07:27.130 align:start position:0%
+<c.colorCCCCCC>in</c><c.colorE5E5E5> the</c><c.colorCCCCCC> school weight right
+ </c>
+
+00:07:27.130 --> 00:07:32.310 align:start position:0%
+<c.colorCCCCCC>in</c><c.colorE5E5E5> the</c><c.colorCCCCCC> school weight right
+so<00:07:29.849><c> how</c><00:07:30.849><c> can</c><00:07:30.910><c> we</c><00:07:31.150><c> do</c><00:07:31.389><c> with</c><00:07:31.539><c> that</c><00:07:31.570><c> well</c><00:07:32.020><c> it</c><00:07:32.110><c> turns</c></c>
+
+00:07:32.310 --> 00:07:32.320 align:start position:0%
+so how can we do with that<c.colorCCCCCC> well it turns
+ </c>
+
+00:07:32.320 --> 00:07:33.810 align:start position:0%
+so how can we do with that<c.colorCCCCCC> well it turns
+out<00:07:32.470><c> that</c><00:07:32.530><c> you</c><00:07:32.800><c> can</c><00:07:32.919><c> use</c><00:07:32.949><c> a</c><00:07:33.099><c> trick</c><00:07:33.430><c> called</c></c>
+
+00:07:33.810 --> 00:07:33.820 align:start position:0%
+out<c.colorCCCCCC> that you can use a trick called
+ </c>
+
+00:07:33.820 --> 00:07:35.999 align:start position:0%
+out<c.colorCCCCCC> that you can use a trick called
+a<00:07:33.970><c> gap</c><00:07:34.270><c> and</c><00:07:34.659><c> that</c><00:07:34.690><c> let</c><00:07:35.349><c> us</c><00:07:35.440><c> restore</c><00:07:35.860><c> the</c></c>
+
+00:07:35.999 --> 00:07:36.009 align:start position:0%
+a gap and that<c.colorCCCCCC> let us restore the
+ </c>
+
+00:07:36.009 --> 00:07:39.200 align:start position:0%
+a gap and that<c.colorCCCCCC> let us restore the
+difference<00:07:36.400><c> of</c><00:07:36.669><c> these</c><00:07:36.849><c> two</c><00:07:37.300><c> -</c><00:07:37.860><c> and</c><00:07:38.860><c> we</c><00:07:39.039><c> can</c></c>
+
+00:07:39.200 --> 00:07:39.210 align:start position:0%
+difference of these two<c.colorCCCCCC> - and we can
+ </c>
+
+00:07:39.210 --> 00:07:42.920 align:start position:0%
+difference of these two<c.colorCCCCCC> - and we can</c>
+<c.colorE5E5E5>imagine<00:07:40.210><c> if</c><00:07:40.449><c> a</c><00:07:40.720><c> term</c><00:07:41.169><c> has</c><00:07:41.860><c> matched</c><00:07:42.220><c> the</c><00:07:42.460><c> many</c></c>
+
+00:07:42.920 --> 00:07:42.930 align:start position:0%
+<c.colorE5E5E5>imagine if a term has matched the many
+ </c>
+
+00:07:42.930 --> 00:07:45.300 align:start position:0%
+<c.colorE5E5E5>imagine if a term has matched the many
+documents<00:07:43.930><c> then</c><00:07:44.590><c> there</c><00:07:44.770><c> will</c><00:07:44.830><c> be</c><00:07:44.889><c> a</c><00:07:44.979><c> long</c><00:07:45.130><c> list</c></c>
+
+00:07:45.300 --> 00:07:45.310 align:start position:0%
+documents then there will be a long list
+ 
+
+00:07:45.310 --> 00:07:47.730 align:start position:0%
+documents then there will be a long list
+of<00:07:45.490><c> document</c><00:07:45.970><c> IDs</c><00:07:46.240><c> so</c><c.colorCCCCCC><00:07:46.509><c> when</c><00:07:46.900><c> we</c><00:07:46.990><c> take</c></c><c.colorE5E5E5><00:07:47.229><c> the</c><00:07:47.500><c> gap</c></c>
+
+00:07:47.730 --> 00:07:47.740 align:start position:0%
+of document IDs so<c.colorCCCCCC> when we take</c><c.colorE5E5E5> the gap
+ </c>
+
+00:07:47.740 --> 00:07:49.740 align:start position:0%
+of document IDs so<c.colorCCCCCC> when we take</c><c.colorE5E5E5> the gap
+I'm<00:07:48.130><c> going</c><00:07:48.340><c> to</c><00:07:48.400><c> take</c><00:07:48.520><c> the</c><00:07:48.669><c> difference</c></c><c.colorCCCCCC><00:07:49.030><c> between</c></c>
+
+00:07:49.740 --> 00:07:49.750 align:start position:0%
+I'm going to take the<c.colorE5E5E5> difference</c><c.colorCCCCCC> between
+ </c>
+
+00:07:49.750 --> 00:07:53.550 align:start position:0%
+I'm going to take the<c.colorE5E5E5> difference</c><c.colorCCCCCC> between
+adjacent<00:07:50.110><c> document</c><00:07:51.099><c> IDs</c></c><c.colorE5E5E5><00:07:51.370><c> those</c><00:07:52.180><c> gaps</c><00:07:53.080><c> will</c><00:07:53.440><c> be</c></c>
+
+00:07:53.550 --> 00:07:53.560 align:start position:0%
+<c.colorCCCCCC>adjacent document IDs</c><c.colorE5E5E5> those gaps will be
+ </c>
+
+00:07:53.560 --> 00:07:56.279 align:start position:0%
+<c.colorCCCCCC>adjacent document IDs</c><c.colorE5E5E5> those gaps will be
+small<00:07:53.860><c> so</c></c><c.colorCCCCCC><00:07:54.430><c> we</c></c><c.colorE5E5E5><00:07:54.639><c> again</c><00:07:55.060><c> see</c><00:07:55.300><c> a</c><00:07:55.330><c> lot</c><00:07:55.690><c> of</c><00:07:55.720><c> small</c></c>
+
+00:07:56.279 --> 00:07:56.289 align:start position:0%
+small so<c.colorCCCCCC> we</c><c.colorE5E5E5> again see a lot of small
+ </c>
+
+00:07:56.289 --> 00:07:59.279 align:start position:0%
+small so<c.colorCCCCCC> we</c><c.colorE5E5E5> again see a lot of small
+numbers<00:07:56.969><c> whereas</c><00:07:57.969><c> if</c><00:07:58.150><c> a</c><00:07:58.300><c> term</c><00:07:58.570><c> occurring</c><00:07:59.080><c> only</c></c>
+
+00:07:59.279 --> 00:07:59.289 align:start position:0%
+numbers<c.colorE5E5E5> whereas if a term occurring only
+ </c>
+
+00:07:59.289 --> 00:08:00.990 align:start position:0%
+numbers<c.colorE5E5E5> whereas if a term occurring only</c>
+<c.colorCCCCCC>a<00:07:59.440><c> few</c><00:07:59.710><c> documents</c></c><c.colorE5E5E5><00:07:59.979><c> then</c><00:08:00.430><c> the</c><00:08:00.580><c> gap</c><00:08:00.759><c> will</c><00:08:00.969><c> be</c></c>
+
+00:08:00.990 --> 00:08:01.000 align:start position:0%
+<c.colorCCCCCC>a few documents</c><c.colorE5E5E5> then the gap will be
+ </c>
+
+00:08:01.000 --> 00:08:03.209 align:start position:0%
+<c.colorCCCCCC>a few documents</c><c.colorE5E5E5> then the gap will be</c>
+<c.colorE5E5E5>large<00:08:01.360><c> the</c><00:08:02.110><c> large</c><00:08:02.320><c> numbers</c><00:08:02.800><c> will</c><00:08:03.039><c> not</c></c><c.colorCCCCCC><00:08:03.070><c> be</c></c>
+
+00:08:03.209 --> 00:08:03.219 align:start position:0%
+<c.colorE5E5E5>large the large numbers will not</c><c.colorCCCCCC> be
+ </c>
+
+00:08:03.219 --> 00:08:05.939 align:start position:0%
+<c.colorE5E5E5>large the large numbers will not</c><c.colorCCCCCC> be</c>
+<c.colorE5E5E5>frequent<00:08:03.759><c> so</c><00:08:04.360><c> this</c><00:08:04.570><c> creates</c><00:08:05.020><c> some</c><00:08:05.169><c> security</c></c>
+
+00:08:05.939 --> 00:08:05.949 align:start position:0%
+<c.colorE5E5E5>frequent so this creates some security
+ </c>
+
+00:08:05.949 --> 00:08:09.089 align:start position:0%
+<c.colorE5E5E5>frequent so this creates some security</c>
+<c.colorCCCCCC>situation<00:08:06.400><c> that</c><00:08:06.729><c> would</c><00:08:06.849><c> allow</c><00:08:07.150><c> us</c></c><c.colorE5E5E5><00:08:07.180><c> to</c><00:08:08.099><c> to</c></c>
+
+00:08:09.089 --> 00:08:09.099 align:start position:0%
+<c.colorCCCCCC>situation that would allow us</c><c.colorE5E5E5> to to
+ </c>
+
+00:08:09.099 --> 00:08:12.420 align:start position:0%
+<c.colorCCCCCC>situation that would allow us</c><c.colorE5E5E5> to to
+compress<00:08:09.759><c> these</c><00:08:10.000><c> values</c><00:08:10.449><c> and</c><00:08:10.949><c> this</c><00:08:11.949><c> is</c></c><c.colorCCCCCC><00:08:12.159><c> also</c></c>
+
+00:08:12.420 --> 00:08:12.430 align:start position:0%
+compress these values and this is<c.colorCCCCCC> also
+ </c>
+
+00:08:12.430 --> 00:08:16.290 align:start position:0%
+compress these values and this is<c.colorCCCCCC> also
+possible<00:08:12.820><c> because</c><00:08:13.240><c> in</c><00:08:13.900><c> order</c><00:08:14.199><c> to</c></c><c.colorE5E5E5><00:08:14.969><c> uncover</c><00:08:15.969><c> or</c></c>
+
+00:08:16.290 --> 00:08:16.300 align:start position:0%
+<c.colorCCCCCC>possible because in order to</c><c.colorE5E5E5> uncover or
+ </c>
+
+00:08:16.300 --> 00:08:18.870 align:start position:0%
+<c.colorCCCCCC>possible because in order to</c><c.colorE5E5E5> uncover or
+uncompress<00:08:16.960><c> these</c><00:08:17.440><c> document</c><00:08:18.130><c> IDs</c><00:08:18.370><c> we</c><00:08:18.610><c> have</c><00:08:18.729><c> to</c></c>
+
+00:08:18.870 --> 00:08:18.880 align:start position:0%
+uncompress these document IDs we have to
+ 
+
+00:08:18.880 --> 00:08:21.810 align:start position:0%
+uncompress these document IDs we have to
+<c.colorE5E5E5>sequentially<00:08:19.479><c> process</c><00:08:19.900><c> the</c><00:08:20.080><c> data</c><00:08:20.639><c> because</c></c><c.colorCCCCCC><00:08:21.639><c> we</c></c>
+
+00:08:21.810 --> 00:08:21.820 align:start position:0%
+<c.colorE5E5E5>sequentially process the data because</c><c.colorCCCCCC> we
+ </c>
+
+00:08:21.820 --> 00:08:23.939 align:start position:0%
+<c.colorE5E5E5>sequentially process the data because</c><c.colorCCCCCC> we
+store<00:08:22.090><c> the</c><00:08:22.210><c> difference</c><00:08:22.630><c> and</c><00:08:22.840><c> in</c><00:08:23.620><c> order</c></c><c.colorE5E5E5><00:08:23.860><c> to</c></c>
+
+00:08:23.939 --> 00:08:23.949 align:start position:0%
+store the difference and in order<c.colorE5E5E5> to
+ </c>
+
+00:08:23.949 --> 00:08:26.459 align:start position:0%
+store the difference and in order<c.colorE5E5E5> to
+recover<00:08:24.250><c> the</c><00:08:24.580><c> the</c><00:08:25.150><c> exactly</c><00:08:25.570><c> document</c><00:08:26.050><c> ID</c><00:08:26.169><c> we</c></c>
+
+00:08:26.459 --> 00:08:26.469 align:start position:0%
+recover the the exactly document ID we
+ 
+
+00:08:26.469 --> 00:08:28.709 align:start position:0%
+recover the the exactly document ID we
+have<00:08:26.590><c> to</c><00:08:26.740><c> first</c><00:08:26.949><c> recover</c><00:08:27.460><c> the</c><00:08:27.759><c> previous</c>
+
+00:08:28.709 --> 00:08:28.719 align:start position:0%
+have to first recover the previous
+ 
+
+00:08:28.719 --> 00:08:30.570 align:start position:0%
+have to first recover the previous
+<c.colorE5E5E5>document<00:08:29.169><c> ID</c><00:08:29.289><c> and</c><00:08:29.590><c> then</c><00:08:29.919><c> we</c><00:08:30.009><c> can</c><00:08:30.190><c> add</c></c><c.colorCCCCCC><00:08:30.370><c> the</c></c>
+
+00:08:30.570 --> 00:08:30.580 align:start position:0%
+<c.colorE5E5E5>document ID and then we can add</c><c.colorCCCCCC> the
+ </c>
+
+00:08:30.580 --> 00:08:32.159 align:start position:0%
+<c.colorE5E5E5>document ID and then we can add</c><c.colorCCCCCC> the
+difference<00:08:30.940><c> to</c><00:08:31.150><c> the</c><00:08:31.270><c> previous</c><00:08:31.630><c> document</c><00:08:32.079><c> ID</c></c>
+
+00:08:32.159 --> 00:08:32.169 align:start position:0%
+difference to the previous<c.colorCCCCCC> document ID
+ </c>
+
+00:08:32.169 --> 00:08:35.880 align:start position:0%
+difference to the previous<c.colorCCCCCC> document ID</c>
+<c.colorE5E5E5>to<00:08:33.159><c> restore</c><00:08:33.909><c> the</c><00:08:34.180><c> the</c><00:08:34.839><c> currently</c><00:08:35.200><c> documenting</c></c>
+
+00:08:35.880 --> 00:08:35.890 align:start position:0%
+<c.colorE5E5E5>to restore the the currently documenting
+ </c>
+
+00:08:35.890 --> 00:08:38.940 align:start position:0%
+<c.colorE5E5E5>to restore the the currently documenting</c>
+<c.colorE5E5E5>now<00:08:36.520><c> this</c><00:08:36.729><c> was</c><00:08:36.880><c> possible</c></c><c.colorCCCCCC><00:08:37.450><c> because</c><00:08:37.690><c> we</c><00:08:38.680><c> only</c></c>
+
+00:08:38.940 --> 00:08:38.950 align:start position:0%
+<c.colorE5E5E5>now this was possible</c><c.colorCCCCCC> because we only
+ </c>
+
+00:08:38.950 --> 00:08:41.010 align:start position:0%
+<c.colorE5E5E5>now this was possible</c><c.colorCCCCCC> because we only</c>
+<c.colorE5E5E5>needed<00:08:39.579><c> to</c><00:08:39.700><c> have</c><00:08:39.940><c> sequential</c><00:08:40.329><c> access</c><00:08:40.779><c> to</c></c>
+
+00:08:41.010 --> 00:08:41.020 align:start position:0%
+<c.colorE5E5E5>needed to have sequential access to
+ </c>
+
+00:08:41.020 --> 00:08:43.829 align:start position:0%
+<c.colorE5E5E5>needed to have sequential access to
+those<00:08:41.229><c> of</c><00:08:41.469><c> my</c><00:08:41.680><c> IDs</c><00:08:42.099><c> once</c><00:08:43.000><c> we</c><00:08:43.209><c> look</c><00:08:43.329><c> up</c><00:08:43.479><c> a</c></c><c.colorCCCCCC><00:08:43.599><c> term</c></c>
+
+00:08:43.829 --> 00:08:43.839 align:start position:0%
+those<c.colorE5E5E5> of my IDs once we look up a</c><c.colorCCCCCC> term
+ </c>
+
+00:08:43.839 --> 00:08:46.050 align:start position:0%
+those<c.colorE5E5E5> of my IDs once we look up a</c><c.colorCCCCCC> term</c>
+<c.colorE5E5E5>we<00:08:44.320><c> fetch</c><00:08:44.529><c> all</c><00:08:44.770><c> the</c><00:08:44.800><c> document</c><00:08:45.310><c> IDs</c><00:08:45.550><c> that</c><00:08:45.820><c> match</c></c>
+
+00:08:46.050 --> 00:08:46.060 align:start position:0%
+<c.colorE5E5E5>we fetch all the document IDs that match
+ </c>
+
+00:08:46.060 --> 00:08:48.090 align:start position:0%
+<c.colorE5E5E5>we fetch all the document IDs that match
+the<00:08:46.270><c> term</c><00:08:46.480><c> then</c><00:08:47.020><c> we</c><00:08:47.050><c> sequentially</c><00:08:47.680><c> process</c></c>
+
+00:08:48.090 --> 00:08:48.100 align:start position:0%
+the term then we<c.colorE5E5E5> sequentially process
+ </c>
+
+00:08:48.100 --> 00:08:50.370 align:start position:0%
+the term then we<c.colorE5E5E5> sequentially process
+them<00:08:48.399><c> so</c><00:08:48.760><c> it's</c><00:08:49.029><c> very</c><00:08:49.329><c> natural</c></c><c.colorCCCCCC><00:08:49.630><c> that's</c></c><c.colorE5E5E5><00:08:50.170><c> why</c></c>
+
+00:08:50.370 --> 00:08:50.380 align:start position:0%
+them<c.colorE5E5E5> so it's very natural</c><c.colorCCCCCC> that's</c><c.colorE5E5E5> why
+ </c>
+
+00:08:50.380 --> 00:08:52.620 align:start position:0%
+them<c.colorE5E5E5> so it's very natural</c><c.colorCCCCCC> that's</c><c.colorE5E5E5> why
+this<00:08:50.440><c> trick</c></c><c.colorCCCCCC><00:08:51.250><c> after</c><00:08:51.579><c> the</c><00:08:51.670><c> world</c></c>
+
+00:08:52.620 --> 00:08:52.630 align:start position:0%
+this trick<c.colorCCCCCC> after the world
+ </c>
+
+00:08:52.630 --> 00:08:54.910 align:start position:0%
+this trick<c.colorCCCCCC> after the world
+and<00:08:53.630><c> there</c><00:08:53.750><c> are</c><00:08:53.870><c> many</c></c><c.colorE5E5E5><00:08:54.080><c> different</c><00:08:54.440><c> methods</c><00:08:54.620><c> for</c></c>
+
+00:08:54.910 --> 00:08:54.920 align:start position:0%
+and there are many<c.colorE5E5E5> different methods for
+ </c>
+
+00:08:54.920 --> 00:08:58.690 align:start position:0%
+and there are many<c.colorE5E5E5> different methods for
+encoding<00:08:55.430><c> so</c></c><c.colorCCCCCC><00:08:55.850><c> binary</c><00:08:56.390><c> code</c><00:08:56.860><c> is</c><00:08:57.860><c> a</c><00:08:57.920><c> common</c></c><c.colorE5E5E5><00:08:58.430><c> user</c></c>
+
+00:08:58.690 --> 00:08:58.700 align:start position:0%
+encoding<c.colorE5E5E5> so</c><c.colorCCCCCC> binary code is a common</c><c.colorE5E5E5> user
+ </c>
+
+00:08:58.700 --> 00:09:02.200 align:start position:0%
+encoding<c.colorE5E5E5> so</c><c.colorCCCCCC> binary code is a common</c><c.colorE5E5E5> user
+code<00:08:59.030><c> in</c><00:08:59.420><c> just</c><00:09:00.100><c> any</c><00:09:01.100><c> program</c></c><c.colorCCCCCC><00:09:01.490><c> memories</c><00:09:01.910><c> where</c></c>
+
+00:09:02.200 --> 00:09:02.210 align:start position:0%
+code in just any program<c.colorCCCCCC> memories where
+ </c>
+
+00:09:02.210 --> 00:09:05.610 align:start position:0%
+code in just any program<c.colorCCCCCC> memories where
+we<00:09:02.330><c> use</c></c><c.colorE5E5E5><00:09:02.560><c> basically</c><00:09:03.560><c> fixed</c><00:09:04.130><c> length</c><00:09:04.340><c> encoding</c></c>
+
+00:09:05.610 --> 00:09:05.620 align:start position:0%
+we use<c.colorE5E5E5> basically fixed length encoding
+ </c>
+
+00:09:05.620 --> 00:09:07.930 align:start position:0%
+we use<c.colorE5E5E5> basically fixed length encoding
+generally<00:09:06.620><c> called</c></c><c.colorCCCCCC><00:09:06.860><c> and</c></c><c.colorE5E5E5><00:09:07.190><c> chemical</c><00:09:07.730><c> and</c></c>
+
+00:09:07.930 --> 00:09:07.940 align:start position:0%
+generally called<c.colorCCCCCC> and</c><c.colorE5E5E5> chemical and
+ </c>
+
+00:09:07.940 --> 00:09:09.790 align:start position:0%
+generally called<c.colorCCCCCC> and</c><c.colorE5E5E5> chemical and</c>
+<c.colorCCCCCC>Aragorn</c><c.colorE5E5E5><00:09:08.390><c> are</c><00:09:08.600><c> all</c><00:09:08.780><c> possibilities</c><00:09:09.440><c> and</c></c><c.colorCCCCCC><00:09:09.470><c> there</c></c>
+
+00:09:09.790 --> 00:09:09.800 align:start position:0%
+<c.colorCCCCCC>Aragorn</c><c.colorE5E5E5> are all possibilities and</c><c.colorCCCCCC> there
+ </c>
+
+00:09:09.800 --> 00:09:11.560 align:start position:0%
+<c.colorCCCCCC>Aragorn</c><c.colorE5E5E5> are all possibilities and</c><c.colorCCCCCC> there
+are<00:09:09.920><c> many</c><00:09:10.100><c> other</c><00:09:10.280><c> possibilities</c><00:09:10.790><c> so</c><00:09:11.360><c> let's</c></c>
+
+00:09:11.560 --> 00:09:11.570 align:start position:0%
+are many other possibilities<c.colorCCCCCC> so let's
+ </c>
+
+00:09:11.570 --> 00:09:13.440 align:start position:0%
+are many other possibilities<c.colorCCCCCC> so let's
+look<00:09:11.690><c> at</c><00:09:11.840><c> some</c><00:09:12.050><c> of</c><00:09:12.080><c> them</c><00:09:12.380><c> in</c><00:09:12.560><c> more</c></c><c.colorE5E5E5><00:09:12.770><c> detail</c></c>
+
+00:09:13.440 --> 00:09:13.450 align:start position:0%
+look at some of<c.colorCCCCCC> them in more</c><c.colorE5E5E5> detail
+ </c>
+
+00:09:13.450 --> 00:09:15.640 align:start position:0%
+look at some of<c.colorCCCCCC> them in more</c><c.colorE5E5E5> detail
+binary<00:09:14.450><c> encoding</c><00:09:14.810><c> is</c><00:09:14.900><c> really</c><00:09:15.170><c> equal</c><00:09:15.470><c> ends</c></c>
+
+00:09:15.640 --> 00:09:15.650 align:start position:0%
+<c.colorE5E5E5>binary encoding is really equal ends
+ </c>
+
+00:09:15.650 --> 00:09:18.090 align:start position:0%
+<c.colorE5E5E5>binary encoding is really equal ends</c>
+<c.colorE5E5E5>encoding<00:09:16.250><c> and</c><00:09:16.700><c> that's</c><00:09:17.060><c> appropriate</c></c><c.colorCCCCCC><00:09:17.360><c> for</c></c>
+
+00:09:18.090 --> 00:09:18.100 align:start position:0%
+<c.colorE5E5E5>encoding and that's appropriate</c><c.colorCCCCCC> for
+ </c>
+
+00:09:18.100 --> 00:09:21.280 align:start position:0%
+<c.colorE5E5E5>encoding and that's appropriate</c><c.colorCCCCCC> for
+randomly<00:09:19.100><c> distributed</c><00:09:19.670><c> values</c></c><c.colorE5E5E5><00:09:19.970><c> the</c><00:09:20.960><c> unit</c></c>
+
+00:09:21.280 --> 00:09:21.290 align:start position:0%
+randomly distributed values<c.colorE5E5E5> the unit
+ </c>
+
+00:09:21.290 --> 00:09:24.010 align:start position:0%
+randomly distributed values<c.colorE5E5E5> the unit
+recording<00:09:21.800><c> is</c><00:09:22.150><c> is</c><00:09:23.150><c> a</c><00:09:23.210><c> variable</c><00:09:23.660><c> ends</c><00:09:23.840><c> in</c></c>
+
+00:09:24.010 --> 00:09:24.020 align:start position:0%
+recording is is a variable ends<c.colorE5E5E5> in
+ </c>
+
+00:09:24.020 --> 00:09:26.950 align:start position:0%
+recording is is a variable ends<c.colorE5E5E5> in
+common<00:09:24.290><c> method</c><00:09:24.620><c> in</c><00:09:24.830><c> this</c><00:09:24.980><c> case</c><00:09:25.960><c> integer</c></c>
+
+00:09:26.950 --> 00:09:26.960 align:start position:0%
+<c.colorE5E5E5>common method in this case integer
+ </c>
+
+00:09:26.960 --> 00:09:30.370 align:start position:0%
+<c.colorE5E5E5>common method in this case integer
+that's<00:09:27.200><c> at</c><00:09:27.860><c> least</c></c><c.colorCCCCCC><00:09:27.920><c> one</c><00:09:28.400><c> would</c><00:09:28.760><c> be</c><00:09:28.910><c> encoded</c><00:09:29.380><c> as</c></c>
+
+00:09:30.370 --> 00:09:30.380 align:start position:0%
+that's<c.colorE5E5E5> at least</c><c.colorCCCCCC> one would be encoded as
+ </c>
+
+00:09:30.380 --> 00:09:33.670 align:start position:0%
+that's<c.colorE5E5E5> at least</c><c.colorCCCCCC> one would be encoded as
+X<00:09:30.950><c> minus</c><00:09:31.490><c> 1</c><00:09:31.730><c> 1</c></c><c.colorE5E5E5><00:09:32.210><c> bits</c><00:09:32.450><c> followed</c><00:09:32.930><c> by</c><00:09:33.080><c> 0</c></c>
+
+00:09:33.670 --> 00:09:33.680 align:start position:0%
+X minus<c.colorCCCCCC> 1 1</c><c.colorE5E5E5> bits followed by 0
+ </c>
+
+00:09:33.680 --> 00:09:37.300 align:start position:0%
+X minus<c.colorCCCCCC> 1 1</c><c.colorE5E5E5> bits followed by 0
+so<00:09:34.010><c> for</c><00:09:34.190><c> example</c></c><c.colorCCCCCC><00:09:34.360><c> 3</c><00:09:35.360><c> with</c><00:09:35.630><c> being</c><00:09:35.840><c> coded</c><00:09:36.230><c> as</c><00:09:36.440><c> 2</c></c>
+
+00:09:37.300 --> 00:09:37.310 align:start position:0%
+<c.colorE5E5E5>so for example</c><c.colorCCCCCC> 3 with being coded as 2
+ </c>
+
+00:09:37.310 --> 00:09:40.300 align:start position:0%
+<c.colorE5E5E5>so for example</c><c.colorCCCCCC> 3 with being coded as 2
+ones<00:09:38.030><c> followed</c></c><c.colorE5E5E5><00:09:38.660><c> by</c><00:09:38.810><c> 0</c><00:09:39.140><c> whereas</c><00:09:39.590><c> five</c><00:09:39.860><c> would</c><00:09:40.280><c> be</c></c>
+
+00:09:40.300 --> 00:09:40.310 align:start position:0%
+<c.colorCCCCCC>ones followed</c><c.colorE5E5E5> by 0 whereas five would be
+ </c>
+
+00:09:40.310 --> 00:09:45.490 align:start position:0%
+<c.colorCCCCCC>ones followed</c><c.colorE5E5E5> by 0 whereas five would be
+encoded<00:09:40.700><c> as</c></c><c.colorCCCCCC><00:09:41.090><c> 4</c><00:09:41.750><c> ones</c><00:09:42.500><c> for</c><00:09:42.950><c> by</c><00:09:43.220><c> 0</c><00:09:43.550><c> etc</c></c><c.colorE5E5E5><00:09:44.260><c> so</c><00:09:45.260><c> now</c></c>
+
+00:09:45.490 --> 00:09:45.500 align:start position:0%
+encoded as<c.colorCCCCCC> 4 ones for by 0 etc</c><c.colorE5E5E5> so now
+ </c>
+
+00:09:45.500 --> 00:09:48.700 align:start position:0%
+encoded as<c.colorCCCCCC> 4 ones for by 0 etc</c><c.colorE5E5E5> so now
+you<00:09:45.800><c> can</c><00:09:46.070><c> imagine</c></c><c.colorCCCCCC><00:09:46.540><c> how</c><00:09:47.540><c> many</c></c><c.colorE5E5E5><00:09:47.600><c> bits</c><00:09:47.960><c> do</c><00:09:48.440><c> we</c><00:09:48.560><c> have</c></c>
+
+00:09:48.700 --> 00:09:48.710 align:start position:0%
+you can imagine<c.colorCCCCCC> how many</c><c.colorE5E5E5> bits do we have
+ </c>
+
+00:09:48.710 --> 00:09:52.480 align:start position:0%
+you can imagine<c.colorCCCCCC> how many</c><c.colorE5E5E5> bits do we have
+to<00:09:48.860><c> use</c><00:09:49.040><c> for</c><00:09:49.430><c> a</c><00:09:49.460><c> large</c><00:09:50.060><c> number</c></c><c.colorCCCCCC><00:09:50.330><c> like</c><00:09:50.660><c> 100</c></c><c.colorE5E5E5><00:09:51.490><c> so</c></c>
+
+00:09:52.480 --> 00:09:52.490 align:start position:0%
+to use for a<c.colorE5E5E5> large number</c><c.colorCCCCCC> like 100</c><c.colorE5E5E5> so
+ </c>
+
+00:09:52.490 --> 00:09:55.150 align:start position:0%
+to use for a<c.colorE5E5E5> large number</c><c.colorCCCCCC> like 100</c><c.colorE5E5E5> so
+how<00:09:52.910><c> many</c><00:09:52.970><c> bits</c><00:09:53.300><c> do</c><00:09:53.960><c> have</c><00:09:54.140><c> to</c><00:09:54.230><c> use</c><00:09:54.380><c> exactly</c><00:09:54.770><c> for</c></c>
+
+00:09:55.150 --> 00:09:55.160 align:start position:0%
+how many<c.colorE5E5E5> bits do have to use exactly for
+ </c>
+
+00:09:55.160 --> 00:10:00.910 align:start position:0%
+how many<c.colorE5E5E5> bits do have to use exactly for
+a<00:09:55.190><c> number</c><00:09:55.820><c> like</c><00:09:56.000><c> a</c><00:09:56.030><c> 100</c><00:09:57.160><c> well</c><00:09:58.690><c> exactly</c></c><c.colorCCCCCC><00:09:59.800><c> we</c><00:10:00.800><c> have</c></c>
+
+00:10:00.910 --> 00:10:00.920 align:start position:0%
+a number like<c.colorE5E5E5> a 100 well exactly</c><c.colorCCCCCC> we have
+ </c>
+
+00:10:00.920 --> 00:10:03.700 align:start position:0%
+a number like<c.colorE5E5E5> a 100 well exactly</c><c.colorCCCCCC> we have
+to<00:10:01.040><c> use</c><00:10:01.190><c> 100</c><00:10:01.730><c> bits</c><00:10:01.910><c> right</c></c><c.colorE5E5E5><00:10:02.270><c> so</c><00:10:02.810><c> it's</c><00:10:02.990><c> the</c><00:10:03.350><c> same</c></c>
+
+00:10:03.700 --> 00:10:03.710 align:start position:0%
+to use 100 bits right<c.colorE5E5E5> so it's the same
+ </c>
+
+00:10:03.710 --> 00:10:05.860 align:start position:0%
+to use 100 bits right<c.colorE5E5E5> so it's the same
+number</c><c.colorCCCCCC><00:10:04.250><c> of</c></c><c.colorE5E5E5><00:10:04.310><c> bits</c><00:10:04.520><c> as</c><00:10:04.700><c> the</c><00:10:05.090><c> value</c><00:10:05.450><c> of</c><00:10:05.660><c> this</c></c>
+
+00:10:05.860 --> 00:10:05.870 align:start position:0%
+number<c.colorCCCCCC> of</c><c.colorE5E5E5> bits as the value of this
+ </c>
+
+00:10:05.870 --> 00:10:09.070 align:start position:0%
+number<c.colorCCCCCC> of</c><c.colorE5E5E5> bits as the value of this
+number</c><c.colorCCCCCC><00:10:06.190><c> so</c><00:10:07.190><c> this</c><00:10:07.430><c> is</c><00:10:07.610><c> a</c><00:10:07.640><c> very</c><00:10:07.970><c> inefficient</c></c><c.colorE5E5E5><00:10:08.450><c> if</c></c>
+
+00:10:09.070 --> 00:10:09.080 align:start position:0%
+number<c.colorCCCCCC> so this is a very inefficient</c><c.colorE5E5E5> if
+ </c>
+
+00:10:09.080 --> 00:10:12.160 align:start position:0%
+number<c.colorCCCCCC> so this is a very inefficient</c><c.colorE5E5E5> if
+you<00:10:09.770><c> will</c><00:10:10.520><c> likely</c><00:10:10.820><c> see</c><00:10:11.210><c> some</c><00:10:11.240><c> large</c><00:10:11.690><c> numbers</c></c>
+
+00:10:12.160 --> 00:10:12.170 align:start position:0%
+you will likely see some large numbers
+ 
+
+00:10:12.170 --> 00:10:14.020 align:start position:0%
+you will likely see some large numbers
+<c.colorE5E5E5>imagine<00:10:12.770><c> if</c><00:10:12.830><c> you</c><00:10:12.920><c> occasionally</c><00:10:13.400><c> see</c><00:10:13.790><c> a</c><00:10:13.820><c> number</c></c>
+
+00:10:14.020 --> 00:10:14.030 align:start position:0%
+<c.colorE5E5E5>imagine if you occasionally see a number
+ </c>
+
+00:10:14.030 --> 00:10:17.680 align:start position:0%
+<c.colorE5E5E5>imagine if you occasionally see a number</c>
+<c.colorE5E5E5>like<00:10:14.180><c> 1000</c><00:10:15.080><c> you</c><00:10:15.470><c> have</c><00:10:15.590><c> to</c><00:10:15.710><c> use</c></c><c.colorCCCCCC><00:10:15.830><c> 1000</c><00:10:16.520><c> bits</c><00:10:16.730><c> so</c></c>
+
+00:10:17.680 --> 00:10:17.690 align:start position:0%
+<c.colorE5E5E5>like 1000 you have to use</c><c.colorCCCCCC> 1000 bits so
+ </c>
+
+00:10:17.690 --> 00:10:19.060 align:start position:0%
+<c.colorE5E5E5>like 1000 you have to use</c><c.colorCCCCCC> 1000 bits so
+this</c><c.colorE5E5E5><00:10:17.870><c> only</c><00:10:18.050><c> works</c><00:10:18.320><c> well</c><00:10:18.560><c> if</c><00:10:18.800><c> you</c><00:10:18.950><c> are</c></c>
+
+00:10:19.060 --> 00:10:19.070 align:start position:0%
+this<c.colorE5E5E5> only works well if you are
+ </c>
+
+00:10:19.070 --> 00:10:21.520 align:start position:0%
+this<c.colorE5E5E5> only works well if you are</c>
+<c.colorE5E5E5>absolutely<00:10:19.670><c> sure</c></c><c.colorCCCCCC><00:10:19.820><c> that</c><00:10:20.390><c> there</c><00:10:21.050><c> will</c><00:10:21.170><c> be</c><00:10:21.230><c> no</c></c>
+
+00:10:21.520 --> 00:10:21.530 align:start position:0%
+<c.colorE5E5E5>absolutely sure</c><c.colorCCCCCC> that there will be no
+ </c>
+
+00:10:21.530 --> 00:10:25.870 align:start position:0%
+<c.colorE5E5E5>absolutely sure</c><c.colorCCCCCC> that there will be no
+large<00:10:21.920><c> numbers</c><00:10:22.540><c> mostly</c><00:10:23.540><c> very</c></c><c.colorE5E5E5><00:10:23.810><c> free</c></c><c.colorCCCCCC><00:10:24.880><c> there</c></c>
+
+00:10:25.870 --> 00:10:25.880 align:start position:0%
+large numbers mostly very<c.colorE5E5E5> free</c><c.colorCCCCCC> there
+ </c>
+
+00:10:25.880 --> 00:10:28.690 align:start position:0%
+large numbers mostly very<c.colorE5E5E5> free</c><c.colorCCCCCC> there
+often<00:10:26.060><c> you</c></c><c.colorE5E5E5><00:10:26.300><c> see</c><00:10:26.450><c> very</c><00:10:26.720><c> small</c><00:10:27.050><c> numbers</c><00:10:27.550><c> now</c><00:10:28.550><c> how</c></c>
+
+00:10:28.690 --> 00:10:28.700 align:start position:0%
+often<c.colorCCCCCC> you</c><c.colorE5E5E5> see very small numbers now how
+ </c>
+
+00:10:28.700 --> 00:10:31.060 align:start position:0%
+often<c.colorCCCCCC> you</c><c.colorE5E5E5> see very small numbers now how
+do<00:10:28.760><c> you</c><00:10:28.880><c> decode</c><00:10:29.210><c> this</c><00:10:29.510><c> code</c></c><c.colorCCCCCC><00:10:29.650><c> since</c><00:10:30.650><c> these</c><00:10:30.830><c> are</c></c>
+
+00:10:31.060 --> 00:10:31.070 align:start position:0%
+do you decode this code<c.colorCCCCCC> since these are
+ </c>
+
+00:10:31.070 --> 00:10:34.240 align:start position:0%
+do you decode this code<c.colorCCCCCC> since these are
+variable<00:10:31.790><c> length</c><00:10:32.030><c> encoding</c><00:10:32.300><c> methods</c><00:10:33.080><c> and</c><00:10:33.290><c> you</c></c>
+
+00:10:34.240 --> 00:10:34.250 align:start position:0%
+variable length encoding methods and you
+ 
+
+00:10:34.250 --> 00:10:36.070 align:start position:0%
+variable length encoding methods and you
+can't<00:10:34.550><c> just</c><00:10:34.790><c> count</c><c.colorCCCCCC><00:10:35.030><c> how</c><00:10:35.330><c> many</c><00:10:35.390><c> bits</c></c><c.colorE5E5E5><00:10:35.690><c> and</c><00:10:35.930><c> then</c></c>
+
+00:10:36.070 --> 00:10:36.080 align:start position:0%
+can't just count<c.colorCCCCCC> how many bits</c><c.colorE5E5E5> and then
+ </c>
+
+00:10:36.080 --> 00:10:39.550 align:start position:0%
+can't just count<c.colorCCCCCC> how many bits</c><c.colorE5E5E5> and then
+they<00:10:36.260><c> just</c><00:10:36.440><c> stop</c><00:10:36.880><c> right</c><00:10:37.880><c> you</c><00:10:38.540><c> can</c><00:10:38.690><c> say</c><00:10:38.870><c> 8</c><00:10:39.140><c> bits</c></c>
+
+00:10:39.550 --> 00:10:39.560 align:start position:0%
+they just<c.colorE5E5E5> stop right you can say 8 bits
+ </c>
+
+00:10:39.560 --> 00:10:43.480 align:start position:0%
+they just<c.colorE5E5E5> stop right you can say 8 bits
+or<00:10:39.800><c> 32</c><00:10:39.860><c> bits</c><00:10:40.730><c> then</c><00:10:41.390><c> you</c><00:10:41.600><c> will</c><00:10:42.050><c> start</c><00:10:42.490><c> another</c></c>
+
+00:10:43.480 --> 00:10:43.490 align:start position:0%
+or 32<c.colorE5E5E5> bits then you will start another
+ </c>
+
+00:10:43.490 --> 00:10:48.250 align:start position:0%
+or 32<c.colorE5E5E5> bits then you will start another
+code<00:10:44.120><c> they</c><00:10:44.840><c> are</c><00:10:44.990><c> variable</c><00:10:45.530><c> and</c><00:10:45.710><c> so</c><00:10:47.050><c> you</c><00:10:48.050><c> have</c></c>
+
+00:10:48.250 --> 00:10:48.260 align:start position:0%
+code they are variable and so you have
+ 
+
+00:10:48.260 --> 00:10:51.250 align:start position:0%
+code they are variable and so you have
+to<00:10:48.350><c> rely</c><00:10:48.680><c> on</c><00:10:48.710><c> some</c><00:10:49.420><c> mechanism</c><c.colorE5E5E5><00:10:50.420><c> in</c><00:10:50.840><c> this</c><00:10:51.020><c> case</c></c>
+
+00:10:51.250 --> 00:10:51.260 align:start position:0%
+to rely on some mechanism<c.colorE5E5E5> in this case
+ </c>
+
+00:10:51.260 --> 00:10:53.350 align:start position:0%
+to rely on some mechanism<c.colorE5E5E5> in this case
+for<00:10:51.530><c> urinary</c><00:10:51.860><c> you</c><00:10:52.040><c> can</c><00:10:52.190><c> see</c><00:10:52.460><c> it's</c><00:10:52.760><c> very</c></c><c.colorCCCCCC><00:10:52.880><c> easy</c></c>
+
+00:10:53.350 --> 00:10:53.360 align:start position:0%
+for urinary you can see it's very<c.colorCCCCCC> easy
+ </c>
+
+00:10:53.360 --> 00:10:55.630 align:start position:0%
+for urinary you can see it's very<c.colorCCCCCC> easy
+to<00:10:53.480><c> see</c></c><c.colorE5E5E5><00:10:54.110><c> the</c><00:10:54.230><c> boundary</c><00:10:54.620><c> now</c><00:10:55.220><c> you</c><00:10:55.280><c> can</c><00:10:55.490><c> easily</c></c>
+
+00:10:55.630 --> 00:10:55.640 align:start position:0%
+to see<c.colorE5E5E5> the boundary now you can easily
+ </c>
+
+00:10:55.640 --> 00:10:58.540 align:start position:0%
+to see<c.colorE5E5E5> the boundary now you can easily
+see</c><c.colorCCCCCC><00:10:55.850><c> 0</c><00:10:56.450><c> would</c><00:10:56.840><c> signal</c><00:10:57.350><c> the</c><00:10:57.500><c> end</c><00:10:57.740><c> of</c><00:10:58.100><c> encoding</c></c>
+
+00:10:58.540 --> 00:10:58.550 align:start position:0%
+see<c.colorCCCCCC> 0 would signal the end of encoding
+ </c>
+
+00:10:58.550 --> 00:11:01.210 align:start position:0%
+see<c.colorCCCCCC> 0 would signal the end of encoding</c>
+<c.colorE5E5E5>so<00:10:59.450><c> you</c><00:10:59.630><c> just</c><00:10:59.840><c> count</c><00:11:00.110><c> how</c><00:11:00.350><c> many</c><00:11:00.410><c> ones</c><00:11:00.770><c> you</c><00:11:01.070><c> have</c></c>
+
+00:11:01.210 --> 00:11:01.220 align:start position:0%
+<c.colorE5E5E5>so you just count how many ones you have
+ </c>
+
+00:11:01.220 --> 00:11:02.370 align:start position:0%
+<c.colorE5E5E5>so you just count how many ones you have
+seen<00:11:01.490><c> and</c></c>
+
+00:11:02.370 --> 00:11:02.380 align:start position:0%
+seen and
+ 
+
+00:11:02.380 --> 00:11:04.440 align:start position:0%
+seen and
+zero<c.colorCCCCCC><00:11:03.070><c> you</c><00:11:03.340><c> know</c><00:11:03.490><c> you</c><00:11:03.550><c> have</c><00:11:03.820><c> finished</c><00:11:04.180><c> one</c></c>
+
+00:11:04.440 --> 00:11:04.450 align:start position:0%
+zero<c.colorCCCCCC> you know you have finished one
+ </c>
+
+00:11:04.450 --> 00:11:07.980 align:start position:0%
+zero<c.colorCCCCCC> you know you have finished one
+number</c><c.colorE5E5E5><00:11:05.110><c> you</c><00:11:05.740><c> will</c><00:11:05.860><c> start</c><00:11:06.100><c> another</c><00:11:06.400><c> number</c><00:11:06.990><c> now</c></c>
+
+00:11:07.980 --> 00:11:07.990 align:start position:0%
+number<c.colorE5E5E5> you will start another number now
+ </c>
+
+00:11:07.990 --> 00:11:09.900 align:start position:0%
+number<c.colorE5E5E5> you will start another number now
+we<00:11:08.560><c> just</c><00:11:08.710><c> saw</c><00:11:08.980><c> that</c><00:11:09.010><c> the</c><00:11:09.310><c> you</c><00:11:09.430><c> neural</c><00:11:09.700><c> coding</c></c>
+
+00:11:09.900 --> 00:11:09.910 align:start position:0%
+we<c.colorE5E5E5> just saw that the you neural coding
+ </c>
+
+00:11:09.910 --> 00:11:14.100 align:start position:0%
+we<c.colorE5E5E5> just saw that the you neural coding
+is<00:11:10.270><c> too</c><00:11:10.510><c> aggressive</c></c><c.colorCCCCCC><00:11:10.750><c> in</c><00:11:11.850><c> rewarding</c><00:11:13.110><c> small</c></c>
+
+00:11:14.100 --> 00:11:14.110 align:start position:0%
+is too aggressive<c.colorCCCCCC> in rewarding small
+ </c>
+
+00:11:14.110 --> 00:11:17.070 align:start position:0%
+is too aggressive<c.colorCCCCCC> in rewarding small
+numbers<00:11:14.500><c> and</c></c><c.colorE5E5E5><00:11:14.740><c> if</c><00:11:15.640><c> you</c><00:11:15.820><c> occasionally</c><00:11:16.270><c> can</c><00:11:16.870><c> see</c></c>
+
+00:11:17.070 --> 00:11:17.080 align:start position:0%
+numbers<c.colorCCCCCC> and</c><c.colorE5E5E5> if you occasionally can see
+ </c>
+
+00:11:17.080 --> 00:11:19.860 align:start position:0%
+numbers<c.colorCCCCCC> and</c><c.colorE5E5E5> if you occasionally can see
+a<00:11:17.110><c> very</c><00:11:17.650><c> big</c><00:11:17.890><c> number</c></c><c.colorCCCCCC><00:11:18.070><c> you</c><00:11:18.490><c> will</c><00:11:18.850><c> be</c><00:11:18.940><c> a</c><00:11:19.000><c> disaster</c></c>
+
+00:11:19.860 --> 00:11:19.870 align:start position:0%
+a very big number<c.colorCCCCCC> you will be a disaster
+ </c>
+
+00:11:19.870 --> 00:11:23.570 align:start position:0%
+a very big number<c.colorCCCCCC> you will be a disaster
+so<00:11:20.560><c> what</c><00:11:20.860><c> about</c><00:11:20.980><c> some</c><00:11:21.400><c> other</c><00:11:21.580><c> less</c><00:11:22.510><c> aggressive</c></c>
+
+00:11:23.570 --> 00:11:23.580 align:start position:0%
+so what about some other less aggressive
+ 
+
+00:11:23.580 --> 00:11:26.850 align:start position:0%
+so what about some other less aggressive
+method<00:11:24.610><c> well</c><c.colorCCCCCC><00:11:25.030><c> gamma</c><00:11:25.690><c> coding</c><00:11:26.050><c> is</c><00:11:26.170><c> one</c><00:11:26.350><c> of</c><00:11:26.500><c> them</c></c>
+
+00:11:26.850 --> 00:11:26.860 align:start position:0%
+method well<c.colorCCCCCC> gamma coding is one of them
+ </c>
+
+00:11:26.860 --> 00:11:30.660 align:start position:0%
+method well<c.colorCCCCCC> gamma coding is one of them
+and<00:11:27.120><c> in</c><00:11:28.120><c> this</c><00:11:28.300><c> method</c><00:11:28.720><c> we're</c><00:11:29.620><c> going</c><00:11:29.650><c> to</c><00:11:29.890><c> use</c></c>
+
+00:11:30.660 --> 00:11:30.670 align:start position:0%
+and in this method we're going to<c.colorCCCCCC> use
+ </c>
+
+00:11:30.670 --> 00:11:35.400 align:start position:0%
+and in this method we're going to<c.colorCCCCCC> use
+unary<00:11:31.330><c> coding</c><00:11:31.890><c> for</c><00:11:32.890><c> a</c><00:11:33.780><c> transform</c><00:11:34.780><c> the</c><00:11:34.990><c> form</c><00:11:35.200><c> of</c></c>
+
+00:11:35.400 --> 00:11:35.410 align:start position:0%
+unary coding for a transform the form of
+ 
+
+00:11:35.410 --> 00:11:39.420 align:start position:0%
+unary coding for a transform the form of
+the<00:11:35.650><c> value</c><c.colorE5E5E5><00:11:36.450><c> so</c><00:11:37.450><c> it's</c></c><c.colorCCCCCC><00:11:37.660><c> 1</c><00:11:37.960><c> plus</c><00:11:38.290><c> the</c><00:11:38.560><c> flow</c><00:11:38.830><c> of</c><00:11:39.160><c> log</c></c>
+
+00:11:39.420 --> 00:11:39.430 align:start position:0%
+the value<c.colorE5E5E5> so it's</c><c.colorCCCCCC> 1 plus the flow of log
+ </c>
+
+00:11:39.430 --> 00:11:43.490 align:start position:0%
+the value<c.colorE5E5E5> so it's</c><c.colorCCCCCC> 1 plus the flow of log
+of<00:11:39.730><c> X</c><00:11:40.030><c> so</c><00:11:40.560><c> the</c><00:11:41.560><c> magnitude</c><00:11:42.070><c> of</c><00:11:42.130><c> this</c><00:11:42.430><c> value</c><00:11:43.120><c> is</c></c>
+
+00:11:43.490 --> 00:11:43.500 align:start position:0%
+of X so<c.colorCCCCCC> the magnitude of this value is
+ </c>
+
+00:11:43.500 --> 00:11:48.420 align:start position:0%
+of X so<c.colorCCCCCC> the magnitude of this value is
+much<00:11:44.500><c> lower</c><00:11:44.770><c> than</c></c><c.colorE5E5E5><00:11:44.980><c> the</c><00:11:45.370><c> original</c></c><c.colorCCCCCC><00:11:45.660><c> X</c><00:11:47.070><c> so</c><00:11:48.070><c> that's</c></c>
+
+00:11:48.420 --> 00:11:48.430 align:start position:0%
+much lower than<c.colorE5E5E5> the original</c><c.colorCCCCCC> X so that's
+ </c>
+
+00:11:48.430 --> 00:11:51.840 align:start position:0%
+much lower than<c.colorE5E5E5> the original</c><c.colorCCCCCC> X so that's</c>
+<c.colorE5E5E5>why<00:11:48.760><c> we</c><00:11:49.720><c> can</c><00:11:50.020><c> afford</c><00:11:50.260><c> using</c><00:11:50.890><c> unary</c><00:11:51.190><c> code</c><00:11:51.520><c> for</c></c>
+
+00:11:51.840 --> 00:11:51.850 align:start position:0%
+<c.colorE5E5E5>why we can afford using unary code for
+ </c>
+
+00:11:51.850 --> 00:11:55.620 align:start position:0%
+<c.colorE5E5E5>why we can afford using unary code for</c>
+<c.colorCCCCCC>that<00:11:52.050><c> so</c><00:11:53.050><c> and</c><00:11:53.680><c> so</c><00:11:53.740><c> we'll</c><00:11:54.640><c> firstly</c><00:11:55.420><c> have</c><00:11:55.510><c> the</c></c>
+
+00:11:55.620 --> 00:11:55.630 align:start position:0%
+<c.colorCCCCCC>that so and so we'll firstly have the
+ </c>
+
+00:11:55.630 --> 00:11:58.290 align:start position:0%
+<c.colorCCCCCC>that so and so we'll firstly have the
+unary<00:11:55.960><c> code</c><00:11:56.170><c> for</c><00:11:56.500><c> calling</c><00:11:57.130><c> this</c><00:11:57.280><c> log</c><00:11:57.700><c> of</c><00:11:57.880><c> X</c><00:11:58.090><c> and</c></c>
+
+00:11:58.290 --> 00:11:58.300 align:start position:0%
+unary code for calling this log of X and
+ 
+
+00:11:58.300 --> 00:12:01.050 align:start position:0%
+unary code for calling this log of X and
+this<00:11:59.110><c> will</c><00:11:59.260><c> be</c><c.colorE5E5E5><00:11:59.440><c> followed</c><00:11:59.860><c> by</c><00:11:59.980><c> a</c><00:12:00.100><c> uniform</c><00:12:00.820><c> code</c></c>
+
+00:12:01.050 --> 00:12:01.060 align:start position:0%
+this will be<c.colorE5E5E5> followed by a uniform code
+ </c>
+
+00:12:01.060 --> 00:12:03.210 align:start position:0%
+this will be<c.colorE5E5E5> followed by a uniform code
+or</c><c.colorCCCCCC><00:12:01.300><c> binary</c><00:12:01.840><c> code</c><00:12:02.080><c> and</c></c><c.colorE5E5E5><00:12:02.350><c> it's</c><00:12:02.680><c> basically</c><00:12:03.070><c> the</c></c>
+
+00:12:03.210 --> 00:12:03.220 align:start position:0%
+or<c.colorCCCCCC> binary code and</c><c.colorE5E5E5> it's basically the
+ </c>
+
+00:12:03.220 --> 00:12:06.990 align:start position:0%
+or<c.colorCCCCCC> binary code and</c><c.colorE5E5E5> it's basically the</c>
+<c.colorE5E5E5>same<00:12:03.840><c> uniform</c><00:12:04.840><c> code</c><00:12:05.110><c> and</c></c><c.colorCCCCCC><00:12:05.380><c> bonny</c></c><c.colorE5E5E5><00:12:06.130><c> binary</c><00:12:06.790><c> code</c></c>
+
+00:12:06.990 --> 00:12:07.000 align:start position:0%
+<c.colorE5E5E5>same uniform code and</c><c.colorCCCCCC> bonny</c><c.colorE5E5E5> binary code
+ </c>
+
+00:12:07.000 --> 00:12:10.710 align:start position:0%
+<c.colorE5E5E5>same uniform code and</c><c.colorCCCCCC> bonny</c><c.colorE5E5E5> binary code
+are<00:12:07.300><c> the</c><00:12:07.690><c> same</c><00:12:07.900><c> and</c><00:12:08.170><c> we're</c></c><c.colorCCCCCC><00:12:09.100><c> gonna</c><00:12:09.220><c> use</c><00:12:10.150><c> this</c></c>
+
+00:12:10.710 --> 00:12:10.720 align:start position:0%
+are the same and we're<c.colorCCCCCC> gonna use this
+ </c>
+
+00:12:10.720 --> 00:12:14.100 align:start position:0%
+are the same and we're<c.colorCCCCCC> gonna use this
+code<00:12:11.080><c> to</c><00:12:11.410><c> code</c><00:12:12.130><c> the</c><00:12:12.460><c> remaining</c><00:12:13.150><c> part</c><00:12:13.390><c> of</c><00:12:13.660><c> the</c></c>
+
+00:12:14.100 --> 00:12:14.110 align:start position:0%
+code<c.colorCCCCCC> to code the remaining part of the
+ </c>
+
+00:12:14.110 --> 00:12:18.000 align:start position:0%
+code<c.colorCCCCCC> to code the remaining part of the
+value<00:12:14.320><c> of</c></c><c.colorE5E5E5><00:12:14.470><c> x</c><00:12:14.830><c> and</c><00:12:15.540><c> this</c><00:12:16.540><c> is</c><00:12:16.870><c> basically</c><00:12:17.380><c> precise</c></c>
+
+00:12:18.000 --> 00:12:18.010 align:start position:0%
+value<c.colorCCCCCC> of</c><c.colorE5E5E5> x and this is basically precise
+ </c>
+
+00:12:18.010 --> 00:12:24.410 align:start position:0%
+value<c.colorCCCCCC> of</c><c.colorE5E5E5> x and this is basically precise</c>
+<c.colorCCCCCC>X<00:12:18.310><c> minus</c><00:12:18.880><c> 1/2</c></c><c.colorE5E5E5><00:12:19.450><c> to</c></c><c.colorCCCCCC><00:12:19.960><c> the</c><00:12:20.080><c> floor</c><00:12:20.350><c> of</c><00:12:20.590><c> log</c><00:12:21.100><c> of</c></c><c.colorE5E5E5><00:12:21.340><c> X</c><00:12:21.640><c> so</c></c>
+
+00:12:24.410 --> 00:12:24.420 align:start position:0%
+ 
+ 
+
+00:12:24.420 --> 00:12:27.570 align:start position:0%
+ 
+<c.colorCCCCCC>the<00:12:25.420><c> unary</c><00:12:25.690><c> code</c><00:12:26.050><c> basically</c><00:12:26.560><c> coded</c></c><c.colorE5E5E5><00:12:27.100><c> the</c><00:12:27.190><c> flow</c></c>
+
+00:12:27.570 --> 00:12:27.580 align:start position:0%
+<c.colorCCCCCC>the unary code basically coded</c><c.colorE5E5E5> the flow
+ </c>
+
+00:12:27.580 --> 00:12:32.930 align:start position:0%
+<c.colorCCCCCC>the unary code basically coded</c><c.colorE5E5E5> the flow
+of<00:12:27.610><c> log</c><00:12:28.180><c> of</c><00:12:28.390><c> X</c><00:12:28.630><c> well</c><00:12:29.200><c> add</c></c><c.colorCCCCCC><00:12:29.500><c> one</c><00:12:30.340><c> there</c><00:12:30.610><c> and</c><00:12:31.480><c> here</c></c>
+
+00:12:32.930 --> 00:12:32.940 align:start position:0%
+of log of X well add<c.colorCCCCCC> one there and here
+ </c>
+
+00:12:32.940 --> 00:12:37.920 align:start position:0%
+of log of X well add<c.colorCCCCCC> one there and here
+but<00:12:34.320><c> the</c><00:12:35.430><c> remaining</c></c><c.colorE5E5E5><00:12:36.430><c> part</c><00:12:36.730><c> will</c><00:12:36.820><c> be</c><00:12:37.570><c> using</c></c>
+
+00:12:37.920 --> 00:12:37.930 align:start position:0%
+but the remaining<c.colorE5E5E5> part will be using
+ </c>
+
+00:12:37.930 --> 00:12:40.110 align:start position:0%
+but the remaining<c.colorE5E5E5> part will be using
+uniform</c><c.colorCCCCCC><00:12:38.260><c> color</c><00:12:38.680><c> to</c><00:12:38.980><c> have</c></c><c.colorE5E5E5><00:12:39.430><c> to</c><00:12:39.670><c> recode</c><00:12:40.090><c> the</c></c>
+
+00:12:40.110 --> 00:12:40.120 align:start position:0%
+uniform<c.colorCCCCCC> color to have</c><c.colorE5E5E5> to recode the
+ </c>
+
+00:12:40.120 --> 00:12:44.480 align:start position:0%
+uniform<c.colorCCCCCC> color to have</c><c.colorE5E5E5> to recode the</c>
+<c.colorE5E5E5>difference<00:12:40.990><c> between</c><00:12:41.380><c> the</c><00:12:41.530><c> acts</c><00:12:41.710><c> and</c><00:12:42.130><c> and</c><00:12:42.580><c> this</c></c>
+
+00:12:44.480 --> 00:12:44.490 align:start position:0%
+<c.colorE5E5E5>difference between the acts and and this
+ </c>
+
+00:12:44.490 --> 00:12:51.420 align:start position:0%
+<c.colorE5E5E5>difference between the acts and and this</c>
+<c.colorCCCCCC>2<00:12:45.490><c> to</c><00:12:45.700><c> the</c></c><c.colorE5E5E5><00:12:45.940><c> log</c><00:12:46.120><c> of</c><00:12:46.150><c> X</c></c><c.colorCCCCCC><00:12:47.100><c> and</c><00:12:49.080><c> it's</c><00:12:50.080><c> easy</c><00:12:50.350><c> to</c><00:12:50.470><c> to</c></c>
+
+00:12:51.420 --> 00:12:51.430 align:start position:0%
+<c.colorCCCCCC>2 to the</c><c.colorE5E5E5> log of X</c><c.colorCCCCCC> and it's easy to to
+ </c>
+
+00:12:51.430 --> 00:12:55.620 align:start position:0%
+<c.colorCCCCCC>2 to the</c><c.colorE5E5E5> log of X</c><c.colorCCCCCC> and it's easy to to
+ensure<00:12:51.700><c> that</c></c><c.colorE5E5E5><00:12:51.840><c> for</c><00:12:52.840><c> this</c><00:12:53.370><c> this</c><00:12:54.370><c> value</c><00:12:54.820><c> this</c></c>
+
+00:12:55.620 --> 00:12:55.630 align:start position:0%
+<c.colorCCCCCC>ensure that</c><c.colorE5E5E5> for this this value this
+ </c>
+
+00:12:55.630 --> 00:13:00.200 align:start position:0%
+<c.colorCCCCCC>ensure that</c><c.colorE5E5E5> for this this value this
+difference</c><c.colorCCCCCC><00:12:56.110><c> we</c><00:12:56.500><c> only</c><00:12:56.710><c> need</c><00:12:57.130><c> to</c><00:12:58.030><c> use</c><00:12:58.360><c> up</c><00:12:59.170><c> to</c></c>
+
+00:13:00.200 --> 00:13:00.210 align:start position:0%
+difference<c.colorCCCCCC> we only need to use up to
+ </c>
+
+00:13:00.210 --> 00:13:04.320 align:start position:0%
+difference<c.colorCCCCCC> we only need to use up to
+this<00:13:01.210><c> many</c><00:13:01.570><c> bits</c><00:13:01.840><c> and</c><00:13:02.110><c> the</c><00:13:02.290><c> floor</c><00:13:02.830><c> of</c><00:13:03.070><c> log</c><00:13:03.850><c> of</c><00:13:04.090><c> X</c></c>
+
+00:13:04.320 --> 00:13:04.330 align:start position:0%
+this many bits and the floor of log of X
+ 
+
+00:13:04.330 --> 00:13:08.460 align:start position:0%
+this many bits and the floor of log of X
+<c.colorE5E5E5>bits<00:13:05.140><c> and</c><00:13:06.210><c> this</c><00:13:07.210><c> is</c></c><c.colorCCCCCC><00:13:07.270><c> easy</c><00:13:07.600><c> to</c><00:13:07.750><c> understand</c></c><c.colorE5E5E5><00:13:08.230><c> if</c></c>
+
+00:13:08.460 --> 00:13:08.470 align:start position:0%
+<c.colorE5E5E5>bits and this is</c><c.colorCCCCCC> easy to understand</c><c.colorE5E5E5> if
+ </c>
+
+00:13:08.470 --> 00:13:10.080 align:start position:0%
+<c.colorE5E5E5>bits and this is</c><c.colorCCCCCC> easy to understand</c><c.colorE5E5E5> if
+the<00:13:08.620><c> difference</c><00:13:08.950><c> is</c><00:13:09.070><c> too</c><00:13:09.280><c> large</c><00:13:09.520><c> then</c></c><c.colorCCCCCC><00:13:09.880><c> would</c></c>
+
+00:13:10.080 --> 00:13:10.090 align:start position:0%
+the difference is too large then<c.colorCCCCCC> would
+ </c>
+
+00:13:10.090 --> 00:13:14.610 align:start position:0%
+the difference is too large then<c.colorCCCCCC> would</c>
+<c.colorE5E5E5>have<00:13:10.390><c> a</c><00:13:10.450><c> higher</c><00:13:10.839><c> flow</c><00:13:11.800><c> of</c><00:13:11.950><c> log</c><00:13:12.220><c> of</c><00:13:12.430><c> X</c><00:13:12.730><c> so</c></c><c.colorCCCCCC><00:13:13.620><c> here</c></c>
+
+00:13:14.610 --> 00:13:14.620 align:start position:0%
+<c.colorE5E5E5>have a higher flow of log of X so</c><c.colorCCCCCC> here
+ </c>
+
+00:13:14.620 --> 00:13:15.430 align:start position:0%
+<c.colorE5E5E5>have a higher flow of log of X so</c><c.colorCCCCCC> here
+are<00:13:14.710><c> some</c></c><c.colorE5E5E5><00:13:14.800><c> examples</c></c>
+
+00:13:15.430 --> 00:13:15.440 align:start position:0%
+are some<c.colorE5E5E5> examples
+ </c>
+
+00:13:15.440 --> 00:13:19.060 align:start position:0%
+are some<c.colorE5E5E5> examples
+for<00:13:15.560><c> example</c></c><c.colorCCCCCC><00:13:15.890><c> three</c><00:13:16.160><c> is</c><00:13:16.490><c> encoded</c><00:13:17.150><c> as</c><00:13:17.210><c> 101</c><00:13:18.070><c> the</c></c>
+
+00:13:19.060 --> 00:13:19.070 align:start position:0%
+for example<c.colorCCCCCC> three is encoded as 101 the
+ </c>
+
+00:13:19.070 --> 00:13:21.520 align:start position:0%
+for example<c.colorCCCCCC> three is encoded as 101 the
+first<00:13:19.100><c> two</c><00:13:19.670><c> digits</c></c><c.colorE5E5E5><00:13:20.090><c> are</c><00:13:20.570><c> the</c><00:13:20.900><c> unary</c><00:13:21.200><c> code</c></c>
+
+00:13:21.520 --> 00:13:21.530 align:start position:0%
+first<c.colorCCCCCC> two digits</c><c.colorE5E5E5> are the unary code
+ </c>
+
+00:13:21.530 --> 00:13:27.220 align:start position:0%
+first<c.colorCCCCCC> two digits</c><c.colorE5E5E5> are the unary code</c>
+<c.colorCCCCCC>right<00:13:22.490><c> so</c></c><c.colorE5E5E5><00:13:22.790><c> this</c></c><c.colorCCCCCC><00:13:23.030><c> is</c><00:13:23.210><c> for</c><00:13:23.540><c> the</c></c><c.colorE5E5E5><00:13:24.260><c> value</c></c><c.colorCCCCCC><00:13:24.650><c> two</c><00:13:26.230><c> one</c></c>
+
+00:13:27.220 --> 00:13:27.230 align:start position:0%
+<c.colorCCCCCC>right so</c><c.colorE5E5E5> this</c><c.colorCCCCCC> is for the</c><c.colorE5E5E5> value</c><c.colorCCCCCC> two one
+ </c>
+
+00:13:27.230 --> 00:13:33.010 align:start position:0%
+<c.colorCCCCCC>right so</c><c.colorE5E5E5> this</c><c.colorCCCCCC> is for the</c><c.colorE5E5E5> value</c><c.colorCCCCCC> two one
+zero<00:13:27.460><c> encodes</c></c><c.colorE5E5E5><00:13:28.600><c> two</c><00:13:29.600><c> in</c><00:13:29.900><c> unary</c><00:13:30.440><c> coding</c><00:13:31.010><c> and</c><00:13:32.020><c> so</c></c>
+
+00:13:33.010 --> 00:13:33.020 align:start position:0%
+<c.colorCCCCCC>zero encodes</c><c.colorE5E5E5> two in unary coding and so
+ </c>
+
+00:13:33.020 --> 00:13:37.870 align:start position:0%
+<c.colorCCCCCC>zero encodes</c><c.colorE5E5E5> two in unary coding and so
+that<00:13:33.410><c> means</c><00:13:33.670><c> log</c><00:13:34.670><c> of</c><00:13:34.970><c> X</c><00:13:35.900><c> the</c><00:13:36.590><c> flow</c></c><c.colorCCCCCC><00:13:36.800><c> of</c><00:13:36.950><c> log</c></c><c.colorE5E5E5><00:13:37.160><c> of</c><00:13:37.490><c> X</c></c>
+
+00:13:37.870 --> 00:13:37.880 align:start position:0%
+that means log of<c.colorE5E5E5> X the flow</c><c.colorCCCCCC> of log</c><c.colorE5E5E5> of X
+ </c>
+
+00:13:37.880 --> 00:13:40.840 align:start position:0%
+that means log of<c.colorE5E5E5> X the flow</c><c.colorCCCCCC> of log</c><c.colorE5E5E5> of X</c>
+<c.colorCCCCCC>is<00:13:38.690><c> one</c></c><c.colorE5E5E5><00:13:39.080><c> because</c><00:13:39.890><c> we</c><00:13:40.130><c> want</c></c><c.colorCCCCCC><00:13:40.280><c> actually</c><00:13:40.490><c> use</c></c>
+
+00:13:40.840 --> 00:13:40.850 align:start position:0%
+<c.colorCCCCCC>is one</c><c.colorE5E5E5> because we want</c><c.colorCCCCCC> actually use
+ </c>
+
+00:13:40.850 --> 00:13:44.050 align:start position:0%
+<c.colorCCCCCC>is one</c><c.colorE5E5E5> because we want</c><c.colorCCCCCC> actually use
+unary<00:13:41.270><c> code</c><00:13:41.630><c> to</c><00:13:41.930><c> encode</c></c><c.colorE5E5E5><00:13:42.680><c> one</c><00:13:43.190><c> plus</c><00:13:43.520><c> the</c><00:13:43.820><c> flow</c></c>
+
+00:13:44.050 --> 00:13:44.060 align:start position:0%
+unary code to encode<c.colorE5E5E5> one plus the flow
+ </c>
+
+00:13:44.060 --> 00:13:47.050 align:start position:0%
+unary code to encode<c.colorE5E5E5> one plus the flow
+of<00:13:44.090><c> log</c><00:13:44.450><c> of</c></c><c.colorCCCCCC><00:13:44.510><c> X</c><00:13:44.900><c> since</c><00:13:45.830><c> this</c><00:13:46.130><c> is</c><00:13:46.310><c> two</c><00:13:46.580><c> then</c><00:13:46.880><c> we</c></c>
+
+00:13:47.050 --> 00:13:47.060 align:start position:0%
+of<c.colorE5E5E5> log of</c><c.colorCCCCCC> X since this is two then we
+ </c>
+
+00:13:47.060 --> 00:13:48.880 align:start position:0%
+of<c.colorE5E5E5> log of</c><c.colorCCCCCC> X since this is two then we
+know<00:13:47.210><c> that</c><00:13:47.420><c> the</c></c><c.colorE5E5E5><00:13:47.630><c> flow</c><00:13:47.870><c> of</c><00:13:47.900><c> log</c><00:13:48.230><c> of</c><00:13:48.470><c> X</c><00:13:48.650><c> is</c></c>
+
+00:13:48.880 --> 00:13:48.890 align:start position:0%
+know<c.colorCCCCCC> that the</c><c.colorE5E5E5> flow of log of X is
+ </c>
+
+00:13:48.890 --> 00:13:54.220 align:start position:0%
+know<c.colorCCCCCC> that the</c><c.colorE5E5E5> flow of log of X is</c>
+<c.colorE5E5E5>actually</c><c.colorCCCCCC><00:13:49.700><c> 1</c><00:13:51.040><c> so</c><00:13:52.040><c> but</c><00:13:52.250><c> 3</c><00:13:53.060><c> is</c><00:13:53.090><c> still</c><00:13:53.750><c> larger</c><00:13:54.200><c> than</c></c>
+
+00:13:54.220 --> 00:13:54.230 align:start position:0%
+<c.colorE5E5E5>actually</c><c.colorCCCCCC> 1 so but 3 is still larger than
+ </c>
+
+00:13:54.230 --> 00:13:57.070 align:start position:0%
+<c.colorE5E5E5>actually</c><c.colorCCCCCC> 1 so but 3 is still larger than</c>
+<c.colorE5E5E5>to<00:13:54.620><c> do</c><00:13:54.740><c> the</c></c><c.colorCCCCCC><00:13:54.890><c> 1</c></c><c.colorE5E5E5><00:13:55.100><c> so</c><00:13:55.820><c> the</c><00:13:56.150><c> difference</c><00:13:56.510><c> is</c></c><c.colorCCCCCC><00:13:56.630><c> 1</c><00:13:56.840><c> and</c></c>
+
+00:13:57.070 --> 00:13:57.080 align:start position:0%
+<c.colorE5E5E5>to do the</c><c.colorCCCCCC> 1</c><c.colorE5E5E5> so the difference is</c><c.colorCCCCCC> 1 and
+ </c>
+
+00:13:57.080 --> 00:14:01.030 align:start position:0%
+<c.colorE5E5E5>to do the</c><c.colorCCCCCC> 1</c><c.colorE5E5E5> so the difference is</c><c.colorCCCCCC> 1 and
+that<00:13:57.200><c> 1</c></c><c.colorE5E5E5><00:13:57.440><c> is</c><00:13:57.650><c> encoded</c></c><c.colorCCCCCC><00:13:58.360><c> here</c><00:13:59.360><c> at</c><00:13:59.510><c> the</c><00:13:59.720><c> end</c></c><c.colorE5E5E5><00:14:00.040><c> so</c></c>
+
+00:14:01.030 --> 00:14:01.040 align:start position:0%
+that<c.colorCCCCCC> 1</c><c.colorE5E5E5> is encoded</c><c.colorCCCCCC> here at the end</c><c.colorE5E5E5> so
+ </c>
+
+00:14:01.040 --> 00:14:07.450 align:start position:0%
+that<c.colorCCCCCC> 1</c><c.colorE5E5E5> is encoded</c><c.colorCCCCCC> here at the end</c><c.colorE5E5E5> so
+that's<00:14:01.370><c> why</c><00:14:01.670><c> we</c><00:14:01.880><c> have</c><00:14:02.000><c> 101</c></c><c.colorCCCCCC><00:14:02.480><c> 4</c><00:14:03.050><c> 3</c><00:14:05.890><c> similarly</c><00:14:06.890><c> a</c><00:14:07.130><c> 5</c></c>
+
+00:14:07.450 --> 00:14:07.460 align:start position:0%
+that's why we have 101<c.colorCCCCCC> 4 3 similarly a 5
+ </c>
+
+00:14:07.460 --> 00:14:12.570 align:start position:0%
+that's why we have 101<c.colorCCCCCC> 4 3 similarly a 5
+is<00:14:07.760><c> encoded</c><00:14:08.420><c> as</c><00:14:08.630><c> 1</c><00:14:09.200><c> 1</c><00:14:09.380><c> 0</c><00:14:09.820><c> followed</c><00:14:10.820><c> by</c><00:14:10.970><c> 0</c><00:14:11.330><c> 1</c></c><c.colorE5E5E5><00:14:11.630><c> and</c></c>
+
+00:14:12.570 --> 00:14:12.580 align:start position:0%
+is encoded<c.colorCCCCCC> as 1 1 0 followed by 0 1</c><c.colorE5E5E5> and
+ </c>
+
+00:14:12.580 --> 00:14:17.230 align:start position:0%
+is encoded<c.colorCCCCCC> as 1 1 0 followed by 0 1</c><c.colorE5E5E5> and
+in<00:14:13.580><c> this</c><00:14:13.700><c> case</c><00:14:13.940><c> the</c><00:14:14.150><c> unary</c><00:14:14.510><c> code</c><00:14:15.340><c> encodes</c><00:14:16.340><c> 3</c></c>
+
+00:14:17.230 --> 00:14:17.240 align:start position:0%
+in this case the unary code encodes 3
+ 
+
+00:14:17.240 --> 00:14:23.140 align:start position:0%
+in this case the unary code encodes 3
+and<00:14:18.080><c> so</c><00:14:18.800><c> this</c><00:14:19.070><c> is</c><c.colorE5E5E5><00:14:19.250><c> a</c><00:14:19.280><c> unary</c><00:14:19.730><c> code</c><00:14:20.000><c> 1</c><00:14:20.360><c> 1</c><00:14:20.540><c> 0</c><00:14:20.810><c> and</c><00:14:22.150><c> so</c></c>
+
+00:14:23.140 --> 00:14:23.150 align:start position:0%
+and so this is<c.colorE5E5E5> a unary code 1 1 0 and so
+ </c>
+
+00:14:23.150 --> 00:14:27.630 align:start position:0%
+and so this is<c.colorE5E5E5> a unary code 1 1 0 and so
+the<00:14:23.300><c> flow</c><00:14:23.570><c> of</c><00:14:23.600><c> log</c><00:14:24.080><c> of</c></c><c.colorCCCCCC><00:14:24.140><c> X</c><00:14:24.500><c> is</c><00:14:24.740><c> 2</c><00:14:24.950><c> and</c><00:14:25.900><c> that</c><00:14:26.900><c> means</c></c>
+
+00:14:27.630 --> 00:14:27.640 align:start position:0%
+the<c.colorE5E5E5> flow of log of</c><c.colorCCCCCC> X is 2 and that means
+ </c>
+
+00:14:27.640 --> 00:14:29.590 align:start position:0%
+the<c.colorE5E5E5> flow of log of</c><c.colorCCCCCC> X is 2 and that means
+we're</c><c.colorE5E5E5><00:14:28.640><c> going</c><00:14:28.790><c> to</c><00:14:28.910><c> compute</c><00:14:29.150><c> the</c><00:14:29.300><c> difference</c></c>
+
+00:14:29.590 --> 00:14:29.600 align:start position:0%
+we're<c.colorE5E5E5> going to compute the difference
+ </c>
+
+00:14:29.600 --> 00:14:32.890 align:start position:0%
+we're<c.colorE5E5E5> going to compute the difference</c>
+<c.colorCCCCCC>between<00:14:30.020><c> 5</c></c><c.colorE5E5E5><00:14:30.290><c> &amp;</c><00:14:30.620><c> 2</c><00:14:31.250><c> to</c><00:14:31.460><c> the</c><00:14:31.490><c> 2</c><00:14:31.730><c> and</c><00:14:32.000><c> that's</c><00:14:32.300><c> 1</c><00:14:32.600><c> and</c></c>
+
+00:14:32.890 --> 00:14:32.900 align:start position:0%
+<c.colorCCCCCC>between 5</c><c.colorE5E5E5> &amp; 2 to the 2 and that's 1 and
+ </c>
+
+00:14:32.900 --> 00:14:35.890 align:start position:0%
+<c.colorCCCCCC>between 5</c><c.colorE5E5E5> &amp; 2 to the 2 and that's 1 and
+so<00:14:33.140><c> we</c><00:14:33.410><c> now</c><00:14:33.650><c> have</c><00:14:33.860><c> again</c></c><c.colorCCCCCC><00:14:34.250><c> 1</c><00:14:34.700><c> at</c><00:14:34.940><c> the</c><00:14:35.120><c> end</c></c><c.colorE5E5E5><00:14:35.210><c> but</c></c>
+
+00:14:35.890 --> 00:14:35.900 align:start position:0%
+so<c.colorE5E5E5> we now have again</c><c.colorCCCCCC> 1 at the end</c><c.colorE5E5E5> but
+ </c>
+
+00:14:35.900 --> 00:14:37.360 align:start position:0%
+so<c.colorE5E5E5> we now have again</c><c.colorCCCCCC> 1 at the end</c><c.colorE5E5E5> but
+this<00:14:36.020><c> time</c><00:14:36.290><c> we're</c><00:14:36.530><c> going</c><00:14:36.650><c> to</c><00:14:36.710><c> use</c></c><c.colorCCCCCC><00:14:36.860><c> 2</c><00:14:37.130><c> bits</c></c>
+
+00:14:37.360 --> 00:14:37.370 align:start position:0%
+this time we're<c.colorE5E5E5> going to use</c><c.colorCCCCCC> 2 bits
+ </c>
+
+00:14:37.370 --> 00:14:42.690 align:start position:0%
+this time we're<c.colorE5E5E5> going to use</c><c.colorCCCCCC> 2 bits</c>
+<c.colorE5E5E5>because<00:14:38.890><c> with</c><00:14:39.890><c> this</c><00:14:40.330><c> level</c><00:14:41.330><c> flow</c><00:14:41.810><c> of</c><00:14:41.960><c> log</c><00:14:42.170><c> of</c><00:14:42.410><c> X</c></c>
+
+00:14:42.690 --> 00:14:42.700 align:start position:0%
+<c.colorE5E5E5>because with this level flow of log of X
+ </c>
+
+00:14:42.700 --> 00:14:47.020 align:start position:0%
+<c.colorE5E5E5>because with this level flow of log of X
+we<00:14:43.700><c> could</c><00:14:43.910><c> have</c><00:14:44.120><c> more</c><00:14:44.390><c> numbers</c><00:14:44.870><c> and</c><00:14:45.110><c> 5</c><00:14:45.860><c> 6</c><00:14:46.370><c> 7</c></c>
+
+00:14:47.020 --> 00:14:47.030 align:start position:0%
+we<c.colorE5E5E5> could have more numbers and 5 6 7
+ </c>
+
+00:14:47.030 --> 00:14:49.540 align:start position:0%
+we<c.colorE5E5E5> could have more numbers and 5 6 7
+they<00:14:47.330><c> would</c><00:14:47.540><c> all</c><00:14:47.780><c> share</c><00:14:48.740><c> the</c><00:14:48.950><c> same</c><00:14:49.100><c> prefix</c></c>
+
+00:14:49.540 --> 00:14:49.550 align:start position:0%
+they would all share the same prefix
+ 
+
+00:14:49.550 --> 00:14:51.760 align:start position:0%
+they would all share the same prefix
+here<c.colorE5E5E5><00:14:49.910><c> one</c><00:14:50.270><c> more</c></c><c.colorCCCCCC><00:14:50.420><c> 0</c><00:14:50.660><c> so</c><00:14:51.230><c> in</c><00:14:51.380><c> order</c></c><c.colorE5E5E5><00:14:51.560><c> to</c></c>
+
+00:14:51.760 --> 00:14:51.770 align:start position:0%
+here<c.colorE5E5E5> one more</c><c.colorCCCCCC> 0 so in order</c><c.colorE5E5E5> to
+ </c>
+
+00:14:51.770 --> 00:14:54.040 align:start position:0%
+here<c.colorE5E5E5> one more</c><c.colorCCCCCC> 0 so in order</c><c.colorE5E5E5> to
+differentiate<00:14:52.220><c> them</c><00:14:52.670><c> we</c><00:14:53.240><c> have</c><00:14:53.420><c> to</c><00:14:53.570><c> use</c><00:14:53.750><c> two</c></c>
+
+00:14:54.040 --> 00:14:54.050 align:start position:0%
+differentiate them<c.colorE5E5E5> we have to use two
+ </c>
+
+00:14:54.050 --> 00:14:57.730 align:start position:0%
+differentiate them<c.colorE5E5E5> we have to use two
+bits<00:14:54.260><c> in</c></c><c.colorCCCCCC><00:14:54.500><c> the</c><00:14:55.370><c> end</c></c><c.colorE5E5E5><00:14:55.550><c> to</c><00:14:55.970><c> differentiate</c><00:14:56.390><c> them</c><00:14:56.740><c> so</c></c>
+
+00:14:57.730 --> 00:14:57.740 align:start position:0%
+bits in<c.colorCCCCCC> the end</c><c.colorE5E5E5> to differentiate them so
+ </c>
+
+00:14:57.740 --> 00:15:00.730 align:start position:0%
+bits in<c.colorCCCCCC> the end</c><c.colorE5E5E5> to differentiate them so
+you<00:14:57.800><c> can</c><00:14:57.950><c> imagine</c></c><c.colorCCCCCC><00:14:58.190><c> 6</c><00:14:58.580><c> would</c><00:14:58.820><c> be</c></c><c.colorE5E5E5><00:14:58.850><c> 1</c><00:14:59.570><c> 0</c><00:14:59.600><c> here</c><00:15:00.230><c> in</c></c>
+
+00:15:00.730 --> 00:15:00.740 align:start position:0%
+you can imagine<c.colorCCCCCC> 6 would be</c><c.colorE5E5E5> 1 0 here in
+ </c>
+
+00:15:00.740 --> 00:15:03.790 align:start position:0%
+you can imagine<c.colorCCCCCC> 6 would be</c><c.colorE5E5E5> 1 0 here in</c>
+<c.colorE5E5E5>the<00:15:01.100><c> end</c><00:15:01.250><c> instead</c></c><c.colorCCCCCC><00:15:01.580><c> of</c></c><c.colorE5E5E5><00:15:01.790><c> 0</c><00:15:02.150><c> 1</c><00:15:02.420><c> after</c><00:15:02.990><c> 1</c></c><c.colorCCCCCC><00:15:03.170><c> &amp;</c><00:15:03.380><c> 0</c></c>
+
+00:15:03.790 --> 00:15:03.800 align:start position:0%
+<c.colorE5E5E5>the end instead</c><c.colorCCCCCC> of</c><c.colorE5E5E5> 0 1 after 1</c><c.colorCCCCCC> &amp; 0
+ </c>
+
+00:15:03.800 --> 00:15:06.550 align:start position:0%
+<c.colorE5E5E5>the end instead</c><c.colorCCCCCC> of</c><c.colorE5E5E5> 0 1 after 1</c><c.colorCCCCCC> &amp; 0
+it's<00:15:04.730><c> also</c></c><c.colorE5E5E5><00:15:04.910><c> true</c><00:15:05.210><c> that</c><00:15:05.240><c> the</c><00:15:06.020><c> form</c><00:15:06.290><c> of</c><00:15:06.530><c> a</c></c>
+
+00:15:06.550 --> 00:15:06.560 align:start position:0%
+it's also<c.colorE5E5E5> true that the form of a
+ </c>
+
+00:15:06.560 --> 00:15:11.110 align:start position:0%
+it's also<c.colorE5E5E5> true that the form of a
+chemical<00:15:07.160><c> is</c><00:15:07.820><c> always</c><00:15:09.130><c> the</c><00:15:10.130><c> first</c><00:15:10.339><c> odd</c><00:15:10.610><c> number</c></c>
+
+00:15:11.110 --> 00:15:11.120 align:start position:0%
+chemical<c.colorE5E5E5> is always the first odd number
+ </c>
+
+00:15:11.120 --> 00:15:14.650 align:start position:0%
+chemical<c.colorE5E5E5> is always the first odd number</c>
+<c.colorCCCCCC>of<00:15:11.210><c> bits</c></c><c.colorE5E5E5><00:15:11.900><c> and</c><00:15:12.140><c> in</c><00:15:12.710><c> the</c><00:15:12.860><c> center</c><00:15:13.310><c> there</c></c><c.colorCCCCCC><00:15:14.150><c> is</c></c><c.colorE5E5E5><00:15:14.210><c> a</c><00:15:14.360><c> 0</c></c>
+
+00:15:14.650 --> 00:15:14.660 align:start position:0%
+<c.colorCCCCCC>of bits</c><c.colorE5E5E5> and in the center there</c><c.colorCCCCCC> is</c><c.colorE5E5E5> a 0
+ </c>
+
+00:15:14.660 --> 00:15:18.579 align:start position:0%
+<c.colorCCCCCC>of bits</c><c.colorE5E5E5> and in the center there</c><c.colorCCCCCC> is</c><c.colorE5E5E5> a 0</c>
+<c.colorCCCCCC>that's<00:15:15.230><c> the</c><00:15:15.560><c> end</c><00:15:16.070><c> of</c><00:15:16.430><c> the</c><00:15:16.610><c> unary</c><00:15:16.970><c> code</c></c><c.colorE5E5E5><00:15:17.589><c> before</c></c>
+
+00:15:18.579 --> 00:15:18.589 align:start position:0%
+<c.colorCCCCCC>that's the end of the unary code</c><c.colorE5E5E5> before
+ </c>
+
+00:15:18.589 --> 00:15:22.720 align:start position:0%
+<c.colorCCCCCC>that's the end of the unary code</c><c.colorE5E5E5> before</c>
+<c.colorCCCCCC>that<00:15:19.190><c> old</c></c><c.colorE5E5E5><00:15:19.630><c> on</c><00:15:20.630><c> the</c><00:15:20.750><c> left</c><00:15:20.930><c> side</c><00:15:21.230><c> of</c><00:15:21.380><c> this</c></c><c.colorCCCCCC><00:15:21.530><c> 0</c><00:15:21.860><c> they</c></c>
+
+00:15:22.720 --> 00:15:22.730 align:start position:0%
+<c.colorCCCCCC>that old</c><c.colorE5E5E5> on the left side of this</c><c.colorCCCCCC> 0 they
+ </c>
+
+00:15:22.730 --> 00:15:25.450 align:start position:0%
+<c.colorCCCCCC>that old</c><c.colorE5E5E5> on the left side of this</c><c.colorCCCCCC> 0 they
+will<00:15:22.850><c> be</c><00:15:22.970><c> all</c><00:15:23.150><c> ones</c></c><c.colorE5E5E5><00:15:23.450><c> and</c><00:15:23.810><c> on</c><00:15:24.770><c> the</c><00:15:25.010><c> right</c><00:15:25.190><c> side</c></c>
+
+00:15:25.450 --> 00:15:25.460 align:start position:0%
+will be all ones<c.colorE5E5E5> and on the right side
+ </c>
+
+00:15:25.460 --> 00:15:28.870 align:start position:0%
+will be all ones<c.colorE5E5E5> and on the right side
+of</c><c.colorCCCCCC><00:15:25.940><c> this</c><00:15:26.150><c> 0</c><00:15:26.740><c> it's</c><00:15:27.740><c> binary</c></c><c.colorE5E5E5><00:15:28.220><c> coding</c></c>
+
+00:15:28.870 --> 00:15:28.880 align:start position:0%
+<c.colorE5E5E5>of</c><c.colorCCCCCC> this 0 it's binary</c><c.colorE5E5E5> coding
+ </c>
+
+00:15:28.880 --> 00:15:33.400 align:start position:0%
+<c.colorE5E5E5>of</c><c.colorCCCCCC> this 0 it's binary</c><c.colorE5E5E5> coding
+you<00:15:29.029><c> know</c><00:15:29.149><c> uniform</c></c><c.colorCCCCCC><00:15:29.839><c> code</c><00:15:31.630><c> so</c><00:15:32.630><c> how</c><00:15:33.110><c> can</c></c><c.colorE5E5E5><00:15:33.170><c> you</c></c>
+
+00:15:33.400 --> 00:15:33.410 align:start position:0%
+you know<c.colorE5E5E5> uniform</c><c.colorCCCCCC> code so how can</c><c.colorE5E5E5> you
+ </c>
+
+00:15:33.410 --> 00:15:38.259 align:start position:0%
+you know<c.colorE5E5E5> uniform</c><c.colorCCCCCC> code so how can</c><c.colorE5E5E5> you
+decode<00:15:33.769><c> such</c><00:15:34.730><c> a</c><00:15:34.759><c> code</c><00:15:35.720><c> well</c><00:15:36.649><c> you</c><00:15:37.639><c> again</c><00:15:37.940><c> first</c></c>
+
+00:15:38.259 --> 00:15:38.269 align:start position:0%
+decode<c.colorE5E5E5> such a code well you again first
+ </c>
+
+00:15:38.269 --> 00:15:39.699 align:start position:0%
+decode<c.colorE5E5E5> such a code well you again first</c>
+<c.colorE5E5E5>to<00:15:38.420><c> do</c></c><c.colorCCCCCC><00:15:38.540><c> union</c></c><c.colorE5E5E5><00:15:38.870><c> coding</c><00:15:39.290><c> right</c></c>
+
+00:15:39.699 --> 00:15:39.709 align:start position:0%
+<c.colorE5E5E5>to do</c><c.colorCCCCCC> union</c><c.colorE5E5E5> coding right
+ </c>
+
+00:15:39.709 --> 00:15:41.920 align:start position:0%
+<c.colorE5E5E5>to do</c><c.colorCCCCCC> union</c><c.colorE5E5E5> coding right
+once<00:15:40.069><c> you</c><00:15:40.250><c> hit</c></c><c.colorCCCCCC><00:15:40.399><c> zero</c><00:15:40.819><c> you</c><00:15:41.089><c> know</c><00:15:41.269><c> you</c><00:15:41.329><c> have</c><00:15:41.600><c> got</c></c>
+
+00:15:41.920 --> 00:15:41.930 align:start position:0%
+once you hit<c.colorCCCCCC> zero you know you have got
+ </c>
+
+00:15:41.930 --> 00:15:45.189 align:start position:0%
+once you hit<c.colorCCCCCC> zero you know you have got
+a<00:15:42.290><c> unary</c><00:15:42.589><c> code</c><00:15:42.860><c> and</c><00:15:43.220><c> this</c><00:15:44.120><c> also</c></c><c.colorE5E5E5><00:15:44.389><c> tell</c><00:15:44.899><c> you</c><00:15:45.050><c> how</c></c>
+
+00:15:45.189 --> 00:15:45.199 align:start position:0%
+<c.colorCCCCCC>a unary code and this also</c><c.colorE5E5E5> tell you how
+ </c>
+
+00:15:45.199 --> 00:15:46.600 align:start position:0%
+<c.colorCCCCCC>a unary code and this also</c><c.colorE5E5E5> tell you how</c>
+<c.colorCCCCCC>many<00:15:45.380><c> bits</c><00:15:45.589><c> you</c><00:15:45.709><c> have</c></c><c.colorE5E5E5><00:15:45.829><c> to</c><00:15:46.040><c> read</c><00:15:46.220><c> the</c><00:15:46.370><c> further</c></c>
+
+00:15:46.600 --> 00:15:46.610 align:start position:0%
+<c.colorCCCCCC>many bits you have</c><c.colorE5E5E5> to read the further
+ </c>
+
+00:15:46.610 --> 00:15:51.280 align:start position:0%
+<c.colorCCCCCC>many bits you have</c><c.colorE5E5E5> to read the further
+to</c><c.colorCCCCCC><00:15:46.940><c> decode</c><00:15:47.810><c> the</c><00:15:48.050><c> uniform</c><00:15:48.560><c> code</c><00:15:49.690><c> so</c><00:15:50.690><c> this</c><00:15:51.050><c> is</c></c>
+
+00:15:51.280 --> 00:15:51.290 align:start position:0%
+to<c.colorCCCCCC> decode the uniform code so this is
+ </c>
+
+00:15:51.290 --> 00:15:54.129 align:start position:0%
+to<c.colorCCCCCC> decode the uniform code so this is
+how<00:15:51.709><c> you</c><00:15:51.769><c> can</c><00:15:52.069><c> decode</c><00:15:52.610><c> a</c></c><c.colorE5E5E5><00:15:52.670><c> chemical</c><00:15:53.240><c> there</c></c><c.colorCCCCCC><00:15:54.019><c> is</c></c>
+
+00:15:54.129 --> 00:15:54.139 align:start position:0%
+how you can decode<c.colorCCCCCC> a</c><c.colorE5E5E5> chemical there</c><c.colorCCCCCC> is
+ </c>
+
+00:15:54.139 --> 00:15:55.900 align:start position:0%
+how you can decode<c.colorCCCCCC> a</c><c.colorE5E5E5> chemical there</c><c.colorCCCCCC> is
+also<00:15:54.290><c> teller</c><00:15:54.649><c> code</c><00:15:55.009><c> that's</c><00:15:55.399><c> basically</c><00:15:55.759><c> the</c></c>
+
+00:15:55.900 --> 00:15:55.910 align:start position:0%
+also<c.colorCCCCCC> teller code that's basically the
+ </c>
+
+00:15:55.910 --> 00:15:58.180 align:start position:0%
+also<c.colorCCCCCC> teller code that's basically the
+same<00:15:56.120><c> as</c><00:15:56.420><c> a</c><00:15:56.449><c> gamma</c><00:15:56.720><c> code</c><00:15:57.019><c> except</c><00:15:57.470><c> that</c><00:15:57.649><c> you</c></c>
+
+00:15:58.180 --> 00:15:58.190 align:start position:0%
+same as a gamma code except that you
+ 
+
+00:15:58.190 --> 00:16:00.550 align:start position:0%
+same as a gamma code except that you
+replace<00:15:58.610><c> the</c><c.colorE5E5E5><00:15:58.819><c> unit</c><00:15:59.300><c> prefix</c><00:15:59.630><c> with</c><00:16:00.440><c> the</c></c>
+
+00:16:00.550 --> 00:16:00.560 align:start position:0%
+replace the<c.colorE5E5E5> unit prefix with the
+ </c>
+
+00:16:00.560 --> 00:16:02.230 align:start position:0%
+replace the<c.colorE5E5E5> unit prefix with the
+chemical<00:16:01.160><c> so</c><00:16:01.490><c> that's</c><00:16:01.699><c> even</c><00:16:01.970><c> less</c></c>
+
+00:16:02.230 --> 00:16:02.240 align:start position:0%
+chemical<c.colorE5E5E5> so that's even less
+ </c>
+
+00:16:02.240 --> 00:16:05.530 align:start position:0%
+chemical<c.colorE5E5E5> so that's even less
+conservative<00:16:02.870><c> tank</c></c><c.colorCCCCCC><00:16:03.470><c> armor</c><00:16:03.860><c> code</c><00:16:04.100><c> in</c><00:16:04.880><c> terms</c></c><c.colorE5E5E5><00:16:05.209><c> of</c></c>
+
+00:16:05.530 --> 00:16:05.540 align:start position:0%
+conservative<c.colorE5E5E5> tank</c><c.colorCCCCCC> armor code in terms</c><c.colorE5E5E5> of
+ </c>
+
+00:16:05.540 --> 00:16:09.100 align:start position:0%
+conservative<c.colorE5E5E5> tank</c><c.colorCCCCCC> armor code in terms</c><c.colorE5E5E5> of
+rewarding<00:16:06.529><c> the</c><00:16:06.860><c> small</c><00:16:07.819><c> integers</c></c><c.colorCCCCCC><00:16:08.269><c> so</c><00:16:08.959><c> that</c></c>
+
+00:16:09.100 --> 00:16:09.110 align:start position:0%
+rewarding<c.colorE5E5E5> the small integers</c><c.colorCCCCCC> so that
+ </c>
+
+00:16:09.110 --> 00:16:11.230 align:start position:0%
+rewarding<c.colorE5E5E5> the small integers</c><c.colorCCCCCC> so that
+means<00:16:09.350><c> it's</c><00:16:09.649><c> okay</c><00:16:10.069><c> if</c><00:16:10.279><c> you</c><00:16:10.490><c> occasionally</c><00:16:11.089><c> see</c></c>
+
+00:16:11.230 --> 00:16:11.240 align:start position:0%
+means it's<c.colorCCCCCC> okay if you occasionally see
+ </c>
+
+00:16:11.240 --> 00:16:14.139 align:start position:0%
+means it's<c.colorCCCCCC> okay if you occasionally see
+a<00:16:11.269><c> large</c></c><c.colorE5E5E5><00:16:11.540><c> number</c><00:16:11.839><c> it's</c><00:16:12.680><c> it's</c><00:16:13.279><c> you</c><00:16:13.880><c> know</c><00:16:13.940><c> it's</c></c>
+
+00:16:14.139 --> 00:16:14.149 align:start position:0%
+a large<c.colorE5E5E5> number it's it's you know it's
+ </c>
+
+00:16:14.149 --> 00:16:17.590 align:start position:0%
+a large<c.colorE5E5E5> number it's it's you know it's</c>
+<c.colorCCCCCC>ok<00:16:14.480><c> with</c><00:16:14.660><c> Darren</c><00:16:15.170><c> code</c></c><c.colorE5E5E5><00:16:15.889><c> it's</c><00:16:16.819><c> also</c><00:16:17.029><c> fine</c><00:16:17.389><c> with</c></c>
+
+00:16:17.590 --> 00:16:17.600 align:start position:0%
+<c.colorCCCCCC>ok with Darren code</c><c.colorE5E5E5> it's also fine with
+ </c>
+
+00:16:17.600 --> 00:16:21.249 align:start position:0%
+<c.colorCCCCCC>ok with Darren code</c><c.colorE5E5E5> it's also fine with
+the<00:16:17.690><c> camera</c><00:16:17.990><c> code</c><00:16:18.230><c> it's</c><00:16:18.440><c> it's</c><00:16:19.190><c> really</c><00:16:19.639><c> a</c><00:16:20.259><c> big</c></c>
+
+00:16:21.249 --> 00:16:21.259 align:start position:0%
+the camera code it's it's really<c.colorE5E5E5> a big
+ </c>
+
+00:16:21.259 --> 00:16:23.879 align:start position:0%
+the camera code it's it's really<c.colorE5E5E5> a big
+loss<00:16:21.470><c> for</c><00:16:21.500><c> unary</c><00:16:22.220><c> code</c><00:16:22.550><c> and</c><00:16:22.850><c> they</c><00:16:23.449><c> are</c><00:16:23.630><c> all</c></c>
+
+00:16:23.879 --> 00:16:23.889 align:start position:0%
+loss for<c.colorE5E5E5> unary code and they are all
+ </c>
+
+00:16:23.889 --> 00:16:27.610 align:start position:0%
+loss for<c.colorE5E5E5> unary code and they are all
+operating<00:16:24.889><c> of</c><00:16:25.490><c> course</c><00:16:26.000><c> at</c><00:16:26.660><c> different</c><00:16:27.199><c> degrees</c></c>
+
+00:16:27.610 --> 00:16:27.620 align:start position:0%
+operating of course at different<c.colorE5E5E5> degrees
+ </c>
+
+00:16:27.620 --> 00:16:31.720 align:start position:0%
+operating of course at different<c.colorE5E5E5> degrees
+of<00:16:27.790><c> favoring</c><00:16:28.790><c> shot</c><00:16:29.630><c> very</c></c><c.colorCCCCCC><00:16:30.620><c> small</c><00:16:31.069><c> integers</c></c><c.colorE5E5E5><00:16:31.519><c> and</c></c>
+
+00:16:31.720 --> 00:16:31.730 align:start position:0%
+of<c.colorE5E5E5> favoring shot very</c><c.colorCCCCCC> small integers</c><c.colorE5E5E5> and
+ </c>
+
+00:16:31.730 --> 00:16:35.800 align:start position:0%
+of<c.colorE5E5E5> favoring shot very</c><c.colorCCCCCC> small integers</c><c.colorE5E5E5> and
+that<00:16:32.540><c> also</c><00:16:32.720><c> means</c><00:16:33.019><c> you</c><00:16:34.540><c> they</c><00:16:35.540><c> would</c><00:16:35.779><c> be</c></c>
+
+00:16:35.800 --> 00:16:35.810 align:start position:0%
+that also<c.colorE5E5E5> means you they would be
+ </c>
+
+00:16:35.810 --> 00:16:37.990 align:start position:0%
+that also<c.colorE5E5E5> means you they would be</c>
+<c.colorE5E5E5>appropriate<00:16:36.350><c> for</c><00:16:36.680><c> a</c><00:16:36.860><c> certain</c></c><c.colorCCCCCC><00:16:37.160><c> distribution</c></c>
+
+00:16:37.990 --> 00:16:38.000 align:start position:0%
+<c.colorE5E5E5>appropriate for a certain</c><c.colorCCCCCC> distribution
+ </c>
+
+00:16:38.000 --> 00:16:39.999 align:start position:0%
+<c.colorE5E5E5>appropriate for a certain</c><c.colorCCCCCC> distribution</c>
+<c.colorE5E5E5>but<00:16:38.540><c> none</c><00:16:38.750><c> of</c><00:16:38.779><c> them</c><00:16:39.019><c> is</c></c><c.colorCCCCCC><00:16:39.079><c> perfect</c></c><c.colorE5E5E5><00:16:39.319><c> for</c><00:16:39.860><c> all</c></c>
+
+00:16:39.999 --> 00:16:40.009 align:start position:0%
+<c.colorE5E5E5>but none of them is</c><c.colorCCCCCC> perfect</c><c.colorE5E5E5> for all
+ </c>
+
+00:16:40.009 --> 00:16:43.420 align:start position:0%
+<c.colorE5E5E5>but none of them is</c><c.colorCCCCCC> perfect</c><c.colorE5E5E5> for all
+distributions<00:16:40.689><c> and</c><00:16:41.689><c> which</c><00:16:41.930><c> method</c></c><c.colorCCCCCC><00:16:42.170><c> works</c><00:16:42.529><c> the</c></c>
+
+00:16:43.420 --> 00:16:43.430 align:start position:0%
+distributions<c.colorE5E5E5> and which method</c><c.colorCCCCCC> works the
+ </c>
+
+00:16:43.430 --> 00:16:45.340 align:start position:0%
+distributions<c.colorE5E5E5> and which method</c><c.colorCCCCCC> works the
+best<00:16:43.579><c> would</c><00:16:43.970><c> have</c><00:16:44.180><c> to</c><00:16:44.300><c> depend</c><00:16:44.449><c> on</c><00:16:44.810><c> the</c><00:16:44.990><c> actual</c></c>
+
+00:16:45.340 --> 00:16:45.350 align:start position:0%
+best<c.colorCCCCCC> would have to depend on the actual
+ </c>
+
+00:16:45.350 --> 00:16:47.710 align:start position:0%
+best<c.colorCCCCCC> would have to depend on the actual
+distribution</c><c.colorE5E5E5><00:16:45.529><c> in</c><00:16:46.069><c> your</c><00:16:46.279><c> dataset</c><00:16:46.720><c> for</c></c>
+
+00:16:47.710 --> 00:16:47.720 align:start position:0%
+distribution<c.colorE5E5E5> in your dataset for
+ </c>
+
+00:16:47.720 --> 00:16:50.259 align:start position:0%
+distribution<c.colorE5E5E5> in your dataset for
+inverting<00:16:48.319><c> that's</c><00:16:48.790><c> compression</c><00:16:49.790><c> people</c><00:16:50.180><c> have</c></c>
+
+00:16:50.259 --> 00:16:50.269 align:start position:0%
+<c.colorE5E5E5>inverting that's compression people have
+ </c>
+
+00:16:50.269 --> 00:16:52.509 align:start position:0%
+<c.colorE5E5E5>inverting that's compression people have
+found<00:16:50.600><c> that</c><00:16:50.930><c> gamma</c><00:16:51.380><c> coding</c><00:16:51.889><c> seems</c><00:16:52.130><c> to</c><00:16:52.339><c> work</c></c>
+
+00:16:52.509 --> 00:16:52.519 align:start position:0%
+<c.colorE5E5E5>found that gamma coding seems to work
+ </c>
+
+00:16:52.519 --> 00:16:57.639 align:start position:0%
+<c.colorE5E5E5>found that gamma coding seems to work
+well<00:16:54.459><c> so</c><00:16:55.509><c> how</c><00:16:56.509><c> do</c><00:16:56.569><c> we</c><00:16:56.720><c> uncompress</c></c><c.colorCCCCCC><00:16:57.290><c> invert</c></c>
+
+00:16:57.639 --> 00:16:57.649 align:start position:0%
+well so how do we uncompress<c.colorCCCCCC> invert
+ </c>
+
+00:16:57.649 --> 00:16:59.710 align:start position:0%
+well so how do we uncompress<c.colorCCCCCC> invert
+index<00:16:58.069><c> and</c><00:16:58.399><c> we</c><00:16:58.490><c> just</c><00:16:58.699><c> talked</c><00:16:59.269><c> about</c></c><c.colorE5E5E5><00:16:59.360><c> this</c></c>
+
+00:16:59.710 --> 00:16:59.720 align:start position:0%
+index and we just<c.colorCCCCCC> talked about</c><c.colorE5E5E5> this
+ </c>
+
+00:16:59.720 --> 00:17:02.499 align:start position:0%
+index and we just<c.colorCCCCCC> talked about</c><c.colorE5E5E5> this
+first</c><c.colorCCCCCC><00:17:00.079><c> rate</c></c><c.colorE5E5E5><00:17:00.290><c> decode</c><00:17:00.800><c> those</c><00:17:01.069><c> encode</c><00:17:01.579><c> integers</c></c>
+
+00:17:02.499 --> 00:17:02.509 align:start position:0%
+<c.colorE5E5E5>first</c><c.colorCCCCCC> rate</c><c.colorE5E5E5> decode those encode integers
+ </c>
+
+00:17:02.509 --> 00:17:05.230 align:start position:0%
+<c.colorE5E5E5>first</c><c.colorCCCCCC> rate</c><c.colorE5E5E5> decode those encode integers
+and</c><c.colorCCCCCC><00:17:02.750><c> we</c><00:17:03.380><c> just</c><00:17:03.589><c> I</c><00:17:03.920><c> think</c><00:17:03.980><c> discussed</c><00:17:04.610><c> how</c><00:17:05.209><c> we</c></c>
+
+00:17:05.230 --> 00:17:05.240 align:start position:0%
+and<c.colorCCCCCC> we just I think discussed how we
+ </c>
+
+00:17:05.240 --> 00:17:07.480 align:start position:0%
+and<c.colorCCCCCC> we just I think discussed how we
+take<00:17:05.510><c> all</c><00:17:05.689><c> the</c></c><c.colorE5E5E5><00:17:05.809><c> Union</c><00:17:06.110><c> recording</c><00:17:06.589><c> and</c><00:17:06.799><c> gamma</c></c>
+
+00:17:07.480 --> 00:17:07.490 align:start position:0%
+take all the<c.colorE5E5E5> Union recording and gamma
+ </c>
+
+00:17:07.490 --> 00:17:12.069 align:start position:0%
+take all the<c.colorE5E5E5> Union recording and gamma</c>
+<c.colorCCCCCC>calling<00:17:08.260><c> so</c><00:17:09.260><c> I</c><00:17:09.289><c> won't</c><00:17:09.620><c> repeat</c></c><c.colorE5E5E5><00:17:10.010><c> what</c></c><c.colorCCCCCC><00:17:10.959><c> about</c><00:17:11.959><c> the</c></c>
+
+00:17:12.069 --> 00:17:12.079 align:start position:0%
+<c.colorCCCCCC>calling so I won't repeat</c><c.colorE5E5E5> what</c><c.colorCCCCCC> about the
+ </c>
+
+00:17:12.079 --> 00:17:14.260 align:start position:0%
+<c.colorCCCCCC>calling so I won't repeat</c><c.colorE5E5E5> what</c><c.colorCCCCCC> about the
+document<00:17:12.500><c> IDs</c><00:17:12.770><c> that</c><00:17:13.130><c> might</c><00:17:13.459><c> be</c><00:17:13.640><c> compressed</c></c>
+
+00:17:14.260 --> 00:17:14.270 align:start position:0%
+document IDs that might be compressed
+ 
+
+00:17:14.270 --> 00:17:17.199 align:start position:0%
+document IDs that might be compressed
+using<00:17:14.600><c> the</c><00:17:15.020><c> gap</c><00:17:15.260><c> well</c><00:17:15.880><c> we're</c><00:17:16.880><c> going</c><00:17:17.000><c> to</c><00:17:17.059><c> do</c>
+
+00:17:17.199 --> 00:17:17.209 align:start position:0%
+using the gap well we're going to do
+ 
+
+00:17:17.209 --> 00:17:19.029 align:start position:0%
+using the gap well we're going to do
+sequential<00:17:17.569><c> decoding</c><00:17:18.169><c> so</c><00:17:18.439><c> suppose</c><00:17:18.770><c> they</c>
+
+00:17:19.029 --> 00:17:19.039 align:start position:0%
+sequential decoding so suppose they
+ 
+
+00:17:19.039 --> 00:17:22.990 align:start position:0%
+sequential decoding so suppose they
+<c.colorCCCCCC>included<00:17:19.549><c> ID</c><00:17:19.789><c> list</c></c><c.colorE5E5E5><00:17:20.089><c> is</c><00:17:20.839><c> X</c><00:17:21.380><c> 1</c><00:17:21.620><c> X</c></c><c.colorCCCCCC><00:17:21.650><c> 2</c><00:17:22.189><c> X</c><00:17:22.490><c> 3</c><00:17:22.610><c> et</c></c>
+
+00:17:22.990 --> 00:17:23.000 align:start position:0%
+<c.colorCCCCCC>included ID list</c><c.colorE5E5E5> is X 1 X</c><c.colorCCCCCC> 2 X 3 et
+ </c>
+
+00:17:23.000 --> 00:17:26.260 align:start position:0%
+<c.colorCCCCCC>included ID list</c><c.colorE5E5E5> is X 1 X</c><c.colorCCCCCC> 2 X 3 et
+cetera<00:17:23.209><c> we</c><00:17:23.839><c> first</c><00:17:24.079><c> to</c><00:17:24.199><c> decode</c><00:17:24.559><c> X</c><00:17:24.860><c> 1</c><00:17:25.130><c> or</c><00:17:25.490><c> obtain</c></c>
+
+00:17:26.260 --> 00:17:26.270 align:start position:0%
+cetera<c.colorCCCCCC> we first to decode X 1 or obtain
+ </c>
+
+00:17:26.270 --> 00:17:28.690 align:start position:0%
+cetera<c.colorCCCCCC> we first to decode X 1 or obtain
+the<00:17:26.419><c> first</c><00:17:26.659><c> two</c><00:17:26.809><c> document</c><00:17:27.199><c> ID</c><00:17:27.380><c> ID</c></c><c.colorE5E5E5><00:17:27.679><c> 1</c><00:17:28.010><c> then</c></c>
+
+00:17:28.690 --> 00:17:28.700 align:start position:0%
+the first<c.colorCCCCCC> two document ID ID</c><c.colorE5E5E5> 1 then
+ </c>
+
+00:17:28.700 --> 00:17:31.120 align:start position:0%
+the first<c.colorCCCCCC> two document ID ID</c><c.colorE5E5E5> 1 then</c>
+<c.colorCCCCCC>we'll<00:17:28.970><c> the</c><00:17:29.120><c> decode</c><00:17:29.510><c> X</c><00:17:29.870><c> 2</c><00:17:30.140><c> which</c><00:17:30.650><c> is</c><00:17:30.830><c> actually</c></c>
+
+00:17:31.120 --> 00:17:31.130 align:start position:0%
+<c.colorCCCCCC>we'll the decode X 2 which is actually
+ </c>
+
+00:17:31.130 --> 00:17:33.640 align:start position:0%
+<c.colorCCCCCC>we'll the decode X 2 which is actually</c>
+<c.colorCCCCCC>the<00:17:31.460><c> difference</c><00:17:31.610><c> between</c></c><c.colorE5E5E5><00:17:32.030><c> the</c><00:17:32.419><c> second</c><00:17:33.020><c> ID</c><00:17:33.260><c> and</c></c>
+
+00:17:33.640 --> 00:17:33.650 align:start position:0%
+<c.colorCCCCCC>the difference between</c><c.colorE5E5E5> the second ID and
+ </c>
+
+00:17:33.650 --> 00:17:35.680 align:start position:0%
+<c.colorCCCCCC>the difference between</c><c.colorE5E5E5> the second ID and
+the<00:17:33.830><c> first</c><00:17:34.039><c> one</c><00:17:34.280><c> so</c><00:17:34.700><c> we</c><00:17:34.909><c> have</c><00:17:35.059><c> to</c><00:17:35.150><c> add</c><00:17:35.299><c> the</c></c>
+
+00:17:35.680 --> 00:17:35.690 align:start position:0%
+the first one so we have to add the
+ 
+
+00:17:35.690 --> 00:17:39.549 align:start position:0%
+the first one so we have to add the
+decoder<00:17:36.140><c> value</c><00:17:36.530><c> of</c><00:17:36.710><c> x</c><00:17:36.919><c> -</c><00:17:37.220><c> 2</c><00:17:37.760><c> ID</c><00:17:38.000><c> 1</c><00:17:38.419><c> to</c><00:17:39.140><c> recover</c>
+
+00:17:39.549 --> 00:17:39.559 align:start position:0%
+decoder value of x - 2 ID 1 to recover
+ 
+
+00:17:39.559 --> 00:17:40.290 align:start position:0%
+decoder value of x - 2 ID 1 to recover
+the
+
+00:17:40.290 --> 00:17:40.300 align:start position:0%
+the
+ 
+
+00:17:40.300 --> 00:17:45.060 align:start position:0%
+the
+value<00:17:40.630><c> of</c><c.colorE5E5E5><00:17:40.890><c> the</c><00:17:42.360><c> the</c><00:17:43.360><c> ID</c><00:17:43.840><c> at</c><00:17:44.260><c> this</c><00:17:44.470><c> second</c></c>
+
+00:17:45.060 --> 00:17:45.070 align:start position:0%
+value of<c.colorE5E5E5> the the ID at this second
+ </c>
+
+00:17:45.070 --> 00:17:47.430 align:start position:0%
+value of<c.colorE5E5E5> the the ID at this second
+deposition<00:17:45.610><c> right</c><00:17:46.240><c> so</c><00:17:46.750><c> this</c><00:17:46.900><c> is</c><00:17:47.080><c> all</c><00:17:47.290><c> where</c></c>
+
+00:17:47.430 --> 00:17:47.440 align:start position:0%
+<c.colorE5E5E5>deposition right so this is all where
+ </c>
+
+00:17:47.440 --> 00:17:50.910 align:start position:0%
+<c.colorE5E5E5>deposition right so this is all where</c>
+<c.colorCCCCCC>you<00:17:47.590><c> can</c><00:17:47.770><c> see</c><00:17:48.010><c> the</c><00:17:48.490><c> advantage</c><00:17:48.970><c> of</c><00:17:49.920><c> converting</c></c>
+
+00:17:50.910 --> 00:17:50.920 align:start position:0%
+<c.colorCCCCCC>you can see the advantage of converting
+ </c>
+
+00:17:50.920 --> 00:17:53.040 align:start position:0%
+<c.colorCCCCCC>you can see the advantage of converting
+document<00:17:51.460><c> IDs</c><00:17:51.700><c> into</c></c><c.colorE5E5E5><00:17:52.060><c> integers</c><00:17:52.600><c> and</c><00:17:52.810><c> that</c></c>
+
+00:17:53.040 --> 00:17:53.050 align:start position:0%
+document IDs into<c.colorE5E5E5> integers and that
+ </c>
+
+00:17:53.050 --> 00:17:54.990 align:start position:0%
+document IDs into<c.colorE5E5E5> integers and that
+allows<00:17:53.380><c> us</c><00:17:53.410><c> to</c></c><c.colorCCCCCC><00:17:53.650><c> do</c></c><c.colorE5E5E5><00:17:53.920><c> this</c></c><c.colorCCCCCC><00:17:54.130><c> kind</c><00:17:54.340><c> of</c></c><c.colorE5E5E5><00:17:54.430><c> compression</c></c>
+
+00:17:54.990 --> 00:17:55.000 align:start position:0%
+allows us<c.colorE5E5E5> to</c><c.colorCCCCCC> do</c><c.colorE5E5E5> this</c><c.colorCCCCCC> kind of</c><c.colorE5E5E5> compression
+ </c>
+
+00:17:55.000 --> 00:17:57.720 align:start position:0%
+allows us<c.colorE5E5E5> to</c><c.colorCCCCCC> do</c><c.colorE5E5E5> this</c><c.colorCCCCCC> kind of</c><c.colorE5E5E5> compression</c>
+<c.colorCCCCCC>and</c><c.colorE5E5E5><00:17:55.420><c> we</c><00:17:55.780><c> just</c><00:17:56.020><c> repeat</c><00:17:56.200><c> until</c><00:17:56.890><c> we</c><00:17:57.040><c> decode</c><00:17:57.490><c> all</c></c>
+
+00:17:57.720 --> 00:17:57.730 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> we just repeat until we decode all
+ </c>
+
+00:17:57.730 --> 00:18:00.720 align:start position:0%
+<c.colorCCCCCC>and</c><c.colorE5E5E5> we just repeat until we decode all
+the<00:17:57.880><c> documents</c><00:17:58.810><c> every</c><00:17:59.710><c> time</c><00:17:59.920><c> we</c></c><c.colorCCCCCC><00:18:00.130><c> use</c><00:18:00.400><c> the</c></c>
+
+00:18:00.720 --> 00:18:00.730 align:start position:0%
+the documents<c.colorE5E5E5> every time we</c><c.colorCCCCCC> use the
+ </c>
+
+00:18:00.730 --> 00:18:03.120 align:start position:0%
+the documents<c.colorE5E5E5> every time we</c><c.colorCCCCCC> use the
+document</c><c.colorE5E5E5><00:18:01.150><c> ID</c><00:18:01.390><c> in</c><00:18:01.780><c> the</c><00:18:01.900><c> previous</c><00:18:02.290><c> position</c><00:18:02.800><c> to</c></c>
+
+00:18:03.120 --> 00:18:03.130 align:start position:0%
+document<c.colorE5E5E5> ID in the previous position to
+ </c>
+
+00:18:03.130 --> 00:18:05.430 align:start position:0%
+document<c.colorE5E5E5> ID in the previous position to
+help<00:18:03.310><c> you</c><00:18:03.430><c> recover</c><00:18:03.730><c> the</c><00:18:04.000><c> document</c><00:18:04.720><c> ID</c><00:18:04.840><c> in</c><00:18:05.290><c> the</c></c>
+
+00:18:05.430 --> 00:18:05.440 align:start position:0%
+help<c.colorE5E5E5> you recover the document ID in the
+ </c>
+
+00:18:05.440 --> 00:18:07.860 align:start position:0%
+help<c.colorE5E5E5> you recover the document ID in the
+next<00:18:05.680><c> position</c></c>
+

@@ -29,6 +29,7 @@
       var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
+      tag.onload="iFrameResize()"
       var firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
       
@@ -66,6 +67,9 @@
 	  //    The function indicates that when playing a video (state=1),
 	  //    the player should play for six seconds and then stop.
 	  
+	  var url = "";
+	  var prev_idx = -1;
+	  
 	  function onPlayerStateChange(event) {
 		if (event.data != -1) {
 			//var time = player.getCurrentTime();
@@ -76,7 +80,15 @@
 	        $(".sidebar .padded").text(url);
 			//$(".sidebar .padded").text(time);
 			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-			console.log($SCRIPT_ROOT)
+			console.log("root" + $SCRIPT_ROOT)
+
+            
+		}
+		
+		if (player.getPlaylistIndex() != prev_idx) {
+    		console.log("idx=" + player.getPlaylistIndex())
+    		console.log("prev_idx=" + prev_idx)
+    		
 			$.ajax({
                 url: $SCRIPT_ROOT + '/getSimVideos',
                 type: 'POST',
@@ -86,14 +98,15 @@
                 //dataType: "json",
                 success : function(result){  // on success get the return object from server
                     console.log(result); // do whatever with it. 
-                    $(".sidebar .padded").text("returned=" + url);
-                    //$("#sidebar_id").html("returned=" + url);
+                    result_json = JSON.stringify(result)
+                    $(".sidebar .padded").text("returned=" + result_json);
                 },
                 error: function(error) {
+                    console.log("nothing returned")
                     console.log(error);
                 }
             });
-            
+            prev_idx = player.getPlaylistIndex()
 		}
 		//console.log(event.data)
 	  }

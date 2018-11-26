@@ -1,0 +1,918 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.000 --> 00:00:06.570 align:start position:0%
+ 
+<c.colorCCCCCC>you</c>
+
+00:00:06.570 --> 00:00:06.580 align:start position:0%
+ 
+ 
+
+00:00:06.580 --> 00:00:10.000 align:start position:0%
+ 
+this<00:00:07.580><c> lecture</c><c.colorCCCCCC><00:00:07.820><c> is</c><00:00:08.030><c> about</c><00:00:08.480><c> learning</c><00:00:09.470><c> to</c><00:00:09.830><c> rank</c></c>
+
+00:00:10.000 --> 00:00:10.010 align:start position:0%
+this lecture<c.colorCCCCCC> is about learning to rank
+ </c>
+
+00:00:10.010 --> 00:00:12.790 align:start position:0%
+this lecture<c.colorCCCCCC> is about learning to rank
+in<00:00:10.940><c> this</c></c><c.colorE5E5E5><00:00:11.120><c> lecture</c><00:00:11.600><c> we're</c><00:00:12.200><c> going</c><00:00:12.350><c> to</c><00:00:12.410><c> continue</c></c>
+
+00:00:12.790 --> 00:00:12.800 align:start position:0%
+in this<c.colorE5E5E5> lecture we're going to continue
+ </c>
+
+00:00:12.800 --> 00:00:15.549 align:start position:0%
+in this<c.colorE5E5E5> lecture we're going to continue
+talking<00:00:13.400><c> about</c><00:00:13.760><c> web</c><00:00:14.060><c> search</c><00:00:14.300><c> in</c><00:00:15.140><c> particular</c></c>
+
+00:00:15.549 --> 00:00:15.559 align:start position:0%
+<c.colorE5E5E5>talking about web search in particular
+ </c>
+
+00:00:15.559 --> 00:00:17.019 align:start position:0%
+<c.colorE5E5E5>talking about web search in particular
+we're</c><c.colorCCCCCC><00:00:15.920><c> going</c><00:00:16.070><c> to</c></c><c.colorE5E5E5><00:00:16.130><c> talk</c><00:00:16.279><c> about</c><00:00:16.309><c> the</c><00:00:16.670><c> using</c></c>
+
+00:00:17.019 --> 00:00:17.029 align:start position:0%
+we're<c.colorCCCCCC> going to</c><c.colorE5E5E5> talk about the using
+ </c>
+
+00:00:17.029 --> 00:00:18.850 align:start position:0%
+we're<c.colorCCCCCC> going to</c><c.colorE5E5E5> talk about the using
+machine<00:00:17.360><c> learning</c><00:00:17.390><c> to</c><00:00:17.960><c> combine</c></c><c.colorCCCCCC><00:00:18.380><c> different</c></c>
+
+00:00:18.850 --> 00:00:18.860 align:start position:0%
+machine learning<c.colorE5E5E5> to combine</c><c.colorCCCCCC> different
+ </c>
+
+00:00:18.860 --> 00:00:21.450 align:start position:0%
+machine learning<c.colorE5E5E5> to combine</c><c.colorCCCCCC> different
+features<00:00:19.220><c> to</c><00:00:19.880><c> improve</c></c><c.colorE5E5E5><00:00:20.029><c> the</c><00:00:20.480><c> ranking</c><00:00:20.689><c> function</c></c>
+
+00:00:21.450 --> 00:00:21.460 align:start position:0%
+features<c.colorCCCCCC> to improve</c><c.colorE5E5E5> the ranking function
+ </c>
+
+00:00:21.460 --> 00:00:25.150 align:start position:0%
+features<c.colorCCCCCC> to improve</c><c.colorE5E5E5> the ranking function
+so<00:00:22.460><c> the</c><00:00:22.820><c> question</c><00:00:23.330><c> that</c><00:00:24.170><c> we</c></c><c.colorCCCCCC><00:00:24.440><c> address</c><00:00:24.830><c> in</c><00:00:24.860><c> this</c></c>
+
+00:00:25.150 --> 00:00:25.160 align:start position:0%
+so the question<c.colorE5E5E5> that we</c><c.colorCCCCCC> address in this
+ </c>
+
+00:00:25.160 --> 00:00:28.689 align:start position:0%
+so the question<c.colorE5E5E5> that we</c><c.colorCCCCCC> address in this
+lecture<00:00:25.699><c> is</c><00:00:25.910><c> how</c><00:00:26.750><c> we</c><00:00:27.440><c> can</c><00:00:27.680><c> combine</c><00:00:28.100><c> many</c></c>
+
+00:00:28.689 --> 00:00:28.699 align:start position:0%
+lecture is<c.colorCCCCCC> how we can combine many
+ </c>
+
+00:00:28.699 --> 00:00:32.799 align:start position:0%
+lecture is<c.colorCCCCCC> how we can combine many
+features<00:00:29.210><c> to</c></c><c.colorE5E5E5><00:00:30.670><c> generate</c><00:00:31.670><c> a</c><00:00:31.699><c> single</c><00:00:32.449><c> ranking</c></c>
+
+00:00:32.799 --> 00:00:32.809 align:start position:0%
+features to<c.colorE5E5E5> generate a single ranking
+ </c>
+
+00:00:32.809 --> 00:00:34.750 align:start position:0%
+features to<c.colorE5E5E5> generate a single ranking
+function<00:00:33.260><c> through</c><00:00:34.010><c> optimized</c><00:00:34.489><c> search</c></c>
+
+00:00:34.750 --> 00:00:34.760 align:start position:0%
+function<c.colorE5E5E5> through optimized search
+ </c>
+
+00:00:34.760 --> 00:00:37.870 align:start position:0%
+function<c.colorE5E5E5> through optimized search
+results<00:00:35.360><c> in</c><00:00:36.170><c> the</c><00:00:36.350><c> previous</c><00:00:36.710><c> lectures</c></c><c.colorCCCCCC><00:00:37.160><c> we</c><00:00:37.670><c> have</c></c>
+
+00:00:37.870 --> 00:00:37.880 align:start position:0%
+results in<c.colorE5E5E5> the previous lectures</c><c.colorCCCCCC> we have
+ </c>
+
+00:00:37.880 --> 00:00:41.020 align:start position:0%
+results in<c.colorE5E5E5> the previous lectures</c><c.colorCCCCCC> we have
+talked</c><c.colorE5E5E5><00:00:38.180><c> about</c><00:00:38.329><c> a</c><00:00:38.899><c> number</c></c><c.colorCCCCCC><00:00:38.960><c> of</c><00:00:39.410><c> ways</c><00:00:39.649><c> to</c><00:00:40.130><c> rank</c></c>
+
+00:00:41.020 --> 00:00:41.030 align:start position:0%
+talked<c.colorE5E5E5> about a number</c><c.colorCCCCCC> of ways to rank
+ </c>
+
+00:00:41.030 --> 00:00:43.479 align:start position:0%
+talked<c.colorE5E5E5> about a number</c><c.colorCCCCCC> of ways to rank
+documents<00:00:41.690><c> we</c><00:00:42.140><c> have</c><00:00:42.260><c> talked</c><00:00:42.530><c> about</c><00:00:42.649><c> some</c></c>
+
+00:00:43.479 --> 00:00:43.489 align:start position:0%
+documents we have talked about some
+ 
+
+00:00:43.489 --> 00:00:46.330 align:start position:0%
+documents we have talked about some
+retrieval<00:00:44.120><c> models</c><00:00:44.450><c> like</c><c.colorCCCCCC><00:00:44.660><c> ABI</c><00:00:44.899><c> m25</c><00:00:45.620><c> or</c><00:00:46.040><c> query</c></c>
+
+00:00:46.330 --> 00:00:46.340 align:start position:0%
+retrieval models like<c.colorCCCCCC> ABI m25 or query
+ </c>
+
+00:00:46.340 --> 00:00:48.880 align:start position:0%
+retrieval models like<c.colorCCCCCC> ABI m25 or query
+write<00:00:46.579><c> code</c></c><c.colorE5E5E5><00:00:46.940><c> they</c><00:00:47.660><c> can</c><00:00:47.690><c> generate</c><00:00:48.230><c> the</c></c><c.colorCCCCCC><00:00:48.380><c> content</c></c>
+
+00:00:48.880 --> 00:00:48.890 align:start position:0%
+<c.colorCCCCCC>write code</c><c.colorE5E5E5> they can generate the</c><c.colorCCCCCC> content
+ </c>
+
+00:00:48.890 --> 00:00:52.080 align:start position:0%
+<c.colorCCCCCC>write code</c><c.colorE5E5E5> they can generate the</c><c.colorCCCCCC> content
+the</c><c.colorE5E5E5><00:00:48.980><c> basis</c><00:00:49.370><c> course</c><00:00:49.870><c> for</c><00:00:50.870><c> matching</c><00:00:51.649><c> documents</c></c>
+
+00:00:52.080 --> 00:00:52.090 align:start position:0%
+the<c.colorE5E5E5> basis course for matching documents
+ </c>
+
+00:00:52.090 --> 00:00:55.600 align:start position:0%
+the<c.colorE5E5E5> basis course for matching documents</c>
+<c.colorE5E5E5>with<00:00:53.090><c> a</c><00:00:53.450><c> query</c><00:00:53.899><c> and</c><00:00:54.170><c> we</c><00:00:55.010><c> also</c><00:00:55.190><c> talked</c><00:00:55.520><c> about</c></c>
+
+00:00:55.600 --> 00:00:55.610 align:start position:0%
+<c.colorE5E5E5>with a query and we also talked about
+ </c>
+
+00:00:55.610 --> 00:00:58.319 align:start position:0%
+<c.colorE5E5E5>with a query and we also talked about</c>
+<c.colorE5E5E5>the<00:00:55.879><c> link</c><00:00:56.059><c> based</c><00:00:56.329><c> approaches</c><00:00:56.960><c> like</c></c><c.colorCCCCCC><00:00:57.230><c> PageRank</c></c>
+
+00:00:58.319 --> 00:00:58.329 align:start position:0%
+<c.colorE5E5E5>the link based approaches like</c><c.colorCCCCCC> PageRank
+ </c>
+
+00:00:58.329 --> 00:01:01.479 align:start position:0%
+<c.colorE5E5E5>the link based approaches like</c><c.colorCCCCCC> PageRank
+that<00:00:59.329><c> can</c><00:00:59.809><c> give</c><00:01:00.289><c> additional</c><00:01:00.620><c> scores</c><00:01:01.190><c> to</c><00:01:01.460><c> help</c></c>
+
+00:01:01.479 --> 00:01:01.489 align:start position:0%
+<c.colorCCCCCC>that can give additional scores to help
+ </c>
+
+00:01:01.489 --> 00:01:04.630 align:start position:0%
+<c.colorCCCCCC>that can give additional scores to help</c>
+<c.colorE5E5E5>us<00:01:01.910><c> improve</c><00:01:02.329><c> ranking</c><00:01:02.980><c> now</c><00:01:03.980><c> the</c><00:01:04.039><c> question</c><00:01:04.489><c> now</c></c>
+
+00:01:04.630 --> 00:01:04.640 align:start position:0%
+<c.colorE5E5E5>us improve ranking now the question now
+ </c>
+
+00:01:04.640 --> 00:01:06.430 align:start position:0%
+<c.colorE5E5E5>us improve ranking now the question now
+is</c><c.colorCCCCCC><00:01:04.670><c> how</c><00:01:05.119><c> can</c><00:01:05.330><c> we</c><00:01:05.360><c> combine</c><00:01:05.840><c> all</c><00:01:06.140><c> these</c><00:01:06.380><c> features</c></c>
+
+00:01:06.430 --> 00:01:06.440 align:start position:0%
+is<c.colorCCCCCC> how can we combine all these features
+ </c>
+
+00:01:06.440 --> 00:01:09.520 align:start position:0%
+is<c.colorCCCCCC> how can we combine all these features</c>
+<c.colorCCCCCC>and<00:01:07.190><c> potential</c><00:01:07.670><c> many</c><00:01:07.910><c> other</c><00:01:08.119><c> features</c><00:01:08.509><c> to</c><00:01:09.380><c> do</c></c>
+
+00:01:09.520 --> 00:01:09.530 align:start position:0%
+<c.colorCCCCCC>and potential many other features to do
+ </c>
+
+00:01:09.530 --> 00:01:11.260 align:start position:0%
+<c.colorCCCCCC>and potential many other features to do
+ranking<00:01:09.950><c> and</c></c><c.colorE5E5E5><00:01:10.069><c> this</c><00:01:10.220><c> will</c><00:01:10.459><c> be</c><00:01:10.580><c> very</c></c><c.colorCCCCCC><00:01:10.729><c> useful</c><00:01:11.240><c> for</c></c>
+
+00:01:11.260 --> 00:01:11.270 align:start position:0%
+ranking and<c.colorE5E5E5> this will be very</c><c.colorCCCCCC> useful for
+ </c>
+
+00:01:11.270 --> 00:01:15.219 align:start position:0%
+ranking and<c.colorE5E5E5> this will be very</c><c.colorCCCCCC> useful for
+ranking<00:01:11.780><c> web</c><00:01:12.440><c> pages</c><00:01:13.390><c> and</c><00:01:14.390><c> not</c><00:01:14.600><c> only</c><00:01:14.899><c> just</c><00:01:15.080><c> to</c></c>
+
+00:01:15.219 --> 00:01:15.229 align:start position:0%
+ranking web pages and not<c.colorCCCCCC> only just to
+ </c>
+
+00:01:15.229 --> 00:01:17.050 align:start position:0%
+ranking web pages and not<c.colorCCCCCC> only just to
+improve<00:01:15.530><c> accuracy</c><00:01:15.979><c> but</c><00:01:16.310><c> also</c></c><c.colorE5E5E5><00:01:16.429><c> the</c><00:01:16.789><c> improve</c></c>
+
+00:01:17.050 --> 00:01:17.060 align:start position:0%
+improve accuracy but also<c.colorE5E5E5> the improve
+ </c>
+
+00:01:17.060 --> 00:01:19.840 align:start position:0%
+improve accuracy but also<c.colorE5E5E5> the improve
+the<00:01:17.240><c> robustness</c><00:01:17.420><c> of</c><00:01:18.050><c> the</c><00:01:18.500><c> ranking</c><00:01:19.490><c> function</c></c>
+
+00:01:19.840 --> 00:01:19.850 align:start position:0%
+the robustness<c.colorE5E5E5> of the ranking function
+ </c>
+
+00:01:19.850 --> 00:01:21.880 align:start position:0%
+the robustness<c.colorE5E5E5> of the ranking function
+so</c><c.colorCCCCCC><00:01:20.090><c> that</c><00:01:20.240><c> it's</c><00:01:20.450><c> not</c><00:01:20.630><c> easy</c><00:01:20.840><c> for</c><00:01:21.140><c> a</c><00:01:21.200><c> spammer</c><00:01:21.560><c> to</c></c>
+
+00:01:21.880 --> 00:01:21.890 align:start position:0%
+so<c.colorCCCCCC> that it's not easy for a spammer to
+ </c>
+
+00:01:21.890 --> 00:01:25.570 align:start position:0%
+so<c.colorCCCCCC> that it's not easy for a spammer to
+just<00:01:22.700><c> put</c><00:01:23.569><c> over</c><00:01:23.720><c> one</c><00:01:24.140><c> or</c><00:01:24.380><c> a</c></c><c.colorE5E5E5><00:01:24.500><c> few</c><00:01:24.830><c> features</c><00:01:25.280><c> to</c></c>
+
+00:01:25.570 --> 00:01:25.580 align:start position:0%
+just put over one or<c.colorCCCCCC> a</c><c.colorE5E5E5> few features to
+ </c>
+
+00:01:25.580 --> 00:01:29.490 align:start position:0%
+just put over one or<c.colorCCCCCC> a</c><c.colorE5E5E5> few features to
+promote<00:01:26.060><c> a</c><00:01:26.270><c> page</c><00:01:26.979><c> so</c><00:01:27.979><c> the</c><00:01:28.069><c> general</c><00:01:28.429><c> idea</c></c><c.colorCCCCCC><00:01:28.550><c> of</c></c>
+
+00:01:29.490 --> 00:01:29.500 align:start position:0%
+promote a page so the general idea<c.colorCCCCCC> of
+ </c>
+
+00:01:29.500 --> 00:01:31.930 align:start position:0%
+promote a page so the general idea<c.colorCCCCCC> of
+learning<00:01:30.500><c> to</c><00:01:30.740><c> rank</c></c><c.colorE5E5E5><00:01:30.890><c> is</c><00:01:31.220><c> to</c><00:01:31.399><c> use</c><00:01:31.580><c> machine</c></c>
+
+00:01:31.930 --> 00:01:31.940 align:start position:0%
+learning to rank<c.colorE5E5E5> is to use machine
+ </c>
+
+00:01:31.940 --> 00:01:33.580 align:start position:0%
+learning to rank<c.colorE5E5E5> is to use machine
+learning<00:01:31.970><c> to</c><00:01:32.300><c> combine</c><00:01:32.810><c> these</c><00:01:33.020><c> features</c><00:01:33.410><c> for</c></c>
+
+00:01:33.580 --> 00:01:33.590 align:start position:0%
+learning to combine these features for
+ 
+
+00:01:33.590 --> 00:01:36.430 align:start position:0%
+learning to combine these features for
+optimized<00:01:34.130><c> the</c><00:01:34.849><c> weights</c><c.colorE5E5E5><00:01:35.119><c> on</c><00:01:35.660><c> different</c></c>
+
+00:01:36.430 --> 00:01:36.440 align:start position:0%
+optimized the weights<c.colorE5E5E5> on different
+ </c>
+
+00:01:36.440 --> 00:01:38.710 align:start position:0%
+optimized the weights<c.colorE5E5E5> on different</c>
+<c.colorE5E5E5>features<00:01:36.800><c> to</c></c><c.colorCCCCCC><00:01:37.039><c> generate</c><00:01:37.789><c> the</c><00:01:37.880><c> optimal</c><00:01:38.330><c> ranking</c></c>
+
+00:01:38.710 --> 00:01:38.720 align:start position:0%
+<c.colorE5E5E5>features to</c><c.colorCCCCCC> generate the optimal ranking
+ </c>
+
+00:01:38.720 --> 00:01:41.889 align:start position:0%
+<c.colorE5E5E5>features to</c><c.colorCCCCCC> generate the optimal ranking
+function<00:01:39.670><c> so</c><00:01:40.670><c> we</c><00:01:41.000><c> will</c><00:01:41.179><c> assume</c><00:01:41.539><c> that</c><00:01:41.569><c> the</c></c>
+
+00:01:41.889 --> 00:01:41.899 align:start position:0%
+function so we will<c.colorCCCCCC> assume that the
+ </c>
+
+00:01:41.899 --> 00:01:46.120 align:start position:0%
+function so we will<c.colorCCCCCC> assume that the
+given<00:01:42.170><c> a</c><00:01:42.289><c> query</c></c><c.colorE5E5E5><00:01:42.560><c> doc</c><00:01:42.830><c> in</c><00:01:42.979><c> the</c><00:01:43.130><c> pair</c><00:01:43.369><c> Q</c><00:01:44.209><c> and</c><00:01:44.509><c> D</c><00:01:45.130><c> we</c></c>
+
+00:01:46.120 --> 00:01:46.130 align:start position:0%
+given a query<c.colorE5E5E5> doc in the pair Q and D we
+ </c>
+
+00:01:46.130 --> 00:01:48.969 align:start position:0%
+given a query<c.colorE5E5E5> doc in the pair Q and D we</c>
+<c.colorE5E5E5>can<00:01:46.340><c> define</c><00:01:46.819><c> a</c><00:01:47.270><c> number</c><00:01:47.630><c> of</c><00:01:47.899><c> features</c><00:01:48.410><c> and</c></c>
+
+00:01:48.969 --> 00:01:48.979 align:start position:0%
+<c.colorE5E5E5>can define a number of features and
+ </c>
+
+00:01:48.979 --> 00:01:52.169 align:start position:0%
+<c.colorE5E5E5>can define a number of features and</c>
+<c.colorCCCCCC>these</c><c.colorE5E5E5><00:01:49.910><c> features</c><00:01:50.330><c> can</c><00:01:50.720><c> vary</c><00:01:51.289><c> from</c></c>
+
+00:01:52.169 --> 00:01:52.179 align:start position:0%
+<c.colorCCCCCC>these</c><c.colorE5E5E5> features can vary from
+ </c>
+
+00:01:52.179 --> 00:01:55.719 align:start position:0%
+<c.colorCCCCCC>these</c><c.colorE5E5E5> features can vary from</c>
+<c.colorCCCCCC>content-based</c><c.colorE5E5E5><00:01:53.179><c> features</c><00:01:53.929><c> such</c><00:01:54.319><c> as</c><00:01:54.349><c> a</c><00:01:55.099><c> score</c></c>
+
+00:01:55.719 --> 00:01:55.729 align:start position:0%
+<c.colorCCCCCC>content-based</c><c.colorE5E5E5> features such as a score
+ </c>
+
+00:01:55.729 --> 00:01:58.600 align:start position:0%
+<c.colorCCCCCC>content-based</c><c.colorE5E5E5> features such as a score
+of<00:01:56.000><c> the</c><00:01:56.899><c> document</c><00:01:57.440><c> with</c><00:01:57.830><c> respect</c><00:01:58.250><c> to</c><00:01:58.489><c> the</c></c>
+
+00:01:58.600 --> 00:01:58.610 align:start position:0%
+of the document with respect to the
+ 
+
+00:01:58.610 --> 00:02:01.719 align:start position:0%
+of the document with respect to the
+query<c.colorE5E5E5><00:01:58.910><c> according</c></c><c.colorCCCCCC><00:01:59.690><c> to</c><00:01:59.810><c> a</c><00:02:00.310><c> retrieval</c><00:02:01.310><c> function</c></c>
+
+00:02:01.719 --> 00:02:01.729 align:start position:0%
+query<c.colorE5E5E5> according</c><c.colorCCCCCC> to a retrieval function
+ </c>
+
+00:02:01.729 --> 00:02:05.050 align:start position:0%
+query<c.colorE5E5E5> according</c><c.colorCCCCCC> to a retrieval function
+such<00:02:02.090><c> as</c><00:02:02.119><c> BM</c><00:02:02.810><c> 25</c><00:02:03.319><c> or</c><00:02:03.709><c> query</c></c><c.colorE5E5E5><00:02:04.130><c> like</c><00:02:04.369><c> code</c><00:02:04.729><c> or</c></c>
+
+00:02:05.050 --> 00:02:05.060 align:start position:0%
+such as<c.colorCCCCCC> BM 25 or query</c><c.colorE5E5E5> like code or
+ </c>
+
+00:02:05.060 --> 00:02:10.749 align:start position:0%
+such as<c.colorCCCCCC> BM 25 or query</c><c.colorE5E5E5> like code or
+pivot</c><c.colorCCCCCC><00:02:05.569><c> consolidation</c><00:02:06.970><c> or</c><00:02:07.970><c> PL</c></c><c.colorE5E5E5><00:02:08.539><c> 2</c><00:02:08.780><c> etc</c><00:02:09.489><c> it</c><00:02:10.489><c> can</c></c>
+
+00:02:10.749 --> 00:02:10.759 align:start position:0%
+<c.colorE5E5E5>pivot</c><c.colorCCCCCC> consolidation or PL</c><c.colorE5E5E5> 2 etc it can
+ </c>
+
+00:02:10.759 --> 00:02:13.210 align:start position:0%
+<c.colorE5E5E5>pivot</c><c.colorCCCCCC> consolidation or PL</c><c.colorE5E5E5> 2 etc it can
+also<00:02:10.910><c> be</c><00:02:11.319><c> linked</c><00:02:12.319><c> based</c><00:02:12.590><c> of</c><00:02:12.770><c> score</c><00:02:13.010><c> like</c></c>
+
+00:02:13.210 --> 00:02:13.220 align:start position:0%
+also be<c.colorE5E5E5> linked based of score like
+ </c>
+
+00:02:13.220 --> 00:02:17.720 align:start position:0%
+also be<c.colorE5E5E5> linked based of score like
+patrons<00:02:13.790><c> 4</c><00:02:14.469><c> it</c><00:02:15.469><c> can</c><00:02:15.799><c> be</c><00:02:16.040><c> also</c></c>
+
+00:02:17.720 --> 00:02:17.730 align:start position:0%
+patrons<c.colorE5E5E5> 4 it can be also
+ </c>
+
+00:02:17.730 --> 00:02:20.540 align:start position:0%
+patrons<c.colorE5E5E5> 4 it can be also
+application<00:02:18.599><c> of</c><00:02:18.750><c> retrieval</c><00:02:19.290><c> models</c><00:02:19.680><c> to</c><00:02:20.010><c> the</c></c>
+
+00:02:20.540 --> 00:02:20.550 align:start position:0%
+application of retrieval models to<c.colorE5E5E5> the
+ </c>
+
+00:02:20.550 --> 00:02:24.050 align:start position:0%
+application of retrieval models to<c.colorE5E5E5> the</c>
+<c.colorCCCCCC>and<00:02:20.760><c> text</c></c><c.colorE5E5E5><00:02:21.270><c> of</c><00:02:21.420><c> the</c><00:02:22.349><c> page</c></c><c.colorCCCCCC><00:02:22.560><c> like</c></c><c.colorE5E5E5><00:02:23.459><c> those</c><00:02:23.730><c> are</c><00:02:23.940><c> the</c></c>
+
+00:02:24.050 --> 00:02:24.060 align:start position:0%
+<c.colorCCCCCC>and text</c><c.colorE5E5E5> of the page</c><c.colorCCCCCC> like</c><c.colorE5E5E5> those are the
+ </c>
+
+00:02:24.060 --> 00:02:26.869 align:start position:0%
+<c.colorCCCCCC>and text</c><c.colorE5E5E5> of the page</c><c.colorCCCCCC> like</c><c.colorE5E5E5> those are the
+types<00:02:24.750><c> of</c><00:02:24.870><c> descriptions</c><00:02:25.440><c> of</c><00:02:25.769><c> links</c><00:02:26.190><c> that</c></c>
+
+00:02:26.869 --> 00:02:26.879 align:start position:0%
+types of<c.colorE5E5E5> descriptions of links that
+ </c>
+
+00:02:26.879 --> 00:02:30.320 align:start position:0%
+types of<c.colorE5E5E5> descriptions of links that
+point</c><c.colorCCCCCC><00:02:27.300><c> through</c><00:02:27.660><c> this</c><00:02:27.840><c> page</c></c><c.colorE5E5E5><00:02:28.580><c> so</c><00:02:29.580><c> these</c><00:02:29.730><c> can</c><00:02:30.120><c> all</c></c>
+
+00:02:30.320 --> 00:02:30.330 align:start position:0%
+point<c.colorCCCCCC> through this page</c><c.colorE5E5E5> so these can all
+ </c>
+
+00:02:30.330 --> 00:02:33.020 align:start position:0%
+point<c.colorCCCCCC> through this page</c><c.colorE5E5E5> so these can all
+be</c><c.colorCCCCCC><00:02:30.360><c> cruise</c></c><c.colorE5E5E5><00:02:30.870><c> about</c><00:02:31.349><c> whether</c><00:02:32.250><c> this</c><00:02:32.459><c> document</c></c><c.colorCCCCCC><00:02:32.610><c> is</c></c>
+
+00:02:33.020 --> 00:02:33.030 align:start position:0%
+be<c.colorCCCCCC> cruise</c><c.colorE5E5E5> about whether this document</c><c.colorCCCCCC> is
+ </c>
+
+00:02:33.030 --> 00:02:36.140 align:start position:0%
+be<c.colorCCCCCC> cruise</c><c.colorE5E5E5> about whether this document</c><c.colorCCCCCC> is
+relevant<00:02:33.269><c> or</c><00:02:33.660><c> not</c></c><c.colorE5E5E5><00:02:34.130><c> we</c><00:02:35.130><c> can</c></c><c.colorCCCCCC><00:02:35.370><c> even</c><00:02:35.670><c> include</c></c>
+
+00:02:36.140 --> 00:02:36.150 align:start position:0%
+relevant<c.colorCCCCCC> or not</c><c.colorE5E5E5> we can</c><c.colorCCCCCC> even include
+ </c>
+
+00:02:36.150 --> 00:02:41.839 align:start position:0%
+relevant<c.colorCCCCCC> or not</c><c.colorE5E5E5> we can</c><c.colorCCCCCC> even include
+features<00:02:36.989><c> such</c><00:02:37.470><c> as</c><00:02:38.090><c> whether</c><00:02:39.090><c> the</c><00:02:39.390><c> URL</c><00:02:40.370><c> has</c></c><c.colorE5E5E5><00:02:41.370><c> a</c></c>
+
+00:02:41.839 --> 00:02:41.849 align:start position:0%
+features<c.colorCCCCCC> such as whether the URL has</c><c.colorE5E5E5> a
+ </c>
+
+00:02:41.849 --> 00:02:44.300 align:start position:0%
+features<c.colorCCCCCC> such as whether the URL has</c><c.colorE5E5E5> a</c>
+<c.colorCCCCCC>tilde</c><c.colorE5E5E5><00:02:42.390><c> because</c><00:02:43.050><c> this</c><00:02:43.380><c> might</c><00:02:43.650><c> be</c><00:02:43.830><c> an</c><00:02:43.890><c> indicator</c></c>
+
+00:02:44.300 --> 00:02:44.310 align:start position:0%
+<c.colorCCCCCC>tilde</c><c.colorE5E5E5> because this might be an indicator
+ </c>
+
+00:02:44.310 --> 00:02:48.500 align:start position:0%
+<c.colorCCCCCC>tilde</c><c.colorE5E5E5> because this might be an indicator
+of</c><c.colorCCCCCC><00:02:44.580><c> home</c><00:02:45.450><c> page</c><00:02:45.720><c> or</c><00:02:46.019><c> engine</c><00:02:46.410><c> page</c><00:02:47.209><c> so</c><00:02:48.209><c> all</c><00:02:48.360><c> these</c></c>
+
+00:02:48.500 --> 00:02:48.510 align:start position:0%
+of<c.colorCCCCCC> home page or engine page so all these
+ </c>
+
+00:02:48.510 --> 00:02:50.420 align:start position:0%
+of<c.colorCCCCCC> home page or engine page so all these</c>
+<c.colorCCCCCC>features<00:02:48.930><c> can</c></c><c.colorE5E5E5><00:02:49.200><c> then</c><00:02:49.379><c> be</c><00:02:49.530><c> combined</c><00:02:50.099><c> together</c></c>
+
+00:02:50.420 --> 00:02:50.430 align:start position:0%
+<c.colorCCCCCC>features can</c><c.colorE5E5E5> then be combined together
+ </c>
+
+00:02:50.430 --> 00:02:52.250 align:start position:0%
+<c.colorCCCCCC>features can</c><c.colorE5E5E5> then be combined together
+to<00:02:50.819><c> generate</c></c><c.colorCCCCCC><00:02:51.060><c> the</c><00:02:51.360><c> ranking</c><00:02:51.720><c> function</c><00:02:52.080><c> the</c></c>
+
+00:02:52.250 --> 00:02:52.260 align:start position:0%
+to generate<c.colorCCCCCC> the ranking function the
+ </c>
+
+00:02:52.260 --> 00:02:54.170 align:start position:0%
+to generate<c.colorCCCCCC> the ranking function the
+question<00:02:52.590><c> is</c><00:02:52.739><c> of</c><00:02:52.920><c> course</c></c><c.colorE5E5E5><00:02:52.950><c> how</c><00:02:53.670><c> can</c><00:02:53.730><c> we</c><00:02:53.970><c> combine</c></c>
+
+00:02:54.170 --> 00:02:54.180 align:start position:0%
+question is of course<c.colorE5E5E5> how can we combine
+ </c>
+
+00:02:54.180 --> 00:02:56.479 align:start position:0%
+question is of course<c.colorE5E5E5> how can we combine</c>
+<c.colorE5E5E5>them<00:02:54.599><c> in</c><00:02:55.200><c> this</c><00:02:55.440><c> approach</c></c><c.colorCCCCCC><00:02:55.890><c> we</c><00:02:56.190><c> simply</c></c>
+
+00:02:56.479 --> 00:02:56.489 align:start position:0%
+<c.colorE5E5E5>them in this approach</c><c.colorCCCCCC> we simply
+ </c>
+
+00:02:56.489 --> 00:03:00.410 align:start position:0%
+<c.colorE5E5E5>them in this approach</c><c.colorCCCCCC> we simply
+hypothesize<00:02:57.299><c> that</c><00:02:58.310><c> the</c><00:02:59.310><c> probability</c><00:03:00.150><c> that</c></c>
+
+00:03:00.410 --> 00:03:00.420 align:start position:0%
+hypothesize that the probability that
+ 
+
+00:03:00.420 --> 00:03:02.660 align:start position:0%
+hypothesize that the probability that
+this<00:03:00.930><c> document</c><c.colorE5E5E5><00:03:01.380><c> isn't</c><00:03:01.709><c> relevant</c><00:03:01.920><c> to</c><00:03:02.310><c> this</c></c>
+
+00:03:02.660 --> 00:03:02.670 align:start position:0%
+this document<c.colorE5E5E5> isn't relevant to this
+ </c>
+
+00:03:02.670 --> 00:03:06.020 align:start position:0%
+this document<c.colorE5E5E5> isn't relevant to this
+query<00:03:03.440><c> is</c><00:03:04.440><c> a</c><00:03:04.500><c> function</c><00:03:05.160><c> of</c><00:03:05.579><c> all</c><00:03:05.880><c> these</c></c>
+
+00:03:06.020 --> 00:03:06.030 align:start position:0%
+<c.colorE5E5E5>query is a function of all these
+ </c>
+
+00:03:06.030 --> 00:03:12.400 align:start position:0%
+<c.colorE5E5E5>query is a function of all these
+features</c><c.colorCCCCCC><00:03:06.890><c> so</c><00:03:07.890><c> we</c><00:03:07.920><c> can</c><00:03:09.079><c> hypothesis</c><00:03:10.519><c> that</c><00:03:11.519><c> the</c></c>
+
+00:03:12.400 --> 00:03:12.410 align:start position:0%
+features<c.colorCCCCCC> so we can hypothesis that the
+ </c>
+
+00:03:12.410 --> 00:03:15.110 align:start position:0%
+features<c.colorCCCCCC> so we can hypothesis that the
+probability<00:03:13.410><c> of</c><00:03:13.440><c> relevance</c></c><c.colorE5E5E5><00:03:13.980><c> is</c><00:03:14.280><c> related</c><00:03:15.090><c> to</c></c>
+
+00:03:15.110 --> 00:03:15.120 align:start position:0%
+probability of relevance<c.colorE5E5E5> is related to
+ </c>
+
+00:03:15.120 --> 00:03:18.289 align:start position:0%
+probability of relevance<c.colorE5E5E5> is related to</c>
+<c.colorE5E5E5>these<00:03:15.510><c> features</c><00:03:15.989><c> through</c><00:03:16.890><c> a</c><00:03:17.130><c> particular</c><00:03:18.000><c> form</c></c>
+
+00:03:18.289 --> 00:03:18.299 align:start position:0%
+<c.colorE5E5E5>these features through a particular form
+ </c>
+
+00:03:18.299 --> 00:03:21.440 align:start position:0%
+<c.colorE5E5E5>these features through a particular form
+of</c><c.colorCCCCCC><00:03:18.420><c> the</c><00:03:18.930><c> function</c><00:03:19.380><c> that</c><00:03:19.980><c> has</c><00:03:20.310><c> some</c></c><c.colorE5E5E5><00:03:20.760><c> parameters</c></c>
+
+00:03:21.440 --> 00:03:21.450 align:start position:0%
+of<c.colorCCCCCC> the function that has some</c><c.colorE5E5E5> parameters
+ </c>
+
+00:03:21.450 --> 00:03:25.030 align:start position:0%
+of<c.colorCCCCCC> the function that has some</c><c.colorE5E5E5> parameters
+these<00:03:22.139><c> parameters</c></c><c.colorCCCCCC><00:03:22.829><c> can</c><00:03:23.670><c> control</c></c><c.colorE5E5E5><00:03:24.239><c> the</c></c>
+
+00:03:25.030 --> 00:03:25.040 align:start position:0%
+these parameters<c.colorCCCCCC> can control</c><c.colorE5E5E5> the
+ </c>
+
+00:03:25.040 --> 00:03:28.490 align:start position:0%
+these parameters<c.colorCCCCCC> can control</c><c.colorE5E5E5> the
+influence<00:03:26.040><c> of</c><00:03:26.280><c> different</c></c><c.colorCCCCCC><00:03:27.150><c> features</c></c><c.colorE5E5E5><00:03:27.750><c> the</c></c>
+
+00:03:28.490 --> 00:03:28.500 align:start position:0%
+influence of different<c.colorCCCCCC> features</c><c.colorE5E5E5> the
+ </c>
+
+00:03:28.500 --> 00:03:32.330 align:start position:0%
+influence of different<c.colorCCCCCC> features</c><c.colorE5E5E5> the
+final<00:03:29.010><c> relevance</c><00:03:30.470><c> this</c><00:03:31.470><c> is</c><00:03:31.680><c> of</c><00:03:31.829><c> course</c><00:03:32.040><c> just</c></c>
+
+00:03:32.330 --> 00:03:32.340 align:start position:0%
+final relevance this<c.colorE5E5E5> is of course just
+ </c>
+
+00:03:32.340 --> 00:03:34.670 align:start position:0%
+final relevance this<c.colorE5E5E5> is of course just</c>
+<c.colorCCCCCC>the<00:03:32.700><c> assumption</c><00:03:33.209><c> whether</c><00:03:33.930><c> this</c><00:03:34.139><c> assumption</c></c>
+
+00:03:34.670 --> 00:03:34.680 align:start position:0%
+<c.colorCCCCCC>the assumption whether this assumption
+ </c>
+
+00:03:34.680 --> 00:03:38.990 align:start position:0%
+<c.colorCCCCCC>the assumption whether this assumption
+really<00:03:35.250><c> makes</c><00:03:35.459><c> sense</c></c><c.colorE5E5E5><00:03:35.959><c> is</c><00:03:36.959><c> a</c><00:03:37.380><c> big</c><00:03:38.280><c> question</c></c><c.colorCCCCCC><00:03:38.459><c> and</c></c>
+
+00:03:38.990 --> 00:03:39.000 align:start position:0%
+really makes sense<c.colorE5E5E5> is a big question</c><c.colorCCCCCC> and
+ </c>
+
+00:03:39.000 --> 00:03:41.000 align:start position:0%
+really makes sense<c.colorE5E5E5> is a big question</c><c.colorCCCCCC> and
+well<00:03:39.150><c> so</c><00:03:39.329><c> they</c></c><c.colorE5E5E5><00:03:39.420><c> have</c><00:03:39.600><c> to</c><00:03:40.010><c> empirically</c></c>
+
+00:03:41.000 --> 00:03:41.010 align:start position:0%
+<c.colorCCCCCC>well so they</c><c.colorE5E5E5> have to empirically
+ </c>
+
+00:03:41.010 --> 00:03:46.430 align:start position:0%
+<c.colorCCCCCC>well so they</c><c.colorE5E5E5> have to empirically
+evaluate<00:03:42.139><c> the</c><00:03:43.139><c> function</c><00:03:44.090><c> but</c><00:03:45.090><c> by</c><00:03:46.049><c> high</c></c>
+
+00:03:46.430 --> 00:03:46.440 align:start position:0%
+evaluate the function but by high
+ 
+
+00:03:46.440 --> 00:03:50.120 align:start position:0%
+evaluate the function but by high
+<c.colorE5E5E5>profiling<00:03:47.069><c> that</c><00:03:48.079><c> relevance</c><00:03:49.079><c> is</c></c><c.colorCCCCCC><00:03:49.410><c> related</c><00:03:50.010><c> to</c></c>
+
+00:03:50.120 --> 00:03:50.130 align:start position:0%
+<c.colorE5E5E5>profiling that relevance is</c><c.colorCCCCCC> related to
+ </c>
+
+00:03:50.130 --> 00:03:52.670 align:start position:0%
+<c.colorE5E5E5>profiling that relevance is</c><c.colorCCCCCC> related to
+these<00:03:50.280><c> features</c><00:03:50.700><c> in</c><00:03:50.970><c> the</c><00:03:51.239><c> particular</c><00:03:51.510><c> way</c><00:03:51.870><c> we</c></c>
+
+00:03:52.670 --> 00:03:52.680 align:start position:0%
+these features in the particular<c.colorCCCCCC> way we
+ </c>
+
+00:03:52.680 --> 00:03:54.830 align:start position:0%
+these features in the particular<c.colorCCCCCC> way we
+can<00:03:52.920><c> then</c><00:03:53.190><c> combine</c><00:03:53.579><c> these</c><00:03:54.090><c> features</c><00:03:54.569><c> to</c></c>
+
+00:03:54.830 --> 00:03:54.840 align:start position:0%
+can then combine these features to
+ 
+
+00:03:54.840 --> 00:03:57.620 align:start position:0%
+can then combine these features to
+generate<00:03:55.319><c> a</c><c.colorCCCCCC><00:03:55.910><c> potentially</c><00:03:56.910><c> more</c><00:03:57.090><c> powerful</c></c>
+
+00:03:57.620 --> 00:03:57.630 align:start position:0%
+generate a<c.colorCCCCCC> potentially more powerful
+ </c>
+
+00:03:57.630 --> 00:03:59.569 align:start position:0%
+generate a<c.colorCCCCCC> potentially more powerful
+ranking<00:03:57.989><c> function</c><00:03:58.380><c> a</c><00:03:58.440><c> more</c><00:03:58.650><c> robust</c></c><c.colorE5E5E5><00:03:59.040><c> ranking</c></c>
+
+00:03:59.569 --> 00:03:59.579 align:start position:0%
+ranking function a more robust<c.colorE5E5E5> ranking
+ </c>
+
+00:03:59.579 --> 00:04:02.270 align:start position:0%
+ranking function a more robust<c.colorE5E5E5> ranking
+function<00:04:00.319><c> naturally</c><00:04:01.319><c> the</c><00:04:01.470><c> next</c><00:04:01.590><c> question</c><00:04:02.160><c> is</c></c>
+
+00:04:02.270 --> 00:04:02.280 align:start position:0%
+function naturally the next<c.colorE5E5E5> question is
+ </c>
+
+00:04:02.280 --> 00:04:05.210 align:start position:0%
+function naturally the next<c.colorE5E5E5> question is
+how<00:04:02.790><c> do</c><00:04:02.849><c> we</c><00:04:03.090><c> estimate</c><00:04:03.359><c> those</c><00:04:03.959><c> parameters</c><00:04:04.500><c> now</c></c>
+
+00:04:05.210 --> 00:04:05.220 align:start position:0%
+how do<c.colorE5E5E5> we estimate those parameters now
+ </c>
+
+00:04:05.220 --> 00:04:07.129 align:start position:0%
+how do<c.colorE5E5E5> we estimate those parameters now
+how<00:04:05.400><c> do</c><00:04:05.459><c> we</c><00:04:05.609><c> know</c><00:04:05.700><c> which</c><00:04:06.180><c> features</c></c><c.colorCCCCCC><00:04:06.840><c> we</c><00:04:06.989><c> should</c></c>
+
+00:04:07.129 --> 00:04:07.139 align:start position:0%
+how do we<c.colorE5E5E5> know which features</c><c.colorCCCCCC> we should
+ </c>
+
+00:04:07.139 --> 00:04:09.680 align:start position:0%
+how do we<c.colorE5E5E5> know which features</c><c.colorCCCCCC> we should
+have<00:04:07.380><c> a</c><00:04:07.769><c> higher</c><00:04:08.069><c> weight</c><00:04:08.370><c> and</c><00:04:08.790><c> which</c><00:04:09.150><c> features</c></c>
+
+00:04:09.680 --> 00:04:09.690 align:start position:0%
+have a higher weight and which features
+ 
+
+00:04:09.690 --> 00:04:11.420 align:start position:0%
+have a higher weight and which features
+you<00:04:09.840><c> have</c><c.colorCCCCCC><00:04:09.870><c> low</c><00:04:10.170><c> weight</c></c>
+
+00:04:11.420 --> 00:04:11.430 align:start position:0%
+you have<c.colorCCCCCC> low weight
+ </c>
+
+00:04:11.430 --> 00:04:13.849 align:start position:0%
+you have<c.colorCCCCCC> low weight</c>
+<c.colorE5E5E5>so<00:04:12.000><c> this</c><00:04:12.299><c> is</c><00:04:12.450><c> the</c><00:04:12.630><c> task</c><00:04:12.870><c> of</c><00:04:13.079><c> training</c><00:04:13.500><c> or</c></c>
+
+00:04:13.849 --> 00:04:13.859 align:start position:0%
+<c.colorE5E5E5>so this is the task of training or
+ </c>
+
+00:04:13.859 --> 00:04:17.000 align:start position:0%
+<c.colorE5E5E5>so this is the task of training or</c>
+<c.colorCCCCCC>learning<00:04:14.340><c> right</c><00:04:14.910><c> so</c><00:04:15.209><c> in</c><00:04:16.049><c> this</c><00:04:16.289><c> approach</c><00:04:16.680><c> what</c></c>
+
+00:04:17.000 --> 00:04:17.010 align:start position:0%
+<c.colorCCCCCC>learning right so in this approach what
+ </c>
+
+00:04:17.010 --> 00:04:19.190 align:start position:0%
+<c.colorCCCCCC>learning right so in this approach what</c>
+<c.colorE5E5E5>we<00:04:17.160><c> will</c><00:04:17.340><c> do</c><00:04:17.489><c> is</c><00:04:17.760><c> to</c><00:04:18.000><c> use</c><00:04:18.359><c> some</c><00:04:18.660><c> training</c><00:04:19.169><c> data</c></c>
+
+00:04:19.190 --> 00:04:19.200 align:start position:0%
+<c.colorE5E5E5>we will do is to use some training data
+ </c>
+
+00:04:19.200 --> 00:04:23.330 align:start position:0%
+<c.colorE5E5E5>we will do is to use some training data</c>
+<c.colorCCCCCC>those<00:04:20.099><c> are</c><00:04:20.340><c> the</c><00:04:20.459><c> data</c><00:04:21.139><c> that</c><00:04:22.310><c> have</c><00:04:23.310><c> been</c></c>
+
+00:04:23.330 --> 00:04:23.340 align:start position:0%
+<c.colorCCCCCC>those are the data that have been
+ </c>
+
+00:04:23.340 --> 00:04:25.670 align:start position:0%
+<c.colorCCCCCC>those are the data that have been</c>
+<c.colorE5E5E5>guarded<00:04:23.970><c> by</c><00:04:24.090><c> users</c><00:04:24.539><c> so</c></c><c.colorCCCCCC><00:04:24.840><c> that</c><00:04:25.020><c> we</c><00:04:25.169><c> already</c></c><c.colorE5E5E5><00:04:25.320><c> know</c></c>
+
+00:04:25.670 --> 00:04:25.680 align:start position:0%
+<c.colorE5E5E5>guarded by users so</c><c.colorCCCCCC> that we already</c><c.colorE5E5E5> know
+ </c>
+
+00:04:25.680 --> 00:04:26.780 align:start position:0%
+<c.colorE5E5E5>guarded by users so</c><c.colorCCCCCC> that we already</c><c.colorE5E5E5> know
+the<00:04:26.280><c> relevance</c></c>
+
+00:04:26.780 --> 00:04:26.790 align:start position:0%
+<c.colorE5E5E5>the relevance
+ </c>
+
+00:04:26.790 --> 00:04:28.610 align:start position:0%
+<c.colorE5E5E5>the relevance</c>
+<c.colorCCCCCC>Jasmin's</c><c.colorE5E5E5><00:04:27.240><c> we</c><00:04:27.450><c> already</c><00:04:27.780><c> know</c><00:04:27.900><c> which</c></c><c.colorCCCCCC><00:04:28.080><c> documents</c></c>
+
+00:04:28.610 --> 00:04:28.620 align:start position:0%
+<c.colorCCCCCC>Jasmin's</c><c.colorE5E5E5> we already know which</c><c.colorCCCCCC> documents
+ </c>
+
+00:04:28.620 --> 00:04:30.620 align:start position:0%
+<c.colorCCCCCC>Jasmin's</c><c.colorE5E5E5> we already know which</c><c.colorCCCCCC> documents
+should<00:04:28.740><c> be</c><00:04:28.800><c> rounded</c><00:04:29.220><c> high</c><00:04:29.370><c> for</c><00:04:30.120><c> which</c><00:04:30.300><c> queries</c></c>
+
+00:04:30.620 --> 00:04:30.630 align:start position:0%
+should be<c.colorCCCCCC> rounded high for which queries
+ </c>
+
+00:04:30.630 --> 00:04:33.410 align:start position:0%
+should be<c.colorCCCCCC> rounded high for which queries</c>
+<c.colorE5E5E5>and<00:04:31.080><c> this</c><00:04:31.740><c> thing</c><00:04:31.920><c> for</c></c><c.colorCCCCCC><00:04:32.070><c> missing</c><00:04:32.340><c> can</c><00:04:32.550><c> be</c><00:04:32.730><c> based</c></c>
+
+00:04:33.410 --> 00:04:33.420 align:start position:0%
+<c.colorE5E5E5>and this thing for</c><c.colorCCCCCC> missing can be based
+ </c>
+
+00:04:33.420 --> 00:04:38.000 align:start position:0%
+<c.colorE5E5E5>and this thing for</c><c.colorCCCCCC> missing can be based
+on<00:04:33.660><c> real</c><00:04:34.080><c> judgments</c><00:04:34.680><c> by</c><00:04:34.860><c> users</c><00:04:35.220><c> or</c><00:04:36.770><c> can</c><00:04:37.770><c> this</c></c>
+
+00:04:38.000 --> 00:04:38.010 align:start position:0%
+on real judgments by users or can this
+ 
+
+00:04:38.010 --> 00:04:40.100 align:start position:0%
+on real judgments by users or can this
+can<00:04:38.280><c> also</c><00:04:38.430><c> be</c><c.colorE5E5E5><00:04:38.520><c> approximated</c><00:04:39.480><c> by</c><00:04:39.510><c> just</c><00:04:39.930><c> using</c></c>
+
+00:04:40.100 --> 00:04:40.110 align:start position:0%
+can also be<c.colorE5E5E5> approximated by just using
+ </c>
+
+00:04:40.110 --> 00:04:43.130 align:start position:0%
+can also be<c.colorE5E5E5> approximated by just using
+click-through<00:04:40.970><c> information</c><00:04:41.970><c> where</c><00:04:42.840><c> we</c><00:04:42.870><c> can</c></c>
+
+00:04:43.130 --> 00:04:43.140 align:start position:0%
+click-through information where we<c.colorE5E5E5> can
+ </c>
+
+00:04:43.140 --> 00:04:45.430 align:start position:0%
+click-through information where we<c.colorE5E5E5> can
+assume<00:04:43.470><c> the</c><00:04:44.190><c> click</c><00:04:44.460><c> the</c><00:04:44.610><c> documents</c><00:04:45.150><c> are</c></c>
+
+00:04:45.430 --> 00:04:45.440 align:start position:0%
+assume the click the documents are
+ 
+
+00:04:45.440 --> 00:04:48.500 align:start position:0%
+assume the click the documents are
+better<00:04:46.440><c> than</c><00:04:46.710><c> the</c><00:04:47.460><c> skip</c><00:04:47.730><c> the</c><00:04:47.880><c> documents</c><c.colorE5E5E5><00:04:48.360><c> will</c></c>
+
+00:04:48.500 --> 00:04:48.510 align:start position:0%
+better than the skip the documents<c.colorE5E5E5> will
+ </c>
+
+00:04:48.510 --> 00:04:51.140 align:start position:0%
+better than the skip the documents<c.colorE5E5E5> will
+click<00:04:48.810><c> the</c></c><c.colorCCCCCC><00:04:48.960><c> documents</c><00:04:49.350><c> are</c><00:04:49.610><c> relevant</c><00:04:50.610><c> and</c><00:04:51.000><c> the</c></c>
+
+00:04:51.140 --> 00:04:51.150 align:start position:0%
+click the<c.colorCCCCCC> documents are relevant and the
+ </c>
+
+00:04:51.150 --> 00:04:53.690 align:start position:0%
+click the<c.colorCCCCCC> documents are relevant and the
+schema<00:04:51.450><c> documents</c><00:04:51.960><c> are</c><00:04:52.020><c> now</c><00:04:52.140><c> relevant</c><00:04:52.650><c> so</c><00:04:53.550><c> in</c></c>
+
+00:04:53.690 --> 00:04:53.700 align:start position:0%
+schema documents are now relevant so in
+ 
+
+00:04:53.700 --> 00:04:57.440 align:start position:0%
+schema documents are now relevant so in
+general<00:04:53.940><c> the</c><00:04:54.600><c> fit</c><00:04:54.870><c> such</c><00:04:55.590><c> a</c><c.colorE5E5E5><00:04:56.120><c> hypothesize</c></c><c.colorCCCCCC><00:04:57.120><c> the</c></c>
+
+00:04:57.440 --> 00:04:57.450 align:start position:0%
+general the fit such a<c.colorE5E5E5> hypothesize</c><c.colorCCCCCC> the
+ </c>
+
+00:04:57.450 --> 00:05:00.320 align:start position:0%
+general the fit such a<c.colorE5E5E5> hypothesize</c><c.colorCCCCCC> the
+ranking<00:04:57.960><c> function</c><00:04:58.490><c> through</c><00:04:59.490><c> the</c><00:04:59.640><c> training</c></c>
+
+00:05:00.320 --> 00:05:00.330 align:start position:0%
+ranking function through the training
+ 
+
+00:05:00.330 --> 00:05:02.060 align:start position:0%
+ranking function through the training
+data<c.colorE5E5E5><00:05:00.510><c> meaning</c><00:05:01.200><c> that</c><00:05:01.320><c> that</c><00:05:01.560><c> we</c><00:05:01.710><c> will</c><00:05:01.830><c> try</c><00:05:02.040><c> to</c></c>
+
+00:05:02.060 --> 00:05:02.070 align:start position:0%
+data<c.colorE5E5E5> meaning that that we will try to
+ </c>
+
+00:05:02.070 --> 00:05:04.610 align:start position:0%
+data<c.colorE5E5E5> meaning that that we will try to</c>
+<c.colorCCCCCC>optimize<00:05:02.820><c> its</c><00:05:03.210><c> retrieval</c></c><c.colorE5E5E5><00:05:03.660><c> accuracy</c><00:05:04.350><c> on</c><00:05:04.560><c> the</c></c>
+
+00:05:04.610 --> 00:05:04.620 align:start position:0%
+<c.colorCCCCCC>optimize its retrieval</c><c.colorE5E5E5> accuracy on the
+ </c>
+
+00:05:04.620 --> 00:05:07.640 align:start position:0%
+<c.colorCCCCCC>optimize its retrieval</c><c.colorE5E5E5> accuracy on the</c>
+<c.colorE5E5E5>training<00:05:05.490><c> data</c><00:05:05.730><c> and</c><00:05:06.180><c> we</c></c><c.colorCCCCCC><00:05:06.900><c> have</c><00:05:07.080><c> just</c></c><c.colorE5E5E5><00:05:07.320><c> these</c></c>
+
+00:05:07.640 --> 00:05:07.650 align:start position:0%
+<c.colorE5E5E5>training data and we</c><c.colorCCCCCC> have just</c><c.colorE5E5E5> these
+ </c>
+
+00:05:07.650 --> 00:05:10.900 align:start position:0%
+<c.colorE5E5E5>training data and we</c><c.colorCCCCCC> have just</c><c.colorE5E5E5> these
+parameters<00:05:08.310><c> to</c><00:05:08.550><c> see</c><00:05:09.110><c> how</c><00:05:10.110><c> we</c><00:05:10.170><c> can</c><00:05:10.560><c> optimize</c></c>
+
+00:05:10.900 --> 00:05:10.910 align:start position:0%
+parameters<c.colorE5E5E5> to see how we can optimize
+ </c>
+
+00:05:10.910 --> 00:05:14.150 align:start position:0%
+parameters<c.colorE5E5E5> to see how we can optimize</c>
+<c.colorE5E5E5>the<00:05:11.910><c> performance</c><00:05:12.660><c> of</c><00:05:13.200><c> the</c><00:05:13.410><c> function</c><00:05:13.800><c> on</c></c><c.colorCCCCCC><00:05:14.010><c> the</c></c>
+
+00:05:14.150 --> 00:05:14.160 align:start position:0%
+<c.colorE5E5E5>the performance of the function on</c><c.colorCCCCCC> the
+ </c>
+
+00:05:14.160 --> 00:05:17.600 align:start position:0%
+<c.colorE5E5E5>the performance of the function on</c><c.colorCCCCCC> the
+training<00:05:14.400><c> data</c><00:05:14.990><c> in</c><00:05:15.990><c> terms</c><00:05:16.320><c> of</c><00:05:16.590><c> some</c><00:05:17.190><c> measures</c></c>
+
+00:05:17.600 --> 00:05:17.610 align:start position:0%
+training data in terms of some measures
+ 
+
+00:05:17.610 --> 00:05:21.140 align:start position:0%
+training data in terms of some measures
+such<00:05:17.820><c> as</c><00:05:17.970><c> map</c><00:05:18.360><c> or</c><c.colorCCCCCC><00:05:18.690><c> NDC</c><00:05:19.200><c> team</c><00:05:19.700><c> so</c><00:05:20.700><c> the</c><00:05:20.880><c> training</c></c>
+
+00:05:21.140 --> 00:05:21.150 align:start position:0%
+such as map or<c.colorCCCCCC> NDC team so the training
+ </c>
+
+00:05:21.150 --> 00:05:24.130 align:start position:0%
+such as map or<c.colorCCCCCC> NDC team so the training</c>
+<c.colorE5E5E5>that<00:05:21.420><c> I</c><00:05:21.450><c> would</c><00:05:21.690><c> look</c></c><c.colorCCCCCC><00:05:21.930><c> like</c><00:05:22.140><c> a</c><00:05:22.740><c> table</c></c><c.colorE5E5E5><00:05:23.340><c> of</c><00:05:23.730><c> him</c></c>
+
+00:05:24.130 --> 00:05:24.140 align:start position:0%
+<c.colorE5E5E5>that I would look</c><c.colorCCCCCC> like a table</c><c.colorE5E5E5> of him
+ </c>
+
+00:05:24.140 --> 00:05:29.750 align:start position:0%
+<c.colorE5E5E5>that I would look</c><c.colorCCCCCC> like a table</c><c.colorE5E5E5> of him</c>
+<c.colorCCCCCC>tuples<00:05:25.140><c> H</c></c><c.colorE5E5E5><00:05:25.470><c> taco</c></c><c.colorCCCCCC><00:05:25.980><c> it</c><00:05:26.910><c> has</c><00:05:27.650><c> three</c><00:05:28.650><c> elements</c></c><c.colorE5E5E5><00:05:29.310><c> the</c></c>
+
+00:05:29.750 --> 00:05:29.760 align:start position:0%
+<c.colorCCCCCC>tuples H</c><c.colorE5E5E5> taco</c><c.colorCCCCCC> it has three elements</c><c.colorE5E5E5> the
+ </c>
+
+00:05:29.760 --> 00:05:32.870 align:start position:0%
+<c.colorCCCCCC>tuples H</c><c.colorE5E5E5> taco</c><c.colorCCCCCC> it has three elements</c><c.colorE5E5E5> the
+query<00:05:30.090><c> of</c><00:05:30.240><c> the</c><00:05:30.270><c> document</c><00:05:30.840><c> and</c><00:05:31.110><c> a</c><00:05:31.410><c> gentleman</c><00:05:31.890><c> so</c></c>
+
+00:05:32.870 --> 00:05:32.880 align:start position:0%
+query<c.colorE5E5E5> of the document and a gentleman so
+ </c>
+
+00:05:32.880 --> 00:05:34.760 align:start position:0%
+query<c.colorE5E5E5> of the document and a gentleman so
+it<00:05:33.060><c> looks</c></c><c.colorCCCCCC><00:05:33.420><c> very</c></c><c.colorE5E5E5><00:05:33.720><c> much</c><00:05:33.870><c> like</c><00:05:33.900><c> our</c><00:05:34.290><c> relevance</c></c>
+
+00:05:34.760 --> 00:05:34.770 align:start position:0%
+it looks<c.colorCCCCCC> very</c><c.colorE5E5E5> much like our relevance
+ </c>
+
+00:05:34.770 --> 00:05:38.180 align:start position:0%
+it looks<c.colorCCCCCC> very</c><c.colorE5E5E5> much like our relevance
+judgment<00:05:35.660><c> that</c><00:05:36.660><c> we</c><00:05:36.930><c> talked</c><00:05:37.770><c> about</c><00:05:37.920><c> the</c></c>
+
+00:05:38.180 --> 00:05:38.190 align:start position:0%
+judgment that we talked<c.colorE5E5E5> about the
+ </c>
+
+00:05:38.190 --> 00:05:47.370 align:start position:0%
+judgment that we talked<c.colorE5E5E5> about the
+evaluation</c><c.colorCCCCCC><00:05:38.640><c> of</c><00:05:39.260><c> retrieval</c><00:05:40.260><c> systems</c></c>
+
+00:05:47.370 --> 00:05:47.380 align:start position:0%
+ 
+ 
+
+00:05:47.380 --> 00:05:49.440 align:start position:0%
+ 
+<c.colorE5E5E5>you</c>
+
