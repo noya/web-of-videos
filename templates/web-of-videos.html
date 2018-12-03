@@ -71,23 +71,28 @@
 	  var url = "";
 	  var prev_idx = -1;
 	  var result_json;
+	  var total_segments = 5;
+	  var prev_segment_idx = -1;
+	  var segment_idx = -1;
 	  
 	  function onPlayerStateChange(event) {
 		if (event.data != -1) {
 			//var time = player.getCurrentTime();
-			//console.log(time);
+			var video_frac = player.getVideoLoadedFraction()
+			segment_idx = Math.round(total_segments * video_frac)
+			console.log(video_frac);
 			url = player.getVideoUrl()
-			videoInfo = JSON.stringify({"url" : url})
+			videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments})
 	        console.log(url);
 	        //$(".sidebar .padded").text(url);
 			//$(".sidebar .padded").text(time);
-			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }}; // define globally?
 			console.log("root" + $SCRIPT_ROOT)
 
             
 		}
 		
-		if (player.getPlaylistIndex() != prev_idx) {
+		if (player.getPlaylistIndex() != prev_idx | prev_segment_idx != segment_idx) {
     		console.log("idx=" + player.getPlaylistIndex())
     		console.log("prev_idx=" + prev_idx)
     		
@@ -101,6 +106,7 @@
                 success : function(result){  // on success get the return object from server
                     $sidebarLinks = $("#sidebarLinks");
                     $sidebarLinks.empty();
+                    console.log(result)
                     for(var i = 0, len = result.result.length; i < len; ++i) {
                         var curResult = result.result[i];
                         $sidebarLinks.append("<div>" +
@@ -117,6 +123,7 @@
                 }
             });
             prev_idx = player.getPlaylistIndex()
+            prev_segment_idx = segment_idx
 		}
 		//console.log(event.data)
 	  }

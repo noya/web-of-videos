@@ -15,7 +15,7 @@ import subprocess
 import json
 import warnings
 import sys
-
+import webvtt
 
 ##################################################
 # helper functions for downloading course data
@@ -374,6 +374,7 @@ def merge_course_data(full_prefix, dir_name, file_list, overwrite=True):
     
     assert(corpus_cnt == metadata_cnt)
     
+
 if __name__ == '__main__':  
     
     curr_dir = os.getcwd()
@@ -432,10 +433,3 @@ if __name__ == '__main__':
     # test merged file
     test_metapy_files("", "merge")
     
-    # read en.vtt and use it to create sub categories
-#    import webvtt
-#
-#    for caption in webvtt.read('captions.vtt'):
-#        print(caption.start)
-#        print(caption.end)
-#        print(caption.text)
