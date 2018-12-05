@@ -9,7 +9,7 @@ import metapy
 import re
 import os
 import webvtt
-    
+import math
     
 def load_naive_question(txt_fwd_idx, doc_id):
     """ The naive question simply uses the lecture titles to search for matching videos
@@ -79,7 +79,7 @@ def get_related_url(fwd_idx, inv_idx, query, num_results):
     bm25 = metapy.index.OkapiBM25(k3 = 600)
     rocchio = metapy.index.Rocchio(fwd_idx, bm25)
     top_docs = rocchio.score(inv_idx, query, num_results=num_results)
-    #top_docs = bm25.score(inv_idx, query, num_results=num_results)
+
     results = []
     for num, (d_id, score) in enumerate(top_docs):
         d = {
@@ -87,7 +87,6 @@ def get_related_url(fwd_idx, inv_idx, query, num_results):
             'url': fwd_idx.metadata(d_id).get('url')
         }
         print(d)
-        #print ("{}\t{}..\n".format(fwd_idx.metadata(d_id).get('title'), fwd_idx.metadata(d_id).get('url')))
         results.append(d)
         
         
@@ -97,7 +96,6 @@ def make_index(config):
     """
     config - the config.toml file that specifies dataset
     """
-    #print("in make indx", os.getcwd())
     fwd_idx = metapy.index.make_forward_index(config)
     inv_idx = metapy.index.make_inverted_index(config)
     
@@ -121,10 +119,21 @@ def get_sec(vtt_time):
     total_sec = int(hour) * 60 * 60 + int(minute) * 60 + float(sec)
     return total_sec
     
-def load_question(txt_fwd_idx, doc_id, total_segments, segment_idx):
+def get_cnt(element):
+    return element[1]
+
+def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, title_mult = 1, num_terms = 10):
     """
     Args:
-        time - fraction between 0 ~ 1, value retrieved by function player.getVideoLoadedFraction()
+        txt_fwd_idx
+        inv_idx
+        doc_id
+        total_segments
+        segment_idx
+        title_mult
+        num_terms
+    Returns:
+        query
     """
     assert (segment_idx < total_segments)
     assert (segment_idx >= 0)
@@ -138,19 +147,40 @@ def load_question(txt_fwd_idx, doc_id, total_segments, segment_idx):
     start_idx = vtt_per_segment * segment_idx
     end_idx = start_idx + vtt_per_segment - 1
     
-    content = proc_title(txt_fwd_idx.metadata(doc_id).get('title'))
+    title = proc_title(txt_fwd_idx.metadata(doc_id).get('title')) 
+    content = title * title_mult
     
     for idx in range(start_idx, end_idx, 3):
-        #print(idx)
-        #print(fh[idx].text)
-        content = content + fh[idx].text
+        content = content + ' ' +  fh[idx].text
         
-    
     # increment 5
-    query = metapy.index.Document()
-    query.content(content)
+    doc = metapy.index.Document()
+    doc.content(content)
 
+    # tokenize query
+    qvec = txt_fwd_idx.tokenize(doc)
     
+    qvec_list = []
+    
+    for term_id, term_cnt in qvec:
+        term = txt_fwd_idx.term_text(term_id)
+        inv_term_id = inv_idx.get_term_id(term)
+        doc_freq = inv_idx.doc_freq(inv_term_id)
+        qvec_list.append((term, term_cnt * math.log(inv_idx.num_docs()/doc_freq)))
+        #print (txt_fwd_idx.term_text(term_id), term_cnt * math.log(inv_idx.num_docs()/doc_freq))
+        
+    qvec_list.sort(reverse=True, key=get_cnt)
+    
+    query_content = ""
+    
+    for idx in range(0, num_terms):
+        term, cnt = qvec_list[idx]
+        query_content = query_content + ' ' + term
+        
+            
+    query_mod_content = re.sub(r'_', r' ', query_content)
+    query = metapy.index.Document()
+    query.content(query_mod_content)
     return query
     
     
@@ -167,20 +197,27 @@ def get_wov(url, segment_idx, total_segments):
     doc_id = get_docid(videoid_to_docid, video_id)
     
     # get query from index
-    query = load_question(txt_fwd_idx, doc_id, total_segments, segment_idx)
-    print(query.content())
-    
+    query = load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx)
+
     # find video matches
-    video_matches = get_related_url(fwd_idx, inv_idx, query, num_results=10)
+    related_videos = get_related_url(fwd_idx, inv_idx, query, num_results=10)
+    
+    result = {}
+    result['related_videos'] = related_videos
+    result['query'] = query.content()
 #    for doc_id in video_matches:
 #        print(fwd_idx.metadata(doc_id).get('title'), fwd_idx.metadata(doc_id).get('url'))
-    return video_matches
+    return result
 
 def get_test():
     return "happy string\n"
 
 if __name__ == '__main__':  
-    url = 'https://www.youtube.com/watch?v=uzYxh7iGCIM&index=5&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO'
+    url = 'https://www.youtube.com/watch?v=IOgznBexyD0&index=24&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO'
+    #url = 'https://www.youtube.com/watch?v=uzYxh7iGCIM&index=5&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO'
     #url = 'https://www.youtube.com/watch?v=z4UbVNRnZM4&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO&index=22'
+    total_segments = 5
+    segment_idx = 1
     results = get_wov(url, 1, 5)
+    print("query:", results['query'])
     

@@ -12,7 +12,7 @@
 			<div id="player"></div>
 		</div>
 		<div class="padded">
-			Description and stuff;
+			
 			
 		</div>
 	</div>
@@ -34,11 +34,6 @@
       var firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
       
-
-	  // Get the video id
-	  //var videoId = getUrlParameter("v");
-	  // 3. This function creates an <iframe> (and YouTube player)
-	  //    after the API code downloads.
 	  var player;
 	  
 	  function onYouTubeIframeAPIReady() {
@@ -74,22 +69,17 @@
 	  var total_segments = 5;
 	  var prev_segment_idx = -1;
 	  var segment_idx = -1;
+	  var videoInfo = {};
+	  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }}; // define globally?
 	  
 	  function onPlayerStateChange(event) {
 		if (event.data != -1) {
-			//var time = player.getCurrentTime();
 			var video_frac = player.getVideoLoadedFraction()
 			segment_idx = Math.round(total_segments * video_frac)
 			console.log(video_frac);
 			url = player.getVideoUrl()
 			videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments})
-	        console.log(url);
-	        //$(".sidebar .padded").text(url);
-			//$(".sidebar .padded").text(time);
-			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }}; // define globally?
-			console.log("root" + $SCRIPT_ROOT)
-
-            
+	       
 		}
 		
 		if (player.getPlaylistIndex() != prev_idx | prev_segment_idx != segment_idx) {
@@ -101,8 +91,6 @@
                 type: 'POST',
                 data: videoInfo,
                 headers : {"Content-Type": "application/json"},
-                //contentType: "application/json; charset=utf-8",
-                //dataType: "json",
                 success : function(result){  // on success get the return object from server
                     $sidebarLinks = $("#sidebarLinks");
                     $sidebarLinks.empty();
@@ -115,19 +103,20 @@
                             "</a>" +
                         "</div>");
                     }
-                    //$(".sidebar .padded").text("returned=" + result_json);
                 },
                 error: function(error) {
                     console.log("nothing returned")
                     console.log(error);
                 }
             });
-            prev_idx = player.getPlaylistIndex()
-            prev_segment_idx = segment_idx
+            prev_idx = player.getPlaylistIndex();
+            prev_segment_idx = segment_idx;
+    		}
 		}
-		//console.log(event.data)
-	  }
 
+    function updateRelatedVideos() {
+    }
+    
 
     </script>
   </body>
