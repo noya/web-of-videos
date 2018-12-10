@@ -9,7 +9,6 @@ application = app
 
 @app.route('/')
 def show_wov():
-    #return "hello world\n"
     return render_template('web-of-videos.html')
     
 @app.route('/getSimVideos', methods=['POST', 'GET'])
@@ -18,12 +17,12 @@ def getSimVideos():
         url = "none"
         segment_idx = ""
         total_segments = ""
+        
         try:
             url = request.json['url']
             segment_idx = request.json['segment_idx']
             total_segments = request.json['total_segments']
-            #result = wovpy.get_test()
-            #return jsonify(result=result)
+
         except:
             print ("unexpected error:", sys.exc_info()[0])
             return "url is not a valid key??bad error"
@@ -32,9 +31,7 @@ def getSimVideos():
             # build indexes 
              
             video_matches = check_output(["python", "web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
-            #video_matches = wovpy.get_wov(url, segment_idx, total_segments) #check_output(["python", "web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
 
-            #video_matches = results.decode("utf-8")
             print("matches", video_matches)
             video_dl = [
                     {

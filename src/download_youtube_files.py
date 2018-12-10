@@ -14,8 +14,6 @@ import metapy
 import subprocess
 import json
 import warnings
-import sys
-import webvtt
 
 ##################################################
 # helper functions for downloading course data
@@ -174,6 +172,11 @@ def download_subtitles(dir_name, playlist_name):
     os.chdir(prev_dir)
     
 def test_idx(config_name):
+    """
+    test the idx is generated correctly
+    Args:
+        config_name - name of the config file
+    """
     # load config.file
     fwd_idx = metapy.index.make_forward_index(config_name)
     
@@ -247,7 +250,6 @@ def write_metapy_files(path, prefix):
     Returns:
         None
     """
-    curr_dir = os.getcwd()
     
     # get youtube json files and subtitle files
     jsons = glob.glob(path + "/*.json")
@@ -297,6 +299,20 @@ def write_metapy_files(path, prefix):
     
         
 def get_course_data(dir_name, playlist_name, skip_download=False):
+    """
+    Create a directory for specified playlist. If the directory already exists it will 
+    continue to use the existing repo to download contents. The directory will contain english 
+    transcripts and metadata such as video title, path to the transcripts, 
+    video id, and video description
+    
+    Args:
+        dir_name - directory name that contains the playlist information
+        playlist_name - video playlist name
+        skip_download - if set to true will skip downloading the video json file and transcripts.
+           and generate the metadata using the existing content in the directory
+    Returns:
+        None
+    """
     prev_dir = os.getcwd()
     os.chdir("data")
     if not os.path.exists(dir_name):
@@ -318,7 +334,15 @@ def file_len(file_name):
     return int(result.strip().split()[0])
 
 def append_file(full_corpus, file_list, postfix, overwrite):
-    """ Append new file content to filename"""
+    """ Loop through list of text files and append the contents in one file
+    Args:
+        full_corpus - the file that aggregates all file contents
+        file_list - a list of file names
+        postfix - postfix to specify file name and file type
+        overwrite - If set to true with overwrite contents in full_corpus
+    Return:
+        line_cnt - total number of lines written
+    """
     # open corpus file for writing
     opts = "w"
     if not overwrite:

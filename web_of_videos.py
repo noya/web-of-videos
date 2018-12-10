@@ -7,7 +7,6 @@ Created on Thu Nov  1 19:23:22 2018
 
 import metapy
 import re
-import os
 import webvtt
 import math
     
@@ -15,14 +14,13 @@ def load_naive_question(txt_fwd_idx, doc_id):
     """ The naive question simply uses the lecture titles to search for matching videos
     The next steps will be to use lecture descriptions or even lecture transcripts for query
     Args:
-        idx - uiuc text info document index
+        txt_fwd_idx - uiuc text info document index
         doc_id - document id, matches with lecture number
     Returns:
         query
     """
     query = metapy.index.Document()
     title = txt_fwd_idx.metadata(doc_id).get('title')
-    #description = txt_fwd_idx.metadata(doc_id).get('description')
     
     query_content = re.sub(r'(-|\. | \|)', r' ', title)
     query.content(query_content)
@@ -33,7 +31,8 @@ def get_docid(videoid_to_docid, video_id):
     """
     Given the video id, return the document ID in the index 
     Args:
-        video_id - the unique video id the youtube uses to identify videos
+        videoid_to_docid - A mapping of UIUC playlist's video ids to doc_id 
+        video_id - unique video id the youtube uses to identify videos
     Returns:
         doc_id - the document id in the index list
     """
@@ -43,6 +42,13 @@ def get_docid(videoid_to_docid, video_id):
     return videoid_to_docid[video_id]
 
 def get_videoid(url):
+    """
+    Given a youtube URL, retrieve the video id
+    Args:
+        url - youtube url 
+    Returns:
+        video_id -  unique video id the youtube uses to identify videos
+    """
     video_id = re.sub(r'https://www.youtube.com/.*v=(\S+).*', r'\1', url)
     video_id = re.sub(r'&list=\S+.*', r'', video_id)
     video_id = re.sub(r'&index=\S+.*', r'', video_id)
@@ -50,7 +56,11 @@ def get_videoid(url):
 
 def create_videoid_to_docid(txt_fwd_idx):
     """
-    Create video_id to doc_id map
+    Create video_id to doc_id map with the UIUC's video playlist
+    Args:
+        txt_fwd_idx - UIUC's forwraded index
+    Returns:
+        mapping of video id to doc id
     """
     videoid_to_docid = {}
     
@@ -63,17 +73,26 @@ def create_videoid_to_docid(txt_fwd_idx):
         
     
 def proc_title(title):
+    """
+    Given a string, replace all the '-' with space
+    Args:
+        title - video title
+    Returns:
+        proc_title - processed title, replaced '-' with spaces
+    """
     proc_title = re.sub(r'-', r' ', title)
     return proc_title
     
 def get_related_url(fwd_idx, inv_idx, query, num_results):
     """
-    find url similar to query from corpus
+    find similar videos similar 
     Args:
-        fwd_idx: corpus's forward index
-        inv_idx: corpus's inverse index
+        fwd_idx - corpus's forward index
+        inv_idx - corpus's inverse index
+        query - query to retrieve similar videos
+        num_results - number of similar videos the function should retrieve
     Return:
-        list of document ids
+        results - list of video title and urls
     """
     # find ranker
     bm25 = metapy.index.OkapiBM25(k3 = 600)
@@ -94,7 +113,12 @@ def get_related_url(fwd_idx, inv_idx, query, num_results):
         
 def make_index(config):
     """
-    config - the config.toml file that specifies dataset
+    Given a config file, make forward and inverted index
+    Args:
+        config - the config.toml file that specifies dataset
+    Returns:
+        fwd_idx - forwarded index
+        inv_idx - inverted index
     """
     fwd_idx = metapy.index.make_forward_index(config)
     inv_idx = metapy.index.make_inverted_index(config)
@@ -103,7 +127,8 @@ def make_index(config):
 
 
 def get_sec(vtt_time):
-    
+    """
+    """
     # retrieve seconds
     sec_pos = vtt_time.rfind(':')
     sec = vtt_time[sec_pos + 1 : len(vtt_time)-1]
@@ -124,16 +149,18 @@ def get_cnt(element):
 
 def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, title_mult = 1, num_terms = 10):
     """
+    Use the current playing video to generate query. The query is generated using a segment of the video's content.
+    The particular segment is identified by the video playing progress. 
     Args:
-        txt_fwd_idx
-        inv_idx
-        doc_id
-        total_segments
-        segment_idx
-        title_mult
-        num_terms
+        txt_fwd_idx - UIUC's farwarded index
+        inv_idx - Corpus's inverse index
+        doc_id - the doc_id of the current playing video 
+        total_segments - total number of segments we want to partition the video 
+        segment_idx - segment index of the current video
+        title_mult - title multiplier. Determines how much weight we should place on the title. 
+        num_terms - limit the number of terms we want to fit in a query
     Returns:
-        query
+        query - the video query vector
     """
     assert (segment_idx < total_segments)
     assert (segment_idx >= 0)
@@ -141,43 +168,51 @@ def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, tit
     envtt_path = txt_fwd_idx.metadata(doc_id).get('path')
     fh = webvtt.read(envtt_path)
     
-    # probably should cover > 5 sec
+    # calculate how many vtts per segment
     vtt_per_segment = round(len(fh) / total_segments)
 
+    # calculate the start and end vtt (video transcript) index for segment of interest
     start_idx = vtt_per_segment * segment_idx
     end_idx = start_idx + vtt_per_segment - 1
     
+    # retrieve current video title
     title = proc_title(txt_fwd_idx.metadata(doc_id).get('title')) 
     content = title * title_mult
     
+    # retrieve vtt content from the segment in interest
     for idx in range(start_idx, end_idx, 3):
         content = content + ' ' +  fh[idx].text
         
-    # increment 5
+    # Generate query vector using video segment content
     doc = metapy.index.Document()
     doc.content(content)
 
     # tokenize query
     qvec = txt_fwd_idx.tokenize(doc)
     
+    # use inverse document frequency to weed out unimportant words
     qvec_list = []
     
     for term_id, term_cnt in qvec:
         term = txt_fwd_idx.term_text(term_id)
         inv_term_id = inv_idx.get_term_id(term)
         doc_freq = inv_idx.doc_freq(inv_term_id)
-        qvec_list.append((term, term_cnt * math.log(inv_idx.num_docs()/doc_freq)))
-        #print (txt_fwd_idx.term_text(term_id), term_cnt * math.log(inv_idx.num_docs()/doc_freq))
-        
+        # todo: check for edge cases when doc_freq = 0
+        qvec_list.append((term, term_cnt * math.log((inv_idx.num_docs() + 1)/doc_freq)))
+ 
+    # sort all the query vectors using c(w, d) * log(M/df)
     qvec_list.sort(reverse=True, key=get_cnt)
     
+    # only use the top terms in the query
+    # the number of terms is specified by num_terms
     query_content = ""
     
     for idx in range(0, num_terms):
         term, cnt = qvec_list[idx]
         query_content = query_content + ' ' + term
         
-            
+    # generate query
+    # todo: redudant step? already transformed title
     query_mod_content = re.sub(r'_', r' ', query_content)
     query = metapy.index.Document()
     query.content(query_mod_content)
@@ -185,39 +220,45 @@ def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, tit
     
     
 def get_wov(url, segment_idx, total_segments):
+    """
+    Use a video's url and it's playing progress, find similar videos. 
+    Args:
+        url - video url
+        segment_idx - Use segment_idx to represent video's playing progress. Say there are 5 segments, 
+                      then segment_idx = 1 represents the video has been playing for 20%
+        total_segments - total number of segments to partition the video
+    """
     text_config = 'uiuc-textinfo-config.toml'
     corpus_config = 'config.toml'
 
     # build indexes 
     fwd_idx, inv_idx = make_index(corpus_config)
     txt_fwd_idx, txt_inv_idx = make_index(text_config)
+    
+    # get videoid to docid mapping
     videoid_to_docid = create_videoid_to_docid(txt_fwd_idx)
 
+    # get video's corresponding video_id and doc_id
     video_id = get_videoid(url)
     doc_id = get_docid(videoid_to_docid, video_id)
     
     # get query from index
     query = load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx)
 
-    # find video matches
+    # find videos using query
     related_videos = get_related_url(fwd_idx, inv_idx, query, num_results=10)
     
     result = {}
     result['related_videos'] = related_videos
     result['query'] = query.content()
-#    for doc_id in video_matches:
-#        print(fwd_idx.metadata(doc_id).get('title'), fwd_idx.metadata(doc_id).get('url'))
     return result
 
-def get_test():
-    return "happy string\n"
 
 if __name__ == '__main__':  
     url = 'https://www.youtube.com/watch?v=IOgznBexyD0&index=24&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO'
-    #url = 'https://www.youtube.com/watch?v=uzYxh7iGCIM&index=5&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO'
-    #url = 'https://www.youtube.com/watch?v=z4UbVNRnZM4&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO&index=22'
     total_segments = 5
     segment_idx = 1
+    #print("query:", results['query'])
     results = get_wov(url, 1, 5)
-    print("query:", results['query'])
+    
     

@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	<title>Web of Videos</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<!--script src="web-of-videos.js"></script-->
-	<!--link rel="stylesheet" href="styles.css"-->
-  </head>
-  <body>
-	<div class="main-content">
-		<div class="padded">
-			<div id="player"></div>
-		</div>
-		<div class="padded">
-			
-			
-		</div>
-	</div>
-	<div class="sidebar">
-		<div class="padded">
-    		<div id="sidebarLinks">
-    		</div>
-		</div>
-	</div>
-  
-    
-
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
+   <head>
+      <title>Web of Videos</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	  <!--link rel="stylesheet" href="styles.css"-->
+   </head>
+   <body>
+      <div class="main-content">
+      <div class="padded">
+      <div id="player"></div>
+      </div>
+      <div class="padded">
+      </div>
+      </div>
+      <div class="sidebar">
+      <div class="padded">
+      <div id="sidebarLinks">
+      </div>
+      </div>
+      </div>
+   <script>
+      // This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
@@ -38,85 +32,114 @@
 	  
 	  function onYouTubeIframeAPIReady() {
                 
-		player = new YT.Player('player', {
-		  height: '390',
-		  width: '640',
-		  //videoId: videoId,
-		  playerVars :{
-		      listType : 'playlist',
-		      list: 'PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO',
-		      autoplay : 1
-		  },
-		  events: {
-			'onReady': onPlayerReady,
-			'onStateChange': onPlayerStateChange,
-		  },
-		});
-	  }
+	     player = new YT.Player('player', {
+		    height: '390',
+    		width: '640',
+		    playerVars :{
+    		   listType : 'playlist',
+               list: 'PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO',
+		       autoplay : 1
+		    },
+    		events: {
+    		   'onReady': onPlayerReady,
+    			'onStateChange': onPlayerStateChange,
+            },
+         });
+      }
 
-	  // 4. The API will call this function when the video player is ready.
+	  // The API will call this function when the video player is ready.
 	  function onPlayerReady(event) {
-		event.target.playVideo();
+	     event.target.playVideo();
+	     updateRelatedVideos();
 	  }
 
 	  // 5. The API calls this function when the player's state changes.
 	  //    The function indicates that when playing a video (state=1),
 	  //    the player should play for six seconds and then stop.
 	  
-	  var url = "";
-	  var prev_idx = -1;
-	  var result_json;
+	  var prev_video_idx = -1;
 	  var total_segments = 5;
 	  var prev_segment_idx = -1;
-	  var segment_idx = -1;
-	  var videoInfo = {};
-	  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }}; // define globally?
-	  
-	  function onPlayerStateChange(event) {
-		if (event.data != -1) {
-			var video_frac = player.getVideoLoadedFraction()
-			segment_idx = Math.round(total_segments * video_frac)
-			console.log(video_frac);
-			url = player.getVideoUrl()
-			videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments})
-	       
-		}
-		
-		if (player.getPlaylistIndex() != prev_idx | prev_segment_idx != segment_idx) {
-    		console.log("idx=" + player.getPlaylistIndex())
-    		console.log("prev_idx=" + prev_idx)
-    		
-			$.ajax({
-                url: $SCRIPT_ROOT + '/getSimVideos',
-                type: 'POST',
-                data: videoInfo,
-                headers : {"Content-Type": "application/json"},
-                success : function(result){  // on success get the return object from server
-                    $sidebarLinks = $("#sidebarLinks");
-                    $sidebarLinks.empty();
-                    console.log(result)
-                    for(var i = 0, len = result.result.length; i < len; ++i) {
-                        var curResult = result.result[i];
-                        $sidebarLinks.append("<div>" +
-                            "<a href='" + curResult.url + "'>" +
-                                 curResult.title +
-                            "</a>" +
-                        "</div>");
-                    }
-                },
-                error: function(error) {
-                    console.log("nothing returned")
-                    console.log(error);
-                }
-            });
-            prev_idx = player.getPlaylistIndex();
-            prev_segment_idx = segment_idx;
-    		}
-		}
+	  var intervalVar;
 
-    function updateRelatedVideos() {
-    }
+	  var videoInfo = {};
+	  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }}; 
+	  
+	  // Get video progress represented as video segments
+	  function getSegmentIdx(total_segments) {
+	     var video_frac = player.getVideoLoadedFraction();
+	     console.log(video_frac)
+	     return Math.round(total_segments * video_frac);
+	  }
+	  
+	  // update similar videos based on the current playing video URL and playing progress
+	  function updateRelatedVideos(total_segments) {
+	     var segment_idx = getSegmentIdx(total_segments);
+	     var video_idx = player.getPlaylistIndex();
+         var url = player.getVideoUrl();
+        	  
+         console.log("segment_idx=" + segment_idx);
+         console.log("prev_segment_idx=" + prev_segment_idx);
+        
+         console.log("video_idx=" + video_idx);
+         console.log("prev_video_idx=" + prev_video_idx);
+        
+         if (segment_idx == prev_segment_idx & video_idx == prev_video_idx) {
+            console.log("nothing needs to be updated returning");
+            return;
+         }
+         videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments})
+         $.ajax({
+            url: $SCRIPT_ROOT + '/getSimVideos',
+            type: 'POST',
+            data: videoInfo,
+            headers : {"Content-Type": "application/json"},
+            success : function(result){  // on success get the return object from server
+               $sidebarLinks = $("#sidebarLinks");
+               $sidebarLinks.empty();
+               console.log(result);
+               for(var i = 0, len = result.result.length; i < len; ++i) {
+                  var curResult = result.result[i];
+                  $sidebarLinks.append("<div>" +
+                        "<a href='" + curResult.url + "'>" +
+                             curResult.title +
+                        "</a>" +
+                    "</div>"
+                  );
+               }
+            },
+            error: function(error) {
+               console.log("nothing returned");
+               console.log(error);
+            }
+         });
+         prev_video_idx = video_idx;
+         prev_segment_idx = segment_idx;
+      }
     
+	  function onPlayerStateChange(event) {
+	     if (event.data == YT.PlayerState.PLAYING) {
+	        checkVideoLoadedFraction();
+	     }
+	     else {
+	        console.log(YT.PlayerState.Playing)
+	        stopChecking();
+	     }
+      }
+
+      function checkVideoLoadedFraction() {
+         console.log("in check video fraction")
+         intervalVar = setInterval(function() {
+            console.log("call update")
+            updateRelatedVideos(total_segments);
+         }, 5000);        
+      }
+     
+      function stopChecking() {
+         clearInterval(intervalVar);
+      }
+
+
 
     </script>
   </body>
