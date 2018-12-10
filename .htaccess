@@ -1,0 +1,5 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/cindyst2/public_html/wov"
+PassengerBaseURI "/wov"
+PassengerPython "/home/cindyst2/virtualenv/public__html_wov/3.6/bin/python3.6"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END

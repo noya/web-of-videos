@@ -76,13 +76,7 @@
 	  function updateRelatedVideos(total_segments) {
 	     var segment_idx = getSegmentIdx(total_segments);
 	     var video_idx = player.getPlaylistIndex();
-         var url = player.getVideoUrl();
-        	  
-         console.log("segment_idx=" + segment_idx);
-         console.log("prev_segment_idx=" + prev_segment_idx);
-        
-         console.log("video_idx=" + video_idx);
-         console.log("prev_video_idx=" + prev_video_idx);
+         var url = player.getVideoUrl();       	  
         
          if (segment_idx == prev_segment_idx & video_idx == prev_video_idx) {
             console.log("nothing needs to be updated returning");
@@ -98,8 +92,11 @@
                $sidebarLinks = $("#sidebarLinks");
                $sidebarLinks.empty();
                console.log(result);
-               for(var i = 0, len = result.result.length; i < len; ++i) {
-                  var curResult = result.result[i];
+               console.log(result.result);
+               //for(var i = 0, len = result.result.length; i < len; ++i) {
+               for(var i = 0, len = result.result.related_videos.length; i < len; ++i) {
+                  //var curResult = result.result[i];
+                  var curResult = result.result.related_videos[i];
                   $sidebarLinks.append("<div>" +
                         "<a href='" + curResult.url + "'>" +
                              curResult.title +
@@ -122,15 +119,12 @@
 	        checkVideoLoadedFraction();
 	     }
 	     else {
-	        console.log(YT.PlayerState.Playing)
 	        stopChecking();
 	     }
       }
 
       function checkVideoLoadedFraction() {
-         console.log("in check video fraction")
          intervalVar = setInterval(function() {
-            console.log("call update")
             updateRelatedVideos(total_segments);
          }, 5000);        
       }

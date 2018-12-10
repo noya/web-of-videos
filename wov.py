@@ -33,7 +33,7 @@ def getSimVideos():
             video_matches = check_output(["python", "web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
 
             print("matches", video_matches)
-            video_dl = [
+            related_videos = [
                     {
                             'title' : 'title0',
                             'url' : 'url0'
@@ -64,8 +64,10 @@ def getSimVideos():
                     },
 
             ]
+            result = {'related_videos' : related_videos}
             #return jsonify(result=video_matches)    
-            return jsonify(result=video_dl)
+            #return jsonify(result=video_dl)
+            return jsonify(result=result)
     else:
         print("Getting GET requets")
         return "Getting GET requests\n"
