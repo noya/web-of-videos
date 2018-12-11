@@ -58,7 +58,7 @@
 	  //    the player should play for six seconds and then stop.
 	  
 	  var prev_video_idx = -1;
-	  var total_segments = 5;
+	  var total_segments = 3;
 	  var prev_segment_idx = -1;
 	  var intervalVar;
 
@@ -82,28 +82,25 @@
             console.log("nothing needs to be updated returning");
             return;
          }
-         videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments})
+         videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments});
+         console.log("url" + url);
          $.ajax({
             url: $SCRIPT_ROOT + '/getSimVideos',
             type: 'POST',
             data: videoInfo,
             headers : {"Content-Type": "application/json"},
             success : function(result){  // on success get the return object from server
-               $sidebarLinks = $("#sidebarLinks");
-               $sidebarLinks.empty();
                console.log(result);
-               console.log(result.result);
-               //for(var i = 0, len = result.result.length; i < len; ++i) {
+               var $dict = $("<dl></dl>");
                for(var i = 0, len = result.result.related_videos.length; i < len; ++i) {
                   //var curResult = result.result[i];
                   var curResult = result.result.related_videos[i];
-                  $sidebarLinks.append("<div>" +
-                        "<a href='" + curResult.url + "'>" +
-                             curResult.title +
-                        "</a>" +
-                    "</div>"
+                  $dict.append("<dt><a href='" + curResult.url + "'>" +
+                      curResult.title + "</a></dt>" +
+                    "<dd>" + curResult.description + "</dd>"
                   );
                }
+               $("#sidebarLinks").html($dict);
             },
             error: function(error) {
                console.log("nothing returned");
@@ -126,7 +123,7 @@
       function checkVideoLoadedFraction() {
          intervalVar = setInterval(function() {
             updateRelatedVideos(total_segments);
-         }, 5000);        
+         }, 1000);        
       }
      
       function stopChecking() {

@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, url_for, redirect, jsonify
+from flask import Flask, request, render_template, url_for, redirect, jsonify, abort
 import sys
 import json
 import web_of_videos as wovpy
@@ -25,7 +25,7 @@ def getSimVideos():
 
         except:
             print ("unexpected error:", sys.exc_info()[0])
-            return "url is not a valid key??bad error"
+            abort(400)
         else:
         
             # build indexes 
@@ -36,31 +36,38 @@ def getSimVideos():
             related_videos = [
                     {
                             'title' : 'title0',
-                            'url' : 'url0'
+                            'url' : 'url0',
+                            'description' : 'description0'
                     },
                                                 {
                             'title' : 'title1',
-                            'url' : 'url1'
+                            'url' : 'url1',
+                            'description' : 'description0'
                     },
                                                                             {
                             'title' : 'title2',
-                            'url' : 'url2'
+                            'url' : 'url2',
+                            'description' : 'description0'
                     },
                                                                                                         {
                             'title' : 'title3',
-                            'url' : 'url3'
+                            'url' : 'url3',
+                            'description' : 'description0'
                     },
                                                                                                                                     {
                             'title' : 'title4',
-                            'url' : 'url5'
+                            'url' : 'url5',
+                            'description' : 'description0'
                     },
                                                                                                                                                                 {
                             'title' : 'title6',
-                            'url' : 'url7'
+                            'url' : 'url7',
+                            'description' : 'description0'
                     },
                                                                                                                                                                                             {
                             'title' : 'title8',
-                            'url' : 'url9'
+                            'url' : 'url9',
+                            'description' : 'description0'
                     },
 
             ]

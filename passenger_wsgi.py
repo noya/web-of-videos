@@ -4,7 +4,7 @@ import imp
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-wsgi = imp.load_source('wsgi', 'testapp.py')
+wsgi = imp.load_source('wsgi', 'wov.py')
 application = wsgi.application
 
 #def application(environ, start_response):

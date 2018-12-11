@@ -103,7 +103,8 @@ def get_related_url(fwd_idx, inv_idx, query, num_results):
     for num, (d_id, score) in enumerate(top_docs):
         d = {
             'title' : proc_title(fwd_idx.metadata(d_id).get('title')), 
-            'url': fwd_idx.metadata(d_id).get('url')
+            'url': fwd_idx.metadata(d_id).get('url'),
+            'description': fwd_idx.metadata(d_id).get('description')
         }
         print(d)
         results.append(d)
