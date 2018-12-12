@@ -6,4 +6,4 @@ math
 youtube_dl
 json
 glob
-pathlib
+jinja2

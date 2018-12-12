@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, url_for, redirect, jsonify, abort
 import sys
 import json
-import web_of_videos as wovpy
+import src.web_of_videos as wovpy
 from subprocess import check_output
 
 app = Flask(__name__)
@@ -30,8 +30,9 @@ def getSimVideos():
         
             # build indexes 
              
-            video_matches = check_output(["python", "web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
-
+            video_matches = check_output(["python", "src/web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
+            #video_matches = wovpy.get_wov(url, segment_idx, total_segments)
+            
             print("matches", video_matches)
             related_videos = [
                     {

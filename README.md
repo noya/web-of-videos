@@ -8,13 +8,89 @@ Moreover, instead of finding similar videos for the entire video, it will sugges
 It also annotates each similar video with descriptions to help the user select the most relevent link
 If a link description is not available it will simply display "None"
 
-## Usage ##
-Use University of Illinois at Urbana Champaign's videos to find other similar videos. The match is done per video basis.
-
-
-### Website demo ###
+## Website demo ##
 [web of videos](http://cindyst2.web.illinois.edu/wov)
 
-### Installation Instructions ###
-## how the software is implemented ##
-## Directory Structure ##
+## Installation Instructions ##
+The following are the instructions to deploy the source code in your local machine
+
+### Anaconda Setup Enviornment ###
+Clone the repo
+```bash
+git clone https://github.com/noya/web-of-videos.git
+cd web-of-videos
+unzip data.zip
+```
+Create conda enviornment
+```bash
+conda create -n myenv python=3.6
+source activate myenv
+pip install requirements.txt
+```
+Run flask in your local enviornment
+```bash
+set FLASK_APP=wov.py
+set FLASK_ENV=development #optional
+flask run
+```
+
+Play with the website in your local browser
+Open any web browser and type in the address localhost:5000
+
+### Testing ###
+To test out some of the functionality
+```bash
+python src/web_of_videos.py
+```
+This will use the hardcoded url, segment index, and total segments to find similar queries
+
+If you choose the provide parameters on your own, you can try this
+```bash
+python src/web_of_videos.py [url] [segment_idx] [total_segments]
+```
+Note that the url must be one of the following playlist from UIUC's text information system course
+[UIUC text information system](https://youtu.be/A6NEmoeqUnU?list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO)
+todo: change above to playlist
+
+## Implementation Details ##
+The directory structure is as follows
+
+- src
+   + download_youtube_files.py
+   + web_of_videos.py
+- templates
+   + web-of-videos.html
+- data
+   - cmu-nn-nlp
+   - stanford-nlp
+   - uiuc-text-mining-analytics
+   - mit-linear-algebra
+   - um-natural-language-processing
+   - stanford-conv-nn
+   + dataset-full-corpus.txt
+   + metadata.dat
+   + file.toml
++ config.toml
++ uiuc-textinfo-config.toml
++ wov.py
++ passenger_wsgi.py
++ requirements.txt
++ stopwords.txt
+
+*Back end*
+
+This project chooses metapy as the language processing toolkit. 
+
+download_youtube_files.py downloads youtube playlists and convert it to metapy friendly data format.
+
+web_of_videos.py reads the data created by download_youtube_files.py to create file indexes. It processes periodic requets sent by the web to retrieve similar videos. 
+Specifically, it creates a query based on the currently playing video title and video content.
+It applies inverse document frequency on the terms so unimportant words such as "the", "we", becomes insignificant. 
+After the transformation it then selects the top ? terms to perform the query. 
+The query uses BM25 with Rocchio feedback.
+
+*Front end*
+web-of-video.html displays the videos using youtube IFrame API. It retrieves the video information such as its url and playing progress and send it to web_of_videos.py script.
+After receiving the result from web_of_videos.py it displays the vidoes title and description and provide a link to these videos
+Note if the video is playing it will send requests to web_of_videos.py every 1 sec. Otherwise if the video is paused/buffering/ etc it will also send a request to update the links.
+
