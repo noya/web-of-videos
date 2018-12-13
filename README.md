@@ -29,11 +29,32 @@ conda create -n myenv python=3.6
 source activate myenv
 pip install -r requirements.txt
 ```
-Run flask in your local enviornment
+Run gunicorn in your local enviornment
+
+#### For Window Users ####
 ```bash
-set FLASK_APP=wov.py
-set FLASK_ENV=development #optional
-flask run
+# Install superset
+pip install superset
+
+# Create an admin user (you will be prompted to set a username, first and last name before setting a password)
+fabmanager create-admin --app superset
+
+# Initialize the database
+cd C:\venv\Scripts\ && python superset db upgrade
+
+# Load some data to play with
+python superset load_examples
+
+# Create default roles and permissions
+python superset init
+
+# To start a development web server on port 8088, use -p to bind to another port
+superset runserver -d
+```
+
+#### For Linux / MAC Users ####
+```bash
+gunicorn -w 4 wov:app
 ```
 
 Play with the website in your local browser

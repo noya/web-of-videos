@@ -12,6 +12,12 @@
                <h3>Please click on the following buttons to select the playing video</h3>
                <button type="button" onclick="loadPart1Playlist()">Part 1</button>
                <button type="button" onclick="loadPart2Playlist()">Part 2</button>
+               <form action="javascript:loadQuery(query.value)">
+                  Search videos using key words:<br>
+                  <input type="text" name="query" id="query" maxlength="40">
+                  <br>
+                  <input type="submit" value="Search"> 
+               </form>
                <!--button type="button">Part 1</button-->
                <!--button type="button">Part 2</button-->
             </div>
@@ -77,6 +83,34 @@
          console.log("loaded part 1");
   	     player.playVideo();
       }
+      
+      function loadQuery(txt) {
+         alert("Entered value:" + txt);
+         query = JSON.stringify({"query" : txt});
+         
+          $.ajax({
+            url: $SCRIPT_ROOT + '/searchVideos',
+            type: 'POST',
+            data: query,
+            headers : {"Content-Type": "application/json"},
+            success : function(result){  // on success get the return object from server
+               console.log(result);
+               //var $dict = $("<dl></dl>");
+               //for(var i = 0, len = result.result.related_videos.length; i < len; ++i) {
+               //   var curResult = result.result.related_videos[i];
+               //   $dict.append("<dt><a href='" + curResult.url + "'>" +
+               //       curResult.title + "</a></dt>" +
+               //     "<dd>" + curResult.description + "</dd>"
+               //   );
+               //}
+               //$("#sidebarLinks").html($dict);
+            },
+            error: function(error) {
+               console.log("nothing returned");
+               console.log(error);
+            }
+         });
+      }
 	  // The API will call this function when the video player is ready.
 	  function onPlayerReady(event) {
 	     event.target.playVideo();
@@ -99,7 +133,7 @@
 	  function getSegmentIdx(total_segments) {
 	     var video_frac = player.getVideoLoadedFraction();
 	     console.log(video_frac)
-	     return Math.round(total_segments * video_frac);
+	     return Math.floor(total_segments * video_frac);
 	  }
 	  
 	  // update similar videos based on the current playing video URL and playing progress
