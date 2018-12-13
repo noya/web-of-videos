@@ -305,8 +305,7 @@ def write_metapy_files(path, prefix):
     # close metapy files
     corpus.close()
     metadata.close()
-    
-    
+      
         
 def get_course_data(dir_name, playlist_name, skip_download=False):
     """
@@ -421,17 +420,10 @@ if __name__ == '__main__':
         playlists = json.load(f)
     pprint.pprint(playlists)
     
-#    get_course_data(playlists[5]['dir_name'], playlists[5]['playlist_name'], skip_download=False)
-#    test_metapy_files(playlists[5]['dir_name'], playlists[5]['dir_name'])
-# 
-#    get_course_data(playlists[6]['dir_name'], playlists[6]['playlist_name'], skip_download=False)
-#    test_metapy_files(playlists[6]['dir_name'], playlists[6]['dir_name'])
-
-    
     # download youtube files 
     for playlist in playlists:
         # download and create coursera data files
-        get_course_data(playlist['dir_name'], playlist['playlist_name'], skip_download=True)
+        get_course_data(playlist['dir_name'], playlist['playlist_name'], skip_download=False)
         # testing : try reading the created coursera data files
         test_metapy_files(playlist['dir_name'], playlist['dir_name'])
     

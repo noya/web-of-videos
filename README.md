@@ -98,3 +98,10 @@ web-of-video.html displays the videos using youtube IFrame API. It retrieves the
 After receiving the result from web_of_videos.py it displays the vidoes title and description and provide a link to these videos
 Note if the video is playing it will send requests to web_of_videos.py every 1 sec. Otherwise if the video is paused/buffering/ etc it will also send a request to update the links.
 
+## Include your own video content ##
+If the you plan to include videos of your choice to be part of the database follow these steps:
+
+1. Edit the json file to include the link the the video playlist and the directory name you want the data to be stored.
+The data will all be downloaded under data/<directory_name>
+
+2. Run the src/download_youtube_files.py
