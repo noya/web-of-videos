@@ -1,9 +1,5 @@
 flask
-webvtt
+webvtt-py
 metapy
-re
-math
 youtube_dl
-json
-glob
 jinja2

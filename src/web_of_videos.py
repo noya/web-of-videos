@@ -230,23 +230,25 @@ def get_wov(url, segment_idx, total_segments):
                       then segment_idx = 1 represents the video has been playing for 20%
         total_segments - total number of segments to partition the video
     """
-    text_config = 'uiuc-textinfo-config.toml'
+    #text_config = 'uiuc-textinfo-config.toml'
     corpus_config = 'config.toml'
 
     # build indexes 
     fwd_idx, inv_idx = make_index(corpus_config)
-    txt_fwd_idx, txt_inv_idx = make_index(text_config)
+    #txt_fwd_idx, txt_inv_idx = make_index(text_config)
     
     # get videoid to docid mapping
-    videoid_to_docid = create_videoid_to_docid(txt_fwd_idx)
+    #videoid_to_docid = create_videoid_to_docid(txt_fwd_idx)
+    videoid_to_docid = create_videoid_to_docid(fwd_idx)
 
     # get video's corresponding video_id and doc_id
     video_id = get_videoid(url)
     doc_id = get_docid(videoid_to_docid, video_id)
     
     # get query from index
-    query = load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx)
-
+    #query = load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx)
+    query = load_question(fwd_idx, inv_idx, doc_id, total_segments, segment_idx)
+    
     # find videos using query
     related_videos = get_related_url(fwd_idx, inv_idx, query, num_results=10)
     
