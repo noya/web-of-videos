@@ -9,7 +9,9 @@ It also annotates each similar video with descriptions to help the user select t
 If a link description is not available it will simply display "None"
 
 ## Website demo ##
-[web of videos](http://cindyst2.web.illinois.edu/wov)
+Please use the following resources for a step by step demo
+[web of videos website](http://cindyst2.web.illinois.edu/wov)
+[web of videos demo]
 
 ## Installation Instructions ##
 The following are the instructions to deploy the source code in your local machine
@@ -77,7 +79,7 @@ The directory structure is as follows
 + requirements.txt
 + stopwords.txt
 
-*Back end*
+**Back end**
 
 This project chooses metapy as the language processing toolkit. 
 
@@ -89,7 +91,9 @@ It applies inverse document frequency on the terms so unimportant words such as 
 After the transformation it then selects the top ? terms to perform the query. 
 The query uses BM25 with Rocchio feedback.
 
-*Front end*
+**Front end**
+
+wov.py
 web-of-video.html displays the videos using youtube IFrame API. It retrieves the video information such as its url and playing progress and send it to web_of_videos.py script.
 After receiving the result from web_of_videos.py it displays the vidoes title and description and provide a link to these videos
 Note if the video is playing it will send requests to web_of_videos.py every 1 sec. Otherwise if the video is paused/buffering/ etc it will also send a request to update the links.
