@@ -25,7 +25,7 @@ Create conda enviornment
 ```bash
 conda create -n myenv python=3.6
 source activate myenv
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Run flask in your local enviornment
 ```bash
