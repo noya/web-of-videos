@@ -1,0 +1,33 @@
+[
+    {
+            "dir_name":"cmu-nn-nlp",
+            "playlist_name" : "https://www.youtube.com/playlist?list=PL8PYTP1V4I8ABXzdqtOpB_eqBlVAz_xPT"
+    },
+    {
+            "dir_name" :"stanford-nlp",
+            "playlist_name" : "https://www.youtube.com/playlist?list=PLoROMvodv4rOFZnDyrlW3-nI7tMLtmiJZ"
+    },
+    {
+            "dir_name" : "stanford-conv-nn",
+            "playlist_name" : "https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv"
+
+    },
+    {
+            "dir_name" : "mit-linear-algebra",
+            "playlist_name" : "https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8"
+
+    },
+    {
+            "dir_name" : "um-natural-language-processing",
+            "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8BdawOVCCaTCO99Ya58ryR"
+    },
+    {
+            "dir_name" : "uiuc-text-retrieval-search-engines",
+            "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO"
+    },
+    {
+            "dir_name" : "uiuc-text-mining-analytics",
+            "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt"
+    }
+
+]

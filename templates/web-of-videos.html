@@ -10,10 +10,10 @@
          <div class="padded">
             <div>
                <h3>Please click on the following buttons to select the playing video</h3>
-               <!--button type="button" onclick="loadPart1Playlist()">Part 1</button-->
-               <!--button type="button" onclick="loadPart2Playlist()">Part 2</button-->
-               <button type="button">Part 1</button>
-               <button type="button">Part 2</button>
+               <button type="button" onclick="loadPart1Playlist()">Part 1</button>
+               <button type="button" onclick="loadPart2Playlist()">Part 2</button>
+               <!--button type="button">Part 1</button-->
+               <!--button type="button">Part 2</button-->
             </div>
             <div class="padded">
                <br></br>
@@ -54,19 +54,28 @@
 		    },
     		events: {
     		   'onReady': onPlayerReady,
-    			'onStateChange': onPlayerStateChange,
+    		   'onStateChange': onPlayerStateChange,
             },
          });
       }
 
       // load part 2 video
       function loadPart2Playlist() {
-  	     player.loadPlaylist('PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt');
+  	     player.loadPlaylist({listType: 'playlist',
+                      	     list: 'PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt',
+                      	      index: 0});
+  	     console.log("loaded part 2");
+  	     player.playVideo();
       }
       
       // load part 1 video
       function loadPart1Playlist() {
-         player.loadPlaylist('PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO');
+         player.loadPlaylist({listType: 'playlist',
+                             list: 'PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO',
+                              index: 0
+                              });
+         console.log("loaded part 1");
+  	     player.playVideo();
       }
 	  // The API will call this function when the video player is ready.
 	  function onPlayerReady(event) {

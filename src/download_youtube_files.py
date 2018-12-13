@@ -15,6 +15,7 @@ import subprocess
 import json
 import warnings
 from pathlib import Path
+import pprint
 
 ##################################################
 # helper functions for downloading course data
@@ -160,6 +161,7 @@ def download_subtitles(dir_name, playlist_name):
     # substitute white space with hyphen in subtitles
     subtitles = glob.glob("*.en.vtt")
     new_subtitles = [re.sub(r'\s', r'-', subtitle) for subtitle in subtitles]
+    new_subtitles = [re.sub(r'\(|\)', r'', subtitle) for subtitle in new_subtitles]
     
     # remove non-ascii characters
     new_subtitles = [s.encode('ascii', errors='ignore').decode() for s in new_subtitles]
@@ -213,17 +215,24 @@ def test_metapy_files(dir_name, prefix):
         os.remove("data/dataset-full-corpus.txt.orig")
     if os.path.isfile("data/dataset-full-corpus.txt"):
         os.rename("data/dataset-full-corpus.txt", "data/dataset-full-corpus.txt.orig")
-    shutil.copy("data/"+ dir_name + "/" + prefix + "-full-corpus.txt", "data/dataset-full-corpus.txt")
+    if dir_name == "":
+        shutil.copy("data/" + prefix + "-full-corpus.txt", "data/dataset-full-corpus.txt")
+    else:
+        shutil.copy("data/"+ dir_name + "/" + prefix + "-full-corpus.txt", "data/dataset-full-corpus.txt")
     
     # copy prefix-metadata.dat to metadata.dat
     if os.path.isfile("data/metadata.dat.orig"):
         os.remove("data/metadata.dat.orig")
     if os.path.isfile("data/metadata.dat"):
         os.rename("data/metadata.dat", "data/metadata.dat.orig")
-    shutil.copy("data/" + dir_name + "/" + prefix + "-metadata.dat", "data/metadata.dat")
+    
+    if dir_name == "":
+        shutil.copy("data/" + prefix + "-metadata.dat", "data/metadata.dat")
+    else:
+        shutil.copy("data/" + dir_name + "/" + prefix + "-metadata.dat", "data/metadata.dat")
     
     print("testing index")
-    test_idx('test-config.toml')
+    test_idx('config.toml')
 
     # restore to previous state
     shutil.rmtree("idx")
@@ -394,66 +403,40 @@ def merge_course_data(full_prefix, dir_name, file_list, overwrite=True):
     metadata_postfix = "-metadata.dat"
     metadata_cnt = append_file(full_prefix + metadata_postfix, file_list, metadata_postfix, overwrite)           
     
-    # move back to previous directory
-    os.chdir(prev_dir)
+    # replace corpus and metadata files
+    shutil.copy(full_prefix + corpus_postfix, "dataset-full-corpus.txt")
+    shutil.copy(full_prefix + metadata_postfix, "metadata.dat")
     
     assert(corpus_cnt == metadata_cnt)
     
+    # move back to previous directory
+    os.chdir(prev_dir)
 
 if __name__ == '__main__':  
     
     curr_dir = os.getcwd()
     
-    playlists = [
-        {
-                "dir_name":"cmu-nn-nlp",
-                "playlist_name" : "https://www.youtube.com/playlist?list=PL8PYTP1V4I8ABXzdqtOpB_eqBlVAz_xPT"
-        },
-        {
-                "dir_name" :"stanford-nlp",
-                "playlist_name" : "https://www.youtube.com/playlist?list=PLoROMvodv4rOFZnDyrlW3-nI7tMLtmiJZ"
-        },
-        {
-                "dir_name" : "stanford-conv-nn",
-                "playlist_name" : "https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv"
-    
-        },
-        {
-                "dir_name" : "mit-linear-algebra",
-                "playlist_name" : "https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8"
-    
-        },
-        {
-                "dir_name" : "um-natural-language-processing",
-                "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8BdawOVCCaTCO99Ya58ryR"
-        },
-        {
-                "dir_name" : "uiuc-text-mining-analytics",
-                "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO"
-        },
-    
-    ]
+    playlists = []
+    with open('data/playlist.json', 'r') as f:
+        playlists = json.load(f)
+    pprint.pprint(playlists)
     
 #    get_course_data(playlists[5]['dir_name'], playlists[5]['playlist_name'], skip_download=False)
 #    test_metapy_files(playlists[5]['dir_name'], playlists[5]['dir_name'])
-#    
-    # download you tube files 
+# 
+#    get_course_data(playlists[6]['dir_name'], playlists[6]['playlist_name'], skip_download=False)
+#    test_metapy_files(playlists[6]['dir_name'], playlists[6]['dir_name'])
+
+    
+    # download youtube files 
     for playlist in playlists:
         # download and create coursera data files
         get_course_data(playlist['dir_name'], playlist['playlist_name'], skip_download=True)
         # testing : try reading the created coursera data files
         test_metapy_files(playlist['dir_name'], playlist['dir_name'])
     
-    # download cs-410
-    #coursera-dl --skip-download -u cindy.s.tseng@gmail.com -p <> class_names cs-410 -sl en
     # merge all the course data into one file
-    full_prefix = "merge"
-    
-    merge_course_data(full_prefix, "data", playlists)
-    os.remove("data/dataset-full-corpus.txt")
-    os.rename("data/merge-full-corpus.txt", "data/dataset-full-corpus.txt")
-    os.remove("data/metadata.dat")
-    os.rename("data/merge-metadata.dat", "data/metadata.dat")
+    merge_course_data("merge", "data", playlists)
     
     # test merged file
     test_metapy_files("", "merge")
