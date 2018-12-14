@@ -80,8 +80,9 @@ def getSimVideos():
 
             ]
             #result = {'related_videos' : related_videos}
-            return jsonify(result=video_matches)    
             #return jsonify(result=result)
+            return jsonify(result=video_matches)    
+            
     else:
         print("Getting GET requets")
         abort(400)

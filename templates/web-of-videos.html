@@ -3,19 +3,19 @@
    <head>
       <title>Web of Videos</title>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	  <!--link rel="stylesheet" href="styles.css"-->
+	  <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
    </head>
    <body>
       <div class="main-content">
          <div class="padded">
             <div>
-               <h3>Please click on the following buttons to select the playing video</h3>
+               <h3>Please choose the video source:</h3>
+               <span>Either choose between the UIUC text information playlists: </span>
                <button type="button" onclick="loadPart1Playlist()">Part 1</button>
                <button type="button" onclick="loadPart2Playlist()">Part 2</button>
                <form action="javascript:loadQuery(query.value)">
-                  Search videos using key words:<br>
+                  Or search videos:
                   <input type="text" name="query" id="query" maxlength="40">
-                  <br>
                   <input type="submit" value="Search"> 
                </form>
                <!--button type="button">Part 1</button-->
@@ -85,7 +85,7 @@
       }
       
       function getId(url) {
-         var regex = /https:\/\/www.youtube.com\/watch\?v=(.*)/;
+         var regex = /https:\/\/www.youtube.com\/.*watch\?v=(.*).*/;
          var id = url.replace(regex, '$1');
          console.log("id:" + id);
          return id;
@@ -136,6 +136,7 @@
 	  var total_segments = 3;
 	  var prev_segment_idx = -1;
 	  var intervalVar;
+	  var prev_video_id = "";
 
 	  var videoInfo = {};
 	  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }}; 
@@ -151,9 +152,11 @@
 	  function updateRelatedVideos(total_segments) {
 	     var segment_idx = getSegmentIdx(total_segments);
 	     var video_idx = player.getPlaylistIndex();
-         var url = player.getVideoUrl();       	  
+         var url = player.getVideoUrl();
+         var video_id =   getId(url);     	  
+         //console.log("video id:" + video_id + " prev dieo id: "" + prev_video_id);
         
-         if (segment_idx == prev_segment_idx & video_idx == prev_video_idx) {
+         if (segment_idx == prev_segment_idx & video_idx == prev_video_idx & video_id == prev_video_id) {
             console.log("nothing needs to be updated returning");
             return;
          }
@@ -184,6 +187,7 @@
          });
          prev_video_idx = video_idx;
          prev_segment_idx = segment_idx;
+         prev_video_id = video_id;
       }
     
 	  function onPlayerStateChange(event) {
