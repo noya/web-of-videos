@@ -84,8 +84,14 @@
   	     player.playVideo();
       }
       
-      function loadQuery(txt) {
-         alert("Entered value:" + txt);
+      function getId(url) {
+         var regex = /https:\/\/www.youtube.com\/watch\?v=(.*)/;
+         var id = url.replace(regex, '$1');
+         console.log("id:" + id);
+         return id;
+      }
+      function loadQuery() {
+         var txt = $("#query").val();
          query = JSON.stringify({"query" : txt});
          
           $.ajax({
@@ -95,15 +101,20 @@
             headers : {"Content-Type": "application/json"},
             success : function(result){  // on success get the return object from server
                console.log(result);
-               //var $dict = $("<dl></dl>");
-               //for(var i = 0, len = result.result.related_videos.length; i < len; ++i) {
-               //   var curResult = result.result.related_videos[i];
-               //   $dict.append("<dt><a href='" + curResult.url + "'>" +
-               //       curResult.title + "</a></dt>" +
-               //     "<dd>" + curResult.description + "</dd>"
-               //   );
-               //}
-               //$("#sidebarLinks").html($dict);
+               topv = result.result.related_videos[0];
+               topid = getId(topv.url);
+               player.loadVideoById({'videoId' : topid
+               
+               });
+               var $dict = $("<dl></dl>");
+               for(var i = 0, len = result.result.related_videos.length; i < len; ++i) {
+                  var curResult = result.result.related_videos[i];
+                  $dict.append("<dt><a href='" + curResult.url + "'>" +
+                      curResult.title + "</a></dt>" +
+                    "<dd>" + curResult.description + "</dd>"
+                  );
+               }
+               $("#sidebarLinks").html($dict);
             },
             error: function(error) {
                console.log("nothing returned");

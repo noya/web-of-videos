@@ -37,8 +37,8 @@ def getSimVideos():
         else:
         
             # build indexes 
-            video_matches = check_output(["python", "src/web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
-            #video_matches = wovpy.get_wov(url, segment_idx, total_segments)
+            #video_matches = check_output(["python", "src/web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
+            video_matches = wovpy.get_wov(url, segment_idx, total_segments)
             
             print("matches", video_matches)
             related_videos = [
@@ -79,9 +79,9 @@ def getSimVideos():
                     },
 
             ]
-            result = {'related_videos' : related_videos}
-            #return jsonify(result=video_matches)    
-            return jsonify(result=result)
+            #result = {'related_videos' : related_videos}
+            return jsonify(result=video_matches)    
+            #return jsonify(result=result)
     else:
         print("Getting GET requets")
         abort(400)
@@ -92,8 +92,10 @@ def searchVideos():
         query = ""
         try:
             query = request.json['query']
-            video_matches = check_output(["python", "-c", "from src.web_of_videos import searvhVideos", query]) 
-            search_wov
+            #video_matches = check_output(["python", "-c", "from src.web_of_videos import searvhVideos", query]) 
+            video_matches = wovpy.search_wov(query)
+            
+            return jsonify(result=video_matches)
         except:
             print ("unexpected error:", sys.exc_info()[0])
             abort(400)
