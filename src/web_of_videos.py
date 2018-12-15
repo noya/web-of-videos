@@ -10,7 +10,7 @@ import re
 import webvtt
 import math
 import sys
-
+import argparse
     
 def load_naive_question(txt_fwd_idx, doc_id):
     """ The naive question simply uses the lecture titles to search for matching videos
@@ -222,10 +222,8 @@ def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, tit
         query_content = query_content + ' ' + term
         
     # generate query
-    # todo: redudant step? already transformed title
-    query_mod_content = re.sub(r'_', r' ', query_content)
     query = metapy.index.Document()
-    query.content(title + " " + query_mod_content)
+    query.content(title + " " + query_content)
     return query
     
     
@@ -293,42 +291,13 @@ def is_number(num):
         return False
         
 if __name__ == '__main__':  
-    url = 'https://www.youtube.com/watch?v=IOgznBexyD0&index=24&list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO'
-    red = 'red' + 'vky'
-    usage = 'usage: web_of_videos.py [-h] [segment_idx] [total_segments]\n' + 'segment_idx\n' + '    An integer specifying the particular video segment used to query similar videos. segment_idx value must be smaller than total_segments\n' + 'total_segments\n' + '    An integer to partition video into equal segments'
-                
+
+    parser = argparse.ArgumentParser(description="Input any text to search for videos")
+    parser.add_argument("search", type=str,
+                    help="Search videos")
+    args = parser.parse_args()
     
-    if len(sys.argv) == 1:
-        results = get_wov(url, 1, 3)
-        
-    elif len(sys.argv) != 4:
-        raise SyntaxError(usage)
-    else:
-        url = sys.argv[1]
-        segment_idx = sys.argv[2]
-        total_segments = sys.argv[3]
-    
-        
-        if not is_number(total_segments)  or not is_number(segment_idx):
-            print("total_segments and segment_idx must be positive integers")
-            raise SyntaxError(usage)
-            
-        total_segments = int(total_segments)
-        segment_idx = int(segment_idx)
-        
-        if segment_idx >= total_segments:
-            print("segment_idx must be smaller than total_segments")
-            raise SyntaxError(usage)
-          
-        if segment_idx < 0 or total_segments < 0:
-            print("segment_idx and total_segments must be positive integers")
-            raise SyntaxError(usage)
-            
-        #print("query:", results['query'])
-        results = get_wov(url, segment_idx, total_segments)
-    print("query: " + results['query'])
+    results = search_wov(args.search)
+    print("search: " + args.search)
     print("related videos: ")
     print(results['related_videos'])
-
-    
-    

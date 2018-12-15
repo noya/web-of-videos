@@ -14,8 +14,8 @@ import metapy
 import subprocess
 import json
 import warnings
-from pathlib import Path
 import pprint
+import argparse
 
 ##################################################
 # helper functions for downloading course data
@@ -307,7 +307,7 @@ def write_metapy_files(path, prefix):
     metadata.close()
       
         
-def get_course_data(dir_name, playlist_name, skip_download=False):
+def get_course_data(dir_name, playlist_name, override=True):
     """
     Create a directory for specified playlist. If the directory already exists it will 
     continue to use the existing repo to download contents. The directory will contain english 
@@ -324,10 +324,14 @@ def get_course_data(dir_name, playlist_name, skip_download=False):
     """
     prev_dir = os.getcwd()
     os.chdir("data")
-    if not os.path.exists(dir_name):
-        call(["mkdir", dir_name])
     
-    if not skip_download:
+    # if the directory already exists but skip_download=False then we will download the content anyway
+    if os.path.exists(dir_name) and override:
+        download_subtitles(dir_name, playlist_name)
+        
+    # If the directory does not exist already create the directory and download the contents
+    elif not os.path.exists(dir_name):
+        call(["mkdir", dir_name])
         download_subtitles(dir_name, playlist_name)
         
     write_metapy_files(dir_name, dir_name)
@@ -378,7 +382,7 @@ def append_file(full_corpus, file_list, postfix, overwrite):
     # return total number of lines written
     return line_cnt
     
-def merge_course_data(full_prefix, dir_name, file_list, overwrite=True):
+def merge_course_data(full_prefix, dir_name, file_list, overwrite_file=True):
     """ write contents from each file in corpus_list to corpus_name file
     write contents in each file in metadata_list to metadata_name
     Note the number of lines corpus and metadata must match
@@ -396,11 +400,11 @@ def merge_course_data(full_prefix, dir_name, file_list, overwrite=True):
     
     # open corpus file for writing
     corpus_postfix = "-full-corpus.txt"
-    corpus_cnt = append_file(full_prefix + corpus_postfix, file_list, corpus_postfix, overwrite)
+    corpus_cnt = append_file(full_prefix + corpus_postfix, file_list, corpus_postfix, overwrite_file)
 
     # open metadata file for writing
     metadata_postfix = "-metadata.dat"
-    metadata_cnt = append_file(full_prefix + metadata_postfix, file_list, metadata_postfix, overwrite)           
+    metadata_cnt = append_file(full_prefix + metadata_postfix, file_list, metadata_postfix, overwrite_file)           
     
     # replace corpus and metadata files
     shutil.copy(full_prefix + corpus_postfix, "dataset-full-corpus.txt")
@@ -413,7 +417,10 @@ def merge_course_data(full_prefix, dir_name, file_list, overwrite=True):
 
 if __name__ == '__main__':  
     
-    curr_dir = os.getcwd()
+    parser = argparse.ArgumentParser(description="Regenerate dataset-full-corpus.txt and metadata.dat using the content in data directory. If the user intends to add more video to the database edit the playlist.json file and run this script")
+    parser.add_argument("-oc", "--overwrite_content", action="store_true",
+                    help="Overwrite existing direcotory containing video information. If the directory does not yet exist (user added more directory in playlist.json) the script will download content specified by the user in playlist.json file. This will cause the script to redownload video information from youtube. By default overwrite_content is False.")
+    args = parser.parse_args()
     
     playlists = []
     with open('data/playlist.json', 'r') as f:
@@ -423,12 +430,15 @@ if __name__ == '__main__':
     # download youtube files 
     for playlist in playlists:
         # download and create coursera data files
-        get_course_data(playlist['dir_name'], playlist['playlist_name'], skip_download=False)
+        if args.overwrite_content:
+            get_course_data(playlist['dir_name'], playlist['playlist_name'], override=True)
+        else:
+            get_course_data(playlist['dir_name'], playlist['playlist_name'], override=False)
         # testing : try reading the created coursera data files
         test_metapy_files(playlist['dir_name'], playlist['dir_name'])
     
     # merge all the course data into one file
-    merge_course_data("merge", "data", playlists)
+    merge_course_data("merge", "data", playlists, overwrite_file=True)
     
     # test merged file
     test_metapy_files("", "merge")

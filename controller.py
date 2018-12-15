@@ -17,7 +17,7 @@ application = app
 
 @app.route('/')
 def show_wov():
-    return render_template('web-of-videos.html')
+    return render_template('web_of_videos.html')
     
 @app.route('/getSimVideos', methods=['POST', 'GET'])
 def getSimVideos():
