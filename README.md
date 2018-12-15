@@ -54,7 +54,7 @@ superset runserver -d
 
 #### For Linux / MAC Users ####
 ```bash
-gunicorn -w 4 wov:app
+gunicorn -w 4 controller:app
 ```
 
 Play with the website in your local browser
@@ -95,7 +95,7 @@ The directory structure is as follows
    + file.toml
 + config.toml
 + uiuc-textinfo-config.toml
-+ wov.py
++ controller.py
 + passenger_wsgi.py
 + requirements.txt
 + stopwords.txt

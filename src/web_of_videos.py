@@ -149,7 +149,13 @@ def get_sec(vtt_time):
 def get_cnt(element):
     return element[1]
 
-def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, title_mult = 1, num_terms = 10):
+def tf_transformation(k, term_freq):
+    return (k + 1)* term_freq/(term_freq + k)
+
+def idf(num_docs, doc_freq):
+    return math.log((num_docs + 1) / doc_freq)
+
+def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, title_mult = 1, num_terms = 10, k = 1):
     """
     Use the current playing video to generate query. The query is generated using a segment of the video's content.
     The particular segment is identified by the video playing progress. 
@@ -179,7 +185,8 @@ def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, tit
     
     # retrieve current video title
     title = proc_title(txt_fwd_idx.metadata(doc_id).get('title')) 
-    content = title * title_mult
+    #content = title * title_mult
+    content= ""
     
     # retrieve vtt content from the segment in interest
     for idx in range(start_idx, end_idx, 3):
@@ -198,9 +205,10 @@ def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, tit
     for term_id, term_cnt in qvec:
         term = txt_fwd_idx.term_text(term_id)
         inv_term_id = inv_idx.get_term_id(term)
-        doc_freq = inv_idx.doc_freq(inv_term_id)
-        # todo: check for edge cases when doc_freq = 0
-        qvec_list.append((term, term_cnt * math.log((inv_idx.num_docs() + 1)/doc_freq)))
+        
+        term_freq_trans = tf_transformation(k, term_cnt)
+        doc_freq_trans = idf(inv_idx.num_docs(), inv_idx.doc_freq(inv_term_id))
+        qvec_list.append((term, term_freq_trans * doc_freq_trans))
  
     # sort all the query vectors using c(w, d) * log(M/df)
     qvec_list.sort(reverse=True, key=get_cnt)
@@ -217,7 +225,7 @@ def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, tit
     # todo: redudant step? already transformed title
     query_mod_content = re.sub(r'_', r' ', query_content)
     query = metapy.index.Document()
-    query.content(query_mod_content)
+    query.content(title + " " + query_mod_content)
     return query
     
     

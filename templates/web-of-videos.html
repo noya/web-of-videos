@@ -70,7 +70,6 @@
   	     player.loadPlaylist({listType: 'playlist',
                       	     list: 'PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt',
                       	      index: 0});
-  	     console.log("loaded part 2");
   	     player.playVideo();
       }
       
@@ -80,14 +79,12 @@
                              list: 'PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO',
                               index: 0
                               });
-         console.log("loaded part 1");
   	     player.playVideo();
       }
       
       function getId(url) {
          var regex = /https:\/\/www.youtube.com\/.*watch\?v=(.*).*/;
          var id = url.replace(regex, '$1');
-         console.log("id:" + id);
          return id;
       }
       function loadQuery() {
@@ -144,7 +141,6 @@
 	  // Get video progress represented as video segments
 	  function getSegmentIdx(total_segments) {
 	     var video_frac = player.getVideoLoadedFraction();
-	     console.log(video_frac)
 	     return Math.floor(total_segments * video_frac);
 	  }
 	  
@@ -157,11 +153,10 @@
          //console.log("video id:" + video_id + " prev dieo id: "" + prev_video_id);
         
          if (segment_idx == prev_segment_idx & video_idx == prev_video_idx & video_id == prev_video_id) {
-            console.log("nothing needs to be updated returning");
             return;
          }
          videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments});
-         console.log("url" + url);
+         //console.log("url" + url);
          $.ajax({
             url: $SCRIPT_ROOT + '/getSimVideos',
             type: 'POST',
