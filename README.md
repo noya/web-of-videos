@@ -9,7 +9,7 @@ The project tries to realize a prototype of "web of videos." It will link videos
 Moreover, instead of finding similar videos for the entire video, it will suggest similar videos for each video segment. 
 It also annotates each video with descriptions to help the user select the most relevent link.
 
-## Website demo ##
+## Usage ##
 A website demoing this project is hosted here:
 [web of videos website](http://cindyst2.web.illinois.edu/wov)
 
