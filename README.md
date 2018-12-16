@@ -9,12 +9,12 @@ The project tries to realize a prototype of "web of videos." It will link videos
 Moreover, instead of finding similar videos for the entire video, it will suggest similar videos for each video segment. 
 It also annotates each video with descriptions to help the user select the most relevent link.
 
-## Website demo ##
-A demo of this project is hosted here:
+## Usage ##
+A website demoing this project is hosted here:
 [web of videos website](http://cindyst2.web.illinois.edu/wov)
 
 A presentation of this project is hosted here: 
-[web of videos demo]
+[web of videos demo] (https://www.youtube.com/watch?v=IWlzKeD1ttU&feature=youtu.be)
 
 ## Installation Instructions ##
 The following are the instructions to deploy the source code in your local machine
@@ -35,6 +35,7 @@ pip install -r requirements.txt
 Run gunicorn in your local enviornment
 
 #### For Linux / MAC Users ####
+Note: Due to some incompatibility between flask and metapy, if you try to run this this website on windows the program will hang
 To run the website in your local machine:
 ```bash
 gunicorn -w 4 controller:app
