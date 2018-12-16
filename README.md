@@ -14,7 +14,7 @@ A website demoing this project is hosted here:
 [web of videos website](http://cindyst2.web.illinois.edu/wov)
 
 A presentation of this project is hosted here: 
-[web of videos demo] (https://www.youtube.com/watch?v=IWlzKeD1ttU&feature=youtu.be)
+[web of videos demo](https://www.youtube.com/watch?v=IWlzKeD1ttU&feature=youtu.be)
 
 ## Installation Instructions ##
 The following are the instructions to deploy the source code in your local machine
