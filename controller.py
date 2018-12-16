@@ -1,11 +1,5 @@
 import sys
-#import portalocker
-#sys.path.insert(0, "src")
-#from src.hack import fcntl
 from flask import Flask, request, render_template, url_for, redirect, jsonify, abort
-
-
-import json
 import src.web_of_videos as wovpy
 from subprocess import check_output, call
 
@@ -37,50 +31,7 @@ def getSimVideos():
         else:
         
             # build indexes 
-            #video_matches = check_output(["python", "src/web_of_videos.py", url, str(segment_idx), str(total_segments)]) 
             video_matches = wovpy.get_wov(url, segment_idx, total_segments)
-            
-            print("matches", video_matches)
-            related_videos = [
-                    {
-                            'title' : 'title0',
-                            'url' : 'url0',
-                            'description' : 'description0'
-                    },
-                                                {
-                            'title' : 'title1',
-                            'url' : 'url1',
-                            'description' : 'description0'
-                    },
-                                                                            {
-                            'title' : 'title2',
-                            'url' : 'url2',
-                            'description' : 'description0'
-                    },
-                                                                                                        {
-                            'title' : 'title3',
-                            'url' : 'url3',
-                            'description' : 'description0'
-                    },
-                                                                                                                                    {
-                            'title' : 'title4',
-                            'url' : 'url5',
-                            'description' : 'description0'
-                    },
-                                                                                                                                                                {
-                            'title' : 'title6',
-                            'url' : 'url7',
-                            'description' : 'description0'
-                    },
-                                                                                                                                                                                            {
-                            'title' : 'title8',
-                            'url' : 'url9',
-                            'description' : 'description0'
-                    },
-
-            ]
-            #result = {'related_videos' : related_videos}
-            #return jsonify(result=result)
             return jsonify(result=video_matches)    
             
     else:
@@ -93,7 +44,6 @@ def searchVideos():
         query = ""
         try:
             query = request.json['query']
-            #video_matches = check_output(["python", "-c", "from src.web_of_videos import searvhVideos", query]) 
             video_matches = wovpy.search_wov(query)
             
             return jsonify(result=video_matches)
@@ -105,6 +55,4 @@ def searchVideos():
         abort(400)
         
 if __name__ == "__main__":
-    #app.run(debug=True)
-    #app.run(threaded=True)
     app.run(processes=2)

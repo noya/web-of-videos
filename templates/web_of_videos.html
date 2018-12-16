@@ -97,7 +97,6 @@
             data: query,
             headers : {"Content-Type": "application/json"},
             success : function(result){  // on success get the return object from server
-               console.log(result);
                topv = result.result.related_videos[0];
                topid = getId(topv.url);
                player.loadVideoById({'videoId' : topid
@@ -150,20 +149,18 @@
 	     var video_idx = player.getPlaylistIndex();
          var url = player.getVideoUrl();
          var video_id =   getId(url);     	  
-         //console.log("video id:" + video_id + " prev dieo id: "" + prev_video_id);
-        
+      
          if (segment_idx == prev_segment_idx & video_idx == prev_video_idx & video_id == prev_video_id) {
             return;
          }
          videoInfo = JSON.stringify({"url" : url, "segment_idx" : segment_idx, "total_segments" : total_segments});
-         //console.log("url" + url);
+         
          $.ajax({
             url: $SCRIPT_ROOT + '/getSimVideos',
             type: 'POST',
             data: videoInfo,
             headers : {"Content-Type": "application/json"},
             success : function(result){  // on success get the return object from server
-               console.log(result);
                var $dict = $("<dl></dl>");
                for(var i = 0, len = result.result.related_videos.length; i < len; ++i) {
                   //var curResult = result.result[i];
