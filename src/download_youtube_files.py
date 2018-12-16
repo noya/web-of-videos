@@ -36,8 +36,11 @@ def get_playlistid(d):
     Returns:
         playlist_id - video playlist id
     """
-    playlist_id = d['playlist_id']
-    return playlist_id
+    try:
+        playlist_id = d['playlist_id']
+        return playlist_id
+    except:
+        return 'None'
     
 def get_title(d):
     """ 
@@ -58,7 +61,7 @@ def get_title(d):
 def get_videoid(d):
     return d['id']
 
-def get_path(video_id, subtitles):
+def get_path(video_id, subtitles, verbose=False):
     """ 
     extract video subtitle path from information file.
     
@@ -72,6 +75,9 @@ def get_path(video_id, subtitles):
     #print("title=", key, ",path", paths)
     if len(paths) != 1:
         warnings.warn("number of paths for video_id " + video_id + " is " + str(len(paths)))
+        if verbose:
+            for path in paths:
+                print(path + " matched with video_id " + video_id)
         return None
     
     return paths[0].encode('ascii', errors='ignore').decode()
@@ -227,8 +233,10 @@ def test_metapy_files(dir_name, prefix):
         os.rename("data/metadata.dat", "data/metadata.dat.orig")
     
     if dir_name == "":
+        print("in empty directory name for metadata")
         shutil.copy("data/" + prefix + "-metadata.dat", "data/metadata.dat")
     else:
+        print("copying " + "data/" + dir_name + "/" + prefix + "-metadata.dat to data/metadata.dat" )
         shutil.copy("data/" + dir_name + "/" + prefix + "-metadata.dat", "data/metadata.dat")
     
     print("testing index")
@@ -249,7 +257,7 @@ def test_metapy_files(dir_name, prefix):
         os.rename("data/metadata.dat.orig", "data/metadata.dat")
     
     
-def write_metapy_files(path, prefix):
+def write_metapy_files(path, prefix, verbose=False):
     """ 
     write video's information into metapy format. 
     Specifically prefix-corpus-full.txt and prefix-metadata.dat will be written under path
@@ -260,7 +268,8 @@ def write_metapy_files(path, prefix):
     Returns:
         None
     """
-    
+    if verbose:
+        print("Creating " + path + "/" + prefix + "-full-corpus.txt and " + path+ "/" + prefix + "-metadata.dat")
     # get youtube json files and subtitle files
     jsons = glob.glob(path + "/*.json")
     subtitles = glob.glob(path + "/*.en.vtt")
@@ -282,7 +291,7 @@ def write_metapy_files(path, prefix):
         url = d['webpage_url']   
         
         # extract video subtitle path
-        path = get_path(get_videoid(d), subtitles)
+        path = get_path(get_videoid(d), subtitles, verbose=verbose)
         
         # no matching subtitle, continue to next json file
         if path == None:
@@ -307,7 +316,7 @@ def write_metapy_files(path, prefix):
     metadata.close()
       
         
-def get_course_data(dir_name, playlist_name, override=True):
+def get_course_data(dir_name, playlist_name, override=True, verbose=False):
     """
     Create a directory for specified playlist. If the directory already exists it will 
     continue to use the existing repo to download contents. The directory will contain english 
@@ -327,14 +336,18 @@ def get_course_data(dir_name, playlist_name, override=True):
     
     # if the directory already exists but skip_download=False then we will download the content anyway
     if os.path.exists(dir_name) and override:
+        if verbose:
+            print("overwriting content in " + dir_name)
         download_subtitles(dir_name, playlist_name)
-        
+        write_metapy_files(dir_name, dir_name, verbose=verbose)
     # If the directory does not exist already create the directory and download the contents
     elif not os.path.exists(dir_name):
+        if verbose:
+            print("Creating directory " + dir_name + " and downloading content")
         call(["mkdir", dir_name])
         download_subtitles(dir_name, playlist_name)
-        
-    write_metapy_files(dir_name, dir_name)
+        write_metapy_files(dir_name, dir_name, verbose=verbose)
+    
     os.chdir(prev_dir)
     
     
@@ -417,9 +430,11 @@ def merge_course_data(full_prefix, dir_name, file_list, overwrite_file=True):
 
 if __name__ == '__main__':  
     
-    parser = argparse.ArgumentParser(description="Regenerate dataset-full-corpus.txt and metadata.dat using the content in data directory. If the user intends to add more video to the database edit the playlist.json file and run this script")
+    parser = argparse.ArgumentParser(description="Generates and tests dataset-full-corpus.txt and metadata.dat using content in data directory. If the user intends to add more video to the database edit the playlist.json file and run this script")
     parser.add_argument("-oc", "--overwrite_content", action="store_true",
-                    help="Overwrite existing direcotory containing video information. If the directory does not yet exist (user added more directory in playlist.json) the script will download content specified by the user in playlist.json file. This will cause the script to redownload video information from youtube. By default overwrite_content is False.")
+                    help="By default if the directory already exist, the script will skip downloading and only test the existing full-corpus and metadata.dat. However if the user sets --overwrite_content to true then the script will re-download the youtube video information and regenerate full-corpus and metadata. By default overwrite_content is False.")
+    parser.add_argument("-v", "--verbose", action="store_true",
+                    help="Turn on detailed messages")
     args = parser.parse_args()
     
     playlists = []
@@ -427,13 +442,17 @@ if __name__ == '__main__':
         playlists = json.load(f)
     pprint.pprint(playlists)
     
+    verbose=False
+    
+    if args.verbose:
+        verbose=True
     # download youtube files 
     for playlist in playlists:
         # download and create coursera data files
         if args.overwrite_content:
-            get_course_data(playlist['dir_name'], playlist['playlist_name'], override=True)
+            get_course_data(playlist['dir_name'], playlist['playlist_name'], override=True, verbose=verbose)
         else:
-            get_course_data(playlist['dir_name'], playlist['playlist_name'], override=False)
+            get_course_data(playlist['dir_name'], playlist['playlist_name'], override=False, verbose=verbose)
         # testing : try reading the created coursera data files
         test_metapy_files(playlist['dir_name'], playlist['dir_name'])
     

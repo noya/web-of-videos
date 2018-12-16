@@ -28,6 +28,10 @@
     {
             "dir_name" : "uiuc-text-mining-analytics",
             "playlist_name" : "https://www.youtube.com/playlist?list=PLLssT5z_DsK8Xwnh_0bjN4KNT81bekvtt"
+    },
+    {
+            "dir_name" : "probabilistic-topic-modeling",
+            "playlist_name" : "https://youtu.be/co69ze0t8yo"
     }
 
 ]

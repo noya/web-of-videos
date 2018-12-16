@@ -155,7 +155,7 @@ def tf_transformation(k, term_freq):
 def idf(num_docs, doc_freq):
     return math.log((num_docs + 1) / doc_freq)
 
-def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, title_mult = 1, num_terms = 10, k = 1):
+def load_question(txt_fwd_idx, inv_idx, doc_id, total_segments, segment_idx, title_mult = 1, num_terms = 10, k = 5):
     """
     Use the current playing video to generate query. The query is generated using a segment of the video's content.
     The particular segment is identified by the video playing progress. 
@@ -249,7 +249,7 @@ def get_wov(url, segment_idx, total_segments):
     doc_id = get_docid(videoid_to_docid, video_id)
     
     # get query from index
-    query = load_question(fwd_idx, inv_idx, doc_id, total_segments, segment_idx)
+    query = load_question(fwd_idx, inv_idx, doc_id, total_segments, segment_idx, num_terms = 10, k = 5)
     
     # find videos using query
     related_videos = get_related_url(fwd_idx, inv_idx, query, num_results=10)

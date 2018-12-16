@@ -107,4 +107,4 @@ def searchVideos():
 if __name__ == "__main__":
     #app.run(debug=True)
     #app.run(threaded=True)
-    app.run(processes=2)
+    app.run(processes=4)

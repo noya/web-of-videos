@@ -113,7 +113,7 @@ Similar to the previous functionality, it uses BM25 ranker and Rocchio feedback 
 This project chooses metapy as the language processing toolkit. 
 download_youtube_files.py downloads youtube playlists information and convert it to metapy friendly data format.
 
-If the you plan to include videos of your choice to be part of the database follow these steps:
+If the you plan to add additional videos of your choice to be part of the database follow these steps (Note: the video must have either subtitles!):
 
 ```bash
 # edit the playlist.json file
@@ -124,3 +124,15 @@ nano data/playlist.json # or any editor of your choice
 python src/download_youtube_files.py
 
 ```
+If you want to regenerate the entire data base folder, follow these steps:
+```bash
+mv data data_old
+mkdir data
+cp data_old/files.toml data
+cp data/playlist.json data
+
+# edit data/playlist.json if need be
+# download video information
+python src/download_youtube_files.py -v # optional -v switch if you want to run it in verbose mode
+```
+
